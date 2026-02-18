@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { MetricCard } from "@/components/charts/metric-card";
 import {
   Shield,

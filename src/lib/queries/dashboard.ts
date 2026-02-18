@@ -1,6 +1,6 @@
 import { db } from '@/lib/db';
 import { dailyMetrics } from '@/lib/db/schema';
-import { eq, and, desc, sql } from 'drizzle-orm';
+import { eq, and, desc, sql, inArray } from 'drizzle-orm';
 import { CITY_CODE } from '@/lib/constants/boroughs';
 
 export interface DashboardMetric {
@@ -9,6 +9,13 @@ export interface DashboardMetric {
   value: number;
   previousValue: number | null;
 }
+
+/** Primary metric key for each category shown on the dashboard */
+const PRIMARY_METRICS = [
+  'total_incidents',      // crime
+  'active_obstructions',  // construction
+  'new_requests',         // requests_311
+];
 
 /** Find the most recent date that has aggregated metrics */
 export async function getLatestDateWithData(): Promise<string | null> {
@@ -29,7 +36,7 @@ export async function getLatestDateWithData(): Promise<string | null> {
 /** Get city-wide metrics for a date, with previous day comparison */
 export async function getDashboardMetrics(date: string): Promise<DashboardMetric[]> {
   try {
-    // Get metrics for this date
+    // Get primary metrics for this date
     const todayRows = await db
       .select()
       .from(dailyMetrics)
@@ -37,7 +44,7 @@ export async function getDashboardMetrics(date: string): Promise<DashboardMetric
         and(
           eq(dailyMetrics.date, date),
           eq(dailyMetrics.boroughCode, CITY_CODE),
-          eq(dailyMetrics.metricKey, 'total_incidents'),
+          inArray(dailyMetrics.metricKey, PRIMARY_METRICS),
         ),
       );
 
@@ -48,7 +55,7 @@ export async function getDashboardMetrics(date: string): Promise<DashboardMetric
       .where(
         and(
           eq(dailyMetrics.boroughCode, CITY_CODE),
-          eq(dailyMetrics.metricKey, 'total_incidents'),
+          inArray(dailyMetrics.metricKey, PRIMARY_METRICS),
           sql`${dailyMetrics.date} < ${date}`,
         ),
       )
@@ -66,21 +73,21 @@ export async function getDashboardMetrics(date: string): Promise<DashboardMetric
           and(
             eq(dailyMetrics.date, prevDate),
             eq(dailyMetrics.boroughCode, CITY_CODE),
-            eq(dailyMetrics.metricKey, 'total_incidents'),
+            inArray(dailyMetrics.metricKey, PRIMARY_METRICS),
           ),
         );
     }
 
     // Build lookup for previous values
     const prevMap = new Map(
-      prevRows.map((r) => [`${r.category}:${r.metricKey}`, Number(r.metricValue)]),
+      prevRows.map((r) => [r.category, Number(r.metricValue)]),
     );
 
     return todayRows.map((r) => ({
       category: r.category,
       metricKey: r.metricKey,
       value: Number(r.metricValue),
-      previousValue: prevMap.get(`${r.category}:${r.metricKey}`) ?? null,
+      previousValue: prevMap.get(r.category) ?? null,
     }));
   } catch {
     return [];

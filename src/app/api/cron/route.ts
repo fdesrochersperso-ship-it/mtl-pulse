@@ -5,17 +5,16 @@ import { Requests311Fetcher } from '@/lib/fetchers/requests-311';
 import { aggregateDailyMetrics } from '@/lib/aggregators/daily-metrics';
 import type { FetchResult } from '@/types';
 
-export const maxDuration = 300; // Allow up to 5 minutes
+export const maxDuration = 60; // Vercel Hobby plan limit
 
-export async function POST(request: NextRequest) {
-  // Verify cron secret
-  const authHeader = request.headers.get('authorization');
+function isAuthorized(request: NextRequest): boolean {
   const cronSecret = process.env.CRON_SECRET;
+  if (!cronSecret) return true; // No secret configured = allow all (dev mode)
+  const authHeader = request.headers.get('authorization');
+  return authHeader === `Bearer ${cronSecret}`;
+}
 
-  if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-  }
-
+async function runCron() {
   const results: FetchResult[] = [];
   const errors: string[] = [];
 
@@ -52,10 +51,28 @@ export async function POST(request: NextRequest) {
     errors.push(`aggregation: ${msg}`);
   }
 
-  return NextResponse.json({
+  return {
     success: errors.length === 0,
     timestamp: new Date().toISOString(),
     results,
     errors: errors.length > 0 ? errors : undefined,
-  });
+  };
+}
+
+/** GET — called by Vercel Cron Jobs */
+export async function GET(request: NextRequest) {
+  if (!isAuthorized(request)) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+  const result = await runCron();
+  return NextResponse.json(result);
+}
+
+/** POST — kept for manual triggering via curl */
+export async function POST(request: NextRequest) {
+  if (!isAuthorized(request)) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+  const result = await runCron();
+  return NextResponse.json(result);
 }
