@@ -1,6 +1,6 @@
 export const DATA_SOURCES = {
   CRIME: {
-    base: 'https://data.montreal.ca/api/3/action/datastore_search',
+    base: 'https://donnees.montreal.ca/api/3/action/datastore_search',
     resourceId: 'c6f482bf-bf0f-4960-8b2f-9982c211addd',
     format: 'json' as const,
     updateFrequency: 'daily' as const,
@@ -24,9 +24,9 @@ export const DATA_SOURCES = {
   },
 
   REQUESTS_311: {
-    base: 'https://data.montreal.ca/api/3/action/datastore_search',
-    resourceId: '', // Discovered via package_show at runtime
-    packageId: 'requetes-acces-information',
+    base: 'https://donnees.montreal.ca/api/3/action/datastore_search',
+    resourceId: '2cfa0e06-9be4-49a6-b7f1-ee9f2363a872',
+    packageId: 'requete-311',
     format: 'json' as const,
     updateFrequency: 'daily' as const,
     description: '311 service requests from citizens',
@@ -73,7 +73,7 @@ export const DATA_SOURCES = {
 } as const;
 
 /** CKAN API helpers */
-export const CKAN_BASE = 'https://data.montreal.ca/api/3/action';
+export const CKAN_BASE = 'https://donnees.montreal.ca/api/3/action';
 export const DONNEES_BASE = 'https://donnees.montreal.ca/api/3/action';
 
 /** Standard delay between paginated CKAN requests (ms) */

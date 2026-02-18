@@ -77,8 +77,8 @@ export class CrimeFetcher extends BaseFetcher {
   protected async save(records: Record<string, unknown>[]): Promise<number> {
     if (records.length === 0) return 0;
 
-    // Batch upsert in chunks of 500
-    const BATCH_SIZE = 500;
+    // Batch upsert in chunks (small for Neon free tier compatibility)
+    const BATCH_SIZE = 50;
     let totalSaved = 0;
 
     for (let i = 0; i < records.length; i += BATCH_SIZE) {

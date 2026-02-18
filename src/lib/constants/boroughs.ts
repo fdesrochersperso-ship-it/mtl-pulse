@@ -22,6 +22,29 @@ export const BOROUGHS = {
 
 export type BoroughCode = keyof typeof BOROUGHS;
 
+/** Reverse lookup: borough name → code (for CSV data that uses French names) */
+export const BOROUGH_NAME_TO_CODE: Record<string, BoroughCode> = Object.fromEntries(
+  Object.entries(BOROUGHS).map(([code, { name }]) => [name, code as BoroughCode]),
+) as Record<string, BoroughCode>;
+
+/** Fuzzy borough name lookup — handles common variations in open data */
+export function findBoroughCode(name: string | null | undefined): BoroughCode | null {
+  if (!name) return null;
+  const trimmed = name.trim();
+  // Exact match first
+  if (BOROUGH_NAME_TO_CODE[trimmed]) return BOROUGH_NAME_TO_CODE[trimmed];
+  // Case-insensitive search
+  const lower = trimmed.toLowerCase();
+  for (const [fullName, code] of Object.entries(BOROUGH_NAME_TO_CODE)) {
+    if (fullName.toLowerCase() === lower) return code;
+    // Partial match (e.g. "Ville-Marie" matches "Ville-Marie")
+    if (lower.includes(fullName.toLowerCase()) || fullName.toLowerCase().includes(lower)) {
+      return code;
+    }
+  }
+  return null;
+}
+
 /** City-wide aggregate code */
 export const CITY_CODE = 'MTL' as const;
 
