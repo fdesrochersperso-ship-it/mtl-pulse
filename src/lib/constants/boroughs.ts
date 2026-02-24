@@ -48,6 +48,29 @@ export function findBoroughCode(name: string | null | undefined): BoroughCode | 
 /** City-wide aggregate code */
 export const CITY_CODE = 'MTL' as const;
 
+/** Approximate centroids [lat, lng] for map fallback when records lack coordinates */
+export const BOROUGH_CENTROIDS: Record<string, [number, number]> = {
+  AHU: [45.55, -73.66],
+  ANJ: [45.61, -73.55],
+  CDN: [45.49, -73.62],
+  IBI: [45.47, -73.88],
+  LAC: [45.44, -73.68],
+  LSL: [45.42, -73.58],
+  PLA: [45.53, -73.58],
+  LSO: [45.45, -73.58],
+  MHM: [45.55, -73.55],
+  MTN: [45.60, -73.64],
+  OUT: [45.52, -73.61],
+  PFD: [45.48, -73.78],
+  RPP: [45.64, -73.52],
+  RDP: [45.55, -73.59],
+  SLR: [45.52, -73.67],
+  SLE: [45.58, -73.60],
+  VER: [45.46, -73.57],
+  VSP: [45.55, -73.62],
+  VMA: [45.51, -73.57],
+};
+
 /** Map PDQ (police district) numbers to borough codes */
 export const PDQ_TO_BOROUGH: Record<number, BoroughCode> = {
   10: 'VMA', // Ville-Marie

@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { CrimeFetcher } from '@/lib/fetchers/crime';
-import { InfoTravauxFetcher } from '@/lib/fetchers/info-travaux';
-import { Requests311Fetcher } from '@/lib/fetchers/requests-311';
-import { aggregateDailyMetrics } from '@/lib/aggregators/daily-metrics';
-import type { FetchResult } from '@/types';
+import { PipelineRunner } from '@/lib/pipeline/runner';
+import { pipelineRegistry } from '@/lib/pipeline/registry';
+import { runMetricComputations } from '@/lib/pipeline/metrics-computer';
+import { DigestGenerator } from '@/lib/ai/digest-generator';
 
-export const maxDuration = 60; // Vercel Hobby plan limit
+export const maxDuration = 300; // 5 min for pipelines + metrics + digests
 
 function isAuthorized(request: NextRequest): boolean {
   const cronSecret = process.env.CRON_SECRET;
@@ -15,46 +14,85 @@ function isAuthorized(request: NextRequest): boolean {
 }
 
 async function runCron() {
-  const results: FetchResult[] = [];
+  const startTotal = Date.now();
   const errors: string[] = [];
+  const log: { step: string; durationMs: number; details?: unknown }[] = [];
 
-  // Run fetchers sequentially to be respectful of external APIs
-  const fetchers = [
-    new CrimeFetcher(),
-    new InfoTravauxFetcher(),
-    new Requests311Fetcher(),
-  ];
+  const runner = new PipelineRunner();
+  const pipelineNames = Array.from(pipelineRegistry.keys());
 
-  for (const fetcher of fetchers) {
+  // ─── Step 1: Run all pipelines ───────────────────────────────────────────
+  const pipelineStart = Date.now();
+  console.log(`[cron] Step 1: Running ${pipelineNames.length} pipelines...`);
+
+  const pipelineResults: { name: string; status: string; durationMs: number }[] = [];
+
+  for (const name of pipelineNames) {
+    const stepStart = Date.now();
     try {
-      const result = await fetcher.run();
-      results.push(result);
-      if (!result.success) {
-        errors.push(`${result.sourceKey}: ${result.errorMessage}`);
+      const result = await runner.runByName(name);
+      pipelineResults.push({
+        name,
+        status: result.status,
+        durationMs: result.durationMs ?? Date.now() - stepStart,
+      });
+      if (result.status === 'failed' && result.errorMessage) {
+        errors.push(`${name}: ${result.errorMessage}`);
       }
+      console.log(`[cron] ${name}: ${result.status} — ${result.durationMs}ms`);
     } catch (error) {
       const msg = error instanceof Error ? error.message : String(error);
-      errors.push(`${fetcher.sourceKey}: ${msg}`);
+      errors.push(`pipeline ${name}: ${msg}`);
+      pipelineResults.push({ name, status: 'failed', durationMs: Date.now() - stepStart });
+      console.error(`[cron] ${name}: FAILED — ${msg}`);
     }
   }
 
-  // Run daily aggregation for yesterday
-  const yesterday = new Date();
-  yesterday.setDate(yesterday.getDate() - 1);
-  const targetDate = yesterday.toISOString().slice(0, 10);
+  const pipelineDuration = Date.now() - pipelineStart;
+  log.push({ step: 'pipelines', durationMs: pipelineDuration, details: pipelineResults });
+  console.log(`[cron] Step 1 complete: ${pipelineNames.length} pipelines in ${pipelineDuration}ms`);
+
+  // ─── Step 2: Compute metrics ───────────────────────────────────────────────
+  const metricsStart = Date.now();
+  console.log('[cron] Step 2: Computing metrics...');
 
   try {
-    const aggResults = await aggregateDailyMetrics(targetDate);
-    console.log('[cron] Aggregation results:', aggResults);
+    await runMetricComputations();
+    const metricsDuration = Date.now() - metricsStart;
+    log.push({ step: 'metrics', durationMs: metricsDuration });
+    console.log(`[cron] Step 2 complete: metrics computed in ${metricsDuration}ms`);
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
-    errors.push(`aggregation: ${msg}`);
+    errors.push(`metrics: ${msg}`);
+    console.error('[cron] Step 2 FAILED:', msg);
   }
+
+  // ─── Step 3: Generate digests ─────────────────────────────────────────────
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const digestStart = Date.now();
+  console.log('[cron] Step 3: Generating daily digests (FR + EN)...');
+
+  const digestGen = new DigestGenerator();
+  try {
+    await digestGen.generateDaily(todayStr); // Generates FR + EN
+    const digestDuration = Date.now() - digestStart;
+    log.push({ step: 'digests', durationMs: digestDuration });
+    console.log(`[cron] Step 3 complete: digests generated in ${digestDuration}ms`);
+  } catch (error) {
+    const msg = error instanceof Error ? error.message : String(error);
+    errors.push(`digests: ${msg}`);
+    console.error('[cron] Step 3 FAILED:', msg);
+  }
+
+  const totalDuration = Date.now() - startTotal;
+  console.log(`[cron] Full cron complete in ${totalDuration}ms. Errors: ${errors.length}`);
 
   return {
     success: errors.length === 0,
     timestamp: new Date().toISOString(),
-    results,
+    totalDurationMs: totalDuration,
+    log,
+    pipelineResults,
     errors: errors.length > 0 ? errors : undefined,
   };
 }

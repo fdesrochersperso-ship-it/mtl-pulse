@@ -1,0 +1,1 @@
+CREATE INDEX "idx_computed_metrics_dashboard" ON "computed_metrics" USING btree ("period_type","period_date","borough_code");

@@ -72,9 +72,9 @@ export const DATA_SOURCES = {
   },
 } as const;
 
-/** CKAN API helpers */
-export const CKAN_BASE = 'https://donnees.montreal.ca/api/3/action';
-export const DONNEES_BASE = 'https://donnees.montreal.ca/api/3/action';
+/** CKAN API base — use CKANClient instead of raw URLs; this is for reference only */
+export const CKAN_BASE =
+  process.env.CKAN_BASE_URL ?? 'https://data.montreal.ca/api/3/action';
 
 /** Standard delay between paginated CKAN requests (ms) */
 export const CKAN_REQUEST_DELAY = 500;

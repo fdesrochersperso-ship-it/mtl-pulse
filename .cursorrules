@@ -1,0 +1,155 @@
+# MTL Pulse — Cursor Rules
+
+You are building MTL Pulse, a civic intelligence platform for Montréal that aggregates ALL 300+ open datasets from donnees.montreal.ca and presents them through a mobile-first dashboard with trending topic cards, deep analytical dashboards, and AI-generated daily/weekly digests.
+
+## Project context
+- Developer: Francis (solo, COO at helloDarwin, strong technical background)
+- Build tool: Cursor with full autonomous permissions
+- Target: Mobile-first web app, bilingual FR/EN (French primary)
+- Users: Regular Montréal citizens (free dashboard), journalists/researchers (paid AI chat, future)
+- Monetization: Free platform first, prove traction, then add paid AI chat (annual/donation)
+- Scope: Ingest EVERY dataset from donnees.montreal.ca. Build specialized pipelines for high-value data + a generic engine for everything else.
+
+## Tech stack
+- Next.js 14+ (App Router), TypeScript strict mode, Tailwind CSS + shadcn/ui
+- PostgreSQL via Supabase (PostGIS enabled), Drizzle ORM
+- Recharts for charts, Mapbox GL JS (or Leaflet) for maps
+- Anthropic Claude API (Sonnet) for AI digest generation
+- Vercel for hosting, Supabase for DB + future auth
+
+## Architecture overview
+Three layers:
+1. **Data Pipelines**: fetch → normalize → deduplicate → store → log (specialized + generic engine)
+2. **Metrics Computation**: compute dashboard-ready numbers into `computed_metrics` table
+3. **Web Frontend**: topic cards on homepage → deep dashboards per topic → AI digests
+
+## CRITICAL RULES (read before writing any code)
+
+### TypeScript
+- Strict mode, no `any` types
+- Zod for runtime validation of all API responses
+- Explicit return types on all functions
+
+### Data pipeline rules
+- **NEVER download large CSV files**. Permits = 172MB, Crime GeoJSON = 91MB. ALWAYS use DataStore SQL API with date filters.
+- Every API call: 3 retries, exponential backoff (1s, 2s, 4s)
+- Every pipeline run: log to `pipeline_runs` table with timestamps, counts, errors
+- Store raw API response in JSONB column on every record
+- French field names → English column names (mapping in `lib/utils/field-mapping.ts`)
+- Dates: store UTC, display America/Montreal timezone (date-fns-tz)
+- Coordinates: store WGS84 (EPSG:4326). Convert NAD83 MTM Zone 8 on ingest when needed.
+- Normalize empty strings to NULL
+- UTF-8 French accents: handle é, è, ê, ë, à, â, ç, ù, û, ü, ô, î, ï
+
+### Database rules
+- No raw SQL in route handlers. All queries through `lib/db/queries/` data access layer.
+- Dashboard frontend reads from `computed_metrics` table, NEVER queries raw data tables directly.
+- Historical data: backfill 5 years minimum, full history where available.
+
+### Frontend rules
+- Mobile-first: layouts designed for 375px, scale up
+- Data visible in <2 seconds: use React Server Components, no loading spinners for above-fold
+- Every data section shows "Last updated: X ago" with status indicator (green/yellow/red)
+- Charts: Recharts with ResponsiveContainer, touch-friendly on mobile
+- Bilingual: next-intl, French default
+
+## CKAN API patterns
+```
+# DataStore SQL (PREFERRED — use for all date-filtered queries)
+GET data.montreal.ca/api/3/action/datastore_search_sql
+  ?sql=SELECT * FROM "{RESOURCE_ID}" WHERE "DATE" >= '2021-01-01' ORDER BY "DATE" DESC LIMIT 32000
+
+# DataStore search (paginated, for smaller datasets)
+GET data.montreal.ca/api/3/action/datastore_search
+  ?resource_id={ID}&limit=100&offset=0&sort=DATE desc
+
+# Dataset metadata
+GET donneesquebec.ca/recherche/api/3/action/package_show?id={dataset-slug}
+
+# Search all datasets (for catalog crawl)
+GET donneesquebec.ca/recherche/api/3/action/package_search
+  ?q=organization:ville-de-montreal&rows=100&start=0
+
+# Max rows per SQL query: ~32,000. Paginate with LIMIT/OFFSET.
+```
+
+## Key resource IDs
+- Actes criminels: `c6f482bf-bf0f-4960-8b2f-9982c211addd`
+- Info-Travaux: CSV files at `donnees.montreal.ca/ville-de-montreal/info-travaux`
+- Entraves circulation: real-time CIFS JSON/XML feed
+- Contrats API: `ville.montreal.qc.ca/vuesurlescontrats/api/`
+
+## Data quality gotchas (MUST KNOW)
+1. 311 cross-borough comparison unreliable (inconsistent categorization). Caveat in UI.
+2. Crime locations rounded to nearest intersection (privacy). Display as area, not point.
+3. PDQ police station numbers ≠ boroughs. Build reference mapping. PDQ 50 = metro.
+4. IQA air quality uses EST year-round, no daylight saving.
+5. Lachine + Saint-Léonard permit data unavailable (system migration).
+6. Bridge/structure condition = 2021 snapshot. Flag staleness.
+7. Most "daily" datasets have 1-2 day lag. Show actual last-update timestamp.
+8. Date formats vary: ISO 8601, DD/MM/YYYY, YYYY-MM-DD. Normalize on ingest.
+9. Some datasets use NAD83 MTM Zone 8 coords (LOC_X/LOC_Y) instead of WGS84 (LAT/LONG). Convert.
+
+## File structure
+```
+src/
+├── app/                          # Next.js routes
+│   ├── page.tsx                  # Homepage (trending topic cards)
+│   ├── travaux/                  # Construction dashboard
+│   ├── securite/                 # Crime dashboard
+│   ├── permis/                   # Permits dashboard
+│   ├── 311/                      # 311 requests dashboard
+│   ├── deneigement/              # Snow removal (seasonal)
+│   ├── velo/                     # Cycling
+│   ├── air/                      # Air quality
+│   ├── eau/                      # Water infrastructure
+│   ├── contrats/                 # Contracts & spending
+│   ├── politique/                # Political accountability
+│   ├── borough/[code]/           # Borough-specific view
+│   ├── map/                      # Full-screen map
+│   └── api/                      # API routes (pipeline triggers, metrics, digest)
+├── components/
+│   ├── ui/                       # shadcn/ui
+│   ├── dashboard/                # TopicCard, MetricCard, TrendChart, BoroughComparison, DataTable
+│   ├── map/                      # CityMap, LayerToggle, MarkerCluster
+│   ├── digest/                   # DigestCard, HighlightBadge
+│   └── layout/                   # Header, BoroughSelector, LanguageToggle
+├── lib/
+│   ├── db/
+│   │   ├── schema.ts             # Drizzle schema (ALL tables)
+│   │   ├── connection.ts
+│   │   └── queries/              # Data access layer (one file per domain)
+│   ├── pipeline/
+│   │   ├── runner.ts             # PipelineRunner class
+│   │   ├── generic-engine.ts     # Generic DataStore pipeline for any dataset
+│   │   ├── pipelines/            # Specialized pipelines (one per high-value dataset)
+│   │   └── metrics-computer.ts   # Compute dashboard metrics
+│   ├── ai/
+│   │   ├── claude-client.ts
+│   │   ├── digest-generator.ts
+│   │   └── prompts/
+│   ├── api-clients/
+│   │   └── ckan-client.ts        # CKAN API with retry logic
+│   └── utils/
+│       ├── dates.ts              # UTC/Montreal timezone
+│       ├── geo.ts                # NAD83→WGS84 conversion
+│       └── field-mapping.ts      # French→English field mapping
+└── types/                        # TypeScript type definitions
+```
+
+## Implementation order
+1. **Phase 0**: Crawl CKAN API, catalog all datasets, create `dataset_registry` table
+2. **Phase 1**: Scaffolding, DB, migrations, CKAN client, pipeline runner, first 5 specialized pipelines + 5-year backfill
+3. **Phase 2**: Remaining specialized pipelines + generic engine for all other datasets + AI digest engine + political data
+4. **Phase 3**: Frontend MVP (homepage cards, topic dashboards, maps, charts, borough views, political accountability, FR/EN)
+5. **Phase 4**: Polish, monitoring, deploy
+6. **Phase 5** (future): Paid AI chat with NL→SQL query engine
+
+## When in doubt
+- Prioritize data freshness and pipeline reliability over feature breadth
+- If a dataset is broken or stale, skip it and move on — show "unavailable" in UI
+- Always show when data was last updated — transparency builds trust
+- Default to simple, clean UI — this is a civic tool, not a SaaS dashboard
+- Start with pipelines, not UI. The data foundation must be solid first.
+- The `computed_metrics` table is the bridge between raw data and dashboard cards
+- The full product spec is in `docs/mtl-pulse-cursor-spec.md` — read it for detailed architecture, insight hypotheses, and prompt templates

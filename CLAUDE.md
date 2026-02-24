@@ -59,6 +59,7 @@ const url = `https://donnees.montreal.ca/api/3/action/package_show?id=${datasetS
 - ANTHROPIC_API_KEY — For Claude API digest generation
 - SNOW_API_TOKEN — Secured API token for snow removal data (request from donneesouvertes@montreal.ca)
 - CRON_SECRET — Protects cron trigger endpoint from unauthorized calls
+- ADMIN_PASSWORD — Password for /admin/pipelines monitoring dashboard
 
 ## Testing Notes
 - Start with the crime fetcher as proof-of-concept (cleanest API, smallest data)

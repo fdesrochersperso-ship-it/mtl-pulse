@@ -19,16 +19,23 @@ export async function GET(request: NextRequest) {
         ),
       );
 
-    return NextResponse.json({
-      date,
-      borough,
-      count: metrics.length,
-      metrics: metrics.map((m) => ({
-        category: m.category,
-        metricKey: m.metricKey,
-        value: Number(m.metricValue),
-      })),
-    });
+    return NextResponse.json(
+      {
+        date,
+        borough,
+        count: metrics.length,
+        metrics: metrics.map((m) => ({
+          category: m.category,
+          metricKey: m.metricKey,
+          value: Number(m.metricValue),
+        })),
+      },
+      {
+        headers: {
+          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+        },
+      },
+    );
   } catch (error) {
     return NextResponse.json(
       { error: 'Failed to fetch metrics', date, borough },

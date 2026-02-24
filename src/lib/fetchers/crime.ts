@@ -3,7 +3,7 @@ import { db } from '@/lib/db';
 import { crimeIncidents } from '@/lib/db/schema';
 import { DATA_SOURCES, CKAN_PAGE_SIZE, CKAN_REQUEST_DELAY } from '@/lib/constants/data-sources';
 import { PDQ_TO_BOROUGH } from '@/lib/constants/boroughs';
-import type { CKANDataStoreResponse } from '@/types';
+import { CKANClient } from '@/lib/api-clients/ckan-client';
 import { sql } from 'drizzle-orm';
 
 interface CrimeRecord {
@@ -25,25 +25,18 @@ export class CrimeFetcher extends BaseFetcher {
   private readonly resourceId = DATA_SOURCES.CRIME.resourceId;
 
   protected async fetch(): Promise<CrimeRecord[]> {
+    const client = new CKANClient();
     const allRecords: CrimeRecord[] = [];
     let offset = 0;
     let hasMore = true;
 
     while (hasMore) {
-      const url = `${DATA_SOURCES.CRIME.base}?resource_id=${this.resourceId}&limit=${CKAN_PAGE_SIZE}&offset=${offset}`;
-      const response = await globalThis.fetch(url);
+      const result = await client.datastoreSearch(this.resourceId, {
+        limit: CKAN_PAGE_SIZE,
+        offset,
+      });
 
-      if (!response.ok) {
-        throw new Error(`CKAN API error: ${response.status} ${response.statusText}`);
-      }
-
-      const data: CKANDataStoreResponse = await response.json();
-
-      if (!data.success) {
-        throw new Error('CKAN API returned success=false');
-      }
-
-      const records = data.result.records as unknown as CrimeRecord[];
+      const records = result.result.records as unknown as CrimeRecord[];
       allRecords.push(...records);
 
       hasMore = records.length === CKAN_PAGE_SIZE;
@@ -53,7 +46,7 @@ export class CrimeFetcher extends BaseFetcher {
         await this.sleep(CKAN_REQUEST_DELAY);
       }
 
-      console.log(`[crime] Fetched ${allRecords.length}/${data.result.total} records...`);
+      console.log(`[crime] Fetched ${allRecords.length}/${result.result.total} records...`);
     }
 
     return allRecords;

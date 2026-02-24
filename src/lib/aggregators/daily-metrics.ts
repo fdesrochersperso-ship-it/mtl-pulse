@@ -1,5 +1,5 @@
 import { db } from '@/lib/db';
-import { dailyMetrics, crimeIncidents, roadObstructions, requests311 } from '@/lib/db/schema';
+import { dailyMetrics, crimeIncidents, travaux, requests311 } from '@/lib/db/schema';
 import { eq, and, sql } from 'drizzle-orm';
 import { CITY_CODE } from '@/lib/constants/boroughs';
 
@@ -16,7 +16,7 @@ export async function aggregateDailyMetrics(targetDate: string): Promise<Aggrega
   const results: AggregationResult[] = [];
 
   results.push(await aggregateCrime(targetDate));
-  results.push(await aggregateObstructions(targetDate));
+  results.push(await aggregateTravaux(targetDate));
   results.push(await aggregate311(targetDate));
 
   return results;
@@ -94,37 +94,35 @@ async function aggregateCrime(targetDate: string): Promise<AggregationResult> {
   return { category: 'crime', metricsGenerated };
 }
 
-// ─── Road Obstructions ──────────────────────────────────────────────────────
+// ─── Travaux (Info-Travaux construction) ────────────────────────────────────
 
-async function aggregateObstructions(targetDate: string): Promise<AggregationResult> {
+async function aggregateTravaux(targetDate: string): Promise<AggregationResult> {
   let metricsGenerated = 0;
 
-  // Active obstructions on this date
   const active = await db
     .select({
-      boroughCode: roadObstructions.boroughCode,
+      boroughCode: travaux.boroughCode,
       count: sql<number>`count(*)::int`,
     })
-    .from(roadObstructions)
+    .from(travaux)
     .where(
       and(
-        eq(roadObstructions.isActive, true),
-        sql`${roadObstructions.startTime}::date <= ${targetDate}::date`,
-        sql`(${roadObstructions.endTime} IS NULL OR ${roadObstructions.endTime}::date >= ${targetDate}::date)`,
+        sql`(${travaux.startDate} IS NULL OR ${travaux.startDate}::date <= ${targetDate}::date)`,
+        sql`(${travaux.endDate} IS NULL OR ${travaux.endDate}::date >= ${targetDate}::date)`,
       ),
     )
-    .groupBy(roadObstructions.boroughCode);
+    .groupBy(travaux.boroughCode);
 
   let cityTotal = 0;
   for (const row of active) {
     cityTotal += row.count;
     if (row.boroughCode) {
-      await upsertMetric(targetDate, row.boroughCode, 'construction', 'active_obstructions', row.count);
+      await upsertMetric(targetDate, row.boroughCode, 'construction', 'active_travaux', row.count);
       metricsGenerated++;
     }
   }
 
-  await upsertMetric(targetDate, CITY_CODE, 'construction', 'active_obstructions', cityTotal);
+  await upsertMetric(targetDate, CITY_CODE, 'construction', 'active_travaux', cityTotal);
   metricsGenerated++;
 
   return { category: 'construction', metricsGenerated };

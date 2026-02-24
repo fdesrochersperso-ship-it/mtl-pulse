@@ -3,9 +3,9 @@ import { db } from '@/lib/db';
 import { requests311 } from '@/lib/db/schema';
 import { DATA_SOURCES, CKAN_REQUEST_DELAY } from '@/lib/constants/data-sources';
 import { findBoroughCode } from '@/lib/constants/boroughs';
+import { CKANClient } from '@/lib/api-clients/ckan-client';
 import { sql } from 'drizzle-orm';
 
-const DONNEES_SQL_BASE = 'https://donnees.montreal.ca/api/3/action/datastore_search_sql';
 const PAGE_SIZE = 1000;
 
 interface Request311Record {
@@ -40,27 +40,17 @@ export class Requests311Fetcher extends BaseFetcher {
 
     console.log(`[requests_311] Fetching records since ${sinceDateStr} (${daysBack} days back)...`);
 
+    const client = new CKANClient();
     const allRecords: Request311Record[] = [];
+
+    const sqlBase = `SELECT * FROM "${this.resourceId}" WHERE "DDS_DATE_CREATION" >= '${sinceDateStr}' ORDER BY "DDS_DATE_CREATION" DESC`;
     let offset = 0;
     let hasMore = true;
 
     while (hasMore) {
-      const sqlQuery = `SELECT * FROM "${this.resourceId}" WHERE "DDS_DATE_CREATION" >= '${sinceDateStr}' ORDER BY "DDS_DATE_CREATION" DESC LIMIT ${PAGE_SIZE} OFFSET ${offset}`;
-      const url = `${DONNEES_SQL_BASE}?sql=${encodeURIComponent(sqlQuery)}`;
-
-      const response = await globalThis.fetch(url);
-
-      if (!response.ok) {
-        throw new Error(`CKAN SQL API error: ${response.status} ${response.statusText}`);
-      }
-
-      const data = await response.json();
-
-      if (!data.success) {
-        throw new Error(`CKAN SQL API error: ${JSON.stringify(data.error)}`);
-      }
-
-      const records = data.result.records as Request311Record[];
+      const sqlQuery = `${sqlBase} LIMIT ${PAGE_SIZE} OFFSET ${offset}`;
+      const result = await client.datastoreSQL(sqlQuery);
+      const records = result.result.records as unknown as Request311Record[];
       allRecords.push(...records);
 
       console.log(`[requests_311] Fetched ${allRecords.length} records (offset=${offset})...`);
