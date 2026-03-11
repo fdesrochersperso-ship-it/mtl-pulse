@@ -1,0 +1,482 @@
+{
+  "slug": "vmtl-couverture-du-reseau-wifi-mtlwifi",
+  "title": "Bornes du réseau sans fil MTLWiFi",
+  "notes": "Le présent ensemble de données propose la localisation des zones de couverture Wi-Fi extérieure sur le territoire Montréalais et à l'intérieur des bâtiments publics de la Ville de Montréal.\r\n\r\nLa [cartographie dynamique](https://montreal.ca/programmes/mtlwifi) est également disponible pour une recherche géographique rapide des sites.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2015-10-15T13:16:34.851277",
+  "metadata_modified": "2025-11-12T21:54:45.477881",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "d008448f-63f2-4eeb-be24-1c3a78f21f92",
+      "name": "Carte des bornes wifi",
+      "description": "Ouvrir la visualisation dans un nouvel onglet",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiMDExNzdkYzgtZGI3ZS00NTUxLTlmMTktZDk0MzRjNjNiZTYxIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2022-11-08T14:49:43.638442",
+      "schema": null
+    },
+    {
+      "id": "fd8e71e8-207b-47d9-bb92-2e28ea929c67",
+      "name": "Bornes MTLWiFi",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/08f12925-c6b2-405f-bd01-744674d97bff/resource/fd8e71e8-207b-47d9-bb92-2e28ea929c67/download/bornes-mtl-wifi.csv",
+      "datastore_active": true,
+      "size": 68747,
+      "last_modified": "2023-07-14T17:26:41.862233",
+      "created": "2017-07-10T11:09:59.306519",
+      "schema": {
+        "resource_id": "fd8e71e8-207b-47d9-bb92-2e28ea929c67",
+        "total_records": 545,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zone active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": "Antenne",
+            "Lieu": "311 Place d'Youville",
+            "Type": "Intersection",
+            "Arrondissement": "Ville-Marie",
+            "Zone active": "X",
+            "Latitude": "45.501337",
+            "Longitude": "-73.555539",
+            "X": "300459.716120306",
+            "Y": "5040158.7399636"
+          },
+          {
+            "_id": 2,
+            "ID": "Antenne",
+            "Lieu": "Saint Pierre / Des Recollets",
+            "Type": "Intersection",
+            "Arrondissement": "Ville-Marie",
+            "Zone active": "X",
+            "Latitude": "45.502034",
+            "Longitude": "-73.557959",
+            "X": "300270.652886056",
+            "Y": "5040236.33150397"
+          },
+          {
+            "_id": 3,
+            "ID": "Antenne",
+            "Lieu": "Saint Paul / Francois Xavier",
+            "Type": "Intersection",
+            "Arrondissement": "Ville-Marie",
+            "Zone active": "X",
+            "Latitude": "45.502735",
+            "Longitude": "-73.555258",
+            "X": "300481.782693598",
+            "Y": "5040314.08522114"
+          },
+          {
+            "_id": 4,
+            "ID": "Antenne",
+            "Lieu": "Saint Jean / De L'Hopital",
+            "Type": "Intersection",
+            "Arrondissement": "Ville-Marie",
+            "Zone active": "X",
+            "Latitude": "45.502759",
+            "Longitude": "-73.557628",
+            "X": "300296.577488403",
+            "Y": "5040316.88249191"
+          },
+          {
+            "_id": 5,
+            "ID": "Antenne",
+            "Lieu": "Saint Sacrement / Saint Eloi",
+            "Type": "Intersection",
+            "Arrondissement": "Ville-Marie",
+            "Zone active": "X",
+            "Latitude": "45.502807",
+            "Longitude": "-73.5564",
+            "X": "300392.545050234",
+            "Y": "5040322.14864247"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lieu": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Zone active": {
+          "null_count": 12,
+          "null_pct": 2.2,
+          "populated_pct": 97.8
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 545,
+        "total_records": 545,
+        "audited_at": "2026-03-10T00:17:45.472473+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 7,
+            "null_pct": 1.3,
+            "min": 1.0,
+            "max": 9699.0,
+            "mean": 2286.2457,
+            "median": 1078.0,
+            "unique_count": 482,
+            "field_type_detected": "numeric"
+          },
+          "Lieu": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 539,
+            "top_values": [
+              {
+                "value": "4581 Rue Sherbrooke Est",
+                "count": 3
+              },
+              {
+                "value": "1115 avenue Laurier Est",
+                "count": 2
+              },
+              {
+                "value": "4777 Avenue Pierre-De Coubertin",
+                "count": 2
+              },
+              {
+                "value": "4101 rue Sherbrooke Est",
+                "count": 2
+              },
+              {
+                "value": "183 Rue des Érables  H8R 1N3",
+                "count": 2
+              },
+              {
+                "value": "311 Place d'Youville",
+                "count": 1
+              },
+              {
+                "value": "Saint Pierre / Des Recollets",
+                "count": 1
+              },
+              {
+                "value": "Saint Paul / Francois Xavier",
+                "count": 1
+              },
+              {
+                "value": "Saint Jean / De L'Hopital",
+                "count": 1
+              },
+              {
+                "value": "Saint Sacrement / Saint Eloi",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Intersection",
+                "count": 205
+              },
+              {
+                "value": "Centre communautaire",
+                "count": 60
+              },
+              {
+                "value": "Chalet",
+                "count": 52
+              },
+              {
+                "value": "Parc",
+                "count": 36
+              },
+              {
+                "value": "Bibliothèque",
+                "count": 33
+              },
+              {
+                "value": "Aréna",
+                "count": 30
+              },
+              {
+                "value": "Piscine",
+                "count": 23
+              },
+              {
+                "value": "Centre sportif",
+                "count": 19
+              },
+              {
+                "value": "Maison de la culture",
+                "count": 18
+              },
+              {
+                "value": "BAM",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 189
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 51
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 38
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 37
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 32
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 27
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 23
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 22
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 21
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Zone active": {
+            "null_count": 12,
+            "null_pct": 2.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "X",
+                "count": 533
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.418476,
+            "max": 45.698044,
+            "mean": 45.525896,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.93782,
+            "max": -73.479614,
+            "mean": -73.592603,
+            "pct_in_montreal_bbox": 99.4,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 270562.144584,
+            "max": 306387.576085,
+            "mean": 297564.971369,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5030956.224104,
+            "max": 5062017.959225,
+            "mean": 5042892.804183,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "e8b62469-9d2a-49d1-8a7d-4e3f2a840af3",
+      "name": "Bornes MTLWiFi",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/08f12925-c6b2-405f-bd01-744674d97bff/resource/e8b62469-9d2a-49d1-8a7d-4e3f2a840af3/download/bornes-mtl-wifi.zip",
+      "datastore_active": false,
+      "size": 52883,
+      "last_modified": "2023-07-14T17:35:21.284064",
+      "created": "2016-01-13T12:16:09.329655",
+      "schema": null
+    },
+    {
+      "id": "11860f23-30c9-4221-ae00-a39af4684210",
+      "name": "Bornes MTLWiFi",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/08f12925-c6b2-405f-bd01-744674d97bff/resource/11860f23-30c9-4221-ae00-a39af4684210/download/bornes-mtl-wifi.geojson",
+      "datastore_active": false,
+      "size": 371024,
+      "last_modified": "2023-07-14T17:28:32.428111",
+      "created": "2016-01-13T12:16:08.953224",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Courverture",
+    "MTLWiFi",
+    "Réseau",
+    "SPSPO",
+    "Sans-fil",
+    "Télécommunication",
+    "Wi-Fi"
+  ],
+  "web_metadata": {
+    "methodology_text": "En juin 2015 la Ville de Montréal a lancé MTLWiFi et le déploiement de son réseau d’accès sans-fil et gratuit à Internet a débuté. Depuis, la Ville de Montréal travaille activement à l'expansion de son réseau.  Afin d’harmoniser l’expérience client, deux ans après son premier déploiement MTLWiFi la Ville de Montréal a conclu une entente avec ZAP (anciennement Ile sans fil) augmentant ainsi de manière importante la couverture Wi-Fi.  Ce partenariat avec ZAP vise à fournir un seul réseau Wi-Fi public à grande étendue sur le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2017-07-10/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Courverture",
+      "MTLWiFi",
+      "Réseau",
+      "SPSPO",
+      "Sans-fil",
+      "Télécommunication",
+      "Wi-Fi"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/couverture-du-reseau-wifi-mtlwifi",
+    "scraped_at": "2026-03-09T19:56:01.307484+00:00"
+  }
+}

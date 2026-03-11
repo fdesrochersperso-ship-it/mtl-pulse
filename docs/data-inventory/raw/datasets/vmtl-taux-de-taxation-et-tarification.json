@@ -1,0 +1,769 @@
+{
+  "slug": "vmtl-taux-de-taxation-et-tarification",
+  "title": "Taux de taxation et tarification",
+  "notes": "Les taxes municipales représentent la principale source de revenus de la Ville de Montréal. Elles sont composées de la taxe foncière générale, de la taxe relative à l’eau, de la tarification de l’eau dans certains secteurs, de la taxe relative à la voirie, de la taxe relative à la contribution à l’ARTM ainsi que des taxes d’arrondissement relatives aux services et aux investissements. Il existe certaines autres taxes, applicables notamment selon le secteur ou le type d’immeuble.\r\n\r\nCet ensemble de données présente les taux de taxation et de tarification (ou charges fiscales) détaillés par types d’immeubles: résidentiels, non résidentiels et terrains vagues desservis ou non. \r\n\r\nLes taux de taxes s’appliquent sur la valeur ajustée annuelle, c’est-à-dire sur la valeur au rôle d’évaluation foncière combinée à la mesure d’étalement de la variation de valeur. De plus, dans le cas des immeubles mixtes, la portion de valeur ajustée utilisée aux fins d’application des taux non résidentiels varie selon la [classe de l’immeuble](http://ville.montreal.qc.ca/pls/portal/docs/PAGE/SERVICE_FIN_FR/MEDIA/DOCUMENTS/TABLEAU_DES_CLASSES_D%27IMMEUBLES_INTERNET_FR.PDF).\r\n\r\n[Les limites géographiques](/dataset/limites-administratives-agglomeration) auxquelles les données font référence sont disponibles sur notre portail de données ouvertes, alors que celles des secteurs devraient suivre prochainement.\r\n\r\nCertaines particularités ou exceptions pourraient ne pas avoir été intégrées à ce jeu de données. Pour prendre connaissance des détails en lien avec votre lieu de résidence, veuillez consulter votre [compte de taxes](https://servicesenligne.ville.montreal.qc.ca/sel/ictl/recherche.do) en ligne.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-10-18T19:05:49.942160",
+  "metadata_modified": "2025-02-28T19:25:30.292576",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "58a8021d-3232-48e4-a5da-27450435e233",
+      "name": "Taux de taxation et tarification",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d4121ca5-6a7a-4776-964b-8e237b6a89e3/resource/58a8021d-3232-48e4-a5da-27450435e233/download/taux-de-taxation-et-tarification.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-12-12T20:55:48.684018",
+      "created": "2019-10-18T19:06:50.125840",
+      "schema": {
+        "resource_id": "58a8021d-3232-48e4-a5da-27450435e233",
+        "total_records": 842,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Année",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Numéro d'arrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Secteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mode de financement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Conseil",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Catégorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Application",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Catégorie d'immeubles",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description des immeubles",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Valeur minimale d'application",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Valeur maximale d'application",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Taux",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Règle d'application",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Année": 2020,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Numéro d'arrondissement": 24,
+            "Secteur": "",
+            "Mode de financement": "Taxation",
+            "Conseil": "Conseil d'arrondissement",
+            "Catégorie": "Taxe relative aux investissements",
+            "Application": "Simple",
+            "Catégorie d'immeubles": "Tous les immeubles",
+            "Description des immeubles": "Tous les immeubles",
+            "Valeur minimale d'application": 0,
+            "Valeur maximale d'application": null,
+            "Taux": 483,
+            "Règle d'application": "$ / 100 $ d'évaluation"
+          },
+          {
+            "_id": 2,
+            "Année": 2020,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Numéro d'arrondissement": 24,
+            "Secteur": "",
+            "Mode de financement": "Taxation",
+            "Conseil": "Conseil d'arrondissement",
+            "Catégorie": "Taxe relative aux services",
+            "Application": "Simple",
+            "Catégorie d'immeubles": "Tous les immeubles",
+            "Description des immeubles": "Tous les immeubles",
+            "Valeur minimale d'application": 0,
+            "Valeur maximale d'application": null,
+            "Taux": 436,
+            "Règle d'application": "$ / 100 $ d'évaluation"
+          },
+          {
+            "_id": 3,
+            "Année": 2020,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Numéro d'arrondissement": 24,
+            "Secteur": "",
+            "Mode de financement": "Tarification",
+            "Conseil": "Conseil municipal",
+            "Catégorie": "Tarification de l'eau",
+            "Application": "Paliers",
+            "Catégorie d'immeubles": "Non résidentiels",
+            "Description des immeubles": "Immeubles non résidentiels",
+            "Valeur minimale d'application": 100001,
+            "Valeur maximale d'application": null,
+            "Taux": 22,
+            "Règle d'application": "$ / m3"
+          },
+          {
+            "_id": 4,
+            "Année": 2020,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Numéro d'arrondissement": 24,
+            "Secteur": "",
+            "Mode de financement": "Tarification",
+            "Conseil": "Conseil municipal",
+            "Catégorie": "Tarification de l'eau",
+            "Application": "Paliers",
+            "Catégorie d'immeubles": "Non résidentiels",
+            "Description des immeubles": "Immeubles non résidentiels utilisés comme usines ou manufactures légères",
+            "Valeur minimale d'application": 100001,
+            "Valeur maximale d'application": null,
+            "Taux": 58,
+            "Règle d'application": "$ / m3"
+          },
+          {
+            "_id": 5,
+            "Année": 2020,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Numéro d'arrondissement": 24,
+            "Secteur": "",
+            "Mode de financement": "Taxation",
+            "Conseil": "Conseil municipal",
+            "Catégorie": "Réserve financière de l'eau",
+            "Application": "Simple",
+            "Catégorie d'immeubles": "Résidentiels",
+            "Description des immeubles": "Immeubles résidentiels de 5 logements ou moins et terrains vagues desservis",
+            "Valeur minimale d'application": 0,
+            "Valeur maximale d'application": null,
+            "Taux": 1043,
+            "Règle d'application": "$ / 100 $ d'évaluation"
+          }
+        ]
+      },
+      "field_stats": {
+        "Année": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Numéro d'arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Secteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mode de financement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Conseil": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Catégorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Application": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Catégorie d'immeubles": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description des immeubles": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur minimale d'application": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur maximale d'application": {
+          "null_count": 760,
+          "null_pct": 90.3,
+          "populated_pct": 9.7
+        },
+        "Taux": {
+          "null_count": 12,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "Règle d'application": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 842,
+        "total_records": 842,
+        "audited_at": "2026-03-10T00:28:29.834398+00:00",
+        "fields": {
+          "Année": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2019.0,
+            "max": 2020.0,
+            "mean": 2019.4952,
+            "median": 2019.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2019",
+                "count": 425
+              },
+              {
+                "value": "2020",
+                "count": 417
+              }
+            ]
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "L'Île-Bizard–Sainte-Geneviève",
+                "count": 77
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 67
+              },
+              {
+                "value": "Lachine",
+                "count": 53
+              },
+              {
+                "value": "Verdun",
+                "count": 49
+              },
+              {
+                "value": "LaSalle",
+                "count": 47
+              },
+              {
+                "value": "Anjou",
+                "count": 44
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 42
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 41
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 40
+              },
+              {
+                "value": "Outremont",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Numéro d'arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 27.0,
+            "mean": 16.595,
+            "median": 17.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 77
+              },
+              {
+                "value": "13",
+                "count": 67
+              },
+              {
+                "value": "17",
+                "count": 53
+              },
+              {
+                "value": "12",
+                "count": 49
+              },
+              {
+                "value": "18",
+                "count": 47
+              },
+              {
+                "value": "9",
+                "count": 44
+              },
+              {
+                "value": "14",
+                "count": 42
+              },
+              {
+                "value": "15",
+                "count": 41
+              },
+              {
+                "value": "16",
+                "count": 40
+              },
+              {
+                "value": "5",
+                "count": 40
+              }
+            ]
+          },
+          "Secteur": {
+            "null_count": 724,
+            "null_pct": 86.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Sainte-Geneviève",
+                "count": 31
+              },
+              {
+                "value": "L'Île-Bizard",
+                "count": 28
+              },
+              {
+                "value": "Pierrefonds",
+                "count": 25
+              },
+              {
+                "value": "Roxboro",
+                "count": 22
+              },
+              {
+                "value": "Lachine",
+                "count": 4
+              },
+              {
+                "value": "Saint-Pierre",
+                "count": 4
+              },
+              {
+                "value": "Île-des-Soeurs",
+                "count": 2
+              },
+              {
+                "value": "Terre ferme",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Mode de financement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Crédit",
+            "max_date": "Taxation",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Conseil": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Conseil municipal",
+                "count": 758
+              },
+              {
+                "value": "Conseil d'arrondissement",
+                "count": 84
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Catégorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Taxe foncière générale",
+                "count": 210
+              },
+              {
+                "value": "Taxe spéciale relative à l'ARTM",
+                "count": 190
+              },
+              {
+                "value": "Tarification de l'eau",
+                "count": 131
+              },
+              {
+                "value": "Réserve financière de l'eau",
+                "count": 126
+              },
+              {
+                "value": "Réserve financière de la voirie",
+                "count": 76
+              },
+              {
+                "value": "Taxe relative aux investissements",
+                "count": 42
+              },
+              {
+                "value": "Taxe relative aux services",
+                "count": 42
+              },
+              {
+                "value": "Tarification des matières résiduelles",
+                "count": 21
+              },
+              {
+                "value": "Taxe pour travaux municipaux",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Application": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Simple",
+                "count": 601
+              },
+              {
+                "value": "Paliers",
+                "count": 229
+              },
+              {
+                "value": "Règles",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Catégorie d'immeubles": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Non résidentiels",
+                "count": 343
+              },
+              {
+                "value": "Résidentiels",
+                "count": 327
+              },
+              {
+                "value": "Tous les immeubles",
+                "count": 84
+              },
+              {
+                "value": "Terrains vagues desservis",
+                "count": 80
+              },
+              {
+                "value": "Mixtes",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Description des immeubles": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Immeubles non résidentiels",
+                "count": 140
+              },
+              {
+                "value": "Immeubles résidentiels de 6 logements ou plus",
+                "count": 122
+              },
+              {
+                "value": "Tous les immeubles",
+                "count": 84
+              },
+              {
+                "value": "Immeubles résidentiels de 5 logements ou moins et terrains vagues non desservis",
+                "count": 80
+              },
+              {
+                "value": "Terrains vagues desservis",
+                "count": 80
+              },
+              {
+                "value": "Immeubles résidentiels",
+                "count": 73
+              },
+              {
+                "value": "Immeubles résidentiels de 5 logements ou moins et terrains vagues desservis",
+                "count": 42
+              },
+              {
+                "value": "Immeubles non résidentiels, tranche de valeur qui n'excède pas 625 000 $",
+                "count": 40
+              },
+              {
+                "value": "Immeubles non résidentiels, tranche de valeur qui excède 625 000 $",
+                "count": 40
+              },
+              {
+                "value": "Immeubles non résidentiels, tranche de valeur qui n'excède pas 500 000 $",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Valeur minimale d'application": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 625001.0,
+            "mean": 60104.6259,
+            "median": 0.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 693
+              },
+              {
+                "value": "100001",
+                "count": 56
+              },
+              {
+                "value": "625001",
+                "count": 40
+              },
+              {
+                "value": "500001",
+                "count": 40
+              },
+              {
+                "value": "229",
+                "count": 3
+              },
+              {
+                "value": "2274",
+                "count": 2
+              },
+              {
+                "value": "256",
+                "count": 2
+              },
+              {
+                "value": "426",
+                "count": 2
+              },
+              {
+                "value": "361",
+                "count": 2
+              },
+              {
+                "value": "319",
+                "count": 2
+              }
+            ]
+          },
+          "Valeur maximale d'application": {
+            "null_count": 760,
+            "null_pct": 90.3,
+            "min": 425.0,
+            "max": 625000.0,
+            "mean": 548790.8537,
+            "median": 500000.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "625000",
+                "count": 40
+              },
+              {
+                "value": "500000",
+                "count": 40
+              },
+              {
+                "value": "425",
+                "count": 2
+              }
+            ]
+          },
+          "Taux": {
+            "null_count": 12,
+            "null_pct": 1.4,
+            "min": -424439.0,
+            "max": 1869775.0,
+            "mean": 8768.2795,
+            "median": 408.5,
+            "unique_count": 319,
+            "field_type_detected": "numeric"
+          },
+          "Règle d'application": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "$ / 100 $ d'évaluation",
+                "count": 686
+              },
+              {
+                "value": "$ / m3",
+                "count": 71
+              },
+              {
+                "value": "$ / logement",
+                "count": 34
+              },
+              {
+                "value": "$ / local",
+                "count": 14
+              },
+              {
+                "value": "$ / chambre",
+                "count": 6
+              },
+              {
+                "value": "$ / établissement commercial",
+                "count": 6
+              },
+              {
+                "value": "$ / unité",
+                "count": 4
+              },
+              {
+                "value": "$ / établissement",
+                "count": 4
+              },
+              {
+                "value": "$ / 227 m3 / (logement ou chambre)",
+                "count": 2
+              },
+              {
+                "value": "$ / immeuble",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Budget",
+    "Finance",
+    "SFEF",
+    "Taxation",
+    "Taxes"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données présentées dans cet ensemble sont une compilation manuelle de l'information contenue dans les tableaux des taux de taxes publiés par le Service des finances. Celles-ci ont été placées dans un schéma pour rendre leur utilisation plus simple dans les logiciels de visualisation de données.\n\n### Dictionnaire de données\n\n\n\n- Année (entier) : Année d'imposition.\n\n- Arrondissement (texte) : Nom de l'arrondissement.\n\n- Numéro d'arrondissement (entier) : Numéro interne de l'arrondissement.\n\n- Secteur (texte) : Nom du secteur (si applicable).\n\n- Mode de financement (texte) : Mode de financement.\n\n- Crédit (un crédit est applicable à l'utilisation).\n\n- Tarification (généralement facturée à l'usage, parfois avec un seuil minimal).\n\n- Taxation (taxe municipale ou d'arrondissement).\n\n\n\n- Conseil (texte) : Nom du conseil prélevant la taxe.\n\n- Catégorie (texte) : Description de la taxe prélevée.\n\n- Application (texte) : Mode d'application de la taxe.\n\n- Simple (application selon une simple multiplication).\n\n- Paliers (application variant en fonction de la valeur de l'évaluation foncière ou de la consommation).\n\n- Règles (application variant en fonction d'une série de règles plus complexes).\n\n\n\n- Catégorie d'immeubles (texte) : Type d'immeubles pour lesquels la taxe est applicable.\n\n- Description des immeubles (texte) : Description des immeubles pour lesquels la taxe est applicable.\n\n- Valeur minimale d'application (numérique) : Pour une application par paliers : indique la valeur inférieure de la fourchette pour laquelle la taxe est applicable.\n\n- Valeur maximale d'application (numérique): Pour une application par paliers : indique la valeur supérieure de la fourchette pour laquelle la taxe est applicable.\n\n- Taux (numérique) : taux de la taxe (à juxtaposer avec la règle d'application).\n\n- Règle d'application (texte) :\n\n- Pour une application « Simple » ou « Paliers » : Unités du taux de la taxe.\n\n- Pour une application « Règles » :  Ensemble de règles d'application plus complexes.\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des finances et de l'évaluation foncière",
+      "Couverture temporelle": "2019-01-01/2020-12-31",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Budget",
+      "Finance",
+      "SFEF",
+      "Taxation",
+      "Taxes"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/taux-de-taxation-et-tarification",
+    "scraped_at": "2026-03-09T20:23:16.270715+00:00"
+  }
+}

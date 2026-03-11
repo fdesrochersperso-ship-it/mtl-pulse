@@ -1,0 +1,4867 @@
+{
+  "category_slug": "agriculture-alimentation",
+  "category_name_fr": "Agriculture et alimentation",
+  "category_name_en": "Agriculture and Food",
+  "generated_at": "2026-03-09T22:51:33.994795",
+  "dataset_count": 6,
+  "datasets": [
+    {
+      "slug": "vmtl-inspection-aliments-bilan",
+      "title_fr": "Rapport sur les activités de l'inspection des aliments",
+      "title_en": "Rapport Sur Les Activits De L inspection Des food",
+      "description_fr": "Le bilan de l'inspection des aliments de cet ensemble fait état du travail important réalisé par la Ville sur le territoire de l'agglomération de Montréal en vertu des pouvoirs qui lui sont délégués du Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec (MAPAQ).\r\n\r\nL'équipe d'inspection des aliments regroupe près d'une quarantaine de spécialistes. Leur mission est de veiller à la protection du consommateur en assurant l'innocuité et la qualité des aliments préparés, servis et vendus dans les établissements alimentaires des secteurs de la restauration, de la vente au détail, de la transformation, de la distribution et de l'entreposage. Pour ce faire, cette équipe :\r\n\r\n- Inspecte, en fonction des risques pour la santé, les aliments et les activités reliées à la préparation, la transformation, la conservation et la manipulation des aliments;\r\n\r\n- Conseille les exploitants de commerces alimentaires, afin de promouvoir les bonnes pratiques assurant la sécurité des denré",
+      "description_en": "Le report De L inspection Des food De Cet Ensemble Fait Tat Du Travail Important Ralis Par La city Sur Le Territoire De L Agglomration De Montral En Vertu Des Pouvoirs Qui Lui Sont Dlgus D",
+      "publisher": "Service de l'environnement - Division de l'inspection des aliments",
+      "update_frequency": "monthly",
+      "total_records": 610414,
+      "temporal_range": null,
+      "methodology_fr": "Les données du présent ensemble sont compilées pour fin de statistiques sur les activités de la Division de l'inspection des aliments seulement.  Les données sur le nombre d'inspections, les infractions, les poursuites judiciaires, les échantillons d'aliments prélevés, le nombre de plaintes traitées, les ordonnances de fermetures émises, les avis administratifs remis et les suspensions de permis sont disponibles dans l'ensemble tandis que les informations sur la localisation des établissements et les contrevenants sont disponibles dans des ensembles distincts.\n\n\n_Note_ : Les données sont disponibles à partir de janvier 2011, moment de migration des données au système actuel.\n\n### Dictionnaire de données\n\n\n\n- type_information (liste de valeurs) : Type de l'information.\n\n- INSPECTION_REALISEE : Inspection réalisée.\n\n- AVIS_EMIS : Avis d'infraction émis.\n\n- INFRACTION_CONSTATEE : Infraction constatée.\n\n- POURSUITE_REGLEE : Poursuite réglée.\n\n- AMENDE_IMPOSEE : Amende imposée suite à une poursuite judiciaire conclue à la faveur de la direction de la DIA.\n\n- ECHANTILLON_ALIMENTAIRE_PRELEVE : Échantillon d'aliment prélevé pour analyse.\n\n- ANALYSE_DEMANDEE : Analyse alimentaire demandée au laboratoire de la Division de l'expertise technique.\n\n- ELIMINATION_ALIMENTS_KG : Quantité de kilogrammes d'aliments éliminés dans le cadre d'une inspection.\n\n- ELIMINATION_ALIMENTS_LITRES : Quantité de litres d'aliments éliminés dans le cadre d'une inspection.\n\n- PLAINTE_ENREGISTREE : Plainte enregistrée (incluant les plaintes avec intoxication alimentaire).\n\n- RESTRICTION_DES_OPERATIONS : Ordonnance de restriction des opérations de l'établissement alimentaire suite à un danger imminent.\n\n- CESSATION_DES_OPERATIONS : Ordonnance de cessation complète des opérations de l'établissement alimentaire suite à un danger imminent.\n\n- AVIS_ADMINISTRATIF_EMIS : Avis administratif émis par la division de l'inspection des aliments à l'exploitant alimentaire.\n\n- SUSPENSION_DE_PERMIS : Suspension de permis d'exploitation d'établissement alimentaire.\n\n\n\n- description_information (liste de valeurs) : Description de l'information.\n\n- annee_information (numérique) : Année.\n\n- mois_information (numérique) : Mois.\n\n- qtite_mnt_information (numérique) : Quantité ou montant de l'information selon l'activité.\n\n- unite_mesure (texte variable) : Unité de mesure (litre, kg, dollars, personnes).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "type_information",
+          "clean_name_fr": "Type Information",
+          "clean_name_en": "Type Information",
+          "description_fr": "Champ format",
+          "description_en": "Format field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "INSPECTION_REALISEE",
+              "count": 1000
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "description_information",
+          "clean_name_fr": "Description Information",
+          "clean_name_en": "Description Information",
+          "description_fr": "Champ description",
+          "description_en": "Description field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "Inspection réalisée",
+              "count": 1000
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "annee_information",
+          "clean_name_fr": "Annee Information",
+          "clean_name_en": "Year Information",
+          "description_fr": "Champ format",
+          "description_en": "Format field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "mois_information",
+          "clean_name_fr": "Mois Information",
+          "clean_name_en": "Month Information",
+          "description_fr": "Champ format",
+          "description_en": "Format field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "qtite_mnt_information",
+          "clean_name_fr": "Qtite Mnt Information",
+          "clean_name_en": "Qtite Mnt Information",
+          "description_fr": "Champ format",
+          "description_en": "Format field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "unite_mesure_information",
+          "clean_name_fr": "Unite Mesure Information",
+          "clean_name_en": "Unit Mesure Information",
+          "description_fr": "Champ format",
+          "description_en": "Format field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-inspection-aliments-contrevenants",
+      "title_fr": "Inspections des aliments et contrevenants",
+      "title_en": "Inspections Des food Et Contrevenants",
+      "description_fr": "Cet ensemble présente la liste des établissements alimentaires situés sur le territoire de l’agglomération montréalaise et sous la responsabilité de la Division de l’inspection des aliments de la Ville de Montréal ayant fait l’objet d’une condamnation pour une infraction à la Loi sur les produits alimentaires (L.R.Q., c. P-29) et ses règlements.\r\n\r\nLa localisation sur une carte des contrevenants des 24 derniers mois est disponible sur le [portail du MAPAQ](https://mapaq.maps.arcgis.com/apps/Viewer/index.html?appid=4e91c7c5940647299476e369c2823e41).",
+      "description_en": "Cet Ensemble Prsente La list Des Tablissements food Situs Sur Le Territoire De Lagglomration Montralaise Et Sous La Responsabilit De La Division De Linspection Des food De La Vill",
+      "publisher": "Service de l'environnement - Division de l'inspection des aliments",
+      "update_frequency": "monthly",
+      "total_records": 8466,
+      "temporal_range": {
+        "min": "19900601",
+        "max": "20260226"
+      },
+      "methodology_fr": "Lors de l’inspection d’un établissement alimentaire, si l’inspecteur constate une infraction à la réglementation, il dresse un avis d’infraction précisant les correctifs à apporter. Devant le refus d’obtempérer, une poursuite judiciaire est intentée contre l’exploitant de l’établissement qui est passible d’une amende s’il est reconnu coupable. \n\n\nIl arrive qu'une inspection soit associée à un domicile privé si l'inspecteur doit s'y rendre pour prélever un échantillon lors d'une plainte.  Ces cas ne sont pas localisés géographiquement. \n\n\nLes données des établissements alimentaires ainsi que le rapport sur les activités de l'inspection des aliments sont également disponibles.\n\n\n_Note_ : Les données sont disponibles à partir de janvier 2011, moment de migration des données au système actuel.\n\n### Dictionnaire de données\n\n\n\n**Violations**\n\n\n- id_poursuite (numérique) : Identifiant de la poursuite.\n\n- business_id (numérique) : Identifiant  Ville de l'établissement.\n\n- date (date) : Date de l'infraction.\n\n- date_jugement (date) : Date du jugement.\n\n- description (texte variable) : Description de l'infraction.\n\n- etablissement (texte variable) : Nom de l’établissement.\n\n- montant (numérique) : Montant de l'amende.\n\n- proprietaire (texte variable) : Nom de l'exploitant.\n\n- ville (texte variable) :",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "id_poursuite",
+          "clean_name_fr": "ID Poursuite",
+          "clean_name_en": "ID Poursuite",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 1087.0,
+          "max": 11040.0,
+          "mean": 5043.533,
+          "median": 4454.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "business_id",
+          "clean_name_fr": "Business ID",
+          "clean_name_en": "Business ID",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 392,
+          "min": 64.0,
+          "max": 128896.0,
+          "mean": 22257.809,
+          "median": 12717.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date",
+          "clean_name_fr": "Date",
+          "clean_name_en": "Date",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "20110121",
+          "max_date": "20251113",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "description",
+          "clean_name_fr": "Description",
+          "clean_name_en": "Description",
+          "description_fr": "Champ description",
+          "description_en": "Description field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 35,
+          "top_values": [
+            {
+              "value": "Le produit altérable à la chaleur à l'exception des fruits et légumes frais entiers doit être refroidi sans retard et maintenu constamment à une température interne et ambiante ne dépassant pas 4C jusqu'à sa livraison au consommateur, sauf pendant le temps requis pour l'application d'un procédé de fabrication ou d'un traitement reconnu en industrie alimentaire et qui exige une plus haute température.",
+              "count": 280
+            },
+            {
+              "value": "Le lieu ou le véhicule doit être exempt de contaminants, de polluants, de toute espèce d'animaux y compris les insectes et les rongeurs ou de leurs excréments.",
+              "count": 269
+            },
+            {
+              "value": "Les lieux, véhicules, équipements, matériaux et ustensiles servant à la préparation au conditionnement, à l'entreposage, au transport, à l'étiquetage et au service des produits, ainsi que les autres installations et locaux sanitaires, doivent être propres.",
+              "count": 231
+            },
+            {
+              "value": "Le produit périssable vendu chaud ou servi chaud au consommateur doit être gardé à une température interne d'au moins 60C jusqu'à sa livraison.",
+              "count": 51
+            },
+            {
+              "value": "Les personnes affectées à la préparation des produits, au lavage ou au nettoyage du matériel et de l'équipement doivent: porter un bonnet ou une résille propre qui recouvre entièrement les cheveux; porter un couvre-barbe propre qui recouvre entièrement la barbe.",
+              "count": 31
+            },
+            {
+              "value": "Est prohibée toute tromperie ou tentative de tromperie, toute déclaration ou indication fausse, inexacte ou trompeuse, sous quelque forme et par quelque moyen que ce soit: a) sur la nature, l'état, la composition, l'identité, la provenance, l'origine, l'utilisation, la destination, la qualité, la quantité, la valeur, le prix ou une particularité du produit;  b) sur le lieu, la date ou les procédés de préparation, fabrication, conservation ou conditionnement du produit; c) sur le mode d'emploi ou de conservation du produit; d)  sur l'identité, les qualités ou aptitudes du producteur, préparateur, fabricant, conserveur, conditionneur, distributeur ou de l'agent de vente ou de livraison du produit.",
+              "count": 22
+            },
+            {
+              "value": "Il est interdit dans un établissement de distribuer sur place, pour emporter ou par livraison, les articles à usage unique suivants: barquette #6, Assiette #6, Contenant et couvercle #6, Couvercle de tasse ou verre #6, Tasse ou verre, Bâtonnet, Paille, Ustensile #1, #2, ,3, #4, #5, #6, #7.",
+              "count": 20
+            },
+            {
+              "value": "Nul ne peut préparer, détenir en vue de la vente ou de la fourniture de services moyennant rémunération, recevoir, acheter pour fins de revente, mettre en vente ou en dépôt, vendre, donner à des fins promotionnelles, transporter, faire transporter ou accepter pour transport, tout produit destiné à la consommation humaine qui est impropre à cette consommation, qui est altéré de manière à le rendre impropre à cette consommation, dont l'innocuité n'est pas assurée pour cette consommation ou qui n'est pas conforme aux exigences de la présente loi et des règlements.",
+              "count": 16
+            },
+            {
+              "value": "Tout produit conditionné en vue de la vente doit porter, en caractères indélébiles, très lisibles et apparents, sur le récipient, l'emballage ou l'enveloppe qui le contient les inscriptions nécessaires pour révéler la nature, l'état, la composition, l'utilisation, la quantité exacte, l'origine et toute particularité du produit; les nom et adresse du fabricant, préparateur, conditionneur, emballeur, fournisseur ou distributeur; le lieu de fabrication, préparation ou conditionnement du produit. L'énumération des composants doit figurer par ordre d'importance décroissant. L'indication de poids doit tenir compte de la perte que peut normalement subir le produit après son conditionnement et être exprimée en poids net.",
+              "count": 14
+            },
+            {
+              "value": "Nul ne peut, sans être titulaire d'un permis en vigueur, exploiter un lieu ou un véhicule où est exercée l'activité de restaurateur.",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "adresse",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 388,
+          "top_values": [
+            {
+              "value": "67 Rue De La Gauchetière Ouest, Montréal, Québec",
+              "count": 23
+            },
+            {
+              "value": "1900 Rue Moreau, Montréal, Québec",
+              "count": 20
+            },
+            {
+              "value": "10181 Boul. Saint-Michel, Montréal-Nord, Québec",
+              "count": 16
+            },
+            {
+              "value": "303 Av. Mozart Est, Montréal, Québec",
+              "count": 15
+            },
+            {
+              "value": "6700 Ch. de la Côte-des-Neiges, Local 200, Montréal, Québec",
+              "count": 15
+            },
+            {
+              "value": "1404 Rue Drummond, Montréal, Québec",
+              "count": 12
+            },
+            {
+              "value": "234 Rue Jean-Talon Est, Montréal, Québec",
+              "count": 12
+            },
+            {
+              "value": "3410 Rue Bélanger, Montréal, Québec",
+              "count": 12
+            },
+            {
+              "value": "224 Rue Fleury Ouest, Montréal, Québec",
+              "count": 11
+            },
+            {
+              "value": "8200 19e Av., Local 102, Montréal, Québec",
+              "count": 11
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_jugement",
+          "clean_name_fr": "Date Jugement",
+          "clean_name_en": "Date Jugement",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "20110630",
+          "max_date": "20260219",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "etablissement",
+          "clean_name_fr": "Etablissement",
+          "clean_name_en": "Etablissement",
+          "description_fr": "Champ etablissement",
+          "description_en": "Etablissement field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 380,
+          "top_values": [
+            {
+              "value": "RESTAURANT JADE QUARTIER CHINOIS",
+              "count": 23
+            },
+            {
+              "value": "ALIMENTS MARINA",
+              "count": 20
+            },
+            {
+              "value": "L'EURO-MARCHE ST-MICHEL",
+              "count": 16
+            },
+            {
+              "value": "PATISSERIE MAISON MOTTAS",
+              "count": 15
+            },
+            {
+              "value": "MARCHE FU TAI",
+              "count": 15
+            },
+            {
+              "value": "MARCHE DRUMMOND (JOE'S PANINI)",
+              "count": 12
+            },
+            {
+              "value": "SUPERMARCHE L'OLIVIER",
+              "count": 12
+            },
+            {
+              "value": "MERSON'S PATISSERIE",
+              "count": 12
+            },
+            {
+              "value": "EUROMARCHE FLEURY",
+              "count": 11
+            },
+            {
+              "value": "DOUBLE PIZZA",
+              "count": 11
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "montant",
+          "clean_name_fr": "Montant",
+          "clean_name_en": "Amount",
+          "description_fr": "Champ montant",
+          "description_en": "Amount field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 61,
+          "min": 200.0,
+          "max": 7000.0,
+          "mean": 1415.6,
+          "median": 1200.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "proprietaire",
+          "clean_name_fr": "Proprietaire",
+          "clean_name_en": "Owner",
+          "description_fr": "Champ proprietaire",
+          "description_en": "Owner field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 343,
+          "top_values": [
+            {
+              "value": "9103-3183 QUEBEC INC.",
+              "count": 23
+            },
+            {
+              "value": "2717450 CANADA INC.",
+              "count": 20
+            },
+            {
+              "value": "9183-4853 QUEBEC INC.",
+              "count": 17
+            },
+            {
+              "value": "2844087 CANADA INC.",
+              "count": 16
+            },
+            {
+              "value": "PATISSERIE MAISON MOTTAS LIMITEE",
+              "count": 15
+            },
+            {
+              "value": "7209207 CANADA INC.",
+              "count": 15
+            },
+            {
+              "value": "HOST INTERNATIONAL OF CANADA LTD",
+              "count": 14
+            },
+            {
+              "value": "9185-4166 QUEBEC INC.",
+              "count": 13
+            },
+            {
+              "value": "128315 CANADA INC.",
+              "count": 12
+            },
+            {
+              "value": "EPICERIE BOUCHERIE L'OLIVIER INC.",
+              "count": 12
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ville",
+          "clean_name_fr": "Ville",
+          "clean_name_en": "City",
+          "description_fr": "Champ ville",
+          "description_en": "City field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 16,
+          "top_values": [
+            {
+              "value": "Montréal",
+              "count": 839
+            },
+            {
+              "value": "St-Laurent",
+              "count": 27
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 22
+            },
+            {
+              "value": "Dorval",
+              "count": 21
+            },
+            {
+              "value": "Dollard-des-Ormeaux",
+              "count": 20
+            },
+            {
+              "value": "LaSalle",
+              "count": 18
+            },
+            {
+              "value": "St-Léonard",
+              "count": 13
+            },
+            {
+              "value": "Verdun",
+              "count": 9
+            },
+            {
+              "value": "Pierrefonds",
+              "count": 7
+            },
+            {
+              "value": "Ste-Anne-de-Bellevue",
+              "count": 6
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "statut",
+          "clean_name_fr": "Statut",
+          "clean_name_en": "Status",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "Ouvert",
+              "count": 445
+            },
+            {
+              "value": "Fermé changement d'exploitant",
+              "count": 306
+            },
+            {
+              "value": "Fermé",
+              "count": 249
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_statut",
+          "clean_name_fr": "Date Statut",
+          "clean_name_en": "Date Status",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "19900601",
+          "max_date": "20260226",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "categorie",
+          "clean_name_fr": "Categorie",
+          "clean_name_en": "Category",
+          "description_fr": "Champ categorie",
+          "description_en": "Category field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 27,
+          "top_values": [
+            {
+              "value": "Restaurant",
+              "count": 404
+            },
+            {
+              "value": "Boucherie-épicerie",
+              "count": 122
+            },
+            {
+              "value": "Restaurant service rapide",
+              "count": 109
+            },
+            {
+              "value": "Épicerie avec préparation",
+              "count": 104
+            },
+            {
+              "value": "Casse-croûte",
+              "count": 34
+            },
+            {
+              "value": "Pâtisserie/Boulangerie",
+              "count": 33
+            },
+            {
+              "value": "Charcuterie/fromage",
+              "count": 30
+            },
+            {
+              "value": "Supermarché",
+              "count": 29
+            },
+            {
+              "value": "Boulangerie",
+              "count": 26
+            },
+            {
+              "value": "Distributeur en gros de produits mixtes",
+              "count": 21
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-etablissements-alimentaires",
+      "title_fr": "Établissements alimentaires",
+      "title_en": "Tablissements food",
+      "description_fr": "Le présent ensemble localise les établissements sous la responsabilité de la Division de l’inspection des aliments de la Ville de Montréal.  Il est à noter que la Ville est mandataire du Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec (MAPAQ) en ce qui concerne l’inspection sur son territoire.",
+      "description_en": "Le Prsent Ensemble Localise Les Tablissements Sous La Responsabilit De La Division De Linspection Des food De La city De Montral Il Est Noter Que La city Est Mandataire Du Ministre De",
+      "publisher": "Service de l'environnement - Division de l'inspection des aliments",
+      "update_frequency": "weekly",
+      "total_records": 53394,
+      "temporal_range": {
+        "min": "19900326",
+        "max": "20260302"
+      },
+      "methodology_fr": "Les données proviennent du système de l'inspection des aliments de la Ville de Montréal (SIAM). Elles sont mises à jour quotidiennement à partir de trois sources d'informations, soit les données sur les permis du MAPAQ, les certificats d'occupation de la Ville de Montréal ainsi que les constatations sur le terrain.\n\n\nMise à jour quotidienne des listes du MAPAQ et certificat d'occupation et constatation sur le terrain.\n\n\nL'information n'est pas mise à jour instantanément lors d'un changement de propriétaires. Il peut y avoir des décalages de quelques semaines ou mois dans la mise à jour.\n\n\nÀ noter que les données sont structurées au format LIVES de Yelp. D'autres champs sont ajoutés à titre indicatif.\n\n\nLes données des contrevenants, des inspections ainsi que le bilan de la Division de l'inspection des aliments sont disponibles dans les ensembles :\n\n### Dictionnaire de données\n\n\n\n- business_id (numérique) : Identifiant unique Ville de l'établissement.\n\n- name (texte variable) : Nom de l'établissement.\n\n- address (texte variable) : Adresse de l'établissement.\n\n- city (texte variable) : Ville ou arrondissement de l'établissement.\n\n- state (texte variable) : (Par défaut) Québec, Canada.\n\n- type (liste de valeurs) : Catégorie de l'établissement.\n\n- Statut (liste de valeurs) : Statut de l'établissement.\n\n- Ouvert : En exploitation.\n\n- Fermé : Définitivement fermé.\n\n- Fermé changement d'exploitant : Changement de propriétaire.\n\n- En traitement : Ouverture récente et en attente d'inspection.\n\n- Sous inspection fédérale : Changement de juridiction d'inspection.\n\n\n\n- date_statut (date) : Date du dernier statut.\n\n- latitude (coordonnées spatiales) : Latitude WGS84.\n\n- longitude (coordonnées spatiales) : Longitude WGS84.\n\n- CoordX (coordonnées spatiales) : Coordonnée X MTM8 NAD83.\n\n- CoordY (coordonnées spatiales) : Coordonnée Y MTM8 NAD83.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "SHP",
+        "GEOJSON",
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "business_id",
+          "clean_name_fr": "Business ID",
+          "clean_name_en": "Business ID",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 2.0,
+          "max": 133397.0,
+          "mean": 3518.989,
+          "median": 1760.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "name",
+          "clean_name_fr": "Nom",
+          "clean_name_en": "Name",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 979,
+          "top_values": [
+            {
+              "value": "PHARMACIE JEAN-COUTU",
+              "count": 4
+            },
+            {
+              "value": "PHARMAPRIX",
+              "count": 4
+            },
+            {
+              "value": "DEPANNEUR 7 JOURS",
+              "count": 3
+            },
+            {
+              "value": "RESTAURANT MC DONALD",
+              "count": 3
+            },
+            {
+              "value": "MM MUFFINS",
+              "count": 2
+            },
+            {
+              "value": "RESTAURANT BASHA",
+              "count": 2
+            },
+            {
+              "value": "DAIRY QUEEN",
+              "count": 2
+            },
+            {
+              "value": "DUNKIN DONUTS",
+              "count": 2
+            },
+            {
+              "value": "THE OLD BREWERY MISSION",
+              "count": 2
+            },
+            {
+              "value": "MICHAEL ROSSY LTEE",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "address",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 986,
+          "top_values": [
+            {
+              "value": "7401   Rue Hochelaga",
+              "count": 5
+            },
+            {
+              "value": "2600   Rue Ontario Est",
+              "count": 3
+            },
+            {
+              "value": "11011   Boulevard Maurice-Duplessis",
+              "count": 2
+            },
+            {
+              "value": "7905   Rue Sherbrooke Est",
+              "count": 2
+            },
+            {
+              "value": "360   Rue Saint-Antoine Ouest",
+              "count": 2
+            },
+            {
+              "value": "5689   Boulevard Rosemont",
+              "count": 2
+            },
+            {
+              "value": "666   Rue Sherbrooke Ouest",
+              "count": 2
+            },
+            {
+              "value": "3350   Rue Ontario Est",
+              "count": 2
+            },
+            {
+              "value": "2500  CP6079 Chemin Polytechnique",
+              "count": 2
+            },
+            {
+              "value": "99   Avenue Viger Ouest",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "city",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 11,
+          "top_values": [
+            {
+              "value": "Montréal",
+              "count": 985
+            },
+            {
+              "value": "Côte Saint-Luc",
+              "count": 4
+            },
+            {
+              "value": "Rivière-des-Prairies",
+              "count": 2
+            },
+            {
+              "value": "Anjou",
+              "count": 2
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 1
+            },
+            {
+              "value": "Dollard-des-Ormeaux",
+              "count": 1
+            },
+            {
+              "value": "Verdun",
+              "count": 1
+            },
+            {
+              "value": "L'Ile Bizard",
+              "count": 1
+            },
+            {
+              "value": "Mont-Royal",
+              "count": 1
+            },
+            {
+              "value": "Dorval",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "state",
+          "clean_name_fr": "State",
+          "clean_name_en": "State",
+          "description_fr": "Champ state",
+          "description_en": "State field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "Québec, Canada",
+              "count": 1000
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "type",
+          "clean_name_fr": "Type",
+          "clean_name_en": "Type",
+          "description_fr": "Champ type",
+          "description_en": "Type field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 36,
+          "top_values": [
+            {
+              "value": "Restaurant",
+              "count": 227
+            },
+            {
+              "value": "Épicerie",
+              "count": 165
+            },
+            {
+              "value": "Restaurant service rapide",
+              "count": 95
+            },
+            {
+              "value": "Bar salon, taverne",
+              "count": 75
+            },
+            {
+              "value": "Épicerie avec préparation",
+              "count": 64
+            },
+            {
+              "value": "Magasin à rayons",
+              "count": 63
+            },
+            {
+              "value": "Casse-croûte",
+              "count": 46
+            },
+            {
+              "value": "Garderie",
+              "count": 36
+            },
+            {
+              "value": "Boucherie-épicerie",
+              "count": 26
+            },
+            {
+              "value": "Centre d'accueil",
+              "count": 23
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "statut",
+          "clean_name_fr": "Statut",
+          "clean_name_en": "Status",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "Fermé changement d'exploitant",
+              "count": 466
+            },
+            {
+              "value": "Fermé",
+              "count": 302
+            },
+            {
+              "value": "Ouvert",
+              "count": 232
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_statut",
+          "clean_name_fr": "Date Statut",
+          "clean_name_en": "Date Status",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "19900326",
+          "max_date": "20260302",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "latitude",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.7,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.448173,
+          "max": 45.691329,
+          "mean": 45.548736,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "longitude",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.7,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.873076,
+          "max": -73.49073,
+          "mean": -73.571974,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "x",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.7,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 275638.74,
+          "max": 305522.65,
+          "mean": 299179.16142,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "y",
+          "clean_name_fr": "Coordonnee Y (MTM) (y)",
+          "clean_name_en": "Y coordinate (MTM) (y)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.7,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5034280.03,
+          "max": 5061271.75,
+          "mean": 5045427.956596,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "spatial join via lat/long coordinates",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche",
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection",
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-lieux-batiments-vocation-publique",
+      "title_fr": "Lieux et bâtiments à vocation publique",
+      "title_en": "Lieux Et Btiments Vocation Publique",
+      "description_fr": "Cet ensemble présente les lieux et bâtiments à vocation publique et leurs principaux attributs tels que leurs adresses et horaires ainsi que la disponibilité d'installations et de commodités, notamment en matière de services en accessibilité universelle.",
+      "description_en": "Cet Ensemble Prsente Les Lieux Et Btiments Vocation Publique Et Leurs Principaux Attributs Tels Que Leurs Adresses Et Horaires Ainsi Que La Disponibilit D facilities Et De Commodits Notammen",
+      "publisher": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "update_frequency": "daily",
+      "total_records": 2602,
+      "temporal_range": {
+        "min": "2019-07-18",
+        "max": "2026-02-02"
+      },
+      "methodology_fr": "Les données sont extraites du répertoire des lieux et bâtiments publics du site web de la Ville de Montréal. \n\n## Dictionnaire de données\n\n\n\n- titre_lieu (texte variable) : Titre du lieu.\n\n- url_fiche (texte variable) : Lien pour consulter la page web du lieu sur le site de la Ville de Montréal.\n\n- description (texte variable) : Description du lieu telle que présentée sur le site de la Ville de Montréal.\n\n- date_cree (date et heure) : Date à laquelle la page web du lieu a été ajoutée au site de la Ville de Montréal.\n\n- date_revision (date et heure) : Date à laquelle la page web du lieu a été mise à jour sur le site de la Ville de Montréal.\n\n- arrondissements (texte variable) : Arrondissement où se trouve le lieu.\n\n- types (liste de valeurs) : Type de lieu (p. ex. culturels et communautaires, parc et jardins, points de service).\n\n- installations (liste de valeurs) : Installations disponibles (p. ex. aréna, centre culturel, jardin communautaire, piste de danse, rue piétonne, théâtre extérieur).\n\n- activites (liste de valeurs) : Activités offertes (p. ex. arts martiaux, basketball, observation d'oiseaux, raquette, volleyball).\n\n- commodites (liste de valeurs) : Commodités disponibles (p. ex. air climatisé, composteurs communautaires, douches, fontaine d'eau potable, salle d'allaitement, toilettes, vestiaire, Wi-Fi gratuit).\n\n- accessibilite (liste de valeurs) : Services disponibles en accessibilité universelle (p. ex. accessible en fauteuil roulant, adapté aux poussettes, ascenseur, interprètes en langue des signes, toilettes accessibles, zone de débarcadère).\n\n- categories (liste de valeurs) : Catégories associées au lieu telles que présentées sur le site de la Ville de Montréal.\n\n- statut_ouverture (liste de valeurs) : Conditions d'accès et modalités d'ouverture (p. ex. fermeture partielle, fermeture saisonnière, services restreints, sur rendez-vous).\n\n- horaire_par_jour (texte variable) : Heures d'ouverture.\n\n- commentaires_horaire (texte variable) : Informations supplémentaires concernant les heures d'ouverture.\n\n- reglementation (texte variable) : Réglementation en vigueur.\n\n- paiement (liste de valeurs) : Modes de paiement acceptés (p. ex. argent comptant, carte de crédit, service bancaire en ligne).\n\n- telephone (texte variable) : Numéro de téléphone.\n\n- courriel (texte variable) : Courriel.\n\n- titre_lieu_adresse_postale (texte variable) : Destinataire de l'adresse postale du lieu.\n\n- adresse_principale (texte variable) : Adresse postale.\n\n- adresse_secondaire (texte variable) : Renseignements supplémentaires sur l'adresse.\n\n- code_postal (texte variable) : Code postal.\n\n- ville (texte variable) : Ville.\n\n- lat (coordonnées spatiales) : Latitude en WGS84.\n\n- long (coordonnées spatiales) : Longitude en WGS84.\n\n- X (coordonnées spatiales) : Coordonnée X en MTM ZONE 8. \n\n- Y (coordonnées spatiales) : Coordonnée Y en MTM ZONE 8.\n\n                                \n                                \n                            \n\n                      ",
+      "data_quality_score": "C",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "GEOJSON",
+        "SHP",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "titre_lieu",
+          "clean_name_fr": "Titre",
+          "clean_name_en": "Title",
+          "description_fr": "Champ titre",
+          "description_en": "Title field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "top_values": [
+            {
+              "value": "Piano public du Marché Jean-Talon",
+              "count": 1
+            },
+            {
+              "value": "Centre Hortense-Duclos",
+              "count": 1
+            },
+            {
+              "value": "Maison Robert-Bélanger",
+              "count": 1
+            },
+            {
+              "value": "Piano public de la Plaza Saint-Hubert",
+              "count": 1
+            },
+            {
+              "value": "Le 59 Saint-Pierre",
+              "count": 1
+            },
+            {
+              "value": "Piano public du square Viger",
+              "count": 1
+            },
+            {
+              "value": "Piano public du parc Molson",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – L'Île-Bizard–Sainte-Geneviève",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – Montréal-Nord",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – Rivière-des-Prairies–Pointe-aux-Trembles",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "url_fiche",
+          "clean_name_fr": "URL",
+          "clean_name_en": "URL",
+          "description_fr": "Champ url",
+          "description_en": "URL field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "top_values": [
+            {
+              "value": "https://montreal.ca/lieux/piano-public-du-marche-jean-talon",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/centre-hortense-duclos",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/maison-robert-belanger",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/piano-public-de-la-plaza-saint-hubert",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/le-59-saint-pierre",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/piano-public-du-square-viger",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/piano-public-du-parc-molson",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/comptoir-des-permis-lile-bizard-sainte-genevieve",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/comptoir-des-permis-montreal-nord",
+              "count": 1
+            },
+            {
+              "value": "https://montreal.ca/lieux/comptoir-des-permis-riviere-des-prairies-pointe-aux-trembles",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "description",
+          "clean_name_fr": "Description",
+          "clean_name_en": "Description",
+          "description_fr": "Champ description",
+          "description_en": "Description field",
+          "type": "text",
+          "null_pct": 5.9,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 596,
+          "top_values": [
+            {
+              "value": "Venez vous rafraîchir et profitez du parc pour faire un pique-nique.",
+              "count": 59
+            },
+            {
+              "value": "Le chalet offre une halte toilettes et une aire de détente.",
+              "count": 49
+            },
+            {
+              "value": "Les participants élisent un comité qui voit au bon fonctionnement du jardin communautaire, du début à la fin de la saison.",
+              "count": 41
+            },
+            {
+              "value": "La qualité de l’eau est rigoureusement testée chaque jour.",
+              "count": 23
+            },
+            {
+              "value": "Dès le beau temps, les jeux d'eau permettent aux enfants de se rafraîchir et de s'amuser.",
+              "count": 14
+            },
+            {
+              "value": "Vous devez réserver votre place pour en profiter.",
+              "count": 13
+            },
+            {
+              "value": "Les jeux d'eau sont faciles d'accès et peuvent être utilisés par tous. Il est important de respecter la signalisation et les règles d’utilisation des installations pour assurer votre sécurité et celle des autres.",
+              "count": 10
+            },
+            {
+              "value": "Le port du casque est recommandé.",
+              "count": 10
+            },
+            {
+              "value": "Il n'est pas possible de réserver le terrain de tennis. Les citoyens qui désirent utiliser le terrain sportif peuvent se présenter si aucune activité n’est prévue à l’horaire.",
+              "count": 9
+            },
+            {
+              "value": "Venez profiter des attraits de la nature ou pratiquer des loisirs en plein air.",
+              "count": 9
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_cree",
+          "clean_name_fr": "Date Cree",
+          "clean_name_en": "Date Cree",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2019-07-18",
+          "max_date": "2026-01-05",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_revision",
+          "clean_name_fr": "Date Revision",
+          "clean_name_en": "Date Revision",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2025-12-11",
+          "max_date": "2026-02-02",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arrondissements",
+          "clean_name_fr": "Arrondissements",
+          "clean_name_en": "Arrondissements",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 21,
+          "top_values": [
+            {
+              "value": "Saint-Laurent",
+              "count": 88
+            },
+            {
+              "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+              "count": 85
+            },
+            {
+              "value": "Le Sud-Ouest",
+              "count": 82
+            },
+            {
+              "value": "Rosemont–La Petite-Patrie",
+              "count": 68
+            },
+            {
+              "value": "Villeray–Saint-Michel–Parc-Extension",
+              "count": 65
+            },
+            {
+              "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+              "count": 62
+            },
+            {
+              "value": "Ahuntsic-Cartierville",
+              "count": 60
+            },
+            {
+              "value": "Pierrefonds-Roxboro",
+              "count": 57
+            },
+            {
+              "value": "Verdun",
+              "count": 55
+            },
+            {
+              "value": "Ville-Marie",
+              "count": 52
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "types",
+          "clean_name_fr": "Types",
+          "clean_name_en": "Types",
+          "description_fr": "Champ type",
+          "description_en": "Type field",
+          "type": "category",
+          "null_pct": 1.1,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "Sportifs et récréatifs",
+              "count": 700
+            },
+            {
+              "value": "Parc et jardins",
+              "count": 226
+            },
+            {
+              "value": "Culturels et communautaires",
+              "count": 51
+            },
+            {
+              "value": "Points de service",
+              "count": 12
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "installations",
+          "clean_name_fr": "Installations",
+          "clean_name_en": "Installations",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 31,
+          "top_values": [
+            {
+              "value": "Jeux d'eau",
+              "count": 192
+            },
+            {
+              "value": "Chalet",
+              "count": 111
+            },
+            {
+              "value": "Terrain de soccer",
+              "count": 111
+            },
+            {
+              "value": "Terrain de tennis ou pickleball",
+              "count": 86
+            },
+            {
+              "value": "Jardin communautaire",
+              "count": 77
+            },
+            {
+              "value": "Terrain de balle, baseball",
+              "count": 72
+            },
+            {
+              "value": "Pataugeoire",
+              "count": 70
+            },
+            {
+              "value": "Piscine extérieure",
+              "count": 55
+            },
+            {
+              "value": "Parc",
+              "count": 39
+            },
+            {
+              "value": "Centre communautaire",
+              "count": 26
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "activites",
+          "clean_name_fr": "Activites",
+          "clean_name_en": "Activites",
+          "description_fr": "Champ activites",
+          "description_en": "Activites field",
+          "type": "text",
+          "null_pct": 41.0,
+          "quality": "usable",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 50,
+          "top_values": [
+            {
+              "value": "Baignade",
+              "count": 252
+            },
+            {
+              "value": "Soccer",
+              "count": 110
+            },
+            {
+              "value": "Tennis",
+              "count": 71
+            },
+            {
+              "value": "Baseball",
+              "count": 64
+            },
+            {
+              "value": "Hockey,Patinage",
+              "count": 12
+            },
+            {
+              "value": "Pickleball,Tennis",
+              "count": 10
+            },
+            {
+              "value": "Patinage",
+              "count": 9
+            },
+            {
+              "value": "Volleyball",
+              "count": 9
+            },
+            {
+              "value": "Vélo",
+              "count": 4
+            },
+            {
+              "value": "Pickleball",
+              "count": 3
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "commodites",
+          "clean_name_fr": "Commodites",
+          "clean_name_en": "Commodites",
+          "description_fr": "Champ commodites",
+          "description_en": "Commodites field",
+          "type": "text",
+          "null_pct": 58.1,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 213,
+          "top_values": [
+            {
+              "value": "Toilettes",
+              "count": 32
+            },
+            {
+              "value": "Fontaine d'eau potable,Toilettes",
+              "count": 25
+            },
+            {
+              "value": "Aire de pique-nique,Fontaine d'eau potable,Support à vélo",
+              "count": 11
+            },
+            {
+              "value": "Aire de pique-nique,Fontaine d'eau potable,Toilettes",
+              "count": 8
+            },
+            {
+              "value": "Aire de pique-nique,Fontaine d'eau potable,Stationnement gratuit,Toilettes",
+              "count": 8
+            },
+            {
+              "value": "Fontaine d'eau potable,Support à vélo,Toilettes,Vestiaire",
+              "count": 7
+            },
+            {
+              "value": "Stationnement gratuit",
+              "count": 7
+            },
+            {
+              "value": "Aire de pique-nique,Fontaine d'eau potable",
+              "count": 7
+            },
+            {
+              "value": "Composteurs communautaires",
+              "count": 7
+            },
+            {
+              "value": "Fontaine d'eau potable,Toilettes,Vestiaire",
+              "count": 6
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (58.1% null)",
+          "warnings_en": "Partially populated field (58.1% null)"
+        },
+        {
+          "raw_name": "accessibilite",
+          "clean_name_fr": "Accessibilite",
+          "clean_name_en": "Accessibilite",
+          "description_fr": "Champ accessibilite",
+          "description_en": "Accessibilite field",
+          "type": "text",
+          "null_pct": 69.5,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 147,
+          "top_values": [
+            {
+              "value": "Entrée de plain-pied",
+              "count": 33
+            },
+            {
+              "value": "Accessible en fauteuil roulant,Accessible en fauteuil roulant avec assistance,Adapté aux poussettes",
+              "count": 18
+            },
+            {
+              "value": "Adapté aux poussettes,Entrée de plain-pied",
+              "count": 17
+            },
+            {
+              "value": "Sentier d'accès",
+              "count": 11
+            },
+            {
+              "value": "Entrée de plain-pied,Sentier d'accès",
+              "count": 10
+            },
+            {
+              "value": "Entrée de plain-pied,Sentier d'accès,Stationnement accessible,Toilettes accessibles",
+              "count": 9
+            },
+            {
+              "value": "Adapté aux poussettes",
+              "count": 8
+            },
+            {
+              "value": "Entrée de plain-pied,Sentier d'accès,Stationnement accessible",
+              "count": 8
+            },
+            {
+              "value": "Adapté aux poussettes,Entrée de plain-pied,Zone de débarcadère",
+              "count": 7
+            },
+            {
+              "value": "Équipement adapté",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (69.5% null)",
+          "warnings_en": "Partially populated field (69.5% null)"
+        },
+        {
+          "raw_name": "categories",
+          "clean_name_fr": "Categories",
+          "clean_name_en": "Categories",
+          "description_fr": "Champ categorie",
+          "description_en": "Category field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 11,
+          "top_values": [
+            {
+              "value": "Culture et sports",
+              "count": 899
+            },
+            {
+              "value": "Environnement,Culture et sports",
+              "count": 68
+            },
+            {
+              "value": "Communauté",
+              "count": 10
+            },
+            {
+              "value": "Affaires,Aménagement et urbanisme",
+              "count": 9
+            },
+            {
+              "value": "Environnement",
+              "count": 6
+            },
+            {
+              "value": "Culture et sports,Communauté",
+              "count": 3
+            },
+            {
+              "value": "Aménagement et urbanisme",
+              "count": 1
+            },
+            {
+              "value": "Taxes et évaluation foncière",
+              "count": 1
+            },
+            {
+              "value": "Communauté,Culture et sports",
+              "count": 1
+            },
+            {
+              "value": "Culture et sports,Environnement",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "statut_ouverture",
+          "clean_name_fr": "Statut Ouverture",
+          "clean_name_en": "Status Ouverture",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "category",
+          "null_pct": 70.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Fermé temporairement",
+              "count": 287
+            },
+            {
+              "value": "Fermé définitivement",
+              "count": 11
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (70.2% null)",
+          "warnings_en": "Partially populated field (70.2% null)"
+        },
+        {
+          "raw_name": "horaire_par_jour",
+          "clean_name_fr": "Horaire Par Jour",
+          "clean_name_en": "Horaire Par Day",
+          "description_fr": "Champ jour",
+          "description_en": "Day field",
+          "type": "text",
+          "null_pct": 26.3,
+          "quality": "usable",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "commentaires_horaire",
+          "clean_name_fr": "Commentaires Horaire",
+          "clean_name_en": "Commentaires Horaire",
+          "description_fr": "Champ commentaire",
+          "description_en": "Comment field",
+          "type": "text",
+          "null_pct": 79.1,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 55,
+          "top_values": [
+            {
+              "value": "Selon les conditions",
+              "count": 27
+            },
+            {
+              "value": "En hiver, le chalet est ouvert selon l’ouverture des patinoires extérieures.",
+              "count": 13
+            },
+            {
+              "value": "Hors saison : selon la température",
+              "count": 13
+            },
+            {
+              "value": "Selon la météo.",
+              "count": 12
+            },
+            {
+              "value": "Ouvert du lever au coucher du soleil.",
+              "count": 12
+            },
+            {
+              "value": "Selon les conditions.",
+              "count": 11
+            },
+            {
+              "value": "Ouvert du lever au coucher du soleil",
+              "count": 10
+            },
+            {
+              "value": "La date d'ouverture et de fermeture peut varier en fonction de la météo.",
+              "count": 9
+            },
+            {
+              "value": "En période de canicule, les heures d'ouvertes sont prolongées jusqu'à 23 h.",
+              "count": 9
+            },
+            {
+              "value": "Selon les conditions météorologiques",
+              "count": 8
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (79.1% null)",
+          "warnings_en": "Partially populated field (79.1% null)"
+        },
+        {
+          "raw_name": "reglementation",
+          "clean_name_fr": "Reglementation",
+          "clean_name_en": "Reglementation",
+          "description_fr": "Champ reglementation",
+          "description_en": "Reglementation field",
+          "type": "text",
+          "null_pct": 89.0,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 63,
+          "top_values": [
+            {
+              "value": "Vous voulez vous baigner dans une piscine de la Ville? Vous accompagnez un enfant dans les jeux d’eau ou à la pataugeoire? Voici les bons comportements à adopter pour la sécurité de tous les utilisateurs.",
+              "count": 15
+            },
+            {
+              "value": "Vous voulez vous baigner dans une piscine de la Ville? Vous accompagnez un enfant dans les jeux d’eau ou à la pataugeoire? Voici les bons comportements à adopter pour la sécurité de tous les utilisateurs.Notez aussi que les animaux (à l’exception des chiens d’assistance et des chiens-guides) ne sont pas permis dans les installations aquatiques ni dans leurs enceintes.",
+              "count": 7
+            },
+            {
+              "value": "Consultez cet article pour les consignes à respecter et la tarification en vigueur.",
+              "count": 6
+            },
+            {
+              "value": "Consignes à respecter dans les lieux de baignade",
+              "count": 5
+            },
+            {
+              "value": "Les enfants âgés de moins de 8 ans doivent être accompagnés d’un adulte en tout temps ou faire partie d’un groupe accompagné d’un adulte pour avoir accès à la piscine. Pour les pataugeoires et les jeux d’eau, l’âge requis est de 6 ans.Critères de base pour accéder seul à la piscineUn jeune baigneur de 8 ans et plus peut se présenter seul à la piscine s’il se conforme aux règles suivantes :Il sait nager ou porte un VFIIl peut suivre les consignesIl peut s’orienter sur le siteIl peut se rendre seul à la toiletteMaillot et couche aquatiqueLe port du maillot de bain est obligatoire dans toutes les installations. Celui-ci doit servir uniquement à la baignade et il doit aussi permettre de nager librement. De plus, la couche aquatique est obligatoire pour les bébé dans les piscines extérieures.Douche : La douche avant la baignade est obligatoire pour tous.",
+              "count": 4
+            },
+            {
+              "value": "Merci de :Respecter l’usage du terrainObtenir un permis pour tenir une partie organisée à loisirs.anjou@montreal.caRespecter les horaires d’utilisationSuivre les consignes du personnel et demeurer courtois avec les autresLes poussettes, trottinettes et vélos, de même que les chiens et la nourriture et boisson doivent demeurer à l’extérieur du terrain.Tout ce qui pourrait abimer la surface de jeu est interdit (exemple : gommes, talons, etc.).Les contrevenants sont passibles d’une amende pouvant aller jusqu’à 500 $.",
+              "count": 3
+            },
+            {
+              "value": "Respecter les règlements en vigueur",
+              "count": 3
+            },
+            {
+              "value": "Vous voulez vous baigner dans une piscine de la Ville? Vous accompagnez un enfant dans les jeux d’eau ou à la pataugeoire? Voici les bons comportements à adopter pour la sécurité de toutes et tous.",
+              "count": 3
+            },
+            {
+              "value": "Les détenteurs et détentrices de permis ont priorité de jeu sur le terrain.",
+              "count": 2
+            },
+            {
+              "value": "Chaussures et vêtements de sports obligatoires.",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (89.0% null)",
+          "warnings_en": "Partially populated field (89.0% null)"
+        },
+        {
+          "raw_name": "paiement",
+          "clean_name_fr": "Paiement",
+          "clean_name_en": "Paiement",
+          "description_fr": "Champ paiement",
+          "description_en": "Paiement field",
+          "type": "category",
+          "null_pct": 95.3,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 16,
+          "top_values": [
+            {
+              "value": "Carte de crédit MasterCard et Visa (limite de 5000 $)",
+              "count": 7
+            },
+            {
+              "value": "Argent comptant,Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit",
+              "count": 7
+            },
+            {
+              "value": "Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit,Chèque à l'ordre de la Ville de Montréal,Mandat postal à l’ordre de la Ville de Montréal",
+              "count": 4
+            },
+            {
+              "value": "Argent comptant",
+              "count": 4
+            },
+            {
+              "value": "Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit",
+              "count": 4
+            },
+            {
+              "value": "Argent comptant,Carte de crédit MasterCard et Visa,Carte de débit",
+              "count": 3
+            },
+            {
+              "value": "Argent comptant (limite de 500 $ par jour),Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit,Chèque à l'ordre de la Ville de Montréal,Mandat postal à l’ordre de la Ville de Montréal",
+              "count": 3
+            },
+            {
+              "value": "Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit,Chèque à l'ordre de la Ville de Montréal",
+              "count": 3
+            },
+            {
+              "value": "Argent comptant,Carte de crédit MasterCard et Visa (limite de 5000 $)",
+              "count": 3
+            },
+            {
+              "value": "Argent comptant,Carte de crédit MasterCard et Visa (limite de 5000 $),Carte de débit,Chèque certifié à l’ordre de la Ville de Montréal",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "Champ presque vide (95.3% null)",
+          "warnings_en": "Nearly empty field (95.3% null)"
+        },
+        {
+          "raw_name": "telephone",
+          "clean_name_fr": "Telephone",
+          "clean_name_en": "Telephone",
+          "description_fr": "Champ telephone",
+          "description_en": "Telephone field",
+          "type": "text",
+          "null_pct": 80.0,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 137,
+          "top_values": [
+            {
+              "value": "numéro: 5146392248",
+              "count": 11
+            },
+            {
+              "value": "numéro: 5148720311",
+              "count": 9
+            },
+            {
+              "value": "numéro: 5148556110",
+              "count": 5
+            },
+            {
+              "value": "numéro: 5148728014",
+              "count": 5
+            },
+            {
+              "value": "numéro: 5146392247",
+              "count": 4
+            },
+            {
+              "value": "numéro: 5148722786",
+              "count": 4
+            },
+            {
+              "value": "numéro: 5144834680",
+              "count": 4
+            },
+            {
+              "value": "numéro: 5148556107",
+              "count": 3
+            },
+            {
+              "value": "numéro: 4388693648",
+              "count": 3
+            },
+            {
+              "value": "numéro: 5144814634",
+              "count": 3
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (80.0% null)",
+          "warnings_en": "Partially populated field (80.0% null)"
+        },
+        {
+          "raw_name": "courriel",
+          "clean_name_fr": "Courriel",
+          "clean_name_en": "Courriel",
+          "description_fr": "Champ courriel",
+          "description_en": "Courriel field",
+          "type": "text",
+          "null_pct": 92.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 50,
+          "top_values": [
+            {
+              "value": "loisirslachine@montreal.ca",
+              "count": 19
+            },
+            {
+              "value": "reservation_rdppat@montreal.ca",
+              "count": 5
+            },
+            {
+              "value": "loisirslachine@ville.montreal.qc.ca",
+              "count": 4
+            },
+            {
+              "value": "arenas.so@montreal.ca",
+              "count": 3
+            },
+            {
+              "value": "reservation-multisports@asbm.ca",
+              "count": 2
+            },
+            {
+              "value": "pleinair@guepe.qc.ca",
+              "count": 2
+            },
+            {
+              "value": "so_reservations@montreal.ca",
+              "count": 2
+            },
+            {
+              "value": "info@vertcite.ca",
+              "count": 1
+            },
+            {
+              "value": "59saint-pierre@concertactionlachine.org",
+              "count": 1
+            },
+            {
+              "value": "ibsg.permisurbanisme@montreal.ca",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "Champ presque vide (92.0% null)",
+          "warnings_en": "Nearly empty field (92.0% null)"
+        },
+        {
+          "raw_name": "titre_lieu_adresse_postale",
+          "clean_name_fr": "Titre Lieu Adresse Postale",
+          "clean_name_en": "Titre Lieu Address Postale",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "top_values": [
+            {
+              "value": "Piano public du Marché Jean-Talon",
+              "count": 1
+            },
+            {
+              "value": "Centre Hortense-Duclos",
+              "count": 1
+            },
+            {
+              "value": "Maison Robert-Bélanger",
+              "count": 1
+            },
+            {
+              "value": "Piano public de la Plaza Saint-Hubert",
+              "count": 1
+            },
+            {
+              "value": "Le 59 Saint-Pierre",
+              "count": 1
+            },
+            {
+              "value": "Piano public du square Viger",
+              "count": 1
+            },
+            {
+              "value": "Piano public du parc Molson",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – L'Île-Bizard–Sainte-Geneviève",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – Montréal-Nord",
+              "count": 1
+            },
+            {
+              "value": "Comptoir des permis – Rivière-des-Prairies–Pointe-aux-Trembles",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "adresse_principale",
+          "clean_name_fr": "Adresse Principale",
+          "clean_name_en": "Address Principale",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 609,
+          "top_values": [
+            {
+              "value": "5485, chemin de la Côte-Saint-Paul",
+              "count": 11
+            },
+            {
+              "value": "10400, avenue de Belleville",
+              "count": 7
+            },
+            {
+              "value": "5200, boulevard Lavoisier",
+              "count": 7
+            },
+            {
+              "value": "1505, rue Cardinal",
+              "count": 7
+            },
+            {
+              "value": "5925, avenue de Montmagny",
+              "count": 7
+            },
+            {
+              "value": "7125, rue Liénart",
+              "count": 6
+            },
+            {
+              "value": "2345, boulevard Thimens",
+              "count": 6
+            },
+            {
+              "value": "10555, rue Lajeunesse",
+              "count": 6
+            },
+            {
+              "value": "3500, avenue Laurier Est",
+              "count": 6
+            },
+            {
+              "value": "7070, avenue de la Nantaise",
+              "count": 5
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "adresse_secondaire",
+          "clean_name_fr": "Adresse Secondaire",
+          "clean_name_en": "Address Secondaire",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "text",
+          "null_pct": 97.3,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 27,
+          "top_values": [
+            {
+              "value": "Au coin des avenues Casgrain et Shamrock",
+              "count": 1
+            },
+            {
+              "value": "Au coin de la rue Beaubien Est et de l'avenue Louis-Hébert",
+              "count": 1
+            },
+            {
+              "value": "2e étage, porte arrière, (Sainte-Geneviève)",
+              "count": 1
+            },
+            {
+              "value": "2e étage",
+              "count": 1
+            },
+            {
+              "value": "Bureau 104",
+              "count": 1
+            },
+            {
+              "value": "Au rez-de-chaussée",
+              "count": 1
+            },
+            {
+              "value": "Secteur des Bassins du Nouveau Havre",
+              "count": 1
+            },
+            {
+              "value": "10e étage",
+              "count": 1
+            },
+            {
+              "value": "Coin Perras et 68e avenue",
+              "count": 1
+            },
+            {
+              "value": "Porte 11",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "Champ presque vide (97.3% null)",
+          "warnings_en": "Nearly empty field (97.3% null)"
+        },
+        {
+          "raw_name": "code_postal",
+          "clean_name_fr": "Code postal",
+          "clean_name_en": "Postal code",
+          "description_fr": "Champ code postal",
+          "description_en": "Postal code field",
+          "type": "text",
+          "null_pct": 16.0,
+          "quality": "usable",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 452,
+          "top_values": [
+            {
+              "value": "H4R1T4",
+              "count": 10
+            },
+            {
+              "value": "H1R0A9",
+              "count": 8
+            },
+            {
+              "value": "H4G2A3",
+              "count": 8
+            },
+            {
+              "value": "H4C1X3",
+              "count": 8
+            },
+            {
+              "value": "H1S2X9",
+              "count": 7
+            },
+            {
+              "value": "H1H4Z7",
+              "count": 7
+            },
+            {
+              "value": "H3L2E5",
+              "count": 7
+            },
+            {
+              "value": "H4E2V6",
+              "count": 7
+            },
+            {
+              "value": "H8S1W4",
+              "count": 6
+            },
+            {
+              "value": "H4L3G3",
+              "count": 6
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ville",
+          "clean_name_fr": "Ville",
+          "clean_name_en": "City",
+          "description_fr": "Champ ville",
+          "description_en": "City field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "Montréal",
+              "count": 993
+            },
+            {
+              "value": "Saint-Laurent",
+              "count": 2
+            },
+            {
+              "value": "Montréal (Québec)",
+              "count": 2
+            },
+            {
+              "value": "Pierrefonds-Roxboro",
+              "count": 1
+            },
+            {
+              "value": "L'Ile-Bizard",
+              "count": 1
+            },
+            {
+              "value": "Montreal",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "long",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.945479,
+          "max": 73.677534,
+          "mean": -73.326769,
+          "pct_in_montreal_bbox": 99.4,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "lat",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.416275,
+          "max": 45.69848,
+          "mean": 45.531535,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "X",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 269962.7,
+          "max": 2865880.8,
+          "mean": 300444.152953,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Y",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5030711.8,
+          "max": 14407587.6,
+          "mean": 5062254.684384,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "spatial join via lat/long coordinates",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche",
+        "Donnees potentiellement incompletes",
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection",
+        "Data potentially incomplete",
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-cuisine-de-rue",
+      "title_fr": "Calendrier de la cuisine de rue (archives)",
+      "title_en": "Calendrier De La Cuisine De Rue Archives",
+      "description_fr": "Le calendrier de cuisine de rue présente la rotation quotidienne des camions de cuisine de rue en fonction des sites.",
+      "description_en": "Le Calendrier De Cuisine De Rue Prsente La Rotation Quotidienne Des Camions De Cuisine De Rue En Fonction Des Sites",
+      "publisher": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "update_frequency": "continuous",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "La Ville de Montréal décerne à des camions un permis les autorisant à opérer sur l'un de lieux prévus à cet effet. La localisation quotidienne des camions est gérée par les opérateurs des camions et par l'Association des restaurateurs de rue du Québec.\n\n\nNote : Le système technologique ainsi que les modalités contractuelles ont été modifiés entre la saison 2016 et 2017, impliquant un nouveau format de données. L'ancien point d'accès aux données a été désactivé.\n\n## Dictionnaire de données\n\n\n\nLes enregistrements sont structurés comme une liste de lots (lieu où peuvent se stationner les camions).  Pour chaque lieu, l'attribut attending contient une liste de structures représentant les camions présents.\n\n#### Structure lot\n\n\n\n- lot_id: Identifiant unique du lot.\n\n- name: Nom du lot.\n\n- city_id: Identifiant de la ville (la plateforme contient des données pour plusieurs villes).\n\n- spots: Nombre de camions pouvant se stationner dans ce lieu.\n\n- address: Adresse civique la plus proche.\n\n- zip: Code postal.\n\n- phone: Numéro de téléphone du gestionnaire du lieu, en l'occurrence l'Association des restaurateurs de rue du Québec, en charge de l'organisation de la répartition des camions.\n\n- email: Courriel du gestionnaire.\n\n- lat: Latitude du lieu selon le référentiel WGS84.\n\n- lng: Longitude du lieu selon le référentiel WGS84.\n\n- date: Date s'appliquant à l'enregistrement au format MM/JJ/AAAA.\n\n- start: Heure de début de disponibilité du lieu.\n\n- end: Heure de fin de disponibilité du lieu.\n\n\n#### Structure d'un élément de la liste attending représentant les informations d'un camion\n\n\n\n- name: Nom du camion.\n\n- email: Courriel pour contacter le propriétaire du camion.\n\n- twitter: Compte Twitter.\n\n- website: Adresse du site Web.\n\n- id: Identifiant unique du camion.\n\n- cuisine_type: Type de cuisine.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "XLSX",
+        "JSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    },
+    {
+      "slug": "vmtl-agriculture-urbaine-sondage",
+      "title_fr": "Agriculture urbaine : sondage auprès de la population de l’île de Montréal",
+      "title_en": "Agriculture Urbaine survey Auprs De La population De Lle De Montral",
+      "description_fr": "La Division du développement durable de la Ville de Montréal a confié à la firme Bureau d’intervieweurs professionnels (BIP Recherche) la réalisation d’un sondage auprès de la population de l’Île de Montréal portant sur l’agriculture urbaine. Dans ce contexte, l’agriculture urbaine est entendue comme la production alimentaire en milieu urbain.\r\n\r\nLe sondage visait à :  \r\n  - Mesurer la proportion de Montréalais qui pratique l’agriculture urbaine ;  \r\n  - Connaître, parmi les agriculteurs urbains, quelle proportion pratique l’agriculture urbaine dans les lieux suivants : balcon, cour arrière, façade ou côté d’un bâtiment, ruelle, jardin communautaire ou jardin collectif ;  \r\n  - Mesurer la proportion des Montréalais qui met en œuvre des bonnes pratiques : compostage, contrôle des pesticides, récupération de l’eau de pluie, redistribution des surplus de semis ou de récoltes, etc. ;  \r\n  - Connaître les raisons pour lesquelles certains ménages ne pratiquent pas l’agriculture urbaine.",
+      "description_en": "La Division Du Dveloppement Durable De La city De Montral A Confi La Firme Bureau Dintervieweurs Professionnels Bip Recherche La Ralisation Dun survey Auprs De La population De Lle De M",
+      "publisher": "Service de la diversité et de l'inclusion sociale",
+      "update_frequency": "notPlanned",
+      "total_records": 882,
+      "temporal_range": null,
+      "methodology_fr": "**Univers d’enquête et mode d’administration**\n\n\nL’univers d’enquête est constitué des personnes âgées de 18 ans et plus qui résident sur l’Île de Montréal. Le sondage a été administré par téléphone seulement. \n\n\n**Questionnaire**\n\n\nLe questionnaire utilisé pour ce sondage a été conçu par la Division du développement durable de la Ville de Montréal, en collaboration avec la Direction des communications et la firme BIP. Le questionnaire est présenté à l’annexe 1 du sommaire exécutif. \n\n\n**Plan d’échantillonnage**\n\n\nLe plan d’échantillonnage élaboré par BIP devait permettre de compléter un maximum d’entrevues dans le cadre d’un budget où 600 entrevues seraient réalisées si 100 % des Montréalais pratiquaient l’agriculture urbaine. Un taux de réponse minimal de 45 % était souhaité. Advenant une incidence plus faible de personnes qui pratiquaient l’agriculture urbaine, BIP devait compléter un maximum d’entrevues auprès de personnes pratiquant l’agriculture urbaine et poser quelques questions additionnelles aux personnes ne pratiquant pas cette activité tout en respectant l’envergure du projet initial.\n\n\nL’échantillon a été produit par la firme Échantillonneur ASDE. Il s’agit d’un échantillon probabiliste stratifié avec génération aléatoire des numéros de téléphone.\n\n\n**Collecte des données, taux de réponse et marge d’erreur**\n\n\nLe sondage s’est déroulé du 30 juillet au 25 août 2013. Au total, 882 entrevues ont été complétées, soit 360 entrevues de 8 minutes auprès de personnes pratiquant l’agriculture urbaine et 522 entrevues de 4 minutes auprès de personnes ne pratiquant pas cette activité. Le taux de réponse est de 51,4 %. \n\n\nLe taux de réponse est le calcul en pourcentage du rapport entre :\n\n  1) le nombre de questionnaires remplis utilisables et\n\n  2) le nombre total de contacts réalisés moins les numéros non valides et les numéros hors échantillon.  \n\n\nLe taux de réponse est calculé selon les normes de l’Association de la recherche et de l’intelligence marketing (ARIM). Le rapport administratif du déroulement du sondage, qui comprend le taux de réponse, est présenté au tableau 1.1 de la page suivante.\n\n\nLa marge d’erreur est de 3,3 %, 19 fois sur 20, si on considère les 882 répondants. Mais si on considère chaque segment de répondants individuellement, la marge d’erreur est plus élevée :\n\n\n- Les analyses à l’intérieur du segment de personnes pratiquant l’agriculture urbaine sont de 5,2 % (360 entrevues).\n\n- Les analyses à l’intérieur du segment de personnes ne pratiquant pas l’agriculture urbaine sont de 4,3 % (522 entrevues).\n\n\n\n**Pondération et traitement des données**\n\n\nLes entrevues ont été compilées dans le logiciel Interviewer Windows de Voxco et traitées à l’aide du logiciel Stat-XP. Les données ont été pondérées selon l’âge et le sexe, à partir des données de Statistique Canada – recensement 2011.\n\n\nPar exemple, le nombre d’enregistrements ou taille de l’ensemble de données. \n\n\nLes codes postaux sont disponibles dans les données brutes. L",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "DOCX",
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "quest",
+          "clean_name_fr": "Quest",
+          "clean_name_en": "Quest",
+          "description_fr": "Champ quest",
+          "description_en": "Quest field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 882,
+          "min": 3.0,
+          "max": 7943.0,
+          "mean": 2808.6077,
+          "median": 2497.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ville",
+          "clean_name_fr": "Ville",
+          "clean_name_en": "City",
+          "description_fr": "Champ ville",
+          "description_en": "City field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 28,
+          "top_values": [
+            {
+              "value": "MONTREAL",
+              "count": 519
+            },
+            {
+              "value": "MONTREAL-NORD",
+              "count": 41
+            },
+            {
+              "value": "SAINT-LAURENT",
+              "count": 34
+            },
+            {
+              "value": "SAINT-LEONARD",
+              "count": 33
+            },
+            {
+              "value": "VERDUN",
+              "count": 31
+            },
+            {
+              "value": "PIERREFONDS",
+              "count": 31
+            },
+            {
+              "value": "LASALLE",
+              "count": 26
+            },
+            {
+              "value": "DOLLARD-DES-ORMEAUX",
+              "count": 19
+            },
+            {
+              "value": "LACHINE",
+              "count": 18
+            },
+            {
+              "value": "ANJOU",
+              "count": 16
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "codep",
+          "clean_name_fr": "Codep",
+          "clean_name_en": "Codep",
+          "description_fr": "Champ code",
+          "description_en": "Code field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 819,
+          "top_values": [
+            {
+              "value": "H2E",
+              "count": 12
+            },
+            {
+              "value": "H1N",
+              "count": 8
+            },
+            {
+              "value": "H2K",
+              "count": 6
+            },
+            {
+              "value": "H1G",
+              "count": 4
+            },
+            {
+              "value": "H8Y",
+              "count": 4
+            },
+            {
+              "value": "H2B",
+              "count": 4
+            },
+            {
+              "value": "H4N",
+              "count": 4
+            },
+            {
+              "value": "H2S",
+              "count": 3
+            },
+            {
+              "value": "H9R",
+              "count": 3
+            },
+            {
+              "value": "H2Y",
+              "count": 3
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "rta",
+          "clean_name_fr": "Rta",
+          "clean_name_en": "Rta",
+          "description_fr": "Champ rta",
+          "description_en": "Rta field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 92,
+          "top_values": [
+            {
+              "value": "H1G",
+              "count": 27
+            },
+            {
+              "value": "H1E",
+              "count": 22
+            },
+            {
+              "value": "H1H",
+              "count": 22
+            },
+            {
+              "value": "H2E",
+              "count": 21
+            },
+            {
+              "value": "H4E",
+              "count": 20
+            },
+            {
+              "value": "H1L",
+              "count": 19
+            },
+            {
+              "value": "H1W",
+              "count": 17
+            },
+            {
+              "value": "H1N",
+              "count": 17
+            },
+            {
+              "value": "H1X",
+              "count": 17
+            },
+            {
+              "value": "H2M",
+              "count": 17
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arron",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 32,
+          "min": 1.0,
+          "max": 33.0,
+          "mean": 12.6905,
+          "median": 11.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "debut",
+          "clean_name_fr": "Date de debut",
+          "clean_name_en": "Start date",
+          "description_fr": "Champ date de debut",
+          "description_en": "Start date field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "mess1",
+          "clean_name_fr": "Mess1",
+          "clean_name_en": "Mess1",
+          "description_fr": "Champ mess1",
+          "description_en": "Mess1 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 882
+            }
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q1",
+          "clean_name_fr": "Q1",
+          "clean_name_en": "Q1",
+          "description_fr": "Champ q1",
+          "description_en": "Q1 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 522
+            },
+            {
+              "value": "1",
+              "count": 360
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5918,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q2_m1",
+          "clean_name_fr": "Q2 M1",
+          "clean_name_en": "Q2 M1",
+          "description_fr": "Champ q2 m1",
+          "description_en": "Q2 M1 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 227
+            },
+            {
+              "value": "1",
+              "count": 101
+            },
+            {
+              "value": "5",
+              "count": 17
+            },
+            {
+              "value": "3",
+              "count": 7
+            },
+            {
+              "value": "97",
+              "count": 6
+            },
+            {
+              "value": "4",
+              "count": 2
+            }
+          ],
+          "min": 1.0,
+          "max": 97.0,
+          "mean": 3.475,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q2_m2",
+          "clean_name_fr": "Q2 M2",
+          "clean_name_en": "Q2 M2",
+          "description_fr": "Champ q2 m2",
+          "description_en": "Q2 M2 field",
+          "type": "numeric",
+          "null_pct": 95.7,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 12
+            },
+            {
+              "value": "3",
+              "count": 9
+            },
+            {
+              "value": "2",
+              "count": 8
+            },
+            {
+              "value": "97",
+              "count": 5
+            },
+            {
+              "value": "5",
+              "count": 4
+            }
+          ],
+          "min": 1.0,
+          "max": 97.0,
+          "mean": 14.7368,
+          "median": 2.0,
+          "warnings_fr": "Champ presque vide (95.7% null)",
+          "warnings_en": "Nearly empty field (95.7% null)"
+        },
+        {
+          "raw_name": "q2_m3",
+          "clean_name_fr": "Q2 M3",
+          "clean_name_en": "Q2 M3",
+          "description_fr": "Champ q2 m3",
+          "description_en": "Q2 M3 field",
+          "type": "numeric",
+          "null_pct": 99.9,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 1
+            }
+          ],
+          "min": 2.0,
+          "max": 2.0,
+          "mean": 2.0,
+          "median": 2.0,
+          "warnings_fr": "Champ presque vide (99.9% null)",
+          "warnings_en": "Nearly empty field (99.9% null)"
+        },
+        {
+          "raw_name": "q3",
+          "clean_name_fr": "Q3",
+          "clean_name_en": "Q3",
+          "description_fr": "Champ q3",
+          "description_en": "Q3 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "4",
+              "count": 153
+            },
+            {
+              "value": "2",
+              "count": 103
+            },
+            {
+              "value": "3",
+              "count": 68
+            },
+            {
+              "value": "1",
+              "count": 36
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.9389,
+          "median": 3.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q4",
+          "clean_name_fr": "Q4",
+          "clean_name_en": "Q4",
+          "description_fr": "Champ q4",
+          "description_en": "Q4 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 194
+            },
+            {
+              "value": "2",
+              "count": 70
+            },
+            {
+              "value": "3",
+              "count": 47
+            },
+            {
+              "value": "4",
+              "count": 43
+            },
+            {
+              "value": "9",
+              "count": 6
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 1.9472,
+          "median": 1.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q5",
+          "clean_name_fr": "Q5",
+          "clean_name_en": "Q5",
+          "description_fr": "Champ q5",
+          "description_en": "Q5 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 268
+            },
+            {
+              "value": "1",
+              "count": 92
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.7444,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q6",
+          "clean_name_fr": "Q6",
+          "clean_name_en": "Q6",
+          "description_fr": "Champ q6",
+          "description_en": "Q6 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 350
+            },
+            {
+              "value": "1",
+              "count": 10
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.9722,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q7",
+          "clean_name_fr": "Q7",
+          "clean_name_en": "Q7",
+          "description_fr": "Champ q7",
+          "description_en": "Q7 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 341
+            },
+            {
+              "value": "1",
+              "count": 19
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.9472,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q8",
+          "clean_name_fr": "Q8",
+          "clean_name_en": "Q8",
+          "description_fr": "Champ q8",
+          "description_en": "Q8 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 286
+            },
+            {
+              "value": "1",
+              "count": 74
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.7944,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q9",
+          "clean_name_fr": "Q9",
+          "clean_name_en": "Q9",
+          "description_fr": "Champ q9",
+          "description_en": "Q9 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 175
+            },
+            {
+              "value": "2",
+              "count": 125
+            },
+            {
+              "value": "3",
+              "count": 43
+            },
+            {
+              "value": "4",
+              "count": 17
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 1.7278,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q10",
+          "clean_name_fr": "Q10",
+          "clean_name_en": "Q10",
+          "description_fr": "Champ q10",
+          "description_en": "Q10 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 214
+            },
+            {
+              "value": "1",
+              "count": 146
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5944,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q11",
+          "clean_name_fr": "Q11",
+          "clean_name_en": "Q11",
+          "description_fr": "Champ q11",
+          "description_en": "Q11 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 268
+            },
+            {
+              "value": "1",
+              "count": 92
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.7444,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q12",
+          "clean_name_fr": "Q12",
+          "clean_name_en": "Q12",
+          "description_fr": "Champ q12",
+          "description_en": "Q12 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 288
+            },
+            {
+              "value": "2",
+              "count": 47
+            },
+            {
+              "value": "9",
+              "count": 25
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 1.6861,
+          "median": 1.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q13",
+          "clean_name_fr": "Q13",
+          "clean_name_en": "Q13",
+          "description_fr": "Champ q13",
+          "description_en": "Q13 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 207
+            },
+            {
+              "value": "2",
+              "count": 153
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.425,
+          "median": 1.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "q14_m1",
+          "clean_name_fr": "Q14 M1",
+          "clean_name_en": "Q14 M1",
+          "description_fr": "Champ q14 m1",
+          "description_en": "Q14 M1 field",
+          "type": "numeric",
+          "null_pct": 40.8,
+          "quality": "usable",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 21,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 127
+            },
+            {
+              "value": "4",
+              "count": 123
+            },
+            {
+              "value": "5",
+              "count": 68
+            },
+            {
+              "value": "3",
+              "count": 63
+            },
+            {
+              "value": "97",
+              "count": 28
+            },
+            {
+              "value": "2",
+              "count": 17
+            },
+            {
+              "value": "13",
+              "count": 16
+            },
+            {
+              "value": "99",
+              "count": 14
+            },
+            {
+              "value": "9",
+              "count": 11
+            },
+            {
+              "value": "8",
+              "count": 10
+            }
+          ],
+          "min": 1.0,
+          "max": 99.0,
+          "mean": 11.9847,
+          "median": 4.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q14_m2",
+          "clean_name_fr": "Q14 M2",
+          "clean_name_en": "Q14 M2",
+          "description_fr": "Champ q14 m2",
+          "description_en": "Q14 M2 field",
+          "type": "numeric",
+          "null_pct": 83.4,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 19,
+          "top_values": [
+            {
+              "value": "4",
+              "count": 31
+            },
+            {
+              "value": "1",
+              "count": 26
+            },
+            {
+              "value": "5",
+              "count": 21
+            },
+            {
+              "value": "3",
+              "count": 18
+            },
+            {
+              "value": "2",
+              "count": 8
+            },
+            {
+              "value": "97",
+              "count": 8
+            },
+            {
+              "value": "11",
+              "count": 6
+            },
+            {
+              "value": "6",
+              "count": 5
+            },
+            {
+              "value": "13",
+              "count": 4
+            },
+            {
+              "value": "16",
+              "count": 3
+            }
+          ],
+          "min": 1.0,
+          "max": 97.0,
+          "mean": 10.2055,
+          "median": 4.0,
+          "warnings_fr": "Champ partiellement rempli (83.4% null)",
+          "warnings_en": "Partially populated field (83.4% null)"
+        },
+        {
+          "raw_name": "q14_m3",
+          "clean_name_fr": "Q14 M3",
+          "clean_name_en": "Q14 M3",
+          "description_fr": "Champ q14 m3",
+          "description_en": "Q14 M3 field",
+          "type": "numeric",
+          "null_pct": 97.7,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 10,
+          "top_values": [
+            {
+              "value": "97",
+              "count": 5
+            },
+            {
+              "value": "4",
+              "count": 4
+            },
+            {
+              "value": "1",
+              "count": 3
+            },
+            {
+              "value": "3",
+              "count": 2
+            },
+            {
+              "value": "16",
+              "count": 1
+            },
+            {
+              "value": "14",
+              "count": 1
+            },
+            {
+              "value": "2",
+              "count": 1
+            },
+            {
+              "value": "12",
+              "count": 1
+            },
+            {
+              "value": "20",
+              "count": 1
+            },
+            {
+              "value": "13",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 97.0,
+          "mean": 29.35,
+          "median": 8.0,
+          "warnings_fr": "Champ presque vide (97.7% null)",
+          "warnings_en": "Nearly empty field (97.7% null)"
+        },
+        {
+          "raw_name": "q15",
+          "clean_name_fr": "Q15",
+          "clean_name_en": "Q15",
+          "description_fr": "Champ q15",
+          "description_en": "Q15 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "3",
+              "count": 253
+            },
+            {
+              "value": "4",
+              "count": 253
+            },
+            {
+              "value": "2",
+              "count": 245
+            },
+            {
+              "value": "1",
+              "count": 127
+            },
+            {
+              "value": "9",
+              "count": 4
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 2.7483,
+          "median": 3.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q16",
+          "clean_name_fr": "Q16",
+          "clean_name_en": "Q16",
+          "description_fr": "Champ q16",
+          "description_en": "Q16 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 7,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 412
+            },
+            {
+              "value": "4",
+              "count": 281
+            },
+            {
+              "value": "2",
+              "count": 54
+            },
+            {
+              "value": "6",
+              "count": 49
+            },
+            {
+              "value": "3",
+              "count": 42
+            },
+            {
+              "value": "5",
+              "count": 40
+            },
+            {
+              "value": "9",
+              "count": 4
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 2.6077,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q17",
+          "clean_name_fr": "Q17",
+          "clean_name_en": "Q17",
+          "description_fr": "Champ q17",
+          "description_en": "Q17 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "4",
+              "count": 379
+            },
+            {
+              "value": "2",
+              "count": 231
+            },
+            {
+              "value": "3",
+              "count": 182
+            },
+            {
+              "value": "1",
+              "count": 83
+            },
+            {
+              "value": "9",
+              "count": 7
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 3.0272,
+          "median": 3.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q18",
+          "clean_name_fr": "Q18",
+          "clean_name_en": "Q18",
+          "description_fr": "Champ q18",
+          "description_en": "Q18 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 396
+            },
+            {
+              "value": "4",
+              "count": 255
+            },
+            {
+              "value": "2",
+              "count": 201
+            },
+            {
+              "value": "3",
+              "count": 27
+            },
+            {
+              "value": "9",
+              "count": 3
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 2.1837,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q19",
+          "clean_name_fr": "Q19",
+          "clean_name_en": "Q19",
+          "description_fr": "Champ q19",
+          "description_en": "Q19 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "4",
+              "count": 744
+            },
+            {
+              "value": "3",
+              "count": 68
+            },
+            {
+              "value": "2",
+              "count": 62
+            },
+            {
+              "value": "1",
+              "count": 5
+            },
+            {
+              "value": "9",
+              "count": 3
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 3.7823,
+          "median": 4.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q20",
+          "clean_name_fr": "Q20",
+          "clean_name_en": "Q20",
+          "description_fr": "Champ q20",
+          "description_en": "Q20 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 10,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 437
+            },
+            {
+              "value": "1",
+              "count": 261
+            },
+            {
+              "value": "3",
+              "count": 107
+            },
+            {
+              "value": "4",
+              "count": 42
+            },
+            {
+              "value": "5",
+              "count": 17
+            },
+            {
+              "value": "99",
+              "count": 8
+            },
+            {
+              "value": "6",
+              "count": 7
+            },
+            {
+              "value": "9",
+              "count": 1
+            },
+            {
+              "value": "11",
+              "count": 1
+            },
+            {
+              "value": "7",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 99.0,
+          "mean": 2.9138,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q20a",
+          "clean_name_fr": "Q20A",
+          "clean_name_en": "Q20A",
+          "description_fr": "Champ q20a",
+          "description_en": "Q20A field",
+          "type": "numeric",
+          "null_pct": 29.6,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 9,
+          "top_values": [
+            {
+              "value": "0",
+              "count": 379
+            },
+            {
+              "value": "2",
+              "count": 110
+            },
+            {
+              "value": "1",
+              "count": 88
+            },
+            {
+              "value": "3",
+              "count": 22
+            },
+            {
+              "value": "99",
+              "count": 10
+            },
+            {
+              "value": "4",
+              "count": 7
+            },
+            {
+              "value": "5",
+              "count": 3
+            },
+            {
+              "value": "6",
+              "count": 1
+            },
+            {
+              "value": "8",
+              "count": 1
+            }
+          ],
+          "min": 0.0,
+          "max": 99.0,
+          "mean": 2.2882,
+          "median": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q21",
+          "clean_name_fr": "Q21",
+          "clean_name_en": "Q21",
+          "description_fr": "Champ q21",
+          "description_en": "Q21 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 477
+            },
+            {
+              "value": "2",
+              "count": 398
+            },
+            {
+              "value": "9",
+              "count": 7
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 1.5147,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q22",
+          "clean_name_fr": "Q22",
+          "clean_name_en": "Q22",
+          "description_fr": "Champ q22",
+          "description_en": "Q22 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 7,
+          "top_values": [
+            {
+              "value": "9",
+              "count": 221
+            },
+            {
+              "value": "6",
+              "count": 163
+            },
+            {
+              "value": "3",
+              "count": 124
+            },
+            {
+              "value": "2",
+              "count": 122
+            },
+            {
+              "value": "1",
+              "count": 106
+            },
+            {
+              "value": "4",
+              "count": 81
+            },
+            {
+              "value": "5",
+              "count": 65
+            }
+          ],
+          "min": 1.0,
+          "max": 9.0,
+          "mean": 4.9184,
+          "median": 5.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q23",
+          "clean_name_fr": "Q23",
+          "clean_name_en": "Q23",
+          "description_fr": "Champ q23",
+          "description_en": "Q23 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 454
+            },
+            {
+              "value": "1",
+              "count": 428
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5147,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q24",
+          "clean_name_fr": "Q24",
+          "clean_name_en": "Q24",
+          "description_fr": "Champ q24",
+          "description_en": "Q24 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 737
+            },
+            {
+              "value": "2",
+              "count": 145
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.1644,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "q25",
+          "clean_name_fr": "Q25",
+          "clean_name_en": "Q25",
+          "description_fr": "Champ q25",
+          "description_en": "Q25 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 434
+            },
+            {
+              "value": "1",
+              "count": 231
+            },
+            {
+              "value": "3",
+              "count": 217
+            }
+          ],
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 1.9841,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b1",
+          "clean_name_fr": "B1",
+          "clean_name_en": "B1",
+          "description_fr": "Champ b1",
+          "description_en": "B1 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 434
+            },
+            {
+              "value": "1",
+              "count": 231
+            },
+            {
+              "value": "3",
+              "count": 217
+            }
+          ],
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 1.9841,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b2",
+          "clean_name_fr": "B2",
+          "clean_name_en": "B2",
+          "description_fr": "Champ b2",
+          "description_en": "B2 field",
+          "type": "numeric",
+          "null_pct": 0.5,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "3",
+              "count": 253
+            },
+            {
+              "value": "4",
+              "count": 253
+            },
+            {
+              "value": "2",
+              "count": 245
+            },
+            {
+              "value": "1",
+              "count": 127
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.7198,
+          "median": 3.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b3",
+          "clean_name_fr": "B3",
+          "clean_name_en": "B3",
+          "description_fr": "Champ b3",
+          "description_en": "B3 field",
+          "type": "numeric",
+          "null_pct": 0.5,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 466
+            },
+            {
+              "value": "3",
+              "count": 281
+            },
+            {
+              "value": "4",
+              "count": 89
+            },
+            {
+              "value": "2",
+              "count": 42
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 1.992,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b4",
+          "clean_name_fr": "B4",
+          "clean_name_en": "B4",
+          "description_fr": "Champ b4",
+          "description_en": "B4 field",
+          "type": "numeric",
+          "null_pct": 0.8,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "3",
+              "count": 379
+            },
+            {
+              "value": "1",
+              "count": 314
+            },
+            {
+              "value": "2",
+              "count": 182
+            }
+          ],
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 2.0743,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b5",
+          "clean_name_fr": "B5",
+          "clean_name_en": "B5",
+          "description_fr": "Champ b5",
+          "description_en": "B5 field",
+          "type": "numeric",
+          "null_pct": 0.3,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 396
+            },
+            {
+              "value": "3",
+              "count": 255
+            },
+            {
+              "value": "2",
+              "count": 228
+            }
+          ],
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 1.8396,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b6",
+          "clean_name_fr": "B6",
+          "clean_name_en": "B6",
+          "description_fr": "Champ b6",
+          "description_en": "B6 field",
+          "type": "numeric",
+          "null_pct": 0.3,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 744
+            },
+            {
+              "value": "1",
+              "count": 135
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.8464,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b7",
+          "clean_name_fr": "B7",
+          "clean_name_en": "B7",
+          "description_fr": "Champ b7",
+          "description_en": "B7 field",
+          "type": "numeric",
+          "null_pct": 0.8,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 477
+            },
+            {
+              "value": "2",
+              "count": 398
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.4549,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b8",
+          "clean_name_fr": "B8",
+          "clean_name_en": "B8",
+          "description_fr": "Champ b8",
+          "description_en": "B8 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 454
+            },
+            {
+              "value": "1",
+              "count": 428
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5147,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b9",
+          "clean_name_fr": "B9",
+          "clean_name_en": "B9",
+          "description_fr": "Champ b9",
+          "description_en": "B9 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 737
+            },
+            {
+              "value": "2",
+              "count": 145
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.1644,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b10",
+          "clean_name_fr": "B10",
+          "clean_name_en": "B10",
+          "description_fr": "Champ b10",
+          "description_en": "B10 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 522
+            },
+            {
+              "value": "1",
+              "count": 360
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5918,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "b11",
+          "clean_name_fr": "B11",
+          "clean_name_en": "B11",
+          "description_fr": "Champ b11",
+          "description_en": "B11 field",
+          "type": "numeric",
+          "null_pct": 59.2,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "3",
+              "count": 153
+            },
+            {
+              "value": "1",
+              "count": 139
+            },
+            {
+              "value": "2",
+              "count": 68
+            }
+          ],
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 2.0389,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (59.2% null)",
+          "warnings_en": "Partially populated field (59.2% null)"
+        },
+        {
+          "raw_name": "pond",
+          "clean_name_fr": "Pond",
+          "clean_name_en": "Pond",
+          "description_fr": "Champ pond",
+          "description_en": "Pond field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 8,
+          "top_values": [
+            {
+              "value": "0.71318334403313",
+              "count": 137
+            },
+            {
+              "value": "0.76672607558491",
+              "count": 135
+            },
+            {
+              "value": "0.91357010076408",
+              "count": 131
+            },
+            {
+              "value": "0.81856585972332",
+              "count": 119
+            },
+            {
+              "value": "0.56147799073084",
+              "count": 117
+            },
+            {
+              "value": "0.98007152863766",
+              "count": 115
+            },
+            {
+              "value": "2.16279574167529",
+              "count": 67
+            },
+            {
+              "value": "2.30148156975812",
+              "count": 61
+            }
+          ],
+          "min": 0.5615,
+          "max": 2.3015,
+          "mean": 1.0,
+          "median": 0.8186,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    }
+  ],
+  "fixed_at": "2026-03-10T07:57:45.991189",
+  "fixed_v2_at": "2026-03-10T08:09:42.855199"
+}

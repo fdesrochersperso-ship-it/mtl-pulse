@@ -1,0 +1,935 @@
+{
+  "slug": "vmtl-rsqa-indice-qualite-air",
+  "title": "RSQA - indice de la qualité de l'air temps réel (quotidien)",
+  "notes": "La Ville de Montréal mesure la qualité de l’air sous la forme d’une valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50 minutes après l'heure. Par exemple, les données de 13h sont disponibles vers 13h50, et ce, pour les trois ressources.\r\n\r\n***Note :** les systèmes de l'IQA ne changent pas d'heure : ils utilisent toujours l'heure normale de l'Est (HNE) et non l'heure avancée de l'Est (HAE). Ainsi, dans l'exemple ci-dessus, vers 13h50&nbsp;HAE, les données disponibles les plus récentes seront celles de 12h&nbsp;HNE.*\r\n\r\nLes valeurs historiques, mises à jour à quotidiennement, sont disponibles [ici](rsqa-iqa-historique).\r\n\r\nLa [liste des stations](rsqa-liste-des-stations) et [secteurs](rsqa-secteurs-geographiques) liés aux données du RSQA est également disponible.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "hourly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-17T20:45:22.826827",
+  "metadata_modified": "2026-03-09T19:00:56.956587",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "e131bcf4-12d3-496c-bd8a-32bae66d9d0f",
+      "name": "Visualisation des données",
+      "description": "Carte interactive ",
+      "format": "WEB",
+      "url": "https://carte-qualite-air.montreal.ca/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2024-05-21T14:08:05.197748",
+      "schema": null
+    },
+    {
+      "id": "f4eca3bf-5ded-4d3c-a8dc-ed42486498f3",
+      "name": "IQA détaillé par station en temps réel (Quotidien)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/3e9f7b96-3f25-4404-a5ad-22d9a31060e6/resource/f4eca3bf-5ded-4d3c-a8dc-ed42486498f3/download/iqa-by-station-details.csv",
+      "datastore_active": true,
+      "size": 10718,
+      "last_modified": "2026-03-09T18:47:01.963740",
+      "created": "2025-11-18T16:49:56.421827",
+      "schema": {
+        "resource_id": "f4eca3bf-5ded-4d3c-a8dc-ed42486498f3",
+        "total_records": 367,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "stationId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pollutant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "valeur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id": "8",
+            "stationId": "03",
+            "pollutant": "NO2",
+            "valeur": "-9999",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 2,
+            "Id": "8",
+            "stationId": "03",
+            "pollutant": "O3",
+            "valeur": "-9999",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 3,
+            "Id": "8",
+            "stationId": "03",
+            "pollutant": "SO2",
+            "valeur": "1",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 4,
+            "Id": "8",
+            "stationId": "03",
+            "pollutant": "PM2.5",
+            "valeur": "-9999",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 5,
+            "Id": "7",
+            "stationId": "06",
+            "pollutant": "NO2",
+            "valeur": "-9999",
+            "date": "2026-03-09",
+            "heure": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "Id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "stationId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pollutant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "valeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 502,
+        "total_records": 502,
+        "audited_at": "2026-03-10T00:25:00.565002+00:00",
+        "fields": {
+          "Id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 11.0,
+            "mean": 7.251,
+            "median": 8.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 95
+              },
+              {
+                "value": "8",
+                "count": 76
+              },
+              {
+                "value": "1",
+                "count": 76
+              },
+              {
+                "value": "7",
+                "count": 75
+              },
+              {
+                "value": "5",
+                "count": 72
+              },
+              {
+                "value": "9",
+                "count": 54
+              },
+              {
+                "value": "10",
+                "count": 54
+              }
+            ]
+          },
+          "stationId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 103.0,
+            "mean": 40.1255,
+            "median": 31.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "31",
+                "count": 95
+              },
+              {
+                "value": "80",
+                "count": 76
+              },
+              {
+                "value": "3",
+                "count": 72
+              },
+              {
+                "value": "55",
+                "count": 72
+              },
+              {
+                "value": "6",
+                "count": 71
+              },
+              {
+                "value": "17",
+                "count": 54
+              },
+              {
+                "value": "103",
+                "count": 54
+              },
+              {
+                "value": "03",
+                "count": 4
+              },
+              {
+                "value": "06",
+                "count": 4
+              }
+            ]
+          },
+          "pollutant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "PM2.5",
+                "count": 130
+              },
+              {
+                "value": "NO2",
+                "count": 130
+              },
+              {
+                "value": "O3",
+                "count": 129
+              },
+              {
+                "value": "SO2",
+                "count": 76
+              },
+              {
+                "value": "CO",
+                "count": 37
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "valeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -9999.0,
+            "max": 29.0,
+            "mean": -251.3187,
+            "median": 6.0,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 143
+              },
+              {
+                "value": "6",
+                "count": 40
+              },
+              {
+                "value": "8",
+                "count": 39
+              },
+              {
+                "value": "2",
+                "count": 37
+              },
+              {
+                "value": "3",
+                "count": 26
+              },
+              {
+                "value": "7",
+                "count": 21
+              },
+              {
+                "value": "4",
+                "count": 19
+              },
+              {
+                "value": "19",
+                "count": 16
+              },
+              {
+                "value": "9",
+                "count": 16
+              },
+              {
+                "value": "-9999",
+                "count": 13
+              }
+            ]
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-03-09",
+            "max_date": "2026-03-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 18.0,
+            "mean": 9.1753,
+            "median": 9.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 27
+              },
+              {
+                "value": "2",
+                "count": 27
+              },
+              {
+                "value": "3",
+                "count": 27
+              },
+              {
+                "value": "4",
+                "count": 27
+              },
+              {
+                "value": "5",
+                "count": 27
+              },
+              {
+                "value": "6",
+                "count": 27
+              },
+              {
+                "value": "7",
+                "count": 27
+              },
+              {
+                "value": "8",
+                "count": 27
+              },
+              {
+                "value": "9",
+                "count": 27
+              },
+              {
+                "value": "10",
+                "count": 27
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "6554355e-63d1-4a01-a268-91e0763c3606",
+      "name": "IQA par station en temps réel (Quotidien)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/3e9f7b96-3f25-4404-a5ad-22d9a31060e6/resource/6554355e-63d1-4a01-a268-91e0763c3606/download/iqa-by-station.csv",
+      "datastore_active": true,
+      "size": 10203,
+      "last_modified": "2026-03-09T18:47:00.614041",
+      "created": "2025-11-18T16:49:59.367399",
+      "schema": {
+        "resource_id": "6554355e-63d1-4a01-a268-91e0763c3606",
+        "total_records": 95,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "stationId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "address",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pollutant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "valeur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id": "1",
+            "stationId": "80",
+            "address": "2580 Saint-Joseph est",
+            "latitude": "45.54271",
+            "longitude": "-73.57176",
+            "X": "299196.17979080847",
+            "Y": "5044757.5616138885",
+            "pollutant": "SO2",
+            "valeur": "1",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 2,
+            "Id": "7",
+            "stationId": "06",
+            "address": "76540 Chateauneuf",
+            "latitude": "45.602846",
+            "longitude": "-73.558874",
+            "X": "300207.3662953385",
+            "Y": "5051439.768069547",
+            "pollutant": "SO2",
+            "valeur": "1",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 3,
+            "Id": "8",
+            "stationId": "03",
+            "address": "1050-A St-Jean-Baptiste",
+            "latitude": "45.641026",
+            "longitude": "-73.499682",
+            "X": "304824.7896620978",
+            "Y": "5055681.133148133",
+            "pollutant": "SO2",
+            "valeur": "1",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 4,
+            "Id": "11",
+            "stationId": "31",
+            "address": "75 Ontario Est",
+            "latitude": "45.512189",
+            "longitude": "-73.566842",
+            "X": "299577.40838769905",
+            "Y": "5041365.401724615",
+            "pollutant": "SO2",
+            "valeur": "1",
+            "date": "2026-03-09",
+            "heure": "0"
+          },
+          {
+            "_id": 5,
+            "Id": "11",
+            "stationId": "31",
+            "address": "75 Ontario Est",
+            "latitude": "45.512189",
+            "longitude": "-73.566842",
+            "X": "299577.40838769905",
+            "Y": "5041365.401724615",
+            "pollutant": "O3",
+            "valeur": "19",
+            "date": "2026-03-09",
+            "heure": "1"
+          }
+        ]
+      },
+      "field_stats": {
+        "Id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "stationId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "address": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pollutant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "valeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 130,
+        "total_records": 130,
+        "audited_at": "2026-03-10T00:25:01.493800+00:00",
+        "fields": {
+          "Id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 11.0,
+            "mean": 7.2692,
+            "median": 8.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 19
+              },
+              {
+                "value": "8",
+                "count": 19
+              },
+              {
+                "value": "7",
+                "count": 19
+              },
+              {
+                "value": "1",
+                "count": 19
+              },
+              {
+                "value": "10",
+                "count": 18
+              },
+              {
+                "value": "5",
+                "count": 18
+              },
+              {
+                "value": "9",
+                "count": 18
+              }
+            ]
+          },
+          "stationId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 103.0,
+            "mean": 41.7692,
+            "median": 31.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "31",
+                "count": 19
+              },
+              {
+                "value": "80",
+                "count": 19
+              },
+              {
+                "value": "103",
+                "count": 18
+              },
+              {
+                "value": "6",
+                "count": 18
+              },
+              {
+                "value": "55",
+                "count": 18
+              },
+              {
+                "value": "17",
+                "count": 18
+              },
+              {
+                "value": "3",
+                "count": 18
+              },
+              {
+                "value": "03",
+                "count": 1
+              },
+              {
+                "value": "06",
+                "count": 1
+              }
+            ]
+          },
+          "address": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "75 Ontario Est",
+                "count": 19
+              },
+              {
+                "value": "1050-A St-Jean-Baptiste",
+                "count": 19
+              },
+              {
+                "value": "76540 Chateauneuf",
+                "count": 19
+              },
+              {
+                "value": "2580 Saint-Joseph est",
+                "count": 19
+              },
+              {
+                "value": "1540 de Roberval",
+                "count": 18
+              },
+              {
+                "value": "12400 Wilfrid-Oullette",
+                "count": 18
+              },
+              {
+                "value": "4240 Charleroi",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.464611,
+            "max": 45.651691,
+            "mean": 45.572702,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.63726,
+            "max": -73.499682,
+            "mean": -73.569477,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 294090.847007,
+            "max": 304824.789662,
+            "mean": 299376.39253,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5036079.1929,
+            "max": 5056869.020529,
+            "mean": 5048091.200667,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "pollutant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "O3",
+                "count": 116
+              },
+              {
+                "value": "PM2.5",
+                "count": 10
+              },
+              {
+                "value": "SO2",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "valeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 29.0,
+            "mean": 18.2385,
+            "median": 19.0,
+            "unique_count": 22,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "19",
+                "count": 15
+              },
+              {
+                "value": "25",
+                "count": 12
+              },
+              {
+                "value": "21",
+                "count": 10
+              },
+              {
+                "value": "17",
+                "count": 9
+              },
+              {
+                "value": "23",
+                "count": 9
+              },
+              {
+                "value": "13",
+                "count": 8
+              },
+              {
+                "value": "16",
+                "count": 7
+              },
+              {
+                "value": "20",
+                "count": 7
+              },
+              {
+                "value": "18",
+                "count": 7
+              },
+              {
+                "value": "24",
+                "count": 7
+              }
+            ]
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-03-09",
+            "max_date": "2026-03-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 18.0,
+            "mean": 9.2077,
+            "median": 9.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 7
+              },
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "3",
+                "count": 7
+              },
+              {
+                "value": "4",
+                "count": 7
+              },
+              {
+                "value": "5",
+                "count": 7
+              },
+              {
+                "value": "6",
+                "count": 7
+              },
+              {
+                "value": "7",
+                "count": 7
+              },
+              {
+                "value": "8",
+                "count": 7
+              },
+              {
+                "value": "9",
+                "count": 7
+              },
+              {
+                "value": "10",
+                "count": 7
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "IQA",
+    "Pollution",
+    "Qualité de l air",
+    "RSQA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "La valeur 50 de cet indice correspond à la limite supérieure acceptable pour chacun des polluants mesurés. L’indice horaire rapporté est le plus élevé des sous-indices calculés pour cinq des polluants mesurés en continu dans les stations du Réseau de surveillance de la qualité de l’air de Montréal.\n\n\nTrois ressources sont disponibles : IQA détaillé par station, IQA par station et IQA par secteur. La ressource la plus complète, IQA détaillé par station, est agrégée par date, heure et station et le polluant avec la plus grande valeur produit la ressource IQA par station. Puis, la station avec l'IQA le plus élevé pour chaque secteur détermine la ressource IQA par secteur.\n\n## Calcul de l'indice de qualité de l'air\n\n\n\nLa valeur de l'indice de la qualité de l’air (IQA) est définie comme suit :\n\n\n- Bon : De 1 à 25\n\n- Acceptable : De 26 à 50\n\n- Mauvais : 51 ou plus\n\n\n\nOn calcule l’indice selon cette formule : \n\n\n\nIndice = (mesure / norme ou valeur IQA*) x 50\n\n\n\nLe calcul est basé sur le tableau suivant :\n\n\n|   Polluant   |   Symbole   |   Type de mesure   | Valeur de référence (calcul IQA) |\n|:---:|:---:|:---:| ---:|\n| Dioxyde de soufre | SO2 | 10 minutes mobiles | 500 µg/m3 |\n| Monoxyde de carbone | CO | Horaire | 35mg/m3 |\n| Ozone troposphérique | O3 | Horaire | 160 µg/m3 |\n| Dioxyde d'azote | NO2 | Horaire | 400 µg/m3 |\n| Particules fines | PM2,5 | 3 heures mobiles | 35 µg/m3 |\n\n## Dictionnaire de données\n\n\n\n**IQA détaillé par station en temps réel (Quotidien)**\n\n\n- stationId (entier) : Numéro de la station.\n\n- polluant (texte) : Nom du polluant mesuré.\n\n- CO: Monoxyde de carbone.\n\n- NO2: Dioxyde d'azote (NO2).\n\n- O3: Ozone troposphérique (O3).\n\n- PM: Particules fines (PM2,5).\n\n- SO2: Dioxyde de soufre (SO2).\n\n\n\n- valeur (numérique) : Valeur de l'IQA du polluant.\n\n- date (date) : Date de la récolte de données.\n\n- heure (heure) : Heure de la récolte de données.\n\n\n\n**IQA par station en temps réel (Quotidien)**\n\n\n- stationId (entier) : Numéro de la station.\n\n- adresse (texte) : Adresse de la station.\n\n- latitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n- longitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n- X (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n\n- Y (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n\n- polluant (texte) : Polluant ayant le plus d'impact dans le calcul de l'IQA.\n\n- CO: Monoxyde de carbone.\n\n- NO2: Dioxyde d'azote (NO2).\n\n- O3: Ozone troposphérique (O3).\n\n- PM: Particules fines (PM2,5).\n\n- SO2: Dioxyde de soufre (SO2).\n\n\n\n- valeur (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n\n- date (date) : Date de la récolte de données.\n\n- heure (heure) : Heure de la récolte de données.\n\n\n\n**IQA par secteur en temps réel (Quotidien)**\n\n\n- secteur (texte) : Nom du secteur.\n\n- valeur (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n\n- date (date) : Date de la récolte de données.\n\n- heure (heure) : Heure estimée de la récolte de données (selon l'heure à laquelle sont recueillies l'IQA par station et l'IQA détaillé par station en temps réel).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Horaire"
+    },
+    "keywords": [
+      "IQA",
+      "Pollution",
+      "Qualité de l air",
+      "RSQA",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsqa-indice-qualite-air",
+    "scraped_at": "2026-03-09T20:20:10.832970+00:00"
+  }
+}

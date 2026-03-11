@@ -1,0 +1,1625 @@
+{
+  "slug": "vmtl-montant-des-amendes-payees-et-impayees-par-bibliotheque",
+  "title": "Montant des amendes payées et impayées par bibliothèque",
+  "notes": "La première colonne représente les montants des amendes impayées par bibliothèque du 27 juin 2007 au 20 novembre 2014. Par la suite, on retrouve 3 colonnes pour les montants payés pour les années 2012, 2013 et 2014. Les montants pour l'année 2014 sont en date du 19 novembre 2014.\r\n\r\nLes amendes sont pour les frais de retard : http://bibliomontreal.com/abonnez-vous/retards/\r\n\r\n### MÀJ du 3 février 2015 ###\r\n\r\nAjout d'un 2e fichier qui contient les données sur les montants des amendes impayées par bibliothèque, mais avec une division par tranches monétaire de : 0 à 2.99$, 3.00$ à 9.99$, 10.00$ à 19.99$, 20.00$ à 49.99$, 50$ et plus.\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-12-04T19:28:55.255035",
+  "metadata_modified": "2025-08-05T19:04:50.864045",
+  "num_resources": 8,
+  "resources": [
+    {
+      "id": "2450b264-cdf4-46fb-8114-420692e55209",
+      "name": "Visualisation des données",
+      "description": "\r\n\r\n",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYjBlYTVkYzMtNzc1Ny00ZjYyLThmMGItYzk4YmQ4OWYzMWU5IiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-25T21:57:49.099713",
+      "schema": null
+    },
+    {
+      "id": "e2b41b98-ef21-4c65-9fdf-ab2aa748005b",
+      "name": "Documents payés et impayés",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/e2b41b98-ef21-4c65-9fdf-ab2aa748005b/download/documents-payes-et-impayes.xls",
+      "datastore_active": true,
+      "size": 39936,
+      "last_modified": "2023-03-24T15:07:34.845966",
+      "created": "2023-03-24T15:07:34.943673",
+      "schema": {
+        "resource_id": "e2b41b98-ef21-4c65-9fdf-ab2aa748005b",
+        "total_records": 47,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Bibliotheque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "0 a 9.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "10.00 a 19.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "20.00 a 29.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "30.00 a 49.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "50.00 a 99.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "100 et plus",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Total",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Bibliotheque": "Bibliothèque d'Ahuntsic",
+            "0 a 9.99": 7.75,
+            "10.00 a 19.99": 302.2099999999999,
+            "20.00 a 29.99": 247.03,
+            "30.00 a 49.99": 131.05,
+            "50.00 a 99.99": 0,
+            "100 et plus": "0.0",
+            "Total": 688.0400000000002
+          },
+          {
+            "_id": 2,
+            "Bibliotheque": "Bibliothèque de Cartierville",
+            "0 a 9.99": 0,
+            "10.00 a 19.99": 48.85,
+            "20.00 a 29.99": 43.9,
+            "30.00 a 49.99": 34.95,
+            "50.00 a 99.99": 0,
+            "100 et plus": "0.0",
+            "Total": 127.70000000000002
+          },
+          {
+            "_id": 3,
+            "Bibliotheque": "Bibliothèque De Salaberry",
+            "0 a 9.99": 0,
+            "10.00 a 19.99": 34.45,
+            "20.00 a 29.99": 41.95,
+            "30.00 a 49.99": 0,
+            "50.00 a 99.99": 0,
+            "100 et plus": "0.0",
+            "Total": 76.4
+          },
+          {
+            "_id": 4,
+            "Bibliotheque": "Bibliothèque Saul-Bellow",
+            "0 a 9.99": 9.99,
+            "10.00 a 19.99": 73.74,
+            "20.00 a 29.99": 92.88,
+            "30.00 a 49.99": 117.92999999999999,
+            "50.00 a 99.99": 128.42000000000002,
+            "100 et plus": "0.0",
+            "Total": 422.96
+          },
+          {
+            "_id": 5,
+            "Bibliotheque": "Bibliothèque de Saint-Pierre",
+            "0 a 9.99": 2,
+            "10.00 a 19.99": 14.85,
+            "20.00 a 29.99": 0,
+            "30.00 a 49.99": 81.94,
+            "50.00 a 99.99": 0,
+            "100 et plus": "0.0",
+            "Total": 98.78999999999999
+          }
+        ]
+      },
+      "field_stats": {
+        "Bibliotheque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "0 a 9.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "10.00 a 19.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "20.00 a 29.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "30.00 a 49.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50.00 a 99.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "100 et plus": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 47,
+        "total_records": 47,
+        "audited_at": "2026-03-10T00:21:03.991524+00:00",
+        "fields": {
+          "Bibliotheque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 47,
+            "top_values": [
+              {
+                "value": "Bibliothèque d'Ahuntsic",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque De Salaberry",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Saul-Bellow",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Saint-Pierre",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Côte-des-Neiges",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque interculturelle",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Père-Ambroise",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "0 a 9.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 281.3,
+            "mean": 11.9702,
+            "median": 4.99,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 22
+              },
+              {
+                "value": "9.99",
+                "count": 2
+              },
+              {
+                "value": "8.5",
+                "count": 2
+              },
+              {
+                "value": "9.95",
+                "count": 2
+              },
+              {
+                "value": "7.75",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "18.7",
+                "count": 1
+              },
+              {
+                "value": "19.939999999999998",
+                "count": 1
+              },
+              {
+                "value": "35.31",
+                "count": 1
+              }
+            ]
+          },
+          "10.00 a 19.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3812.98,
+            "mean": 162.2545,
+            "median": 73.74,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          },
+          "20.00 a 29.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2962.53,
+            "mean": 126.0651,
+            "median": 69.94,
+            "unique_count": 36,
+            "field_type_detected": "numeric"
+          },
+          "30.00 a 49.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2425.87,
+            "mean": 103.2285,
+            "median": 34.95,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 16
+              },
+              {
+                "value": "34.95",
+                "count": 3
+              },
+              {
+                "value": "31.95",
+                "count": 2
+              },
+              {
+                "value": "131.05",
+                "count": 1
+              },
+              {
+                "value": "117.92999999999999",
+                "count": 1
+              },
+              {
+                "value": "81.94",
+                "count": 1
+              },
+              {
+                "value": "39.95",
+                "count": 1
+              },
+              {
+                "value": "48.95",
+                "count": 1
+              },
+              {
+                "value": "62.65",
+                "count": 1
+              },
+              {
+                "value": "84.92",
+                "count": 1
+              }
+            ]
+          },
+          "50.00 a 99.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 899.44,
+            "mean": 38.274,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 37
+              },
+              {
+                "value": "128.42000000000002",
+                "count": 1
+              },
+              {
+                "value": "119.95",
+                "count": 1
+              },
+              {
+                "value": "52.95",
+                "count": 1
+              },
+              {
+                "value": "191.36",
+                "count": 1
+              },
+              {
+                "value": "78.59",
+                "count": 1
+              },
+              {
+                "value": "57.7",
+                "count": 1
+              },
+              {
+                "value": "62.06",
+                "count": 1
+              },
+              {
+                "value": "64.87",
+                "count": 1
+              },
+              {
+                "value": "143.54000000000002",
+                "count": 1
+              }
+            ]
+          },
+          "100 et plus": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.0",
+                "count": 47
+              }
+            ]
+          },
+          "Total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 10382.12,
+            "mean": 441.7923,
+            "median": 186.24,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "dc2be954-14ce-4ac1-9712-9b86ae3e5131",
+      "name": "Amendes par bibliothèque réparties par années",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/dc2be954-14ce-4ac1-9712-9b86ae3e5131/download/amendesparbiblio20141120.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-04-05T17:43:14.783614",
+      "created": "2016-01-13T12:09:05.949939",
+      "schema": {
+        "resource_id": "dc2be954-14ce-4ac1-9712-9b86ae3e5131",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Bibliothèque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2012",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2013",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2014",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Bibliothèque": "Bibliothèque d'Ahuntsic",
+            "Montant": 3934822,
+            "2012": 4688116,
+            "2013": 4336024,
+            "2014": 3761781
+          },
+          {
+            "_id": 2,
+            "Bibliothèque": "Bibliothèque de Cartierville",
+            "Montant": 2062628,
+            "2012": 1625599,
+            "2013": 1434939,
+            "2014": 1164839
+          },
+          {
+            "_id": 3,
+            "Bibliothèque": "Bibliothèque De Salaberry",
+            "Montant": 289792,
+            "2012": 474505,
+            "2013": 553253,
+            "2014": 427463
+          },
+          {
+            "_id": 4,
+            "Bibliothèque": "Bibliothèque Saul-Bellow",
+            "Montant": 850812,
+            "2012": 1702747,
+            "2013": 1292314,
+            "2014": 1171471
+          },
+          {
+            "_id": 5,
+            "Bibliothèque": "Bibliothèque de Saint-Pierre",
+            "Montant": 45365,
+            "2012": 233649,
+            "2013": 274725,
+            "2014": 255110
+          }
+        ]
+      },
+      "field_stats": {
+        "Bibliothèque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2012": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2013": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2014": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:21:04.834681+00:00",
+        "fields": {
+          "Bibliothèque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 46,
+            "top_values": [
+              {
+                "value": "Bibliothèque d'Ahuntsic",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque De Salaberry",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Saul-Bellow",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Saint-Pierre",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Côte-des-Neiges",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque interculturelle",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Père-Ambroise",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Montant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45365.0,
+            "max": 71500780.0,
+            "mean": 3085255.8043,
+            "median": 1512676.0,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "2012": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 78016502.0,
+            "mean": 3387647.913,
+            "median": 1695099.0,
+            "unique_count": 44,
+            "field_type_detected": "numeric"
+          },
+          "2013": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 142365.0,
+            "max": 74327751.0,
+            "mean": 3227265.2609,
+            "median": 1564066.0,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          },
+          "2014": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 255110.0,
+            "max": 68410414.0,
+            "mean": 2969987.5652,
+            "median": 1410897.0,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "dfaa4c1d-61cb-40a5-9956-6f390e230284",
+      "name": "Amendes par bibliothèque réparties par années",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/dfaa4c1d-61cb-40a5-9956-6f390e230284/download/amendesparbiblio20141120.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:09:04.725932",
+      "created": "2016-01-13T12:09:04.756196",
+      "schema": {
+        "resource_id": "dfaa4c1d-61cb-40a5-9956-6f390e230284",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Bibliothèque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2012.0",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2013.0",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "2014.0",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Bibliothèque": "Bibliothèque d'Ahuntsic",
+            "Montant": 39348.22,
+            "2012.0": 46881.16,
+            "2013.0": 43360.24,
+            "2014.0": 37617.81
+          },
+          {
+            "_id": 2,
+            "Bibliothèque": "Bibliothèque de Cartierville",
+            "Montant": 20626.28,
+            "2012.0": 16255.99,
+            "2013.0": 14349.39,
+            "2014.0": 11648.39
+          },
+          {
+            "_id": 3,
+            "Bibliothèque": "Bibliothèque De Salaberry",
+            "Montant": 2897.92,
+            "2012.0": 4745.05,
+            "2013.0": 5532.53,
+            "2014.0": 4274.63
+          },
+          {
+            "_id": 4,
+            "Bibliothèque": "Bibliothèque Saul-Bellow",
+            "Montant": 8508.12,
+            "2012.0": 17027.47,
+            "2013.0": 12923.14,
+            "2014.0": 11714.71
+          },
+          {
+            "_id": 5,
+            "Bibliothèque": "Bibliothèque de Saint-Pierre",
+            "Montant": 4536.5,
+            "2012.0": 2336.49,
+            "2013.0": 2747.25,
+            "2014.0": 2551.1
+          }
+        ]
+      },
+      "field_stats": {
+        "Bibliothèque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2012.0": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2013.0": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "2014.0": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:21:05.743925+00:00",
+        "fields": {
+          "Bibliothèque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 46,
+            "top_values": [
+              {
+                "value": "Bibliothèque d'Ahuntsic",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque De Salaberry",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Saul-Bellow",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Saint-Pierre",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Côte-des-Neiges",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque interculturelle",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Père-Ambroise",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Montant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2191.03,
+            "max": 715007.8,
+            "mean": 31087.2957,
+            "median": 15126.76,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "2012.0": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 780165.02,
+            "mean": 33876.4791,
+            "median": 16950.99,
+            "unique_count": 44,
+            "field_type_detected": "numeric"
+          },
+          "2013.0": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1423.65,
+            "max": 743277.51,
+            "mean": 32272.6526,
+            "median": 15640.66,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          },
+          "2014.0": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2551.1,
+            "max": 684104.14,
+            "mean": 29699.8757,
+            "median": 14108.97,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "d07252a0-52a9-4774-a154-187c35d4d77d",
+      "name": "Amendes par bibliothèque réparties par années",
+      "description": "",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/d07252a0-52a9-4774-a154-187c35d4d77d/download/amendesparbiblio20141120.ods",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-01-13T17:09:05.246886",
+      "created": "2016-01-13T12:09:05.276941",
+      "schema": null
+    },
+    {
+      "id": "c8d200cb-adff-46ea-99fd-f77093907db9",
+      "name": "Amendes par bibliothèque réparties par tranches",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/c8d200cb-adff-46ea-99fd-f77093907db9/download/amendesparbibliorepartiespartranches20072014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:09:07.545757",
+      "created": "2016-01-13T12:09:07.670393",
+      "schema": {
+        "resource_id": "c8d200cb-adff-46ea-99fd-f77093907db9",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Bibliothèque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "0 à 2.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "3.00 à 9.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "10.00 à 19.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "20.00 à 49.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "50 et plus",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Total",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Bibliothèque": "Bibliothèque d'Ahuntsic",
+            "0 à 2.99": 2326007,
+            "3.00 à 9.99": 1666800,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 2000,
+            "50 et plus": 0,
+            "Total": 3994807
+          },
+          {
+            "_id": 2,
+            "Bibliothèque": "Bibliothèque de Cartierville",
+            "0 à 2.99": 1205186,
+            "3.00 à 9.99": 864100,
+            "10.00 à 19.99": 1995,
+            "20.00 à 49.99": 0,
+            "50 et plus": 0,
+            "Total": 2071281
+          },
+          {
+            "_id": 3,
+            "Bibliothèque": "Bibliothèque De Salaberry",
+            "0 à 2.99": 289162,
+            "3.00 à 9.99": 1200,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": 0,
+            "Total": 290362
+          },
+          {
+            "_id": 4,
+            "Bibliothèque": "Bibliothèque Saul-Bellow",
+            "0 à 2.99": 542817,
+            "3.00 à 9.99": 320100,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": 0,
+            "Total": 862917
+          },
+          {
+            "_id": 5,
+            "Bibliothèque": "Bibliothèque de Saint-Pierre",
+            "0 à 2.99": 262455,
+            "3.00 à 9.99": 195700,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": 0,
+            "Total": 458155
+          }
+        ]
+      },
+      "field_stats": {
+        "Bibliothèque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "0 à 2.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3.00 à 9.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "10.00 à 19.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "20.00 à 49.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50 et plus": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:21:06.666144+00:00",
+        "fields": {
+          "Bibliothèque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 46,
+            "top_values": [
+              {
+                "value": "Bibliothèque d'Ahuntsic",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque De Salaberry",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Saul-Bellow",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Saint-Pierre",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Côte-des-Neiges",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque interculturelle",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Père-Ambroise",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "0 à 2.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 223793.0,
+            "max": 42363404.0,
+            "mean": 1841887.1304,
+            "median": 888630.5,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "3.00 à 9.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1200.0,
+            "max": 29737414.0,
+            "mean": 1292931.0435,
+            "median": 658200.0,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "10.00 à 19.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 73257.0,
+            "mean": 3185.087,
+            "median": 0.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 31
+              },
+              {
+                "value": "1995",
+                "count": 1
+              },
+              {
+                "value": "2600",
+                "count": 1
+              },
+              {
+                "value": "9696",
+                "count": 1
+              },
+              {
+                "value": "10098",
+                "count": 1
+              },
+              {
+                "value": "11000",
+                "count": 1
+              },
+              {
+                "value": "1500",
+                "count": 1
+              },
+              {
+                "value": "3000",
+                "count": 1
+              },
+              {
+                "value": "8579",
+                "count": 1
+              },
+              {
+                "value": "6500",
+                "count": 1
+              }
+            ]
+          },
+          "20.00 à 49.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 71706.0,
+            "mean": 3117.6522,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 33
+              },
+              {
+                "value": "2495",
+                "count": 3
+              },
+              {
+                "value": "2499",
+                "count": 2
+              },
+              {
+                "value": "2000",
+                "count": 1
+              },
+              {
+                "value": "2100",
+                "count": 1
+              },
+              {
+                "value": "10747",
+                "count": 1
+              },
+              {
+                "value": "14200",
+                "count": 1
+              },
+              {
+                "value": "11690",
+                "count": 1
+              },
+              {
+                "value": "5990",
+                "count": 1
+              },
+              {
+                "value": "12496",
+                "count": 1
+              }
+            ]
+          },
+          "50 et plus": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 46
+              }
+            ]
+          },
+          "Total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 225293.0,
+            "max": 72245781.0,
+            "mean": 3141120.913,
+            "median": 1532876.0,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "cbec3a89-5b2a-4917-b70f-20c9ec2e27c0",
+      "name": "Amendes par bibliothèque réparties par tranches",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/cbec3a89-5b2a-4917-b70f-20c9ec2e27c0/download/amendesparbibliorepartiespartranches20072014.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:09:06.448756",
+      "created": "2016-01-13T12:09:06.482892",
+      "schema": {
+        "resource_id": "cbec3a89-5b2a-4917-b70f-20c9ec2e27c0",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Bibliothèque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "0 à 2.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "3.00 à 9.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "10.00 à 19.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "20.00 à 49.99",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "50 et plus",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Total",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Bibliothèque": "Bibliothèque d'Ahuntsic",
+            "0 à 2.99": 23260.07,
+            "3.00 à 9.99": 16668,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 20,
+            "50 et plus": "0.0",
+            "Total": 39948.07
+          },
+          {
+            "_id": 2,
+            "Bibliothèque": "Bibliothèque de Cartierville",
+            "0 à 2.99": 12051.86,
+            "3.00 à 9.99": 8641,
+            "10.00 à 19.99": 19.95,
+            "20.00 à 49.99": 0,
+            "50 et plus": "0.0",
+            "Total": 20712.81
+          },
+          {
+            "_id": 3,
+            "Bibliothèque": "Bibliothèque De Salaberry",
+            "0 à 2.99": 2891.62,
+            "3.00 à 9.99": 12,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": "0.0",
+            "Total": 2903.62
+          },
+          {
+            "_id": 4,
+            "Bibliothèque": "Bibliothèque Saul-Bellow",
+            "0 à 2.99": 5428.17,
+            "3.00 à 9.99": 3201,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": "0.0",
+            "Total": 8629.17
+          },
+          {
+            "_id": 5,
+            "Bibliothèque": "Bibliothèque de Saint-Pierre",
+            "0 à 2.99": 2624.55,
+            "3.00 à 9.99": 1957,
+            "10.00 à 19.99": 0,
+            "20.00 à 49.99": 0,
+            "50 et plus": "0.0",
+            "Total": 4581.55
+          }
+        ]
+      },
+      "field_stats": {
+        "Bibliothèque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "0 à 2.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3.00 à 9.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "10.00 à 19.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "20.00 à 49.99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50 et plus": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:21:08.084470+00:00",
+        "fields": {
+          "Bibliothèque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 46,
+            "top_values": [
+              {
+                "value": "Bibliothèque d'Ahuntsic",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque De Salaberry",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Saul-Bellow",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Saint-Pierre",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Côte-des-Neiges",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque interculturelle",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque de Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Bibliothèque Père-Ambroise",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "0 à 2.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2237.93,
+            "max": 423634.04,
+            "mean": 18418.8713,
+            "median": 8886.305,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "3.00 à 9.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 12.0,
+            "max": 297374.14,
+            "mean": 12929.3104,
+            "median": 6582.0,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "10.00 à 19.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 732.57,
+            "mean": 31.8509,
+            "median": 0.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 31
+              },
+              {
+                "value": "19.95",
+                "count": 1
+              },
+              {
+                "value": "26",
+                "count": 1
+              },
+              {
+                "value": "96.96",
+                "count": 1
+              },
+              {
+                "value": "100.98",
+                "count": 1
+              },
+              {
+                "value": "110",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "85.79",
+                "count": 1
+              },
+              {
+                "value": "65",
+                "count": 1
+              }
+            ]
+          },
+          "20.00 à 49.99": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 717.06,
+            "mean": 31.1765,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 33
+              },
+              {
+                "value": "24.95",
+                "count": 3
+              },
+              {
+                "value": "24.99",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              },
+              {
+                "value": "21",
+                "count": 1
+              },
+              {
+                "value": "107.47",
+                "count": 1
+              },
+              {
+                "value": "142",
+                "count": 1
+              },
+              {
+                "value": "116.9",
+                "count": 1
+              },
+              {
+                "value": "59.9",
+                "count": 1
+              },
+              {
+                "value": "124.96",
+                "count": 1
+              }
+            ]
+          },
+          "50 et plus": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.0",
+                "count": 46
+              }
+            ]
+          },
+          "Total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2252.93,
+            "max": 722457.81,
+            "mean": 31411.2091,
+            "median": 15328.76,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "425badbe-b98c-421b-a801-2ce5e5d6af16",
+      "name": "Amendes par bibliothèque réparties par tranches",
+      "description": "",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bab9aaaf-6931-4495-87e1-9618285b8c46/resource/425badbe-b98c-421b-a801-2ce5e5d6af16/download/amendesparbibliorepartiespartranches20072014.ods",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-01-13T17:09:07.060562",
+      "created": "2016-01-13T12:09:07.096720",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bibliothèque",
+    "SC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Extraction des données du système intégré de gestion de bibliothèque Sierra.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Direction des bibliothèques",
+      "Couverture temporelle": "2007-06-27/2014-11-20",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Bibliothèque",
+      "SC"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/montant-des-amendes-payees-et-impayees-par-bibliotheque",
+    "scraped_at": "2026-03-09T20:13:49.940336+00:00"
+  }
+}

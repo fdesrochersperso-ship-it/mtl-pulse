@@ -1,0 +1,412 @@
+{
+  "slug": "vmtl-limite-des-societes-de-developpement-commercial-sdc",
+  "title": "Limite des sociétés de développement commercial (SDC)",
+  "notes": "Polygones des limites des sociétés de développement commercial (SDC) présentent sur le territoire de la Ville de Montréal. \r\n\r\nLes [sociétés de développement commercial (SDC)](https://montreal.ca/sujets/societes-de-developpement-commercial) sont des organismes sans but lucratif qui contribuent au développement économique et à la mise en valeur des artères commerciales dans un secteur donné. Une SDC regroupe les commerces, les entreprises de service et les bureaux professionnels d’un territoire déterminé. La Ville de Montréal compte 26 SDC réparties sur son territoire. Toutes les entreprises situées dans le district d'une SDC sont automatiquement membres de celle-ci. Une cotisation est obligatoire en fonction du budget adopté par la SDC annuellement. Cette cotisation permet d'assurer le maintien de la SDC qui peut à son tour organiser des activités, des événements et réaliser des projets ayant pour objectif, notamment, le développement social, culturel et économique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "asNeeded",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2025-01-22T13:59:49.337078",
+  "metadata_modified": "2026-02-23T20:00:10.221781",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "eb8c255f-dcea-4d33-ad67-1775d8db0407",
+      "name": "Limite des SDC",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/a1f27369-da3a-4506-b898-d89aeee386dd/resource/eb8c255f-dcea-4d33-ad67-1775d8db0407/download/sdc_limites_2025.csv",
+      "datastore_active": true,
+      "size": 2367,
+      "last_modified": "2026-02-23T18:49:18.122476",
+      "created": "2025-01-22T14:00:46.398007",
+      "schema": {
+        "resource_id": "eb8c255f-dcea-4d33-ad67-1775d8db0407",
+        "total_records": 27,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Site Web",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee creation",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": "15",
+            "NOM": "SDC Petite-Italie - Marché Jean-Talon",
+            "Arrondissement": "Rosemont - La Petite-Patrie",
+            "Site Web": "https://www.petiteitalie.com/",
+            "Annee creation": "2009"
+          },
+          {
+            "_id": 2,
+            "ID": "4",
+            "NOM": "SDC Hochelaga-Maisonneuve (Ontario)",
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "Site Web": "https://hochelaga.ca/",
+            "Annee creation": "1981"
+          },
+          {
+            "_id": 3,
+            "ID": "5",
+            "NOM": "SDC Hochelaga-Maisonneuve (Ste-Catherine)",
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "Site Web": "https://hochelaga.ca/",
+            "Annee creation": "1981"
+          },
+          {
+            "_id": 4,
+            "ID": "6",
+            "NOM": "SDC L'Avenue du Mont-Royal",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "Site Web": "https://www.mont-royal.net/",
+            "Annee creation": "1985"
+          },
+          {
+            "_id": 5,
+            "ID": "3",
+            "NOM": "SDC Promenade Masson",
+            "Arrondissement": "Rosemont - La Petite-Patrie",
+            "Site Web": "https://www.promenademasson.com/fr/",
+            "Annee creation": "1981"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Site Web": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee creation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 27,
+        "total_records": 27,
+        "audited_at": "2026-03-10T00:20:29.671516+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 27.0,
+            "mean": 14.0,
+            "median": 14.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "15",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "13",
+                "count": 1
+              },
+              {
+                "value": "14",
+                "count": 1
+              }
+            ]
+          },
+          "NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "SDC Petite-Italie - Marché Jean-Talon",
+                "count": 1
+              },
+              {
+                "value": "SDC Hochelaga-Maisonneuve (Ontario)",
+                "count": 1
+              },
+              {
+                "value": "SDC Hochelaga-Maisonneuve (Ste-Catherine)",
+                "count": 1
+              },
+              {
+                "value": "SDC L'Avenue du Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "SDC Promenade Masson",
+                "count": 1
+              },
+              {
+                "value": "SDC Plaza Saint-Hubert",
+                "count": 1
+              },
+              {
+                "value": "SDC Promenade Wellington",
+                "count": 1
+              },
+              {
+                "value": "SDC Quartier Latin",
+                "count": 1
+              },
+              {
+                "value": "SDC Village Montréal",
+                "count": 1
+              },
+              {
+                "value": "SDC Jean-Talon Est",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 4
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 4
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 4
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 3
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 3
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Verdun",
+                "count": 1
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 1
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Site Web": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "https://hochelaga.ca/",
+                "count": 2
+              },
+              {
+                "value": "https://laurierouest.com/",
+                "count": 2
+              },
+              {
+                "value": "https://www.petiteitalie.com/",
+                "count": 1
+              },
+              {
+                "value": "https://www.mont-royal.net/",
+                "count": 1
+              },
+              {
+                "value": "https://www.promenademasson.com/fr/",
+                "count": 1
+              },
+              {
+                "value": "https://plazasthubert.com/",
+                "count": 1
+              },
+              {
+                "value": "https://www.promenadewellington.com/fr/",
+                "count": 1
+              },
+              {
+                "value": "https://quartierlatin.ca/",
+                "count": 1
+              },
+              {
+                "value": "https://www.villagemontreal.ca/",
+                "count": 1
+              },
+              {
+                "value": "https://www.jeantalonest.com/",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Annee creation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1981",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "7bf50454-5af6-43b9-92c4-a2b49c4223a3",
+      "name": "Limite des SDC",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/a1f27369-da3a-4506-b898-d89aeee386dd/resource/7bf50454-5af6-43b9-92c4-a2b49c4223a3/download/sdc_limites_2025.geojson",
+      "datastore_active": false,
+      "size": 230219,
+      "last_modified": "2026-02-23T18:50:02.486370",
+      "created": "2025-01-22T14:01:29.063447",
+      "schema": null
+    },
+    {
+      "id": "8e6b34a9-efa6-487f-8a34-962e7799ba7d",
+      "name": "Limite des SDC",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/a1f27369-da3a-4506-b898-d89aeee386dd/resource/8e6b34a9-efa6-487f-8a34-962e7799ba7d/download/sdc_limites_2025.zip",
+      "datastore_active": false,
+      "size": 56262,
+      "last_modified": "2026-02-23T18:50:24.056975",
+      "created": "2025-01-22T14:02:14.010366",
+      "schema": null
+    },
+    {
+      "id": "1d5822d9-75bc-4c7e-9a65-6403ed158ac8",
+      "name": "Limite des SDC",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/fr/dataset/a1f27369-da3a-4506-b898-d89aeee386dd/resource/1d5822d9-75bc-4c7e-9a65-6403ed158ac8/download/sdc_limites_2025.gpkg",
+      "datastore_active": false,
+      "size": 196608,
+      "last_modified": "2026-02-23T18:50:43.001732",
+      "created": "2025-12-15T19:01:20.741184",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Artère commerciale",
+    "Commerce",
+    "Commerce de rue",
+    "Entreprise",
+    "SDC",
+    "SDÉ"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les limites des SDC ont été constituées en référence au système NAD 83 MTM Zone 8. \n\n### Dictionnaire de données\n\n\n\n- ID (entier) : Identifiant unique de la SDC.\n\n- NOM_SDC (texte variable) : Nom de la SDC.\n\n- ARRONDISSEMENT (texte variable) : Nom de l'arrondissement où est située la SDC.\n\n- SITE_WEB (texte variable) : Lien vers le site Web de la SDC.\n\n- ANNÉE_CRÉATION (entier) : Année de création de la SDC.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du développement économique",
+      "Couverture temporelle": "2026-02-23",
+      "Fréquence de mise à jour": "Au besoin"
+    },
+    "keywords": [
+      "Artère commerciale",
+      "Commerce",
+      "Commerce de rue",
+      "Entreprise",
+      "SDC",
+      "SDÉ"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/limite-des-societes-de-developpement-commercial-sdc",
+    "scraped_at": "2026-03-09T20:11:41.288475+00:00"
+  }
+}

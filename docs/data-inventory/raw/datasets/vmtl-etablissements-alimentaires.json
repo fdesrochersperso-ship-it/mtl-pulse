@@ -1,0 +1,601 @@
+{
+  "slug": "vmtl-etablissements-alimentaires",
+  "title": "Établissements alimentaires",
+  "notes": "Le présent ensemble localise les établissements sous la responsabilité de la Division de l’inspection des aliments de la Ville de Montréal.  Il est à noter que la Ville est mandataire du Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec (MAPAQ) en ce qui concerne l’inspection sur son territoire.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "agriculture-alimentation",
+      "display_name": "Agriculture et alimentation",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-11-30T19:03:22.460000",
+  "metadata_modified": "2026-03-09T07:01:10.850656",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "2801c502-3b55-4e17-845d-801a31d3d4e5",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiMDBiMWU3ZmUtMjNmZi00ZjI0LWIzZjYtNDQ3NTdlMTMzNjA4IiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2021-06-22T16:06:38.840704",
+      "schema": null
+    },
+    {
+      "id": "28a4957d-732e-48f9-8adb-0624867d9bb0",
+      "name": "Établissements alimentaires",
+      "description": "Liste des établissements alimentaires sur le territoire de l'agglomération de Montréal.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/c1d65779-d3cb-44e8-af0a-b9f2c5f7766d/resource/28a4957d-732e-48f9-8adb-0624867d9bb0/download/businesses.csv",
+      "datastore_active": true,
+      "size": 9381151,
+      "last_modified": "2026-03-09T06:05:48.721689",
+      "created": "2017-11-30T19:04:40.128481",
+      "schema": {
+        "resource_id": "28a4957d-732e-48f9-8adb-0624867d9bb0",
+        "total_records": 53394,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "business_id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "address",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "city",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "state",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "business_id": "127",
+            "name": "LES ENTREPRISES ALJO",
+            "address": "12515   Boulevard Rodolphe-Forget ",
+            "city": "Montréal",
+            "state": "Québec, Canada",
+            "type": "Distributrice automatique",
+            "statut": "Ouvert",
+            "date_statut": "20031123",
+            "latitude": "45.650662",
+            "longitude": "-73.580265",
+            "x": "298544.05",
+            "y": "5056755.11"
+          },
+          {
+            "_id": 2,
+            "business_id": "135",
+            "name": "PROVI-TOT",
+            "address": "9128   Boulevard Perras ",
+            "city": "Montréal",
+            "state": "Québec, Canada",
+            "type": "Épicerie avec préparation",
+            "statut": "Fermé changement d'exploitant",
+            "date_statut": "20090821",
+            "latitude": "45.650348",
+            "longitude": "-73.577731",
+            "x": "298741.52",
+            "y": "5056720.11"
+          },
+          {
+            "_id": 3,
+            "business_id": "138",
+            "name": "LE PETIT TABLIER",
+            "address": "690   Rue Sherbrooke Ouest",
+            "city": "Montréal",
+            "state": "Québec, Canada",
+            "type": "Restaurant",
+            "statut": "Fermé changement d'exploitant",
+            "date_statut": "20090306",
+            "latitude": "45.504673",
+            "longitude": "-73.573766",
+            "x": "299035.65",
+            "y": "5040530.65"
+          },
+          {
+            "_id": 4,
+            "business_id": "140",
+            "name": "RESTO-PUB MARCO POLO",
+            "address": "7985   Avenue Marco-Polo ",
+            "city": "Montréal",
+            "state": "Québec, Canada",
+            "type": "Brasserie",
+            "statut": "Fermé",
+            "date_statut": "20230914",
+            "latitude": "45.62598",
+            "longitude": "-73.583592",
+            "x": "298281.88",
+            "y": "5054012.39"
+          },
+          {
+            "_id": 5,
+            "business_id": "142",
+            "name": "L'EURO-MARCHE ST-MICHEL",
+            "address": "10181   Boulevard Saint-Michel ",
+            "city": "Montréal-Nord",
+            "state": "Québec, Canada",
+            "type": "Boucherie-épicerie",
+            "statut": "Fermé changement d'exploitant",
+            "date_statut": "20260108",
+            "latitude": "45.579391",
+            "longitude": "-73.643019",
+            "x": "293638.74",
+            "y": "5048841.44"
+          }
+        ]
+      },
+      "field_stats": {
+        "business_id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "address": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "city": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "state": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 2628,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        },
+        "longitude": {
+          "null_count": 2628,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        },
+        "x": {
+          "null_count": 2628,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        },
+        "y": {
+          "null_count": 2628,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 53394,
+        "audited_at": "2026-03-10T00:18:54.553080+00:00",
+        "fields": {
+          "business_id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 133397.0,
+            "mean": 3518.989,
+            "median": 1760.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 979,
+            "top_values": [
+              {
+                "value": "PHARMACIE JEAN-COUTU",
+                "count": 4
+              },
+              {
+                "value": "PHARMAPRIX",
+                "count": 4
+              },
+              {
+                "value": "DEPANNEUR 7 JOURS",
+                "count": 3
+              },
+              {
+                "value": "RESTAURANT MC DONALD",
+                "count": 3
+              },
+              {
+                "value": "MM MUFFINS",
+                "count": 2
+              },
+              {
+                "value": "RESTAURANT BASHA",
+                "count": 2
+              },
+              {
+                "value": "DAIRY QUEEN",
+                "count": 2
+              },
+              {
+                "value": "DUNKIN DONUTS",
+                "count": 2
+              },
+              {
+                "value": "THE OLD BREWERY MISSION",
+                "count": 2
+              },
+              {
+                "value": "MICHAEL ROSSY LTEE",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "address": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 986,
+            "top_values": [
+              {
+                "value": "7401   Rue Hochelaga",
+                "count": 5
+              },
+              {
+                "value": "2600   Rue Ontario Est",
+                "count": 3
+              },
+              {
+                "value": "11011   Boulevard Maurice-Duplessis",
+                "count": 2
+              },
+              {
+                "value": "7905   Rue Sherbrooke Est",
+                "count": 2
+              },
+              {
+                "value": "360   Rue Saint-Antoine Ouest",
+                "count": 2
+              },
+              {
+                "value": "5689   Boulevard Rosemont",
+                "count": 2
+              },
+              {
+                "value": "666   Rue Sherbrooke Ouest",
+                "count": 2
+              },
+              {
+                "value": "3350   Rue Ontario Est",
+                "count": 2
+              },
+              {
+                "value": "2500  CP6079 Chemin Polytechnique",
+                "count": 2
+              },
+              {
+                "value": "99   Avenue Viger Ouest",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "city": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 985
+              },
+              {
+                "value": "Côte Saint-Luc",
+                "count": 4
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 2
+              },
+              {
+                "value": "Anjou",
+                "count": 2
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 1
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 1
+              },
+              {
+                "value": "Verdun",
+                "count": 1
+              },
+              {
+                "value": "L'Ile Bizard",
+                "count": 1
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Dorval",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "state": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Québec, Canada",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 36,
+            "top_values": [
+              {
+                "value": "Restaurant",
+                "count": 227
+              },
+              {
+                "value": "Épicerie",
+                "count": 165
+              },
+              {
+                "value": "Restaurant service rapide",
+                "count": 95
+              },
+              {
+                "value": "Bar salon, taverne",
+                "count": 75
+              },
+              {
+                "value": "Épicerie avec préparation",
+                "count": 64
+              },
+              {
+                "value": "Magasin à rayons",
+                "count": 63
+              },
+              {
+                "value": "Casse-croûte",
+                "count": 46
+              },
+              {
+                "value": "Garderie",
+                "count": 36
+              },
+              {
+                "value": "Boucherie-épicerie",
+                "count": 26
+              },
+              {
+                "value": "Centre d'accueil",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Fermé changement d'exploitant",
+                "count": 466
+              },
+              {
+                "value": "Fermé",
+                "count": 302
+              },
+              {
+                "value": "Ouvert",
+                "count": 232
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "19900326",
+            "max_date": "20260302",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 7,
+            "null_pct": 0.7,
+            "min": 45.448173,
+            "max": 45.691329,
+            "mean": 45.548736,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 7,
+            "null_pct": 0.7,
+            "min": -73.873076,
+            "max": -73.49073,
+            "mean": -73.571974,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "x": {
+            "null_count": 7,
+            "null_pct": 0.7,
+            "min": 275638.74,
+            "max": 305522.65,
+            "mean": 299179.16142,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 7,
+            "null_pct": 0.7,
+            "min": 5034280.03,
+            "max": 5061271.75,
+            "mean": 5045427.956596,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "ece728c7-6f2d-4a51-a36d-21cd70e0ddc7",
+      "name": "Établissements alimentaires",
+      "description": "Localisation des établissements alimentaires sur le territoire de l'agglomération de Montréal.",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/c1d65779-d3cb-44e8-af0a-b9f2c5f7766d/resource/ece728c7-6f2d-4a51-a36d-21cd70e0ddc7/download/businesses.geojson",
+      "datastore_active": false,
+      "size": 23546920,
+      "last_modified": "2026-03-09T06:05:52.801301",
+      "created": "2020-11-24T15:02:58.725409",
+      "schema": null
+    },
+    {
+      "id": "a9fc1f85-f40a-4841-807c-42f6eb5c2617",
+      "name": "Établissements alimentaires",
+      "description": "Localisation des établissements alimentaires sur le territoire de l'agglomération de Montréal.",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/c1d65779-d3cb-44e8-af0a-b9f2c5f7766d/resource/a9fc1f85-f40a-4841-807c-42f6eb5c2617/download/businesses.zip",
+      "datastore_active": false,
+      "size": 4479260,
+      "last_modified": "2026-03-09T06:05:56.012242",
+      "created": "2020-12-10T19:09:41.118499",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aliment",
+    "Alimentation",
+    "Inspection",
+    "MAPAQ",
+    "Restaurant",
+    "SEnv",
+    "Salubrité",
+    "Établissement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données proviennent du système de l'inspection des aliments de la Ville de Montréal (SIAM). Elles sont mises à jour quotidiennement à partir de trois sources d'informations, soit les données sur les permis du MAPAQ, les certificats d'occupation de la Ville de Montréal ainsi que les constatations sur le terrain.\n\n\nMise à jour quotidienne des listes du MAPAQ et certificat d'occupation et constatation sur le terrain.\n\n\nL'information n'est pas mise à jour instantanément lors d'un changement de propriétaires. Il peut y avoir des décalages de quelques semaines ou mois dans la mise à jour.\n\n\nÀ noter que les données sont structurées au format LIVES de Yelp. D'autres champs sont ajoutés à titre indicatif.\n\n\nLes données des contrevenants, des inspections ainsi que le bilan de la Division de l'inspection des aliments sont disponibles dans les ensembles :\n\n### Dictionnaire de données\n\n\n\n- business_id (numérique) : Identifiant unique Ville de l'établissement.\n\n- name (texte variable) : Nom de l'établissement.\n\n- address (texte variable) : Adresse de l'établissement.\n\n- city (texte variable) : Ville ou arrondissement de l'établissement.\n\n- state (texte variable) : (Par défaut) Québec, Canada.\n\n- type (liste de valeurs) : Catégorie de l'établissement.\n\n- Statut (liste de valeurs) : Statut de l'établissement.\n\n- Ouvert : En exploitation.\n\n- Fermé : Définitivement fermé.\n\n- Fermé changement d'exploitant : Changement de propriétaire.\n\n- En traitement : Ouverture récente et en attente d'inspection.\n\n- Sous inspection fédérale : Changement de juridiction d'inspection.\n\n\n\n- date_statut (date) : Date du dernier statut.\n\n- latitude (coordonnées spatiales) : Latitude WGS84.\n\n- longitude (coordonnées spatiales) : Longitude WGS84.\n\n- CoordX (coordonnées spatiales) : Coordonnée X MTM8 NAD83.\n\n- CoordY (coordonnées spatiales) : Coordonnée Y MTM8 NAD83.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement - Division de l'inspection des aliments",
+      "Couverture temporelle": "2011-01-01/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Aliment",
+      "Alimentation",
+      "Inspection",
+      "MAPAQ",
+      "Restaurant",
+      "SEnv",
+      "Salubrité",
+      "Établissement"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/etablissements-alimentaires",
+    "scraped_at": "2026-03-09T19:57:17.613840+00:00"
+  }
+}

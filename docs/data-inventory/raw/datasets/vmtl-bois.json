@@ -1,0 +1,80 @@
+{
+  "slug": "vmtl-bois",
+  "title": "Bois",
+  "notes": "Cet ensemble de données contient les polygones délimitant les bois de l’agglomération de Montréal.\r\n\r\nLes limites des bois et leur composition sont le résultat d’une analyse des photos aériennes et/ou de visites sur le terrain et/ou d’études écologiques particulières. Celles-ci sont perpétuellement mises à jour en fonction de l’avancement des connaissances du milieu. Certaines communautés végétales et leur limite peuvent donc être imprécises.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-05-12T13:22:57.577402",
+  "metadata_modified": "2025-02-26T21:32:41.701331",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "9fa20d3a-5dee-43d6-9bc9-5d86fe225e16",
+      "name": "Bois en format shapefile",
+      "description": "Polygones des bois de l’agglomération de Montréal\r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile\r\n\r\nDescription des champs :\r\n\r\n* GR_ESSENC = Communauté végétale\r\n\r\nSystème géodésique : WGS84\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/29791562-f050-401e-b405-5c1fbf427f65/resource/9fa20d3a-5dee-43d6-9bc9-5d86fe225e16/download/bois.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-05-12T14:46:41.105759",
+      "created": "2016-05-12T10:46:41.188400",
+      "schema": null
+    },
+    {
+      "id": "c21c28e6-d9a2-41f1-aebf-c5e00ef3de32",
+      "name": "Bois en format geojson",
+      "description": "Polygones des bois de l’agglomération de Montréal\r\n\r\nFichier au format geojson\r\n\r\nDescription des champs :\r\n\r\n* GR_ESSENC = Communauté végétale\r\n\r\nSystème géodésique : WGS84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/29791562-f050-401e-b405-5c1fbf427f65/resource/c21c28e6-d9a2-41f1-aebf-c5e00ef3de32/download/bois.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-05-12T14:47:49.666885",
+      "created": "2016-05-12T10:47:49.753663",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bois",
+    "Communauté végétale",
+    "Forêt",
+    "Milieu naturel",
+    "Naturel",
+    "Peuplement",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cet ensemble de données est une extraction des bois en format Shapefile à partir d'une feature class dans une file geodatabase créée avec le logiciel ArcGis de ESRI. Transfert ensuite des données en format GeoJSON et Kml à l'aide de OGR2GUI.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Bois",
+      "Communauté végétale",
+      "Forêt",
+      "Milieu naturel",
+      "Naturel",
+      "Peuplement",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/bois",
+    "scraped_at": "2026-03-09T19:53:00.992300+00:00"
+  }
+}

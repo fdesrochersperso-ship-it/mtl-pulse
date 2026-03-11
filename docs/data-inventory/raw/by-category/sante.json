@@ -1,0 +1,1889 @@
+{
+  "category_id": "sante",
+  "category_name_fr": "Santé",
+  "category_name_en": "Health",
+  "dataset_count": 6,
+  "datasets": [
+    {
+      "slug": "vmtl-inspections-preventives-salubrite-service-habitation",
+      "title": "Inspections préventives en salubrité du Service de l'habitation",
+      "notes": "Les données représentent le résultat des inspections préventives effectuées par le Service de l'habitation. Les données incluent : l'état physique des parties inspectées du bâtiment sur une échelle de 1 (excellent) à 6 (très mauvais), le transfert ou non du bâtiment pour une inspection complète et la signification ou non d'un constat d'infraction sans préavis. La période du 1er janvier au 1er juin 2024 a servi de projet pilote au cours duquel plusieurs processus ont été testés et optimisés.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "gouvernement-finances",
+          "display_name": "Gouvernement et finances",
+          "mapped": {}
+        },
+        {
+          "id": "politiques-sociales",
+          "display_name": "Politiques sociales",
+          "mapped": {
+            "name_fr": "Politiques sociales",
+            "name_en": "Social Policy",
+            "icon": "users"
+          }
+        },
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "weekly",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2024-05-08T14:55:47.750892",
+      "metadata_modified": "2026-03-04T05:06:02.900206",
+      "num_resources": 3,
+      "resources": [
+        {
+          "id": "760cda5d-5c58-4899-8bff-e8119edd6ab3",
+          "name": "Inspections préventives de salubrité du Service de l'habitation",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/760cda5d-5c58-4899-8bff-e8119edd6ab3/download/inspections-preventives-salubrite-habitation.csv",
+          "datastore_active": true,
+          "size": 372032,
+          "last_modified": "2026-03-04T03:15:14.073492",
+          "created": "2024-06-22T03:13:53.286791",
+          "schema": {
+            "resource_id": "760cda5d-5c58-4899-8bff-e8119edd6ab3",
+            "total_records": 1934,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "no_demande",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "date_inspection",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "fondation",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "structure",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "enveloppe",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ouvertures",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "saillies",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "interieur",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "moy_composants_inspectes",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "constat_signifie",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "indicateur_insp_integrale",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "adresse",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "arrondissement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nombre_unite_logement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "statut_dem",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "code_type_demande",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "no_ident_uev",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "longitude",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "latitude",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "X",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "Y",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "no_demande": "3003445037",
+                "date_inspection": "2024-08-23",
+                "fondation": "3",
+                "structure": null,
+                "enveloppe": "3",
+                "ouvertures": "2",
+                "saillies": "2",
+                "interieur": "2",
+                "moy_composants_inspectes": "2.4",
+                "constat_signifie": "non",
+                "indicateur_insp_integrale": "non",
+                "adresse": "11960 av. Allard",
+                "arrondissement": "Montréal-Nord",
+                "nombre_unite_logement": "8",
+                "statut_dem": "FR",
+                "code_type_demande": "PX",
+                "no_ident_uev": "02088810",
+                "longitude": "-73.61551817367464",
+                "latitude": "45.61866054128743",
+                "X": "295791.20878227",
+                "Y": "5053202.083865516"
+              },
+              {
+                "_id": 2,
+                "no_demande": "3003445095",
+                "date_inspection": "2024-08-23",
+                "fondation": "2",
+                "structure": null,
+                "enveloppe": "2",
+                "ouvertures": "3",
+                "saillies": "3",
+                "interieur": "2",
+                "moy_composants_inspectes": "2.4",
+                "constat_signifie": "non",
+                "indicateur_insp_integrale": "oui",
+                "adresse": "11935 av. Allard",
+                "arrondissement": "Montréal-Nord",
+                "nombre_unite_logement": "8",
+                "statut_dem": "FR",
+                "code_type_demande": "PX",
+                "no_ident_uev": "02088800",
+                "longitude": "-73.61476106277736",
+                "latitude": "45.61867445903247",
+                "X": "295850.2549858009",
+                "Y": "5053203.545781476"
+              },
+              {
+                "_id": 3,
+                "no_demande": "3003445134",
+                "date_inspection": "2024-08-23",
+                "fondation": "2",
+                "structure": null,
+                "enveloppe": "2",
+                "ouvertures": "2",
+                "saillies": "3",
+                "interieur": "2",
+                "moy_composants_inspectes": "2.2",
+                "constat_signifie": "non",
+                "indicateur_insp_integrale": "non",
+                "adresse": "11940 av. Allard",
+                "arrondissement": "Montréal-Nord",
+                "nombre_unite_logement": "8",
+                "statut_dem": "FR",
+                "code_type_demande": "PX",
+                "no_ident_uev": "02088802",
+                "longitude": "-73.61525211595102",
+                "latitude": "45.61840888856545",
+                "X": "295811.9173321826",
+                "Y": "5053174.0871437015"
+              },
+              {
+                "_id": 4,
+                "no_demande": "3003432875",
+                "date_inspection": "2024-07-29",
+                "fondation": "3",
+                "structure": null,
+                "enveloppe": "3",
+                "ouvertures": "3",
+                "saillies": "4",
+                "interieur": "2",
+                "moy_composants_inspectes": "3",
+                "constat_signifie": "non",
+                "indicateur_insp_integrale": "oui",
+                "adresse": " 6395 rue Villeneuve",
+                "arrondissement": "Montréal-Nord",
+                "nombre_unite_logement": "8",
+                "statut_dem": "FR",
+                "code_type_demande": "PX",
+                "no_ident_uev": "02087656",
+                "longitude": "-73.62216856779887",
+                "latitude": "45.62246086013185",
+                "X": "295273.2153162486",
+                "Y": "5053625.192731707"
+              },
+              {
+                "_id": 5,
+                "no_demande": "3003432934",
+                "date_inspection": "2024-07-29",
+                "fondation": "2",
+                "structure": null,
+                "enveloppe": "2",
+                "ouvertures": "2",
+                "saillies": "2",
+                "interieur": "2",
+                "moy_composants_inspectes": "2",
+                "constat_signifie": "non",
+                "indicateur_insp_integrale": "non",
+                "adresse": " 6379 rue Villeneuve",
+                "arrondissement": "Montréal-Nord",
+                "nombre_unite_logement": "8",
+                "statut_dem": "FR",
+                "code_type_demande": "PX",
+                "no_ident_uev": "02087649",
+                "longitude": "-73.62250317481286",
+                "latitude": "45.62226060325272",
+                "X": "295247.08843361767",
+                "Y": "5053602.977440369"
+              }
+            ]
+          },
+          "field_stats": {
+            "no_demande": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "date_inspection": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "fondation": {
+              "null_count": 133,
+              "null_pct": 6.9,
+              "populated_pct": 93.1
+            },
+            "structure": {
+              "null_count": 1653,
+              "null_pct": 85.5,
+              "populated_pct": 14.5
+            },
+            "enveloppe": {
+              "null_count": 12,
+              "null_pct": 0.6,
+              "populated_pct": 99.4
+            },
+            "ouvertures": {
+              "null_count": 4,
+              "null_pct": 0.2,
+              "populated_pct": 99.8
+            },
+            "saillies": {
+              "null_count": 57,
+              "null_pct": 2.9,
+              "populated_pct": 97.1
+            },
+            "interieur": {
+              "null_count": 223,
+              "null_pct": 11.5,
+              "populated_pct": 88.5
+            },
+            "moy_composants_inspectes": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "constat_signifie": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "indicateur_insp_integrale": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "adresse": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "arrondissement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nombre_unite_logement": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "statut_dem": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "code_type_demande": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "no_ident_uev": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "longitude": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "latitude": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "X": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "Y": {
+              "null_count": 2,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            }
+          }
+        },
+        {
+          "id": "5af0e768-25fc-4978-859b-7b07319785fe",
+          "name": "Inspections préventives de salubrité du Service de l'habitation",
+          "description": "",
+          "format": "SHP",
+          "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/5af0e768-25fc-4978-859b-7b07319785fe/download/inspections-preventives-salubrite-habitation.zip",
+          "datastore_active": false,
+          "size": 188429,
+          "last_modified": "2026-03-04T03:15:17.898393",
+          "created": "2024-06-22T03:13:47.862253",
+          "schema": null
+        },
+        {
+          "id": "759c012b-32ea-43b8-907e-eb2a3710da39",
+          "name": "Inspections préventives de salubrité du Service de l'habitation",
+          "description": "",
+          "format": "GEOJSON",
+          "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/759c012b-32ea-43b8-907e-eb2a3710da39/download/inspections-preventives-salubrite-habitation.geojson",
+          "datastore_active": false,
+          "size": 1348013,
+          "last_modified": "2026-03-04T03:15:15.486057",
+          "created": "2024-06-22T03:13:49.499771",
+          "schema": null
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Habitation",
+        "Inspection",
+        "Logement",
+        "SH",
+        "Salubrité"
+      ]
+    },
+    {
+      "slug": "vmtl-liste-central-condamnations-salubrite-logements",
+      "title": "Contrevenants condamnés - salubrité, entretien et sécurité des logements",
+      "notes": "Cet ensemble de données présente la liste des contrevenants condamnés pour des infractions au Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096), suite à des constats d’infraction émis par la Division de la salubrité du Service de l’habitation.\r\n\r\nÀ noter que les condamnations émises par les arrondissements en vertu du même règlement ne font pas partie de cet ensemble.\r\n\r\nLes [inspections en salubrité](/ville-de-montreal/inspections-salubrite) du Service de l'habitation sont également  disponibles en données ouvertes.\r\n\r\nPour tout autre détail sur la salubrité des logements, veuillez consulter la page [Salubrité, entretien et sécurité des logements](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements) sur le site de la Ville de Montréal.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "annual",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2020-01-08T18:25:51.182103",
+      "metadata_modified": "2026-02-20T23:00:10.228741",
+      "num_resources": 1,
+      "resources": [
+        {
+          "id": "f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7",
+          "name": "Liste des contrevenants condamnés",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/5c627001-5945-4769-bd8a-41a1cb6065df/resource/f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7/download/contrevenants-condamnes.csv",
+          "datastore_active": true,
+          "size": 62471,
+          "last_modified": "2026-02-20T21:17:41.230445",
+          "created": "2020-04-28T19:43:45.680885",
+          "schema": {
+            "resource_id": "f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7",
+            "total_records": 321,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "lieu_infraction_no_civique",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "lieu_infraction_rue",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "code_arrondissement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nom_contrevenant",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "article",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nature_infraction",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "date_infraction",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "date_jugement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "amende_imposee",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "lieu_infraction_no_civique": "2094",
+                "lieu_infraction_rue": "Place Beaudet",
+                "code_arrondissement": "ST",
+                "nom_contrevenant": "Michael A. Pires",
+                "article": "23 al. 1",
+                "nature_infraction": "En ayant une partie du bâtiment évacué en vertu du règlement, vacant ou laissé à l'abandon qui n'est pas clos ou barricadé(e) de façon à en empêcher l'accès et à prévenir tout accident.",
+                "date_infraction": "Entre le 17-05-2017 et le 14-06-2017",
+                "date_jugement": "2018-04-05",
+                "amende_imposee": "1 500,00 $"
+              },
+              {
+                "_id": 2,
+                "lieu_infraction_no_civique": "2094",
+                "lieu_infraction_rue": "Place Beaudet",
+                "code_arrondissement": "ST",
+                "nom_contrevenant": "Michael A. Pires",
+                "article": "23 al. 2",
+                "nature_infraction": "Étant propriétaire d'un bâtiment, en n'ayant pas pris toutes les mesures nécessaires afin de supprimer la condition dangereuse de votre bâtiment.",
+                "date_infraction": "Entre le 17-05-2017 et le 20-06-2017",
+                "date_jugement": "2018-04-05",
+                "amende_imposee": "1 500,00 $"
+              },
+              {
+                "_id": 3,
+                "lieu_infraction_no_civique": "3290",
+                "lieu_infraction_rue": "Goyer",
+                "code_arrondissement": "CN",
+                "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+                "article": "25 al. 2 par. 9",
+                "nature_infraction": "En ayant des rongeurs (souris) dans un logement.",
+                "date_infraction": "2017-02-15",
+                "date_jugement": "2018-04-05",
+                "amende_imposee": "1 350,00 $"
+              },
+              {
+                "_id": 4,
+                "lieu_infraction_no_civique": "3290",
+                "lieu_infraction_rue": "Goyer",
+                "code_arrondissement": "CN",
+                "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+                "article": "25 al. 2 par. 9",
+                "nature_infraction": "En ayant des rongeurs dans un logement.",
+                "date_infraction": "2017-04-24",
+                "date_jugement": "2018-04-05",
+                "amende_imposee": "1 350,00 $"
+              },
+              {
+                "_id": 5,
+                "lieu_infraction_no_civique": "3290",
+                "lieu_infraction_rue": "Goyer",
+                "code_arrondissement": "CN",
+                "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+                "article": "25 al. 2 par. 9",
+                "nature_infraction": "En ayant des insectes (coquerelles) dans un logement.",
+                "date_infraction": "2017-03-24",
+                "date_jugement": "2018-04-05",
+                "amende_imposee": "1 350,00 $"
+              }
+            ]
+          },
+          "field_stats": {
+            "lieu_infraction_no_civique": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "lieu_infraction_rue": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "code_arrondissement": {
+              "null_count": 1,
+              "null_pct": 0.3,
+              "populated_pct": 99.7
+            },
+            "nom_contrevenant": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "article": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nature_infraction": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "date_infraction": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "date_jugement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "amende_imposee": {
+              "null_count": 2,
+              "null_pct": 0.6,
+              "populated_pct": 99.4
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Amende",
+        "Condamnation",
+        "Habitation",
+        "Logement",
+        "SH",
+        "Salubrité"
+      ]
+    },
+    {
+      "slug": "vmtl-inspections-salubrite",
+      "title": "Inspections de salubrité du Service de l'habitation",
+      "notes": "Cet ensemble de données contient des informations sur les inspections effectuées par la Division de la salubrité du Service de l’habitation (anciennement le Service de la mise en valeur du territoire).\r\n\r\nLa Ville de Montréal, par son [Règlement sur la salubrité, l’entretien et la sécurité des logements (R.V.M. 03-096)](https://montreal.ca/reglements-municipaux/recherche/60d7656afd6531443f578d96), veille à assurer la salubrité, le bon entretien et la sécurité des logements et des bâtiments résidentiels sur son territoire. \r\n\r\nPar salubrité, on entend l’ensemble des conditions rendant un logement propre à l’habitation.\r\n\r\nPour en savoir plus sur les efforts déployés par la Ville de Montréal en matière de salubrité des logements, consultez le [Plan d’action pour des conditions de logement décentes 2018-2021](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements).\r\n\r\n**Note:** Le présent ensemble concerne uniquement les inspections effectuées par la Division de la salubrité du Service de l’habitation, et non celles effectuées par le personnel des arrondissements. \r\n\r\nLes données sur les inspections ne présentent pas un portrait de l’insalubrité ni un diagnostic de l’état du parc de logements locatifs, mais plutôt le travail fait par l’équipe.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "quarterly",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2020-03-23T20:32:15.455213",
+      "metadata_modified": "2026-02-01T05:01:04.670771",
+      "num_resources": 4,
+      "resources": [
+        {
+          "id": "4405a181-a90a-4499-b04b-8ec759142686",
+          "name": "Visualisation des données",
+          "description": "",
+          "format": "WEB",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiNmJhODNmMmQtZDkyNC00ZTVmLWJjOTgtM2NlMjM0YzZhNjhiIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+          "datastore_active": false,
+          "size": null,
+          "last_modified": null,
+          "created": "2020-04-20T14:57:50.141156",
+          "schema": null
+        },
+        {
+          "id": "ed5bae4e-9136-4218-a82c-1e3d18bd056e",
+          "name": "Inspections en salubrité",
+          "description": "Fichier CSV des inspections en salubrité du Service de l'habitation",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/ed5bae4e-9136-4218-a82c-1e3d18bd056e/download/inspections-salubrite.csv",
+          "datastore_active": true,
+          "size": 377159,
+          "last_modified": "2026-02-01T03:08:08.338552",
+          "created": "2020-03-23T20:35:28.194729",
+          "schema": {
+            "resource_id": "ed5bae4e-9136-4218-a82c-1e3d18bd056e",
+            "total_records": 2453,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "no_demande",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "arrondissement",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "date_premiere_inspection",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "statut_demande",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "nb_unite_logement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nb_logements_non_conformes",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nb_non_conformite",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "taux_correction",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "text",
+                  "label": ""
+                }
+              },
+              {
+                "id": "quartier_de_reference_num",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "text",
+                  "label": ""
+                }
+              },
+              {
+                "id": "quartier_de_reference_nom",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "x",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "y",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "longitude",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              },
+              {
+                "id": "latitude",
+                "type": "text",
+                "info": {
+                  "notes": "",
+                  "type_override": "",
+                  "label": ""
+                }
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "no_demande": "3000127500",
+                "arrondissement": "Rosemont - La Petite-Patrie",
+                "date_premiere_inspection": "2008-12",
+                "statut_demande": "Fermée",
+                "nb_unite_logement": null,
+                "nb_logements_non_conformes": "45",
+                "nb_non_conformite": "187",
+                "taux_correction": null,
+                "quartier_de_reference_num": "18",
+                "quartier_de_reference_nom": "Vieux-Rosemont",
+                "x": "298515.5569998949",
+                "y": "5045014.468785744",
+                "longitude": "-73.5804790394",
+                "latitude": "45.545015934829195"
+              },
+              {
+                "_id": 2,
+                "no_demande": "3000911800",
+                "arrondissement": "Rosemont - La Petite-Patrie",
+                "date_premiere_inspection": "2014-12",
+                "statut_demande": "Fermée",
+                "nb_unite_logement": null,
+                "nb_logements_non_conformes": "1",
+                "nb_non_conformite": "4",
+                "taux_correction": null,
+                "quartier_de_reference_num": "18",
+                "quartier_de_reference_nom": "Vieux-Rosemont",
+                "x": "298925.4179999007",
+                "y": "5045293.593785738",
+                "longitude": "-73.5752336843526",
+                "latitude": "45.547531177580794"
+              },
+              {
+                "_id": 3,
+                "no_demande": "3000127288",
+                "arrondissement": "Rosemont - La Petite-Patrie",
+                "date_premiere_inspection": "2008-11",
+                "statut_demande": "Fermée",
+                "nb_unite_logement": null,
+                "nb_logements_non_conformes": "16",
+                "nb_non_conformite": "69",
+                "taux_correction": null,
+                "quartier_de_reference_num": "18",
+                "quartier_de_reference_nom": "Vieux-Rosemont",
+                "x": "298543.853889894",
+                "y": "5045078.667060749",
+                "longitude": "-73.5801174882868",
+                "latitude": "45.5455938683896"
+              },
+              {
+                "_id": 4,
+                "no_demande": "3000127289",
+                "arrondissement": "Rosemont - La Petite-Patrie",
+                "date_premiere_inspection": "2008-11",
+                "statut_demande": "Fermée",
+                "nb_unite_logement": null,
+                "nb_logements_non_conformes": "15",
+                "nb_non_conformite": "77",
+                "taux_correction": null,
+                "quartier_de_reference_num": "18",
+                "quartier_de_reference_nom": "Vieux-Rosemont",
+                "x": "298515.5569998949",
+                "y": "5045014.468785744",
+                "longitude": "-73.5804790394",
+                "latitude": "45.545015934829195"
+              },
+              {
+                "_id": 5,
+                "no_demande": "3000127290",
+                "arrondissement": "Rosemont - La Petite-Patrie",
+                "date_premiere_inspection": "2008-11",
+                "statut_demande": "Fermée",
+                "nb_unite_logement": null,
+                "nb_logements_non_conformes": "16",
+                "nb_non_conformite": "91",
+                "taux_correction": null,
+                "quartier_de_reference_num": "18",
+                "quartier_de_reference_nom": "Vieux-Rosemont",
+                "x": "298820.34664490295",
+                "y": "5045045.907885741",
+                "longitude": "-73.5765762684767",
+                "latitude": "45.5453015181471"
+              }
+            ]
+          },
+          "field_stats": {
+            "no_demande": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "arrondissement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "date_premiere_inspection": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "statut_demande": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nb_unite_logement": {
+              "null_count": 2021,
+              "null_pct": 82.4,
+              "populated_pct": 17.6
+            },
+            "nb_logements_non_conformes": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nb_non_conformite": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "taux_correction": {
+              "null_count": 2099,
+              "null_pct": 85.6,
+              "populated_pct": 14.4
+            },
+            "quartier_de_reference_num": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            },
+            "quartier_de_reference_nom": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            },
+            "x": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            },
+            "y": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            },
+            "longitude": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            },
+            "latitude": {
+              "null_count": 22,
+              "null_pct": 0.9,
+              "populated_pct": 99.1
+            }
+          }
+        },
+        {
+          "id": "1d0df764-3936-45fe-b6ca-46a75abed9d2",
+          "name": "Inspections en salubrité",
+          "description": "Fichier en format GeoJson des inspections en salubrité du Service de l'habitation",
+          "format": "GEOJSON",
+          "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/1d0df764-3936-45fe-b6ca-46a75abed9d2/download/inspections-salubrite.geojson",
+          "datastore_active": false,
+          "size": 1409827,
+          "last_modified": "2026-02-01T03:08:09.946154",
+          "created": "2020-03-23T20:36:45.728793",
+          "schema": null
+        },
+        {
+          "id": "1b9a1e0e-728a-435e-8098-e8453086709d",
+          "name": "Inspections en salubrité",
+          "description": "Conteneur Zip en format SHP des inspections en salubrité du Service de l'habitation",
+          "format": "ZIP",
+          "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/1b9a1e0e-728a-435e-8098-e8453086709d/download/inspections-salubrite.zip",
+          "datastore_active": false,
+          "size": 119334,
+          "last_modified": "2026-02-01T03:08:13.871079",
+          "created": "2020-03-23T20:37:36.632035",
+          "schema": null
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Habitation",
+        "Inspection",
+        "Logement",
+        "SH",
+        "Salubrité"
+      ]
+    },
+    {
+      "slug": "vmtl-avis-deterioration",
+      "title": "Avis de détérioration",
+      "notes": "L’avis de détérioration permet de rattacher des infractions au _Règlement 23-016 sur l'occupation et l'entretien des bâtiments_ à des bâtiments précis par le biais d'une inscription au registre foncier du Québec. Il sert à empêcher qu'un propriétaire n'évite des sanctions en vendant son immeuble à une société apparentée ou à un autre acheteur. Ce pouvoir est utilisé dans le cas de bâtiments sujets à une détérioration susceptible de porter atteinte à la santé ou à la sécurité des occupants, et dont le propriétaire n’effectue pas les travaux de réfection, de réparation ou d'entretien exigés dans les délais prescrits. Un avis de régularisation est émis lorsque toutes les infractions rattachées au bâtiment sont corrigées et a comme effet le retrait de l'avis de détérioration.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "loi-justice-securite-publique",
+          "display_name": "Loi, justice et sécurité publique",
+          "mapped": {}
+        },
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "irregular",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2018-06-19T13:12:30.946223",
+      "metadata_modified": "2025-12-09T23:00:19.896625",
+      "num_resources": 1,
+      "resources": [
+        {
+          "id": "a64d54b0-6c20-4d5d-a9b8-3593170e2a9e",
+          "name": "Avis de détérioration",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/192a1447-7fdc-4e65-8e7b-eb6162656448/resource/a64d54b0-6c20-4d5d-a9b8-3593170e2a9e/download/avis-deterioration.csv",
+          "datastore_active": true,
+          "size": 8138,
+          "last_modified": "2025-12-09T20:07:01.831244",
+          "created": "2018-06-19T13:13:14.049247",
+          "schema": {
+            "resource_id": "a64d54b0-6c20-4d5d-a9b8-3593170e2a9e",
+            "total_records": 38,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "identifiant",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "adresse",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "numero_lot",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "arrondissement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "date_inscription",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nom_proprio",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nombre_logement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "lien_avis",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "identifiant": "AD_2511_2517_rue_de_Chateauguay_SO",
+                "adresse": "2511-2517, rue de Châteauguay",
+                "numero_lot": "1380977",
+                "arrondissement": "Le Sud-Ouest",
+                "date_inscription": "12/7/2012",
+                "nom_proprio": "3971147 Canada inc.",
+                "nombre_logement": "3",
+                "lien_avis": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_2511_2517_rue_de_Chateauguay_SO.pdf"
+              },
+              {
+                "_id": 2,
+                "identifiant": "AD_6914_rue_Hutchison_VSMPE",
+                "adresse": "6914, rue Hutchison",
+                "numero_lot": "2249754",
+                "arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+                "date_inscription": "9/11/2014",
+                "nom_proprio": "Rikva Sebag",
+                "nombre_logement": "8",
+                "lien_avis": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_6914_rue_Hutchison_VSMPE.pdf"
+              },
+              {
+                "_id": 3,
+                "identifiant": "AD_4651_4657_rue_St_Andre_PMR",
+                "adresse": "4651-4657, rue St-André",
+                "numero_lot": "1444888",
+                "arrondissement": "Le Plateau–Mont-Royal",
+                "date_inscription": "4/15/2019",
+                "nom_proprio": "Stevens Coulombe",
+                "nombre_logement": "7",
+                "lien_avis": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_4651_4657_rue_St-Andre_PMR.pdf"
+              },
+              {
+                "_id": 4,
+                "identifiant": "AD_11344_rue_Ethier_MN",
+                "adresse": "11344, rue Éthier",
+                "numero_lot": "1846048",
+                "arrondissement": "Montréal-Nord",
+                "date_inscription": "7/11/2019",
+                "nom_proprio": "Sultan Kadir",
+                "nombre_logement": "3",
+                "lien_avis": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_11344_rue_Ethier_MN.pdf"
+              },
+              {
+                "_id": 5,
+                "identifiant": "AD_5830_5854_boulevard_Gouin_Ouest_AC",
+                "adresse": "5830-5854, boulevard Gouin Ouest",
+                "numero_lot": "1435435",
+                "arrondissement": "Ahuntsic-Cartierville",
+                "date_inscription": "10/11/2019",
+                "nom_proprio": "Chanthea Say - Cok Ly Taing - Sutheara Charly Taing - Suthearith Willy Taing",
+                "nombre_logement": "14",
+                "lien_avis": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_5830_5854_boulevard_Gouin_Ouest_AC.pdf"
+              }
+            ]
+          },
+          "field_stats": {
+            "identifiant": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "adresse": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "numero_lot": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "arrondissement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "date_inscription": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nom_proprio": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nombre_logement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "lien_avis": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Avis",
+        "Détérioration",
+        "Habitation",
+        "SH",
+        "SUM",
+        "Salubrité"
+      ]
+    },
+    {
+      "slug": "vmtl-indicateur-priorite-inspection",
+      "title": "Indicateur de priorité d'inspection de 2018",
+      "notes": "Cet ensemble résulte d'analyses statistiques réalisées par le Service de l'habitation de la Ville de Montréal. L’indicateur de priorité d'inspection vise à identifier les adresses les plus susceptibles de présenter des enjeux de salubrité afin de les faire inspecter par son équipe d’inspecteurs.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "notPlanned",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2018-08-17T18:51:51.602602",
+      "metadata_modified": "2025-11-20T18:18:01.863852",
+      "num_resources": 1,
+      "resources": [
+        {
+          "id": "556db0d0-ba81-4937-9361-0288ef211e2a",
+          "name": "Indicateur de priorité d'inspection par localisation 2018",
+          "description": "Fichier tabulaire géoréférencé CSV présentant l'indicateur de priorité d'inspection développé par la Direction de l'habitation du Service de la mise en valeur du territoire.",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/fr/dataset/0e93181f-79d4-4dfa-ba15-53c1807c7191/resource/556db0d0-ba81-4937-9361-0288ef211e2a/download/indicateurs_priorite_inspection.csv",
+          "datastore_active": true,
+          "size": null,
+          "last_modified": "2022-09-15T20:18:49.817246",
+          "created": "2018-08-17T18:52:31.956406",
+          "schema": {
+            "resource_id": "556db0d0-ba81-4937-9361-0288ef211e2a",
+            "total_records": 69408,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "Id",
+                "type": "numeric",
+                "info": {}
+              },
+              {
+                "id": "arrondissement",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "nblog_batiment",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "requetes311_logement_2013_2017",
+                "type": "numeric",
+                "info": {}
+              },
+              {
+                "id": "priorite_inspection",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "longitude",
+                "type": "numeric",
+                "info": {}
+              },
+              {
+                "id": "latitude",
+                "type": "numeric",
+                "info": {}
+              },
+              {
+                "id": "X",
+                "type": "numeric",
+                "info": {}
+              },
+              {
+                "id": "Y",
+                "type": "numeric",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "Id": 1,
+                "arrondissement": "Ville-Marie",
+                "nblog_batiment": "6 à 11 logements",
+                "requetes311_logement_2013_2017": 2,
+                "priorite_inspection": "Inspection non prévue",
+                "longitude": -73.5537972595153,
+                "latitude": 45.5017085313899,
+                "X": 300595.857999934,
+                "Y": 5040199.93578586
+              },
+              {
+                "_id": 2,
+                "Id": 2,
+                "arrondissement": "Ville-Marie",
+                "nblog_batiment": "6 à 11 logements",
+                "requetes311_logement_2013_2017": 2,
+                "priorite_inspection": "Priorité faible",
+                "longitude": -73.5537972595153,
+                "latitude": 45.5017085313899,
+                "X": 300595.857999934,
+                "Y": 5040199.93578586
+              },
+              {
+                "_id": 3,
+                "Id": 3,
+                "arrondissement": "Ville-Marie",
+                "nblog_batiment": "6 à 11 logements",
+                "requetes311_logement_2013_2017": 0,
+                "priorite_inspection": "Inspection non prévue",
+                "longitude": -73.5654688940742,
+                "latitude": 45.5042704193879,
+                "X": 299683.976505177,
+                "Y": 5040485.31678344
+              },
+              {
+                "_id": 4,
+                "Id": 4,
+                "arrondissement": "Ville-Marie",
+                "nblog_batiment": "3 à 5 logements",
+                "requetes311_logement_2013_2017": 0,
+                "priorite_inspection": "Inspection non prévue",
+                "longitude": -73.5636493396932,
+                "latitude": 45.5047316183623,
+                "X": 299826.204993124,
+                "Y": 5040536.4557856
+              },
+              {
+                "_id": 5,
+                "Id": 5,
+                "arrondissement": "Ville-Marie",
+                "nblog_batiment": "12 à 99 logements",
+                "requetes311_logement_2013_2017": 2,
+                "priorite_inspection": "Inspection non prévue",
+                "longitude": -73.5551230901115,
+                "latitude": 45.5019163030531,
+                "X": 300492.262989478,
+                "Y": 5040223.09579345
+              }
+            ]
+          },
+          "field_stats": {
+            "Id": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "arrondissement": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "nblog_batiment": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "requetes311_logement_2013_2017": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "priorite_inspection": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "longitude": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "latitude": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "X": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "Y": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Habitation",
+        "Inspection",
+        "Logement",
+        "SH",
+        "Salubrité"
+      ]
+    },
+    {
+      "slug": "vmtl-declarations-exterminations-punaises-de-lit",
+      "title": "Déclarations des exterminations de punaises de lit par des gestionnaires de parasites",
+      "notes": "Déclarations des gestionnaires de parasites. Les formulaires de déclaration ont été soumis depuis le 5 juillet 2011. Les données ont un faible degré de fiabilité car elles sont consignées manuellement par des tiers, soit les gestionnaires de parasites et *ne font l'objet d'aucune validation de la part de la Ville de Montréal*.",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "sante",
+          "display_name": "Santé",
+          "mapped": {
+            "name_fr": "Santé",
+            "name_en": "Health",
+            "icon": "heart"
+          }
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "quarterly",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2016-11-02T20:56:34.806903",
+      "metadata_modified": "2025-08-01T07:00:49.024208",
+      "num_resources": 5,
+      "resources": [
+        {
+          "id": "423d7f0a-cae9-42b9-b9f2-06ebe25d7704",
+          "name": "Visualisation des données",
+          "description": "",
+          "format": "WEB",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiMDU2YTMzNTktZjQ1NS00NmYwLThiZGYtZDM2YjI0MDJmNjJiIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+          "datastore_active": false,
+          "size": null,
+          "last_modified": null,
+          "created": "2023-12-01T15:00:49.561712",
+          "schema": null
+        },
+        {
+          "id": "ba28703e-ce85-4293-8a37-88932bf4ae93",
+          "name": "Déclarations exterminations punaises de lit.",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/49ff9fe4-eb30-4c1a-a30a-fca82d4f5c2f/resource/ba28703e-ce85-4293-8a37-88932bf4ae93/download/declarations-exterminations-punaises-de-lit.csv",
+          "datastore_active": true,
+          "size": 7446094,
+          "last_modified": "2025-08-01T05:16:06.998477",
+          "created": "2023-11-09T16:32:05.266765",
+          "schema": {
+            "resource_id": "ba28703e-ce85-4293-8a37-88932bf4ae93",
+            "total_records": 52193,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "NO_DECLARATION",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DATE_DECLARATION",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DATE_INSP_VISPRE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NBR_EXTERMIN",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DATE_DEBUTTRAIT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DATE_FINTRAIT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "No_QR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_QR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_ARROND",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "COORD_X",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "COORD_Y",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LONGITUDE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LATITUDE",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "NO_DECLARATION": "4254",
+                "DATE_DECLARATION": "2012-10-28T16:36:04",
+                "DATE_INSP_VISPRE": "2012-09-21",
+                "NBR_EXTERMIN": "1",
+                "DATE_DEBUTTRAIT": "2012-09-21",
+                "DATE_FINTRAIT": "2012-09-21",
+                "No_QR": "24",
+                "NOM_QR": "Beaurivage",
+                "NOM_ARROND": "Mercier–Hochelaga-Maisonneuve",
+                "COORD_X": "303753.6",
+                "COORD_Y": "5049835.7",
+                "LONGITUDE": "-73.513411",
+                "LATITUDE": "45.588426"
+              },
+              {
+                "_id": 2,
+                "NO_DECLARATION": "4281",
+                "DATE_DECLARATION": "2012-10-31T13:00:57",
+                "DATE_INSP_VISPRE": "2012-10-26",
+                "NBR_EXTERMIN": "1",
+                "DATE_DEBUTTRAIT": "2012-10-30",
+                "DATE_FINTRAIT": "2012-10-30",
+                "No_QR": "24",
+                "NOM_QR": "Beaurivage",
+                "NOM_ARROND": "Mercier–Hochelaga-Maisonneuve",
+                "COORD_X": "303710.5",
+                "COORD_Y": "5050625.3",
+                "LONGITUDE": "-73.513965",
+                "LATITUDE": "45.595531"
+              },
+              {
+                "_id": 3,
+                "NO_DECLARATION": "18113",
+                "DATE_DECLARATION": "2015-07-28T08:54:49",
+                "DATE_INSP_VISPRE": "2015-07-27",
+                "NBR_EXTERMIN": "1",
+                "DATE_DEBUTTRAIT": "2015-07-27",
+                "DATE_FINTRAIT": "2015-07-27",
+                "No_QR": "24",
+                "NOM_QR": "Beaurivage",
+                "NOM_ARROND": "Mercier–Hochelaga-Maisonneuve",
+                "COORD_X": "303898.4",
+                "COORD_Y": "5050219.4",
+                "LONGITUDE": "-73.511556",
+                "LATITUDE": "45.591879"
+              },
+              {
+                "_id": 4,
+                "NO_DECLARATION": "27297",
+                "DATE_DECLARATION": "2017-05-31T14:00:10",
+                "DATE_INSP_VISPRE": "2017-05-25",
+                "NBR_EXTERMIN": "1",
+                "DATE_DEBUTTRAIT": "2017-05-30",
+                "DATE_FINTRAIT": "2017-05-30",
+                "No_QR": "24",
+                "NOM_QR": "Beaurivage",
+                "NOM_ARROND": "Mercier–Hochelaga-Maisonneuve",
+                "COORD_X": "303771.3",
+                "COORD_Y": "5050340.3",
+                "LONGITUDE": "-73.513185",
+                "LATITUDE": "45.592967"
+              },
+              {
+                "_id": 5,
+                "NO_DECLARATION": "26370",
+                "DATE_DECLARATION": "2017-03-22T16:52:59",
+                "DATE_INSP_VISPRE": "2017-02-27",
+                "NBR_EXTERMIN": "1",
+                "DATE_DEBUTTRAIT": "2017-03-02",
+                "DATE_FINTRAIT": "2017-03-20",
+                "No_QR": "24",
+                "NOM_QR": "Beaurivage",
+                "NOM_ARROND": "Mercier–Hochelaga-Maisonneuve",
+                "COORD_X": "303418.7",
+                "COORD_Y": "5050492.2",
+                "LONGITUDE": "-73.517704",
+                "LATITUDE": "45.594334"
+              }
+            ]
+          },
+          "field_stats": {
+            "NO_DECLARATION": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "DATE_DECLARATION": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "DATE_INSP_VISPRE": {
+              "null_count": 8,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NBR_EXTERMIN": {
+              "null_count": 11252,
+              "null_pct": 21.6,
+              "populated_pct": 78.4
+            },
+            "DATE_DEBUTTRAIT": {
+              "null_count": 11252,
+              "null_pct": 21.6,
+              "populated_pct": 78.4
+            },
+            "DATE_FINTRAIT": {
+              "null_count": 11252,
+              "null_pct": 21.6,
+              "populated_pct": 78.4
+            },
+            "No_QR": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_QR": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_ARROND": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "COORD_X": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "COORD_Y": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LONGITUDE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LATITUDE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        },
+        {
+          "id": "abf15ce4-0702-4581-aec8-2372dd45ddca",
+          "name": "Déclarations exterminations punaises de lit",
+          "description": "",
+          "format": "ZIP",
+          "url": "https://donnees.montreal.ca/dataset/49ff9fe4-eb30-4c1a-a30a-fca82d4f5c2f/resource/abf15ce4-0702-4581-aec8-2372dd45ddca/download/declarations-exterminations-punaises-de-lit.zip",
+          "datastore_active": false,
+          "size": 2372011,
+          "last_modified": "2025-08-01T06:19:17.945471",
+          "created": "2018-05-22T14:56:50.265204",
+          "schema": null
+        },
+        {
+          "id": "5a54bddd-7046-45da-83cb-90ee71edce91",
+          "name": "Déclarations exterminations punaises de lit",
+          "description": "",
+          "format": "GEOJSON",
+          "url": "https://donnees.montreal.ca/dataset/49ff9fe4-eb30-4c1a-a30a-fca82d4f5c2f/resource/5a54bddd-7046-45da-83cb-90ee71edce91/download/declarations-exterminations-punaises-de-lit.geojson",
+          "datastore_active": false,
+          "size": 25652974,
+          "last_modified": "2025-08-01T05:16:02.425400",
+          "created": "2018-05-22T14:57:06.346050",
+          "schema": null
+        },
+        {
+          "id": "81a05c27-2563-4cf5-9c40-ffcc053e05de",
+          "name": "Nombre de logements traités par quartier de référence",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/49ff9fe4-eb30-4c1a-a30a-fca82d4f5c2f/resource/81a05c27-2563-4cf5-9c40-ffcc053e05de/download/nombre-logements-traites-par-quartier.csv",
+          "datastore_active": true,
+          "size": 85240,
+          "last_modified": "2025-08-01T06:19:32.009181",
+          "created": "2016-11-30T16:30:57.851097",
+          "schema": {
+            "resource_id": "81a05c27-2563-4cf5-9c40-ffcc053e05de",
+            "total_records": 1117,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "No_QR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_QR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "AnneeDeclaration",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NBR_LOGTRAITE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "Pct_LogTraite_QR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_ARROND",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "No_QR": "01",
+                "NOM_QR": "Cartierville",
+                "AnneeDeclaration": "2011",
+                "NBR_LOGTRAITE": "54",
+                "Pct_LogTraite_QR": "0.00507137490608565",
+                "NOM_ARROND": "Ahuntsic-Cartierville"
+              },
+              {
+                "_id": 2,
+                "No_QR": "01",
+                "NOM_QR": "Cartierville",
+                "AnneeDeclaration": "2012",
+                "NBR_LOGTRAITE": "101",
+                "Pct_LogTraite_QR": "0.00948534936138242",
+                "NOM_ARROND": "Ahuntsic-Cartierville"
+              },
+              {
+                "_id": 3,
+                "No_QR": "01",
+                "NOM_QR": "Cartierville",
+                "AnneeDeclaration": "2013",
+                "NBR_LOGTRAITE": "361",
+                "Pct_LogTraite_QR": "0.033903080390683696",
+                "NOM_ARROND": "Ahuntsic-Cartierville"
+              },
+              {
+                "_id": 4,
+                "No_QR": "01",
+                "NOM_QR": "Cartierville",
+                "AnneeDeclaration": "2014",
+                "NBR_LOGTRAITE": "404",
+                "Pct_LogTraite_QR": "0.03794139744552968",
+                "NOM_ARROND": "Ahuntsic-Cartierville"
+              },
+              {
+                "_id": 5,
+                "No_QR": "01",
+                "NOM_QR": "Cartierville",
+                "AnneeDeclaration": "2015",
+                "NBR_LOGTRAITE": "361",
+                "Pct_LogTraite_QR": "0.033903080390683696",
+                "NOM_ARROND": "Ahuntsic-Cartierville"
+              }
+            ]
+          },
+          "field_stats": {
+            "No_QR": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_QR": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "AnneeDeclaration": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NBR_LOGTRAITE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "Pct_LogTraite_QR": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_ARROND": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Exterminateur",
+        "Extermination",
+        "Gestionnaire parasitaire",
+        "Punaise de lit",
+        "SH",
+        "Traitement antiparasitaire"
+      ]
+    }
+  ]
+}

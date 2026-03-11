@@ -1,0 +1,268 @@
+{
+  "slug": "vmtl-population-recensement",
+  "title": "Recensement de la population de l’île de Montréal – 2011",
+  "notes": "Cette fiche propose les résultats du recensement de l’île de Montréal effectué par Statistiques Canada en 2011.  Deux types de résultats sont fournis :\r\n\r\n* Le territoire de l’île de Montréal (l’agglomération) est découpé par arrondissement et par ville liée;\r\n* Le territoire est découpé par ancien quartier et/ou par ancienne municipalité",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "OGL-Canada-2.0",
+  "license_title": "OGL-Canada-2.0",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-14T17:18:55.788222",
+  "metadata_modified": "2024-12-13T15:27:59.350524",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "c6709d8c-c86d-405b-b8f5-6cd9c2f4bee2",
+      "name": "Recensement de la population de l’île de Montréal – 2011",
+      "description": "Tableau « Quartiers »\r\n\r\nLe découpage se fait en fonction des anciens quartiers et/ou les anciennes municipalités de l’île de Montréal (l’agglomération). Pour visualiser ce découpage, veuillez consulter la fiche « Anciens territoires administratifs ».\r\n\r\nTableau « Arrondissements et villes liées »\r\n\r\nLe découpage se fait en fonction des arrondissements existants en 2011, ainsi que les villes liées à l’agglomération de Montréal. Pour visualiser ce découpage, veuillez consulter la fiche « Polygones des arrondissements ».",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/dataset/476ed7db-684a-42a3-8028-8d6cb83c0ec3/resource/c6709d8c-c86d-405b-b8f5-6cd9c2f4bee2/download/population-quartiers.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:02.783939",
+      "created": "2016-01-13T12:06:02.821755",
+      "schema": {
+        "resource_id": "c6709d8c-c86d-405b-b8f5-6cd9c2f4bee2",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Population\nen 2011",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Population\nen 2011": null
+          },
+          {
+            "_id": 2,
+            "Population\nen 2011": "1886481"
+          },
+          {
+            "_id": 3,
+            "Population\nen 2011": null
+          },
+          {
+            "_id": 4,
+            "Population\nen 2011": "1649519"
+          },
+          {
+            "_id": 5,
+            "Population\nen 2011": "126891"
+          }
+        ]
+      },
+      "field_stats": {
+        "Population\nen 2011": {
+          "null_count": 9,
+          "null_pct": 19.6,
+          "populated_pct": 80.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:22:31.524442+00:00",
+        "fields": {
+          "Population\nen 2011": {
+            "null_count": 9,
+            "null_pct": 19.6,
+            "min": 5.0,
+            "max": 1886481.0,
+            "mean": 152957.9189,
+            "median": 49637.0,
+            "unique_count": 37,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "8dbac698-14c6-4c91-9ba8-85fdb3232c45",
+      "name": "Recensement de la population de l’île de Montréal – 2011 – tableau « Quartiers »",
+      "description": "Tableau « Quartiers »\r\n\r\nLe découpage se fait en fonction des anciens quartiers et/ou les anciennes municipalités de l’île de Montréal (l’agglomération). Pour visualiser ce découpage, veuillez consulter la fiche « Anciens territoires administratifs ».\r\n\r\nTableau « Arrondissements et villes liées »\r\n\r\nLe découpage se fait en fonction des arrondissements existants en 2011, ainsi que les villes liées à l’agglomération de Montréal. Pour visualiser ce découpage, veuillez consulter la fiche « Polygones des arrondissements ».",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/476ed7db-684a-42a3-8028-8d6cb83c0ec3/resource/8dbac698-14c6-4c91-9ba8-85fdb3232c45/download/population-quartiers-anciens-territoires-administratifs.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:03.396307",
+      "created": "2016-01-13T12:06:03.441918",
+      "schema": {
+        "resource_id": "8dbac698-14c6-4c91-9ba8-85fdb3232c45",
+        "total_records": 71,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Population",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Population": null
+          },
+          {
+            "_id": 2,
+            "Population": "1886481"
+          },
+          {
+            "_id": 3,
+            "Population": null
+          },
+          {
+            "_id": 4,
+            "Population": null
+          },
+          {
+            "_id": 5,
+            "Population": "41928"
+          }
+        ]
+      },
+      "field_stats": {
+        "Population": {
+          "null_count": 7,
+          "null_pct": 9.9,
+          "populated_pct": 90.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 71,
+        "total_records": 71,
+        "audited_at": "2026-03-10T00:22:32.367005+00:00",
+        "fields": {
+          "Population": {
+            "null_count": 7,
+            "null_pct": 9.9,
+            "min": 5.0,
+            "max": 1886481.0,
+            "mean": 58952.5312,
+            "median": 17087.0,
+            "unique_count": 64,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "370b0c30-886a-435b-9049-bcc5a5dd2e80",
+      "name": "Recensement de la population de l’île de Montréal – 2011 – tableau « Arrondissements et villes liées »",
+      "description": "Tableau « Quartiers »\r\n\r\nLe découpage se fait en fonction des anciens quartiers et/ou les anciennes municipalités de l’île de Montréal (l’agglomération). Pour visualiser ce découpage, veuillez consulter la fiche « Anciens territoires administratifs ».\r\n\r\nTableau « Arrondissements et villes liées »\r\n\r\nLe découpage se fait en fonction des arrondissements existants en 2011, ainsi que les villes liées à l’agglomération de Montréal. Pour visualiser ce découpage, veuillez consulter la fiche « Polygones des arrondissements ».",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/476ed7db-684a-42a3-8028-8d6cb83c0ec3/resource/370b0c30-886a-435b-9049-bcc5a5dd2e80/download/population-quartiers-arrondissements-et-villes-liees.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:04.026682",
+      "created": "2016-01-13T12:06:04.071739",
+      "schema": {
+        "resource_id": "370b0c30-886a-435b-9049-bcc5a5dd2e80",
+        "total_records": 46,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Population",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Population": null
+          },
+          {
+            "_id": 2,
+            "Population": "1886481"
+          },
+          {
+            "_id": 3,
+            "Population": null
+          },
+          {
+            "_id": 4,
+            "Population": "1649519"
+          },
+          {
+            "_id": 5,
+            "Population": "126891"
+          }
+        ]
+      },
+      "field_stats": {
+        "Population": {
+          "null_count": 9,
+          "null_pct": 19.6,
+          "populated_pct": 80.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 46,
+        "total_records": 46,
+        "audited_at": "2026-03-10T00:22:33.194312+00:00",
+        "fields": {
+          "Population": {
+            "null_count": 9,
+            "null_pct": 19.6,
+            "min": 5.0,
+            "max": 1886481.0,
+            "mean": 152957.9189,
+            "median": 49637.0,
+            "unique_count": 37,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Données géostatistiques",
+    "Population",
+    "Recensement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Analyse des données géostatistiques à la suite de la publication des rapports du recensement.\n\n\nNOTE : Ces données d'archives ne sont pas sous la fiducie de la Ville de Montréal.  Elles ont été déposées sur le portail dans les années antérieures, mais ne feront pas l’objet de mises à jour.  Pour avoir les données les plus récentes sur le recensement, il faut se référer au portail du gouvernement ouvert du Canada.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Gouvernement du Canada (extraction pour la Ville de Montréal)",
+      "Couverture temporelle": "2011-01-01",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Données géostatistiques",
+      "Population",
+      "Recensement"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/population-recensement",
+    "scraped_at": "2026-03-09T20:15:15.029993+00:00"
+  }
+}

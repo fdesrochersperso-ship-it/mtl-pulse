@@ -1,0 +1,1231 @@
+{
+  "slug": "vmtl-segments-routiers-de-collecte-des-temps-de-parcours",
+  "title": "Segments routiers de collecte des temps de parcours",
+  "notes": "De manière à collecter des données sur l'état de la circulation, la Ville de Montréal déploie un réseau de capteurs utilisant la technologie Bluetooth sur certains segments routiers stratégiques et permettant de calculer le temps de parcours sur ces segments. Cet ensemble de données fournit des informations sur les segments routiers pour lesquels des temps de parcours sont générés; les temps de parcours sont disponibles dans l'ensemble de données [Temps de parcours sur des segments routiers (historique)](/ville-de-montreal/temps-de-parcours-sur-des-segments-routiers-historique)",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-03-03T15:54:49.433342",
+  "metadata_modified": "2025-11-20T16:59:58.981895",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "5c342221-14c1-4593-9e2e-d1044b41dd90",
+      "name": "Segments de temps de parcours au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/a8f68bfa-5ead-4dda-ab52-b48e45ce9ea0/resource/5c342221-14c1-4593-9e2e-d1044b41dd90/download/bornes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-07-10T13:21:41.847789",
+      "created": "2017-03-03T10:56:14.907698",
+      "schema": {
+        "resource_id": "5c342221-14c1-4593-9e2e-d1044b41dd90",
+        "total_records": 330,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdLink",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "channel_name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "active",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LinkID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcLatitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "SrcLongitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DestLatitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestLongitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LinkName",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RouteDirectionName",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcChannelId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestChannelId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LineDistance_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "last_poll_time",
+            "type": "timestamp",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdLink": 1,
+            "channel_name": "Saint-Michel-Industriel",
+            "active": 1,
+            "LinkID": "LCh_10-16",
+            "SrcDetectorId": "10",
+            "SrcLatitude": 455760283333333,
+            "SrcLongitude": -736364616666667,
+            "DestDetectorId": "16",
+            "DestLatitude": 45564785,
+            "DestLongitude": -736449433333333,
+            "LinkName": "Charland:Saint-Michel a Papineau",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 11,
+            "DestChannelId": 17,
+            "LineDistance_m": 1410,
+            "last_poll_time": "2019-07-02T18:44:59"
+          },
+          {
+            "_id": 2,
+            "IdLink": 2,
+            "channel_name": "Papineau-charland",
+            "active": 1,
+            "LinkID": "LCh_16-10",
+            "SrcDetectorId": "16",
+            "SrcLatitude": 45564785,
+            "SrcLongitude": -736449433333333,
+            "DestDetectorId": "10",
+            "DestLatitude": 455760283333333,
+            "DestLongitude": -736364616666667,
+            "LinkName": "Charland:Papineau a Saint-Michel",
+            "RouteDirectionName": "N",
+            "SrcChannelId": 17,
+            "DestChannelId": 11,
+            "LineDistance_m": 1414,
+            "last_poll_time": "2019-07-02T18:44:58"
+          },
+          {
+            "_id": 3,
+            "IdLink": 3,
+            "channel_name": "Papineau-Henri-Bourassa",
+            "active": 1,
+            "LinkID": "LHB_15-20",
+            "SrcDetectorId": "15",
+            "SrcLatitude": 455702683333333,
+            "SrcLongitude": -736588066666667,
+            "DestDetectorId": "20",
+            "DestLatitude": 45555365,
+            "DestLongitude": -736683933333333,
+            "LinkName": "Henri-Bourassa:Papineau a Lajeunesse",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 16,
+            "DestChannelId": 21,
+            "LineDistance_m": 1818,
+            "last_poll_time": "2019-07-02T18:44:57"
+          },
+          {
+            "_id": 4,
+            "IdLink": 4,
+            "channel_name": "Henri-Bourassa-Lajeunesse",
+            "active": 1,
+            "LinkID": "LHB_20-15",
+            "SrcDetectorId": "20",
+            "SrcLatitude": 45555365,
+            "SrcLongitude": -736683933333333,
+            "DestDetectorId": "15",
+            "DestLatitude": 455702683333333,
+            "DestLongitude": -736588066666667,
+            "LinkName": "Henri-Bourassa:Lajeunesse a Papineau",
+            "RouteDirectionName": "N",
+            "SrcChannelId": 21,
+            "DestChannelId": 16,
+            "LineDistance_m": 1818,
+            "last_poll_time": "2019-02-15T13:56:37"
+          },
+          {
+            "_id": 5,
+            "IdLink": 5,
+            "channel_name": "Henri-Bourassa-Lajeunesse",
+            "active": 1,
+            "LinkID": "LHB_20-21",
+            "SrcDetectorId": "20",
+            "SrcLatitude": 45555365,
+            "SrcLongitude": -736683933333333,
+            "DestDetectorId": "21",
+            "DestLatitude": 455349866666667,
+            "DestLongitude": -736807116666667,
+            "LinkName": "Henri_Bourassa:Lajeunesse a Bourassa-Acadie",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 21,
+            "DestChannelId": 22,
+            "LineDistance_m": 2460,
+            "last_poll_time": "2019-02-15T13:56:37"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdLink": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "channel_name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LinkID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcLatitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcLongitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestLatitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestLongitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LinkName": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RouteDirectionName": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcChannelId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestChannelId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LineDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "last_poll_time": {
+          "null_count": 19,
+          "null_pct": 5.8,
+          "populated_pct": 94.2
+        }
+      },
+      "quality_audit": {
+        "sample_size": 330,
+        "total_records": 330,
+        "audited_at": "2026-03-10T00:27:11.857076+00:00",
+        "fields": {
+          "IdLink": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 369.0,
+            "mean": 183.203,
+            "median": 182.5,
+            "unique_count": 330,
+            "field_type_detected": "numeric"
+          },
+          "channel_name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 114,
+            "top_values": [
+              {
+                "value": "Saint-Denis-Sherbrooke",
+                "count": 8
+              },
+              {
+                "value": "Sherbrooke-Parc-Bleury",
+                "count": 6
+              },
+              {
+                "value": "Papineau-Jean-talon",
+                "count": 5
+              },
+              {
+                "value": "Papineau-Rosemont",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke-Pie-IX",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke-Dickson",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke-Curatteau",
+                "count": 5
+              },
+              {
+                "value": "Saint-Denis-Saint-Joseph",
+                "count": 5
+              },
+              {
+                "value": "Saint-Michel-Industriel",
+                "count": 4
+              },
+              {
+                "value": "Papineau-Henri-Bourassa",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.9182,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 303
+              },
+              {
+                "value": "0",
+                "count": 27
+              }
+            ]
+          },
+          "LinkID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 330,
+            "top_values": [
+              {
+                "value": "LCh_10-16",
+                "count": 1
+              },
+              {
+                "value": "LCh_16-10",
+                "count": 1
+              },
+              {
+                "value": "LHB_15-20",
+                "count": 1
+              },
+              {
+                "value": "LHB_20-15",
+                "count": 1
+              },
+              {
+                "value": "LHB_20-21",
+                "count": 1
+              },
+              {
+                "value": "LHB_21-20",
+                "count": 1
+              },
+              {
+                "value": "LJT_12-18",
+                "count": 1
+              },
+              {
+                "value": "LJT_18-12",
+                "count": 1
+              },
+              {
+                "value": "LPa_15-16",
+                "count": 1
+              },
+              {
+                "value": "LPa_16-15",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 99.0,
+            "mean": 45.9476,
+            "median": 41.5,
+            "unique_count": 95,
+            "field_type_detected": "numeric"
+          },
+          "SrcLatitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45517.0,
+            "max": 456009783333333.0,
+            "mean": 224922003177473.16,
+            "median": 45595805.0,
+            "unique_count": 115,
+            "field_type_detected": "numeric"
+          },
+          "SrcLongitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -736807116666667.0,
+            "max": -735267.0,
+            "mean": -401347253329070.56,
+            "median": -735364583333333.0,
+            "unique_count": 115,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 99.0,
+            "mean": 45.6028,
+            "median": 41.0,
+            "unique_count": 95,
+            "field_type_detected": "numeric"
+          },
+          "DestLatitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45517.0,
+            "max": 456009783333333.0,
+            "mean": 238720168439355.16,
+            "median": 455047500000000.0,
+            "unique_count": 114,
+            "field_type_detected": "numeric"
+          },
+          "DestLongitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -736807116666667.0,
+            "max": -735267.0,
+            "mean": -412497198104501.75,
+            "median": -735582216666667.0,
+            "unique_count": 114,
+            "field_type_detected": "numeric"
+          },
+          "LinkName": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 330,
+            "top_values": [
+              {
+                "value": "Charland:Saint-Michel a Papineau",
+                "count": 1
+              },
+              {
+                "value": "Charland:Papineau a Saint-Michel",
+                "count": 1
+              },
+              {
+                "value": "Henri-Bourassa:Papineau a Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "Henri-Bourassa:Lajeunesse a Papineau",
+                "count": 1
+              },
+              {
+                "value": "Henri_Bourassa:Lajeunesse a Bourassa-Acadie",
+                "count": 1
+              },
+              {
+                "value": "Henri_Bourassa:Acadie a Bourassa-Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "Jean Talon:SaintMichel a Papineau",
+                "count": 1
+              },
+              {
+                "value": "JeanTalon:Papineau a Saint-Michel",
+                "count": 1
+              },
+              {
+                "value": "Papineau:Henri-Bourassa a Charland",
+                "count": 1
+              },
+              {
+                "value": "Papineau: Charland a Henri-Bourassa",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "RouteDirectionName": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "O",
+                "count": 87
+              },
+              {
+                "value": "E",
+                "count": 82
+              },
+              {
+                "value": "S",
+                "count": 81
+              },
+              {
+                "value": "N",
+                "count": 78
+              },
+              {
+                "value": "W",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SrcChannelId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 141.0,
+            "mean": 65.2818,
+            "median": 58.0,
+            "unique_count": 114,
+            "field_type_detected": "numeric"
+          },
+          "DestChannelId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 141.0,
+            "mean": 64.6303,
+            "median": 57.0,
+            "unique_count": 114,
+            "field_type_detected": "numeric"
+          },
+          "LineDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 101.0,
+            "max": 4213.0,
+            "mean": 934.6758,
+            "median": 730.5,
+            "unique_count": 189,
+            "field_type_detected": "numeric"
+          },
+          "last_poll_time": {
+            "null_count": 19,
+            "null_pct": 5.8,
+            "min_date": "2015-09-03T20:27:22",
+            "max_date": "2019-07-02T18:45:02",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "93227aa5-8061-4001-859e-53d25951f3b0",
+      "name": "Segments de temps de parcours au format MS Excel",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/a8f68bfa-5ead-4dda-ab52-b48e45ce9ea0/resource/93227aa5-8061-4001-859e-53d25951f3b0/download/bornes.xlsx",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-07-10T13:21:56.985542",
+      "created": "2017-03-03T10:59:29.414179",
+      "schema": {
+        "resource_id": "93227aa5-8061-4001-859e-53d25951f3b0",
+        "total_records": 274,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdLink",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "channel_name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "active",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LinkID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "SrcLatitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "SrcLongitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestLatitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestLongitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LinkName",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RouteDirectionName",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcChannelId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestChannelId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LineDistance_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "last_poll_time",
+            "type": "timestamp",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdLink": 1,
+            "channel_name": "Saint-Michel-Industriel",
+            "active": 1,
+            "LinkID": "LCh_10-16",
+            "SrcDetectorId": 10,
+            "SrcLatitude": 45.576028,
+            "SrcLongitude": -73.636462,
+            "DestDetectorId": 16,
+            "DestLatitude": 45.564785,
+            "DestLongitude": -73.644943,
+            "LinkName": "Charland:Saint-Michel a Papineau",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 11,
+            "DestChannelId": 17,
+            "LineDistance_m": 1410,
+            "last_poll_time": "2017-02-28T16:20:51"
+          },
+          {
+            "_id": 2,
+            "IdLink": 2,
+            "channel_name": "Papineau-charland",
+            "active": 1,
+            "LinkID": "LCh_16-10",
+            "SrcDetectorId": 16,
+            "SrcLatitude": 45.564785,
+            "SrcLongitude": -73.644943,
+            "DestDetectorId": 10,
+            "DestLatitude": 45.576028,
+            "DestLongitude": -73.636462,
+            "LinkName": "Charland:Papineau a Saint-Michel",
+            "RouteDirectionName": "N",
+            "SrcChannelId": 17,
+            "DestChannelId": 11,
+            "LineDistance_m": 1414,
+            "last_poll_time": "2017-02-28T16:20:52"
+          },
+          {
+            "_id": 3,
+            "IdLink": 3,
+            "channel_name": "Papineau-Henri-Bourassa",
+            "active": 1,
+            "LinkID": "LHB_15-20",
+            "SrcDetectorId": 15,
+            "SrcLatitude": 45.570268,
+            "SrcLongitude": -73.658807,
+            "DestDetectorId": 20,
+            "DestLatitude": 45.555365,
+            "DestLongitude": -73.668393,
+            "LinkName": "Henri-Bourassa:Papineau a Lajeunesse",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 16,
+            "DestChannelId": 21,
+            "LineDistance_m": 1818,
+            "last_poll_time": "2017-02-28T16:20:48"
+          },
+          {
+            "_id": 4,
+            "IdLink": 4,
+            "channel_name": "Henri-Bourassa-Lajeunesse",
+            "active": 1,
+            "LinkID": "LHB_20-15",
+            "SrcDetectorId": 20,
+            "SrcLatitude": 45.555365,
+            "SrcLongitude": -73.668393,
+            "DestDetectorId": 15,
+            "DestLatitude": 45.570268,
+            "DestLongitude": -73.658807,
+            "LinkName": "Henri-Bourassa:Lajeunesse a Papineau",
+            "RouteDirectionName": "N",
+            "SrcChannelId": 21,
+            "DestChannelId": 16,
+            "LineDistance_m": 1818,
+            "last_poll_time": "2017-02-28T16:20:50"
+          },
+          {
+            "_id": 5,
+            "IdLink": 5,
+            "channel_name": "Henri-Bourassa-Lajeunesse",
+            "active": 1,
+            "LinkID": "LHB_20-21",
+            "SrcDetectorId": 20,
+            "SrcLatitude": 45.555365,
+            "SrcLongitude": -73.668393,
+            "DestDetectorId": 21,
+            "DestLatitude": 45.534987,
+            "DestLongitude": -73.680712,
+            "LinkName": "Henri_Bourassa:Lajeunesse a Bourassa-Acadie",
+            "RouteDirectionName": "O",
+            "SrcChannelId": 21,
+            "DestChannelId": 22,
+            "LineDistance_m": 2460,
+            "last_poll_time": "2017-02-28T16:20:50"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdLink": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "channel_name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LinkID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcLatitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcLongitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestLatitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestLongitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LinkName": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RouteDirectionName": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcChannelId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestChannelId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LineDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "last_poll_time": {
+          "null_count": 25,
+          "null_pct": 9.1,
+          "populated_pct": 90.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 274,
+        "total_records": 274,
+        "audited_at": "2026-03-10T00:27:12.910561+00:00",
+        "fields": {
+          "IdLink": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 310.0,
+            "mean": 151.2226,
+            "median": 150.5,
+            "unique_count": 274,
+            "field_type_detected": "numeric"
+          },
+          "channel_name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 93,
+            "top_values": [
+              {
+                "value": "Saint-Denis-Sherbrooke",
+                "count": 8
+              },
+              {
+                "value": "Sherbrooke-Parc-Bleury",
+                "count": 6
+              },
+              {
+                "value": "Papineau-Jean-talon",
+                "count": 5
+              },
+              {
+                "value": "Papineau-Rosemont",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke-Pie-IX",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke-Curatteau",
+                "count": 5
+              },
+              {
+                "value": "Saint-Denis-Saint-Joseph",
+                "count": 5
+              },
+              {
+                "value": "Saint-Michel-Industriel",
+                "count": 4
+              },
+              {
+                "value": "Papineau-Henri-Bourassa",
+                "count": 4
+              },
+              {
+                "value": "Saint-Michel-Jean-Talon",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.8869,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 243
+              },
+              {
+                "value": "0",
+                "count": 31
+              }
+            ]
+          },
+          "LinkID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 274,
+            "top_values": [
+              {
+                "value": "LCh_10-16",
+                "count": 1
+              },
+              {
+                "value": "LCh_16-10",
+                "count": 1
+              },
+              {
+                "value": "LHB_15-20",
+                "count": 1
+              },
+              {
+                "value": "LHB_20-15",
+                "count": 1
+              },
+              {
+                "value": "LHB_20-21",
+                "count": 1
+              },
+              {
+                "value": "LHB_21-20",
+                "count": 1
+              },
+              {
+                "value": "LJT_12-18",
+                "count": 1
+              },
+              {
+                "value": "LJT_18-12",
+                "count": 1
+              },
+              {
+                "value": "LPa_15-16",
+                "count": 1
+              },
+              {
+                "value": "LPa_16-15",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 96.0,
+            "mean": 44.8905,
+            "median": 40.0,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "SrcLatitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.4938,
+            "max": 45.6112,
+            "mean": 45.5382,
+            "median": 45.5307,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "SrcLongitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.6807,
+            "max": -73.5081,
+            "mean": -73.5794,
+            "median": -73.5674,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 96.0,
+            "mean": 44.7774,
+            "median": 39.5,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "DestLatitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.4938,
+            "max": 45.6112,
+            "mean": 45.5379,
+            "median": 45.5309,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "DestLongitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.6807,
+            "max": -73.5081,
+            "mean": -73.5791,
+            "median": -73.5677,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "LinkName": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 274,
+            "top_values": [
+              {
+                "value": "Charland:Saint-Michel a Papineau",
+                "count": 1
+              },
+              {
+                "value": "Charland:Papineau a Saint-Michel",
+                "count": 1
+              },
+              {
+                "value": "Henri-Bourassa:Papineau a Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "Henri-Bourassa:Lajeunesse a Papineau",
+                "count": 1
+              },
+              {
+                "value": "Henri_Bourassa:Lajeunesse a Bourassa-Acadie",
+                "count": 1
+              },
+              {
+                "value": "Henri_Bourassa:Acadie a Bourassa-Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "Jean Talon:SaintMichel a Papineau",
+                "count": 1
+              },
+              {
+                "value": "JeanTalon:Papineau a Saint-Michel",
+                "count": 1
+              },
+              {
+                "value": "Papineau:Henri-Bourassa a Charland",
+                "count": 1
+              },
+              {
+                "value": "Papineau: Charland a Henri-Bourassa",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "RouteDirectionName": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "S",
+                "count": 74
+              },
+              {
+                "value": "N",
+                "count": 69
+              },
+              {
+                "value": "O",
+                "count": 66
+              },
+              {
+                "value": "E",
+                "count": 65
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SrcChannelId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 117.0,
+            "mean": 53.7737,
+            "median": 50.0,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "DestChannelId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 117.0,
+            "mean": 53.4818,
+            "median": 49.5,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "LineDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 101.0,
+            "max": 3880.0,
+            "mean": 949.438,
+            "median": 902.0,
+            "unique_count": 150,
+            "field_type_detected": "numeric"
+          },
+          "last_poll_time": {
+            "null_count": 25,
+            "null_pct": 9.1,
+            "min_date": "2015-09-03T20:27:21",
+            "max_date": "2017-02-28T16:20:53",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Congestion",
+    "Route",
+    "SUM",
+    "Temps de parcours",
+    "Traffic",
+    "Vitesse"
+  ],
+  "web_metadata": {
+    "methodology_text": "Des capteurs Bluetooth sont placés à certaines intersections importantes du réseau artériel montréalais. Le présent ensemble de données liste des segments créés en liant deux capteurs ensemble. Chaque segment correspond à une direction de circulation, donc de manière générale, pour chaque segment de rue il existe deux segments de temps de parcours.\n\n### Dictionnaire de données\n\n\n\n- IdLink (int) : Identifiant unique du segment de temps de parcours.\n\n- channel_name (texte) : Nom du canal\n\n- active (bool): Activité du segment au moment de l'exportation des données. 0: inactif, 1\n\n- LinkID (texte):  Identifiant textuel du segment de temps de parcours. Format LXX_AA-BB, XX :identifiant de l'artère, AA: identifiant de la source, BB: identifiant de la destination.\n\n- SrcDetectorId (int): Identifiant du capteur d'origine du segment (point de départ)\n\n- SrcLatitude (float): Latitude du capteur d'origine du segment selon le référentiel WGS84.\n\n- SrcLongitude (float): Longitude du capture d'origine du segment selon le référentiel WGS84.\n\n- DestDetectorId (int): Identifiant du capteur de destination du segment (point d'arrivée).\n\n- DestLatitude (float): Latitude du capteur de destination selon le référentiel WGS84.\n\n- DestLongitude (float): Longitude du capteur de destination selon le référentiel WGS84.\n\n- LinkName (texte): Nom complet du segment.\n\n- RouteDirectionName (texte): Direction segment de temps parcours selon l'axe du segment routier. N : nord, E : est, S : sud, O : ouest.\n\n- SrcChannelId (int): Identifiant unique du canal d'origine\n\n- DestChannelId (int): Identifiant unique du canal de destination.\n\n- LineDistance_m (int): Longueur du segment en mètre.\n\n- last_poll_time (datetime): Date et heure de la dernière collecte de données du capteur au format AAAA-MM-JJ HH:MM:SS:mmm.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité - Division de l'exploitation du réseau artériel",
+      "Couverture temporelle": "2016-01-25/2017-02-27",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Congestion",
+      "Route",
+      "SUM",
+      "Temps de parcours",
+      "Traffic",
+      "Vitesse"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/segments-routiers-de-collecte-des-temps-de-parcours",
+    "scraped_at": "2026-03-09T20:21:38.895536+00:00"
+  }
+}

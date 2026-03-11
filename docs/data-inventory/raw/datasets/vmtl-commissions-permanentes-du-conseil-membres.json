@@ -1,0 +1,725 @@
+{
+  "slug": "vmtl-commissions-permanentes-du-conseil-membres",
+  "title": "Commissions permanentes du conseil - membres",
+  "notes": "Élus siégeant aux commissions du conseil de la ville et du conseil d’agglomération",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-05-26T15:16:29.737411",
+  "metadata_modified": "2025-02-26T21:47:03.702544",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "99f44cc6-7593-4673-902a-6776b5e2a390",
+      "name": "Membres des commissions permanentes",
+      "description": "Désignation – texte - nom de la commission Membre – texte- prénom, nom Titre – texte – président , vice-président ou membre Arrondissement/ville liée - texte – origine du membre Parti – texte- parti politique du membre s’il y a lieu. ",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/f7a1c87d-a6f4-4ca6-8200-ceaa85cc3b9c/resource/99f44cc6-7593-4673-902a-6776b5e2a390/download/membre-des-commissions.csv",
+      "datastore_active": true,
+      "size": 16371,
+      "last_modified": "2021-08-23T14:29:00.529847",
+      "created": "2020-05-26T15:19:08.584530",
+      "schema": {
+        "resource_id": "99f44cc6-7593-4673-902a-6776b5e2a390",
+        "total_records": 116,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Désignation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Membre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement/ville liée",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Anne-Marie SIGOUIN",
+            "Titre": "Présidente",
+            "Arrondissement/ville liée": "Le Sud-Ouest",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          },
+          {
+            "_id": 2,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Robert COUTU",
+            "Titre": "Vice-président",
+            "Arrondissement/ville liée": "Montréal-Est",
+            "Parti": ""
+          },
+          {
+            "_id": 3,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Benoit LANGEVIN",
+            "Titre": "Vice-président",
+            "Arrondissement/ville liée": "Pierrefonds-Roxboro",
+            "Parti": "Ensemble Montréal"
+          },
+          {
+            "_id": 4,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Younes BOUKALA",
+            "Titre": "Membre",
+            "Arrondissement/ville liée": "Lachine",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          },
+          {
+            "_id": 5,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Michèle FLANNERY",
+            "Titre": "Membre",
+            "Arrondissement/ville liée": "Lachine",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          }
+        ]
+      },
+      "field_stats": {
+        "Désignation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Membre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement/ville liée": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 116,
+        "total_records": 116,
+        "audited_at": "2026-03-10T00:14:46.679142+00:00",
+        "fields": {
+          "Désignation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Commission sur les finances et l’administration",
+                "count": 12
+              },
+              {
+                "value": "Commission sur l'inspecteur général",
+                "count": 12
+              },
+              {
+                "value": "Commission sur la culture, le patrimoine et les sports",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le développement économique et urbain et l’habitation",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le développement social et la diversité montréalaise",
+                "count": 11
+              },
+              {
+                "value": "Commission sur l’eau, l’environnement, le développement durable et les grands parcs",
+                "count": 11
+              },
+              {
+                "value": "Commission de la présidence du conseil",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le transport et les travaux publics",
+                "count": 11
+              },
+              {
+                "value": "Commission sur l’examen des contrats",
+                "count": 10
+              },
+              {
+                "value": "Commission de la sécurité publique",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Membre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 74,
+            "top_values": [
+              {
+                "value": "Christina SMITH",
+                "count": 4
+              },
+              {
+                "value": "Robert COUTU",
+                "count": 3
+              },
+              {
+                "value": "Younes BOUKALA",
+                "count": 3
+              },
+              {
+                "value": "Mindy POLLAK",
+                "count": 3
+              },
+              {
+                "value": "Alain VAILLANCOURT",
+                "count": 3
+              },
+              {
+                "value": "Fanny MAGINI",
+                "count": 3
+              },
+              {
+                "value": "Maeva VILAIN",
+                "count": 3
+              },
+              {
+                "value": "Josefina BLANCO",
+                "count": 3
+              },
+              {
+                "value": "Lisa CHRISTENSEN",
+                "count": 3
+              },
+              {
+                "value": "Paola HAWA",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Titre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Membre",
+                "count": 82
+              },
+              {
+                "value": "Vice-président",
+                "count": 15
+              },
+              {
+                "value": "Présidente",
+                "count": 7
+              },
+              {
+                "value": "Vice-présidente",
+                "count": 6
+              },
+              {
+                "value": "Président",
+                "count": 4
+              },
+              {
+                "value": "Vice-rpésidente",
+                "count": 1
+              },
+              {
+                "value": "Représentant",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement/ville liée": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Outremont",
+                "count": 9
+              },
+              {
+                "value": "Verdun",
+                "count": 8
+              },
+              {
+                "value": "Rivière-des-Praires - Pointe-aux-Trembles",
+                "count": 7
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 6
+              },
+              {
+                "value": "Lachine",
+                "count": 6
+              },
+              {
+                "value": "L'Île-Bizard - Sainte-Geneviève",
+                "count": 6
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 5
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 5
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti": {
+            "null_count": 21,
+            "null_pct": 18.1,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Projet Montréal - Équipe Valérie Plante",
+                "count": 65
+              },
+              {
+                "value": "Ensemble Montréal",
+                "count": 22
+              },
+              {
+                "value": "Équipe Barbe Team",
+                "count": 4
+              },
+              {
+                "value": "Indépendante",
+                "count": 2
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 1
+              },
+              {
+                "value": "Indépendant",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "1cb35513-e5c1-4ae6-af9a-ef40a0378a0e",
+      "name": "Membres des commissions permanentes",
+      "description": "Désignation – texte - nom de la commission\r\nMembre – texte- prénom, nom\r\nTitre – texte – président , vice-président ou membre\r\nArrondissement/ville liée - texte – origine du membre \r\nParti – texte- parti politique du membre s’il y a lieu. \r\n",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/f7a1c87d-a6f4-4ca6-8200-ceaa85cc3b9c/resource/1cb35513-e5c1-4ae6-af9a-ef40a0378a0e/download/membre-des-commissions.xls",
+      "datastore_active": true,
+      "size": 22528,
+      "last_modified": "2021-08-23T14:29:19.471958",
+      "created": "2020-05-26T15:20:06.771642",
+      "schema": {
+        "resource_id": "1cb35513-e5c1-4ae6-af9a-ef40a0378a0e",
+        "total_records": 116,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Désignation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Membre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement/ville liée",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Anne-Marie SIGOUIN",
+            "Titre": "Présidente",
+            "Arrondissement/ville liée": "Le Sud-Ouest",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          },
+          {
+            "_id": 2,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Robert COUTU",
+            "Titre": "Vice-président",
+            "Arrondissement/ville liée": "Montréal-Est",
+            "Parti": ""
+          },
+          {
+            "_id": 3,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Benoit LANGEVIN",
+            "Titre": "Vice-président",
+            "Arrondissement/ville liée": "Pierrefonds-Roxboro",
+            "Parti": "Ensemble Montréal"
+          },
+          {
+            "_id": 4,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Younes BOUKALA",
+            "Titre": "Membre",
+            "Arrondissement/ville liée": "Lachine",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          },
+          {
+            "_id": 5,
+            "Désignation": "Commission sur la culture, le patrimoine et les sports",
+            "Membre": "Michèle FLANNERY",
+            "Titre": "Membre",
+            "Arrondissement/ville liée": "Lachine",
+            "Parti": "Projet Montréal - Équipe Valérie Plante"
+          }
+        ]
+      },
+      "field_stats": {
+        "Désignation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Membre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement/ville liée": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 116,
+        "total_records": 116,
+        "audited_at": "2026-03-10T00:14:47.534016+00:00",
+        "fields": {
+          "Désignation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Commission sur les finances et l’administration",
+                "count": 12
+              },
+              {
+                "value": "Commission sur l'inspecteur général",
+                "count": 12
+              },
+              {
+                "value": "Commission sur la culture, le patrimoine et les sports",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le développement économique et urbain et l’habitation",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le développement social et la diversité montréalaise",
+                "count": 11
+              },
+              {
+                "value": "Commission sur l’eau, l’environnement, le développement durable et les grands parcs",
+                "count": 11
+              },
+              {
+                "value": "Commission de la présidence du conseil",
+                "count": 11
+              },
+              {
+                "value": "Commission sur le transport et les travaux publics",
+                "count": 11
+              },
+              {
+                "value": "Commission sur l’examen des contrats",
+                "count": 10
+              },
+              {
+                "value": "Commission de la sécurité publique",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Membre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 74,
+            "top_values": [
+              {
+                "value": "Christina SMITH",
+                "count": 4
+              },
+              {
+                "value": "Robert COUTU",
+                "count": 3
+              },
+              {
+                "value": "Younes BOUKALA",
+                "count": 3
+              },
+              {
+                "value": "Mindy POLLAK",
+                "count": 3
+              },
+              {
+                "value": "Alain VAILLANCOURT",
+                "count": 3
+              },
+              {
+                "value": "Fanny MAGINI",
+                "count": 3
+              },
+              {
+                "value": "Maeva VILAIN",
+                "count": 3
+              },
+              {
+                "value": "Josefina BLANCO",
+                "count": 3
+              },
+              {
+                "value": "Lisa CHRISTENSEN",
+                "count": 3
+              },
+              {
+                "value": "Paola HAWA",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Titre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Membre",
+                "count": 82
+              },
+              {
+                "value": "Vice-président",
+                "count": 15
+              },
+              {
+                "value": "Présidente",
+                "count": 7
+              },
+              {
+                "value": "Vice-présidente",
+                "count": 6
+              },
+              {
+                "value": "Président",
+                "count": 4
+              },
+              {
+                "value": "Vice-rpésidente",
+                "count": 1
+              },
+              {
+                "value": "Représentant",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement/ville liée": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Outremont",
+                "count": 9
+              },
+              {
+                "value": "Verdun",
+                "count": 8
+              },
+              {
+                "value": "Rivière-des-Praires - Pointe-aux-Trembles",
+                "count": 7
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 6
+              },
+              {
+                "value": "Lachine",
+                "count": 6
+              },
+              {
+                "value": "L'Île-Bizard - Sainte-Geneviève",
+                "count": 6
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 5
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 5
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti": {
+            "null_count": 21,
+            "null_pct": 18.1,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Projet Montréal - Équipe Valérie Plante",
+                "count": 65
+              },
+              {
+                "value": "Ensemble Montréal",
+                "count": 22
+              },
+              {
+                "value": "Équipe Barbe Team",
+                "count": 4
+              },
+              {
+                "value": "Indépendante",
+                "count": 2
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 1
+              },
+              {
+                "value": "Indépendant",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Commission permanente",
+    "Conseil d agglomération",
+    "Conseil de ville",
+    "SG",
+    "Villes liées",
+    "Élu"
+  ],
+  "web_metadata": {
+    "methodology_text": "Désignation – texte - nom de la commissionMembre – texte - prénom, nomTitre – texte – président , vice-président ou membreArrondissement/ville liée - texte – origine du membre Parti – texte - parti politique du membre s’il y a lieu.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2021-06-01",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Commission permanente",
+      "Conseil d agglomération",
+      "Conseil de ville",
+      "SG",
+      "Villes liées",
+      "Élu"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/commissions-permanentes-du-conseil-membres",
+    "scraped_at": "2026-03-09T19:53:51.084412+00:00"
+  }
+}

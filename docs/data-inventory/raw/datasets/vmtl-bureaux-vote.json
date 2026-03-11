@@ -1,0 +1,769 @@
+{
+  "slug": "vmtl-bureaux-vote",
+  "title": "Élections municipales - Bureaux de vote",
+  "notes": "L'ensemble présente les informations liées aux différents bureaux de vote de Montréal.\r\n\r\nPlusieurs [ensembles de données connexes](https://donnees.montreal.ca/search?q=tags:%C3%89lections) seront disponibles sous peu pour l'élection municipale 2021 de Montréal.\r\n\r\nPlus d'informations sur les élections 2021 à Montréal sur le [portail](https://elections.montreal.ca/fr/) prévu à cet effet.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-10-19T13:49:30.285046",
+  "metadata_modified": "2025-02-27T13:32:07.453329",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "79c44bf6-a247-47a2-890a-ded0c35c2fde",
+      "name": "Bureaux de vote 2021",
+      "description": "Le fichier contient les points des bureaux de vote de la Ville de Montréal au format GeoJSON pour l'élection du 7 novembre 2021.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: WGS84 (EPSG 4326).\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/35f58e5d-4737-4ee0-aaba-798f8b06aac1/resource/79c44bf6-a247-47a2-890a-ded0c35c2fde/download/bureaux-vote-2021.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-21T04:02:56.550326",
+      "created": "2021-10-19T13:50:40.153385",
+      "schema": null
+    },
+    {
+      "id": "5a3837a1-5d70-4cfd-852c-313ef09c919e",
+      "name": "Bureaux de vote 2021",
+      "description": "Le fichier contient les points des bureaux de vote de la Ville de Montréal au format Shapefile compressé (zip) pour l'élection du 7 novembre 2021.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: WGS84 (EPSG 4326).\r\n\r\nRéférence spatiale horizontale: NAD83 MTM8 (EPSG 32188)\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/35f58e5d-4737-4ee0-aaba-798f8b06aac1/resource/5a3837a1-5d70-4cfd-852c-313ef09c919e/download/bureaux-vote-2021.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-21T04:03:22.497167",
+      "created": "2021-10-19T13:51:37.250046",
+      "schema": null
+    },
+    {
+      "id": "118fa92a-4368-4767-a34d-460fd6746508",
+      "name": "Bureaux de vote 2021",
+      "description": "Liste des bureaux de votes de la Ville de Montréal au format tabulaire (csv) pour l'élection générale du 7 novembre 2021.\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/35f58e5d-4737-4ee0-aaba-798f8b06aac1/resource/118fa92a-4368-4767-a34d-460fd6746508/download/bureaux-vote-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-10-21T04:03:45.438788",
+      "created": "2021-10-19T13:52:04.087300",
+      "schema": {
+        "resource_id": "118fa92a-4368-4767-a34d-460fd6746508",
+        "total_records": 463,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "BUREAUX",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ENDROIT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CIVIQUE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ADRESSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SALLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NUM_DISTRICT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NOM_DISTRICT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_ARRONDISSEMENT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "SEQUENCE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "WKT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": 1,
+            "BUREAUX": "001-002-003-004-005-006-007",
+            "ENDROIT": "ÉCOLE SAINT-ANTOINE-MARIE-CLARET",
+            "CIVIQUE": 10600,
+            "ADRESSE": "avenue Larose",
+            "SALLE": "Gymnase",
+            "NUM_DISTRICT": 11,
+            "NOM_DISTRICT": "Sault-au-Récollet",
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NO_ARRONDISSEMENT": 1,
+            "SEQUENCE": 1,
+            "WKT": "POINT(-73.649713 45.579622)"
+          },
+          {
+            "_id": 2,
+            "ID": 2,
+            "BUREAUX": "008-009-010-011-012",
+            "ENDROIT": "ÉCOLE ATELIER",
+            "CIVIQUE": 10055,
+            "ADRESSE": "rue J.-J.-Gagnier",
+            "SALLE": "Gymnase",
+            "NUM_DISTRICT": 11,
+            "NOM_DISTRICT": "Sault-au-Récollet",
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NO_ARRONDISSEMENT": 1,
+            "SEQUENCE": 2,
+            "WKT": "POINT(-73.641071 45.577482)"
+          },
+          {
+            "_id": 3,
+            "ID": 3,
+            "BUREAUX": "013-014-015-016-017-018-019",
+            "ENDROIT": "ÉCOLE SAINTS-MARTYRS-CANADIENS",
+            "CIVIQUE": 9920,
+            "ADRESSE": "rue Parthenais",
+            "SALLE": "Gymnase 1",
+            "NUM_DISTRICT": 11,
+            "NOM_DISTRICT": "Sault-au-Récollet",
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NO_ARRONDISSEMENT": 1,
+            "SEQUENCE": 3,
+            "WKT": "POINT(-73.646086 45.57049)"
+          },
+          {
+            "_id": 4,
+            "ID": 4,
+            "BUREAUX": "020-021-022-023-024-025",
+            "ENDROIT": "ÉCOLE LA VISITATION",
+            "CIVIQUE": 10591,
+            "ADRESSE": "rue Séguin",
+            "SALLE": "Gymnase",
+            "NUM_DISTRICT": 11,
+            "NOM_DISTRICT": "Sault-au-Récollet",
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NO_ARRONDISSEMENT": 1,
+            "SEQUENCE": 4,
+            "WKT": "POINT(-73.656358 45.570859)"
+          },
+          {
+            "_id": 5,
+            "ID": 5,
+            "BUREAUX": "026-027-028-029-030-031-032-033",
+            "ENDROIT": "ÉCOLE ST. PIUS X",
+            "CIVIQUE": 9955,
+            "ADRESSE": "avenue Papineau - Entrée par la rue Sauvé Est",
+            "SALLE": "Plaza",
+            "NUM_DISTRICT": 11,
+            "NOM_DISTRICT": "Sault-au-Récollet",
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NO_ARRONDISSEMENT": 1,
+            "SEQUENCE": 5,
+            "WKT": "POINT(-73.649711 45.566824)"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "BUREAUX": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ENDROIT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CIVIQUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ADRESSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SALLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NUM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SEQUENCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "WKT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 463,
+        "total_records": 463,
+        "audited_at": "2026-03-10T00:14:34.946250+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 463.0,
+            "mean": 232.0,
+            "median": 232.0,
+            "unique_count": 463,
+            "field_type_detected": "numeric"
+          },
+          "BUREAUX": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 322,
+            "top_values": [
+              {
+                "value": "001-002-003-004-005-006-007-008-009",
+                "count": 12
+              },
+              {
+                "value": "001-002-003-004-005-006-007-008",
+                "count": 10
+              },
+              {
+                "value": "001-002-003-004-005",
+                "count": 6
+              },
+              {
+                "value": "001-002-003-004-005-006-007",
+                "count": 5
+              },
+              {
+                "value": "001-002-003-004-005-006",
+                "count": 5
+              },
+              {
+                "value": "001-002-003-004-005-006-007-008-009-010",
+                "count": 5
+              },
+              {
+                "value": "030-031-032-033-034-035-036-037",
+                "count": 4
+              },
+              {
+                "value": "006-007-008-009-010",
+                "count": 4
+              },
+              {
+                "value": "027-028-029-030-031-032-033-034",
+                "count": 4
+              },
+              {
+                "value": "001-002-003-004",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ENDROIT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 393,
+            "top_values": [
+              {
+                "value": "CENTRE COMMUNAUTAIRE D'ANJOU",
+                "count": 5
+              },
+              {
+                "value": "LASALLE COMMUNITY COMPREHENSIVE HIGH SCHOOL",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE LOUIS-DUPIRE",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE PIERRE-DE-COUBERTIN",
+                "count": 3
+              },
+              {
+                "value": "CENTRE COMMUNAUTAIRE INTERGÉNÉRATIONNEL D'OUTREMONT",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE LAMBERT-CLOSSE",
+                "count": 3
+              },
+              {
+                "value": "CENTRE DU PLATEAU",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE SAINT-ALBERT-LE-GRAND",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE MARGUERITE-DE LAJEMMERAIS",
+                "count": 3
+              },
+              {
+                "value": "ÉCOLE PRIMAIRE ÎLE-DES-SŒURS",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "CIVIQUE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 29.0,
+            "max": 21269.0,
+            "mean": 5149.1166,
+            "median": 5050.0,
+            "unique_count": 361,
+            "field_type_detected": "numeric"
+          },
+          "ADRESSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 318,
+            "top_values": [
+              {
+                "value": "chemin de la Côte-des-Neiges",
+                "count": 6
+              },
+              {
+                "value": "rue Centrale",
+                "count": 6
+              },
+              {
+                "value": "boulevard Métropolitain Est",
+                "count": 5
+              },
+              {
+                "value": "rue Cartier",
+                "count": 5
+              },
+              {
+                "value": "16e Avenue",
+                "count": 5
+              },
+              {
+                "value": "boulevard Gouin Est",
+                "count": 4
+              },
+              {
+                "value": "avenue Pierre-De Coubertin",
+                "count": 4
+              },
+              {
+                "value": "boulevard Maurice-Duplessis",
+                "count": 4
+              },
+              {
+                "value": "boulevard Saint-Joseph Est",
+                "count": 4
+              },
+              {
+                "value": "rue Notre-Dame Est",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SALLE": {
+            "null_count": 6,
+            "null_pct": 1.3,
+            "unique_count": 135,
+            "top_values": [
+              {
+                "value": "Gymnase",
+                "count": 220
+              },
+              {
+                "value": "Cafétéria",
+                "count": 21
+              },
+              {
+                "value": "Gymnase 1",
+                "count": 16
+              },
+              {
+                "value": "Gymnase 2",
+                "count": 12
+              },
+              {
+                "value": "Grande salle",
+                "count": 10
+              },
+              {
+                "value": "Hall d'entrée",
+                "count": 8
+              },
+              {
+                "value": "Salle communautaire",
+                "count": 6
+              },
+              {
+                "value": "Nouveau gymnase",
+                "count": 6
+              },
+              {
+                "value": "Salle polyvalente",
+                "count": 5
+              },
+              {
+                "value": "Gymnase A",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NUM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 194.0,
+            "mean": 105.2916,
+            "median": 112.0,
+            "unique_count": 58,
+            "field_type_detected": "numeric"
+          },
+          "NOM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "Champlain–L’Île-des-Sœurs",
+                "count": 16
+              },
+              {
+                "value": "Sault-Saint-Louis",
+                "count": 15
+              },
+              {
+                "value": "Cecil-P.-Newman",
+                "count": 12
+              },
+              {
+                "value": "Marie-Clarac",
+                "count": 12
+              },
+              {
+                "value": "Ovide-Clermont",
+                "count": 12
+              },
+              {
+                "value": "Vieux-Rosemont",
+                "count": 12
+              },
+              {
+                "value": "Loyola",
+                "count": 11
+              },
+              {
+                "value": "De Lorimier",
+                "count": 11
+              },
+              {
+                "value": "La Pointe-aux-Prairies",
+                "count": 11
+              },
+              {
+                "value": "Pointe-aux-Trembles",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 42
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 40
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 36
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 35
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 33
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 30
+              },
+              {
+                "value": "LaSalle",
+                "count": 27
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 27
+              },
+              {
+                "value": "Verdun",
+                "count": 26
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NO_ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 19.0,
+            "mean": 10.3175,
+            "median": 11.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 42
+              },
+              {
+                "value": "19",
+                "count": 40
+              },
+              {
+                "value": "3",
+                "count": 36
+              },
+              {
+                "value": "1",
+                "count": 35
+              },
+              {
+                "value": "7",
+                "count": 33
+              },
+              {
+                "value": "12",
+                "count": 30
+              },
+              {
+                "value": "5",
+                "count": 27
+              },
+              {
+                "value": "11",
+                "count": 27
+              },
+              {
+                "value": "17",
+                "count": 26
+              },
+              {
+                "value": "18",
+                "count": 25
+              }
+            ]
+          },
+          "SEQUENCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 16.0,
+            "mean": 5.2678,
+            "median": 5.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 58
+              },
+              {
+                "value": "2",
+                "count": 54
+              },
+              {
+                "value": "3",
+                "count": 51
+              },
+              {
+                "value": "4",
+                "count": 50
+              },
+              {
+                "value": "5",
+                "count": 47
+              },
+              {
+                "value": "6",
+                "count": 43
+              },
+              {
+                "value": "7",
+                "count": 42
+              },
+              {
+                "value": "8",
+                "count": 38
+              },
+              {
+                "value": "9",
+                "count": 29
+              },
+              {
+                "value": "10",
+                "count": 22
+              }
+            ]
+          },
+          "WKT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 463,
+            "top_values": [
+              {
+                "value": "POINT(-73.649713 45.579622)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.641071 45.577482)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.646086 45.57049)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.656358 45.570859)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.649711 45.566824)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.658659 45.568714)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.667326 45.561483)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.654838 45.560799)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.641185 45.559863)",
+                "count": 1
+              },
+              {
+                "value": "POINT(-73.633141 45.551208)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SG",
+    "Élections"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le découpage électoral s'appuie sur différents paramètres, notamment la démographie. Il s'agit d'une compilation de données de diverses provenances réalisée à partir de plans à l’échelle 1:20 000 (carte de grilles de rues). Données géospatiales validées par la Division de la géomatique.\n\n### Dictionnaire de données\n\n\n\n- ID (numérique) : Numéro unique de l'emplacement du bureau de vote\n\n- BUREAUX (texte) : Boîtes de scrutin par bureau de vote\n\n- ENDROIT (texte) : Nom de l'endroit du bureau de vote\n\n- CIVIQUE (texte) : Numéro civique de l'adresse\n\n- ADRESSE (texte) : Adresse du bureau de vote\n\n- SALLE (texte) : Nom de l'emplacement à l'intérieur du bureau de vote\n\n- NUM_DISTRICT (numérique) : Numéro du district électoral\n\n- NOM_DISTRICT (texte) : Nom du district électoral\n\n- ARRONDISSEMENT (texte) : Nom de l'arrondissement\n\n- NO_ARRONDISSEMENT (numérique) : Numéro de l'arrondissement\n\n- SEQUENCE (numérique) : Numéro séquentiel unique du bureau de vote à l'intérieur de chaque district électoral\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2021-11-07/2025-11",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "SG",
+      "Élections"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/bureaux-vote",
+    "scraped_at": "2026-03-09T19:53:15.686181+00:00"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "slug": "vmtl-rsma-points-d-echantillonnage-ruisso",
+  "title": "RSMA – Points d’échantillonnage RUISSO",
+  "notes": "Points d’échantillonnage du programme RUISSO, qualité de l’eau des ruisseaux, Réseau de suivi du milieu aquatique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-10-14T19:18:28.693436",
+  "metadata_modified": "2025-02-28T19:42:07.957130",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "adad6c48-fb48-40fc-a031-1ac870d978b4",
+      "name": "RSMA – Point d’échantillonnage RUISSO",
+      "description": "Points d’échantillonnage du programme RUISSO:\r\n\r\nPlan d’eau : Lac, rivière ou fleuve\r\n\r\nPoint d'échantillonnage : Code du RSMA identifiant le point d’échantillonnage\r\n\r\nLocalisation : Précisions sur l’emplacement du point d’échantillonnage\r\n\r\nAdministration : Arrondissement ou ville reconstituée dans lequel se situe le point d'échantillonnage\r\n\r\nLongitude : Coordonnée longitude\r\n\r\nLatitude : Coordonnée latitude\r\n\r\nActivité : Points actifs dans l'année la plus récente publiée",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/86843d31-4251-4002-b10d-620aaa751092/resource/adad6c48-fb48-40fc-a031-1ac870d978b4/download/stations_ruisso.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-06-06T13:33:19.357560",
+      "created": "2016-01-13T11:58:00.620197",
+      "schema": {
+        "resource_id": "adad6c48-fb48-40fc-a031-1ac870d978b4",
+        "total_records": 66,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Plan d'eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Administration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Activité",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Plan d'eau": "Rivière à l'Orme",
+            "Point d'échantillonnage": "AAO-0.0",
+            "Localisation": "Pierrefonds, boul. Gouin O, 40m au nord de la rue de l'Anse à l'Orme, exutoire au lac des Deux Montagnes.",
+            "Administration": "Pierrefonds-Roxboro",
+            "LATITUDE": 45450219814000,
+            "LONGITUDE": -7393703747000,
+            "Activité": "Actif"
+          },
+          {
+            "_id": 2,
+            "Plan d'eau": "Rivière à l'Orme",
+            "Point d'échantillonnage": "AAO-1.5P1",
+            "Localisation": "Pierrefonds, N ponceau boul.Gouin, 1500m en amont exutoire,  branche provenant de l'est.",
+            "Administration": "Pierrefonds-Roxboro",
+            "LATITUDE": 45447440247800,
+            "LONGITUDE": -7391930709450,
+            "Activité": "Inactif"
+          },
+          {
+            "_id": 3,
+            "Plan d'eau": "Rivière à l'Orme",
+            "Point d'échantillonnage": "AAO-2.0P4",
+            "Localisation": "Ste-A.-de-Bellevue, branche drainant secteur ouest, 140m à l'est de la rue Leslie Dowker.",
+            "Administration": "Sainte-Anne-de-Bellevue",
+            "LATITUDE": 45442879403500,
+            "LONGITUDE": -7391534886760,
+            "Activité": "Inactif"
+          },
+          {
+            "_id": 4,
+            "Plan d'eau": "Rivière à l'Orme",
+            "Point d'échantillonnage": "AAO-3.3P6",
+            "Localisation": "Kirkland, 60m au sud de l'intersection des rues de l'Anse à l'Orme et de Timberley trail, derrière le dépôt à neige.",
+            "Administration": "Kirkland",
+            "LATITUDE": 45436890596000,
+            "LONGITUDE": -7390147393000,
+            "Activité": "Actif"
+          },
+          {
+            "_id": 5,
+            "Plan d'eau": "Rivière à l'Orme",
+            "Point d'échantillonnage": "AAO-3.5",
+            "Localisation": "Sainte-Anne-de-Bellevue, 10m au nord du ch. Ste-Marie, 200m à l'ouest du ch. Anse à l'Orme.",
+            "Administration": "Sainte-Anne-de-Bellevue",
+            "LATITUDE": 45435656341000,
+            "LONGITUDE": -7390144108000,
+            "Activité": "Actif"
+          }
+        ]
+      },
+      "field_stats": {
+        "Plan d'eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Localisation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Administration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Activité": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 66,
+        "total_records": 66,
+        "audited_at": "2026-03-10T00:24:18.888862+00:00",
+        "fields": {
+          "Plan d'eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Rivière à l'Orme",
+                "count": 10
+              },
+              {
+                "value": "Ruisseau Bouchard",
+                "count": 7
+              },
+              {
+                "value": "Ruisseau Bertrand",
+                "count": 6
+              },
+              {
+                "value": "Canal de Lachine",
+                "count": 4
+              },
+              {
+                "value": "Ruisseau Denis",
+                "count": 4
+              },
+              {
+                "value": "Ruisseau De Montigny",
+                "count": 4
+              },
+              {
+                "value": "Ruisseau Saint-James",
+                "count": 3
+              },
+              {
+                "value": "Marais du parc-nature de la Pointe-aux-Prairies",
+                "count": 3
+              },
+              {
+                "value": "Ruisseau Pinel",
+                "count": 2
+              },
+              {
+                "value": "Ruisseau Terra-Cotta",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "AAO-0.0",
+                "count": 1
+              },
+              {
+                "value": "AAO-1.5P1",
+                "count": 1
+              },
+              {
+                "value": "AAO-2.0P4",
+                "count": 1
+              },
+              {
+                "value": "AAO-3.3P6",
+                "count": 1
+              },
+              {
+                "value": "AAO-3.5",
+                "count": 1
+              },
+              {
+                "value": "AAO-3.6",
+                "count": 1
+              },
+              {
+                "value": "AAO-3.9P7",
+                "count": 1
+              },
+              {
+                "value": "AAO-6.4",
+                "count": 1
+              },
+              {
+                "value": "AAO-6.4P12",
+                "count": 1
+              },
+              {
+                "value": "AAO-6.5",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Localisation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 65,
+            "top_values": [
+              {
+                "value": "Inters. Saint-Patrick et av. Dollard, est du pont Gauron, près de la caboose, sur le quai.",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds, boul. Gouin O, 40m au nord de la rue de l'Anse à l'Orme, exutoire au lac des Deux Montagnes.",
+                "count": 1
+              },
+              {
+                "value": "Pierrefonds, N ponceau boul.Gouin, 1500m en amont exutoire,  branche provenant de l'est.",
+                "count": 1
+              },
+              {
+                "value": "Ste-A.-de-Bellevue, branche drainant secteur ouest, 140m à l'est de la rue Leslie Dowker.",
+                "count": 1
+              },
+              {
+                "value": "Kirkland, 60m au sud de l'intersection des rues de l'Anse à l'Orme et de Timberley trail, derrière le dépôt à neige.",
+                "count": 1
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue, 10m au nord du ch. Ste-Marie, 200m à l'ouest du ch. Anse à l'Orme.",
+                "count": 1
+              },
+              {
+                "value": "Beaconsfield, 250m à l'est de la rue Lee et 25m au sud de l'autoroute 40, en amont du pluvial.",
+                "count": 1
+              },
+              {
+                "value": "Beaconsfield, 240m à l'est de la rue Lee et 400m au sud de l'A40, embranchement provenant de la zone boisée entourant le boul. Lakeview.",
+                "count": 1
+              },
+              {
+                "value": "200m à l'est du Boul.Morgan et 280m au sud de la transcanadienne, affluent provenant de Ste-Anne-de-Bellevue et de la partie O et S de la zone industriel de Baie d'Urfée.",
+                "count": 1
+              },
+              {
+                "value": "Baie d'Urfée, boul. Morgan côté est, 250m au sud de l'autoroute 40,  affluent provenant des zones résidentilelles de Baie d'Urfé.",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Administration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "Dorval",
+                "count": 13
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 8
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 6
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 5
+              },
+              {
+                "value": "Baie d'Urfé",
+                "count": 4
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 4
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 3
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 2
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45425155844000.0,
+            "max": 454746751641963.0,
+            "mean": 57896051086949.87,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -737631567221606.0,
+            "max": -7350467130000.0,
+            "mean": -30506303060743.848,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Activité": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Actif",
+                "count": 50
+              },
+              {
+                "value": "Inactif",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "2494d57d-402b-40a3-80ff-b948fca83846",
+      "name": "RSMA – Points d’échantillonnage RUISSO",
+      "description": "Points d’échantillonnage du programme RUISSO:\r\n\r\nPlan d’eau : Lac, rivière ou fleuve\r\n\r\nPoint d'échantillonnage (PtEchantil) : Code du RSMA identifiant le point d’échantillonnage\r\n\r\nLocalisation (Local) : Précisions sur l’emplacement du point d’échantillonnage\r\n\r\nAdministration (Admin) : Arrondissement ou ville reconstituée dans lequel se situe le point d'échantillonnage\r\n\r\nLongitude : Coordonnée longitude\r\n\r\nLatitude : Coordonnée latitude\r\n\r\nActivité : Points actif dans l'année la plus récente publiée\r\n\r\nSystème de coordonnées de référence WGS84 (EPSG 4326) ",
+      "format": "KML",
+      "url": "https://donnees.montreal.ca/fr/dataset/86843d31-4251-4002-b10d-620aaa751092/resource/2494d57d-402b-40a3-80ff-b948fca83846/download/stations_ruisso.kml",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-06T13:33:53.509295",
+      "created": "2018-02-07T19:01:12.950757",
+      "schema": null
+    },
+    {
+      "id": "fa70f592-dc14-493a-95a1-640c0d3e97da",
+      "name": "RSMA – Points d’échantillonnage RUISSO",
+      "description": "Points d’échantillonnage du programme RUISSO:\r\n\r\nPlan d’eau : Lac, rivière ou fleuve\r\n\r\nPoint d'échantillonnage (PtEchantil) : Code du RSMA identifiant le point d’échantillonnage\r\n\r\nLocalisation (Local) : Précisions sur l’emplacement du point d’échantillonnage\r\n\r\nAdministration (Admin) : Arrondissement ou ville reconstituée dans lequel se situe le point d'échantillonnage\r\n\r\nLongitude : Coordonnée longitude\r\n\r\nLatitude : Coordonnée latitude\r\n\r\nActivité : Points actif dans l'année la plus récente publiée\r\n\r\nSystème de coordonnées de référence WGS84 (EPSG 4326)\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/86843d31-4251-4002-b10d-620aaa751092/resource/fa70f592-dc14-493a-95a1-640c0d3e97da/download/stations_ruisso.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-06T13:34:15.421263",
+      "created": "2018-02-07T19:03:32.130838",
+      "schema": null
+    },
+    {
+      "id": "c14756a5-7269-4bfa-af8f-c652f8291334",
+      "name": "RSMA – Points d’échantillonnage RUISSO",
+      "description": "Points d’échantillonnage du programme RUISSO:\r\n\r\nPlan d’eau : Lac, rivière ou fleuve\r\n\r\nPoint d'échantillonnage (PtEchantil) : Code du RSMA identifiant le point d’échantillonnage\r\n\r\nLocalisation (Local) : Précisions sur l’emplacement du point d’échantillonnage\r\n\r\nAdministration (Admin) : Arrondissement ou ville reconstituée dans lequel se situe le point d'échantillonnage\r\n\r\nLongitude : Coordonnée longitude\r\n\r\nLatitude : Coordonnée latitude\r\n\r\nActivité : Points actif dans l'année la plus récente publiée\r\n\r\nSystème de coordonnées de référence WGS84 (EPSG 4326)\r\n",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/86843d31-4251-4002-b10d-620aaa751092/resource/c14756a5-7269-4bfa-af8f-c652f8291334/download/stations_ruisso.json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-06T13:34:30.427076",
+      "created": "2018-02-07T19:04:40.435219",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cours d eau",
+    "Qualité de l eau",
+    "Ruisseau",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "À sept reprises durant la saison estivale, l’équipe du RSMA (Réseau de suivi du milieu aquatique) prélève des échantillons d’eau de surface dans les cours d’eau et plans d’eau de l’agglomération montréalaise (programme RUISSO). Cet ensemble de données définit les points d’échantillonnage du programme RUISSO.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Cours d eau",
+      "Qualité de l eau",
+      "Ruisseau",
+      "SEnv"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsma-points-d-echantillonnage-ruisso",
+    "scraped_at": "2026-03-09T20:19:45.602210+00:00"
+  }
+}

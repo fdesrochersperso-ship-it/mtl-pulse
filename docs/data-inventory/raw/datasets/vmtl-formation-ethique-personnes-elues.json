@@ -1,0 +1,221 @@
+{
+  "slug": "vmtl-formation-ethique-personnes-elues",
+  "title": "Personnes élues ayant suivi la formation obligatoire en éthique (archives)",
+  "notes": "Les personnes élues de la Ville de Montréal doivent participer à une formation en éthique et déontologie dans les six mois du début de mandat. Ces données présentent la liste des personnes élues ayant participé à la formation.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-05-11T19:51:02.065685",
+  "metadata_modified": "2025-10-10T17:53:44.028405",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "c975d284-e8f1-4395-ba37-d1f4d1ffe404",
+      "name": "Personnes élues formation éthique",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/b49569f1-f6e7-4f35-af39-828cfa46705b/resource/c975d284-e8f1-4395-ba37-d1f4d1ffe404/download/personnes-elues-formation-ethique.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-07-15T13:35:21.505958",
+      "created": "2022-05-11T19:52:50.817954",
+      "schema": {
+        "resource_id": "c975d284-e8f1-4395-ba37-d1f4d1ffe404",
+        "total_records": 206,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Titre_formation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Personnes_elues",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date_participation",
+            "type": "timestamp",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Titre_formation": "Éthique et déontologie en matière municipale: Introduction",
+            "Personnes_elues": "A. MUNRO, Kaïla",
+            "Date_participation": "2022-01-28T00:00:00"
+          },
+          {
+            "_id": 2,
+            "Titre_formation": "Éthique et déontologie en matière municipale: Introduction",
+            "Personnes_elues": "ALNEUS, Ericka",
+            "Date_participation": "2022-02-07T00:00:00"
+          },
+          {
+            "_id": 3,
+            "Titre_formation": "Éthique et déontologie en matière municipale: Introduction",
+            "Personnes_elues": "AUGER, Benoit",
+            "Date_participation": "2022-01-18T00:00:00"
+          },
+          {
+            "_id": 4,
+            "Titre_formation": "Éthique et déontologie en matière municipale: Introduction",
+            "Personnes_elues": "BARIL, Marie-Claude",
+            "Date_participation": "2022-01-28T00:00:00"
+          },
+          {
+            "_id": 5,
+            "Titre_formation": "Éthique et déontologie en matière municipale: Introduction",
+            "Personnes_elues": "BEAUDRY, Robert",
+            "Date_participation": "2022-01-18T00:00:00"
+          }
+        ]
+      },
+      "field_stats": {
+        "Titre_formation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Personnes_elues": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date_participation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 206,
+        "total_records": 206,
+        "audited_at": "2026-03-10T00:19:06.369833+00:00",
+        "fields": {
+          "Titre_formation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Éthique et déontologie en matière municipale: Introduction",
+                "count": 103
+              },
+              {
+                "value": "Éthique et déontologie en matière municipale: Rôles et responsabilités de la personne élue",
+                "count": 103
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Personnes_elues": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "A. MUNRO, Kaïla",
+                "count": 2
+              },
+              {
+                "value": "ALNEUS, Ericka",
+                "count": 2
+              },
+              {
+                "value": "AUGER, Benoit",
+                "count": 2
+              },
+              {
+                "value": "BARIL, Marie-Claude",
+                "count": 2
+              },
+              {
+                "value": "BEAUDRY, Robert",
+                "count": 2
+              },
+              {
+                "value": "BEAUREGARD, Céline-Audrey",
+                "count": 2
+              },
+              {
+                "value": "BEIS, Dimitrios (Jim)",
+                "count": 2
+              },
+              {
+                "value": "BÉLANGER, Richard",
+                "count": 2
+              },
+              {
+                "value": "BISSONNET, Michel",
+                "count": 2
+              },
+              {
+                "value": "BLACK, Christine",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date_participation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-18T00:00:00",
+            "max_date": "2022-07-13T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Déontologie",
+    "Formation",
+    "SG",
+    "Éthique"
+  ],
+  "web_metadata": {
+    "methodology_text": "La participation à la formation en éthique et déontologie est une obligation légale en vertu de la Loi sur les élections et les référendums dans les municipalités et la Loi sur l’éthique et la déontologie en matière municipale. La municipalité doit tenir à jour sur son site Internet la liste des membres du conseil qui ont participé à la formation.\n\n\nLa formation en éthique se décline en deux volets :\n\n(i) Éthique et déontologie en matière municipale : Introduction,\n\n(ii) Éthique et déontologie en matière municipale : Rôles et responsabilités de la personne élue.\n\n## Dictionnaire de données\n\n\n\n- Titre_formation (texte) : Titre de la formation.\n\n- Personnes_elues (texte) : Personnes élues ayant participé à la formation.\n\n- Date_participation (date) : Date à laquelle la personne élue a participé à la formation.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2022/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Déontologie",
+      "Formation",
+      "SG",
+      "Éthique"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/formation-ethique-personnes-elues",
+    "scraped_at": "2026-03-09T19:57:35.506703+00:00"
+  }
+}

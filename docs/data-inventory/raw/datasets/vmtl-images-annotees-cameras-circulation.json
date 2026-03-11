@@ -1,0 +1,92 @@
+{
+  "slug": "vmtl-images-annotees-cameras-circulation",
+  "title": "Images annotées extraites du flux vidéo des caméras de circulation (archives)",
+  "notes": "Images extraites des captations des [caméras d'observation routière](http://ville.montreal.qc.ca/circulation/) accompagnées  d’annotations pour la segmentation sémantique et pour la détection d’objets.\r\n\r\nPour la __segmentation sémantique__, chaque image de circulation source est accompagnée d’une image contenant la segmentation sémantique. La segmentation comporte 13 classes: poteaux, panneaux de signalisation, véhicules, végétation, terre-pleins, bâtiments, espaces privés, trottoirs, voies, piétons, structures, construction, néant.\r\n\r\nPour la __détection d’objets__, un fichier _.xml_ contenant la localisation des objets (i.e. cadre englobant)  est fourni avec chaque image de circulation. L’annotation comporte 5 classes : véhicules, piétons, objets de construction, cyclistes et autobus.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-10-26T18:37:43.629190",
+  "metadata_modified": "2025-02-21T15:01:14.607526",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "f3654a15-6b20-443c-b6b7-8c8201620c1d",
+      "name": "Images annotées pour la segmentation sémantique",
+      "description": "",
+      "format": "JPEG",
+      "url": "https://donnees.montreal.ca/fr/dataset/3c30b818-3cd9-4877-8273-600a2ee80b05/resource/f3654a15-6b20-443c-b6b7-8c8201620c1d/download/images-annotees-segmentation-semantique.zip",
+      "datastore_active": false,
+      "size": 707258627,
+      "last_modified": "2023-03-15T20:10:14.370183",
+      "created": "2020-10-26T21:02:45.376595",
+      "schema": null
+    },
+    {
+      "id": "8eadcff0-dec0-4754-93ab-286ba1b4368a",
+      "name": "Images annotées pour la détection d'objets",
+      "description": "",
+      "format": "JPEG",
+      "url": "https://donnees.montreal.ca/fr/dataset/3c30b818-3cd9-4877-8273-600a2ee80b05/resource/8eadcff0-dec0-4754-93ab-286ba1b4368a/download/images-annotees-detection-objets.zip",
+      "datastore_active": false,
+      "size": 651249868,
+      "last_modified": "2023-03-15T20:09:25.908855",
+      "created": "2020-10-26T19:23:55.464499",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Algorithme",
+    "Apprentissage automatique",
+    "Apprentissage profond",
+    "Deep learning",
+    "Intelligence artificielle",
+    "Machine learning",
+    "Mobilité",
+    "Recherche",
+    "STI",
+    "Segmentation",
+    "Trame urbaine"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les images sources sont tirées des flux d’images publics des caméras d'observation routière. Ces caméras sont installées dans le but premier d’aider les opérateurs du CGMU dans leur gestion de la circulation. Pour assurer le respect de la vie privée de nos citoyens, elles sont ajustées pour ne pas pouvoir capter les visages ni les plaques d’immatriculations des véhicules. Les images sont aussi publiées à des intervalles de 5 minutes. Si on arrivait malgré ces précautions à identifier un véhicule ou une personne par sa couleur ou les vêtements portés, il ne serait pas possible de suivre ses déplacements.\nLes images ont été captées entre mai et juillet 2019. La date (UTC) ainsi que l’identifiant de la caméra sont indiqués à même l’image de circulation. Les mêmes images sources sont incluses dans les deux ensembles de données publiés afin d’avoir 2 archives complètes pouvant être exploitées, sans interdépendance, pour l'entraînement de modèles de segmentation sémantique  ou de détection d’objets.\n\n### Images annotées pour la segmentation sémantique\n\n\n\nChaque pixel des images sources est classifié selon 13 classes : voie, trottoir, terre-plein, végétation, panneaux de signalisation (incluant les feux), les poteaux, les objets de construction (ex. : les cônes), les bâtiments, les structures (ex.: un pont), les terrains privés, les piétons et les véhicules (incluant les vélos) et le néant (classe fourre-tout pour tout ce qui ne fait pas partie des 12 autres classes, comme le cie). La classe des terrains privés a préséance sur les autres classes, par exemple une voiture dans un stationnement privé ne sera pas identifiée comme faisant partie de la classe véhicule, mais bien de celle des terrains privés. Voir le dictionnaire de données (fichier classes.json) pour la correspondance au code de couleur. Les données sont fournies sous la forme de 2 répertoires et un dictionnaire compressés dans une archive:\n* JPEGImages: images de circulation source (.jpeg)\n* Semantic: images annotées (.png).\n* classes.json: dictionnaire des classes de segmentation .(json)\n\n### Images annotées pour la détection d’objets\n\n\n\nListe d’objets d’intérêt contenus dans une image, classifiés et accompagnés de leur cadre englobant. Les 5 classes d’objets considérées dans ce jeu de données sont : véhicules, piétons, objets de construction, cyclistes et autobus. La classe cycliste inclut uniquement une personne sur un vélo (ou une trottinette/monocycle/vélo électrique), elle exclut donc les vélos seuls et les personnes marchant à côté de leur vélo.  Tous les autres modes de transports motorisés sont classés comme véhicules ou autobus. Cet ensemble de données est une archive, organisée selon le format standardisé d’annotation Pascal VOC, qui comprend 3 répertoires:\n- JPEGImages: images de circulation source (.jpeg)\n- Annotations: annotations (.xml), incluant les attributs suivants:\n  - filename: nom de l’image annotée\n  - size: la hauteur et la largeur de l’image en nombre de pixels, ainsi que la profondeur (i.e. 3 puisque l’image est de type RGB)\n  - Il y a ensuite autant d’étiquettes object qu’il y a d’objets d’intérêt dans l’image, avec les étiquettes suivantes: \n    - name:  la classe de l’objet (vehicle, pedestrian, construction, cyclist, bus)\n    - bnbox: la localisation du cadre autour de l’objet, sous la forme de deux coordonnées (le coin supérieur gauche - xmin, ymin, et le coin inférieur droit - xmax, ymax)\n- ImageSets: contient différents fichiers .txt contenant la liste des images composant les ensembles d’entraînement, de validation et de test. \n\n### Processus d’annotation\n\n\n\nChacune des annotations (segmentation sémantique et pour détection) est associée à l’une des images sources. Le libellé de l’image est le même que celui de sa source.\n\n\nL’annotation d’images est un processus long et laborieux qui a nécessité un effort collectif et un logiciel spécialisé. \n\n\nPour la **segmentation sémantique**,  la Ville a fait appel à une firme externe spécialisée pour réaliser l’exercice en limitant le nombre d’images au strict minimum jugé nécessaire (presque 10 000). Pour l’annotation de type détection d’objets, la Ville a procédé à l’annotation à l’interne avec un petit groupe de candidats volontaires. \n\n\nPour la **détection d’objets**, la Ville a procédé à l’annotation à l’interne avec un petit groupe de candidats volontaires. Le processus d’annotation a été initié par une extraction automatique des cadres englobants (bounding boxes) à partir des annotations de segmentation sémantique. Le code permettant cette extraction est publié sur la forge GitHub de la Ville.\n\n\nUn processus de vérification a été mis en place à l’interne afin de valider la qualité et de rectifier l’information au besoin. Malgré ce processus, étant donné la quantité d’images et les ressources restreintes, il est possible que certaines imperfections soient encore présentes dans les annotations.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des technologies de l'information",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Algorithme",
+      "Apprentissage automatique",
+      "Apprentissage profond",
+      "Deep learning",
+      "Intelligence artificielle",
+      "Machine learning",
+      "Mobilité",
+      "Recherche",
+      "STI",
+      "Segmentation",
+      "Trame urbaine"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/images-annotees-cameras-circulation",
+    "scraped_at": "2026-03-09T19:58:26.520671+00:00"
+  }
+}

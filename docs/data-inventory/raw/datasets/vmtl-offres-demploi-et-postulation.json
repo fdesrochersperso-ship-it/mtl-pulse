@@ -1,0 +1,911 @@
+{
+  "slug": "vmtl-offres-demploi-et-postulation",
+  "title": "Offres d'emploi et postulation",
+  "notes": "Ensemble de données listant les affichages des offres d'emploi ayant eu lieu à la Ville de Montréal. Les données sont extraites à partir du système de postulation en ligne qui permet de créer les offres d'emploi, de postuler sur ces offres et de faire le suivi des postulations. Pour chaque offre d'emploi, on retrouve des informations sur cette dernière ainsi que des statistiques de postulation par groupe visé sur les postulants.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-02-20T20:16:10.387898",
+  "metadata_modified": "2026-03-09T19:00:45.545696",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "eec813cf-bfb1-465e-b993-e27fc0beacf7",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYThmNGVhMmQtYzBlNS00ZTBhLThmZTMtNzgxYzhmMGU0MTdkIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-21T18:19:42.087532",
+      "schema": null
+    },
+    {
+      "id": "f719b197-b851-40a9-b35f-827f3008c1c9",
+      "name": "Offres d'emploi et statistiques de postulation",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/bc95ff0e-255f-4db5-a47d-f46f57ee4e8c/resource/f719b197-b851-40a9-b35f-827f3008c1c9/download/ouverture-de-donnees_affichages_postulants.csv",
+      "datastore_active": true,
+      "size": 13299857,
+      "last_modified": "2026-03-09T17:01:03.395961",
+      "created": "2017-02-20T15:19:29.862220",
+      "schema": {
+        "resource_id": "f719b197-b851-40a9-b35f-827f3008c1c9",
+        "total_records": 55198,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "UNITE_NIVEAU1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_UNITE_NIVEAU1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UNITE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_UNITE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACCREDITATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_ACCREDITATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TITRE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "EMPLOI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_AFFICHAGE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DEBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "FIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "INTERNE_EXTERNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_POSTULANT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_FEMME",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_HANDICAPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_MINORITE_VISIBLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_AUTOCHTONE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_MINORITE_ETHNIQUE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "UNITE_NIVEAU1": "37",
+            "DESCRIPTION_UNITE_NIVEAU1": "service de police de la ville de montreal",
+            "UNITE": "370105050000",
+            "DESCRIPTION_UNITE": "soutien aux enquêtes",
+            "ACCREDITATION": "12",
+            "DESCRIPTION_ACCREDITATION": "fonctionnaires",
+            "TITRE": "operateur(-trice) de video-clavier - cum",
+            "EMPLOI": "713260",
+            "NO_AFFICHAGE": "SPVM-09-TEMP-713260-15889",
+            "DEBUT": "2009-07-02",
+            "FIN": "2009-07-08",
+            "INTERNE_EXTERNE": "Interne",
+            "NOMBRE_POSTULANT": "0",
+            "NOMBRE_FEMME": "0",
+            "NOMBRE_HANDICAPE": "0",
+            "NOMBRE_MINORITE_VISIBLE": "0",
+            "NOMBRE_AUTOCHTONE": "0",
+            "NOMBRE_MINORITE_ETHNIQUE": "0"
+          },
+          {
+            "_id": 2,
+            "UNITE_NIVEAU1": "37",
+            "DESCRIPTION_UNITE_NIVEAU1": "service de police de la ville de montreal",
+            "UNITE": "370105050000",
+            "DESCRIPTION_UNITE": "soutien aux enquêtes",
+            "ACCREDITATION": "12",
+            "DESCRIPTION_ACCREDITATION": "fonctionnaires",
+            "TITRE": "secretaire d unite administrative",
+            "EMPLOI": "791930",
+            "NO_AFFICHAGE": "SPVM-09-TEMP-791930-15888",
+            "DEBUT": "2009-07-02",
+            "FIN": "2009-07-08",
+            "INTERNE_EXTERNE": "Interne",
+            "NOMBRE_POSTULANT": "0",
+            "NOMBRE_FEMME": "0",
+            "NOMBRE_HANDICAPE": "0",
+            "NOMBRE_MINORITE_VISIBLE": "0",
+            "NOMBRE_AUTOCHTONE": "0",
+            "NOMBRE_MINORITE_ETHNIQUE": "0"
+          },
+          {
+            "_id": 3,
+            "UNITE_NIVEAU1": "28",
+            "DESCRIPTION_UNITE_NIVEAU1": "service des infrastructures/transport et environnement",
+            "UNITE": "281008000000",
+            "DESCRIPTION_UNITE": "division administration - environnement",
+            "ACCREDITATION": "12",
+            "DESCRIPTION_ACCREDITATION": "fonctionnaires",
+            "TITRE": "commis de pesee",
+            "EMPLOI": "754810",
+            "NO_AFFICHAGE": "SITE-09-BHRS-754810*",
+            "DEBUT": "2009-07-02",
+            "FIN": "2009-07-08",
+            "INTERNE_EXTERNE": "Interne/Externe",
+            "NOMBRE_POSTULANT": "0",
+            "NOMBRE_FEMME": "0",
+            "NOMBRE_HANDICAPE": "0",
+            "NOMBRE_MINORITE_VISIBLE": "0",
+            "NOMBRE_AUTOCHTONE": "0",
+            "NOMBRE_MINORITE_ETHNIQUE": "0"
+          },
+          {
+            "_id": 4,
+            "UNITE_NIVEAU1": "59",
+            "DESCRIPTION_UNITE_NIVEAU1": "cote-des-neiges - notre-dame-de-grâce",
+            "UNITE": "590202000000",
+            "DESCRIPTION_UNITE": "division des ressources humaines",
+            "ACCREDITATION": "59",
+            "DESCRIPTION_ACCREDITATION": "prof/blanc/annk",
+            "TITRE": "bibliothecaire - occasionnel(le)",
+            "EMPLOI": "720790",
+            "NO_AFFICHAGE": "CDNNDG-09-temp-720790*",
+            "DEBUT": "2009-07-03",
+            "FIN": "2009-07-09",
+            "INTERNE_EXTERNE": "Interne/Externe",
+            "NOMBRE_POSTULANT": "1",
+            "NOMBRE_FEMME": "1",
+            "NOMBRE_HANDICAPE": "0",
+            "NOMBRE_MINORITE_VISIBLE": "0",
+            "NOMBRE_AUTOCHTONE": "0",
+            "NOMBRE_MINORITE_ETHNIQUE": "0"
+          },
+          {
+            "_id": 5,
+            "UNITE_NIVEAU1": "35",
+            "DESCRIPTION_UNITE_NIVEAU1": "dev culturel,qualite milieu de vie,diversite ethnoculturelle",
+            "UNITE": "350803000000",
+            "DESCRIPTION_UNITE": "division du soutien aux evenements",
+            "ACCREDITATION": "12",
+            "DESCRIPTION_ACCREDITATION": "fonctionnaires",
+            "TITRE": "secretaire d unite administrative",
+            "EMPLOI": "791930",
+            "NO_AFFICHAGE": "DCQMVDE-09-TEMP-791930-3086",
+            "DEBUT": "2009-07-02",
+            "FIN": "2009-07-09",
+            "INTERNE_EXTERNE": "Interne",
+            "NOMBRE_POSTULANT": "0",
+            "NOMBRE_FEMME": "0",
+            "NOMBRE_HANDICAPE": "0",
+            "NOMBRE_MINORITE_VISIBLE": "0",
+            "NOMBRE_AUTOCHTONE": "0",
+            "NOMBRE_MINORITE_ETHNIQUE": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "UNITE_NIVEAU1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_UNITE_NIVEAU1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UNITE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_UNITE": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACCREDITATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_ACCREDITATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TITRE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "EMPLOI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_AFFICHAGE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DEBUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "FIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INTERNE_EXTERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_POSTULANT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_FEMME": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_HANDICAPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_MINORITE_VISIBLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_AUTOCHTONE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_MINORITE_ETHNIQUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 55198,
+        "audited_at": "2026-03-10T00:21:13.488405+00:00",
+        "fields": {
+          "UNITE_NIVEAU1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 89.0,
+            "mean": 44.258,
+            "median": 37.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "DESCRIPTION_UNITE_NIVEAU1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "service des infrastructures/transport et environnement",
+                "count": 136
+              },
+              {
+                "value": "affaires corporatives",
+                "count": 89
+              },
+              {
+                "value": "service de police de la ville de montreal",
+                "count": 77
+              },
+              {
+                "value": "dev culturel,qualite milieu de vie,diversite ethnoculturelle",
+                "count": 75
+              },
+              {
+                "value": "st-laurent",
+                "count": 64
+              },
+              {
+                "value": "mise en valeur du territoire et du patrimoine",
+                "count": 52
+              },
+              {
+                "value": "cote-des-neiges - notre-dame-de-grâce",
+                "count": 47
+              },
+              {
+                "value": "direction des systemes d'information",
+                "count": 44
+              },
+              {
+                "value": "service des finances et de l'évaluation foncière",
+                "count": 34
+              },
+              {
+                "value": "montreal-nord",
+                "count": 32
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "UNITE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10301000000.0,
+            "max": 890702000000.0,
+            "mean": 443145258169.512,
+            "median": 370302000600.0,
+            "unique_count": 337,
+            "field_type_detected": "numeric"
+          },
+          "DESCRIPTION_UNITE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 293,
+            "top_values": [
+              {
+                "value": "division des ressources humaines",
+                "count": 132
+              },
+              {
+                "value": "division administration - environnement",
+                "count": 32
+              },
+              {
+                "value": "direction des transports",
+                "count": 31
+              },
+              {
+                "value": "direction des services administratifs",
+                "count": 26
+              },
+              {
+                "value": "employés en réaffectation",
+                "count": 25
+              },
+              {
+                "value": "direction de l'evaluation fonciere",
+                "count": 21
+              },
+              {
+                "value": "direction des travaux publics",
+                "count": 21
+              },
+              {
+                "value": "division des ress. financières, mat. et info.",
+                "count": 19
+              },
+              {
+                "value": "division du greffe",
+                "count": 16
+              },
+              {
+                "value": "division administration",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ACCREDITATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 59.0,
+            "mean": 13.338,
+            "median": 12.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "12",
+                "count": 643
+              },
+              {
+                "value": "29",
+                "count": 130
+              },
+              {
+                "value": "03",
+                "count": 93
+              },
+              {
+                "value": "11",
+                "count": 45
+              },
+              {
+                "value": "14",
+                "count": 36
+              },
+              {
+                "value": "04",
+                "count": 27
+              },
+              {
+                "value": "02",
+                "count": 9
+              },
+              {
+                "value": "22",
+                "count": 6
+              },
+              {
+                "value": "20",
+                "count": 5
+              },
+              {
+                "value": "59",
+                "count": 3
+              }
+            ]
+          },
+          "DESCRIPTION_ACCREDITATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "fonctionnaires",
+                "count": 643
+              },
+              {
+                "value": "professionnels",
+                "count": 130
+              },
+              {
+                "value": "cadre administ.",
+                "count": 93
+              },
+              {
+                "value": "pro.scien.p.e.",
+                "count": 45
+              },
+              {
+                "value": "manuels c.bleus",
+                "count": 36
+              },
+              {
+                "value": "contremaitre ca",
+                "count": 27
+              },
+              {
+                "value": "cadre direction",
+                "count": 9
+              },
+              {
+                "value": "pro.juristes",
+                "count": 6
+              },
+              {
+                "value": "architectes",
+                "count": 5
+              },
+              {
+                "value": "prof/blanc/annk",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TITRE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 282,
+            "top_values": [
+              {
+                "value": "agent(e) de bureau",
+                "count": 95
+              },
+              {
+                "value": "secretaire d unite administrative",
+                "count": 84
+              },
+              {
+                "value": "ingenieur(e)",
+                "count": 32
+              },
+              {
+                "value": "secretaire de direction",
+                "count": 29
+              },
+              {
+                "value": "prepose(e) au secretariat",
+                "count": 20
+              },
+              {
+                "value": "agent(e) de communications sociales",
+                "count": 19
+              },
+              {
+                "value": "aide-bibliothecaire",
+                "count": 18
+              },
+              {
+                "value": "agent(e) conseil en ressources humaines",
+                "count": 14
+              },
+              {
+                "value": "conseiller(-ere) en planification",
+                "count": 14
+              },
+              {
+                "value": "agent(e) du cadre bâti",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "EMPLOI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 103170.0,
+            "max": 801950.0,
+            "mean": 612615.42,
+            "median": 713245.0,
+            "unique_count": 282,
+            "field_type_detected": "numeric"
+          },
+          "NO_AFFICHAGE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "SPVM-09-TEMP-713260-15889",
+                "count": 1
+              },
+              {
+                "value": "SPVM-09-TEMP-791930-15888",
+                "count": 1
+              },
+              {
+                "value": "SITE-09-BHRS-754810*",
+                "count": 1
+              },
+              {
+                "value": "CDNNDG-09-temp-720790*",
+                "count": 1
+              },
+              {
+                "value": "DCQMVDE-09-TEMP-791930-3086",
+                "count": 1
+              },
+              {
+                "value": "SLE-09-TEMP-763810-39889*",
+                "count": 1
+              },
+              {
+                "value": "SPVM-09-TEMP-792820-15822",
+                "count": 1
+              },
+              {
+                "value": "AFCO26-09-TEMP-400010-34200",
+                "count": 1
+              },
+              {
+                "value": "ROPI-09-PERM-406810",
+                "count": 1
+              },
+              {
+                "value": "SPVM-09-TEMP-211310-38738",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "DEBUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2009-07-02",
+            "max_date": "2010-01-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "FIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2009-07-08",
+            "max_date": "2010-01-15",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "INTERNE_EXTERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Interne",
+                "count": 553
+              },
+              {
+                "value": "Interne/Externe",
+                "count": 447
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOMBRE_POSTULANT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 96.0,
+            "mean": 4.823,
+            "median": 1.0,
+            "unique_count": 50,
+            "field_type_detected": "numeric"
+          },
+          "NOMBRE_FEMME": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 70.0,
+            "mean": 3.071,
+            "median": 0.0,
+            "unique_count": 43,
+            "field_type_detected": "numeric"
+          },
+          "NOMBRE_HANDICAPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.064,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 944
+              },
+              {
+                "value": "1",
+                "count": 48
+              },
+              {
+                "value": "2",
+                "count": 8
+              }
+            ]
+          },
+          "NOMBRE_MINORITE_VISIBLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 23.0,
+            "mean": 1.121,
+            "median": 0.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 602
+              },
+              {
+                "value": "1",
+                "count": 197
+              },
+              {
+                "value": "2",
+                "count": 76
+              },
+              {
+                "value": "3",
+                "count": 41
+              },
+              {
+                "value": "4",
+                "count": 22
+              },
+              {
+                "value": "5",
+                "count": 17
+              },
+              {
+                "value": "6",
+                "count": 11
+              },
+              {
+                "value": "8",
+                "count": 7
+              },
+              {
+                "value": "9",
+                "count": 7
+              },
+              {
+                "value": "7",
+                "count": 3
+              }
+            ]
+          },
+          "NOMBRE_AUTOCHTONE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.009,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 991
+              },
+              {
+                "value": "1",
+                "count": 9
+              }
+            ]
+          },
+          "NOMBRE_MINORITE_ETHNIQUE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 10.0,
+            "mean": 0.477,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 768
+              },
+              {
+                "value": "1",
+                "count": 119
+              },
+              {
+                "value": "2",
+                "count": 57
+              },
+              {
+                "value": "3",
+                "count": 25
+              },
+              {
+                "value": "4",
+                "count": 14
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "5",
+                "count": 5
+              },
+              {
+                "value": "8",
+                "count": 4
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Affichage",
+    "Dotation",
+    "Embauche",
+    "Offre emploi",
+    "Poste",
+    "Postulation",
+    "Ressources humaines",
+    "SRHC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les offres d'emploi sont présentées sous la forme d'une entrée par affichage. Il n'y a pas d'information nominative sur les candidats, seulement des statistiques. Aucune information sur le résultat du processus n'est divulguée dans les données. \n\n\nLes données sur les groupes visés (handicapés, minorités visibles, autochtones et minorités ethniques) sont basées sur une auto-identification volontaire. Une moyenne de 2% des candidats refuse de répondre à ces questions.\n\n### Exceptions\n\n\n\n- \n\n\nIl est à noter que le service des ressources humaines est parfois identifié comme Unite_Niveau1, mais que le poste à pourvoir se retrouve dans un autre service.\n\n\n- \n\n\nLes agents de police (emploi 501380) et les promotions chez les policiers ne figurent pas dans les données.\n\n\n- \n\n\nLes brigadiers scolaires (emploi 900340), postulation en ligne depuis 2017 mais n'est pas obligatoire.\n\n\n- \n\n\nLes cadets policiers (emploi 501390), postulation en ligne depuis 2015.\n\n\n- \n\n\nLes pompiers (emploi 500000), la postulation en ligne a été déployée progressivement à compter de 2015 même si certaines données partielles sont disponibles sur la postulation avant cette date.\n\n\n- \n\n\nDans le cadre de la campagne Je code ma Ville, un système parallèle a été utilisé. Les statistiques de postulation sont incomplètes pour les affichages TI-XX-CONC à partir d'octobre 2016.\n\n\n\n### Dictionnaire de données\n\n\n\n- Unite_Niveau1 (Numérique) : L'unité de niveau 1 représente le service ou l'arrondissement.\n\n- Description_Unite_Niveau1 (Texte variable) : Description de l'unité de niveau 1.\n\n- Unite (Numérique) : L'unité administrative est l'unité d'affaires où l'offre d'emploi a été créée. Elle est représentée par 12 chiffres significatifs dont les 2 premiers représentent le service ou l'arrondissement. La numérotation représente une hiérarchie de la structure (ex.: Service, direction, division, section, ...).\n\n- Description_Unite (Texte variable) : Description de l'unité administrative.\n\n- Accreditation (Numérique) : Accréditation de l'emploi de l'offre d'emploi. Elle est représentée par 2 chiffres.\n\n- Description_Accreditation (Texte variable) : Description de l'accréditation.\n\n- Titre (Texte variable) : Description de l'emploi.\n\n- Emploi (Numérique) : Code d'emploi de l'offre d'emploi. Il est représenté par 6 chiffres.\n\n- No_Affichage (Texte variable) : Numéro de l'offre d'emploi. C'est un champ alphanumérique avec un standard défini pour sa nomenclature. Ex.: FIN-16-TEMP-344210-1 Veut dire que c'est une offre d'emploi au service des finances faite en 2016 pour un poste temporaire sur l'emploi 344210. Dans certains cas le numéro de poste est aussi indiqué.\n\n- Debut (Date) : Date de début de l'affichage.\n\n- Fin (Date) : Date de fin de l'affichage.\n\n- Interne_Externe (Texte variable) : Indicateur permettant de savoir si c'est un affichage ouvert à l'interne exclusivement.\n\n- Nombre_Postulant (Numérique) : Nombre total de postulants ayant postulé sur cet affichage.\n\n- Nombre_Femme (Numérique) : Nombre de femmes ayant postulé sur cet affichage.\n\n- Nombre_Handicape (Numérique) : Nombre de personnes s'étant auto-identifiées en tant que personne handicapée.\n\n- Nombre_Minorite_Visible (Numérique) : Nombre de personnes s'étant auto-identifiées en tant que minorité visible.\n\n- Nombre_Autochtone (Numérique) : Nombre de personnes s'étant auto-identifiées en tant qu'autochtone.\n\n- Nombre_Minorite_Ethnique (Numérique) : Nombre de personnes s'étant auto-identifiées en tant que minorité ethnique.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des ressources humaines et des communications",
+      "Couverture temporelle": "2009-07 / à ce jour",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Affichage",
+      "Dotation",
+      "Embauche",
+      "Offre emploi",
+      "Poste",
+      "Postulation",
+      "Ressources humaines",
+      "SRHC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/offres-demploi-et-postulation",
+    "scraped_at": "2026-03-09T20:14:01.928482+00:00"
+  }
+}

@@ -434,3 +434,4 @@ All digests generated in FR and EN. Stored in `digests` table with idempotency c
 160 distinct features, organized into 5 phases, covering 396 datasets, targeting 5 audience segments, with 11 cross-dataset correlations and a progressive AI digest system.
 
 **Build Phases 1–3 (76 features) to launch. That's the MVP.**
+xx  

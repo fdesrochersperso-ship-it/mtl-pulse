@@ -1,0 +1,718 @@
+{
+  "slug": "vmtl-mesures-niveaux-acoustiques",
+  "title": "Mesures de niveaux acoustiques",
+  "notes": "Compilation des niveaux de bruit collectés de façon ponctuelle ou pour une période prolongée à l'aide de sonomètres afin d'évaluer les niveaux de bruit de fond.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "asNeeded",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-09-02T13:47:13.971766",
+  "metadata_modified": "2025-02-28T18:42:12.051325",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "39dabd00-09b3-413b-941b-d6d531236d54",
+      "name": "Mesures de niveaux acoustiques (Gilford)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/30e414ed-320c-46a6-bdf5-02c90dc151f2/resource/39dabd00-09b3-413b-941b-d6d531236d54/download/mesures-niveaux-acoustiques-gilford.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-09-02T13:51:40.566883",
+      "created": "2022-09-02T13:51:40.640137",
+      "schema": {
+        "resource_id": "39dabd00-09b3-413b-941b-d6d531236d54",
+        "total_records": 551402,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "horodatage",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "emplacement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "debut-prise-mesures",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "fin-prise-mesures",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "LEQ",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Lmin",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Lmax",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "L10",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "L50",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "L90",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "sonometre-marque",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sonometre-modele",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date-calibration",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "type-mesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "intervalle-enregistrement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "intervalle-leq",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "intervalle-fractile",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ponderation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "hauteur-sonometre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "fichier-source",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "commentaires",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "horodatage": "2021-03-10T13:04:46",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "emplacement": "Chemin Gilford et rue Rivard",
+            "debut-prise-mesures": "2021-03-10T14:00:00",
+            "fin-prise-mesures": "2021-05-07T12:00:00",
+            "LEQ": 63.860942,
+            "Lmin": 50.460942,
+            "Lmax": 82.660942,
+            "L10": 63.860942,
+            "L50": 63.860942,
+            "L90": 63.860942,
+            "sonometre-marque": "Convergence Instruments",
+            "sonometre-modele": "NSRT_mk3",
+            "date-calibration": "2020-12-03T14:01:00",
+            "type-mesure": "Extérieure",
+            "intervalle-enregistrement": 60,
+            "intervalle-leq": "1min",
+            "intervalle-fractile": "1min",
+            "ponderation": "A",
+            "hauteur-sonometre": "2,5",
+            "latitude": 45.526417,
+            "longitude": -73.586444,
+            "fichier-source": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+            "commentaires": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19"
+          },
+          {
+            "_id": 2,
+            "horodatage": "2021-03-10T13:05:46",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "emplacement": "Chemin Gilford et rue Rivard",
+            "debut-prise-mesures": "2021-03-10T14:00:00",
+            "fin-prise-mesures": "2021-05-07T12:00:00",
+            "LEQ": 75.060942,
+            "Lmin": 47.660942,
+            "Lmax": 92.260942,
+            "L10": 75.060942,
+            "L50": 75.060942,
+            "L90": 75.060942,
+            "sonometre-marque": "Convergence Instruments",
+            "sonometre-modele": "NSRT_mk3",
+            "date-calibration": "2020-12-03T14:01:00",
+            "type-mesure": "Extérieure",
+            "intervalle-enregistrement": 60,
+            "intervalle-leq": "1min",
+            "intervalle-fractile": "1min",
+            "ponderation": "A",
+            "hauteur-sonometre": "2,5",
+            "latitude": 45.526417,
+            "longitude": -73.586444,
+            "fichier-source": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+            "commentaires": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19"
+          },
+          {
+            "_id": 3,
+            "horodatage": "2021-03-10T13:06:46",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "emplacement": "Chemin Gilford et rue Rivard",
+            "debut-prise-mesures": "2021-03-10T14:00:00",
+            "fin-prise-mesures": "2021-05-07T12:00:00",
+            "LEQ": 85.660942,
+            "Lmin": 37.960942,
+            "Lmax": 104.460942,
+            "L10": 85.660942,
+            "L50": 85.660942,
+            "L90": 85.660942,
+            "sonometre-marque": "Convergence Instruments",
+            "sonometre-modele": "NSRT_mk3",
+            "date-calibration": "2020-12-03T14:01:00",
+            "type-mesure": "Extérieure",
+            "intervalle-enregistrement": 60,
+            "intervalle-leq": "1min",
+            "intervalle-fractile": "1min",
+            "ponderation": "A",
+            "hauteur-sonometre": "2,5",
+            "latitude": 45.526417,
+            "longitude": -73.586444,
+            "fichier-source": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+            "commentaires": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19"
+          },
+          {
+            "_id": 4,
+            "horodatage": "2021-03-10T13:07:46",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "emplacement": "Chemin Gilford et rue Rivard",
+            "debut-prise-mesures": "2021-03-10T14:00:00",
+            "fin-prise-mesures": "2021-05-07T12:00:00",
+            "LEQ": 84.260942,
+            "Lmin": 38.060942,
+            "Lmax": 106.060942,
+            "L10": 84.260942,
+            "L50": 84.260942,
+            "L90": 84.260942,
+            "sonometre-marque": "Convergence Instruments",
+            "sonometre-modele": "NSRT_mk3",
+            "date-calibration": "2020-12-03T14:01:00",
+            "type-mesure": "Extérieure",
+            "intervalle-enregistrement": 60,
+            "intervalle-leq": "1min",
+            "intervalle-fractile": "1min",
+            "ponderation": "A",
+            "hauteur-sonometre": "2,5",
+            "latitude": 45.526417,
+            "longitude": -73.586444,
+            "fichier-source": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+            "commentaires": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19"
+          },
+          {
+            "_id": 5,
+            "horodatage": "2021-03-10T13:08:46",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "emplacement": "Chemin Gilford et rue Rivard",
+            "debut-prise-mesures": "2021-03-10T14:00:00",
+            "fin-prise-mesures": "2021-05-07T12:00:00",
+            "LEQ": 79.560942,
+            "Lmin": 39.360942,
+            "Lmax": 101.960942,
+            "L10": 79.560942,
+            "L50": 79.560942,
+            "L90": 79.560942,
+            "sonometre-marque": "Convergence Instruments",
+            "sonometre-modele": "NSRT_mk3",
+            "date-calibration": "2020-12-03T14:01:00",
+            "type-mesure": "Extérieure",
+            "intervalle-enregistrement": 60,
+            "intervalle-leq": "1min",
+            "intervalle-fractile": "1min",
+            "ponderation": "A",
+            "hauteur-sonometre": "2,5",
+            "latitude": 45.526417,
+            "longitude": -73.586444,
+            "fichier-source": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+            "commentaires": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19"
+          }
+        ]
+      },
+      "field_stats": {
+        "horodatage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "emplacement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "debut-prise-mesures": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fin-prise-mesures": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LEQ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lmin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lmax": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "L10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "L50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "L90": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sonometre-marque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sonometre-modele": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date-calibration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type-mesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "intervalle-enregistrement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "intervalle-leq": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "intervalle-fractile": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ponderation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "hauteur-sonometre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fichier-source": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "commentaires": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 551402,
+        "audited_at": "2026-03-10T00:21:01.377906+00:00",
+        "fields": {
+          "horodatage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-03-10T13:04:46",
+            "max_date": "2021-03-11T05:43:46",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "emplacement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Chemin Gilford et rue Rivard",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "debut-prise-mesures": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-03-10T14:00:00",
+            "max_date": "2021-03-10T14:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "fin-prise-mesures": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-05-07T12:00:00",
+            "max_date": "2021-05-07T12:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "LEQ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 34.7609,
+            "max": 87.6609,
+            "mean": 57.4139,
+            "median": 57.1109,
+            "unique_count": 253,
+            "field_type_detected": "numeric"
+          },
+          "Lmin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 29.4609,
+            "max": 67.7609,
+            "mean": 49.3752,
+            "median": 48.1609,
+            "unique_count": 211,
+            "field_type_detected": "numeric"
+          },
+          "Lmax": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 40.8609,
+            "max": 106.0609,
+            "mean": 69.6381,
+            "median": 68.5609,
+            "unique_count": 325,
+            "field_type_detected": "numeric"
+          },
+          "L10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 34.7609,
+            "max": 87.6609,
+            "mean": 57.4139,
+            "median": 57.1109,
+            "unique_count": 253,
+            "field_type_detected": "numeric"
+          },
+          "L50": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 34.7609,
+            "max": 87.6609,
+            "mean": 57.4139,
+            "median": 57.1109,
+            "unique_count": 253,
+            "field_type_detected": "numeric"
+          },
+          "L90": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 34.7609,
+            "max": 87.6609,
+            "mean": 57.4139,
+            "median": 57.1109,
+            "unique_count": 253,
+            "field_type_detected": "numeric"
+          },
+          "sonometre-marque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Convergence Instruments",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sonometre-modele": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "NSRT_mk3",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date-calibration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-12-03T14:01:00",
+            "max_date": "2020-12-03T14:01:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "type-mesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Extérieure",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "intervalle-enregistrement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 60.0,
+            "max": 60.0,
+            "mean": 60.0,
+            "median": 60.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "60",
+                "count": 1000
+              }
+            ]
+          },
+          "intervalle-leq": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "1min",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "intervalle-fractile": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "1min",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ponderation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "A",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "hauteur-sonometre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "2,5",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.526417,
+            "max": 45.526417,
+            "mean": 45.526417,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.586444,
+            "max": -73.586444,
+            "mean": -73.586444,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "fichier-source": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Gilford_2021_03_10_15_14h__2021_05_07_12h.cil",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "commentaires": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Place publique / Aménagement temporaire / Mesures sanitaires COVID-19",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "Bruit",
+    "PMR",
+    "Son",
+    "Sonore"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont collectées à partir d'un sonomètre semi-permanent (Noise Sentry). Il s'agit de données brutes, elles n'ont subit aucun traitement ou validation si ce n'est de la conversion du fichier source en format CSV et du calcul des indicateurs Leq(1min), L10, L50 et L90.\n\n## Dictionnaire de données\n\n\n\n- horodatage (date et heure) : Date et heure de la prise de mesure.\n\n- arrondissement (texte) : Nom de l'arrondissement où s'est déroulée la prise de mesure.\n\n- emplacement (texte) : Description de l'emplacement où a eu lieu la prise de mesure.\n\n- LEQ (numérique): Niveau acoustique continu équivalent (dB) pour une durée donnée (champ intervalle-leq) selon la pondération (champ ponderation). \n\n- Lmin (numérique) : Niveau acoustique minimum pour une période donnée (champ intevalle-leq).\n\n- Lmax (numérique) : Niveau acoustique maximum pour une période donnée (champ intevalle-leq).\n\n- L10 (numérique) : Niveau acoustique atteint ou dépassé 10 % du temps pendant une période donnée (champs intervalle-fractile).\n\n- L50 (numérique) : Niveau acoustique atteint ou dépassé 50 % du temps pendant une période donnée (champs intervalle-fractile).\n\n- L90 (numérique) : Niveau acoustique atteint ou dépassé 90 % du temps pendant une période donnée (champs intervalle-fractile).\n\n- sonometre-marque (texte) : Nom du fabriquant du sonomètre utilisé pour la prise de mesure.\n\n- sonometre-modele (texte) : Modèle du sonomètre utilisé pour la prise de mesure.\n\n- date-calibration (date et heure) : Date de la dernière calibration du sonomètre.\n\n- type-mesure (texte) : Décrit le type de mesure effectuée (Intérieure / Extérieure).\n\n- intervalle-enregistrement (entier) : Intervalle d'enregistrement (en secondes).\n\n- intervalle-leq (texte)`: Durée du niveau acoustique continu équivalent (Leq) ou indicateurs Ld, Ln, Le, Ldn.\n\n- intervalle-fractile (texte) : La durée (en secondes) des niveaux percentiles calculée à partir du Leq original (champ intervalle-enregistrement).\n\n- ponderation (texte) : Pondération A, C ou Z (aucune pondération).\n\n- hauteur-sonometre (numérique) : Hauteur du sonomètre calculée à partie du sol (en mètres).\n\n- latitude (coordonnée  spatiale) : Coordonnées du lieu où la prise de mesure a été effectuée.\n\n- longitude (coordonnée spatiale) : Coordonnées du lieu où la prise de mesure a été effectuée.\n\n- fichier-source (texte) : Nom du fichier source. Permet de rassembler toutes les mesures pour une même séance.\n\n- commentaires (texte) : Notes ou commentaires liés à la prise de mesure.\n\n- debut-prise-mesures (date et heure) : Date et heure de début de la période de prise de mesures.\n\n- fin-prise-mesure (date et heure) : Date et heure de fin de la période de prise de mesures.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    PLA\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissement du Plateau-Mont-Royal",
+      "Fréquence de mise à jour": "Au besoin"
+    },
+    "keywords": [
+      "Arr.",
+      "Bruit",
+      "PMR",
+      "Son",
+      "Sonore"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/mesures-niveaux-acoustiques",
+    "scraped_at": "2026-03-09T20:12:56.625057+00:00"
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "slug": "vmtl-liste-des-fournisseurs",
+  "title": "Liste des fournisseurs",
+  "notes": "Ensemble de données comprenant les informations sur les entreprises, organismes et individus ayant obtenu un contrat comportant une dépense de plus de 2000$ à la ville de Montréal et suivant un service ou une nature de bien qu’ils sont en mesure d’offrir.\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-05-24T14:57:37.324507",
+  "metadata_modified": "2026-03-05T14:00:35.587007",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "ceee5da3-56ba-40f4-9008-8678bf4c14fe",
+      "name": "Liste des fournisseurs",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/3bda8899-279a-46fc-9ad9-8dee68d05def/resource/ceee5da3-56ba-40f4-9008-8678bf4c14fe/download/listefournisseurs.csv",
+      "datastore_active": true,
+      "size": 3040305,
+      "last_modified": "2026-03-05T11:02:59.224113",
+      "created": "2017-05-24T10:58:10.128416",
+      "schema": {
+        "resource_id": "ceee5da3-56ba-40f4-9008-8678bf4c14fe",
+        "total_records": 15290,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Numero_Fournisseur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_Fournisseur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Autre_Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Num_Entreprise_Quebec",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Structure_Juridique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nombre_Employes",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nombre_Employes_Montreal",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Politique_Dans_Dev_Durable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Politique_Approv_Responsable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Entreprise_Economie_Sociale",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu_Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu_Ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu_Etat_Province",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu_Pays",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu_Zone_Achat",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Numero_Fournisseur": "114399",
+            "Nom_Fournisseur": "ASPLUNDH CANADA ULC",
+            "Autre_Nom": " ",
+            "Num_Entreprise_Quebec": "1148035307",
+            "Structure_Juridique": "*Société par actions/Corporations/Compagnie",
+            "Nombre_Employes": "375",
+            "Nombre_Employes_Montreal": null,
+            "Politique_Dans_Dev_Durable": "N",
+            "Politique_Approv_Responsable": "N",
+            "Entreprise_Economie_Sociale": "N",
+            "Lieu_Arrondissement": null,
+            "Lieu_Ville": "TERREBONNE",
+            "Lieu_Etat_Province": "QC",
+            "Lieu_Pays": "CA",
+            "Lieu_Zone_Achat": "Québec hors Conseil d'agglomération"
+          },
+          {
+            "_id": 2,
+            "Numero_Fournisseur": "114661",
+            "Nom_Fournisseur": "TWIGG MUSIQUE",
+            "Autre_Nom": "INSTRUMENTS DE MUSIQUE TWIGG INC.",
+            "Num_Entreprise_Quebec": "1168071323",
+            "Structure_Juridique": "*Société par actions/Corporations/Compagnie",
+            "Nombre_Employes": "30",
+            "Nombre_Employes_Montreal": null,
+            "Politique_Dans_Dev_Durable": "N",
+            "Politique_Approv_Responsable": "N",
+            "Entreprise_Economie_Sociale": "N",
+            "Lieu_Arrondissement": "Ville-Marie",
+            "Lieu_Ville": "MONTREAL",
+            "Lieu_Etat_Province": "QC",
+            "Lieu_Pays": "CA",
+            "Lieu_Zone_Achat": "Place d'affaires à Montréal"
+          },
+          {
+            "_id": 3,
+            "Numero_Fournisseur": "144704",
+            "Nom_Fournisseur": "VEOLIA SERVICES A L'ENVIRONNEMENT",
+            "Autre_Nom": "VEOLIA ES MATIERES RESIDUELLES INC.",
+            "Num_Entreprise_Quebec": "1143990357",
+            "Structure_Juridique": "*Société par actions/Corporations/Compagnie",
+            "Nombre_Employes": null,
+            "Nombre_Employes_Montreal": null,
+            "Politique_Dans_Dev_Durable": "N",
+            "Politique_Approv_Responsable": "N",
+            "Entreprise_Economie_Sociale": "N",
+            "Lieu_Arrondissement": null,
+            "Lieu_Ville": "LEVIS",
+            "Lieu_Etat_Province": "QC",
+            "Lieu_Pays": "CA",
+            "Lieu_Zone_Achat": "Québec hors Conseil d'agglomération"
+          },
+          {
+            "_id": 4,
+            "Numero_Fournisseur": "115568",
+            "Nom_Fournisseur": "SERVICE DE FREINS MONTREAL LTEE",
+            "Autre_Nom": " ",
+            "Num_Entreprise_Quebec": "1169307528",
+            "Structure_Juridique": "*Société par actions/Corporations/Compagnie",
+            "Nombre_Employes": "55",
+            "Nombre_Employes_Montreal": null,
+            "Politique_Dans_Dev_Durable": "N",
+            "Politique_Approv_Responsable": "N",
+            "Entreprise_Economie_Sociale": "N",
+            "Lieu_Arrondissement": "Rivière-des-Prairies–Pointe-aux-Trembles",
+            "Lieu_Ville": "MONTREAL",
+            "Lieu_Etat_Province": "QC",
+            "Lieu_Pays": "CA",
+            "Lieu_Zone_Achat": "Place d'affaires à Montréal"
+          },
+          {
+            "_id": 5,
+            "Numero_Fournisseur": "119801",
+            "Nom_Fournisseur": "AGILENT TECHNOLOGIES CANADA INC.",
+            "Autre_Nom": "NEQ:1148717821",
+            "Num_Entreprise_Quebec": "1148717821",
+            "Structure_Juridique": "*Société par actions/Corporations/Compagnie",
+            "Nombre_Employes": "175",
+            "Nombre_Employes_Montreal": null,
+            "Politique_Dans_Dev_Durable": "N",
+            "Politique_Approv_Responsable": "N",
+            "Entreprise_Economie_Sociale": "N",
+            "Lieu_Arrondissement": "Saint-Laurent",
+            "Lieu_Ville": "Montreal",
+            "Lieu_Etat_Province": "QC",
+            "Lieu_Pays": "CA",
+            "Lieu_Zone_Achat": "Place d'affaires à Montréal"
+          }
+        ]
+      },
+      "field_stats": {
+        "Numero_Fournisseur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_Fournisseur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Autre_Nom": {
+          "null_count": 10317,
+          "null_pct": 67.5,
+          "populated_pct": 32.5
+        },
+        "Num_Entreprise_Quebec": {
+          "null_count": 910,
+          "null_pct": 6.0,
+          "populated_pct": 94.0
+        },
+        "Structure_Juridique": {
+          "null_count": 14,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Nombre_Employes": {
+          "null_count": 1551,
+          "null_pct": 10.1,
+          "populated_pct": 89.9
+        },
+        "Nombre_Employes_Montreal": {
+          "null_count": 14609,
+          "null_pct": 95.5,
+          "populated_pct": 4.5
+        },
+        "Politique_Dans_Dev_Durable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Politique_Approv_Responsable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Entreprise_Economie_Sociale": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lieu_Arrondissement": {
+          "null_count": 8190,
+          "null_pct": 53.6,
+          "populated_pct": 46.4
+        },
+        "Lieu_Ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lieu_Etat_Province": {
+          "null_count": 1041,
+          "null_pct": 6.8,
+          "populated_pct": 93.2
+        },
+        "Lieu_Pays": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Lieu_Zone_Achat": {
+          "null_count": 293,
+          "null_pct": 1.9,
+          "populated_pct": 98.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 15290,
+        "audited_at": "2026-03-10T00:20:35.952055+00:00",
+        "fields": {
+          "Numero_Fournisseur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2378.0,
+            "max": 588728.0,
+            "mean": 262566.869,
+            "median": 188525.0,
+            "unique_count": 988,
+            "field_type_detected": "numeric"
+          },
+          "Nom_Fournisseur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 988,
+            "top_values": [
+              {
+                "value": "BELL CANADA",
+                "count": 3
+              },
+              {
+                "value": "CORBEIL ELECTRIQUE INC.",
+                "count": 2
+              },
+              {
+                "value": "GODARD BELISLE ST-JEAN & ASSOCIES",
+                "count": 2
+              },
+              {
+                "value": "COMPAGNIE HENRY CANADA INC.",
+                "count": 2
+              },
+              {
+                "value": "FISHER SCIENTIFIQUE",
+                "count": 2
+              },
+              {
+                "value": "INDUSTRIES MAILHOT INC.",
+                "count": 2
+              },
+              {
+                "value": "QRX TECHNOLOGY GROUP INC.",
+                "count": 2
+              },
+              {
+                "value": "SIEMENS CANADA LIMITED",
+                "count": 2
+              },
+              {
+                "value": "UAP INC.",
+                "count": 2
+              },
+              {
+                "value": "WSP CANADA INC.",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Autre_Nom": {
+            "null_count": 792,
+            "null_pct": 79.2,
+            "unique_count": 203,
+            "top_values": [
+              {
+                "value": "NEQ:1172462849",
+                "count": 3
+              },
+              {
+                "value": "SOCIETE FISHER SCIENTIFIQUE NEQ:1147627393",
+                "count": 2
+              },
+              {
+                "value": "NEQ:1168815836",
+                "count": 2
+              },
+              {
+                "value": "NEQ:1148357057",
+                "count": 2
+              },
+              {
+                "value": "INSTRUMENTS DE MUSIQUE TWIGG INC.",
+                "count": 1
+              },
+              {
+                "value": "VEOLIA ES MATIERES RESIDUELLES INC.",
+                "count": 1
+              },
+              {
+                "value": "NEQ:1148717821",
+                "count": 1
+              },
+              {
+                "value": "2311-9670 QUEBEC INC.",
+                "count": 1
+              },
+              {
+                "value": "LINDA LECLERC",
+                "count": 1
+              },
+              {
+                "value": "TELECOMMUNICATIONS VOCEM INC.",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Num_Entreprise_Quebec": {
+            "null_count": 37,
+            "null_pct": 3.7,
+            "min": 157846.0,
+            "max": 8871079388.0,
+            "mean": 1299818241.1229,
+            "median": 1162124107.5,
+            "unique_count": 825,
+            "field_type_detected": "numeric"
+          },
+          "Structure_Juridique": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "*Société par actions/Corporations/Compagnie",
+                "count": 798
+              },
+              {
+                "value": "*Entreprise individuelle / Travailleur autonome",
+                "count": 125
+              },
+              {
+                "value": "*Organisme à  but non lucratif",
+                "count": 54
+              },
+              {
+                "value": "*Société en nom collectif",
+                "count": 11
+              },
+              {
+                "value": "*Société étrangère",
+                "count": 3
+              },
+              {
+                "value": "*Coopérative",
+                "count": 2
+              },
+              {
+                "value": "*Société en commandite",
+                "count": 2
+              },
+              {
+                "value": "*Association",
+                "count": 2
+              },
+              {
+                "value": "*Autre statut juridique",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nombre_Employes": {
+            "null_count": 104,
+            "null_pct": 10.4,
+            "min": 0.0,
+            "max": 184000.0,
+            "mean": 554.1819,
+            "median": 12.0,
+            "unique_count": 137,
+            "field_type_detected": "numeric"
+          },
+          "Nombre_Employes_Montreal": {
+            "null_count": 938,
+            "null_pct": 93.8,
+            "min": 0.0,
+            "max": 501.0,
+            "mean": 45.5968,
+            "median": 6.5,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 27
+              },
+              {
+                "value": "20",
+                "count": 9
+              },
+              {
+                "value": "40",
+                "count": 5
+              },
+              {
+                "value": "175",
+                "count": 4
+              },
+              {
+                "value": "75",
+                "count": 3
+              },
+              {
+                "value": "501",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "80",
+                "count": 1
+              },
+              {
+                "value": "135",
+                "count": 1
+              }
+            ]
+          },
+          "Politique_Dans_Dev_Durable": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 853
+              },
+              {
+                "value": "O Plan, politique ou engagements de DD",
+                "count": 142
+              },
+              {
+                "value": "O Plan, politique ou engagements de responsabilité sociale",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Politique_Approv_Responsable": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 911
+              },
+              {
+                "value": "O Plan, politique ou engagements de responsabilité sociale",
+                "count": 72
+              },
+              {
+                "value": "O Plan, politique ou engagements de DD",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Entreprise_Economie_Sociale": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 980
+              },
+              {
+                "value": "O",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Lieu_Arrondissement": {
+            "null_count": 522,
+            "null_pct": 52.2,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 62
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 50
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 48
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 37
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 36
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 34
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 28
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 27
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 26
+              },
+              {
+                "value": "Anjou",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Lieu_Ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 254,
+            "top_values": [
+              {
+                "value": "MONTREAL",
+                "count": 399
+              },
+              {
+                "value": "LAVAL",
+                "count": 63
+              },
+              {
+                "value": "Montreal",
+                "count": 41
+              },
+              {
+                "value": "QUEBEC",
+                "count": 27
+              },
+              {
+                "value": "LONGUEUIL",
+                "count": 18
+              },
+              {
+                "value": "TORONTO",
+                "count": 15
+              },
+              {
+                "value": "TERREBONNE",
+                "count": 13
+              },
+              {
+                "value": "SHERBROOKE",
+                "count": 11
+              },
+              {
+                "value": "MASCOUCHE",
+                "count": 11
+              },
+              {
+                "value": "BOUCHERVILLE",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Lieu_Etat_Province": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 23,
+            "top_values": [
+              {
+                "value": "QC",
+                "count": 903
+              },
+              {
+                "value": "ON",
+                "count": 57
+              },
+              {
+                "value": "BC",
+                "count": 6
+              },
+              {
+                "value": "AB",
+                "count": 5
+              },
+              {
+                "value": "FL",
+                "count": 2
+              },
+              {
+                "value": "IL",
+                "count": 2
+              },
+              {
+                "value": "TX",
+                "count": 2
+              },
+              {
+                "value": "MA",
+                "count": 2
+              },
+              {
+                "value": "UT",
+                "count": 2
+              },
+              {
+                "value": "NY",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Lieu_Pays": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "CA",
+                "count": 975
+              },
+              {
+                "value": "US",
+                "count": 18
+              },
+              {
+                "value": "GB",
+                "count": 3
+              },
+              {
+                "value": "FR",
+                "count": 2
+              },
+              {
+                "value": "UM",
+                "count": 1
+              },
+              {
+                "value": "NL",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Lieu_Zone_Achat": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Place d'affaires à Montréal",
+                "count": 478
+              },
+              {
+                "value": "Québec hors Conseil d'agglomération",
+                "count": 390
+              },
+              {
+                "value": "Canada mais hors Québec",
+                "count": 75
+              },
+              {
+                "value": "Conseil d'agglomération hors Montréal",
+                "count": 27
+              },
+              {
+                "value": "Étranger hors Canada",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "32c602ff-832b-4832-b9be-a81b3456742c",
+      "name": "Catégories des fournisseurs",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/3bda8899-279a-46fc-9ad9-8dee68d05def/resource/32c602ff-832b-4832-b9be-a81b3456742c/download/fournisseurscategories.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-09-23T16:48:23.485928",
+      "created": "2017-05-24T10:59:41.703425",
+      "schema": {
+        "resource_id": "32c602ff-832b-4832-b9be-a81b3456742c",
+        "total_records": 37878,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Numero_Fournisseur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cat_Description",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Numero_Fournisseur": 100036,
+            "Cat_Description": "Animal et insecte \\ Accessoire et fourniture pour animaux"
+          },
+          {
+            "_id": 2,
+            "Numero_Fournisseur": 100081,
+            "Cat_Description": "Aqueduc et égout \\ Fosse septique"
+          },
+          {
+            "_id": 3,
+            "Numero_Fournisseur": null,
+            "Cat_Description": "Aqueduc et égout \\ Borne d'incendie"
+          },
+          {
+            "_id": 4,
+            "Numero_Fournisseur": null,
+            "Cat_Description": "Aqueduc et égout \\ Produit de branchement"
+          },
+          {
+            "_id": 5,
+            "Numero_Fournisseur": null,
+            "Cat_Description": "Aqueduc et égout \\ Puisard, chambre de vanne, trou d'homme et regard"
+          }
+        ]
+      },
+      "field_stats": {
+        "Numero_Fournisseur": {
+          "null_count": 31283,
+          "null_pct": 82.6,
+          "populated_pct": 17.4
+        },
+        "Cat_Description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 37878,
+        "audited_at": "2026-03-10T00:20:36.926856+00:00",
+        "fields": {
+          "Numero_Fournisseur": {
+            "null_count": 825,
+            "null_pct": 82.5,
+            "min": 100036.0,
+            "max": 116278.0,
+            "mean": 111612.4343,
+            "median": 114550.0,
+            "unique_count": 175,
+            "field_type_detected": "numeric"
+          },
+          "Cat_Description": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 428,
+            "top_values": [
+              {
+                "value": "Entrepreneurs généraux \\ 1.3 - Entrepreneur en bâtiments de tout genre",
+                "count": 11
+              },
+              {
+                "value": "Entrepreneurs spécialisés \\ 7.0 - Entrepreneur en isolation, étanchéité, couvertures et revêtement extérieur",
+                "count": 9
+              },
+              {
+                "value": "Entrepreneurs généraux \\ 1.2 - Entrepreneur en petits bâtiments",
+                "count": 9
+              },
+              {
+                "value": "Entrepreneurs spécialisés \\ 11.2 - Entrepreneur en équipements et produits spéciaux",
+                "count": 9
+              },
+              {
+                "value": "Ingénierie \\ Ingénieur civil -  Structure de bâtiment",
+                "count": 9
+              },
+              {
+                "value": "Ingénierie \\ Ingénieur en mécanique du bâtiment",
+                "count": 8
+              },
+              {
+                "value": "Ingénierie \\ Ingénieur civil - Aqueduc et égout",
+                "count": 8
+              },
+              {
+                "value": "Entrepreneurs généraux \\ 1.4 - Entrepreneur en routes et canalisation",
+                "count": 8
+              },
+              {
+                "value": "Architecture, arpentage et urbanisme \\ Architecte",
+                "count": 8
+              },
+              {
+                "value": "Entrepreneurs spécialisés \\ 2.7 - Entrepreneur en travaux d'emplacement",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Acquisition",
+    "Approvisionnement",
+    "Compagnie",
+    "Contrat",
+    "Développement durable",
+    "Entreprise",
+    "Fournisseur",
+    "Organisme",
+    "SA",
+    "Service professionnel",
+    "Économie sociale"
+  ],
+  "web_metadata": {
+    "methodology_text": "Extraction des données du fichier des fournisseurs en limitant à ceux qui ont reçu un contrat de plus de 2000$ depuis le 1er janvier 2014.\n\n\nATTENTION : Les informations sur les fournisseurs devenus inactifs depuis l'inscription dans la base de données ne sont plus mises à jour et pourraient contenir des erreurs.\n\n### Dictionnaire de données\n\n\n\n- Numero_Fournisseur (Liste de valeur) : Numéro du fournisseur\n\n- Nom_Fournisseur (Liste de valeur) : Nom du fournisseur\n\n- Autre_Nom (Texte variable) : Autre nom du fournisseur\n\n- Num_Entreprise_Quebec (Texte variable) : Numéro entreprise du Québec NEQ\n\n- Structure_Juridique (Liste de valeur) : Statut $$$\n\n- Nombre_Employes (Numérique) : Nombre d'employés\n\n- Nombre_Employes_Montreal (Numérique) : Nombre d'employés à Montréal\n\n- Politique_Dans_Dev_Durable (Liste de valeur) : Le développement durable suppose aussi un développement économiquement efficace, socialement équitable et écologiquement soutenable, qui repose sur une forme de gouvernance favorisant la mobilisation et la participation de tous les  acteurs de la société au processus de décision.\n\n- Politique_Approv_Responsable (Liste de valeur) : Intégration de critères environnementaux, sociaux et économiques aux processus d’achats de biens et services.\n\n- Entreprise_Start_Up (Liste de valeur) : Entreprise qui utilise la technologie pour améliorer, directement ou indirectement, la qualité de vie des citoyens et en particulier dans les chantiers visés au Plan d'action Montréal, ville intelligente et numérique 2015-2017.\n\n- Fournisseur_RTU (Liste de valeur) : Fournisseur avec n°compte ou RTU : exemple  Hydro Québec. Fournisseur exception (aux exigences de facturation) exemple Bureau plus ou fournisseur avec entente particulière offrant  des escomptes.\n\n- Entreprise_Economie_Sociale (Liste de valeur) : Entreprise d'économie sociale (EÉS)\n\n- Lieu_Ville (Texte variable) : Ville du lieu\n\n- Lieu_Etat_Province (Texte variable) : Province ou État\n\n- Lieu_Pays (Texte variable) : Pays\n\n- Lieu_Zone_Achat (Texte variable) : Zone d'achat\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'approvisionnement",
+      "Couverture temporelle": "2014-01-01/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Acquisition",
+      "Approvisionnement",
+      "Compagnie",
+      "Contrat",
+      "Développement durable",
+      "Entreprise",
+      "Fournisseur",
+      "Organisme",
+      "SA",
+      "Service professionnel",
+      "Économie sociale"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/liste-des-fournisseurs",
+    "scraped_at": "2026-03-09T20:11:53.146084+00:00"
+  }
+}

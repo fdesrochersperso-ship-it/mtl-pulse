@@ -1,0 +1,83 @@
+{
+  "slug": "vmtl-cours-d-eau-et-fosse",
+  "title": "Cours d'eau et fossés",
+  "notes": "Cet ensemble de données contient les tracés des cours d’eau (ruisseau, rivière) et des principaux fossés de l’agglomération de Montréal.\r\n\r\nCelles-ci ont été mises à jour dans le cadre de l’élaboration du [Plan régional des milieux humides et hydriques (PRMHH)](https://montreal.ca/articles/un-plan-pour-proteger-les-milieux-humides-et-hydriques-67104) de l’agglomération de Montréal. \r\n\r\nUne visualisation des données est possible sur la [carte interactive](https://experience.arcgis.com/experience/87e6da34dc3348a1a5e3f1014c266242) associée au PRMHH.\r\n\r\n\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-05-12T20:31:02.769596",
+  "metadata_modified": "2025-02-28T19:06:55.307993",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "a37e11d4-f0a3-46a7-8636-76754fad72b3",
+      "name": "Cours d'eau et fossé en format shapefile",
+      "description": "Lignes des cours d’eau et fossés de l’agglomération de Montréal\r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile\r\n\t\r\nSystème géodésique : NAD83 MTM8 (SCRS)\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/c128aff5-325c-4599-ab66-1c9d0b3abc94/resource/a37e11d4-f0a3-46a7-8636-76754fad72b3/download/prmhh_courseau_fosses.zip",
+      "datastore_active": false,
+      "size": 441370,
+      "last_modified": "2024-08-06T20:05:28.797271",
+      "created": "2016-05-12T16:44:50.461511",
+      "schema": null
+    },
+    {
+      "id": "0f64976e-19c1-4d29-bcc5-4b663a392617",
+      "name": "Cours d'eau et fossé en format geojson",
+      "description": "Lignes des cours d’eau et fossés de l’agglomération de Montréal\r\n\r\nFichier au format geojson\r\n\t\r\nSystème géodésique : WGS84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/c128aff5-325c-4599-ab66-1c9d0b3abc94/resource/0f64976e-19c1-4d29-bcc5-4b663a392617/download/prmhh_courseau_fosses.geojson",
+      "datastore_active": false,
+      "size": 2227243,
+      "last_modified": "2024-08-06T20:04:26.924053",
+      "created": "2016-05-12T16:45:59.526682",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Marais",
+    "Marécage",
+    "Milieu humide",
+    "Milieu naturel",
+    "PRMHH",
+    "Prairie humide",
+    "SGPMRS",
+    "Étang"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sur les cours d’eau et fossés sont le résultat d’une analyse de photos aériennes, de visites sur le terrain et/ou d’études écologiques particulières. \n\n\nElles ont été mises à jour dans le cadre de l’élaboration du Plan régional des milieux humides et hydriques de l’agglomération et seront actualisées en fonction de l’avancement des connaissances. \n\n\nCes données sont fournies à titre indicatif. Aux fins d’application légale ou réglementaire, elles devront être validées par des inventaires de terrain.\n\n### Dictionnaire de données\n\n\n\n- NOM (texte) : Nom de l'entité. \n\n- id_ce (entier) : Identifiant unique de chaque entité.\n\n- type_dv (entier) : Indique le type de cours d’eau.\n\n- 1 - Fossé\n\n- 2- Rivière\n\n- 3 - Ruisseau\n\n- 4 - Canal\n\n\n\n- cons_cl_dv (entier) : Classification des cours d’eau selon le type de conservation.\n\n- 1 - Non applicable (fossé, canal)\n\n- 2 - Protection / restauration\n\n- 3 - Utilisation durable\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2024-06-16 /",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Marais",
+      "Marécage",
+      "Milieu humide",
+      "Milieu naturel",
+      "PRMHH",
+      "Prairie humide",
+      "SGPMRS",
+      "Étang"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/cours-d-eau-et-fosse",
+    "scraped_at": "2026-03-09T19:55:58.947968+00:00"
+  }
+}

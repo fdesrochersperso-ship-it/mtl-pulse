@@ -1,0 +1,90 @@
+{
+  "slug": "vmtl-cuisine-de-rue",
+  "title": "Calendrier de la cuisine de rue (archives)",
+  "notes": "Le calendrier de cuisine de rue présente la rotation quotidienne des camions de cuisine de rue en fonction des sites.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "agriculture-alimentation",
+      "display_name": "Agriculture et alimentation",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "continuous",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-04-07T19:22:04.959155",
+  "metadata_modified": "2025-12-18T16:45:08.570156",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "057e76d9-85e7-4ce7-a50e-599161f59e37",
+      "name": " Calendrier Cuisine de rue",
+      "description": "Le fichier obtenu est généré par une interface programmable (API) dont il est possible de modifier quelques paramètres:\r\n\r\n- `when`: Journée concernée:\r\n\r\n    - `today`: retourne uniquement les enregistrements pour la journée en cours (valeur par défaut)\r\n    - `tomorrow`: retourne uniquement les enregistrements pour le lendemain\r\n    - `anytime`: retourne tous les enregistrement actifs dans le système.\r\n\r\n- `where`: Identifiant de la ville; `68` pour Montréal.",
+      "format": "JSON",
+      "url": "https://montreal.bestfoodtrucks.com/api/events/events?when=today",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2016-04-07T15:24:26.099973",
+      "schema": null
+    },
+    {
+      "id": "a8468156-a00f-4be3-a799-247ad086b3f4",
+      "name": "Liste des lots, camions et types de cuisine",
+      "description": "",
+      "format": "JSON",
+      "url": "https://montreal.bestfoodtrucks.com/api/events/what_options/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2017-05-12T11:21:01.697733",
+      "schema": null
+    },
+    {
+      "id": "0096c4b2-77fe-4c2a-966c-309b908741e8",
+      "name": "Taux d'occupation des sites de cuisine de rue pour l'été 2016",
+      "description": "Le nombre de sorties par sites par jour de la semaine et par mois pour la saison d'été 2016 de la cuisine de rue",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/49a62ebe-25da-4414-95b2-a2fc94100755/resource/0096c4b2-77fe-4c2a-966c-309b908741e8/download/taux-doccupation-ete-2016.xlsx",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-06-10T18:29:58.633733",
+      "created": "2017-01-05T14:17:21.351675",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Alimentation",
+    "Camion de rue",
+    "Cuisine de rue",
+    "Food truck",
+    "SCAEC",
+    "archives"
+  ],
+  "web_metadata": {
+    "methodology_text": "La Ville de Montréal décerne à des camions un permis les autorisant à opérer sur l'un de lieux prévus à cet effet. La localisation quotidienne des camions est gérée par les opérateurs des camions et par l'Association des restaurateurs de rue du Québec.\n\n\nNote : Le système technologique ainsi que les modalités contractuelles ont été modifiés entre la saison 2016 et 2017, impliquant un nouveau format de données. L'ancien point d'accès aux données a été désactivé.\n\n## Dictionnaire de données\n\n\n\nLes enregistrements sont structurés comme une liste de lots (lieu où peuvent se stationner les camions).  Pour chaque lieu, l'attribut attending contient une liste de structures représentant les camions présents.\n\n#### Structure lot\n\n\n\n- lot_id: Identifiant unique du lot.\n\n- name: Nom du lot.\n\n- city_id: Identifiant de la ville (la plateforme contient des données pour plusieurs villes).\n\n- spots: Nombre de camions pouvant se stationner dans ce lieu.\n\n- address: Adresse civique la plus proche.\n\n- zip: Code postal.\n\n- phone: Numéro de téléphone du gestionnaire du lieu, en l'occurrence l'Association des restaurateurs de rue du Québec, en charge de l'organisation de la répartition des camions.\n\n- email: Courriel du gestionnaire.\n\n- lat: Latitude du lieu selon le référentiel WGS84.\n\n- lng: Longitude du lieu selon le référentiel WGS84.\n\n- date: Date s'appliquant à l'enregistrement au format MM/JJ/AAAA.\n\n- start: Heure de début de disponibilité du lieu.\n\n- end: Heure de fin de disponibilité du lieu.\n\n\n#### Structure d'un élément de la liste attending représentant les informations d'un camion\n\n\n\n- name: Nom du camion.\n\n- email: Courriel pour contacter le propriétaire du camion.\n\n- twitter: Compte Twitter.\n\n- website: Adresse du site Web.\n\n- id: Identifiant unique du camion.\n\n- cuisine_type: Type de cuisine.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    CDN\n    \n    LSO\n    \n    MHM\n    \n    OUT\n    \n    RPP\n    \n    VER\n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Fréquence de mise à jour": "Temps réel"
+    },
+    "keywords": [
+      "Alimentation",
+      "Camion de rue",
+      "Cuisine de rue",
+      "Food truck",
+      "SCAEC",
+      "archives"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/cuisine-de-rue",
+    "scraped_at": "2026-03-09T19:56:04.807876+00:00"
+  }
+}

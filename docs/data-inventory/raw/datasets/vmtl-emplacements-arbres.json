@@ -1,0 +1,1008 @@
+{
+  "slug": "vmtl-emplacements-arbres",
+  "title": "Emplacements de plantation d'arbres publics",
+  "notes": "Données sur les emplacements réservés à la plantation dans l'espace désignés du « domaine public » incluant les bordures de rues et espaces hors rue (parcs et places publiques). Cette donnée est complémentaire aux [actifs d'arbres](https://donnees.montreal.ca/dataset/arbres).\r\n\r\nVeuillez noter que dans plusieurs cas, les données que possède la Ville sur la localisation spatiale des arbres peuvent être imprécises ou pas à jour. De plus, dans certains arrondissements, les arbres de parcs ne sont pas indiqués.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-05-13T17:31:59.209444",
+  "metadata_modified": "2026-03-09T01:08:11.629746",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "148b3e7d-f739-4c7a-941a-02baf2576e56",
+      "name": "Emplacements d'arbres",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/a91a1b46-2bbb-4532-87a6-9d35b4d12ec7/resource/148b3e7d-f739-4c7a-941a-02baf2576e56/download/arbres-emplacements-publics.csv",
+      "datastore_active": true,
+      "size": 116408347,
+      "last_modified": "2026-03-09T00:06:49.664723",
+      "created": "2024-05-13T19:26:52.001361",
+      "schema": {
+        "resource_id": "148b3e7d-f739-4c7a-941a-02baf2576e56",
+        "total_records": 392606,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Inv_type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emp_no",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrond_nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Etat_site",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut_raison",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_cote",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type_emp",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_de",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_a",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Distance_pave",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Distance_ligne_rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Stationnement_jour",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Stationnement_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "District",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Grille",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fosse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Souche",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Inv_type": "H",
+            "Emp_no": "2",
+            "Arrond": "5",
+            "Arrond_nom": "Le Plateau-Mont-Royal",
+            "Statut": "A",
+            "Etat_site": "Arbre",
+            "Statut_raison": null,
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Type_emp": "TRottoir",
+            "Localisation": null,
+            "Code_parc": "0620-012",
+            "Nom_parc": "PRINCE-ARTHUR",
+            "Coord_X": "299130.596",
+            "Coord_Y": "5041570.5",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Grille": null,
+            "Fosse": null,
+            "Souche": "N",
+            "Longitude": "-73.572563",
+            "Latitude": "45.514031"
+          },
+          {
+            "_id": 2,
+            "Inv_type": "H",
+            "Emp_no": "3",
+            "Arrond": "5",
+            "Arrond_nom": "Le Plateau-Mont-Royal",
+            "Statut": "P",
+            "Etat_site": "Vacant",
+            "Statut_raison": "86",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Type_emp": "Fond de Trottoir",
+            "Localisation": null,
+            "Code_parc": "0620-012",
+            "Nom_parc": "PRINCE-ARTHUR",
+            "Coord_X": "299183.578",
+            "Coord_Y": "5041654.5",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Grille": "B",
+            "Fosse": null,
+            "Souche": "N",
+            "Longitude": "-73.571886",
+            "Latitude": "45.514787"
+          },
+          {
+            "_id": 3,
+            "Inv_type": "H",
+            "Emp_no": "4",
+            "Arrond": "5",
+            "Arrond_nom": "Le Plateau-Mont-Royal",
+            "Statut": "P",
+            "Etat_site": "Vacant",
+            "Statut_raison": "351",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Type_emp": "Fond de Trottoir",
+            "Localisation": null,
+            "Code_parc": "0620-012",
+            "Nom_parc": "PRINCE-ARTHUR",
+            "Coord_X": "299169.31",
+            "Coord_Y": "5041613.5",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Grille": "B",
+            "Fosse": null,
+            "Souche": "N",
+            "Longitude": "-73.572068",
+            "Latitude": "45.514418"
+          },
+          {
+            "_id": 4,
+            "Inv_type": "H",
+            "Emp_no": "6",
+            "Arrond": "1",
+            "Arrond_nom": "Ahuntsic - Cartierville",
+            "Statut": "A",
+            "Etat_site": "Arbre",
+            "Statut_raison": null,
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Type_emp": "Parterre Gazonné",
+            "Localisation": null,
+            "Code_parc": "0005-000",
+            "Nom_parc": "RAIMBAULT",
+            "Coord_X": "287967.933",
+            "Coord_Y": "5043937.6110000005",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Grille": null,
+            "Fosse": null,
+            "Souche": "N",
+            "Longitude": "-73.715515",
+            "Latitude": "45.535151"
+          },
+          {
+            "_id": 5,
+            "Inv_type": "H",
+            "Emp_no": "7",
+            "Arrond": "1",
+            "Arrond_nom": "Ahuntsic - Cartierville",
+            "Statut": "A",
+            "Etat_site": "Arbre",
+            "Statut_raison": null,
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Type_emp": "Parterre Gazonné",
+            "Localisation": null,
+            "Code_parc": "0005-000",
+            "Nom_parc": "RAIMBAULT",
+            "Coord_X": "287961.715",
+            "Coord_Y": "5043945.204",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Grille": null,
+            "Fosse": null,
+            "Souche": "N",
+            "Longitude": "-73.715595",
+            "Latitude": "45.535219"
+          }
+        ]
+      },
+      "field_stats": {
+        "Inv_type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emp_no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrond_nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat_site": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut_raison": {
+          "null_count": 364689,
+          "null_pct": 92.9,
+          "populated_pct": 7.1
+        },
+        "Rue": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "Rue_cote": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "No_civique": {
+          "null_count": 190241,
+          "null_pct": 48.5,
+          "populated_pct": 51.5
+        },
+        "Type_emp": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Localisation": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "Code_parc": {
+          "null_count": 260607,
+          "null_pct": 66.4,
+          "populated_pct": 33.6
+        },
+        "Nom_parc": {
+          "null_count": 260607,
+          "null_pct": 66.4,
+          "populated_pct": 33.6
+        },
+        "Coord_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_Y": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_de": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "Rue_a": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "Distance_pave": {
+          "null_count": 196803,
+          "null_pct": 50.1,
+          "populated_pct": 49.9
+        },
+        "Distance_ligne_rue": {
+          "null_count": 223661,
+          "null_pct": 57.0,
+          "populated_pct": 43.0
+        },
+        "Stationnement_jour": {
+          "null_count": 225865,
+          "null_pct": 57.5,
+          "populated_pct": 42.5
+        },
+        "Stationnement_heure": {
+          "null_count": 236054,
+          "null_pct": 60.1,
+          "populated_pct": 39.9
+        },
+        "District": {
+          "null_count": 131999,
+          "null_pct": 33.6,
+          "populated_pct": 66.4
+        },
+        "Grille": {
+          "null_count": 380020,
+          "null_pct": 96.8,
+          "populated_pct": 3.2
+        },
+        "Fosse": {
+          "null_count": 350453,
+          "null_pct": 89.3,
+          "populated_pct": 10.7
+        },
+        "Souche": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 392616,
+        "audited_at": "2026-03-10T00:18:45.099099+00:00",
+        "fields": {
+          "Inv_type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "H",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Emp_no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 1141.0,
+            "mean": 583.674,
+            "median": 581.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 9.0,
+            "mean": 4.506,
+            "median": 5.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "8",
+                "count": 225
+              },
+              {
+                "value": "2",
+                "count": 207
+              },
+              {
+                "value": "1",
+                "count": 188
+              },
+              {
+                "value": "6",
+                "count": 142
+              },
+              {
+                "value": "5",
+                "count": 115
+              },
+              {
+                "value": "3",
+                "count": 64
+              },
+              {
+                "value": "9",
+                "count": 36
+              },
+              {
+                "value": "7",
+                "count": 23
+              }
+            ]
+          },
+          "Arrond_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Le Sud-Ouest",
+                "count": 225
+              },
+              {
+                "value": "Villeray-Saint-Michel - Parc-Extension",
+                "count": 207
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 188
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 142
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 115
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 64
+              },
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 36
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "A",
+                "count": 881
+              },
+              {
+                "value": "P",
+                "count": 104
+              },
+              {
+                "value": "I",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Etat_site": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Arbre",
+                "count": 817
+              },
+              {
+                "value": "Vacant",
+                "count": 183
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Statut_raison": {
+            "null_count": 881,
+            "null_pct": 88.1,
+            "min": 2.0,
+            "max": 360.0,
+            "mean": 281.4118,
+            "median": 352.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "352",
+                "count": 81
+              },
+              {
+                "value": "9",
+                "count": 12
+              },
+              {
+                "value": "23",
+                "count": 5
+              },
+              {
+                "value": "355",
+                "count": 5
+              },
+              {
+                "value": "86",
+                "count": 3
+              },
+              {
+                "value": "351",
+                "count": 3
+              },
+              {
+                "value": "360",
+                "count": 3
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "29",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              }
+            ]
+          },
+          "Rue": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Rue_cote": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "No_civique": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Type_emp": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Parterre Gazonné",
+                "count": 724
+              },
+              {
+                "value": "PArc",
+                "count": 233
+              },
+              {
+                "value": "Parterre en graVier",
+                "count": 18
+              },
+              {
+                "value": "Parterre aSphalté",
+                "count": 11
+              },
+              {
+                "value": "TRottoir",
+                "count": 5
+              },
+              {
+                "value": "Parterre avec Pavé uni",
+                "count": 4
+              },
+              {
+                "value": "Parterre avec Bordure",
+                "count": 3
+              },
+              {
+                "value": "Fond de Trottoir",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Localisation": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Code_parc": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 97,
+            "top_values": [
+              {
+                "value": "0950-002",
+                "count": 74
+              },
+              {
+                "value": "1208-000",
+                "count": 71
+              },
+              {
+                "value": "1641-355",
+                "count": 55
+              },
+              {
+                "value": "0799-000",
+                "count": 36
+              },
+              {
+                "value": "9570-000",
+                "count": 34
+              },
+              {
+                "value": "0207-000",
+                "count": 32
+              },
+              {
+                "value": "0397-000",
+                "count": 31
+              },
+              {
+                "value": "0338-000",
+                "count": 30
+              },
+              {
+                "value": "0005-000",
+                "count": 27
+              },
+              {
+                "value": "0023-000",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 97,
+            "top_values": [
+              {
+                "value": "COMPLEXE ENVIRONNEM. ST-MICHEL",
+                "count": 74
+              },
+              {
+                "value": "PLACE JEAN-PAUL-RIOPELLE",
+                "count": 71
+              },
+              {
+                "value": "ATWATER, TUNNEL SUD",
+                "count": 55
+              },
+              {
+                "value": "VILLE-MARIE, BOULEVARD (ARR. 4,6)",
+                "count": 36
+              },
+              {
+                "value": "RUISSEAU-DE-MONTIGNY, SECTEUR SUD",
+                "count": 34
+              },
+              {
+                "value": "SAINTE-BERNADETTE",
+                "count": 32
+              },
+              {
+                "value": "COURS LE ROYER",
+                "count": 31
+              },
+              {
+                "value": "ALPHONSE-TELESPHORE-LEPINE",
+                "count": 30
+              },
+              {
+                "value": "RAIMBAULT",
+                "count": 27
+              },
+              {
+                "value": "SAULT-AU-RÉCOLLET",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Coord_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 286140.861,
+            "max": 301226.955,
+            "mean": 296653.007422,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5034314.982,
+            "max": 5054237.117,
+            "mean": 5042848.411468,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Rue_de": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Rue_a": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Distance_pave": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Distance_ligne_rue": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Stationnement_jour": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Stationnement_heure": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "District": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Grille": {
+            "null_count": 966,
+            "null_pct": 96.6,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "?",
+                "count": 24
+              },
+              {
+                "value": "B",
+                "count": 6
+              },
+              {
+                "value": "Z",
+                "count": 2
+              },
+              {
+                "value": "C",
+                "count": 1
+              },
+              {
+                "value": "D",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Fosse": {
+            "null_count": 884,
+            "null_pct": 88.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "C",
+                "count": 72
+              },
+              {
+                "value": "?",
+                "count": 24
+              },
+              {
+                "value": "3",
+                "count": 15
+              },
+              {
+                "value": "1",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Souche": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 982
+              },
+              {
+                "value": "O",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.738847,
+            "max": -73.545741,
+            "mean": -73.604307,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.448725,
+            "max": 45.627972,
+            "mean": 45.525497,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Actif",
+    "Arbre",
+    "Arr.",
+    "Végétaux"
+  ],
+  "web_metadata": {
+    "methodology_text": "Prise d’inventaire cartographique sur le terrain. Dans chaque arrondissement, les inspecteurs(trices) de la Ville effectuent la collecte et la mise à jour des données sur les espaces réservés à la plantation. \n\n### Dictionnaire de données des arbres publics\n\n\n\n- Inv_type (liste de valeur) : Type d’arbre inventorié :  H pour Hors rue  et  R pour arbre de Rue.\n\n- Emp_no (numérique) : Numérotation correspondant à l'identification unique de l’emplacement de l’arbre dans la base de données. Celle-ci est propre aux arbres de rue et hors rue (i.e. un arbre R et un arbre H peuvent porter le même numéro d'emplacement).\n\n- Arrond (numérique) : Numérotation de l’arrondissement.\n\n- Arrond _nom (texte variable) : Nom de l’arrondissement.\n\n- Statut (texte variable) : Statut de l'emplacement (A (actif), I (inactif) , P (à confirmer)).\n\n- Etat_site (texte variable) : État de la plantation au moment du relevé (Vacant, Arbre).\n\n- Statut_raison (texte variable) : Code explicatif du statut ou de l'état.\n\n- Rue (texte variable) : Nom de la rue sur laquelle l’arbre est positionné s'il y a lieu.\n\n- Rue_cote  (liste de valeur) : Coté de la rue (Nord, Sud, Est, Ouest).\n\n- No_civique (numérique) : Numéro civique de la résidence ou le bâtiment sur lequel ou en face duquel le site de plantation est situé, lorsque disponible.\n\n- Rue_de (texte variable) : Intersection rue \"De\".\n\n- Rue_a (texte variable) : Intersection rue \"A\".\n\n- Type_emp(liste de valeur) : Lieu physique, extension de terrain où se trouve l’arbre (Banquette gazonnée, Banquette asphaltée, Fond de trottoir, Parc, Parterre gazonné, Parterre asphalté, Parterre, Terre plein).\n\n- Localisation (texte variable) : Position de l’arbre en fonction d’un immeuble ou chaînage et direction à partir du coin du dernier immeuble.\n\n- Code_parc (texte variable) : No. d’index du parc. Numérotation unique qui représente un parc dans la Ville.\n\n- Nom_parc (texte variable) : Nom du parc.\n\n- Coord_X (coordonnée spatiale) : Coordonnée X NAD 83 MTM8.\n\n- Coord_Y (coordonnée spatiale) : Coordonnée Y NAD 83 MTM8.\n\n- Latitude (coordonnée spatiale) : Latitude WGS84.\n\n- Longitude (coordonnée spatiale) : Longitude WGS84.\n\n- Distance_pave (texte variable) : Distance chaînée de la chaussée la plus proche.\n\n- Distance_ligne_rue (texte variable) : Ligne de rue (celle de la fiche de l’arbre )- distance à partir du bord de la chaine qui détermine le domaine public et où commence le domaine privé.\n\n- Stationnement_jour (liste de valeur) : Interdiction de stationnement (Liste de valeurs des jours : L (lundi), MA(mardi), ME(mercredi), J(jeudi), V(vendredi), S(samedi), D(dimanche), INTE(interdit en tout temps)).\n\n- Stationnement_heure (texte variable) : Interdiction de stationnement.\n\n- District (numérique) : Identification du district.\n\n- Grille (liste de valeur) : Présence d'une grille sur l'emplacement (O (oui), N (non)).\n\n- Fosse (liste de valeur) : Présence d'une fosse sur l'emplacement (O (oui), N (non)).\n\n- Souche (liste de valeur) : Présence d'une souche sur l'emplacement (O (oui), N (non)).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    CDN\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Couverture temporelle": "2020-05-01 /",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Actif",
+      "Arbre",
+      "Arr.",
+      "Végétaux"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/emplacements-arbres",
+    "scraped_at": "2026-03-09T19:57:03.988917+00:00"
+  }
+}

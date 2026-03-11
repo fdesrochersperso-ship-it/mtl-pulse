@@ -1,0 +1,777 @@
+{
+  "slug": "vmtl-grands-parcs-parcs-d-arrondissements-et-espaces-publics",
+  "title": "Grands parcs, parcs d'arrondissements et espaces publics",
+  "notes": "Les arrondissements de la Ville de Montréal bénéficient de plus de 1 495 parcs qui s'étendent sur une superficie de plus de 6 412 ha. Cet ensemble de données représente tous les parcs et les espaces publics recensés et en illustre les polygones de surface dans le contexte de la trame urbaine du territoire. Les données ne sont pas représentatives des parcs des villes liées qui n'y sont représentés qu'en partie.\r\n\r\nLes limites des parcs et des espaces publics suivent en général le cadastre, mais ne peuvent servir de référence légale pour localiser avec précision l'emplacement d'un parc. Les données fournies dans cet ensemble de données le sont à des fins de représentation seulement.\r\n\r\n__Interagissez avec les données sur la visualisation [Vue sur les parcs et les installations sportives de Montréal](https://vuesurlesdonnees.montreal.ca/pub/single/?appid=8636bd4b-d2b1-48a0-a790-05331b84af2b&sheet=6bcbf9ba-d7b0-4dfb-a11d-3e075504b5e9).__",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-04-16T20:07:19.970659",
+  "metadata_modified": "2026-02-10T17:00:10.729750",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "f34c3555-c285-4ef3-a55c-f0f5c440ad2d",
+      "name": "Grands parcs, parcs d'arrondissements et espaces publics - format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2e9e4d2f-173a-4c3d-a5e3-565d79baa27d/resource/f34c3555-c285-4ef3-a55c-f0f5c440ad2d/download/espace_vert.csv",
+      "datastore_active": true,
+      "size": 306810,
+      "last_modified": "2026-02-10T16:54:41.042738",
+      "created": "2020-04-16T20:08:12.731684",
+      "schema": {
+        "resource_id": "f34c3555-c285-4ef3-a55c-f0f5c440ad2d",
+        "total_records": 2243,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "OBJECTID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lien",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NUM_INDEX",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SUPERFICIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROPRIETE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "GESTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COMPETENCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPO1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPO2",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "OBJECTID": "3477",
+            "Type": null,
+            "Lien": null,
+            "Nom": "Université Concordia - Campus Loyola",
+            "NUM_INDEX": "1807-004",
+            "SUPERFICIE": "5.054930290035682",
+            "PROPRIETE": "Institutionnel",
+            "GESTION": "Autre",
+            "COMPETENCE": "Privé",
+            "TYPO1": "Autre espace vert",
+            "TYPO2": "Espace sportif"
+          },
+          {
+            "_id": 2,
+            "OBJECTID": "3478",
+            "Type": "Av.",
+            "Lien": "du",
+            "Nom": "Boisé",
+            "NUM_INDEX": "1641-513",
+            "SUPERFICIE": "0.03236372202509561",
+            "PROPRIETE": "Ville de Montréal",
+            "GESTION": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "COMPETENCE": "Arrondissement",
+            "TYPO1": "Espace voirie",
+            "TYPO2": "Îlot de voirie"
+          },
+          {
+            "_id": 3,
+            "OBJECTID": "3479",
+            "Type": "Parc",
+            "Lien": null,
+            "Nom": "Maurice-Cullen",
+            "NUM_INDEX": "0137-000",
+            "SUPERFICIE": "0.542680858347123",
+            "PROPRIETE": "Ville de Montréal",
+            "GESTION": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "COMPETENCE": "Arrondissement",
+            "TYPO1": "Parc d'arrondissement",
+            "TYPO2": "Parc de quartier"
+          },
+          {
+            "_id": 4,
+            "OBJECTID": "3480",
+            "Type": null,
+            "Lien": null,
+            "Nom": "Décarie / Zone Tampon #2",
+            "NUM_INDEX": "1641-637",
+            "SUPERFICIE": "0.03351004521482887",
+            "PROPRIETE": "Ville de Montréal",
+            "GESTION": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "COMPETENCE": "Arrondissement",
+            "TYPO1": "Autre espace vert",
+            "TYPO2": "Parc écran"
+          },
+          {
+            "_id": 5,
+            "OBJECTID": "3481",
+            "Type": null,
+            "Lien": null,
+            "Nom": "Décarie / Zone Tampon #2",
+            "NUM_INDEX": "1641-637",
+            "SUPERFICIE": "0.014241730874920712",
+            "PROPRIETE": "Ville de Montréal",
+            "GESTION": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "COMPETENCE": "Arrondissement",
+            "TYPO1": "Autre espace vert",
+            "TYPO2": "Parc écran"
+          }
+        ]
+      },
+      "field_stats": {
+        "OBJECTID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 922,
+          "null_pct": 41.1,
+          "populated_pct": 58.9
+        },
+        "Lien": {
+          "null_count": 1822,
+          "null_pct": 81.2,
+          "populated_pct": 18.8
+        },
+        "Nom": {
+          "null_count": 325,
+          "null_pct": 14.5,
+          "populated_pct": 85.5
+        },
+        "NUM_INDEX": {
+          "null_count": 464,
+          "null_pct": 20.7,
+          "populated_pct": 79.3
+        },
+        "SUPERFICIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROPRIETE": {
+          "null_count": 238,
+          "null_pct": 10.6,
+          "populated_pct": 89.4
+        },
+        "GESTION": {
+          "null_count": 240,
+          "null_pct": 10.7,
+          "populated_pct": 89.3
+        },
+        "COMPETENCE": {
+          "null_count": 238,
+          "null_pct": 10.6,
+          "populated_pct": 89.4
+        },
+        "TYPO1": {
+          "null_count": 4,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "TYPO2": {
+          "null_count": 322,
+          "null_pct": 14.4,
+          "populated_pct": 85.6
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2243,
+        "audited_at": "2026-03-10T00:19:38.724550+00:00",
+        "fields": {
+          "OBJECTID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3477.0,
+            "max": 4476.0,
+            "mean": 3976.5,
+            "median": 3976.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Type": {
+            "null_count": 457,
+            "null_pct": 45.7,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "Parc",
+                "count": 402
+              },
+              {
+                "value": "Place",
+                "count": 65
+              },
+              {
+                "value": "Parc-nature",
+                "count": 14
+              },
+              {
+                "value": "Square",
+                "count": 10
+              },
+              {
+                "value": "Promenade",
+                "count": 10
+              },
+              {
+                "value": "Parc-école",
+                "count": 6
+              },
+              {
+                "value": "Îlot",
+                "count": 6
+              },
+              {
+                "value": "Av.",
+                "count": 3
+              },
+              {
+                "value": "Cimetière",
+                "count": 3
+              },
+              {
+                "value": "Espace",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Lien": {
+            "null_count": 849,
+            "null_pct": 84.9,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "du",
+                "count": 47
+              },
+              {
+                "value": "des",
+                "count": 34
+              },
+              {
+                "value": "de la",
+                "count": 24
+              },
+              {
+                "value": "de l'",
+                "count": 21
+              },
+              {
+                "value": "de",
+                "count": 20
+              },
+              {
+                "value": "d'",
+                "count": 3
+              },
+              {
+                "value": "place",
+                "count": 1
+              },
+              {
+                "value": "pour",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom": {
+            "null_count": 129,
+            "null_pct": 12.9,
+            "unique_count": 732,
+            "top_values": [
+              {
+                "value": "Abords du Pont Jacques-Cartier",
+                "count": 11
+              },
+              {
+                "value": "Ruisseau-De Montigny",
+                "count": 9
+              },
+              {
+                "value": "Décarie / Zone Tampon #2",
+                "count": 8
+              },
+              {
+                "value": "Héritage-Équestre",
+                "count": 8
+              },
+              {
+                "value": "Prieur",
+                "count": 7
+              },
+              {
+                "value": "Grand parc de l'Ouest",
+                "count": 7
+              },
+              {
+                "value": "Luc-Larrivée",
+                "count": 7
+              },
+              {
+                "value": "Rapides",
+                "count": 6
+              },
+              {
+                "value": "Sauvé / Av. De L'esplanade",
+                "count": 5
+              },
+              {
+                "value": "Décarie / Zone Tampon #1",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NUM_INDEX": {
+            "null_count": 176,
+            "null_pct": 17.6,
+            "unique_count": 708,
+            "top_values": [
+              {
+                "value": "0908-000",
+                "count": 11
+              },
+              {
+                "value": "9570-000",
+                "count": 9
+              },
+              {
+                "value": "1641-637",
+                "count": 8
+              },
+              {
+                "value": "2723-000",
+                "count": 8
+              },
+              {
+                "value": "9512-000",
+                "count": 7
+              },
+              {
+                "value": "1221-000",
+                "count": 7
+              },
+              {
+                "value": "1641-036",
+                "count": 6
+              },
+              {
+                "value": "1215-000",
+                "count": 6
+              },
+              {
+                "value": "1641-442",
+                "count": 5
+              },
+              {
+                "value": "1641-636",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SUPERFICIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0006,
+            "max": 172.0055,
+            "mean": 2.0884,
+            "median": 0.2221,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "PROPRIETE": {
+            "null_count": 114,
+            "null_pct": 11.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 791
+              },
+              {
+                "value": "Commission scolaire",
+                "count": 52
+              },
+              {
+                "value": "Institutionnel",
+                "count": 37
+              },
+              {
+                "value": "Privé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "GESTION": {
+            "null_count": 114,
+            "null_pct": 11.4,
+            "unique_count": 24,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 116
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 101
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 90
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 86
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 64
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 62
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 59
+              },
+              {
+                "value": "Autre",
+                "count": 44
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 35
+              },
+              {
+                "value": "LaSalle",
+                "count": 32
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "COMPETENCE": {
+            "null_count": 114,
+            "null_pct": 11.4,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Arrondissement",
+                "count": 783
+              },
+              {
+                "value": "Privé",
+                "count": 34
+              },
+              {
+                "value": "Gouvernement du Québec",
+                "count": 31
+              },
+              {
+                "value": "Agglomération",
+                "count": 25
+              },
+              {
+                "value": "Municipale",
+                "count": 9
+              },
+              {
+                "value": "Gouvernement du Canada",
+                "count": 3
+              },
+              {
+                "value": "Local",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPO1": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Parc d'arrondissement",
+                "count": 640
+              },
+              {
+                "value": "Espace voirie",
+                "count": 136
+              },
+              {
+                "value": "En cours de validation",
+                "count": 113
+              },
+              {
+                "value": "Autre espace vert",
+                "count": 75
+              },
+              {
+                "value": "Grand parc",
+                "count": 33
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPO2": {
+            "null_count": 123,
+            "null_pct": 12.3,
+            "unique_count": 26,
+            "top_values": [
+              {
+                "value": "Parc de quartier",
+                "count": 278
+              },
+              {
+                "value": "Parc de voisinage",
+                "count": 137
+              },
+              {
+                "value": "Îlot de voirie",
+                "count": 116
+              },
+              {
+                "value": "Îlot de verdure",
+                "count": 100
+              },
+              {
+                "value": "Parc école",
+                "count": 54
+              },
+              {
+                "value": "Place publique",
+                "count": 46
+              },
+              {
+                "value": "Espace sportif",
+                "count": 18
+              },
+              {
+                "value": "Espace institutionnel",
+                "count": 18
+              },
+              {
+                "value": "Parc écran",
+                "count": 16
+              },
+              {
+                "value": "Passage",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "35796624-15df-4503-a569-797665f8768e",
+      "name": "Grands parcs, parcs d'arrondissements et espaces publics - format GeoJSON",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/2e9e4d2f-173a-4c3d-a5e3-565d79baa27d/resource/35796624-15df-4503-a569-797665f8768e/download/espace_vert.json",
+      "datastore_active": true,
+      "size": 8210947,
+      "last_modified": "2026-02-10T16:54:48.418473",
+      "created": "2020-04-16T20:08:43.467501",
+      "schema": {
+        "resource_id": "35796624-15df-4503-a569-797665f8768e",
+        "total_records": 176429,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "{",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "{": "\t\"type\" : \"FeatureCollection\""
+          },
+          {
+            "_id": 2,
+            "{": "\t\"name\" : \"espvert.esv_espace_vert_vue_datefin_null\""
+          },
+          {
+            "_id": 3,
+            "{": "\t\"features\" : ["
+          },
+          {
+            "_id": 4,
+            "{": "\t\t{"
+          },
+          {
+            "_id": 5,
+            "{": "\t\t\t\"type\" : \"Feature\""
+          }
+        ]
+      },
+      "field_stats": {
+        "{": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 176429,
+        "audited_at": "2026-03-10T00:19:39.777741+00:00",
+        "fields": {
+          "{": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 786,
+            "top_values": [
+              {
+                "value": "}",
+                "count": 36
+              },
+              {
+                "value": "]",
+                "count": 24
+              },
+              {
+                "value": "{",
+                "count": 13
+              },
+              {
+                "value": "\"type\" : \"Feature\"",
+                "count": 13
+              },
+              {
+                "value": "\"geometry\" : {",
+                "count": 13
+              },
+              {
+                "value": "\"type\" : \"Polygon\"",
+                "count": 13
+              },
+              {
+                "value": "\"coordinates\" : [",
+                "count": 13
+              },
+              {
+                "value": "[",
+                "count": 13
+              },
+              {
+                "value": "\"properties\" : {",
+                "count": 12
+              },
+              {
+                "value": "\"PROPRIETE\" : \"Ville de Montréal\"",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "c57baaf4-0fa8-4aa4-9358-61eb7457b650",
+      "name": "Grands parcs, parcs d'arrondissements et espaces publics - format SHP",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/2e9e4d2f-173a-4c3d-a5e3-565d79baa27d/resource/c57baaf4-0fa8-4aa4-9358-61eb7457b650/download/shapefile.zip",
+      "datastore_active": false,
+      "size": 1789547,
+      "last_modified": "2026-02-10T16:54:53.593172",
+      "created": "2020-04-16T20:09:19.299202",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bureau du loisir",
+    "Espace public",
+    "Espace vert",
+    "Parc",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "L'emprise des espaces verts et des espaces publics est dérivée de plusieurs données de référence, dont le Cadastre du Québec, les polygones de voirie, la banque d'information du 311, les orthophotos, ainsi que les couches des jardins communautaires, des ruelles, des limites administratives, des rives (récurrence 0-2 ans ou des eaux du jour) et des bâtiments.\n\n\nChaque enregistrement représente un polygone désigné par un identifiant unique (OBJECTID). Un parc ou un espace public peut être constitué d'un ou plusieurs polygones; ceux-ci sont liés par l'identifiant unique du parc ou de l'espace public (NUM_INDEX).\n\n\nLe nom des espaces verts est validé par la toponymie de la Ville de Montréal.\n\n### Dictionnaire de données\n\n\n\n- OBJECTID (Entier): Identifiant unique du polygone (ou de l’enregistrement)\n\n- Type (Texte): Préfixe du nom\n\n- Lien (Texte): Article liant le préfixe au nom\n\n- Nom (Texte): Nom du parc ou de l'espace public\n\n- NUM_INDEX (Texte): Identifiant unique du parc ou de l'espace public\n\n- SUPERFICIE (Décimal): Superficie du polygone en hectares\n\n- PROPRIETE (Texte): Propriété du parc ou de l'espace public extraite de la couche de données du Cadastre du Québec\n\n- GESTION (Texte): Gestionnaire du parc (unité administrative de la Ville de Montréal ou Institution)\n\n- COMPETENCE (Texte): Organisme responsable de la compétence juridique du parc ou de l'espace public\n\n- TYPO1 (Texte): Premier niveau de typologie: classification selon la propriété et le gestionnaire\n\n- TYPO2 (Texte): Deuxième niveau de typologie: classification selon les caractéristiques et particularités physiques\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2020-04-16/",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Bureau du loisir",
+      "Espace public",
+      "Espace vert",
+      "Parc",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/grands-parcs-parcs-d-arrondissements-et-espaces-publics",
+    "scraped_at": "2026-03-09T19:58:15.820199+00:00"
+  }
+}

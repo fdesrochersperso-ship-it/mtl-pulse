@@ -1,0 +1,296 @@
+{
+  "slug": "vmtl-reparation-reseau-eau-potable",
+  "title": "Réparations de bris sur le réseau d'eau potable",
+  "notes": "La Ville de Montréal recueillit des données de réparations effectuées sur le réseau d'eau potable. Le nombre de réparations effectuées constitue un bon indicateur de l'état structural du réseau d'eau potable et permet d'identifier des segments de conduites problématiques de ce réseau. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-11-29T20:24:56.354948",
+  "metadata_modified": "2025-02-26T21:35:23.687970",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "0828c687-a459-4c82-a5cf-3d8f9c314697",
+      "name": "Localisation réparations",
+      "description": "Fichier tabulaire des localisations des réparations sur le réseau d'eau potable",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/345db639-0b01-4a0d-8e58-f9be760104e1/resource/0828c687-a459-4c82-a5cf-3d8f9c314697/download/reparations.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-02-01T15:44:23.605439",
+      "created": "2017-11-29T20:32:58.232247",
+      "schema": {
+        "resource_id": "0828c687-a459-4c82-a5cf-3d8f9c314697",
+        "total_records": 24077,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_AQU_BRIS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_AQU_BRIS": 216,
+            "DATE": "2005-03-25T00:00:00",
+            "ARRONDISSEMENT": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+            "Longitude": -73.8658654347078,
+            "Latitude": 45.4942825301382,
+            "Coord_X": 276204.6349,
+            "Coord_Y": 5039438.3864
+          },
+          {
+            "_id": 2,
+            "ID_AQU_BRIS": 217,
+            "DATE": "1985-01-04T00:00:00",
+            "ARRONDISSEMENT": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+            "Longitude": -73.8686497360194,
+            "Latitude": 45.4824548878569,
+            "Coord_X": 275980.9882,
+            "Coord_Y": 5038124.9733
+          },
+          {
+            "_id": 3,
+            "ID_AQU_BRIS": 218,
+            "DATE": "1985-02-22T00:00:00",
+            "ARRONDISSEMENT": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+            "Longitude": -73.8633532260269,
+            "Latitude": 45.4872559133041,
+            "Coord_X": 276397.4529,
+            "Coord_Y": 5038656.6258
+          },
+          {
+            "_id": 4,
+            "ID_AQU_BRIS": 219,
+            "DATE": "1985-03-21T00:00:00",
+            "ARRONDISSEMENT": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+            "Longitude": -73.8686497360194,
+            "Latitude": 45.4824548878569,
+            "Coord_X": 275980.9882,
+            "Coord_Y": 5038124.9733
+          },
+          {
+            "_id": 5,
+            "ID_AQU_BRIS": 220,
+            "DATE": "1985-08-27T00:00:00",
+            "ARRONDISSEMENT": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+            "Longitude": -73.8656688330038,
+            "Latitude": 45.4832990589189,
+            "Coord_X": 276214.4457,
+            "Coord_Y": 5038217.7213
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_AQU_BRIS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 24077,
+        "audited_at": "2026-03-10T00:23:38.961008+00:00",
+        "fields": {
+          "ID_AQU_BRIS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 216.0,
+            "max": 4222.0,
+            "mean": 2982.116,
+            "median": 3684.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1983-06-15T00:00:00",
+            "max_date": "2006-12-26T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "PIERREFONDS-ROXBORO",
+                "count": 350
+              },
+              {
+                "value": "VERDUN",
+                "count": 258
+              },
+              {
+                "value": "ANJOU",
+                "count": 205
+              },
+              {
+                "value": "L'ILE-BIZARD-SAINTE-GENEVIEVE",
+                "count": 186
+              },
+              {
+                "value": "COTE-DES-NEIGES-NOTRE-DAME-DE-GRACE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.917794,
+            "max": -73.538092,
+            "mean": -73.717183,
+            "pct_in_montreal_bbox": 99.6,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.436294,
+            "max": 45.659248,
+            "mean": 45.506205,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Coord_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 272126.6699,
+            "max": 301828.5496,
+            "mean": 287825.133863,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5032932.4796,
+            "max": 5057708.697,
+            "mean": 5040731.182112,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aqueduc",
+    "Arceau",
+    "Bris",
+    "Conduite",
+    "Infrastructure",
+    "Réparation",
+    "SE"
+  ],
+  "web_metadata": {
+    "methodology_text": "Présentement, les données de réparations effectuées sur le réseau d'eau potable sont extraites d'un système d’information centralisé. Ce système est complété par les arrondissements et compilé par le Service de l'eau entre autres pour le plan d'interventions sur le réseau. \n\n\nLes données de réparations de bris affichées sont tributaires de leur disponibilité lors de la collecte, c'est-à-dire qu'elles reflètent les données disponibles au moment de la collecte.  La disponibilité n'est donc pas uniforme sur le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "1972-04-04/",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Aqueduc",
+      "Arceau",
+      "Bris",
+      "Conduite",
+      "Infrastructure",
+      "Réparation",
+      "SE"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/reparation-reseau-eau-potable",
+    "scraped_at": "2026-03-09T20:18:47.825879+00:00"
+  }
+}

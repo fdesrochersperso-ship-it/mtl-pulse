@@ -1,0 +1,462 @@
+{
+  "slug": "vmtl-resultats-sommaires",
+  "title": "Élections municipales - Résultats sommaires",
+  "notes": "Ensemble présentant les résultats sommaires des élections municipales.\r\n\r\n**Note :** Les résultats sommaires n'ont pas été produits pour l'élection générale de 2017 et les suivantes. Les résultats détaillés sont disponibles sur la page [Élections municipales - Résultats détaillés](https://donnees.montreal.ca/dataset/resultats-detailles). À partir de ces données, il est possible d'appliquer les filtres pertinents pour obtenir les résultats sommaires.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-11-02T20:05:34.414374",
+  "metadata_modified": "2025-02-26T21:50:43.726128",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "3f5f50a1-108b-4a07-a466-aba8656e8368",
+      "name": "Resultats sommaires 2013",
+      "description": "Fichier au format ouvert XML.",
+      "format": "XML",
+      "url": "https://donnees.montreal.ca/fr/dataset/764944bf-1e3b-4c69-bb7b-b33311142982/resource/3f5f50a1-108b-4a07-a466-aba8656e8368/download/resultats-election-2013-finaux-sommaires.xml",
+      "datastore_active": false,
+      "size": 222964,
+      "last_modified": "2024-10-22T12:52:06.392360",
+      "created": "2021-11-02T20:06:43.829918",
+      "schema": null
+    },
+    {
+      "id": "f1a9537f-a1e7-406e-b587-424e72796055",
+      "name": "Résultats sommaires 2013 - Explications sur les résultats",
+      "description": "Schéma et explications au sujet des résultats électoraux contenus dans le fichier XML.",
+      "format": "ODT",
+      "url": "https://donnees.montreal.ca/fr/dataset/764944bf-1e3b-4c69-bb7b-b33311142982/resource/f1a9537f-a1e7-406e-b587-424e72796055/download/elections-2013-resultats-sommaires-specifications.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-11-02T20:07:22.128768",
+      "created": "2021-11-02T20:07:22.165405",
+      "schema": null
+    },
+    {
+      "id": "7d165e6e-2edd-41d9-bee1-2edd969b0959",
+      "name": "Résultats sommaires 2009",
+      "description": "Fichier comprenant :\r\n\r\n    les numéros des districts électoraux\r\n    les numéros de bureaux de vote\r\n    les numéros de postes électifs\r\n    les noms des candidats et leur parti politique\r\n    le nombre total de votes obtenus par candidat par bureau de vote\r\n    le nombre total de votes valides par poste électif\r\n    le nombre total de votes rejetés par poste électif\r\n    le nombre total de votes par bureau de vote",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/764944bf-1e3b-4c69-bb7b-b33311142982/resource/7d165e6e-2edd-41d9-bee1-2edd969b0959/download/electiongene-2009-distributiondesvotes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-02T20:09:52.317422",
+      "created": "2021-11-02T20:09:52.356004",
+      "schema": {
+        "resource_id": "7d165e6e-2edd-41d9-bee1-2edd969b0959",
+        "total_records": 4000,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "District",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Bureau",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Candidat",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Votes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TotalValidVotes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TotalRejectedVotes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TotalVotes",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "District": "101-Est",
+            "Bureau": 1,
+            "Poste": "0",
+            "Candidat": "BÉDARD Michel",
+            "Parti": "Équipe Bédard - Fierté Montréal / Team Bédard - Montreal Pride Party",
+            "Votes": 1,
+            "TotalValidVotes": 69,
+            "TotalRejectedVotes": 0,
+            "TotalVotes": 69
+          },
+          {
+            "_id": 2,
+            "District": "101-Est",
+            "Bureau": 1,
+            "Poste": "0",
+            "Candidat": "BERGERON Richard",
+            "Parti": "Projet Montréal",
+            "Votes": 14,
+            "TotalValidVotes": 69,
+            "TotalRejectedVotes": 0,
+            "TotalVotes": 69
+          },
+          {
+            "_id": 3,
+            "District": "101-Est",
+            "Bureau": 1,
+            "Poste": "0",
+            "Candidat": "HAREL Louise",
+            "Parti": "Équipe Harel - Vision Montréal",
+            "Votes": 8,
+            "TotalValidVotes": 69,
+            "TotalRejectedVotes": 0,
+            "TotalVotes": 69
+          },
+          {
+            "_id": 4,
+            "District": "101-Est",
+            "Bureau": 1,
+            "Poste": "0",
+            "Candidat": "O'SULLIVAN Louise",
+            "Parti": "Équipe Louise O'Sullivan - Parti Montréal - Ville-Marie",
+            "Votes": 1,
+            "TotalValidVotes": 69,
+            "TotalRejectedVotes": 0,
+            "TotalVotes": 69
+          },
+          {
+            "_id": 5,
+            "District": "101-Est",
+            "Bureau": 1,
+            "Poste": "0",
+            "Candidat": "PRAIRIE Michel",
+            "Parti": "Indépendant",
+            "Votes": 1,
+            "TotalValidVotes": 69,
+            "TotalRejectedVotes": 0,
+            "TotalVotes": 69
+          }
+        ]
+      },
+      "field_stats": {
+        "District": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Bureau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Candidat": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Votes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TotalValidVotes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TotalRejectedVotes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TotalVotes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 4000,
+        "audited_at": "2026-03-10T00:23:58.902087+00:00",
+        "fields": {
+          "District": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "101-Est",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Bureau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 67.0,
+            "mean": 33.835,
+            "median": 34.0,
+            "unique_count": 67,
+            "field_type_detected": "numeric"
+          },
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "0",
+                "count": 402
+              },
+              {
+                "value": "10",
+                "count": 201
+              },
+              {
+                "value": "10,1",
+                "count": 199
+              },
+              {
+                "value": "10,11",
+                "count": 198
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Candidat": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "BÉDARD Michel",
+                "count": 67
+              },
+              {
+                "value": "BERGERON Richard",
+                "count": 67
+              },
+              {
+                "value": "HAREL Louise",
+                "count": 67
+              },
+              {
+                "value": "O'SULLIVAN Louise",
+                "count": 67
+              },
+              {
+                "value": "PRAIRIE Michel",
+                "count": 67
+              },
+              {
+                "value": "TREMBLAY Gérald",
+                "count": 67
+              },
+              {
+                "value": "LABELLE Michael",
+                "count": 67
+              },
+              {
+                "value": "WORTH Monique",
+                "count": 67
+              },
+              {
+                "value": "ZAKI Latif",
+                "count": 67
+              },
+              {
+                "value": "DUBOIS Christian G.",
+                "count": 67
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Parti": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Équipe Tremblay - Union Montréal",
+                "count": 267
+              },
+              {
+                "value": "Projet Montréal",
+                "count": 266
+              },
+              {
+                "value": "Équipe Harel - Vision Montréal",
+                "count": 266
+              },
+              {
+                "value": "Équipe Bédard - Fierté Montréal / Team Bédard - Montreal Pride Party",
+                "count": 67
+              },
+              {
+                "value": "Équipe Louise O'Sullivan - Parti Montréal - Ville-Marie",
+                "count": 67
+              },
+              {
+                "value": "Indépendant",
+                "count": 67
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Votes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 97.0,
+            "mean": 20.32,
+            "median": 17.0,
+            "unique_count": 73,
+            "field_type_detected": "numeric"
+          },
+          "TotalValidVotes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 143.0,
+            "mean": 76.359,
+            "median": 75.0,
+            "unique_count": 83,
+            "field_type_detected": "numeric"
+          },
+          "TotalRejectedVotes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 14.0,
+            "mean": 2.207,
+            "median": 2.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 258
+              },
+              {
+                "value": "2",
+                "count": 211
+              },
+              {
+                "value": "0",
+                "count": 183
+              },
+              {
+                "value": "3",
+                "count": 126
+              },
+              {
+                "value": "4",
+                "count": 96
+              },
+              {
+                "value": "5",
+                "count": 63
+              },
+              {
+                "value": "6",
+                "count": 36
+              },
+              {
+                "value": "7",
+                "count": 12
+              },
+              {
+                "value": "9",
+                "count": 6
+              },
+              {
+                "value": "14",
+                "count": 3
+              }
+            ]
+          },
+          "TotalVotes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 21.0,
+            "max": 143.0,
+            "mean": 78.566,
+            "median": 77.0,
+            "unique_count": 50,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SG",
+    "Élections"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le fichier associe à chaque bureau de vote d’un district électoral la distribution des votes pour chaque candidat à un poste électif.  Il faut utiliser le fichier de la fiche « Élections municipales - Postes électifs » pour obtenir la description de la colonne « Poste ».\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2009-11-01 / 2013-11-03",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "SG",
+      "Élections"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/resultats-sommaires",
+    "scraped_at": "2026-03-09T20:19:13.905036+00:00"
+  }
+}

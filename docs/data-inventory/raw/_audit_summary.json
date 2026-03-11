@@ -1,0 +1,321 @@
+{
+  "completed_at": "2026-03-10T00:33:23.342651+00:00",
+  "datasets_audited": 280,
+  "datasets_skipped": 0,
+  "resources_audited": 892,
+  "total_fields_analyzed": 11350,
+  "api_errors": 0,
+  "field_type_breakdown": {
+    "numeric": 4947,
+    "category": 2611,
+    "text": 1446,
+    "date": 797,
+    "identifier": 587,
+    "all_null": 541,
+    "geo_latitude": 211,
+    "geo_longitude": 210
+  },
+  "high_null_field_count": 2249,
+  "high_null_fields_sample": [
+    {
+      "dataset": "vmtl-adresses-ponctuelles",
+      "resource": "Adresse ponctuelle",
+      "field": "LIEN",
+      "null_pct": 93.7
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q2_m1",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q2_m2",
+      "null_pct": 95.7
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q2_m3",
+      "null_pct": 99.9
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q3",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q4",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q5",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q6",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q7",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q8",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q9",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q10",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q11",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q12",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q13",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q14_m2",
+      "null_pct": 83.4
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "q14_m3",
+      "null_pct": 97.7
+    },
+    {
+      "dataset": "vmtl-agriculture-urbaine-sondage",
+      "resource": "Agriculture urbaine, Sondage 2013 - Donn",
+      "field": "b11",
+      "null_pct": 59.2
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2016",
+      "field": "TPS",
+      "null_pct": 64.2
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2016",
+      "field": "TVQ",
+      "null_pct": 64.2
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2015",
+      "field": "TPS",
+      "null_pct": 52.8
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2015",
+      "field": "TVQ",
+      "null_pct": 52.8
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2015",
+      "field": "TPS",
+      "null_pct": 52.8
+    },
+    {
+      "dataset": "vmtl-allocation-aux-partis-autorises",
+      "resource": "Allocations versées en 2015",
+      "field": "TVQ",
+      "null_pct": 52.8
+    },
+    {
+      "dataset": "vmtl-applicateurs-commerciaux-pesticides-titulaires-permis",
+      "resource": "Applicateurs commerciaux de pesticides t",
+      "field": "detenteur",
+      "null_pct": 68.3
+    },
+    {
+      "dataset": "vmtl-applicateurs-commerciaux-pesticides-titulaires-permis",
+      "resource": "Applicateurs commerciaux de pesticides t",
+      "field": "no permis",
+      "null_pct": 68.3
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Rue",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Rue_cote",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "No_civique",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "LOCALISATION",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Localisation_code",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Rue_de",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Rue_a",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Distance_pave",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Distance_ligne_rue",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Stationnement_jour",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "Stationnement_heure",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Inventaire arbres publics - Fichier cons",
+      "field": "District",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Côté",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "X",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Y",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Date_plant",
+      "null_pct": 86.3
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Remarquable",
+      "null_pct": 99.6
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Dist_pavé",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Code_parc",
+      "null_pct": 99.6
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Nom_parc",
+      "null_pct": 99.9
+    },
+    {
+      "dataset": "vmtl-arbres",
+      "resource": "Arbres publics - Montréal-Nord",
+      "field": "Code_secteur",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arceaux-velos",
+      "resource": "Arceaux à vélos",
+      "field": "COULEUR",
+      "null_pct": 100.0
+    },
+    {
+      "dataset": "vmtl-arceaux-velos",
+      "resource": "Arceaux à vélos",
+      "field": "MATERIAU",
+      "null_pct": 97.3
+    },
+    {
+      "dataset": "vmtl-arceaux-velos",
+      "resource": "Arceaux à vélos",
+      "field": "CONDITION",
+      "null_pct": 100.0
+    }
+  ]
+}

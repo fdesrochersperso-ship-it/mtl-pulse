@@ -1,0 +1,551 @@
+{
+  "slug": "vmtl-feux-tous",
+  "title": "Feux de circulation – emplacements toutes intersections",
+  "notes": "Ce fichier contient l’emplacement de tous les feux de circulation gérés par la Ville de Montréal. Le fichier contient le numéro de référence de l’intersection où se situe le feu, le nom des deux rues qui forment l’intersection et les coordonnées géographiques du point central de l’intersection.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-06T20:15:04.303685",
+  "metadata_modified": "2026-03-03T05:00:11.805978",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "e69f6f40-8241-4f21-b104-b2091d1cf122",
+      "name": "Feux de circulation",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/02ebdab9-cbf3-4f56-8c29-79fa0ed0ed2e/resource/e69f6f40-8241-4f21-b104-b2091d1cf122/download/feux-circulation.csv",
+      "datastore_active": true,
+      "size": 269573,
+      "last_modified": "2026-03-03T03:06:36.017901",
+      "created": "2022-07-14T17:29:53.198144",
+      "schema": {
+        "resource_id": "e69f6f40-8241-4f21-b104-b2091d1cf122",
+        "total_records": 2347,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INT_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PERMANENT_OU_TEMPORAIRE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INT_NO": "49",
+            "RUE_1": "Elmhurst",
+            "RUE_2": "Saint-Jacques",
+            "NO_ARRONDISSEMENT": "7",
+            "ARRONDISSEMENT": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "PERMANENT_OU_TEMPORAIRE": "Permanent",
+            "LOC_X": "294066.935",
+            "LOC_Y": "5034838.004",
+            "Longitude": "-73.637226",
+            "Latitude": "45.45339"
+          },
+          {
+            "_id": 2,
+            "INT_NO": "50",
+            "RUE_1": "Girouard",
+            "RUE_2": "Monkland",
+            "NO_ARRONDISSEMENT": "7",
+            "ARRONDISSEMENT": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "PERMANENT_OU_TEMPORAIRE": "Permanent",
+            "LOC_X": "295287.251",
+            "LOC_Y": "5037445.335",
+            "Longitude": "-73.621674",
+            "Latitude": "45.476869"
+          },
+          {
+            "_id": 3,
+            "INT_NO": "51",
+            "RUE_1": "Girouard",
+            "RUE_2": "Notre-Dame-de-Grâce",
+            "NO_ARRONDISSEMENT": "7",
+            "ARRONDISSEMENT": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "PERMANENT_OU_TEMPORAIRE": "Permanent",
+            "LOC_X": "295621.009",
+            "LOC_Y": "5037231.263",
+            "Longitude": "-73.617401",
+            "Latitude": "45.474947"
+          },
+          {
+            "_id": 4,
+            "INT_NO": "52",
+            "RUE_1": "Girouard",
+            "RUE_2": "Saint-Jacques",
+            "NO_ARRONDISSEMENT": "7",
+            "ARRONDISSEMENT": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "PERMANENT_OU_TEMPORAIRE": "Permanent",
+            "LOC_X": "296636.986",
+            "LOC_Y": "5036580.529",
+            "Longitude": "-73.604396",
+            "Latitude": "45.469104"
+          },
+          {
+            "_id": 5,
+            "INT_NO": "53",
+            "RUE_1": "Girouard",
+            "RUE_2": "Sherbrooke",
+            "NO_ARRONDISSEMENT": "7",
+            "ARRONDISSEMENT": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "PERMANENT_OU_TEMPORAIRE": "Permanent",
+            "LOC_X": "296044.392",
+            "LOC_Y": "5036962.386",
+            "Longitude": "-73.611981",
+            "Latitude": "45.472533"
+          }
+        ]
+      },
+      "field_stats": {
+        "INT_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PERMANENT_OU_TEMPORAIRE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2347,
+        "audited_at": "2026-03-10T00:19:03.625282+00:00",
+        "fields": {
+          "INT_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1370.0,
+            "mean": 513.153,
+            "median": 509.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "RUE_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 321,
+            "top_values": [
+              {
+                "value": "Décarie",
+                "count": 29
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 25
+              },
+              {
+                "value": "Hochelaga",
+                "count": 23
+              },
+              {
+                "value": "Maisonneuve",
+                "count": 22
+              },
+              {
+                "value": "Côte-des-Neiges",
+                "count": 18
+              },
+              {
+                "value": "Iberville",
+                "count": 17
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 15
+              },
+              {
+                "value": "Ontario",
+                "count": 15
+              },
+              {
+                "value": "Bourbonnière",
+                "count": 15
+              },
+              {
+                "value": "Côte-Sainte-Catherine",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RUE_2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 309,
+            "top_values": [
+              {
+                "value": "Sherbrooke",
+                "count": 71
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 41
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 30
+              },
+              {
+                "value": "Saint-Joseph",
+                "count": 22
+              },
+              {
+                "value": "Pie-IX",
+                "count": 22
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 21
+              },
+              {
+                "value": "Ontario",
+                "count": 21
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 19
+              },
+              {
+                "value": "Maisonneuve",
+                "count": 19
+              },
+              {
+                "value": "Saint-Michel",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NO_ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 11.0,
+            "mean": 5.402,
+            "median": 6.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 274
+              },
+              {
+                "value": "7",
+                "count": 185
+              },
+              {
+                "value": "5",
+                "count": 154
+              },
+              {
+                "value": "4",
+                "count": 137
+              },
+              {
+                "value": "3",
+                "count": 101
+              },
+              {
+                "value": "8",
+                "count": 76
+              },
+              {
+                "value": "2",
+                "count": 55
+              },
+              {
+                "value": "9",
+                "count": 12
+              },
+              {
+                "value": "1",
+                "count": 5
+              },
+              {
+                "value": "11",
+                "count": 1
+              }
+            ]
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 274
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 185
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 154
+              },
+              {
+                "value": "Mercier - Hochelaga - Maisonneuve",
+                "count": 137
+              },
+              {
+                "value": "Rosemont - Petite-Patrie",
+                "count": 101
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 76
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 55
+              },
+              {
+                "value": "Rivières-des-Prairies - Pointe-aux-Trembles",
+                "count": 12
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 5
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PERMANENT_OU_TEMPORAIRE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Permanent",
+                "count": 933
+              },
+              {
+                "value": "Temporaire",
+                "count": 67
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 285550.72,
+            "max": 304761.84,
+            "mean": 298496.3698,
+            "median": 298923.626,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "LOC_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5033504.3065,
+            "max": 5060287.5,
+            "mean": 5042518.7172,
+            "median": 5042029.656,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.746378,
+            "max": -73.50049,
+            "mean": -73.580682,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.44143,
+            "max": 45.682475,
+            "mean": 45.522553,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "af3fd28f-19ee-4c80-b8d9-29f17f18620d",
+      "name": "Feux de circulation",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/02ebdab9-cbf3-4f56-8c29-79fa0ed0ed2e/resource/af3fd28f-19ee-4c80-b8d9-29f17f18620d/download/feux-circulation.geojson",
+      "datastore_active": false,
+      "size": 930420,
+      "last_modified": "2026-03-03T02:06:15.598623",
+      "created": "2022-07-26T02:01:47.331239",
+      "schema": null
+    },
+    {
+      "id": "3de489c6-2796-46d5-b8f3-e2405f65da2d",
+      "name": "Feux de circulation",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/02ebdab9-cbf3-4f56-8c29-79fa0ed0ed2e/resource/3de489c6-2796-46d5-b8f3-e2405f65da2d/download/feux-circulation.zip",
+      "datastore_active": false,
+      "size": 156029,
+      "last_modified": "2026-03-03T02:06:17.302410",
+      "created": "2022-07-14T17:29:45.690782",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Circulation",
+    "Coordonnées géoréférencées",
+    "Feu",
+    "Feu tricolor",
+    "Intersection",
+    "SUM",
+    "Signalisation"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n\n\n**Int_no: ** Numéros de référence du feux de circulation (# d'intersection) \n\n**Rue_1 :** Première rue formant l'intersection \n\n**Rue_2 : ** Deuxième rue formant l'intersection \n\n**Arrondissement:** Arrondissement où est située l'intersection \n\n**x: ** Coordonnée x du point central de l'intersection \n\n**y:** Coordonnées y du point central de l'intersection \n\n**Projection:** Quebec Modified Transverse Mercator (NAD83) - Quebec MTM Zone 8 (NAD83) [EPSG:32188] \n\n\n*La même logique s'applique pour les fichiers des feux sonores et des feux piétons\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Circulation",
+      "Coordonnées géoréférencées",
+      "Feu",
+      "Feu tricolor",
+      "Intersection",
+      "SUM",
+      "Signalisation"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/feux-tous",
+    "scraped_at": "2026-03-09T19:57:28.964503+00:00"
+  }
+}

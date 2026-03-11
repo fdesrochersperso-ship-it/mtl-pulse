@@ -1,0 +1,1209 @@
+{
+  "slug": "vmtl-redition-comptes-stations-temporaires-projets-speciaux",
+  "title": "Reddition de comptes des stations temporaires (projets spéciaux)",
+  "notes": "Dans le cadre de projets spéciaux, le Réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants à des stations temporaires afin d’approfondir nos connaissances sur la qualité de l’air ambiant.\r\n\r\nLe tableau indique les taux (%) de fonctionnement des analyseurs des stations temporaires pour une période de 6 mois  (indiqué entre parenthèse). À noter que les taux de fonctionnement peuvent changer suite au processus de validation.\r\n\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    },
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "semiannual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-05-26T16:04:51.091331",
+  "metadata_modified": "2025-11-11T20:02:14.937234",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "1d3baad9-b0d0-4ea2-920c-d109bf6d2c39",
+      "name": "Reddition de comptes des stations temporaires (1 mai au 31 octobre 2025)",
+      "description": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant de stations temporaires afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/1d3baad9-b0d0-4ea2-920c-d109bf6d2c39/download/reddition-de-comptes-des-stations-temporaires-1-mai-au-31-octobre-2023.xlsx",
+      "datastore_active": true,
+      "size": 11155,
+      "last_modified": "2025-11-11T17:11:00.389102",
+      "created": "2025-11-11T17:11:00.480879",
+      "schema": {
+        "resource_id": "1d3baad9-b0d0-4ea2-920c-d109bf6d2c39",
+        "total_records": 13,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station,Station,Polluant,Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "Station": "25",
+            "Polluant": "O3",
+            "Taux de fonctionnement [%]": "98.50578",
+            "Station,Station,Polluant,Taux de fonctionnement [%]": "25,25,O3,98,5"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "Station": "25",
+            "Polluant": "NO",
+            "Taux de fonctionnement [%]": "76.74892",
+            "Station,Station,Polluant,Taux de fonctionnement [%]": "25,25,NO,76,7"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "Station": "25",
+            "Polluant": "NO2",
+            "Taux de fonctionnement [%]": "76.74892",
+            "Station,Station,Polluant,Taux de fonctionnement [%]": "25,25,NO2,76,7"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "Station": "25",
+            "Polluant": "PM2,5",
+            "Taux de fonctionnement [%]": "94.52117",
+            "Station,Station,Polluant,Taux de fonctionnement [%]": "25,25,PM2,5,94,5"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "Station": "25",
+            "Polluant": "SO2",
+            "Taux de fonctionnement [%]": "99.11705",
+            "Station,Station,Polluant,Taux de fonctionnement [%]": "25,25,SO2,99,1"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Taux de fonctionnement [%]": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Station,Station,Polluant,Taux de fonctionnement [%]": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 13,
+        "total_records": 13,
+        "audited_at": "2026-03-10T00:23:07.600714+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 13.0,
+            "mean": 7.0,
+            "median": 7.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "Station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "26-1",
+                "count": 8
+              },
+              {
+                "value": "25",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "O3",
+                "count": 2
+              },
+              {
+                "value": "NO",
+                "count": 2
+              },
+              {
+                "value": "NO2",
+                "count": 2
+              },
+              {
+                "value": "PM2,5",
+                "count": 2
+              },
+              {
+                "value": "SO2",
+                "count": 2
+              },
+              {
+                "value": "CO",
+                "count": 1
+              },
+              {
+                "value": "CÉ",
+                "count": 1
+              },
+              {
+                "value": "PUF",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Taux de fonctionnement [%]": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 63.7084,
+            "max": 99.1171,
+            "mean": 89.0876,
+            "median": 96.8983,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "76.74892",
+                "count": 2
+              },
+              {
+                "value": "63.7084",
+                "count": 2
+              },
+              {
+                "value": "98.50578",
+                "count": 1
+              },
+              {
+                "value": "94.52117",
+                "count": 1
+              },
+              {
+                "value": "99.11705",
+                "count": 1
+              },
+              {
+                "value": "97.53226",
+                "count": 1
+              },
+              {
+                "value": "98.66425",
+                "count": 1
+              },
+              {
+                "value": "97.84922",
+                "count": 1
+              },
+              {
+                "value": "95.08717",
+                "count": 1
+              },
+              {
+                "value": "99.04913",
+                "count": 1
+              }
+            ]
+          },
+          "Station,Station,Polluant,Taux de fonctionnement [%]": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "25,25,O3,98,5",
+                "count": 1
+              },
+              {
+                "value": "25,25,NO,76,7",
+                "count": 1
+              },
+              {
+                "value": "25,25,NO2,76,7",
+                "count": 1
+              },
+              {
+                "value": "25,25,PM2,5,94,5",
+                "count": 1
+              },
+              {
+                "value": "25,25,SO2,99,1",
+                "count": 1
+              },
+              {
+                "value": "26-1,26-1,O3,97,5",
+                "count": 1
+              },
+              {
+                "value": "26-1,26-1,NO,63,7",
+                "count": 1
+              },
+              {
+                "value": "26-1,26-1,NO2,63,7",
+                "count": 1
+              },
+              {
+                "value": "26-1,26-1,SO2,98,7",
+                "count": 1
+              },
+              {
+                "value": "26-1,26-1,CO,97,8",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "62f1eda7-83b6-43ad-8e06-36d50dddb045",
+      "name": "Reddition de comptes des stations temporaires (1 novembre 2024 - 30 avril 2025)",
+      "description": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant de stations temporaires afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/62f1eda7-83b6-43ad-8e06-36d50dddb045/download/redition-des-comptes-stations-temporaires-nov-2024-avril-2025.csv",
+      "datastore_active": true,
+      "size": 466,
+      "last_modified": "2025-06-05T10:13:21.686603",
+      "created": "2025-06-05T10:13:21.780698",
+      "schema": {
+        "resource_id": "62f1eda7-83b6-43ad-8e06-36d50dddb045",
+        "total_records": 20,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "Station": "22-1",
+            "Polluant": "O3",
+            "Taux de fonctionnement [%]": "3.867403"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "Station": "22-1",
+            "Polluant": "NO",
+            "Taux de fonctionnement [%]": "3.867403"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "Station": "22-1",
+            "Polluant": "NO2",
+            "Taux de fonctionnement [%]": "3.867403"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "Station": "22-1",
+            "Polluant": "SO2",
+            "Taux de fonctionnement [%]": "3.867403"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "Station": "22-1",
+            "Polluant": "CO",
+            "Taux de fonctionnement [%]": "3.383978"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Taux de fonctionnement [%]": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 20,
+        "total_records": 20,
+        "audited_at": "2026-03-10T00:23:08.420474+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 20.0,
+            "mean": 10.5,
+            "median": 10.5,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "Station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "26-2",
+                "count": 8
+              },
+              {
+                "value": "22-1",
+                "count": 6
+              },
+              {
+                "value": "25",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "O3",
+                "count": 3
+              },
+              {
+                "value": "NO",
+                "count": 3
+              },
+              {
+                "value": "NO2",
+                "count": 3
+              },
+              {
+                "value": "SO2",
+                "count": 3
+              },
+              {
+                "value": "CO",
+                "count": 3
+              },
+              {
+                "value": "PM2.5",
+                "count": 3
+              },
+              {
+                "value": "BC1_370nm",
+                "count": 1
+              },
+              {
+                "value": "PUF",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Taux de fonctionnement [%]": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 99.8619,
+            "mean": 63.8835,
+            "median": 95.9484,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3.867403",
+                "count": 5
+              },
+              {
+                "value": "99.83886",
+                "count": 2
+              },
+              {
+                "value": "99.24033",
+                "count": 2
+              },
+              {
+                "value": "99.07919",
+                "count": 2
+              },
+              {
+                "value": "3.383978",
+                "count": 1
+              },
+              {
+                "value": "99.28637",
+                "count": 1
+              },
+              {
+                "value": "99.81584",
+                "count": 1
+              },
+              {
+                "value": "0",
+                "count": 1
+              },
+              {
+                "value": "82.20534",
+                "count": 1
+              },
+              {
+                "value": "99.86188",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1c9523f6-79d6-46c2-b5f1-09086ac576bb",
+      "name": "Reddition de comptes des stations temporaires (1 mai 2024 - 31 octobre 2024)",
+      "description": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant de stations temporaires afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.\r\nLa station 26-1 a finalisé sa campagne le 31 mars 2024 et la station 25 était à l'arrêt pendant des travaux dans le stationnement de son emplacement (8 mai au 9 septembre)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/1c9523f6-79d6-46c2-b5f1-09086ac576bb/download/redition-des-comptes-stations-temporaires-mai-2024-octobre-2024.csv",
+      "datastore_active": true,
+      "size": 131,
+      "last_modified": "2024-11-19T11:32:56.216055",
+      "created": "2024-11-18T21:20:23.422684",
+      "schema": {
+        "resource_id": "1c9523f6-79d6-46c2-b5f1-09086ac576bb",
+        "total_records": 5,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "Station": "25",
+            "Polluant": "O3",
+            "Taux de fonctionnement [%]": "28.53"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "Station": "25",
+            "Polluant": "NO",
+            "Taux de fonctionnement [%]": "27.63"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "Station": "25",
+            "Polluant": "NO2",
+            "Taux de fonctionnement [%]": "27.63"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "Station": "25",
+            "Polluant": "PM2.5",
+            "Taux de fonctionnement [%]": "26.92"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "Station": "25",
+            "Polluant": "SO2",
+            "Taux de fonctionnement [%]": "23.71"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Taux de fonctionnement [%]": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 5,
+        "total_records": 5,
+        "audited_at": "2026-03-10T00:23:09.342595+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.0,
+            "median": 3.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "Station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 25.0,
+            "max": 25.0,
+            "mean": 25.0,
+            "median": 25.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "25",
+                "count": 5
+              }
+            ]
+          },
+          "Polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "O3",
+                "count": 1
+              },
+              {
+                "value": "NO",
+                "count": 1
+              },
+              {
+                "value": "NO2",
+                "count": 1
+              },
+              {
+                "value": "PM2.5",
+                "count": 1
+              },
+              {
+                "value": "SO2",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Taux de fonctionnement [%]": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 23.71,
+            "max": 28.53,
+            "mean": 26.884,
+            "median": 27.63,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27.63",
+                "count": 2
+              },
+              {
+                "value": "28.53",
+                "count": 1
+              },
+              {
+                "value": "26.92",
+                "count": 1
+              },
+              {
+                "value": "23.71",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "cf549182-a12b-40da-810d-6b8e40f105cf",
+      "name": "Reddition de comptes des stations temporaires (1 novembre 2022 - 30 avril 2023)",
+      "description": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant de stations temporaires afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/cf549182-a12b-40da-810d-6b8e40f105cf/download/redition-des-comptes-stations-temporaires-nov-2022-avril-2023.csv",
+      "datastore_active": true,
+      "size": 265,
+      "last_modified": "2024-11-19T11:32:33.188299",
+      "created": "2023-05-26T16:38:51.739589",
+      "schema": {
+        "resource_id": "cf549182-a12b-40da-810d-6b8e40f105cf",
+        "total_records": 0,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station",
+            "type": "numeric",
+            "info": {
+              "label": "Station",
+              "notes": "Identification unique de station",
+              "type_override": "numeric"
+            }
+          },
+          {
+            "id": "Polluant",
+            "type": "text",
+            "info": {
+              "label": "Polluant",
+              "notes": "Appareils mesurant les polluants:\r\nNO : Monoxyde d'azote \r\nNO2 : Dioxyde d'azote\r\nPM2.5 : Particules fines, diamètre 2,5 microns et moins\r\nO3 : Ozone\r\nSO2 : Dioxyde de soufre\r\nCÉ : Carbone élémentaire\r\nPUF : Particules ultrafines",
+              "type_override": "text"
+            }
+          },
+          {
+            "id": "Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": []
+      },
+      "quality_audit": {
+        "sample_size": 0,
+        "total_records": 0,
+        "audited_at": "2026-03-10T00:23:10.194984+00:00",
+        "fields": {}
+      }
+    },
+    {
+      "id": "2aa40c4d-07e5-40b4-ac4c-1d39b4ae055c",
+      "name": "Reddition de comptes des stations temporaires (1 mai 2023 - 31 octobre 2023)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/2aa40c4d-07e5-40b4-ac4c-1d39b4ae055c/download/redition-des-comptes-stations-temporaires-mai-2023-octobre-2023.csv",
+      "datastore_active": false,
+      "size": 293,
+      "last_modified": "2024-02-26T16:25:58.779872",
+      "created": "2024-02-26T16:20:53.781949",
+      "schema": null
+    },
+    {
+      "id": "74feabfa-7178-4492-869e-d76da89c32ce",
+      "name": "Reddition de comptes des stations temporaires (1 novembre 2023 - 30 avril 2024)",
+      "description": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant de stations temporaires afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0f08aa64-0123-43ce-ba8d-bac92e6774cb/resource/74feabfa-7178-4492-869e-d76da89c32ce/download/redition-des-comptes-stations-temporaires-nov-2023-avril-2024.csv",
+      "datastore_active": true,
+      "size": 265,
+      "last_modified": "2024-06-07T10:48:43.548451",
+      "created": "2024-06-07T10:33:34.041839",
+      "schema": {
+        "resource_id": "74feabfa-7178-4492-869e-d76da89c32ce",
+        "total_records": 13,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Taux de fonctionnement [%]",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "Station": "25",
+            "Polluant": "O3",
+            "Taux de fonctionnement [%]": "97.3"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "Station": "25",
+            "Polluant": "NO",
+            "Taux de fonctionnement [%]": "99.0"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "Station": "25",
+            "Polluant": "NO2",
+            "Taux de fonctionnement [%]": "99.0"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "Station": "25",
+            "Polluant": "PM2.5",
+            "Taux de fonctionnement [%]": "99.1"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "Station": "25",
+            "Polluant": "SO2",
+            "Taux de fonctionnement [%]": "98.6"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Taux de fonctionnement [%]": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 13,
+        "total_records": 13,
+        "audited_at": "2026-03-10T00:23:11.083424+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 13.0,
+            "mean": 7.0,
+            "median": 7.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "Station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "26-1",
+                "count": 8
+              },
+              {
+                "value": "25",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "O3",
+                "count": 2
+              },
+              {
+                "value": "NO",
+                "count": 2
+              },
+              {
+                "value": "NO2",
+                "count": 2
+              },
+              {
+                "value": "PM2.5",
+                "count": 2
+              },
+              {
+                "value": "SO2",
+                "count": 2
+              },
+              {
+                "value": "CO",
+                "count": 1
+              },
+              {
+                "value": "CÉ",
+                "count": 1
+              },
+              {
+                "value": "PUF",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Taux de fonctionnement [%]": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 83.1,
+            "max": 99.1,
+            "mean": 92.4308,
+            "median": 91.4,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "99.0",
+                "count": 2
+              },
+              {
+                "value": "83.1",
+                "count": 2
+              },
+              {
+                "value": "97.3",
+                "count": 1
+              },
+              {
+                "value": "99.1",
+                "count": 1
+              },
+              {
+                "value": "98.6",
+                "count": 1
+              },
+              {
+                "value": "90.8",
+                "count": 1
+              },
+              {
+                "value": "91.4",
+                "count": 1
+              },
+              {
+                "value": "91.3",
+                "count": 1
+              },
+              {
+                "value": "88.8",
+                "count": 1
+              },
+              {
+                "value": "91.5",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Qualité de l air",
+    "RSQA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "La station Longue-Pointe (25) a été implantée dans le cadre du projet de l’implantation d’un système de gestion collaborative de corridors de mobilité intégrée Notre-Dame pour l’optimisation de l’accès au Port de Montréal. Son emplacement est au coin de l’avenue Haig et de la rue Notre-Dame Est dans l’arrondissement Mercier-Hochelaga-Maisonneuve.\n\n\nLa station nomade a débuté sa deuxième campagne de mesure (26-2) le 1er octobre 2024 au centre-ville près du métro St-Laurent. Le RSQA mesure présentement la qualité de l’air avant l’implantation de la future zone zéro émission de la Ville de Montréal. Cette zone fait partie des objectifs du Plan climat 2020-2030 (Action 13). Le rapport, sous forme de présentation dynamique, ainsi que toutes les données de la première campagne de mesure (26-1) aux Jardins communautaires de Montréal-Est sont maintenant disponibles sur le site des données ouvertes (consulter la page sur le Projet: Station Nomade RSQA).\n\n\nLa station compacte (22-1) de mesure de la qualité de l’air a été installée en avril 2025 au coin des rues Curatteau et Notre-Dame Est entre le pont-tunnel Louis-Hippolyte-La Fontaine et la station 25 afin de mieux comprendre l’influence de la circulation intégrée à la durée des feux de circulation sur la rue Notre-Dame Est.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Semi-annuel"
+    },
+    "keywords": [
+      "Qualité de l air",
+      "RSQA",
+      "SEnv"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/redition-comptes-stations-temporaires-projets-speciaux",
+    "scraped_at": "2026-03-09T20:16:35.699646+00:00"
+  }
+}

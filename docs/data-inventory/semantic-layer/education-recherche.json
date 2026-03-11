@@ -1,0 +1,1267 @@
+{
+  "category_slug": "education-recherche",
+  "category_name_fr": "Education et recherche",
+  "category_name_en": "Education and Research",
+  "generated_at": "2026-03-09T22:51:34.043868",
+  "dataset_count": 2,
+  "datasets": [
+    {
+      "slug": "vmtl-patrimoine-architectural-outremont-fiches-immeubles-inventaire-bisson",
+      "title_fr": "Patrimoine architectural de l'arrondissement Outremont - Fiches d'immeubles de l'inventaire Bisson",
+      "title_en": "Heritage Architectural De L Arrondissement Outremont Fiches D Immeubles De L Inventaire Bisson",
+      "description_fr": "Ce jeu de données présente la localisation des immeubles repérés de Catégorie 1 et 2 ( bâtiments remarquables, bâtiments intéressants) dans l'inventaire du patrimoine d'Outremont réalisé par Pierre-Richard Bisson en 1992. Les fiches associées y sont accessibles au format PDF lorsqu'elles sont disponibles.\r\nLes immeubles de catégorie 1 (bâtiments remarquables) sont associés à des fiches détaillées et les immeubles de Catégorie 2 (bâtiments intéressants) sont associés à des fiches courtes. Les fiches sont repérables dans l'outil cartographique en indiquant LAT comme données pour la latitude et LNG en données pour la longitude.\r\n\r\nLes données de ces fiches correspondent à l'état des connaissances au moment de la réalisation de l'inventaire et n'ont pas été actualisées depuis. \r\n\r\nCette ressource est le fruit d'une collaboration entre l'arrondissement d'Outremont, le service de la Planification stratégique et de la performance organisationnelle, et de la section des Inventaires de la divis",
+      "description_en": "Ce Jeu De Donnes Prsente La Localisation Des Immeubles Reprs De Catgorie 1 Et 2 Btiments Remarquables Btiments Intressants Dans L Inventaire Du heritage D Outremont Ralis Par Pierre Ri",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction du patrimoine",
+      "update_frequency": "notPlanned",
+      "total_records": 671,
+      "temporal_range": null,
+      "methodology_fr": "Processus de création: La localisation des points est partiellement issue d'un travail de géocodage des adresses, corrigé manuellement pour correspondre à la localisation des polygones des immeubles pris en compte dans l'inventaire des immeubles patrimoniaux de l'arrondissement d'Outremont.\n\n\nLes fiches au format PDF proviennent de numérisations réalisées par l'arrondissement d'Outremont.\n\n## Dictionnaire de données\n\n\n\nType de géométrie: Points\n\n\nSystème de référence: EPSG:32188 - NAD83 / MTM zone 8\n\n\n- \n\n\nID_FICHE : Identifiant unique.\n\n\n- \n\n\nX : Coordonnée X en EPSG 32188\n\n\n- \n\n\nY: Coordonnée Y en EPSG 32188\n\n\n- \n\n\nCAT_BISSON : Catégorie de l'immeuble de l'inventaire Bisson. Format numérique.\n\n\n- \n\n\nTYPE_CAT_BISSON : Catégorie de l'immeuble de l'inventaire Bisson. Expression textuelle.\n\n\n- \n\n\nLIEN_FTP : Lien vers la fiche en format PDF sur le serveur de fichier.\n\n\n- \n\n\nCIV_DE : Début de l'intervalle des numéros civiques de l'adresse.\n\n\n- \n\n\nCIV_A : Fin de l'intervalle des numéros civiques de l'adresse.\n\n\n- \n\n\nTYPE_VOIE : Type de voie\n\n\n- \n\n\nLIEN_VOIE : Mots de liaison du nom de la voie (de la, par exemple)\n\n\n- \n\n\nNOM_VOIE : Nom de la voie\n\n\n- \n\n\nORIENT_VOIE : Orientation de la voie si pertinent (Est, Ouest)\n\n\n- \n\n\nADRESSE : Adresse complète à partir des champs précédents.\n\n\n- \n\n\nNOTE : Note si pertinent sur la fiche ou l'absence de fiche\n\n\n- \n\n\nDEMOLI : Valeur Oui si l'immeuble est démoli.\n\n\n- \n\n\nNOM_INDICATIF : Nom donné à titre indicatif des immeubles si repéré.\n\n\n- \n\n\nSTATUT_INV_PRE_40_2025 : Statut de l'immeuble à l'inventaire des immeubles patrimoniaux pré 1940 d'Outremont si retenu, ou statut de l'immeuble au pré inventaire des immeubles patrimoniaux pré 1940 d'Outremont pour les autres.\n\n\n- \n\n\nID_IMM_INV : Identifiant unique de l'immeuble ou de sa partie principale à l'inventaire des immeubles patrimoniaux pré 1940 d'Outremont.\n\n\n- \n\n\nID_UEV : Autre numéro séquentiel des UEV présent sur d'autres couches en données ouvertes.\n\n\n- \n\n\nNUM_UEV : Numéro séquentiel généré automatiquement et identifiant une unité d'évaluation foncière.\n\n\n- \n\n\nMATRICULE_83 : North American Datum. Matricule de la CUM incluant une coordonnée spatiale permettant de positionner le compte foncier. \n\n\n- \n\n\nLAT : latitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n\n- \n\n\nLNG: longitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "ID_FICHE",
+          "clean_name_fr": "Identifiant",
+          "clean_name_en": "Identifier",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 671,
+          "min": 1001.0,
+          "max": 2340.0,
+          "mean": 1674.9866,
+          "median": 2005.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CAT_BISSON",
+          "clean_name_fr": "Cat Bisson",
+          "clean_name_en": "Cat Bisson",
+          "description_fr": "Champ cat bisson",
+          "description_en": "Cat Bisson field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 340
+            },
+            {
+              "value": "1",
+              "count": 331
+            }
+          ],
+          "min": 1.0,
+          "max": 2.0,
+          "mean": 1.5067,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "TYPE_CAT_BISSON",
+          "clean_name_fr": "Type Cat Bisson",
+          "clean_name_en": "Type Category Bisson",
+          "description_fr": "Champ type",
+          "description_en": "Type field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Bâtiment intéressant",
+              "count": 340
+            },
+            {
+              "value": "Bâtiment remarquable",
+              "count": 331
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LIEN_FTP",
+          "clean_name_fr": "Lien Ftp",
+          "clean_name_en": "Link Ftp",
+          "description_fr": "Champ lien",
+          "description_en": "Link field",
+          "type": "identifier",
+          "null_pct": 0.4,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 665,
+          "top_values": [
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/675_avenue_dunlop_CAT_1.pdf",
+              "count": 2
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_2/650_avenue_Hartland_CAT_2.pdf?csf=1&web=1&e=wdp3jx",
+              "count": 2
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_2/441_avenue_Stuart_CAT_2.pdf?csf=1&web=1&e=UmI5hN",
+              "count": 2
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/7_avenue_ainslie_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/1100_44_avenue_bernard_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/18_avenue_ainslie_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/22_avenue_ainslie_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/26_avenue_ainslie_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/749_avenue_antonine_maillet_CAT_1.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/11_avenue_beloeil_CAT_1.pdf",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CIV_DE",
+          "clean_name_fr": "Civ De",
+          "clean_name_en": "Civ De",
+          "description_fr": "Champ civ de",
+          "description_en": "Civ De field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 493,
+          "min": 3.0,
+          "max": 6051.0,
+          "mean": 769.0999,
+          "median": 541.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CIV_A",
+          "clean_name_fr": "Civ A",
+          "clean_name_en": "Civ A",
+          "description_fr": "Champ civ a",
+          "description_en": "Civ A field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 496,
+          "min": 5.0,
+          "max": 6055.0,
+          "mean": 770.386,
+          "median": 541.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "TYPE_VOIE",
+          "clean_name_fr": "Type Voie",
+          "clean_name_en": "Type Lane",
+          "description_fr": "Champ type",
+          "description_en": "Type field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "avenue",
+              "count": 568
+            },
+            {
+              "value": "chemin",
+              "count": 63
+            },
+            {
+              "value": "boulevard",
+              "count": 30
+            },
+            {
+              "value": "rue",
+              "count": 5
+            },
+            {
+              "value": "place",
+              "count": 5
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LIEN_VOIE",
+          "clean_name_fr": "Lien Voie",
+          "clean_name_en": "Link Lane",
+          "description_fr": "Champ lien",
+          "description_en": "Link field",
+          "type": "category",
+          "null_pct": 83.0,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 3,
+          "top_values": [
+            {
+              "value": "de la",
+              "count": 75
+            },
+            {
+              "value": "de l'",
+              "count": 26
+            },
+            {
+              "value": "du",
+              "count": 13
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (83.0% null)",
+          "warnings_en": "Partially populated field (83.0% null)"
+        },
+        {
+          "raw_name": "NOM_VOIE",
+          "clean_name_fr": "Nom Voie",
+          "clean_name_en": "Name Lane",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 62,
+          "top_values": [
+            {
+              "value": "Côte-Sainte-Catherine",
+              "count": 60
+            },
+            {
+              "value": "Stuart",
+              "count": 57
+            },
+            {
+              "value": "Bloomfield",
+              "count": 50
+            },
+            {
+              "value": "Querbes",
+              "count": 30
+            },
+            {
+              "value": "Maplewood",
+              "count": 29
+            },
+            {
+              "value": "Durocher",
+              "count": 27
+            },
+            {
+              "value": "Épée",
+              "count": 26
+            },
+            {
+              "value": "Outremont",
+              "count": 25
+            },
+            {
+              "value": "Bernard",
+              "count": 23
+            },
+            {
+              "value": "Davaar",
+              "count": 20
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ORIENT_VOIE",
+          "clean_name_fr": "Orient Voie",
+          "clean_name_en": "Orient Voie",
+          "description_fr": "Champ orient voie",
+          "description_en": "Orient Voie field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "ADRESSE",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 669,
+          "top_values": [
+            {
+              "value": "543-543 chemin de la Côte-Sainte-Catherine",
+              "count": 2
+            },
+            {
+              "value": "15-17 avenue de l'Épée",
+              "count": 2
+            },
+            {
+              "value": "7-7 avenue Ainslie",
+              "count": 1
+            },
+            {
+              "value": "1100-1144 avenue Bernard",
+              "count": 1
+            },
+            {
+              "value": "18-18 avenue Ainslie",
+              "count": 1
+            },
+            {
+              "value": "22-22 avenue Ainslie",
+              "count": 1
+            },
+            {
+              "value": "26-26 avenue Ainslie",
+              "count": 1
+            },
+            {
+              "value": "749-749 avenue Antonine-Maillet",
+              "count": 1
+            },
+            {
+              "value": "11-11 avenue Beloeil",
+              "count": 1
+            },
+            {
+              "value": "1040-1050 avenue Bernard",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NOTE",
+          "clean_name_fr": "Note",
+          "clean_name_en": "Note",
+          "description_fr": "Champ note",
+          "description_en": "Note field",
+          "type": "text",
+          "null_pct": 82.9,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 111,
+          "top_values": [
+            {
+              "value": "FICHE INTROUVABLE OUTREMONT.",
+              "count": 2
+            },
+            {
+              "value": "850-854",
+              "count": 2
+            },
+            {
+              "value": "832-836",
+              "count": 2
+            },
+            {
+              "value": "495-497",
+              "count": 2
+            },
+            {
+              "value": "Indiqué comme 1139 boulevard du Mont-Royal, adresse secondaire.",
+              "count": 1
+            },
+            {
+              "value": "FiCHE INTROUVABLE OUTREMONT.",
+              "count": 1
+            },
+            {
+              "value": "1310-1320 ou 1312-1320 Bernard",
+              "count": 1
+            },
+            {
+              "value": "634-638",
+              "count": 1
+            },
+            {
+              "value": "640-644",
+              "count": 1
+            },
+            {
+              "value": "710-712",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (82.9% null)",
+          "warnings_en": "Partially populated field (82.9% null)"
+        },
+        {
+          "raw_name": "DEMOLI",
+          "clean_name_fr": "Demoli",
+          "clean_name_en": "Demoli",
+          "description_fr": "Champ demoli",
+          "description_en": "Demoli field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Non",
+              "count": 670
+            },
+            {
+              "value": "Oui",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NOM_INDICATIF",
+          "clean_name_fr": "Nom Indicatif",
+          "clean_name_en": "Name Indicatif",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "text",
+          "null_pct": 75.4,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 163,
+          "top_values": [
+            {
+              "value": "maison Adolphe-Deschamps",
+              "count": 2
+            },
+            {
+              "value": "maison William-Saint-Pierre",
+              "count": 2
+            },
+            {
+              "value": "maison J.-B.-Beaudry-Leman",
+              "count": 1
+            },
+            {
+              "value": "appartements Royal York",
+              "count": 1
+            },
+            {
+              "value": "maison Édouard-Ouellette",
+              "count": 1
+            },
+            {
+              "value": "maison Rodolphe-Tourville",
+              "count": 1
+            },
+            {
+              "value": "maison Ferdinand-Guérin",
+              "count": 1
+            },
+            {
+              "value": "maison Madame Harry-Tittleman",
+              "count": 1
+            },
+            {
+              "value": "maison A.-Reeve",
+              "count": 1
+            },
+            {
+              "value": "appartements Montcalm",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (75.4% null)",
+          "warnings_en": "Partially populated field (75.4% null)"
+        },
+        {
+          "raw_name": "STATUT_INV_PRE_40_2025",
+          "clean_name_fr": "Statut Inv Pre 40 2025",
+          "clean_name_en": "Status Inv Pre 40 2025",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "Retenu Inventaire pre 1940",
+              "count": 621
+            },
+            {
+              "value": "Post 1940",
+              "count": 36
+            },
+            {
+              "value": "Analyse en cours",
+              "count": 12
+            },
+            {
+              "value": "Future analyse",
+              "count": 1
+            },
+            {
+              "value": "Démoli",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ID_IMM_INV",
+          "clean_name_fr": "Identifiant (ID_IMM_INV)",
+          "clean_name_en": "Identifier (ID_IMM_INV)",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 670,
+          "top_values": [
+            {
+              "value": "i663-OUT-3034596",
+              "count": 2
+            },
+            {
+              "value": "i663-OUT-3031346",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3027755",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3031356-001",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-5028985-001",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3031367",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3034176-001",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3034427",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3027745",
+              "count": 1
+            },
+            {
+              "value": "i663-OUT-3027749",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ID_UEV",
+          "clean_name_fr": "Identifiant (ID_UEV)",
+          "clean_name_en": "Identifier (ID_UEV)",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 661,
+          "min": 3030098.0,
+          "max": 5298123.0,
+          "mean": 3179761.5015,
+          "median": 3037014.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NUM_UEV",
+          "clean_name_fr": "Num Uev",
+          "clean_name_en": "Num Uev",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 661,
+          "min": 507.0,
+          "max": 1089307.0,
+          "mean": 288470.4612,
+          "median": 278026.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "MATRICULE_83",
+          "clean_name_fr": "Matricule 83",
+          "clean_name_en": "Matricule 83",
+          "description_fr": "Champ matricule 83",
+          "description_en": "Matricule 83 field",
+          "type": "identifier",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 661,
+          "top_values": [
+            {
+              "value": "9641-09-8352-0-001-0015",
+              "count": 2
+            },
+            {
+              "value": "9641-06-9830-0-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9741-09-5100-4-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9542-92-7254-5-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9541-82-6898-3-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9741-18-8187-9-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9741-48-8223-9-000-0000",
+              "count": 2
+            },
+            {
+              "value": "9542-83-3978-2-002-0001",
+              "count": 2
+            },
+            {
+              "value": "9542-62-5547-7-001-0004",
+              "count": 2
+            },
+            {
+              "value": "9541-95-8444-6-000-0000",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "X",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 294979.013013,
+          "max": 297660.177034,
+          "mean": 296347.30598,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Y",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5040591.085333,
+          "max": 5043041.855006,
+          "mean": 5041868.137565,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LNG",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.625705,
+          "max": -73.591385,
+          "mean": -73.608191,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LAT",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.50518,
+          "max": 45.527235,
+          "mean": 45.516681,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "spatial join via lat/long coordinates"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche",
+        "Donnees potentiellement incompletes",
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection",
+        "Data potentially incomplete",
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-les-edifices-patrimoniaux-de-montreal",
+      "title_fr": "Les édifices patrimoniaux de Montréal",
+      "title_en": "Les Difices Patrimoniaux De Montral",
+      "description_fr": "Liste des édifices qui figurent dans le Site Web du Vieux-Montréal et du Grand répertoire du patrimoine bâti de Montréal. Elle contient des informations générales sur ce qui constitue une « valeur patrimoniale » ainsi que sur la gestion du patrimoine bâti par une synthèse des connaissances actuelles sur ce patrimoine.",
+      "description_en": "List Des Difices Qui Figurent Dans Le Site Web Du Vieux Montral Et Du Grand Rpertoire Du heritage Bti De Montral Elle Contient Des Informations Gnrales Sur Ce Qui Constitue Une Valeur Pat",
+      "publisher": "Service de l'urbanisme et de la mobilité",
+      "update_frequency": "irregular",
+      "total_records": 7194,
+      "temporal_range": {
+        "min": "0037-11-2379-01",
+        "max": "0040-08-8023-02"
+      },
+      "methodology_fr": "Cette base de données s’appuie sur les travaux de repérage du patrimoine urbain de toute l’île de Montréal réalisés par la Division du patrimoine de la Ville de Montréal dans le cadre de l’adoption d’un nouveau plan d’urbanisme en 2004. Ainsi, elle recense les bâtiments et secteurs de valeur patrimoniale exceptionnelle, en commençant par ceux protégés par la Loi sur les biens culturels.\n\n\nCe projet de diffusion sur Internet est réalisé en plusieurs étapes, de sorte que l’information sera versée graduellement dans la base de données. En aucun moment, cette base de données ne prétend présenter une vision exhaustive des valeurs patrimoniales de Montréal. Elle ne doit pas être utilisée comme outil de gestion pour les bâtiments et secteurs ayant des statuts municipaux (en vertu de la réglementation) et n'a pas de valeur légale. Elle constitue cependant un véhicule de diffusion de la connaissance actuelle pleinement évolutif.\n\n\nÀ terme, une fiche de bâtiment regroupe des photographies, des informations administratives, des renseignements sur la construction de l’immeuble et ses transformations, l’histoire du lieu et des personnages liés au bâtiment, une lecture architecturale et une bibliographie sur l’immeuble.\n\n## Dictionnaire de données :\n\n\n### Édifices patrimoniaux\n\n\n\n- IDENTIFIANT_BATIMENT (texte) : Identifiant unique.\n\n- NOM_HISTORIQUE (texte) : Nom historique principal de l'entité.\n\n- TYPOLOGIE_SPECIFIQUE (texte) : Catégorisation typologique.\n\n- CIVIQUE_MIN (entier) : Adresse civique - minimum.\n\n- CIVIQUE_MAX (entier) : Adresse civique - maximum.\n\n- CIVIQUE (texte) : Adresse civique combinée  minimum-maximum.\n\n- TYPE_DE_VOIE (texte) : Type de voie.\n\n- LIEN (texte) : Lien (article).\n\n- VOIE (texte) : Nom de la voie.\n\n- EST_OUEST (texte) : Orientation.\n\n- ARRONDISSEMENT (texte) : Nom de l'arrondissement ou de la ville liée.\n\n- HISTORIQUE_SOMMAIRE (texte) : Notice historique.\n\n- DEBUT_DES_TRAVAUX (entier) : Date du début des travaux.\n\n- FIN_DES_TRAVAUX (entier) : Date de fin des travaux.\n\n- CENTRO_X (coordonnée spatiale) : Longitude selon le référentiel WGS84.\n\n- CENTRO_Y (coordonnée spatiale) : Latitude selon le référentiel WGS84.\n\n\n### Liste iconographique\n\n\n\n- IDENTIFIANT_ICONOGRAPHIE (texte) : Identifiant unique de l'iconographie.\n\n- IDENTIFIANT_BATIMENT (texte) : Identifiant unique du bâtiment.\n\n- URL (texte) : Lien web de la photographie.\n\n- CREATEUR (texte) : Nom du photographe.\n\n- COPYRIGHT (texte) : Droits d'auteur.\n\n- ANNEE (entier) : Année de la prise de la photographie.\n\n- LEGENDE (texte) : Description brève.\n\n\n### Intérêt et protection patrimoniale\n\n\n\n- IDENTIFIANT_BATIMENT (texte) : Identifiant unique du bâtiment.\n\n- NIDENTIFIANT_BATIMENT (entier) : Numérotation séquentielle.\n\n- DATE_EVENEMENT (date) : Date de l'événement.\n\n- NOM_OBJET (texte) : Nom.\n\n- PROTECTION_LEGALE (texte) : Protection légale.\n\n- LOI_REGLEMENT (texte) : Type de règlement.\n\n                                \n                                \n                        ",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "IDENTIFIANT_ICONOGRAPHIE",
+          "clean_name_fr": "Identifiant Iconographie",
+          "clean_name_en": "Identifier Iconographie",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 40,
+          "min": 881.0,
+          "max": 7575.0,
+          "mean": 3360.229,
+          "median": 2317.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "IDENTIFIANT_BATIMENT",
+          "clean_name_fr": "Identifiant Batiment",
+          "clean_name_en": "Identifier Building",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "0037-11-2379-01",
+          "max_date": "0040-08-8023-02",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "URL",
+          "clean_name_fr": "URL",
+          "clean_name_en": "URL",
+          "description_fr": "Champ url",
+          "description_en": "URL field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 40,
+          "top_values": [
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/illus/0039-18-2463-00-00.jpg",
+              "count": 155
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/39-01.jpg",
+              "count": 155
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/39-02.jpg",
+              "count": 155
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/illus/0039-18-2463-00-02.jpg",
+              "count": 155
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/illus/0039-18-2463-00-03.jpg",
+              "count": 155
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/illus/0039-18-3358-01-00.jpg",
+              "count": 13
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/40-01.jpg",
+              "count": 13
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/40-02.jpg",
+              "count": 12
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/40-03.jpg",
+              "count": 12
+            },
+            {
+              "value": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/40-04.jpg",
+              "count": 12
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CREATEUR",
+          "clean_name_fr": "Createur",
+          "clean_name_en": "Createur",
+          "description_fr": "Champ createur",
+          "description_en": "Createur field",
+          "type": "category",
+          "null_pct": 35.3,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 9,
+          "top_values": [
+            {
+              "value": "Denis Tremblay",
+              "count": 229
+            },
+            {
+              "value": "Inconnu",
+              "count": 159
+            },
+            {
+              "value": "Normand Rajotte",
+              "count": 155
+            },
+            {
+              "value": "inconnu",
+              "count": 39
+            },
+            {
+              "value": "David Giral",
+              "count": 24
+            },
+            {
+              "value": "Notman",
+              "count": 13
+            },
+            {
+              "value": "Alexander Henderson",
+              "count": 12
+            },
+            {
+              "value": "James George Parks",
+              "count": 12
+            },
+            {
+              "value": "Carte postale",
+              "count": 4
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "COPYRIGHT",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "text",
+          "null_pct": 0.3,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 26,
+          "top_values": [
+            {
+              "value": "photographie Denis Tremblay, 1998",
+              "count": 171
+            },
+            {
+              "value": "©Denis Tremblay, 2008",
+              "count": 167
+            },
+            {
+              "value": "© Photographie de Normand Rajotte réalisée pour l'ouvrage <i>L'histoire du Vieux-Montréal à travers son patrimoine</i>, 2004",
+              "count": 155
+            },
+            {
+              "value": "Ville de Montréal, Service de la mise en valeur du territoire et du patrimoine, Collection Communauté urbaine de Montréal, 24D",
+              "count": 155
+            },
+            {
+              "value": "<i>La Patrie</i>, 25 juin 1910",
+              "count": 155
+            },
+            {
+              "value": "Crédit photo: David Giral, 2010.",
+              "count": 24
+            },
+            {
+              "value": "©Denis Tremblay, 2007",
+              "count": 15
+            },
+            {
+              "value": "Archives photographiques Notman, Musée McCord d’histoire canadienne, VIEW-7065.0. Collaboration spéciale dans le cadre d'un partenariat.",
+              "count": 13
+            },
+            {
+              "value": "©Denis Tremblay, 2010.",
+              "count": 12
+            },
+            {
+              "value": "©Denis Tremblay, 2006",
+              "count": 12
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ANNEE",
+          "clean_name_fr": "Annee",
+          "clean_name_en": "Year",
+          "description_fr": "Champ annee",
+          "description_en": "Year field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "LEGENDE",
+          "clean_name_fr": "Legende",
+          "clean_name_en": "Legende",
+          "description_fr": "Champ fin",
+          "description_en": "End field",
+          "type": "text",
+          "null_pct": 34.9,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 29,
+          "top_values": [
+            {
+              "value": "Section de la rue Le Royer transformée en promenade, dite cours Le Royer, bordée d’anciens magasins-entrepôts des années 1861-1872 aménagés en appartements et en bureaux de 1976 à 1980.",
+              "count": 155
+            },
+            {
+              "value": "Vue d’une partie de la rue Le Royer, entre Saint-Sulpice et Saint-Dizier, vers 1975, avant sa transformation en promenade.",
+              "count": 155
+            },
+            {
+              "value": "L'immeuble au 478, rue McGill en 1910 alors que la Carriage & Harness Supply Company Limited occupe les lieux.",
+              "count": 155
+            },
+            {
+              "value": "Détail.",
+              "count": 16
+            },
+            {
+              "value": "Photographie prise par William Notman en 1859 montrant la rue McGill depuis la place d’Youville.",
+              "count": 13
+            },
+            {
+              "value": "Photographie prise par Alexander Henderson vers 1870 montrant la rue McGill en direction nord depuis la rue Saint-Paul; à gauche, le Dominion Block, construit en 1866-1867.",
+              "count": 12
+            },
+            {
+              "value": "Photographie prise par James George Parks vers 1875 montrant le côté ouest de la rue McGill au sud de la rue Notre-Dame. Au centre de la rue, des fiacres forment une ligne d’attente.",
+              "count": 12
+            },
+            {
+              "value": "Vue de la rue McGill, depuis l’édifice des Douanes en allant vers le nord, aux environs de 1924; à gauche, le siège social du Grand Tronc, à droite, celui du Canadien Express.",
+              "count": 12
+            },
+            {
+              "value": "Photographie prise en 1937 depuis l’édifice Bell Canada en direction sud montrant, au centre, la rue McGill. Une série d’édifices à dix étages longe le côté gauche (est) de la rue. À gauche de l’image, on voit la tour de la Banque Royale.",
+              "count": 12
+            },
+            {
+              "value": "La rue McGill, en 2007, direction nord.",
+              "count": 12
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    }
+  ],
+  "fixed_at": "2026-03-10T07:57:46.074080",
+  "fixed_v2_at": "2026-03-10T08:09:42.886226"
+}

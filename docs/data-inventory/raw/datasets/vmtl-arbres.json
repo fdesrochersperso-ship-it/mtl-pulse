@@ -1,0 +1,2591 @@
+{
+  "slug": "vmtl-arbres",
+  "title": "Arbres publics sur le territoire de la Ville",
+  "notes": "Données sur les arbres appartenant à la municipalité, désignés du « domaine public » : les arbres de rue et hors rue (parcs et places publiques). Veuillez noter que dans plusieurs cas, les données que possède la Ville sur la localisation spatiale des arbres peuvent être imprécises ou pas à jour. De plus, dans certains arrondissements, les arbres de parcs ne sont pas indiqués.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-05-01T14:31:53.194211",
+  "metadata_modified": "2026-03-09T10:11:13.353921",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "64e28fe6-ef37-437a-972d-d1d3f1f7d891",
+      "name": "Inventaire arbres publics - Fichier consolidé (Arrondissements dans le système corporatif seulement)",
+      "description": "Arbres publics - Fichier consolidé des données avec positionnement spatiale des arrondissements disponibles dans le système corporatif GDV seulement\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/64e28fe6-ef37-437a-972d-d1d3f1f7d891/download/arbres-publics.csv",
+      "datastore_active": true,
+      "size": 134930595,
+      "last_modified": "2026-03-09T07:05:55.993062",
+      "created": "2020-05-01T14:41:39.763796",
+      "schema": {
+        "resource_id": "64e28fe6-ef37-437a-972d-d1d3f1f7d891",
+        "total_records": 333549,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INV_TYPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "EMP_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARROND_NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_cote",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emplacement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_latin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_fr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_ang",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DHP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date_Releve",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date_Plantation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOCALISATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation_code",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CODE_PARC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_PARC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_de",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_a",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Distance_pave",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Distance_ligne_rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Stationnement_jour",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Stationnement_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "District",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arbre_remarquable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code_secteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_secteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INV_TYPE": "H",
+            "EMP_NO": "6",
+            "ARROND": "1",
+            "ARROND_NOM": "Ahuntsic - Cartierville",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Emplacement": "Parterre Gazonné",
+            "Sigle": "GLTRSK",
+            "Essence_latin": "Gleditsia triacanthos 'Skyline'",
+            "Essence_fr": "Févier Skyline",
+            "Essence_ang": "Skyline Honey-Locust",
+            "DHP": "25",
+            "Date_Releve": "2018-06-26T00:00:00",
+            "Date_Plantation": "2004-06-10T00:00:00",
+            "LOCALISATION": null,
+            "Localisation_code": null,
+            "CODE_PARC": "0005-000",
+            "NOM_PARC": "RAIMBAULT",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Arbre_remarquable": "N",
+            "Code_secteur": "2",
+            "Nom_secteur": "SUD",
+            "Coord_X": "287967.933",
+            "Coord_Y": "5043937.6110000005",
+            "Longitude": "-73.715515",
+            "Latitude": "45.535151"
+          },
+          {
+            "_id": 2,
+            "INV_TYPE": "H",
+            "EMP_NO": "7",
+            "ARROND": "1",
+            "ARROND_NOM": "Ahuntsic - Cartierville",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Emplacement": "Parterre Gazonné",
+            "Sigle": "GLTRSK",
+            "Essence_latin": "Gleditsia triacanthos 'Skyline'",
+            "Essence_fr": "Févier Skyline",
+            "Essence_ang": "Skyline Honey-Locust",
+            "DHP": "32",
+            "Date_Releve": "2018-06-27T00:00:00",
+            "Date_Plantation": "2004-06-18T00:00:00",
+            "LOCALISATION": null,
+            "Localisation_code": null,
+            "CODE_PARC": "0005-000",
+            "NOM_PARC": "RAIMBAULT",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Arbre_remarquable": "N",
+            "Code_secteur": "2",
+            "Nom_secteur": "SUD",
+            "Coord_X": "287961.715",
+            "Coord_Y": "5043945.204",
+            "Longitude": "-73.715595",
+            "Latitude": "45.535219"
+          },
+          {
+            "_id": 3,
+            "INV_TYPE": "H",
+            "EMP_NO": "8",
+            "ARROND": "1",
+            "ARROND_NOM": "Ahuntsic - Cartierville",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Emplacement": "Parterre Gazonné",
+            "Sigle": "GYDI",
+            "Essence_latin": "Gymnocladus dioicus",
+            "Essence_fr": "Chicot du Canada",
+            "Essence_ang": "Kentucky Coffee Tree",
+            "DHP": "21",
+            "Date_Releve": "2018-06-27T00:00:00",
+            "Date_Plantation": "2004-06-10T00:00:00",
+            "LOCALISATION": null,
+            "Localisation_code": null,
+            "CODE_PARC": "0005-000",
+            "NOM_PARC": "RAIMBAULT",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Arbre_remarquable": "N",
+            "Code_secteur": "2",
+            "Nom_secteur": "SUD",
+            "Coord_X": "287956.685",
+            "Coord_Y": "5043932.522",
+            "Longitude": "-73.715659",
+            "Latitude": "45.535105"
+          },
+          {
+            "_id": 4,
+            "INV_TYPE": "H",
+            "EMP_NO": "9",
+            "ARROND": "1",
+            "ARROND_NOM": "Ahuntsic - Cartierville",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Emplacement": "Parterre Gazonné",
+            "Sigle": "FRNIFG",
+            "Essence_latin": "Fraxinus nigra 'Fall Gold'",
+            "Essence_fr": "Frêne noir Fall Gold",
+            "Essence_ang": "Fall Gold Black Ash",
+            "DHP": "5",
+            "Date_Releve": "2018-07-12T00:00:00",
+            "Date_Plantation": "2004-06-18T00:00:00",
+            "LOCALISATION": null,
+            "Localisation_code": null,
+            "CODE_PARC": "0005-000",
+            "NOM_PARC": "RAIMBAULT",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Arbre_remarquable": "N",
+            "Code_secteur": "2",
+            "Nom_secteur": "SUD",
+            "Coord_X": "287985.011",
+            "Coord_Y": "5043989.384",
+            "Longitude": "-73.715298",
+            "Latitude": "45.535617"
+          },
+          {
+            "_id": 5,
+            "INV_TYPE": "H",
+            "EMP_NO": "10",
+            "ARROND": "1",
+            "ARROND_NOM": "Ahuntsic - Cartierville",
+            "Rue": null,
+            "Rue_cote": null,
+            "No_civique": null,
+            "Emplacement": "Parterre Gazonné",
+            "Sigle": "QURU",
+            "Essence_latin": "Quercus rubra",
+            "Essence_fr": "Chêne rouge",
+            "Essence_ang": "Red Oak",
+            "DHP": "34",
+            "Date_Releve": "2018-06-27T00:00:00",
+            "Date_Plantation": "2004-06-18T00:00:00",
+            "LOCALISATION": null,
+            "Localisation_code": null,
+            "CODE_PARC": "0005-000",
+            "NOM_PARC": "RAIMBAULT",
+            "Rue_de": null,
+            "Rue_a": null,
+            "Distance_pave": null,
+            "Distance_ligne_rue": null,
+            "Stationnement_jour": null,
+            "Stationnement_heure": null,
+            "District": null,
+            "Arbre_remarquable": "N",
+            "Code_secteur": "2",
+            "Nom_secteur": "SUD",
+            "Coord_X": "287961.73699999996",
+            "Coord_Y": "5043987.31",
+            "Longitude": "-73.715596",
+            "Latitude": "45.535598"
+          }
+        ]
+      },
+      "field_stats": {
+        "INV_TYPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "EMP_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARROND_NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "Rue_cote": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "No_civique": {
+          "null_count": 162458,
+          "null_pct": 48.7,
+          "populated_pct": 51.3
+        },
+        "Emplacement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_latin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_fr": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_ang": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DHP": {
+          "null_count": 572,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "Date_Releve": {
+          "null_count": 572,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "Date_Plantation": {
+          "null_count": 133780,
+          "null_pct": 40.1,
+          "populated_pct": 59.9
+        },
+        "LOCALISATION": {
+          "null_count": 115431,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "Localisation_code": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "CODE_PARC": {
+          "null_count": 218141,
+          "null_pct": 65.4,
+          "populated_pct": 34.6
+        },
+        "NOM_PARC": {
+          "null_count": 218141,
+          "null_pct": 65.4,
+          "populated_pct": 34.6
+        },
+        "Rue_de": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "Rue_a": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "Distance_pave": {
+          "null_count": 139898,
+          "null_pct": 41.9,
+          "populated_pct": 58.1
+        },
+        "Distance_ligne_rue": {
+          "null_count": 192763,
+          "null_pct": 57.8,
+          "populated_pct": 42.2
+        },
+        "Stationnement_jour": {
+          "null_count": 192605,
+          "null_pct": 57.7,
+          "populated_pct": 42.3
+        },
+        "Stationnement_heure": {
+          "null_count": 200882,
+          "null_pct": 60.2,
+          "populated_pct": 39.8
+        },
+        "District": {
+          "null_count": 115408,
+          "null_pct": 34.6,
+          "populated_pct": 65.4
+        },
+        "Arbre_remarquable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Code_secteur": {
+          "null_count": 218141,
+          "null_pct": 65.4,
+          "populated_pct": 34.6
+        },
+        "Nom_secteur": {
+          "null_count": 218141,
+          "null_pct": 65.4,
+          "populated_pct": 34.6
+        },
+        "Coord_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 333549,
+        "audited_at": "2026-03-10T00:13:52.402563+00:00",
+        "fields": {
+          "INV_TYPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "H",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "EMP_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6.0,
+            "max": 19150.0,
+            "mean": 13118.953,
+            "median": 18256.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "ARROND_NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Rue": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Rue_cote": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "No_civique": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Emplacement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Parterre Gazonné",
+                "count": 946
+              },
+              {
+                "value": "PArc",
+                "count": 38
+              },
+              {
+                "value": "Parterre aSphalté",
+                "count": 6
+              },
+              {
+                "value": "TRottoir",
+                "count": 6
+              },
+              {
+                "value": "Parterre avec Pavé uni",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 126,
+            "top_values": [
+              {
+                "value": "ACSA",
+                "count": 69
+              },
+              {
+                "value": "PNNIAU",
+                "count": 54
+              },
+              {
+                "value": "PIPU",
+                "count": 46
+              },
+              {
+                "value": "PIPUGL",
+                "count": 39
+              },
+              {
+                "value": "ACPL",
+                "count": 32
+              },
+              {
+                "value": "CEOC",
+                "count": 31
+              },
+              {
+                "value": "GLTRSK",
+                "count": 30
+              },
+              {
+                "value": "ACSC",
+                "count": 30
+              },
+              {
+                "value": "CRCO",
+                "count": 29
+              },
+              {
+                "value": "FRPE",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_latin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 126,
+            "top_values": [
+              {
+                "value": "Acer saccharinum",
+                "count": 69
+              },
+              {
+                "value": "Pinus nigra 'Austriaca'",
+                "count": 54
+              },
+              {
+                "value": "Picea pungens",
+                "count": 46
+              },
+              {
+                "value": "Picea pungens 'Glauca'",
+                "count": 39
+              },
+              {
+                "value": "Acer platanoides",
+                "count": 32
+              },
+              {
+                "value": "Celtis occidentalis",
+                "count": 31
+              },
+              {
+                "value": "Gleditsia triacanthos 'Skyline'",
+                "count": 30
+              },
+              {
+                "value": "Acer saccharum",
+                "count": 30
+              },
+              {
+                "value": "Carya cordiformis",
+                "count": 29
+              },
+              {
+                "value": "Fraxinus pennsylvanica",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_fr": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 126,
+            "top_values": [
+              {
+                "value": "Érable argenté",
+                "count": 69
+              },
+              {
+                "value": "Pin noir d'Autriche",
+                "count": 54
+              },
+              {
+                "value": "Épinette du Colorado",
+                "count": 46
+              },
+              {
+                "value": "Épinette du Colorado Glauca",
+                "count": 39
+              },
+              {
+                "value": "Érable de Norvège",
+                "count": 32
+              },
+              {
+                "value": "Micocoulier occidental",
+                "count": 31
+              },
+              {
+                "value": "Févier Skyline",
+                "count": 30
+              },
+              {
+                "value": "Érable à sucre",
+                "count": 30
+              },
+              {
+                "value": "Caryer cordiforme",
+                "count": 29
+              },
+              {
+                "value": "Frêne de Pennsylvanie",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_ang": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 126,
+            "top_values": [
+              {
+                "value": "Silver Maple",
+                "count": 69
+              },
+              {
+                "value": "Austrian Pine",
+                "count": 54
+              },
+              {
+                "value": "Colorado Spruce",
+                "count": 46
+              },
+              {
+                "value": "Glauca Blue Spruce",
+                "count": 39
+              },
+              {
+                "value": "Norway Maple",
+                "count": 32
+              },
+              {
+                "value": "Common Hackberry",
+                "count": 31
+              },
+              {
+                "value": "Skyline Honey-Locust",
+                "count": 30
+              },
+              {
+                "value": "Sugar Maple",
+                "count": 30
+              },
+              {
+                "value": "Bitternut Hickory",
+                "count": 29
+              },
+              {
+                "value": "Red Ash",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DHP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 156.0,
+            "mean": 25.723,
+            "median": 23.0,
+            "unique_count": 104,
+            "field_type_detected": "numeric"
+          },
+          "Date_Releve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2004-09-16T00:00:00",
+            "max_date": "2025-11-19T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Date_Plantation": {
+            "null_count": 467,
+            "null_pct": 46.7,
+            "min_date": "2002-05-31T00:00:00",
+            "max_date": "2025-10-24T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "LOCALISATION": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Localisation_code": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "CODE_PARC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 55,
+            "top_values": [
+              {
+                "value": "0425-000",
+                "count": 140
+              },
+              {
+                "value": "0414-000",
+                "count": 116
+              },
+              {
+                "value": "0426-000",
+                "count": 55
+              },
+              {
+                "value": "1025-000",
+                "count": 51
+              },
+              {
+                "value": "1024-000",
+                "count": 47
+              },
+              {
+                "value": "0455-000",
+                "count": 43
+              },
+              {
+                "value": "0005-000",
+                "count": 40
+              },
+              {
+                "value": "0289-000",
+                "count": 35
+              },
+              {
+                "value": "1012-000",
+                "count": 34
+              },
+              {
+                "value": "0023-000",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_PARC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 55,
+            "top_values": [
+              {
+                "value": "JEAN-MARTUCCI",
+                "count": 140
+              },
+              {
+                "value": "SAINT-ALPHONSE",
+                "count": 116
+              },
+              {
+                "value": "BERTHE-LOUARD",
+                "count": 55
+              },
+              {
+                "value": "GEORGES-GAUTHIER",
+                "count": 51
+              },
+              {
+                "value": "VICTOR-BARBEAU",
+                "count": 47
+              },
+              {
+                "value": "J.-J.-GAGNIER",
+                "count": 43
+              },
+              {
+                "value": "RAIMBAULT",
+                "count": 40
+              },
+              {
+                "value": "CHRISTOPHE-COLOMB OUEST",
+                "count": 35
+              },
+              {
+                "value": "BELMONT, PARC",
+                "count": 34
+              },
+              {
+                "value": "SAULT-AU-RÉCOLLET",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_de": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Rue_a": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Distance_pave": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Distance_ligne_rue": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Stationnement_jour": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Stationnement_heure": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "District": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Arbre_remarquable": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Code_secteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 23.0,
+            "mean": 1.207,
+            "median": 1.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 868
+              },
+              {
+                "value": "2",
+                "count": 112
+              },
+              {
+                "value": "5",
+                "count": 16
+              },
+              {
+                "value": "4",
+                "count": 3
+              },
+              {
+                "value": "23",
+                "count": 1
+              }
+            ]
+          },
+          "Nom_secteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "INCONNU",
+                "count": 830
+              },
+              {
+                "value": "SUD",
+                "count": 51
+              },
+              {
+                "value": "RAYMOND-P/ENTREÉ-ST.",
+                "count": 23
+              },
+              {
+                "value": "PARC",
+                "count": 22
+              },
+              {
+                "value": "NORD",
+                "count": 18
+              },
+              {
+                "value": "Entre HB/Dudemaine",
+                "count": 15
+              },
+              {
+                "value": "CRÉMAZIE/RAYMOND-P.",
+                "count": 12
+              },
+              {
+                "value": "AMENAGE",
+                "count": 11
+              },
+              {
+                "value": "Stationnement élus",
+                "count": 5
+              },
+              {
+                "value": "F.-H-Prev-E.-Savigna",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coord_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 285155.152,
+            "max": 294841.061,
+            "mean": 292805.538707,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5041211.422,
+            "max": 5049015.5,
+            "mean": 5045978.603137,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.75142,
+            "max": -73.627559,
+            "mean": -73.653621,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.510546,
+            "max": 45.580949,
+            "mean": 45.553613,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "6c217c92-63c8-49e8-a6ef-afda6121656d",
+      "name": "Historique DHP arbres publics - Fichier consolidé (Arrondissements dans le système corporatif seulement)",
+      "description": "Inventaire de l'évolution de la croissance (Diamètre -Hauteur-Poitrine) des arbres publics - Fichier consolidé des données avec positionnement spatiale des arrondissements disponibles dans le système corporatif GDV seulement\r\n\r\n(Ahuntsic-Cartierville, Côte-des-Neiges-Notre-Dame-de-Grâce, LaSalle, Le Plateau Mont-Royal, Le Sud-Ouest, Mercier-Hochelaga-Maisonneuve, Pierrefonds-Roxboro, Rivière-des-Prairies-Pointe-aux-Trembles, Rosemont-La Petite-Patrie, Saint-Laurent, Saint-Léonard, Verdun, Ville-Marie, Villeray-Saint-Michel-Parc-Extension)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/6c217c92-63c8-49e8-a6ef-afda6121656d/download/arbres-dhp.csv",
+      "datastore_active": true,
+      "size": 45127674,
+      "last_modified": "2026-03-09T07:06:17.228048",
+      "created": "2020-05-01T14:43:02.200770",
+      "schema": {
+        "resource_id": "6c217c92-63c8-49e8-a6ef-afda6121656d",
+        "total_records": 790214,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "RAD_TYPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RAD_EMP_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RAD_DHP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RAD_DATE_PRISE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ESSENCE_LATIN",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "RAD_TYPE": "H",
+            "RAD_EMP_NO": "2",
+            "RAD_DHP": "5",
+            "RAD_DATE_PRISE": "2004-06-16T00:00:00",
+            "ESSENCE_LATIN": "Acer platanoides 'Columnare'"
+          },
+          {
+            "_id": 2,
+            "RAD_TYPE": "H",
+            "RAD_EMP_NO": "2",
+            "RAD_DHP": "21",
+            "RAD_DATE_PRISE": "2023-05-08T00:00:00",
+            "ESSENCE_LATIN": "Acer platanoides 'Columnare'"
+          },
+          {
+            "_id": 3,
+            "RAD_TYPE": "H",
+            "RAD_EMP_NO": "6",
+            "RAD_DHP": "5",
+            "RAD_DATE_PRISE": "2004-06-10T00:00:00",
+            "ESSENCE_LATIN": "Gleditsia triacanthos 'Skyline'"
+          },
+          {
+            "_id": 4,
+            "RAD_TYPE": "H",
+            "RAD_EMP_NO": "6",
+            "RAD_DHP": "25",
+            "RAD_DATE_PRISE": "2018-06-26T00:00:00",
+            "ESSENCE_LATIN": "Gleditsia triacanthos 'Skyline'"
+          },
+          {
+            "_id": 5,
+            "RAD_TYPE": "H",
+            "RAD_EMP_NO": "7",
+            "RAD_DHP": "5",
+            "RAD_DATE_PRISE": "2004-06-10T00:00:00",
+            "ESSENCE_LATIN": "Gleditsia triacanthos 'Skyline'"
+          }
+        ]
+      },
+      "field_stats": {
+        "RAD_TYPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RAD_EMP_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RAD_DHP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RAD_DATE_PRISE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ESSENCE_LATIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 790214,
+        "audited_at": "2026-03-10T00:13:54.299990+00:00",
+        "fields": {
+          "RAD_TYPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "H",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "RAD_EMP_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 830.0,
+            "mean": 367.077,
+            "median": 354.5,
+            "unique_count": 541,
+            "field_type_detected": "numeric"
+          },
+          "RAD_DHP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 80.0,
+            "mean": 11.157,
+            "median": 5.0,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          },
+          "RAD_DATE_PRISE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2004-06-10T00:00:00",
+            "max_date": "2025-12-17T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "ESSENCE_LATIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 95,
+            "top_values": [
+              {
+                "value": "Gleditsia triacanthos 'Skyline'",
+                "count": 97
+              },
+              {
+                "value": "Populus canescens 'Tower'",
+                "count": 53
+              },
+              {
+                "value": "Pinus nigra 'Austriaca'",
+                "count": 48
+              },
+              {
+                "value": "Syringa reticulata 'Ivory Silk'",
+                "count": 47
+              },
+              {
+                "value": "Picea pungens 'Glauca'",
+                "count": 42
+              },
+              {
+                "value": "Quercus robur 'Fastigiata'",
+                "count": 40
+              },
+              {
+                "value": "Celtis occidentalis",
+                "count": 38
+              },
+              {
+                "value": "Ginkgo biloba",
+                "count": 35
+              },
+              {
+                "value": "Gymnocladus dioicus",
+                "count": 32
+              },
+              {
+                "value": "Acer platanoides 'Deborah'",
+                "count": 32
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "c9f2c2d5-3041-4d83-9d09-e06c1c12e408",
+      "name": "État de l'inventaire d'arbres par arrondissement",
+      "description": "Indication des arrondissements disponibles dans l'ensemble.\r\n\r\nListe des arrondissements et du type d'inventaire réalisé.\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/c9f2c2d5-3041-4d83-9d09-e06c1c12e408/download/etatinventaire_arbrespublics_pararrondissement.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-05-01T14:45:49.986036",
+      "created": "2020-05-01T14:45:50.208034",
+      "schema": {
+        "resource_id": "c9f2c2d5-3041-4d83-9d09-e06c1c12e408",
+        "total_records": 19,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Numéro",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "En rue; arbres géoréférencés",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Hors rue; arbres géoréférencés",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Provenance des données",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Inclusion des données dans le fichier unifié",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date du dernier versement des données",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Numéro": 1,
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "En rue; arbres géoréférencés": "oui",
+            "Hors rue; arbres géoréférencés": "oui",
+            "Provenance des données": "Système de la Ville GDV",
+            "Inclusion des données dans le fichier unifié": "oui",
+            "Date du dernier versement des données": "MAJ bi-mensuelle"
+          },
+          {
+            "_id": 2,
+            "Numéro": 2,
+            "Arrondissement": "Villeray - Saint-Michel - Parc-Extension",
+            "En rue; arbres géoréférencés": "oui",
+            "Hors rue; arbres géoréférencés": "en partie (peu)",
+            "Provenance des données": "Système de la Ville GDV",
+            "Inclusion des données dans le fichier unifié": "oui",
+            "Date du dernier versement des données": "MAJ bi-mensuelle"
+          },
+          {
+            "_id": 3,
+            "Numéro": 3,
+            "Arrondissement": "Rosemont - La Petite-Patrie",
+            "En rue; arbres géoréférencés": "oui",
+            "Hors rue; arbres géoréférencés": "en partie (très peu)",
+            "Provenance des données": "Système de la Ville GDV",
+            "Inclusion des données dans le fichier unifié": "oui",
+            "Date du dernier versement des données": "MAJ bi-mensuelle"
+          },
+          {
+            "_id": 4,
+            "Numéro": 4,
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "En rue; arbres géoréférencés": "en partie oui, en partie chargés massivement",
+            "Hors rue; arbres géoréférencés": "en partie (très peu)",
+            "Provenance des données": "Système de la Ville GDV",
+            "Inclusion des données dans le fichier unifié": "oui",
+            "Date du dernier versement des données": "MAJ bi-mensuelle"
+          },
+          {
+            "_id": 5,
+            "Numéro": 5,
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "En rue; arbres géoréférencés": "oui",
+            "Hors rue; arbres géoréférencés": "oui",
+            "Provenance des données": "Système de la Ville GDV",
+            "Inclusion des données dans le fichier unifié": "oui",
+            "Date du dernier versement des données": "MAJ bi-mensuelle"
+          }
+        ]
+      },
+      "field_stats": {
+        "Numéro": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "En rue; arbres géoréférencés": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Hors rue; arbres géoréférencés": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Provenance des données": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Inclusion des données dans le fichier unifié": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date du dernier versement des données": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 19,
+        "total_records": 19,
+        "audited_at": "2026-03-10T00:13:55.131246+00:00",
+        "fields": {
+          "Numéro": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 27.0,
+            "mean": 11.5789,
+            "median": 10.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 1
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 1
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 1
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 1
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 1
+              },
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 1
+              },
+              {
+                "value": "Anjou",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "En rue; arbres géoréférencés": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "oui",
+                "count": 12
+              },
+              {
+                "value": "non",
+                "count": 5
+              },
+              {
+                "value": "en partie oui, en partie chargés massivement",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Hors rue; arbres géoréférencés": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "oui",
+                "count": 7
+              },
+              {
+                "value": "non",
+                "count": 5
+              },
+              {
+                "value": "en partie (très peu)",
+                "count": 4
+              },
+              {
+                "value": "en partie (beaucoup)",
+                "count": 2
+              },
+              {
+                "value": "en partie (peu)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Provenance des données": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Système de la Ville GDV",
+                "count": 14
+              },
+              {
+                "value": "SIGMA",
+                "count": 4
+              },
+              {
+                "value": "EXCEL",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Inclusion des données dans le fichier unifié": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "oui",
+                "count": 14
+              },
+              {
+                "value": "non",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date du dernier versement des données": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-12-06",
+            "max_date": "données non disponibles",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "7fe8c742-ee64-4cca-b889-467b68e7db6a",
+      "name": "Dictionnaire de données",
+      "description": "Le dictionnaire de données explique la signification de chacun des champs disponibles de l'inventaire des arbres.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/7fe8c742-ee64-4cca-b889-467b68e7db6a/download/dictionnaire-de-donnees-arbres-publics_rev2018.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-05-01T14:47:31.842141",
+      "created": "2020-05-01T14:47:32.056394",
+      "schema": null
+    },
+    {
+      "id": "a1395154-55b2-4ad9-94a8-142b982e1d94",
+      "name": "Arbres publics - Montréal-Nord",
+      "description": "Arbres de rue et hors rue  de l’arrondissement Montréal-Nord.\r\n\r\n*Il est à noter que le positionnement géographique (XY ou lat/long) n'est pas disponible.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/a1395154-55b2-4ad9-94a8-142b982e1d94/download/montrealnordarbrespublics20161207.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-05-01T14:49:46.901633",
+      "created": "2020-05-01T14:49:47.150829",
+      "schema": {
+        "resource_id": "a1395154-55b2-4ad9-94a8-142b982e1d94",
+        "total_records": 11158,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrond",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Côté",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_Civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "No_empl",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Type_empl",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_Latin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_Français",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Essence_Anglais",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DHP",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Date_prise",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date_plant",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Propriété",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Remarquable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Dist_pavé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code_secteur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Invent": "R",
+            "Arrond": 11,
+            "Nom_arrond": "Montréal-Nord",
+            "Rue": "",
+            "Côté": "",
+            "No_Civiq": null,
+            "No_empl": 1,
+            "Type_empl": "Parterre",
+            "X": "",
+            "Y": "",
+            "Sigle": "ACPLDR",
+            "Essence_Latin": "ACER PLATANOIDES 'DRUMMONDII'",
+            "Essence_Français": "ERABLE DE NORVEGE DRUMMONDI",
+            "Essence_Anglais": "HARLEQUIN MAPLE",
+            "DHP": null,
+            "Date_prise": "",
+            "Date_plant": null,
+            "Propriété": "Ville",
+            "Remarquable": "",
+            "Dist_pavé": "",
+            "Localisation": "Résidentiel",
+            "Code_parc": "",
+            "Nom_parc": "ETHIER",
+            "Code_secteur": ""
+          },
+          {
+            "_id": 2,
+            "Invent": "R",
+            "Arrond": 11,
+            "Nom_arrond": "Montréal-Nord",
+            "Rue": "CREVIER",
+            "Côté": "",
+            "No_Civiq": 5826,
+            "No_empl": 2,
+            "Type_empl": "Parterre",
+            "X": "",
+            "Y": "",
+            "Sigle": "MABA",
+            "Essence_Latin": "MALUS BACCATA",
+            "Essence_Français": "POMMETIER",
+            "Essence_Anglais": "CRABAPPLE",
+            "DHP": null,
+            "Date_prise": "",
+            "Date_plant": null,
+            "Propriété": "Ville",
+            "Remarquable": "",
+            "Dist_pavé": "",
+            "Localisation": "Résidentiel",
+            "Code_parc": "",
+            "Nom_parc": "",
+            "Code_secteur": ""
+          },
+          {
+            "_id": 3,
+            "Invent": "R",
+            "Arrond": 11,
+            "Nom_arrond": "Montréal-Nord",
+            "Rue": "CREVIER",
+            "Côté": "",
+            "No_Civiq": 5860,
+            "No_empl": 3,
+            "Type_empl": "Parterre",
+            "X": "",
+            "Y": "",
+            "Sigle": "THOC",
+            "Essence_Latin": "THUYA OCCIDENTALIS",
+            "Essence_Français": "CEDRE",
+            "Essence_Anglais": "EASTERN ARBOVITAE",
+            "DHP": null,
+            "Date_prise": "",
+            "Date_plant": null,
+            "Propriété": "Ville",
+            "Remarquable": "",
+            "Dist_pavé": "",
+            "Localisation": "Résidentiel",
+            "Code_parc": "",
+            "Nom_parc": "",
+            "Code_secteur": ""
+          },
+          {
+            "_id": 4,
+            "Invent": "R",
+            "Arrond": 11,
+            "Nom_arrond": "Montréal-Nord",
+            "Rue": "DESY",
+            "Côté": "",
+            "No_Civiq": 5870,
+            "No_empl": 4,
+            "Type_empl": "Parterre",
+            "X": "",
+            "Y": "",
+            "Sigle": "ACPL",
+            "Essence_Latin": "ACER PLATANOIDES",
+            "Essence_Français": "ERABLE DE NORVEGE",
+            "Essence_Anglais": "NORWAY MAPLE",
+            "DHP": null,
+            "Date_prise": "",
+            "Date_plant": null,
+            "Propriété": "Ville",
+            "Remarquable": "",
+            "Dist_pavé": "",
+            "Localisation": "Résidentiel",
+            "Code_parc": "",
+            "Nom_parc": "",
+            "Code_secteur": ""
+          },
+          {
+            "_id": 5,
+            "Invent": "R",
+            "Arrond": 11,
+            "Nom_arrond": "Montréal-Nord",
+            "Rue": "DESY",
+            "Côté": "",
+            "No_Civiq": 5870,
+            "No_empl": 5,
+            "Type_empl": "Parterre",
+            "X": "",
+            "Y": "",
+            "Sigle": "PYUSPG",
+            "Essence_Latin": "PYRUS USSURIENSIS PRAIRIE GEM",
+            "Essence_Français": "POIRIER PRAIRIE GEM",
+            "Essence_Anglais": "",
+            "DHP": 5,
+            "Date_prise": "2014-07-03",
+            "Date_plant": "2013-05-10T00:00:00",
+            "Propriété": "Ville",
+            "Remarquable": "",
+            "Dist_pavé": "",
+            "Localisation": "Résidentiel",
+            "Code_parc": "",
+            "Nom_parc": "",
+            "Code_secteur": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Côté": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No_Civiq": {
+          "null_count": 2569,
+          "null_pct": 23.0,
+          "populated_pct": 77.0
+        },
+        "No_empl": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type_empl": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_Latin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_Français": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Essence_Anglais": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DHP": {
+          "null_count": 2320,
+          "null_pct": 20.8,
+          "populated_pct": 79.2
+        },
+        "Date_prise": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date_plant": {
+          "null_count": 9737,
+          "null_pct": 87.3,
+          "populated_pct": 12.7
+        },
+        "Propriété": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Remarquable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Dist_pavé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Localisation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Code_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Code_secteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 11158,
+        "audited_at": "2026-03-10T00:13:56.411463+00:00",
+        "fields": {
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "mean": 11.0,
+            "median": 11.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 1000
+              }
+            ]
+          },
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal-Nord",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Rue": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "LACORDAIRE",
+                "count": 201
+              },
+              {
+                "value": "LANGELIER",
+                "count": 195
+              },
+              {
+                "value": "MAURICE-DUPLESSIS",
+                "count": 174
+              },
+              {
+                "value": "ALBERT-HUDON",
+                "count": 168
+              },
+              {
+                "value": "DE NORMANDIE",
+                "count": 42
+              },
+              {
+                "value": "FISET",
+                "count": 35
+              },
+              {
+                "value": "BEAUCOURT",
+                "count": 34
+              },
+              {
+                "value": "DE DIJON",
+                "count": 23
+              },
+              {
+                "value": "OLIER",
+                "count": 23
+              },
+              {
+                "value": "AUGER",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Côté": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "No_Civiq": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 5570.0,
+            "max": 12790.0,
+            "mean": 9859.9429,
+            "median": 11479.0,
+            "unique_count": 487,
+            "field_type_detected": "numeric"
+          },
+          "No_empl": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 25337.0,
+            "mean": 538.202,
+            "median": 526.5,
+            "unique_count": 992,
+            "field_type_detected": "numeric"
+          },
+          "Type_empl": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Parterre",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "X": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Y": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 63,
+            "null_pct": 6.3,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "ACSA",
+                "count": 416
+              },
+              {
+                "value": "ACPL",
+                "count": 162
+              },
+              {
+                "value": "FRPE",
+                "count": 145
+              },
+              {
+                "value": "GLTRSK",
+                "count": 21
+              },
+              {
+                "value": "TICO",
+                "count": 20
+              },
+              {
+                "value": "ACPLCO",
+                "count": 13
+              },
+              {
+                "value": "CEOC",
+                "count": 11
+              },
+              {
+                "value": "PIGL",
+                "count": 9
+              },
+              {
+                "value": "GYDI",
+                "count": 9
+              },
+              {
+                "value": "GIBI",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_Latin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 62,
+            "top_values": [
+              {
+                "value": "ACER SACCHARINUM",
+                "count": 416
+              },
+              {
+                "value": "ACER PLATANOIDES",
+                "count": 162
+              },
+              {
+                "value": "FRAXINUS PENNSYLVANICA",
+                "count": 145
+              },
+              {
+                "value": "SANS REMPLACEMENT",
+                "count": 30
+              },
+              {
+                "value": "A CHOISIR",
+                "count": 25
+              },
+              {
+                "value": "GLEDITSIA T. I. 'SKYLINE'",
+                "count": 21
+              },
+              {
+                "value": "TILIA CORDATA",
+                "count": 20
+              },
+              {
+                "value": "ACER PLATANOIDES'COLUMNARE'",
+                "count": 13
+              },
+              {
+                "value": "CELTIS OCCIDENTALIS",
+                "count": 11
+              },
+              {
+                "value": "PICEA GLAUCA",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_Français": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 61,
+            "top_values": [
+              {
+                "value": "ERABLE ARGENTE",
+                "count": 416
+              },
+              {
+                "value": "ERABLE DE NORVEGE",
+                "count": 162
+              },
+              {
+                "value": "FRENE ROUGE",
+                "count": 145
+              },
+              {
+                "value": "SANS REMPLACEMENT",
+                "count": 30
+              },
+              {
+                "value": "A CHOISIR",
+                "count": 25
+              },
+              {
+                "value": "FEVIER SKYLINE",
+                "count": 21
+              },
+              {
+                "value": "TILLEUL A PETITES FEUILLES",
+                "count": 20
+              },
+              {
+                "value": "ERABLE DE NORVEGE COLONNAIRE",
+                "count": 13
+              },
+              {
+                "value": "MICOCOULIER",
+                "count": 11
+              },
+              {
+                "value": "EPINETTE BLANCHE",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Essence_Anglais": {
+            "null_count": 18,
+            "null_pct": 1.8,
+            "unique_count": 55,
+            "top_values": [
+              {
+                "value": "SILVER MAPLE",
+                "count": 416
+              },
+              {
+                "value": "NORWAY MAPLE",
+                "count": 162
+              },
+              {
+                "value": "RED ASH",
+                "count": 145
+              },
+              {
+                "value": "SANS REMPLACEMENT",
+                "count": 30
+              },
+              {
+                "value": "A CHOISIR",
+                "count": 25
+              },
+              {
+                "value": "SKYLINE HONEY-LOCUST",
+                "count": 21
+              },
+              {
+                "value": "LITTLE-LEAF LINDEN",
+                "count": 20
+              },
+              {
+                "value": "COLUMNARE NORWAY MAPLE",
+                "count": 13
+              },
+              {
+                "value": "COMMON HACKBERRY",
+                "count": 11
+              },
+              {
+                "value": "WHITE SPRUCE",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DHP": {
+            "null_count": 184,
+            "null_pct": 18.4,
+            "min": 0.0,
+            "max": 86.0,
+            "mean": 28.2194,
+            "median": 32.0,
+            "unique_count": 60,
+            "field_type_detected": "numeric"
+          },
+          "Date_prise": {
+            "null_count": 184,
+            "null_pct": 18.4,
+            "min_date": "2000-12-31",
+            "max_date": "5",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Date_plant": {
+            "null_count": 863,
+            "null_pct": 86.3,
+            "min_date": "2002-01-28T00:00:00",
+            "max_date": "2016-12-05T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Propriété": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Ville",
+                "count": 994
+              },
+              {
+                "value": "Privé",
+                "count": 1
+              },
+              {
+                "value": "Mitoyen",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Remarquable": {
+            "null_count": 996,
+            "null_pct": 99.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Dist_pavé": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Localisation": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Résidentiel",
+                "count": 783
+              },
+              {
+                "value": "Industriel",
+                "count": 180
+              },
+              {
+                "value": "Public ou institutio",
+                "count": 28
+              },
+              {
+                "value": "Commercial",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Code_parc": {
+            "null_count": 996,
+            "null_pct": 99.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Résidentiel",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom_parc": {
+            "null_count": 999,
+            "null_pct": 99.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "ETHIER",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Code_secteur": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "05f06958-fa34-4c74-be23-2573074bfd6e",
+      "name": "Arbres publics - Outremont",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b89fd27d-4b49-461b-8e54-fa2b34a628c4/resource/05f06958-fa34-4c74-be23-2573074bfd6e/download/inventaire_arbre_outremont_2026-01-12.csv",
+      "datastore_active": false,
+      "size": 1524956,
+      "last_modified": "2026-01-13T15:46:01.121920",
+      "created": "2025-09-26T19:33:33.886165",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arboriculture",
+    "Arbre",
+    "Arr.",
+    "Espèce",
+    "Nature"
+  ],
+  "web_metadata": {
+    "methodology_text": "Prise d’inventaire cartographique sur le terrain : Dans chaque arrondissement, les inspecteurs de la Ville effectuent la collecte et la mise à jour des données. Ils notent l’essence de l’arbre (genre et espèce), le diamètre, la localisation, etc. Les données recueillies sont téléchargées dans une base de données. Celle-ci est utilisée par l’application « Gestion des végétaux », laquelle fournit tous les renseignements correspondant aux arbres, y compris les références tirées d’un système d’information géographique. \n\n\nVous trouverez plus d'informations sur l'état des inventaires et leur précision pour chaque arrondissement dans le jeu de données « État de l'inventaire d'arbres par arrondissement » et aussi plus de détails sur le dictionnaire de données dans le fichier PDF.\n\n### Dictionnaire de données des arbres publics\n\n\n\n- INV_TYPE (liste de valeur) : Type d’arbre inventorié :  H pour Hors rue  et  R pour arbre de Rue.\n\n- EMP_NO (numérique) : Numérotation correspondant à l'identification unique de l’emplacement de l’arbre dans la base de données. Celle-ci est propre aux arbres de rue et hors rue (i.e. un arbre R et un arbre H peuvent porter le même numéro d'emplacement).\n\n- ARROND (numérique) : Numérotation de l’arrondissement.\n\n- ARROND_NOM (texte variable) : Nom de l’arrondissement.\n\n- Rue (texte variable) : Nom de la rue sur laquelle l’arbre est positionné, juste dans le cas des arbres des rues.\n\n- Rue_cote (liste de valeur) : Coté de la rue (Nord, Sud, Est, Ouest).\n\n- No_civique (numérique) : Numéro civique de la résidence ou du bâtiment sur lequel ou en face duquel l’arbre est situé, lorsque disponible.\n\n- Emplacement(liste de valeur) : Lieu physique, extension de terrain où se trouve l’arbre :  \n\n- Banquette gazonnée,\n\n- Banquette asphaltée,\n\n- Fond de trottoir,\n\n- Parc,\n\n- Parterre gazonné,\n\n- Parterre asphalté,\n\n- Parterre,\n\n- Terre plein,\n\n- Trottoir entre autres.\n\n\n\n- Coord_X (coordonnée spatiale) : Coordonnée X NAD 83 MTM8.\n\n- Coord_Y (coordonnée spatiale) : Coordonnée Y NAD 83 MTM8.\n\n- SIGLE (texte variable) : Acronyme composé des deux premières lettres du genre, de l’espèce et du cultivar, si applicable du nom.\n\n- Essence_latin (texte variable) : Nom latin de l’essence.\n\n- Essence_fr (texte variable) : Nom français de l’essence.\n\n- Essence_ang (texte variable) : Nom anglais de l’essence.\n\n- DHP (numérique) : Mesure du Diamètre du tronc d’un arbre à la Hauteur de la Poitrine (DHP) qui équivaut à 1,4 m. à partir du plus haut niveau du sol.\n\n- Date_releve (date) : La date de la dernière prise du DHP.\n\n- Date_plantation (date) : Date de la plantation de l’arbre, lorsque disponible.\n\n- LOCALISATION (texte variable) : Position de l’arbre en fonction d’un immeuble ou chaînage et direction à partir du coin du dernier immeuble.\n\n- Localisation_code (texte variable) : Code opérationnel décrivant la localisation couplé à la distance.\n\n- CODE_PARC (texte variable) : No. d’index du parc. Numérotation unique qui représente un parc dans la Ville.\n\n- NOM_PARC (texte variable) : Nom du parc.\n\n- Rue_de (texte variable) : Intersection rue \"De\".\n\n- Rue_a (texte variable) : Intersection rue \"A\".\n\n- Distance_pave (texte variable) : Distance chaînée de la chaussée la plus proche.\n\n- Distance_ligne_rue (texte variable) : Ligne de rue (celle de la fiche de l’arbre )- distance à partir du bord de la chaine qui détermine le domaine public et où commence le domaine privé.\n\n- Stationnement_jour (liste de valeur) : Interdiction de stationnement (Liste de valeurs des jours : L (lundi) , MA(mardi), ME(mercredi), J(jeudi), V(vendredi), S(samedi), D(dimanche), INTE(interdit en tout temps)).\n\n- Stationnement_heure (texte variable) : Interdiction de stationnement.\n\n- District (numérique) : Identification du district.\n\n- Remarquable (booléen) : Identification des arbres remarquables sur les",
+    "territories": "- Code_secteur (texte variable) : Numéro du secteur (Sous- secteur des PARCS).\n\n- Nom_secteur (texte variable) : Nom du secteur (Précision sur l’emplacement de l’arbre dans le parc).\n\n- Coord_X (coordonnée spatiale) : Coordonnée X NAD 83 MTM8.\n\n- Coord_Y (coordonnée spatiale) : Coordonnée Y NAD 83 MTM8.\n\n- Latitude (coordonnée spatiale) : Latitude WGS84.\n\n- Longitude (coordonnée spatiale) : Longitude WGS84.\n\n                                \n                                \n                            \n\n                            \n                                \n### Territoires\n\n                                \n                                    \n\nMontreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    CDN\n    \n    LAC\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    MTN\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Arboriculture",
+      "Arbre",
+      "Arr.",
+      "Espèce",
+      "Nature"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/arbres",
+    "scraped_at": "2026-03-09T19:52:12.401379+00:00"
+  }
+}

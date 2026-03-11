@@ -1,0 +1,478 @@
+{
+  "slug": "vmtl-nomination-par-les-instance-politiques-centrales",
+  "title": "Nomination par les instances politiques centrales",
+  "notes": "Nomination par le conseil d'agglomération, le conseil municipal et le comité exécutif. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2015-07-02T12:24:11.938937",
+  "metadata_modified": "2026-01-05T20:00:11.016556",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "3cfec31c-b973-4355-992b-8838dbc07c4f",
+      "name": "Nominations par les instances politiques centrales",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e9874b82-d615-4870-995d-32c0f267e9ef/resource/3cfec31c-b973-4355-992b-8838dbc07c4f/download/nominations-instances-politiques-centrales.csv",
+      "datastore_active": true,
+      "size": 218626,
+      "last_modified": "2026-01-05T18:21:28.966015",
+      "created": "2016-01-13T12:09:02.217185",
+      "schema": {
+        "resource_id": "3cfec31c-b973-4355-992b-8838dbc07c4f",
+        "total_records": 1772,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Instance_politique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Resolution",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Genre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre_du_poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Organisme",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Date": "2015-04-08",
+            "Instance_politique": "Comité exécutif",
+            "Resolution": "CE15 0600",
+            "Nom": "Jean-Paul Grappe",
+            "Genre": "M",
+            "Titre_du_poste": "membre externe",
+            "Organisme": "Comité de sélection - Règlement régissant la cuisine de rue (15-039)"
+          },
+          {
+            "_id": 2,
+            "Date": "2015-04-08",
+            "Instance_politique": "Comité exécutif",
+            "Resolution": "CE15 0600",
+            "Nom": "Christine Plante",
+            "Genre": "F",
+            "Titre_du_poste": "membre externe",
+            "Organisme": "Comité de sélection - Règlement régissant la cuisine de rue (15-039)"
+          },
+          {
+            "_id": 3,
+            "Date": "2015-04-08",
+            "Instance_politique": "Comité exécutif",
+            "Resolution": "CE15 0600",
+            "Nom": "Pasquale Vari",
+            "Genre": "M",
+            "Titre_du_poste": "membre externe",
+            "Organisme": "Comité de sélection - Règlement régissant la cuisine de rue (15-039)"
+          },
+          {
+            "_id": 4,
+            "Date": "2015-04-08",
+            "Instance_politique": "Comité exécutif",
+            "Resolution": "CE15 0600",
+            "Nom": "Maxime Gagné",
+            "Genre": "M",
+            "Titre_du_poste": "substitut",
+            "Organisme": "Comité de sélection - Règlement régissant la cuisine de rue (15-039)"
+          },
+          {
+            "_id": 5,
+            "Date": "2015-04-27",
+            "Instance_politique": "conseil municipal",
+            "Resolution": "CM15 0393",
+            "Nom": "Yasmina Soussi",
+            "Genre": "F",
+            "Titre_du_poste": "membre",
+            "Organisme": "Conseil des Montréalaises"
+          }
+        ]
+      },
+      "field_stats": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Instance_politique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Resolution": {
+          "null_count": 23,
+          "null_pct": 1.3,
+          "populated_pct": 98.7
+        },
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Genre": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Titre_du_poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Organisme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1772,
+        "audited_at": "2026-03-10T00:21:11.869499+00:00",
+        "fields": {
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-04-08",
+            "max_date": "2021-12-08",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Instance_politique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Conseil d'agglomération",
+                "count": 348
+              },
+              {
+                "value": "Conseil municipal",
+                "count": 309
+              },
+              {
+                "value": "Comité exécutif",
+                "count": 123
+              },
+              {
+                "value": "conseil municipal",
+                "count": 67
+              },
+              {
+                "value": "comité exécutif",
+                "count": 53
+              },
+              {
+                "value": "conseil d'agglomération",
+                "count": 45
+              },
+              {
+                "value": "Désignation par la mairesse",
+                "count": 40
+              },
+              {
+                "value": "Conseil de Ville",
+                "count": 7
+              },
+              {
+                "value": "Désignation par l'opposition officielle",
+                "count": 3
+              },
+              {
+                "value": "Désignation faite par la mairesse",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Resolution": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 266,
+            "top_values": [
+              {
+                "value": "CG17 0549",
+                "count": 105
+              },
+              {
+                "value": "CM21 1307",
+                "count": 84
+              },
+              {
+                "value": "Lettre officielle",
+                "count": 21
+              },
+              {
+                "value": "CE15 1109",
+                "count": 20
+              },
+              {
+                "value": "CE17 1255",
+                "count": 17
+              },
+              {
+                "value": "Communiqué",
+                "count": 17
+              },
+              {
+                "value": "CM15 0586",
+                "count": 15
+              },
+              {
+                "value": "CM17 1289",
+                "count": 15
+              },
+              {
+                "value": "CM18 0553",
+                "count": 15
+              },
+              {
+                "value": "CM19 1049",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 501,
+            "top_values": [
+              {
+                "value": "Mary Deros",
+                "count": 13
+              },
+              {
+                "value": "Sterling Downey",
+                "count": 12
+              },
+              {
+                "value": "Jocelyn Pauzé",
+                "count": 11
+              },
+              {
+                "value": "Robert Coutu",
+                "count": 10
+              },
+              {
+                "value": "Peter McQueen",
+                "count": 10
+              },
+              {
+                "value": "Alex Norris",
+                "count": 9
+              },
+              {
+                "value": "Valérie Patreau",
+                "count": 9
+              },
+              {
+                "value": "Jacques Marleau",
+                "count": 8
+              },
+              {
+                "value": "Yves Courchesne",
+                "count": 8
+              },
+              {
+                "value": "Marianne Giguère",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Genre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "F",
+                "count": 537
+              },
+              {
+                "value": "M",
+                "count": 348
+              },
+              {
+                "value": "H",
+                "count": 115
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Titre_du_poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 102,
+            "top_values": [
+              {
+                "value": "Membre",
+                "count": 471
+              },
+              {
+                "value": "membre",
+                "count": 96
+              },
+              {
+                "value": "Commissaire supplémentaire",
+                "count": 48
+              },
+              {
+                "value": "Vice-président",
+                "count": 36
+              },
+              {
+                "value": "Présidente",
+                "count": 33
+              },
+              {
+                "value": "Vice-présidente",
+                "count": 30
+              },
+              {
+                "value": "Président",
+                "count": 22
+              },
+              {
+                "value": "membre du conseil d'administration",
+                "count": 21
+              },
+              {
+                "value": "commissaire supplémentaire",
+                "count": 15
+              },
+              {
+                "value": "Représentante de l'arrondissement",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Organisme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 162,
+            "top_values": [
+              {
+                "value": "Office de consultation publique de Montréal",
+                "count": 52
+              },
+              {
+                "value": "Conseil jeunesse de Montréal",
+                "count": 43
+              },
+              {
+                "value": "Conseil d'agglomération",
+                "count": 43
+              },
+              {
+                "value": "Communauté métropolitaine de Montréal",
+                "count": 32
+              },
+              {
+                "value": "Conseil des Montréalaises",
+                "count": 31
+              },
+              {
+                "value": "Conseil municipal",
+                "count": 23
+              },
+              {
+                "value": "Commission sur l'examen des contrats",
+                "count": 23
+              },
+              {
+                "value": "Conseil interculturel de Montréal",
+                "count": 23
+              },
+              {
+                "value": "Commission sur les finances et l'administration",
+                "count": 22
+              },
+              {
+                "value": "Comité Jacques-Viger",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Comité exécutif",
+    "Conseil",
+    "Conseil d agglomération",
+    "Conseil municipal",
+    "Nomination",
+    "SG",
+    "Élu"
+  ],
+  "web_metadata": {
+    "methodology_text": "- Date (date) : Date de la nomination.\n\n- Instance_politique (texte variable) : Instance politique.\n\n- Resolution (texte variable) : Résolution.\n\n- Nom (texte variable) : Nom de la personne nominée à l'instance politique.\n\n- Genre (texte variable) : Genre de la personne.\n\n- Titre_du_poste (texte variable) : Titre de poste de la personne.\n\n- Organisme (texte variable) : Organisme de la personne.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2015-04-08 / 2024-12-31",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Comité exécutif",
+      "Conseil",
+      "Conseil d agglomération",
+      "Conseil municipal",
+      "Nomination",
+      "SG",
+      "Élu"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/nomination-par-les-instance-politiques-centrales",
+    "scraped_at": "2026-03-09T20:14:00.171069+00:00"
+  }
+}

@@ -1,0 +1,4938 @@
+{
+  "slug": "vmtl-structure-routiere",
+  "title": "Structures routières",
+  "notes": "Montréal gère un parc de structures routières pour lesquelles la Ville est responsable partiellement ou complètement de leurs inspections.  L'ensemble présente l'inventaire des structures routières sur le territoire, incluant aussi l'indice de condition générale (ICG).\r\n\r\nLes structures routières incluent les ponts, passerelles, écrans anti-bruit, tunnels, murs de soutènement, quais à neige et ponceaux.\r\n\r\nMISE EN GARDE : Ces données sont publiées pour avoir une meilleure connaissance des actifs de la Ville, mais ne devraient en aucun cas être utilisées à des fins de calculs d'ingénierie.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-06-05T18:43:46.935866",
+  "metadata_modified": "2025-05-12T20:30:23.681235",
+  "num_resources": 16,
+  "resources": [
+    {
+      "id": "c0bff7f2-e004-4a30-ba92-434fe91c8f45",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNWEzNTEyNjQtNzE4Ni00ZGIyLWIyYmItNGFlN2FkYmNjNjVmIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2022-09-06T16:13:22.000413",
+      "schema": null
+    },
+    {
+      "id": "78dabe90-fcb2-4094-abc5-175beab7f7e0",
+      "name": "Inventaire des actifs de voirie - Structures routières 2021",
+      "description": "Fichier tabulaire des structures routières de la Ville",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/78dabe90-fcb2-4094-abc5-175beab7f7e0/download/2021-liste-structure-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-05-31T12:29:13.442991",
+      "created": "2022-05-31T12:29:13.525579",
+      "schema": {
+        "resource_id": "78dabe90-fcb2-4094-abc5-175beab7f7e0",
+        "total_records": 577,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "No structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IDE_STRCT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Charg. conception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Affichage sur place",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Responsablilté de gestion",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Centre de services",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Role VM Inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Année de construction",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Nom route",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom obstacle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Catégorie ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Date Insp. Générale Fermee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Superficie du tablier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du mur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "lien_vers_rapport",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "No structure": "81-01102",
+            "IDE_STRCT": 6027781,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à  dalle pleine en béton armé",
+            "Charg. conception": "98-Autre",
+            "Affichage sur place": "Aucun affichage",
+            "Responsablilté de gestion": "Ville Montréal - Canadien National",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspection annuelle par la Ville de Montréal",
+            "Année de construction": 1969,
+            "Nom route": "Canadien National rail 1",
+            "Nom obstacle": "boulevard Lacordaire ",
+            "ICG": null,
+            "Catégorie ICG": null,
+            "Date Insp. Générale Fermee": null,
+            "Superficie du tablier": 451,
+            "Superficie du mur": null,
+            "Longitude": -73.614609366196,
+            "Latitude": 45.6016502528907,
+            "X": 295859.3808,
+            "Y": 5051311.584,
+            "lien_vers_rapport": "Non disponible"
+          },
+          {
+            "_id": 2,
+            "No structure": "81-01103A",
+            "IDE_STRCT": 6005961,
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à  dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "Boulevard Métropolitain Est, dir. Est",
+            "Nom obstacle": "boulevard Langelier, dir. Nord",
+            "ICG": 99.97,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2019-10-22T00:00:00",
+            "Superficie du tablier": 687,
+            "Superficie du mur": null,
+            "Longitude": -73.5780812405499,
+            "Latitude": 45.5933614433059,
+            "X": 298708.0246,
+            "Y": 5050387.006,
+            "lien_vers_rapport": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01103A_inspection_generale_web.pdf"
+          },
+          {
+            "_id": 3,
+            "No structure": "81-01103B",
+            "IDE_STRCT": 6006400,
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à  dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "boulevard Métropolitain Est, dir. Ouest",
+            "Nom obstacle": "boulevard Langelier, dir. Nord",
+            "ICG": 99.97,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2019-10-22T00:00:00",
+            "Superficie du tablier": 687,
+            "Superficie du mur": null,
+            "Longitude": -73.5785758762894,
+            "Latitude": 45.5935746241114,
+            "X": 298669.4559,
+            "Y": 5050410.735,
+            "lien_vers_rapport": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01103B_inspection_generale_web.pdf"
+          },
+          {
+            "_id": 4,
+            "No structure": "81-01201A",
+            "IDE_STRCT": 202204,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à  pout. béton préc., coul. place",
+            "Charg. conception": "14-H25-S20",
+            "Affichage sur place": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1974,
+            "Nom route": "Avenue Bourget Nord",
+            "Nom obstacle": "Autoroute 40 Ouest",
+            "ICG": 99.68,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2019-07-03T00:00:00",
+            "Superficie du tablier": 1202,
+            "Superficie du mur": null,
+            "Longitude": -73.5483945701644,
+            "Latitude": 45.6254096759115,
+            "X": 301026.3576,
+            "Y": 5053946.782,
+            "lien_vers_rapport": "Non disponible"
+          },
+          {
+            "_id": 5,
+            "No structure": "81-01201B",
+            "IDE_STRCT": 6041601,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Mur",
+            "Charg. conception": "",
+            "Affichage sur place": "",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1974,
+            "Nom route": "Avenue Bourget, côté Est ",
+            "Nom obstacle": "",
+            "ICG": 98.42,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2019-07-03T00:00:00",
+            "Superficie du tablier": null,
+            "Superficie du mur": 177,
+            "Longitude": -73.5492167607784,
+            "Latitude": 45.6258611710468,
+            "X": 300962.2768,
+            "Y": 5053996.997,
+            "lien_vers_rapport": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01201B_inspection_generale_web.pdf"
+          }
+        ]
+      },
+      "field_stats": {
+        "No structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IDE_STRCT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Charg. conception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Affichage sur place": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Responsablilté de gestion": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Centre de services": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Role VM Inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Année de construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom route": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom obstacle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ICG": {
+          "null_count": 12,
+          "null_pct": 2.1,
+          "populated_pct": 97.9
+        },
+        "Catégorie ICG": {
+          "null_count": 12,
+          "null_pct": 2.1,
+          "populated_pct": 97.9
+        },
+        "Date Insp. Générale Fermee": {
+          "null_count": 12,
+          "null_pct": 2.1,
+          "populated_pct": 97.9
+        },
+        "Superficie du tablier": {
+          "null_count": 277,
+          "null_pct": 48.0,
+          "populated_pct": 52.0
+        },
+        "Superficie du mur": {
+          "null_count": 323,
+          "null_pct": 56.0,
+          "populated_pct": 44.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lien_vers_rapport": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 577,
+        "total_records": 577,
+        "audited_at": "2026-03-10T00:28:19.317350+00:00",
+        "fields": {
+          "No structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 577,
+            "top_values": [
+              {
+                "value": "81-01102",
+                "count": 1
+              },
+              {
+                "value": "81-01103A",
+                "count": 1
+              },
+              {
+                "value": "81-01103B",
+                "count": 1
+              },
+              {
+                "value": "81-01201A",
+                "count": 1
+              },
+              {
+                "value": "81-01201B",
+                "count": 1
+              },
+              {
+                "value": "81-01202",
+                "count": 1
+              },
+              {
+                "value": "81-01203A",
+                "count": 1
+              },
+              {
+                "value": "81-01203B",
+                "count": 1
+              },
+              {
+                "value": "81-01204",
+                "count": 1
+              },
+              {
+                "value": "81-01205",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "IDE_STRCT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 201967.0,
+            "max": 6129453.0,
+            "mean": 5233678.3137,
+            "median": 6030329.0,
+            "unique_count": 577,
+            "field_type_detected": "numeric"
+          },
+          "Groupe": {
+            "null_count": 345,
+            "null_pct": 59.8,
+            "unique_count": 57,
+            "top_values": [
+              {
+                "value": "P.I. Clark / CP, Van Horne",
+                "count": 9
+              },
+              {
+                "value": "P.I. Ch. Côte-St-Luc / CP, West Broadway",
+                "count": 9
+              },
+              {
+                "value": "P.I. St-Joseph / CP, D'Iberville",
+                "count": 9
+              },
+              {
+                "value": "P.I. Rodolphe-Forget / CN",
+                "count": 8
+              },
+              {
+                "value": "P.I. Masson / CP, Est de De Lorimier",
+                "count": 8
+              },
+              {
+                "value": "P.I. Sauvé / CP, entre l'Acadie et Meilleur",
+                "count": 8
+              },
+              {
+                "value": "P.I. Papineau / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. St-Denis / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. Cavendish / CP, De Maisonneuve",
+                "count": 6
+              },
+              {
+                "value": "E.A. à Écran antibruit Aut. 15, de la rue Sauvé O au pont Médé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Actif Ville de Montréal",
+                "count": 577
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Mur",
+                "count": 254
+              },
+              {
+                "value": "Pont à  poutres en acier",
+                "count": 64
+              },
+              {
+                "value": "Pont à  pout. béton précont., préfabr.",
+                "count": 53
+              },
+              {
+                "value": "Pont à  dalle pleine en béton armé",
+                "count": 50
+              },
+              {
+                "value": "Pont à  dalle évidée en béton armé",
+                "count": 28
+              },
+              {
+                "value": "Portique en béton armé",
+                "count": 22
+              },
+              {
+                "value": "Pont à  poutres en acier enr. de béton",
+                "count": 13
+              },
+              {
+                "value": "Pont acier-bois",
+                "count": 10
+              },
+              {
+                "value": "Ponceau rectang. en béton armé",
+                "count": 9
+              },
+              {
+                "value": "Pont à  béquilles, béton armé",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Charg. conception": {
+            "null_count": 259,
+            "null_pct": 44.9,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "99-Inconnu",
+                "count": 154
+              },
+              {
+                "value": "98-Autre",
+                "count": 46
+              },
+              {
+                "value": "18-CL625",
+                "count": 37
+              },
+              {
+                "value": "17-QS660",
+                "count": 33
+              },
+              {
+                "value": "13-H20-S16",
+                "count": 22
+              },
+              {
+                "value": "14-H25-S20",
+                "count": 13
+              },
+              {
+                "value": "16-MS250",
+                "count": 9
+              },
+              {
+                "value": "15-MS200",
+                "count": 1
+              },
+              {
+                "value": "4-12 Tonnes",
+                "count": 1
+              },
+              {
+                "value": "6-H20",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Affichage sur place": {
+            "null_count": 259,
+            "null_pct": 44.9,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Aucun affichage",
+                "count": 288
+              },
+              {
+                "value": "Tonnage réduit",
+                "count": 13
+              },
+              {
+                "value": "Charges légales",
+                "count": 11
+              },
+              {
+                "value": "Pont fermé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Responsablilté de gestion": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 370
+              },
+              {
+                "value": "Ville de Montréal - MTQ",
+                "count": 131
+              },
+              {
+                "value": "Ville Montréal - Canadien Pacifique",
+                "count": 29
+              },
+              {
+                "value": "Ville Montréal - Municipalité",
+                "count": 22
+              },
+              {
+                "value": "Ville Montréal - Canadien National",
+                "count": 20
+              },
+              {
+                "value": "Ville Montréal - MTQ - Municipalité",
+                "count": 3
+              },
+              {
+                "value": "Ville Montréal - Municipalité - Canadien Pacifique",
+                "count": 1
+              },
+              {
+                "value": "Ville Montréal - Fédéral",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Centre de services": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "20 - Arrondissement Ville-Marie",
+                "count": 89
+              },
+              {
+                "value": "24 - Arrondissement Ahuntsic-Cartierville",
+                "count": 70
+              },
+              {
+                "value": "27 - Arrondissement Côte-des-Neiges-Notre-Dame-de-Grà¢ce",
+                "count": 62
+              },
+              {
+                "value": "25 - Arrondissement Rosemont-La Petite-Patrie",
+                "count": 54
+              },
+              {
+                "value": "15 - Arrondissement Saint-Laurent",
+                "count": 47
+              },
+              {
+                "value": "21 - Arrondissement Le Sud-Ouest",
+                "count": 39
+              },
+              {
+                "value": "26 - Arrondissement Villeray-Saint-Michel-Parc-Extension",
+                "count": 33
+              },
+              {
+                "value": "19 - Arrondissement Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 33
+              },
+              {
+                "value": "17 - Arrondissement Lachine",
+                "count": 29
+              },
+              {
+                "value": "22 - Arrondissement Le Plateau-Mont-Royal",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Role VM Inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inspections annuelle et générale par la Ville Montréal",
+                "count": 565
+              },
+              {
+                "value": "Inspection annuelle par la Ville de Montréal",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Année de construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1800.0,
+            "max": 2021.0,
+            "mean": 1966.4402,
+            "median": 1966.0,
+            "unique_count": 88,
+            "field_type_detected": "numeric"
+          },
+          "Nom route": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 387,
+            "top_values": [
+              {
+                "value": "Canadien Pacifique rail 1",
+                "count": 28
+              },
+              {
+                "value": "Canadien National rail 1",
+                "count": 16
+              },
+              {
+                "value": "Chemin de la carrière St-Michel",
+                "count": 14
+              },
+              {
+                "value": "Chemin de la Côte-de-Liesse Dir. Ouest",
+                "count": 5
+              },
+              {
+                "value": "rue du Pont",
+                "count": 5
+              },
+              {
+                "value": "Boulevard Louis-H.-La Fontaine",
+                "count": 4
+              },
+              {
+                "value": "Boulevard Saint-Laurent",
+                "count": 4
+              },
+              {
+                "value": "chemin des Floralies",
+                "count": 4
+              },
+              {
+                "value": "rue Berri",
+                "count": 4
+              },
+              {
+                "value": "Boulevard Cavendish",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom obstacle": {
+            "null_count": 254,
+            "null_pct": 44.0,
+            "unique_count": 176,
+            "top_values": [
+              {
+                "value": "Canal Lachine",
+                "count": 16
+              },
+              {
+                "value": "Autoroute 40 Ouest",
+                "count": 10
+              },
+              {
+                "value": "Autoroute 40 Est",
+                "count": 10
+              },
+              {
+                "value": "Rivière des Prairies",
+                "count": 10
+              },
+              {
+                "value": "Autoroute 15 Nord",
+                "count": 10
+              },
+              {
+                "value": "Canadien Pacifique rail 1",
+                "count": 9
+              },
+              {
+                "value": "Canal de l'Aqueduc",
+                "count": 9
+              },
+              {
+                "value": "Autoroute 15 Sud",
+                "count": 9
+              },
+              {
+                "value": "Autoroute 25 Sud",
+                "count": 6
+              },
+              {
+                "value": "Canal Sud",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ICG": {
+            "null_count": 12,
+            "null_pct": 2.1,
+            "min": 30.0,
+            "max": 100.0,
+            "mean": 89.3878,
+            "median": 99.18,
+            "unique_count": 300,
+            "field_type_detected": "numeric"
+          },
+          "Catégorie ICG": {
+            "null_count": 12,
+            "null_pct": 2.1,
+            "min": 2.0,
+            "max": 4.0,
+            "mean": 3.7504,
+            "median": 4.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 443
+              },
+              {
+                "value": "3",
+                "count": 103
+              },
+              {
+                "value": "2",
+                "count": 19
+              }
+            ]
+          },
+          "Date Insp. Générale Fermee": {
+            "null_count": 12,
+            "null_pct": 2.1,
+            "min_date": "2016-11-11T00:00:00",
+            "max_date": "2021-12-03T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Superficie du tablier": {
+            "null_count": 277,
+            "null_pct": 48.0,
+            "min": 10.0,
+            "max": 19700.0,
+            "mean": 1152.8933,
+            "median": 608.5,
+            "unique_count": 261,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du mur": {
+            "null_count": 323,
+            "null_pct": 56.0,
+            "min": 50.0,
+            "max": 10098.0,
+            "mean": 560.3386,
+            "median": 279.5,
+            "unique_count": 205,
+            "field_type_detected": "numeric"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.916106,
+            "max": -73.483613,
+            "mean": -73.612116,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.422886,
+            "max": 45.702858,
+            "mean": 45.521767,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_latitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 272249.4201,
+            "max": 306076.0673,
+            "mean": 296039.957337,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031446.248,
+            "max": 5062552.91,
+            "mean": 5042435.61697,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "lien_vers_rapport": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 387,
+            "top_values": [
+              {
+                "value": "Non disponible",
+                "count": 191
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01103A_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01103B_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01201B_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2021/81-01301_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2021/81-01351_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01502_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2019/81-01503_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2020/81-01519_inspection_generale_web.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/pontsettunnels/2020/81-01520_inspection_generale_web.pdf",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "e0e0f680-747e-4def-acb5-034b38fc5f20",
+      "name": "Inventaire des actifs de voirie - Structures routières 2021",
+      "description": "Conteneur ZIP du shapefile des structures routières de la Ville\r\n\r\nProjection: NAD83 MTM8\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/e0e0f680-747e-4def-acb5-034b38fc5f20/download/2021-liste-structure-donnees-ouvertes.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-05-31T12:30:03.311057",
+      "created": "2022-05-31T12:30:03.420056",
+      "schema": null
+    },
+    {
+      "id": "81b60248-8e94-4dd2-ad4b-66f22daf8c9b",
+      "name": "Inventaire des actifs de voirie - Structures routières 2021",
+      "description": "Geojson des structures routières de la Ville\r\n\r\nProjection: WGS 84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/81b60248-8e94-4dd2-ad4b-66f22daf8c9b/download/2021-liste-structure-donnees-ouvertes.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-05-31T12:30:52.650082",
+      "created": "2022-05-31T12:30:52.743347",
+      "schema": null
+    },
+    {
+      "id": "5bc97b8b-6b62-403d-b0bd-e285c78eb46b",
+      "name": "Inventaire des actifs de voirie - Structures routières 2019",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/5bc97b8b-6b62-403d-b0bd-e285c78eb46b/download/2019-liste-structure-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": 198025,
+      "last_modified": "2020-10-19T13:59:26.106470",
+      "created": "2020-06-19T13:50:10.656309",
+      "schema": {
+        "resource_id": "5bc97b8b-6b62-403d-b0bd-e285c78eb46b",
+        "total_records": 578,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "No structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IDE_STRCT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Charg. conception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Affichage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Responsablilté de gestion",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Role VM Inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Année de construction",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Nom route",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom obstacle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ICG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Catégorie ICG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date Insp. Générale Fermee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Superficie du tablier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du mur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "No structure": "81-01102",
+            "IDE_STRCT": 6027781,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle pleine en béton armé",
+            "Charg. conception": "98-Autre",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville Montréal - Canadien National",
+            "Arrondissement": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspection annuelle par la Ville de Montréal",
+            "Année de construction": 1969,
+            "Nom route": "Canadien National",
+            "Nom obstacle": "boulevard Lacordaire",
+            "ICG": "74",
+            "Catégorie ICG": "3",
+            "Date Insp. Générale Fermee": null,
+            "Superficie du tablier": 451,
+            "Superficie du mur": null,
+            "Longitude": -73.614609366196,
+            "Latitude": 45.6016502528907,
+            "X": 295859.3808,
+            "Y": 5051311.584
+          },
+          {
+            "_id": 2,
+            "No structure": "81-01103A",
+            "IDE_STRCT": 6005961,
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Arrondissement": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "boulevard Métropolitain Est",
+            "Nom obstacle": "boulevard Langelier, dir. Nord",
+            "ICG": "99,97",
+            "Catégorie ICG": "4",
+            "Date Insp. Générale Fermee": "2019-10-22T00:00:00",
+            "Superficie du tablier": 687,
+            "Superficie du mur": null,
+            "Longitude": -73.5780812405499,
+            "Latitude": 45.5933614433059,
+            "X": 298708.0246,
+            "Y": 5050387.006
+          },
+          {
+            "_id": 3,
+            "No structure": "81-01103B",
+            "IDE_STRCT": 6006400,
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Arrondissement": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "boulevard Métropolitain Est",
+            "Nom obstacle": "boulevard Langelier, dir. Nord",
+            "ICG": "99,97",
+            "Catégorie ICG": "4",
+            "Date Insp. Générale Fermee": "2019-10-22T00:00:00",
+            "Superficie du tablier": 687,
+            "Superficie du mur": null,
+            "Longitude": -73.5785758762894,
+            "Latitude": 45.5935746241114,
+            "X": 298669.4559,
+            "Y": 5050410.735
+          },
+          {
+            "_id": 4,
+            "No structure": "81-01201A",
+            "IDE_STRCT": 202204,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à pout. béton préc., coul. place",
+            "Charg. conception": "14-H25-S20",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Arrondissement": "09 - Arrondissement Anjou",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1974,
+            "Nom route": "Avenue Bourget Nord",
+            "Nom obstacle": "Autoroute 40 Ouest",
+            "ICG": "99,68",
+            "Catégorie ICG": "4",
+            "Date Insp. Générale Fermee": "2019-07-03T00:00:00",
+            "Superficie du tablier": 1202,
+            "Superficie du mur": null,
+            "Longitude": -73.5483945701644,
+            "Latitude": 45.6254096759115,
+            "X": 301026.3576,
+            "Y": 5053946.782
+          },
+          {
+            "_id": 5,
+            "No structure": "81-01201B",
+            "IDE_STRCT": 6041601,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Mur",
+            "Charg. conception": "",
+            "Affichage": "",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Arrondissement": "09 - Arrondissement Anjou",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1974,
+            "Nom route": "Avenue Bourget, côté Est",
+            "Nom obstacle": "",
+            "ICG": "98,42",
+            "Catégorie ICG": "4",
+            "Date Insp. Générale Fermee": "2019-07-03T00:00:00",
+            "Superficie du tablier": null,
+            "Superficie du mur": 177,
+            "Longitude": -73.5492167607784,
+            "Latitude": 45.6258611710468,
+            "X": 300962.2768,
+            "Y": 5053996.997
+          }
+        ]
+      },
+      "field_stats": {
+        "No structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IDE_STRCT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Charg. conception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Affichage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Responsablilté de gestion": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Role VM Inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Année de construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom route": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom obstacle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ICG": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Catégorie ICG": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date Insp. Générale Fermee": {
+          "null_count": 14,
+          "null_pct": 2.4,
+          "populated_pct": 97.6
+        },
+        "Superficie du tablier": {
+          "null_count": 276,
+          "null_pct": 47.8,
+          "populated_pct": 52.2
+        },
+        "Superficie du mur": {
+          "null_count": 325,
+          "null_pct": 56.2,
+          "populated_pct": 43.8
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 578,
+        "total_records": 578,
+        "audited_at": "2026-03-10T00:28:20.325944+00:00",
+        "fields": {
+          "No structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 578,
+            "top_values": [
+              {
+                "value": "81-01102",
+                "count": 1
+              },
+              {
+                "value": "81-01103A",
+                "count": 1
+              },
+              {
+                "value": "81-01103B",
+                "count": 1
+              },
+              {
+                "value": "81-01201A",
+                "count": 1
+              },
+              {
+                "value": "81-01201B",
+                "count": 1
+              },
+              {
+                "value": "81-01202",
+                "count": 1
+              },
+              {
+                "value": "81-01203A",
+                "count": 1
+              },
+              {
+                "value": "81-01203B",
+                "count": 1
+              },
+              {
+                "value": "81-01204",
+                "count": 1
+              },
+              {
+                "value": "81-01205",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "IDE_STRCT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 201967.0,
+            "max": 6103068.0,
+            "mean": 5225140.1021,
+            "median": 6030321.5,
+            "unique_count": 578,
+            "field_type_detected": "numeric"
+          },
+          "Groupe": {
+            "null_count": 346,
+            "null_pct": 59.9,
+            "unique_count": 57,
+            "top_values": [
+              {
+                "value": "P.I. Clark / CP, Van Horne",
+                "count": 9
+              },
+              {
+                "value": "P.I. Ch. Côte-St-Luc / CP, West Broadway",
+                "count": 9
+              },
+              {
+                "value": "P.I. St-Joseph / CP, D'Iberville",
+                "count": 9
+              },
+              {
+                "value": "P.I. Rodolphe-Forget / CN",
+                "count": 8
+              },
+              {
+                "value": "P.I. Masson / CP, Est de De Lorimier",
+                "count": 8
+              },
+              {
+                "value": "P.I. Sauvé / CP, entre l'Acadie et Meilleur",
+                "count": 8
+              },
+              {
+                "value": "P.I. Papineau / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. St-Denis / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. Cavendish / CP, De Maisonneuve",
+                "count": 6
+              },
+              {
+                "value": "E.A. Écran antibruit Aut. 15, de la rue Sauvé O au pont Médé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Actif Ville de Montréal",
+                "count": 578
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Mur",
+                "count": 253
+              },
+              {
+                "value": "Pont à poutres en acier",
+                "count": 64
+              },
+              {
+                "value": "Pont à dalle pleine en béton armé",
+                "count": 52
+              },
+              {
+                "value": "Pont à pout. béton précont., préfabr.",
+                "count": 52
+              },
+              {
+                "value": "Pont à dalle évidée en béton armé",
+                "count": 28
+              },
+              {
+                "value": "Portique en béton armé",
+                "count": 20
+              },
+              {
+                "value": "Pont à poutres en acier enr. de béton",
+                "count": 13
+              },
+              {
+                "value": "Pont acier-bois",
+                "count": 10
+              },
+              {
+                "value": "Ponceau rectang. en béton armé",
+                "count": 9
+              },
+              {
+                "value": "Pont à béquilles, béton armé",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Charg. conception": {
+            "null_count": 258,
+            "null_pct": 44.6,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "99-Inconnu",
+                "count": 159
+              },
+              {
+                "value": "98-Autre",
+                "count": 46
+              },
+              {
+                "value": "17-QS660",
+                "count": 33
+              },
+              {
+                "value": "18-CL625",
+                "count": 32
+              },
+              {
+                "value": "13-H20-S16",
+                "count": 23
+              },
+              {
+                "value": "14-H25-S20",
+                "count": 13
+              },
+              {
+                "value": "16-MS250",
+                "count": 9
+              },
+              {
+                "value": "15-MS200",
+                "count": 1
+              },
+              {
+                "value": "4-12 Tonnes",
+                "count": 1
+              },
+              {
+                "value": "6-H20",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Affichage": {
+            "null_count": 256,
+            "null_pct": 44.3,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Aucun affichage",
+                "count": 283
+              },
+              {
+                "value": "Charges légales",
+                "count": 16
+              },
+              {
+                "value": "Tonnage réduit",
+                "count": 12
+              },
+              {
+                "value": "Pont fermé",
+                "count": 10
+              },
+              {
+                "value": "Pont fermé pour travaux",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Responsablilté de gestion": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 373
+              },
+              {
+                "value": "Ville de Montréal - MTQ",
+                "count": 130
+              },
+              {
+                "value": "Ville Montréal - Canadien Pacifique",
+                "count": 29
+              },
+              {
+                "value": "Ville Montréal - Municipalité",
+                "count": 21
+              },
+              {
+                "value": "Ville Montréal - Canadien National",
+                "count": 20
+              },
+              {
+                "value": "Ville Montréal - MTQ - Municipalité",
+                "count": 3
+              },
+              {
+                "value": "Ville Montréal - Municipalité - Canadien Pacifique",
+                "count": 1
+              },
+              {
+                "value": "Ville Montréal - Fédéral",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "20 - Arrondissement Ville-Marie",
+                "count": 92
+              },
+              {
+                "value": "24 - Arrondissement Ahuntsic-Cartierville",
+                "count": 70
+              },
+              {
+                "value": "27 - Arrondissement Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 61
+              },
+              {
+                "value": "25 - Arrondissement Rosemont-La Petite-Patrie",
+                "count": 54
+              },
+              {
+                "value": "15 - Arrondissement Saint-Laurent",
+                "count": 47
+              },
+              {
+                "value": "21 - Arrondissement Le Sud-Ouest",
+                "count": 38
+              },
+              {
+                "value": "26 - Arrondissement Villeray-Saint-Michel-Parc-Extension",
+                "count": 33
+              },
+              {
+                "value": "19 - Arrondissement Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 33
+              },
+              {
+                "value": "17 - Arrondissement Lachine",
+                "count": 29
+              },
+              {
+                "value": "22 - Arrondissement Le Plateau-Mont-Royal",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Role VM Inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inspections annuelle et générale par la Ville Montréal",
+                "count": 566
+              },
+              {
+                "value": "Inspection annuelle par la Ville de Montréal",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Année de construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1800.0,
+            "max": 2019.0,
+            "mean": 1965.9343,
+            "median": 1966.0,
+            "unique_count": 86,
+            "field_type_detected": "numeric"
+          },
+          "Nom route": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 403,
+            "top_values": [
+              {
+                "value": "Chemin de la carrière St-Michel",
+                "count": 14
+              },
+              {
+                "value": "Canadien Pacifique",
+                "count": 7
+              },
+              {
+                "value": "Chemin de fer CP",
+                "count": 7
+              },
+              {
+                "value": "Canadien National",
+                "count": 5
+              },
+              {
+                "value": "Autoroute 520",
+                "count": 5
+              },
+              {
+                "value": "CN",
+                "count": 5
+              },
+              {
+                "value": "Chemin de la Côte-de-Liesse Dir. Ouest",
+                "count": 5
+              },
+              {
+                "value": "rue du Pont",
+                "count": 5
+              },
+              {
+                "value": "Boulevard Louis-H.-La Fontaine",
+                "count": 4
+              },
+              {
+                "value": "Boulevard Saint-Laurent",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom obstacle": {
+            "null_count": 253,
+            "null_pct": 43.8,
+            "unique_count": 185,
+            "top_values": [
+              {
+                "value": "Canal Lachine",
+                "count": 14
+              },
+              {
+                "value": "Autoroute 40 Ouest",
+                "count": 10
+              },
+              {
+                "value": "Autoroute 40 Est",
+                "count": 10
+              },
+              {
+                "value": "Rivière des Prairies",
+                "count": 10
+              },
+              {
+                "value": "Autoroute 15 Nord",
+                "count": 10
+              },
+              {
+                "value": "Canal de l'Aqueduc",
+                "count": 9
+              },
+              {
+                "value": "Autoroute 15 Sud",
+                "count": 9
+              },
+              {
+                "value": "Autoroute 25 Sud",
+                "count": 6
+              },
+              {
+                "value": "Canal Sud",
+                "count": 6
+              },
+              {
+                "value": "Autoroute 720 Ouest",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ICG": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 291,
+            "top_values": [
+              {
+                "value": "100",
+                "count": 177
+              },
+              {
+                "value": "75",
+                "count": 16
+              },
+              {
+                "value": "n/d",
+                "count": 13
+              },
+              {
+                "value": "99,92",
+                "count": 8
+              },
+              {
+                "value": "99,98",
+                "count": 7
+              },
+              {
+                "value": "99,99",
+                "count": 7
+              },
+              {
+                "value": "99,88",
+                "count": 6
+              },
+              {
+                "value": "99,93",
+                "count": 5
+              },
+              {
+                "value": "99,97",
+                "count": 4
+              },
+              {
+                "value": "99,61",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Catégorie ICG": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 3.777,
+            "median": 4.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 449
+              },
+              {
+                "value": "3",
+                "count": 107
+              },
+              {
+                "value": "n/d",
+                "count": 13
+              },
+              {
+                "value": "2",
+                "count": 8
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "Date Insp. Générale Fermee": {
+            "null_count": 14,
+            "null_pct": 2.4,
+            "min_date": "2015-11-11T00:00:00",
+            "max_date": "2019-12-04T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Superficie du tablier": {
+            "null_count": 276,
+            "null_pct": 47.8,
+            "min": 10.0,
+            "max": 19700.0,
+            "mean": 1138.1291,
+            "median": 598.0,
+            "unique_count": 262,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du mur": {
+            "null_count": 325,
+            "null_pct": 56.2,
+            "min": 50.0,
+            "max": 10098.0,
+            "mean": 543.8933,
+            "median": 265.0,
+            "unique_count": 203,
+            "field_type_detected": "numeric"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.916106,
+            "max": -73.483613,
+            "mean": -73.612,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.422886,
+            "max": 45.702858,
+            "mean": 45.521825,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_latitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 272249.4201,
+            "max": 306076.0673,
+            "mean": 296049.044016,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031446.248,
+            "max": 5062552.91,
+            "mean": 5042442.124832,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "dcf0e68a-0697-4bca-becc-57af900d8f00",
+      "name": "Inventaire des actifs de voirie - Structures routières 2019",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/dcf0e68a-0697-4bca-becc-57af900d8f00/download/2019-liste-structure-donnees-ouvertes.zip",
+      "datastore_active": false,
+      "size": 74919,
+      "last_modified": "2020-10-19T14:00:29.501097",
+      "created": "2020-06-19T13:51:15.110811",
+      "schema": null
+    },
+    {
+      "id": "0666ae4e-56af-492c-8c14-ac23057da6de",
+      "name": "Inventaire des actifs de voirie - Structures routières 2019",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/0666ae4e-56af-492c-8c14-ac23057da6de/download/2019-liste-structure-donnees-ouvertes.geojson",
+      "datastore_active": false,
+      "size": 514109,
+      "last_modified": "2020-10-19T14:00:33.064737",
+      "created": "2020-06-19T13:50:47.104939",
+      "schema": null
+    },
+    {
+      "id": "8c3a826b-ede9-4f59-8662-b3ed56cde820",
+      "name": "Inventaire des actifs de voirie - Structures routières 2018",
+      "description": "Fichier tabulaire des structures routières de la Ville",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/8c3a826b-ede9-4f59-8662-b3ed56cde820/download/2018-liste-structure-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-05-22T13:14:31.971858",
+      "created": "2019-05-22T13:14:32.083698",
+      "schema": {
+        "resource_id": "8c3a826b-ede9-4f59-8662-b3ed56cde820",
+        "total_records": 581,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "No structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IDE_STRCT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Charg. conception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Affichage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Responsablilté de gestion",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Centre de services",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Role VM Inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Année de construction",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Nom route",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom obstacle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Catégorie ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Date Insp. Générale Fermee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Superficie du tablier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du mur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "No structure": "81-01202",
+            "IDE_STRCT": 202135,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à pout. béton précont., préfabr.",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1974,
+            "Nom route": "boulevard Roi-René",
+            "Nom obstacle": "Autoroute 40 Ouest",
+            "ICG": 100,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2015-09-23T00:00:00",
+            "Superficie du tablier": 2225,
+            "Superficie du mur": null,
+            "Longitude": -73.5585193058141,
+            "Latitude": 45.6137735913469,
+            "X": 300235.9215,
+            "Y": 5052654.158
+          },
+          {
+            "_id": 2,
+            "No structure": "81-01204",
+            "IDE_STRCT": 202114,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "rue du Champ-d'Eau",
+            "Nom obstacle": "autoroute 40",
+            "ICG": 100,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2017-10-12T00:00:00",
+            "Superficie du tablier": 1766,
+            "Superficie du mur": null,
+            "Longitude": -73.5729381134944,
+            "Latitude": 45.5974827814502,
+            "X": 299109.713,
+            "Y": 5050844.642
+          },
+          {
+            "_id": 3,
+            "No structure": "81-01206",
+            "IDE_STRCT": 202116,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "boulevard Lacordaire",
+            "Nom obstacle": "Autoroute 40 Est",
+            "ICG": 100,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2018-10-03T00:00:00",
+            "Superficie du tablier": 1932,
+            "Superficie du mur": null,
+            "Longitude": -73.5889346930771,
+            "Latitude": 45.5823437475105,
+            "X": 297859.87,
+            "Y": 5049163.467
+          },
+          {
+            "_id": 4,
+            "No structure": "81-01207",
+            "IDE_STRCT": 202117,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1964,
+            "Nom route": "Boulevard Viau",
+            "Nom obstacle": "Autoroute 40 Ouest",
+            "ICG": 100,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-04-19T00:00:00",
+            "Superficie du tablier": 1928,
+            "Superficie du mur": null,
+            "Longitude": -73.5943406950718,
+            "Latitude": 45.5763166896196,
+            "X": 297437.2182,
+            "Y": 5048494.151
+          },
+          {
+            "_id": 5,
+            "No structure": "81-02204",
+            "IDE_STRCT": 202265,
+            "Groupe": "",
+            "Statut": "Actif Ville de Montréal",
+            "Type structure": "Portique en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage": "Aucun affichage",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Centre de services": "18 - Arrondissement LaSalle",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "Année de construction": 1963,
+            "Nom route": "Rue Jean-Milot",
+            "Nom obstacle": "Route 138",
+            "ICG": 100,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-06-01T00:00:00",
+            "Superficie du tablier": 560,
+            "Superficie du mur": null,
+            "Longitude": -73.6500423665922,
+            "Latitude": 45.4312596996325,
+            "X": 293059.892,
+            "Y": 5032380.516
+          }
+        ]
+      },
+      "field_stats": {
+        "No structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IDE_STRCT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Charg. conception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Affichage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Responsablilté de gestion": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Centre de services": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Role VM Inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Année de construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom route": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom obstacle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ICG": {
+          "null_count": 18,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Catégorie ICG": {
+          "null_count": 18,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Date Insp. Générale Fermee": {
+          "null_count": 18,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Superficie du tablier": {
+          "null_count": 277,
+          "null_pct": 47.7,
+          "populated_pct": 52.3
+        },
+        "Superficie du mur": {
+          "null_count": 327,
+          "null_pct": 56.3,
+          "populated_pct": 43.7
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 581,
+        "total_records": 581,
+        "audited_at": "2026-03-10T00:28:21.502366+00:00",
+        "fields": {
+          "No structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 581,
+            "top_values": [
+              {
+                "value": "81-01202",
+                "count": 1
+              },
+              {
+                "value": "81-01204",
+                "count": 1
+              },
+              {
+                "value": "81-01206",
+                "count": 1
+              },
+              {
+                "value": "81-01207",
+                "count": 1
+              },
+              {
+                "value": "81-02204",
+                "count": 1
+              },
+              {
+                "value": "81-02207",
+                "count": 1
+              },
+              {
+                "value": "81-03108",
+                "count": 1
+              },
+              {
+                "value": "81-03120C",
+                "count": 1
+              },
+              {
+                "value": "81-03124",
+                "count": 1
+              },
+              {
+                "value": "81-03218",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "IDE_STRCT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 201967.0,
+            "max": 6103068.0,
+            "mean": 5219086.6368,
+            "median": 6030314.0,
+            "unique_count": 581,
+            "field_type_detected": "numeric"
+          },
+          "Groupe": {
+            "null_count": 346,
+            "null_pct": 59.6,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "P.I. Clark / CP, Van Horne",
+                "count": 9
+              },
+              {
+                "value": "P.I. Ch. Côte-St-Luc / CP, West Broadway",
+                "count": 9
+              },
+              {
+                "value": "P.I. St-Joseph / CP, D'Iberville",
+                "count": 9
+              },
+              {
+                "value": "P.I. Rodolphe-Forget / CN",
+                "count": 8
+              },
+              {
+                "value": "P.I. Masson / CP, Est de De Lorimier",
+                "count": 8
+              },
+              {
+                "value": "P.I. Sauvé / CP, entre l'Acadie et Meilleur",
+                "count": 8
+              },
+              {
+                "value": "P.I. Papineau / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. St-Denis / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. Cavendish / CP, De Maisonneuve",
+                "count": 6
+              },
+              {
+                "value": "E.A. Écran antibruit Aut. 15, de la rue Sauvé O au pont Médé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Actif Ville de Montréal",
+                "count": 581
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Mur",
+                "count": 254
+              },
+              {
+                "value": "Pont à poutres en acier",
+                "count": 63
+              },
+              {
+                "value": "Pont à pout. béton précont., préfabr.",
+                "count": 55
+              },
+              {
+                "value": "Pont à dalle pleine en béton armé",
+                "count": 52
+              },
+              {
+                "value": "Pont à dalle évidée en béton armé",
+                "count": 29
+              },
+              {
+                "value": "Portique en béton armé",
+                "count": 20
+              },
+              {
+                "value": "Pont à poutres en acier enr. de béton",
+                "count": 13
+              },
+              {
+                "value": "Pont acier-bois",
+                "count": 10
+              },
+              {
+                "value": "Ponceau rectang. en béton armé",
+                "count": 9
+              },
+              {
+                "value": "Pont à béquilles, béton armé",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Charg. conception": {
+            "null_count": 259,
+            "null_pct": 44.6,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "99-Inconnu",
+                "count": 162
+              },
+              {
+                "value": "98-Autre",
+                "count": 45
+              },
+              {
+                "value": "17-QS660",
+                "count": 33
+              },
+              {
+                "value": "18-CL625",
+                "count": 32
+              },
+              {
+                "value": "13-H20-S16",
+                "count": 23
+              },
+              {
+                "value": "14-H25-S20",
+                "count": 13
+              },
+              {
+                "value": "16-MS250",
+                "count": 9
+              },
+              {
+                "value": "1-5 tonnes",
+                "count": 1
+              },
+              {
+                "value": "15-MS200",
+                "count": 1
+              },
+              {
+                "value": "4-12 Tonnes",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Affichage": {
+            "null_count": 259,
+            "null_pct": 44.6,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Aucun affichage",
+                "count": 292
+              },
+              {
+                "value": "Charges légales",
+                "count": 12
+              },
+              {
+                "value": "Tonnage réduit",
+                "count": 9
+              },
+              {
+                "value": "Pont fermé",
+                "count": 8
+              },
+              {
+                "value": "Pont fermé pour travaux",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Responsablilté de gestion": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 379
+              },
+              {
+                "value": "Ville de Montréal - MTQ",
+                "count": 127
+              },
+              {
+                "value": "Ville Montréal - Canadien Pacifique",
+                "count": 29
+              },
+              {
+                "value": "Ville Montréal - Municipalité",
+                "count": 21
+              },
+              {
+                "value": "Ville Montréal - Canadien National",
+                "count": 20
+              },
+              {
+                "value": "Ville Montréal - MTQ - Municipalité",
+                "count": 3
+              },
+              {
+                "value": "Ville Montréal - Municipalité - Canadien Pacifique",
+                "count": 1
+              },
+              {
+                "value": "Ville Montréal - Fédéral",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Centre de services": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "20 - Arrondissement Ville-Marie",
+                "count": 92
+              },
+              {
+                "value": "24 - Arrondissement Ahuntsic-Cartierville",
+                "count": 72
+              },
+              {
+                "value": "27 - Arrondissement Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 60
+              },
+              {
+                "value": "25 - Arrondissement Rosemont-La Petite-Patrie",
+                "count": 54
+              },
+              {
+                "value": "15 - Arrondissement Saint-Laurent",
+                "count": 46
+              },
+              {
+                "value": "21 - Arrondissement Le Sud-Ouest",
+                "count": 42
+              },
+              {
+                "value": "19 - Arrondissement Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 33
+              },
+              {
+                "value": "26 - Arrondissement Villeray-Saint-Michel-Parc-Extension",
+                "count": 33
+              },
+              {
+                "value": "17 - Arrondissement Lachine",
+                "count": 29
+              },
+              {
+                "value": "22 - Arrondissement Le Plateau-Mont-Royal",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Role VM Inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inspections annuelle et générale par la Ville Montréal",
+                "count": 569
+              },
+              {
+                "value": "Inspection annuelle par la Ville de Montréal",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Année de construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1800.0,
+            "max": 2017.0,
+            "mean": 1964.8744,
+            "median": 1966.0,
+            "unique_count": 85,
+            "field_type_detected": "numeric"
+          },
+          "Nom route": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 381,
+            "top_values": [
+              {
+                "value": "Chemin de la carrière St-Michel",
+                "count": 14
+              },
+              {
+                "value": "Canadien Pacifique",
+                "count": 9
+              },
+              {
+                "value": "Canadien National",
+                "count": 7
+              },
+              {
+                "value": "Chemin de fer CP",
+                "count": 7
+              },
+              {
+                "value": "Avenue Pierre-Dupuy",
+                "count": 6
+              },
+              {
+                "value": "Rue Berri",
+                "count": 6
+              },
+              {
+                "value": "CN",
+                "count": 5
+              },
+              {
+                "value": "Chemin de la Côte-Saint-Luc",
+                "count": 5
+              },
+              {
+                "value": "Autoroute 520",
+                "count": 5
+              },
+              {
+                "value": "Chemin de la Côte-de-Liesse Dir. Ouest",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom obstacle": {
+            "null_count": 254,
+            "null_pct": 43.7,
+            "unique_count": 175,
+            "top_values": [
+              {
+                "value": "Canal Lachine",
+                "count": 15
+              },
+              {
+                "value": "Autoroute 40 Ouest",
+                "count": 11
+              },
+              {
+                "value": "Autoroute 40 Est",
+                "count": 11
+              },
+              {
+                "value": "Autoroute 15",
+                "count": 11
+              },
+              {
+                "value": "Rivière des Prairies",
+                "count": 10
+              },
+              {
+                "value": "Canal de l'Aqueduc",
+                "count": 10
+              },
+              {
+                "value": "Autoroute 15 Nord",
+                "count": 9
+              },
+              {
+                "value": "Canal Sud",
+                "count": 6
+              },
+              {
+                "value": "Autoroute 25 Sud",
+                "count": 6
+              },
+              {
+                "value": "Autoroute 15 Sud",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ICG": {
+            "null_count": 18,
+            "null_pct": 3.1,
+            "min": 20.0,
+            "max": 100.0,
+            "mean": 90.693,
+            "median": 99.5,
+            "unique_count": 278,
+            "field_type_detected": "numeric"
+          },
+          "Catégorie ICG": {
+            "null_count": 18,
+            "null_pct": 3.1,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 3.7904,
+            "median": 4.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 454
+              },
+              {
+                "value": "3",
+                "count": 101
+              },
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "Date Insp. Générale Fermee": {
+            "null_count": 18,
+            "null_pct": 3.1,
+            "min_date": "2015-04-29T00:00:00",
+            "max_date": "2019-04-04T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Superficie du tablier": {
+            "null_count": 277,
+            "null_pct": 47.7,
+            "min": 10.0,
+            "max": 19700.0,
+            "mean": 1163.7434,
+            "median": 613.0,
+            "unique_count": 268,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du mur": {
+            "null_count": 327,
+            "null_pct": 56.3,
+            "min": 50.0,
+            "max": 4944.0,
+            "mean": 468.752,
+            "median": 261.0,
+            "unique_count": 203,
+            "field_type_detected": "numeric"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.916106,
+            "max": -73.483613,
+            "mean": -73.612093,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.422886,
+            "max": 45.702858,
+            "mean": 45.521503,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_latitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 272249.4201,
+            "max": 306076.0673,
+            "mean": 296041.695536,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031446.248,
+            "max": 5062552.91,
+            "mean": 5042406.281055,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "8a69560c-0611-4100-83b6-7771d2a2e55b",
+      "name": "Inventaire des actifs de voirie - Structures routières 2018",
+      "description": "Conteneur ZIP du shapefile des structures routières de la Ville\r\n\r\nProjection: NAD83 MTM8\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/8a69560c-0611-4100-83b6-7771d2a2e55b/download/2018-liste-structure-donnees-ouvertes.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-05-22T13:15:30.711651",
+      "created": "2019-05-22T13:15:30.797707",
+      "schema": null
+    },
+    {
+      "id": "916e9ff9-1562-4a9a-a34a-5a83f8a7e8f5",
+      "name": "Inventaire des actifs de voirie - Structures routières 2018",
+      "description": "Geojson des structures routières de la Ville\r\n\r\nProjection: WGS 84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/916e9ff9-1562-4a9a-a34a-5a83f8a7e8f5/download/2018-liste-structure-donnees-ouvertes.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-05-22T13:18:12.959627",
+      "created": "2019-05-22T13:18:13.033669",
+      "schema": null
+    },
+    {
+      "id": "eb552de8-43bc-4164-8b58-8b5aabd0eb92",
+      "name": "Inventaire des actifs de voirie - Structures routières 2017",
+      "description": "Fichier tabulaire des structures routières de la Ville",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/eb552de8-43bc-4164-8b58-8b5aabd0eb92/download/2017-liste-structure-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-05-31T14:41:40.259073",
+      "created": "2017-06-05T14:44:39.464459",
+      "schema": {
+        "resource_id": "eb552de8-43bc-4164-8b58-8b5aabd0eb92",
+        "total_records": 563,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IDE_STRCT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "No structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom route",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom obstacle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Centre de services",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Année de construction",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Type structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Charg. conception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Affichage sur place",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Responsablilté de gestion",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Role VM Inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Catégorie ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Date Insp. Générale Fermee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Superficie du tablier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du mur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IDE_STRCT": 6027781,
+            "No structure": "81-01102",
+            "Nom route": "Canadien National",
+            "Nom obstacle": "boulevard Lacordaire ",
+            "Groupe": "",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Année de construction": 1969,
+            "Type structure": "Pont à dalle pleine en béton armé",
+            "Charg. conception": "98-Autre",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville Montréal - Canadien National",
+            "Role VM Inspection": "Inspection annuelle par la Ville de Montréal",
+            "ICG": 6915,
+            "Catégorie ICG": 3,
+            "Date Insp. Générale Fermee": "2015-06-18T00:00:00",
+            "Superficie du tablier": 451,
+            "Superficie du mur": null,
+            "latitude": 45.6016501553456,
+            "longitude": -73.614609366196,
+            "X": 295859,
+            "Y": 5051312
+          },
+          {
+            "_id": 2,
+            "IDE_STRCT": 6005961,
+            "No structure": "81-01103A",
+            "Nom route": "boulevard Métropolitain Est ",
+            "Nom obstacle": "boulevard Langelier ",
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Année de construction": 1964,
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9878,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-09-14T00:00:00",
+            "Superficie du tablier": 691,
+            "Superficie du mur": null,
+            "latitude": 45.5933613457607,
+            "longitude": -73.5780812405499,
+            "X": 298708,
+            "Y": 5050387
+          },
+          {
+            "_id": 3,
+            "IDE_STRCT": 6006400,
+            "No structure": "81-01103B",
+            "Nom route": "boulevard Métropolitain Est ",
+            "Nom obstacle": "boulevard Langelier ",
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Année de construction": 1964,
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Charg. conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9919,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-09-14T00:00:00",
+            "Superficie du tablier": 663,
+            "Superficie du mur": null,
+            "latitude": 45.5935745265662,
+            "longitude": -73.5785758762894,
+            "X": 298669,
+            "Y": 5050411
+          },
+          {
+            "_id": 4,
+            "IDE_STRCT": 202204,
+            "No structure": "81-01201A",
+            "Nom route": "Avenue Bourget",
+            "Nom obstacle": "Autoroute 40 Est",
+            "Groupe": "",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Année de construction": 1974,
+            "Type structure": "Pont à pout. béton préc., coul. place",
+            "Charg. conception": "14-H25-S20",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 997,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-05-26T00:00:00",
+            "Superficie du tablier": 1202,
+            "Superficie du mur": null,
+            "latitude": 45.6254095783663,
+            "longitude": -73.5483945701644,
+            "X": 301026,
+            "Y": 5053947
+          },
+          {
+            "_id": 5,
+            "IDE_STRCT": 6041601,
+            "No structure": "81-01201B",
+            "Nom route": "Avenue Bourget, côté Est",
+            "Nom obstacle": "",
+            "Groupe": "",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Année de construction": 1974,
+            "Type structure": "Mur",
+            "Charg. conception": "",
+            "Affichage sur place": "",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9842,
+            "Catégorie ICG": 4,
+            "Date Insp. Générale Fermee": "2016-05-26T00:00:00",
+            "Superficie du tablier": null,
+            "Superficie du mur": 177,
+            "latitude": 45.6258610735016,
+            "longitude": -73.5492167607784,
+            "X": 300962,
+            "Y": 5053997
+          }
+        ]
+      },
+      "field_stats": {
+        "IDE_STRCT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom route": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom obstacle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Centre de services": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Année de construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Charg. conception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Affichage sur place": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Responsablilté de gestion": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Role VM Inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ICG": {
+          "null_count": 98,
+          "null_pct": 17.4,
+          "populated_pct": 82.6
+        },
+        "Catégorie ICG": {
+          "null_count": 98,
+          "null_pct": 17.4,
+          "populated_pct": 82.6
+        },
+        "Date Insp. Générale Fermee": {
+          "null_count": 98,
+          "null_pct": 17.4,
+          "populated_pct": 82.6
+        },
+        "Superficie du tablier": {
+          "null_count": 278,
+          "null_pct": 49.4,
+          "populated_pct": 50.6
+        },
+        "Superficie du mur": {
+          "null_count": 308,
+          "null_pct": 54.7,
+          "populated_pct": 45.3
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 563,
+        "total_records": 563,
+        "audited_at": "2026-03-10T00:28:22.723372+00:00",
+        "fields": {
+          "IDE_STRCT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 201967.0,
+            "max": 6092361.0,
+            "mean": 5331435.7211,
+            "median": 6030329.0,
+            "unique_count": 562,
+            "field_type_detected": "numeric"
+          },
+          "No structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 562,
+            "top_values": [
+              {
+                "value": "81-05086",
+                "count": 2
+              },
+              {
+                "value": "81-01102",
+                "count": 1
+              },
+              {
+                "value": "81-01103A",
+                "count": 1
+              },
+              {
+                "value": "81-01103B",
+                "count": 1
+              },
+              {
+                "value": "81-01201A",
+                "count": 1
+              },
+              {
+                "value": "81-01201B",
+                "count": 1
+              },
+              {
+                "value": "81-01202",
+                "count": 1
+              },
+              {
+                "value": "81-01203A",
+                "count": 1
+              },
+              {
+                "value": "81-01203B",
+                "count": 1
+              },
+              {
+                "value": "81-01204",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nom route": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 387,
+            "top_values": [
+              {
+                "value": "Chemin de la carrière St-Michel",
+                "count": 14
+              },
+              {
+                "value": "Canadien Pacifique",
+                "count": 8
+              },
+              {
+                "value": "Chemin de fer CP",
+                "count": 7
+              },
+              {
+                "value": "CN",
+                "count": 5
+              },
+              {
+                "value": "Boulevard de la Côte-Vertu",
+                "count": 5
+              },
+              {
+                "value": "boulevard Armand-Bombardier",
+                "count": 5
+              },
+              {
+                "value": "rue du Pont",
+                "count": 5
+              },
+              {
+                "value": "Canadien National",
+                "count": 4
+              },
+              {
+                "value": "Boulevard Louis-H.-La Fontaine",
+                "count": 4
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom obstacle": {
+            "null_count": 255,
+            "null_pct": 45.3,
+            "unique_count": 180,
+            "top_values": [
+              {
+                "value": "Autoroute 15",
+                "count": 20
+              },
+              {
+                "value": "Canal Lachine",
+                "count": 15
+              },
+              {
+                "value": "Autoroute 40",
+                "count": 14
+              },
+              {
+                "value": "Autoroute 25",
+                "count": 9
+              },
+              {
+                "value": "Canal de l'Aqueduc",
+                "count": 9
+              },
+              {
+                "value": "Rivière des Prairies",
+                "count": 6
+              },
+              {
+                "value": "Canal Sud",
+                "count": 6
+              },
+              {
+                "value": "Rivières des prairies",
+                "count": 5
+              },
+              {
+                "value": "Canal Nord",
+                "count": 5
+              },
+              {
+                "value": "Autoroute 40 Est",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Groupe": {
+            "null_count": 328,
+            "null_pct": 58.3,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "P.I. Clark / CP, Van Horne",
+                "count": 9
+              },
+              {
+                "value": "P.I. Ch. Côte-St-Luc / CP, West Broadway",
+                "count": 9
+              },
+              {
+                "value": "P.I. St-Joseph / CP, D'Iberville",
+                "count": 9
+              },
+              {
+                "value": "P.I. Rodolphe-Forget / CN",
+                "count": 8
+              },
+              {
+                "value": "P.I. Masson / CP, Est de De Lorimier",
+                "count": 8
+              },
+              {
+                "value": "P.I. Sauvé / CP, entre l'Acadie et Meilleur",
+                "count": 8
+              },
+              {
+                "value": "P.I. Papineau / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. St-Denis / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. Cavendish / CP, De Maisonneuve",
+                "count": 6
+              },
+              {
+                "value": "E.A. Écran antibruit Aut. 15, de la rue Sauvé O au pont Médé",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Centre de services": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "20 - Arrondissement Ville-Marie",
+                "count": 93
+              },
+              {
+                "value": "24 - Arrondissement Ahuntsic-Cartierville",
+                "count": 67
+              },
+              {
+                "value": "27 - Arrondissement Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 58
+              },
+              {
+                "value": "25 - Arrondissement Rosemont-La Petite-Patrie",
+                "count": 57
+              },
+              {
+                "value": "21 - Arrondissement Le Sud-Ouest",
+                "count": 42
+              },
+              {
+                "value": "15 - Arrondissement Saint-Laurent",
+                "count": 36
+              },
+              {
+                "value": "26 - Arrondissement Villeray-Saint-Michel-Parc-Extension",
+                "count": 33
+              },
+              {
+                "value": "19 - Arrondissement Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 32
+              },
+              {
+                "value": "17 - Arrondissement Lachine",
+                "count": 28
+              },
+              {
+                "value": "22 - Arrondissement Le Plateau-Mont-Royal",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Année de construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1800.0,
+            "max": 2017.0,
+            "mean": 1964.3961,
+            "median": 1966.0,
+            "unique_count": 81,
+            "field_type_detected": "numeric"
+          },
+          "Type structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Mur",
+                "count": 255
+              },
+              {
+                "value": "Pont à poutres en acier",
+                "count": 61
+              },
+              {
+                "value": "Pont à dalle pleine en béton armé",
+                "count": 52
+              },
+              {
+                "value": "Pont à pout. béton précont., préfabr.",
+                "count": 47
+              },
+              {
+                "value": "Pont à dalle évidée en béton armé",
+                "count": 29
+              },
+              {
+                "value": "Portique en béton armé",
+                "count": 18
+              },
+              {
+                "value": "Pont à poutres en acier enr. de béton",
+                "count": 13
+              },
+              {
+                "value": "Pont acier-bois",
+                "count": 10
+              },
+              {
+                "value": "Ponceau rectang. en béton armé",
+                "count": 9
+              },
+              {
+                "value": "Pont à poutres en béton armé",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Charg. conception": {
+            "null_count": 260,
+            "null_pct": 46.2,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "99-Inconnu",
+                "count": 154
+              },
+              {
+                "value": "98-Autre",
+                "count": 45
+              },
+              {
+                "value": "17-QS660",
+                "count": 32
+              },
+              {
+                "value": "13-H20-S16",
+                "count": 24
+              },
+              {
+                "value": "18-CL625",
+                "count": 24
+              },
+              {
+                "value": "14-H25-S20",
+                "count": 11
+              },
+              {
+                "value": "16-MS250",
+                "count": 9
+              },
+              {
+                "value": "15-MS200",
+                "count": 1
+              },
+              {
+                "value": "4-12 Tonnes",
+                "count": 1
+              },
+              {
+                "value": "5-H15",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Affichage sur place": {
+            "null_count": 260,
+            "null_pct": 46.2,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Aucun affichage",
+                "count": 275
+              },
+              {
+                "value": "Charges légales",
+                "count": 11
+              },
+              {
+                "value": "Tonnage réduit",
+                "count": 9
+              },
+              {
+                "value": "Pont fermé",
+                "count": 7
+              },
+              {
+                "value": "Pont fermé pour travaux",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Actif Ville de Montréal",
+                "count": 563
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Responsablilté de gestion": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 383
+              },
+              {
+                "value": "Ville de Montréal - MTQ",
+                "count": 107
+              },
+              {
+                "value": "Ville Montréal - Canadien Pacifique",
+                "count": 29
+              },
+              {
+                "value": "Ville Montréal - Municipalité",
+                "count": 21
+              },
+              {
+                "value": "Ville Montréal - Canadien National",
+                "count": 20
+              },
+              {
+                "value": "Autre",
+                "count": 1
+              },
+              {
+                "value": "Ville Montréal - Municipalité - Canadien Pacifique",
+                "count": 1
+              },
+              {
+                "value": "Ville Montréal - Fédéral",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Role VM Inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inspections annuelle et générale par la Ville Montréal",
+                "count": 562
+              },
+              {
+                "value": "Inspection annuelle par la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ICG": {
+            "null_count": 98,
+            "null_pct": 17.4,
+            "min": 30.0,
+            "max": 9999.0,
+            "mean": 4793.2559,
+            "median": 5762.0,
+            "unique_count": 241,
+            "field_type_detected": "numeric"
+          },
+          "Catégorie ICG": {
+            "null_count": 98,
+            "null_pct": 17.4,
+            "min": 2.0,
+            "max": 4.0,
+            "mean": 3.7849,
+            "median": 4.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 370
+              },
+              {
+                "value": "3",
+                "count": 90
+              },
+              {
+                "value": "2",
+                "count": 5
+              }
+            ]
+          },
+          "Date Insp. Générale Fermee": {
+            "null_count": 98,
+            "null_pct": 17.4,
+            "min_date": "2015-04-29T00:00:00",
+            "max_date": "2017-12-20T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Superficie du tablier": {
+            "null_count": 278,
+            "null_pct": 49.4,
+            "min": 10.0,
+            "max": 19700.0,
+            "mean": 1163.2596,
+            "median": 583.0,
+            "unique_count": 255,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du mur": {
+            "null_count": 308,
+            "null_pct": 54.7,
+            "min": 50.0,
+            "max": 4944.0,
+            "mean": 473.7608,
+            "median": 279.0,
+            "unique_count": 207,
+            "field_type_detected": "numeric"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.419748,
+            "max": 45.698572,
+            "mean": 45.521971,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.916106,
+            "max": -73.502624,
+            "mean": -73.609937,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 272249.0,
+            "max": 304596.0,
+            "mean": 296210.312611,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031098.0,
+            "max": 5062076.0,
+            "mean": 5042458.031972,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "f9ac44f1-c597-4464-9ec0-1499df24e2a0",
+      "name": "Inventaire des actifs de voirie - Structures routières 2017",
+      "description": "Conteneur ZIP du shapefile des structures routières de la Ville\r\n\r\nProjection: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/f9ac44f1-c597-4464-9ec0-1499df24e2a0/download/structuresroutieres2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-05-31T14:42:03.324142",
+      "created": "2017-06-15T10:05:09.160331",
+      "schema": null
+    },
+    {
+      "id": "c3826c56-2564-4fe2-90eb-e972a5780464",
+      "name": "Inventaire des actifs de voirie - Structures routières 2017",
+      "description": "Geojson des structures routières de la Ville\r\n\r\nProjection: WGS 84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/c3826c56-2564-4fe2-90eb-e972a5780464/download/structuresroutieres2017.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-05-31T14:42:19.882182",
+      "created": "2017-06-15T10:26:46.712297",
+      "schema": null
+    },
+    {
+      "id": "358b04dc-b0f2-4628-acae-75f223ec728c",
+      "name": "Inventaire des actifs de voirie - Structures routières 2016",
+      "description": "Fichier tabulaire des structures routières de la Ville",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/358b04dc-b0f2-4628-acae-75f223ec728c/download/structuresroutieres2016.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-06-01T14:23:11.127040",
+      "created": "2018-06-01T14:23:11.192186",
+      "schema": {
+        "resource_id": "358b04dc-b0f2-4628-acae-75f223ec728c",
+        "total_records": 551,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IDE_STRCT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "No structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom route",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom obstacle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Centre de services",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Année de construction",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du tablier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Superficie du mur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Charg conception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Affichage sur place",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Responsablilté de gestion",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Role VM Inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Catégorie ICG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Date Insp Générale Fermee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IDE_STRCT": 6027781,
+            "No structure": "81-01102",
+            "Nom route": "Canadien National",
+            "Nom obstacle": "boulevard Lacordaire",
+            "Groupe": "",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Type structure": "Pont à dalle pleine en béton armé",
+            "Année de construction": 1969,
+            "Superficie du tablier": 451,
+            "Superficie du mur": null,
+            "Charg conception": "98-Autre",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville Montréal - Canadien National",
+            "Role VM Inspection": "Inspection annuelle par la Ville de Montréal",
+            "ICG": 6915,
+            "Catégorie ICG": 3,
+            "Date Insp Générale Fermee": "2015-06-18T00:00:00",
+            "X": 295859380786822,
+            "Y": 505131157402023,
+            "latitude": 456016501553456,
+            "longitude": -73614609366196
+          },
+          {
+            "_id": 2,
+            "IDE_STRCT": 6005961,
+            "No structure": "81-01103A",
+            "Nom route": "boulevard Métropolitain Est",
+            "Nom obstacle": "boulevard Langelier",
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Année de construction": 1964,
+            "Superficie du tablier": 691,
+            "Superficie du mur": null,
+            "Charg conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9878,
+            "Catégorie ICG": 4,
+            "Date Insp Générale Fermee": "2016-09-14T00:00:00",
+            "X": 298708024659099,
+            "Y": 505038699564844,
+            "latitude": 455933613457607,
+            "longitude": -735780812405499
+          },
+          {
+            "_id": 3,
+            "IDE_STRCT": 6006400,
+            "No structure": "81-01103B",
+            "Nom route": "boulevard Métropolitain Est",
+            "Nom obstacle": "boulevard Langelier",
+            "Groupe": "P.I. Langelier / Aut. 40",
+            "Centre de services": "14 - Arrondissement Saint-Léonard",
+            "Type structure": "Pont à dalle évidée en béton armé",
+            "Année de construction": 1964,
+            "Superficie du tablier": 663,
+            "Superficie du mur": null,
+            "Charg conception": "99-Inconnu",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9919,
+            "Catégorie ICG": 4,
+            "Date Insp Générale Fermee": "2016-09-14T00:00:00",
+            "X": 298669455902588,
+            "Y": 505041072460334,
+            "latitude": 455935745265662,
+            "longitude": -735785758762894
+          },
+          {
+            "_id": 4,
+            "IDE_STRCT": 202204,
+            "No structure": "81-01201A",
+            "Nom route": "Avenue Bourget",
+            "Nom obstacle": "Autoroute 40 Est",
+            "Groupe": "",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Type structure": "Pont à pout. béton préc., coul. place",
+            "Année de construction": 1974,
+            "Superficie du tablier": 1202,
+            "Superficie du mur": null,
+            "Charg conception": "14-H25-S20",
+            "Affichage sur place": "Aucun affichage",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal - MTQ",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 997,
+            "Catégorie ICG": 4,
+            "Date Insp Générale Fermee": "2016-05-26T00:00:00",
+            "X": 301026357611638,
+            "Y": 505394677187195,
+            "latitude": 456254095783663,
+            "longitude": -735483945701644
+          },
+          {
+            "_id": 5,
+            "IDE_STRCT": 6041601,
+            "No structure": "81-01201B",
+            "Nom route": "Avenue Bourget, côté Est",
+            "Nom obstacle": "",
+            "Groupe": "",
+            "Centre de services": "09 - Arrondissement Anjou",
+            "Type structure": "Mur",
+            "Année de construction": 1974,
+            "Superficie du tablier": null,
+            "Superficie du mur": 177,
+            "Charg conception": "",
+            "Affichage sur place": "",
+            "Statut": "Actif Ville de Montréal",
+            "Responsablilté de gestion": "Ville de Montréal",
+            "Role VM Inspection": "Inspections annuelle et générale par la Ville Montréal",
+            "ICG": 9842,
+            "Catégorie ICG": 4,
+            "Date Insp Générale Fermee": "2016-05-26T00:00:00",
+            "X": 300962276819274,
+            "Y": 505399698686592,
+            "latitude": 456258610735016,
+            "longitude": -735492167607784
+          }
+        ]
+      },
+      "field_stats": {
+        "IDE_STRCT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom route": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom obstacle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Centre de services": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type structure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Année de construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie du tablier": {
+          "null_count": 268,
+          "null_pct": 48.6,
+          "populated_pct": 51.4
+        },
+        "Superficie du mur": {
+          "null_count": 301,
+          "null_pct": 54.6,
+          "populated_pct": 45.4
+        },
+        "Charg conception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Affichage sur place": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Responsablilté de gestion": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Role VM Inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ICG": {
+          "null_count": 266,
+          "null_pct": 48.3,
+          "populated_pct": 51.7
+        },
+        "Catégorie ICG": {
+          "null_count": 266,
+          "null_pct": 48.3,
+          "populated_pct": 51.7
+        },
+        "Date Insp Générale Fermee": {
+          "null_count": 266,
+          "null_pct": 48.3,
+          "populated_pct": 51.7
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 551,
+        "total_records": 551,
+        "audited_at": "2026-03-10T00:28:23.917293+00:00",
+        "fields": {
+          "IDE_STRCT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 201967.0,
+            "max": 6082767.0,
+            "mean": 5336535.8875,
+            "median": 6030320.0,
+            "unique_count": 551,
+            "field_type_detected": "numeric"
+          },
+          "No structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 551,
+            "top_values": [
+              {
+                "value": "81-01102",
+                "count": 1
+              },
+              {
+                "value": "81-01103A",
+                "count": 1
+              },
+              {
+                "value": "81-01103B",
+                "count": 1
+              },
+              {
+                "value": "81-01201A",
+                "count": 1
+              },
+              {
+                "value": "81-01201B",
+                "count": 1
+              },
+              {
+                "value": "81-01202",
+                "count": 1
+              },
+              {
+                "value": "81-01203A",
+                "count": 1
+              },
+              {
+                "value": "81-01203B",
+                "count": 1
+              },
+              {
+                "value": "81-01204",
+                "count": 1
+              },
+              {
+                "value": "81-01205",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nom route": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 380,
+            "top_values": [
+              {
+                "value": "Chemin de la carrière St-Michel",
+                "count": 14
+              },
+              {
+                "value": "Canadien Pacifique",
+                "count": 8
+              },
+              {
+                "value": "Chemin de fer CP",
+                "count": 7
+              },
+              {
+                "value": "CN",
+                "count": 5
+              },
+              {
+                "value": "Boulevard de la Côte-Vertu",
+                "count": 5
+              },
+              {
+                "value": "boulevard Armand-Bombardier",
+                "count": 5
+              },
+              {
+                "value": "rue du Pont",
+                "count": 5
+              },
+              {
+                "value": "Canadien National",
+                "count": 4
+              },
+              {
+                "value": "Boulevard Louis-H.-La Fontaine",
+                "count": 4
+              },
+              {
+                "value": "boulevard Crémazie Ouest",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom obstacle": {
+            "null_count": 250,
+            "null_pct": 45.4,
+            "unique_count": 177,
+            "top_values": [
+              {
+                "value": "Autoroute 15",
+                "count": 22
+              },
+              {
+                "value": "Autoroute 40",
+                "count": 16
+              },
+              {
+                "value": "Autoroute 25",
+                "count": 9
+              },
+              {
+                "value": "Canal de l'Aqueduc",
+                "count": 9
+              },
+              {
+                "value": "Canal Lachine",
+                "count": 9
+              },
+              {
+                "value": "Rivière des Prairies",
+                "count": 6
+              },
+              {
+                "value": "Canal Sud",
+                "count": 6
+              },
+              {
+                "value": "Rivières des prairies",
+                "count": 5
+              },
+              {
+                "value": "Canal Nord",
+                "count": 5
+              },
+              {
+                "value": "Autoroute 40 Est",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Groupe": {
+            "null_count": 330,
+            "null_pct": 59.9,
+            "unique_count": 57,
+            "top_values": [
+              {
+                "value": "P.I. Clark / CP, Van Horne",
+                "count": 9
+              },
+              {
+                "value": "P.I. Ch. Côte-St-Luc / CP, West Broadway",
+                "count": 9
+              },
+              {
+                "value": "P.I. St-Joseph / CP, D'Iberville",
+                "count": 9
+              },
+              {
+                "value": "P.I. Masson / CP, Est de De Lorimier",
+                "count": 8
+              },
+              {
+                "value": "P.I. Sauvé / CP, entre l'Acadie et Meilleur",
+                "count": 8
+              },
+              {
+                "value": "P.I. Papineau / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. St-Denis / CP, des Carrières",
+                "count": 7
+              },
+              {
+                "value": "P.I. Cavendish / CP, De Maisonneuve",
+                "count": 6
+              },
+              {
+                "value": "E.A. Écran antibruit Aut. 15, de la rue Sauvé O au pont Médé",
+                "count": 6
+              },
+              {
+                "value": "P.S. Armand-Bombardier / CN",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Centre de services": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "20 - Arrondissement Ville-Marie",
+                "count": 92
+              },
+              {
+                "value": "24 - Arrondissement Ahuntsic-Cartierville",
+                "count": 66
+              },
+              {
+                "value": "27 - Arrondissement Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 58
+              },
+              {
+                "value": "25 - Arrondissement Rosemont-La Petite-Patrie",
+                "count": 54
+              },
+              {
+                "value": "21 - Arrondissement Le Sud-Ouest",
+                "count": 36
+              },
+              {
+                "value": "15 - Arrondissement Saint-Laurent",
+                "count": 35
+              },
+              {
+                "value": "26 - Arrondissement Villeray-Saint-Michel-Parc-Extension",
+                "count": 32
+              },
+              {
+                "value": "19 - Arrondissement Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 32
+              },
+              {
+                "value": "22 - Arrondissement Le Plateau-Mont-Royal",
+                "count": 28
+              },
+              {
+                "value": "17 - Arrondissement Lachine",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type structure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "Mur",
+                "count": 250
+              },
+              {
+                "value": "Pont à poutres en acier",
+                "count": 60
+              },
+              {
+                "value": "Pont à dalle pleine en béton armé",
+                "count": 53
+              },
+              {
+                "value": "Pont à pout. béton précont., préfabr.",
+                "count": 46
+              },
+              {
+                "value": "Pont à dalle évidée en béton armé",
+                "count": 29
+              },
+              {
+                "value": "Portique en béton armé",
+                "count": 17
+              },
+              {
+                "value": "Pont à poutres en acier enr. de béton",
+                "count": 13
+              },
+              {
+                "value": "Pont à poutres en béton armé",
+                "count": 9
+              },
+              {
+                "value": "Pont acier-bois",
+                "count": 9
+              },
+              {
+                "value": "Ponceau rectang. en béton armé",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Année de construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1800.0,
+            "max": 2016.0,
+            "mean": 1962.7641,
+            "median": 1966.0,
+            "unique_count": 80,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du tablier": {
+            "null_count": 268,
+            "null_pct": 48.6,
+            "min": 3.0,
+            "max": 24962.0,
+            "mean": 1150.0989,
+            "median": 560.0,
+            "unique_count": 251,
+            "field_type_detected": "numeric"
+          },
+          "Superficie du mur": {
+            "null_count": 301,
+            "null_pct": 54.6,
+            "min": 50.0,
+            "max": 4944.0,
+            "mean": 458.992,
+            "median": 254.5,
+            "unique_count": 199,
+            "field_type_detected": "numeric"
+          },
+          "Charg conception": {
+            "null_count": 250,
+            "null_pct": 45.4,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "99-Inconnu",
+                "count": 157
+              },
+              {
+                "value": "98-Autre",
+                "count": 43
+              },
+              {
+                "value": "17-QS660",
+                "count": 32
+              },
+              {
+                "value": "13-H20-S16",
+                "count": 25
+              },
+              {
+                "value": "18-CL625",
+                "count": 22
+              },
+              {
+                "value": "14-H25-S20",
+                "count": 11
+              },
+              {
+                "value": "16-MS250",
+                "count": 9
+              },
+              {
+                "value": "4-12 Tonnes",
+                "count": 1
+              },
+              {
+                "value": "1-5 tonnes",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Affichage sur place": {
+            "null_count": 250,
+            "null_pct": 45.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Aucun affichage",
+                "count": 277
+              },
+              {
+                "value": "Charges légales",
+                "count": 10
+              },
+              {
+                "value": "Tonnage réduit",
+                "count": 9
+              },
+              {
+                "value": "Pont fermé",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Actif Ville de Montréal",
+                "count": 551
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Responsablilté de gestion": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 378
+              },
+              {
+                "value": "Ville de Montréal - MTQ",
+                "count": 101
+              },
+              {
+                "value": "Ville Montréal - Canadien Pacifique",
+                "count": 29
+              },
+              {
+                "value": "Ville Montréal - Canadien National",
+                "count": 20
+              },
+              {
+                "value": "Ville Montréal - Municipalité",
+                "count": 20
+              },
+              {
+                "value": "Autre",
+                "count": 2
+              },
+              {
+                "value": "Ville Montréal - Municipalité - Canadien Pacifique",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Role VM Inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inspections annuelle et générale par la Ville Montréal",
+                "count": 550
+              },
+              {
+                "value": "Inspection annuelle par la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ICG": {
+            "null_count": 266,
+            "null_pct": 48.3,
+            "min": 30.0,
+            "max": 9999.0,
+            "mean": 4703.0386,
+            "median": 5435.0,
+            "unique_count": 154,
+            "field_type_detected": "numeric"
+          },
+          "Catégorie ICG": {
+            "null_count": 266,
+            "null_pct": 48.3,
+            "min": 2.0,
+            "max": 4.0,
+            "mean": 3.814,
+            "median": 4.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 234
+              },
+              {
+                "value": "3",
+                "count": 49
+              },
+              {
+                "value": "2",
+                "count": 2
+              }
+            ]
+          },
+          "Date Insp Générale Fermee": {
+            "null_count": 266,
+            "null_pct": 48.3,
+            "min_date": "2015-04-29T00:00:00",
+            "max_date": "2016-12-16T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 298539.340485,
+            "max": 304595687999825.0,
+            "mean": 276200340713296.44,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5040795.030396,
+            "max": 506207648930724.0,
+            "mean": 463308621954948.06,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.507048,
+            "max": 456985724494238.0,
+            "mean": 418177193801198.44,
+            "pct_in_montreal_bbox": 0.2,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -739161056484666.0,
+            "max": -73.580121,
+            "mean": -665725288143645.0,
+            "pct_in_montreal_bbox": 0.2,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "a8862c68-4a94-48e6-a903-90dce0c3dc68",
+      "name": "Inventaire des actifs de voirie - Structures routières 2016",
+      "description": "Conteneur ZIP du shapefile des structures routières de la Ville\r\n\r\nProjection: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/a8862c68-4a94-48e6-a903-90dce0c3dc68/download/structuresroutieres2016.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-01T14:23:56.987154",
+      "created": "2018-06-01T14:23:57.053962",
+      "schema": null
+    },
+    {
+      "id": "c1744a59-6b77-47b1-943d-1ec58c6acef9",
+      "name": "Inventaire des actifs de voirie - Structures routières 2016",
+      "description": "Geojson des structures routières de la Ville\r\n\r\nProjection: WGS 84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/c1744a59-6b77-47b1-943d-1ec58c6acef9/download/structuresroutieres2016.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-01T14:29:08.729048",
+      "created": "2018-06-01T14:29:08.778310",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Réseau routier",
+    "SIRR",
+    "mur",
+    "ouvrage",
+    "passerelle",
+    "pont",
+    "route",
+    "soutennement",
+    "structure",
+    "tunnel",
+    "viaduc"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les informations sur les structures routières sont recensées par l'équipe responsable des inspections sur celles-ci. \n\n\nChaque année, toutes les structures la Ville de Montréal font l’objet d'une inspection annuelle ou générale. Les inspections générales, plus complètes, sont effectuées, au plus tard, une fois tous les quatre ans. Fait à noter, depuis 2015, la Ville de Montréal produit de nouveaux rapports d’inspection dont le modèle est essentiellement calqué sur celui du Ministère des Transports et de la Mobilité durable. Graduellement, tous les rapports de la Ville prendront cette nouvelle forme. Cette transition sera complétée d’ici deux ans. À ce jour, seulement 95% des structures sont disponibles dans le nouveau système et les ICG du présent ensemble ne sont compilés que pour les structures ayant fait l'objet d'une inspection générale avec le nouveau système.  L'ensemble sera bonifié lors de la prochaine version. \n\n\nLe positionnement géographique est approximatif, basé sur le centre de la structure.\n\n### Dictionnaire de données\n\n\n\n- IDE_STRCT (Numérique) : Identifiant structure interne\n\n- No structure (Texte variable) : Identifiant structure \n\n- Nom route (Texte variable) : Nom de la route principale associée à la structure\n\n- Nom obstacle (Texte variable) : Nom de l'obstacle principal associé à la structure\n\n- Groupe (Texte variable) : Groupe\n\n- Centre de services (Texte variable) : Centre de services\n\n- Type structure (Texte variable) : Type structure\n\n- Année de construction (Numérique) : Année de construction\n\n- Superficie du tablier (Numérique) : Superficie du tablier\n\n- Superficie du mur (Numérique) : Superficie du mur\n\n- Charg. conception (Texte variable) : Charge de conception (ingénierie)\n\n- Affichage sur place (Texte variable) : Affichage sur place\n\n- Statut (Texte variable) : Statut\n\n- Responsablilté de gestion (Texte variable) : Responsablilté de gestion\n\n- Role VM Inspection (Texte variable) : Role de la Ville de Montréal pour l'inspection\n\n- ICG (Numérique) : Indice de condition générale\n\n- Catégorie ICG (Texte variable) : Catégorie ICG\n\n- Date Insp. Générale Fermee (Texte variable) : Date de fermeture de la dernière inspection générale\n\n- x (Coordonnées spatiales) : Coordonnée x (MTM8 NAD83)\n\n- y (Coordonnées spatiales) : Coordonnée y (MTM8 NAD83)\n\n- latitude (Coordonnées spatiales) : Latitude (WGS84)\n\n- longitude (Coordonnées spatiales) : Longitude (WGS84)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier",
+      "Couverture temporelle": "2016-12-31/",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Réseau routier",
+      "SIRR",
+      "mur",
+      "ouvrage",
+      "passerelle",
+      "pont",
+      "route",
+      "soutennement",
+      "structure",
+      "tunnel",
+      "viaduc"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/structure-routiere",
+    "scraped_at": "2026-03-09T20:22:52.434831+00:00"
+  }
+}

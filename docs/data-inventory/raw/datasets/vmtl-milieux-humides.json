@@ -1,0 +1,83 @@
+{
+  "slug": "vmtl-milieux-humides",
+  "title": "Milieux humides",
+  "notes": "Cet ensemble de données contient les polygones délimitant les milieux humides de l’agglomération de Montréal.\r\n\r\nCelles-ci ont été mises à jour dans le cadre de l’élaboration du [Plan régional des milieux humides et hydriques (PRMHH)](https://montreal.ca/articles/un-plan-pour-proteger-les-milieux-humides-et-hydriques-67104) de l’agglomération de Montréal. Elles illustrent les milieux humides, le type de milieu ainsi que les choix de conservation qui leur ont été attribués pour répondre aux objectifs du Plan régional.\r\n\r\nUne visualisation des données est possible sur la [carte interactive](https://experience.arcgis.com/experience/87e6da34dc3348a1a5e3f1014c266242) associée au PRMHH.\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-05-12T20:08:28.768053",
+  "metadata_modified": "2026-03-01T01:08:50.288493",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "1ba5cb02-9374-453f-9c1f-f3c7bf4cbd9d",
+      "name": "Milieux humides",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/6aad129f-175a-4c95-aa9e-a8e8f6531bd7/resource/1ba5cb02-9374-453f-9c1f-f3c7bf4cbd9d/download/milieux-humides.geojson",
+      "datastore_active": false,
+      "size": 9884149,
+      "last_modified": "2026-03-01T00:08:25.476256",
+      "created": "2016-05-12T16:16:21.712842",
+      "schema": null
+    },
+    {
+      "id": "e5a81d88-7e2e-4ec1-bcad-2fdecbbc385e",
+      "name": "Milieux humides",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/6aad129f-175a-4c95-aa9e-a8e8f6531bd7/resource/e5a81d88-7e2e-4ec1-bcad-2fdecbbc385e/download/milieux-humides.zip",
+      "datastore_active": false,
+      "size": 2427485,
+      "last_modified": "2026-03-01T01:08:50.253175",
+      "created": "2022-06-27T18:38:06.660126",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Marais",
+    "Marécage",
+    "Milieu humide",
+    "Milieu naturel",
+    "PRMHH",
+    "Prairie humide",
+    "SGPMRS",
+    "Étang"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sur les milieux humides proviennent d’une cartographie réalisée par Canards Illimités Canada et le MELCCFP (2018), d’une analyse de photos aériennes, de visites sur le terrain et/ou d’études écologiques particulières. \n\n\nElles ont été mises à jour dans le cadre de l’élaboration du Plan régional des milieux humides et hydriques de l’agglomération et seront actualisées en fonction de l’avancement des connaissances. \n\n\nCes données sont fournies à titre indicatif. Aux fins d’application légale ou réglementaire, la délimitation des milieux doit être validée par des inventaires de terrain.\n\n### Dictionnaire de données\n\n\n\n- mh_id (Entier) : Identifiant unique de chaque milieu humide.\n\n- mh_type_dv (Entier): Indique le type de milieu humide selon la typologie du gouvernement du Québec.\n\n- 1 - Étang\n\n- 2 - Marais\n\n- 3 - Marécage\n\n- 4 - Tourbière\n\n\n\n- cons_cl_dv  (Entier): Classification des milieux humides selon le type de conservation\n\n- 1 - Création\n\n- 2 – Milieu menacé\n\n- 3 – Non applicable (terre de l’État)\n\n- 4 – Protection\n\n- 5 – Protection et restauration\n\n- 6 – Utilisation durable\n\n\n\n- Superficie  (Double): Aire du polygone\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont Royal et des sports",
+      "Couverture temporelle": "2024-08-01/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Marais",
+      "Marécage",
+      "Milieu humide",
+      "Milieu naturel",
+      "PRMHH",
+      "Prairie humide",
+      "SGPMRS",
+      "Étang"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/milieux-humides",
+    "scraped_at": "2026-03-09T20:13:01.950474+00:00"
+  }
+}

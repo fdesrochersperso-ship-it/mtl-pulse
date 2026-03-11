@@ -1,0 +1,5156 @@
+{
+  "slug": "vmtl-programmation-sports-loisirs-montreal",
+  "title": "Programmation de sports et loisirs disponible via Loisirs Montréal",
+  "notes": "Les données de Loisirs Montréal comportent l'ensemble des activités de sports et loisirs offertes sur le territoire de la ville de Montréal via Loisirs Montréal. Ces données comportent les noms, les dates et les heures des activités, les espaces réservables, les sites de programmations ainsi que les organismes promoteurs.\r\n\r\nIl est possible de consulter les jeux de données selon des séparations temporelles différentes en fonction des besoins soit en période de trois ans ou par l’année en cours. Certaines ressources ont été divisées de sorte que le fichier pourra être référencé après la période d'activité courante.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-02-15T15:32:07.270097",
+  "metadata_modified": "2026-03-09T01:14:04.687532",
+  "num_resources": 8,
+  "resources": [
+    {
+      "id": "a7e11db5-b3d5-4e9c-804b-b948549ad992",
+      "name": "Programmation de sports et loisirs (année en cours)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/a7e11db5-b3d5-4e9c-804b-b948549ad992/download/programmation-de-sports-et-loisirs.csv",
+      "datastore_active": true,
+      "size": 3206257,
+      "last_modified": "2026-03-09T00:03:47.158124",
+      "created": "2024-05-04T00:05:06.149254",
+      "schema": {
+        "resource_id": "a7e11db5-b3d5-4e9c-804b-b948549ad992",
+        "total_records": 5234,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_activite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipalite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_inscription_obligatoire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_annulee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_maximum_places",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_minimum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_maximum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_credit_impot_offert",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "installation_principale",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_debut_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_fin_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "jour_semaine_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_activite": "884166",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Sports et activités physiques",
+            "sous_categorie": "Sports sur glace",
+            "nom": "Patin libre pour tous",
+            "description": null,
+            "promoteur": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+            "telephone_promoteur": "5148720311",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": null,
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2026-01-03",
+            "date_fin": "2026-03-27",
+            "groupe": "01",
+            "id_seance": "659793",
+            "installation_principale": "Aire de patinage, aréna Georges-Mantha",
+            "adresse_site_seance": "5485 chemin de la Côte-Saint-Paul  , Montréal, H4C1X3",
+            "telephone_site_seance": "5148723459",
+            "site_seance": "Aréna Gadbois",
+            "heure_debut_seance": "16:30:00",
+            "heure_fin_seance": "17:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.46616446530211",
+            "longitude": "-73.5946970226057",
+            "loc_x": "297394.97",
+            "loc_y": "5036252.87"
+          },
+          {
+            "_id": 2,
+            "id_activite": "884166",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Sports et activités physiques",
+            "sous_categorie": "Sports sur glace",
+            "nom": "Patin libre pour tous",
+            "description": null,
+            "promoteur": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+            "telephone_promoteur": "5148720311",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": null,
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2026-01-03",
+            "date_fin": "2026-03-27",
+            "groupe": "01",
+            "id_seance": "659792",
+            "installation_principale": "Aire de patinage, aréna Georges-Mantha",
+            "adresse_site_seance": "5485 chemin de la Côte-Saint-Paul  , Montréal, H4C1X3",
+            "telephone_site_seance": "5148723459",
+            "site_seance": "Aréna Gadbois",
+            "heure_debut_seance": "16:30:00",
+            "heure_fin_seance": "17:30:00",
+            "jour_semaine_seance": "Lundi",
+            "latitude": "45.46616446530211",
+            "longitude": "-73.5946970226057",
+            "loc_x": "297394.97",
+            "loc_y": "5036252.87"
+          },
+          {
+            "_id": 3,
+            "id_activite": "884166",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Sports et activités physiques",
+            "sous_categorie": "Sports sur glace",
+            "nom": "Patin libre pour tous",
+            "description": null,
+            "promoteur": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+            "telephone_promoteur": "5148720311",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": null,
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2026-01-03",
+            "date_fin": "2026-03-27",
+            "groupe": "01",
+            "id_seance": "659794",
+            "installation_principale": "Aire de patinage, aréna Georges-Mantha",
+            "adresse_site_seance": "5485 chemin de la Côte-Saint-Paul  , Montréal, H4C1X3",
+            "telephone_site_seance": "5148723459",
+            "site_seance": "Aréna Gadbois",
+            "heure_debut_seance": "16:30:00",
+            "heure_fin_seance": "17:30:00",
+            "jour_semaine_seance": "Mercredi",
+            "latitude": "45.46616446530211",
+            "longitude": "-73.5946970226057",
+            "loc_x": "297394.97",
+            "loc_y": "5036252.87"
+          },
+          {
+            "_id": 4,
+            "id_activite": "884166",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Sports et activités physiques",
+            "sous_categorie": "Sports sur glace",
+            "nom": "Patin libre pour tous",
+            "description": null,
+            "promoteur": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+            "telephone_promoteur": "5148720311",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": null,
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2026-01-03",
+            "date_fin": "2026-03-27",
+            "groupe": "01",
+            "id_seance": "659795",
+            "installation_principale": "Aire de patinage, aréna Georges-Mantha",
+            "adresse_site_seance": "5485 chemin de la Côte-Saint-Paul  , Montréal, H4C1X3",
+            "telephone_site_seance": "5148723459",
+            "site_seance": "Aréna Gadbois",
+            "heure_debut_seance": "16:30:00",
+            "heure_fin_seance": "17:30:00",
+            "jour_semaine_seance": "Jeudi",
+            "latitude": "45.46616446530211",
+            "longitude": "-73.5946970226057",
+            "loc_x": "297394.97",
+            "loc_y": "5036252.87"
+          },
+          {
+            "_id": 5,
+            "id_activite": "884166",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Sports et activités physiques",
+            "sous_categorie": "Sports sur glace",
+            "nom": "Patin libre pour tous",
+            "description": null,
+            "promoteur": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+            "telephone_promoteur": "5148720311",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": null,
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2026-01-03",
+            "date_fin": "2026-03-27",
+            "groupe": "01",
+            "id_seance": "659796",
+            "installation_principale": "Aire de patinage, aréna Georges-Mantha",
+            "adresse_site_seance": "5485 chemin de la Côte-Saint-Paul  , Montréal, H4C1X3",
+            "telephone_site_seance": "5148723459",
+            "site_seance": "Aréna Gadbois",
+            "heure_debut_seance": "16:30:00",
+            "heure_fin_seance": "17:30:00",
+            "jour_semaine_seance": "Vendredi",
+            "latitude": "45.46616446530211",
+            "longitude": "-73.5946970226057",
+            "loc_x": "297394.97",
+            "loc_y": "5036252.87"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_activite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipalite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_categorie": {
+          "null_count": 269,
+          "null_pct": 5.1,
+          "populated_pct": 94.9
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 1289,
+          "null_pct": 24.6,
+          "populated_pct": 75.4
+        },
+        "promoteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "telephone_promoteur": {
+          "null_count": 1621,
+          "null_pct": 31.0,
+          "populated_pct": 69.0
+        },
+        "est_inscription_obligatoire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "est_annulee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 5223,
+          "null_pct": 99.8,
+          "populated_pct": 0.2
+        },
+        "nb_maximum_places": {
+          "null_count": 782,
+          "null_pct": 14.9,
+          "populated_pct": 85.1
+        },
+        "age_minimum": {
+          "null_count": 996,
+          "null_pct": 19.0,
+          "populated_pct": 81.0
+        },
+        "age_maximum": {
+          "null_count": 2690,
+          "null_pct": 51.4,
+          "populated_pct": 48.6
+        },
+        "est_credit_impot_offert": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "installation_principale": {
+          "null_count": 250,
+          "null_pct": 4.8,
+          "populated_pct": 95.2
+        },
+        "adresse_site_seance": {
+          "null_count": 57,
+          "null_pct": 1.1,
+          "populated_pct": 98.9
+        },
+        "telephone_site_seance": {
+          "null_count": 22,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "site_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_debut_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_fin_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "jour_semaine_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 473,
+          "null_pct": 9.0,
+          "populated_pct": 91.0
+        },
+        "longitude": {
+          "null_count": 473,
+          "null_pct": 9.0,
+          "populated_pct": 91.0
+        },
+        "loc_x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "loc_y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5255,
+        "audited_at": "2026-03-10T00:22:43.048328+00:00",
+        "fields": {
+          "id_activite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 884166.0,
+            "max": 896055.0,
+            "mean": 893666.537,
+            "median": 893687.5,
+            "unique_count": 884,
+            "field_type_detected": "numeric"
+          },
+          "municipalite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Sports et activités physiques",
+                "count": 667
+              },
+              {
+                "value": "Sports sur glace",
+                "count": 333
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Sports sur glace",
+                "count": 568
+              },
+              {
+                "value": "Hockey sur glace",
+                "count": 333
+              },
+              {
+                "value": "Activités aquatiques",
+                "count": 99
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 654,
+            "top_values": [
+              {
+                "value": "Hockey pratique libre récréatif 18 ans et +",
+                "count": 52
+              },
+              {
+                "value": "Baignade libre Tous",
+                "count": 42
+              },
+              {
+                "value": "Baignade libre Adultes",
+                "count": 40
+              },
+              {
+                "value": "Prêt de patin pour le patinage libre pour tous",
+                "count": 32
+              },
+              {
+                "value": "Bâton-Rondelle",
+                "count": 31
+              },
+              {
+                "value": "Patinage libre pour tous",
+                "count": 27
+              },
+              {
+                "value": "Baton-rondelle famille",
+                "count": 23
+              },
+              {
+                "value": "Hockey libre adultes",
+                "count": 23
+              },
+              {
+                "value": "Patin libre pour tous",
+                "count": 16
+              },
+              {
+                "value": "Patinoire Hockey ext. - Bloc 1 de 4 semaines",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "description": {
+            "null_count": 229,
+            "null_pct": 22.9,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "Patinage libre pour tous, réservé aux citoyen.nes de Montréal. Free skate for all, reserved for City of Montreal residents.",
+                "count": 103
+              },
+              {
+                "value": "Patinoire ouverte, sans surveillance, activités libres.",
+                "count": 91
+              },
+              {
+                "value": "La séance de patinage libre est ouverte à tous. Inscription obligatoire. The free skate session is open to all. Registration is mandatory.",
+                "count": 71
+              },
+              {
+                "value": "Cette plage de hockey est réservée aux 18 ans et plus.. Ayez en main votre preuve de réservation. This shinny hockey period is reserved for people 18 and over.  Please bring your proof of reservation.",
+                "count": 71
+              },
+              {
+                "value": "Cette plage de hockey libre est réservée aux 17 ans et moins. Ayez en main votre preuve de réservation. This shinny hockey period is reserved for people 17 and under. Please bring your proof of reservation.",
+                "count": 61
+              },
+              {
+                "value": "Le hockey libre est une activité pour les adultes de 18 ans et plus.",
+                "count": 52
+              },
+              {
+                "value": "La séance de patinage libre est ouverte pour tous, sans surveillance, sans équipement de hockey.",
+                "count": 46
+              },
+              {
+                "value": "La séance de patinage libre est ouverte à tous. Activité gratuite. \nInscription requise pour du prêt de patins selon la disponibilité.\nL'inscription n'est PAS requise pour ceux ayant déjà des patins.",
+                "count": 32
+              },
+              {
+                "value": "Le bâton-rondelle est une activité pour les enfants et adolescents de 17 ans et moins",
+                "count": 31
+              },
+              {
+                "value": "Le hockey libre est réservé aux 13 ans et moins ainsi qu’aux membres de leur famille. Shinny hockey is reserved for people 13 and under as well as their family members.",
+                "count": 30
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "promoteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 626
+              },
+              {
+                "value": "Arrondissement de Verdun",
+                "count": 105
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 98
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 98
+              },
+              {
+                "value": "54-Le Plateau-Mont-Royal",
+                "count": 24
+              },
+              {
+                "value": "Direction culture, sports, loisirs, et développement social du Sud-Ouest",
+                "count": 18
+              },
+              {
+                "value": "L'Île-Bizard - Sainte-Geneviève",
+                "count": 16
+              },
+              {
+                "value": "Arrondissement de Lachine",
+                "count": 8
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "telephone_promoteur": {
+            "null_count": 853,
+            "null_pct": 85.3,
+            "min": 5145222246.0,
+            "max": 5148722644.0,
+            "mean": 5148281640.6531,
+            "median": 5148722644.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5148722644",
+                "count": 98
+              },
+              {
+                "value": "5148720311",
+                "count": 26
+              },
+              {
+                "value": "5146206141",
+                "count": 16
+              },
+              {
+                "value": "5145222246",
+                "count": 7
+              }
+            ]
+          },
+          "est_inscription_obligatoire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Vrai",
+                "count": 693
+              },
+              {
+                "value": "Faux",
+                "count": 307
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "est_annulee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 999
+              },
+              {
+                "value": "Vrai",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "raison_annulation": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "nb_maximum_places": {
+            "null_count": 138,
+            "null_pct": 13.8,
+            "min": 1.0,
+            "max": 150.0,
+            "mean": 58.8179,
+            "median": 40.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "100",
+                "count": 332
+              },
+              {
+                "value": "40",
+                "count": 238
+              },
+              {
+                "value": "24",
+                "count": 98
+              },
+              {
+                "value": "30",
+                "count": 85
+              },
+              {
+                "value": "25",
+                "count": 33
+              },
+              {
+                "value": "10",
+                "count": 32
+              },
+              {
+                "value": "1",
+                "count": 24
+              },
+              {
+                "value": "20",
+                "count": 8
+              },
+              {
+                "value": "150",
+                "count": 7
+              },
+              {
+                "value": "140",
+                "count": 5
+              }
+            ]
+          },
+          "age_minimum": {
+            "null_count": 613,
+            "null_pct": 61.3,
+            "min": 4.0,
+            "max": 18.0,
+            "mean": 14.0879,
+            "median": 18.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "18",
+                "count": 260
+              },
+              {
+                "value": "6",
+                "count": 110
+              },
+              {
+                "value": "4",
+                "count": 9
+              },
+              {
+                "value": "5",
+                "count": 4
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "16",
+                "count": 2
+              }
+            ]
+          },
+          "age_maximum": {
+            "null_count": 927,
+            "null_pct": 92.7,
+            "min": 11.0,
+            "max": 99.0,
+            "mean": 17.6849,
+            "median": 17.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "17",
+                "count": 66
+              },
+              {
+                "value": "12",
+                "count": 4
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "99",
+                "count": 1
+              }
+            ]
+          },
+          "est_credit_impot_offert": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-01-02",
+            "max_date": "2026-04-21",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-01-02",
+            "max_date": "2026-06-19",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "groupe": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 129,
+            "top_values": [
+              {
+                "value": "01",
+                "count": 73
+              },
+              {
+                "value": "02",
+                "count": 59
+              },
+              {
+                "value": "B1",
+                "count": 33
+              },
+              {
+                "value": "03",
+                "count": 27
+              },
+              {
+                "value": "L1",
+                "count": 23
+              },
+              {
+                "value": "M1",
+                "count": 23
+              },
+              {
+                "value": "B2",
+                "count": 23
+              },
+              {
+                "value": "D6",
+                "count": 22
+              },
+              {
+                "value": "J1",
+                "count": 21
+              },
+              {
+                "value": "V1",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 659792.0,
+            "max": 672103.0,
+            "mean": 668409.149,
+            "median": 667991.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "installation_principale": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Patinoire Bleu-Blanc-Bouge, Confédération",
+                "count": 422
+              },
+              {
+                "value": "Aire de patinage, aréna Bill-Durnan",
+                "count": 117
+              },
+              {
+                "value": "Auditorium Espace Denis-Savard",
+                "count": 105
+              },
+              {
+                "value": "Aire de patinage, aréna Mont-Royal",
+                "count": 98
+              },
+              {
+                "value": "Aire de patinage, aréna Doug-Harvey",
+                "count": 87
+              },
+              {
+                "value": "Bassin de natation, piscine int Saint-Charles",
+                "count": 36
+              },
+              {
+                "value": "Bassin de natation, piscine int Émard",
+                "count": 28
+              },
+              {
+                "value": "Aire de patinage, aréna Saint-Charles",
+                "count": 25
+              },
+              {
+                "value": "Bassin de natation, piscine int Saint-Henri",
+                "count": 20
+              },
+              {
+                "value": "Aire de patinage, aréna St-Raphaël",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "adresse_site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "6262 avenue Fielding  , Montréal, H4V2W6",
+                "count": 422
+              },
+              {
+                "value": "4988 rue Vézina  , Montréal, H3W1C1",
+                "count": 117
+              },
+              {
+                "value": "4110 boulevard LaSalle  , Verdun, H4G2A5",
+                "count": 105
+              },
+              {
+                "value": "4365 rue Cartier  , Montréal, H2H2N9",
+                "count": 98
+              },
+              {
+                "value": "4985 avenue West Hill  , Montréal, H4V2W6",
+                "count": 87
+              },
+              {
+                "value": "1055 rue d' Hibernia  , Montréal, H3K2V3",
+                "count": 61
+              },
+              {
+                "value": "6071 rue Laurendeau  , Montréal, H4E3X6",
+                "count": 28
+              },
+              {
+                "value": "4055 rue Saint-Jacques  , Montréal, H4C1J3",
+                "count": 20
+              },
+              {
+                "value": "750 boulevard Jacques-Bizard  , L'Île-Bizard, H9C2Y2",
+                "count": 16
+              },
+              {
+                "value": "1115 avenue Laurier  , Montréal, H2J1G8",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "telephone_site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5140000311.0,
+            "max": 5148726966.0,
+            "mean": 5144847316.054,
+            "median": 5147657130.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5140000311",
+                "count": 422
+              },
+              {
+                "value": "5148726073",
+                "count": 117
+              },
+              {
+                "value": "5147657130",
+                "count": 105
+              },
+              {
+                "value": "5148724705",
+                "count": 98
+              },
+              {
+                "value": "5148726028",
+                "count": 87
+              },
+              {
+                "value": "5148722501",
+                "count": 36
+              },
+              {
+                "value": "5148722585",
+                "count": 28
+              },
+              {
+                "value": "5148723300",
+                "count": 25
+              },
+              {
+                "value": "5148722577",
+                "count": 20
+              },
+              {
+                "value": "5146205444",
+                "count": 16
+              }
+            ]
+          },
+          "site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Parc de la Confédération, patinoire BBB",
+                "count": 422
+              },
+              {
+                "value": "Aréna Bill-Durnan",
+                "count": 117
+              },
+              {
+                "value": "Auditorium de Verdun",
+                "count": 105
+              },
+              {
+                "value": "Aréna Mont-Royal",
+                "count": 98
+              },
+              {
+                "value": "Aréna Doug-Harvey",
+                "count": 87
+              },
+              {
+                "value": "Piscine intérieure Saint-Charles",
+                "count": 36
+              },
+              {
+                "value": "Piscine intérieure Émard",
+                "count": 28
+              },
+              {
+                "value": "Aréna Saint-Charles",
+                "count": 25
+              },
+              {
+                "value": "Piscine intérieure Saint-Henri",
+                "count": 20
+              },
+              {
+                "value": "Aréna Vincent-Lecavalier",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "heure_debut_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "08:30:00",
+            "max_date": "21:00:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "heure_fin_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "09:30:00",
+            "max_date": "22:30:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "jour_semaine_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Dimanche",
+            "max_date": "Vendredi",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 422,
+            "null_pct": 42.2,
+            "min": 45.457873,
+            "max": 45.533066,
+            "mean": 45.489176,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 422,
+            "null_pct": 42.2,
+            "min": -73.87627,
+            "max": -73.563189,
+            "mean": -73.608033,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "loc_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 275395.83,
+            "max": 12732287.47,
+            "mean": 5544318.8831,
+            "median": 299855.31,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "12732287.47",
+                "count": 422
+              },
+              {
+                "value": "293392.31",
+                "count": 117
+              },
+              {
+                "value": "299855.31",
+                "count": 105
+              },
+              {
+                "value": "299115.22",
+                "count": 98
+              },
+              {
+                "value": "293974.41",
+                "count": 87
+              },
+              {
+                "value": "299814.25",
+                "count": 61
+              },
+              {
+                "value": "297887.86",
+                "count": 28
+              },
+              {
+                "value": "298097.42",
+                "count": 20
+              },
+              {
+                "value": "275395.83",
+                "count": 16
+              },
+              {
+                "value": "298091.17",
+                "count": 8
+              }
+            ]
+          },
+          "loc_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 5043685.91,
+            "mean": 2912434.0976,
+            "median": 5035813.27,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 422
+              },
+              {
+                "value": "5039349.67",
+                "count": 117
+              },
+              {
+                "value": "5035813.27",
+                "count": 105
+              },
+              {
+                "value": "5043685.91",
+                "count": 98
+              },
+              {
+                "value": "5036790.53",
+                "count": 87
+              },
+              {
+                "value": "5037749.55",
+                "count": 61
+              },
+              {
+                "value": "5035330.87",
+                "count": 28
+              },
+              {
+                "value": "5037534.72",
+                "count": 20
+              },
+              {
+                "value": "5040379.82",
+                "count": 16
+              },
+              {
+                "value": "5043472.31",
+                "count": 8
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "22e63953-ac46-4965-83b1-456db143d007",
+      "name": "Programmation de sports et loisirs (année en cours)",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/22e63953-ac46-4965-83b1-456db143d007/download/programmation-de-sports-et-loisirs.json",
+      "datastore_active": false,
+      "size": 15930012,
+      "last_modified": "2026-03-09T00:03:50.401665",
+      "created": "2024-05-04T00:05:28.208386",
+      "schema": null
+    },
+    {
+      "id": "950aeca6-3fd5-4148-b210-2037ec2ca292",
+      "name": "Programmation actuelle de sports et loisirs (2020 à 2022)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/950aeca6-3fd5-4148-b210-2037ec2ca292/download/programmation-sports-loisirs-montreal-2022-2028.csv",
+      "datastore_active": true,
+      "size": 25444534,
+      "last_modified": "2024-01-02T02:07:53.291073",
+      "created": "2024-01-02T02:07:53.376827",
+      "schema": {
+        "resource_id": "950aeca6-3fd5-4148-b210-2037ec2ca292",
+        "total_records": 36942,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_activite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipalite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_inscription_obligatoire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_annulee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_maximum_places",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_minimum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_maximum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_credit_impot_offert",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "informations_additionnelles",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "installation_principale_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_debut_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_fin_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "jour_semaine_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_activite": "834348",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Arts martiaux et sports de combat",
+            "sous_categorie": "Taekwondo",
+            "nom": "Taekwondo cours multiniveaux 0-17 ans",
+            "description": "Taekwondo olympique 6-17 ans",
+            "promoteur": "Club taekwondo (W.T.)  Île-Bizard",
+            "telephone_promoteur": "5142613295",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "24",
+            "age_minimum": "6",
+            "age_maximum": "17",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+            "date_debut": "2022-10-01",
+            "date_fin": "2022-12-20",
+            "groupe": "01",
+            "id_seance": "594754",
+            "site_seance": "Salle Polyvalente, complexe sportif St-Raphaël",
+            "adresse_site_seance": "750 boulevard Jacques-Bizard   H9C2Y2 L'Île-Bizard",
+            "telephone_site_seance": "5146205444",
+            "installation_principale_seance": "Complexe sportif Saint-Raphaël",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:00:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.50272016295763",
+            "longitude": "-73.8762699648006",
+            "loc_x": "275395.83",
+            "loc_y": "5040379.82"
+          },
+          {
+            "_id": 2,
+            "id_activite": "834348",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Arts martiaux et sports de combat",
+            "sous_categorie": "Taekwondo",
+            "nom": "Taekwondo cours multiniveaux 0-17 ans",
+            "description": "Taekwondo olympique 6-17 ans",
+            "promoteur": "Club taekwondo (W.T.)  Île-Bizard",
+            "telephone_promoteur": "5142613295",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "24",
+            "age_minimum": "6",
+            "age_maximum": "17",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+            "date_debut": "2022-10-01",
+            "date_fin": "2022-12-20",
+            "groupe": "01",
+            "id_seance": "594753",
+            "site_seance": "Salle Polyvalente, complexe sportif St-Raphaël",
+            "adresse_site_seance": "750 boulevard Jacques-Bizard   H9C2Y2 L'Île-Bizard",
+            "telephone_site_seance": "5146205444",
+            "installation_principale_seance": "Complexe sportif Saint-Raphaël",
+            "heure_debut_seance": "10:00:00",
+            "heure_fin_seance": "12:30:00",
+            "jour_semaine_seance": "Samedi",
+            "latitude": "45.50272016295763",
+            "longitude": "-73.8762699648006",
+            "loc_x": "275395.83",
+            "loc_y": "5040379.82"
+          },
+          {
+            "_id": 3,
+            "id_activite": "834348",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Arts martiaux et sports de combat",
+            "sous_categorie": "Taekwondo",
+            "nom": "Taekwondo cours multiniveaux 0-17 ans",
+            "description": "Taekwondo olympique 6-17 ans",
+            "promoteur": "Club taekwondo (W.T.)  Île-Bizard",
+            "telephone_promoteur": "5142613295",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "24",
+            "age_minimum": "6",
+            "age_maximum": "17",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+            "date_debut": "2022-10-01",
+            "date_fin": "2022-12-20",
+            "groupe": "01",
+            "id_seance": "598295",
+            "site_seance": "Salle Polyvalente, complexe sportif St-Raphaël",
+            "adresse_site_seance": "750 boulevard Jacques-Bizard   H9C2Y2 L'Île-Bizard",
+            "telephone_site_seance": "5146205444",
+            "installation_principale_seance": "Complexe sportif Saint-Raphaël",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:00:00",
+            "jour_semaine_seance": "Jeudi",
+            "latitude": "45.50272016295763",
+            "longitude": "-73.8762699648006",
+            "loc_x": "275395.83",
+            "loc_y": "5040379.82"
+          },
+          {
+            "_id": 4,
+            "id_activite": "838897",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Arts martiaux et sports de combat",
+            "sous_categorie": "Taekwondo",
+            "nom": "Taekwondo cours multiniveaux 0-17 ans",
+            "description": "Taekwondo olympique 6-17 ans",
+            "promoteur": "Club taekwondo (W.T.)  Île-Bizard",
+            "telephone_promoteur": "5142613295",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "24",
+            "age_minimum": "6",
+            "age_maximum": "17",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+            "date_debut": "2023-01-10",
+            "date_fin": "2023-03-25",
+            "groupe": "01",
+            "id_seance": "600795",
+            "site_seance": "Salle Polyvalente, complexe sportif St-Raphaël",
+            "adresse_site_seance": "750 boulevard Jacques-Bizard   H9C2Y2 L'Île-Bizard",
+            "telephone_site_seance": "5146205444",
+            "installation_principale_seance": "Complexe sportif Saint-Raphaël",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "21:00:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.50272016295763",
+            "longitude": "-73.8762699648006",
+            "loc_x": "275395.83",
+            "loc_y": "5040379.82"
+          },
+          {
+            "_id": 5,
+            "id_activite": "838897",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Arts martiaux et sports de combat",
+            "sous_categorie": "Taekwondo",
+            "nom": "Taekwondo cours multiniveaux 0-17 ans",
+            "description": "Taekwondo olympique 6-17 ans",
+            "promoteur": "Club taekwondo (W.T.)  Île-Bizard",
+            "telephone_promoteur": "5142613295",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "24",
+            "age_minimum": "6",
+            "age_maximum": "17",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+            "date_debut": "2023-01-10",
+            "date_fin": "2023-03-25",
+            "groupe": "01",
+            "id_seance": "600797",
+            "site_seance": "Salle Polyvalente, complexe sportif St-Raphaël",
+            "adresse_site_seance": "750 boulevard Jacques-Bizard   H9C2Y2 L'Île-Bizard",
+            "telephone_site_seance": "5146205444",
+            "installation_principale_seance": "Complexe sportif Saint-Raphaël",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "21:00:00",
+            "jour_semaine_seance": "Jeudi",
+            "latitude": "45.50272016295763",
+            "longitude": "-73.8762699648006",
+            "loc_x": "275395.83",
+            "loc_y": "5040379.82"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_activite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipalite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_categorie": {
+          "null_count": 1248,
+          "null_pct": 3.4,
+          "populated_pct": 96.6
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "promoteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "telephone_promoteur": {
+          "null_count": 12260,
+          "null_pct": 33.2,
+          "populated_pct": 66.8
+        },
+        "est_inscription_obligatoire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "est_annulee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 36623,
+          "null_pct": 99.1,
+          "populated_pct": 0.9
+        },
+        "nb_maximum_places": {
+          "null_count": 6499,
+          "null_pct": 17.6,
+          "populated_pct": 82.4
+        },
+        "age_minimum": {
+          "null_count": 10189,
+          "null_pct": 27.6,
+          "populated_pct": 72.4
+        },
+        "age_maximum": {
+          "null_count": 20125,
+          "null_pct": 54.5,
+          "populated_pct": 45.5
+        },
+        "est_credit_impot_offert": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "informations_additionnelles": {
+          "null_count": 10210,
+          "null_pct": 27.6,
+          "populated_pct": 72.4
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "site_seance": {
+          "null_count": 950,
+          "null_pct": 2.6,
+          "populated_pct": 97.4
+        },
+        "adresse_site_seance": {
+          "null_count": 127,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "telephone_site_seance": {
+          "null_count": 508,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "installation_principale_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_debut_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_fin_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "jour_semaine_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 1358,
+          "null_pct": 3.7,
+          "populated_pct": 96.3
+        },
+        "longitude": {
+          "null_count": 1358,
+          "null_pct": 3.7,
+          "populated_pct": 96.3
+        },
+        "loc_x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 36942,
+        "audited_at": "2026-03-10T00:22:44.484764+00:00",
+        "fields": {
+          "id_activite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 813999.0,
+            "max": 858056.0,
+            "mean": 840427.337,
+            "median": 841184.5,
+            "unique_count": 857,
+            "field_type_detected": "numeric"
+          },
+          "municipalite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Sports collectifs",
+                "count": 546
+              },
+              {
+                "value": "Sports de raquette",
+                "count": 394
+              },
+              {
+                "value": "Arts martiaux et sports de combat",
+                "count": 41
+              },
+              {
+                "value": "Arts dramatiques",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Basket-ball",
+                "count": 399
+              },
+              {
+                "value": "Badminton",
+                "count": 298
+              },
+              {
+                "value": "Volley-ball",
+                "count": 147
+              },
+              {
+                "value": "Tennis",
+                "count": 96
+              },
+              {
+                "value": "Taekwondo",
+                "count": 41
+              },
+              {
+                "value": "Improvisation",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 70,
+            "top_values": [
+              {
+                "value": "Basket-ball pratique libre 6-12 ans",
+                "count": 95
+              },
+              {
+                "value": "Volley-ball pratique libre pour tous",
+                "count": 91
+              },
+              {
+                "value": "Badminton pratique libre récréatif 18 ans et +",
+                "count": 89
+              },
+              {
+                "value": "Basket-ball pratique libre tous",
+                "count": 84
+              },
+              {
+                "value": "Basket-ball entraînement 13 ans et +",
+                "count": 76
+              },
+              {
+                "value": "Volley-ball  pratique libre récréatif 18 ans et +",
+                "count": 42
+              },
+              {
+                "value": "Badminton cours 6-17 ans",
+                "count": 30
+              },
+              {
+                "value": "Badminton pratique libre récréatif 55 ans et +",
+                "count": 28
+              },
+              {
+                "value": "Basket-ball pratique libre 13-17 ans",
+                "count": 27
+              },
+              {
+                "value": "Badminton pratique libre compétition 18 ans et +",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 465,
+            "top_values": [
+              {
+                "value": "Badminton",
+                "count": 39
+              },
+              {
+                "value": "Basketball libre pour tous",
+                "count": 37
+              },
+              {
+                "value": "Basketball",
+                "count": 34
+              },
+              {
+                "value": "Badminton session",
+                "count": 32
+              },
+              {
+                "value": "Badminton libre/terrain",
+                "count": 29
+              },
+              {
+                "value": "Badminton libre - pour les aînés",
+                "count": 20
+              },
+              {
+                "value": "Badminton libre",
+                "count": 19
+              },
+              {
+                "value": "Club de badminton Malépart",
+                "count": 18
+              },
+              {
+                "value": "Basket-ball",
+                "count": 14
+              },
+              {
+                "value": "Volley-ball récréatif",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "promoteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 36,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 199
+              },
+              {
+                "value": "Corporation du centre Jean-Claude-Malépart",
+                "count": 190
+              },
+              {
+                "value": "Arrondissement de Verdun",
+                "count": 115
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 66
+              },
+              {
+                "value": "Patro Villeray",
+                "count": 59
+              },
+              {
+                "value": "Ville de Montréal - Arrondissement Anjou",
+                "count": 58
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 32
+              },
+              {
+                "value": "Corporation de Gestion des Loisirs du Parc",
+                "count": 31
+              },
+              {
+                "value": "Badminton Lachine",
+                "count": 27
+              },
+              {
+                "value": "Direction culture, sports, loisirs et développement social Montréal-Nord",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_promoteur": {
+            "null_count": 380,
+            "null_pct": 38.0,
+            "min": 4383922995.0,
+            "max": 51432840004267.0,
+            "mean": 2319283574145.6177,
+            "median": 5145216884.0,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "est_inscription_obligatoire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Vrai",
+                "count": 509
+              },
+              {
+                "value": "Faux",
+                "count": 491
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "est_annulee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 994
+              },
+              {
+                "value": "Vrai",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "raison_annulation": {
+            "null_count": 995,
+            "null_pct": 99.5,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 2.6,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "01",
+                "count": 3
+              },
+              {
+                "value": "05",
+                "count": 2
+              }
+            ]
+          },
+          "nb_maximum_places": {
+            "null_count": 228,
+            "null_pct": 22.8,
+            "min": 0.0,
+            "max": 99.0,
+            "mean": 18.4845,
+            "median": 16.0,
+            "unique_count": 26,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "25",
+                "count": 178
+              },
+              {
+                "value": "12",
+                "count": 94
+              },
+              {
+                "value": "16",
+                "count": 92
+              },
+              {
+                "value": "20",
+                "count": 90
+              },
+              {
+                "value": "1",
+                "count": 66
+              },
+              {
+                "value": "15",
+                "count": 55
+              },
+              {
+                "value": "30",
+                "count": 33
+              },
+              {
+                "value": "8",
+                "count": 33
+              },
+              {
+                "value": "24",
+                "count": 22
+              },
+              {
+                "value": "21",
+                "count": 20
+              }
+            ]
+          },
+          "age_minimum": {
+            "null_count": 168,
+            "null_pct": 16.8,
+            "min": 4.0,
+            "max": 55.0,
+            "mean": 13.9856,
+            "median": 14.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 208
+              },
+              {
+                "value": "18",
+                "count": 205
+              },
+              {
+                "value": "16",
+                "count": 153
+              },
+              {
+                "value": "7",
+                "count": 46
+              },
+              {
+                "value": "13",
+                "count": 36
+              },
+              {
+                "value": "12",
+                "count": 34
+              },
+              {
+                "value": "50",
+                "count": 34
+              },
+              {
+                "value": "8",
+                "count": 30
+              },
+              {
+                "value": "9",
+                "count": 24
+              },
+              {
+                "value": "14",
+                "count": 23
+              }
+            ]
+          },
+          "age_maximum": {
+            "null_count": 550,
+            "null_pct": 55.0,
+            "min": 6.0,
+            "max": 100.0,
+            "mean": 32.6333,
+            "median": 15.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "12",
+                "count": 142
+              },
+              {
+                "value": "17",
+                "count": 101
+              },
+              {
+                "value": "99",
+                "count": 98
+              },
+              {
+                "value": "11",
+                "count": 24
+              },
+              {
+                "value": "8",
+                "count": 20
+              },
+              {
+                "value": "15",
+                "count": 20
+              },
+              {
+                "value": "16",
+                "count": 10
+              },
+              {
+                "value": "7",
+                "count": 6
+              },
+              {
+                "value": "24",
+                "count": 6
+              },
+              {
+                "value": "9",
+                "count": 6
+              }
+            ]
+          },
+          "est_credit_impot_offert": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "informations_additionnelles": {
+            "null_count": 504,
+            "null_pct": 50.4,
+            "unique_count": 77,
+            "top_values": [
+              {
+                "value": "Une carte loisirs valide est requise pour s'inscrire.\n\nIl est possible de s'inscrire 72 heures à l'avance.\n\nL'arrondissement se réserve le droit d'annuler l'inscription de toutes personnes ne respectant pas les conditions d'inscription.\n\nSeules les demandes de transferts faites 48 h à l'avance seront acceptées.",
+                "count": 131
+              },
+              {
+                "value": "Une carte loisirs valide est requise pour s'inscrire.\n\nIl est possible de s'inscrire 72 heures à l'avance.\n\nL'arrondissement se réserve le droit d'annuler l'inscription de toutes personnes ne respectant pas les conditions d'inscription.\n\nSeules les demandes de transferts faites 48 h à l'avance seront acceptées.\n\n***COVID-19***\nÀ partir du 1er septembre, la preuve vaccinale sera obligatoire (pour les 13 ans et +) afin de participer à cette activité. Ayez votre preuve vaccinale en main ainsi qu'une preuve d'identité en tout temps.\n\nVeuillez prendre connaissance et suivre les directives des instances gouvernementales sur le port du masque avant de vous présenter au Complexe sportif.\n\nNous recommandons le lavage des mains aux trente minutes, ou à la fin de chaque partie.\n\nAssurez-vous de suivre les consignes de circulation dans chaque espace.",
+                "count": 51
+              },
+              {
+                "value": "La séance de basketball libre est ouverte à tous les résidents de la Ville de Montréal. Les plages horaires peuvent être réservées deux jours à l'avance, à compter de 8 h le matin. Le respect des mesures d'hygiène est obligatoire en tout temps. Aucune annulation et remboursement ne seront possibles.",
+                "count": 47
+              },
+              {
+                "value": "www.asccs.qc.ca",
+                "count": 32
+              },
+              {
+                "value": "Une carte loisirs valide est requise pour s'inscrire.\n\nL'arrondissement se réserve le droit d'annuler l'inscription de toutes personnes ne respectant pas les conditions d'inscription.\n\nSeules les demandes de transferts faites 48 h à l'avance seront acceptées.",
+                "count": 17
+              },
+              {
+                "value": "Activité libre de badminton réservée aux aînés.Veuillez noter que le passeport vaccinal est obligatoire afin de participer à l'activité. De plus, les mesures sanitaires de la santé publique en vigueur s'appliqueront. \nSeulement des matchs simples sont autorisés, ce qui réduit le nombre de joueurs à 6 à la fois étant donné qu'il y a 3 terrains de jeu.",
+                "count": 15
+              },
+              {
+                "value": "Inscription uniquement au comptoir du centre Pierre-Charbonneau. Le forfait badminton pickle ball, vous permet de venir jouer à l'un de ces deux sports du lundi au vendredi de 10 h 45 à 16 h 00 de septembre à mai.\n\nVous devez réserver votre terrain à l'avance et indiquer le sport choisi.",
+                "count": 12
+              },
+              {
+                "value": "Affiliation à la Fédération, assurance, uniforme, frais d'examen et ceinture inclus.",
+                "count": 10
+              },
+              {
+                "value": "Dans le cadre de la programmation Verdun Actif\nL'activité est gratuite\nAucune réservation n’est nécessaire.",
+                "count": 8
+              },
+              {
+                "value": "Séances de pratique libre de badminton sur trois terrains. Les volants et les raquettes ne sont pas fournis et les équipes sont formées avec les participants sur place.",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-03",
+            "max_date": "2024-03-04",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-11",
+            "max_date": "2029-09-22",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "groupe": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 68.0,
+            "mean": 7.0578,
+            "median": 3.0,
+            "unique_count": 66,
+            "field_type_detected": "numeric"
+          },
+          "id_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 567537.0,
+            "max": 625139.0,
+            "mean": 603440.998,
+            "median": 603582.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "site_seance": {
+            "null_count": 35,
+            "null_pct": 3.5,
+            "unique_count": 73,
+            "top_values": [
+              {
+                "value": "3-200 Gymnase, Complexe sportif STL",
+                "count": 199
+              },
+              {
+                "value": "CJCM gymnase simple #017",
+                "count": 93
+              },
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 76
+              },
+              {
+                "value": "Auditorium Basketball",
+                "count": 47
+              },
+              {
+                "value": "Centre Patro Villeray",
+                "count": 46
+              },
+              {
+                "value": "École NDL, Gymnase",
+                "count": 29
+              },
+              {
+                "value": "Terrains de tennis (4 places) parc Roger-Rousseau",
+                "count": 28
+              },
+              {
+                "value": "CJCM gymnase double #017/019",
+                "count": 24
+              },
+              {
+                "value": "CSA Gymnase 1-2",
+                "count": 23
+              },
+              {
+                "value": "Salle Boileau, centre socioculturel",
+                "count": 22
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse_site_seance": {
+            "null_count": 49,
+            "null_pct": 4.9,
+            "unique_count": 45,
+            "top_values": [
+              {
+                "value": "2385 boulevard Thimens   H4R1T4 Saint-Laurent",
+                "count": 199
+              },
+              {
+                "value": "2633 rue Ontario   H2K1W8 Montréal",
+                "count": 195
+              },
+              {
+                "value": "7355 avenue Christophe-Colomb   H2R2S5 Montréal",
+                "count": 55
+              },
+              {
+                "value": "4110 boulevard LaSalle   H4G2A5 Verdun",
+                "count": 47
+              },
+              {
+                "value": "2093 rue de la Visitation   H2L3C9 Montréal",
+                "count": 32
+              },
+              {
+                "value": "50 12e Avenue   H8S3H6 Lachine",
+                "count": 32
+              },
+              {
+                "value": "419 rue Saint-Roch   H3N1K2 Montréal",
+                "count": 31
+              },
+              {
+                "value": "504 5e Avenue   H4G2Z1 Verdun",
+                "count": 30
+              },
+              {
+                "value": "8205 rue Fonteneau   H1K3P4 Anjou",
+                "count": 28
+              },
+              {
+                "value": "7501 avenue Rondeau   H1K2P3 Anjou",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_site_seance": {
+            "null_count": 41,
+            "null_pct": 4.1,
+            "min": 514.0,
+            "max": 5149823437.0,
+            "mean": 5119124721.659,
+            "median": 5145222246.0,
+            "unique_count": 41,
+            "field_type_detected": "numeric"
+          },
+          "installation_principale_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 48,
+            "top_values": [
+              {
+                "value": "Complexe sportif Saint-Laurent",
+                "count": 199
+              },
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 195
+              },
+              {
+                "value": "Centre Patro Villeray",
+                "count": 55
+              },
+              {
+                "value": "Auditorium de Verdun",
+                "count": 47
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 32
+              },
+              {
+                "value": "Complexe sportif du Collège Sainte-Anne",
+                "count": 32
+              },
+              {
+                "value": "Complexe Loisirs William-Hingston",
+                "count": 31
+              },
+              {
+                "value": "École Notre-Dame-de-Lourdes",
+                "count": 30
+              },
+              {
+                "value": "École secondaire d'Anjou",
+                "count": 28
+              },
+              {
+                "value": "Parc Roger-Rousseau terrain sportif",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "heure_debut_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "01:00:00",
+            "max_date": "21:30:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "heure_fin_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "09:00:00",
+            "max_date": "23:00:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "jour_semaine_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Dimanche",
+            "max_date": "Vendredi",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 49,
+            "null_pct": 4.9,
+            "min": 45.431998,
+            "max": 45.636397,
+            "mean": 45.524205,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 49,
+            "null_pct": 4.9,
+            "min": -73.882362,
+            "max": -73.492344,
+            "mean": -73.61951,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "loc_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 274912.62,
+            "max": 12732287.47,
+            "mean": 904866.4795,
+            "median": 299269.55,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          },
+          "loc_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 5055166.72,
+            "mean": 4795616.4327,
+            "median": 5042552.12,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "34762c1d-21e5-4d44-8d5e-2fd5f129b22d",
+      "name": "Programmation actuelle de sports et loisirs (2020 à 2022)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/34762c1d-21e5-4d44-8d5e-2fd5f129b22d/download/programmation-sports-loisirs-montreal-2022-2028.geojson",
+      "datastore_active": false,
+      "size": 85614185,
+      "last_modified": "2024-01-02T02:09:13.346107",
+      "created": "2024-01-02T02:09:13.411769",
+      "schema": null
+    },
+    {
+      "id": "a6b183ed-c86f-4f7a-905e-c3ded5573a73",
+      "name": "Programmation historique de sports et loisirs (2017 à 2019)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/a6b183ed-c86f-4f7a-905e-c3ded5573a73/download/programmation-sports-loisirs-montreal-2017-2023.csv",
+      "datastore_active": true,
+      "size": 76525144,
+      "last_modified": "2023-12-06T23:00:28.257742",
+      "created": "2022-08-30T19:21:50.703570",
+      "schema": {
+        "resource_id": "a6b183ed-c86f-4f7a-905e-c3ded5573a73",
+        "total_records": 119114,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_activite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipalite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_inscription_obligatoire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_annulee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_maximum_places",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_minimum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_maximum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_credit_impot_offert",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "informations_additionnelles",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "installation_principale_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_debut_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_fin_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "jour_semaine_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_activite": "675830",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités de conditionnement physique",
+            "sous_categorie": "Exercices musculaires",
+            "nom": "Abdos-fessiers 18 ans et +",
+            "description": "Abdos / fessiers",
+            "promoteur": "Les loisirs du centre Père-Marquette",
+            "telephone_promoteur": "5148728705",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "18",
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": null,
+            "date_debut": "2017-09-20",
+            "date_fin": "2017-12-18",
+            "groupe": "06",
+            "id_seance": "344345",
+            "site_seance": "Centre Père-Marquette",
+            "adresse_site_seance": "1600 rue De Drucourt   H2G1N6 Montréal",
+            "telephone_site_seance": "5148728705",
+            "installation_principale_seance": "Centre Père-Marquette",
+            "heure_debut_seance": "18:05:00",
+            "heure_fin_seance": "18:55:00",
+            "jour_semaine_seance": "Jeudi",
+            "latitude": "45.54120799162517",
+            "longitude": "-73.59599974248036",
+            "loc_x": "297303.07",
+            "loc_y": "5044592.62"
+          },
+          {
+            "_id": 2,
+            "id_activite": "714238",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités de conditionnement physique",
+            "sous_categorie": "Exercices musculaires",
+            "nom": "Pilates cours multiniveaux 18+",
+            "description": "Pilates cours multiniveaux 16 ans et +",
+            "promoteur": "Ville de Montréal - Arrondissement Anjou",
+            "telephone_promoteur": "5144938222",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "19",
+            "age_minimum": "16",
+            "age_maximum": "99",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": null,
+            "date_debut": "2017-09-26",
+            "date_fin": "2017-11-28",
+            "groupe": "MA",
+            "id_seance": "409351",
+            "site_seance": "Salle multifonctionnel (024)",
+            "adresse_site_seance": "7800 boulevard Métropolitain   H1K1A1 Anjou",
+            "telephone_site_seance": "514",
+            "installation_principale_seance": "Centre Communautaire Anjou",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.60793779617301",
+            "longitude": "-73.56330389485073",
+            "loc_x": "299862.25",
+            "loc_y": "5052005.9"
+          },
+          {
+            "_id": 3,
+            "id_activite": "725792",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités de conditionnement physique",
+            "sous_categorie": "Exercices musculaires",
+            "nom": "Pilates cours multiniveaux 18+",
+            "description": "Pilates cours multiniveaux 16 ans et +",
+            "promoteur": "Ville de Montréal - Arrondissement Anjou",
+            "telephone_promoteur": "5144938222",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "19",
+            "age_minimum": "16",
+            "age_maximum": "99",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": "16 ans et +",
+            "date_debut": "2018-01-23",
+            "date_fin": "2018-05-01",
+            "groupe": "MA",
+            "id_seance": "425683",
+            "site_seance": "Salle multifonctionnel (024)",
+            "adresse_site_seance": "7800 boulevard Métropolitain   H1K1A1 Anjou",
+            "telephone_site_seance": "514",
+            "installation_principale_seance": "Centre Communautaire Anjou",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.60793779617301",
+            "longitude": "-73.56330389485073",
+            "loc_x": "299862.25",
+            "loc_y": "5052005.9"
+          },
+          {
+            "_id": 4,
+            "id_activite": "741354",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités de conditionnement physique",
+            "sous_categorie": "Exercices musculaires",
+            "nom": "Pilates cours multiniveaux 18+",
+            "description": "Pilates cours multiniveaux 16 ans et +",
+            "promoteur": "Ville de Montréal - Arrondissement Anjou",
+            "telephone_promoteur": "5144938222",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "19",
+            "age_minimum": "16",
+            "age_maximum": "99",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": null,
+            "date_debut": "2018-09-25",
+            "date_fin": "2018-11-27",
+            "groupe": "MA",
+            "id_seance": "453985",
+            "site_seance": "Salle multifonctionnel (024)",
+            "adresse_site_seance": "7800 boulevard Métropolitain   H1K1A1 Anjou",
+            "telephone_site_seance": "514",
+            "installation_principale_seance": "Centre Communautaire Anjou",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.60793779617301",
+            "longitude": "-73.56330389485073",
+            "loc_x": "299862.25",
+            "loc_y": "5052005.9"
+          },
+          {
+            "_id": 5,
+            "id_activite": "769844",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités de conditionnement physique",
+            "sous_categorie": "Exercices musculaires",
+            "nom": "Pilates cours multiniveaux 18+",
+            "description": "Pilates cours multiniveaux 16 ans et +",
+            "promoteur": "Ville de Montréal - Arrondissement Anjou",
+            "telephone_promoteur": "5144938222",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": "19",
+            "age_minimum": "16",
+            "age_maximum": "99",
+            "est_credit_impot_offert": "Faux",
+            "informations_additionnelles": null,
+            "date_debut": "2020-01-21",
+            "date_fin": "2020-05-05",
+            "groupe": "MA",
+            "id_seance": "506186",
+            "site_seance": "Salle multifonctionnel (024)",
+            "adresse_site_seance": "7800 boulevard Métropolitain   H1K1A1 Anjou",
+            "telephone_site_seance": "514",
+            "installation_principale_seance": "Centre Communautaire Anjou",
+            "heure_debut_seance": "19:00:00",
+            "heure_fin_seance": "20:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.60793779617301",
+            "longitude": "-73.56330389485073",
+            "loc_x": "299862.25",
+            "loc_y": "5052005.9"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_activite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipalite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_categorie": {
+          "null_count": 4262,
+          "null_pct": 3.6,
+          "populated_pct": 96.4
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "promoteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "telephone_promoteur": {
+          "null_count": 24006,
+          "null_pct": 20.2,
+          "populated_pct": 79.8
+        },
+        "est_inscription_obligatoire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "est_annulee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 118158,
+          "null_pct": 99.2,
+          "populated_pct": 0.8
+        },
+        "nb_maximum_places": {
+          "null_count": 30694,
+          "null_pct": 25.8,
+          "populated_pct": 74.2
+        },
+        "age_minimum": {
+          "null_count": 25928,
+          "null_pct": 21.8,
+          "populated_pct": 78.2
+        },
+        "age_maximum": {
+          "null_count": 55877,
+          "null_pct": 46.9,
+          "populated_pct": 53.1
+        },
+        "est_credit_impot_offert": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "informations_additionnelles": {
+          "null_count": 50842,
+          "null_pct": 42.7,
+          "populated_pct": 57.3
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 170,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "site_seance": {
+          "null_count": 4370,
+          "null_pct": 3.7,
+          "populated_pct": 96.3
+        },
+        "adresse_site_seance": {
+          "null_count": 94,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "telephone_site_seance": {
+          "null_count": 3868,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        },
+        "installation_principale_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_debut_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_fin_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "jour_semaine_seance": {
+          "null_count": 9,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 1679,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "longitude": {
+          "null_count": 1679,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "loc_x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 119114,
+        "audited_at": "2026-03-10T00:22:46.022313+00:00",
+        "fields": {
+          "id_activite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 675830.0,
+            "max": 837660.0,
+            "mean": 757890.316,
+            "median": 754891.0,
+            "unique_count": 702,
+            "field_type_detected": "numeric"
+          },
+          "municipalite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Activités de conditionnement physique",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Exercices musculaires",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 23,
+            "top_values": [
+              {
+                "value": "Pilates 13 ans et +",
+                "count": 207
+              },
+              {
+                "value": "Pilates cours multiniveaux 18+",
+                "count": 139
+              },
+              {
+                "value": "Étirements 18 ans et +",
+                "count": 98
+              },
+              {
+                "value": "Stretching 18 ans et +",
+                "count": 67
+              },
+              {
+                "value": "Musculation cours dirigé 18 ans et +",
+                "count": 64
+              },
+              {
+                "value": "Musculation abonnement 13 ans et +",
+                "count": 64
+              },
+              {
+                "value": "Pilates cours débutant 18+",
+                "count": 60
+              },
+              {
+                "value": "Abdos-fessiers 18 ans et +",
+                "count": 58
+              },
+              {
+                "value": "Pilates avancé 13 ans et +",
+                "count": 33
+              },
+              {
+                "value": "Forme-flex cours multiniv 18+",
+                "count": 32
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 136,
+            "top_values": [
+              {
+                "value": "Pilates",
+                "count": 181
+              },
+              {
+                "value": "Stretching",
+                "count": 63
+              },
+              {
+                "value": "Étirements 50 ans et +",
+                "count": 58
+              },
+              {
+                "value": "Pilates matin",
+                "count": 34
+              },
+              {
+                "value": "Étirement et Essentrics",
+                "count": 30
+              },
+              {
+                "value": "Musculation",
+                "count": 28
+              },
+              {
+                "value": "Programme de mise en forme",
+                "count": 27
+              },
+              {
+                "value": "Abdos-fessiers",
+                "count": 22
+              },
+              {
+                "value": "Ballet Fit",
+                "count": 20
+              },
+              {
+                "value": "Musculation encadrée 1",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "promoteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 32,
+            "top_values": [
+              {
+                "value": "Sports Montréal inc.",
+                "count": 162
+              },
+              {
+                "value": "Direction des loisirs, de la culture et des communications",
+                "count": 116
+              },
+              {
+                "value": "Loisirs sportifs CDN/NDG",
+                "count": 103
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 97
+              },
+              {
+                "value": "Corporation du centre Jean-Claude-Malépart",
+                "count": 95
+              },
+              {
+                "value": "Association des aînés actifs du Sud-Ouest",
+                "count": 82
+              },
+              {
+                "value": "Centre de Loisirs Communautaires Lajeunesse",
+                "count": 63
+              },
+              {
+                "value": "Centre communautaire de loisir de la CDN",
+                "count": 46
+              },
+              {
+                "value": "Patro Villeray",
+                "count": 35
+              },
+              {
+                "value": "Loisirs communautaires Saint-Michel",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_promoteur": {
+            "null_count": 116,
+            "null_pct": 11.6,
+            "min": 4388231153.0,
+            "max": 5143743470225.0,
+            "mean": 10940962893.2726,
+            "median": 5145222246.0,
+            "unique_count": 31,
+            "field_type_detected": "numeric"
+          },
+          "est_inscription_obligatoire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 682
+              },
+              {
+                "value": "Vrai",
+                "count": 318
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "est_annulee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 957
+              },
+              {
+                "value": "Vrai",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "raison_annulation": {
+            "null_count": 982,
+            "null_pct": 98.2,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.5556,
+            "median": 5.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "05",
+                "count": 16
+              },
+              {
+                "value": "01",
+                "count": 2
+              }
+            ]
+          },
+          "nb_maximum_places": {
+            "null_count": 545,
+            "null_pct": 54.5,
+            "min": 0.0,
+            "max": 80.0,
+            "mean": 16.7934,
+            "median": 16.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "20",
+                "count": 127
+              },
+              {
+                "value": "15",
+                "count": 100
+              },
+              {
+                "value": "10",
+                "count": 62
+              },
+              {
+                "value": "18",
+                "count": 48
+              },
+              {
+                "value": "16",
+                "count": 37
+              },
+              {
+                "value": "12",
+                "count": 29
+              },
+              {
+                "value": "23",
+                "count": 14
+              },
+              {
+                "value": "25",
+                "count": 12
+              },
+              {
+                "value": "0",
+                "count": 7
+              },
+              {
+                "value": "19",
+                "count": 4
+              }
+            ]
+          },
+          "age_minimum": {
+            "null_count": 10,
+            "null_pct": 1.0,
+            "min": 0.0,
+            "max": 55.0,
+            "mean": 20.7242,
+            "median": 16.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "18",
+                "count": 372
+              },
+              {
+                "value": "16",
+                "count": 342
+              },
+              {
+                "value": "15",
+                "count": 157
+              },
+              {
+                "value": "55",
+                "count": 78
+              },
+              {
+                "value": "50",
+                "count": 32
+              },
+              {
+                "value": "13",
+                "count": 8
+              },
+              {
+                "value": "0",
+                "count": 1
+              }
+            ]
+          },
+          "age_maximum": {
+            "null_count": 821,
+            "null_pct": 82.1,
+            "min": 1.0,
+            "max": 100.0,
+            "mean": 80.0112,
+            "median": 99.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "99",
+                "count": 66
+              },
+              {
+                "value": "55",
+                "count": 63
+              },
+              {
+                "value": "100",
+                "count": 43
+              },
+              {
+                "value": "1",
+                "count": 6
+              },
+              {
+                "value": "17",
+                "count": 1
+              }
+            ]
+          },
+          "est_credit_impot_offert": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "informations_additionnelles": {
+            "null_count": 582,
+            "null_pct": 58.2,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "www.asccs.qc.ca",
+                "count": 92
+              },
+              {
+                "value": "www.cjcm.ca",
+                "count": 49
+              },
+              {
+                "value": "La méthode Pilates se compose de séries de mouvements progressifs doux, qui permettent d'allonger et de renforcer les muscles. Elle vise l'amélioration de la posture et de la tonicité tout en vous procurant une détente en profondeur!",
+                "count": 42
+              },
+              {
+                "value": "Les activités de mise en forme et de détente sont destinées à un public de tous niveaux",
+                "count": 33
+              },
+              {
+                "value": "Ce cours est composé d'exercices d'étirements permettant l'assouplissement des muscles et le renforcement des articulations. Il vise aussi la prévention des blessures et la détente. Ce cours s'adresse à tous et particulièrement aux personnes pratiquant des activités avec des mouvements répétitifs.",
+                "count": 32
+              },
+              {
+                "value": "Un classique de l'entraînement musculaire qui consiste en une série d'exercices concentrés sur le renforcement des muscles abdominaux et fessiers. La séance débute par un réchauffement cardiovasculaire, puis est suivie d'une longue période de musculation ciblée, pour se terminer par une série d'étirements. Le travail musculaire est élevé.",
+                "count": 29
+              },
+              {
+                "value": "Cette activité est inspirée du ballet et du Pilates. Après un échauffement global, les mouvements de ballet sur barre seront intégrés progressivement en cours de séance pour vous permettre d'améliorer votre posture et de réaligner harmonieusement les différentes structures anatomiques de votre corps au fil de la session. Diverses options d'exercices vous seront proposées afin que chacun y trouve le rythme de progression qui lui convient. Venez éveiller la ballerine en vous, tout en allongement et en finesse!",
+                "count": 20
+              },
+              {
+                "value": "Activité accessible pour la mise en forme illimitée.",
+                "count": 19
+              },
+              {
+                "value": "Ce cours est conçu pour les femmes enceintes qui désirent bouger en douceur durant leur grossesse tout en maintenant une bonne condition physique. Les exercices seront exécutés dans des positions confortables. De plus, des options seront offertes selon le trimestre et les besoins de la future maman. Le Pilates prénatal met l'accent sur du travail de renforcement de certains groupes musculaires dont les bénéfices seront ressentis non seulement durant la grossesse, mais aussi après l'accouchement.",
+                "count": 18
+              },
+              {
+                "value": "La méthode Pilates se compose de séries de mouvements progressifs doux, qui permettent d'allonger et de renforcer les muscles. Elle vise l'amélioration de la posture et de la tonicité tout en vous procurant une détente en profondeur!\n\nLe point de rencontre est à côté de l'aire de cardiovélo située au rez-de-chaussée du complexe sportif Claude-Robillard. Le cours aura lieu sur la terrasse extérieure au 2e étage. S'il pleut, le cours sera au hall du 2e étage.",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-09-01",
+            "max_date": "2022-10-29",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-11-15",
+            "max_date": "2022-12-18",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "groupe": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 35.0,
+            "mean": 4.1221,
+            "median": 2.0,
+            "unique_count": 22,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "01",
+                "count": 393
+              },
+              {
+                "value": "02",
+                "count": 181
+              },
+              {
+                "value": "03",
+                "count": 112
+              },
+              {
+                "value": "04",
+                "count": 81
+              },
+              {
+                "value": "06",
+                "count": 46
+              },
+              {
+                "value": "05",
+                "count": 35
+              },
+              {
+                "value": "07",
+                "count": 27
+              },
+              {
+                "value": "08",
+                "count": 18
+              },
+              {
+                "value": "11",
+                "count": 11
+              },
+              {
+                "value": "12",
+                "count": 9
+              }
+            ]
+          },
+          "id_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 344345.0,
+            "max": 599112.0,
+            "mean": 480838.259,
+            "median": 476031.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "site_seance": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "Complexe sportif Claude-Robillard",
+                "count": 151
+              },
+              {
+                "value": "Gymnase Centre Leonardo-Da-Vinci",
+                "count": 115
+              },
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 95
+              },
+              {
+                "value": "Salle de judo no C251, centre Gadbois",
+                "count": 65
+              },
+              {
+                "value": "Salle studio",
+                "count": 63
+              },
+              {
+                "value": "Centre communautaire Lajeunesse",
+                "count": 58
+              },
+              {
+                "value": "Salle de musculation",
+                "count": 50
+              },
+              {
+                "value": "Salle multifonctionnelle",
+                "count": 47
+              },
+              {
+                "value": "Salle no 2-145, CSCNDN",
+                "count": 46
+              },
+              {
+                "value": "Centre Patro Villeray",
+                "count": 35
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse_site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "1000 avenue Émile-Journault   H2M2E7 Montréal",
+                "count": 151
+              },
+              {
+                "value": "8350 boulevard Lacordaire   H1R3Y6 Saint-Léonard",
+                "count": 116
+              },
+              {
+                "value": "5485 chemin de la Côte-Saint-Paul   H4C1X3 Montréal",
+                "count": 107
+              },
+              {
+                "value": "6446 avenue de Monkland   H4B1H3 Montréal",
+                "count": 97
+              },
+              {
+                "value": "2093 rue de la Visitation   H2L3C9 Montréal",
+                "count": 97
+              },
+              {
+                "value": "2633 rue Ontario   H2K1W8 Montréal",
+                "count": 95
+              },
+              {
+                "value": "7378 rue Lajeunesse   H2R2H8 Montréal",
+                "count": 58
+              },
+              {
+                "value": "5347 chemin de la Côte-des-Neiges   H3T1Y4 Montréal",
+                "count": 46
+              },
+              {
+                "value": "7355 avenue Christophe-Colomb   H2R2S5 Montréal",
+                "count": 35
+              },
+              {
+                "value": "7501 rue François-Perrault   H2A1M1 Montréal",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_site_seance": {
+            "null_count": 44,
+            "null_pct": 4.4,
+            "min": 514.0,
+            "max": 5149558370.0,
+            "mean": 5103791270.5188,
+            "median": 5148421600.0,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5148726900",
+                "count": 151
+              },
+              {
+                "value": "5149558370",
+                "count": 116
+              },
+              {
+                "value": "5148722786",
+                "count": 107
+              },
+              {
+                "value": "5144814634",
+                "count": 97
+              },
+              {
+                "value": "5145222246",
+                "count": 97
+              },
+              {
+                "value": "5145216884",
+                "count": 95
+              },
+              {
+                "value": "5142782654",
+                "count": 58
+              },
+              {
+                "value": "5147331478",
+                "count": 46
+              },
+              {
+                "value": "5142738535",
+                "count": 35
+              },
+              {
+                "value": "5148723466",
+                "count": 26
+              }
+            ]
+          },
+          "installation_principale_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "Complexe sportif Claude-Robillard",
+                "count": 151
+              },
+              {
+                "value": "Centre Léonardo-da-Vinci",
+                "count": 116
+              },
+              {
+                "value": "Complexe récréatif Gadbois",
+                "count": 107
+              },
+              {
+                "value": "Centre sportif Notre-Dame-de-Grâce",
+                "count": 97
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 97
+              },
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 95
+              },
+              {
+                "value": "Centre communautaire Lajeunesse",
+                "count": 58
+              },
+              {
+                "value": "Centre communautaire de loisirs de Côte-des-Neiges",
+                "count": 46
+              },
+              {
+                "value": "Centre Patro Villeray",
+                "count": 35
+              },
+              {
+                "value": "Maison des citoyens",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "heure_debut_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "06:00:00",
+            "max_date": "20:30:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "heure_fin_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "08:00:00",
+            "max_date": "22:00:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "jour_semaine_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Dimanche",
+            "max_date": "Vendredi",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.465933,
+            "max": 45.607938,
+            "mean": 45.527089,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.880522,
+            "max": -73.551985,
+            "mean": -73.605412,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "loc_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 275054.42,
+            "max": 300739.77,
+            "mean": 296565.8508,
+            "median": 296866.99,
+            "unique_count": 35,
+            "field_type_detected": "numeric"
+          },
+          "loc_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5036231.17,
+            "max": 5052005.9,
+            "mean": 5043025.0729,
+            "median": 5043772.61,
+            "unique_count": 35,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "e50635ef-deba-476a-abe4-3666f34b71aa",
+      "name": "Programmation historique de sports et loisirs (2017 à 2019)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/e50635ef-deba-476a-abe4-3666f34b71aa/download/programmation-sports-loisirs-montreal-2017-2023.geojson",
+      "datastore_active": false,
+      "size": 223970266,
+      "last_modified": "2023-12-06T23:04:31.812128",
+      "created": "2022-08-30T19:18:36.389536",
+      "schema": null
+    },
+    {
+      "id": "96a48ec6-6dbd-4cf7-89cd-a4020a5578f7",
+      "name": "Programmation de sports et loisirs (3 dernières années)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/96a48ec6-6dbd-4cf7-89cd-a4020a5578f7/download/programmation-de-sports-et-loisirs-3-dernieres-annees.csv",
+      "datastore_active": true,
+      "size": 17135650,
+      "last_modified": "2026-03-09T00:06:36.734935",
+      "created": "2024-06-12T00:05:59.995631",
+      "schema": {
+        "resource_id": "96a48ec6-6dbd-4cf7-89cd-a4020a5578f7",
+        "total_records": 27143,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_activite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipalite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_promoteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_inscription_obligatoire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_annulee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_maximum_places",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_minimum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "age_maximum",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "est_credit_impot_offert",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "groupe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "installation_principale",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "telephone_site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "site_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_debut_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_fin_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "jour_semaine_seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_activite": "743071",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités récréatives et communautaires",
+            "sous_categorie": "Apprentissage des langues",
+            "nom": "Anglais par le jeu",
+            "description": null,
+            "promoteur": "L'union des familles d'Ahuntsic",
+            "telephone_promoteur": "5143316413",
+            "est_inscription_obligatoire": "Vrai",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "3",
+            "age_maximum": "5",
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2025-01-25",
+            "date_fin": "2025-04-05",
+            "groupe": "01",
+            "id_seance": "457180",
+            "installation_principale": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "adresse_site_seance": "161 boulevard Henri-Bourassa  , Montréal, H3L1N2",
+            "telephone_site_seance": "5143316413",
+            "site_seance": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "heure_debut_seance": "09:15:00",
+            "heure_fin_seance": "10:30:00",
+            "jour_semaine_seance": "Samedi",
+            "latitude": "45.547626420779615",
+            "longitude": "-73.67265701430638",
+            "loc_x": "291318.19",
+            "loc_y": "5045315.93"
+          },
+          {
+            "_id": 2,
+            "id_activite": "874052",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités récréatives et communautaires",
+            "sous_categorie": "Apprentissage des langues",
+            "nom": "Anglais débutant 2e session",
+            "description": "Matériel non inclus",
+            "promoteur": "L'union des familles d'Ahuntsic",
+            "telephone_promoteur": "5143316413",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "18",
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2025-01-21",
+            "date_fin": "2025-05-13",
+            "groupe": "04",
+            "id_seance": "649071",
+            "installation_principale": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "adresse_site_seance": "161 boulevard Henri-Bourassa  , Montréal, H3L1N2",
+            "telephone_site_seance": "5143316413",
+            "site_seance": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "heure_debut_seance": "10:00:00",
+            "heure_fin_seance": "12:00:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.547626420779615",
+            "longitude": "-73.67265701430638",
+            "loc_x": "291318.19",
+            "loc_y": "5045315.93"
+          },
+          {
+            "_id": 3,
+            "id_activite": "874053",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités récréatives et communautaires",
+            "sous_categorie": "Apprentissage des langues",
+            "nom": "Espagnol débutant session 4",
+            "description": "Matériel non inclus",
+            "promoteur": "L'union des familles d'Ahuntsic",
+            "telephone_promoteur": "5143316413",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "18",
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2025-01-20",
+            "date_fin": "2025-05-12",
+            "groupe": "01",
+            "id_seance": "649072",
+            "installation_principale": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "adresse_site_seance": "161 boulevard Henri-Bourassa  , Montréal, H3L1N2",
+            "telephone_site_seance": "5143316413",
+            "site_seance": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "heure_debut_seance": "15:30:00",
+            "heure_fin_seance": "17:00:00",
+            "jour_semaine_seance": "Lundi",
+            "latitude": "45.547626420779615",
+            "longitude": "-73.67265701430638",
+            "loc_x": "291318.19",
+            "loc_y": "5045315.93"
+          },
+          {
+            "_id": 4,
+            "id_activite": "874054",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités récréatives et communautaires",
+            "sous_categorie": "Apprentissage des langues",
+            "nom": "Espagnol conversation avancée",
+            "description": null,
+            "promoteur": "L'union des familles d'Ahuntsic",
+            "telephone_promoteur": "5143316413",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "18",
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2025-01-21",
+            "date_fin": "2025-05-13",
+            "groupe": "07",
+            "id_seance": "649073",
+            "installation_principale": "Salle no 1, polyvalente",
+            "adresse_site_seance": "161 boulevard Henri-Bourassa  , Montréal, H3L1N2",
+            "telephone_site_seance": "5143316413",
+            "site_seance": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "heure_debut_seance": "09:30:00",
+            "heure_fin_seance": "11:00:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.547626420779615",
+            "longitude": "-73.67265701430638",
+            "loc_x": "291318.19",
+            "loc_y": "5045315.93"
+          },
+          {
+            "_id": 5,
+            "id_activite": "874055",
+            "municipalite": "Ville de Montréal",
+            "categorie": "Activités récréatives et communautaires",
+            "sous_categorie": "Apprentissage des langues",
+            "nom": "Espagnol conversation avancée",
+            "description": "Matériel non inclus",
+            "promoteur": "L'union des familles d'Ahuntsic",
+            "telephone_promoteur": "5143316413",
+            "est_inscription_obligatoire": "Faux",
+            "est_annulee": "Faux",
+            "raison_annulation": null,
+            "nb_maximum_places": null,
+            "age_minimum": "18",
+            "age_maximum": null,
+            "est_credit_impot_offert": "Faux",
+            "date_debut": "2025-01-21",
+            "date_fin": "2025-05-13",
+            "groupe": "06",
+            "id_seance": "649074",
+            "installation_principale": "Salle no 2, polyvalente",
+            "adresse_site_seance": "161 boulevard Henri-Bourassa  , Montréal, H3L1N2",
+            "telephone_site_seance": "5143316413",
+            "site_seance": "Centre de loisirs l'Union des familles d'Ahuntsic",
+            "heure_debut_seance": "11:00:00",
+            "heure_fin_seance": "12:30:00",
+            "jour_semaine_seance": "Mardi",
+            "latitude": "45.547626420779615",
+            "longitude": "-73.67265701430638",
+            "loc_x": "291318.19",
+            "loc_y": "5045315.93"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_activite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipalite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_categorie": {
+          "null_count": 1317,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 6267,
+          "null_pct": 23.1,
+          "populated_pct": 76.9
+        },
+        "promoteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "telephone_promoteur": {
+          "null_count": 8353,
+          "null_pct": 30.8,
+          "populated_pct": 69.2
+        },
+        "est_inscription_obligatoire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "est_annulee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 27130,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "nb_maximum_places": {
+          "null_count": 4961,
+          "null_pct": 18.3,
+          "populated_pct": 81.7
+        },
+        "age_minimum": {
+          "null_count": 4534,
+          "null_pct": 16.7,
+          "populated_pct": 83.3
+        },
+        "age_maximum": {
+          "null_count": 12874,
+          "null_pct": 47.4,
+          "populated_pct": 52.6
+        },
+        "est_credit_impot_offert": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "groupe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "installation_principale": {
+          "null_count": 1643,
+          "null_pct": 6.1,
+          "populated_pct": 93.9
+        },
+        "adresse_site_seance": {
+          "null_count": 357,
+          "null_pct": 1.3,
+          "populated_pct": 98.7
+        },
+        "telephone_site_seance": {
+          "null_count": 324,
+          "null_pct": 1.2,
+          "populated_pct": 98.8
+        },
+        "site_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_debut_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_fin_seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "jour_semaine_seance": {
+          "null_count": 31,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "latitude": {
+          "null_count": 1395,
+          "null_pct": 5.1,
+          "populated_pct": 94.9
+        },
+        "longitude": {
+          "null_count": 1395,
+          "null_pct": 5.1,
+          "populated_pct": 94.9
+        },
+        "loc_x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "loc_y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 27143,
+        "audited_at": "2026-03-10T00:22:47.538172+00:00",
+        "fields": {
+          "id_activite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 743071.0,
+            "max": 889200.0,
+            "mean": 872335.703,
+            "median": 871961.5,
+            "unique_count": 856,
+            "field_type_detected": "numeric"
+          },
+          "municipalite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Arts visuels",
+                "count": 311
+              },
+              {
+                "value": "Activités récréatives et communautaires",
+                "count": 239
+              },
+              {
+                "value": "Activités culturelles",
+                "count": 145
+              },
+              {
+                "value": "Danse sociale",
+                "count": 138
+              },
+              {
+                "value": "Activités de conditionnement physique",
+                "count": 110
+              },
+              {
+                "value": "Alimentation",
+                "count": 56
+              },
+              {
+                "value": "Musique vocale",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Arts plastiques",
+                "count": 311
+              },
+              {
+                "value": "Apprentissage des langues",
+                "count": 239
+              },
+              {
+                "value": "Danse",
+                "count": 145
+              },
+              {
+                "value": "Danse en ligne",
+                "count": 121
+              },
+              {
+                "value": "Exercices musculaires",
+                "count": 110
+              },
+              {
+                "value": "Art culinaire",
+                "count": 56
+              },
+              {
+                "value": "Danse sociale de couple",
+                "count": 17
+              },
+              {
+                "value": "Chorale",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 418,
+            "top_values": [
+              {
+                "value": "Dessin ou peinture (plusieurs cours offerts)",
+                "count": 44
+              },
+              {
+                "value": "Pilates (plusieurs cours offerts)",
+                "count": 27
+              },
+              {
+                "value": "Cours de danses en ligne",
+                "count": 22
+              },
+              {
+                "value": "Cours de danses latines",
+                "count": 21
+              },
+              {
+                "value": "Cours de langues  (plusieurs cours offerts)",
+                "count": 18
+              },
+              {
+                "value": "Danse en ligne",
+                "count": 18
+              },
+              {
+                "value": "Danse en ligne débutant",
+                "count": 13
+              },
+              {
+                "value": "Cours de danse en ligne",
+                "count": 13
+              },
+              {
+                "value": "Aquarelle 15 ans et plus",
+                "count": 12
+              },
+              {
+                "value": "Anglais débutant",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "description": {
+            "null_count": 406,
+            "null_pct": 40.6,
+            "unique_count": 189,
+            "top_values": [
+              {
+                "value": "www:asccs.qc.ca",
+                "count": 51
+              },
+              {
+                "value": "Dessin ou peinture (plusieurs types de cours offerts)",
+                "count": 44
+              },
+              {
+                "value": "Important voir détails",
+                "count": 30
+              },
+              {
+                "value": "Pilates (plusieurs types de cours offerts)",
+                "count": 23
+              },
+              {
+                "value": "Détenir une carte biblio-loisirs pour effectuer une réservation.\nEntrez dans le groupe! Les cours de danses latines sont ouverts à tous les niveaux: de débutant à avancé. La professeure de danse latine de l'organisme Danz Nuestroamericana vous fera bouger sur des rythmes musicaux entrainants.\nPour toutes questions, veuillez communiquez par courriel à l'adresse suivante; quai5160@montreal.ca\nHoraire des cours de danse: jeudis de 14h à 15h30\nLes inscriptions ne sont pas remboursables.\nApportez votre bouteille d'eau réutilisable.",
+                "count": 21
+              },
+              {
+                "value": "Abdos Fessiers 18+",
+                "count": 15
+              },
+              {
+                "value": "Cours de langues  (plusieurs types de cours offerts)",
+                "count": 13
+              },
+              {
+                "value": "Une série de 12 cours à suivre pour toute la session ou disponible individuellement. Cours de danses sociales et en ligne de niveau débutant, avec un professeur expérimenté.\nLes participants sont invités à apporter leur bouteille d'eau réutilisable.",
+                "count": 12
+              },
+              {
+                "value": "Détenir une carte biblio-loisirs pour réservation\nEntrez dans le groupe, les cours de danses sociales sont ouverts à tous les niveaux: de débutant à avancé. La professeure de danse Danielle Béland vous fera bouger sur des rythmes musicaux entrainants.\nPour toutes questions, veuillez communiquez par courriel à l'adresse suivante; quai5160@montreal.ca\nHoraire des cours de danse: mardis de 14h à 15h30\nLes inscriptions ne sont pas remboursables.\nApportez votre boutielle d'eau réutilisable.",
+                "count": 12
+              },
+              {
+                "value": "Détenir une carte biblio-loisirs pour réservation\nEntrez dans le groupe, maintenant offerts en soirée, les cours de danses en ligne au Quai 5160 - Maison de la culture de Verdun sont ouverts à tous les niveaux: de débutant à avancé. La professeure de danse Danielle Béland vous fera bouger sur des rythmes musicaux entrainants.\nPour toutes questions, veuillez communiquez par courriel à l'adresse suivante; quai5160@montreal.ca\nHoraire des cours de danse: mardis de 18h à 19h30\nLes inscriptions ne sont pas remboursables.\nApportez votre bouteille d'eau réutilisable.",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "promoteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 40,
+            "top_values": [
+              {
+                "value": "Corporation du centre Jean-Claude-Malépart",
+                "count": 163
+              },
+              {
+                "value": "Centre de loisirs de Lachine",
+                "count": 124
+              },
+              {
+                "value": "Arrondissement de Verdun",
+                "count": 94
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 76
+              },
+              {
+                "value": "Centre communautaire de loisirs Sainte-Catherine d'Alexandrie",
+                "count": 56
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 55
+              },
+              {
+                "value": "Bibliothèque de L'Île-Bizard",
+                "count": 50
+              },
+              {
+                "value": "Association du Centre Pierre-Charbonneau",
+                "count": 46
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 41
+              },
+              {
+                "value": "Action Centre-Ville",
+                "count": 34
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_promoteur": {
+            "null_count": 123,
+            "null_pct": 12.3,
+            "min": 4387639944.0,
+            "max": 5148780847.0,
+            "mean": 5032783346.3094,
+            "median": 5145216884.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "est_inscription_obligatoire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 652
+              },
+              {
+                "value": "Vrai",
+                "count": 348
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "est_annulee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 998
+              },
+              {
+                "value": "Vrai",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "raison_annulation": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "nb_maximum_places": {
+            "null_count": 323,
+            "null_pct": 32.3,
+            "min": 0.0,
+            "max": 52.0,
+            "mean": 15.0015,
+            "median": 13.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "12",
+                "count": 180
+              },
+              {
+                "value": "20",
+                "count": 125
+              },
+              {
+                "value": "15",
+                "count": 123
+              },
+              {
+                "value": "10",
+                "count": 106
+              },
+              {
+                "value": "25",
+                "count": 31
+              },
+              {
+                "value": "8",
+                "count": 27
+              },
+              {
+                "value": "35",
+                "count": 17
+              },
+              {
+                "value": "14",
+                "count": 14
+              },
+              {
+                "value": "9",
+                "count": 12
+              },
+              {
+                "value": "0",
+                "count": 10
+              }
+            ]
+          },
+          "age_minimum": {
+            "null_count": 32,
+            "null_pct": 3.2,
+            "min": 0.0,
+            "max": 59.0,
+            "mean": 16.0517,
+            "median": 16.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "16",
+                "count": 212
+              },
+              {
+                "value": "18",
+                "count": 179
+              },
+              {
+                "value": "6",
+                "count": 125
+              },
+              {
+                "value": "7",
+                "count": 78
+              },
+              {
+                "value": "50",
+                "count": 60
+              },
+              {
+                "value": "5",
+                "count": 49
+              },
+              {
+                "value": "8",
+                "count": 41
+              },
+              {
+                "value": "14",
+                "count": 33
+              },
+              {
+                "value": "13",
+                "count": 32
+              },
+              {
+                "value": "3",
+                "count": 26
+              }
+            ]
+          },
+          "age_maximum": {
+            "null_count": 642,
+            "null_pct": 64.2,
+            "min": 2.0,
+            "max": 99.0,
+            "mean": 16.405,
+            "median": 12.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "12",
+                "count": 99
+              },
+              {
+                "value": "9",
+                "count": 41
+              },
+              {
+                "value": "6",
+                "count": 32
+              },
+              {
+                "value": "13",
+                "count": 31
+              },
+              {
+                "value": "8",
+                "count": 28
+              },
+              {
+                "value": "99",
+                "count": 24
+              },
+              {
+                "value": "7",
+                "count": 22
+              },
+              {
+                "value": "17",
+                "count": 18
+              },
+              {
+                "value": "10",
+                "count": 13
+              },
+              {
+                "value": "5",
+                "count": 12
+              }
+            ]
+          },
+          "est_credit_impot_offert": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Faux",
+                "count": 970
+              },
+              {
+                "value": "Vrai",
+                "count": 30
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-01-02",
+            "max_date": "2025-12-19",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-01-16",
+            "max_date": "2026-05-16",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "groupe": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 98.0,
+            "mean": 4.465,
+            "median": 2.0,
+            "unique_count": 39,
+            "field_type_detected": "numeric"
+          },
+          "id_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 457180.0,
+            "max": 663280.0,
+            "mean": 644704.781,
+            "median": 645655.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "installation_principale": {
+            "null_count": 33,
+            "null_pct": 3.3,
+            "unique_count": 83,
+            "top_values": [
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 79
+              },
+              {
+                "value": "Quai - 5160, Hall",
+                "count": 79
+              },
+              {
+                "value": "Centre Sainte-Catherine-d'Alexandrie",
+                "count": 56
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 48
+              },
+              {
+                "value": "CJCM salle de danse #213/215",
+                "count": 42
+              },
+              {
+                "value": "Centre communautaire Faubourg Saint-Laurent",
+                "count": 34
+              },
+              {
+                "value": "Salle Madeleine-Lahaye, bibliothèque de L'Île-Biz",
+                "count": 33
+              },
+              {
+                "value": "Atelier de peinture, maison du brasseur",
+                "count": 33
+              },
+              {
+                "value": "Gymnase",
+                "count": 30
+              },
+              {
+                "value": "Section enfant, bibliothèque Benny",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse_site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 47,
+            "top_values": [
+              {
+                "value": "2633 rue Ontario  , Montréal, H2K1W8",
+                "count": 163
+              },
+              {
+                "value": "5160 boulevard LaSalle  , Verdun, H4H1N8",
+                "count": 79
+              },
+              {
+                "value": "6400 avenue de Monkland  , Montréal, H4B1H3",
+                "count": 76
+              },
+              {
+                "value": "2901 boulevard Saint-Joseph  , Lachine, H8S4B7",
+                "count": 62
+              },
+              {
+                "value": "1700 rue Atateken  , Montréal, H2L3L5",
+                "count": 56
+              },
+              {
+                "value": "2093 rue de la Visitation  , Montréal, H2L3C9",
+                "count": 55
+              },
+              {
+                "value": "500 montée de l' Église  , L'Île-Bizard, H9C1G9",
+                "count": 50
+              },
+              {
+                "value": "3000 rue Viau  , Montréal, H1V3J3",
+                "count": 46
+              },
+              {
+                "value": "50 12e Avenue  , Lachine, H8S3H6",
+                "count": 45
+              },
+              {
+                "value": "1375 rue Grenet  , Saint-Laurent, H4L5K3",
+                "count": 41
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "telephone_site_seance": {
+            "null_count": 37,
+            "null_pct": 3.7,
+            "min": 514.0,
+            "max": 5148728207.0,
+            "mean": 4868269197.8463,
+            "median": 5146206257.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "site_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 47,
+            "top_values": [
+              {
+                "value": "Centre Jean-Claude-Malépart",
+                "count": 163
+              },
+              {
+                "value": "Quai 5160 - Maison de culture de Verdun",
+                "count": 79
+              },
+              {
+                "value": "Bibliothèque Benny",
+                "count": 76
+              },
+              {
+                "value": "Maison du brasseur de Lachine",
+                "count": 62
+              },
+              {
+                "value": "Centre Sainte-Catherine-d'Alexandrie",
+                "count": 56
+              },
+              {
+                "value": "Association sportive et communautaire Centre-Sud",
+                "count": 55
+              },
+              {
+                "value": "Bibliothèque de L'Île-Bizard",
+                "count": 50
+              },
+              {
+                "value": "Centre Pierre-Charbonneau",
+                "count": 46
+              },
+              {
+                "value": "Complexe sportif du Collège Sainte-Anne",
+                "count": 45
+              },
+              {
+                "value": "Centre des loisirs Saint-Laurent",
+                "count": 41
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "heure_debut_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "07:00:00",
+            "max_date": "20:45:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "heure_fin_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "07:45:00",
+            "max_date": "23:30:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "jour_semaine_seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Dimanche",
+            "max_date": "Vendredi",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.433512,
+            "max": 45.619563,
+            "mean": 45.51324,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.88252,
+            "max": -73.548701,
+            "mean": -73.625326,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "loc_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 274900.37,
+            "max": 300998.28,
+            "mean": 295006.4443,
+            "median": 298763.325,
+            "unique_count": 47,
+            "field_type_detected": "numeric"
+          },
+          "loc_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5032637.39,
+            "max": 5053301.83,
+            "mean": 5041491.8577,
+            "median": 5042117.39,
+            "unique_count": 47,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "2e87e2ff-19fd-4938-b3b9-15f6b41bdb5b",
+      "name": "Programmation de sports et loisirs (3 dernières années)",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/69282c2b-52da-4e63-97d8-7890cdf5c217/resource/2e87e2ff-19fd-4938-b3b9-15f6b41bdb5b/download/programmation-de-sports-et-loisirs-3-dernieres-annees.json",
+      "datastore_active": false,
+      "size": 75013483,
+      "last_modified": "2026-03-09T00:06:53.121620",
+      "created": "2024-06-12T00:10:32.232838",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Activité",
+    "Culture",
+    "Ludik",
+    "Récréatif",
+    "SCAEC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Seules les activités proposées par l'entremise du système Loisir Montréal sont disponibles dans cet ensemble de données. D'autres activités pourraient être proposées par la Ville de Montréal ou des organismes partenaires sur d'autres plateformes, notamment le site officiel de la Ville de Montréal.\n\n## Dictionnaire de données\n\n\n### Format CSV\n\n\n\n- id_activite (texte) : Identifiant unique de l’activité.\n\n- municipalité (texte) : Nom de la municipalité.\n\n- categorie (texte) : Catégorie d’activité.\n\n- sous_categorie (texte) : Sous-catégorie d’activité.\n\n- nom (texte) : Nom de l’activité.\n\n- description (texte) : Description de l’activité.\n\n- promoteur (texte) : Nom de l’organisme, du service ou de la personne responsable de l’activité.\n\n- telephone_promoteur (texte) : Numéro de téléphone de l’organisme, du service ou de la personne responsable de l’activité.\n\n- est_inscription_obligatoire (booléen) : Indique si l’activité nécessite une inscription.\n\n- est_annulee (booléen) : Indique si l’activité est annulée.\n\n- raison_annulation (texte) : Raison de l’annulation (01 Inscriptions insuffisantes, 02 Événement hors programme, 03 Réparation, 04 Conflit de travail, 05 Autre raison).\n\n- nb_maximum_places (entier) : Nombre de places disponibles.\n\n- age_minimum (entier) : Âge minimum requis pour participer à l’activité.\n\n- age_maximum (entier) : Âge maximum requis pour participer à l’activité.\n\n- est_credit_impot_offert (booléen) : Indique si l’activité est admissible à un crédit d’impôt.\n\n- date_debut (date) : Date de début de l’activité.\n\n- date_fin (date) : Date de fin de l’activité (identique à date_debut si une seule journée).\n\n- groupe (texte) : Numéro ou nom du groupe (si applicable).\n\n- id_seance (texte) : Identifiant unique de la séance (si une seule séance, la valeur peut être la même que id_activite).\n\n- site_seance (texte) : Nom du site ou de l’emplacement où se déroule l’activité.\n\n- adresse_site (texte) : Adresse complète du site ou de l’emplacement où se déroule l’activité.\n\n- telephone_site (texte) : Numéro de téléphone pour contacter le site ou l’emplacement où se déroule l’activité.\n\n- installation_principale (texte) : Précision sur l’emplacement si plus d’une installation est disponible sur le site.\n\n- heure_debut_seance (heure) : Heure de début de la séance.\n\n- heure_fin_seance (heure) : Heure de fin de la séance.\n\n- jour_semaine_seance (entier) : Jour de la semaine où a lieu la séance.\n\n- latitude (coordonnées spatiales) : Latitude (référence géographique WGS84).\n\n- longitude (coordonnées spatiales) : Longitude (référence géographique WGS84).\n\n- loc_x (coordonnées spatiales) : Position géospatiale selon la projection MTM8.\n\n- loc_y (coordonnées spatiales) : Position géospatiale selon la projection MTM8.\n\n\n### Format JSON\n\n\n\n- id_activite (texte) : Identifiant unique de l’activité.\n\n- municipalité (texte) : Nom de la municipalité.\n\n- categorie (texte) : Catégorie d’activité.\n\n- sous_categorie (texte) : Sous-catégorie d’activité.\n\n- nom (texte) : Nom de l’activité.\n\n- description (texte) : Description de l’activité.\n\n- promoteur (texte) : Nom de l’organisme, du service ou de la personne responsable de l’activité.\n\n- telephone_promoteur (texte) : Numéro de téléphone de l’organisme, du service ou de la personne responsable de l’activité. est_inscription_obligatoire (booléen) : Indique si l’activité nécessite une inscription.\n\n- est_annulee (booléen) : Indique si l’activité est annulée.\n\n- raison_annulation (texte) : Raison de l’annulation (01 Inscriptions insuffisantes, 02 Événement hors programme, 03 Réparation, 04 Conflit de travail, 05 Autre raison).\n\n- nb_maximum_places (entier) : Nombre de places disponibles.\n\n- age_minimum (entier) : Âge minimum requis pour participer à l’activité.\n\n- age_maximum (entier) : Âge maximum requis pour participer à l’activité.\n\n- est_credit_impot_offert (booléen) : Indique si l’activité est admissible à un crédit d’impôt.\n\n- date_debut (date) : Date de début de l’activité.\n\n- date_fin (tate) : Date de fin de l’activité (identique à date_debut si une seule journée).\n\n- groupe (texte) : Numéro ou nom du groupe (si applicable).\n\n- informations_inscription[statut] (texte) : Modalités.\n\n- informations_inscription[date_heure_debut] (date et heure) : Date et heure du début de la période d’inscription.\n\n- informations_inscription[date_heure_fin] (date et heure) : Date et heure de la fin de la période d’inscription.\n\n- directives[id] (texte) : Identifiant unique de la directive.\n\n- directives[description] (texte) : Description des directives ou instructions particulières liées à l’activité.\n\n- seances[id] (texte) : Identifiant unique de la séance (si une seule séance, la valeur peut être la même que id_activite).\n\n- seances[site] (texte) : Nom du site ou de l’emplacement où se déroule l’activité.\n\n- seances[adresse_site] (texte) : Adresse complète du site ou de l’emplacement où se déroule l’activité.\n\n- seances[telephone_site] (texte) : Numéro de téléphone pour contacter le site ou l’emplacement où se déroule l’activité.\n\n- seances[installation_principale] (texte) : Précision sur l’emplacement si plus d’une installation est disponible sur le site.\n\n- seances[heure_debut] (heure) : Heure de début de la séance.\n\n- seances[heure_fin] (heure) : Heure de fin de la séance.\n\n- seances[jour_semaine] (texte) : Jour de la semaine où a lieu la séance.\n\n- seances[latitude] (coordonnées spatiales) : Latitude (référence géographique WGS84).\n\n- seances[longitude] (coordonnées spatiales) : Longitude (référence géographique WGS84).\n\n- seances[loc_x] (coordonnées spatiales) : Position géospatiale selon la projection MTM8.\n\n- seances[loc_y] (coordonnées spatiales) : Position géospatiale selon la projection MTM8.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Activité",
+      "Culture",
+      "Ludik",
+      "Récréatif",
+      "SCAEC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/programmation-sports-loisirs-montreal",
+    "scraped_at": "2026-03-09T20:15:48.799440+00:00"
+  }
+}

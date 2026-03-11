@@ -1,0 +1,2276 @@
+{
+  "slug": "vmtl-consommation-emissions-batiments-municipaux",
+  "title": "Consommation d'énergie et émissions de gaz à effet de serre des bâtiments municipaux de 2000 m² et plus",
+  "notes": "Les données sont collectées dans le cadre du Règlement 21-042 sur la divulgation et la cotation des émissions de gaz à effet de serre (GES) des grands bâtiments, adopté par la Ville de Montréal dès 2021.  \r\n\r\nPour plus d’information : [Règlement sur la divulgation et la cotation des émissions de GES des grands bâtiments](https://montreal.ca/articles/reglement-sur-la-divulgation-et-la-cotation-ges-des-grands-batiments-20548) .  ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-08-18T19:10:44.899020",
+  "metadata_modified": "2025-10-10T16:00:08.700037",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "56a7aafc-2839-4748-8c45-e87a61226c5e",
+      "name": "Consommation d'énergie et émissions de gaz à effet de serre bâtiments municipaux - Données de divulgation de l’année 2023 (dans le cadre du Règlement 21-042)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ec66af84-9b4b-44ec-992a-43f0a4f18512/resource/56a7aafc-2839-4748-8c45-e87a61226c5e/download/consommation-energetique-plus-2000m2-municipaux-2023.csv",
+      "datastore_active": true,
+      "size": 15185,
+      "last_modified": "2025-10-10T14:04:11.109481",
+      "created": "2025-10-10T14:04:11.220736",
+      "schema": {
+        "resource_id": "56a7aafc-2839-4748-8c45-e87a61226c5e",
+        "total_records": 156,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Adresse_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Identifiant Standard Montreal-Divulgation-ID batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_consommation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Superficie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emissions_GES (tCO2e)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_construction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Electricite (GJ)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Gaz_naturel",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mazout",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Eau_refroidie (GJ)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Vapeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Adresse_civique": "1000 Av. Émile-Journault E",
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "C650100653",
+            "Annee_consommation": "2023",
+            "Superficie": "53494,05",
+            "Emissions_GES (tCO2e)": "192,87",
+            "Annee_construction": "1976",
+            "Electricite (GJ)": "40969,2",
+            "Gaz_naturel": "3657,3",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 2,
+            "Adresse_civique": "10125 Rue Parthenais",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100654",
+            "Annee_consommation": "2023",
+            "Superficie": "3243,00",
+            "Emissions_GES (tCO2e)": "107,67",
+            "Annee_construction": "1957",
+            "Electricite (GJ)": "264,1",
+            "Gaz_naturel": "2117,4",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 3,
+            "Adresse_civique": "10300 Rue Lajeunesse",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100655",
+            "Annee_consommation": "2023",
+            "Superficie": "6348,01",
+            "Emissions_GES (tCO2e)": "81,49",
+            "Annee_construction": "1948",
+            "Electricite (GJ)": "2064,3",
+            "Gaz_naturel": "1596,3",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 4,
+            "Adresse_civique": "1033 Rue Rachel E",
+            "Arrondissement": "Plateau Mont-Royal",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100552",
+            "Annee_consommation": "2023",
+            "Superficie": "2313,00",
+            "Emissions_GES (tCO2e)": "23,97",
+            "Annee_construction": "1990",
+            "Electricite (GJ)": "2275,5",
+            "Gaz_naturel": "463,9",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 5,
+            "Adresse_civique": "1055 Rue Hibernia",
+            "Arrondissement": "Sud-Ouest",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100505",
+            "Annee_consommation": "2023",
+            "Superficie": "5227,01",
+            "Emissions_GES (tCO2e)": "221,29",
+            "Annee_construction": "1960",
+            "Electricite (GJ)": "4155,1",
+            "Gaz_naturel": "4339,6",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Adresse_civique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Identifiant Standard Montreal-Divulgation-ID batiment": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_consommation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emissions_GES (tCO2e)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Electricite (GJ)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Gaz_naturel": {
+          "null_count": 25,
+          "null_pct": 16.0,
+          "populated_pct": 84.0
+        },
+        "Mazout": {
+          "null_count": 156,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "Eau_refroidie (GJ)": {
+          "null_count": 155,
+          "null_pct": 99.4,
+          "populated_pct": 0.6
+        },
+        "Vapeur": {
+          "null_count": 154,
+          "null_pct": 98.7,
+          "populated_pct": 1.3
+        }
+      },
+      "quality_audit": {
+        "sample_size": 156,
+        "total_records": 156,
+        "audited_at": "2026-03-10T00:15:09.647821+00:00",
+        "fields": {
+          "Adresse_civique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 156,
+            "top_values": [
+              {
+                "value": "1000 Av. Émile-Journault E",
+                "count": 1
+              },
+              {
+                "value": "10125 Rue Parthenais",
+                "count": 1
+              },
+              {
+                "value": "10300 Rue Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "1033 Rue Rachel E",
+                "count": 1
+              },
+              {
+                "value": "1055 Rue Hibernia",
+                "count": 1
+              },
+              {
+                "value": "10560 Rue Saint-Hubert",
+                "count": 1
+              },
+              {
+                "value": "10851 Av. Saint-Charles",
+                "count": 1
+              },
+              {
+                "value": "11121 Av. Salk",
+                "count": 1
+              },
+              {
+                "value": "11301 Boul. Acadie",
+                "count": 1
+              },
+              {
+                "value": "1177 Rue Dupuis",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 19
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 19
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 13
+              },
+              {
+                "value": "CDN - NDG",
+                "count": 13
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 10
+              },
+              {
+                "value": "RDP - PAT",
+                "count": 10
+              },
+              {
+                "value": "Rosemont - Petite-Patrie",
+                "count": 10
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 8
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 7
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Identifiant Standard Montreal-Divulgation-ID batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "650100003",
+            "max_date": "C650100722",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Annee_consommation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2023",
+            "max_date": "2023",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Superficie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 154,
+            "top_values": [
+              {
+                "value": "2299,00",
+                "count": 2
+              },
+              {
+                "value": "3374,00",
+                "count": 2
+              },
+              {
+                "value": "53494,05",
+                "count": 1
+              },
+              {
+                "value": "3243,00",
+                "count": 1
+              },
+              {
+                "value": "6348,01",
+                "count": 1
+              },
+              {
+                "value": "2313,00",
+                "count": 1
+              },
+              {
+                "value": "5227,01",
+                "count": 1
+              },
+              {
+                "value": "3796,00",
+                "count": 1
+              },
+              {
+                "value": "6209,01",
+                "count": 1
+              },
+              {
+                "value": "3619,00",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Emissions_GES (tCO2e)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 154,
+            "top_values": [
+              {
+                "value": "75,64",
+                "count": 2
+              },
+              {
+                "value": "0,35",
+                "count": 2
+              },
+              {
+                "value": "192,87",
+                "count": 1
+              },
+              {
+                "value": "107,67",
+                "count": 1
+              },
+              {
+                "value": "81,49",
+                "count": 1
+              },
+              {
+                "value": "23,97",
+                "count": 1
+              },
+              {
+                "value": "221,29",
+                "count": 1
+              },
+              {
+                "value": "208,36",
+                "count": 1
+              },
+              {
+                "value": "1,02",
+                "count": 1
+              },
+              {
+                "value": "104,57",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Annee_construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1823",
+            "max_date": "2018",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Electricite (GJ)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 155,
+            "top_values": [
+              {
+                "value": "17139,5",
+                "count": 2
+              },
+              {
+                "value": "40969,2",
+                "count": 1
+              },
+              {
+                "value": "264,1",
+                "count": 1
+              },
+              {
+                "value": "2064,3",
+                "count": 1
+              },
+              {
+                "value": "2275,5",
+                "count": 1
+              },
+              {
+                "value": "4155,1",
+                "count": 1
+              },
+              {
+                "value": "3056,4",
+                "count": 1
+              },
+              {
+                "value": "6027",
+                "count": 1
+              },
+              {
+                "value": "424,3",
+                "count": 1
+              },
+              {
+                "value": "3311,1",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Gaz_naturel": {
+            "null_count": 25,
+            "null_pct": 16.0,
+            "unique_count": 131,
+            "top_values": [
+              {
+                "value": "3657,3",
+                "count": 1
+              },
+              {
+                "value": "2117,4",
+                "count": 1
+              },
+              {
+                "value": "1596,3",
+                "count": 1
+              },
+              {
+                "value": "463,9",
+                "count": 1
+              },
+              {
+                "value": "4339,6",
+                "count": 1
+              },
+              {
+                "value": "4089",
+                "count": 1
+              },
+              {
+                "value": "2055,9",
+                "count": 1
+              },
+              {
+                "value": "3434,9",
+                "count": 1
+              },
+              {
+                "value": "5499,8",
+                "count": 1
+              },
+              {
+                "value": "4510,7",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Mazout": {
+            "null_count": 156,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Eau_refroidie (GJ)": {
+            "null_count": 155,
+            "null_pct": 99.4,
+            "min": 1338.0,
+            "max": 1338.0,
+            "mean": 1338.0,
+            "median": 1338.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1338",
+                "count": 1
+              }
+            ]
+          },
+          "Vapeur": {
+            "null_count": 154,
+            "null_pct": 98.7,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "12828,4",
+                "count": 1
+              },
+              {
+                "value": "4492,2",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "42b5bba6-6bbe-4ccf-b459-5df7bb95db96",
+      "name": "Consommation d'énergie et émissions de gaz à effet de serre bâtiments municipaux - Données de divulgation de l’année 2022 (dans le cadre du Règlement 21-042)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ec66af84-9b4b-44ec-992a-43f0a4f18512/resource/42b5bba6-6bbe-4ccf-b459-5df7bb95db96/download/consommation-energetique-plus-2000m2-municipaux-2022.csv",
+      "datastore_active": true,
+      "size": 13731,
+      "last_modified": "2025-10-10T14:03:40.335265",
+      "created": "2025-10-10T14:03:40.436991",
+      "schema": {
+        "resource_id": "42b5bba6-6bbe-4ccf-b459-5df7bb95db96",
+        "total_records": 135,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Adresse_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Identifiant Standard Montreal-Divulgation-ID batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_consommation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Superficie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emissions_GES (tCO2e)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_construction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Electricite (GJ)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Gaz_naturel",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mazout",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Eau_refroidie (GJ)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Vapeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Adresse_civique": "1000 Av. Émile-Journault E",
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100653",
+            "Annee_consommation": "2022",
+            "Superficie": "53494,05",
+            "Emissions_GES (tCO2e)": "160,99",
+            "Annee_construction": "1976",
+            "Electricite (GJ)": "42768,00144",
+            "Gaz_naturel": "2830,6",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 2,
+            "Adresse_civique": "10125 Rue Parthenais",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100654",
+            "Annee_consommation": "2022",
+            "Superficie": "3243,00",
+            "Emissions_GES (tCO2e)": "115,61",
+            "Annee_construction": "1957",
+            "Electricite (GJ)": "278,89272",
+            "Gaz_naturel": "2272,3",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 3,
+            "Adresse_civique": "10300 Rue Lajeunesse",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100655",
+            "Annee_consommation": "2022",
+            "Superficie": "6348,01",
+            "Emissions_GES (tCO2e)": "84,10",
+            "Annee_construction": "1948",
+            "Electricite (GJ)": "2127,6558",
+            "Gaz_naturel": "1637,8",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 4,
+            "Adresse_civique": "1033 Rue Rachel E",
+            "Arrondissement": "Plateau Mont-Royal",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100552",
+            "Annee_consommation": "2022",
+            "Superficie": "2313,00",
+            "Emissions_GES (tCO2e)": "22,33",
+            "Annee_construction": "1990",
+            "Electricite (GJ)": "2782,03104",
+            "Gaz_naturel": "417,5",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 5,
+            "Adresse_civique": "1055 Rue Hibernia",
+            "Arrondissement": "Sud-Ouest",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100505",
+            "Annee_consommation": "2022",
+            "Superficie": "5227,01",
+            "Emissions_GES (tCO2e)": "186,48",
+            "Annee_construction": "1960",
+            "Electricite (GJ)": "3928,25952",
+            "Gaz_naturel": "3637,7",
+            "Mazout": null,
+            "Eau_refroidie (GJ)": null,
+            "Vapeur": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Adresse_civique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Identifiant Standard Montreal-Divulgation-ID batiment": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_consommation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emissions_GES (tCO2e)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Electricite (GJ)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Gaz_naturel": {
+          "null_count": 23,
+          "null_pct": 17.0,
+          "populated_pct": 83.0
+        },
+        "Mazout": {
+          "null_count": 135,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "Eau_refroidie (GJ)": {
+          "null_count": 134,
+          "null_pct": 99.3,
+          "populated_pct": 0.7
+        },
+        "Vapeur": {
+          "null_count": 133,
+          "null_pct": 98.5,
+          "populated_pct": 1.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 135,
+        "total_records": 135,
+        "audited_at": "2026-03-10T00:15:10.571577+00:00",
+        "fields": {
+          "Adresse_civique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 135,
+            "top_values": [
+              {
+                "value": "1000 Av. Émile-Journault E",
+                "count": 1
+              },
+              {
+                "value": "10125 Rue Parthenais",
+                "count": 1
+              },
+              {
+                "value": "10300 Rue Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "1033 Rue Rachel E",
+                "count": 1
+              },
+              {
+                "value": "1055 Rue Hibernia",
+                "count": 1
+              },
+              {
+                "value": "10560 Rue Saint-Hubert",
+                "count": 1
+              },
+              {
+                "value": "10851 Av. Saint-Charles",
+                "count": 1
+              },
+              {
+                "value": "11121 Av. Salk",
+                "count": 1
+              },
+              {
+                "value": "11301 Boul. Acadie",
+                "count": 1
+              },
+              {
+                "value": "1177 Rue Dupuis",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 18
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 17
+              },
+              {
+                "value": "CDN - NDG",
+                "count": 12
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 10
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 9
+              },
+              {
+                "value": "RDP - PAT",
+                "count": 8
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 8
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 7
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 6
+              },
+              {
+                "value": "LaSalle",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Identifiant Standard Montreal-Divulgation-ID batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "650100012",
+            "max_date": "650100899",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Annee_consommation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022",
+            "max_date": "2022",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Superficie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 134,
+            "top_values": [
+              {
+                "value": "2299,00",
+                "count": 2
+              },
+              {
+                "value": "53494,05",
+                "count": 1
+              },
+              {
+                "value": "3243,00",
+                "count": 1
+              },
+              {
+                "value": "6348,01",
+                "count": 1
+              },
+              {
+                "value": "2313,00",
+                "count": 1
+              },
+              {
+                "value": "5227,01",
+                "count": 1
+              },
+              {
+                "value": "3796,00",
+                "count": 1
+              },
+              {
+                "value": "6209,01",
+                "count": 1
+              },
+              {
+                "value": "3619,00",
+                "count": 1
+              },
+              {
+                "value": "3443,00",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Emissions_GES (tCO2e)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 135,
+            "top_values": [
+              {
+                "value": "160,99",
+                "count": 1
+              },
+              {
+                "value": "115,61",
+                "count": 1
+              },
+              {
+                "value": "84,10",
+                "count": 1
+              },
+              {
+                "value": "22,33",
+                "count": 1
+              },
+              {
+                "value": "186,48",
+                "count": 1
+              },
+              {
+                "value": "145,57",
+                "count": 1
+              },
+              {
+                "value": "2,57",
+                "count": 1
+              },
+              {
+                "value": "99,86",
+                "count": 1
+              },
+              {
+                "value": "201,75",
+                "count": 1
+              },
+              {
+                "value": "286,17",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Annee_construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1823",
+            "max_date": "2018",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Electricite (GJ)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 135,
+            "top_values": [
+              {
+                "value": "42768,00144",
+                "count": 1
+              },
+              {
+                "value": "278,89272",
+                "count": 1
+              },
+              {
+                "value": "2127,6558",
+                "count": 1
+              },
+              {
+                "value": "2782,03104",
+                "count": 1
+              },
+              {
+                "value": "3928,25952",
+                "count": 1
+              },
+              {
+                "value": "3399,73884",
+                "count": 1
+              },
+              {
+                "value": "6414,33636",
+                "count": 1
+              },
+              {
+                "value": "429,99552",
+                "count": 1
+              },
+              {
+                "value": "3348,13932",
+                "count": 1
+              },
+              {
+                "value": "3854,30436",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Gaz_naturel": {
+            "null_count": 23,
+            "null_pct": 17.0,
+            "unique_count": 112,
+            "top_values": [
+              {
+                "value": "2830,6",
+                "count": 1
+              },
+              {
+                "value": "2272,3",
+                "count": 1
+              },
+              {
+                "value": "1637,8",
+                "count": 1
+              },
+              {
+                "value": "417,5",
+                "count": 1
+              },
+              {
+                "value": "3637,7",
+                "count": 1
+              },
+              {
+                "value": "2837,1",
+                "count": 1
+              },
+              {
+                "value": "1961,3",
+                "count": 1
+              },
+              {
+                "value": "3942,8",
+                "count": 1
+              },
+              {
+                "value": "5599,6",
+                "count": 1
+              },
+              {
+                "value": "4146,9",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Mazout": {
+            "null_count": 135,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Eau_refroidie (GJ)": {
+            "null_count": 134,
+            "null_pct": 99.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "1100,4",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Vapeur": {
+            "null_count": 133,
+            "null_pct": 98.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "14357,3",
+                "count": 1
+              },
+              {
+                "value": "1413,4",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "44a7750a-47a0-4c67-895c-ed2e765b0bc0",
+      "name": "Consommation d'énergie et émissions de gaz à effet de serre bâtiments municipaux - Données de divulgation de l’année 2021 (dans le cadre du Règlement 21-042)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ec66af84-9b4b-44ec-992a-43f0a4f18512/resource/44a7750a-47a0-4c67-895c-ed2e765b0bc0/download/consommation-energetique-plus-2000m2-municipaux-2021.csv",
+      "datastore_active": true,
+      "size": 11506,
+      "last_modified": "2025-10-10T14:02:37.125448",
+      "created": "2025-10-10T14:02:37.255713",
+      "schema": {
+        "resource_id": "44a7750a-47a0-4c67-895c-ed2e765b0bc0",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Adresse_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Identifiant Standard Montreal-Divulgation-ID batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_consommation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Superficie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emissions_GES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_construction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Electricite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Gaz_naturel",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mazout",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Eau_refroidie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Vapeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Adresse_civique": "1000 Av. Émile-Journault E",
+            "Arrondissement": "Mercier - Hochelaga-Maisonneuve",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "C650100653",
+            "Annee_consommation": "2021",
+            "Superficie": "53494,051765624",
+            "Emissions_GES": "178,60931372",
+            "Annee_construction": "1976",
+            "Electricite": "39432,9636",
+            "Gaz_naturel": "3358,7",
+            "Mazout": null,
+            "Eau_refroidie": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 2,
+            "Adresse_civique": "10300 Rue Lajeunesse",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100655",
+            "Annee_consommation": "2021",
+            "Superficie": "6348,00614089689",
+            "Emissions_GES": "78,21577088",
+            "Annee_construction": "1948",
+            "Electricite": "2102,2794",
+            "Gaz_naturel": "1530,5",
+            "Mazout": null,
+            "Eau_refroidie": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 3,
+            "Adresse_civique": "1033 Rue Rachel E",
+            "Arrondissement": "Plateau Mont-Royal",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100552",
+            "Annee_consommation": "2021",
+            "Superficie": "2313,00223896543",
+            "Emissions_GES": "31,24566352",
+            "Annee_construction": "1990",
+            "Electricite": "2874,2076",
+            "Gaz_naturel": "603,4",
+            "Mazout": null,
+            "Eau_refroidie": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 4,
+            "Adresse_civique": "10560 Rue Saint-Hubert",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100656",
+            "Annee_consommation": "2021",
+            "Superficie": "3796,00366967363",
+            "Emissions_GES": "143,843147064",
+            "Annee_construction": "1970",
+            "Electricite": "3275,18532",
+            "Gaz_naturel": "2817",
+            "Mazout": null,
+            "Eau_refroidie": null,
+            "Vapeur": null
+          },
+          {
+            "_id": 5,
+            "Adresse_civique": "10851 Av. Saint-Charles",
+            "Arrondissement": "Ahuntsic - Cartierville",
+            "Identifiant Standard Montreal-Divulgation-ID batiment": "650100657",
+            "Annee_consommation": "2021",
+            "Superficie": "6209,00601083251",
+            "Emissions_GES": "1,245542544",
+            "Annee_construction": "1986",
+            "Electricite": "6227,71272",
+            "Gaz_naturel": null,
+            "Mazout": null,
+            "Eau_refroidie": null,
+            "Vapeur": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Adresse_civique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Identifiant Standard Montreal-Divulgation-ID batiment": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_consommation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emissions_GES": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Electricite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Gaz_naturel": {
+          "null_count": 21,
+          "null_pct": 20.4,
+          "populated_pct": 79.6
+        },
+        "Mazout": {
+          "null_count": 102,
+          "null_pct": 99.0,
+          "populated_pct": 1.0
+        },
+        "Eau_refroidie": {
+          "null_count": 102,
+          "null_pct": 99.0,
+          "populated_pct": 1.0
+        },
+        "Vapeur": {
+          "null_count": 103,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:15:11.466192+00:00",
+        "fields": {
+          "Adresse_civique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "1000 Av. Émile-Journault E",
+                "count": 1
+              },
+              {
+                "value": "10300 Rue Lajeunesse",
+                "count": 1
+              },
+              {
+                "value": "1033 Rue Rachel E",
+                "count": 1
+              },
+              {
+                "value": "10560 Rue Saint-Hubert",
+                "count": 1
+              },
+              {
+                "value": "10851 Av. Saint-Charles",
+                "count": 1
+              },
+              {
+                "value": "11121 Av. Salk",
+                "count": 1
+              },
+              {
+                "value": "1177 Rue Dupuis",
+                "count": 1
+              },
+              {
+                "value": "12000 Boul. Rolland",
+                "count": 1
+              },
+              {
+                "value": "12090 Rue Notre-Dame E",
+                "count": 1
+              },
+              {
+                "value": "1210 Rue Sherbrooke E",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 16
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 14
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 6
+              },
+              {
+                "value": "Verdun",
+                "count": 6
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 6
+              },
+              {
+                "value": "Rosemont - Petite-Patrie",
+                "count": 6
+              },
+              {
+                "value": "LaSalle",
+                "count": 6
+              },
+              {
+                "value": "Anjou",
+                "count": 6
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 5
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Identifiant Standard Montreal-Divulgation-ID batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "650100001",
+            "max_date": "C650100722",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Annee_consommation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021",
+            "max_date": "2021",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Superficie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 102,
+            "top_values": [
+              {
+                "value": "3374,00326089986",
+                "count": 2
+              },
+              {
+                "value": "53494,051765624",
+                "count": 1
+              },
+              {
+                "value": "6348,00614089689",
+                "count": 1
+              },
+              {
+                "value": "2313,00223896543",
+                "count": 1
+              },
+              {
+                "value": "3796,00366967363",
+                "count": 1
+              },
+              {
+                "value": "6209,00601083251",
+                "count": 1
+              },
+              {
+                "value": "3619,003502448",
+                "count": 1
+              },
+              {
+                "value": "7902,00764592759",
+                "count": 1
+              },
+              {
+                "value": "3221,00312154517",
+                "count": 1
+              },
+              {
+                "value": "4250,00411560866",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Emissions_GES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "178,60931372",
+                "count": 1
+              },
+              {
+                "value": "78,21577088",
+                "count": 1
+              },
+              {
+                "value": "31,24566352",
+                "count": 1
+              },
+              {
+                "value": "143,843147064",
+                "count": 1
+              },
+              {
+                "value": "1,245542544",
+                "count": 1
+              },
+              {
+                "value": "95,274262408",
+                "count": 1
+              },
+              {
+                "value": "231,120208",
+                "count": 1
+              },
+              {
+                "value": "183,614280144",
+                "count": 1
+              },
+              {
+                "value": "3,45934888",
+                "count": 1
+              },
+              {
+                "value": "94,115654032",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Annee_construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1823",
+            "max_date": "2019",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Electricite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "39432,9636",
+                "count": 1
+              },
+              {
+                "value": "2102,2794",
+                "count": 1
+              },
+              {
+                "value": "2874,2076",
+                "count": 1
+              },
+              {
+                "value": "3275,18532",
+                "count": 1
+              },
+              {
+                "value": "6227,71272",
+                "count": 1
+              },
+              {
+                "value": "424,60704",
+                "count": 1
+              },
+              {
+                "value": "3589,92",
+                "count": 1
+              },
+              {
+                "value": "6867,40572",
+                "count": 1
+              },
+              {
+                "value": "2861,0244",
+                "count": 1
+              },
+              {
+                "value": "2637,29016",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Gaz_naturel": {
+            "null_count": 21,
+            "null_pct": 20.4,
+            "unique_count": 82,
+            "top_values": [
+              {
+                "value": "3358,7",
+                "count": 1
+              },
+              {
+                "value": "1530,5",
+                "count": 1
+              },
+              {
+                "value": "603,4",
+                "count": 1
+              },
+              {
+                "value": "2817",
+                "count": 1
+              },
+              {
+                "value": "1872,7",
+                "count": 1
+              },
+              {
+                "value": "4532,8",
+                "count": 1
+              },
+              {
+                "value": "3585,3",
+                "count": 1
+              },
+              {
+                "value": "56,8",
+                "count": 1
+              },
+              {
+                "value": "1841,2",
+                "count": 1
+              },
+              {
+                "value": "11122,3",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Mazout": {
+            "null_count": 102,
+            "null_pct": 99.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "1277,4",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Eau_refroidie": {
+            "null_count": 102,
+            "null_pct": 99.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "456,2",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Vapeur": {
+            "null_count": 103,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "93bb6d04-6b86-4ffd-951c-e8119933fcb5",
+      "name": "Consommation d'énergie et émissions de gaz à effet de serre bâtiments municipaux - 2019 et 2020 (données préalables au Règlement 21-042)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ec66af84-9b4b-44ec-992a-43f0a4f18512/resource/93bb6d04-6b86-4ffd-951c-e8119933fcb5/download/consommation-energetique-batiments-plus-2000m2.csv",
+      "datastore_active": true,
+      "size": 21668,
+      "last_modified": "2025-10-10T14:55:24.111475",
+      "created": "2022-07-13T14:25:13.576984",
+      "schema": {
+        "resource_id": "93bb6d04-6b86-4ffd-951c-e8119933fcb5",
+        "total_records": 186,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom_batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Adresse_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_consommation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Superficie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Emissions_GES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee_construction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Electricite (KWh)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Gaz_nature (m3)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mazout (L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Eau_refroidie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Vapeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom_batiment": "CHAUFFERIE & ATELIER, JARDIN BOTANIQUE",
+            "Adresse_civique": "4101 Rue Sherbrooke E",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "Annee_consommation": "2019",
+            "Superficie": "38010",
+            "Emissions_GES": "3170,46",
+            "Annee_construction": "1939",
+            "Electricite (KWh)": "7245484",
+            "Gaz_nature (m3)": "1664386",
+            "Mazout (L)": "0",
+            "Eau_refroidie": "0",
+            "Vapeur": "0"
+          },
+          {
+            "_id": 2,
+            "Nom_batiment": "ATELIERS MUNICIPAUX VIAU",
+            "Adresse_civique": "2269 Rue Viau",
+            "Arrondissement": "Mercier-Hochelaga-Maisonneuve",
+            "Annee_consommation": "2019",
+            "Superficie": "9200",
+            "Emissions_GES": "1136,04",
+            "Annee_construction": "1948",
+            "Electricite (KWh)": "1688400",
+            "Gaz_nature (m3)": "597102",
+            "Mazout (L)": "0",
+            "Eau_refroidie": "0",
+            "Vapeur": "0"
+          },
+          {
+            "_id": 3,
+            "Nom_batiment": "CENTRE SPORTIF PIERRE-CHARBONNEAU",
+            "Adresse_civique": "2980 Rue Viau",
+            "Arrondissement": "Mercier-Hochelaga-Maisonneuve",
+            "Annee_consommation": "2019",
+            "Superficie": "18789",
+            "Emissions_GES": "960,37",
+            "Annee_construction": "1958",
+            "Electricite (KWh)": "1215397",
+            "Gaz_nature (m3)": "504837",
+            "Mazout (L)": "0",
+            "Eau_refroidie": "1176,6",
+            "Vapeur": "0"
+          },
+          {
+            "_id": 4,
+            "Nom_batiment": "EDIFICE GOSFORD COUR MUNICIPALE",
+            "Adresse_civique": "775 Rue Gosford",
+            "Arrondissement": "Ville-Marie",
+            "Annee_consommation": "2019",
+            "Superficie": "25395",
+            "Emissions_GES": "674,43",
+            "Annee_construction": "1913",
+            "Electricite (KWh)": "3394727",
+            "Gaz_nature (m3)": "0",
+            "Mazout (L)": "0",
+            "Eau_refroidie": "0",
+            "Vapeur": "11572,1"
+          },
+          {
+            "_id": 5,
+            "Nom_batiment": "COMPLEXE GADBOIS",
+            "Adresse_civique": "5485 Chemin de la Côte-Saint-Paul",
+            "Arrondissement": "Le Sud-Ouest",
+            "Annee_consommation": "2019",
+            "Superficie": "20608",
+            "Emissions_GES": "674,29",
+            "Annee_construction": "1954",
+            "Electricite (KWh)": "3778065",
+            "Gaz_nature (m3)": "352212",
+            "Mazout (L)": "0",
+            "Eau_refroidie": "0",
+            "Vapeur": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom_batiment": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Adresse_civique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_consommation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emissions_GES": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_construction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Electricite (KWh)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Gaz_nature (m3)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mazout (L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Eau_refroidie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Vapeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 186,
+        "total_records": 186,
+        "audited_at": "2026-03-10T00:15:12.340859+00:00",
+        "fields": {
+          "Nom_batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2150 DICKSON (C.S.M. DICKSON)",
+            "max_date": "Édifice 7751 LHL",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Adresse_civique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 184,
+            "top_values": [
+              {
+                "value": "4101 Rue Sherbrooke E",
+                "count": 2
+              },
+              {
+                "value": "12000 boul Rolland",
+                "count": 2
+              },
+              {
+                "value": "2269 Rue Viau",
+                "count": 1
+              },
+              {
+                "value": "2980 Rue Viau",
+                "count": 1
+              },
+              {
+                "value": "775 Rue Gosford",
+                "count": 1
+              },
+              {
+                "value": "5485 Chemin de la Côte-Saint-Paul",
+                "count": 1
+              },
+              {
+                "value": "7355 Avenue Christophe-Colomb",
+                "count": 1
+              },
+              {
+                "value": "12125 Rue Notre-Dame E",
+                "count": 1
+              },
+              {
+                "value": "1500 Rue des Carrières",
+                "count": 1
+              },
+              {
+                "value": "3440 Rue Jarry E",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 21
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 19
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 14
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 14
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 13
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 12
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 11
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 9
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Annee_consommation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019",
+            "max_date": "2020",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Superficie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2045.0,
+            "max": 49577.0,
+            "mean": 6422.586,
+            "median": 4167.0,
+            "unique_count": 179,
+            "field_type_detected": "numeric"
+          },
+          "Emissions_GES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 179,
+            "top_values": [
+              {
+                "value": "0",
+                "count": 5
+              },
+              {
+                "value": "89,02",
+                "count": 2
+              },
+              {
+                "value": "1,12",
+                "count": 2
+              },
+              {
+                "value": "0,75",
+                "count": 2
+              },
+              {
+                "value": "3170,46",
+                "count": 1
+              },
+              {
+                "value": "1136,04",
+                "count": 1
+              },
+              {
+                "value": "960,37",
+                "count": 1
+              },
+              {
+                "value": "674,43",
+                "count": 1
+              },
+              {
+                "value": "674,29",
+                "count": 1
+              },
+              {
+                "value": "598,12",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Annee_construction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "2017",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Electricite (KWh)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19486112.0,
+            "mean": 1092156.4409,
+            "median": 684305.5,
+            "unique_count": 179,
+            "field_type_detected": "numeric"
+          },
+          "Gaz_nature (m3)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1664386.0,
+            "mean": 83442.2527,
+            "median": 54862.5,
+            "unique_count": 149,
+            "field_type_detected": "numeric"
+          },
+          "Mazout (L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 88582.0,
+            "mean": 662.6237,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 184
+              },
+              {
+                "value": "88582",
+                "count": 1
+              },
+              {
+                "value": "34666",
+                "count": 1
+              }
+            ]
+          },
+          "Eau_refroidie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 184
+              },
+              {
+                "value": "1176,6",
+                "count": 1
+              },
+              {
+                "value": "2736,9",
+                "count": 1
+              }
+            ]
+          },
+          "Vapeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 182
+              },
+              {
+                "value": "11572,1",
+                "count": 1
+              },
+              {
+                "value": "2041,8",
+                "count": 1
+              },
+              {
+                "value": "1717,7",
+                "count": 1
+              },
+              {
+                "value": "637,5",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "BTER",
+    "Consommation",
+    "Gaz à effet de serre",
+    "Énergie"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données de consommation d’énergie de 2019 et de 2020 ont été collectées par les différentes unités administratives de la Ville de Montréal responsables de gérer le parc immobilier qui leur appartient. \n\n\nLes données de 2021, 2022 et de 2023 proviennent des renseignements divulgués par les propriétaires des bâtiments.  \n\n\nLes émissions de GES ont été calculées à partir des données de consommation des différentes sources d’énergie (électricité, gaz naturel, mazout, vapeur, eau chaude et eau refroidie) à l’aide des derniers facteurs d’émission disponibles. \n\n## Dictionnaire des données\n\n\n\n- **Adresse civique** (Texte variable): l'adresse du bâtiment municipal \n\n- **Arrondissement** (Texte variable) : l'arrondissement dans lequel se trouve le bâtiment\n\n- **Superficie** (Numérique) : superficie de plancher du bâtiment en mètres carrés (m2)\n\n- **Annee_consommation** (Numérique) : l'année de la consommation énergétique\n\n- **Emissions_GES** (Numérique): les gaz à effet de serre composés de dioxyde de carbone (CO2), méthane (CH4) et d’oxyde nitreux (N2O) relâchés dans l’atmosphère et qui sont attribuables à la consommation énergétique du bâtiment, incluant les émissions directes découlant de la combustion de carburant sur place et les émissions indirectes découlant de la consommation d’électricité, de vapeur, d’eau chaude ou d’eau refroidie d’un réseau de distribution.\n\n- **Annee_construction** (Numérique) : année de construction du bâtiment municipal\n\n- **Electricite** (Numérique) : consommation énergétique mesurée en GJ\n\n- **Gaz_naturel** (Numérique) : consommation énergétique mesurée en GJ\n\n- **Mazout** (Numérique) : consommation énergétique mesurée en GJ\n\n- **Eau_refroidie** (Numérique) : consommation énergétique mesurée en GJ\n\n- **Vapeur** (Numérique) : consommation énergétique mesurée en GJ\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Bureau de la transition écologique et de la résilience",
+      "Couverture temporelle": "2019-2023",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "BTER",
+      "Consommation",
+      "Gaz à effet de serre",
+      "Énergie"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/consommation-emissions-batiments-municipaux",
+    "scraped_at": "2026-03-09T19:54:13.699008+00:00"
+  }
+}

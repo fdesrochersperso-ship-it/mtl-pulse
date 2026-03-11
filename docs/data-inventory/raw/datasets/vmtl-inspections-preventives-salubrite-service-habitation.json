@@ -1,0 +1,936 @@
+{
+  "slug": "vmtl-inspections-preventives-salubrite-service-habitation",
+  "title": "Inspections préventives en salubrité du Service de l'habitation",
+  "notes": "Les données représentent le résultat des inspections préventives effectuées par le Service de l'habitation. Les données incluent : l'état physique des parties inspectées du bâtiment sur une échelle de 1 (excellent) à 6 (très mauvais), le transfert ou non du bâtiment pour une inspection complète et la signification ou non d'un constat d'infraction sans préavis. La période du 1er janvier au 1er juin 2024 a servi de projet pilote au cours duquel plusieurs processus ont été testés et optimisés.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    },
+    {
+      "id": "sante",
+      "display_name": "Santé",
+      "mapped": {
+        "name_fr": "Santé",
+        "name_en": "Health",
+        "icon": "heart"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-05-08T14:55:47.750892",
+  "metadata_modified": "2026-03-04T05:06:02.900206",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "760cda5d-5c58-4899-8bff-e8119edd6ab3",
+      "name": "Inspections préventives de salubrité du Service de l'habitation",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/760cda5d-5c58-4899-8bff-e8119edd6ab3/download/inspections-preventives-salubrite-habitation.csv",
+      "datastore_active": true,
+      "size": 372032,
+      "last_modified": "2026-03-04T03:15:14.073492",
+      "created": "2024-06-22T03:13:53.286791",
+      "schema": {
+        "resource_id": "760cda5d-5c58-4899-8bff-e8119edd6ab3",
+        "total_records": 1934,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_inspection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "fondation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "structure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "enveloppe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ouvertures",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "saillies",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "interieur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "moy_composants_inspectes",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "constat_signifie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "indicateur_insp_integrale",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nombre_unite_logement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut_dem",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "code_type_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no_ident_uev",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_demande": "3003445037",
+            "date_inspection": "2024-08-23",
+            "fondation": "3",
+            "structure": null,
+            "enveloppe": "3",
+            "ouvertures": "2",
+            "saillies": "2",
+            "interieur": "2",
+            "moy_composants_inspectes": "2.4",
+            "constat_signifie": "non",
+            "indicateur_insp_integrale": "non",
+            "adresse": "11960 av. Allard",
+            "arrondissement": "Montréal-Nord",
+            "nombre_unite_logement": "8",
+            "statut_dem": "FR",
+            "code_type_demande": "PX",
+            "no_ident_uev": "02088810",
+            "longitude": "-73.61551817367464",
+            "latitude": "45.61866054128743",
+            "X": "295791.20878227",
+            "Y": "5053202.083865516"
+          },
+          {
+            "_id": 2,
+            "no_demande": "3003445095",
+            "date_inspection": "2024-08-23",
+            "fondation": "2",
+            "structure": null,
+            "enveloppe": "2",
+            "ouvertures": "3",
+            "saillies": "3",
+            "interieur": "2",
+            "moy_composants_inspectes": "2.4",
+            "constat_signifie": "non",
+            "indicateur_insp_integrale": "oui",
+            "adresse": "11935 av. Allard",
+            "arrondissement": "Montréal-Nord",
+            "nombre_unite_logement": "8",
+            "statut_dem": "FR",
+            "code_type_demande": "PX",
+            "no_ident_uev": "02088800",
+            "longitude": "-73.61476106277736",
+            "latitude": "45.61867445903247",
+            "X": "295850.2549858009",
+            "Y": "5053203.545781476"
+          },
+          {
+            "_id": 3,
+            "no_demande": "3003445134",
+            "date_inspection": "2024-08-23",
+            "fondation": "2",
+            "structure": null,
+            "enveloppe": "2",
+            "ouvertures": "2",
+            "saillies": "3",
+            "interieur": "2",
+            "moy_composants_inspectes": "2.2",
+            "constat_signifie": "non",
+            "indicateur_insp_integrale": "non",
+            "adresse": "11940 av. Allard",
+            "arrondissement": "Montréal-Nord",
+            "nombre_unite_logement": "8",
+            "statut_dem": "FR",
+            "code_type_demande": "PX",
+            "no_ident_uev": "02088802",
+            "longitude": "-73.61525211595102",
+            "latitude": "45.61840888856545",
+            "X": "295811.9173321826",
+            "Y": "5053174.0871437015"
+          },
+          {
+            "_id": 4,
+            "no_demande": "3003432875",
+            "date_inspection": "2024-07-29",
+            "fondation": "3",
+            "structure": null,
+            "enveloppe": "3",
+            "ouvertures": "3",
+            "saillies": "4",
+            "interieur": "2",
+            "moy_composants_inspectes": "3",
+            "constat_signifie": "non",
+            "indicateur_insp_integrale": "oui",
+            "adresse": " 6395 rue Villeneuve",
+            "arrondissement": "Montréal-Nord",
+            "nombre_unite_logement": "8",
+            "statut_dem": "FR",
+            "code_type_demande": "PX",
+            "no_ident_uev": "02087656",
+            "longitude": "-73.62216856779887",
+            "latitude": "45.62246086013185",
+            "X": "295273.2153162486",
+            "Y": "5053625.192731707"
+          },
+          {
+            "_id": 5,
+            "no_demande": "3003432934",
+            "date_inspection": "2024-07-29",
+            "fondation": "2",
+            "structure": null,
+            "enveloppe": "2",
+            "ouvertures": "2",
+            "saillies": "2",
+            "interieur": "2",
+            "moy_composants_inspectes": "2",
+            "constat_signifie": "non",
+            "indicateur_insp_integrale": "non",
+            "adresse": " 6379 rue Villeneuve",
+            "arrondissement": "Montréal-Nord",
+            "nombre_unite_logement": "8",
+            "statut_dem": "FR",
+            "code_type_demande": "PX",
+            "no_ident_uev": "02087649",
+            "longitude": "-73.62250317481286",
+            "latitude": "45.62226060325272",
+            "X": "295247.08843361767",
+            "Y": "5053602.977440369"
+          }
+        ]
+      },
+      "field_stats": {
+        "no_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_inspection": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "fondation": {
+          "null_count": 133,
+          "null_pct": 6.9,
+          "populated_pct": 93.1
+        },
+        "structure": {
+          "null_count": 1653,
+          "null_pct": 85.5,
+          "populated_pct": 14.5
+        },
+        "enveloppe": {
+          "null_count": 12,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "ouvertures": {
+          "null_count": 4,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "saillies": {
+          "null_count": 57,
+          "null_pct": 2.9,
+          "populated_pct": 97.1
+        },
+        "interieur": {
+          "null_count": 223,
+          "null_pct": 11.5,
+          "populated_pct": 88.5
+        },
+        "moy_composants_inspectes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "constat_signifie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "indicateur_insp_integrale": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nombre_unite_logement": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "statut_dem": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "code_type_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no_ident_uev": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "longitude": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "latitude": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "X": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Y": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1934,
+        "audited_at": "2026-03-10T00:20:04.190812+00:00",
+        "fields": {
+          "no_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3003333285.0,
+            "max": 3003583583.0,
+            "mean": 3003490323.551,
+            "median": 3003512410.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "date_inspection": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min_date": "2024-01-16",
+            "max_date": "2025-09-25",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "fondation": {
+            "null_count": 73,
+            "null_pct": 7.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 2.0949,
+            "median": 2.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 799
+              },
+              {
+                "value": "3",
+                "count": 100
+              },
+              {
+                "value": "1",
+                "count": 23
+              },
+              {
+                "value": "4",
+                "count": 4
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "structure": {
+            "null_count": 810,
+            "null_pct": 81.0,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 1.9684,
+            "median": 2.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 165
+              },
+              {
+                "value": "1",
+                "count": 16
+              },
+              {
+                "value": "3",
+                "count": 8
+              },
+              {
+                "value": "4",
+                "count": 1
+              }
+            ]
+          },
+          "enveloppe": {
+            "null_count": 7,
+            "null_pct": 0.7,
+            "min": 1.0,
+            "max": 6.0,
+            "mean": 2.3827,
+            "median": 2.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 657
+              },
+              {
+                "value": "3",
+                "count": 260
+              },
+              {
+                "value": "4",
+                "count": 54
+              },
+              {
+                "value": "1",
+                "count": 14
+              },
+              {
+                "value": "5",
+                "count": 6
+              },
+              {
+                "value": "6",
+                "count": 2
+              }
+            ]
+          },
+          "ouvertures": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 1.0,
+            "max": 6.0,
+            "mean": 2.2811,
+            "median": 2.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 742
+              },
+              {
+                "value": "3",
+                "count": 189
+              },
+              {
+                "value": "4",
+                "count": 29
+              },
+              {
+                "value": "1",
+                "count": 20
+              },
+              {
+                "value": "5",
+                "count": 11
+              },
+              {
+                "value": "6",
+                "count": 5
+              }
+            ]
+          },
+          "saillies": {
+            "null_count": 32,
+            "null_pct": 3.2,
+            "min": 1.0,
+            "max": 6.0,
+            "mean": 2.6322,
+            "median": 2.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 499
+              },
+              {
+                "value": "3",
+                "count": 296
+              },
+              {
+                "value": "4",
+                "count": 121
+              },
+              {
+                "value": "5",
+                "count": 29
+              },
+              {
+                "value": "1",
+                "count": 21
+              },
+              {
+                "value": "6",
+                "count": 2
+              }
+            ]
+          },
+          "interieur": {
+            "null_count": 134,
+            "null_pct": 13.4,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.1478,
+            "median": 2.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 723
+              },
+              {
+                "value": "3",
+                "count": 116
+              },
+              {
+                "value": "1",
+                "count": 14
+              },
+              {
+                "value": "4",
+                "count": 13
+              }
+            ]
+          },
+          "moy_composants_inspectes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.3063,
+            "median": 2.2,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 315
+              },
+              {
+                "value": "2.2",
+                "count": 217
+              },
+              {
+                "value": "2.4",
+                "count": 113
+              },
+              {
+                "value": "2.6",
+                "count": 78
+              },
+              {
+                "value": "2.8",
+                "count": 74
+              },
+              {
+                "value": "2.5",
+                "count": 50
+              },
+              {
+                "value": "3",
+                "count": 37
+              },
+              {
+                "value": "2.3",
+                "count": 27
+              },
+              {
+                "value": "1.8",
+                "count": 23
+              },
+              {
+                "value": "2.7",
+                "count": 16
+              }
+            ]
+          },
+          "constat_signifie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 925
+              },
+              {
+                "value": "oui",
+                "count": 75
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "indicateur_insp_integrale": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 750
+              },
+              {
+                "value": "oui",
+                "count": 250
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "11960 av. Allard",
+                "count": 1
+              },
+              {
+                "value": "11935 av. Allard",
+                "count": 1
+              },
+              {
+                "value": "11940 av. Allard",
+                "count": 1
+              },
+              {
+                "value": "6395 rue Villeneuve",
+                "count": 1
+              },
+              {
+                "value": "6379 rue Villeneuve",
+                "count": 1
+              },
+              {
+                "value": "6373 rue Villeneuve",
+                "count": 1
+              },
+              {
+                "value": "11965 boul. Langelier",
+                "count": 1
+              },
+              {
+                "value": "11975 boul. Langelier",
+                "count": 1
+              },
+              {
+                "value": "11985 boul. Langelier",
+                "count": 1
+              },
+              {
+                "value": "5985 boul. Roi-René",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 287
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 207
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 131
+              },
+              {
+                "value": "Lachine",
+                "count": 94
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 94
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 69
+              },
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 61
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 12
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 9
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nombre_unite_logement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 417.0,
+            "mean": 29.733,
+            "median": 10.0,
+            "unique_count": 132,
+            "field_type_detected": "numeric"
+          },
+          "statut_dem": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "FR",
+                "count": 930
+              },
+              {
+                "value": "ET",
+                "count": 70
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "code_type_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "PX",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "no_ident_uev": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min": 1000662.0,
+            "max": 5298148.0,
+            "mean": 2866022.7926,
+            "median": 3041521.0,
+            "unique_count": 990,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min": -73.878157,
+            "max": -73.488678,
+            "mean": -73.628614,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min": 45.426777,
+            "max": 45.693633,
+            "mean": 45.536657,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "X": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min": 275229.319695,
+            "max": 305681.820626,
+            "mean": 294753.103179,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "min": 5031876.115269,
+            "max": 5061527.634622,
+            "mean": 5044091.621111,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "5af0e768-25fc-4978-859b-7b07319785fe",
+      "name": "Inspections préventives de salubrité du Service de l'habitation",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/5af0e768-25fc-4978-859b-7b07319785fe/download/inspections-preventives-salubrite-habitation.zip",
+      "datastore_active": false,
+      "size": 188429,
+      "last_modified": "2026-03-04T03:15:17.898393",
+      "created": "2024-06-22T03:13:47.862253",
+      "schema": null
+    },
+    {
+      "id": "759c012b-32ea-43b8-907e-eb2a3710da39",
+      "name": "Inspections préventives de salubrité du Service de l'habitation",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/031a7f48-a9dd-43f9-8f46-19db58445457/resource/759c012b-32ea-43b8-907e-eb2a3710da39/download/inspections-preventives-salubrite-habitation.geojson",
+      "datastore_active": false,
+      "size": 1348013,
+      "last_modified": "2026-03-04T03:15:15.486057",
+      "created": "2024-06-22T03:13:49.499771",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Habitation",
+    "Inspection",
+    "Logement",
+    "SH",
+    "Salubrité"
+  ],
+  "web_metadata": {
+    "methodology_text": "### État physique du bâtiment\n\n\n\nL'équipe d'inspection inscrit dans une grille les défauts observés à l'extérieur et dans les parties communes du bâtiment. La grille calcule ensuite une note de 1 à 6 pour chaque composant du bâtiment, selon la norme européenne NEN 2767-1. Cette évaluation n'est pas un bilan complet du bâtiment, notamment car l'intérieur des logements, les systèmes électriques et le système de plomberie ne sont pas inspectés. \n\n\nLa note 1 représente un état \"Excellent\" et la note 6 représente un état \"Très mauvais\", équivalent à un composant en fin de vie. Si le composant n'a pas été observé directement, ou s'il était en cours de rénovations pendant l'inspection, aucune note n'est donnée.\n\n\nLa colonne _moy_composants_inspectes_ montre la note moyenne des composants inspectés, en excluant tout composant non vu ou en rénovations. Plus la moyenne s'approche de 1, meilleur est l'état du bâtiment.\n\n### Bâtiment proposé pour inspection intégrale\n\n\n\nLa colonne _indicateur_insp_integrale_ indique si l'équipe a recommandé que le bâtiment soit inspecté intégralement, y compris ses logements. La décision de proposer le bâtiment pour inspection intégrale se base à la fois sur l'état physique du bâtiment et sur d'autres signes avant-coureurs d'insalubrité, par exemple: la présence de vermine, de mauvaises odeurs, d'humidité excessive. Le Service de l'habitation compile sur une base régulière les bâtiments proposés et établit un plan d'inspection avec l'arrondissement concerné.\n\n### Constats d'infraction sans préavis\n\n\n\nLa colonne _constat_signifie_ précise si un ou des constats d'infractions ont été signifiés, sans préavis, au propriétaire du bâtiment à la suite de l'inspection préventive. Les constats sans préavis concernent des conditions dangereuses affectant les murs extérieurs et les saillies (balcons, escaliers, garde-corps, etc.). Les propriétaires s'exposent à des constats additionnels, non-comptabilisés dans la colonne, en cas d'inspection complète de leur bâtiment. \n\n## Dictionnaire de données\n\n\n\n- no_demande (Numérique) : Identifiant de la demande\n\n- date_inspection (Date) : Date de l'inspection\n\n- fondation (Numérique) :Note pour la fondation\n\n- structure (Numérique) : Note pour la structure \n\n- enveloppe (Numérique) : Note pour l'enveloppe\n\n- ouvertures (Numérique) : Note pour ouvertures\n\n- saillies (Numérique) : Note pour les saillies\n\n- interieur (Numérique) : Note pour la construction ou des finis intérieurs \n\n- moy_composants_inspectes (Numérique) : Note moyenne pour les composants inspectés\n\n- constat_signifie (Liste de valeur) : Constat signifié au propriétaire du bâtiment (oui/non)\n\n- indicateur_insp_integrale (Liste de valeur) : Bâtiment retenu pour inspection intégrale (oui/non)\n\n- adresse (Texte) : Adresse du bâtiment inspecté\n\n- arrondissement (Liste de valeur) : Nom de l'arrondissement où l'inspection a été effectuée\n\n- nombre_unite_logement (Numérique) : Nombre de logements dans le bâtiment inspecté\n\n- statut_dem (Liste de valeur) : Statut de la demande\n\n- code_type_demande (Liste de valeur) : Code type de la demande\n\n- no_ident_uev (Numérique) : Identifiant de l'unité d'évaluation foncière\n\n- longitude (Coordonnées spatiales) : Longitude en WGS84\n\n- latitude (Coordonnées spatiales) : Latitude en WGS84\n\n- x (Coordonnées spatiales) : Coordonnée X en MTM 8 NAD83\n\n- y (Coordonnées spatiales) : Coordonnée Y en MTM 8 NAD83\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Couverture temporelle": "2024/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Habitation",
+      "Inspection",
+      "Logement",
+      "SH",
+      "Salubrité"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/inspections-preventives-salubrite-service-habitation",
+    "scraped_at": "2026-03-09T19:58:58.992082+00:00"
+  }
+}

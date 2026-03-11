@@ -1,0 +1,73 @@
+{
+  "slug": "vmtl-trajets-individuels-velo-enregistre-mon-resovelo",
+  "title": "Trajets individuels à vélo enregistrés par Mon RésoVélo",
+  "notes": "Trajets individuels tel qu'enregistrés par l'application Mon RésoVélo de la Ville de Montréal. Cette application mobile a été développée pour collecter des informations sur les déplacements à vélo sur le territoire de l'agglomération montréalaise. Les utilisateurs de l'application ont installé l'application sur leur téléphone et devaient activer l'application pour enregistrer un trajet.\r\n\r\nLes données fournies ici sont les trajets individuels enregistrés par l'application et traités pour préserver la vie privée des utilisateurs.\r\n\r\nDe part la méthode de collecte (collecte volontaire sans sélection des utilisateurs), il n’est pas possible de garantir que ces données sont pleinement représentatives de l’usage du vélo (p. ex. biais de représentation dans les utilisateurs de l’application, etc.) D’autres limitations quant à ces données sont listées dans la section méthodologie.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2015-11-19T15:26:31.741056",
+  "metadata_modified": "2025-02-26T15:01:51.426772",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "2f05c452-6b63-4fba-8220-ac7104492074",
+      "name": "Trajets individuels anonymisés avec les positions GPS",
+      "description": "Le fichier est une liste d’éléments JSON avec la structure suivante:\r\n\r\n- id (entier) : identifiant unique du trip\r\n- purpose (texte): but du trajet tel qu’enregistré par l’utilisateur\r\n- start (date) : heure de départ du trajet\r\n- stop (date): heure d'arrivée du trajet\r\n- length (entier): longueur du trajet en mètres\r\n- id_origine (entier): identifiant d'origine du trajet (si différent du champ id, le trajet original a été sectionné pour supprimer des sauts pendant l'enregistrement) \r\n- n_coord: nombre de points constituant le trajet.\r\n- liste_segments (json) : liste ordonnées des identifiants de segment de réseau utilisé avec l’attribut source (RES_CYCL_2015 pour les pistes cyclables, GEOBASE pour la géobase et QA pour Adresse Québec Réseau) et l’identifiant du segment de réseau à l’intérieur de la source.\r\n- geometry (structure): donnée géospatiale du trajet sous forme d’un ligne (linestring), structuré au format Geojson.\r\n",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/fr/dataset/77f30d2b-c786-45f0-9f33-ebdef46f3b4c/resource/2f05c452-6b63-4fba-8220-ac7104492074/download/trip5000.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-06-02T21:03:28.355038",
+      "created": "2016-01-13T11:55:28.656456",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SUM",
+    "Transport",
+    "Vélo"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Ressources\n\n                                \n                                \n                                \n                                \n                                \n                                    \n                                    \n                                        \n                                    \n                                    \n                                \n                        \n                                \n                                    \n#### Données\n\n                                    \n                                        \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            ZIP\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Trajets individuels anonymisés avec les positions GPS\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 10 ans\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                        \n\n                                        \n                        \n                                    \n                                \n                            \n\n                            \n                                \n### Méthodologie\n\n                                \n                                \n                                    \n\nUne fois le mode de suivi lancé, l'application Mon RésoVélo enregistre à intervalle régulier la position de l'utilisateur pour former un trajet. Les données ont par la suite été traitée pour pallier aux problèmes de précision des GPS ainsi qu'aux enjeux de respect de la vie privée.\n\n\nLes traitements sont les suivants : \n\n\n\n- Suppression des informations personnelles entrées dans profil d'utilisateur de l'application;\n\n- Suppression de toutes les périodes d'arrêt d'une durée supérieure à quelques minutes\n (p. ex. un trajet avec deux arrêts de plusieurs minutes est scindé en trois trajets distincts);\n\n- Suppression du premier et du dernier segment de rue utilisé sur les trajets une fois scindés;\n\n- Application d’un algorithme pour déterminer les segments de rue empruntés.\n\n\n\nPour la dernière étape, la précision des positions GPS ne permet pas toujours de déterminer avec certitude le segment de rue emprunté, l’information des segments de rue est donc à titre indicatif. Actuellement cette information contient notamment des faux positifs (des segments listés mais non empruntés par le cycliste); l’algorithme de traitement sera amélioré pour limiter ces faux positifs.\n\n\nLors de l’assignation des segments de rue, trois réseaux ont été utilisés: le réseau de piste de cyclable de la Ville de Montréal, qui était prioritaire dans l’assignation (à choisir entre la rue et une piste cyclable, l’algorithme choisissait la seconde), la géobase de la Ville de Montréal pour le réseau routier sur l’île de Montréal, la base Adresse Québec Réseau hors de l’île de Montréal.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "SUM",
+      "Transport",
+      "Vélo"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/trajets-individuels-velo-enregistre-mon-resovelo",
+    "scraped_at": "2026-03-09T20:23:35.775012+00:00"
+  }
+}

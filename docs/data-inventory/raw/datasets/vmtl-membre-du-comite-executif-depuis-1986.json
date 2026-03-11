@@ -1,0 +1,332 @@
+{
+  "slug": "vmtl-membre-du-comite-executif-depuis-1986",
+  "title": "Membres du comité exécutif depuis 1986",
+  "notes": "Élus siégeant aux comités exécutif avec le titre de la fonction et dates en vigueur.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-05-05T14:34:26.660434",
+  "metadata_modified": "2025-11-20T16:58:19.056958",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "978db4db-dbb3-4356-924e-72e33b7548cb",
+      "name": "Membres du Comité exécutif depuis 1986 ",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/536799cd-ae0c-4aed-bae8-fa32ddd31beb/resource/978db4db-dbb3-4356-924e-72e33b7548cb/download/comite_executif_1986-2021.csv",
+      "datastore_active": true,
+      "size": 9225,
+      "last_modified": "2021-11-29T14:28:15.527123",
+      "created": "2016-01-13T12:10:17.570956",
+      "schema": {
+        "resource_id": "978db4db-dbb3-4356-924e-72e33b7548cb",
+        "total_records": 148,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Début",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Fin",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Période",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fonction",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom": "Plante, Valérie",
+            "Début": "2017-11-18T00:00:00",
+            "Fin": null,
+            "Période": "Plante (2021-2025)",
+            "Fonction": "Mairesse"
+          },
+          {
+            "_id": 2,
+            "Nom": "Ollivier, Dominique",
+            "Début": "2021-11-24T00:00:00",
+            "Fin": null,
+            "Période": "Plante (2021-2025)",
+            "Fonction": "Présidente"
+          },
+          {
+            "_id": 3,
+            "Nom": "Dorais, Benoit ",
+            "Début": "2021-11-24T00:00:00",
+            "Fin": null,
+            "Période": "Plante (2021-2025)",
+            "Fonction": "Vice-président"
+          },
+          {
+            "_id": 4,
+            "Nom": "Alneus, Ericka ",
+            "Début": "2021-11-24T00:00:00",
+            "Fin": null,
+            "Période": "Plante (2021-2025)",
+            "Fonction": ""
+          },
+          {
+            "_id": 5,
+            "Nom": "Beaudry,Robert ",
+            "Début": "2021-11-24T00:00:00",
+            "Fin": null,
+            "Période": "Plante (2021-2025)",
+            "Fonction": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Début": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fin": {
+          "null_count": 15,
+          "null_pct": 10.1,
+          "populated_pct": 89.9
+        },
+        "Période": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fonction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 148,
+        "total_records": 148,
+        "audited_at": "2026-03-10T00:20:55.217390+00:00",
+        "fields": {
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 101,
+            "top_values": [
+              {
+                "value": "Deros, Mary",
+                "count": 5
+              },
+              {
+                "value": "Dorais, Benoit",
+                "count": 4
+              },
+              {
+                "value": "Bourgeois, Caroline",
+                "count": 3
+              },
+              {
+                "value": "Thuillier, Émilie",
+                "count": 3
+              },
+              {
+                "value": "Ménard, Réal",
+                "count": 3
+              },
+              {
+                "value": "Deschamps, Richard",
+                "count": 3
+              },
+              {
+                "value": "Bissonet, Michel",
+                "count": 3
+              },
+              {
+                "value": "Applebaum, Michael",
+                "count": 3
+              },
+              {
+                "value": "De Sousa, Alan",
+                "count": 3
+              },
+              {
+                "value": "Fotopoulos, Helen",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Début": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1986-11-25T00:00:00",
+            "max_date": "2021-11-26T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Fin": {
+            "null_count": 15,
+            "null_pct": 10.1,
+            "min_date": "1990-11-15T00:00:00",
+            "max_date": "2021-11-18T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Période": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Plante (2017-2021)",
+                "count": 18
+              },
+              {
+                "value": "Tremblay (2005-2009)",
+                "count": 16
+              },
+              {
+                "value": "Plante (2021-2025)",
+                "count": 15
+              },
+              {
+                "value": "Tremblay (2009-2012)",
+                "count": 14
+              },
+              {
+                "value": "Coderre (2013-2017)",
+                "count": 13
+              },
+              {
+                "value": "Tremblay (2001-2005)",
+                "count": 13
+              },
+              {
+                "value": "Blanchard (2013)",
+                "count": 12
+              },
+              {
+                "value": "Applebaum (2012-2013)",
+                "count": 12
+              },
+              {
+                "value": "Bourque (1994-1998)",
+                "count": 12
+              },
+              {
+                "value": "Bourque (1998-2001)",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Fonction": {
+            "null_count": 102,
+            "null_pct": 68.9,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Vice-président",
+                "count": 10
+              },
+              {
+                "value": "Maire",
+                "count": 9
+              },
+              {
+                "value": "Vice-présidente",
+                "count": 8
+              },
+              {
+                "value": "Président",
+                "count": 7
+              },
+              {
+                "value": "Présidente",
+                "count": 3
+              },
+              {
+                "value": "Mairesse",
+                "count": 2
+              },
+              {
+                "value": "Vice-président (à compter du 26 janvier 2009)",
+                "count": 2
+              },
+              {
+                "value": "Présidente (à compter du 4 juillet 2013)",
+                "count": 1
+              },
+              {
+                "value": "Vice-président et président (à compter du 3 juillet 2008)",
+                "count": 1
+              },
+              {
+                "value": "Vice-président et président (à compter du 6 avril 2011), démission (9 novembre 2012)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Comité exécutif",
+    "SG",
+    "Élu"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Dictionnaire de données\n\n\n\n- Nom (texte): Nom et prénom (séparé par une virgule) de l'élu.e membre du comité exécutif\n\n- Début (date): Date de l'assermentation de l'élu.e sur le comité exécutif, format AAAA-MM-JJ\n\n- Fin (date): Date de fin de l'élu.e sur le comité exécutif, format AAAA-MM-JJ\n\n- Période (texte): Nom de l'élu.e à la mairie et période (ie \"Plante (2021-2025)\")\n\n- Fonction (texte): Fonction de l'élu.e sur le comité exécutif, s'il y a lieu\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "1986/2021",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Comité exécutif",
+      "SG",
+      "Élu"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/membre-du-comite-executif-depuis-1986",
+    "scraped_at": "2026-03-09T20:12:48.306727+00:00"
+  }
+}

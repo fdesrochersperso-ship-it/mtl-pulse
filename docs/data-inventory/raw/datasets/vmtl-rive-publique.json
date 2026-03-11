@@ -1,0 +1,99 @@
+{
+  "slug": "vmtl-rive-publique",
+  "title": "Rive publique",
+  "notes": "Données linéaires représentant l'interprétation des rives accessibles de propriété publique (municipale ou gouvernementale) de l'agglomération de Montréal effectuée à l'aide du rôle foncier. \r\nCette donnée est approximative et ne détermine pas la rive réelle au sens de la [Politique de protection des rives, du littoral et des plaines inondables](https://www.environnement.gouv.qc.ca/eau/rives/index.htm). L'accessibilité peut être par la terre et/ou par l'eau et il peut y avoir présence d'aménagement ou non. Les rives des cours d'eau intérieurs ne sont pas incluses, à l'exception des canaux de Lachine et de l'Aqueduc.\r\n\r\nBien que celle-ci ait évolué, grâce à l'agrandissement des parcs en rives entre autres, cette donnée a été produite initialement pour le calcul d'un indicateur de l'état de l'environnement dans le premier plan stratégique de développement durable de la collectivité montréalaise. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-10-04T14:38:36.565209",
+  "metadata_modified": "2025-02-26T21:32:42.579391",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "4b5ded1e-c8fc-4436-9de4-1a2ac8623781",
+      "name": "Rive publique accessible",
+      "description": "Polylignes des rives publiques accessibles de l’agglomération de Montréal\r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile\r\n\r\nSystème géodésique : NAD 1983 MTM 8\r\n\r\n### Dictionnaire de données\t\t\r\n- `Arrond` (Texte variable) : Nom de l'arrondissement et spécification spéciale à l'occasion\r\n- `REMARQUES` (Texte variable) : Remarque particulière\r\n- `DATE` (Date et/ou heure) : Date de la dernière mise à jour\t\r\n- `Bassin` (Texte variable) : Nom du bassin\t\t",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/4bbda8ce-2e53-427c-b7c2-1796e3ab38a2/resource/4b5ded1e-c8fc-4436-9de4-1a2ac8623781/download/rivepubliquemtl.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-05T20:24:40.451211",
+      "created": "2016-10-04T10:42:17.559722",
+      "schema": null
+    },
+    {
+      "id": "473df7a0-7fd3-4f33-afae-03b21c1d7f40",
+      "name": "Rive publique accessible",
+      "description": "Polylignes des rives publiques accessibles de l’agglomération de Montréal\r\n\r\nLe fichier contient le fichier au format geojson\r\n\r\nSystème géodésique : WGS84\r\n\r\n### Dictionnaire de données\t\t\r\n- `Arrond` (Texte variable) : Nom de l'arrondissement et spécification spéciale à l'occasion\r\n- `REMARQUES` (Texte variable) : Remarque particulière\r\n- `DATE` (Date et/ou heure) : Date de la dernière mise à jour\r\n- `Bassin` (Texte variable) : Nom du bassin",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/4bbda8ce-2e53-427c-b7c2-1796e3ab38a2/resource/473df7a0-7fd3-4f33-afae-03b21c1d7f40/download/rivespubliquesaccessibles.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-04T14:52:50.194288",
+      "created": "2016-10-04T10:52:50.258791",
+      "schema": null
+    },
+    {
+      "id": "647a538f-d23e-4b72-82bb-2867be6370fb",
+      "name": "Rive publique accessible",
+      "description": "Polylignes des rives publiques accessibles de l’agglomération de Montréal\r\n\r\nLe fichier contient le fichier au format KMZ\r\n\r\nSystème géodésique : WGS84\r\n\r\n### Dictionnaire de données\t\t\r\n- `Arrond` (Texte variable) : Nom de l'arrondissement et spécification spéciale à l'occasion\r\n- `REMARQUES` (Texte variable) : Remarque particulière\r\n- `DATE` (Date et/ou heure) : Date de la dernière mise à jour\t\r\n- `Bassin` (Texte variable) : Nom du bassin\t\t",
+      "format": "KMZ",
+      "url": "https://donnees.montreal.ca/fr/dataset/4bbda8ce-2e53-427c-b7c2-1796e3ab38a2/resource/647a538f-d23e-4b72-82bb-2867be6370fb/download/rivepubliquemtl.kmz",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-05T20:27:19.845157",
+      "created": "2016-10-04T10:56:35.366566",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aquahacking",
+    "Berge",
+    "Eau",
+    "Fleuve",
+    "Lac",
+    "Parc",
+    "Rive",
+    "Rivière",
+    "Récréotouristique",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cet ensemble de données est une extraction des rives publiques accessibles en format shapefile à partir d'une feature class dans une file geodatabase créée avec le logiciel ArcGis de ESRI. \n\n\nIl est à noter que les rives publiques accessibles du domaine public le sont sous la réglementation en vigueur, régie par le propriétaire ou responsable du site (municipale, gouvernementale ou autre).\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2016-10-01",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Aquahacking",
+      "Berge",
+      "Eau",
+      "Fleuve",
+      "Lac",
+      "Parc",
+      "Rive",
+      "Rivière",
+      "Récréotouristique",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rive-publique",
+    "scraped_at": "2026-03-09T20:19:15.987515+00:00"
+  }
+}

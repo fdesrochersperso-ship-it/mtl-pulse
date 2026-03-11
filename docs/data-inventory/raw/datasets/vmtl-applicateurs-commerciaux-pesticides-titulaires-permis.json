@@ -1,0 +1,1103 @@
+{
+  "slug": "vmtl-applicateurs-commerciaux-pesticides-titulaires-permis",
+  "title": "Applicateurs commerciaux de pesticides titulaires d'un permis annuel",
+  "notes": "Ce registre permet aux citoyennes et citoyens de trouver les entreprises détentrices d'un permis annuel valide qui leur donne le droit d'opérer, sous certaines conditions, sur le territoire de la Ville.\r\n\r\nAdopté le 27 septembre 2021, le nouveau Règlement sur la vente et l’utilisation des pesticides (21-041) de la Ville de Montréal est entré en vigueur depuis le 1er janvier 2022. Selon ce nouveau règlement, tout applicateur commercial doit obtenir au préalable un permis annuel pour pouvoir utiliser un pesticide, qu’il s’agisse d’un biopesticide ou d’un pesticide de synthèse.\r\n\r\nAinsi, toute personne ou organisation qui désire faire affaire avec un applicateur commercial sur le territoire de la Ville doit s’assurer que l’entreprise est en règle quant à son permis municipal. Le présent registre public, mis à jour en continu, consigne les entreprises autorisées par la Ville pour opérer sur son territoire, et ce, durant l’année en cours.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "asNeeded",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-09-14T19:02:35.780476",
+  "metadata_modified": "2026-02-27T17:00:34.254793",
+  "num_resources": 7,
+  "resources": [
+    {
+      "id": "43e262be-1f94-4c99-9f66-d43b040e4515",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2026)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/43e262be-1f94-4c99-9f66-d43b040e4515/download/applicateurs-commerciaux-pesticides-titulaires-permis-2026.csv",
+      "datastore_active": true,
+      "size": 1541,
+      "last_modified": "2026-02-27T15:25:16.338434",
+      "created": "2026-01-27T14:28:43.695981",
+      "schema": {
+        "resource_id": "43e262be-1f94-4c99-9f66-d43b040e4515",
+        "total_records": 33,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "Complexe de Soccer Saputo (Stade Saputo)",
+            "no permis": "2026-0001"
+          },
+          {
+            "_id": 2,
+            "detenteur": "Enzo Leblay",
+            "no permis": "2026-0002"
+          },
+          {
+            "_id": 3,
+            "detenteur": "Yves Surprenant inc. (Extermination Yves Surprenant)",
+            "no permis": "2026-0003"
+          },
+          {
+            "_id": 4,
+            "detenteur": "Parasitex Inc. (Parasitex Gestion Parasitaire)",
+            "no permis": "2026-0004"
+          },
+          {
+            "_id": 5,
+            "detenteur": "Guillaume Grégoire (Grégoire gestion parasitaire)",
+            "no permis": "2026-0005"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 33,
+        "total_records": 33,
+        "audited_at": "2026-03-10T00:13:45.931717+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "Complexe de Soccer Saputo (Stade Saputo)",
+                "count": 1
+              },
+              {
+                "value": "Enzo Leblay",
+                "count": 1
+              },
+              {
+                "value": "Yves Surprenant inc. (Extermination Yves Surprenant)",
+                "count": 1
+              },
+              {
+                "value": "Parasitex Inc. (Parasitex Gestion Parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Guillaume Grégoire (Grégoire gestion parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Gazon Innova-Tek (9532-4992 Québec inc.)",
+                "count": 1
+              },
+              {
+                "value": "D-Solution Extermination inc.",
+                "count": 1
+              },
+              {
+                "value": "9368-4587 Québec inc. (Fext Gestion parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Compagnie d'Extermination Abell inc.",
+                "count": 1
+              },
+              {
+                "value": "Extermination PB (Pascal Bélanger)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "2026-0001",
+                "count": 1
+              },
+              {
+                "value": "2026-0002",
+                "count": 1
+              },
+              {
+                "value": "2026-0003",
+                "count": 1
+              },
+              {
+                "value": "2026-0004",
+                "count": 1
+              },
+              {
+                "value": "2026-0005",
+                "count": 1
+              },
+              {
+                "value": "2026-0006",
+                "count": 1
+              },
+              {
+                "value": "2026-0007",
+                "count": 1
+              },
+              {
+                "value": "2026-0008",
+                "count": 1
+              },
+              {
+                "value": "2026-0009",
+                "count": 1
+              },
+              {
+                "value": "2026-0010",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "cd364ebc-5118-44b7-bbdc-6d76d40ccda2",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2026)",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/cd364ebc-5118-44b7-bbdc-6d76d40ccda2/download/applicateurs-commerciaux-pesticides-titulaires-permis-2026.xlsx",
+      "datastore_active": true,
+      "size": 13321,
+      "last_modified": "2026-02-27T15:26:19.248971",
+      "created": "2026-01-27T14:29:36.730467",
+      "schema": {
+        "resource_id": "cd364ebc-5118-44b7-bbdc-6d76d40ccda2",
+        "total_records": 104,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "Complexe de Soccer Saputo (Stade Saputo)",
+            "no permis": "2026-0001"
+          },
+          {
+            "_id": 2,
+            "detenteur": "Enzo Leblay",
+            "no permis": "2026-0002"
+          },
+          {
+            "_id": 3,
+            "detenteur": "Yves Surprenant inc. (Extermination Yves Surprenant)",
+            "no permis": "2026-0003"
+          },
+          {
+            "_id": 4,
+            "detenteur": "Parasitex Inc. (Parasitex Gestion Parasitaire)",
+            "no permis": "2026-0004"
+          },
+          {
+            "_id": 5,
+            "detenteur": "Guillaume Grégoire (Grégoire gestion parasitaire)",
+            "no permis": "2026-0005"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 71,
+          "null_pct": 68.3,
+          "populated_pct": 31.7
+        },
+        "no permis": {
+          "null_count": 71,
+          "null_pct": 68.3,
+          "populated_pct": 31.7
+        }
+      },
+      "quality_audit": {
+        "sample_size": 104,
+        "total_records": 104,
+        "audited_at": "2026-03-10T00:13:46.853754+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 71,
+            "null_pct": 68.3,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "Complexe de Soccer Saputo (Stade Saputo)",
+                "count": 1
+              },
+              {
+                "value": "Enzo Leblay",
+                "count": 1
+              },
+              {
+                "value": "Yves Surprenant inc. (Extermination Yves Surprenant)",
+                "count": 1
+              },
+              {
+                "value": "Parasitex Inc. (Parasitex Gestion Parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Guillaume Grégoire (Grégoire gestion parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Gazon Innova-Tek (9532-4992 Québec inc.)",
+                "count": 1
+              },
+              {
+                "value": "D-Solution Extermination inc.",
+                "count": 1
+              },
+              {
+                "value": "9368-4587 Québec inc. (Fext Gestion parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "Compagnie d'Extermination Abell inc.",
+                "count": 1
+              },
+              {
+                "value": "Extermination PB (Pascal Bélanger)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "no permis": {
+            "null_count": 71,
+            "null_pct": 68.3,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "2026-0001",
+                "count": 1
+              },
+              {
+                "value": "2026-0002",
+                "count": 1
+              },
+              {
+                "value": "2026-0003",
+                "count": 1
+              },
+              {
+                "value": "2026-0004",
+                "count": 1
+              },
+              {
+                "value": "2026-0005",
+                "count": 1
+              },
+              {
+                "value": "2026-0006",
+                "count": 1
+              },
+              {
+                "value": "2026-0007",
+                "count": 1
+              },
+              {
+                "value": "2026-0008",
+                "count": 1
+              },
+              {
+                "value": "2026-0009",
+                "count": 1
+              },
+              {
+                "value": "2026-0010",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "5023618e-8f5a-45f1-b968-d1c2a754bfb3",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2025)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/5023618e-8f5a-45f1-b968-d1c2a754bfb3/download/applicateurs-commerciaux-pesticides-titulaires-permis-2025.csv",
+      "datastore_active": true,
+      "size": 4597,
+      "last_modified": "2026-01-27T14:26:24.665917",
+      "created": "2025-03-12T13:51:06.599142",
+      "schema": {
+        "resource_id": "5023618e-8f5a-45f1-b968-d1c2a754bfb3",
+        "total_records": 104,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "Gestion Parasitaire FC Inc.",
+            "no permis": "2025-0001"
+          },
+          {
+            "_id": 2,
+            "detenteur": "Extermination Gagné Inc.",
+            "no permis": "2025-0002"
+          },
+          {
+            "_id": 3,
+            "detenteur": "Compagnie d'extermination Abell Inc.",
+            "no permis": "2025-0003"
+          },
+          {
+            "_id": 4,
+            "detenteur": "Guillaume Grégoire (Grégoire Gestion Parasitaire)",
+            "no permis": "2025-0004"
+          },
+          {
+            "_id": 5,
+            "detenteur": "ExterminaBut Inc.",
+            "no permis": "2025-0005"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 104,
+        "total_records": 104,
+        "audited_at": "2026-03-10T00:13:47.695233+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 104,
+            "top_values": [
+              {
+                "value": "Gestion Parasitaire FC Inc.",
+                "count": 1
+              },
+              {
+                "value": "Extermination Gagné Inc.",
+                "count": 1
+              },
+              {
+                "value": "Compagnie d'extermination Abell Inc.",
+                "count": 1
+              },
+              {
+                "value": "Guillaume Grégoire (Grégoire Gestion Parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "ExterminaBut Inc.",
+                "count": 1
+              },
+              {
+                "value": "Insight Pest Solutions QC Corp.",
+                "count": 1
+              },
+              {
+                "value": "9005-6664 Québec inc. (Éliminex 3000)",
+                "count": 1
+              },
+              {
+                "value": "Les Services Extermination S-D. Inc.",
+                "count": 1
+              },
+              {
+                "value": "ORKIN CANADA CORPORATION",
+                "count": 1
+              },
+              {
+                "value": "Le Club de Golf Royal Montréal ltée",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 104,
+            "top_values": [
+              {
+                "value": "2025-0001",
+                "count": 1
+              },
+              {
+                "value": "2025-0002",
+                "count": 1
+              },
+              {
+                "value": "2025-0003",
+                "count": 1
+              },
+              {
+                "value": "2025-0004",
+                "count": 1
+              },
+              {
+                "value": "2025-0005",
+                "count": 1
+              },
+              {
+                "value": "2025-0006",
+                "count": 1
+              },
+              {
+                "value": "2025-0007",
+                "count": 1
+              },
+              {
+                "value": "2025-0008",
+                "count": 1
+              },
+              {
+                "value": "2025-0009",
+                "count": 1
+              },
+              {
+                "value": "2025-0010",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "798a233e-883b-4fa1-8f0d-8e450428c734",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2025)",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/798a233e-883b-4fa1-8f0d-8e450428c734/download/applicateurs-commerciaux-pesticides-titulaires-permis-2025.xlsx",
+      "datastore_active": true,
+      "size": 15298,
+      "last_modified": "2026-01-27T14:26:57.517926",
+      "created": "2025-05-30T13:45:26.460070",
+      "schema": {
+        "resource_id": "798a233e-883b-4fa1-8f0d-8e450428c734",
+        "total_records": 104,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "Gestion Parasitaire FC Inc.",
+            "no permis": "2025-0001"
+          },
+          {
+            "_id": 2,
+            "detenteur": "Extermination Gagné Inc.",
+            "no permis": "2025-0002"
+          },
+          {
+            "_id": 3,
+            "detenteur": "Compagnie d'extermination Abell Inc.",
+            "no permis": "2025-0003"
+          },
+          {
+            "_id": 4,
+            "detenteur": "Guillaume Grégoire (Grégoire Gestion Parasitaire)",
+            "no permis": "2025-0004"
+          },
+          {
+            "_id": 5,
+            "detenteur": "ExterminaBut Inc.",
+            "no permis": "2025-0005"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 104,
+        "total_records": 104,
+        "audited_at": "2026-03-10T00:13:48.512736+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 104,
+            "top_values": [
+              {
+                "value": "Gestion Parasitaire FC Inc.",
+                "count": 1
+              },
+              {
+                "value": "Extermination Gagné Inc.",
+                "count": 1
+              },
+              {
+                "value": "Compagnie d'extermination Abell Inc.",
+                "count": 1
+              },
+              {
+                "value": "Guillaume Grégoire (Grégoire Gestion Parasitaire)",
+                "count": 1
+              },
+              {
+                "value": "ExterminaBut Inc.",
+                "count": 1
+              },
+              {
+                "value": "Insight Pest Solutions QC Corp.",
+                "count": 1
+              },
+              {
+                "value": "9005-6664 Québec inc. (Éliminex 3000)",
+                "count": 1
+              },
+              {
+                "value": "Les Services Extermination S-D. Inc.",
+                "count": 1
+              },
+              {
+                "value": "ORKIN CANADA CORPORATION",
+                "count": 1
+              },
+              {
+                "value": "Le Club de Golf Royal Montréal ltée",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 104,
+            "top_values": [
+              {
+                "value": "2025-0001",
+                "count": 1
+              },
+              {
+                "value": "2025-0002",
+                "count": 1
+              },
+              {
+                "value": "2025-0003",
+                "count": 1
+              },
+              {
+                "value": "2025-0004",
+                "count": 1
+              },
+              {
+                "value": "2025-0005",
+                "count": 1
+              },
+              {
+                "value": "2025-0006",
+                "count": 1
+              },
+              {
+                "value": "2025-0007",
+                "count": 1
+              },
+              {
+                "value": "2025-0008",
+                "count": 1
+              },
+              {
+                "value": "2025-0009",
+                "count": 1
+              },
+              {
+                "value": "2025-0010",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "e7d7b0ae-ac81-424e-a643-977bc63a83b0",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2024)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/e7d7b0ae-ac81-424e-a643-977bc63a83b0/download/applicateurs-commerciaux-pesticides-titulaires-permis-2024.csv",
+      "datastore_active": true,
+      "size": 4033,
+      "last_modified": "2024-12-16T20:32:17.515715",
+      "created": "2024-03-05T18:57:09.922783",
+      "schema": {
+        "resource_id": "e7d7b0ae-ac81-424e-a643-977bc63a83b0",
+        "total_records": 108,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "2866-1767 Québec Inc. (IRCAE)",
+            "no permis": "2024-0027"
+          },
+          {
+            "_id": 2,
+            "detenteur": "6358098 Golf exécutif  Montréal",
+            "no permis": "2024-0017"
+          },
+          {
+            "_id": 3,
+            "detenteur": "9005-665 Québec Inc. Eliminex 3000",
+            "no permis": "2024-0034"
+          },
+          {
+            "_id": 4,
+            "detenteur": "9187-4230 Québec Inc.",
+            "no permis": "2024-0026"
+          },
+          {
+            "_id": 5,
+            "detenteur": "9323-0977 Québec Inc.",
+            "no permis": "2024-0049"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 108,
+        "total_records": 108,
+        "audited_at": "2026-03-10T00:13:49.352287+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 108,
+            "top_values": [
+              {
+                "value": "2866-1767 Québec Inc. (IRCAE)",
+                "count": 1
+              },
+              {
+                "value": "6358098 Golf exécutif  Montréal",
+                "count": 1
+              },
+              {
+                "value": "9005-665 Québec Inc. Eliminex 3000",
+                "count": 1
+              },
+              {
+                "value": "9187-4230 Québec Inc.",
+                "count": 1
+              },
+              {
+                "value": "9323-0977 Québec Inc.",
+                "count": 1
+              },
+              {
+                "value": "9326-2384 Québec Inc. (Pro Green)",
+                "count": 1
+              },
+              {
+                "value": "9335-9404 Quebec inc.-Mission Extermination",
+                "count": 1
+              },
+              {
+                "value": "A à Z services extermination inc.",
+                "count": 1
+              },
+              {
+                "value": "ABC Solution parasitaire",
+                "count": 1
+              },
+              {
+                "value": "Abell Pest Control Inc.",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 108,
+            "top_values": [
+              {
+                "value": "2024-0027",
+                "count": 1
+              },
+              {
+                "value": "2024-0017",
+                "count": 1
+              },
+              {
+                "value": "2024-0034",
+                "count": 1
+              },
+              {
+                "value": "2024-0026",
+                "count": 1
+              },
+              {
+                "value": "2024-0049",
+                "count": 1
+              },
+              {
+                "value": "2024-0055",
+                "count": 1
+              },
+              {
+                "value": "2024-0067",
+                "count": 1
+              },
+              {
+                "value": "2024-0104",
+                "count": 1
+              },
+              {
+                "value": "2024-0033",
+                "count": 1
+              },
+              {
+                "value": "2024-0004",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "80db012c-7394-4d49-bd3f-3a87838f191d",
+      "name": "Applicateurs commerciaux de pesticides titulaires permis (2023)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/80db012c-7394-4d49-bd3f-3a87838f191d/download/applicateurs-commerciaux-pesticides-titulaires-permis-2023.csv",
+      "datastore_active": true,
+      "size": 4264,
+      "last_modified": "2023-11-16T18:56:26.023157",
+      "created": "2023-06-30T19:28:59.871596",
+      "schema": null
+    },
+    {
+      "id": "5260e22a-e0c5-4a58-83c3-a0c81556b5e3",
+      "name": "Applicateurs commerciaux de pesticides titulaires d'un permis annuel (2022)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c2a4c800-e62e-4e62-b133-53542928b571/resource/5260e22a-e0c5-4a58-83c3-a0c81556b5e3/download/applicateurs-commerciaux-pesticides-titulaires-permis-2022.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-09-14T19:03:16.243848",
+      "created": "2022-09-14T19:03:16.332699",
+      "schema": {
+        "resource_id": "5260e22a-e0c5-4a58-83c3-a0c81556b5e3",
+        "total_records": 118,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "detenteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no_permis",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "detenteur": "Compagnie d'extermination Abell inc.",
+            "no_permis": "2022-0001"
+          },
+          {
+            "_id": 2,
+            "detenteur": "Les Entreprises d'Extermination Maheu Ltée",
+            "no_permis": "2022-0002"
+          },
+          {
+            "_id": 3,
+            "detenteur": "Les Entreprises Extermination S-D Inc.",
+            "no_permis": "2022-0003"
+          },
+          {
+            "_id": 4,
+            "detenteur": "Extermination Express inc",
+            "no_permis": "2022-0004"
+          },
+          {
+            "_id": 5,
+            "detenteur": "AJS Extermination inc.",
+            "no_permis": "2022-0005"
+          }
+        ]
+      },
+      "field_stats": {
+        "detenteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no_permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 118,
+        "total_records": 118,
+        "audited_at": "2026-03-10T00:13:50.171970+00:00",
+        "fields": {
+          "detenteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 118,
+            "top_values": [
+              {
+                "value": "Compagnie d'extermination Abell inc.",
+                "count": 1
+              },
+              {
+                "value": "Les Entreprises d'Extermination Maheu Ltée",
+                "count": 1
+              },
+              {
+                "value": "Les Entreprises Extermination S-D Inc.",
+                "count": 1
+              },
+              {
+                "value": "Extermination Express inc",
+                "count": 1
+              },
+              {
+                "value": "AJS Extermination inc.",
+                "count": 1
+              },
+              {
+                "value": "Experts Verts",
+                "count": 1
+              },
+              {
+                "value": "Vertdure",
+                "count": 1
+              },
+              {
+                "value": "Vextermination",
+                "count": 1
+              },
+              {
+                "value": "Terminix Canada",
+                "count": 1
+              },
+              {
+                "value": "Weed Man",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no_permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 118,
+            "top_values": [
+              {
+                "value": "2022-0001",
+                "count": 1
+              },
+              {
+                "value": "2022-0002",
+                "count": 1
+              },
+              {
+                "value": "2022-0003",
+                "count": 1
+              },
+              {
+                "value": "2022-0004",
+                "count": 1
+              },
+              {
+                "value": "2022-0005",
+                "count": 1
+              },
+              {
+                "value": "2022-0006",
+                "count": 1
+              },
+              {
+                "value": "2022-0007",
+                "count": 1
+              },
+              {
+                "value": "2022-0008",
+                "count": 1
+              },
+              {
+                "value": "2022-0009",
+                "count": 1
+              },
+              {
+                "value": "2022-0010",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Pesticide",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Ces données ont été collectées dans le cadre de demande de permis annuel faite par chaque entreprise, et ce, conformément au Règlement sur la vente et l'utilisation des pesticides (21-041) de la Ville de Montréal.\n\n## Dictionnaire de données\n\n\n\n- detenteur (texte) : Nom du détenteur de permis annuel pesticides.\n\n- no_permis (texte) : Numéro de permis annuel pesticides émis par le Bureau de la transition écologique et de la résilience.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "2022-01-01 /",
+      "Fréquence de mise à jour": "Au besoin"
+    },
+    "keywords": [
+      "Pesticide",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/applicateurs-commerciaux-pesticides-titulaires-permis",
+    "scraped_at": "2026-03-09T19:52:09.480779+00:00"
+  }
+}

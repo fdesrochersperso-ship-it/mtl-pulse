@@ -1,0 +1,99 @@
+{
+  "slug": "vmtl-deneigement",
+  "title": "Déneigement des rues en arrondissements",
+  "notes": "API permettant de récupérer les données sur la planification du chargement de la neige suite à une tempête. L'API est sécurisé et requiert un jeton. Pour obtenir un jeton, les développeurs doivent transmettre un courriel à [donneesouvertes@montreal.ca](mailto:donneesouvertes@montreal.ca).\r\n\r\n*La signalisation en vigueur dans les rues pour le stationnement en période de chargement de la neige prévaut toujours sur les données transmises par l'API.*",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-01-30T15:27:48.272653",
+  "metadata_modified": "2025-12-12T18:26:54.028880",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "c7d2d4c1-406d-4108-8c88-948585ea583d",
+      "name": "Lien vers les données du système Planif-Neige Production",
+      "description": "Lien sécurisé permettant d'accéder aux données du système Planif-Neige Production utilisé par les employés de la Ville pour : 1)Planifier le chargement suite à une précipitation 2)Modifier la planification du chargement 3)Faire la mise à jour de l’état d’avancement du chargement de la neige 4)Replanifier le chargement de la neige de certaines rues lorsque les travaux planifiés n’ont pas été complétés",
+      "format": "XML",
+      "url": "https://servicesenligne2.ville.montreal.qc.ca/api/infoneige/InfoneigeWebService?WSDL",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2016-01-13T12:16:07.447963",
+      "schema": null
+    },
+    {
+      "id": "2d2078fe-c24e-4ee1-9d1b-d1b87a4abbb3",
+      "name": "Lien vers les données du système Planif-Neige de Simulation / Acceptation",
+      "description": "Lien sécurisé permettant d'accéder aux données du système Planif-Neige (Acceptation) ou les données du simulateur automatique.",
+      "format": "XML",
+      "url": "https://servicesenligne2.ville.montreal.qc.ca/api/infoneige/sim/InfoneigeWebService?wsdl",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2016-01-13T12:16:07.813785",
+      "schema": null
+    },
+    {
+      "id": "34fbca5a-eea6-4fba-9745-188049334fea",
+      "name": "Spécifications de l'API",
+      "description": "Spécifications des données produites par l'API et séquence des événements et impacts sur les données disponibles",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/1060866e-1a19-4ded-8273-0e01fec3df6f/resource/34fbca5a-eea6-4fba-9745-188049334fea/download/planifneigeapispecificationsrev19octobre2015.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-01-21T19:18:17.714209",
+      "created": "2016-01-13T12:16:08.268047",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "311 Montréal",
+    "Arr.",
+    "Arrondissement",
+    "Déneigement"
+  ],
+  "web_metadata": {
+    "methodology_text": "API permettant de récupérer les données sur la planification du chargement de la neige suite à une tempête. L'API est sécurisé et requiert un jeton. Pour obtenir un jeton, les développeurs doivent transmettre un courriel à donneesouvertes@montreal.ca.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "311 Montréal",
+      "Arr.",
+      "Arrondissement",
+      "Déneigement"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/deneigement",
+    "scraped_at": "2026-03-09T19:56:22.203387+00:00"
+  }
+}

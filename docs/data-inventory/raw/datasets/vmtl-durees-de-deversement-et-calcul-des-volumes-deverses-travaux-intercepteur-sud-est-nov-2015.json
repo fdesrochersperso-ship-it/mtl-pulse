@@ -1,0 +1,751 @@
+{
+  "slug": "vmtl-durees-de-deversement-et-calcul-des-volumes-deverses-travaux-intercepteur-sud-est-nov-2015",
+  "title": "Volumes et durées des déversements, travaux intercepteur sud-est, Nov. 2015 (archives)",
+  "notes": "Durant le mois de novembre 2015, La Ville de Montréal a réalisé des travaux majeurs d'entretien de l'intercepteur sud-est qui ont requis la mise en chômage de celui-ci. Il en a résulté un déversement d'eaux usées dont la durée et le volume ont été estimés.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-03-22T16:56:49.981676",
+  "metadata_modified": "2025-02-26T21:35:34.937201",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "a1a9f91e-7249-459f-977d-ff5e88023816",
+      "name": "Durée et volumes déversés au format Excel",
+      "description": "2 onglets de données",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/274f8e6c-a5ce-4ac3-b893-6ded1ea52b6c/resource/a1a9f91e-7249-459f-977d-ff5e88023816/download/deversementdureevolumenov2015.xlsx",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-03-22T16:59:27.017833",
+      "created": "2016-03-22T12:59:27.123714",
+      "schema": null
+    },
+    {
+      "id": "d281b30c-a8a7-42fb-96d5-960e1163a76f",
+      "name": "Durée et volumes, onglet 1 au format CSV",
+      "description": "Tous les points de rejet, sauf Station de pompage de la cité du havre",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/274f8e6c-a5ce-4ac3-b893-6ded1ea52b6c/resource/d281b30c-a8a7-42fb-96d5-960e1163a76f/download/deversementdureevolumenov20151.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-12-04T18:12:35.149371",
+      "created": "2016-03-22T13:58:08.187067",
+      "schema": {
+        "resource_id": "d281b30c-a8a7-42fb-96d5-960e1163a76f",
+        "total_records": 30,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "POINTS_DE_REJET1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "POINTS_DE_REJET2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POINTS_DE_REJET3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fermeture_des_vannes",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Debut_du_deversement",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Fin_du_deversement",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Periode_estimee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Duree_du_deversement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Debit_eaux_usees",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Volume_estime",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "POINTS_DE_REJET1": 1,
+            "POINTS_DE_REJET2": "Regulateur_ALEPIN",
+            "POINTS_DE_REJET3": "",
+            "Fermeture_des_vannes": "2015-11-11T00:01:00",
+            "Debut_du_deversement": "2015-11-11T12:20:00",
+            "Fin_du_deversement": "2015-11-14T19:10:00",
+            "Periode_estimee": "",
+            "Duree_du_deversement": 78.83,
+            "Debit_eaux_usees": 842,
+            "Volume_estime": 238960
+          },
+          {
+            "_id": 2,
+            "POINTS_DE_REJET1": 2,
+            "POINTS_DE_REJET2": "Regulateur_STEPHEN",
+            "POINTS_DE_REJET3": "",
+            "Fermeture_des_vannes": "2015-11-11T00:01:00",
+            "Debut_du_deversement": "2015-11-11T00:20:00",
+            "Fin_du_deversement": "2015-11-14T18:20:00",
+            "Periode_estimee": "",
+            "Duree_du_deversement": 90.0,
+            "Debit_eaux_usees": 162,
+            "Volume_estime": 52488
+          },
+          {
+            "_id": 3,
+            "POINTS_DE_REJET1": 3,
+            "POINTS_DE_REJET2": "1re_Ave",
+            "POINTS_DE_REJET3": "",
+            "Fermeture_des_vannes": "2015-11-11T00:01:00",
+            "Debut_du_deversement": "2015-11-11T03:50:00",
+            "Fin_du_deversement": "2015-11-14T18:30:00",
+            "Periode_estimee": "",
+            "Duree_du_deversement": 86.67,
+            "Debit_eaux_usees": 149,
+            "Volume_estime": 46488
+          },
+          {
+            "_id": 4,
+            "POINTS_DE_REJET1": 4,
+            "POINTS_DE_REJET2": "Regulateur_RHEAUME",
+            "POINTS_DE_REJET3": "",
+            "Fermeture_des_vannes": "2015-11-11T00:01:00",
+            "Debut_du_deversement": "2015-11-11T00:40:00",
+            "Fin_du_deversement": "2015-11-14T18:54:00",
+            "Periode_estimee": "",
+            "Duree_du_deversement": 90.23,
+            "Debit_eaux_usees": 194,
+            "Volume_estime": 63019
+          },
+          {
+            "_id": 5,
+            "POINTS_DE_REJET1": 5,
+            "POINTS_DE_REJET2": "Trop-plein_OUV.D'INT._ÃŽLE-SOEURS",
+            "POINTS_DE_REJET3": "",
+            "Fermeture_des_vannes": "2015-11-11T04:00:00",
+            "Debut_du_deversement": "2015-11-11T04:30:00",
+            "Fin_du_deversement": "2015-11-14T20:00:00",
+            "Periode_estimee": "Y",
+            "Duree_du_deversement": 87.5,
+            "Debit_eaux_usees": 44,
+            "Volume_estime": 13860
+          }
+        ]
+      },
+      "field_stats": {
+        "POINTS_DE_REJET1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POINTS_DE_REJET2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POINTS_DE_REJET3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fermeture_des_vannes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Debut_du_deversement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fin_du_deversement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Periode_estimee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Duree_du_deversement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Debit_eaux_usees": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Volume_estime": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 30,
+        "total_records": 30,
+        "audited_at": "2026-03-10T00:18:27.453250+00:00",
+        "fields": {
+          "POINTS_DE_REJET1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 27.0,
+            "mean": 13.5,
+            "median": 12.5,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "10",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              }
+            ]
+          },
+          "POINTS_DE_REJET2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Regulateur_ST-PIERRE",
+                "count": 2
+              },
+              {
+                "value": "Trop-plein_BELLERIVE",
+                "count": 2
+              },
+              {
+                "value": "Trop-plein_JOLIETTE",
+                "count": 2
+              },
+              {
+                "value": "Regulateur_ALEPIN",
+                "count": 1
+              },
+              {
+                "value": "Regulateur_STEPHEN",
+                "count": 1
+              },
+              {
+                "value": "1re_Ave",
+                "count": 1
+              },
+              {
+                "value": "Regulateur_RHEAUME",
+                "count": 1
+              },
+              {
+                "value": "Trop-plein_OUV.D'INT._ÃŽLE-SOEURS",
+                "count": 1
+              },
+              {
+                "value": "Regulateur_RIVERSIDE",
+                "count": 1
+              },
+              {
+                "value": "Station_de_pompage_Cite_du_Havre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "POINTS_DE_REJET3": {
+            "null_count": 23,
+            "null_pct": 76.7,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Haut_niveau",
+                "count": 1
+              },
+              {
+                "value": "Bas_niveau",
+                "count": 1
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Lafontaine",
+                "count": 1
+              },
+              {
+                "value": "Nicolet",
+                "count": 1
+              },
+              {
+                "value": "Dezery",
+                "count": 1
+              },
+              {
+                "value": "De_Lasalle",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Fermeture_des_vannes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-11-11T00:01:00",
+            "max_date": "2015-11-11T08:30:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Debut_du_deversement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-11-11T00:11:00",
+            "max_date": "2015-11-11T23:30:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Fin_du_deversement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-11-13T17:00:00",
+            "max_date": "2015-11-14T20:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Periode_estimee": {
+            "null_count": 22,
+            "null_pct": 73.3,
+            "min_date": "Y",
+            "max_date": "Y",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Duree_du_deversement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 56.5,
+            "max": 90.23,
+            "mean": 73.889,
+            "median": 68.81,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "63.5",
+                "count": 2
+              },
+              {
+                "value": "78.83",
+                "count": 1
+              },
+              {
+                "value": "90.0",
+                "count": 1
+              },
+              {
+                "value": "86.67",
+                "count": 1
+              },
+              {
+                "value": "90.23",
+                "count": 1
+              },
+              {
+                "value": "87.5",
+                "count": 1
+              },
+              {
+                "value": "80.88",
+                "count": 1
+              },
+              {
+                "value": "84.53",
+                "count": 1
+              },
+              {
+                "value": "66.62",
+                "count": 1
+              },
+              {
+                "value": "87.15",
+                "count": 1
+              }
+            ]
+          },
+          "Debit_eaux_usees": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 30.0,
+            "max": 2457.0,
+            "mean": 572.4333,
+            "median": 191.5,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "660",
+                "count": 2
+              },
+              {
+                "value": "842",
+                "count": 1
+              },
+              {
+                "value": "162",
+                "count": 1
+              },
+              {
+                "value": "149",
+                "count": 1
+              },
+              {
+                "value": "194",
+                "count": 1
+              },
+              {
+                "value": "44",
+                "count": 1
+              },
+              {
+                "value": "1417",
+                "count": 1
+              },
+              {
+                "value": "2215",
+                "count": 1
+              },
+              {
+                "value": "882",
+                "count": 1
+              },
+              {
+                "value": "167",
+                "count": 1
+              }
+            ]
+          },
+          "Volume_estime": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "11187",
+            "max_date": "91682",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "0742f588-6eed-4864-bea6-8c3f3401b4a3",
+      "name": "Durée et volumes, onglet 2 au format CSV",
+      "description": "Point de rejet Station de pompage cité du havre",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/274f8e6c-a5ce-4ac3-b893-6ded1ea52b6c/resource/0742f588-6eed-4864-bea6-8c3f3401b4a3/download/deversementdureevolumenov20152.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-12-04T18:13:53.142497",
+      "created": "2016-03-22T13:58:59.881841",
+      "schema": {
+        "resource_id": "0742f588-6eed-4864-bea6-8c3f3401b4a3",
+        "total_records": 3,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "POINTS_DE_REJET1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "POINTS_DE_REJET2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "journee",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "debit",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "volume_estime",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "POINTS_DE_REJET1": 8,
+            "POINTS_DE_REJET2": "Station_de_pompage_Cite_du_Havre",
+            "journee": "2015-11-18T00:00:00",
+            "heure": 8.95,
+            "debit": 167,
+            "volume_estime": 5381
+          },
+          {
+            "_id": 2,
+            "POINTS_DE_REJET1": 8,
+            "POINTS_DE_REJET2": "Station_de_pompage_Cite_du_Havre",
+            "journee": "2015-11-19T00:00:00",
+            "heure": 9.35,
+            "debit": 167,
+            "volume_estime": 5621
+          },
+          {
+            "_id": 3,
+            "POINTS_DE_REJET1": 8,
+            "POINTS_DE_REJET2": "Station_de_pompage_Cite_du_Havre",
+            "journee": "2015-11-20T00:00:00",
+            "heure": 9.38,
+            "debit": 167,
+            "volume_estime": 5639
+          }
+        ]
+      },
+      "field_stats": {
+        "POINTS_DE_REJET1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POINTS_DE_REJET2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "journee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "debit": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "volume_estime": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 3,
+        "total_records": 3,
+        "audited_at": "2026-03-10T00:18:28.265628+00:00",
+        "fields": {
+          "POINTS_DE_REJET1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 8.0,
+            "max": 8.0,
+            "mean": 8.0,
+            "median": 8.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "8",
+                "count": 3
+              }
+            ]
+          },
+          "POINTS_DE_REJET2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Station_de_pompage_Cite_du_Havre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "journee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-11-18T00:00:00",
+            "max_date": "2015-11-20T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 8.95,
+            "max": 9.38,
+            "mean": 9.2267,
+            "median": 9.35,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "8.95",
+                "count": 1
+              },
+              {
+                "value": "9.35",
+                "count": 1
+              },
+              {
+                "value": "9.38",
+                "count": 1
+              }
+            ]
+          },
+          "debit": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 167.0,
+            "max": 167.0,
+            "mean": 167.0,
+            "median": 167.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "167",
+                "count": 3
+              }
+            ]
+          },
+          "volume_estime": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "5381",
+            "max_date": "5639",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Déversement",
+    "Eau",
+    "Fleuve",
+    "Fleuve Saint-Laurent",
+    "Intercepteur",
+    "SE",
+    "Travaux"
+  ],
+  "web_metadata": {
+    "methodology_text": "Pour une majorité des points de rejet, la durée de déversement est mesurée à partir d'instruments et le volume est estimé en multipliant la durée avec un débit théorique et maximal spécifique à chaque point de rejet.\n\n### Dictionnaire de données\n\n\n\n- Points de rejet: Numéro et nom attribué à chacun des points de rejet d'eaux usées au fleuve St-Laurent.\n\n- Fermeture_des_vannes (aaaa-mm-jj_HH:MM) : Date et heure de la fermeture des vannes d'interception ce qui empêche alors l'entrée des eaux à l'intercepteur sud-est.\n\n- Debut_du_deversement (aaaa-mm-jj_HH:MM) : Date et heure du début du déversement d'eaux usées au fleuve St-Laurent.\n\n- Fin_du_deversement (aaaa-mm-jj_HH:MM) : Date et heure de la réouverture des vannes d'interception et de la fin du déversement d'eaux usées au fleuve St-Laurent.\n\n- Duree_du_deversement (heure) : Durée du déversement d'eaux usées.\n\n- Debit_eaux_usees (theorique_et_maximal) (l/s) : Débit d'eaux usées théorique et maximal du bassin tributaire au point de rejet.\n\n- Volume_estime (m³) : Volume du déversement calculé à partir de la durée et du débit estimé.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2015-11-11/2015-11-14",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Déversement",
+      "Eau",
+      "Fleuve",
+      "Fleuve Saint-Laurent",
+      "Intercepteur",
+      "SE",
+      "Travaux"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/durees-de-deversement-et-calcul-des-volumes-deverses-travaux-intercepteur-sud-est-nov-2015",
+    "scraped_at": "2026-03-09T19:56:51.736072+00:00"
+  }
+}

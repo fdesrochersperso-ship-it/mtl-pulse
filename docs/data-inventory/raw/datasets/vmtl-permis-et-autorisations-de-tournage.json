@@ -1,0 +1,2652 @@
+{
+  "slug": "vmtl-permis-et-autorisations-de-tournage",
+  "title": "Permis et autorisations de tournage",
+  "notes": "Ensemble de données basé sur les demandes de permis de tournages et les protocoles administrés par le Bureau du cinéma et de la télévision de Montréal.  Les fichiers contiennent la liste des productions, ainsi que les lieux de productions sur le domaine public pour certains arrondissements. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-06-13T19:23:58.269854",
+  "metadata_modified": "2026-02-15T08:00:51.405563",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "a7b589d2-67bd-4892-9f4e-bcdd91e898ac",
+      "name": "Protocoles de tournages",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b823cadc-0402-4392-a0f4-9128f8f7f58b/resource/a7b589d2-67bd-4892-9f4e-bcdd91e898ac/download/protocoles_tournages.csv",
+      "datastore_active": true,
+      "size": 333498,
+      "last_modified": "2026-02-15T05:04:29.027840",
+      "created": "2018-06-13T19:25:03.021173",
+      "schema": {
+        "resource_id": "a7b589d2-67bd-4892-9f4e-bcdd91e898ac",
+        "total_records": 3156,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_ID_PRO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TITRE_PRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "REALISATEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ANNEE_PROD",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PERIODE_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PERIODE_AU",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NB_JOURTOURNAGEMONTREAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NB_JOURTOURNAGEVIEUXMONTREAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_TYPEPRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_PROVENANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_TYPEPRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_PROVENANCE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "REALISATEUR": "DIVERS",
+            "ANNEE_PROD": "2019",
+            "PERIODE_DE": "2019-01-01",
+            "PERIODE_AU": "2019-12-31",
+            "NB_JOURTOURNAGEMONTREAL": "0",
+            "NB_JOURTOURNAGEVIEUXMONTREAL": "4",
+            "NO_TYPEPRODUCTION": "14",
+            "NO_PROVENANCE": "6",
+            "NOM_TYPEPRODUCTION": "Télévision générale",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 2,
+            "NO_ID_PRO": "24463",
+            "TITRE_PRODUCTION": "Vox-pop Lumino",
+            "REALISATEUR": "Steve Mercier",
+            "ANNEE_PROD": "2019",
+            "PERIODE_DE": "2019-01-07",
+            "PERIODE_AU": "2019-01-08",
+            "NB_JOURTOURNAGEMONTREAL": "1",
+            "NB_JOURTOURNAGEVIEUXMONTREAL": "0",
+            "NO_TYPEPRODUCTION": "28",
+            "NO_PROVENANCE": "6",
+            "NOM_TYPEPRODUCTION": "Publicité web",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 3,
+            "NO_ID_PRO": "24464",
+            "TITRE_PRODUCTION": "Les Anges 11",
+            "REALISATEUR": null,
+            "ANNEE_PROD": "2019",
+            "PERIODE_DE": "2019-01-14",
+            "PERIODE_AU": "2019-01-19",
+            "NB_JOURTOURNAGEMONTREAL": "6",
+            "NB_JOURTOURNAGEVIEUXMONTREAL": "0",
+            "NO_TYPEPRODUCTION": "14",
+            "NO_PROVENANCE": "7",
+            "NOM_TYPEPRODUCTION": "Télévision générale",
+            "NOM_PROVENANCE": "Etrangère"
+          },
+          {
+            "_id": 4,
+            "NO_ID_PRO": "24465",
+            "TITRE_PRODUCTION": "Le Projet ML (Le dernier soir)",
+            "REALISATEUR": "Frédéric Nassif",
+            "ANNEE_PROD": "2019",
+            "PERIODE_DE": "2018-12-13",
+            "PERIODE_AU": "2019-05-28",
+            "NB_JOURTOURNAGEMONTREAL": "0",
+            "NB_JOURTOURNAGEVIEUXMONTREAL": "0",
+            "NO_TYPEPRODUCTION": "14",
+            "NO_PROVENANCE": "6",
+            "NOM_TYPEPRODUCTION": "Télévision générale",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 5,
+            "NO_ID_PRO": "24466",
+            "TITRE_PRODUCTION": "Mères à boutte 2",
+            "REALISATEUR": "Simon Sachel",
+            "ANNEE_PROD": "2019",
+            "PERIODE_DE": "2018-12-01",
+            "PERIODE_AU": "2019-03-15",
+            "NB_JOURTOURNAGEMONTREAL": "20",
+            "NB_JOURTOURNAGEVIEUXMONTREAL": "0",
+            "NO_TYPEPRODUCTION": "14",
+            "NO_PROVENANCE": "6",
+            "NOM_TYPEPRODUCTION": "Télévision générale",
+            "NOM_PROVENANCE": "Canadienne"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_ID_PRO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TITRE_PRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "REALISATEUR": {
+          "null_count": 213,
+          "null_pct": 6.7,
+          "populated_pct": 93.3
+        },
+        "ANNEE_PROD": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PERIODE_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PERIODE_AU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NB_JOURTOURNAGEMONTREAL": {
+          "null_count": 8,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "NB_JOURTOURNAGEVIEUXMONTREAL": {
+          "null_count": 14,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "NO_TYPEPRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_PROVENANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_TYPEPRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_PROVENANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 3156,
+        "audited_at": "2026-03-10T00:22:12.111519+00:00",
+        "fields": {
+          "NO_ID_PRO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 24445.0,
+            "max": 25548.0,
+            "mean": 25003.429,
+            "median": 25011.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "TITRE_PRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 870,
+            "top_values": [
+              {
+                "value": "DIVERS PUBLICITÉ",
+                "count": 29
+              },
+              {
+                "value": "DIVERS",
+                "count": 16
+              },
+              {
+                "value": "DIVERS PUBLICITÉS",
+                "count": 12
+              },
+              {
+                "value": "Photographies",
+                "count": 6
+              },
+              {
+                "value": "DIVERS ÉTUDIANTS",
+                "count": 5
+              },
+              {
+                "value": "Divers publicités",
+                "count": 4
+              },
+              {
+                "value": "Messages publicitaires",
+                "count": 4
+              },
+              {
+                "value": "Divers",
+                "count": 4
+              },
+              {
+                "value": "Photographie",
+                "count": 4
+              },
+              {
+                "value": "DIVERS PROJETS ÉTUDIANTS",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "REALISATEUR": {
+            "null_count": 90,
+            "null_pct": 9.0,
+            "unique_count": 590,
+            "top_values": [
+              {
+                "value": "DIVERS",
+                "count": 81
+              },
+              {
+                "value": "a/d",
+                "count": 10
+              },
+              {
+                "value": "Maxime Giroux",
+                "count": 8
+              },
+              {
+                "value": "Mélanie Charbonneau",
+                "count": 8
+              },
+              {
+                "value": "Jean-François Asselin",
+                "count": 8
+              },
+              {
+                "value": "Stéphane Rocheleau",
+                "count": 7
+              },
+              {
+                "value": "Mathieu Grimard",
+                "count": 7
+              },
+              {
+                "value": "Divers",
+                "count": 6
+              },
+              {
+                "value": "Ricardo Trogi",
+                "count": 6
+              },
+              {
+                "value": "Nicolas Monette",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ANNEE_PROD": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019",
+            "max_date": "2020",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "PERIODE_DE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-02-13",
+            "max_date": "2020-12-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "PERIODE_AU": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-08",
+            "max_date": "2022-11-11",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "NB_JOURTOURNAGEMONTREAL": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min_date": "0",
+            "max_date": "96",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NB_JOURTOURNAGEVIEUXMONTREAL": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min_date": "0",
+            "max_date": "5",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NO_TYPEPRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 28.0,
+            "mean": 16.179,
+            "median": 15.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "15",
+                "count": 301
+              },
+              {
+                "value": "14",
+                "count": 224
+              },
+              {
+                "value": "18",
+                "count": 88
+              },
+              {
+                "value": "11",
+                "count": 64
+              },
+              {
+                "value": "13",
+                "count": 57
+              },
+              {
+                "value": "16",
+                "count": 49
+              },
+              {
+                "value": "27",
+                "count": 45
+              },
+              {
+                "value": "19",
+                "count": 36
+              },
+              {
+                "value": "17",
+                "count": 34
+              },
+              {
+                "value": "22",
+                "count": 31
+              }
+            ]
+          },
+          "NO_PROVENANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 8.0,
+            "mean": 6.005,
+            "median": 6.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 943
+              },
+              {
+                "value": "7",
+                "count": 39
+              },
+              {
+                "value": "1",
+                "count": 10
+              },
+              {
+                "value": "8",
+                "count": 8
+              }
+            ]
+          },
+          "NOM_TYPEPRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Message publicitaire",
+                "count": 301
+              },
+              {
+                "value": "Télévision générale",
+                "count": 224
+              },
+              {
+                "value": "Photographie",
+                "count": 88
+              },
+              {
+                "value": "Long métrage",
+                "count": 64
+              },
+              {
+                "value": "Série télévisée",
+                "count": 57
+              },
+              {
+                "value": "Court métrage",
+                "count": 49
+              },
+              {
+                "value": "Série web",
+                "count": 45
+              },
+              {
+                "value": "Film étudiant",
+                "count": 36
+              },
+              {
+                "value": "Vidéo",
+                "count": 34
+              },
+              {
+                "value": "Documentaire",
+                "count": 31
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_PROVENANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Canadienne",
+                "count": 943
+              },
+              {
+                "value": "Etrangère",
+                "count": 39
+              },
+              {
+                "value": "À déterminer",
+                "count": 10
+              },
+              {
+                "value": "Coproduction",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "c49ba7fe-79bd-4dbe-9aa5-60c30eca9aae",
+      "name": "Permis d'occupation du domaine public pour les tournages",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b823cadc-0402-4392-a0f4-9128f8f7f58b/resource/c49ba7fe-79bd-4dbe-9aa5-60c30eca9aae/download/permis_tournages.csv",
+      "datastore_active": true,
+      "size": 2699222,
+      "last_modified": "2026-02-15T05:04:27.162410",
+      "created": "2018-06-13T19:25:15.831042",
+      "schema": {
+        "resource_id": "c49ba7fe-79bd-4dbe-9aa5-60c30eca9aae",
+        "total_records": 12446,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_PERMISPUBLIC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_PERMISPARCEDIFICE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_ID_PRO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TITRE_PRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ANNULATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_EMPLACEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "EMPLACEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_PARC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RAISON_OCCUPATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DUREE_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DUREE_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_PERMISPUBLIC": null,
+            "NO_PERMISPARCEDIFICE": "17082",
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": " ",
+            "EMPLACEMENT": "Autours de rue Marie-Morin, sur les trottoirs",
+            "RUE_DE": null,
+            "RUE_A": null,
+            "NOM_PARC": "Édifice TROTTOIRS DU VIEUX-MONTRÉAL",
+            "RAISON_OCCUPATION": "Tournage court-métrage",
+            "DUREE_DE": null,
+            "DUREE_A": null,
+            "NOM_ARROND": "Ville-Marie",
+            "X": null,
+            "Y": null,
+            "LATITUDE": null,
+            "LONGITUDE": null
+          },
+          {
+            "_id": 2,
+            "NO_PERMISPUBLIC": null,
+            "NO_PERMISPARCEDIFICE": "17219",
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "Trottoir",
+            "EMPLACEMENT": "Trottoir devant les 3636 et 3632 rue Adam + trottoir du tunnel de Rouen (3060 rue de Rouen)",
+            "RUE_DE": null,
+            "RUE_A": null,
+            "NOM_PARC": "Terrain TROTTOIRS DES RUES",
+            "RAISON_OCCUPATION": "Tournage d'un documentaire - équipe réduite",
+            "DUREE_DE": null,
+            "DUREE_A": null,
+            "NOM_ARROND": "Mercier-Hochelaga-Maisonneuve",
+            "X": null,
+            "Y": null,
+            "LATITUDE": null,
+            "LONGITUDE": null
+          },
+          {
+            "_id": 3,
+            "NO_PERMISPUBLIC": null,
+            "NO_PERMISPARCEDIFICE": "16849",
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "parc",
+            "EMPLACEMENT": "Circulation et stationnement",
+            "RUE_DE": null,
+            "RUE_A": null,
+            "NOM_PARC": "Parc Mont-Royal",
+            "RAISON_OCCUPATION": "Repérage",
+            "DUREE_DE": null,
+            "DUREE_A": null,
+            "NOM_ARROND": "Ville-Marie",
+            "X": "297595.4662500005",
+            "Y": "5040160.590440773",
+            "LATITUDE": "45.50133809812691",
+            "LONGITUDE": "-73.59219181094399"
+          },
+          {
+            "_id": 4,
+            "NO_PERMISPUBLIC": null,
+            "NO_PERMISPARCEDIFICE": "16875",
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": " ",
+            "EMPLACEMENT": "Entrevue dans le parc Émilie Gamelin (2 personnes) et prises de vues autour du métro Berri-UQAM",
+            "RUE_DE": null,
+            "RUE_A": null,
+            "NOM_PARC": "Parc Trottoirs, parcs et espaces publics de Montréal",
+            "RAISON_OCCUPATION": "Tournage documentaire en équipe réduite et équipement léger.",
+            "DUREE_DE": null,
+            "DUREE_A": null,
+            "NOM_ARROND": "Ville-Marie",
+            "X": null,
+            "Y": null,
+            "LATITUDE": null,
+            "LONGITUDE": null
+          },
+          {
+            "_id": 5,
+            "NO_PERMISPUBLIC": null,
+            "NO_PERMISPARCEDIFICE": "17189",
+            "NO_ID_PRO": "24445",
+            "TITRE_PRODUCTION": "GÉNÉRAL 2019",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": " ",
+            "EMPLACEMENT": "Sur les trottoirs autour du parc.",
+            "RUE_DE": null,
+            "RUE_A": null,
+            "NOM_PARC": "Parc Place du Canada et Square Dorchester",
+            "RAISON_OCCUPATION": "Vox pop équipe réduite et équipement léger.",
+            "DUREE_DE": null,
+            "DUREE_A": null,
+            "NOM_ARROND": "Ville-Marie",
+            "X": null,
+            "Y": null,
+            "LATITUDE": null,
+            "LONGITUDE": null
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_PERMISPUBLIC": {
+          "null_count": 2604,
+          "null_pct": 20.9,
+          "populated_pct": 79.1
+        },
+        "NO_PERMISPARCEDIFICE": {
+          "null_count": 9842,
+          "null_pct": 79.1,
+          "populated_pct": 20.9
+        },
+        "NO_ID_PRO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TITRE_PRODUCTION": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ANNULATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_EMPLACEMENT": {
+          "null_count": 85,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "EMPLACEMENT": {
+          "null_count": 90,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "RUE_DE": {
+          "null_count": 2664,
+          "null_pct": 21.4,
+          "populated_pct": 78.6
+        },
+        "RUE_A": {
+          "null_count": 2684,
+          "null_pct": 21.6,
+          "populated_pct": 78.4
+        },
+        "NOM_PARC": {
+          "null_count": 9842,
+          "null_pct": 79.1,
+          "populated_pct": 20.9
+        },
+        "RAISON_OCCUPATION": {
+          "null_count": 366,
+          "null_pct": 2.9,
+          "populated_pct": 97.1
+        },
+        "DUREE_DE": {
+          "null_count": 2604,
+          "null_pct": 20.9,
+          "populated_pct": 79.1
+        },
+        "DUREE_A": {
+          "null_count": 2604,
+          "null_pct": 20.9,
+          "populated_pct": 79.1
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 4738,
+          "null_pct": 38.1,
+          "populated_pct": 61.9
+        },
+        "Y": {
+          "null_count": 4738,
+          "null_pct": 38.1,
+          "populated_pct": 61.9
+        },
+        "LATITUDE": {
+          "null_count": 4738,
+          "null_pct": 38.1,
+          "populated_pct": 61.9
+        },
+        "LONGITUDE": {
+          "null_count": 4738,
+          "null_pct": 38.1,
+          "populated_pct": 61.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 12446,
+        "audited_at": "2026-03-10T00:22:13.399621+00:00",
+        "fields": {
+          "NO_PERMISPUBLIC": {
+            "null_count": 122,
+            "null_pct": 12.2,
+            "min": 102405.0,
+            "max": 106865.0,
+            "mean": 103324.3986,
+            "median": 103009.5,
+            "unique_count": 878,
+            "field_type_detected": "numeric"
+          },
+          "NO_PERMISPARCEDIFICE": {
+            "null_count": 878,
+            "null_pct": 87.8,
+            "min": 16791.0,
+            "max": 17410.0,
+            "mean": 16973.3033,
+            "median": 16861.5,
+            "unique_count": 122,
+            "field_type_detected": "numeric"
+          },
+          "NO_ID_PRO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 24445.0,
+            "max": 24608.0,
+            "mean": 24557.346,
+            "median": 24572.0,
+            "unique_count": 110,
+            "field_type_detected": "numeric"
+          },
+          "TITRE_PRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 123,
+            "top_values": [
+              {
+                "value": "DREAMLAND",
+                "count": 168
+              },
+              {
+                "value": "L'Heure Bleue 4",
+                "count": 104
+              },
+              {
+                "value": "Cerebrum",
+                "count": 89
+              },
+              {
+                "value": "Victor Lessard 3 (Projet #431)",
+                "count": 73
+              },
+              {
+                "value": "L'indice McSween 3",
+                "count": 70
+              },
+              {
+                "value": "Famous",
+                "count": 46
+              },
+              {
+                "value": "Fragile",
+                "count": 39
+              },
+              {
+                "value": "Boomerang V",
+                "count": 30
+              },
+              {
+                "value": "Tuned in for Terror",
+                "count": 23
+              },
+              {
+                "value": "GÉNÉRAL 2019",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ANNULATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "No",
+                "count": 975
+              },
+              {
+                "value": "Yes",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPE_EMPLACEMENT": {
+            "null_count": 55,
+            "null_pct": 5.5,
+            "unique_count": 22,
+            "top_values": [
+              {
+                "value": "rue",
+                "count": 607
+              },
+              {
+                "value": "avenue",
+                "count": 144
+              },
+              {
+                "value": "parc",
+                "count": 44
+              },
+              {
+                "value": "boulevard",
+                "count": 44
+              },
+              {
+                "value": "Rue",
+                "count": 24
+              },
+              {
+                "value": "place",
+                "count": 23
+              },
+              {
+                "value": "Avenue",
+                "count": 22
+              },
+              {
+                "value": "Ville",
+                "count": 7
+              },
+              {
+                "value": "Parc",
+                "count": 6
+              },
+              {
+                "value": "chemin",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "EMPLACEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 388,
+            "top_values": [
+              {
+                "value": "Sherbrooke",
+                "count": 28
+              },
+              {
+                "value": "Ontario",
+                "count": 25
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 25
+              },
+              {
+                "value": "Peel",
+                "count": 24
+              },
+              {
+                "value": "Guizot",
+                "count": 19
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 17
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 16
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 15
+              },
+              {
+                "value": "Viger",
+                "count": 15
+              },
+              {
+                "value": "Metcalfe",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RUE_DE": {
+            "null_count": 122,
+            "null_pct": 12.2,
+            "unique_count": 277,
+            "top_values": [
+              {
+                "value": "Maisonneuve",
+                "count": 27
+              },
+              {
+                "value": "René-Lévesque",
+                "count": 26
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 23
+              },
+              {
+                "value": "Ontario",
+                "count": 19
+              },
+              {
+                "value": "Saint-Antoine",
+                "count": 18
+              },
+              {
+                "value": "Saint-Gérard",
+                "count": 17
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 17
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 16
+              },
+              {
+                "value": "De La Gauchetière",
+                "count": 14
+              },
+              {
+                "value": "Rachel",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RUE_A": {
+            "null_count": 122,
+            "null_pct": 12.2,
+            "unique_count": 289,
+            "top_values": [
+              {
+                "value": "Sherbrooke",
+                "count": 39
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 35
+              },
+              {
+                "value": "Foucher",
+                "count": 17
+              },
+              {
+                "value": "Square-Victoria",
+                "count": 16
+              },
+              {
+                "value": "Maisonneuve",
+                "count": 15
+              },
+              {
+                "value": "Viger",
+                "count": 15
+              },
+              {
+                "value": "René-Lévesque",
+                "count": 15
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 12
+              },
+              {
+                "value": "Guizot",
+                "count": 12
+              },
+              {
+                "value": "Saint-Antoine",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_PARC": {
+            "null_count": 878,
+            "null_pct": 87.8,
+            "unique_count": 56,
+            "top_values": [
+              {
+                "value": "Parc Trottoirs, parcs et espaces publics de Montréal",
+                "count": 26
+              },
+              {
+                "value": "Parc Mont-Royal",
+                "count": 20
+              },
+              {
+                "value": "Parc La Fontaine",
+                "count": 5
+              },
+              {
+                "value": "Parc Angrignon",
+                "count": 4
+              },
+              {
+                "value": "Terrain TROTTOIRS DES RUES",
+                "count": 3
+              },
+              {
+                "value": "Parc SIDEWALKS, PARKS AND PUBLIC SQUARES OF MONTRÉAL",
+                "count": 3
+              },
+              {
+                "value": "Parc RUES ET TROTTOIRS DE MONTRÉAL ET DU VIEUX-MONTRÉAL",
+                "count": 3
+              },
+              {
+                "value": "Terrain RUELLES DE MONTRÉAL",
+                "count": 2
+              },
+              {
+                "value": "Parc Jarry",
+                "count": 2
+              },
+              {
+                "value": "Parc Square Dorchester",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RAISON_OCCUPATION": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "unique_count": 148,
+            "top_values": [
+              {
+                "value": "Obstruer chaussée et trottoir.",
+                "count": 349
+              },
+              {
+                "value": "Obstruer une chaussée.",
+                "count": 317
+              },
+              {
+                "value": "Barrer une rue par intermittence d'une durée maximale de 3 minutes. Assurer la circulation entre les prises et la sécurité en tout temps. Installer la signalisation adéquate.",
+                "count": 36
+              },
+              {
+                "value": "Occuper chaussée et trottoir.",
+                "count": 29
+              },
+              {
+                "value": "Obstruer une chaussée - stationnement de véhicules de figuration.",
+                "count": 18
+              },
+              {
+                "value": "Tournage",
+                "count": 15
+              },
+              {
+                "value": "Occuper un trottoir.",
+                "count": 14
+              },
+              {
+                "value": "Barrer la rue.",
+                "count": 13
+              },
+              {
+                "value": "Obstruer une chaussée. En continu.",
+                "count": 13
+              },
+              {
+                "value": "Occuper une chaussée.",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DUREE_DE": {
+            "null_count": 122,
+            "null_pct": 12.2,
+            "min_date": "2019-01-09",
+            "max_date": "2020-01-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "DUREE_A": {
+            "null_count": 122,
+            "null_pct": 12.2,
+            "min_date": "2018-04-24",
+            "max_date": "2020-01-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 423
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 126
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 110
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 97
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 85
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 61
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 48
+              },
+              {
+                "value": "Indéfini",
+                "count": 27
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "X": {
+            "null_count": 288,
+            "null_pct": 28.8,
+            "min": 288095.231969,
+            "max": 303976.02844,
+            "mean": 298398.452579,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 288,
+            "null_pct": 28.8,
+            "min": 5033590.73,
+            "max": 5052325.706359,
+            "mean": 5042033.525605,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LATITUDE": {
+            "null_count": 288,
+            "null_pct": 28.8,
+            "min": 45.44221,
+            "max": 45.610841,
+            "mean": 45.518195,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 288,
+            "null_pct": 28.8,
+            "min": -73.713893,
+            "max": -73.510564,
+            "mean": -73.581943,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "4ada1468-2bcc-40b0-bf2c-94d343af2c22",
+      "name": "Protocoles de tournages - 1997 à 2018",
+      "description": "### Dictionnaire de données\r\n- `no_id_pro` (Numérique) : Identifiant du protocole\r\n- `titre_production` (Texte variable) : Titre identifiant la production\r\n- `realisateur` (Texte variable) : Réalisateur de la production\r\n- `annee_prod` (Numérique) : Année de production\r\n- `periode_de` (Date et/ou heure) : Date de début de la production\r\n- `periode_au` (Date et/ou heure) : Date de fin de la production\r\n- `nb_jourtournagemontreal` (Numérique) : Nombre de jours \r\n- `nb_jourtournagevieuxmontreal` (Numérique) : Nombre de jours dans le Vieux-Montréal\r\n- `nom_typeproduction` (Liste de valeur) : Type de production\r\n    * À déterminer\r\n    * Long métrage\r\n    * Téléfilm\r\n    * Série télévisée\r\n    * Télévision générale\r\n    * Message publicitaire\r\n    * Court métrage\r\n    * Vidéo\r\n    * Photographie\r\n    * Film étudiant\r\n    * Multimédia\r\n    * Publicité étrangère\r\n    * documentaire\r\n    * Télé-roman\r\n    * Vidéo corporatif\r\n    * Photographie étrangère\r\n    * Événement média\r\n- `nom_provenance` (Liste de valeur) : Provenance de la réalisation\r\n    * À déterminer\r\n    * Canadienne\r\n    * Etrangère\r\n    * Coproduction\r\n    * Coventure",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b823cadc-0402-4392-a0f4-9128f8f7f58b/resource/4ada1468-2bcc-40b0-bf2c-94d343af2c22/download/protocoles_tournages-historique.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-09-10T19:02:36.324100",
+      "created": "2021-09-10T19:02:36.412698",
+      "schema": {
+        "resource_id": "4ada1468-2bcc-40b0-bf2c-94d343af2c22",
+        "total_records": 13243,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_ID_PRO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TITRE_PRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "REALISATEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ANNEE_PROD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PERIODE_DE",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "PERIODE_AU",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "NB_JOURTOURNAGEMONTREAL",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_JOURTOURNAGEVIEUXMONTREAL",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_TYPEPRODUCTION",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_PROVENANCE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NOM_TYPEPRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_PROVENANCE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "DOG'S WORLD",
+            "REALISATEUR": "Michel David , Isabelle Turcotte, Jacques Laberge",
+            "ANNEE_PROD": 1997,
+            "PERIODE_DE": "1997-02-01T00:00:00",
+            "PERIODE_AU": "1997-12-31T00:00:00",
+            "NB_JOURTOURNAGEMONTREAL": 0,
+            "NB_JOURTOURNAGEVIEUXMONTREAL": 0,
+            "NO_TYPEPRODUCTION": 13,
+            "NO_PROVENANCE": 8,
+            "NOM_TYPEPRODUCTION": "Série télévisée",
+            "NOM_PROVENANCE": "Coproduction"
+          },
+          {
+            "_id": 2,
+            "NO_ID_PRO": 3,
+            "TITRE_PRODUCTION": "JET",
+            "REALISATEUR": "",
+            "ANNEE_PROD": 1997,
+            "PERIODE_DE": "1997-01-01T00:00:00",
+            "PERIODE_AU": "1997-12-31T00:00:00",
+            "NB_JOURTOURNAGEMONTREAL": 0,
+            "NB_JOURTOURNAGEVIEUXMONTREAL": 0,
+            "NO_TYPEPRODUCTION": 15,
+            "NO_PROVENANCE": 6,
+            "NOM_TYPEPRODUCTION": "Message publicitaire",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 3,
+            "NO_ID_PRO": 4,
+            "TITRE_PRODUCTION": "FABRIQUE D'IMAGES",
+            "REALISATEUR": "",
+            "ANNEE_PROD": 1997,
+            "PERIODE_DE": "1997-01-01T00:00:00",
+            "PERIODE_AU": "1997-12-31T00:00:00",
+            "NB_JOURTOURNAGEMONTREAL": 0,
+            "NB_JOURTOURNAGEVIEUXMONTREAL": 0,
+            "NO_TYPEPRODUCTION": 15,
+            "NO_PROVENANCE": 6,
+            "NOM_TYPEPRODUCTION": "Message publicitaire",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 4,
+            "NO_ID_PRO": 5,
+            "TITRE_PRODUCTION": "CINQ  HISTOIRES",
+            "REALISATEUR": "Nader Dolatshahi",
+            "ANNEE_PROD": 1997,
+            "PERIODE_DE": "1997-01-10T00:00:00",
+            "PERIODE_AU": "1997-12-31T00:00:00",
+            "NB_JOURTOURNAGEMONTREAL": 0,
+            "NB_JOURTOURNAGEVIEUXMONTREAL": 0,
+            "NO_TYPEPRODUCTION": 13,
+            "NO_PROVENANCE": 6,
+            "NOM_TYPEPRODUCTION": "Série télévisée",
+            "NOM_PROVENANCE": "Canadienne"
+          },
+          {
+            "_id": 5,
+            "NO_ID_PRO": 6,
+            "TITRE_PRODUCTION": "THE HUNGER",
+            "REALISATEUR": "Différent à chaque épisode.",
+            "ANNEE_PROD": 1997,
+            "PERIODE_DE": "1997-01-01T00:00:00",
+            "PERIODE_AU": "1997-05-01T00:00:00",
+            "NB_JOURTOURNAGEMONTREAL": 0,
+            "NB_JOURTOURNAGEVIEUXMONTREAL": 0,
+            "NO_TYPEPRODUCTION": 13,
+            "NO_PROVENANCE": 6,
+            "NOM_TYPEPRODUCTION": "Série télévisée",
+            "NOM_PROVENANCE": "Canadienne"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_ID_PRO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TITRE_PRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "REALISATEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ANNEE_PROD": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PERIODE_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PERIODE_AU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NB_JOURTOURNAGEMONTREAL": {
+          "null_count": 400,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        },
+        "NB_JOURTOURNAGEVIEUXMONTREAL": {
+          "null_count": 364,
+          "null_pct": 2.7,
+          "populated_pct": 97.3
+        },
+        "NO_TYPEPRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_PROVENANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_TYPEPRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_PROVENANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 13243,
+        "audited_at": "2026-03-10T00:22:14.604343+00:00",
+        "fields": {
+          "NO_ID_PRO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 1032.0,
+            "mean": 524.968,
+            "median": 528.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "TITRE_PRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 800,
+            "top_values": [
+              {
+                "value": "DIVERS",
+                "count": 68
+              },
+              {
+                "value": "DIVERS PHOTOS",
+                "count": 13
+              },
+              {
+                "value": "BOULEDOGUE BAZAR",
+                "count": 6
+              },
+              {
+                "value": "Divers",
+                "count": 6
+              },
+              {
+                "value": "PHOTOGRAPHIE",
+                "count": 5
+              },
+              {
+                "value": ".",
+                "count": 5
+              },
+              {
+                "value": "DIVERS VIDÉO",
+                "count": 5
+              },
+              {
+                "value": "ÉMISSION J.E.",
+                "count": 4
+              },
+              {
+                "value": "STUDENT BODIES",
+                "count": 4
+              },
+              {
+                "value": "DE BOUCHE À OREILLE",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "REALISATEUR": {
+            "null_count": 206,
+            "null_pct": 20.6,
+            "unique_count": 640,
+            "top_values": [
+              {
+                "value": "divers",
+                "count": 6
+              },
+              {
+                "value": "Larry Shapiro",
+                "count": 5
+              },
+              {
+                "value": "Pierre Blais",
+                "count": 5
+              },
+              {
+                "value": "Différent à chaque film",
+                "count": 5
+              },
+              {
+                "value": "Serge Catafard",
+                "count": 4
+              },
+              {
+                "value": "Divers",
+                "count": 4
+              },
+              {
+                "value": "Douglas Jackson",
+                "count": 4
+              },
+              {
+                "value": ".",
+                "count": 4
+              },
+              {
+                "value": "Yvonne Defour",
+                "count": 4
+              },
+              {
+                "value": "Jean Galarneau",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ANNEE_PROD": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1997",
+            "max_date": "2000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "PERIODE_DE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1997-01-01T00:00:00",
+            "max_date": "2003-06-03T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "PERIODE_AU": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1997-01-14T00:00:00",
+            "max_date": "2003-06-05T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "NB_JOURTOURNAGEMONTREAL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "0",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NB_JOURTOURNAGEVIEUXMONTREAL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "0",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NO_TYPEPRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 20.0,
+            "mean": 14.427,
+            "median": 14.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "14",
+                "count": 224
+              },
+              {
+                "value": "13",
+                "count": 187
+              },
+              {
+                "value": "11",
+                "count": 157
+              },
+              {
+                "value": "16",
+                "count": 107
+              },
+              {
+                "value": "18",
+                "count": 88
+              },
+              {
+                "value": "15",
+                "count": 80
+              },
+              {
+                "value": "17",
+                "count": 80
+              },
+              {
+                "value": "19",
+                "count": 39
+              },
+              {
+                "value": "12",
+                "count": 28
+              },
+              {
+                "value": "20",
+                "count": 10
+              }
+            ]
+          },
+          "NO_PROVENANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6.0,
+            "max": 8.0,
+            "mean": 6.16,
+            "median": 6.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 887
+              },
+              {
+                "value": "7",
+                "count": 66
+              },
+              {
+                "value": "8",
+                "count": 47
+              }
+            ]
+          },
+          "NOM_TYPEPRODUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Télévision générale",
+                "count": 224
+              },
+              {
+                "value": "Série télévisée",
+                "count": 187
+              },
+              {
+                "value": "Long métrage",
+                "count": 157
+              },
+              {
+                "value": "Court métrage",
+                "count": 107
+              },
+              {
+                "value": "Photographie",
+                "count": 88
+              },
+              {
+                "value": "Message publicitaire",
+                "count": 80
+              },
+              {
+                "value": "Vidéo",
+                "count": 80
+              },
+              {
+                "value": "Film étudiant",
+                "count": 39
+              },
+              {
+                "value": "Téléfilm",
+                "count": 28
+              },
+              {
+                "value": "Multimédia",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_PROVENANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Canadienne",
+                "count": 887
+              },
+              {
+                "value": "Etrangère",
+                "count": 66
+              },
+              {
+                "value": "Coproduction",
+                "count": 47
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "bd9167b4-4130-415e-a0b8-0efda6099e3f",
+      "name": "Permis d'occupation du domaine public pour les tournages - 1997 à 2018",
+      "description": "### Dictionnaire de données\r\n- `no_permispublic` (Numérique) : Identifiant du permis \r\n- `no_permisparcedifice` (Numérique) : Identifiant du permis\r\n- `no_id_pro` (Numérique) : Identifiant du protocole\r\n- `titre_production` (Texte variable) : Titre identifiant la production\r\n- `annulation` (Liste de valeur) : Annuler ou pas\r\n- `type_emplacement` (Texte variable) : Type d'emplacement\r\n- `emplacement` (Texte variable) : Nom de la rue ou du lieu\r\n- `rue_de` (Texte variable) : Nom de la rue perpendiculaire\r\n- `rue_a` (Texte variable) : Nom de la rue perpendiculaire\r\n- `nom_parc` (Liste de valeur) : Nom du parc\r\n- `duree_de` (Date et/ou heure) : Date du début du permis\r\n- `duree_au` (Date et/ou heure) : Date de fin du permis\r\n- `nom_arrond` (Liste de valeur) : Nom de l'arrondissement ou de la ville\r\n- `x` (Numérique) : coordonnée géographique X (NAD83 MTM8)\r\n- `y` (Numérique) : coordonnée géographique Y (NAD83 MTM8)\r\n- `latitude` (Numérique) : Latitude selon le référentiel WGS84\r\n- `longitude` (Numérique) : Longitude selon le référentiel WGS84\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b823cadc-0402-4392-a0f4-9128f8f7f58b/resource/bd9167b4-4130-415e-a0b8-0efda6099e3f/download/permis_tournages-historique.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-09-10T19:09:45.412868",
+      "created": "2021-09-10T19:09:45.479996",
+      "schema": {
+        "resource_id": "bd9167b4-4130-415e-a0b8-0efda6099e3f",
+        "total_records": 104969,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_PERMISPUBLIC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_PERMISPARCEDIFICE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_ID_PRO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TITRE_PRODUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ANNULATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_EMPLACEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "EMPLACEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_PARC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RAISON_OCCUPATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DUREE_DE",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "DUREE_A",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_PERMISPUBLIC": 9797,
+            "NO_PERMISPARCEDIFICE": null,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "",
+            "EMPLACEMENT": "Jeanne-Mance",
+            "RUE_DE": "Bernard",
+            "RUE_A": "St-Viateur",
+            "NOM_PARC": "",
+            "RAISON_OCCUPATION": "IMMATRICULÉS COMMERCIAUX",
+            "DUREE_DE": "1997-02-18T00:00:00",
+            "DUREE_A": "1997-02-22T00:00:00",
+            "NOM_ARROND": "Le Plateau-Mont-Royal",
+            "X": 296734.8551177554,
+            "Y": 5042640.470153954,
+            "LATITUDE": 45.523635484444725,
+            "LONGITUDE": -73.6032437093018
+          },
+          {
+            "_id": 2,
+            "NO_PERMISPUBLIC": 10016,
+            "NO_PERMISPARCEDIFICE": null,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "Dogs'World",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "",
+            "EMPLACEMENT": "Rue Ann",
+            "RUE_DE": "Wellington",
+            "RUE_A": "Ottawa",
+            "NOM_PARC": "",
+            "RAISON_OCCUPATION": "",
+            "DUREE_DE": "1997-09-16T00:00:00",
+            "DUREE_A": "1997-09-16T00:00:00",
+            "NOM_ARROND": "Le Sud-Ouest",
+            "X": 300302.85400000005,
+            "Y": 5039437.5585,
+            "LATITUDE": 45.494846502968976,
+            "LONGITUDE": -73.55753962305528
+          },
+          {
+            "_id": 3,
+            "NO_PERMISPUBLIC": 10876,
+            "NO_PERMISPARCEDIFICE": null,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "DOGS'WORLD",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "",
+            "EMPLACEMENT": "rue Dalhousie",
+            "RUE_DE": "William",
+            "RUE_A": "Ottawa",
+            "NOM_PARC": "",
+            "RAISON_OCCUPATION": "",
+            "DUREE_DE": "1997-09-09T00:00:00",
+            "DUREE_A": "1997-09-09T00:00:00",
+            "NOM_ARROND": "Le Sud-Ouest",
+            "X": 300194.051005,
+            "Y": 5039575.058999999,
+            "LATITUDE": 45.49608308291602,
+            "LONGITUDE": -73.55893301430069
+          },
+          {
+            "_id": 4,
+            "NO_PERMISPUBLIC": 9004,
+            "NO_PERMISPARCEDIFICE": null,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "",
+            "EMPLACEMENT": "Parc",
+            "RUE_DE": "Bernard",
+            "RUE_A": "Saint-Viateur",
+            "NOM_PARC": "",
+            "RAISON_OCCUPATION": "Circuler avec équipement cinématographique",
+            "DUREE_DE": "1997-02-18T00:00:00",
+            "DUREE_A": "1997-02-19T00:00:00",
+            "NOM_ARROND": "Le Plateau-Mont-Royal",
+            "X": 296686.3215,
+            "Y": 5042562.554,
+            "LATITUDE": 45.522933801805365,
+            "LONGITUDE": -73.60386370775183
+          },
+          {
+            "_id": 5,
+            "NO_PERMISPUBLIC": 10725,
+            "NO_PERMISPARCEDIFICE": null,
+            "NO_ID_PRO": 2,
+            "TITRE_PRODUCTION": "DOGS'WORLD",
+            "ANNULATION": "No",
+            "TYPE_EMPLACEMENT": "",
+            "EMPLACEMENT": "3e avenue",
+            "RUE_DE": "Prince-Albert",
+            "RUE_A": "Notre-Dame",
+            "NOM_PARC": "",
+            "RAISON_OCCUPATION": "",
+            "DUREE_DE": "1997-08-12T00:00:00",
+            "DUREE_A": "1997-08-12T00:00:00",
+            "NOM_ARROND": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "X": 305270.4275584664,
+            "Y": 5055041.179028825,
+            "LATITUDE": 45.63526739536875,
+            "LONGITUDE": -73.49396600727427
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_PERMISPUBLIC": {
+          "null_count": 13838,
+          "null_pct": 13.2,
+          "populated_pct": 86.8
+        },
+        "NO_PERMISPARCEDIFICE": {
+          "null_count": 91131,
+          "null_pct": 86.8,
+          "populated_pct": 13.2
+        },
+        "NO_ID_PRO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TITRE_PRODUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ANNULATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_EMPLACEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "EMPLACEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_PARC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RAISON_OCCUPATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DUREE_DE": {
+          "null_count": 13838,
+          "null_pct": 13.2,
+          "populated_pct": 86.8
+        },
+        "DUREE_A": {
+          "null_count": 13838,
+          "null_pct": 13.2,
+          "populated_pct": 86.8
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 39236,
+          "null_pct": 37.4,
+          "populated_pct": 62.6
+        },
+        "Y": {
+          "null_count": 39236,
+          "null_pct": 37.4,
+          "populated_pct": 62.6
+        },
+        "LATITUDE": {
+          "null_count": 39236,
+          "null_pct": 37.4,
+          "populated_pct": 62.6
+        },
+        "LONGITUDE": {
+          "null_count": 39236,
+          "null_pct": 37.4,
+          "populated_pct": 62.6
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 104969,
+        "audited_at": "2026-03-10T00:22:15.855738+00:00",
+        "fields": {
+          "NO_PERMISPUBLIC": {
+            "null_count": 55,
+            "null_pct": 5.5,
+            "min": 7565.0,
+            "max": 27365.0,
+            "mean": 11944.9841,
+            "median": 12309.0,
+            "unique_count": 945,
+            "field_type_detected": "numeric"
+          },
+          "NO_PERMISPARCEDIFICE": {
+            "null_count": 945,
+            "null_pct": 94.5,
+            "min": 670.0,
+            "max": 1727.0,
+            "mean": 977.1455,
+            "median": 1028.0,
+            "unique_count": 55,
+            "field_type_detected": "numeric"
+          },
+          "NO_ID_PRO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 81.0,
+            "mean": 47.586,
+            "median": 49.5,
+            "unique_count": 65,
+            "field_type_detected": "numeric"
+          },
+          "TITRE_PRODUCTION": {
+            "null_count": 372,
+            "null_pct": 37.2,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "Paparazzi",
+                "count": 167
+              },
+              {
+                "value": "PAPARAZZI",
+                "count": 71
+              },
+              {
+                "value": "Vivre",
+                "count": 57
+              },
+              {
+                "value": "Adam and Smoke",
+                "count": 39
+              },
+              {
+                "value": "Le Polock",
+                "count": 32
+              },
+              {
+                "value": "The Sleep Room",
+                "count": 23
+              },
+              {
+                "value": "No Radio",
+                "count": 16
+              },
+              {
+                "value": "L'ÉCUYER",
+                "count": 15
+              },
+              {
+                "value": "Scènes de rue",
+                "count": 13
+              },
+              {
+                "value": "TÉLÉVISION INTERNATIONAL",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ANNULATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "No",
+                "count": 989
+              },
+              {
+                "value": "Yes",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPE_EMPLACEMENT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "EMPLACEMENT": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "unique_count": 380,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 41
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 25
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 21
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 21
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 20
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 19
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 15
+              },
+              {
+                "value": "Rue Beaudry",
+                "count": 15
+              },
+              {
+                "value": "Drolet",
+                "count": 15
+              },
+              {
+                "value": "Saint-Hubert",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RUE_DE": {
+            "null_count": 80,
+            "null_pct": 8.0,
+            "unique_count": 264,
+            "top_values": [
+              {
+                "value": "Sherbrooke",
+                "count": 59
+              },
+              {
+                "value": "De Maisonneuve",
+                "count": 31
+              },
+              {
+                "value": "McGill",
+                "count": 27
+              },
+              {
+                "value": "René-Lévesque",
+                "count": 26
+              },
+              {
+                "value": "St-Laurent",
+                "count": 21
+              },
+              {
+                "value": "Ontario",
+                "count": 21
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 20
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 20
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 19
+              },
+              {
+                "value": "Prince-Arthur",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "RUE_A": {
+            "null_count": 113,
+            "null_pct": 11.3,
+            "unique_count": 260,
+            "top_values": [
+              {
+                "value": "Ste-Catherine",
+                "count": 31
+              },
+              {
+                "value": "Maisonneuve",
+                "count": 30
+              },
+              {
+                "value": "University",
+                "count": 27
+              },
+              {
+                "value": "René-Lévesque",
+                "count": 26
+              },
+              {
+                "value": "St-Dominique",
+                "count": 23
+              },
+              {
+                "value": "Marie-Anne",
+                "count": 20
+              },
+              {
+                "value": "Prince-Arthur",
+                "count": 17
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 17
+              },
+              {
+                "value": "St-Pierre",
+                "count": 16
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_PARC": {
+            "null_count": 945,
+            "null_pct": 94.5,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Terrain terrain vacant aux abords du pont J.Cartier",
+                "count": 27
+              },
+              {
+                "value": "Parc Mont-Royal",
+                "count": 10
+              },
+              {
+                "value": "Édifice Usine de Filtration Atwater",
+                "count": 4
+              },
+              {
+                "value": "Édifice Carrière Francon",
+                "count": 2
+              },
+              {
+                "value": "Parc Des Groseilliers",
+                "count": 1
+              },
+              {
+                "value": "Parc Roy",
+                "count": 1
+              },
+              {
+                "value": "Parc SQUARE CABOT",
+                "count": 1
+              },
+              {
+                "value": "Parc Jean-Talon / Saint-Laurent",
+                "count": 1
+              },
+              {
+                "value": "Édifice Vieux Palais",
+                "count": 1
+              },
+              {
+                "value": "Parc île-Perry",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "RAISON_OCCUPATION": {
+            "null_count": 672,
+            "null_pct": 67.2,
+            "unique_count": 134,
+            "top_values": [
+              {
+                "value": "Circuler avec équipement cinématographique",
+                "count": 84
+              },
+              {
+                "value": "Obstruer un trottoir",
+                "count": 20
+              },
+              {
+                "value": "Assurer une piste de circulation",
+                "count": 16
+              },
+              {
+                "value": "Obstruer un trottoir, barrer la rue, circuler avec équipement cinématographique",
+                "count": 13
+              },
+              {
+                "value": "Obstruer un trottoir, circuler avec équipement cinématographique",
+                "count": 8
+              },
+              {
+                "value": "Tournage",
+                "count": 6
+              },
+              {
+                "value": "SURVEILLANCE de plateau de tournage",
+                "count": 6
+              },
+              {
+                "value": "Assurer une piste de circulation libre en tout temps",
+                "count": 5
+              },
+              {
+                "value": "Stationnement légal",
+                "count": 4
+              },
+              {
+                "value": "Barrer la rue, circuler avec équipement cinématographique",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DUREE_DE": {
+            "null_count": 55,
+            "null_pct": 5.5,
+            "min_date": "1997-01-01T00:00:00",
+            "max_date": "2002-03-01T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "DUREE_A": {
+            "null_count": 55,
+            "null_pct": 5.5,
+            "min_date": "1997-01-01T00:00:00",
+            "max_date": "2002-03-01T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Indéfini",
+                "count": 609
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 164
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 143
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 32
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 21
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 16
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 10
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 3
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "X": {
+            "null_count": 609,
+            "null_pct": 60.9,
+            "min": 292896.512723,
+            "max": 305380.347731,
+            "mean": 298752.20882,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 609,
+            "null_pct": 60.9,
+            "min": 5034879.0865,
+            "max": 5057162.539186,
+            "mean": 5041385.391227,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LATITUDE": {
+            "null_count": 609,
+            "null_pct": 60.9,
+            "min": 45.453755,
+            "max": 45.654327,
+            "mean": 45.51236,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 609,
+            "null_pct": 60.9,
+            "min": -73.652306,
+            "max": -73.492556,
+            "mean": -73.577403,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cinéma",
+    "Film",
+    "Permis",
+    "Photographie",
+    "Publicité",
+    "SC",
+    "Série télé",
+    "Tournage"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le fichier des protocoles de tournages liste les productions qui se sont déroulées tandis que le fichier de permis indique les lieux associés à un protocole.\n\n\nPour assurer le bon déroulement des productions, les données sur les permis sont publiées avec un délai de 30 jours suivant la fin du permis.\n\n### Dictionnaire de données\n\n\n\nVoir les dictionnaires spécifiques à chacun des fichiers.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    CDN\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    RDP\n    \n    RPP\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la culture - Bureau du cinéma et de la télévision de Montréal",
+      "Couverture temporelle": "1997-01-01/2018-07-15",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Cinéma",
+      "Film",
+      "Permis",
+      "Photographie",
+      "Publicité",
+      "SC",
+      "Série télé",
+      "Tournage"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/permis-et-autorisations-de-tournage",
+    "scraped_at": "2026-03-09T20:14:45.741590+00:00"
+  }
+}

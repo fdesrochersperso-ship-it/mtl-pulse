@@ -1,0 +1,702 @@
+{
+  "slug": "vmtl-projet-station-nomade-rsqa",
+  "title": "Projet: Station Nomade RSQA",
+  "notes": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants à la station nomade. Son objectif est d’approfondir nos connaissances sur la qualité de l’air ambiant. Comme l’indique son nom, cette station changera de localisation à la fin de chaque campagne de mesure, dont la durée peut s’échelonner de 12 à 24 mois.​\r\n​\r\nLa station Nomade mesure en continu: l’ozone (O3), les particules fines (PM2,5), le monoxyde de carbone (CO), le dioxyde de soufre (SO2), les oxydes d’azote (NOx), le carbone élémentaire (CÉ) et les particules ultrafines (PUF); ainsi que les mesures ponctuelles des particules respirables (PM10) et des particules en suspension totales (PST) avec analyse des métaux sur ces dernières.​\r\n\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "asNeeded",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-11-19T14:39:34.500156",
+  "metadata_modified": "2025-02-26T20:25:05.551282",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "8df93186-f394-4b56-ad99-8eb1a5506d93",
+      "name": "RSQA - Polluants métaux station Nomade (26-1) 2023-2024 ",
+      "description": "Méthodologie\r\nLe Réseau de surveillance de la qualité de l’air (RSQA) mesure les métaux sur les particules de taille inférieure à 10 µm et sur les particules totales, échantillonnés sur des filtres de préleveur Hi-Vol (haut débit) pendant 24h. Les échantillons prélevés doivent être séchés, pesés et envoyés au laboratoire pour analyse. Les résultats doivent ensuite être traités et validés, ce qui explique les délais dans l’obtention des résultats.\r\n\r\n\r\nDictionnaire de données\r\nfraction (Text variable): Préleveur utilisé (PST ou PM10)\r\nnom_station (Texte variable): Nom de la station\r\nmetaux (Liste): Nom des métaux échantillonnés\r\nAluminium\r\n\r\nAntimoine\r\nArgent\r\nArsenic\r\nBaryum\r\nBeryllium\r\nCadmium\r\nCalcium\r\nChrome\r\nCobalt\r\nCuivre\r\nEtain\r\nFer\r\nMagnesium\r\nManganese\r\nMolybdene\r\nNickel\r\nPlomb\r\nPotassium\r\nSelenium\r\nSodium\r\nThallium\r\nUranium\r\nVanadium\r\nZinc\r\ndate_prelevement (date): Date de prélèvements\r\n\r\nconcentration (numérique): Valeur de la concentration en ng/m3\r\nstatut (liste de valeurs): Précision quant au prélèvement\r\n\r\nmesure: valeur mesurée\r\nN/A: aucune mesure\r\n<LDR: inférieur à la limite de détection rapportée\r\nLa limite de détection rapportée est précisée dans le tableau suivant:\r\n\r\n| Métal | LDR (ng/m3) | |:---:|:---:| | Béryllium | 6,4 | | Sodium | 494,0 | | Magnésium | 148,2 | | Aluminium | 24,7 | | Potassium | 247,0 | | Calcium | 395,2 | | Vanadium | 1,5 | | Chrome | 1,5 | | Manganèse | 1,0 | | Fer | 49,4 | | Cobalt | 0,5 | | Nickel | 1,0 | | Cuivre | 2,5 | | Zinc | 34,6 | | Arsenic | 1,0 | | Sélénium | 2,5 | | Molybdène | 4,9 | | Argent | 0,5 | | Cadmium | 0,5 | | Étain | 4,9 | | Antimoine | 2,5 | | Barium | 24,7 | | Thallium | 1,0 | | Plomb | 1,0 | | Uranium | 0,5 |",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/e509bea0-8a38-44ed-91c5-2460995f12c5/resource/8df93186-f394-4b56-ad99-8eb1a5506d93/download/rsqa-polluants-metaux-station_nomade.csv",
+      "datastore_active": true,
+      "size": 143859,
+      "last_modified": "2024-12-18T19:31:51.898730",
+      "created": "2024-12-18T18:31:55.071508",
+      "schema": {
+        "resource_id": "8df93186-f394-4b56-ad99-8eb1a5506d93",
+        "total_records": 3012,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "fraction",
+            "type": "text",
+            "info": {
+              "label": "fraction",
+              "notes": "Préleveur utilisé (PST ou PM10)",
+              "type_override": "text"
+            }
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {
+              "label": "nom_station",
+              "notes": "Nom de la station",
+              "type_override": "text"
+            }
+          },
+          {
+            "id": "m[?](c)taux",
+            "type": "text",
+            "info": {
+              "label": "métaux",
+              "notes": "Nom des métaux échantillonnés",
+              "type_override": "text"
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {
+              "label": "date_prelevement",
+              "notes": "Date de prélèvement",
+              "type_override": "text"
+            }
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "text",
+            "info": {
+              "label": "concentration",
+              "notes": "Valeur de la concentration en ng/m3",
+              "type_override": "numeric"
+            }
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {
+              "label": "statut",
+              "notes": "Précision quant au prélèvement",
+              "type_override": "text"
+            }
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "fraction": "PST",
+            "nom_station": "Station Nomade",
+            "m[?](c)taux": "Aluminium",
+            "date": "1/6/2023",
+            "concentration_ng_m3": "183.0",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "fraction": "PST",
+            "nom_station": "Station Nomade",
+            "m[?](c)taux": "Antimoine",
+            "date": "1/6/2023",
+            "concentration_ng_m3": "0.0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "fraction": "PST",
+            "nom_station": "Station Nomade",
+            "m[?](c)taux": "Argent",
+            "date": "1/6/2023",
+            "concentration_ng_m3": "0.0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 4,
+            "fraction": "PST",
+            "nom_station": "Station Nomade",
+            "m[?](c)taux": "Arsenic",
+            "date": "1/6/2023",
+            "concentration_ng_m3": "0.0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 5,
+            "fraction": "PST",
+            "nom_station": "Station Nomade",
+            "m[?](c)taux": "Baryum",
+            "date": "1/6/2023",
+            "concentration_ng_m3": "0.0",
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "fraction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "m[?](c)taux": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 3012,
+        "audited_at": "2026-03-10T00:22:52.299989+00:00",
+        "fields": {
+          "fraction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "PST",
+                "count": 500
+              },
+              {
+                "value": "PM10",
+                "count": 500
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Station Nomade",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "m[?](c)taux": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Aluminium",
+                "count": 40
+              },
+              {
+                "value": "Antimoine",
+                "count": 40
+              },
+              {
+                "value": "Argent",
+                "count": 40
+              },
+              {
+                "value": "Arsenic",
+                "count": 40
+              },
+              {
+                "value": "Baryum",
+                "count": 40
+              },
+              {
+                "value": "Beryllium",
+                "count": 40
+              },
+              {
+                "value": "Cadmium",
+                "count": 40
+              },
+              {
+                "value": "Calcium",
+                "count": 40
+              },
+              {
+                "value": "Chrome",
+                "count": 40
+              },
+              {
+                "value": "Cobalt",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1/12/2023",
+            "max_date": "4/6/2023",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 13386.8,
+            "mean": 176.1581,
+            "median": 0.0,
+            "unique_count": 291,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 608
+              },
+              {
+                "value": "mesure",
+                "count": 392
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "e4fc9777-b99c-4624-8d6f-3e0b525c2ede",
+      "name": "RSQA - Multi-polluants Station Nomade (26-1) 2023-2024",
+      "description": "Les concentrations sont mesurées par des analyseurs en continu suivant les critères métrologiques des lignes directrices d'assurance et de contrôle de la qualité (AQ-CQ) du programme de surveillance national de la pollution atmosphérique.​\r\n\r\n### Dictionnaire de données\r\n- `NO_POSTE` (Numérique) : Identifiant unique de chaque station RSQA\r\n- `DATE_HEURE` (Date/Heure) : Horodatage de la mesure\r\n  - L'heure fait référence à l'heure de fin de la prise de mesure pour la moyenne calculée. Ainsi 02:00:00 fait référence à la moyenne des mesures entre 01:01:00 et 02:00:00 la même journée. \r\n - La moyenne journalière est calculée de 01:00:00 à 00:00:00 (00:00:00 = 24:00:00).\r\n- `CO` (Numérique) : Concentration en monoxyde de carbone (exprimée en ppb)\r\n- `NO` (Numérique) : Concentration en monoxyde d'azote (exprimée en ppb)\r\n- `NO2` (Numérique) : Concentration en dioxyde d'azote (exprimée en ppb)\r\n- `PM2,5` (Numérique) : Concentration en particules fines, diamètre 2,5 microns et moins (exprimée en µg/m3).\r\n- `PUF` (Numérique) : Concentration en particules ultrafines, diamètre 0.1 microns et moins (exprimée en # particules/cm3)\r\n- `O3` (Numérique) : Concentration en ozone (exprimée en ppb)\r\n- `SO2` (Numérique) : Concentration en dioxyde de soufre (exprimée en ppb)\r\n- `BC1_370nm` (Numérique) : Concentration en carbone élémentaire 370nm (exprimée en µg/m3)\r\n- `BC6_880nm` (Numérique) : Concentration en carbone élémentaire 880nm (exprimée en µg/m3)\r\n\r\n### Définition des valeurs retrouvées dans les fichiers qui ne sont pas des mesures:\r\n- `« alarm »:` mauvais fonctionnement de l'appareil\r\n- `« down »:`  l'appareil est arrêté pour une intervention (étalonnage, débits et étanchéité etc.)\r\n- `« <Samp »:`indique qu'il n'y a pas 75% des données minutes pour que l'heure soit valide\r\n- `« span », « calib » ou « purge »:`l'appareil fait son étalonnage journalier\r\n- `« InVld » :`donnée horaire que nous avons indiqué comme invalide (mauvais fonctionnement de l'appareil ou autre)\r\n- `« zero » :` l'appareil est entrain de faire le zéro\r\n- `« No Data » ou « RS232» :` l'appareil ne communique plus avec l'ordinateur (re-démarrage de l'ordinateur ou panne de courant etc.)\r\n- `« FailPwr » :` panne de courant\r\n- `« N/M » ou une valeur vide :` Non mesuré\r\n- `« N/A» :` Non-disponible (non-échantillonné, invalidé ou autre)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/e509bea0-8a38-44ed-91c5-2460995f12c5/resource/e4fc9777-b99c-4624-8d6f-3e0b525c2ede/download/rsqa-multi-polluants2023-2024-26-1.csv",
+      "datastore_active": true,
+      "size": 662289,
+      "last_modified": "2024-12-18T19:22:06.853152",
+      "created": "2024-12-18T19:22:06.933053",
+      "schema": {
+        "resource_id": "e4fc9777-b99c-4624-8d6f-3e0b525c2ede",
+        "total_records": 10944,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "DATE_HEURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "O3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SO2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PM2.5",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "BC1_370nm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "BC6_880nm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PUF",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "DATE_HEURE": "01-01-2023 01:00",
+            "O3": "InVld",
+            "NO": "0.3",
+            "NO2": "6.7",
+            "SO2": "InVld",
+            "CO": "NoData",
+            "PM2.5": "5.03",
+            "BC1_370nm": "0.781",
+            "BC6_880nm": "0.454",
+            "PUF": "3032"
+          },
+          {
+            "_id": 2,
+            "DATE_HEURE": "01-01-2023 02:00",
+            "O3": "InVld",
+            "NO": "0.3",
+            "NO2": "7",
+            "SO2": "InVld",
+            "CO": "NoData",
+            "PM2.5": "6.14",
+            "BC1_370nm": "0.825",
+            "BC6_880nm": "0.494",
+            "PUF": "3109"
+          },
+          {
+            "_id": 3,
+            "DATE_HEURE": "01-01-2023 03:00",
+            "O3": "InVld",
+            "NO": "0.4",
+            "NO2": "8.2",
+            "SO2": "InVld",
+            "CO": "NoData",
+            "PM2.5": "6.62",
+            "BC1_370nm": "0.734",
+            "BC6_880nm": "0.474",
+            "PUF": "3058"
+          },
+          {
+            "_id": 4,
+            "DATE_HEURE": "01-01-2023 04:00",
+            "O3": "InVld",
+            "NO": "1.2",
+            "NO2": "12.7",
+            "SO2": "InVld",
+            "CO": "NoData",
+            "PM2.5": "6.01",
+            "BC1_370nm": "0.684",
+            "BC6_880nm": "0.419",
+            "PUF": "5307"
+          },
+          {
+            "_id": 5,
+            "DATE_HEURE": "01-01-2023 05:00",
+            "O3": "InVld",
+            "NO": "0.4",
+            "NO2": "9.9",
+            "SO2": "InVld",
+            "CO": "NoData",
+            "PM2.5": "4.61",
+            "BC1_370nm": "0.575",
+            "BC6_880nm": "0.362",
+            "PUF": "7126"
+          }
+        ]
+      },
+      "field_stats": {
+        "DATE_HEURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "O3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SO2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PM2.5": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "BC1_370nm": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "BC6_880nm": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PUF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 10944,
+        "audited_at": "2026-03-10T00:22:53.346790+00:00",
+        "fields": {
+          "DATE_HEURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "01-01-2023 01:00",
+            "max_date": "31-01-2023 24:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "O3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 248,
+            "top_values": [
+              {
+                "value": "InVld",
+                "count": 391
+              },
+              {
+                "value": "NoData",
+                "count": 40
+              },
+              {
+                "value": "Down",
+                "count": 10
+              },
+              {
+                "value": "27.1",
+                "count": 10
+              },
+              {
+                "value": "28.4",
+                "count": 9
+              },
+              {
+                "value": "31.2",
+                "count": 8
+              },
+              {
+                "value": "30.6",
+                "count": 8
+              },
+              {
+                "value": "27.8",
+                "count": 8
+              },
+              {
+                "value": "<Samp",
+                "count": 7
+              },
+              {
+                "value": "25.2",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.3,
+            "max": 102.1,
+            "mean": 3.3407,
+            "median": 0.7,
+            "unique_count": 150,
+            "field_type_detected": "numeric"
+          },
+          "NO2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.9,
+            "max": 46.2,
+            "mean": 9.8697,
+            "median": 7.1,
+            "unique_count": 254,
+            "field_type_detected": "numeric"
+          },
+          "SO2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "InVld",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 80,
+            "top_values": [
+              {
+                "value": "NoData",
+                "count": 900
+              },
+              {
+                "value": "InVld",
+                "count": 5
+              },
+              {
+                "value": "172",
+                "count": 3
+              },
+              {
+                "value": "158",
+                "count": 3
+              },
+              {
+                "value": "<Samp",
+                "count": 2
+              },
+              {
+                "value": "186",
+                "count": 2
+              },
+              {
+                "value": "199",
+                "count": 2
+              },
+              {
+                "value": "233",
+                "count": 2
+              },
+              {
+                "value": "178",
+                "count": 2
+              },
+              {
+                "value": "261",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "PM2.5": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.24,
+            "max": 40.86,
+            "mean": 7.9437,
+            "median": 6.03,
+            "unique_count": 734,
+            "field_type_detected": "numeric"
+          },
+          "BC1_370nm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.028,
+            "max": 7.775,
+            "mean": 0.7649,
+            "median": 0.552,
+            "unique_count": 709,
+            "field_type_detected": "numeric"
+          },
+          "BC6_880nm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.032,
+            "max": 5.11,
+            "mean": 0.4715,
+            "median": 0.335,
+            "unique_count": 609,
+            "field_type_detected": "numeric"
+          },
+          "PUF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 656.0,
+            "max": 41473.0,
+            "mean": 10002.8996,
+            "median": 8090.0,
+            "unique_count": 831,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "1f79800b-3448-4dc8-a267-cd5f8fa1cc46",
+      "name": "Vidéo présentation Station Nomade campagne 26-1",
+      "description": "",
+      "format": "MP4",
+      "url": "https://donnees.montreal.ca/fr/dataset/e509bea0-8a38-44ed-91c5-2460995f12c5/resource/1f79800b-3448-4dc8-a267-cd5f8fa1cc46/download/station-nomade-jardins-collectifs-montreal-est.mp4",
+      "datastore_active": false,
+      "size": 237439572,
+      "last_modified": "2025-02-18T16:24:14.908783",
+      "created": "2025-02-18T15:50:57.166651",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Qualité de l air",
+    "RSQA",
+    "SEnv",
+    "Station nomade"
+  ],
+  "web_metadata": {
+    "methodology_text": "La station nomade a été installée  aux Jardins collectifs de Montréal-Est à l’intersection de la rue Victoria et de l’avenue Marien entre le 1er janvier 2023 et le 31 mars 2024 pour sa première campagne de mesure (26-1).\n\n\nLa station nomade change de localisation à la fin de chaque projet, dont la durée peut s’échelonner de 18 à 24 mois. \n\n\nSon deuxième emplacement (26-2) depuis le 1er octobre 2024 est à côté de la station de métro St-Laurent au centre-ville.\n\n### Méthodologie métaux\n\n\n\nLe Réseau de surveillance de la qualité de l’air (RSQA) mesure les métaux sur les particules de taille inférieure à 10 µm et sur les particules totales, échantillonnés sur des filtres de préleveur Hi-Vol (haut débit) pendant 24h. Les échantillons prélevés doivent être séchés, pesés et envoyés au laboratoire pour analyse. Les résultats doivent ensuite être traités et validés, ce qui explique les délais dans l’obtention des résultats.\n\n### Dictionnaire de données\n\n\n\n- fraction (Text variable): Préleveur utilisé (PST ou PM10)\n\n- nom_station (Texte variable): Nom de la station\n\n- metaux (Liste): Nom des métaux échantillonnés\n\n\n\nAluminium\nAntimoine\nArgent\nArsenic\nBaryum\nBeryllium\nCadmium\nCalcium\nChrome\nCobalt\nCuivre\nEtain\nFer\nMagnesium\nManganese\nMolybdene\nNickel\nPlomb\nPotassium\nSelenium\nSodium\nThallium\nUranium\nVanadium\nZinc\n\n\n- date_prelevement (date): Date de prélèvements\n\n- concentration(numérique): Valeur de la concentration en ng/m3\n\n- statut (liste de valeurs): Précision quant au prélèvement\n\n- mesure: valeur mesurée\nN/A: aucune mesure\n<LDR: inférieur à la limite de détection rapportée\n\n\n\nLa limite de détection rapportée est précisée dans le tableau suivant:\n\n\n| Métal | LDR (ng/m3) | |:---:|:---:| | Béryllium | 6,4 | | Sodium | 494,0 | | Magnésium | 148,2 | | Aluminium | 24,7 | | Potassium | 247,0 | | Calcium | 395,2 | | Vanadium | 1,5 | | Chrome | 1,5 | | Manganèse | 1,0 | | Fer | 49,4 | | Cobalt | 0,5 | | Nickel | 1,0 | | Cuivre | 2,5 | | Zinc | 34,6 | | Arsenic | 1,0 | | Sélénium | 2,5 | | Molybdène | 4,9 | | Argent | 0,5 | | Cadmium | 0,5 | | Étain | 4,9 | | Antimoine | 2,5 | | Barium | 24,7 | | Thallium | 1,0 | | Plomb | 1,0 | | Uranium | 0,5 |\n\n### Méthodologie multipolluants\n\n\n\nLes concentrations sont mesurées par des analyseurs en continu suivant les critères métrologiques des lignes directrices d'assurance et de contrôle de la qualité (AQ-CQ) du programme de surveillance national de la pollution atmosphérique.​\n\n### Dictionnaire de données\n\n\n\n- NO_POSTE (Numérique) : Identifiant unique de chaque station RSQA\n\n- DATE_HEURE (Date/Heure) : Horodatage de la mesure\n\n- L'heure fait référence à l'heure de fin de la prise de mesure pour la moyenne calculée. Ainsi 02:00:00 fait référence à la moyenne des mesures entre 01:01:00 et 02:00:00 la même journée. \n\n- La moyenne journalière est calculée de 01:00:00 à 00:00:00 (00:00:00 = 24:00:00).\n\n- CO (Numérique) : Concentration en monoxyde de carbone (exprimée en ppb)\n\n- NO (Numérique) : Concentration en monoxyde d'azote (exprimée en ppb)\n\n- NO2 (Numérique) : Concentration en dioxyde d'azote (exprimée en ppb)\n\n- PM2,5 (Numérique) : Concentration en particules fines, diamètre 2,5 microns et moins (exprimée en µg/m3).\n\n- PUF (Numérique) : Concentration en particules ultrafines, diamètre 0.1 microns et moins (exprimée en # particules/cm3)\n\n- O3 (Numérique) : Concentration en ozone (exprimée en ppb)\n\n- SO2 (Numérique) : Concentration en dioxyde de soufre (exprimée en ppb)\n\n- BC1_370nm (Numérique) : Concentration en carbone élémentaire 370nm (exprimée en µg/m3)\n\n- BC6_880nm (Numérique) : Concentration en carbone élémentaire 880nm (exprimée en µg/m3)\n\n\n### Définition des valeurs retrouvées dans les fichiers qui ne sont pas des mesures:\n\n\n\n- « alarm »: mauvais fonctionnement de l'appareil\n\n- « down »:  l'appareil est arrêté pour une intervention (étalonnage, débits et étanchéité etc.)\n\n- « <Samp »:indique qu'il n'y a pas 75% des données minutes pour que l'heure soit valide\n\n- « span », « calib » ou « purge »:l'appareil fait son étalonnage journalier\n\n- « InVld » :donnée horaire que nous avons indiqué comme invalide (mauvais fonctionnement de l'appareil ou autre)\n\n- « zero » : l'appareil est entrain de faire le zéro\n\n- « No Data » ou « RS232» : l'appareil ne communique plus avec l'ordinateur (re-démarrage de l'ordinateur ou panne de courant etc.)\n\n- « FailPwr » : panne de courant\n\n- « N/M » ou une valeur vide : Non mesuré\n\n- « N/A» : Non-disponible (non-échantillonné, invalidé ou autre)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Au besoin"
+    },
+    "keywords": [
+      "Qualité de l air",
+      "RSQA",
+      "SEnv",
+      "Station nomade"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/projet-station-nomade-rsqa",
+    "scraped_at": "2026-03-09T20:16:07.186571+00:00"
+  }
+}

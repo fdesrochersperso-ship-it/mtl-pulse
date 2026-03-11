@@ -1,0 +1,759 @@
+{
+  "slug": "vmtl-liste-des-baux-sous-gestion",
+  "title": "Liste des baux actifs",
+  "notes": "Cet ensemble de données présente les baux en vigueur (incluant la Ville locataire, la Ville locateur et les emphytéoses) comprenant les informations s’y rapportant : type de location, signataire (nom), adresse, arrondissement, date de début de bail et date de fin de bail. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "economie-entreprises",
+      "display_name": "Économie et entreprises",
+      "mapped": {}
+    },
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-05-03T18:17:27.909985",
+  "metadata_modified": "2025-02-27T21:30:07.772979",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "73963596-657e-4634-9f9f-9f3ff374e8ce",
+      "name": "Liste des baux sous gestion en 2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c60e0d39-9c9d-473e-9fa7-8987dc6aff4f/resource/73963596-657e-4634-9f9f-9f3ff374e8ce/download/liste-des-baux-sous-gestion.csv",
+      "datastore_active": true,
+      "size": 74906,
+      "last_modified": "2024-06-25T18:41:44.947542",
+      "created": "2023-05-03T18:26:07.966538",
+      "schema": {
+        "resource_id": "73963596-657e-4634-9f9f-9f3ff374e8ce",
+        "total_records": 736,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Type de location",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Signataire (Nom)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de debut de bail",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de fin de bail",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Type de location": "Locateur",
+            "Signataire (Nom)": "ARTS EN MOUVEMENT DU QUEBEC INC",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          },
+          {
+            "_id": 2,
+            "Type de location": "Locateur",
+            "Signataire (Nom)": "SOCOTROP SENC",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2027-05-31"
+          },
+          {
+            "_id": 3,
+            "Type de location": "Locateur",
+            "Signataire (Nom)": "DIFFUSION BIPLAN INC.",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          },
+          {
+            "_id": 4,
+            "Type de location": "Locateur",
+            "Signataire (Nom)": "Groupe MTLDécor Inc",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2025-12-31"
+          },
+          {
+            "_id": 5,
+            "Type de location": "Locateur",
+            "Signataire (Nom)": "9062-4438 QUEBEC INC.    ",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          }
+        ]
+      },
+      "field_stats": {
+        "Type de location": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signataire (Nom)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de debut de bail": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de fin de bail": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 736,
+        "total_records": 736,
+        "audited_at": "2026-03-10T00:20:33.697107+00:00",
+        "fields": {
+          "Type de location": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Locataire",
+                "count": 266
+              },
+              {
+                "value": "Emphytéose",
+                "count": 263
+              },
+              {
+                "value": "Locateur",
+                "count": 207
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Signataire (Nom)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 463,
+            "top_values": [
+              {
+                "value": "S.H.Q. Mtl",
+                "count": 88
+              },
+              {
+                "value": "SHDM",
+                "count": 28
+              },
+              {
+                "value": "Adm portuaire de Montréal",
+                "count": 21
+              },
+              {
+                "value": "HYDRO-QUÉBEC",
+                "count": 17
+              },
+              {
+                "value": "Receveur general du Canada",
+                "count": 10
+              },
+              {
+                "value": "Pont Jacques-Cartier/Champlain",
+                "count": 9
+              },
+              {
+                "value": "M.E.F./Dir ress financières",
+                "count": 8
+              },
+              {
+                "value": "Société de transport Mtl (STM) Finances",
+                "count": 7
+              },
+              {
+                "value": "C.S.D.M.",
+                "count": 5
+              },
+              {
+                "value": "Ministère des Transports",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 539,
+            "top_values": [
+              {
+                "value": "245 Avenue des Pins",
+                "count": 21
+              },
+              {
+                "value": "330, rue Saint-Paul E",
+                "count": 19
+              },
+              {
+                "value": "-",
+                "count": 18
+              },
+              {
+                "value": "7140  Albert-Einstein (SLR)",
+                "count": 14
+              },
+              {
+                "value": "3670, rue Jeanne-Mance",
+                "count": 14
+              },
+              {
+                "value": "2300  Alfred-Nobel (SLR)",
+                "count": 11
+              },
+              {
+                "value": "Rue Notre-Dame E",
+                "count": 11
+              },
+              {
+                "value": "1100, Voie Camillien-Houde",
+                "count": 7
+              },
+              {
+                "value": "Autoroute Bonaventure",
+                "count": 7
+              },
+              {
+                "value": "2075, rue Plessis",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "VILLE-MARIE",
+                "count": 168
+              },
+              {
+                "value": "SUD-OUEST",
+                "count": 92
+              },
+              {
+                "value": "MERCIER/HOCHELAGA/ MAISONNEUVE",
+                "count": 75
+              },
+              {
+                "value": "PLATEAU MONT-ROYAL",
+                "count": 73
+              },
+              {
+                "value": "AHUNTSIC / CARTIERVILLE",
+                "count": 55
+              },
+              {
+                "value": "R-D-P / P-A-T",
+                "count": 51
+              },
+              {
+                "value": "ROSEMONT / PETITE-PATRIE",
+                "count": 48
+              },
+              {
+                "value": "VILLERAY/ST-MICHEL/PARC-EXTENS",
+                "count": 40
+              },
+              {
+                "value": "SAINT-LAURENT",
+                "count": 31
+              },
+              {
+                "value": "COTE-DES-NEIGES / N-D-DE-GRACE",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date de debut de bail": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1914-01-01",
+            "max_date": "2024-03-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Date de fin de bail": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-12-31",
+            "max_date": "3000-09-14",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "2815b942-a5b2-430b-9834-b57169de1680",
+      "name": "Liste des baux sous gestion en 2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c60e0d39-9c9d-473e-9fa7-8987dc6aff4f/resource/2815b942-a5b2-430b-9834-b57169de1680/download/liste_des_baux_sous_gestion_en_2024.csv",
+      "datastore_active": true,
+      "size": 81193,
+      "last_modified": "2025-02-18T18:47:45.222599",
+      "created": "2025-02-18T18:47:45.300884",
+      "schema": {
+        "resource_id": "2815b942-a5b2-430b-9834-b57169de1680",
+        "total_records": 736,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Numero de bail",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type de location",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Signataire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de debut de bail",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de fin de bail",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Numero de bail": "0005-102",
+            "Type de location": "Locateur",
+            "Signataire": "ARTS EN MOUVEMENT DU QUEBEC INC",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          },
+          {
+            "_id": 2,
+            "Numero de bail": "0005-103",
+            "Type de location": "Locateur",
+            "Signataire": "SOCOTROP SENC",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2027-05-31"
+          },
+          {
+            "_id": 3,
+            "Numero de bail": "0005-106",
+            "Type de location": "Locateur",
+            "Signataire": "DIFFUSION BIPLAN INC.",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          },
+          {
+            "_id": 4,
+            "Numero de bail": "0005-107",
+            "Type de location": "Locateur",
+            "Signataire": "Groupe MTLDécor Inc",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2025-12-31"
+          },
+          {
+            "_id": 5,
+            "Numero de bail": "0005-110",
+            "Type de location": "Locateur",
+            "Signataire": "9062-4438 QUEBEC INC.    ",
+            "Adresse": "330, rue Saint-Paul E",
+            "Arrondissement": "VILLE-MARIE",
+            "Date de debut de bail": "2020-01-01",
+            "Date de fin de bail": "2028-12-31"
+          }
+        ]
+      },
+      "field_stats": {
+        "Numero de bail": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type de location": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signataire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de debut de bail": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de fin de bail": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 736,
+        "total_records": 736,
+        "audited_at": "2026-03-10T00:20:34.596036+00:00",
+        "fields": {
+          "Numero de bail": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 736,
+            "top_values": [
+              {
+                "value": "0005-102",
+                "count": 1
+              },
+              {
+                "value": "0005-103",
+                "count": 1
+              },
+              {
+                "value": "0005-106",
+                "count": 1
+              },
+              {
+                "value": "0005-107",
+                "count": 1
+              },
+              {
+                "value": "0005-110",
+                "count": 1
+              },
+              {
+                "value": "0005-111",
+                "count": 1
+              },
+              {
+                "value": "0005-112",
+                "count": 1
+              },
+              {
+                "value": "0005-113",
+                "count": 1
+              },
+              {
+                "value": "0005-115",
+                "count": 1
+              },
+              {
+                "value": "0005-116",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Type de location": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Locataire",
+                "count": 266
+              },
+              {
+                "value": "Emphytéose",
+                "count": 263
+              },
+              {
+                "value": "Locateur",
+                "count": 207
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Signataire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 463,
+            "top_values": [
+              {
+                "value": "S.H.Q. Mtl",
+                "count": 88
+              },
+              {
+                "value": "SHDM",
+                "count": 28
+              },
+              {
+                "value": "Adm portuaire de Montréal",
+                "count": 21
+              },
+              {
+                "value": "HYDRO-QUÉBEC",
+                "count": 17
+              },
+              {
+                "value": "Receveur general du Canada",
+                "count": 10
+              },
+              {
+                "value": "Pont Jacques-Cartier/Champlain",
+                "count": 9
+              },
+              {
+                "value": "M.E.F./Dir ress financières",
+                "count": 8
+              },
+              {
+                "value": "Société de transport Mtl (STM) Finances",
+                "count": 7
+              },
+              {
+                "value": "C.S.D.M.",
+                "count": 5
+              },
+              {
+                "value": "Ministère des Transports",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 539,
+            "top_values": [
+              {
+                "value": "245 Avenue des Pins",
+                "count": 21
+              },
+              {
+                "value": "330, rue Saint-Paul E",
+                "count": 19
+              },
+              {
+                "value": "-",
+                "count": 18
+              },
+              {
+                "value": "7140  Albert-Einstein (SLR)",
+                "count": 14
+              },
+              {
+                "value": "3670, rue Jeanne-Mance",
+                "count": 14
+              },
+              {
+                "value": "2300  Alfred-Nobel (SLR)",
+                "count": 11
+              },
+              {
+                "value": "Rue Notre-Dame E",
+                "count": 11
+              },
+              {
+                "value": "1100, Voie Camillien-Houde",
+                "count": 7
+              },
+              {
+                "value": "Autoroute Bonaventure",
+                "count": 7
+              },
+              {
+                "value": "2075, rue Plessis",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "VILLE-MARIE",
+                "count": 168
+              },
+              {
+                "value": "SUD-OUEST",
+                "count": 92
+              },
+              {
+                "value": "MERCIER/HOCHELAGA/ MAISONNEUVE",
+                "count": 75
+              },
+              {
+                "value": "PLATEAU MONT-ROYAL",
+                "count": 73
+              },
+              {
+                "value": "AHUNTSIC / CARTIERVILLE",
+                "count": 55
+              },
+              {
+                "value": "R-D-P / P-A-T",
+                "count": 51
+              },
+              {
+                "value": "ROSEMONT / PETITE-PATRIE",
+                "count": 48
+              },
+              {
+                "value": "VILLERAY/ST-MICHEL/PARC-EXTENS",
+                "count": 40
+              },
+              {
+                "value": "SAINT-LAURENT",
+                "count": 31
+              },
+              {
+                "value": "COTE-DES-NEIGES / N-D-DE-GRACE",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date de debut de bail": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1914-01-01",
+            "max_date": "2024-03-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Date de fin de bail": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-12-31",
+            "max_date": "3000-09-14",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Immeuble",
+    "Immobilier",
+    "Locataire",
+    "Location",
+    "SSI",
+    "Édifice"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n\n- type_location (texte) : Type de location.\n\n- nom (texte) : Nom du locateur ou du locataire.\n\n- adresse (texte) : Adresse des lieux loués.\n\n- arrondissement (texte) : Arrondissement.\n\n- date_debut_bail (date) : Date du début du bail.\n\n- date_fin_bail (date) : Date de la fin du bail.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la stratégie immobilière",
+      "Couverture temporelle": "2023-01-01 / 2024-12-31",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Immeuble",
+      "Immobilier",
+      "Locataire",
+      "Location",
+      "SSI",
+      "Édifice"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/liste-des-baux-sous-gestion",
+    "scraped_at": "2026-03-09T20:11:51.497255+00:00"
+  }
+}

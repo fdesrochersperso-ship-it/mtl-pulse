@@ -1,0 +1,191 @@
+{
+  "slug": "vmtl-catalogue-bibliotheques",
+  "title": "Catalogue des documents des bibliothèques",
+  "notes": "Informations bibliographiques sur les 4 millions de documents que l’on retrouve dans les bibliothèques de Montréal, doublées des statistiques d’emprunt depuis leur inclusion dans le catalogue [« Nelligan Découverte »](https://nelligandecouverte.ville.montreal.qc.ca/).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-05T22:41:56.114608",
+  "metadata_modified": "2025-02-27T14:17:33.966484",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "8989b16e-71d4-476a-8556-fadb9fd6b7b0",
+      "name": "Catalogue des bibliothèques de Montréal",
+      "description": "Fichier en CSV placé dans un fichier compressé au format ZIP (100 Mo, soit 1,3 Go lorsque décompressé) \r\n\r\nLes colonnes sont identifiées comme suit : \r\n\r\n- Arrondissement (description) \r\n- Localisation (description) \r\n- Date de création de la notice d'exemplaire du document\r\n- Nombre total de prêts depuis l'inclusion dans le système\r\n- Nombre total de prêts de l'année en cours\r\n- Statut du document (description)\r\n- Type de document\r\n- Cote\r\n- Titre\r\n- Variante du titre (voir la norme MARC 21)\r\n- Auteur\r\n- Collaboration\r\n- Éditeur\r\n- Lieu\r\n- Pays\r\n- Année\r\n- Nombre de pages\r\n- Langue\r\n- Collection\r\n- ISN\r\n- URL image de couverture\r\n\r\n**VEUILLEZ NOTER** que les champs ayant la mention « description » font normalement référence à un choix dans une table. La version descriptive sert uniquement à faciliter la compréhension du lecteur.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7ae1499a-8387-40b0-a248-86eb5b528da7/resource/8989b16e-71d4-476a-8556-fadb9fd6b7b0/download/catalogue-bibliotheque.zip",
+      "datastore_active": true,
+      "size": 103017539,
+      "last_modified": "2023-03-24T14:52:18.455141",
+      "created": "2016-01-13T12:21:17.162235",
+      "schema": {
+        "resource_id": "8989b16e-71d4-476a-8556-fadb9fd6b7b0",
+        "total_records": 0,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date-creation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nombre-prets-vie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nombre-prets-annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut-document",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type-document",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cote",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Variante-titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Auteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Collaboration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Editeur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lieu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Pays",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nombre-pages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Langue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Collection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ISN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "URL-image",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": []
+      },
+      "quality_audit": {
+        "sample_size": 0,
+        "total_records": 0,
+        "audited_at": "2026-03-10T00:14:43.355820+00:00",
+        "fields": {}
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bibliothèque",
+    "CD",
+    "Catalogue",
+    "DVD",
+    "Livre",
+    "Revue",
+    "SC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Extraction de la base du système Sierra ILS (Integrated Library System) utilisé par les 45 bibliothèques de la Ville pour la gestion des documents et activités courantes de la Direction des bibliothèques.\n\n\n**Limites :** \n\nCertaines informations que l’on retrouve dans le catalogue Nelligan Découverte sont protégées par droit d’auteur et n’ont pu être libérées. Nous sommes disposés à modifier les extractions futures selon les besoins exprimés par la communauté.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Direction des bibliothèques",
+      "Couverture temporelle": "2007-06-27/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Bibliothèque",
+      "CD",
+      "Catalogue",
+      "DVD",
+      "Livre",
+      "Revue",
+      "SC"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/catalogue-bibliotheques",
+    "scraped_at": "2026-03-09T19:53:40.825430+00:00"
+  }
+}

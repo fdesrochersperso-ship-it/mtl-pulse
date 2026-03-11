@@ -1,0 +1,399 @@
+{
+  "slug": "vmtl-vignettes-stationnement",
+  "title": "Vignettes de stationnement",
+  "notes": "Ensemble de données présentant la liste des vignettes de stationnement sur rue réservées aux résidents (SRRR) délivrées par les Bureaux Accès Montréal (BAM). \r\n\r\nLes détails en lien avec une demande de vignette, incluant les tarifs et la période de validité, sont disponibles sur [le site internet de la ville de Montréal](https://beta.montreal.ca/fiches-services/demander-une-vignette-de-stationnement).\r\n\r\n_NOTES:_\r\nL'obtention, le renouvellement ou le remplacement d'une vignette de stationnement à Montréal sont gérés en arrondissement.  Ainsi, les modalités peuvent différer entre les 19 arrondissements.\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-11-29T21:21:00.115061",
+  "metadata_modified": "2026-03-05T02:31:18.057529",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "0e0c323a-1c1f-47be-8241-660f79efba8b",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiN2RhMDk4MjgtMGIwYi00NWNmLTg0NzMtMDBkN2IyYTg3NmViIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-21T18:33:39.596045",
+      "schema": null
+    },
+    {
+      "id": "e7df09fb-af5a-476f-861e-ea23777749b5",
+      "name": "Vignettes de stationnement",
+      "description": "Fichier au format CSV des vignettes de stationnement",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b6f070c5-2d72-4bc3-8e37-e871b40aad31/resource/e7df09fb-af5a-476f-861e-ea23777749b5/download/vignettes_stationnement.csv",
+      "datastore_active": true,
+      "size": 87170972,
+      "last_modified": "2026-03-05T00:02:23.800934",
+      "created": "2018-12-10T16:14:00.712926",
+      "schema": {
+        "resource_id": "e7df09fb-af5a-476f-861e-ea23777749b5",
+        "total_records": 832841,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SECTEUR_SSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_SECTEUR_SSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARR_SECTEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_PERMIS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_ACTION_SHP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TOTAL_RECU",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SECTEUR_SSE": "32",
+            "NOM_SECTEUR_SSE": "Parc La Fontaine (partie Ouest)",
+            "ARR_SECTEUR": "Arrondissement du Plateau-Mont-Royal",
+            "NO_PERMIS": "32GLX348",
+            "DATE_ACTION_SHP": "2007-07-03T15:56:52",
+            "TOTAL_RECU": "85.46"
+          },
+          {
+            "_id": 2,
+            "NO_SECTEUR_SSE": "27",
+            "NOM_SECTEUR_SSE": "Avenue Laurier",
+            "ARR_SECTEUR": "Arrondissement du Plateau-Mont-Royal",
+            "NO_PERMIS": "27FDM2769",
+            "DATE_ACTION_SHP": "2007-07-03T15:00:06",
+            "TOTAL_RECU": "85.46"
+          },
+          {
+            "_id": 3,
+            "NO_SECTEUR_SSE": "26",
+            "NOM_SECTEUR_SSE": "Mile-End",
+            "ARR_SECTEUR": "Arrondissement du Plateau-Mont-Royal",
+            "NO_PERMIS": "26848TME",
+            "DATE_ACTION_SHP": "2007-07-03T11:14:42",
+            "TOTAL_RECU": "85.46"
+          },
+          {
+            "_id": 4,
+            "NO_SECTEUR_SSE": "75",
+            "NOM_SECTEUR_SSE": "Chambord",
+            "ARR_SECTEUR": "Arrondissement du Plateau-Mont-Royal",
+            "NO_PERMIS": "75520FLP",
+            "DATE_ACTION_SHP": "2007-07-03T10:56:11",
+            "TOTAL_RECU": "85.46"
+          },
+          {
+            "_id": 5,
+            "NO_SECTEUR_SSE": "13",
+            "NOM_SECTEUR_SSE": "Village Durocher",
+            "ARR_SECTEUR": "Arrondissement du Plateau-Mont-Royal",
+            "NO_PERMIS": "13093SKL",
+            "DATE_ACTION_SHP": "2007-07-03T10:33:39",
+            "TOTAL_RECU": "85.46"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SECTEUR_SSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_SECTEUR_SSE": {
+          "null_count": 1316,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "ARR_SECTEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_PERMIS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_ACTION_SHP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TOTAL_RECU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 832841,
+        "audited_at": "2026-03-10T00:32:53.886964+00:00",
+        "fields": {
+          "NO_SECTEUR_SSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 121.0,
+            "mean": 36.494,
+            "median": 31.0,
+            "unique_count": 80,
+            "field_type_detected": "numeric"
+          },
+          "NOM_SECTEUR_SSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 80,
+            "top_values": [
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 58
+              },
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 49
+              },
+              {
+                "value": "Métro Jarry",
+                "count": 48
+              },
+              {
+                "value": "Avenue Laurier",
+                "count": 47
+              },
+              {
+                "value": "Métro Crémazie (partie Sud)",
+                "count": 46
+              },
+              {
+                "value": "Mentana",
+                "count": 45
+              },
+              {
+                "value": "Parc La Fontaine (partie Ouest)",
+                "count": 41
+              },
+              {
+                "value": "Chabot",
+                "count": 41
+              },
+              {
+                "value": "Rue Bernard",
+                "count": 37
+              },
+              {
+                "value": "Rue Prince-Arthur et Carré Saint-Louis",
+                "count": 34
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ARR_SECTEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Arrondissement du Plateau-Mont-Royal",
+                "count": 546
+              },
+              {
+                "value": "Arrondissement de VilleraySaint-MichelParc-Extension",
+                "count": 178
+              },
+              {
+                "value": "Arrondissement Côte-des-NeigesNotre-Dame-de-Grâce",
+                "count": 64
+              },
+              {
+                "value": "Arrondissement de Ville-Marie",
+                "count": 64
+              },
+              {
+                "value": "Arrondissement d'Ahuntsic-Cartierville",
+                "count": 62
+              },
+              {
+                "value": "Arrondissement de Rosemont-La Petite-Patrie",
+                "count": 54
+              },
+              {
+                "value": "Arrondissement du Sud-Ouest",
+                "count": 18
+              },
+              {
+                "value": "Arrondissement de MercierHochelaga-Maisonneuve",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NO_PERMIS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "32GLX348",
+                "count": 1
+              },
+              {
+                "value": "27FDM2769",
+                "count": 1
+              },
+              {
+                "value": "26848TME",
+                "count": 1
+              },
+              {
+                "value": "75520FLP",
+                "count": 1
+              },
+              {
+                "value": "13093SKL",
+                "count": 1
+              },
+              {
+                "value": "01678LFC",
+                "count": 1
+              },
+              {
+                "value": "56462PZB",
+                "count": 1
+              },
+              {
+                "value": "35444TSN",
+                "count": 1
+              },
+              {
+                "value": "29935HFK",
+                "count": 1
+              },
+              {
+                "value": "09259NNS",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "DATE_ACTION_SHP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007-07-03T08:33:46",
+            "max_date": "2007-07-05T17:06:03",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "TOTAL_RECU": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 25.0,
+            "max": 170.93,
+            "mean": 71.3055,
+            "median": 85.46,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "85.46",
+                "count": 527
+              },
+              {
+                "value": "50",
+                "count": 396
+              },
+              {
+                "value": "60",
+                "count": 53
+              },
+              {
+                "value": "170.93",
+                "count": 16
+              },
+              {
+                "value": "100",
+                "count": 4
+              },
+              {
+                "value": "42.73",
+                "count": 3
+              },
+              {
+                "value": "25",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "Mobilité",
+    "Permis",
+    "Stationnement",
+    "Transport",
+    "Vignette"
+  ],
+  "web_metadata": {
+    "methodology_text": "Pour faciliter le stationnement  des résidents dans les secteurs achalandés de la Ville, il est possible pour un citoyen de se procurer un permis de stationnement (SRRR) en se rendant au Bureaux Accès Montréal (BAM) de son arrondissement avec les pièces justificatives requises. Les règles de délivrance de ces permis concernant le nombre de vignettes par adresse, les tarifs et les autres modalités tels que le remboursement ou le déménagement sont gérées de manière différente d'un arrondissement à l'autre.\n\n\nLes données recueillies et gérées par la BAM sont, pour la plupart, stockées dans le système centralisé SRRR utilisé en arrondissement.  Seules les données sous ce système sont présentes dans l'ensemble.\n\n### Précisions\n\n\n\nIl est à noter que les données de vignettes ne sont disponibles qu'à partir de 2007.  \n\n\nLes informations pour les arrondissements Île-Bizard–Sainte-Geneviève et Lachine ne sont pas sur le système SRRR et donc indisponibles. Rivière-des-Prairies-Pointe-aux-Trembles et Montréal-Nord pour leur part n'ont actuellement pas ce service.\n\n\nLes numéros de vignettes qui se répètent pour la même date d'achat avec une heure différente (environ 0.1% des données) sont dus essentiellement à des erreurs liées aux transactions.\n\n### Dictionnaire de données\n\n\n\n- NO_SECTEUR_SSE(Numérique): Numéro du secteur \n\n- NOM_SECTEUR_SSE(Texte variable): Nom du secteur\n\n- ARR_SECTEUR(Texte variable): Nom de l'arrondissement \n\n- NO_PERMIS(Texte variable): Numéro de la vignette\n\n- DATE_ACTION_SHP(Date/heure): Date de paiement de la vignette\n\n- TOTAL_RECU(Numérique): Montant de la vignette\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    montreal\n    \n    OUT\n    \n    PRF\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Couverture temporelle": "2007-07-03/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Arr.",
+      "Mobilité",
+      "Permis",
+      "Stationnement",
+      "Transport",
+      "Vignette"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/vignettes-stationnement",
+    "scraped_at": "2026-03-09T20:23:52.649313+00:00"
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "slug": "vmtl-geobase-double",
+  "title": "Géobase double - côtés de rue du réseau routier",
+  "notes": "La géobase double se présente comme une projection du réseau filamentaire de la géobase qui simule approximativement les limites des trottoirs et bordures.  Les [pôles de géobase](/ville-de-montreal/geobase-pole), une représentation ponctuelle des côtés gauche et droit des tronçons segmentés du réseau routier, sont également disponibles sur le portail.\r\n\r\nL'[API de Planif-Neige](https://donnees.montreal.ca/ville-de-montreal/deneigement) fait référence à une version statique des données de la géobase double extraite en début de saison. Pour suivre les modifications apportées durant la saison hivernale, vous pouvez vous référer aux ensembles de données suivants: [Géobase - gestion tronçons](https://donnees.montreal.ca/ville-de-montreal/geobase-gestion-troncon) et [Géobase - tronçons détruits](https://donnees.montreal.ca/ville-de-montreal/geobase-troncon-detruit).\r\n\r\nEnsembles de données connexes:\r\n\r\n- [Géobase - réseau routier](http://donnees.montreal.ca/dataset/geobase)\r\n- [Géobase - pôles](http://donnees.montreal.ca/dataset/geobase-pole)\r\n- [Géobase - tronçons détruits](http://donnees.montreal.ca/dataset/geobase-troncon-detruit)\r\n- [Géobase - gestion tronçons](http://donnees.montreal.ca/dataset/geobase-gestion-troncon)\r\n- [Géobase - noeuds](http://donnees.montreal.ca/dataset/geobase-noeud)\r\n\r\n __Avertissements__\r\n\r\n- Les données diffusées (Géobase - côtés de rue du réseau routier) doivent être utilisées en respectant la politique et la licence en matière de données ouvertes de la Ville de Montréal.\r\n- Les données diffusées (Géobase - côtés de rue du réseau routier) sont celles qui se trouvent en notre possession et ne sont pas nécessairement à jour sur l'ensemble du territoire.\r\n- Les données diffusées (Géobase - côtés de rue du réseau routier) sont fournies seulement à titre indicatif et ne devraient pas être utilisées aux fins de conception ou réalisation des travaux, ni aux fins de localisation des actifs.\r\n- La Ville de Montréal et la Division de la géomatique ne pourront pas être tenues responsables des imprécisions ou inexactitudes des données diffusées (Géobase - côtés de rue du réseau routier).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-12-03T17:56:13.915182",
+  "metadata_modified": "2026-02-27T02:18:50.819580",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "16f7fa0a-9ce6-4b29-a7fc-00842c593927",
+      "name": "Géobase double",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/88493b16-220f-4709-b57b-1ea57c5ba405/resource/16f7fa0a-9ce6-4b29-a7fc-00842c593927/download/gbdouble.json",
+      "datastore_active": true,
+      "size": 78407854,
+      "last_modified": "2026-02-20T17:04:24.875882",
+      "created": "2016-01-13T12:11:33.849968",
+      "schema": {
+        "resource_id": "16f7fa0a-9ce6-4b29-a7fc-00842c593927",
+        "total_records": 2361455,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "{",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "{": "\t\"name\" : \"geobase_double\""
+          },
+          {
+            "_id": 2,
+            "{": "\t\"type\" : \"FeatureCollection\""
+          },
+          {
+            "_id": 3,
+            "{": "\t\"features\" : ["
+          },
+          {
+            "_id": 4,
+            "{": "\t\t{"
+          },
+          {
+            "_id": 5,
+            "{": "\t\t\t\"type\" : \"Feature\""
+          }
+        ]
+      },
+      "field_stats": {
+        "{": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2361455,
+        "audited_at": "2026-03-10T00:19:23.254118+00:00",
+        "fields": {
+          "{": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 421,
+            "top_values": [
+              {
+                "value": "}",
+                "count": 114
+              },
+              {
+                "value": "]",
+                "count": 58
+              },
+              {
+                "value": "{",
+                "count": 39
+              },
+              {
+                "value": "\"type\" : \"Feature\"",
+                "count": 39
+              },
+              {
+                "value": "\"geometry\" : {",
+                "count": 39
+              },
+              {
+                "value": "\"coordinates\" : [",
+                "count": 39
+              },
+              {
+                "value": "\"properties\" : {",
+                "count": 38
+              },
+              {
+                "value": "\"type\" : \"LineString\"",
+                "count": 30
+              },
+              {
+                "value": "\"NOM_VILLE\" : \"MTL\"",
+                "count": 30
+              },
+              {
+                "value": "\"COTE\" : \"Droite\"",
+                "count": 30
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "9acb6c57-87f8-4035-bcf3-98ae3f48e76e",
+      "name": "Géobase double",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/88493b16-220f-4709-b57b-1ea57c5ba405/resource/9acb6c57-87f8-4035-bcf3-98ae3f48e76e/download/gbdouble.zip",
+      "datastore_active": false,
+      "size": 12264122,
+      "last_modified": "2026-02-27T00:02:34.132583",
+      "created": "2016-01-13T12:11:36.971503",
+      "schema": null
+    },
+    {
+      "id": "2f1717e9-0141-48ef-8943-ea348373667f",
+      "name": "Géobase double",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/88493b16-220f-4709-b57b-1ea57c5ba405/resource/2f1717e9-0141-48ef-8943-ea348373667f/download/gbdouble.csv",
+      "datastore_active": true,
+      "size": 5617022,
+      "last_modified": "2026-02-27T00:02:40.587293",
+      "created": "2016-01-13T12:11:40.314222",
+      "schema": {
+        "resource_id": "2f1717e9-0141-48ef-8943-ea348373667f",
+        "total_records": 91445,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "COTE_RUE_ID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DEBUT_ADRESSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "FIN_ADRESSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COTE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_F",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SENS_CIR",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "COTE_RUE_ID": "10100012",
+            "ID_TRC": "1010001",
+            "ID_VOIE": "300191",
+            "NOM_VOIE": "Adhémar-Mailhiot",
+            "NOM_VILLE": "MTL",
+            "DEBUT_ADRESSE": "12320",
+            "FIN_ADRESSE": "12340",
+            "COTE": "Gauche",
+            "TYPE_F": "avenue",
+            "SENS_CIR": "0"
+          },
+          {
+            "_id": 2,
+            "COTE_RUE_ID": "10100011",
+            "ID_TRC": "1010001",
+            "ID_VOIE": "300191",
+            "NOM_VOIE": "Adhémar-Mailhiot",
+            "NOM_VILLE": "MTL",
+            "DEBUT_ADRESSE": "12323",
+            "FIN_ADRESSE": "12335",
+            "COTE": "Droite",
+            "TYPE_F": "avenue",
+            "SENS_CIR": "0"
+          },
+          {
+            "_id": 3,
+            "COTE_RUE_ID": "10100042",
+            "ID_TRC": "1010004",
+            "ID_VOIE": "300867",
+            "NOM_VOIE": "D'Aiguillon",
+            "NOM_VILLE": "MTL",
+            "DEBUT_ADRESSE": "5530",
+            "FIN_ADRESSE": "5570",
+            "COTE": "Gauche",
+            "TYPE_F": "place",
+            "SENS_CIR": "0"
+          },
+          {
+            "_id": 4,
+            "COTE_RUE_ID": "10100041",
+            "ID_TRC": "1010004",
+            "ID_VOIE": "300867",
+            "NOM_VOIE": "D'Aiguillon",
+            "NOM_VILLE": "MTL",
+            "DEBUT_ADRESSE": "5475",
+            "FIN_ADRESSE": "5625",
+            "COTE": "Droite",
+            "TYPE_F": "place",
+            "SENS_CIR": "0"
+          },
+          {
+            "_id": 5,
+            "COTE_RUE_ID": "10100052",
+            "ID_TRC": "1010005",
+            "ID_VOIE": "300196",
+            "NOM_VOIE": "Albert-LeSage",
+            "NOM_VILLE": "MTL",
+            "DEBUT_ADRESSE": "7750",
+            "FIN_ADRESSE": "7830",
+            "COTE": "Gauche",
+            "TYPE_F": "avenue",
+            "SENS_CIR": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "COTE_RUE_ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_VOIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VOIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VILLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DEBUT_ADRESSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "FIN_ADRESSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COTE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_F": {
+          "null_count": 60,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "SENS_CIR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 91445,
+        "audited_at": "2026-03-10T00:19:24.401198+00:00",
+        "fields": {
+          "COTE_RUE_ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10100011.0,
+            "max": 10203292.0,
+            "mean": 10127443.08,
+            "median": 10104966.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010001.0,
+            "max": 1020329.0,
+            "mean": 1012744.158,
+            "median": 1010496.5,
+            "unique_count": 500,
+            "field_type_detected": "numeric"
+          },
+          "ID_VOIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 250436.0,
+            "max": 997030.0,
+            "mean": 302441.81,
+            "median": 301185.0,
+            "unique_count": 149,
+            "field_type_detected": "numeric"
+          },
+          "NOM_VOIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 137,
+            "top_values": [
+              {
+                "value": "Gouin",
+                "count": 74
+              },
+              {
+                "value": "Jean-Bourdon",
+                "count": 42
+              },
+              {
+                "value": "Dudemaine",
+                "count": 40
+              },
+              {
+                "value": "Louisbourg",
+                "count": 32
+              },
+              {
+                "value": "De Salaberry",
+                "count": 30
+              },
+              {
+                "value": "Acadie",
+                "count": 28
+              },
+              {
+                "value": "Grenet",
+                "count": 24
+              },
+              {
+                "value": "Jean-Massé",
+                "count": 22
+              },
+              {
+                "value": "Forbes",
+                "count": 20
+              },
+              {
+                "value": "Lachapelle",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_VILLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "MTL",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DEBUT_ADRESSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "9767",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "FIN_ADRESSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "9769",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "COTE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Gauche",
+                "count": 500
+              },
+              {
+                "value": "Droite",
+                "count": 500
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPE_F": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "rue",
+                "count": 564
+              },
+              {
+                "value": "avenue",
+                "count": 220
+              },
+              {
+                "value": "boulevard",
+                "count": 150
+              },
+              {
+                "value": "place",
+                "count": 44
+              },
+              {
+                "value": "chemin",
+                "count": 18
+              },
+              {
+                "value": "terrasse",
+                "count": 2
+              },
+              {
+                "value": "croissant",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SENS_CIR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -1.0,
+            "max": 1.0,
+            "mean": -0.006,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 802
+              },
+              {
+                "value": "-1",
+                "count": 102
+              },
+              {
+                "value": "1",
+                "count": 96
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Adresse",
+    "Géobase",
+    "Route",
+    "Rue",
+    "Réseau routier",
+    "SIRR",
+    "Sens",
+    "Toponymie",
+    "Voie"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le réseau de polylignes de la géobase double est  créé automatiquement par géotraitements à partir des données officielles du réseau routier de la Ville de Montréal représentées par des tronçons de centres de rues sous l'ensemble de la géobase sur le portail.  L'ensemble est une représentation approximative des bordures des rues.  Les dimensions ne sont pas exactes, mais elles peuvent être utiles à la représentation graphique ou pour des analyses distinguant les deux côtés d'une route.\n\n### Dictionnaire de données\n\n\n\n- COTE_RUE_ID : Clé primaire\n\n- ID_TRC : Lien avec la géobase\n\n- ID_VOIE : Lien\n\n- NOM_VOIE : Spécifique de la toponymie officielle, sans abréviation\n\n- NOM_VILLE : Nom de la ville\n\n- DEBUT_ADRESSE : Limite des numéros civiques\n\n- FIN ADRESSE : Limite des numéros civiques\n\n- COTE : \"Droit\" ou \"Gauche\"\n\n- TYPE_F : Type de voie générique de la toponymie officielle, sans abréviation\n\n- SENS_CIR : Sens de circulation selon le sens de numérisation des tronçons de la géobase linéaire\n\n- 1 -> sens unique dans le sens de la numérisation\n\n- -1 -> sens unique dans le sens contraire de la numérisation \n\n- 0 -> double sens\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier - Division de la géomatique",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Adresse",
+      "Géobase",
+      "Route",
+      "Rue",
+      "Réseau routier",
+      "SIRR",
+      "Sens",
+      "Toponymie",
+      "Voie"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/geobase-double",
+    "scraped_at": "2026-03-09T19:57:52.318291+00:00"
+  }
+}

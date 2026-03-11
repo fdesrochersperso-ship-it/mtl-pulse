@@ -1,0 +1,638 @@
+{
+  "slug": "vmtl-ordres-travail-signalisation-routiere",
+  "title": "Ordres de travail émis pour la signalisation routière",
+  "notes": "Les ordres de travail permettent aux arrondissements de transmettre l'ensemble de leurs besoins et les informations nécessaires afin d'envoyer une équipe pour soit installer, remplacer ou redresser un poteau ou un panneau de signalisation.\r\n\r\nCet ensemble de données est également lié aux ensembles suivants :\r\n\r\n- [Signalisation routière (excluant le stationnement)](https://donnees.montreal.ca/dataset/panneaux-de-signalisation)\r\n- [Signalisation (stationnement sur rue)](https://donnees.montreal.ca/dataset/stationnement-sur-rue-signalisation-courant)\r\n- [Poteaux de signalisation](https://donnees.montreal.ca/dataset/poteaux-signalisation)",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-07-25T17:04:50.363169",
+  "metadata_modified": "2026-03-09T01:28:41.532791",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "5b4622b7-a362-4565-bdd0-da2adc482ee2",
+      "name": "Ordres de travail émis",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2270d4c4-9658-4818-b390-90cb06c3f64c/resource/5b4622b7-a362-4565-bdd0-da2adc482ee2/download/ordres-travail-emis.csv",
+      "datastore_active": true,
+      "size": 12993694,
+      "last_modified": "2026-03-09T00:02:14.807081",
+      "created": "2023-07-25T17:05:30.423371",
+      "schema": {
+        "resource_id": "5b4622b7-a362-4565-bdd0-da2adc482ee2",
+        "total_records": 156724,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ORDRE_TRAVAIL_ID_ORT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_CONCEPTION_ORT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_EXECUTION_ORT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SPA_NOM_GEO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_REO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RTO",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ORDRE_TRAVAIL_ID_ORT": "247674",
+            "DATE_CONCEPTION_ORT": "2010-02-01",
+            "DATE_EXECUTION_ORT": "2010-02-04",
+            "SPA_NOM_GEO": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "DESCRIPTION_REO": "Exécuté",
+            "DESCRIPTION_RTO": "Entretien"
+          },
+          {
+            "_id": 2,
+            "ORDRE_TRAVAIL_ID_ORT": "247675",
+            "DATE_CONCEPTION_ORT": "2010-02-01",
+            "DATE_EXECUTION_ORT": "2010-02-10",
+            "SPA_NOM_GEO": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "DESCRIPTION_REO": "Exécuté",
+            "DESCRIPTION_RTO": "Entretien"
+          },
+          {
+            "_id": 3,
+            "ORDRE_TRAVAIL_ID_ORT": "247676",
+            "DATE_CONCEPTION_ORT": "2010-02-01",
+            "DATE_EXECUTION_ORT": "2010-02-02",
+            "SPA_NOM_GEO": "Rosemont-Petite-Patrie",
+            "DESCRIPTION_REO": "Exécuté",
+            "DESCRIPTION_RTO": "Général"
+          },
+          {
+            "_id": 4,
+            "ORDRE_TRAVAIL_ID_ORT": "247677",
+            "DATE_CONCEPTION_ORT": "2010-02-01",
+            "DATE_EXECUTION_ORT": "2010-02-15",
+            "SPA_NOM_GEO": "Sud-Ouest",
+            "DESCRIPTION_REO": "Exécuté",
+            "DESCRIPTION_RTO": "Entretien"
+          },
+          {
+            "_id": 5,
+            "ORDRE_TRAVAIL_ID_ORT": "247678",
+            "DATE_CONCEPTION_ORT": "2010-02-01",
+            "DATE_EXECUTION_ORT": "2010-02-04",
+            "SPA_NOM_GEO": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "DESCRIPTION_REO": "Exécuté",
+            "DESCRIPTION_RTO": "Général"
+          }
+        ]
+      },
+      "field_stats": {
+        "ORDRE_TRAVAIL_ID_ORT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_CONCEPTION_ORT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_EXECUTION_ORT": {
+          "null_count": 23121,
+          "null_pct": 14.8,
+          "populated_pct": 85.2
+        },
+        "SPA_NOM_GEO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_REO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_RTO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 156767,
+        "audited_at": "2026-03-10T00:21:24.746496+00:00",
+        "fields": {
+          "ORDRE_TRAVAIL_ID_ORT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 246986.0,
+            "max": 250017.0,
+            "mean": 247751.203,
+            "median": 247486.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "DATE_CONCEPTION_ORT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-01-05",
+            "max_date": "2010-05-11",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "DATE_EXECUTION_ORT": {
+            "null_count": 75,
+            "null_pct": 7.5,
+            "min_date": "2010-01-07",
+            "max_date": "2011-10-04",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "SPA_NOM_GEO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "Plateau-Mont-Royal",
+                "count": 173
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 151
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 143
+              },
+              {
+                "value": "Rosemont-Petite-Patrie",
+                "count": 141
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 99
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 95
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 89
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 60
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 38
+              },
+              {
+                "value": "Outremont",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DESCRIPTION_REO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Exécuté",
+                "count": 932
+              },
+              {
+                "value": "Annulé",
+                "count": 68
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DESCRIPTION_RTO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Entretien",
+                "count": 704
+              },
+              {
+                "value": "Général",
+                "count": 247
+              },
+              {
+                "value": "Stationnement",
+                "count": 45
+              },
+              {
+                "value": "Temporaire",
+                "count": 3
+              },
+              {
+                "value": "Saisonnier",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "ecc4e5ee-a51f-41b5-a35a-f7f9942b8c63",
+      "name": "Actions posées sur les ordres de travail",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2270d4c4-9658-4818-b390-90cb06c3f64c/resource/ecc4e5ee-a51f-41b5-a35a-f7f9942b8c63/download/actions-posees-ordres-travail.csv",
+      "datastore_active": true,
+      "size": 109603016,
+      "last_modified": "2026-03-09T00:02:34.111408",
+      "created": "2023-07-25T17:08:12.719671",
+      "schema": {
+        "resource_id": "ecc4e5ee-a51f-41b5-a35a-f7f9942b8c63",
+        "total_records": 1690458,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ACTION_ID_ACT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PANNEAU_ID_PAN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POTEAU_ID_POT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POTEAU_VERSION_POT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_EXECUTION_ACT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ORDRE_TRAVAIL_ID_ORT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RAC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_REA",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ACTION_ID_ACT": "14832",
+            "PANNEAU_ID_PAN": null,
+            "POTEAU_ID_POT": "5082",
+            "POTEAU_VERSION_POT": "0",
+            "DATE_EXECUTION_ACT": "2021-03-18",
+            "ORDRE_TRAVAIL_ID_ORT": "350940",
+            "DESCRIPTION_RAC": "Corr.: Installer",
+            "DESCRIPTION_REA": "Réalisé"
+          },
+          {
+            "_id": 2,
+            "ACTION_ID_ACT": "22577",
+            "PANNEAU_ID_PAN": null,
+            "POTEAU_ID_POT": "7946",
+            "POTEAU_VERSION_POT": "0",
+            "DATE_EXECUTION_ACT": "2021-03-30",
+            "ORDRE_TRAVAIL_ID_ORT": "350967",
+            "DESCRIPTION_RAC": "Corr.: Installer",
+            "DESCRIPTION_REA": "Réalisé"
+          },
+          {
+            "_id": 3,
+            "ACTION_ID_ACT": "22578",
+            "PANNEAU_ID_PAN": "14353",
+            "POTEAU_ID_POT": "7946",
+            "POTEAU_VERSION_POT": "0",
+            "DATE_EXECUTION_ACT": "2021-03-30",
+            "ORDRE_TRAVAIL_ID_ORT": "350967",
+            "DESCRIPTION_RAC": "Corr.: Installer",
+            "DESCRIPTION_REA": "Réalisé"
+          },
+          {
+            "_id": 4,
+            "ACTION_ID_ACT": "22579",
+            "PANNEAU_ID_PAN": "14354",
+            "POTEAU_ID_POT": "7946",
+            "POTEAU_VERSION_POT": "0",
+            "DATE_EXECUTION_ACT": "2021-03-30",
+            "ORDRE_TRAVAIL_ID_ORT": "350967",
+            "DESCRIPTION_RAC": "Corr.: Installer",
+            "DESCRIPTION_REA": "Réalisé"
+          },
+          {
+            "_id": 5,
+            "ACTION_ID_ACT": "22580",
+            "PANNEAU_ID_PAN": "14355",
+            "POTEAU_ID_POT": "7946",
+            "POTEAU_VERSION_POT": "0",
+            "DATE_EXECUTION_ACT": "2021-03-30",
+            "ORDRE_TRAVAIL_ID_ORT": "350967",
+            "DESCRIPTION_RAC": "Corr.: Installer",
+            "DESCRIPTION_REA": "Réalisé"
+          }
+        ]
+      },
+      "field_stats": {
+        "ACTION_ID_ACT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PANNEAU_ID_PAN": {
+          "null_count": 487958,
+          "null_pct": 28.9,
+          "populated_pct": 71.1
+        },
+        "POTEAU_ID_POT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POTEAU_VERSION_POT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_EXECUTION_ACT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ORDRE_TRAVAIL_ID_ORT": {
+          "null_count": 511199,
+          "null_pct": 30.2,
+          "populated_pct": 69.8
+        },
+        "DESCRIPTION_RAC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_REA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1690958,
+        "audited_at": "2026-03-10T00:21:26.073028+00:00",
+        "fields": {
+          "ACTION_ID_ACT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 14832.0,
+            "max": 1979656.0,
+            "mean": 1136530.507,
+            "median": 1226797.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "PANNEAU_ID_PAN": {
+            "null_count": 290,
+            "null_pct": 29.0,
+            "min": 6942.0,
+            "max": 1150399.0,
+            "mean": 622059.0254,
+            "median": 687421.5,
+            "unique_count": 664,
+            "field_type_detected": "numeric"
+          },
+          "POTEAU_ID_POT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1294.0,
+            "max": 225855.0,
+            "mean": 96015.839,
+            "median": 89565.0,
+            "unique_count": 367,
+            "field_type_detected": "numeric"
+          },
+          "POTEAU_VERSION_POT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 11.0,
+            "mean": 2.651,
+            "median": 2.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 236
+              },
+              {
+                "value": "1",
+                "count": 227
+              },
+              {
+                "value": "3",
+                "count": 168
+              },
+              {
+                "value": "4",
+                "count": 139
+              },
+              {
+                "value": "0",
+                "count": 88
+              },
+              {
+                "value": "5",
+                "count": 52
+              },
+              {
+                "value": "6",
+                "count": 44
+              },
+              {
+                "value": "7",
+                "count": 21
+              },
+              {
+                "value": "8",
+                "count": 15
+              },
+              {
+                "value": "11",
+                "count": 5
+              }
+            ]
+          },
+          "DATE_EXECUTION_ACT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-01-05",
+            "max_date": "2604-01-29",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "ORDRE_TRAVAIL_ID_ORT": {
+            "null_count": 213,
+            "null_pct": 21.3,
+            "min": 112266.0,
+            "max": 350992.0,
+            "mean": 253656.2732,
+            "median": 252040.0,
+            "unique_count": 175,
+            "field_type_detected": "numeric"
+          },
+          "DESCRIPTION_RAC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Aucune",
+                "count": 303
+              },
+              {
+                "value": "Installer",
+                "count": 249
+              },
+              {
+                "value": "Corr.: Aucune",
+                "count": 117
+              },
+              {
+                "value": "Corr.: Installer",
+                "count": 112
+              },
+              {
+                "value": "Enlever",
+                "count": 95
+              },
+              {
+                "value": "Corr.: Enlever",
+                "count": 66
+              },
+              {
+                "value": "Changer",
+                "count": 30
+              },
+              {
+                "value": "Redresser",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DESCRIPTION_REA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Réalisé",
+                "count": 998
+              },
+              {
+                "value": "Rien à faire",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "Circulation",
+    "Mobilité",
+    "Panneau",
+    "Rue",
+    "Stationnement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont collectées et saisies par les acteurs chargés de la gestion de la signalisation routière pour les arrondissements clients, soit: Ahuntsic-Cartierville, Côte-des-Neiges–Notre-Dame-de-Grâce, Le Plateau-Mont-Royal, Le Sud-Ouest, Mercier–Hochelaga-Maisonneuve, Rivière-des-Prairies–Pointe-aux-Trembles, Rosemont–La Petite-Patrie, Ville-Marie et Villeray–Saint-Michel–Parc-Extension. Tous les ordres de travail ayant trait à la signalisation sont transmis par un même processus.\n\n\nIl existe parfois des différences entre les besoins exprimés sur un ordre de travail et la réalité terrain. Pour cette raison, il se peut qu'un ordre de travail ne soit pas exécuté tel que demandé initialement : l'équipe terrain aura alors à s'ajuster en fonction des constats réalisés sur place. Dans ces circonstances, les données présentes dans cet ensemble de données pourraient différer de la situation réelle sur rue.\n\n## Dictionnaire de données\n\n\n\n_Ordres de travail émis_\n\n\n- ORDRE_TRAVAIL_ID_ORT (Entier): Identifiant unique de l'ordre de travail\n\n- DATE_CONCEPTION_ORT (Date): Date de création de l'ordre de travail\n\n- DATE_EXECUTION_ORT (Date): Date d'exécution de l'ordre de travail\n\n- SPA_NOM_GEO (Texte):",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    CDN\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    RDP\n    \n    RPP\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Arr.",
+      "Circulation",
+      "Mobilité",
+      "Panneau",
+      "Rue",
+      "Stationnement"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/ordres-travail-signalisation-routiere",
+    "scraped_at": "2026-03-09T20:14:07.034632+00:00"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "vmtl-stm-bus-temps-reel-gtfs-realtime",
+  "title": "Horaires et positionnement des bus en temps réel (GTFS-realtime)",
+  "notes": "Cet ensemble fournit aux usagers du transport collectif de la Société  de Transport de Montréal (STM) les horaires, le positionnement des bus en temps réel et, depuis sa version 2, la donnée du taux d’occupation à bord des bus. \r\n\r\n*Pour accéder aux GTFS–realtime et à l’API i3, inscrivez-vous sur le portail [Développeurs](https://www.stm.info/fr/a-propos/developpeurs)*.\r\n\r\nNote:\r\nLe présent ensemble de données est la propriété de la Société de transport de Montréal. Conséquemment, selon la clause d'attribution de la licence Creative Commons 4.0, la paternité des données doit être attribuée à la Société de transport de Montréal.\r\nVeuillez communiquer avec la Société de transport de Montréal (dev@stm.info) si vous avez des questions sur cet ensemble.\r\n\r\nLes tracés des lignes de bus et de métro ainsi que les horaires planifiés de leurs trajets sont aussi [disponibles](https://donnees.montreal.ca/organization/societe-de-transport-de-montreal) en données ouvertes.\r\n\r\n__Avertissement__: l'API GTFS-realtime v1 atteindra sa fin de vie au cours des prochaines semaines. Il ne sera plus disponible après le vendredi 28 mai 2021. Après cette date, vous devrez utiliser la version 2 de l'API GTFS-realtime.",
+  "organization": "societe-de-transport-de-montreal",
+  "organization_title": "Société de transport de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "continuous",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-10-29T13:45:49.964027",
+  "metadata_modified": "2026-03-09T00:02:26.497854",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "9ca1277f-a686-4699-96ae-39837a7254ec",
+      "name": "Horaires et positionnement des bus en temps réel",
+      "description": "Pour accéder aux GTFS–realtime et à l’API i3, inscrivez-vous sur le portail Développeurs de la STM.",
+      "format": "GTFS",
+      "url": "https://www.stm.info/fr/a-propos/developpeurs",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2026-03-09T00:02:20",
+      "created": "2018-10-29T13:47:18.627605",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Autobus",
+    "Bus",
+    "GTFS",
+    "Real-time",
+    "STM",
+    "Temps réel",
+    "Transport collectif",
+    "iBUS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Pour générer les données \ndes flux GTFS-realtime, les GPS des autobus envoient leurs coordonnées plusieurs fois par minute au système central, ceci permet d’avoir les positions des bus en temps réel. À partir de ces positions et des algorithmes prédictifs, le système produit les prochains temps de passage en temps réel.\n\n### Dictionnaire de données\n\n\n\nRéférez-vous à la ressource Documentation du portail de la STM.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Société de transport de Montréal",
+      "Fréquence de mise à jour": "Temps réel"
+    },
+    "keywords": [
+      "Autobus",
+      "Bus",
+      "GTFS",
+      "Real-time",
+      "STM",
+      "Temps réel",
+      "Transport collectif",
+      "iBUS"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/stm-bus-temps-reel-gtfs-realtime",
+    "scraped_at": "2026-03-09T20:22:39.240251+00:00"
+  }
+}

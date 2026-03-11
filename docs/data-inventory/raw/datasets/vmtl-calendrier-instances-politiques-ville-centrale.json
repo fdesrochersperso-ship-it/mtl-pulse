@@ -1,0 +1,605 @@
+{
+  "slug": "vmtl-calendrier-instances-politiques-ville-centrale",
+  "title": "Calendrier - Instances politiques - Ville centrale",
+  "notes": "Calendrier des réunions des instances politiques de la ville centrale. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-03-19T19:56:41.337539",
+  "metadata_modified": "2025-11-20T16:57:46.013577",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "0aee3653-d255-4e31-858b-fab88ff37bb8",
+      "name": "Calendrier politique (2014 à présent)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/5865ee29-9b1e-4f29-a6d5-abc93423a88d/resource/0aee3653-d255-4e31-858b-fab88ff37bb8/download/calendrier_politique_central.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-05-19T20:50:38.027619",
+      "created": "2022-05-19T20:41:48.560153",
+      "schema": {
+        "resource_id": "0aee3653-d255-4e31-858b-fab88ff37bb8",
+        "total_records": 1134,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Instance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type_assemblee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Publique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Diffusion_web",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Endroit",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Salle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_civique",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Instance": "Comité exécutif ",
+            "Type_assemblee": "Régulière",
+            "Publique": "Non",
+            "Diffusion_web": "Oui",
+            "Date": "2014-01-08T00:00:00",
+            "Heure": "8:30:00 AM",
+            "Endroit": "Hôtel de ville ",
+            "Salle": "Salle Peter-McGill",
+            "Rue": "Notre-Dame est",
+            "No_civique": 275
+          },
+          {
+            "_id": 2,
+            "Instance": "Comité exécutif ",
+            "Type_assemblee": "Régulière",
+            "Publique": "Non",
+            "Diffusion_web": "Oui",
+            "Date": "2014-01-15T00:00:00",
+            "Heure": "8:30:00 AM",
+            "Endroit": "Hôtel de ville ",
+            "Salle": "Salle Peter-McGill",
+            "Rue": "Notre-Dame est",
+            "No_civique": 275
+          },
+          {
+            "_id": 3,
+            "Instance": "Comité exécutif ",
+            "Type_assemblee": "Régulière",
+            "Publique": "Non",
+            "Diffusion_web": "Oui",
+            "Date": "2014-01-22T00:00:00",
+            "Heure": "8:30:00 AM",
+            "Endroit": "Hôtel de ville ",
+            "Salle": "Salle Peter-McGill",
+            "Rue": "Notre-Dame est",
+            "No_civique": 275
+          },
+          {
+            "_id": 4,
+            "Instance": "Comité exécutif ",
+            "Type_assemblee": "Extraordinaire",
+            "Publique": "Non",
+            "Diffusion_web": "Oui",
+            "Date": "2014-01-27T00:00:00",
+            "Heure": "12:00:00 PM",
+            "Endroit": "Hôtel de ville ",
+            "Salle": "Salle Peter-McGill",
+            "Rue": "Notre-Dame est",
+            "No_civique": 275
+          },
+          {
+            "_id": 5,
+            "Instance": "Conseil municipal",
+            "Type_assemblee": "Régulière",
+            "Publique": "Oui",
+            "Diffusion_web": "Oui",
+            "Date": "2014-01-27T00:00:00",
+            "Heure": "2:00:00 PM",
+            "Endroit": "Hôtel de ville ",
+            "Salle": "Salle du conseil",
+            "Rue": "Notre-Dame est",
+            "No_civique": 275
+          }
+        ]
+      },
+      "field_stats": {
+        "Instance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type_assemblee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Publique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Diffusion_web": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Endroit": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Salle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No_civique": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1134,
+        "audited_at": "2026-03-10T00:14:36.099981+00:00",
+        "fields": {
+          "Instance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Comité exécutif",
+                "count": 426
+              },
+              {
+                "value": "Commission sur les finances et l'administration",
+                "count": 154
+              },
+              {
+                "value": "Conseil d'agglomération",
+                "count": 113
+              },
+              {
+                "value": "Conseil municipal",
+                "count": 105
+              },
+              {
+                "value": "Commission sur le développement économique et urbain et l'habitation",
+                "count": 30
+              },
+              {
+                "value": "Commission sur l'eau, l'environnement, le développement durable et les grands parcs",
+                "count": 28
+              },
+              {
+                "value": "Commission de la sécurité publique",
+                "count": 27
+              },
+              {
+                "value": "Commission sur le développement social et la diversité montréalaise",
+                "count": 23
+              },
+              {
+                "value": "Commission sur la culture, le patrimoine et les sports",
+                "count": 23
+              },
+              {
+                "value": "Commission sur la sécurité publique",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type_assemblee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Régulière",
+                "count": 553
+              },
+              {
+                "value": "Consultation publique",
+                "count": 291
+              },
+              {
+                "value": "Extraordinaire",
+                "count": 156
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Publique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 559
+              },
+              {
+                "value": "Non",
+                "count": 441
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Diffusion_web": {
+            "null_count": 13,
+            "null_pct": 1.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 648
+              },
+              {
+                "value": "Non",
+                "count": 339
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-01-08T00:00:00",
+            "max_date": "2021-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 51,
+            "top_values": [
+              {
+                "value": "08:30:00",
+                "count": 303
+              },
+              {
+                "value": "19:00:00",
+                "count": 93
+              },
+              {
+                "value": "13:00:00",
+                "count": 91
+              },
+              {
+                "value": "17:00:00",
+                "count": 87
+              },
+              {
+                "value": "8:30:00 AM",
+                "count": 67
+              },
+              {
+                "value": "09:00:00",
+                "count": 55
+              },
+              {
+                "value": "13:30:00",
+                "count": 47
+              },
+              {
+                "value": "14:00:00",
+                "count": 43
+              },
+              {
+                "value": "2:00:00 PM",
+                "count": 27
+              },
+              {
+                "value": "08:00:00",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Endroit": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Hôtel de ville",
+                "count": 676
+              },
+              {
+                "value": "Édifice Lucien-Saulnier",
+                "count": 300
+              },
+              {
+                "value": "Chaussegros-de-Léry",
+                "count": 5
+              },
+              {
+                "value": "Pierrefonds Comprehensive High School",
+                "count": 2
+              },
+              {
+                "value": "Marché Bonsecours",
+                "count": 1
+              },
+              {
+                "value": "Mairie d'arrondissement de Verdun",
+                "count": 1
+              },
+              {
+                "value": "Mairie d'arrondissement de Villeray - Saint-Michel - Parc-Extension",
+                "count": 1
+              },
+              {
+                "value": "Mairie du Sud-Ouest",
+                "count": 1
+              },
+              {
+                "value": "Centre communautaire de l'Est (Pierrefonds)",
+                "count": 1
+              },
+              {
+                "value": "Mairie de Montréal-Nord",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Salle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Salle du conseil",
+                "count": 545
+              },
+              {
+                "value": "Salle Peter-McGill",
+                "count": 426
+              },
+              {
+                "value": "-",
+                "count": 8
+              },
+              {
+                "value": "Salle 6A-35",
+                "count": 5
+              },
+              {
+                "value": "Salle 202",
+                "count": 4
+              },
+              {
+                "value": "202",
+                "count": 3
+              },
+              {
+                "value": "Salle de banquet du centre communautaire",
+                "count": 2
+              },
+              {
+                "value": "2e étage",
+                "count": 2
+              },
+              {
+                "value": "Salle du Vieux-Montréal",
+                "count": 1
+              },
+              {
+                "value": "Salle du conseil de l'arrondissement d'Outremont",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Notre-Dame est",
+                "count": 981
+              },
+              {
+                "value": "Boulevard De Salaberry, Ville de Dollad-des-Ormeaux",
+                "count": 2
+              },
+              {
+                "value": "Gouin Ouest",
+                "count": 2
+              },
+              {
+                "value": "de Pierrefonds",
+                "count": 2
+              },
+              {
+                "value": "St-Paul Est",
+                "count": 1
+              },
+              {
+                "value": "Davaar",
+                "count": 1
+              },
+              {
+                "value": "de Verdun",
+                "count": 1
+              },
+              {
+                "value": "avenue Ogilvy",
+                "count": 1
+              },
+              {
+                "value": "Bel-Air",
+                "count": 1
+              },
+              {
+                "value": "Hébert",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "No_civique": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 155.0,
+            "max": 13850.0,
+            "mean": 359.2533,
+            "median": 275.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "275",
+                "count": 676
+              },
+              {
+                "value": "155",
+                "count": 299
+              },
+              {
+                "value": "303",
+                "count": 5
+              },
+              {
+                "value": "12001",
+                "count": 2
+              },
+              {
+                "value": "13800",
+                "count": 2
+              },
+              {
+                "value": "350",
+                "count": 1
+              },
+              {
+                "value": "530",
+                "count": 1
+              },
+              {
+                "value": "4555",
+                "count": 1
+              },
+              {
+                "value": "405",
+                "count": 1
+              },
+              {
+                "value": "815",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Comité exécutif",
+    "Commision permanente",
+    "Commission",
+    "Conseil dagglomération",
+    "Conseil municipal",
+    "SG"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n\n- Instance (texte) \n\n- Type (texte): Régulière, Extraordinaire, Consultation publique\n\n- Publique (texte): oui, non\n\n- Diffusion_web (texte): oui, non\n\n- Date (date)\n\n- Heure (date) \n\n- Endroit (texte)\n\n- Salle (texte)\n\n- Rue (texte)\n\n- No_civique (numérique):\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2014-01-01/2022-05-19",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Comité exécutif",
+      "Commision permanente",
+      "Commission",
+      "Conseil dagglomération",
+      "Conseil municipal",
+      "SG"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/calendrier-instances-politiques-ville-centrale",
+    "scraped_at": "2026-03-09T19:53:17.361178+00:00"
+  }
+}

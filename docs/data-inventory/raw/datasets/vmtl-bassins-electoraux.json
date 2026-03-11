@@ -1,0 +1,732 @@
+{
+  "slug": "vmtl-bassins-electoraux",
+  "title": "Élections municipales - Bassins électoraux",
+  "notes": "Polygones délimitant les bassins électoraux de Montréal, c'est-à-dire les bassins présentant les sections desservies par un même endroit de vote.\r\n\r\nPlusieurs [ensembles de données connexes](https://donnees.montreal.ca/search?q=tags:%C3%89lections) sont disponibles pour l'élection municipale 2021 de Montréal.\r\n\r\nPlus d'informations sur les élections 2021 à Montréal sur le [portail](https://elections.montreal.ca/fr/) prévu à cet effet.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-09-27T14:09:12.477199",
+  "metadata_modified": "2025-02-27T14:07:41.268290",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "af77dffd-cbba-430a-b526-ada16485a658",
+      "name": "Bassins électoraux 2021",
+      "description": "Le fichier contient les polygones des bassins de vote de la Ville de Montréal au format GeoJSON pour les élections générales du 7 novembre 2021.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: WGS84 (EPSG 4326).\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/af77dffd-cbba-430a-b526-ada16485a658/download/bassins-electoraux-2021.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-15T16:33:12.959240",
+      "created": "2021-10-13T18:55:33.413119",
+      "schema": null
+    },
+    {
+      "id": "f86ff8f3-8658-4600-a340-4ccadcbcf663",
+      "name": "Bassins électoraux 2021",
+      "description": "Le fichier contient les polygones des bassins de votes de la Ville de Montréal au format Shapefile compressé (zip) pour les élections du 7 novembre 2021.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: NAD83 MTM8 (EPSG 32188)\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques.",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/f86ff8f3-8658-4600-a340-4ccadcbcf663/download/bassins-electoraux-2021.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-15T16:32:31.054643",
+      "created": "2021-10-13T18:56:18.375017",
+      "schema": null
+    },
+    {
+      "id": "7f70ab85-332a-4b71-b178-606b6e988039",
+      "name": "Bassins électoraux 2021",
+      "description": "Liste des bassins de votes de la Ville de Montréal au format tabulaire (csv) pour les élections du 7 novembre 2021.\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/7f70ab85-332a-4b71-b178-606b6e988039/download/bassins-electoraux-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-10-15T16:32:05.927440",
+      "created": "2021-10-13T18:57:06.948299",
+      "schema": {
+        "resource_id": "7f70ab85-332a-4b71-b178-606b6e988039",
+        "total_records": 463,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_BASSIN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NUM_DISTRICT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_DISTRICT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_BASSIN",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_BASSIN": 15,
+            "NUM_DISTRICT": 12,
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NOM_DISTRICT": "Saint-Sulpice",
+            "NOM_BASSIN": "COLLÈGE AHUNTSIC (CEGEP)-Cafétéria du Bloc G (G1510)"
+          },
+          {
+            "_id": 2,
+            "ID_BASSIN": 16,
+            "NUM_DISTRICT": 12,
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NOM_DISTRICT": "Saint-Sulpice",
+            "NOM_BASSIN": "ÉCOLE SAINT-ISAAC-JOGUES-Gymnase"
+          },
+          {
+            "_id": 3,
+            "ID_BASSIN": 17,
+            "NUM_DISTRICT": 12,
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NOM_DISTRICT": "Saint-Sulpice",
+            "NOM_BASSIN": "ACADÉMIE JOHN CABOTO-Gymnase"
+          },
+          {
+            "_id": 4,
+            "ID_BASSIN": 18,
+            "NUM_DISTRICT": 13,
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NOM_DISTRICT": "Ahuntsic",
+            "NOM_BASSIN": "ÉCOLE MARIE-ANNE-Salle de jeux"
+          },
+          {
+            "_id": 5,
+            "ID_BASSIN": 19,
+            "NUM_DISTRICT": 13,
+            "ARRONDISSEMENT": "Ahuntsic-Cartierville",
+            "NOM_DISTRICT": "Ahuntsic",
+            "NOM_BASSIN": "ÉCOLE MARIE-ANNE-Cafétéria"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_BASSIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NUM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_BASSIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 463,
+        "total_records": 463,
+        "audited_at": "2026-03-10T00:14:01.036818+00:00",
+        "fields": {
+          "ID_BASSIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 463.0,
+            "mean": 232.0,
+            "median": 232.0,
+            "unique_count": 463,
+            "field_type_detected": "numeric"
+          },
+          "NUM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 194.0,
+            "mean": 105.2916,
+            "median": 112.0,
+            "unique_count": 58,
+            "field_type_detected": "numeric"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 42
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 40
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 36
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 35
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 33
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 30
+              },
+              {
+                "value": "LaSalle",
+                "count": 27
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 27
+              },
+              {
+                "value": "Verdun",
+                "count": 26
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "Champlain–L’Île-des-Sœurs",
+                "count": 16
+              },
+              {
+                "value": "Sault-Saint-Louis",
+                "count": 15
+              },
+              {
+                "value": "Cecil-P.-Newman",
+                "count": 12
+              },
+              {
+                "value": "Vieux-Rosemont",
+                "count": 12
+              },
+              {
+                "value": "Marie-Clarac",
+                "count": 12
+              },
+              {
+                "value": "Ovide-Clermont",
+                "count": 12
+              },
+              {
+                "value": "Loyola",
+                "count": 11
+              },
+              {
+                "value": "Villeray",
+                "count": 11
+              },
+              {
+                "value": "Norman-McLaren",
+                "count": 11
+              },
+              {
+                "value": "De Lorimier",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_BASSIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 460,
+            "top_values": [
+              {
+                "value": "ÉCOLE SAINT-GÉRARD-Gymnase",
+                "count": 2
+              },
+              {
+                "value": "ÉCOLE PIERRE-DE-COUBERTIN-Gymnase",
+                "count": 2
+              },
+              {
+                "value": "ÉCOLE JEAN-GROU-Gymnase",
+                "count": 2
+              },
+              {
+                "value": "COLLÈGE AHUNTSIC (CEGEP)-Cafétéria du Bloc G (G1510)",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE SAINT-ISAAC-JOGUES-Gymnase",
+                "count": 1
+              },
+              {
+                "value": "ACADÉMIE JOHN CABOTO-Gymnase",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE MARIE-ANNE-Salle de jeux",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE MARIE-ANNE-Cafétéria",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE ALICE-PARIZEAU-Gymnase",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE AHUNTSIC-Gymnase",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "e52c7f74-28b8-4ff3-a0bd-b284366f43a7",
+      "name": "Bassins électoraux 2017",
+      "description": "Le fichier contient les polygones des bassins de vote de la Ville de Montréal au format GeoJSON pour les élections générales du 5 novembre 2017.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: WGS84 (EPSG 4326).\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/e52c7f74-28b8-4ff3-a0bd-b284366f43a7/download/bassins-electoraux-2017.json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-09-27T14:12:41.204870",
+      "created": "2021-09-27T14:12:41.243024",
+      "schema": null
+    },
+    {
+      "id": "f8844713-1599-417b-8086-81a053b9709c",
+      "name": "Bassins électoraux 2017",
+      "description": "Le fichier contient les polygones des bassins de votes de la Ville de Montréal au format Shapefile compressé (zip) pour les élections du 5 novembre 2017.\r\n\r\nPrécision métrique : 10 mètres près.\r\n\r\nRéférence spatiale horizontale: NAD83 MTM8 (EPSG 32188)\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques.",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/f8844713-1599-417b-8086-81a053b9709c/download/bassins-electoraux-2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-09-27T14:14:58.535186",
+      "created": "2021-09-27T14:14:58.578868",
+      "schema": null
+    },
+    {
+      "id": "dae484b6-1faf-493e-991d-3ec3691305c1",
+      "name": "Bassins électoraux 2017",
+      "description": "Liste des bassins de votes de la Ville de Montréal au format tabulaire (csv) pour les élections du 5 novembre 2017.\r\n\r\nNote : la numérotation des arrondissements et des districts électoraux n’est pas officielle. Elle ne sert qu’a faciliter les requêtes informatiques",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c4a55dcc-531d-4f5c-b3c2-de73fac021f5/resource/dae484b6-1faf-493e-991d-3ec3691305c1/download/bassins-electoraux-2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-09-27T14:18:14.123829",
+      "created": "2021-09-27T14:18:14.166619",
+      "schema": {
+        "resource_id": "dae484b6-1faf-493e-991d-3ec3691305c1",
+        "total_records": 474,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_BASSIN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NOM_BASSIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_DISTRICT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NUM_DISTRICT",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PRE_ARR",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_BASSIN": 2,
+            "NOM_BASSIN": "ÉCOLE JACQUES-BIZARD",
+            "NOM_DISTRICT": "Denis-Benjamin-Viger",
+            "NUM_DISTRICT": 62,
+            "ARRONDISSEMENT": "L'Île-Bizard-Sainte-Geneviève",
+            "PRE_ARR": "IS"
+          },
+          {
+            "_id": 2,
+            "ID_BASSIN": 4,
+            "NOM_BASSIN": "RÉSIDENCE VENT DE L'OUEST",
+            "NOM_DISTRICT": "Sainte-Geneviève",
+            "NUM_DISTRICT": 64,
+            "ARRONDISSEMENT": "L'Île-Bizard-Sainte-Geneviève",
+            "PRE_ARR": "IS"
+          },
+          {
+            "_id": 3,
+            "ID_BASSIN": 6,
+            "NOM_BASSIN": "MANOIR OUTREMONT",
+            "NOM_DISTRICT": "Jeanne-Sauvé",
+            "NUM_DISTRICT": 94,
+            "ARRONDISSEMENT": "Outremont",
+            "PRE_ARR": "OM"
+          },
+          {
+            "_id": 4,
+            "ID_BASSIN": 8,
+            "NOM_BASSIN": "ÉCOLE VINCENT-D'INDY",
+            "NOM_DISTRICT": "Robert-Bourassa",
+            "NUM_DISTRICT": 93,
+            "ARRONDISSEMENT": "Outremont",
+            "PRE_ARR": "OM"
+          },
+          {
+            "_id": 5,
+            "ID_BASSIN": 9,
+            "NOM_BASSIN": "CENTRE D'ÉDUCATION DES ADULTES",
+            "NOM_DISTRICT": "Joseph-Beaubien",
+            "NUM_DISTRICT": 92,
+            "ARRONDISSEMENT": "Outremont",
+            "PRE_ARR": "OM"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_BASSIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_BASSIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NUM_DISTRICT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PRE_ARR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 474,
+        "total_records": 474,
+        "audited_at": "2026-03-10T00:14:01.970269+00:00",
+        "fields": {
+          "ID_BASSIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 499.0,
+            "mean": 249.5992,
+            "median": 245.5,
+            "unique_count": 474,
+            "field_type_detected": "numeric"
+          },
+          "NOM_BASSIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 474,
+            "top_values": [
+              {
+                "value": "ÉCOLE JACQUES-BIZARD",
+                "count": 1
+              },
+              {
+                "value": "RÉSIDENCE VENT DE L'OUEST",
+                "count": 1
+              },
+              {
+                "value": "MANOIR OUTREMONT",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE VINCENT-D'INDY",
+                "count": 1
+              },
+              {
+                "value": "CENTRE D'ÉDUCATION DES ADULTES",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE NOUVELLE-QUERBES",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE PAUL-GÉRIN-LAJOIE D'OUTREMONT",
+                "count": 1
+              },
+              {
+                "value": "CENTRE COMMERCIAL LES GALERIES D'ANJOU PORTE 5",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE JACQUES-ROUSSEAU - Salle Polyvalente",
+                "count": 1
+              },
+              {
+                "value": "ÉCOLE JACQUES-ROUSSEAU - Gymnase",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "NOM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "Sault-Saint-Louis",
+                "count": 14
+              },
+              {
+                "value": "Champlain-L'Île-des-Soeurs",
+                "count": 14
+              },
+              {
+                "value": "Saint-Paul-Émard",
+                "count": 14
+              },
+              {
+                "value": "Vieux-Rosemont",
+                "count": 14
+              },
+              {
+                "value": "La Pointe-aux-Prairies",
+                "count": 13
+              },
+              {
+                "value": "Saint-Henri-Est-Petite-Bourgogne–Pointe-Saint-Charles–Griffi",
+                "count": 13
+              },
+              {
+                "value": "Pointe-aux-Trembles",
+                "count": 12
+              },
+              {
+                "value": "Norman-McLaren",
+                "count": 12
+              },
+              {
+                "value": "Maisonneuve-Longue-Pointe",
+                "count": 12
+              },
+              {
+                "value": "Cecil-P.-Newman",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NUM_DISTRICT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 194.0,
+            "mean": 104.1414,
+            "median": 112.0,
+            "unique_count": 58,
+            "field_type_detected": "numeric"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 43
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 41
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 40
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 39
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 35
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 33
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 27
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 27
+              },
+              {
+                "value": "LaSalle",
+                "count": 25
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PRE_ARR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "RO",
+                "count": 43
+              },
+              {
+                "value": "CN",
+                "count": 41
+              },
+              {
+                "value": "MH",
+                "count": 40
+              },
+              {
+                "value": "AC",
+                "count": 39
+              },
+              {
+                "value": "RP",
+                "count": 35
+              },
+              {
+                "value": "VS",
+                "count": 33
+              },
+              {
+                "value": "PM",
+                "count": 27
+              },
+              {
+                "value": "SO",
+                "count": 27
+              },
+              {
+                "value": "LS",
+                "count": 25
+              },
+              {
+                "value": "VM",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SG",
+    "Élections"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le découpage électoral s'appuie sur différents paramètres, notamment la démographie.  Il s'agit d'une compilation de données de diverses provenances réalisée à partir de plans à l’échelle 1:20 000 (carte de grilles de rues).  Données géospatiales validées par la Division de la géomatique.\n\n### Dictionnaire de données\n\n\n\n- ID_BASSIN (Numérique) : Numéro unique du bassin\n\n- NOM_BASSIN (Texte variable) : Nom du lieu de vote \n\n- NOM_DISTRICT (Texte variable) : Nom du district électoral\n\n- NUM_DISTRICT (Numérique) : Numéro unique du district électoral où le premier caractère (ou les deux premiers dans le cas d'un identifiant à trois chiffres) distingue les arrondissements alors que le dernier caractère distingue les districts sous un même arrondissement\n\n- ARRONDISSEMENT (Texte variable) : Nom de l'arrondissement\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2017-11-05/2021-11-07",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "SG",
+      "Élections"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/bassins-electoraux",
+    "scraped_at": "2026-03-09T19:52:25.251652+00:00"
+  }
+}

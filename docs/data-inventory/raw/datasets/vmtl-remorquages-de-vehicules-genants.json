@@ -1,0 +1,894 @@
+{
+  "slug": "vmtl-remorquages-de-vehicules-genants",
+  "title": "Remorquages de véhicules entravant les opérations de la Ville de Montréal",
+  "notes": "L'ensemble de données présente une liste des remorquages de véhicules gênants effectués par la Ville de Montréal. Ces remorquages sont effectués, par exemple lors des opérations de déneigement, des travaux ou encore lors d'événements spéciaux.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-01-14T19:50:32.697205",
+  "metadata_modified": "2026-03-09T01:13:16.867823",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "0fe82d36-60a4-448e-963f-3a686a188405",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZjVjMjg3NjEtZjQ2OC00OWY2LWFhMzMtY2I5ZGEzMzQ2YmUwIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-21T18:24:21.869653",
+      "schema": null
+    },
+    {
+      "id": "65dd096f-7296-40e8-8cfe-e26b928bcce5",
+      "name": "Remorquages après le 15 nov 2015",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/1d785ef8-f883-47b5-bac5-dce1cdddb1b0/resource/65dd096f-7296-40e8-8cfe-e26b928bcce5/download/remorquages.csv",
+      "datastore_active": true,
+      "size": 123150307,
+      "last_modified": "2026-03-08T23:31:23.306930",
+      "created": "2020-03-27T18:37:36.893154",
+      "schema": {
+        "resource_id": "65dd096f-7296-40e8-8cfe-e26b928bcce5",
+        "total_records": 516783,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "DATE_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SECTEUR_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SECTEUR_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MOTIF_REMORQUAGE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "DATE_ORIGINE": "2015-11-16T13:13:00",
+            "LONGITUDE_ORIGINE": "-73.5971179862804",
+            "LATITUDE_ORIGINE": "45.5566266494817",
+            "RUE_ORIGINE": "9e avenue  ",
+            "SECTEUR_ORIGINE": null,
+            "ARRONDISSEMENT_ORIGINE": "Villeray-Saint-Michel - Parc-Extension",
+            "DATE_DESTINATION": null,
+            "LONGITUDE_DESTINATION": null,
+            "LATITUDE_DESTINATION": null,
+            "RUE_DESTINATION": null,
+            "SECTEUR_DESTINATION": null,
+            "ARRONDISSEMENT_DESTINATION": null,
+            "MOTIF_REMORQUAGE": null
+          },
+          {
+            "_id": 2,
+            "DATE_ORIGINE": "2015-11-16T19:35:00",
+            "LONGITUDE_ORIGINE": "-73.5693411139059",
+            "LATITUDE_ORIGINE": "45.4931103649656",
+            "RUE_ORIGINE": "rue de Versailles ",
+            "SECTEUR_ORIGINE": null,
+            "ARRONDISSEMENT_ORIGINE": "Ville-Marie",
+            "DATE_DESTINATION": null,
+            "LONGITUDE_DESTINATION": null,
+            "LATITUDE_DESTINATION": null,
+            "RUE_DESTINATION": null,
+            "SECTEUR_DESTINATION": null,
+            "ARRONDISSEMENT_DESTINATION": null,
+            "MOTIF_REMORQUAGE": null
+          },
+          {
+            "_id": 3,
+            "DATE_ORIGINE": "2015-11-16T20:09:00",
+            "LONGITUDE_ORIGINE": "-73.5692271519482",
+            "LATITUDE_ORIGINE": "45.4930464058777",
+            "RUE_ORIGINE": "rue de Versailles ",
+            "SECTEUR_ORIGINE": null,
+            "ARRONDISSEMENT_ORIGINE": "Ville-Marie",
+            "DATE_DESTINATION": "2015-11-16T20:10:00",
+            "LONGITUDE_DESTINATION": "-73.5682681863395",
+            "LATITUDE_DESTINATION": "45.4930769112417",
+            "RUE_DESTINATION": "rue Saint-Jacques ",
+            "SECTEUR_DESTINATION": null,
+            "ARRONDISSEMENT_DESTINATION": "Ville-Marie",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          },
+          {
+            "_id": 4,
+            "DATE_ORIGINE": "2015-12-30T09:55:00",
+            "LONGITUDE_ORIGINE": "-73.6939189729802",
+            "LATITUDE_ORIGINE": "45.5105009189792",
+            "RUE_ORIGINE": "rue Lucien-Thimens ",
+            "SECTEUR_ORIGINE": null,
+            "ARRONDISSEMENT_ORIGINE": "Saint-Laurent",
+            "DATE_DESTINATION": "2015-12-30T09:55:00",
+            "LONGITUDE_DESTINATION": "-73.6939189729802",
+            "LATITUDE_DESTINATION": "45.5105009189792",
+            "RUE_DESTINATION": "rue Lucien-Thimens ",
+            "SECTEUR_DESTINATION": null,
+            "ARRONDISSEMENT_DESTINATION": "Saint-Laurent",
+            "MOTIF_REMORQUAGE": null
+          },
+          {
+            "_id": 5,
+            "DATE_ORIGINE": "2015-12-30T11:15:00",
+            "LONGITUDE_ORIGINE": "-73.639649079087",
+            "LATITUDE_ORIGINE": "45.5981769390456",
+            "RUE_ORIGINE": "avenue Pelletier ",
+            "SECTEUR_ORIGINE": null,
+            "ARRONDISSEMENT_ORIGINE": "Montréal-Nord",
+            "DATE_DESTINATION": "2015-12-30T11:20:00",
+            "LONGITUDE_DESTINATION": "-73.6304309397981",
+            "LATITUDE_DESTINATION": "45.60088642401",
+            "RUE_DESTINATION": "boulevard Sainte-Gertrude ",
+            "SECTEUR_DESTINATION": null,
+            "ARRONDISSEMENT_DESTINATION": "Montréal-Nord",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          }
+        ]
+      },
+      "field_stats": {
+        "DATE_ORIGINE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE_ORIGINE": {
+          "null_count": 1275,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "LATITUDE_ORIGINE": {
+          "null_count": 1275,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "RUE_ORIGINE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SECTEUR_ORIGINE": {
+          "null_count": 98711,
+          "null_pct": 19.1,
+          "populated_pct": 80.9
+        },
+        "ARRONDISSEMENT_ORIGINE": {
+          "null_count": 7,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_DESTINATION": {
+          "null_count": 2125,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "LONGITUDE_DESTINATION": {
+          "null_count": 3632,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "LATITUDE_DESTINATION": {
+          "null_count": 3632,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "RUE_DESTINATION": {
+          "null_count": 2821,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "SECTEUR_DESTINATION": {
+          "null_count": 116939,
+          "null_pct": 22.6,
+          "populated_pct": 77.4
+        },
+        "ARRONDISSEMENT_DESTINATION": {
+          "null_count": 2210,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "MOTIF_REMORQUAGE": {
+          "null_count": 2349,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 516798,
+        "audited_at": "2026-03-10T00:23:33.346829+00:00",
+        "fields": {
+          "DATE_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-11-15T11:45:00",
+            "max_date": "2016-01-08T11:09:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "LONGITUDE_ORIGINE": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "min": -73.7259,
+            "max": -73.489,
+            "mean": -73.5946,
+            "median": -73.5863,
+            "unique_count": 992,
+            "field_type_detected": "numeric"
+          },
+          "LATITUDE_ORIGINE": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "min": 45.4168,
+            "max": 45.6968,
+            "mean": 45.5277,
+            "median": 45.525,
+            "unique_count": 992,
+            "field_type_detected": "numeric"
+          },
+          "RUE_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 528,
+            "top_values": [
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 39
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 23
+              },
+              {
+                "value": "rue Saint-Denis",
+                "count": 14
+              },
+              {
+                "value": "rue Saint-Hubert",
+                "count": 13
+              },
+              {
+                "value": "avenue du Mont-Royal Est",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-André",
+                "count": 9
+              },
+              {
+                "value": "rue Centrale",
+                "count": 8
+              },
+              {
+                "value": "avenue de l'Hôtel-de-Ville",
+                "count": 8
+              },
+              {
+                "value": "rue Cartier",
+                "count": 6
+              },
+              {
+                "value": "rue Hutchison",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SECTEUR_ORIGINE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 146
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 122
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 101
+              },
+              {
+                "value": "Villeray-Saint-Michel - Parc-Extension",
+                "count": 88
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 87
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 70
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 64
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 63
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 45
+              },
+              {
+                "value": "LaSalle",
+                "count": 45
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE_DESTINATION": {
+            "null_count": 41,
+            "null_pct": 4.1,
+            "min_date": "2015-11-15T11:52:00",
+            "max_date": "2016-01-08T11:21:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "LONGITUDE_DESTINATION": {
+            "null_count": 53,
+            "null_pct": 5.3,
+            "min": -73.7266,
+            "max": -73.4894,
+            "mean": -73.5951,
+            "median": -73.586,
+            "unique_count": 941,
+            "field_type_detected": "numeric"
+          },
+          "LATITUDE_DESTINATION": {
+            "null_count": 53,
+            "null_pct": 5.3,
+            "min": 45.4167,
+            "max": 45.6969,
+            "mean": 45.5275,
+            "median": 45.5251,
+            "unique_count": 941,
+            "field_type_detected": "numeric"
+          },
+          "RUE_DESTINATION": {
+            "null_count": 43,
+            "null_pct": 4.3,
+            "unique_count": 483,
+            "top_values": [
+              {
+                "value": "rue Ontario Est",
+                "count": 13
+              },
+              {
+                "value": "rue Sherbrooke Ouest",
+                "count": 13
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 13
+              },
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Denis",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Zotique Est",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Hubert",
+                "count": 10
+              },
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 10
+              },
+              {
+                "value": "avenue du Mont-Royal Est",
+                "count": 8
+              },
+              {
+                "value": "rue Saint-Urbain",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SECTEUR_DESTINATION": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_DESTINATION": {
+            "null_count": 44,
+            "null_pct": 4.4,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 142
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 111
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 100
+              },
+              {
+                "value": "Villeray-Saint-Michel - Parc-Extension",
+                "count": 86
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 81
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 70
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 61
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 57
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 44
+              },
+              {
+                "value": "LaSalle",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MOTIF_REMORQUAGE": {
+            "null_count": 42,
+            "null_pct": 4.2,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Constat d'infraction",
+                "count": 951
+              },
+              {
+                "value": "Événement policier",
+                "count": 4
+              },
+              {
+                "value": "Déplacement non autorisé",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "2edcdba3-ba83-470f-a441-01fd72dd965e",
+      "name": "Remorquages de 2005 au 15 nov 2015",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/1d785ef8-f883-47b5-bac5-dce1cdddb1b0/resource/2edcdba3-ba83-470f-a441-01fd72dd965e/download/remorquages2005-2015.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-02-12T15:43:54.508077",
+      "created": "2016-01-14T14:50:33.124240",
+      "schema": {
+        "resource_id": "2edcdba3-ba83-470f-a441-01fd72dd965e",
+        "total_records": 250,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "DATE_ORIGINE",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "RUE_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_ORIGINE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_DESTINATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MOTIF_REMORQUAGE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "DATE_ORIGINE": "2015-11-14T16:18:00",
+            "RUE_ORIGINE": "avenue Christophe-Colomb ",
+            "ARRONDISSEMENT_ORIGINE": "Le Plateau-Mont-Royal",
+            "RUE_DESTINATION": "avenue Christophe-Colomb ",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          },
+          {
+            "_id": 2,
+            "DATE_ORIGINE": "2015-11-13T13:03:00",
+            "RUE_ORIGINE": "avenue Harvard ",
+            "ARRONDISSEMENT_ORIGINE": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "RUE_DESTINATION": "avenue Harvard ",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          },
+          {
+            "_id": 3,
+            "DATE_ORIGINE": "2015-11-13T13:51:00",
+            "RUE_ORIGINE": "rue Robin ",
+            "ARRONDISSEMENT_ORIGINE": "Ville-Marie",
+            "RUE_DESTINATION": "rue Robin ",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          },
+          {
+            "_id": 4,
+            "DATE_ORIGINE": "2015-11-13T11:25:00",
+            "RUE_ORIGINE": "boulevard Édouard-Montpetit ",
+            "ARRONDISSEMENT_ORIGINE": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "RUE_DESTINATION": "boulevard Édouard-Montpetit ",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          },
+          {
+            "_id": 5,
+            "DATE_ORIGINE": "2015-11-13T13:23:00",
+            "RUE_ORIGINE": "rue Lavoie ",
+            "ARRONDISSEMENT_ORIGINE": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "RUE_DESTINATION": "avenue Van Horne ",
+            "MOTIF_REMORQUAGE": "Constat d'infraction"
+          }
+        ]
+      },
+      "field_stats": {
+        "DATE_ORIGINE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_ORIGINE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT_ORIGINE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_DESTINATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MOTIF_REMORQUAGE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 250,
+        "total_records": 250,
+        "audited_at": "2026-03-10T00:23:34.219985+00:00",
+        "fields": {
+          "DATE_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-10-07T10:26:00",
+            "max_date": "2015-11-14T16:18:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "RUE_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 153,
+            "top_values": [
+              {
+                "value": "rue Chambord",
+                "count": 12
+              },
+              {
+                "value": "rue Saint-Dominique",
+                "count": 8
+              },
+              {
+                "value": "rue University",
+                "count": 6
+              },
+              {
+                "value": "avenue de l'Esplanade",
+                "count": 5
+              },
+              {
+                "value": "rue Garnier",
+                "count": 5
+              },
+              {
+                "value": "rue de Bordeaux",
+                "count": 5
+              },
+              {
+                "value": "rue Lavoie",
+                "count": 4
+              },
+              {
+                "value": "boulevard Lacordaire",
+                "count": 4
+              },
+              {
+                "value": "rue des Carrières",
+                "count": 4
+              },
+              {
+                "value": "rue Hogan",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ARRONDISSEMENT_ORIGINE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 63
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 39
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 28
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 27
+              },
+              {
+                "value": "Villeray-Saint-Michel - Parc-Extension",
+                "count": 26
+              },
+              {
+                "value": "Verdun",
+                "count": 19
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 11
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 10
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 10
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "RUE_DESTINATION": {
+            "null_count": 4,
+            "null_pct": 1.6,
+            "unique_count": 158,
+            "top_values": [
+              {
+                "value": "boulevard LaSalle",
+                "count": 10
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 8
+              },
+              {
+                "value": "rue Chambord",
+                "count": 8
+              },
+              {
+                "value": "rue Bercy",
+                "count": 6
+              },
+              {
+                "value": "rue University",
+                "count": 4
+              },
+              {
+                "value": "rue de Bordeaux",
+                "count": 4
+              },
+              {
+                "value": "rue De Lanaudière",
+                "count": 4
+              },
+              {
+                "value": "rue De La Roche",
+                "count": 4
+              },
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 4
+              },
+              {
+                "value": "avenue Christophe-Colomb",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "MOTIF_REMORQUAGE": {
+            "null_count": 3,
+            "null_pct": 1.2,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Constat d'infraction",
+                "count": 245
+              },
+              {
+                "value": "Événement policier",
+                "count": 1
+              },
+              {
+                "value": "Déplacement non autorisé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Déneigement",
+    "Neige",
+    "Remorquage",
+    "SCAEC",
+    "Transport"
+  ],
+  "web_metadata": {
+    "methodology_text": "Chaque enregistrement représente un remorquage de véhicule demandé par un employé de la Ville de Montréal, incluant le Service de police de la Ville de Montréal.\n\n\nCet ensemble de données couvre les données collectées avec deux systèmes d'information différents :\n\n#### Avant le 15 novembre 2015 :\n\n\n\n- Le système utilisé ne supportait pas les informations géospatiales, donc seuls le nom de la rue et de l'arrondissement sont fournis\n\n- Le système fut implémenté en projet pilote au courant de 2005 et progressivement utilisé par les arrondissements au fils des années à leur discrétion.\n\n\n#### Depuis le 15 novembre 2015 :\n\n\n\n- Le système a été mis en place pour l'ensemble des arrondissements\n\n- La saisie des remorquages se fait à l'aide d'une tablette électronique équipée d'un GPS permettant de se localiser dans un secteur pour pointer et stocker la position géographique (latitude/longitude) d'origine et de dépôt du véhicule remorqué.\n\n- Seuls les remorquages dont l'origine est sur le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2005-01-01 / à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Déneigement",
+      "Neige",
+      "Remorquage",
+      "SCAEC",
+      "Transport"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/remorquages-de-vehicules-genants",
+    "scraped_at": "2026-03-09T20:18:42.922004+00:00"
+  }
+}

@@ -1,0 +1,5494 @@
+{
+  "slug": "vmtl-rsma-donnees-ruisso-annuelle",
+  "title": "Qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs (RUISSO) du réseau de suivi du milieu aquatique (RSMA)",
+  "notes": "Données du programme RUISSO, qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs de l’agglomération montréalaise, du Réseau de suivi du milieu aquatique.\r\n\r\nUne [cartographie interactive](https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/) est également disponible.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-10-14T18:59:38.510929",
+  "metadata_modified": "2026-03-06T23:01:06.969619",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "cd034f18-c6db-488d-98f0-08d2b203fab8",
+      "name": "Visualisation des données",
+      "description": "<a href=\"https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/\" target=\"_blank\" title=\"Carte interactive sur la qualité de l'eau\">Ouvrir la visualisation dans un nouvel onglet</a>",
+      "format": "WEB",
+      "url": "https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T20:51:19.757221",
+      "schema": null
+    },
+    {
+      "id": "4aef9903-83b0-4df0-810e-a58b9c7ce8af",
+      "name": "Qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs (année courante)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8c149ace-7b2f-4041-99ec-3bdbef5dcee6/resource/4aef9903-83b0-4df0-810e-a58b9c7ce8af/download/rsma-ruisso-qualite-ruisseaux-plans-eau-interieurs-annee-courante.csv",
+      "datastore_active": true,
+      "size": 172452,
+      "last_modified": "2025-12-26T21:01:39.943376",
+      "created": "2022-10-27T15:18:44.601280",
+      "schema": {
+        "resource_id": "4aef9903-83b0-4df0-810e-a58b9c7ce8af",
+        "total_records": 372,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "point_echantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "plan_eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "administration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "descrip_longue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "programme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_prog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "station_nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "conductivite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "coliformes_fecaux",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "OD_concentration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "OD_pourc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "phos_total",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "azote_total",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ag",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Al",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "As",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ba",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Be",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ca",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cd",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "K",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mg",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Na",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ni",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Pb",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Se",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Tl",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "U",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "V",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_0_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_1_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_2_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_tot_60h",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "meteo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tournee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "point_echantillonnage": "AAO-0.0",
+            "plan_eau": "Rivière à l'Orme",
+            "administration": "Pierrefonds-Roxboro",
+            "nom": "Embouchure de la rivière",
+            "descrip_longue": "Pierrefonds, boul. Gouin O, 40m au nord de la rue de l'Anse à l'Orme, exutoire au lac des Deux Montagnes.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "AAO-0.0   Embouchure de la rivière",
+            "date_heure": "2025-06-05T10:40:32",
+            "raison_annulation": null,
+            "temperature": "         21.5",
+            "conductivite": "630",
+            "pH": "7.3",
+            "signe": "=",
+            "coliformes_fecaux": "99",
+            "OD_concentration": "          8.80",
+            "OD_pourc": "        100.00",
+            "MES": "5.2",
+            "phos_total": "43",
+            "azote_total": "20",
+            "cot": null,
+            "Ag": "0.1",
+            "Al": "137",
+            "As": "0.4",
+            "Ba": "39",
+            "Be": "1.3",
+            "Ca": "47700",
+            "Cd": "0.1",
+            "Co": "0.2",
+            "Cr": "0.5",
+            "Cu": "1.5",
+            "Fe": "252",
+            "K": "2300",
+            "Mg": "16900",
+            "Mn": "49.4",
+            "Mo": "1.5",
+            "Na": "53200",
+            "Ni": "1.3",
+            "Pb": "0.6",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "0.7",
+            "V": "0.3",
+            "Zn": "7",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "1",
+            "latitude": "45.4502113278",
+            "longitude": "-73.9370663453",
+            "x": "270613.07",
+            "y": "5034568.57"
+          },
+          {
+            "_id": 2,
+            "point_echantillonnage": "AAO-3.5",
+            "plan_eau": "Rivière à l'Orme",
+            "administration": "Sainte-Anne-de-Bellevue",
+            "nom": "Ch. Sainte-Marie",
+            "descrip_longue": "Sainte-Anne-de-Bellevue, 10m au nord du ch. Ste-Marie, 200m à l'ouest du ch. Anse à l'Orme.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "AAO-3.5   Ch. Sainte-Marie",
+            "date_heure": "2025-06-05T11:03:34",
+            "raison_annulation": null,
+            "temperature": "         13.6",
+            "conductivite": "1469",
+            "pH": "7.3",
+            "signe": "=",
+            "coliformes_fecaux": "120",
+            "OD_concentration": "          8.00",
+            "OD_pourc": "         77.00",
+            "MES": "2.2",
+            "phos_total": "13",
+            "azote_total": "50",
+            "cot": null,
+            "Ag": "0.1",
+            "Al": "34",
+            "As": "0.4",
+            "Ba": "75",
+            "Be": "1.3",
+            "Ca": "115000",
+            "Cd": "0.1",
+            "Co": "0.2",
+            "Cr": "0.3",
+            "Cu": "1.2",
+            "Fe": "429",
+            "K": "3980",
+            "Mg": "38900",
+            "Mn": "61.1",
+            "Mo": "3.5",
+            "Na": "130000",
+            "Ni": "2.4",
+            "Pb": "0.2",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.7",
+            "V": "0.3",
+            "Zn": "7",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "1",
+            "latitude": "45.4356405523",
+            "longitude": "-73.9014441318",
+            "x": "273391.322",
+            "y": "5032934.79999998"
+          },
+          {
+            "_id": 3,
+            "point_echantillonnage": "AAO-3.6",
+            "plan_eau": "Rivière à l'Orme",
+            "administration": "Baie d'Urfé",
+            "nom": "Av. Lee",
+            "descrip_longue": "Beaconsfield, 250m à l'est de la rue Lee et 25m au sud de l'autoroute 40, en amont du pluvial.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "AAO-3.6   Av. Lee",
+            "date_heure": "2025-06-05T11:48:37",
+            "raison_annulation": null,
+            "temperature": "         17.6",
+            "conductivite": "1465",
+            "pH": "7.6",
+            "signe": "=",
+            "coliformes_fecaux": "54",
+            "OD_concentration": "          7.70",
+            "OD_pourc": "         81.00",
+            "MES": "1.6",
+            "phos_total": "86",
+            "azote_total": "20",
+            "cot": null,
+            "Ag": "0.1",
+            "Al": "42",
+            "As": "0.2",
+            "Ba": "80",
+            "Be": "1.3",
+            "Ca": "115000",
+            "Cd": "0.1",
+            "Co": "0.1",
+            "Cr": "0.3",
+            "Cu": "2.5",
+            "Fe": "154",
+            "K": "2840",
+            "Mg": "38600",
+            "Mn": "46.4",
+            "Mo": "3.4",
+            "Na": "134000",
+            "Ni": "2.2",
+            "Pb": "0.4",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.4",
+            "V": "0.3",
+            "Zn": "7",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "1",
+            "latitude": "45.4346279405",
+            "longitude": "-73.9012199472",
+            "x": "273408.301",
+            "y": "5032822.17999999"
+          },
+          {
+            "_id": 4,
+            "point_echantillonnage": "AAO-6.5",
+            "plan_eau": "Rivière à l'Orme",
+            "administration": "Baie d'Urfé",
+            "nom": "Boul. Morgan côté O",
+            "descrip_longue": "Baie d'Urfée, boul.Morgan côté ouest, 250m au sud de l'A40.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "AAO-6.5   Boul. Morgan côté O",
+            "date_heure": "2025-06-05T11:13:47",
+            "raison_annulation": null,
+            "temperature": "         21.3",
+            "conductivite": "1020",
+            "pH": "7.6",
+            "signe": "=",
+            "coliformes_fecaux": "110",
+            "OD_concentration": "         11.20",
+            "OD_pourc": "        125.00",
+            "MES": "2.8",
+            "phos_total": "67",
+            "azote_total": "40",
+            "cot": null,
+            "Ag": "0.1",
+            "Al": "31",
+            "As": "1.1",
+            "Ba": "53",
+            "Be": "1.3",
+            "Ca": "83200",
+            "Cd": "0.1",
+            "Co": "0.2",
+            "Cr": "0.3",
+            "Cu": "1",
+            "Fe": "271",
+            "K": "3810",
+            "Mg": "28300",
+            "Mn": "70.6",
+            "Mo": "6",
+            "Na": "84400",
+            "Ni": "2.1",
+            "Pb": "0.2",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.3",
+            "V": "0.3",
+            "Zn": "7",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "1",
+            "latitude": "45.4254275852",
+            "longitude": "-73.9156477354",
+            "x": "272274.178",
+            "y": "5031805.49"
+          },
+          {
+            "_id": 5,
+            "point_echantillonnage": "CON-0.0",
+            "plan_eau": "Ruisseau O'Connell",
+            "administration": "Pierrefonds-Roxboro",
+            "nom": "Embouchure du ruisseau",
+            "descrip_longue": "80m à l'est de la rue Morandière, en aval du boul.Gouin.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "CON-0.0   Embouchure du ruisseau",
+            "date_heure": "2025-06-05T10:28:57",
+            "raison_annulation": null,
+            "temperature": "         17.3",
+            "conductivite": "801",
+            "pH": "7.5",
+            "signe": "=",
+            "coliformes_fecaux": "270",
+            "OD_concentration": "          9.20",
+            "OD_pourc": "         96.00",
+            "MES": "5.8",
+            "phos_total": "50",
+            "azote_total": "50",
+            "cot": null,
+            "Ag": "0.1",
+            "Al": "132",
+            "As": "0.6",
+            "Ba": "73",
+            "Be": "1.3",
+            "Ca": "88700",
+            "Cd": "0.1",
+            "Co": "0.2",
+            "Cr": "0.3",
+            "Cu": "1.2",
+            "Fe": "246",
+            "K": "3020",
+            "Mg": "32500",
+            "Mn": "23.7",
+            "Mo": "4.2",
+            "Na": "35900",
+            "Ni": "2.6",
+            "Pb": "0.2",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.5",
+            "V": "0.4",
+            "Zn": "7",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "1",
+            "latitude": "45.4604326508",
+            "longitude": "-73.9071136491",
+            "x": "272961.694",
+            "y": "5035692.16"
+          }
+        ]
+      },
+      "field_stats": {
+        "point_echantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "plan_eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "administration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "descrip_longue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "programme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_prog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "station_nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 356,
+          "null_pct": 95.7,
+          "populated_pct": 4.3
+        },
+        "temperature": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "conductivite": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "pH": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "signe": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "coliformes_fecaux": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "OD_concentration": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "OD_pourc": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "MES": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "phos_total": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "azote_total": {
+          "null_count": 16,
+          "null_pct": 4.3,
+          "populated_pct": 95.7
+        },
+        "cot": {
+          "null_count": 372,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "Ag": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Al": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "As": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Ba": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Be": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Ca": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Cd": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Co": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Cr": {
+          "null_count": 17,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 372,
+        "total_records": 372,
+        "audited_at": "2026-03-10T00:24:13.048212+00:00",
+        "fields": {
+          "point_echantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 53,
+            "top_values": [
+              {
+                "value": "PRO-2",
+                "count": 8
+              },
+              {
+                "value": "AAO-0.0",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.5",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.6",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.5",
+                "count": 7
+              },
+              {
+                "value": "CON-0.0",
+                "count": 7
+              },
+              {
+                "value": "CPI-0.0",
+                "count": 7
+              },
+              {
+                "value": "PIB-2",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.4P12",
+                "count": 7
+              },
+              {
+                "value": "BER-0.0",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "plan_eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Ruisseau Bertrand",
+                "count": 49
+              },
+              {
+                "value": "Ruisseau Bouchard",
+                "count": 49
+              },
+              {
+                "value": "Rivière à l'Orme",
+                "count": 42
+              },
+              {
+                "value": "Ruisseau De Montigny",
+                "count": 28
+              },
+              {
+                "value": "Canal de Lachine",
+                "count": 28
+              },
+              {
+                "value": "Ruisseau Denis",
+                "count": 28
+              },
+              {
+                "value": "Marais du parc-nature de la Pointe-aux-Prairies",
+                "count": 14
+              },
+              {
+                "value": "Ruisseau Saint-James",
+                "count": 14
+              },
+              {
+                "value": "Ruisseau Provost",
+                "count": 8
+              },
+              {
+                "value": "Ruisseau O'Connell",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "administration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Dorval",
+                "count": 84
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 35
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 28
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 28
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 28
+              },
+              {
+                "value": "Baie d'Urfé",
+                "count": 21
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 14
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 14
+              },
+              {
+                "value": "Lachine",
+                "count": 14
+              },
+              {
+                "value": "Verdun",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 49,
+            "top_values": [
+              {
+                "value": "Embouchure du ruisseau",
+                "count": 35
+              },
+              {
+                "value": "Ruisseau Provost",
+                "count": 8
+              },
+              {
+                "value": "Embouchure de la rivière",
+                "count": 7
+              },
+              {
+                "value": "Ch. Sainte-Marie",
+                "count": 7
+              },
+              {
+                "value": "Av. Lee",
+                "count": 7
+              },
+              {
+                "value": "Boul. Morgan côté O",
+                "count": 7
+              },
+              {
+                "value": "Embouchure du fossé",
+                "count": 7
+              },
+              {
+                "value": "P-N du Boisé-de-l'Île-Bizard",
+                "count": 7
+              },
+              {
+                "value": "Boul. Morgan côté E",
+                "count": 7
+              },
+              {
+                "value": "P-N du Bois-de-Liesse",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "descrip_longue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 53,
+            "top_values": [
+              {
+                "value": "Av. Roskilde, 50m à l'est de l'av. Springgrove, parc Oakwood",
+                "count": 8
+              },
+              {
+                "value": "Pierrefonds, boul. Gouin O, 40m au nord de la rue de l'Anse à l'Orme, exutoire au lac des Deux Montagnes.",
+                "count": 7
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue, 10m au nord du ch. Ste-Marie, 200m à l'ouest du ch. Anse à l'Orme.",
+                "count": 7
+              },
+              {
+                "value": "Beaconsfield, 250m à l'est de la rue Lee et 25m au sud de l'autoroute 40, en amont du pluvial.",
+                "count": 7
+              },
+              {
+                "value": "Baie d'Urfée, boul.Morgan côté ouest, 250m au sud de l'A40.",
+                "count": 7
+              },
+              {
+                "value": "80m à l'est de la rue Morandière, en aval du boul.Gouin.",
+                "count": 7
+              },
+              {
+                "value": "Pierrefonds, boul.Gouin ouest, 450m à l'ouest de l'ave. Château-Pierrefonds, en aval du dépôt à neige.",
+                "count": 7
+              },
+              {
+                "value": "Parc-Nature de l'île-Bizard, secteur des observatoires, sur la passerelle, au centre du marais.",
+                "count": 7
+              },
+              {
+                "value": "Baie d'Urfée, boul. Morgan côté est, 250m au sud de l'autoroute 40,  affluent provenant des zones résidentilelles de Baie d'Urfé.",
+                "count": 7
+              },
+              {
+                "value": "R.Bertrand, exutoire à la rivière des Prairies, ponceau de l'ave. du Ruisseau",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "programme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 372
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_prog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 372
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "station_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 53,
+            "top_values": [
+              {
+                "value": "PRO-2   Ruisseau Provost",
+                "count": 8
+              },
+              {
+                "value": "AAO-0.0   Embouchure de la rivière",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.5   Ch. Sainte-Marie",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.6   Av. Lee",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.5   Boul. Morgan côté O",
+                "count": 7
+              },
+              {
+                "value": "CON-0.0   Embouchure du ruisseau",
+                "count": 7
+              },
+              {
+                "value": "CPI-0.0   Embouchure du fossé",
+                "count": 7
+              },
+              {
+                "value": "PIB-2   P-N du Boisé-de-l'Île-Bizard",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.4P12   Boul. Morgan côté E",
+                "count": 7
+              },
+              {
+                "value": "BER-0.0   P-N du Bois-de-Liesse",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2025-05-21T08:37:09",
+            "max_date": "2025-10-14T11:17:43",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "raison_annulation": {
+            "null_count": 356,
+            "null_pct": 95.7,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "À sec",
+                "count": 14
+              },
+              {
+                "value": "Non représentatif",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "temperature": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 9.9,
+            "max": 28.8,
+            "mean": 19.0031,
+            "median": 18.65,
+            "unique_count": 140,
+            "field_type_detected": "numeric"
+          },
+          "conductivite": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 85.0,
+            "max": 16004.0,
+            "mean": 999.4551,
+            "median": 797.5,
+            "unique_count": 324,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 6.2,
+            "max": 9.3,
+            "mean": 7.6792,
+            "median": 7.7,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7.5",
+                "count": 38
+              },
+              {
+                "value": "7.7",
+                "count": 37
+              },
+              {
+                "value": "7.6",
+                "count": 36
+              },
+              {
+                "value": "7.8",
+                "count": 35
+              },
+              {
+                "value": "7.4",
+                "count": 29
+              },
+              {
+                "value": "7.9",
+                "count": 27
+              },
+              {
+                "value": "7.3",
+                "count": 24
+              },
+              {
+                "value": "8.1",
+                "count": 19
+              },
+              {
+                "value": "8",
+                "count": 17
+              },
+              {
+                "value": "7.2",
+                "count": 14
+              }
+            ]
+          },
+          "signe": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 310
+              },
+              {
+                "value": "<",
+                "count": 38
+              },
+              {
+                "value": ">",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "coliformes_fecaux": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 10.0,
+            "max": 60000.0,
+            "mean": 3342.7416,
+            "median": 245.0,
+            "unique_count": 101,
+            "field_type_detected": "numeric"
+          },
+          "OD_concentration": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 0.8,
+            "max": 19.0,
+            "mean": 8.151,
+            "median": 8.4,
+            "unique_count": 86,
+            "field_type_detected": "numeric"
+          },
+          "OD_pourc": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 6.0,
+            "max": 130.0,
+            "mean": 87.7565,
+            "median": 90.0,
+            "unique_count": 92,
+            "field_type_detected": "numeric"
+          },
+          "MES": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 0.5,
+            "max": 3620.0,
+            "mean": 24.3059,
+            "median": 4.15,
+            "unique_count": 134,
+            "field_type_detected": "numeric"
+          },
+          "phos_total": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 3.0,
+            "max": 3440.0,
+            "mean": 84.2837,
+            "median": 35.0,
+            "unique_count": 135,
+            "field_type_detected": "numeric"
+          },
+          "azote_total": {
+            "null_count": 16,
+            "null_pct": 4.3,
+            "min": 10.0,
+            "max": 2900.0,
+            "mean": 111.4326,
+            "median": 50.0,
+            "unique_count": 48,
+            "field_type_detected": "numeric"
+          },
+          "cot": {
+            "null_count": 372,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ag": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.1,
+            "max": 0.3,
+            "mean": 0.102,
+            "median": 0.1,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 349
+              },
+              {
+                "value": "0.2",
+                "count": 5
+              },
+              {
+                "value": "0.3",
+                "count": 1
+              }
+            ]
+          },
+          "Al": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 5.0,
+            "max": 41400.0,
+            "mean": 328.0958,
+            "median": 56.0,
+            "unique_count": 173,
+            "field_type_detected": "numeric"
+          },
+          "As": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.2,
+            "max": 22.2,
+            "mean": 0.6175,
+            "median": 0.5,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.4",
+                "count": 67
+              },
+              {
+                "value": "0.5",
+                "count": 59
+              },
+              {
+                "value": "0.3",
+                "count": 55
+              },
+              {
+                "value": "0.6",
+                "count": 47
+              },
+              {
+                "value": "0.7",
+                "count": 38
+              },
+              {
+                "value": "0.2",
+                "count": 31
+              },
+              {
+                "value": "0.8",
+                "count": 19
+              },
+              {
+                "value": "1",
+                "count": 11
+              },
+              {
+                "value": "0.9",
+                "count": 8
+              },
+              {
+                "value": "1.1",
+                "count": 4
+              }
+            ]
+          },
+          "Ba": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 5.0,
+            "max": 365.0,
+            "mean": 51.5014,
+            "median": 44.0,
+            "unique_count": 93,
+            "field_type_detected": "numeric"
+          },
+          "Be": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 1.3,
+            "max": 1.3,
+            "mean": 1.3,
+            "median": 1.3,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1.3",
+                "count": 355
+              }
+            ]
+          },
+          "Ca": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 8720.0,
+            "max": 246000.0,
+            "mean": 77004.2254,
+            "median": 67200.0,
+            "unique_count": 277,
+            "field_type_detected": "numeric"
+          },
+          "Cd": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.1,
+            "max": 1.1,
+            "mean": 0.1076,
+            "median": 0.1,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 346
+              },
+              {
+                "value": "0.2",
+                "count": 4
+              },
+              {
+                "value": "0.3",
+                "count": 2
+              },
+              {
+                "value": "0.5",
+                "count": 1
+              },
+              {
+                "value": "0.6",
+                "count": 1
+              },
+              {
+                "value": "1.1",
+                "count": 1
+              }
+            ]
+          },
+          "Co": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.1,
+            "max": 43.4,
+            "mean": 0.5989,
+            "median": 0.2,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 118
+              },
+              {
+                "value": "0.2",
+                "count": 92
+              },
+              {
+                "value": "0.3",
+                "count": 51
+              },
+              {
+                "value": "0.4",
+                "count": 25
+              },
+              {
+                "value": "0.5",
+                "count": 14
+              },
+              {
+                "value": "0.6",
+                "count": 9
+              },
+              {
+                "value": "0.7",
+                "count": 8
+              },
+              {
+                "value": "0.8",
+                "count": 5
+              },
+              {
+                "value": "1.1",
+                "count": 4
+              },
+              {
+                "value": "0.9",
+                "count": 3
+              }
+            ]
+          },
+          "Cr": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.3,
+            "max": 72.6,
+            "mean": 1.113,
+            "median": 0.4,
+            "unique_count": 38,
+            "field_type_detected": "numeric"
+          },
+          "Cu": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.5,
+            "max": 149.0,
+            "mean": 4.8423,
+            "median": 2.2,
+            "unique_count": 91,
+            "field_type_detected": "numeric"
+          },
+          "Fe": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 10.0,
+            "max": 89600.0,
+            "mean": 728.0817,
+            "median": 237.0,
+            "unique_count": 270,
+            "field_type_detected": "numeric"
+          },
+          "K": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 55.0,
+            "max": 36400.0,
+            "mean": 4577.3493,
+            "median": 3270.0,
+            "unique_count": 276,
+            "field_type_detected": "numeric"
+          },
+          "Mg": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 1970.0,
+            "max": 65800.0,
+            "mean": 20518.5915,
+            "median": 16800.0,
+            "unique_count": 264,
+            "field_type_detected": "numeric"
+          },
+          "Mn": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 2.2,
+            "max": 1930.0,
+            "mean": 61.7794,
+            "median": 33.6,
+            "unique_count": 303,
+            "field_type_detected": "numeric"
+          },
+          "Mo": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 1.0,
+            "max": 12.8,
+            "mean": 2.2003,
+            "median": 1.7,
+            "unique_count": 53,
+            "field_type_detected": "numeric"
+          },
+          "Na": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 1070.0,
+            "max": 556000.0,
+            "mean": 92781.7183,
+            "median": 72100.0,
+            "unique_count": 289,
+            "field_type_detected": "numeric"
+          },
+          "Ni": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.2,
+            "max": 114.0,
+            "mean": 2.2769,
+            "median": 1.7,
+            "unique_count": 53,
+            "field_type_detected": "numeric"
+          },
+          "Pb": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.2,
+            "max": 63.3,
+            "mean": 1.0623,
+            "median": 0.3,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "Sb": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.5,
+            "max": 4.3,
+            "mean": 0.5803,
+            "median": 0.5,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.5",
+                "count": 312
+              },
+              {
+                "value": "0.6",
+                "count": 15
+              },
+              {
+                "value": "0.7",
+                "count": 5
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "1.9",
+                "count": 3
+              },
+              {
+                "value": "1.6",
+                "count": 2
+              },
+              {
+                "value": "1.1",
+                "count": 2
+              },
+              {
+                "value": "1.4",
+                "count": 2
+              },
+              {
+                "value": "1.2",
+                "count": 2
+              },
+              {
+                "value": "0.8",
+                "count": 1
+              }
+            ]
+          },
+          "Se": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.5,
+            "max": 9.4,
+            "mean": 0.5389,
+            "median": 0.5,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.5",
+                "count": 336
+              },
+              {
+                "value": "0.6",
+                "count": 7
+              },
+              {
+                "value": "0.7",
+                "count": 4
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "0.8",
+                "count": 2
+              },
+              {
+                "value": "1.1",
+                "count": 1
+              },
+              {
+                "value": "1.3",
+                "count": 1
+              },
+              {
+                "value": "0.9",
+                "count": 1
+              },
+              {
+                "value": "9.4",
+                "count": 1
+              }
+            ]
+          },
+          "Sn": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 1.0,
+            "max": 18.0,
+            "mean": 1.1121,
+            "median": 1.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 338
+              },
+              {
+                "value": "1.3",
+                "count": 2
+              },
+              {
+                "value": "1.8",
+                "count": 2
+              },
+              {
+                "value": "1.2",
+                "count": 2
+              },
+              {
+                "value": "1.4",
+                "count": 1
+              },
+              {
+                "value": "1.7",
+                "count": 1
+              },
+              {
+                "value": "5.9",
+                "count": 1
+              },
+              {
+                "value": "18",
+                "count": 1
+              },
+              {
+                "value": "2.8",
+                "count": 1
+              },
+              {
+                "value": "5.5",
+                "count": 1
+              }
+            ]
+          },
+          "Tl": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.2,
+            "max": 0.8,
+            "mean": 0.2017,
+            "median": 0.2,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.2",
+                "count": 354
+              },
+              {
+                "value": "0.8",
+                "count": 1
+              }
+            ]
+          },
+          "U": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.1,
+            "max": 2.8,
+            "mean": 0.731,
+            "median": 0.6,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.3",
+                "count": 50
+              },
+              {
+                "value": "0.2",
+                "count": 39
+              },
+              {
+                "value": "0.6",
+                "count": 35
+              },
+              {
+                "value": "0.5",
+                "count": 30
+              },
+              {
+                "value": "0.1",
+                "count": 26
+              },
+              {
+                "value": "0.4",
+                "count": 24
+              },
+              {
+                "value": "0.8",
+                "count": 23
+              },
+              {
+                "value": "0.7",
+                "count": 20
+              },
+              {
+                "value": "0.9",
+                "count": 16
+              },
+              {
+                "value": "1.4",
+                "count": 10
+              }
+            ]
+          },
+          "V": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 0.3,
+            "max": 84.8,
+            "mean": 1.031,
+            "median": 0.3,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "Zn": {
+            "null_count": 17,
+            "null_pct": 4.6,
+            "min": 7.0,
+            "max": 538.0,
+            "mean": 17.5859,
+            "median": 7.0,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          },
+          "prec_0_mm": {
+            "null_count": 9,
+            "null_pct": 2.4,
+            "min": 0.0,
+            "max": 19.1,
+            "mean": 0.984,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 314
+              },
+              {
+                "value": "4.5",
+                "count": 13
+              },
+              {
+                "value": "19.1",
+                "count": 8
+              },
+              {
+                "value": "5",
+                "count": 7
+              },
+              {
+                "value": "7.7",
+                "count": 5
+              },
+              {
+                "value": "4.8",
+                "count": 4
+              },
+              {
+                "value": "4.3",
+                "count": 4
+              },
+              {
+                "value": "0.6",
+                "count": 3
+              },
+              {
+                "value": "8.6",
+                "count": 2
+              },
+              {
+                "value": "0.9",
+                "count": 2
+              }
+            ]
+          },
+          "prec_1_mm": {
+            "null_count": 9,
+            "null_pct": 2.4,
+            "min": 0.0,
+            "max": 13.9,
+            "mean": 1.6727,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 263
+              },
+              {
+                "value": "13.9",
+                "count": 17
+              },
+              {
+                "value": "9.8",
+                "count": 17
+              },
+              {
+                "value": "0.6",
+                "count": 17
+              },
+              {
+                "value": "2.7",
+                "count": 14
+              },
+              {
+                "value": "3.6",
+                "count": 13
+              },
+              {
+                "value": "7.8",
+                "count": 13
+              },
+              {
+                "value": "0.9",
+                "count": 9
+              }
+            ]
+          },
+          "prec_2_mm": {
+            "null_count": 9,
+            "null_pct": 2.4,
+            "min": 0.0,
+            "max": 82.7,
+            "mean": 3.0234,
+            "median": 0.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 262
+              },
+              {
+                "value": "5.2",
+                "count": 17
+              },
+              {
+                "value": "2.7",
+                "count": 17
+              },
+              {
+                "value": "8.5",
+                "count": 14
+              },
+              {
+                "value": "1.8",
+                "count": 14
+              },
+              {
+                "value": "0.7",
+                "count": 13
+              },
+              {
+                "value": "2.4",
+                "count": 13
+              },
+              {
+                "value": "82.7",
+                "count": 9
+              },
+              {
+                "value": "8.6",
+                "count": 4
+              }
+            ]
+          },
+          "prec_tot_60h": {
+            "null_count": 9,
+            "null_pct": 2.4,
+            "min": 0.0,
+            "max": 82.7,
+            "mean": 5.6802,
+            "median": 0.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 183
+              },
+              {
+                "value": "5.2",
+                "count": 17
+              },
+              {
+                "value": "16.6",
+                "count": 17
+              },
+              {
+                "value": "9.8",
+                "count": 17
+              },
+              {
+                "value": "11.2",
+                "count": 14
+              },
+              {
+                "value": "1.8",
+                "count": 14
+              },
+              {
+                "value": "0.7",
+                "count": 13
+              },
+              {
+                "value": "3.6",
+                "count": 13
+              },
+              {
+                "value": "10.2",
+                "count": 13
+              },
+              {
+                "value": "5.1",
+                "count": 13
+              }
+            ]
+          },
+          "meteo": {
+            "null_count": 9,
+            "null_pct": 2.4,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.0138,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 183
+              },
+              {
+                "value": "-1",
+                "count": 74
+              },
+              {
+                "value": "-2",
+                "count": 57
+              },
+              {
+                "value": "0",
+                "count": 49
+              }
+            ]
+          },
+          "tournee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 7.0,
+            "mean": 4.0081,
+            "median": 4.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7",
+                "count": 54
+              },
+              {
+                "value": "1",
+                "count": 53
+              },
+              {
+                "value": "2",
+                "count": 53
+              },
+              {
+                "value": "3",
+                "count": 53
+              },
+              {
+                "value": "4",
+                "count": 53
+              },
+              {
+                "value": "5",
+                "count": 53
+              },
+              {
+                "value": "6",
+                "count": 53
+              }
+            ]
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.425192,
+            "max": 45.697341,
+            "mean": 45.493573,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.937066,
+            "max": -73.504677,
+            "mean": -73.727021,
+            "pct_in_montreal_bbox": 84.9,
+            "field_type_detected": "geo_longitude"
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 270613.07,
+            "max": 304435.78,
+            "mean": 287048.187726,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031761.96,
+            "max": 5061939.64,
+            "mean": 5039326.952527,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "0112e9e3-b959-421a-aea4-ed4961079bcc",
+      "name": "Qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs (année courante)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8c149ace-7b2f-4041-99ec-3bdbef5dcee6/resource/0112e9e3-b959-421a-aea4-ed4961079bcc/download/rsma-ruisso-qualite-ruisseaux-plans-eau-interieurs-annee-courante.geojson",
+      "datastore_active": false,
+      "size": 457027,
+      "last_modified": "2025-12-26T21:01:50.541638",
+      "created": "2024-05-17T21:02:12.245941",
+      "schema": null
+    },
+    {
+      "id": "5fe08517-127c-47be-9112-769541e67abd",
+      "name": "Qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs (depuis 2012)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8c149ace-7b2f-4041-99ec-3bdbef5dcee6/resource/5fe08517-127c-47be-9112-769541e67abd/download/rsma-ruisso-qualite-ruisseaux-plans-eau-interieurs-depuis-2012.csv",
+      "datastore_active": true,
+      "size": 2409737,
+      "last_modified": "2026-03-06T21:01:07.429461",
+      "created": "2022-10-27T15:23:21.908751",
+      "schema": {
+        "resource_id": "5fe08517-127c-47be-9112-769541e67abd",
+        "total_records": 5181,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "point_echantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "plan_eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "administration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "descrip_longue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "programme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_prog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "station_nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "conductivite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "coliformes_fecaux",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "OD_concentration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "OD_pourc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "phos_total",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "azote_total",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ag",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Al",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "As",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ba",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Be",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ca",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cd",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "K",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mg",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Na",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ni",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Pb",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Se",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Tl",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "U",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "V",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zn",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_0_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_1_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_2_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_tot_60h",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "meteo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tournee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "point_echantillonnage": "PAP-1",
+            "plan_eau": "Marais du parc-nature de la Pointe-aux-Prairies",
+            "administration": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "nom": "P-N de la Pointe-aux-Prairies",
+            "descrip_longue": "Parc-nature de la Pointe-aux-Prairies, secteur de la rivière des Prairies, déversoir le plus à l'est",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "PAP-1   P-N de la Pointe-aux-Prairies",
+            "date_heure": "2013-04-09T14:08:48",
+            "raison_annulation": null,
+            "temperature": "          3.8",
+            "conductivite": "484",
+            "pH": "7.9",
+            "signe": "<",
+            "coliformes_fecaux": "10",
+            "OD_concentration": "         11.57",
+            "OD_pourc": "         88.00",
+            "MES": "3",
+            "phos_total": "81",
+            "azote_total": "310",
+            "cot": "5.45",
+            "Ag": "0.1",
+            "Al": "170",
+            "As": "0.4",
+            "Ba": "33",
+            "Be": "0.1",
+            "Ca": "42000",
+            "Cd": "0.1",
+            "Co": "0.21",
+            "Cr": "0.96",
+            "Cu": "1.8",
+            "Fe": "460",
+            "K": "4400",
+            "Mg": "19000",
+            "Mn": "62",
+            "Mo": "1",
+            "Na": "27000",
+            "Ni": "1.1",
+            "Pb": "0.2",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.8",
+            "V": "0.89",
+            "Zn": "4.5",
+            "prec_0_mm": "14",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "14",
+            "meteo": "0",
+            "tournee": "1",
+            "latitude": "45.690394475",
+            "longitude": "-73.5204685299",
+            "x": "303205.78",
+            "y": "5061167.83999998"
+          },
+          {
+            "_id": 2,
+            "point_echantillonnage": "DEN-0.8P1",
+            "plan_eau": "Ruisseau Denis",
+            "administration": "Dorval",
+            "nom": "Rue Belmont",
+            "descrip_longue": "Rue Belmont, 200m à l'est du boul. des Sources, branche secondaire provenant de dépôts à neige",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "DEN-0.8P1   Rue Belmont",
+            "date_heure": "2013-05-07T13:29:26",
+            "raison_annulation": null,
+            "temperature": "         14.8",
+            "conductivite": "305",
+            "pH": "8.4",
+            "signe": "=",
+            "coliformes_fecaux": "18",
+            "OD_concentration": "         13.74",
+            "OD_pourc": "        120.60",
+            "MES": "47",
+            "phos_total": "98",
+            "azote_total": "20",
+            "cot": "3.13",
+            "Ag": "0.1",
+            "Al": "1700",
+            "As": "0.56",
+            "Ba": "36",
+            "Be": "0.1",
+            "Ca": "37000",
+            "Cd": "0.1",
+            "Co": "1.5",
+            "Cr": "3.4",
+            "Cu": "10",
+            "Fe": "2000",
+            "K": "1800",
+            "Mg": "4400",
+            "Mn": "49",
+            "Mo": "1",
+            "Na": "24000",
+            "Ni": "5.7",
+            "Pb": "2.9",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "0.32",
+            "V": "3.5",
+            "Zn": "88",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4571451324",
+            "longitude": "-73.7798862479",
+            "x": "282910.234",
+            "y": "5035284.29999998"
+          },
+          {
+            "_id": 3,
+            "point_echantillonnage": "BOU-1.0",
+            "plan_eau": "Ruisseau Bouchard",
+            "administration": "Dorval",
+            "nom": "Boul. Bouchard",
+            "descrip_longue": "Ponceau du boul. Bouchard, 150m à l'ouest du boul. Galland.",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "BOU-1.0   Boul. Bouchard",
+            "date_heure": "2013-04-24T11:57:46",
+            "raison_annulation": null,
+            "temperature": "          9.8",
+            "conductivite": "1228",
+            "pH": "7.9",
+            "signe": "<",
+            "coliformes_fecaux": "10",
+            "OD_concentration": "          9.26",
+            "OD_pourc": "         82.00",
+            "MES": "12",
+            "phos_total": "37",
+            "azote_total": "130",
+            "cot": "9.47",
+            "Ag": "0.1",
+            "Al": "230",
+            "As": "0.36",
+            "Ba": "51",
+            "Be": "0.1",
+            "Ca": "86000",
+            "Cd": "0.1",
+            "Co": "0.62",
+            "Cr": "1.2",
+            "Cu": "2.7",
+            "Fe": "790",
+            "K": "4700",
+            "Mg": "21000",
+            "Mn": "87",
+            "Mo": "2.4",
+            "Na": "140000",
+            "Ni": "2.4",
+            "Pb": "1",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "1.2",
+            "V": "1.1",
+            "Zn": "13",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4460077533",
+            "longitude": "-73.7253003703",
+            "x": "287175.9",
+            "y": "5034033.2"
+          },
+          {
+            "_id": 4,
+            "point_echantillonnage": "DEN-2.6",
+            "plan_eau": "Ruisseau Denis",
+            "administration": "Dorval",
+            "nom": "Av. Reverchon",
+            "descrip_longue": "Rue Reverchon, 100m à l'est du cr. Newman",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "DEN-2.6   Av. Reverchon",
+            "date_heure": "2013-05-07T13:16:04",
+            "raison_annulation": null,
+            "temperature": "         15.6",
+            "conductivite": "1165",
+            "pH": "8",
+            "signe": "=",
+            "coliformes_fecaux": "550",
+            "OD_concentration": "         11.88",
+            "OD_pourc": "        119.80",
+            "MES": "460",
+            "phos_total": "510",
+            "azote_total": "54",
+            "cot": "4.22",
+            "Ag": "0.1",
+            "Al": "6500",
+            "As": "5.3",
+            "Ba": "250",
+            "Be": "0.36",
+            "Ca": "100000",
+            "Cd": "0.14",
+            "Co": "7.5",
+            "Cr": "21",
+            "Cu": "35",
+            "Fe": "11000",
+            "K": "6000",
+            "Mg": "24000",
+            "Mn": "220",
+            "Mo": "5.7",
+            "Na": "140000",
+            "Ni": "20",
+            "Pb": "32",
+            "Sb": "1.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "0.98",
+            "V": "17",
+            "Zn": "140",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4660700012",
+            "longitude": "-73.7801656599",
+            "x": "282891.839",
+            "y": "5036276.2"
+          },
+          {
+            "_id": 5,
+            "point_echantillonnage": "DEN-3.2",
+            "plan_eau": "Ruisseau Denis",
+            "administration": "Pointe-Claire",
+            "nom": "Ch. Aviation",
+            "descrip_longue": "Rue de l'Aviation, 300 m. à l'est du boul. des Sources",
+            "programme": "R",
+            "sous_prog": "R",
+            "station_nom": "DEN-3.2   Ch. Aviation",
+            "date_heure": "2013-05-07T13:03:18",
+            "raison_annulation": null,
+            "temperature": "         15.0",
+            "conductivite": "1343",
+            "pH": "7.7",
+            "signe": "=",
+            "coliformes_fecaux": "1300",
+            "OD_concentration": "         12.15",
+            "OD_pourc": "        121.10",
+            "MES": "31",
+            "phos_total": "75",
+            "azote_total": "85",
+            "cot": "3.84",
+            "Ag": "0.1",
+            "Al": "730",
+            "As": "0.48",
+            "Ba": "52",
+            "Be": "0.1",
+            "Ca": "94000",
+            "Cd": "0.1",
+            "Co": "1.4",
+            "Cr": "2.1",
+            "Cu": "5.7",
+            "Fe": "1300",
+            "K": "3400",
+            "Mg": "24000",
+            "Mn": "50",
+            "Mo": "1.4",
+            "Na": "150000",
+            "Ni": "2.8",
+            "Pb": "2.4",
+            "Sb": "0.5",
+            "Se": "0.5",
+            "Sn": "1",
+            "Tl": "0.2",
+            "U": "0.73",
+            "V": "2.1",
+            "Zn": "17",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4699534797",
+            "longitude": "-73.7861966608",
+            "x": "282421.768",
+            "y": "5036709.42999999"
+          }
+        ]
+      },
+      "field_stats": {
+        "point_echantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "plan_eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "administration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "descrip_longue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "programme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_prog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "station_nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 4905,
+          "null_pct": 94.7,
+          "populated_pct": 5.3
+        },
+        "temperature": {
+          "null_count": 281,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "conductivite": {
+          "null_count": 282,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "pH": {
+          "null_count": 295,
+          "null_pct": 5.7,
+          "populated_pct": 94.3
+        },
+        "signe": {
+          "null_count": 277,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "coliformes_fecaux": {
+          "null_count": 277,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "OD_concentration": {
+          "null_count": 457,
+          "null_pct": 8.8,
+          "populated_pct": 91.2
+        },
+        "OD_pourc": {
+          "null_count": 466,
+          "null_pct": 9.0,
+          "populated_pct": 91.0
+        },
+        "MES": {
+          "null_count": 280,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "phos_total": {
+          "null_count": 307,
+          "null_pct": 5.9,
+          "populated_pct": 94.1
+        },
+        "azote_total": {
+          "null_count": 276,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "cot": {
+          "null_count": 3118,
+          "null_pct": 60.2,
+          "populated_pct": 39.8
+        },
+        "Ag": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "Al": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "As": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "Ba": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "Be": {
+          "null_count": 277,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "Ca": {
+          "null_count": 277,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "Cd": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "Co": {
+          "null_count": 308,
+          "null_pct": 5.9,
+          "populated_pct": 94.1
+        },
+        "Cr": {
+          "null_count": 278,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5181,
+        "audited_at": "2026-03-10T00:24:14.273253+00:00",
+        "fields": {
+          "point_echantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "BOU-1.5P2",
+                "count": 20
+              },
+              {
+                "value": "BOU-0.0",
+                "count": 20
+              },
+              {
+                "value": "CLA-0.0",
+                "count": 20
+              },
+              {
+                "value": "CLA-11.2",
+                "count": 20
+              },
+              {
+                "value": "JAM-1.3",
+                "count": 20
+              },
+              {
+                "value": "BOU-1.0",
+                "count": 19
+              },
+              {
+                "value": "BOU-2.1",
+                "count": 19
+              },
+              {
+                "value": "AAO-0.0",
+                "count": 19
+              },
+              {
+                "value": "CAS-1",
+                "count": 19
+              },
+              {
+                "value": "MON-0.0",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "plan_eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "Ruisseau Bouchard",
+                "count": 135
+              },
+              {
+                "value": "Rivière à l'Orme",
+                "count": 93
+              },
+              {
+                "value": "Ruisseau Bertrand",
+                "count": 89
+              },
+              {
+                "value": "Canal de Lachine",
+                "count": 77
+              },
+              {
+                "value": "Ruisseau De Montigny",
+                "count": 74
+              },
+              {
+                "value": "Ruisseau Denis",
+                "count": 70
+              },
+              {
+                "value": "Ruisseau Saint-James",
+                "count": 38
+              },
+              {
+                "value": "Marais du parc-nature de la Pointe-aux-Prairies",
+                "count": 36
+              },
+              {
+                "value": "Ruisseau Pinel",
+                "count": 36
+              },
+              {
+                "value": "Marais du Faubourg (marais Perché du boul. Gouin E.)",
+                "count": 35
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "administration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Dorval",
+                "count": 194
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 143
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 75
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 73
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 72
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 51
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 39
+              },
+              {
+                "value": "L'Île-Bizard-Sainte-Geneviève",
+                "count": 39
+              },
+              {
+                "value": "Baie d'Urfé",
+                "count": 38
+              },
+              {
+                "value": "Lachine",
+                "count": 38
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 60,
+            "top_values": [
+              {
+                "value": "Embouchure du ruisseau",
+                "count": 92
+              },
+              {
+                "value": "P-N de la Pointe-aux-Prairies",
+                "count": 36
+              },
+              {
+                "value": "Rue Guthrie",
+                "count": 20
+              },
+              {
+                "value": "Ch. Iroquois",
+                "count": 20
+              },
+              {
+                "value": "Rue Commune Ouest",
+                "count": 20
+              },
+              {
+                "value": "Rue Pointe-Claire",
+                "count": 20
+              },
+              {
+                "value": "Boul. Bouchard",
+                "count": 19
+              },
+              {
+                "value": "Rue Orly",
+                "count": 19
+              },
+              {
+                "value": "Embouchure de la rivière",
+                "count": 19
+              },
+              {
+                "value": "Ch. Remembrance",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "descrip_longue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "Rencontre des rues Lépine et Meloche, côté sud.",
+                "count": 20
+              },
+              {
+                "value": "Amont ponceau de la rue Sévigny sortie du ruisseau au lac St-Louis.",
+                "count": 20
+              },
+              {
+                "value": "Amont du pont du Ch.du Musée, côté sud du canal, effluent du lac St-Louis vers le canal, en amont de l'écluse.",
+                "count": 20
+              },
+              {
+                "value": "Parc du canal de Lachine, à l'intersection des rues Prince et de la Commune, en amont de l'écluse sur le quai.",
+                "count": 20
+              },
+              {
+                "value": "Extrémité nord de l'ave Pointe-Claire, 30m vers l'ouest, en aval du ponceau de l'autoroute 20.",
+                "count": 20
+              },
+              {
+                "value": "Ponceau du boul. Bouchard, 150m à l'ouest du boul. Galland.",
+                "count": 19
+              },
+              {
+                "value": "Aval du ponceau de la rue Orly, 100m au nord de l'ave Guthrie.",
+                "count": 19
+              },
+              {
+                "value": "Pierrefonds, boul. Gouin O, 40m au nord de la rue de l'Anse à l'Orme, exutoire au lac des Deux Montagnes.",
+                "count": 19
+              },
+              {
+                "value": "Parc du Mont-Royal, effluent du lac des Castors, 100m à l'est de la rue Remembrance, près du chalet.",
+                "count": 19
+              },
+              {
+                "value": "Boul. Gouin E., 250m à l'ouest de l'ave Ozias-Leduc, effluent à la rivière des Prairies.",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "programme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_prog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "station_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "BOU-1.5P2   Rue Guthrie",
+                "count": 20
+              },
+              {
+                "value": "BOU-0.0   Embouchure du ruisseau",
+                "count": 20
+              },
+              {
+                "value": "CLA-0.0   Ch. Iroquois",
+                "count": 20
+              },
+              {
+                "value": "CLA-11.2   Rue Commune Ouest",
+                "count": 20
+              },
+              {
+                "value": "JAM-1.3   Rue Pointe-Claire",
+                "count": 20
+              },
+              {
+                "value": "BOU-1.0   Boul. Bouchard",
+                "count": 19
+              },
+              {
+                "value": "BOU-2.1   Rue Orly",
+                "count": 19
+              },
+              {
+                "value": "AAO-0.0   Embouchure de la rivière",
+                "count": 19
+              },
+              {
+                "value": "CAS-1   Ch. Remembrance",
+                "count": 19
+              },
+              {
+                "value": "MON-0.0   Embouchure du ruisseau",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-05-16T09:05:53",
+            "max_date": "2020-07-29T11:37:34",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "raison_annulation": {
+            "null_count": 919,
+            "null_pct": 91.9,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Non représentatif",
+                "count": 42
+              },
+              {
+                "value": "À sec",
+                "count": 28
+              },
+              {
+                "value": "Inaccessible",
+                "count": 9
+              },
+              {
+                "value": "Niveau trop faible",
+                "count": 1
+              },
+              {
+                "value": "Annulé par le laboratoire",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "temperature": {
+            "null_count": 80,
+            "null_pct": 8.0,
+            "min": 0.5,
+            "max": 29.6,
+            "mean": 15.4435,
+            "median": 15.5,
+            "unique_count": 247,
+            "field_type_detected": "numeric"
+          },
+          "conductivite": {
+            "null_count": 79,
+            "null_pct": 7.9,
+            "min": 7.22,
+            "max": 2938.0,
+            "mean": 896.1128,
+            "median": 797.0,
+            "unique_count": 727,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 80,
+            "null_pct": 8.0,
+            "min": 6.7,
+            "max": 9.8,
+            "mean": 8.0435,
+            "median": 8.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "8",
+                "count": 121
+              },
+              {
+                "value": "8.1",
+                "count": 117
+              },
+              {
+                "value": "8.2",
+                "count": 104
+              },
+              {
+                "value": "7.9",
+                "count": 99
+              },
+              {
+                "value": "7.8",
+                "count": 97
+              },
+              {
+                "value": "8.3",
+                "count": 66
+              },
+              {
+                "value": "7.7",
+                "count": 60
+              },
+              {
+                "value": "7.6",
+                "count": 44
+              },
+              {
+                "value": "8.5",
+                "count": 41
+              },
+              {
+                "value": "8.4",
+                "count": 37
+              }
+            ]
+          },
+          "signe": {
+            "null_count": 83,
+            "null_pct": 8.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 733
+              },
+              {
+                "value": "<",
+                "count": 181
+              },
+              {
+                "value": ">",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "coliformes_fecaux": {
+            "null_count": 83,
+            "null_pct": 8.3,
+            "min": 9.0,
+            "max": 60000.0,
+            "mean": 2115.5431,
+            "median": 140.0,
+            "unique_count": 154,
+            "field_type_detected": "numeric"
+          },
+          "OD_concentration": {
+            "null_count": 101,
+            "null_pct": 10.1,
+            "min": 1.3,
+            "max": 19.73,
+            "mean": 9.2186,
+            "median": 9.2,
+            "unique_count": 551,
+            "field_type_detected": "numeric"
+          },
+          "OD_pourc": {
+            "null_count": 99,
+            "null_pct": 9.9,
+            "min": 16.0,
+            "max": 130.0,
+            "mean": 90.9511,
+            "median": 93.0,
+            "unique_count": 312,
+            "field_type_detected": "numeric"
+          },
+          "MES": {
+            "null_count": 83,
+            "null_pct": 8.3,
+            "min": 0.5,
+            "max": 820.0,
+            "mean": 12.2766,
+            "median": 4.6,
+            "unique_count": 257,
+            "field_type_detected": "numeric"
+          },
+          "phos_total": {
+            "null_count": 81,
+            "null_pct": 8.1,
+            "min": 3.0,
+            "max": 2290.0,
+            "mean": 66.603,
+            "median": 38.405,
+            "unique_count": 609,
+            "field_type_detected": "numeric"
+          },
+          "azote_total": {
+            "null_count": 81,
+            "null_pct": 8.1,
+            "min": 10.0,
+            "max": 1600.0,
+            "mean": 76.8674,
+            "median": 20.0,
+            "unique_count": 265,
+            "field_type_detected": "numeric"
+          },
+          "cot": {
+            "null_count": 104,
+            "null_pct": 10.4,
+            "min": 1.39,
+            "max": 121.25,
+            "mean": 6.0637,
+            "median": 4.745,
+            "unique_count": 567,
+            "field_type_detected": "numeric"
+          },
+          "Ag": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.1,
+            "max": 1.149,
+            "mean": 0.1049,
+            "median": 0.1,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 890
+              },
+              {
+                "value": "0.11",
+                "count": 2
+              },
+              {
+                "value": "0.19",
+                "count": 2
+              },
+              {
+                "value": "0.31",
+                "count": 1
+              },
+              {
+                "value": "1.149",
+                "count": 1
+              },
+              {
+                "value": "0.119",
+                "count": 1
+              },
+              {
+                "value": "0.172",
+                "count": 1
+              },
+              {
+                "value": "0.124",
+                "count": 1
+              },
+              {
+                "value": "0.142",
+                "count": 1
+              },
+              {
+                "value": "0.113",
+                "count": 1
+              }
+            ]
+          },
+          "Al": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 5.0,
+            "max": 14000.0,
+            "mean": 250.9879,
+            "median": 96.51,
+            "unique_count": 732,
+            "field_type_detected": "numeric"
+          },
+          "As": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.2,
+            "max": 5.3,
+            "mean": 0.5958,
+            "median": 0.5095,
+            "unique_count": 434,
+            "field_type_detected": "numeric"
+          },
+          "Ba": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 5.0,
+            "max": 270.0,
+            "mean": 49.5989,
+            "median": 47.0,
+            "unique_count": 610,
+            "field_type_detected": "numeric"
+          },
+          "Be": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.1,
+            "max": 1.3,
+            "mean": 0.1306,
+            "median": 0.1,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 884
+              },
+              {
+                "value": "1.3",
+                "count": 22
+              },
+              {
+                "value": "0.36",
+                "count": 1
+              },
+              {
+                "value": "0.118",
+                "count": 1
+              },
+              {
+                "value": "0.215",
+                "count": 1
+              },
+              {
+                "value": "0.11",
+                "count": 1
+              },
+              {
+                "value": "0.135",
+                "count": 1
+              },
+              {
+                "value": "0.106",
+                "count": 1
+              },
+              {
+                "value": "0.134",
+                "count": 1
+              },
+              {
+                "value": "0.113",
+                "count": 1
+              }
+            ]
+          },
+          "Ca": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 7800.0,
+            "max": 280000.0,
+            "mean": 75483.9412,
+            "median": 68880.0,
+            "unique_count": 676,
+            "field_type_detected": "numeric"
+          },
+          "Cd": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.1,
+            "max": 0.786,
+            "mean": 0.1056,
+            "median": 0.1,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.1",
+                "count": 875
+              },
+              {
+                "value": "0.11",
+                "count": 5
+              },
+              {
+                "value": "0.2",
+                "count": 5
+              },
+              {
+                "value": "0.14",
+                "count": 4
+              },
+              {
+                "value": "0.12",
+                "count": 3
+              },
+              {
+                "value": "0.114",
+                "count": 2
+              },
+              {
+                "value": "0.16",
+                "count": 2
+              },
+              {
+                "value": "0.101",
+                "count": 1
+              },
+              {
+                "value": "0.117",
+                "count": 1
+              },
+              {
+                "value": "0.786",
+                "count": 1
+              }
+            ]
+          },
+          "Co": {
+            "null_count": 86,
+            "null_pct": 8.6,
+            "min": 0.1,
+            "max": 17.0,
+            "mean": 0.3418,
+            "median": 0.1955,
+            "unique_count": 303,
+            "field_type_detected": "numeric"
+          },
+          "Cr": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.3,
+            "max": 31.0,
+            "mean": 1.1401,
+            "median": 0.65,
+            "unique_count": 423,
+            "field_type_detected": "numeric"
+          },
+          "Cu": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.5,
+            "max": 55.0,
+            "mean": 3.6295,
+            "median": 2.205,
+            "unique_count": 567,
+            "field_type_detected": "numeric"
+          },
+          "Fe": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 10.0,
+            "max": 37000.0,
+            "mean": 538.1931,
+            "median": 308.0,
+            "unique_count": 732,
+            "field_type_detected": "numeric"
+          },
+          "K": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 50.0,
+            "max": 40300.0,
+            "mean": 4102.7366,
+            "median": 3371.0,
+            "unique_count": 644,
+            "field_type_detected": "numeric"
+          },
+          "Mg": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 1300.0,
+            "max": 56600.0,
+            "mean": 19962.0109,
+            "median": 17751.0,
+            "unique_count": 654,
+            "field_type_detected": "numeric"
+          },
+          "Mn": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.459,
+            "max": 3326.18,
+            "mean": 56.7491,
+            "median": 29.35,
+            "unique_count": 721,
+            "field_type_detected": "numeric"
+          },
+          "Mo": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 1.0,
+            "max": 68.6,
+            "mean": 2.2553,
+            "median": 1.5275,
+            "unique_count": 385,
+            "field_type_detected": "numeric"
+          },
+          "Na": {
+            "null_count": 110,
+            "null_pct": 11.0,
+            "min": 2500.0,
+            "max": 420000.0,
+            "mean": 74271.209,
+            "median": 58850.0,
+            "unique_count": 666,
+            "field_type_detected": "numeric"
+          },
+          "Ni": {
+            "null_count": 86,
+            "null_pct": 8.6,
+            "min": 0.4,
+            "max": 49.0,
+            "mean": 2.173,
+            "median": 1.8,
+            "unique_count": 524,
+            "field_type_detected": "numeric"
+          },
+          "Pb": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.2,
+            "max": 32.0,
+            "mean": 0.8941,
+            "median": 0.3585,
+            "unique_count": 391,
+            "field_type_detected": "numeric"
+          },
+          "Sb": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.5,
+            "max": 2.1,
+            "mean": 0.5163,
+            "median": 0.5,
+            "unique_count": 55,
+            "field_type_detected": "numeric"
+          },
+          "Se": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.5,
+            "max": 4.198,
+            "mean": 0.539,
+            "median": 0.5,
+            "unique_count": 51,
+            "field_type_detected": "numeric"
+          },
+          "Sn": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 1.0,
+            "max": 4.91,
+            "mean": 1.0178,
+            "median": 1.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 897
+              },
+              {
+                "value": "1.1",
+                "count": 2
+              },
+              {
+                "value": "2.1",
+                "count": 2
+              },
+              {
+                "value": "4.9",
+                "count": 1
+              },
+              {
+                "value": "1.342",
+                "count": 1
+              },
+              {
+                "value": "1.102",
+                "count": 1
+              },
+              {
+                "value": "3.258",
+                "count": 1
+              },
+              {
+                "value": "1.05",
+                "count": 1
+              },
+              {
+                "value": "1.264",
+                "count": 1
+              },
+              {
+                "value": "1.011",
+                "count": 1
+              }
+            ]
+          },
+          "Tl": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.2,
+            "max": 0.5,
+            "mean": 0.2009,
+            "median": 0.2,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.2",
+                "count": 914
+              },
+              {
+                "value": "0.5",
+                "count": 1
+              },
+              {
+                "value": "0.46",
+                "count": 1
+              },
+              {
+                "value": "0.35",
+                "count": 1
+              },
+              {
+                "value": "0.29",
+                "count": 1
+              }
+            ]
+          },
+          "U": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.1,
+            "max": 6.192,
+            "mean": 0.8942,
+            "median": 0.6985,
+            "unique_count": 534,
+            "field_type_detected": "numeric"
+          },
+          "V": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 0.2,
+            "max": 30.0,
+            "mean": 1.1705,
+            "median": 0.8415,
+            "unique_count": 531,
+            "field_type_detected": "numeric"
+          },
+          "Zn": {
+            "null_count": 82,
+            "null_pct": 8.2,
+            "min": 3.0,
+            "max": 275.02,
+            "mean": 13.2008,
+            "median": 7.816,
+            "unique_count": 509,
+            "field_type_detected": "numeric"
+          },
+          "prec_0_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 17.2,
+            "mean": 1.7764,
+            "median": 0.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "prec_1_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 43.5,
+            "mean": 2.0995,
+            "median": 0.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 745
+              },
+              {
+                "value": "0.7",
+                "count": 36
+              },
+              {
+                "value": "2.2",
+                "count": 18
+              },
+              {
+                "value": "10.2",
+                "count": 16
+              },
+              {
+                "value": "4.1",
+                "count": 16
+              },
+              {
+                "value": "7",
+                "count": 16
+              },
+              {
+                "value": "4.6",
+                "count": 15
+              },
+              {
+                "value": "11.1",
+                "count": 15
+              },
+              {
+                "value": "18.2",
+                "count": 15
+              },
+              {
+                "value": "1.2",
+                "count": 15
+              }
+            ]
+          },
+          "prec_2_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 21.0,
+            "mean": 1.396,
+            "median": 0.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 751
+              },
+              {
+                "value": "2.6",
+                "count": 26
+              },
+              {
+                "value": "1.2",
+                "count": 16
+              },
+              {
+                "value": "3.8",
+                "count": 16
+              },
+              {
+                "value": "18.2",
+                "count": 16
+              },
+              {
+                "value": "9",
+                "count": 16
+              },
+              {
+                "value": "0.8",
+                "count": 15
+              },
+              {
+                "value": "5.5",
+                "count": 15
+              },
+              {
+                "value": "2.7",
+                "count": 15
+              },
+              {
+                "value": "1.8",
+                "count": 15
+              }
+            ]
+          },
+          "prec_tot_60h": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 43.5,
+            "mean": 5.2719,
+            "median": 1.6,
+            "unique_count": 55,
+            "field_type_detected": "numeric"
+          },
+          "meteo": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": 0.004,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 426
+              },
+              {
+                "value": "0",
+                "count": 282
+              },
+              {
+                "value": "-1",
+                "count": 162
+              },
+              {
+                "value": "-2",
+                "count": 130
+              }
+            ]
+          },
+          "tournee": {
+            "null_count": 8,
+            "null_pct": 0.8,
+            "min": 1.0,
+            "max": 7.0,
+            "mean": 3.6552,
+            "median": 3.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 204
+              },
+              {
+                "value": "2",
+                "count": 163
+              },
+              {
+                "value": "6",
+                "count": 147
+              },
+              {
+                "value": "3",
+                "count": 142
+              },
+              {
+                "value": "5",
+                "count": 120
+              },
+              {
+                "value": "4",
+                "count": 108
+              },
+              {
+                "value": "7",
+                "count": 108
+              }
+            ]
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.425192,
+            "max": 45.697341,
+            "mean": 45.504338,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.937066,
+            "max": -73.504677,
+            "mean": -73.718163,
+            "pct_in_montreal_bbox": 85.3,
+            "field_type_detected": "geo_longitude"
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 270613.07,
+            "max": 304435.78,
+            "mean": 287742.085754,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5031761.96,
+            "max": 5061939.64,
+            "mean": 5040521.883404,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "c3a3a0a9-b53b-4262-a295-04f6e429fca3",
+      "name": "Qualité bactériologique et physicochimique des ruisseaux et plans d’eau intérieurs (depuis 2012)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8c149ace-7b2f-4041-99ec-3bdbef5dcee6/resource/c3a3a0a9-b53b-4262-a295-04f6e429fca3/download/rsma-ruisso-qualite-ruisseaux-plans-eau-interieurs-depuis-2012.geojson",
+      "datastore_active": false,
+      "size": 6388743,
+      "last_modified": "2026-03-06T21:01:44.824616",
+      "created": "2022-10-27T15:24:08.743872",
+      "schema": null
+    },
+    {
+      "id": "f0a1d8e0-cf30-4ade-84ec-85c13df1d9ec",
+      "name": "RSMA – Données RUISSO 2011",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage \r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI :      Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), \r\nAl (ug/L) : Aluminium (µg/L), \r\nAs (ug/L) : Arsenic (µg/L), \r\nBa (ug/L) : Baryum (µg/L), \r\nBe (ug/L) : Béryllium (µg/L), \r\nCa (ug/L) : Calcium (µg/L), \r\nCd (ug/L) : Cadmium (µg/L), \r\nCo (ug/L) : Cobalt (µg/L), \r\nCr (ug/L) : Chrome (µg/L), \r\nCu (ug/L) : Cuivre (µg/L), \r\nFe (ug/L) : Fer (µg/L), \r\nK (ug/L) : Potassium (µg/L), \r\nMg (ug/L) : Magnésium (µg/L), \r\nMn (ug/L) : Manganèse (µg/L), \r\nMo (ug/L) : Molybdène (µg/L), \r\nNa (ug/L)\t: Sodium (µg/L), \r\nNH3 (µg/L) : Azote ammoniacal (µg-N/L), \r\nNi (ug/L) : Nickel (µg/L), \r\nP (ug/L) : Phosphore total (µg/L), \r\nPb (ug/L) : Plomb (µg/L), \r\nMES (mg/L) : Matières en suspension (mg/L), \r\nSb (ug/L) : Antimoine (µg/L), \r\nSe (ug/L) : Sélénium (µg/L), \r\nU (ug/L) : Uranium (µg/L), \r\nV (ug/L) : Vanadium (µg/L), \r\nZn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8c149ace-7b2f-4041-99ec-3bdbef5dcee6/resource/f0a1d8e0-cf30-4ade-84ec-85c13df1d9ec/download/donnees_ruisso_2011.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-02-07T19:06:06.276707",
+      "created": "2016-01-13T11:58:13.755555",
+      "schema": {
+        "resource_id": "f0a1d8e0-cf30-4ade-84ec-85c13df1d9ec",
+        "total_records": 384,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ag (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Al (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "As (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ba (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Be (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ca (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cd (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Co (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "COT (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cr (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cu (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Fe (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "K (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mg (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mn (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mo (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Na (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ni (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pb (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MES  (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Sb (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Se (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Sn2 ug/L",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "U (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "V (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Zn (µg/L)",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "AAO-0.0",
+            "Date": "2011-06-07T11:25:48",
+            "%OD": 82,
+            "O2 (mg/L)": 755,
+            "Conductivité (µs/cm2)": 1361,
+            "pH": 77,
+            "Température (oC)": 17,
+            "Signe COLI": "=",
+            "COLI": 190,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 6778,
+            "As (µg/L)": 6,
+            "Ba (µg/L)": 734,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 98980,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 6,
+            "COT (µg/L)": 4,
+            "Cr (µg/L)": 16,
+            "Cu (µg/L)": 354,
+            "Fe (µg/L)": 9938,
+            "K (µg/L)": 3754,
+            "Mg (µg/L)": 33920,
+            "Mn (µg/L)": 1096,
+            "Mo (µg/L)": 39,
+            "Na (µg/L)": null,
+            "NH3 (µg/L)": 1094,
+            "Ni (µg/L)": 3,
+            "Ptot (µg/L)": 91,
+            "Pb (µg/L)": 22,
+            "MES  (mg/L)": 251,
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 1,
+            "U (µg/L)": 18,
+            "V (µg/L)": 22,
+            "Zn (µg/L)": 116
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "AAO-0.0",
+            "Date": "2011-07-19T12:04:40",
+            "%OD": 52,
+            "O2 (mg/L)": 461,
+            "Conductivité (µs/cm2)": 1416,
+            "pH": 77,
+            "Température (oC)": 211,
+            "Signe COLI": "=",
+            "COLI": 27,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 104,
+            "As (µg/L)": 9,
+            "Ba (µg/L)": 702,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 106358,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 2,
+            "COT (µg/L)": 42,
+            "Cr (µg/L)": 4,
+            "Cu (µg/L)": 1967,
+            "Fe (µg/L)": 2494,
+            "K (µg/L)": 4444,
+            "Mg (µg/L)": 36900,
+            "Mn (µg/L)": 321,
+            "Mo (µg/L)": 41,
+            "Na (µg/L)": 131660,
+            "NH3 (µg/L)": 235,
+            "Ni (µg/L)": 22,
+            "Ptot (µg/L)": 59,
+            "Pb (µg/L)": 6,
+            "MES  (mg/L)": 33,
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 1,
+            "U (µg/L)": 18,
+            "V (µg/L)": 13,
+            "Zn (µg/L)": 75
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "AAO-0.0",
+            "Date": "2011-10-03T10:56:51",
+            "%OD": 72,
+            "O2 (mg/L)": 747,
+            "Conductivité (µs/cm2)": 797,
+            "pH": 75,
+            "Température (oC)": 132,
+            "Signe COLI": "=",
+            "COLI": 1300,
+            "MÉTÉO": 0,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 6958,
+            "As (µg/L)": 5,
+            "Ba (µg/L)": 546,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 67400,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 4,
+            "COT (µg/L)": 47,
+            "Cr (µg/L)": 17,
+            "Cu (µg/L)": 3748,
+            "Fe (µg/L)": 6912,
+            "K (µg/L)": 3028,
+            "Mg (µg/L)": 19000,
+            "Mn (µg/L)": 322,
+            "Mo (µg/L)": 26,
+            "Na (µg/L)": 58900,
+            "NH3 (µg/L)": 348,
+            "Ni (µg/L)": 24,
+            "Ptot (µg/L)": 58,
+            "Pb (µg/L)": 12,
+            "MES  (mg/L)": 105,
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 1,
+            "U (µg/L)": 11,
+            "V (µg/L)": 17,
+            "Zn (µg/L)": 92
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "AAO-0.0",
+            "Date": "2011-10-18T11:14:45",
+            "%OD": 81,
+            "O2 (mg/L)": 869,
+            "Conductivité (µs/cm2)": 1368,
+            "pH": 78,
+            "Température (oC)": 118,
+            "Signe COLI": "=",
+            "COLI": 120,
+            "MÉTÉO": -2,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 3568,
+            "As (µg/L)": 5,
+            "Ba (µg/L)": 739,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 102312,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 3,
+            "COT (µg/L)": 44,
+            "Cr (µg/L)": 8,
+            "Cu (µg/L)": 3226,
+            "Fe (µg/L)": 4994,
+            "K (µg/L)": 4166,
+            "Mg (µg/L)": 32000,
+            "Mn (µg/L)": 421,
+            "Mo (µg/L)": 36,
+            "Na (µg/L)": 119688,
+            "NH3 (µg/L)": 388,
+            "Ni (µg/L)": 29,
+            "Ptot (µg/L)": 52,
+            "Pb (µg/L)": 8,
+            "MES  (mg/L)": 61,
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 1,
+            "U (µg/L)": 18,
+            "V (µg/L)": 13,
+            "Zn (µg/L)": 75
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "AAO-0.0",
+            "Date": "2011-11-14T11:28:38",
+            "%OD": 83,
+            "O2 (mg/L)": 924,
+            "Conductivité (µs/cm2)": 1325,
+            "pH": 78,
+            "Température (oC)": 104,
+            "Signe COLI": "=",
+            "COLI": 130,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 2324,
+            "As (µg/L)": 5,
+            "Ba (µg/L)": 784,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 119050,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 2,
+            "COT (µg/L)": 34,
+            "Cr (µg/L)": 9,
+            "Cu (µg/L)": 1694,
+            "Fe (µg/L)": 436,
+            "K (µg/L)": 4722,
+            "Mg (µg/L)": 41240,
+            "Mn (µg/L)": 382,
+            "Mo (µg/L)": 4,
+            "Na (µg/L)": 109076,
+            "NH3 (µg/L)": 494,
+            "Ni (µg/L)": 26,
+            "Ptot (µg/L)": 35,
+            "Pb (µg/L)": 9,
+            "MES  (mg/L)": 63,
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 1,
+            "U (µg/L)": 19,
+            "V (µg/L)": 1,
+            "Zn (µg/L)": 91
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 41,
+          "null_pct": 10.7,
+          "populated_pct": 89.3
+        },
+        "O2 (mg/L)": {
+          "null_count": 40,
+          "null_pct": 10.4,
+          "populated_pct": 89.6
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "pH": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Température (oC)": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ag (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Al (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "As (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ba (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Be (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ca (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cd (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Co (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COT (µg/L)": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Cr (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cu (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fe (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "K (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mg (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mn (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mo (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Na (µg/L)": {
+          "null_count": 25,
+          "null_pct": 6.5,
+          "populated_pct": 93.5
+        },
+        "NH3 (µg/L)": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Ni (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ptot (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 384,
+        "total_records": 384,
+        "audited_at": "2026-03-10T00:24:15.397581+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "AAO-0.0",
+                "count": 7
+              },
+              {
+                "value": "AAO-2.0P4",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.3P6",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.5",
+                "count": 7
+              },
+              {
+                "value": "AAO-3.6",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.4P12",
+                "count": 7
+              },
+              {
+                "value": "AAO-6.5",
+                "count": 7
+              },
+              {
+                "value": "ANG-2",
+                "count": 7
+              },
+              {
+                "value": "BER-0.0",
+                "count": 7
+              },
+              {
+                "value": "BER-0.7P1",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2011-05-03T11:30:59",
+            "max_date": "2011-11-22T10:24:50",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "%OD": {
+            "null_count": 41,
+            "null_pct": 10.7,
+            "min": 43.0,
+            "max": 130.0,
+            "mean": 91.8309,
+            "median": 94.0,
+            "unique_count": 78,
+            "field_type_detected": "numeric"
+          },
+          "O2 (mg/L)": {
+            "null_count": 40,
+            "null_pct": 10.4,
+            "min": 8.0,
+            "max": 1408.0,
+            "mean": 821.4942,
+            "median": 878.0,
+            "unique_count": 271,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "min": 127.0,
+            "max": 3728.0,
+            "mean": 934.3786,
+            "median": 895.0,
+            "unique_count": 345,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "min": 8.0,
+            "max": 93.0,
+            "mean": 70.2037,
+            "median": 79.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "79",
+                "count": 54
+              },
+              {
+                "value": "8",
+                "count": 52
+              },
+              {
+                "value": "81",
+                "count": 43
+              },
+              {
+                "value": "78",
+                "count": 42
+              },
+              {
+                "value": "82",
+                "count": 41
+              },
+              {
+                "value": "83",
+                "count": 33
+              },
+              {
+                "value": "77",
+                "count": 26
+              },
+              {
+                "value": "76",
+                "count": 19
+              },
+              {
+                "value": "84",
+                "count": 18
+              },
+              {
+                "value": "74",
+                "count": 8
+              }
+            ]
+          },
+          "Température (oC)": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "min": 8.0,
+            "max": 307.0,
+            "mean": 138.3603,
+            "median": 143.0,
+            "unique_count": 176,
+            "field_type_detected": "numeric"
+          },
+          "Signe COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 322
+              },
+              {
+                "value": "<",
+                "count": 62
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10.0,
+            "max": 59000.0,
+            "mean": 1558.6927,
+            "median": 180.0,
+            "unique_count": 102,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.1849,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 162
+              },
+              {
+                "value": "-2",
+                "count": 92
+              },
+              {
+                "value": "0",
+                "count": 81
+              },
+              {
+                "value": "-1",
+                "count": 49
+              }
+            ]
+          },
+          "Ag (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.0078,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 381
+              },
+              {
+                "value": "2",
+                "count": 3
+              }
+            ]
+          },
+          "Al (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 59924.0,
+            "mean": 1831.0208,
+            "median": 783.0,
+            "unique_count": 342,
+            "field_type_detected": "numeric"
+          },
+          "As (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 29.0,
+            "mean": 5.8698,
+            "median": 5.0,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 68
+              },
+              {
+                "value": "5",
+                "count": 67
+              },
+              {
+                "value": "3",
+                "count": 56
+              },
+              {
+                "value": "6",
+                "count": 51
+              },
+              {
+                "value": "7",
+                "count": 34
+              },
+              {
+                "value": "8",
+                "count": 28
+              },
+              {
+                "value": "2",
+                "count": 27
+              },
+              {
+                "value": "9",
+                "count": 10
+              },
+              {
+                "value": "1",
+                "count": 8
+              },
+              {
+                "value": "12",
+                "count": 6
+              }
+            ]
+          },
+          "Ba (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 4568.0,
+            "mean": 490.0,
+            "median": 472.5,
+            "unique_count": 302,
+            "field_type_detected": "numeric"
+          },
+          "Be (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 218.0,
+            "mean": 2.7422,
+            "median": 1.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 379
+              },
+              {
+                "value": "124",
+                "count": 1
+              },
+              {
+                "value": "218",
+                "count": 1
+              },
+              {
+                "value": "102",
+                "count": 1
+              },
+              {
+                "value": "116",
+                "count": 1
+              },
+              {
+                "value": "114",
+                "count": 1
+              }
+            ]
+          },
+          "Ca (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 13326.0,
+            "max": 223704.0,
+            "mean": 82662.151,
+            "median": 82270.0,
+            "unique_count": 374,
+            "field_type_detected": "numeric"
+          },
+          "Cd (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 383.0,
+            "mean": 6.9948,
+            "median": 1.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 368
+              },
+              {
+                "value": "123",
+                "count": 1
+              },
+              {
+                "value": "18",
+                "count": 1
+              },
+              {
+                "value": "108",
+                "count": 1
+              },
+              {
+                "value": "102",
+                "count": 1
+              },
+              {
+                "value": "197",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              },
+              {
+                "value": "239",
+                "count": 1
+              },
+              {
+                "value": "383",
+                "count": 1
+              },
+              {
+                "value": "106",
+                "count": 1
+              }
+            ]
+          },
+          "Co (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 35.0,
+            "mean": 2.849,
+            "median": 2.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 128
+              },
+              {
+                "value": "2",
+                "count": 101
+              },
+              {
+                "value": "3",
+                "count": 58
+              },
+              {
+                "value": "4",
+                "count": 38
+              },
+              {
+                "value": "5",
+                "count": 22
+              },
+              {
+                "value": "6",
+                "count": 16
+              },
+              {
+                "value": "7",
+                "count": 7
+              },
+              {
+                "value": "8",
+                "count": 6
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              }
+            ]
+          },
+          "COT (µg/L)": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "min": 2.0,
+            "max": 651.0,
+            "mean": 50.7311,
+            "median": 41.0,
+            "unique_count": 106,
+            "field_type_detected": "numeric"
+          },
+          "Cr (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 112.0,
+            "mean": 7.3802,
+            "median": 5.0,
+            "unique_count": 31,
+            "field_type_detected": "numeric"
+          },
+          "Cu (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 15724.0,
+            "mean": 2276.4089,
+            "median": 1761.0,
+            "unique_count": 356,
+            "field_type_detected": "numeric"
+          },
+          "Fe (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 89.0,
+            "max": 17224.0,
+            "mean": 3304.6875,
+            "median": 2249.0,
+            "unique_count": 368,
+            "field_type_detected": "numeric"
+          },
+          "K (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1001.0,
+            "max": 21820.0,
+            "mean": 5762.4557,
+            "median": 3993.0,
+            "unique_count": 363,
+            "field_type_detected": "numeric"
+          },
+          "Mg (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3148.0,
+            "max": 64260.0,
+            "mean": 21641.1406,
+            "median": 21940.0,
+            "unique_count": 365,
+            "field_type_detected": "numeric"
+          },
+          "Mn (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 17569.0,
+            "mean": 488.6875,
+            "median": 271.5,
+            "unique_count": 306,
+            "field_type_detected": "numeric"
+          },
+          "Mo (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 146.0,
+            "mean": 20.0521,
+            "median": 16.0,
+            "unique_count": 59,
+            "field_type_detected": "numeric"
+          },
+          "Na (µg/L)": {
+            "null_count": 25,
+            "null_pct": 6.5,
+            "min": 3572.0,
+            "max": 524440.0,
+            "mean": 71684.3621,
+            "median": 58120.0,
+            "unique_count": 356,
+            "field_type_detected": "numeric"
+          },
+          "NH3 (µg/L)": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "min": 20.0,
+            "max": 9027.0,
+            "mean": 551.0183,
+            "median": 32.0,
+            "unique_count": 183,
+            "field_type_detected": "numeric"
+          },
+          "Ni (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 124.0,
+            "mean": 17.7891,
+            "median": 16.5,
+            "unique_count": 45,
+            "field_type_detected": "numeric"
+          },
+          "Ptot (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 691.0,
+            "mean": 59.8958,
+            "median": 38.0,
+            "unique_count": 129,
+            "field_type_detected": "numeric"
+          },
+          "Pb (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 123.0,
+            "mean": 7.1042,
+            "median": 4.0,
+            "unique_count": 36,
+            "field_type_detected": "numeric"
+          },
+          "MES  (mg/L)": {
+            "null_count": 4,
+            "null_pct": 1.0,
+            "min": 1.0,
+            "max": 2133.0,
+            "mean": 94.6395,
+            "median": 41.5,
+            "unique_count": 163,
+            "field_type_detected": "numeric"
+          },
+          "Sb (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 1339.0,
+            "mean": 24.3047,
+            "median": 5.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 372
+              },
+              {
+                "value": "259",
+                "count": 1
+              },
+              {
+                "value": "635",
+                "count": 1
+              },
+              {
+                "value": "55",
+                "count": 1
+              },
+              {
+                "value": "595",
+                "count": 1
+              },
+              {
+                "value": "1339",
+                "count": 1
+              },
+              {
+                "value": "675",
+                "count": 1
+              },
+              {
+                "value": "87",
+                "count": 1
+              },
+              {
+                "value": "1189",
+                "count": 1
+              },
+              {
+                "value": "513",
+                "count": 1
+              }
+            ]
+          },
+          "Se (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 28.0,
+            "mean": 5.1849,
+            "median": 5.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 367
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "8",
+                "count": 3
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "21",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              }
+            ]
+          },
+          "Sn2 ug/L": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 14.0,
+            "mean": 1.2057,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 377
+              },
+              {
+                "value": "12",
+                "count": 3
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 2
+              }
+            ]
+          },
+          "U (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 52.0,
+            "mean": 9.0859,
+            "median": 7.0,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 43
+              },
+              {
+                "value": "2",
+                "count": 33
+              },
+              {
+                "value": "5",
+                "count": 29
+              },
+              {
+                "value": "1",
+                "count": 29
+              },
+              {
+                "value": "13",
+                "count": 24
+              },
+              {
+                "value": "11",
+                "count": 22
+              },
+              {
+                "value": "6",
+                "count": 22
+              },
+              {
+                "value": "9",
+                "count": 22
+              },
+              {
+                "value": "4",
+                "count": 22
+              },
+              {
+                "value": "7",
+                "count": 20
+              }
+            ]
+          },
+          "V (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 118.0,
+            "mean": 9.6094,
+            "median": 7.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "Zn (µg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 1046.0,
+            "mean": 84.8854,
+            "median": 64.0,
+            "unique_count": 160,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cours d eau",
+    "Qualité de l eau",
+    "Ruisseau",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Dans le cadre du programme RUISSO, l’équipe du RSMA prélève des échantillons d’eau de surface depuis la rive, un pont ou toute autre structure à l’aide d’une perche munie d’un porte-bouteille contenant un flacon stérile. Ces échantillons serviront à l’analyse des coliformes fécaux en laboratoire.\nPour l’étude des paramètres physicochimiques, nous prélevons des échantillons à l’aide d’un seau en polyéthylène, que nous transvidons dans des contenants conçus à cet effet. Les échantillons sont conservés sur la glace, puis transportés dès que possible au laboratoire pour analyse. Sur le terrain, nous mesurons, à l’aide d’une sonde, les paramètres suivants : le pH, la température, l’oxygène dissous, et la conductivité.\n\n### Dictionnaire de données\n\n\n\n- point_echantillonnage (texte) : Code du point d'échantillonnage\n\n- plan_eau (texte) : Plan d'eau, lien à faire avec l'ensemble des points d'échantillonnage\n\n- administration (texte) : Arrondissement ou ville liée où est situé le point d'échantillonnage\n\n- nom (texte) : Nom du point d'échantillonnage\n\n- descrip_longue (texte) : Emplacement textuel du point d'échantillonnage\n\n- programme (texte) : Type de programme (R = RUISSO)\n\n- sous_prog (texte) : Type de sous-programme (R = RUISSO)\n\n- station_nom (texte) : Nom complet du point d'échantillonnage (nom + point_echantillonnage)\n\n- date_heure (date heure) : Moment du prélèvement\n\n- raison_annulation (texte)\n\n- temperature (numérique) : Température de l'eau lors du prélèvement en degrés Celsius (°C)\n\n- conductivite (numérique) : Conductivité en microsiemens par centimètre carré (µs/cm²)\n\n- pH (numérique) : Potentiel d'hydrogène\n\n- signe (liste de valeurs) : Signe de la valeur des coliformes fécaux\n\n- < (plus petit que)\n\n- = (égal)\n\n- \n\n\n\n(plus grand que)\n\n\n\n\n\n- coliformes_fecaux (numérique) : Coliformes fécaux (colonies/100ml)\n\n- OD_concentration (numérique) : Concentration d'oxygène dissous en milligramme par litre (mg/l)\n\n- OD_pourc (numérique) : Pourcentage d'oxygène dissous (%)\n\n- MES (numérique) : Matières en suspension en milligramme par litre (mg/l)\n\n- phos_total (numérique) : Phosphore total en microgramme par litre (µg/l)\n\n- azote_total (numérique) : Azote Ammoniacal total en microgramme par litre (µg/l)\n\n- Ag (numérique) : Concentration d'argent en microgramme par litre (µg/l)\n\n- Al (numérique) : Concentration d'aluminium en microgramme par litre (µg/l)\n\n- As (numérique) : Concentration d'arsenic en microgramme par litre (µg/l)\n\n- Ba (numérique) : Concentration de baryum en microgramme par litre (µg/l)\n\n- Be (numérique) : Concentration de béryllium en microgramme par litre (µg/l)\n\n- Ca (numérique) : Concentration de calcium en microgramme par litre (µg/l)\n\n- Cd (numérique) : Concentration de cadmium en microgramme par litre (µg/l)\n\n- Co (numérique) : Concentration de cobalt en microgramme par litre (µg/l)\n\n- Cr (numérique) : Concentration de chrome en microgramme par litre (µg/l)\n\n- Cu (numérique) : Concentration de cuivre en microgramme par litre (µg/l)\n\n- Fe (numérique) : Concentration de fer en microgramme par litre (µg/l)\n\n- K (numérique) : Concentration de potassium en microgramme par litre (µg/l)\n\n- Mg (numérique) : Concentration de magnésium en microgramme par litre (µg/l)\n\n- Mn (numérique) : Concentration de manganèse en microgramme par litre (µg/l)\n\n- Mo (numérique) : Concentration de molybdène en microgramme par litre (µg/l)\n\n- Na (numérique) : Concentration de sodium en microgramme par litre (µg/l)\n\n- Ni (numérique) : Concentration de nickel en microgramme par litre (µg/l)\n\n- Pb (numérique) : Concentration de plomb en microgramme par litre (µg/l)\n\n- Sb (numérique) : Concentration d'antimoire en microgramme par litre (µg/l)\n\n- Se (numérique) : Concentration de sélénium en microgramme par litre (µg/l)\n\n- Sn (numérique) : Concentration d'étain en microgramme par litre (µg/l)\n\n- Tl (numérique) :  Concentration de thallium en microgramme par litre (µg/l)\n\n- U (numérique) : Concentration d'uranium en microgramme par litre (µg/l)\n\n- V (numérique) : Concentration de vanadium en microgramme par litre (µg/l)\n\n- Zn (numérique) : Concentration de zinc en microgramme par litre (µg/l)\n\n- prec_0_mm (numérique) : Précipitations le jour même (mm)\n\n- prec_1_mm (numérique) : Précipitations de la veille (mm)\n\n- prec_2_ mm (numérique) : Précipitations de l'avant-veille (mm)\n\n- prec_tot_60h (numérique) : Précipitations dans les 60 dernières heures (mm) (prec_0_mm + prec_1_mm + prec_2_mm) à la station météorologique de l'Aéroport international Pierre-Elliott-Trudeau de Montréal \n\n- meteo (liste de valeurs) : Condition météo lors de la prise de l'échantillon\n\n- 1 (temps sec)\n\n- 0 (pluie)\n\n- -1 (pluie la veille)\n\n- -2 (pluie l'avant-veille)\n\n\n\n- tournee (numérique) : Numéro du dossier\n\n- latitude (coordonnées spatiales) : Latitude du point d'échantillonnage (WGS84; EPSG 4326)\n\n- longitude (coordonnées spatiales) : Latitude du point d'échantillonnage (WGS84; EPSG 4326)\n\n- x (coordonnées spatiales) : Coordonnée X du point d'échantillonnage (MTM8 NAD83; EPSG 32188)\n\n- y (coordonnées spatiales) : Coordonnée X du point d'échantillonnage (MTM8 NAD83; EPSG 32188)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "2011/2021",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Cours d eau",
+      "Qualité de l eau",
+      "Ruisseau",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsma-donnees-ruisso-annuelle",
+    "scraped_at": "2026-03-09T20:19:36.450219+00:00"
+  }
+}

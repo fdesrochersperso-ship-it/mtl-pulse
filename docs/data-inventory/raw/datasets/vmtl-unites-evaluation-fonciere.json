@@ -1,0 +1,817 @@
+{
+  "slug": "vmtl-unites-evaluation-fonciere",
+  "title": "Unités d'évaluation foncière",
+  "notes": "Données géospatiales vectorielles du découpage des propriétés de l'agglomération de Montréal contenant les informations générales sur les unités d'évaluations foncières, notamment la codification d'usage (CUBF), les dimensions approximatives et le matricule.\r\n\r\nIMPORTANT: Ce découpage n'a aucune valeur légale et ne doit pas être confondu avec le découpage cadastral.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-07-31T21:25:44.524163",
+  "metadata_modified": "2025-02-27T00:30:02.372275",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "2b9dfc3d-91d3-48de-b32c-a2a6d9417079",
+      "name": "Liste des unités d'évaluation foncière",
+      "description": "Liste tabulaire de l'extrait des unités d'évaluation foncière.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/4ad6baea-4d2c-460f-a8bf-5d000db498f7/resource/2b9dfc3d-91d3-48de-b32c-a2a6d9417079/download/uniteevaluationfonciere.csv",
+      "datastore_active": true,
+      "size": 76132138,
+      "last_modified": "2024-12-18T06:37:30.464459",
+      "created": "2017-07-31T17:27:22.679276",
+      "schema": {
+        "resource_id": "2b9dfc3d-91d3-48de-b32c-a2a6d9417079",
+        "total_records": 512288,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_UEV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CIVIQUE_DEBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CIVIQUE_FIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SUITE_DEBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MUNICIPALITE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ETAGE_HORS_SOL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_LOGEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ANNEE_CONSTRUCTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CODE_UTILISATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LETTRE_DEBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LETTRE_FIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIBELLE_UTILISATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIE_UEF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATRICULE83",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SUPERFICIE_TERRAIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SUPERFICIE_BATIMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_ARROND_ILE_CUM",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_UEV": "01038405",
+            "CIVIQUE_DEBUT": " 3577",
+            "CIVIQUE_FIN": " 3577",
+            "NOM_RUE": "avenue Atwater  (MTL+WMT)",
+            "SUITE_DEBUT": null,
+            "MUNICIPALITE": "50",
+            "ETAGE_HORS_SOL": null,
+            "NOMBRE_LOGEMENT": null,
+            "ANNEE_CONSTRUCTION": "1983",
+            "CODE_UTILISATION": "1921",
+            "LETTRE_DEBUT": null,
+            "LETTRE_FIN": null,
+            "LIBELLE_UTILISATION": "Stationnement intérieur (condo)",
+            "CATEGORIE_UEF": "Condominium",
+            "MATRICULE83": "9739-83-9737-8-001-0431",
+            "SUPERFICIE_TERRAIN": "2",
+            "SUPERFICIE_BATIMENT": null,
+            "NO_ARROND_ILE_CUM": "REM19"
+          },
+          {
+            "_id": 2,
+            "ID_UEV": "05213144",
+            "CIVIQUE_DEBUT": " 5211",
+            "CIVIQUE_FIN": " 5211",
+            "NOM_RUE": "rue du Sureau  (PFD)",
+            "SUITE_DEBUT": "    105",
+            "MUNICIPALITE": "50",
+            "ETAGE_HORS_SOL": "1",
+            "NOMBRE_LOGEMENT": "1",
+            "ANNEE_CONSTRUCTION": "2012",
+            "CODE_UTILISATION": "1000",
+            "LETTRE_DEBUT": null,
+            "LETTRE_FIN": null,
+            "LIBELLE_UTILISATION": "Logement",
+            "CATEGORIE_UEF": "Condominium",
+            "MATRICULE83": "7941-06-3037-4-001-0004",
+            "SUPERFICIE_TERRAIN": "69",
+            "SUPERFICIE_BATIMENT": "68",
+            "NO_ARROND_ILE_CUM": "REM31"
+          },
+          {
+            "_id": 3,
+            "ID_UEV": "01036349",
+            "CIVIQUE_DEBUT": " 3550",
+            "CIVIQUE_FIN": " 3550",
+            "NOM_RUE": "rue de la Montagne  (MTL)",
+            "SUITE_DEBUT": "    109",
+            "MUNICIPALITE": "50",
+            "ETAGE_HORS_SOL": "3",
+            "NOMBRE_LOGEMENT": "1",
+            "ANNEE_CONSTRUCTION": "1983",
+            "CODE_UTILISATION": "1000",
+            "LETTRE_DEBUT": null,
+            "LETTRE_FIN": null,
+            "LIBELLE_UTILISATION": "Logement",
+            "CATEGORIE_UEF": "Condominium",
+            "MATRICULE83": "9840-31-8010-6-001-0005",
+            "SUPERFICIE_TERRAIN": "133",
+            "SUPERFICIE_BATIMENT": "127",
+            "NO_ARROND_ILE_CUM": "REM19"
+          },
+          {
+            "_id": 4,
+            "ID_UEV": "05189527",
+            "CIVIQUE_DEBUT": " 1200",
+            "CIVIQUE_FIN": " 1200",
+            "NOM_RUE": "rue Saint-Alexandre  (MTL)",
+            "SUITE_DEBUT": "    511",
+            "MUNICIPALITE": "50",
+            "ETAGE_HORS_SOL": "1",
+            "NOMBRE_LOGEMENT": "1",
+            "ANNEE_CONSTRUCTION": "1963",
+            "CODE_UTILISATION": "1000",
+            "LETTRE_DEBUT": null,
+            "LETTRE_FIN": null,
+            "LIBELLE_UTILISATION": "Logement",
+            "CATEGORIE_UEF": "Condominium",
+            "MATRICULE83": "9940-55-8522-7-001-0257",
+            "SUPERFICIE_TERRAIN": "16",
+            "SUPERFICIE_BATIMENT": "62",
+            "NO_ARROND_ILE_CUM": "REM19"
+          },
+          {
+            "_id": 5,
+            "ID_UEV": "01037334",
+            "CIVIQUE_DEBUT": " 1254",
+            "CIVIQUE_FIN": " 1254",
+            "NOM_RUE": "rue Saint-Marc  (MTL)",
+            "SUITE_DEBUT": "     61",
+            "MUNICIPALITE": "50",
+            "ETAGE_HORS_SOL": "1",
+            "NOMBRE_LOGEMENT": "1",
+            "ANNEE_CONSTRUCTION": "1914",
+            "CODE_UTILISATION": "1000",
+            "LETTRE_DEBUT": null,
+            "LETTRE_FIN": null,
+            "LIBELLE_UTILISATION": "Logement",
+            "CATEGORIE_UEF": "Condominium",
+            "MATRICULE83": "9839-51-6255-9-001-0013",
+            "SUPERFICIE_TERRAIN": "16",
+            "SUPERFICIE_BATIMENT": "82",
+            "NO_ARROND_ILE_CUM": "REM19"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_UEV": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CIVIQUE_DEBUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CIVIQUE_FIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_RUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SUITE_DEBUT": {
+          "null_count": 377583,
+          "null_pct": 73.7,
+          "populated_pct": 26.3
+        },
+        "MUNICIPALITE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ETAGE_HORS_SOL": {
+          "null_count": 49830,
+          "null_pct": 9.7,
+          "populated_pct": 90.3
+        },
+        "NOMBRE_LOGEMENT": {
+          "null_count": 46358,
+          "null_pct": 9.0,
+          "populated_pct": 91.0
+        },
+        "ANNEE_CONSTRUCTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CODE_UTILISATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LETTRE_DEBUT": {
+          "null_count": 509034,
+          "null_pct": 99.4,
+          "populated_pct": 0.6
+        },
+        "LETTRE_FIN": {
+          "null_count": 505869,
+          "null_pct": 98.7,
+          "populated_pct": 1.3
+        },
+        "LIBELLE_UTILISATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIE_UEF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATRICULE83": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SUPERFICIE_TERRAIN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SUPERFICIE_BATIMENT": {
+          "null_count": 34833,
+          "null_pct": 6.8,
+          "populated_pct": 93.2
+        },
+        "NO_ARROND_ILE_CUM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 512288,
+        "audited_at": "2026-03-10T00:32:21.311358+00:00",
+        "fields": {
+          "ID_UEV": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1000105.0,
+            "max": 5268203.0,
+            "mean": 1503562.219,
+            "median": 1035686.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "CIVIQUE_DEBUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "10",
+            "max_date": "99999",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "CIVIQUE_FIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "10",
+            "max_date": "99999",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NOM_RUE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 406,
+            "top_values": [
+              {
+                "value": "rue Sherbrooke Ouest  (MTL+MTO+WMT)",
+                "count": 19
+              },
+              {
+                "value": "avenue du Mont-Royal Est  (MTL)",
+                "count": 18
+              },
+              {
+                "value": "rue De Bullion  (MTL)",
+                "count": 18
+              },
+              {
+                "value": "rue Jeanne-Mance  (MTL)",
+                "count": 17
+              },
+              {
+                "value": "rue Hutchison  (MTL+OUT)",
+                "count": 16
+              },
+              {
+                "value": "rue Saint-Denis  (MTL)",
+                "count": 16
+              },
+              {
+                "value": "rue Drummond  (MTL)",
+                "count": 13
+              },
+              {
+                "value": "rue Caisse  (VRD)",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Philippe  (MTL)",
+                "count": 11
+              },
+              {
+                "value": "rue Montcalm  (MTL)",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SUITE_DEBUT": {
+            "null_count": 834,
+            "null_pct": 83.4,
+            "min_date": "1",
+            "max_date": "S09",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "MUNICIPALITE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 50.0,
+            "mean": 47.058,
+            "median": 50.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "50",
+                "count": 882
+              },
+              {
+                "value": "29",
+                "count": 95
+              },
+              {
+                "value": "04",
+                "count": 6
+              },
+              {
+                "value": "05",
+                "count": 5
+              },
+              {
+                "value": "20",
+                "count": 4
+              },
+              {
+                "value": "13",
+                "count": 4
+              },
+              {
+                "value": "03",
+                "count": 2
+              },
+              {
+                "value": "06",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "ETAGE_HORS_SOL": {
+            "null_count": 135,
+            "null_pct": 13.5,
+            "min": 1.0,
+            "max": 23.0,
+            "mean": 2.2832,
+            "median": 2.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 422
+              },
+              {
+                "value": "3",
+                "count": 225
+              },
+              {
+                "value": "1",
+                "count": 182
+              },
+              {
+                "value": "4",
+                "count": 19
+              },
+              {
+                "value": "14",
+                "count": 3
+              },
+              {
+                "value": "5",
+                "count": 3
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "17",
+                "count": 2
+              },
+              {
+                "value": "23",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              }
+            ]
+          },
+          "NOMBRE_LOGEMENT": {
+            "null_count": 112,
+            "null_pct": 11.2,
+            "min": 1.0,
+            "max": 360.0,
+            "mean": 4.1757,
+            "median": 1.0,
+            "unique_count": 39,
+            "field_type_detected": "numeric"
+          },
+          "ANNEE_CONSTRUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1865",
+            "max_date": "9999",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "CODE_UTILISATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1000.0,
+            "max": 9100.0,
+            "mean": 1592.51,
+            "median": 1000.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "LETTRE_DEBUT": {
+            "null_count": 993,
+            "null_pct": 99.3,
+            "min_date": "A",
+            "max_date": "B",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "LETTRE_FIN": {
+            "null_count": 985,
+            "null_pct": 98.5,
+            "min_date": "A",
+            "max_date": "C",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "LIBELLE_UTILISATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "Logement",
+                "count": 877
+              },
+              {
+                "value": "Espace de terrain non aménagé et non exploité (sauf l'exploitation non commerciale de la forêt)",
+                "count": 25
+              },
+              {
+                "value": "Immeuble commercial",
+                "count": 23
+              },
+              {
+                "value": "Immeuble à bureaux",
+                "count": 16
+              },
+              {
+                "value": "Stationnement intérieur (condo)",
+                "count": 7
+              },
+              {
+                "value": "Église, synagogue, mosquée et temple",
+                "count": 7
+              },
+              {
+                "value": "Maison de chambres et pension",
+                "count": 5
+              },
+              {
+                "value": "Autres services personnels",
+                "count": 4
+              },
+              {
+                "value": "Terrain de stationnement pour automobiles",
+                "count": 4
+              },
+              {
+                "value": "Stationnement extérieur (condo)",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "CATEGORIE_UEF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Régulier",
+                "count": 792
+              },
+              {
+                "value": "Condominium",
+                "count": 208
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MATRICULE83": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "9739-83-9737-8-001-0431",
+                "count": 1
+              },
+              {
+                "value": "7941-06-3037-4-001-0004",
+                "count": 1
+              },
+              {
+                "value": "9840-31-8010-6-001-0005",
+                "count": 1
+              },
+              {
+                "value": "9940-55-8522-7-001-0257",
+                "count": 1
+              },
+              {
+                "value": "9839-51-6255-9-001-0013",
+                "count": 1
+              },
+              {
+                "value": "9735-92-9512-4-000-0000",
+                "count": 1
+              },
+              {
+                "value": "9841-86-2796-8-000-0000",
+                "count": 1
+              },
+              {
+                "value": "9735-74-8115-5-000-0000",
+                "count": 1
+              },
+              {
+                "value": "9735-45-9772-2-000-0000",
+                "count": 1
+              },
+              {
+                "value": "9738-04-3058-3-000-0000",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "SUPERFICIE_TERRAIN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 201784.0,
+            "mean": 639.06,
+            "median": 233.0,
+            "unique_count": 511,
+            "field_type_detected": "numeric"
+          },
+          "SUPERFICIE_BATIMENT": {
+            "null_count": 79,
+            "null_pct": 7.9,
+            "min_date": "100",
+            "max_date": "992",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NO_ARROND_ILE_CUM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "REM19",
+                "count": 255
+              },
+              {
+                "value": "REM21",
+                "count": 218
+              },
+              {
+                "value": "REM20",
+                "count": 191
+              },
+              {
+                "value": "REM99",
+                "count": 118
+              },
+              {
+                "value": "REM12",
+                "count": 74
+              },
+              {
+                "value": "REM24",
+                "count": 18
+              },
+              {
+                "value": "REM22",
+                "count": 18
+              },
+              {
+                "value": "REM25",
+                "count": 14
+              },
+              {
+                "value": "REM33",
+                "count": 14
+              },
+              {
+                "value": "REM15",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "866a3dbc-8b59-48ff-866d-f2f9d3bbee9d",
+      "name": "Extrait géographique des unités d'évaluation foncière",
+      "description": "Fichier geojson contenant la délimitation des unités d'évaluation foncière.\r\n\r\nRéférence géographique: WGS84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/4ad6baea-4d2c-460f-a8bf-5d000db498f7/resource/866a3dbc-8b59-48ff-866d-f2f9d3bbee9d/download/uniteevaluationfonciere.geojson.zip",
+      "datastore_active": false,
+      "size": 173647184,
+      "last_modified": "2024-12-18T06:37:34.970894",
+      "created": "2017-09-28T12:24:47.166074",
+      "schema": null
+    },
+    {
+      "id": "43c2cccf-a439-429b-a3c8-5d4ebce53e1b",
+      "name": "Extrait géographique des unités d'évaluation foncière",
+      "description": "Conteneur zip contenant le shapefile des délimitations des unités d'évaluation foncière.\r\n\r\nRéférence géographique: MTM8 NAD83",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/4ad6baea-4d2c-460f-a8bf-5d000db498f7/resource/43c2cccf-a439-429b-a3c8-5d4ebce53e1b/download/uniteevaluationfonciere.zip",
+      "datastore_active": false,
+      "size": 143087549,
+      "last_modified": "2024-12-18T06:37:24.866485",
+      "created": "2017-09-28T12:32:10.669388",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "CUBF",
+    "Cadastre",
+    "Découpage",
+    "Logement",
+    "Matrice graphique",
+    "Propriété",
+    "Rôle foncier",
+    "SFEF",
+    "Superficie",
+    "Terrain",
+    "Unité",
+    "Usage",
+    "Utilisation du sol",
+    "Évaluation foncière"
+  ],
+  "web_metadata": {
+    "methodology_text": "***** NOTE: Cette information est fournie pour permettre une approximation des superficies bâtiments seulement. Pour connaître la superficie du bâtiment, veuillez vous vous référer au site de Consultation du rôle d'évaluation foncière de la Ville de Montréal.** \n\n\nEn évaluation municipale, la matrice graphique est la partie principale des éléments graphiques du système d’information. Il s’agit d’un document cartographique représentant le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des finances et de l'évaluation foncière",
+      "Couverture temporelle": "2017-09-28/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "CUBF",
+      "Cadastre",
+      "Découpage",
+      "Logement",
+      "Matrice graphique",
+      "Propriété",
+      "Rôle foncier",
+      "SFEF",
+      "Superficie",
+      "Terrain",
+      "Unité",
+      "Usage",
+      "Utilisation du sol",
+      "Évaluation foncière"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/unites-evaluation-fonciere",
+    "scraped_at": "2026-03-09T20:23:38.859894+00:00"
+  }
+}

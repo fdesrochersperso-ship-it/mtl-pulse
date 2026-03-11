@@ -1,0 +1,70 @@
+{
+  "slug": "vmtl-stm-traces-des-lignes-de-bus-et-de-metro",
+  "title": "Tracés des lignes de bus et de métro",
+  "notes": "Ensemble de données contenant les informations géospatiales des tracés et des arrêts des lignes de bus et de métro de la Société de transport de Montréal.\r\n\r\n### Important\r\n\r\nLe présent ensemble de données est la propriété de la Société de transport de Montréal. Conséquemment, selon la clause d'attribution de la licence Creative Commons 4.0, la paternité des données doit être attribuée à la Société de transport de Montréal.\r\n\r\nVeuillez [communiquer](http://www.stm.info/fr/nous-joindre) avec la Société de transport de Montréal si vous avez des questions sur cet ensemble de données.\r\n\r\n#### *Ne pas tenir compte de la date de dernière modification de la ressource. Celle-ci pointe toujours vers les [données GTFS](https://www.stm.info/fr/a-propos/developpeurs) les plus récentes de la STM.*",
+  "organization": "societe-de-transport-de-montreal",
+  "organization_title": "Société de transport de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-04-25T19:56:47.428688",
+  "metadata_modified": "2026-03-09T00:02:22.455422",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "e5a41646-ffd6-4784-8e48-6bb312d51816",
+      "name": "Tracés et arrêts des lignes de bus et de métro au format ESRI Shapefile",
+      "description": "Conteneur ZIP contenant les fichiers constitutifs du format ESRI Shapefile pour les couches des tracés et des arrêts.\r\n\r\n#### *Ne pas tenir compte de la date de dernière modification de la ressource. Celle-ci pointe toujours vers les [données GTFS](https://www.stm.info/fr/a-propos/developpeurs) les plus récentes de la STM.*",
+      "format": "SHP",
+      "url": "https://www.stm.info/sites/default/files/gtfs/stm_sig.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2026-03-09T00:02:15",
+      "created": "2016-04-25T15:58:28.208334",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arrêt de bus",
+    "Autobus",
+    "Bus",
+    "Métro",
+    "STM",
+    "Transport collectif"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les lignes (shapes.txt) et arrêts (stops.txt) contenus dans le fichier GTFS de la STM sont disponibles en format shapefile de façon à faciliter l’intégration dans les systèmes d'information géospatiaux (SIG). Les spécifications du shapefile sont disponibles en ligne.\n\n\nProjection géographique: NAD83 MTM8\n\n### Dictionnaire de données\n\n\n\nCouche des tracés (stm_lignes_sig_any)\n\n\n- route_id (Numérique) : Identifiant du tracé. Pour les lignes de bus, cela correspond au numéro de ligne, p.ex.: 747 pour la ligne se rendant à l'aéroport Pierre-Eliott-Trudeau\n\n- headsign (Texte variable) : Direction du tracé. P.ex.: \"STATION MONTMORENCY\" pour le tracé de la ligne orange de métro se rendant vers la Station Montmorency.\n\n- route_name (Texte variable) : Nom de la ligne de métro ou de bus.\n\n\n\nCouche des arrêts (stm_arrets_sig_any)\n\n\n- stop_id (Numérique) : Identifiant unique de l'arrêt\n\n- stop_code (Numérique) : Code assigné à l'arrêt\n\n- stop_name (Texte variable) : Nom de l'arrêt\n\n- stop_url (Texte variable) : Adresse web (URL) donnant directement accès aux heures de passage pour cet arrêt\n\n- wheelchair (Booléen) : Accessibilité aux chaises roulantes pour cet arrêt. 1: accessible, 2: non accessible\n\n- route_id (Texte variable) : Liste des lignes empruntant cet arrêt, séparées par une virgule\n\n- service_id (Texte variable) : identifie de manière unique un ensemble de dates auxquelles le service est disponible pour un ou plusieurs itinéraires.Cette valeur est référencée à partir du fichier calendar.txt ou calendar_dates.txt.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Société de transport de Montréal - Planification et développement des réseaux",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Arrêt de bus",
+      "Autobus",
+      "Bus",
+      "Métro",
+      "STM",
+      "Transport collectif"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/stm-traces-des-lignes-de-bus-et-de-metro",
+    "scraped_at": "2026-03-09T20:22:47.193545+00:00"
+  }
+}

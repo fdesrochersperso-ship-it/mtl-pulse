@@ -1,0 +1,823 @@
+{
+  "slug": "vmtl-inspection-aliments-contrevenants",
+  "title": "Inspections des aliments et contrevenants",
+  "notes": "Cet ensemble présente la liste des établissements alimentaires situés sur le territoire de l’agglomération montréalaise et sous la responsabilité de la Division de l’inspection des aliments de la Ville de Montréal ayant fait l’objet d’une condamnation pour une infraction à la Loi sur les produits alimentaires (L.R.Q., c. P-29) et ses règlements.\r\n\r\nLa localisation sur une carte des contrevenants des 24 derniers mois est disponible sur le [portail du MAPAQ](https://mapaq.maps.arcgis.com/apps/Viewer/index.html?appid=4e91c7c5940647299476e369c2823e41).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "agriculture-alimentation",
+      "display_name": "Agriculture et alimentation",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-06-11T14:17:52.989129",
+  "metadata_modified": "2026-03-09T07:01:53.466233",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "e3c45743-d2fc-4f7a-8c1e-40cb43319eb2",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNjQyY2E3MWMtNjBiOC00ZTkwLWEyMjAtZGRkYzdiNGYzYmFlIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2023-12-14T14:37:38.782007",
+      "schema": null
+    },
+    {
+      "id": "7f939a08-be8a-45e1-b208-d8744dca8fc6",
+      "name": "Contrevenants",
+      "description": "Liste des établissements ayant fait l’objet d’une condamnation pour une infraction à la Loi sur les produits alimentaires.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/05a9e718-6810-4e73-8bb9-5955efeb91a0/resource/7f939a08-be8a-45e1-b208-d8744dca8fc6/download/violations.csv",
+      "datastore_active": true,
+      "size": 4080751,
+      "last_modified": "2026-03-09T06:45:50.681349",
+      "created": "2020-06-11T14:27:27.086408",
+      "schema": {
+        "resource_id": "7f939a08-be8a-45e1-b208-d8744dca8fc6",
+        "total_records": 8466,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_poursuite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "business_id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_jugement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "etablissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "montant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "proprietaire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_poursuite": "10199",
+            "business_id": "532",
+            "date": "20240925",
+            "description": "Le lieu ou le véhicule doit être exempt de contaminants, de polluants, de toute espèce d'animaux y compris les insectes et les rongeurs ou de leurs excréments.",
+            "adresse": "530 Av. Ogilvy, Montréal, Québec",
+            "date_jugement": "20250917",
+            "etablissement": "MARCHE MADHUBON",
+            "montant": "2000",
+            "proprietaire": "9068-9811 QUEBEC INC.",
+            "ville": "Montréal",
+            "statut": "Ouvert",
+            "date_statut": "19931012",
+            "categorie": "Boucherie-épicerie"
+          },
+          {
+            "_id": 2,
+            "id_poursuite": "2645",
+            "business_id": "219",
+            "date": "20150514",
+            "description": "Le produit altérable à la chaleur à l'exception des fruits et légumes frais entiers doit être refroidi sans retard et maintenu constamment à une température interne et ambiante ne dépassant pas 4C jusqu'à sa livraison au consommateur, sauf pendant le temps requis pour l'application d'un procédé de fabrication ou d'un traitement reconnu en industrie alimentaire et qui exige une plus haute température.",
+            "adresse": "8591 Boul. Maurice-Duplessis, Montréal, Québec",
+            "date_jugement": "20160329",
+            "etablissement": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "montant": "1000",
+            "proprietaire": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "ville": "Montréal",
+            "statut": "Ouvert",
+            "date_statut": "19930310",
+            "categorie": "Boulangerie"
+          },
+          {
+            "_id": 3,
+            "id_poursuite": "2550",
+            "business_id": "219",
+            "date": "20150305",
+            "description": "Le produit altérable à la chaleur à l'exception des fruits et légumes frais entiers doit être refroidi sans retard et maintenu constamment à une température interne et ambiante ne dépassant pas 4C jusqu'à sa livraison au consommateur, sauf pendant le temps requis pour l'application d'un procédé de fabrication ou d'un traitement reconnu en industrie alimentaire et qui exige une plus haute température.",
+            "adresse": "8591 Boul. Maurice-Duplessis, Montréal, Québec",
+            "date_jugement": "20160329",
+            "etablissement": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "montant": "1000",
+            "proprietaire": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "ville": "Montréal",
+            "statut": "Ouvert",
+            "date_statut": "19930310",
+            "categorie": "Boulangerie"
+          },
+          {
+            "_id": 4,
+            "id_poursuite": "4613",
+            "business_id": "219",
+            "date": "20170731",
+            "description": "Le produit altérable à la chaleur à l'exception des fruits et légumes frais entiers doit être refroidi sans retard et maintenu constamment à une température interne et ambiante ne dépassant pas 4C jusqu'à sa livraison au consommateur, sauf pendant le temps requis pour l'application d'un procédé de fabrication ou d'un traitement reconnu en industrie alimentaire et qui exige une plus haute température.",
+            "adresse": "8591 Boul. Maurice-Duplessis, Montréal, Québec",
+            "date_jugement": "20190111",
+            "etablissement": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "montant": "1000",
+            "proprietaire": "BOULANGERIE ET PATISSERIE LASALLE R.D.P. INC.",
+            "ville": "Montréal",
+            "statut": "Ouvert",
+            "date_statut": "19930310",
+            "categorie": "Boulangerie"
+          },
+          {
+            "_id": 5,
+            "id_poursuite": "6367",
+            "business_id": "15320",
+            "date": "20190118",
+            "description": "Le lieu ou le véhicule doit être exempt de contaminants, de polluants, de toute espèce d'animaux y compris les insectes et les rongeurs ou de leurs excréments.",
+            "adresse": "821 Av. Ogilvy, Montréal, Québec",
+            "date_jugement": "20210122",
+            "etablissement": "POPOTE ROULANTE # 102 FILIA",
+            "montant": "1800",
+            "proprietaire": "CENTRE D'ACTION BENEVOLE DE MONTREAL INC.",
+            "ville": "Montréal",
+            "statut": "Fermé changement d'exploitant",
+            "date_statut": "20260217",
+            "categorie": "Restaurant mets pour emporter"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_poursuite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "business_id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_jugement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "etablissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "montant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "proprietaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 8466,
+        "audited_at": "2026-03-10T00:20:02.010381+00:00",
+        "fields": {
+          "id_poursuite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1087.0,
+            "max": 11040.0,
+            "mean": 5043.533,
+            "median": 4454.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "business_id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 64.0,
+            "max": 128896.0,
+            "mean": 22257.809,
+            "median": 12717.0,
+            "unique_count": 392,
+            "field_type_detected": "numeric"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20110121",
+            "max_date": "20251113",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "Le produit altérable à la chaleur à l'exception des fruits et légumes frais entiers doit être refroidi sans retard et maintenu constamment à une température interne et ambiante ne dépassant pas 4C jusqu'à sa livraison au consommateur, sauf pendant le temps requis pour l'application d'un procédé de fabrication ou d'un traitement reconnu en industrie alimentaire et qui exige une plus haute température.",
+                "count": 280
+              },
+              {
+                "value": "Le lieu ou le véhicule doit être exempt de contaminants, de polluants, de toute espèce d'animaux y compris les insectes et les rongeurs ou de leurs excréments.",
+                "count": 269
+              },
+              {
+                "value": "Les lieux, véhicules, équipements, matériaux et ustensiles servant à la préparation au conditionnement, à l'entreposage, au transport, à l'étiquetage et au service des produits, ainsi que les autres installations et locaux sanitaires, doivent être propres.",
+                "count": 231
+              },
+              {
+                "value": "Le produit périssable vendu chaud ou servi chaud au consommateur doit être gardé à une température interne d'au moins 60C jusqu'à sa livraison.",
+                "count": 51
+              },
+              {
+                "value": "Les personnes affectées à la préparation des produits, au lavage ou au nettoyage du matériel et de l'équipement doivent: porter un bonnet ou une résille propre qui recouvre entièrement les cheveux; porter un couvre-barbe propre qui recouvre entièrement la barbe.",
+                "count": 31
+              },
+              {
+                "value": "Est prohibée toute tromperie ou tentative de tromperie, toute déclaration ou indication fausse, inexacte ou trompeuse, sous quelque forme et par quelque moyen que ce soit: a) sur la nature, l'état, la composition, l'identité, la provenance, l'origine, l'utilisation, la destination, la qualité, la quantité, la valeur, le prix ou une particularité du produit;  b) sur le lieu, la date ou les procédés de préparation, fabrication, conservation ou conditionnement du produit; c) sur le mode d'emploi ou de conservation du produit; d)  sur l'identité, les qualités ou aptitudes du producteur, préparateur, fabricant, conserveur, conditionneur, distributeur ou de l'agent de vente ou de livraison du produit.",
+                "count": 22
+              },
+              {
+                "value": "Il est interdit dans un établissement de distribuer sur place, pour emporter ou par livraison, les articles à usage unique suivants: barquette #6, Assiette #6, Contenant et couvercle #6, Couvercle de tasse ou verre #6, Tasse ou verre, Bâtonnet, Paille, Ustensile #1, #2, ,3, #4, #5, #6, #7.",
+                "count": 20
+              },
+              {
+                "value": "Nul ne peut préparer, détenir en vue de la vente ou de la fourniture de services moyennant rémunération, recevoir, acheter pour fins de revente, mettre en vente ou en dépôt, vendre, donner à des fins promotionnelles, transporter, faire transporter ou accepter pour transport, tout produit destiné à la consommation humaine qui est impropre à cette consommation, qui est altéré de manière à le rendre impropre à cette consommation, dont l'innocuité n'est pas assurée pour cette consommation ou qui n'est pas conforme aux exigences de la présente loi et des règlements.",
+                "count": 16
+              },
+              {
+                "value": "Tout produit conditionné en vue de la vente doit porter, en caractères indélébiles, très lisibles et apparents, sur le récipient, l'emballage ou l'enveloppe qui le contient les inscriptions nécessaires pour révéler la nature, l'état, la composition, l'utilisation, la quantité exacte, l'origine et toute particularité du produit; les nom et adresse du fabricant, préparateur, conditionneur, emballeur, fournisseur ou distributeur; le lieu de fabrication, préparation ou conditionnement du produit. L'énumération des composants doit figurer par ordre d'importance décroissant. L'indication de poids doit tenir compte de la perte que peut normalement subir le produit après son conditionnement et être exprimée en poids net.",
+                "count": 14
+              },
+              {
+                "value": "Nul ne peut, sans être titulaire d'un permis en vigueur, exploiter un lieu ou un véhicule où est exercée l'activité de restaurateur.",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 388,
+            "top_values": [
+              {
+                "value": "67 Rue De La Gauchetière Ouest, Montréal, Québec",
+                "count": 23
+              },
+              {
+                "value": "1900 Rue Moreau, Montréal, Québec",
+                "count": 20
+              },
+              {
+                "value": "10181 Boul. Saint-Michel, Montréal-Nord, Québec",
+                "count": 16
+              },
+              {
+                "value": "303 Av. Mozart Est, Montréal, Québec",
+                "count": 15
+              },
+              {
+                "value": "6700 Ch. de la Côte-des-Neiges, Local 200, Montréal, Québec",
+                "count": 15
+              },
+              {
+                "value": "1404 Rue Drummond, Montréal, Québec",
+                "count": 12
+              },
+              {
+                "value": "234 Rue Jean-Talon Est, Montréal, Québec",
+                "count": 12
+              },
+              {
+                "value": "3410 Rue Bélanger, Montréal, Québec",
+                "count": 12
+              },
+              {
+                "value": "224 Rue Fleury Ouest, Montréal, Québec",
+                "count": 11
+              },
+              {
+                "value": "8200 19e Av., Local 102, Montréal, Québec",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_jugement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20110630",
+            "max_date": "20260219",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "etablissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 380,
+            "top_values": [
+              {
+                "value": "RESTAURANT JADE QUARTIER CHINOIS",
+                "count": 23
+              },
+              {
+                "value": "ALIMENTS MARINA",
+                "count": 20
+              },
+              {
+                "value": "L'EURO-MARCHE ST-MICHEL",
+                "count": 16
+              },
+              {
+                "value": "PATISSERIE MAISON MOTTAS",
+                "count": 15
+              },
+              {
+                "value": "MARCHE FU TAI",
+                "count": 15
+              },
+              {
+                "value": "MARCHE DRUMMOND (JOE'S PANINI)",
+                "count": 12
+              },
+              {
+                "value": "SUPERMARCHE L'OLIVIER",
+                "count": 12
+              },
+              {
+                "value": "MERSON'S PATISSERIE",
+                "count": 12
+              },
+              {
+                "value": "EUROMARCHE FLEURY",
+                "count": 11
+              },
+              {
+                "value": "DOUBLE PIZZA",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "montant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 200.0,
+            "max": 7000.0,
+            "mean": 1415.6,
+            "median": 1200.0,
+            "unique_count": 61,
+            "field_type_detected": "numeric"
+          },
+          "proprietaire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 343,
+            "top_values": [
+              {
+                "value": "9103-3183 QUEBEC INC.",
+                "count": 23
+              },
+              {
+                "value": "2717450 CANADA INC.",
+                "count": 20
+              },
+              {
+                "value": "9183-4853 QUEBEC INC.",
+                "count": 17
+              },
+              {
+                "value": "2844087 CANADA INC.",
+                "count": 16
+              },
+              {
+                "value": "PATISSERIE MAISON MOTTAS LIMITEE",
+                "count": 15
+              },
+              {
+                "value": "7209207 CANADA INC.",
+                "count": 15
+              },
+              {
+                "value": "HOST INTERNATIONAL OF CANADA LTD",
+                "count": 14
+              },
+              {
+                "value": "9185-4166 QUEBEC INC.",
+                "count": 13
+              },
+              {
+                "value": "128315 CANADA INC.",
+                "count": 12
+              },
+              {
+                "value": "EPICERIE BOUCHERIE L'OLIVIER INC.",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 839
+              },
+              {
+                "value": "St-Laurent",
+                "count": 27
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 22
+              },
+              {
+                "value": "Dorval",
+                "count": 21
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 20
+              },
+              {
+                "value": "LaSalle",
+                "count": 18
+              },
+              {
+                "value": "St-Léonard",
+                "count": 13
+              },
+              {
+                "value": "Verdun",
+                "count": 9
+              },
+              {
+                "value": "Pierrefonds",
+                "count": 7
+              },
+              {
+                "value": "Ste-Anne-de-Bellevue",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Ouvert",
+                "count": 445
+              },
+              {
+                "value": "Fermé changement d'exploitant",
+                "count": 306
+              },
+              {
+                "value": "Fermé",
+                "count": 249
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "19900601",
+            "max_date": "20260226",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Restaurant",
+                "count": 404
+              },
+              {
+                "value": "Boucherie-épicerie",
+                "count": 122
+              },
+              {
+                "value": "Restaurant service rapide",
+                "count": 109
+              },
+              {
+                "value": "Épicerie avec préparation",
+                "count": 104
+              },
+              {
+                "value": "Casse-croûte",
+                "count": 34
+              },
+              {
+                "value": "Pâtisserie/Boulangerie",
+                "count": 33
+              },
+              {
+                "value": "Charcuterie/fromage",
+                "count": 30
+              },
+              {
+                "value": "Supermarché",
+                "count": 29
+              },
+              {
+                "value": "Boulangerie",
+                "count": 26
+              },
+              {
+                "value": "Distributeur en gros de produits mixtes",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "0103372a-8080-48f2-a9b4-3136cb3bea40",
+      "name": "Spécifications - Format LIVES (Yelp)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/05a9e718-6810-4e73-8bb9-5955efeb91a0/resource/0103372a-8080-48f2-a9b4-3136cb3bea40/download/feed_info.csv",
+      "datastore_active": true,
+      "size": 171,
+      "last_modified": "2026-03-09T06:45:46.010792",
+      "created": "2020-06-11T14:31:12.818285",
+      "schema": {
+        "resource_id": "0103372a-8080-48f2-a9b4-3136cb3bea40",
+        "total_records": 1,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "feed_date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "feed_version",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipality_name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "municipality_url",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "contact_email",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "feed_date": "20260309",
+            "feed_version": "1.0",
+            "municipality_name": "Ville de Montr√©al",
+            "municipality_url": "https://donnees.montreal.ca/",
+            "contact_email": "donneesouvertes@montreal.ca"
+          }
+        ]
+      },
+      "field_stats": {
+        "feed_date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "feed_version": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipality_name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "municipality_url": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "contact_email": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1,
+        "total_records": 1,
+        "audited_at": "2026-03-10T00:20:02.871169+00:00",
+        "fields": {
+          "feed_date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20260309",
+            "max_date": "20260309",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "feed_version": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1.0",
+                "count": 1
+              }
+            ]
+          },
+          "municipality_name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ville de Montr√©al",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "municipality_url": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "https://donnees.montreal.ca/",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "contact_email": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "donneesouvertes@montreal.ca",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aliment",
+    "Alimentation",
+    "Amende",
+    "Inspection",
+    "MAPAQ",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Lors de l’inspection d’un établissement alimentaire, si l’inspecteur constate une infraction à la réglementation, il dresse un avis d’infraction précisant les correctifs à apporter. Devant le refus d’obtempérer, une poursuite judiciaire est intentée contre l’exploitant de l’établissement qui est passible d’une amende s’il est reconnu coupable. \n\n\nIl arrive qu'une inspection soit associée à un domicile privé si l'inspecteur doit s'y rendre pour prélever un échantillon lors d'une plainte.  Ces cas ne sont pas localisés géographiquement. \n\n\nLes données des établissements alimentaires ainsi que le rapport sur les activités de l'inspection des aliments sont également disponibles.\n\n\n_Note_ : Les données sont disponibles à partir de janvier 2011, moment de migration des données au système actuel.\n\n### Dictionnaire de données\n\n\n\n**Violations**\n\n\n- id_poursuite (numérique) : Identifiant de la poursuite.\n\n- business_id (numérique) : Identifiant  Ville de l'établissement.\n\n- date (date) : Date de l'infraction.\n\n- date_jugement (date) : Date du jugement.\n\n- description (texte variable) : Description de l'infraction.\n\n- etablissement (texte variable) : Nom de l’établissement.\n\n- montant (numérique) : Montant de l'amende.\n\n- proprietaire (texte variable) : Nom de l'exploitant.\n\n- ville (texte variable) :",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement - Division de l'inspection des aliments",
+      "Couverture temporelle": "2011-01-01/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Aliment",
+      "Alimentation",
+      "Amende",
+      "Inspection",
+      "MAPAQ",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/inspection-aliments-contrevenants",
+    "scraped_at": "2026-03-09T19:58:57.258044+00:00"
+  }
+}

@@ -1,0 +1,981 @@
+{
+  "slug": "vmtl-incidents-du-reseau-du-metro",
+  "title": "Incidents du réseau du métro",
+  "notes": "Cet ensemble fait état de tous les incidents qui touchent les trains, y compris ceux qui n'ont pas causé de ralentissement ou d'interruption du service réseau du métro, ainsi que les incidents qui touchent les stations (les incidents stations n'affectent pas le service métro).\r\n\r\nSi vous avez des questions sur cet ensemble, veuillez communiquer avec la Société de transport de Montréal à l'adresse [ccia@stm.info](mailto:ccia@stm.info).\r\n",
+  "organization": "societe-de-transport-de-montreal",
+  "organization_title": "Société de transport de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-05-16T17:07:29.997762",
+  "metadata_modified": "2026-03-09T01:35:28.725287",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "518d9c92-89a3-408a-8ac4-04ee43e2ac9e",
+      "name": "Incidents - réseau du métro",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donneesouvertes.stm.info/fichiers/Incidents%20m%C3%A9tro.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2026-03-09T00:01:47",
+      "created": "2019-05-16T17:08:00.899685",
+      "schema": {
+        "resource_id": "518d9c92-89a3-408a-8ac4-04ee43e2ac9e",
+        "total_records": 45561,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Numero d'incident",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type d'incident",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cause primaire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cause secondaire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Symptome",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ligne",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Numero de tournee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Heure de l'incident",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Heure de reprise",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Incident en minutes",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Vehicule",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Porte de voiture",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type de materiel",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code de lieu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Dommage materiel",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "KFS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Porte",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Urgence metro",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Evacuation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee civile",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Annee civile/mois",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mois calendrier",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Jour du mois",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Jour de la semaine",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Jour calendaire",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Numero d'incident": "S01011901",
+            "Type d'incident": "S",
+            "Cause primaire": "Autres",
+            "Cause secondaire": "Autres",
+            "Symptome": "Clientèle",
+            "Ligne": "Ligne orange",
+            "Numero de tournee": "#",
+            "Heure de l'incident": "02:56",
+            "Heure de reprise": "03:32",
+            "Incident en minutes": "02 min et moins",
+            "Vehicule": "#",
+            "Porte de voiture": "#",
+            "Type de materiel": "Non affecté",
+            "Code de lieu": "Snowdon",
+            "Dommage materiel": "0",
+            "KFS": "0",
+            "Porte": "0",
+            "Urgence metro": "0",
+            "CAT": "0",
+            "Evacuation": "#",
+            "Annee civile": "2019",
+            "Annee civile/mois": "janv-19",
+            "Mois calendrier": "1",
+            "Jour du mois": "1",
+            "Jour de la semaine": "2",
+            "Jour calendaire": "2019-01-01"
+          },
+          {
+            "_id": 2,
+            "Numero d'incident": "S01011902",
+            "Type d'incident": "S",
+            "Cause primaire": "Autres",
+            "Cause secondaire": "Autres",
+            "Symptome": "Clientèle",
+            "Ligne": "Ligne orange",
+            "Numero de tournee": "#",
+            "Heure de l'incident": "02:56",
+            "Heure de reprise": "03:42",
+            "Incident en minutes": "02 min et moins",
+            "Vehicule": "#",
+            "Porte de voiture": "#",
+            "Type de materiel": "Non affecté",
+            "Code de lieu": "Snowdon",
+            "Dommage materiel": "0",
+            "KFS": "0",
+            "Porte": "0",
+            "Urgence metro": "0",
+            "CAT": "0",
+            "Evacuation": "#",
+            "Annee civile": "2019",
+            "Annee civile/mois": "janv-19",
+            "Mois calendrier": "1",
+            "Jour du mois": "1",
+            "Jour de la semaine": "2",
+            "Jour calendaire": "2019-01-01"
+          },
+          {
+            "_id": 3,
+            "Numero d'incident": "S01011903",
+            "Type d'incident": "S",
+            "Cause primaire": "Autres",
+            "Cause secondaire": "Autres",
+            "Symptome": "Clientèle",
+            "Ligne": "Ligne verte",
+            "Numero de tournee": "#",
+            "Heure de l'incident": "03:35",
+            "Heure de reprise": "04:41",
+            "Incident en minutes": "02 min et moins",
+            "Vehicule": "#",
+            "Porte de voiture": "#",
+            "Type de materiel": "Non affecté",
+            "Code de lieu": "Place-des-Arts",
+            "Dommage materiel": "0",
+            "KFS": "0",
+            "Porte": "0",
+            "Urgence metro": "0",
+            "CAT": "0",
+            "Evacuation": "#",
+            "Annee civile": "2019",
+            "Annee civile/mois": "janv-19",
+            "Mois calendrier": "1",
+            "Jour du mois": "1",
+            "Jour de la semaine": "2",
+            "Jour calendaire": "2019-01-01"
+          },
+          {
+            "_id": 4,
+            "Numero d'incident": "S01011904",
+            "Type d'incident": "S",
+            "Cause primaire": "Autres",
+            "Cause secondaire": "Autres",
+            "Symptome": "Clientèle",
+            "Ligne": "Ligne verte",
+            "Numero de tournee": "#",
+            "Heure de l'incident": "04:56",
+            "Heure de reprise": "05:36",
+            "Incident en minutes": "02 min et moins",
+            "Vehicule": "#",
+            "Porte de voiture": "#",
+            "Type de materiel": "Non affecté",
+            "Code de lieu": "Lionel-Groulx",
+            "Dommage materiel": "0",
+            "KFS": "0",
+            "Porte": "0",
+            "Urgence metro": "0",
+            "CAT": "0",
+            "Evacuation": "#",
+            "Annee civile": "2019",
+            "Annee civile/mois": "janv-19",
+            "Mois calendrier": "1",
+            "Jour du mois": "1",
+            "Jour de la semaine": "2",
+            "Jour calendaire": "2019-01-01"
+          },
+          {
+            "_id": 5,
+            "Numero d'incident": "S01011905",
+            "Type d'incident": "S",
+            "Cause primaire": "Autres",
+            "Cause secondaire": "Autres",
+            "Symptome": "Clientèle",
+            "Ligne": "Ligne verte",
+            "Numero de tournee": "#",
+            "Heure de l'incident": "05:25",
+            "Heure de reprise": "05:54",
+            "Incident en minutes": "02 min et moins",
+            "Vehicule": "#",
+            "Porte de voiture": "#",
+            "Type de materiel": "Non affecté",
+            "Code de lieu": "Berri-UQAM",
+            "Dommage materiel": "0",
+            "KFS": "0",
+            "Porte": "0",
+            "Urgence metro": "0",
+            "CAT": "0",
+            "Evacuation": "#",
+            "Annee civile": "2019",
+            "Annee civile/mois": "janv-19",
+            "Mois calendrier": "1",
+            "Jour du mois": "1",
+            "Jour de la semaine": "2",
+            "Jour calendaire": "2019-01-01"
+          }
+        ]
+      },
+      "field_stats": {
+        "Numero d'incident": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type d'incident": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cause primaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cause secondaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Symptome": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ligne": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Numero de tournee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Heure de l'incident": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Heure de reprise": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Incident en minutes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Vehicule": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Porte de voiture": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type de materiel": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Code de lieu": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Dommage materiel": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "KFS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Porte": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Urgence metro": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CAT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Evacuation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee civile": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee civile/mois": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mois calendrier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Jour du mois": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Jour de la semaine": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Jour calendaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 45561,
+        "audited_at": "2026-03-10T00:19:42.057015+00:00",
+        "fields": {
+          "Numero d'incident": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "S01011901",
+                "count": 1
+              },
+              {
+                "value": "S01011902",
+                "count": 1
+              },
+              {
+                "value": "S01011903",
+                "count": 1
+              },
+              {
+                "value": "S01011904",
+                "count": 1
+              },
+              {
+                "value": "S01011905",
+                "count": 1
+              },
+              {
+                "value": "S01011906",
+                "count": 1
+              },
+              {
+                "value": "S01011907",
+                "count": 1
+              },
+              {
+                "value": "S01011908",
+                "count": 1
+              },
+              {
+                "value": "S01011909",
+                "count": 1
+              },
+              {
+                "value": "S01012001",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Type d'incident": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "S",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Cause primaire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Autres",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Cause secondaire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Autres",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Symptome": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Clientèle",
+                "count": 613
+              },
+              {
+                "value": "Exploitation stations",
+                "count": 352
+              },
+              {
+                "value": "Feu, fumée, odeur, produit, etc...",
+                "count": 21
+              },
+              {
+                "value": "#N/A",
+                "count": 10
+              },
+              {
+                "value": "Équipements fixes",
+                "count": 3
+              },
+              {
+                "value": "Divers",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Ligne": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Ligne verte",
+                "count": 515
+              },
+              {
+                "value": "Ligne orange",
+                "count": 390
+              },
+              {
+                "value": "Ligne bleue",
+                "count": 83
+              },
+              {
+                "value": "Ligne jaune",
+                "count": 11
+              },
+              {
+                "value": "Ligne 1, 2, 4, 5",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Numero de tournee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "#",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Heure de l'incident": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 678,
+            "top_values": [
+              {
+                "value": "02:00",
+                "count": 11
+              },
+              {
+                "value": "23:00",
+                "count": 6
+              },
+              {
+                "value": "19:45",
+                "count": 5
+              },
+              {
+                "value": "17:38",
+                "count": 5
+              },
+              {
+                "value": "11:33",
+                "count": 5
+              },
+              {
+                "value": "18:15",
+                "count": 4
+              },
+              {
+                "value": "03:05",
+                "count": 4
+              },
+              {
+                "value": "22:04",
+                "count": 4
+              },
+              {
+                "value": "05:20",
+                "count": 4
+              },
+              {
+                "value": "22:15",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Heure de reprise": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 682,
+            "top_values": [
+              {
+                "value": "29:00:00",
+                "count": 18
+              },
+              {
+                "value": "05:25",
+                "count": 6
+              },
+              {
+                "value": "21:40",
+                "count": 5
+              },
+              {
+                "value": "05:00",
+                "count": 4
+              },
+              {
+                "value": "18:15",
+                "count": 4
+              },
+              {
+                "value": "23:53",
+                "count": 4
+              },
+              {
+                "value": "19:37",
+                "count": 4
+              },
+              {
+                "value": "20:37",
+                "count": 4
+              },
+              {
+                "value": "12:21",
+                "count": 4
+              },
+              {
+                "value": "10:28",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Incident en minutes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "02 min et moins",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Vehicule": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "#",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Porte de voiture": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "#",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type de materiel": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Non affecté",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Code de lieu": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 70,
+            "top_values": [
+              {
+                "value": "Berri-UQAM",
+                "count": 93
+              },
+              {
+                "value": "Atwater",
+                "count": 50
+              },
+              {
+                "value": "Lionel-Groulx",
+                "count": 46
+              },
+              {
+                "value": "Snowdon",
+                "count": 33
+              },
+              {
+                "value": "Jean-Talon",
+                "count": 33
+              },
+              {
+                "value": "Guy-Concordia",
+                "count": 32
+              },
+              {
+                "value": "McGill",
+                "count": 24
+              },
+              {
+                "value": "Côte-Vertu",
+                "count": 24
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 23
+              },
+              {
+                "value": "Place-des-Arts",
+                "count": 22
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Dommage materiel": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "KFS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "Porte": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "Urgence metro": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "CAT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "Evacuation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "#",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Annee civile": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Annee civile/mois": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "août-19",
+            "max_date": "sept-25",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Mois calendrier": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1",
+            "max_date": "9",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Jour du mois": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1",
+            "max_date": "2",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Jour de la semaine": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1",
+            "max_date": "7",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Jour calendaire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-01",
+            "max_date": "2025-09-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Incidents",
+    "Métro",
+    "STM",
+    "Station"
+  ],
+  "web_metadata": {
+    "methodology_text": "Chaque incident survenu sur le réseau des trains ou dans le réseau des stations est consigné. Les incidents stations pouvant être analysés au moment où ils sont déclarés, le symptôme est également la cause, les champs de cause primaire et cause secondaire ne sont pas renseignés.  Les incidents trains étant plus complexes, ils font l'objet d'une analyse plus poussée pour en déterminer la cause de manière précise.  Cette analyse peut demander du temps et certains incidents peuvent donc apparaître dans les données plus de 30 jours après la fermeture d'un mois. \n\n\nLa mise à jour mensuelle de l'ensemble couvrira toujours les 3 derniers mois de données.\n\n\nÀ noter, selon un balisage des meilleures pratiques dans l'industrie du transport collectif, les indicateurs liés aux incidents ne tiennent pas compte des incidents qui causent des interruptions de service de moins de 5 minutes.\n\n### Dictionnaire de données\n\n\n\n- Numero d'incident (Numérique) : Numéro unique qui identifie chaque incident                             \n\n- \n\n\nType d'incident (Liste de valeur) : Identification du type d'incident \n\n\n- T:Train\n\n- S:Station\n\n\n\n- \n\n\nCause primaire (Liste de valeur) : Cause primaire déterminée suite à l'analyse de l'incident\n\n\n- Clientèle\n\n- Matériel roulant\n\n- Équipements fixes\n\n- Exploitation trains\n\n- Autres\n\n\n\n- \n\n\nCause secondaire (Liste de valeur) : Cause secondaire déterminée suite à l'analyse de l'incident\n\n\n- Blessée ou malade\n\n- Méfait volontaire\n\n- Nuisance involontaire\n\n- Clientèle\n\n- MPM-10\n\n- MR-73\n\n- Véhicule de travaux\n\n- Service de la voie\n\n- Service aux trains\n\n- Service aux stations\n\n- Service TCPE\n\n- Équipements fixes\n\n- Ligne 1,2,4,5\n\n- Centre de contrôle\n\n- Exploitation trains\n\n- Causes externes\n\n- Contrats Réno-Stations\n\n- Contrats Réno-Système\n\n- Contrats MPM10\n\n- Pers. / Équipement STM\n\n- Pers. / Équipement Externe\n\n- Autres\n\n\n\n- \n\n\nSymptome (Liste de valeur) : Cause initiale attribuée au moment de l'incident\n\n\n- Clientèle\n\n- Matériel roulant\n\n- Équipements fixes\n\n- Exploitation trains\n\n- Feu, fumée, odeur, produit, etc…\n\n\n\n- \n\n\nLigne (Liste de valeur) : Nom de la ligne sur laquelle a eu lieu l'incident \n\n\n- 1:Ligne verte\n\n- 2:Ligne orange\n\n- 4:Ligne jaune\n\n- 5:Ligne bleue\n\n\n\n- \n\n\nNuméro de tournée (Numérique) : Numéro de tournée du train associé à l'incident, # indique qu'il n'y a pas de tournée associée\n\n\n- Date du jour (Alpha) (Date et/ou heure) : Jour civil de l'incident\n\n- Heure de l'incident (Date et/ou heure) :\n\n- Pour les incidents trains:  Heure de début du délai (service clientèle) pour \n    l'incident (et non l'heure de début de l'incident). \n\n- Pour les incidents station:  Heure de début  de l'incident.             \n\n\n\n- \n\n\nHeure de reprise (Date et/ou heure) : \n\n\n- Pour les incidents trains:  Heure de fin du délai (service clientèle) pour \n   l'incident (et non l'heure de fin de l'incident).  \n\n- Pour les incidents station:  Heure de fin  de l'incident.\n\n\n\n- \n\n\nJour du mois (Date et/ou heure) : Jour du mois de l'incident\n\n\n- Véhicule (Numérique) : Numéro de la voiture du train impliqué dans l'incident ou # advenant qu'il n'y a pas de voiture impliquée.\n\n- Porte de voiture (numéro) (Texte variable) : Numéro de la ou des portes impliquées dans l'incident (1 à 8 et toutes) ou # advenant qu'il n'y a pas de porte en cause\n\n- Type de Matériel (Liste de valeur:73;10) : Type de matériel roulant (MR-73 ou MPM-10)\n\n- CAT (Booléen) : Indicateur de coupure d'alimentation de traction (1:oui/0:non)\n\n- Dommage matériel (Booléen) : Indicateur de possibilité de dommage au train (1:oui/0:non)\n\n- KFS (Booléen) : Indicateur de l'utilisation du frein d'urgence par la clientèle (1:oui/0:non)\n\n- Porte (Booléen) : Indicateur de l'implication d'une porte dans l'incident (1:oui/0:non)\n\n- Urgence métro (Booléen) : Indicateur de l'implication de l'équipe urgence métro à la demande de la salle de contrôle (1:oui/0:non)\n\n- Code de lieu (Texte variable) : Lieu de l'incident              \n\n- Évacuation (Texte variable) : Indicateur de l'évacuation d'une voiture, d'un train, d'une station ou d'une station et d'un train, # indique qu'il n'y a pas d'évacuation pour cet incident.\n\n- Année civile (Date et/ou heure) : Année de l'incident\n\n- Année civile/mois (Date et/ou heure) : Année/mois de l'incident\n\n- Jour calendaire (Date et/ou heure) : Jour calendaire de l'incident\n\n- Jour de la semaine (Date et/ou heure) : Jour de la semaine de l'incident\n\n- Mois calendrier (Date et/ou heure) : Mois calendrier de l'incident\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Société de transport de Montréal - Centre de compétences en intelligence d'affaires",
+      "Couverture temporelle": "2019-01-01/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Incidents",
+      "Métro",
+      "STM",
+      "Station"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/incidents-du-reseau-du-metro",
+    "scraped_at": "2026-03-09T19:58:32.247378+00:00"
+  }
+}

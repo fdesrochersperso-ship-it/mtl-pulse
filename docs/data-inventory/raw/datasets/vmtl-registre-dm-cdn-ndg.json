@@ -1,0 +1,487 @@
+{
+  "slug": "vmtl-registre-dm-cdn-ndg",
+  "title": "Registre des dérogations mineures – Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+  "notes": "Registre énumérant les dérogations mineures approuvées par le conseil d'arrondissement et produit en conformité avec le Règlement sur les dérogations mineures (RCA02 17006).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-07-04T13:37:09.360200",
+  "metadata_modified": "2025-02-27T18:08:15.899140",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "b9f39d53-be84-4e9b-bc7f-c2e62afb755c",
+      "name": "Registre des dérogations mineures",
+      "description": "Registre des dérogations mineures adoptées par le conseil d'arrondissement entre le 20 février 2001 et le 7 février 2022.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/fe20c343-2ef6-4130-8661-138404f14dff/resource/b9f39d53-be84-4e9b-bc7f-c2e62afb755c/download/derogations-mineures_maj20220407.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-04-07T18:24:12.340699",
+      "created": "2016-01-13T11:59:10.043532",
+      "schema": {
+        "resource_id": "b9f39d53-be84-4e9b-bc7f-c2e62afb755c",
+        "total_records": 112,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Résolution\n + date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Adresse",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Résolution\n + date": "CO01 00325\n20 février 2001\nS000489030 ",
+            "Nature": "Dérogation autorisant l’installation d’une clôture de 3,05 mètres de hauteur délimitant le centre de jardinage",
+            "Adresse": "7250, boulevard de Sainte-Anne-de-Bellevue "
+          },
+          {
+            "_id": 2,
+            "Résolution\n + date": "CA02 170161\n5 août 2002",
+            "Nature": "Hauteur maximale prescrite pour la construction d’un immeuble",
+            "Adresse": "5155, avenue Decelles"
+          },
+          {
+            "_id": 3,
+            "Résolution\n + date": "CA02 170204\n3 septembre 2002",
+            "Nature": "Implantation d’un îlot de service et d’un conteneur à déchets",
+            "Adresse": "7250, rue Saint-Jacques"
+          },
+          {
+            "_id": 4,
+            "Résolution\n + date": "CA02 170235\n7 octobre 2002",
+            "Nature": "Mode d’implantation exigeant un mode en continuité",
+            "Adresse": "McKenna (entre Fendall \net Jean-Brillant) \nLot 2 176  572"
+          },
+          {
+            "_id": 5,
+            "Résolution\n + date": "CA02 170236\n7 octobre 2002",
+            "Nature": "Marge latérale sud",
+            "Adresse": "4420, avenue \nde Kensington"
+          }
+        ]
+      },
+      "field_stats": {
+        "Résolution\n + date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nature": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 112,
+        "total_records": 112,
+        "audited_at": "2026-03-10T00:23:19.220034+00:00",
+        "fields": {
+          "Résolution\n + date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "CA02 170161\n5 août 2002",
+            "max_date": "CO01 00325\n20 février 2001\nS000489030",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Nature": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 108,
+            "top_values": [
+              {
+                "value": "Hauteur maximale prescrite pour la construction d’un immeuble",
+                "count": 2
+              },
+              {
+                "value": "Construction d’un immeuble de 4 étages",
+                "count": 2
+              },
+              {
+                "value": "Permettre une nouvelle construction",
+                "count": 2
+              },
+              {
+                "value": "Permettre l'installation d'une clôture de 1,2 m en cour avant du bâtiment",
+                "count": 2
+              },
+              {
+                "value": "Dérogation autorisant l’installation d’une clôture de 3,05 mètres de hauteur délimitant le centre de jardinage",
+                "count": 1
+              },
+              {
+                "value": "Implantation d’un îlot de service et d’un conteneur à déchets",
+                "count": 1
+              },
+              {
+                "value": "Mode d’implantation exigeant un mode en continuité",
+                "count": 1
+              },
+              {
+                "value": "Marge latérale sud",
+                "count": 1
+              },
+              {
+                "value": "Alignement de construction pour la construction projetée d’un immeuble commercial",
+                "count": 1
+              },
+              {
+                "value": "Marge latérale pour un bâtiment à être démoli et reconstruit\nApprobation de construction d’une mezzanine dépassant de 2 mètres la hauteur maximale",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 106,
+            "top_values": [
+              {
+                "value": "3175, chemin de la Côte-Sainte-Catherine",
+                "count": 3
+              },
+              {
+                "value": "5155, avenue Decelles",
+                "count": 2
+              },
+              {
+                "value": "6875, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "6417-6445, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "3300, boul. Cavendish",
+                "count": 2
+              },
+              {
+                "value": "7250, boulevard de Sainte-Anne-de-Bellevue",
+                "count": 1
+              },
+              {
+                "value": "7250, rue Saint-Jacques",
+                "count": 1
+              },
+              {
+                "value": "McKenna (entre Fendall \net Jean-Brillant) \nLot 2 176  572",
+                "count": 1
+              },
+              {
+                "value": "4420, avenue \nde Kensington",
+                "count": 1
+              },
+              {
+                "value": "Pavillon Marcelle Coutu\nUniversité de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "e0dc56cc-dae8-4979-ba06-61052ab18175",
+      "name": "Registre des dérogations mineures",
+      "description": "Registre des dérogations mineures adoptées par le conseil d'arrondissement entre le 20 février 2001 et le 7 février 2022.",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/fe20c343-2ef6-4130-8661-138404f14dff/resource/e0dc56cc-dae8-4979-ba06-61052ab18175/download/derogations-mineures_maj20220407.ods",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-04-07T18:25:37.237042",
+      "created": "2016-01-13T11:59:10.428856",
+      "schema": {
+        "resource_id": "e0dc56cc-dae8-4979-ba06-61052ab18175",
+        "total_records": 112,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Résolution",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Adresse",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Résolution": "CO01 00325\n20 février 2001\nS000489030 ",
+            "Nature": "Dérogation autorisant l’installation d’une clôture de 3,05 mètres de hauteur délimitant le centre de jardinage",
+            "Adresse": "7250, boulevard de Sainte-Anne-de-Bellevue "
+          },
+          {
+            "_id": 2,
+            "Résolution": "CA02 170161\n5 août 2002",
+            "Nature": "Hauteur maximale prescrite pour la construction d’un immeuble",
+            "Adresse": "5155, avenue Decelles"
+          },
+          {
+            "_id": 3,
+            "Résolution": "CA02 170204\n3 septembre 2002",
+            "Nature": "Implantation d’un îlot de service et d’un conteneur à déchets",
+            "Adresse": "7250, rue Saint-Jacques"
+          },
+          {
+            "_id": 4,
+            "Résolution": "CA02 170235\n7 octobre 2002",
+            "Nature": "Mode d’implantation exigeant un mode en continuité",
+            "Adresse": "McKenna (entre Fendall \net Jean-Brillant) \nLot 2 176 "
+          },
+          {
+            "_id": 5,
+            "Résolution": "CA02 170236\n7 octobre 2002",
+            "Nature": "Marge latérale sud",
+            "Adresse": "4420, avenue \nde Kensington"
+          }
+        ]
+      },
+      "field_stats": {
+        "Résolution": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nature": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 112,
+        "total_records": 112,
+        "audited_at": "2026-03-10T00:23:20.035229+00:00",
+        "fields": {
+          "Résolution": {
+            "null_count": 10,
+            "null_pct": 8.9,
+            "unique_count": 102,
+            "top_values": [
+              {
+                "value": "CO01 00325\n20 février 2001\nS000489030",
+                "count": 1
+              },
+              {
+                "value": "CA02 170161\n5 août 2002",
+                "count": 1
+              },
+              {
+                "value": "CA02 170204\n3 septembre 2002",
+                "count": 1
+              },
+              {
+                "value": "CA02 170235\n7 octobre 2002",
+                "count": 1
+              },
+              {
+                "value": "CA02 170236\n7 octobre 2002",
+                "count": 1
+              },
+              {
+                "value": "CA02 170295\n2 décembre 2002",
+                "count": 1
+              },
+              {
+                "value": "CA03 170013\n13 janvier 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170340\n7 octobre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA04 170080\n1er mars 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04 170123\n15 avril 2004",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nature": {
+            "null_count": 6,
+            "null_pct": 5.4,
+            "unique_count": 102,
+            "top_values": [
+              {
+                "value": "Hauteur maximale prescrite pour la construction d’un immeuble",
+                "count": 2
+              },
+              {
+                "value": "Construction d’un immeuble de 4 étages",
+                "count": 2
+              },
+              {
+                "value": "Permettre une nouvelle construction",
+                "count": 2
+              },
+              {
+                "value": "Permettre l'installation d'une clôture de 1,2 m en cour avant du bâtiment",
+                "count": 2
+              },
+              {
+                "value": "Dérogation autorisant l’installation d’une clôture de 3,05 mètres de hauteur délimitant le centre de jardinage",
+                "count": 1
+              },
+              {
+                "value": "Implantation d’un îlot de service et d’un conteneur à déchets",
+                "count": 1
+              },
+              {
+                "value": "Mode d’implantation exigeant un mode en continuité",
+                "count": 1
+              },
+              {
+                "value": "Marge latérale sud",
+                "count": 1
+              },
+              {
+                "value": "Alignement de construction pour la construction projetée d’un immeuble commercial",
+                "count": 1
+              },
+              {
+                "value": "Marge latérale pour un bâtiment à être démoli et reconstruit\nApprobation de construction d’une mezzanine dépassant de 2 mètres la hauteur maximale",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Adresse": {
+            "null_count": 6,
+            "null_pct": 5.4,
+            "unique_count": 100,
+            "top_values": [
+              {
+                "value": "3175, chemin de la Côte-Sainte-Catherine",
+                "count": 3
+              },
+              {
+                "value": "5155, avenue Decelles",
+                "count": 2
+              },
+              {
+                "value": "6875, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "6417-6445, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "3300, boul. Cavendish",
+                "count": 2
+              },
+              {
+                "value": "7250, boulevard de Sainte-Anne-de-Bellevue",
+                "count": 1
+              },
+              {
+                "value": "7250, rue Saint-Jacques",
+                "count": 1
+              },
+              {
+                "value": "McKenna (entre Fendall \net Jean-Brillant) \nLot 2 176",
+                "count": 1
+              },
+              {
+                "value": "4420, avenue \nde Kensington",
+                "count": 1
+              },
+              {
+                "value": "Pavillon Marcelle Coutu\nUniversité de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "CN-NdG",
+    "Côte-des-Neiges--Notre-Dame-de-Grâce",
+    "Dérogation mineure",
+    "Registre"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le registre est mis à jour lorsqu'une nouvelle dérogation mineure est approuvée par le conseil d'arrondissement. La liste est présentée sous la forme d'un tableau qui comporte 3 colonnes : Résolution, Nature et Adresse.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    CDN\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+      "Couverture temporelle": "2001-02-20/2022-04-14",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Arr.",
+      "CN-NdG",
+      "Côte-des-Neiges--Notre-Dame-de-Grâce",
+      "Dérogation mineure",
+      "Registre"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/registre-dm-cdn-ndg",
+    "scraped_at": "2026-03-09T20:18:29.950969+00:00"
+  }
+}

@@ -1,0 +1,2265 @@
+{
+  "slug": "vmtl-remboursement-des-frais-de-recherches-et-de-soutien",
+  "title": "Remboursement des frais de recherches et de soutien",
+  "notes": "Remboursement des dépenses de recherches et de soutien des conseillers en vertu de l'article 474.0.1 de la Loi sur les cités et villes.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-09-15T14:10:03.143773",
+  "metadata_modified": "2025-08-20T18:02:29.790253",
+  "num_resources": 7,
+  "resources": [
+    {
+      "id": "ea550029-2d24-4f13-9aa0-cd1c30fe6aac",
+      "name": "Visualisation des données",
+      "description": "<a href=\"https://vuesurlesdonnees.montreal.ca/pub/single/?appid=728573ed-494c-422d-9651-9c7085019bdd&sheet=SH01&opt=ctxmenu,currsel\" target=\"_blank\" title=\"Visualisation Qlik du montant des amendes payées et impayées par bibliothèque\">Ouvrir la visualisation dans un nouvel onglet</a>\r\n\r\n",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiY2ZhYWRhMWEtNzYyNi00NDQ5LTg4MWItM2NlMWYyNDQ4ZTBlIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-25T22:18:15.413577",
+      "schema": null
+    },
+    {
+      "id": "ea24b948-f8f8-408b-8a21-4ed5a7016f62",
+      "name": "Remboursements effectués en 2016",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/ea24b948-f8f8-408b-8a21-4ed5a7016f62/download/recherchesoutien2016.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-08-05T18:41:33.098586",
+      "created": "2016-03-18T13:29:58.365747",
+      "schema": {
+        "resource_id": "ea24b948-f8f8-408b-8a21-4ed5a7016f62",
+        "total_records": 378,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-12-02T00:00:00",
+            "Nom et adresse du fournisseur*": "Black Theatre Workshop, 3680, rue Jeanne-Mance, bureau 432, Montréal (Québec) H2X 2K5",
+            "Montant avant taxes": 45000,
+            "TPS": 2250,
+            "TVQ": "44,89",
+            "Montant total": 51739,
+            "N° de pièce justificative": "RS-2016-01-001"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-12T00:00:00",
+            "Nom et adresse du fournisseur*": "Marie-Paul Laguë",
+            "Montant avant taxes": 15000,
+            "TPS": 750,
+            "TVQ": "14,96",
+            "Montant total": 17246,
+            "N° de pièce justificative": "RS-2016-03-001"
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-14T00:00:00",
+            "Nom et adresse du fournisseur*": "The Filipino Forum, 2347, rue Sigouin, Montréal (Québec) H4R 1L8",
+            "Montant avant taxes": 50000,
+            "TPS": 0,
+            "TVQ": "0,00",
+            "Montant total": 50000,
+            "N° de pièce justificative": "RS-2016-03-002"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-17T00:00:00",
+            "Nom et adresse du fournisseur*": "Sanctuaire Marie-Reine-des-Cœurs / Pères et Frères Montfortains, 5875, rue Sherbrooke Est, Montréal (Québec) H1N 1B6",
+            "Montant avant taxes": 45000,
+            "TPS": 0,
+            "TVQ": "0,00",
+            "Montant total": 45000,
+            "N° de pièce justificative": "RS-2016-05-001"
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-18T00:00:00",
+            "Nom et adresse du fournisseur*": "Ligue des Noirs du Québec, 5201, boulevard Décarie, Montréal (Québec) H3W 3C2",
+            "Montant avant taxes": 10000,
+            "TPS": 0,
+            "TVQ": "0,00",
+            "Montant total": 10000,
+            "N° de pièce justificative": "RS-2016-03-003"
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TPS": {
+          "null_count": 46,
+          "null_pct": 12.2,
+          "populated_pct": 87.8
+        },
+        "TVQ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 378,
+        "total_records": 378,
+        "audited_at": "2026-03-10T00:23:25.972578+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 197
+              },
+              {
+                "value": "Projet Montréal",
+                "count": 84
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 47
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 15
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 14
+              },
+              {
+                "value": "Érika Duchesne",
+                "count": 12
+              },
+              {
+                "value": "Lorraine Pagé",
+                "count": 5
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 2
+              },
+              {
+                "value": "Morris Trudeau",
+                "count": 1
+              },
+              {
+                "value": "Paola Hawa",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-04-22T00:00:00",
+            "max_date": "2016-06-29T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 175,
+            "top_values": [
+              {
+                "value": "Salaire",
+                "count": 43
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2015-12-27 au 2016-01-09, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-01-10 au 2016-01-23, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-01-24 au 2016-02-06, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-02-07 au 2016-02-20, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 21 février 2016 au 05 mars 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 06 mars au 19 mars 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 20 mars au 02 avril 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 15 au 28 mai 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 29 mai au 11 juin 2016, Avantages sociaux",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 750.0,
+            "max": 1087370.0,
+            "mean": 147018.0344,
+            "median": 58500.5,
+            "unique_count": 251,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 46,
+            "null_pct": 12.2,
+            "min": 0.0,
+            "max": 48922.0,
+            "mean": 2762.9096,
+            "median": 134.0,
+            "unique_count": 155,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 46,
+            "null_pct": 12.2,
+            "unique_count": 156,
+            "top_values": [
+              {
+                "value": "0,00",
+                "count": 152
+              },
+              {
+                "value": "2,68",
+                "count": 5
+              },
+              {
+                "value": "185,19",
+                "count": 4
+              },
+              {
+                "value": "33,36",
+                "count": 3
+              },
+              {
+                "value": "335,96",
+                "count": 3
+              },
+              {
+                "value": "2,51",
+                "count": 3
+              },
+              {
+                "value": "207,81",
+                "count": 3
+              },
+              {
+                "value": "6,48",
+                "count": 2
+              },
+              {
+                "value": "69,83",
+                "count": 2
+              },
+              {
+                "value": "169,39",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 750.0,
+            "max": 1124953.0,
+            "mean": 154275.291,
+            "median": 60000.0,
+            "unique_count": 255,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 4,
+            "null_pct": 1.1,
+            "unique_count": 268,
+            "top_values": [
+              {
+                "value": "2",
+                "count": 10
+              },
+              {
+                "value": "DRS-02",
+                "count": 8
+              },
+              {
+                "value": "DRS-08",
+                "count": 8
+              },
+              {
+                "value": "DRS-17",
+                "count": 8
+              },
+              {
+                "value": "DRS-24",
+                "count": 8
+              },
+              {
+                "value": "DRS-36",
+                "count": 8
+              },
+              {
+                "value": "DRS-49",
+                "count": 8
+              },
+              {
+                "value": "DRS-56",
+                "count": 8
+              },
+              {
+                "value": "DRS-94",
+                "count": 8
+              },
+              {
+                "value": "DRS-111",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "dbe0daa9-3322-4638-9b9b-092e672aea66",
+      "name": "Remboursements effectués en 2016",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/dbe0daa9-3322-4638-9b9b-092e672aea66/download/recherchesoutien2016.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-08-05T18:42:01.332053",
+      "created": "2016-03-18T13:30:29.168430",
+      "schema": {
+        "resource_id": "dbe0daa9-3322-4638-9b9b-092e672aea66",
+        "total_records": 714,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-12-02T00:00:00",
+            "Nom et adresse du fournisseur*": "Black Theatre Workshop, 3680, rue Jeanne-Mance, bureau 432, Montréal (Québec) H2X 2K5",
+            "Montant avant taxes": 450,
+            "TPS": 22.5,
+            "TVQ": "44.89",
+            "Montant total": 517.39,
+            "N° de pièce justificative": "RS-2016-01-001"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-12T00:00:00",
+            "Nom et adresse du fournisseur*": "Marie-Paul Laguë",
+            "Montant avant taxes": 150,
+            "TPS": 7.5,
+            "TVQ": "14.96",
+            "Montant total": 172.46,
+            "N° de pièce justificative": "RS-2016-03-001"
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-14T00:00:00",
+            "Nom et adresse du fournisseur*": "The Filipino Forum, 2347, rue Sigouin, Montréal (Québec) H4R 1L8",
+            "Montant avant taxes": 500,
+            "TPS": 0,
+            "TVQ": "0.0",
+            "Montant total": 500,
+            "N° de pièce justificative": "RS-2016-03-002"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-17T00:00:00",
+            "Nom et adresse du fournisseur*": "Sanctuaire Marie-Reine-des-Cœurs / Pères et Frères Montfortains, 5875, rue Sherbrooke Est, Montréal (Québec) H1N 1B6",
+            "Montant avant taxes": 450,
+            "TPS": 0,
+            "TVQ": "0.0",
+            "Montant total": 450,
+            "N° de pièce justificative": "RS-2016-05-001"
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2016-01-18T00:00:00",
+            "Nom et adresse du fournisseur*": "Ligue des Noirs du Québec, 5201, boulevard Décarie, Montréal (Québec) H3W 3C2",
+            "Montant avant taxes": 100,
+            "TPS": 0,
+            "TVQ": "0.0",
+            "Montant total": 100,
+            "N° de pièce justificative": "RS-2016-03-003"
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 336,
+          "null_pct": 47.1,
+          "populated_pct": 52.9
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 336,
+          "null_pct": 47.1,
+          "populated_pct": 52.9
+        },
+        "TPS": {
+          "null_count": 382,
+          "null_pct": 53.5,
+          "populated_pct": 46.5
+        },
+        "TVQ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant total": {
+          "null_count": 336,
+          "null_pct": 47.1,
+          "populated_pct": 52.9
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 714,
+        "total_records": 714,
+        "audited_at": "2026-03-10T00:23:26.927880+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 336,
+            "null_pct": 47.1,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 197
+              },
+              {
+                "value": "Projet Montréal",
+                "count": 84
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 47
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 15
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 14
+              },
+              {
+                "value": "Érika Duchesne",
+                "count": 12
+              },
+              {
+                "value": "Lorraine Pagé",
+                "count": 5
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 2
+              },
+              {
+                "value": "Morris Trudeau",
+                "count": 1
+              },
+              {
+                "value": "Paola Hawa",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 336,
+            "null_pct": 47.1,
+            "min_date": "2015-04-22T00:00:00",
+            "max_date": "2016-06-29T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 336,
+            "null_pct": 47.1,
+            "unique_count": 175,
+            "top_values": [
+              {
+                "value": "Salaire",
+                "count": 43
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2015-12-27 au 2016-01-09, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-01-10 au 2016-01-23, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-01-24 au 2016-02-06, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 2016-02-07 au 2016-02-20, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 21 février 2016 au 05 mars 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 06 mars au 19 mars 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 20 mars au 02 avril 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 15 au 28 mai 2016, Avantageux sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Période du 29 mai au 11 juin 2016, Avantages sociaux",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 336,
+            "null_pct": 47.1,
+            "min": 7.5,
+            "max": 10873.7,
+            "mean": 1470.1803,
+            "median": 585.0037,
+            "unique_count": 252,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 382,
+            "null_pct": 53.5,
+            "min": 0.0,
+            "max": 489.2164,
+            "mean": 27.6292,
+            "median": 1.3439,
+            "unique_count": 157,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 382,
+            "null_pct": 53.5,
+            "min": 0.0,
+            "max": 975.9868,
+            "mean": 54.3921,
+            "median": 2.6811,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Montant total": {
+            "null_count": 336,
+            "null_pct": 47.1,
+            "min": 7.5,
+            "max": 11249.532,
+            "mean": 1542.7528,
+            "median": 600.0,
+            "unique_count": 258,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 340,
+            "null_pct": 47.6,
+            "unique_count": 270,
+            "top_values": [
+              {
+                "value": "DRS-02",
+                "count": 8
+              },
+              {
+                "value": "DRS-08",
+                "count": 8
+              },
+              {
+                "value": "DRS-17",
+                "count": 8
+              },
+              {
+                "value": "DRS-24",
+                "count": 8
+              },
+              {
+                "value": "DRS-36",
+                "count": 8
+              },
+              {
+                "value": "DRS-49",
+                "count": 8
+              },
+              {
+                "value": "DRS-56",
+                "count": 8
+              },
+              {
+                "value": "DRS-94",
+                "count": 8
+              },
+              {
+                "value": "DRS-111",
+                "count": 8
+              },
+              {
+                "value": "DRS-126",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "fefcd621-12a1-424e-b41b-91becdabfce9",
+      "name": "Remboursements effectués en 2015",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/fefcd621-12a1-424e-b41b-91becdabfce9/download/recherchesoutien2015.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-03-08T14:13:58.218558",
+      "created": "2016-01-13T11:59:04.689996",
+      "schema": {
+        "resource_id": "fefcd621-12a1-424e-b41b-91becdabfce9",
+        "total_records": 721,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2015-08-27",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc.munic.banlieue",
+            "Montant avant taxes": 248812,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 248812,
+            "N° de pièce justificative": "aucune"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-01-12",
+            "Nom et adresse du fournisseur*": "Canadian Pinoy Radio-Montreal, 4685 ave Bourret, suite 208, Montréal (Qc) H3W 1K9",
+            "Montant avant taxes": 25000,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 25000,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-01-20",
+            "Nom et adresse du fournisseur*": "Elsie Lefebvre",
+            "Montant avant taxes": 6300,
+            "TPS": 315,
+            "TVQ": 628,
+            "Montant total": 7243,
+            "N° de pièce justificative": "RS-2015-05-001"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-02-10",
+            "Nom et adresse du fournisseur*": "Club Optimiste St-Paul Montréal, 5265, ch de la Côte-St-Paul, Montréal, Qc H4C 1W9",
+            "Montant avant taxes": 10000,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 10000,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-02-11",
+            "Nom et adresse du fournisseur*": "Canadian Pinoy Radio-Montreal, 4685 ave Bourret, suite 208, Montréal (Qc) H3W 1K9",
+            "Montant avant taxes": 7500,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 7500,
+            "N° de pièce justificative": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 27,
+          "null_pct": 3.7,
+          "populated_pct": 96.3
+        },
+        "TPS": {
+          "null_count": 413,
+          "null_pct": 57.3,
+          "populated_pct": 42.7
+        },
+        "TVQ": {
+          "null_count": 413,
+          "null_pct": 57.3,
+          "populated_pct": 42.7
+        },
+        "Montant total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 721,
+        "total_records": 721,
+        "audited_at": "2026-03-10T00:23:28.052400+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 358
+              },
+              {
+                "value": "Projet Montréal",
+                "count": 194
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 60
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 46
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 44
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 6
+              },
+              {
+                "value": "Jane Guest",
+                "count": 2
+              },
+              {
+                "value": "Beny Masella",
+                "count": 1
+              },
+              {
+                "value": "Ed Janiszewski",
+                "count": 1
+              },
+              {
+                "value": "Edgar Rouleau",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 3,
+            "null_pct": 0.4,
+            "min_date": "2014-04-28",
+            "max_date": "2015-11-19",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 309,
+            "top_values": [
+              {
+                "value": "Service de Paie Desjardins, 1611 boul Crémazie, #204, Montréal (Québec), H2M 2P2",
+                "count": 42
+              },
+              {
+                "value": "Salaire",
+                "count": 24
+              },
+              {
+                "value": "Patrick Cigana",
+                "count": 12
+              },
+              {
+                "value": "Marie Depelteau-Paquette",
+                "count": 11
+              },
+              {
+                "value": "research and secretarial expenses assoc.munic.banlieue",
+                "count": 10
+              },
+              {
+                "value": "Jean-Pierre Bélanger",
+                "count": 10
+              },
+              {
+                "value": "GroverCorp 3974 Notre-Dame O. Montréal (QC) H4C 1R1",
+                "count": 9
+              },
+              {
+                "value": "Mathieu Bélanger",
+                "count": 9
+              },
+              {
+                "value": "Prélèvement paie Nethris, Centre de services de paie CGI Inc., 1611, boul. Crémazie Est 7E étage, Montreal (Québec), H2M 2P2, Période du 2014-12-29 au 2015-01-09, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Centre de services de paie CGI Inc., 1611, boul. Crémazie Est, 7E étage, Montreal (Québec), H2M 2P2, Avantages sociaux",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 27,
+            "null_pct": 3.7,
+            "min": 50.0,
+            "max": 1042186.0,
+            "mean": 135536.0749,
+            "median": 48000.0,
+            "unique_count": 403,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 413,
+            "null_pct": 57.3,
+            "min": 6.0,
+            "max": 32611.0,
+            "mean": 5123.0682,
+            "median": 1976.5,
+            "unique_count": 231,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 413,
+            "null_pct": 57.3,
+            "min": 12.0,
+            "max": 65060.0,
+            "mean": 10223.6786,
+            "median": 3960.0,
+            "unique_count": 240,
+            "field_type_detected": "numeric"
+          },
+          "Montant total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1042186.0,
+            "mean": 141413.3717,
+            "median": 48000.0,
+            "unique_count": 437,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 25,
+            "null_pct": 3.5,
+            "unique_count": 514,
+            "top_values": [
+              {
+                "value": "DRS-92",
+                "count": 16
+              },
+              {
+                "value": "1",
+                "count": 9
+              },
+              {
+                "value": "DRS-11",
+                "count": 8
+              },
+              {
+                "value": "DRS-22",
+                "count": 8
+              },
+              {
+                "value": "DRS-35",
+                "count": 8
+              },
+              {
+                "value": "DRS-40",
+                "count": 8
+              },
+              {
+                "value": "DRS-47",
+                "count": 8
+              },
+              {
+                "value": "DRS-56",
+                "count": 8
+              },
+              {
+                "value": "DRS-67",
+                "count": 8
+              },
+              {
+                "value": "DRS-84",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "b0492e8f-e9f9-4590-bf58-479c6bf83af2",
+      "name": "Remboursements effectués en 2015",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/b0492e8f-e9f9-4590-bf58-479c6bf83af2/download/recherchesoutien2015.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-03-08T14:14:10.916982",
+      "created": "2016-01-13T11:59:05.438722",
+      "schema": {
+        "resource_id": "b0492e8f-e9f9-4590-bf58-479c6bf83af2",
+        "total_records": 723,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2015-08-27 00:00:00",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc.munic.banlieue",
+            "Montant avant taxes": 2488.12,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 2488.12,
+            "N° de pièce justificative": "aucune"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-01-12 00:00:00",
+            "Nom et adresse du fournisseur*": "Canadian Pinoy Radio-Montreal, 4685 ave Bourret, suite 208, Montréal (Qc) H3W 1K9",
+            "Montant avant taxes": 250,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 250,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-01-20 00:00:00",
+            "Nom et adresse du fournisseur*": "Elsie Lefebvre",
+            "Montant avant taxes": 63,
+            "TPS": 3.15,
+            "TVQ": 6.28,
+            "Montant total": 72.43,
+            "N° de pièce justificative": "RS-2015-05-001"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-02-10 00:00:00",
+            "Nom et adresse du fournisseur*": "Club Optimiste St-Paul Montréal, 5265, ch de la Côte-St-Paul, Montréal, Qc H4C 1W9",
+            "Montant avant taxes": 100,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 100,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal ",
+            "Date de la transaction": "2015-02-11 00:00:00",
+            "Nom et adresse du fournisseur*": "Canadian Pinoy Radio-Montreal, 4685 ave Bourret, suite 208, Montréal (Qc) H3W 1K9",
+            "Montant avant taxes": 75,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 75,
+            "N° de pièce justificative": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 29,
+          "null_pct": 4.0,
+          "populated_pct": 96.0
+        },
+        "TPS": {
+          "null_count": 415,
+          "null_pct": 57.4,
+          "populated_pct": 42.6
+        },
+        "TVQ": {
+          "null_count": 415,
+          "null_pct": 57.4,
+          "populated_pct": 42.6
+        },
+        "Montant total": {
+          "null_count": 2,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 723,
+        "total_records": 723,
+        "audited_at": "2026-03-10T00:23:29.149341+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 2,
+            "null_pct": 0.3,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 358
+              },
+              {
+                "value": "Projet Montréal",
+                "count": 194
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 60
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 46
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 44
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 6
+              },
+              {
+                "value": "Jane Guest",
+                "count": 2
+              },
+              {
+                "value": "Beny Masella",
+                "count": 1
+              },
+              {
+                "value": "Ed Janiszewski",
+                "count": 1
+              },
+              {
+                "value": "Edgar Rouleau",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 5,
+            "null_pct": 0.7,
+            "min_date": "2014-04-28 00:00:00",
+            "max_date": "2015-11-19 00:00:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 2,
+            "null_pct": 0.3,
+            "unique_count": 309,
+            "top_values": [
+              {
+                "value": "Service de Paie Desjardins, 1611 boul Crémazie, #204, Montréal (Québec), H2M 2P2",
+                "count": 42
+              },
+              {
+                "value": "Salaire",
+                "count": 24
+              },
+              {
+                "value": "Patrick Cigana",
+                "count": 12
+              },
+              {
+                "value": "Marie Depelteau-Paquette",
+                "count": 11
+              },
+              {
+                "value": "research and secretarial expenses assoc.munic.banlieue",
+                "count": 10
+              },
+              {
+                "value": "Jean-Pierre Bélanger",
+                "count": 10
+              },
+              {
+                "value": "GroverCorp 3974 Notre-Dame O. Montréal (QC) H4C 1R1",
+                "count": 9
+              },
+              {
+                "value": "Mathieu Bélanger",
+                "count": 9
+              },
+              {
+                "value": "Prélèvement paie Nethris, Centre de services de paie CGI Inc., 1611, boul. Crémazie Est 7E étage, Montreal (Québec), H2M 2P2, Période du 2014-12-29 au 2015-01-09, Avantages sociaux",
+                "count": 8
+              },
+              {
+                "value": "Prélèvement paie Nethris, Centre de services de paie CGI Inc., 1611, boul. Crémazie Est, 7E étage, Montreal (Québec), H2M 2P2, Avantages sociaux",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 29,
+            "null_pct": 4.0,
+            "min": 0.5,
+            "max": 10421.86,
+            "mean": 1355.3607,
+            "median": 480.0,
+            "unique_count": 408,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 415,
+            "null_pct": 57.4,
+            "min": 0.06,
+            "max": 326.1135,
+            "mean": 51.2308,
+            "median": 19.7635,
+            "unique_count": 237,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 415,
+            "null_pct": 57.4,
+            "min": 0.12,
+            "max": 650.5964,
+            "mean": 102.2367,
+            "median": 39.6018,
+            "unique_count": 245,
+            "field_type_detected": "numeric"
+          },
+          "Montant total": {
+            "null_count": 2,
+            "null_pct": 0.3,
+            "min": 0.0,
+            "max": 10421.86,
+            "mean": 1414.1337,
+            "median": 480.0,
+            "unique_count": 443,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 27,
+            "null_pct": 3.7,
+            "unique_count": 515,
+            "top_values": [
+              {
+                "value": "DRS-92",
+                "count": 16
+              },
+              {
+                "value": "DRS-11",
+                "count": 8
+              },
+              {
+                "value": "DRS-22",
+                "count": 8
+              },
+              {
+                "value": "DRS-35",
+                "count": 8
+              },
+              {
+                "value": "DRS-40",
+                "count": 8
+              },
+              {
+                "value": "DRS-47",
+                "count": 8
+              },
+              {
+                "value": "DRS-56",
+                "count": 8
+              },
+              {
+                "value": "DRS-67",
+                "count": 8
+              },
+              {
+                "value": "DRS-84",
+                "count": 8
+              },
+              {
+                "value": "DRS-85",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "980e0fcc-87c2-4502-9354-66e712b7e174",
+      "name": "Remboursements effectués en 2014",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/980e0fcc-87c2-4502-9354-66e712b7e174/download/recherchesoutien2014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:59:05.944041",
+      "created": "2016-01-13T11:59:05.988107",
+      "schema": {
+        "resource_id": "980e0fcc-87c2-4502-9354-66e712b7e174",
+        "total_records": 784,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2014-10-31",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc munic banlieue",
+            "Montant avant taxes": 1198737,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 1198737,
+            "N° de pièce justificative": "1"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2014-12-31",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc munic banlieue 31 décembre 2015",
+            "Montant avant taxes": 258263,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 258263,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Céline Forget",
+            "Date de la transaction": "2014-01-23",
+            "Nom et adresse du fournisseur*": "buy hp direct - hewlett-packard",
+            "Montant avant taxes": 8895,
+            "TPS": 445,
+            "TVQ": 887,
+            "Montant total": 10227,
+            "N° de pièce justificative": "1"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Céline Forget",
+            "Date de la transaction": "2014-02-13",
+            "Nom et adresse du fournisseur*": "buy hp direct - hewlett-packard",
+            "Montant avant taxes": 6297,
+            "TPS": 315,
+            "TVQ": 628,
+            "Montant total": 7240,
+            "N° de pièce justificative": "2"
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal",
+            "Date de la transaction": "2014-01-10",
+            "Nom et adresse du fournisseur*": "Marie Harel, CPA, CA",
+            "Montant avant taxes": 167475,
+            "TPS": 8374,
+            "TVQ": 16706,
+            "Montant total": 192555,
+            "N° de pièce justificative": "RS 2014-01-01"
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 11,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "TPS": {
+          "null_count": 378,
+          "null_pct": 48.2,
+          "populated_pct": 51.8
+        },
+        "TVQ": {
+          "null_count": 379,
+          "null_pct": 48.3,
+          "populated_pct": 51.7
+        },
+        "Montant total": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 784,
+        "total_records": 784,
+        "audited_at": "2026-03-10T00:23:30.247095+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Projet Montréal",
+                "count": 321
+              },
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 232
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 76
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 58
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 47
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 26
+              },
+              {
+                "value": "Beny Masella",
+                "count": 2
+              },
+              {
+                "value": "Céline Forget",
+                "count": 2
+              },
+              {
+                "value": "Edgar Rouleau",
+                "count": 2
+              },
+              {
+                "value": "Edward Janiszewski",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 13,
+            "null_pct": 1.7,
+            "min_date": "15/11/2014",
+            "max_date": "Direct",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 305,
+            "top_values": [
+              {
+                "value": "Salaire",
+                "count": 166
+              },
+              {
+                "value": "Patrick Cigana",
+                "count": 39
+              },
+              {
+                "value": "Service de Paie Desjardins, 1611 boul Crémazie, #204, Montréal (QC) H2M 2P3",
+                "count": 25
+              },
+              {
+                "value": "Mira Fisher",
+                "count": 14
+              },
+              {
+                "value": "Claudia Citta",
+                "count": 14
+              },
+              {
+                "value": "Great-West Assurances, CP 1053 Winnipeg, Manitoba R3C 2X4",
+                "count": 13
+              },
+              {
+                "value": "GroverCorp 3974 Notre-Dame O. Montréal (QC) H4C 1R1",
+                "count": 12
+              },
+              {
+                "value": "research and secretarial expenses assoc munic banlieue",
+                "count": 10
+              },
+              {
+                "value": "Groupe SSTI  Inc. 347 rue Labelle, Rosemère (QC) J7A 1E8",
+                "count": 10
+              },
+              {
+                "value": "Nicole Plouffe",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 11,
+            "null_pct": 1.4,
+            "min": -440000.0,
+            "max": 2559376.0,
+            "mean": 161134.7865,
+            "median": 49022.0,
+            "unique_count": 535,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 378,
+            "null_pct": 48.2,
+            "min": -22000.0,
+            "max": 127969.0,
+            "mean": 6999.798,
+            "median": 1966.5,
+            "unique_count": 298,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 379,
+            "null_pct": 48.3,
+            "min": -43890.0,
+            "max": 255298.0,
+            "mean": 13890.9556,
+            "median": 3741.0,
+            "unique_count": 297,
+            "field_type_detected": "numeric"
+          },
+          "Montant total": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -505890.0,
+            "max": 2942643.0,
+            "mean": 169641.3253,
+            "median": 49021.5,
+            "unique_count": 551,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 54,
+            "null_pct": 6.9,
+            "unique_count": 628,
+            "top_values": [
+              {
+                "value": "1",
+                "count": 22
+              },
+              {
+                "value": "DRS-132",
+                "count": 6
+              },
+              {
+                "value": "DRS-144",
+                "count": 6
+              },
+              {
+                "value": "21",
+                "count": 5
+              },
+              {
+                "value": "DRS-116",
+                "count": 5
+              },
+              {
+                "value": "7",
+                "count": 4
+              },
+              {
+                "value": "26",
+                "count": 4
+              },
+              {
+                "value": "29",
+                "count": 4
+              },
+              {
+                "value": "28",
+                "count": 4
+              },
+              {
+                "value": "DRS-123",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "be8037ed-4ce6-426e-a38d-c404f0274977",
+      "name": "Remboursements effectués en 2014",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/7d8fb259-9eba-4d77-8871-90ae70372706/resource/be8037ed-4ce6-426e-a38d-c404f0274977/download/recherchesoutien2014.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:59:06.778402",
+      "created": "2016-01-13T11:59:06.821723",
+      "schema": {
+        "resource_id": "be8037ed-4ce6-426e-a38d-c404f0274977",
+        "total_records": 785,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Parti politique autorisé",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date de la transaction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom et adresse du fournisseur*",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Montant avant taxes",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TPS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TVQ",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Montant total",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "N° de pièce justificative",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2014-10-31 00:00:00",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc munic banlieue",
+            "Montant avant taxes": 11987.37,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 11987.37,
+            "N° de pièce justificative": "1.0"
+          },
+          {
+            "_id": 2,
+            "Parti politique autorisé": "Beny Masella",
+            "Date de la transaction": "2014-12-31 00:00:00",
+            "Nom et adresse du fournisseur*": "research and secretarial expenses assoc munic banlieue 31 décembre 2015",
+            "Montant avant taxes": 2582.63,
+            "TPS": null,
+            "TVQ": null,
+            "Montant total": 2582.63,
+            "N° de pièce justificative": ""
+          },
+          {
+            "_id": 3,
+            "Parti politique autorisé": "Céline Forget",
+            "Date de la transaction": "2014-01-23 00:00:00",
+            "Nom et adresse du fournisseur*": "buy hp direct - hewlett-packard",
+            "Montant avant taxes": 88.95,
+            "TPS": 4.45,
+            "TVQ": 8.87,
+            "Montant total": 102.27,
+            "N° de pièce justificative": "1"
+          },
+          {
+            "_id": 4,
+            "Parti politique autorisé": "Céline Forget",
+            "Date de la transaction": "2014-02-13 00:00:00",
+            "Nom et adresse du fournisseur*": "buy hp direct - hewlett-packard",
+            "Montant avant taxes": 62.97,
+            "TPS": 3.15,
+            "TVQ": 6.28,
+            "Montant total": 72.4,
+            "N° de pièce justificative": "2"
+          },
+          {
+            "_id": 5,
+            "Parti politique autorisé": "Coalition Montréal",
+            "Date de la transaction": "2014-01-10 00:00:00",
+            "Nom et adresse du fournisseur*": "Marie Harel, CPA, CA",
+            "Montant avant taxes": 1674.75,
+            "TPS": 83.74,
+            "TVQ": 167.06,
+            "Montant total": 1925.55,
+            "N° de pièce justificative": "RS 2014-01-01"
+          }
+        ]
+      },
+      "field_stats": {
+        "Parti politique autorisé": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date de la transaction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom et adresse du fournisseur*": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Montant avant taxes": {
+          "null_count": 12,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        },
+        "TPS": {
+          "null_count": 379,
+          "null_pct": 48.3,
+          "populated_pct": 51.7
+        },
+        "TVQ": {
+          "null_count": 380,
+          "null_pct": 48.4,
+          "populated_pct": 51.6
+        },
+        "Montant total": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "N° de pièce justificative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 785,
+        "total_records": 785,
+        "audited_at": "2026-03-10T00:23:31.442700+00:00",
+        "fields": {
+          "Parti politique autorisé": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Projet Montréal",
+                "count": 321
+              },
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 232
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 76
+              },
+              {
+                "value": "Jeremy Searle",
+                "count": 58
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 47
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 26
+              },
+              {
+                "value": "Beny Masella",
+                "count": 2
+              },
+              {
+                "value": "Céline Forget",
+                "count": 2
+              },
+              {
+                "value": "Edgar Rouleau",
+                "count": 2
+              },
+              {
+                "value": "Edward Janiszewski",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date de la transaction": {
+            "null_count": 14,
+            "null_pct": 1.8,
+            "min_date": "15/11/2014",
+            "max_date": "Direct",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Nom et adresse du fournisseur*": {
+            "null_count": 2,
+            "null_pct": 0.3,
+            "unique_count": 305,
+            "top_values": [
+              {
+                "value": "Salaire",
+                "count": 166
+              },
+              {
+                "value": "Patrick Cigana",
+                "count": 39
+              },
+              {
+                "value": "Service de Paie Desjardins, 1611 boul Crémazie, #204, Montréal (QC) H2M 2P3",
+                "count": 25
+              },
+              {
+                "value": "Mira Fisher",
+                "count": 14
+              },
+              {
+                "value": "Claudia Citta",
+                "count": 14
+              },
+              {
+                "value": "Great-West Assurances, CP 1053 Winnipeg, Manitoba R3C 2X4",
+                "count": 13
+              },
+              {
+                "value": "GroverCorp 3974 Notre-Dame O. Montréal (QC) H4C 1R1",
+                "count": 12
+              },
+              {
+                "value": "research and secretarial expenses assoc munic banlieue",
+                "count": 10
+              },
+              {
+                "value": "Groupe SSTI  Inc. 347 rue Labelle, Rosemère (QC) J7A 1E8",
+                "count": 10
+              },
+              {
+                "value": "Nicole Plouffe",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Montant avant taxes": {
+            "null_count": 12,
+            "null_pct": 1.5,
+            "min": -4400.0,
+            "max": 25593.76,
+            "mean": 1611.3478,
+            "median": 490.22,
+            "unique_count": 542,
+            "field_type_detected": "numeric"
+          },
+          "TPS": {
+            "null_count": 379,
+            "null_pct": 48.3,
+            "min": -220.0,
+            "max": 1279.688,
+            "mean": 69.9978,
+            "median": 19.6655,
+            "unique_count": 305,
+            "field_type_detected": "numeric"
+          },
+          "TVQ": {
+            "null_count": 380,
+            "null_pct": 48.4,
+            "min": -438.9,
+            "max": 2552.9776,
+            "mean": 138.9094,
+            "median": 37.41,
+            "unique_count": 308,
+            "field_type_detected": "numeric"
+          },
+          "Montant total": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": -5058.9,
+            "max": 29426.4256,
+            "mean": 1696.4132,
+            "median": 490.215,
+            "unique_count": 558,
+            "field_type_detected": "numeric"
+          },
+          "N° de pièce justificative": {
+            "null_count": 55,
+            "null_pct": 7.0,
+            "unique_count": 630,
+            "top_values": [
+              {
+                "value": "1.0",
+                "count": 13
+              },
+              {
+                "value": "1",
+                "count": 9
+              },
+              {
+                "value": "DRS-132",
+                "count": 6
+              },
+              {
+                "value": "DRS-144",
+                "count": 6
+              },
+              {
+                "value": "21.0",
+                "count": 5
+              },
+              {
+                "value": "DRS-116",
+                "count": 5
+              },
+              {
+                "value": "7.0",
+                "count": 4
+              },
+              {
+                "value": "26.0",
+                "count": 4
+              },
+              {
+                "value": "29.0",
+                "count": 4
+              },
+              {
+                "value": "28.0",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Conseil",
+    "Conseiller",
+    "Parti politique",
+    "Recherches et soutien",
+    "SG",
+    "Élu"
+  ],
+  "web_metadata": {
+    "methodology_text": "--\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2014/2016",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Conseil",
+      "Conseiller",
+      "Parti politique",
+      "Recherches et soutien",
+      "SG",
+      "Élu"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/remboursement-des-frais-de-recherches-et-de-soutien",
+    "scraped_at": "2026-03-09T20:18:41.006255+00:00"
+  }
+}

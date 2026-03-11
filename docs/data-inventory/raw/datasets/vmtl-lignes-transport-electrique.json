@@ -1,0 +1,82 @@
+{
+  "slug": "vmtl-lignes-transport-electrique",
+  "title": "Lignes de transport électrique",
+  "notes": "Représentation géométrique et conventionnelle des lignes de transport électrique pour des fins de planification.\r\n\r\nLes données géospatiales des lignes de transport électrique ne représentent que l’infrastructure principale et sont structurées selon les couches d’informations suivantes:\r\n\r\n- CARTO-SER-ELECTRICITE: Base de béton sur laquelle repose une structure servant à supporter des câbles électriques à haute tension.\r\n- CARTO-SER-ELE-TEL-AERIEN:Câble électrique suspendu. Représentation symbolique, de centre pylône à centre pylône.\r\n\r\nCes éléments constituent une partie des calques de la compilation cartographique numérique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-01-04T16:27:30.564681",
+  "metadata_modified": "2025-02-24T21:52:32.607093",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "71a81a40-1d76-4318-b698-a4d5cd6fea30",
+      "name": "Lignes de transport électrique",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/fr/dataset/ac3515d6-2753-47a5-8575-35be7d127f43/resource/71a81a40-1d76-4318-b698-a4d5cd6fea30/download/lignes-transport-electrique-2020.gpkg",
+      "datastore_active": false,
+      "size": 913408,
+      "last_modified": "2024-01-04T16:28:05.959495",
+      "created": "2024-01-04T16:28:06.000485",
+      "schema": null
+    },
+    {
+      "id": "261c9a02-1c24-4b3b-ae20-19e7d17593e1",
+      "name": "Lignes de transport électrique",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ac3515d6-2753-47a5-8575-35be7d127f43/resource/261c9a02-1c24-4b3b-ae20-19e7d17593e1/download/lignes-transport-electrique-2020.zip",
+      "datastore_active": false,
+      "size": 236494,
+      "last_modified": "2024-01-04T16:29:05.006881",
+      "created": "2024-01-04T16:29:05.056837",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Câble",
+    "Infrastructure",
+    "Pylône",
+    "SIRR",
+    "Structure",
+    "Énergie"
+  ],
+  "web_metadata": {
+    "methodology_text": "Source: Photos aériennes de la CMM\n\n\nMise à jour : Novembre 2020\n\n\nTraitement:\n\n\n- Nomenclature MTQ adaptée par la Ville de Montréal\n\n- Captage photogrammétrique (Ville de Montréal)\n\n\n## QUALIFICATION DES DONNÉES\n\n\n\nGéoréférence planimétrique : NAD83 SCRS\n\n\nGéoréférence altimétrique : CGVD28 (NMM)\n\n\nExactitude des éléments modélisés:\n\n\n- Planimétrie : ± 30 à ± 40 cm\n\n- Altimétrie : ± 45 à ± 60 cm\n\n\n## Dictionnaire de données\n\n\n\n- ID (Entier): Numéro identifiant unique\n\n- EQM (Texte): L'erreur quadratique moyenne (EQM) est un indicateur des écarts entre les valeurs réellement observées et les valeurs prédites par le modèle.\n\n- SOURCE (Texte): Éléments servants à produire les données originales.\n\n- TRAITEMENT (Texte): Type de traitement\n\n- DIFFUSEUR (Texte): Unité d'affaires chargé de diffuser cette information\n\n- VERSION (Entier): Indique la version à l'intérieur de l'année de production de cette donnée\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Câble",
+      "Infrastructure",
+      "Pylône",
+      "SIRR",
+      "Structure",
+      "Énergie"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/lignes-transport-electrique",
+    "scraped_at": "2026-03-09T20:11:38.991688+00:00"
+  }
+}

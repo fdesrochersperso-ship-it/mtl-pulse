@@ -1,0 +1,563 @@
+{
+  "slug": "vmtl-carte-postes-quartier",
+  "title": "Postes de police de quartier sur l’île de Montréal",
+  "notes": "Cet ensemble de données comprend l'adresse et les coordonnées géospatiales des postes de quartiers du Service de police de la Ville de Montréal (SPVM).\r\n\r\nVoir également l'ensemble [Limite des secteurs de poste de quartier de police](./limites-pdq-spvm).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-14T13:03:48.388752",
+  "metadata_modified": "2025-10-15T01:31:06.280443",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "c9f296dd-596e-48ed-9c76-37230b2c916d",
+      "name": "Postes de quartier",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/91f66001-b461-4f63-aff4-cddc0fe30ffe/resource/c9f296dd-596e-48ed-9c76-37230b2c916d/download/pdq.csv",
+      "datastore_active": true,
+      "size": 2743,
+      "last_modified": "2025-10-14T20:12:11.844077",
+      "created": "2016-03-24T16:19:36.473946",
+      "schema": {
+        "resource_id": "c9f296dd-596e-48ed-9c76-37230b2c916d",
+        "total_records": 28,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "OBJECTID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_CIV_LIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PREFIX_TEM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_TEMP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DIR_TEMP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MUN_TEMP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESC_LIEU",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "OBJECTID": "1",
+            "NO_CIV_LIE": "4139.00000000000",
+            "PREFIX_TEM": "BOUL",
+            "NOM_TEMP": "SOURCES DES",
+            "DIR_TEMP": null,
+            "MUN_TEMP": "DDO",
+            "DESC_LIEU": "POSTE DE QUARTIER 4",
+            "LATITUDE": "45.49437068520",
+            "LONGITUDE": "-73.80730193150"
+          },
+          {
+            "_id": 2,
+            "OBJECTID": "2",
+            "NO_CIV_LIE": "8930.00000000000",
+            "PREFIX_TEM": "BOUL",
+            "NOM_TEMP": "PIE-IX",
+            "DIR_TEMP": null,
+            "MUN_TEMP": "MTL",
+            "DESC_LIEU": "POSTE DE QUARTIER 30",
+            "LATITUDE": "45.57773517660",
+            "LONGITUDE": "-73.61743103330"
+          },
+          {
+            "_id": 3,
+            "OBJECTID": "3",
+            "NO_CIV_LIE": "4555.00000000000",
+            "PREFIX_TEM": "RUE",
+            "NOM_TEMP": "HOCHELAGA",
+            "DIR_TEMP": null,
+            "MUN_TEMP": "MTL",
+            "DESC_LIEU": "POSTE DE QUARTIER 23",
+            "LATITUDE": "45.55685714600",
+            "LONGITUDE": "-73.54591371410"
+          },
+          {
+            "_id": 4,
+            "OBJECTID": "4",
+            "NO_CIV_LIE": "11756.00000000000",
+            "PREFIX_TEM": "BOUL",
+            "NOM_TEMP": "O'BRIEN",
+            "DIR_TEMP": null,
+            "MUN_TEMP": "MTL",
+            "DESC_LIEU": "POSTE DE QUARTIER 10",
+            "LATITUDE": "45.52853340720",
+            "LONGITUDE": "-73.70102693300"
+          },
+          {
+            "_id": 5,
+            "OBJECTID": "5",
+            "NO_CIV_LIE": "6100.00000000000",
+            "PREFIX_TEM": "BOUL",
+            "NOM_TEMP": "HENRI-BOURASSA",
+            "DIR_TEMP": null,
+            "MUN_TEMP": "MTN",
+            "DESC_LIEU": "POSTE DE QUARTIER 39",
+            "LATITUDE": "45.60771470430",
+            "LONGITUDE": "-73.61562289510"
+          }
+        ]
+      },
+      "field_stats": {
+        "OBJECTID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_CIV_LIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PREFIX_TEM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_TEMP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DIR_TEMP": {
+          "null_count": 25,
+          "null_pct": 89.3,
+          "populated_pct": 10.7
+        },
+        "MUN_TEMP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESC_LIEU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 28,
+        "total_records": 28,
+        "audited_at": "2026-03-10T00:14:41.534904+00:00",
+        "fields": {
+          "OBJECTID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 28.0,
+            "mean": 14.5,
+            "median": 14.5,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "NO_CIV_LIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 21.0,
+            "max": 14680.0,
+            "mean": 4676.3929,
+            "median": 4347.0,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4139.00000000000",
+                "count": 1
+              },
+              {
+                "value": "8930.00000000000",
+                "count": 1
+              },
+              {
+                "value": "4555.00000000000",
+                "count": 1
+              },
+              {
+                "value": "11756.00000000000",
+                "count": 1
+              },
+              {
+                "value": "6100.00000000000",
+                "count": 1
+              },
+              {
+                "value": "393.00000000000",
+                "count": 1
+              },
+              {
+                "value": "21.00000000000",
+                "count": 1
+              },
+              {
+                "value": "1625.00000000000",
+                "count": 1
+              },
+              {
+                "value": "1498.00000000000",
+                "count": 1
+              },
+              {
+                "value": "920.00000000000",
+                "count": 1
+              }
+            ]
+          },
+          "PREFIX_TEM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "BOUL",
+                "count": 12
+              },
+              {
+                "value": "RUE",
+                "count": 10
+              },
+              {
+                "value": "AVEN",
+                "count": 5
+              },
+              {
+                "value": "STRE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_TEMP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "SOURCES DES",
+                "count": 1
+              },
+              {
+                "value": "PIE-IX",
+                "count": 1
+              },
+              {
+                "value": "HOCHELAGA",
+                "count": 1
+              },
+              {
+                "value": "O'BRIEN",
+                "count": 1
+              },
+              {
+                "value": "HENRI-BOURASSA",
+                "count": 1
+              },
+              {
+                "value": "ST-JEAN",
+                "count": 1
+              },
+              {
+                "value": "STANTON",
+                "count": 1
+              },
+              {
+                "value": "EGLISE DE L'",
+                "count": 1
+              },
+              {
+                "value": "ST-JEAN-BAPTISTE",
+                "count": 1
+              },
+              {
+                "value": "BELANGER",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "DIR_TEMP": {
+            "null_count": 25,
+            "null_pct": 89.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "E",
+                "count": 2
+              },
+              {
+                "value": "O",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MUN_TEMP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "MTL",
+                "count": 15
+              },
+              {
+                "value": "DDO",
+                "count": 1
+              },
+              {
+                "value": "MTN",
+                "count": 1
+              },
+              {
+                "value": "PCL",
+                "count": 1
+              },
+              {
+                "value": "WES",
+                "count": 1
+              },
+              {
+                "value": "VSL",
+                "count": 1
+              },
+              {
+                "value": "KIR",
+                "count": 1
+              },
+              {
+                "value": "LAC",
+                "count": 1
+              },
+              {
+                "value": "ANJ",
+                "count": 1
+              },
+              {
+                "value": "CSL",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DESC_LIEU": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "POSTE DE QUARTIER 4",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 30",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 23",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 10",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 39",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 5",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 12",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 15",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 49",
+                "count": 1
+              },
+              {
+                "value": "POSTE DE QUARTIER 35",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.415499,
+            "max": 45.641607,
+            "mean": 45.523172,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.857173,
+            "max": -73.505428,
+            "mean": -73.63626,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "68b9e294-ec10-4248-b2ee-5e5990bad9c3",
+      "name": "Postes de quartier",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/91f66001-b461-4f63-aff4-cddc0fe30ffe/resource/68b9e294-ec10-4248-b2ee-5e5990bad9c3/download/pdq.zip",
+      "datastore_active": false,
+      "size": 4125,
+      "last_modified": "2025-10-14T20:12:42.798950",
+      "created": "2016-03-24T16:19:09.970906",
+      "schema": null
+    },
+    {
+      "id": "c9d0b8d6-c7a6-4766-a5cc-98e8b1392bbc",
+      "name": "Postes de quartier",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/91f66001-b461-4f63-aff4-cddc0fe30ffe/resource/c9d0b8d6-c7a6-4766-a5cc-98e8b1392bbc/download/pdq.geojson",
+      "datastore_active": false,
+      "size": 10347,
+      "last_modified": "2025-10-14T20:15:57.469156",
+      "created": "2016-03-24T16:18:43.593849",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "PDQ",
+    "Police",
+    "Poste de quartier",
+    "SPVM"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Dictionnaire de données\n\n\n\n- PDQ (numérique) : Numéro du poste de police de quartier\n\n- NO_CIV_LIE (numérique) : Numéro de rue\n\n- PREFIX_TEM (liste de valeurs): Type de route\n\n- AVEN: Avenue\n\n- BOUL: Boulevard\n\n- RUE: Rue\n\n\n\n- NOM_TEMP (texte): Nom de la rue\n\n- DIR_TEMP (liste de valeurs): Direction de la rue\n\n- E: Est\n\n- O: Ouest\n\n\n\n- MUN_TEMP (texte): Code de municipalité\n\n- LATITUDE (coordonnée spatiale): Latitude selon le système de coordonnées WGS84\n\n- LONGITUDE (coordonnée spatiale): Longitude selon le système de coordonnées WGS84\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de police de la Ville de Montréal - Division des ressources informationnelles",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "PDQ",
+      "Police",
+      "Poste de quartier",
+      "SPVM"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/carte-postes-quartier",
+    "scraped_at": "2026-03-09T19:53:28.595704+00:00"
+  }
+}

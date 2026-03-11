@@ -1,0 +1,995 @@
+{
+  "slug": "vmtl-vehicules-appartenant-a-la-ville-de-montreal",
+  "title": "Véhicules appartenant à la Ville de Montréal ou en location long terme",
+  "notes": "Ensemble de données contenant le nombre de véhicules par type de véhicule et par unité administrative que la Ville de Montréal possède ou loue selon des contrats long terme.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-04-20T17:33:09.185241",
+  "metadata_modified": "2025-11-20T16:56:01.488339",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "b01f31e1-ec26-4d2d-92f5-e2eeb46b6e30",
+      "name": "Liste des véhicules au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/a6e619a5-605f-4729-8d79-8caf10f4843f/resource/b01f31e1-ec26-4d2d-92f5-e2eeb46b6e30/download/vehicules-vdm.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-04-25T20:19:25.835661",
+      "created": "2016-04-25T16:19:25.880302",
+      "schema": {
+        "resource_id": "b01f31e1-ec26-4d2d-92f5-e2eeb46b6e30",
+        "total_records": 42,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "unite-administrative",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "auto-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "auto-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion-legers-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion-leger-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion-lourd-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion-lourd-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh-outil-leger-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh-outil-leger-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh-outil-lourd-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh-outil-lourd-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre-leger-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre-leger-loc-lt",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre-lourd-appartenant",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre-lourd-loc-lt",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "unite-administrative": "Arr. Ahuntsic-Cartierville ",
+            "auto-appartenant": 18,
+            "auto-loc-lt": 3,
+            "camion-legers-appartenant": 39,
+            "camion-leger-loc-lt": 8,
+            "camion-lourd-appartenant": 46,
+            "camion-lourd-loc-lt": 9,
+            "veh-outil-leger-appartenant": 12,
+            "veh-outil-leger-loc-lt": 0,
+            "veh-outil-lourd-appartenant": 26,
+            "veh-outil-lourd-loc-lt": 9,
+            "autre-leger-appartenant": 66,
+            "autre-leger-loc-lt": 1,
+            "autre-lourd-appartenant": 24,
+            "autre-lourd-loc-lt": 0
+          },
+          {
+            "_id": 2,
+            "unite-administrative": "Arr. Anjou",
+            "auto-appartenant": 10,
+            "auto-loc-lt": 0,
+            "camion-legers-appartenant": 25,
+            "camion-leger-loc-lt": 0,
+            "camion-lourd-appartenant": 21,
+            "camion-lourd-loc-lt": 0,
+            "veh-outil-leger-appartenant": 6,
+            "veh-outil-leger-loc-lt": 0,
+            "veh-outil-lourd-appartenant": 22,
+            "veh-outil-lourd-loc-lt": 0,
+            "autre-leger-appartenant": 33,
+            "autre-leger-loc-lt": 0,
+            "autre-lourd-appartenant": 3,
+            "autre-lourd-loc-lt": 0
+          },
+          {
+            "_id": 3,
+            "unite-administrative": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce ",
+            "auto-appartenant": 16,
+            "auto-loc-lt": 5,
+            "camion-legers-appartenant": 40,
+            "camion-leger-loc-lt": 0,
+            "camion-lourd-appartenant": 66,
+            "camion-lourd-loc-lt": 6,
+            "veh-outil-leger-appartenant": 19,
+            "veh-outil-leger-loc-lt": 0,
+            "veh-outil-lourd-appartenant": 30,
+            "veh-outil-lourd-loc-lt": 4,
+            "autre-leger-appartenant": 56,
+            "autre-leger-loc-lt": 0,
+            "autre-lourd-appartenant": 23,
+            "autre-lourd-loc-lt": 0
+          },
+          {
+            "_id": 4,
+            "unite-administrative": "Arr. Lachine",
+            "auto-appartenant": 20,
+            "auto-loc-lt": 0,
+            "camion-legers-appartenant": 38,
+            "camion-leger-loc-lt": 0,
+            "camion-lourd-appartenant": 34,
+            "camion-lourd-loc-lt": 0,
+            "veh-outil-leger-appartenant": 8,
+            "veh-outil-leger-loc-lt": 0,
+            "veh-outil-lourd-appartenant": 20,
+            "veh-outil-lourd-loc-lt": 0,
+            "autre-leger-appartenant": 45,
+            "autre-leger-loc-lt": 0,
+            "autre-lourd-appartenant": 3,
+            "autre-lourd-loc-lt": 1
+          },
+          {
+            "_id": 5,
+            "unite-administrative": "Arr. LaSalle",
+            "auto-appartenant": 29,
+            "auto-loc-lt": 0,
+            "camion-legers-appartenant": 31,
+            "camion-leger-loc-lt": 0,
+            "camion-lourd-appartenant": 53,
+            "camion-lourd-loc-lt": 0,
+            "veh-outil-leger-appartenant": 15,
+            "veh-outil-leger-loc-lt": 0,
+            "veh-outil-lourd-appartenant": 49,
+            "veh-outil-lourd-loc-lt": 0,
+            "autre-leger-appartenant": 29,
+            "autre-leger-loc-lt": 0,
+            "autre-lourd-appartenant": 9,
+            "autre-lourd-loc-lt": 0
+          }
+        ]
+      },
+      "field_stats": {
+        "unite-administrative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "auto-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "auto-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "camion-legers-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "camion-leger-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "camion-lourd-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "camion-lourd-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh-outil-leger-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh-outil-leger-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh-outil-lourd-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh-outil-lourd-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "autre-leger-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "autre-leger-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "autre-lourd-appartenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "autre-lourd-loc-lt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 42,
+        "total_records": 42,
+        "audited_at": "2026-03-10T00:32:22.493807+00:00",
+        "fields": {
+          "unite-administrative": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 42,
+            "top_values": [
+              {
+                "value": "Arr. Ahuntsic-Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Arr. Anjou",
+                "count": 1
+              },
+              {
+                "value": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Arr. Lachine",
+                "count": 1
+              },
+              {
+                "value": "Arr. LaSalle",
+                "count": 1
+              },
+              {
+                "value": "Arr. L'Île-Bizard–Sainte-Geneviève",
+                "count": 1
+              },
+              {
+                "value": "Arr. Mercier–Hochelaga-Maisonneuve",
+                "count": 1
+              },
+              {
+                "value": "Arr. Montréal-Nord",
+                "count": 1
+              },
+              {
+                "value": "Arr. Outremont",
+                "count": 1
+              },
+              {
+                "value": "Arr. Pierrefonds-Roxboro",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "auto-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 823.0,
+            "mean": 39.1905,
+            "median": 17.5,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "20",
+                "count": 5
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "3",
+                "count": 3
+              },
+              {
+                "value": "10",
+                "count": 2
+              },
+              {
+                "value": "29",
+                "count": 2
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "0",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              }
+            ]
+          },
+          "auto-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 38.0,
+            "mean": 1.8095,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 34
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              },
+              {
+                "value": "38",
+                "count": 1
+              }
+            ]
+          },
+          "camion-legers-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1203.0,
+            "mean": 57.2857,
+            "median": 31.5,
+            "unique_count": 26,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 10
+              },
+              {
+                "value": "38",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "41",
+                "count": 2
+              },
+              {
+                "value": "33",
+                "count": 2
+              },
+              {
+                "value": "32",
+                "count": 2
+              },
+              {
+                "value": "44",
+                "count": 2
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "25",
+                "count": 1
+              }
+            ]
+          },
+          "camion-leger-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 51.0,
+            "mean": 2.4286,
+            "median": 0.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 35
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "51",
+                "count": 1
+              }
+            ]
+          },
+          "camion-lourd-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1209.0,
+            "mean": 57.5714,
+            "median": 21.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 13
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "34",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 2
+              },
+              {
+                "value": "52",
+                "count": 2
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "46",
+                "count": 1
+              },
+              {
+                "value": "66",
+                "count": 1
+              },
+              {
+                "value": "53",
+                "count": 1
+              },
+              {
+                "value": "64",
+                "count": 1
+              }
+            ]
+          },
+          "camion-lourd-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 45.0,
+            "mean": 2.1429,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 32
+              },
+              {
+                "value": "6",
+                "count": 3
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "45",
+                "count": 1
+              }
+            ]
+          },
+          "veh-outil-leger-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 323.0,
+            "mean": 15.381,
+            "median": 6.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 15
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "8",
+                "count": 4
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 1
+              },
+              {
+                "value": "19",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              }
+            ]
+          },
+          "veh-outil-leger-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.0476,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 40
+              },
+              {
+                "value": "1",
+                "count": 2
+              }
+            ]
+          },
+          "veh-outil-lourd-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 636.0,
+            "mean": 30.2857,
+            "median": 11.0,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 15
+              },
+              {
+                "value": "11",
+                "count": 3
+              },
+              {
+                "value": "30",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 2
+              },
+              {
+                "value": "23",
+                "count": 2
+              },
+              {
+                "value": "26",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              },
+              {
+                "value": "49",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              }
+            ]
+          },
+          "veh-outil-lourd-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 106.0,
+            "mean": 5.0476,
+            "median": 0.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 29
+              },
+              {
+                "value": "10",
+                "count": 4
+              },
+              {
+                "value": "9",
+                "count": 3
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "106",
+                "count": 1
+              }
+            ]
+          },
+          "autre-leger-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1227.0,
+            "mean": 58.4286,
+            "median": 25.0,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 11
+              },
+              {
+                "value": "66",
+                "count": 3
+              },
+              {
+                "value": "62",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "33",
+                "count": 1
+              },
+              {
+                "value": "56",
+                "count": 1
+              },
+              {
+                "value": "45",
+                "count": 1
+              },
+              {
+                "value": "29",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              },
+              {
+                "value": "50",
+                "count": 1
+              }
+            ]
+          },
+          "autre-leger-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 28.0,
+            "mean": 1.3333,
+            "median": 0.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 34
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "19",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              }
+            ]
+          },
+          "autre-lourd-appartenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 379.0,
+            "mean": 18.0476,
+            "median": 4.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 14
+              },
+              {
+                "value": "3",
+                "count": 4
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "28",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "23",
+                "count": 1
+              }
+            ]
+          },
+          "autre-lourd-loc-lt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.0952,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 39
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Camion",
+    "Camion léger",
+    "SMRA",
+    "Voiture",
+    "Véhicule",
+    "Véhicule-outil"
+  ],
+  "web_metadata": {
+    "methodology_text": "Inventaire des véhicules regroupés par unité administrative (incluant les arrondissements, à l'exception du Service de police de la Ville de Montréal), par type de véhicule, et mode d'approvisionnement (possession ou location à long terme) en date de mars 2016.\n\n\nLe présent inventaire inclus les véhicules hybrides et électriques également listé dans un ensemble de données dédié\n\n### Dictionnaire de données:\n\n\n\n- unite_administrative: Unité administrative utilisant les véhicules\n\n- auto-appartenant: Nombre d'automobiles dont la ville est propriétaire\n\n- auto-loc-lt: Nombre d'automobiles en location long terme\n\n- camion-legers-appartenant: Nombre de camions légers dont la ville est propriétaire\n\n- camion-leger-loc-lt:  Nombre de camions légers en location long terme\n\n- camion-lourd-appartenant:  Nombre de camions lourds dont la ville est propriétaire\n\n- camion-lourd-loc-lt:  Nombre de camions lourds en location long terme\n\n- veh-outil-leger-appartenant:  Nombre de véhicules-outils légers dont la ville est propriétaire\n\n- veh-outil-leger-loc-lt:  Nombre de véhicules-outils légers en location long terme\n\n- veh-outil-lourd-appartenant:  Nombre de véhicules-outils lourds dont la ville est propriétaire\n\n- veh-outil-lourd-loc-lt:  Nombre de véhicules-outils lourds en location long terme\n\n- autre-leger-appartenant: Nombre de véhicules legers autres dont la ville est propriétaire\n\n- autre-leger-loc-lt: Nombre de véhicules legers autres en location long terme\n\n- autre-lourd-appartenant: Nombre de véhicules lourds autres dont la ville est propriétaire\n\n- autre-lourd-loc-lt: Nombre de véhicules lourds autres en location long terme\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du matériel roulant et des ateliers",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Camion",
+      "Camion léger",
+      "SMRA",
+      "Voiture",
+      "Véhicule",
+      "Véhicule-outil"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/vehicules-appartenant-a-la-ville-de-montreal",
+    "scraped_at": "2026-03-09T20:23:40.477055+00:00"
+  }
+}

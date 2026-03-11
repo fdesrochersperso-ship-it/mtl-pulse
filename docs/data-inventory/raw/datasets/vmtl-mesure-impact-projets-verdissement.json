@@ -1,0 +1,594 @@
+{
+  "slug": "vmtl-mesure-impact-projets-verdissement",
+  "title": "Mesure de l'impact des projets de verdissement sur la température de l'air et l'humidité",
+  "notes": "Stations de mesure de l'impact des projets de verdissement sur la température de l'air et l'humidité. Quinze stations ont été installées à travers le territoire de la Ville de Montréal pour une période de 10 étés afin d’étudier l’impact de l’aménagement urbain sur la chaleur. À terme, la Ville souhaite en installer 25 à travers son territoire.\r\n\r\nMieux comprendre ces phénomènes est une étape essentielle pour pouvoir adresser la problématique des chaleurs extrêmes en milieu urbain qui ont un impact sur la santé et le bien-être des citoyens. Avec ce projet, la Ville compte mesurer l’impact des projets de verdissement sur la température de l’air, former et sensibiliser son personnel par la participation à un projet de recherche/action et sensibiliser la population à l'impact du verdissement sur la température de l'air.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-04-09T19:39:53.041212",
+  "metadata_modified": "2025-04-17T16:05:29.404003",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "2e01737d-0f68-4c42-834c-c428c1c165e1",
+      "name": "Mesure de l'impact des projets de verdissement (2024)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/2e01737d-0f68-4c42-834c-c428c1c165e1/download/mesure-impact-projets-verdissement-2024.csv",
+      "datastore_active": true,
+      "size": 154681541,
+      "last_modified": "2025-04-17T15:04:28.645386",
+      "created": "2025-04-17T15:04:28.737074",
+      "schema": {
+        "resource_id": "2e01737d-0f68-4c42-834c-c428c1c165e1",
+        "total_records": 1605120,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "dew_point",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_station": "S-THC 21317959:21326443",
+            "nom_station": "MHM 2",
+            "date_heure": "12/20/23 00:00:00",
+            "temperature": "-4.383",
+            "RH": "69.532",
+            "dew_point": "-9.116",
+            "longitude": "-73.521556",
+            "latitude": "45.586333"
+          },
+          {
+            "_id": 2,
+            "id_station": "S-THC 21317959:21326443",
+            "nom_station": "MHM 2",
+            "date_heure": "12/20/23 00:05:00",
+            "temperature": "-4.383",
+            "RH": "70.065",
+            "dew_point": "-9.019",
+            "longitude": "-73.521556",
+            "latitude": "45.586333"
+          },
+          {
+            "_id": 3,
+            "id_station": "S-THC 21317959:21326443",
+            "nom_station": "MHM 2",
+            "date_heure": "12/20/23 00:10:00",
+            "temperature": "-4.426",
+            "RH": "70.051",
+            "dew_point": "-9.062",
+            "longitude": "-73.521556",
+            "latitude": "45.586333"
+          },
+          {
+            "_id": 4,
+            "id_station": "S-THC 21317959:21326443",
+            "nom_station": "MHM 2",
+            "date_heure": "12/20/23 00:15:00",
+            "temperature": "-4.447",
+            "RH": "70.109",
+            "dew_point": "-9.073",
+            "longitude": "-73.521556",
+            "latitude": "45.586333"
+          },
+          {
+            "_id": 5,
+            "id_station": "S-THC 21317959:21326443",
+            "nom_station": "MHM 2",
+            "date_heure": "12/20/23 00:20:00",
+            "temperature": "-4.512",
+            "RH": "70.063",
+            "dew_point": "-9.143",
+            "longitude": "-73.521556",
+            "latitude": "45.586333"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "temperature": {
+          "null_count": 1980,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "RH": {
+          "null_count": 1981,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "dew_point": {
+          "null_count": 1978,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1605120,
+        "audited_at": "2026-03-10T00:20:58.795482+00:00",
+        "fields": {
+          "id_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "S-THC 21317959:21326443",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "MHM 2",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "12/20/23 00:00:00",
+            "max_date": "12/23/23 11:15:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "temperature": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -9.767,
+            "max": -0.758,
+            "mean": -5.4863,
+            "median": -5.734,
+            "unique_count": 334,
+            "field_type_detected": "numeric"
+          },
+          "RH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 49.711,
+            "max": 82.87,
+            "mean": 69.5854,
+            "median": 70.629,
+            "unique_count": 962,
+            "field_type_detected": "numeric"
+          },
+          "dew_point": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -13.362,
+            "max": -4.629,
+            "mean": -10.2408,
+            "median": -10.6935,
+            "unique_count": 891,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.521556,
+            "max": -73.521556,
+            "mean": -73.521556,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.586333,
+            "max": 45.586333,
+            "mean": 45.586333,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "e98247e7-7b1e-4fce-aa64-f1138449e767",
+      "name": "Mesure de l'impact des projets de verdissement (2024)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/e98247e7-7b1e-4fce-aa64-f1138449e767/download/mesure-impact-projets-verdissement-2024.zip",
+      "datastore_active": false,
+      "size": 31584664,
+      "last_modified": "2025-04-17T15:23:46.328264",
+      "created": "2025-04-17T15:23:46.448130",
+      "schema": null
+    },
+    {
+      "id": "372a3ad2-ee03-450a-977c-01b066ae8683",
+      "name": "Mesure de l'impact des projets de verdissement (2024)",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/372a3ad2-ee03-450a-977c-01b066ae8683/download/mesure-impact-projets-verdissement-2024.gpkg",
+      "datastore_active": false,
+      "size": 309346304,
+      "last_modified": "2025-04-17T15:08:32.547787",
+      "created": "2025-04-17T15:08:32.633051",
+      "schema": null
+    },
+    {
+      "id": "f0683975-9d1e-4fcd-b97d-3753da370d51",
+      "name": "Mesure de l'impact des projets de verdissement (2023)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/f0683975-9d1e-4fcd-b97d-3753da370d51/download/mesure-impact-projets-verdissement-2023.csv",
+      "datastore_active": true,
+      "size": 66154826,
+      "last_modified": "2024-04-09T20:38:03.716067",
+      "created": "2024-04-09T19:43:15.776892",
+      "schema": {
+        "resource_id": "f0683975-9d1e-4fcd-b97d-3753da370d51",
+        "total_records": 680937,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "dew_point",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_station": "S-THC 21317937:21326446",
+            "nom_station": "Espace_67",
+            "date_heure": "2023-07-19 15:35:00",
+            "temperature": "27.381",
+            "RH": "44.860",
+            "dew_point": "14.370",
+            "longitude": "-73.535417",
+            "latitude": "45.511028"
+          },
+          {
+            "_id": 2,
+            "id_station": "S-THC 21317937:21326446",
+            "nom_station": "Espace_67",
+            "date_heure": "2023-07-19 15:40:00",
+            "temperature": "27.531",
+            "RH": "44.584",
+            "dew_point": "14.410",
+            "longitude": "-73.535417",
+            "latitude": "45.511028"
+          },
+          {
+            "_id": 3,
+            "id_station": "S-THC 21317937:21326446",
+            "nom_station": "Espace_67",
+            "date_heure": "2023-07-19 15:45:00",
+            "temperature": "27.274",
+            "RH": "47.500",
+            "dew_point": "15.160",
+            "longitude": "-73.535417",
+            "latitude": "45.511028"
+          },
+          {
+            "_id": 4,
+            "id_station": "S-THC 21317937:21326446",
+            "nom_station": "Espace_67",
+            "date_heure": "2023-07-19 15:50:00",
+            "temperature": "27.167",
+            "RH": "49.909",
+            "dew_point": "15.835",
+            "longitude": "-73.535417",
+            "latitude": "45.511028"
+          },
+          {
+            "_id": 5,
+            "id_station": "S-THC 21317937:21326446",
+            "nom_station": "Espace_67",
+            "date_heure": "2023-07-19 15:55:00",
+            "temperature": "27.767",
+            "RH": "46.355",
+            "dew_point": "15.229",
+            "longitude": "-73.535417",
+            "latitude": "45.511028"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "temperature": {
+          "null_count": 4,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RH": {
+          "null_count": 13,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "dew_point": {
+          "null_count": 14,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 680937,
+        "audited_at": "2026-03-10T00:21:00.059537+00:00",
+        "fields": {
+          "id_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "S-THC 21317937:21326446",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Espace_67",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2023-07-19 15:35:00",
+            "max_date": "2023-07-23 02:50:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "temperature": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 17.88,
+            "max": 28.261,
+            "mean": 22.5323,
+            "median": 22.427,
+            "unique_count": 399,
+            "field_type_detected": "numeric"
+          },
+          "RH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 42.226,
+            "max": 92.207,
+            "mean": 68.6466,
+            "median": 69.134,
+            "unique_count": 969,
+            "field_type_detected": "numeric"
+          },
+          "dew_point": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 12.685,
+            "max": 19.844,
+            "mean": 16.1859,
+            "median": 16.138,
+            "unique_count": 892,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.535417,
+            "max": -73.535417,
+            "mean": -73.535417,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.511028,
+            "max": 45.511028,
+            "mean": 45.511028,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "967f6289-5928-4f5f-a0c7-c1abe0a04ce9",
+      "name": "Mesure de l'impact des projets de verdissement (2023)",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/967f6289-5928-4f5f-a0c7-c1abe0a04ce9/download/mesure-impact-projets-verdissement-2023.gpkg",
+      "datastore_active": false,
+      "size": 137707520,
+      "last_modified": "2024-04-09T20:34:50.408432",
+      "created": "2024-04-09T20:34:50.463880",
+      "schema": null
+    },
+    {
+      "id": "6155a3da-99ec-4574-9b16-c28ae79f5896",
+      "name": "Mesure de l'impact des projets de verdissement (2023)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/31cf082e-84b9-4a12-bf91-33cd11b207d0/resource/6155a3da-99ec-4574-9b16-c28ae79f5896/download/mesure-impact-projets-verdissement-2023.zip",
+      "datastore_active": false,
+      "size": 14933177,
+      "last_modified": "2024-04-09T20:36:17.328946",
+      "created": "2024-04-09T20:36:17.388972",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "BTER",
+    "Changement climatique",
+    "Météo",
+    "Îlot de chaleur"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les enregistreurs de données Hobo Micro avec panneau solaire intégré (RX2102) et des capteurs Smart pour mesurer l’humidité relative et la température de l’air (S-THB-M002) ont été installés à 3 mètres de hauteur et dégagés des bâtiments. Les données sont enregistrées en temps réel via un réseau cellulaire et transférées vers une base de données centralisée. Les critères de sélection des sites sont : taux élevé de minéralisation, site envisagé pour des projets de lutte aux îlots de chaleur, vulnérabilité aux épisodes de chaleur et aménagements urbains innovants. \n\n\nLa Ville de Montréal a développé un partenariat avec l’Université McGill pour l’installation de 200 stations supplémentaires pour les étés 2022, 2023 et 2024.\n\n## Dictionnaire de données\n\n\n\nUn identifiant unique peut être généré en combinant les colonnes id_station et date_heure.\n\n\n- id_station (Texte): Identifiant unique de la station\n\n- nom_station (Texte): Nom de la station\n\n- date_heure (Date): Date et heure de la prise de mesure\n\n- temperature (Numérique): Température mesurée (en degrés celcius)\n\n- RH (Numérique): Humidité relative mesurée (en pourcentage)\n\n- dew_point (Numérique): Point de rosée mesurée (en degrés celcius)\n\n- longitude (Coordonnées spatiales): Longitude (référence géographique WGS84)\n\n- latitude (Coordonnées spatiales): Latitude (référence géographique WGS84)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Bureau de la transition écologique et de la résilience",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "BTER",
+      "Changement climatique",
+      "Météo",
+      "Îlot de chaleur"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/mesure-impact-projets-verdissement",
+    "scraped_at": "2026-03-09T20:12:54.988603+00:00"
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "slug": "vmtl-points-rencontres-livres-dans-la-rue",
+  "title": "Points de rencontre pour Livres dans la rue",
+  "notes": "Livres dans la rue est un programme d’animation autour du livre destiné aux jeunes de 4 à 12 ans résidant sur le territoire de Montréal. Activité de lecture qui se veut à la fois ludique et stimulante, ce programme vise à rejoindre les enfants dans leur propre milieu de vie. Il se démarque du fait qu’il se déroule hors les murs de la bibliothèque.\r\n\r\nLe fichier est une liste des lieux, incluant la latitude et la longitude, ainsi que la journée et l'heure des points de rencontre.\r\n\r\n ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-06-18T16:11:01.014383",
+  "metadata_modified": "2025-02-27T18:08:39.884581",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "81548d1c-02d3-4657-a85b-991aa77e21f8",
+      "name": "Liste des points de rencontre 2014",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/81548d1c-02d3-4657-a85b-991aa77e21f8/download/pointsrencontrelivredansrue.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:11.311255",
+      "created": "2016-01-13T12:06:11.339892",
+      "schema": null
+    },
+    {
+      "id": "61241273-58b5-4ab6-bd98-992585133a47",
+      "name": "Liste des points de rencontre 2014",
+      "description": "Le fichier CSV utilise des points-virgules comme séparateur.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/61241273-58b5-4ab6-bd98-992585133a47/download/pointsrencontrelivredansrue.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:11.786847",
+      "created": "2016-01-13T12:06:11.815338",
+      "schema": {
+        "resource_id": "61241273-58b5-4ab6-bd98-992585133a47",
+        "total_records": 41,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Lieu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description :",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Jour et heure :",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Lieu": "Complexe aquatique Marcelin-Wilson",
+            "Description :": "Près des tables à pique-nique",
+            "Jour et heure :": "Lundi de 13 h à 16 h 30",
+            "latitude": 45.538847,
+            "longitude": -73.689119
+          },
+          {
+            "_id": 2,
+            "Lieu": "HLM André-Grasset",
+            "Description :": "Dans la cour intérieure, derrière la tour à logements",
+            "Jour et heure :": "Lundi de 15 h 30 à 17 h",
+            "latitude": 45.5577569,
+            "longitude": -73.6342349
+          },
+          {
+            "_id": 3,
+            "Lieu": "Parc Saint-Benoît",
+            "Description :": "Près des jeux et des jeux d'eau",
+            "Jour et heure :": "Lundi de 17 h 30 à 19 h 30",
+            "latitude": 45.54091,
+            "longitude": -73.667333
+          },
+          {
+            "_id": 4,
+            "Lieu": "Parc Louisbourg",
+            "Description :": "Près des jeux",
+            "Jour et heure :": "Jeudi de 16 h à 17 h 30",
+            "latitude": 45.527858,
+            "longitude": -73.708654
+          },
+          {
+            "_id": 5,
+            "Lieu": "Parc de Mésy",
+            "Description :": "Près des jeux",
+            "Jour et heure :": "Jeudi de 18 h à 19 h 30",
+            "latitude": 45.530135,
+            "longitude": -73.71843
+          }
+        ]
+      },
+      "field_stats": {
+        "Lieu": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description :": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Jour et heure :": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 41,
+        "total_records": 41,
+        "audited_at": "2026-03-10T00:22:29.822473+00:00",
+        "fields": {
+          "Lieu": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 40,
+            "top_values": [
+              {
+                "value": "Habitations Thomas-Chapais",
+                "count": 2
+              },
+              {
+                "value": "Complexe aquatique Marcelin-Wilson",
+                "count": 1
+              },
+              {
+                "value": "HLM André-Grasset",
+                "count": 1
+              },
+              {
+                "value": "Parc Saint-Benoît",
+                "count": 1
+              },
+              {
+                "value": "Parc Louisbourg",
+                "count": 1
+              },
+              {
+                "value": "Parc de Mésy",
+                "count": 1
+              },
+              {
+                "value": "Parc André-Laurendeau",
+                "count": 1
+              },
+              {
+                "value": "Parc du Roseraies",
+                "count": 1
+              },
+              {
+                "value": "Parc Jean-Brillant",
+                "count": 1
+              },
+              {
+                "value": "Parc Van-Horne",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Description :": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 36,
+            "top_values": [
+              {
+                "value": "Près des jeux",
+                "count": 3
+              },
+              {
+                "value": "Près de la piscine",
+                "count": 3
+              },
+              {
+                "value": "Près des jeux d'eau",
+                "count": 2
+              },
+              {
+                "value": "Près des tables à pique-nique",
+                "count": 1
+              },
+              {
+                "value": "Dans la cour intérieure, derrière la tour à logements",
+                "count": 1
+              },
+              {
+                "value": "Près des jeux et des jeux d'eau",
+                "count": 1
+              },
+              {
+                "value": "Près de l'aire de jeux et de la pataugeoire",
+                "count": 1
+              },
+              {
+                "value": "7070, avenue de la Nantaise",
+                "count": 1
+              },
+              {
+                "value": "Rue Jean-Brillant/Gatineau",
+                "count": 1
+              },
+              {
+                "value": "En face du chalet central, près du terrain de balle",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Jour et heure :": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Jeudi de 13 h à 15 h",
+            "max_date": "Mercredi de 18 h à 19 h 30",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.439862,
+            "max": 45.643856,
+            "mean": 45.543454,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.71843,
+            "max": -73.500306,
+            "mean": -73.601525,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "fd417b9b-30c1-4474-923c-545694a533f7",
+      "name": "Liste des points de rencontre 2014",
+      "description": "",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/fd417b9b-30c1-4474-923c-545694a533f7/download/pointsrencontrelivredansrue.ods",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:12.248621",
+      "created": "2016-01-13T12:06:12.278958",
+      "schema": null
+    },
+    {
+      "id": "c0e2c180-1ada-45f0-bc8b-f8f40be2fee0",
+      "name": "Liste des points de rencontre 2015",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/c0e2c180-1ada-45f0-bc8b-f8f40be2fee0/download/pointsrencontrelivredansrue2015.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:12.730923",
+      "created": "2016-01-13T12:06:12.763283",
+      "schema": null
+    },
+    {
+      "id": "0f8ca78d-a991-4b27-8571-bb760e5d8059",
+      "name": "Liste des points de rencontre 2015",
+      "description": "Le fichier CSV utilise des points-virgules comme séparateur.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/0f8ca78d-a991-4b27-8571-bb760e5d8059/download/pointsrencontrelivredansrue2015.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:13.284836",
+      "created": "2016-01-13T12:06:13.322670",
+      "schema": {
+        "resource_id": "0f8ca78d-a991-4b27-8571-bb760e5d8059",
+        "total_records": 35,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Lieu",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description :",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Jour et heure :",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Lieu": "Complexe aquatique Marcelin-Wilson",
+            "Description :": "Près des tables à pique-nique",
+            "Jour et heure :": "Lundi de 13 h à 16 h",
+            "latitude": 45.538847,
+            "longitude": -73.689119
+          },
+          {
+            "_id": 2,
+            "Lieu": "HLM André-Grasset",
+            "Description :": "Dans la cour intérieure, derrière la tour à logements",
+            "Jour et heure :": "Lundi de 15 h 15 à 16 h 45",
+            "latitude": 45.5577569,
+            "longitude": -73.6342349
+          },
+          {
+            "_id": 3,
+            "Lieu": "Parc Saint-Benoît",
+            "Description :": "Près des jeux et des jeux d'eau",
+            "Jour et heure :": "Lundi de 17 h 30 à 19 h 30",
+            "latitude": 45.54091,
+            "longitude": -73.667333
+          },
+          {
+            "_id": 4,
+            "Lieu": "Parc Louisbourg",
+            "Description :": "Près des jeux",
+            "Jour et heure :": "Mardi de 16 h à 17 h 30",
+            "latitude": 45.527858,
+            "longitude": -73.708654
+          },
+          {
+            "_id": 5,
+            "Lieu": "Parc de Mésy",
+            "Description :": "Près des jeux",
+            "Jour et heure :": "Mardi de 18 h à 19 h 30",
+            "latitude": 45.530135,
+            "longitude": -73.71843
+          }
+        ]
+      },
+      "field_stats": {
+        "Lieu": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description :": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Jour et heure :": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 35,
+        "total_records": 35,
+        "audited_at": "2026-03-10T00:22:30.737084+00:00",
+        "fields": {
+          "Lieu": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "Habitations Thomas-Chapais",
+                "count": 2
+              },
+              {
+                "value": "Complexe aquatique Marcelin-Wilson",
+                "count": 1
+              },
+              {
+                "value": "HLM André-Grasset",
+                "count": 1
+              },
+              {
+                "value": "Parc Saint-Benoît",
+                "count": 1
+              },
+              {
+                "value": "Parc Louisbourg",
+                "count": 1
+              },
+              {
+                "value": "Parc de Mésy",
+                "count": 1
+              },
+              {
+                "value": "Domaine Anjou",
+                "count": 1
+              },
+              {
+                "value": "Parc du Roseraies",
+                "count": 1
+              },
+              {
+                "value": "Parc Jean-Brillant",
+                "count": 1
+              },
+              {
+                "value": "Parc Van-Horne",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Description :": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "Près des jeux",
+                "count": 5
+              },
+              {
+                "value": "Près des tables à pique-nique",
+                "count": 3
+              },
+              {
+                "value": "Près de la piscine",
+                "count": 2
+              },
+              {
+                "value": "Dans la cour intérieure, derrière la tour à logements",
+                "count": 1
+              },
+              {
+                "value": "Près des jeux et des jeux d'eau",
+                "count": 1
+              },
+              {
+                "value": "Près du bureau de location",
+                "count": 1
+              },
+              {
+                "value": "7070, avenue de la Nantaise",
+                "count": 1
+              },
+              {
+                "value": "Rue Jean-Brillant/Gatineau",
+                "count": 1
+              },
+              {
+                "value": "En face du chalet central, près du terrain de balle",
+                "count": 1
+              },
+              {
+                "value": "Espace vert près du 2625 rue Théodore",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Jour et heure :": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Jeudi de 13 h 30 à 15 h",
+            "max_date": "Mercredi de 17 h 15 à 18 h 45",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.439862,
+            "max": 45.663451,
+            "mean": 45.552032,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.71843,
+            "max": -73.500306,
+            "mean": -73.603815,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "3e8137d9-ea9c-4db2-9451-fd5fbb5ac271",
+      "name": "Liste des points de rencontre 2015",
+      "description": "",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/d8a65088-a513-4253-bec8-44177727c985/resource/3e8137d9-ea9c-4db2-9451-fd5fbb5ac271/download/pointsrencontrelivredansrue2015.ods",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-01-13T17:06:13.932440",
+      "created": "2016-01-13T12:06:13.970652",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bibliothèque",
+    "SC"
+  ],
+  "web_metadata": {
+    "methodology_text": "--\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    MTN\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Direction des bibliothèques",
+      "Couverture temporelle": "2014-06/2015-08",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Bibliothèque",
+      "SC"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/points-rencontres-livres-dans-la-rue",
+    "scraped_at": "2026-03-09T20:15:12.702254+00:00"
+  }
+}

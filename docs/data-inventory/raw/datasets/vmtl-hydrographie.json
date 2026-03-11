@@ -1,0 +1,86 @@
+{
+  "slug": "vmtl-hydrographie",
+  "title": "Hydrographie de l'agglomération de Montréal",
+  "notes": "Représentation géométrique et conventionnelle du réseau hydrographique. La couche hydrographique 3D est représentée par plusieurs éléments naturels ou physiques associés à la présence d’eau. Ces éléments constituent une partie des calques de la compilation cartographique numérique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-07T19:39:40.875498",
+  "metadata_modified": "2025-02-24T21:53:08.982720",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "b8ea5168-3c97-4de6-ae8d-35d5116731a8",
+      "name": "Hydrographie (2020)",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/fr/dataset/ead1ac6f-f37c-4326-a9b9-4508d94bbc45/resource/b8ea5168-3c97-4de6-ae8d-35d5116731a8/download/hydrographie-2020.gpkg",
+      "datastore_active": false,
+      "size": 10665984,
+      "last_modified": "2024-01-12T18:22:19.605356",
+      "created": "2024-01-04T18:32:28.218485",
+      "schema": null
+    },
+    {
+      "id": "73d4571c-fd7a-465a-aa19-05c3b24222cc",
+      "name": "Hydrographie (2020)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ead1ac6f-f37c-4326-a9b9-4508d94bbc45/resource/73d4571c-fd7a-465a-aa19-05c3b24222cc/download/hydrographie-2020.zip",
+      "datastore_active": false,
+      "size": 5310290,
+      "last_modified": "2024-01-12T18:22:33.050207",
+      "created": "2024-01-04T18:33:46.701689",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Drainage",
+    "Eau",
+    "Fleuve",
+    "Hydro",
+    "Hydrographie",
+    "Hydrologie",
+    "Ressource naturelle",
+    "Rivière",
+    "SIRR",
+    "Topographie"
+  ],
+  "web_metadata": {
+    "methodology_text": "Mise à jour : Novembre 2020\n\n\nSources:\n\n\n- Photos aériennes de la Communauté métropolitaine de Montréal\n\n- Ressources naturelles Canada (www.geobase.ca)\n\n- Parcs Canada (www.pc.gc.ca)\n\n- Réseau de suivi du milieu aquatique (RSMA)\n\n\n\nTraitement:\n\n\n- Nomenclature MTQ adaptée par la Ville de Montréal\n\n- Captage photogrammétrique (Ville de Montréal)\n\n\n## Dictionnaire de données\n\n\n\n- ID (Entier): Numéro identifiant unique\n\n- EQM (Texte): L'erreur quadratique moyenne (EQM) est un indicateur des écarts entre les valeurs réellement observées et les valeurs prédites par le modèle.\n\n- SOURCE (Texte): Éléments servants à produire les données originales.\n\n- TRAITEMENT (Texte): Type de traitement\n\n- DIFFUSEUR (Texte): Unité d'affaires chargé de diffuser cette information\n\n- VERSION (Entier): Indique la version à l'intérieur de l'année de production de cette donnée\n\n\n### Liste des éléments associés au drainage (DRA):\n\n\n\n- CARTO-DRA-BASSIN: Construction de grandes dimensions, aménagée pour recevoir de l’eau. Représentation géométrique et conventionnelle du réseau hydrographique.            \n\n- CARTO-DRA-EAU-CENTRE: Ligne qui correspond à l’axe central d'un cours d’eau. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-DRA-EAU-JOUR: La limite des eaux de rivières, de lacs, de ruisseaux, de fossés, du fleuve visiable sur les photographies aérienens lors de l'acquisition (date et heure). Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-DRA-PONCEAU: Tout conduit à section rectangulaire en béton destiné à faire passer un fluide. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-DRA-PROTECTION: Couche de pierres cassées servant au contrôle de l’érosion par l’eau. Tout empierrement le long des cours d’eau, des routes et des fossés. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-VEG-MARECAGE: Limite d’un terrain humide et bourbeux; marais. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n\n### Liste des éléments associés aux structures hydrographique (STR):\n\n\n\n- CARTO-STR-BARRAGE: Ouvrage construit en travers du lit d’un cours d’eau afin de dériver ou d’accumuler les eaux. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-DEBARCADERE: Lieux aménagés pour l’embarquement et le débarquement de marchandises. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-ECLUSE: Ouvrage hydraulique sur un cours d'eau ou sur un canal comportant deux portes pourvues de vannes, dont la fonction est de lâcher l’eau ou de la retenir et permet aux bateaux de passer d'un bief à un autre pour franchir une dénivellation. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-MUR-SOUTENEMENT: Ouvrage, vertical ou oblique, aménagé pour supporter une poussée. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-PHARE: Tour élevée munie à son sommet d’un fanal destiné à guider les navires pendant la nuit par temps brumeux. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-QUAI: Ouvrage d’accostage pour les navires, constitué par un mur de soutènement et une chaussé aménagée au bord de l’eau. Tous les quais à usage public ou industriel, à l'exception des quais flottants. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n- CARTO-STR-TAQUET: Pièce de bois ou de métal servant à amarrer les cordages des navires. Représentation géométrique et conventionnelle du réseau hydrographique.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Drainage",
+      "Eau",
+      "Fleuve",
+      "Hydro",
+      "Hydrographie",
+      "Hydrologie",
+      "Ressource naturelle",
+      "Rivière",
+      "SIRR",
+      "Topographie"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/hydrographie",
+    "scraped_at": "2026-03-09T19:58:19.663244+00:00"
+  }
+}

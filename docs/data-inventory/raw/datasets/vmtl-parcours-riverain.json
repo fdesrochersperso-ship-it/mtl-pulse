@@ -1,0 +1,1087 @@
+{
+  "slug": "vmtl-parcours-riverain",
+  "title": "Parcours riverain",
+  "notes": "Le Parcours riverain est formé des chemins anciens longeant le Saint-Laurent, le lac Saint-Louis, le lac des Deux Montagnes, la rivière des Prairies, le canal de Lachine et le canal de l’Aqueduc. Long de 180 kilomètres, il est ponctué de plus de 1000 éléments patrimoniaux qui évoquent les grandes pages de l’histoire de Montréal. Bâtiments et ensembles patrimoniaux, infrastructures maritimes, équipements nautiques, parcs et promenades en rive, vues sur des plans d’eau, paysages riverains, milieux naturels et sites archéologiques s’y succèdent.  \r\n\r\nChacun des éléments patrimoniaux est associé à un thème historique :\r\n\r\n* L'archipel montréalais et la présence amérindienne\r\n* Les cours d'eau pour commercer et s'établir\r\n* Les villages agricoles\r\n* L'eau, une ressource à exploiter et contrôler\r\n* Les villages ouvriers\r\n* Les rivages, espaces de bien-être et de loisirs\r\n* Les parcs en rive\r\n* L'eau, un obstacle à franchir par ponts et traverses\r\n* Les villages de transit\r\n* Autres éléments notables sans lien avec les thèmes historiques  \r\n<br />\r\n\r\nUne [cartographie interactive](https://montreal.ca/articles/le-parcours-riverain-22677) est disponible pour explorer les parcours riverains sur l'île de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    },
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-18T15:43:57.118242",
+  "metadata_modified": "2026-03-08T02:10:25.964649",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "1eb6683c-78da-4261-9265-7617143d83a1",
+      "name": "Cartographie parcours riverain",
+      "description": "",
+      "format": "WEB",
+      "url": "https://ville.montreal.qc.ca/parcours-riverain/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2022-02-10T18:53:00.390559",
+      "schema": null
+    },
+    {
+      "id": "2faf3ba7-f911-4a31-9108-105e8b957dea",
+      "name": "Parcours riverain",
+      "description": "Fichier consolidé des parcours riverains en format CSV incluant la géométrie",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/14be6566-5e91-4553-9049-857bcfc0f7ca/resource/2faf3ba7-f911-4a31-9108-105e8b957dea/download/parcours_riverains.csv",
+      "datastore_active": true,
+      "size": 1169067,
+      "last_modified": "2026-03-08T00:02:07.875223",
+      "created": "2018-11-20T17:20:19.512452",
+      "schema": {
+        "resource_id": "2faf3ba7-f911-4a31-9108-105e8b957dea",
+        "total_records": 1177,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "iddepoint",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "territoire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "typeattrait",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "theme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "accessibilityofelement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_autresinformations",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "presencepanneauinterpretation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lienimage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "liens",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "urlimage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type_geometrie",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "iddepoint": "7",
+            "territoire": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+            "typeattrait": "Tracé",
+            "titre": "Tracé des rues Sainte-Anne, Saint-Joseph, Bellerive, 9e Avenue et boulevard Saint-Jean-Baptiste",
+            "theme": "2 - Les cours d'eau pour commercer et s'établir",
+            "description": "Trame de rues correspondant à celle établie à l’intérieur des limites du fort de Pointe-aux-Trembles. En 2014, nouvel aménagement du boulevard Saint-Jean-Baptiste est effectué pour mettre en valeur les vues sur le fleuve.",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+            "accessibilityofelement": "Visible",
+            "adresse_autresinformations": "Trame de rues correspondant à celle établie à l’intérieur des limites du fort de Pointe-aux-Trembles. En 2014, nouvel aménagement du boulevard Saint-Jean-Baptiste est effectué pour mettre en valeur les vues sur le fleuve.",
+            "annee": "Début du 18e siècle",
+            "presencepanneauinterpretation": "Non",
+            "lienimage": "https://www.flickr.com/photos/parcoursriverain/26518895489/in/datetaken-public/",
+            "liens": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?id=1133",
+            "adresse": "Montréal QC, Canada",
+            "urlimage": "https://farm5.staticflickr.com/4586/26518895489_1dbec2e82f_q.jpg",
+            "latitude": null,
+            "longitude": null,
+            "X": null,
+            "Y": null,
+            "type_geometrie": "LineString"
+          },
+          {
+            "_id": 2,
+            "iddepoint": "8",
+            "territoire": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+            "typeattrait": "Site archéologique",
+            "titre": "Site archéologique du fort et de l’ancienne église de Pointe-aux-Trembles (BjFi-17)",
+            "theme": "2 - Les cours d'eau pour commercer et s'établir",
+            "description": "Vestiges associés au fort de 1690 : palissade, église et cimetière.",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+            "accessibilityofelement": "Non accessible ou non visible",
+            "adresse_autresinformations": "Vestiges associés au fort de 1690 : palissade, église et cimetière.",
+            "annee": "1690-1710",
+            "presencepanneauinterpretation": "Non",
+            "lienimage": null,
+            "liens": null,
+            "adresse": "Montréal QC, Canada",
+            "urlimage": null,
+            "latitude": "45.6399",
+            "longitude": "-73.490097",
+            "X": "305571.999379",
+            "Y": "5055556.067901",
+            "type_geometrie": "Point"
+          },
+          {
+            "_id": 3,
+            "iddepoint": "10",
+            "territoire": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+            "typeattrait": "Secteur, zone",
+            "titre": "Ancien village de Pointe-aux-Trembles",
+            "theme": "2 - Les cours d'eau pour commercer et s'établir",
+            "description": "Pointe-aux-Trembles est un des plus anciens villages de l’île de Montréal. Il voit le jour au début du XVIIIe siècle au sein du fort palissadé qui protège alors quelques maisons, une chapelle et le premier couvent des sœurs de la Congrégation de Notre-Dame. En 1912, un important incendie détruit une grande partie du village, de sorte que la plupart des bâtiments qu’on y trouve aujourd’hui sont construits au XXe siècle. Il subsiste tout de même de riches vestiges archéologiques et une trame urbaine ancienne. Annexée à la Ville de Montréal en 1982.",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+            "accessibilityofelement": "Visible",
+            "adresse_autresinformations": "Pointe-aux-Trembles est un des plus anciens villages de l’île de Montréal. Il voit le jour au début du XVIIIe siècle au sein du fort palissadé qui protège alors quelques maisons, une chapelle et le premier couvent des sœurs de la Congrégation de Notre-Dame. En 1912, un important incendie détruit une grande partie du village, de sorte que la plupart des bâtiments qu’on y trouve aujourd’hui sont construits au XXe siècle. Il subsiste tout de même de riches vestiges archéologiques et une trame urbaine ancienne. Annexée à la Ville de Montréal en 1982.",
+            "annee": "XVIIIe siècle",
+            "presencepanneauinterpretation": "Non",
+            "lienimage": "http://www.flickr.com/photos/parcoursriverain/8497546527/",
+            "liens": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?id=1133, http://ville.montreal.qc.ca/portal/page?_pageid=8817%2C99657639&_dad=portal&_schema=PORTAL",
+            "adresse": "Montréal QC, Canada",
+            "urlimage": "http://farm9.staticflickr.com/8251/8497546527_a4d92a0902_q.jpg",
+            "latitude": "45.6394",
+            "longitude": "-73.488899",
+            "X": "305665.3845",
+            "Y": "5055500.544079",
+            "type_geometrie": "Point"
+          },
+          {
+            "_id": 4,
+            "iddepoint": "11",
+            "territoire": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+            "typeattrait": "Bâtiment, élément",
+            "titre": "Second moulin à vent de Pointe-aux-Trembles",
+            "theme": "2 - Les cours d'eau pour commercer et s'établir",
+            "description": "Moulin à vent construit par le maçon Jean-Baptiste Deguire dit LaRose pour les Prêtres de Saint-Sulpice, seigneurs de Montréal. Surhaussé d’un étage en 1822 et utilisé jusqu’en 1833. Restauré en 1987, puis en 2008.",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+            "accessibilityofelement": "Visible",
+            "adresse_autresinformations": "Moulin à vent construit par le maçon Jean-Baptiste Deguire dit LaRose pour les Prêtres de Saint-Sulpice, seigneurs de Montréal. Surhaussé d’un étage en 1822 et utilisé jusqu’en 1833. Restauré en 1987, puis en 2008.",
+            "annee": "1719",
+            "presencepanneauinterpretation": "Oui",
+            "lienimage": "http://www.flickr.com/photos/parcoursriverain/8498650126/",
+            "liens": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_bat.php?id_bat=0554-37-7248-01, http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?id=1132",
+            "adresse": "11630, rue Notre-Dame Est  Montréal QC, Canada",
+            "urlimage": "http://farm9.staticflickr.com/8524/8498650126_d98e44453d_q.jpg",
+            "latitude": "45.634701",
+            "longitude": "-73.492401",
+            "X": "305392.436438",
+            "Y": "5054978.219159",
+            "type_geometrie": "Point"
+          },
+          {
+            "_id": 5,
+            "iddepoint": "12",
+            "territoire": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+            "typeattrait": "Site archéologique",
+            "titre": "Site archéologique du second moulin à vent de Pointe-aux-Trembles (BjFi-005)",
+            "theme": "2 - Les cours d'eau pour commercer et s'établir",
+            "description": "Vestiges liés à l’activité artisanale du meunier et à d’autres bâtiments tels qu’une étable, un four, une maison et une écurie.",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+            "accessibilityofelement": "Visible",
+            "adresse_autresinformations": "Vestiges liés à l’activité artisanale du meunier et à d’autres bâtiments tels qu’une étable, un four, une maison et une écurie.",
+            "annee": "1719",
+            "presencepanneauinterpretation": "Oui",
+            "lienimage": "http://www.flickr.com/photos/parcoursriverain/8498652518/",
+            "liens": null,
+            "adresse": "11630, rue Notre-Dame Est  Montréal QC, Canada",
+            "urlimage": "http://farm9.staticflickr.com/8523/8498652518_1da221946b_q.jpg",
+            "latitude": "45.634701",
+            "longitude": "-73.4925",
+            "X": "305384.703834",
+            "Y": "5054978.21843",
+            "type_geometrie": "Point"
+          }
+        ]
+      },
+      "field_stats": {
+        "iddepoint": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "territoire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "typeattrait": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "titre": {
+          "null_count": 246,
+          "null_pct": 20.9,
+          "populated_pct": 79.1
+        },
+        "theme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 20,
+          "null_pct": 1.7,
+          "populated_pct": 98.3
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "accessibilityofelement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse_autresinformations": {
+          "null_count": 20,
+          "null_pct": 1.7,
+          "populated_pct": 98.3
+        },
+        "annee": {
+          "null_count": 266,
+          "null_pct": 22.6,
+          "populated_pct": 77.4
+        },
+        "presencepanneauinterpretation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lienimage": {
+          "null_count": 54,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "liens": {
+          "null_count": 721,
+          "null_pct": 61.3,
+          "populated_pct": 38.7
+        },
+        "adresse": {
+          "null_count": 3,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "urlimage": {
+          "null_count": 105,
+          "null_pct": 8.9,
+          "populated_pct": 91.1
+        },
+        "latitude": {
+          "null_count": 73,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "longitude": {
+          "null_count": 73,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "X": {
+          "null_count": 73,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "Y": {
+          "null_count": 73,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "type_geometrie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1177,
+        "audited_at": "2026-03-10T00:22:06.444748+00:00",
+        "fields": {
+          "iddepoint": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 1050.0,
+            "mean": 522.662,
+            "median": 519.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "territoire": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Territoire riverain d’Ahuntsic-Cartierville",
+                "count": 231
+              },
+              {
+                "value": "Territoire riverain de l’île Bizard, Sainte-Geneviève et Pierrefonds",
+                "count": 193
+              },
+              {
+                "value": "Territoire riverain de Beaconsfield—Pointe-Claire--Dorval",
+                "count": 156
+              },
+              {
+                "value": "Territoire riverain de Lachine-LaSalle-Verdun",
+                "count": 131
+              },
+              {
+                "value": "Territoire riverain de Senneville, Sainte-Anne-de-Bellevue et Baie-d’Urfé",
+                "count": 124
+              },
+              {
+                "value": "Territoire riverain de Pointe-aux-Trembles et Mercier-Est",
+                "count": 76
+              },
+              {
+                "value": "Territoire riverain de Rivière-des-Prairies",
+                "count": 47
+              },
+              {
+                "value": "Territoire riverain du canal de Lachine",
+                "count": 42
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "typeattrait": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Bâtiment, élément",
+                "count": 615
+              },
+              {
+                "value": "Parc",
+                "count": 81
+              },
+              {
+                "value": "Tracé",
+                "count": 55
+              },
+              {
+                "value": "Secteur, zone",
+                "count": 51
+              },
+              {
+                "value": "Équipement maritime",
+                "count": 51
+              },
+              {
+                "value": "Vue",
+                "count": 44
+              },
+              {
+                "value": "Plaque, monument",
+                "count": 33
+              },
+              {
+                "value": "Site archéologique",
+                "count": 32
+              },
+              {
+                "value": "Emplacement, lieu dit",
+                "count": 27
+              },
+              {
+                "value": "Cours d'eau",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "titre": {
+            "null_count": 237,
+            "null_pct": 23.7,
+            "unique_count": 732,
+            "top_values": [
+              {
+                "value": "Circuit cyclable du Tour-de-l’Île-de-Montréal",
+                "count": 7
+              },
+              {
+                "value": "Navette fluviale",
+                "count": 3
+              },
+              {
+                "value": "Site d’une ancienne traverse",
+                "count": 3
+              },
+              {
+                "value": "Institut Marie-Clarac",
+                "count": 3
+              },
+              {
+                "value": "Parc régional de la Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "Vue sur le pont du Bout-de-l’Île",
+                "count": 2
+              },
+              {
+                "value": "Site d'une ancienne traverse",
+                "count": 2
+              },
+              {
+                "value": "Quai",
+                "count": 2
+              },
+              {
+                "value": "Tracé du boulevard Gouin Est",
+                "count": 2
+              },
+              {
+                "value": "Ruisseau Bertrand",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "theme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "2 - Les cours d'eau pour commercer et s'établir",
+                "count": 229
+              },
+              {
+                "value": "4 - Les rivages, espaces de bien-être et de loisirs",
+                "count": 227
+              },
+              {
+                "value": "2b - Les villages agricoles",
+                "count": 172
+              },
+              {
+                "value": "4b - Les parcs en rive",
+                "count": 87
+              },
+              {
+                "value": "3 - L'eau, une ressource à exploiter et contrôler",
+                "count": 83
+              },
+              {
+                "value": "5 - L'eau, un obstacle à franchir par ponts et traverses",
+                "count": 59
+              },
+              {
+                "value": "5b - Les villages de transit",
+                "count": 50
+              },
+              {
+                "value": "1 - L'archipel montréalais et la présence amérindienne",
+                "count": 34
+              },
+              {
+                "value": "0 - Autre élément notable sans lien avec les thèmes historiques",
+                "count": 33
+              },
+              {
+                "value": "3b - Les villages ouvriers",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "description": {
+            "null_count": 19,
+            "null_pct": 1.9,
+            "unique_count": 941,
+            "top_values": [
+              {
+                "value": "Maison villageoise.",
+                "count": 13
+              },
+              {
+                "value": "Ancienne maison de ferme.",
+                "count": 9
+              },
+              {
+                "value": "Site de mise à l’eau de la Route bleue.",
+                "count": 6
+              },
+              {
+                "value": "Parmi les premières rues ouvertes dans le village.",
+                "count": 4
+              },
+              {
+                "value": "Rampe de mise à l’eau.",
+                "count": 3
+              },
+              {
+                "value": "Ancienne maison de ferme portant une inscription de sa date de construction gravée dans la pierre.",
+                "count": 3
+              },
+              {
+                "value": "Pont ferroviaire construit par le Canadien Nord (CN) en 1904.",
+                "count": 2
+              },
+              {
+                "value": "Dépendance d’intérêt patrimonial.",
+                "count": 2
+              },
+              {
+                "value": "Institution fondée par les Sœurs de charité de Sainte-Marie qui quittent l’Italie pour s’installer à Montréal-Nord en 1954. Elles inaugurent une école primaire en 1955 puis une école secondaire en 1958. En 1963, elles font construire l’institut Marie-Clarac qui regroupe école, hôpital et résidence des religieuses.",
+                "count": 2
+              },
+              {
+                "value": "Maison villageoise implantée perpendiculairement à la rue, sur un lot en pointe.",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville (Montréal)",
+                "count": 193
+              },
+              {
+                "value": "L'Île-Bizard-Sainte-Geneviève (Montréal)",
+                "count": 128
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles (Montréal)",
+                "count": 110
+              },
+              {
+                "value": "Lachine (Montréal)",
+                "count": 70
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 68
+              },
+              {
+                "value": "Pierrefonds-Roxboro (Montréal)",
+                "count": 65
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 63
+              },
+              {
+                "value": "Dorval",
+                "count": 51
+              },
+              {
+                "value": "Montréal-Nord (Montréal)",
+                "count": 38
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 37
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "accessibilityofelement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Visible",
+                "count": 914
+              },
+              {
+                "value": "Non accessible ou non visible",
+                "count": 35
+              },
+              {
+                "value": "Potentiel archéologique",
+                "count": 28
+              },
+              {
+                "value": "Disparu",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "adresse_autresinformations": {
+            "null_count": 19,
+            "null_pct": 1.9,
+            "unique_count": 941,
+            "top_values": [
+              {
+                "value": "Maison villageoise.",
+                "count": 13
+              },
+              {
+                "value": "Ancienne maison de ferme.",
+                "count": 9
+              },
+              {
+                "value": "Site de mise à l’eau de la Route bleue.",
+                "count": 6
+              },
+              {
+                "value": "Parmi les premières rues ouvertes dans le village.",
+                "count": 4
+              },
+              {
+                "value": "Rampe de mise à l’eau.",
+                "count": 3
+              },
+              {
+                "value": "Ancienne maison de ferme portant une inscription de sa date de construction gravée dans la pierre.",
+                "count": 3
+              },
+              {
+                "value": "Pont ferroviaire construit par le Canadien Nord (CN) en 1904.",
+                "count": 2
+              },
+              {
+                "value": "Dépendance d’intérêt patrimonial.",
+                "count": 2
+              },
+              {
+                "value": "Institution fondée par les Sœurs de charité de Sainte-Marie qui quittent l’Italie pour s’installer à Montréal-Nord en 1954. Elles inaugurent une école primaire en 1955 puis une école secondaire en 1958. En 1963, elles font construire l’institut Marie-Clarac qui regroupe école, hôpital et résidence des religieuses.",
+                "count": 2
+              },
+              {
+                "value": "Maison villageoise implantée perpendiculairement à la rue, sur un lot en pointe.",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "annee": {
+            "null_count": 251,
+            "null_pct": 25.1,
+            "min_date": "1681",
+            "max_date": "À partir de 1920",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "presencepanneauinterpretation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 824
+              },
+              {
+                "value": "Oui",
+                "count": 176
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "lienimage": {
+            "null_count": 54,
+            "null_pct": 5.4,
+            "unique_count": 935,
+            "top_values": [
+              {
+                "value": "http://exemple.com",
+                "count": 3
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8497627553/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8511540318/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8745185896/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8678902024/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8531456565/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8532569122/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8533917281/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8552719854/",
+                "count": 2
+              },
+              {
+                "value": "http://www.flickr.com/photos/parcoursriverain/8551632647/",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "liens": {
+            "null_count": 612,
+            "null_pct": 61.2,
+            "unique_count": 279,
+            "top_values": [
+              {
+                "value": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?id=1133",
+                "count": 10
+              },
+              {
+                "value": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?affichage=fiche&civique=&voie=0&est_ouest=&appellation=&arrondissement=36&protection=0&batiment=oui&zone=oui&lignes=25&type_requete=simple&id=1228, http://www.historicplaces.ca/fr/rep-reg/place-lieu.aspx?id=4442",
+                "count": 10
+              },
+              {
+                "value": "http://www.societehistoriquededorval.ca/sites-patrimoniaux.html",
+                "count": 10
+              },
+              {
+                "value": "http://cac.mcgill.ca/campus/buildings/Macdonald_Campus_fr.html",
+                "count": 9
+              },
+              {
+                "value": "http://servicesenligne.ville.montreal.qc.ca/sel/publications/PorteAccesTelechargement?lng=Fr&systemName=85285577&client=Serv_corp",
+                "count": 7
+              },
+              {
+                "value": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?%3C%3F=%20%3C%3F%3D%20%3C%3F%3D%20affichage%3Dfiche&civique=&voie=0&est_ouest=&appellation=&arrondissement=15&protection=0&batiment=oui&zone=oui&lignes=25&type_requete=simple&id=1241, http://www.societehistoriquededorval.ca/sites-patrimoniaux.html",
+                "count": 7
+              },
+              {
+                "value": "http://ville.montreal.qc.ca/portal/page?_pageid=8817%2C99661623&_dad=portal&_schema=PORTAL",
+                "count": 5
+              },
+              {
+                "value": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?affichage=fiche&civique=&voie=0&est_ouest=&appellation=&arrondissement=22&protection=0&batiment=oui&zone=oui&lignes=25&type_requete=simple&id=1191",
+                "count": 5
+              },
+              {
+                "value": "http://ville.montreal.qc.ca/portal/page?_pageid=8817%2C99661605&_dad=portal&_schema=PORTAL",
+                "count": 5
+              },
+              {
+                "value": "http://patrimoine.ville.montreal.qc.ca/inventaire/fiche_zone.php?affichage=fiche&civique=&voie=0&est_ouest=&appellation=&arrondissement=36&protection=0&batiment=oui&zone=oui&lignes=25&type_requete=simple&id=1228",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 586,
+            "top_values": [
+              {
+                "value": "Montréal QC, Canada",
+                "count": 362
+              },
+              {
+                "value": "21111, rue Lakeshore  Montréal QC, Canada",
+                "count": 9
+              },
+              {
+                "value": "1847, boulevard Gouin Est  Montréal QC, Canada",
+                "count": 7
+              },
+              {
+                "value": "1, rue de l’Église  Montréal QC, Canada",
+                "count": 5
+              },
+              {
+                "value": "11, boulevard Saint-Jean-Baptiste  Montréal QC, Canada",
+                "count": 4
+              },
+              {
+                "value": "16037, boulevard Gouin Ouest  Montréal QC, Canada",
+                "count": 4
+              },
+              {
+                "value": "1, chemin du Musée  Montréal QC, Canada",
+                "count": 4
+              },
+              {
+                "value": "1, avenue Saint-Joachim  Montréal QC, Canada",
+                "count": 3
+              },
+              {
+                "value": "11630, rue Notre-Dame Est  Montréal QC, Canada",
+                "count": 2
+              },
+              {
+                "value": "14678, rue Notre-Dame Est  Montréal QC, Canada",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "urlimage": {
+            "null_count": 57,
+            "null_pct": 5.7,
+            "unique_count": 934,
+            "top_values": [
+              {
+                "value": "http://farm9.staticflickr.com/8366/8497627553_22295f995a_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8249/8511540318_07cf978210_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm8.staticflickr.com/7292/8745185896_3e04fbd976_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8261/8678902024_0fe0ed40bd_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8237/8531456565_30b06b43b8_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8524/8532569122_3ac8280fc5_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8243/8533917281_31ac9622cd_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8371/8552719854_0c6932466d_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "http://farm9.staticflickr.com/8508/8551632647_0575481141_q.jpg",
+                "count": 2
+              },
+              {
+                "value": "https://farm5.staticflickr.com/4586/26518895489_1dbec2e82f_q.jpg",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "latitude": {
+            "null_count": 66,
+            "null_pct": 6.6,
+            "min": 0.0,
+            "max": 45.702599,
+            "mean": 45.402951,
+            "pct_in_montreal_bbox": 99.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 66,
+            "null_pct": 6.6,
+            "min": -73.977798,
+            "max": 0.0,
+            "mean": -73.579946,
+            "pct_in_montreal_bbox": 82.4,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 66,
+            "null_pct": 6.6,
+            "min": 267407.556708,
+            "max": 12732287.473633,
+            "mean": 312853.067511,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 66,
+            "null_pct": 6.6,
+            "min": 0.0,
+            "max": 5062524.058916,
+            "mean": 5029296.047077,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "type_geometrie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Point",
+                "count": 934
+              },
+              {
+                "value": "LineString",
+                "count": 61
+              },
+              {
+                "value": "GeometryCollection",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "f5f0889b-1e8d-4ee8-ba56-8e1facb68a60",
+      "name": "Parcours riverain",
+      "description": "Fichier au format GeoJSON des parcours riverains",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/14be6566-5e91-4553-9049-857bcfc0f7ca/resource/f5f0889b-1e8d-4ee8-ba56-8e1facb68a60/download/parcours_riverains.geojson",
+      "datastore_active": false,
+      "size": 1893280,
+      "last_modified": "2026-03-08T00:02:15.666371",
+      "created": "2018-11-20T17:27:01.271852",
+      "schema": null
+    },
+    {
+      "id": "6474816f-dbcc-412e-ab48-f5d92afa15da",
+      "name": "Parcours riverain",
+      "description": "Fichier consolidé au format kml contenant les points et tracés des **Parcours riverains**.\r\n\r\nLes points et les tracés sont représentés par des icônes et des couleurs.\r\n\r\n\r\n",
+      "format": "KML",
+      "url": "https://donnees.montreal.ca/dataset/14be6566-5e91-4553-9049-857bcfc0f7ca/resource/6474816f-dbcc-412e-ab48-f5d92afa15da/download/parcours_riverains.kml",
+      "datastore_active": false,
+      "size": 2503735,
+      "last_modified": "2026-03-08T00:02:14.520037",
+      "created": "2018-11-20T18:37:51.297030",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Berge",
+    "Développement durable",
+    "Environnement",
+    "Histoire",
+    "Loisir",
+    "Parc",
+    "Parcours riverain",
+    "Patrimoine",
+    "Rivage",
+    "SUM",
+    "Tourisme"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le site Internet du Parcours riverain invite la communauté montréalaise et les visiteurs à découvrir le patrimoine riverain de l'agglomération de Montréal. Des textes illustrés de photographies d'archives présentent l’histoire des",
+    "territories": "### Dictionnaire de données\n\n\n\n- iddepoint (numérique) : Identifiant du point / tracé.\n\n- territoire (texte variable) : Territoire riverain associé au point / tracé.\n\n- typeattrait (liste de valeurs) : Type d'attrait :  \n\n- Bâtiment, élément.\n\n- Secteur, zone.\n\n- Parc.\n\n- Tracé.\n\n- Vue.\n\n- Plaque, monument.\n\n- Site archéologique.\n\n- Emplacement, lieu dit.\n\n- Équipement maritime.\n\n- Cours d'eau.\n\n\n\n- titre (texte variable) : Nom du point / tracé.\n\n- theme (liste de valeurs) : Thème associé :\n\n- L'archipel montréalais et la présence amérindienne.\n\n- Les cours d'eau pour commercer et s'établir.\n\n- Les villages agricoles.\n\n- L'eau, une ressource à exploiter et contrôler.\n\n- Les villages ouvriers.\n\n- Les rivages, espaces de bien-être et de loisirs.\n\n- Les parcs en rive.\n\n- L'eau, un obstacle à franchir par ponts et traverses.\n\n- Les villages de transit.\n\n- Autres éléments notables sans lien avec les thèmes historiques.\n\n\n\n- description (texte variable) : Description du point / tracé.\n\n- arrondissement (texte variable) : Arrondissement ou ville liée dans lesquels se situe le point / tracé.\n\n- accessibilityofelement (liste de valeurs) : Accessibilité de l'élément :  \n\n- Visible.\n\n- Non accessible ou non visible.\n\n- Disparu.\n\n- Potentiel archéologique.\n\n\n\n- adresse_autresinformations (texte variable) : Précisions sur l'emplacement du point / tracé.\n\n- annee (texte variable) : Année de construction.\n\n- presencepanneauinterpretation (liste de valeurs) : Présence d'un panneau d'interprétation. :  oui/non.\n\n- lienimage (texte variable) : URL de l'image du point / tracé, hébergée sur Flickr.\n\n- lien (texte variable) : URL de la fiche dans la base de données sur le patrimoine.\n\n- adresse (texte variable) : Adresse du point.\n\n- urlimage (texte variable) : URL de la vignette de l'image du point / tracé.\n\n- latitude (coordonnées spatiales) : Latitude du point selon le référentiel WGS84.\n\n- longitude (coordonnées spatiales) : Longitude du point selon le référentiel WGS84.\n\n- X (coordonnées spatiales) : Coordonnée X (NAD83 MTM8) du point / tracé.\n\n- Y (coordonnées spatiales) : Coordonnée Y (NAD83 MTM8) du point / tracé.\n\n- type_geometrie (texte variable) : Type du point/tracé.\n\n                                \n                                \n                            \n\n                            \n                                \n### Territoires\n\n                                \n                                    \n\nMontreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    LAC\n    \n    LAS\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    PRF\n    \n    RDP\n    \n    VER\n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Berge",
+      "Développement durable",
+      "Environnement",
+      "Histoire",
+      "Loisir",
+      "Parc",
+      "Parcours riverain",
+      "Patrimoine",
+      "Rivage",
+      "SUM",
+      "Tourisme"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/parcours-riverain",
+    "scraped_at": "2026-03-09T20:14:28.965059+00:00"
+  }
+}

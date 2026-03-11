@@ -1,0 +1,78 @@
+{
+  "slug": "vmtl-entraves-circulation",
+  "title": "Entraves à la circulation en temps réel",
+  "notes": "Entraves à la circulation sur le réseau routier de la Ville de Montréal mises à jour en temps réel et normalisées selon le standard CIFS. Les données sont saisies par des équipes de la Ville. Ces données permettent la prise de décision en temps réel en connaissance de l’état du réseau.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "continuous",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-04-07T14:14:48.006389",
+  "metadata_modified": "2025-02-26T14:47:44.082624",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "8e987fe3-06f0-4f15-bbff-6d14e7bc0b0c",
+      "name": "Entraves à la circulation",
+      "description": "",
+      "format": "JSON",
+      "url": "https://api.montreal.ca/api/transportation/traffic-events-api/v1/export-cifs?type=json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2022-04-07T14:15:31.277177",
+      "schema": null
+    },
+    {
+      "id": "d9dc0e8a-5501-4b22-97e9-e138562d4e16",
+      "name": "Entraves à la circulation",
+      "description": "",
+      "format": "XML",
+      "url": "https://api.montreal.ca/api/transportation/traffic-events-api/v1/export-cifs?type=xml",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2022-04-07T14:16:02.764338",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SUM",
+    "circulation",
+    "entrave",
+    "mobilité"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont initialement saisies et archivées au format TMDD.\n\n\nLes travaux importants seront ajoutés sous peu par une équipe de la Ville. Les données disponibles publiquement sont converties au format CIFS pour faciliter leur diffusion et utilisation par les applications utilisées par les citoyennes et citoyens.\n\n## Dictionnaire de données\n\n\n\n- id (Texte) : Identifiant unique de l'entrave\n\n- starttime (Date et heure) : Date et heure de début de l'entrave (format ISO8601) \n\n- endtime (Date et heure) : Date et heure de fin de l'entrave (format ISO8601) \n\n- type (Texte) : Type d'entrave, selon le standard CIFS \n\n- subtype (Texte) : Précision sur le type d'entrave, selon le standard CIFS \n\n- description (Texte) : Description de l'entrave \n\n- location.street (Texte) : Nom de la rue où se situe l'entrave \n\n- location.direction (Texte) : Sens de la circulation. ONE_DIRECTION pour un tronçon à sens unique et BOTH_DIRECTIONS pour un tronçon à double sens. \n\n- location.polyline (Texte) : Coordonnées (latitudes et longitudes) indiquant l'emplacement de l'entrave sous la forme d'une polyligne. \n\n- source.reference (Texte) : Identifiant du publieur de données \n\n- source.name (Texte) : Nom du publieur de données \n\n- source.url (Texte) : Site web du publieur de données \n\n- creationtime (Date et heure) : Date et heure de saisie de l'entrave \n\n- updatetime (Date et heure) : Date et heure de la dernière mise à jour des informations concernant l'entrave \n\n- timestamp (Date et heure) : Date et heure de publication du flux de données\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Temps réel"
+    },
+    "keywords": [
+      "SUM",
+      "circulation",
+      "entrave",
+      "mobilité"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/entraves-circulation",
+    "scraped_at": "2026-03-09T19:57:11.025065+00:00"
+  }
+}

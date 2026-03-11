@@ -1,0 +1,245 @@
+{
+  "slug": "vmtl-ressources-automatisees-donnees-ouvertes",
+  "title": "Liste des ensembles automatisés sur le site des Données ouvertes",
+  "notes": "Cette liste inclut tous les jeux de données faisant l'objet d'une automatisation pour le site web des Données ouvertes",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-05-29T13:56:54.150411",
+  "metadata_modified": "2026-03-09T04:00:46.757559",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "374ed71c-1e5a-4d79-a434-eaff2056301e",
+      "name": "Liste des ressources automatisées",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9b347c8e-d1a6-4e63-b289-6c28bbeab154/resource/374ed71c-1e5a-4d79-a434-eaff2056301e/download/liste-ressources-automatisees.csv",
+      "datastore_active": true,
+      "size": 6706,
+      "last_modified": "2026-03-09T02:31:05.735945",
+      "created": "2023-05-29T13:58:34.431816",
+      "schema": {
+        "resource_id": "374ed71c-1e5a-4d79-a434-eaff2056301e",
+        "total_records": 109,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "nom_jeu_donnes",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "frequence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "nom_jeu_donnes": "abattage_arbres_publics",
+            "frequence": "At 07:00, on day 1 through 7 and 15 through 21 of the month, only on Monday",
+            "date": null
+          },
+          {
+            "_id": 2,
+            "nom_jeu_donnes": "actes_criminels",
+            "frequence": "At 20:00",
+            "date": "2026-03-07"
+          },
+          {
+            "_id": 3,
+            "nom_jeu_donnes": "adresses_ponctuelles",
+            "frequence": "At 01:00, only on Monday",
+            "date": "2026-03-02"
+          },
+          {
+            "_id": 4,
+            "nom_jeu_donnes": "anciennes_carrieres_et_depot",
+            "frequence": "At 00:00, on day 1 of the month, every 3 months",
+            "date": null
+          },
+          {
+            "_id": 5,
+            "nom_jeu_donnes": "arbres_emplacements",
+            "frequence": "At 00:00",
+            "date": "2026-03-08"
+          }
+        ]
+      },
+      "field_stats": {
+        "nom_jeu_donnes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "frequence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 84,
+          "null_pct": 77.1,
+          "populated_pct": 22.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 109,
+        "total_records": 109,
+        "audited_at": "2026-03-10T00:23:52.866795+00:00",
+        "fields": {
+          "nom_jeu_donnes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 109,
+            "top_values": [
+              {
+                "value": "abattage_arbres_publics",
+                "count": 1
+              },
+              {
+                "value": "actes_criminels",
+                "count": 1
+              },
+              {
+                "value": "adresses_ponctuelles",
+                "count": 1
+              },
+              {
+                "value": "anciennes_carrieres_et_depot",
+                "count": 1
+              },
+              {
+                "value": "arbres_emplacements",
+                "count": 1
+              },
+              {
+                "value": "arbres_essences",
+                "count": 1
+              },
+              {
+                "value": "arbres_general",
+                "count": 1
+              },
+              {
+                "value": "avis_alertes_montreal_ca",
+                "count": 1
+              },
+              {
+                "value": "bassins_electoraux",
+                "count": 1
+              },
+              {
+                "value": "bornes_recharge_publiques",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "frequence": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 58,
+            "top_values": [
+              {
+                "value": "At 00:00",
+                "count": 12
+              },
+              {
+                "value": "At 00:00, on day 1 of the month",
+                "count": 9
+              },
+              {
+                "value": "Never, external triggers only",
+                "count": 8
+              },
+              {
+                "value": "At 00:00, only on Sunday",
+                "count": 8
+              },
+              {
+                "value": "At 02:30",
+                "count": 5
+              },
+              {
+                "value": "At 00:00, only on Thursday",
+                "count": 3
+              },
+              {
+                "value": "At 03:00",
+                "count": 3
+              },
+              {
+                "value": "At 21:00, only on Friday",
+                "count": 3
+              },
+              {
+                "value": "At 07:00, on day 1 through 7 and 15 through 21 of the month, only on Monday",
+                "count": 2
+              },
+              {
+                "value": "At 20:00",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 84,
+            "null_pct": 77.1,
+            "min_date": "2024-04-07",
+            "max_date": "2026-03-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Automatisation",
+    "Données ouvertes",
+    "STI"
+  ],
+  "web_metadata": {
+    "methodology_text": "La liste est extraite à partir du logiciel Astronomer d’Apache\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des technologies de l'information",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Automatisation",
+      "Données ouvertes",
+      "STI"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/ressources-automatisees-donnees-ouvertes",
+    "scraped_at": "2026-03-09T20:19:04.608261+00:00"
+  }
+}

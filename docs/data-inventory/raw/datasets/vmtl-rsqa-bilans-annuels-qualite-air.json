@@ -1,0 +1,5602 @@
+{
+  "slug": "vmtl-rsqa-bilans-annuels-qualite-air",
+  "title": "RSQA - Bilans annuels de la qualité de l'air",
+  "notes": "Historique des bilans annuels de la qualité de l'air à Montréal.  Le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants dans l'air ambiant afin de dresser un état de la situation sur le territoire de l'agglomération montréalaise.  ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-04-01T18:17:42.695577",
+  "metadata_modified": "2025-07-04T16:00:08.508986",
+  "num_resources": 48,
+  "resources": [
+    {
+      "id": "6005d7d0-47ae-4c23-b976-ae4acf5ab8e7",
+      "name": "RSQA - Jours de mauvaise qualité de l'air et smog (annuel)",
+      "description": "Tableau résume de la quantité des jours de mauvais qualité de l'air (MQA) et de smog par année.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/6005d7d0-47ae-4c23-b976-ae4acf5ab8e7/download/rsqa-mqa-smog.csv",
+      "datastore_active": true,
+      "size": 283,
+      "last_modified": "2025-07-04T14:07:43.306017",
+      "created": "2021-10-05T15:29:49.593827",
+      "schema": {
+        "resource_id": "6005d7d0-47ae-4c23-b976-ae4acf5ab8e7",
+        "total_records": 17,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Total MQA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Autre MQA",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Annee": "2008",
+            "Total MQA": "68",
+            "Smog": "31",
+            "Autre MQA": "37"
+          },
+          {
+            "_id": 2,
+            "Annee": "2009",
+            "Total MQA": "68",
+            "Smog": "32",
+            "Autre MQA": "36"
+          },
+          {
+            "_id": 3,
+            "Annee": "2010",
+            "Total MQA": "65",
+            "Smog": "25",
+            "Autre MQA": "40"
+          },
+          {
+            "_id": 4,
+            "Annee": "2011",
+            "Total MQA": "69",
+            "Smog": "19",
+            "Autre MQA": "50"
+          },
+          {
+            "_id": 5,
+            "Annee": "2012",
+            "Total MQA": "49",
+            "Smog": "16",
+            "Autre MQA": "33"
+          }
+        ]
+      },
+      "field_stats": {
+        "Annee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Total MQA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Autre MQA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 17,
+        "total_records": 17,
+        "audited_at": "2026-03-10T00:24:48.466026+00:00",
+        "fields": {
+          "Annee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2008",
+            "max_date": "2024",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Total MQA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 21.0,
+            "max": 69.0,
+            "mean": 46.0588,
+            "median": 43.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "68",
+                "count": 2
+              },
+              {
+                "value": "34",
+                "count": 2
+              },
+              {
+                "value": "65",
+                "count": 1
+              },
+              {
+                "value": "69",
+                "count": 1
+              },
+              {
+                "value": "49",
+                "count": 1
+              },
+              {
+                "value": "53",
+                "count": 1
+              },
+              {
+                "value": "63",
+                "count": 1
+              },
+              {
+                "value": "64",
+                "count": 1
+              },
+              {
+                "value": "29",
+                "count": 1
+              },
+              {
+                "value": "41",
+                "count": 1
+              }
+            ]
+          },
+          "Smog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 32.0,
+            "mean": 13.5294,
+            "median": 10.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7",
+                "count": 3
+              },
+              {
+                "value": "10",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "32",
+                "count": 1
+              },
+              {
+                "value": "25",
+                "count": 1
+              },
+              {
+                "value": "19",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              }
+            ]
+          },
+          "Autre MQA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 57.0,
+            "mean": 32.5294,
+            "median": 35.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "40",
+                "count": 1
+              },
+              {
+                "value": "50",
+                "count": 1
+              },
+              {
+                "value": "33",
+                "count": 1
+              },
+              {
+                "value": "38",
+                "count": 1
+              },
+              {
+                "value": "53",
+                "count": 1
+              },
+              {
+                "value": "57",
+                "count": 1
+              },
+              {
+                "value": "21",
+                "count": 1
+              },
+              {
+                "value": "27",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "87524efe-a74a-46bf-813f-61a0c01dbe27",
+      "name": "Bilan 2024 de la qualité de l'air",
+      "description": "Bilan 2024 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/87524efe-a74a-46bf-813f-61a0c01dbe27/download/fr_bilan_qualite_air_2024.pdf",
+      "datastore_active": false,
+      "size": 2863558,
+      "last_modified": "2025-06-20T12:50:36.470975",
+      "created": "2025-06-20T12:50:36.877842",
+      "schema": null
+    },
+    {
+      "id": "cb545ee3-d93a-4bf9-88df-c1edadc53db1",
+      "name": " 2024 air quality report",
+      "description": " 2024 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/cb545ee3-d93a-4bf9-88df-c1edadc53db1/download/en_bilan_qualite_air_2024.pdf",
+      "datastore_active": false,
+      "size": 2861752,
+      "last_modified": "2025-06-20T12:52:36.551376",
+      "created": "2025-06-20T12:52:36.875830",
+      "schema": null
+    },
+    {
+      "id": "34243f43-dde8-4c98-9db5-70623a253cd5",
+      "name": "2024 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2024.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/34243f43-dde8-4c98-9db5-70623a253cd5/download/2024-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": 789,
+      "last_modified": "2025-07-04T14:40:38.118801",
+      "created": "2025-07-04T14:40:38.426963",
+      "schema": {
+        "resource_id": "34243f43-dde8-4c98-9db5-70623a253cd5",
+        "total_records": 23,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": "Date,,,,,,,,,,,,non"
+          },
+          {
+            "_id": 2,
+            "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": "2024-01-31,,,,,,,x,,,,,non"
+          },
+          {
+            "_id": 3,
+            "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": "2024-02-04,x,,,,,,x,,x,,,non"
+          },
+          {
+            "_id": 4,
+            "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": "2024-02-05,,,,,,,x,,,,,non"
+          },
+          {
+            "_id": 5,
+            "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": "2024-02-07,,x,,x,x,x,x,x,x,,,oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 23,
+        "total_records": 23,
+        "audited_at": "2026-03-10T00:24:49.284993+00:00",
+        "fields": {
+          "Poste,3,6,17,28,31,50,55,66,80,99,103,Smog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 23,
+            "top_values": [
+              {
+                "value": "Date,,,,,,,,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-01-31,,,,,,,x,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-02-04,x,,,,,,x,,x,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-02-05,,,,,,,x,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-02-07,,x,,x,x,x,x,x,x,,,oui",
+                "count": 1
+              },
+              {
+                "value": "2024-02-08,,,x,,,,x,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-02-20,,,,x,,,,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-03-02,,,,,,,x,,,,,non",
+                "count": 1
+              },
+              {
+                "value": "2024-06-03,x,,,,,,,,,,x,non",
+                "count": 1
+              },
+              {
+                "value": "2024-06-04,,,x,,,,,,,,,non",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "ed3c22e9-a08b-4e78-9294-ee808756bf9d",
+      "name": "Bilan 2023 de la qualité de l'air",
+      "description": "Bilan 2023 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/ed3c22e9-a08b-4e78-9294-ee808756bf9d/download/fr-bilan-rsqa-2023.pdf",
+      "datastore_active": false,
+      "size": 2940013,
+      "last_modified": "2024-07-08T17:59:02.272967",
+      "created": "2024-07-08T17:59:02.763840",
+      "schema": null
+    },
+    {
+      "id": "10aeb25f-7c89-41d2-9948-e40cfae9234a",
+      "name": " 2023 air quality report",
+      "description": " 2023 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/10aeb25f-7c89-41d2-9948-e40cfae9234a/download/en-bilan-rsqa-2023.pdf",
+      "datastore_active": false,
+      "size": 2924868,
+      "last_modified": "2024-07-08T18:02:07.543346",
+      "created": "2024-07-08T18:02:07.898254",
+      "schema": null
+    },
+    {
+      "id": "b269563e-cf2b-46ec-87df-a320934040a5",
+      "name": "2023 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2023.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/b269563e-cf2b-46ec-87df-a320934040a5/download/2023-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": 1142,
+      "last_modified": "2024-06-17T18:40:45.215167",
+      "created": "2024-06-17T18:40:45.489599",
+      "schema": {
+        "resource_id": "b269563e-cf2b-46ec-87df-a320934040a5",
+        "total_records": 35,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "6",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": null,
+            "6": null,
+            "17": null,
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": "non"
+          },
+          {
+            "_id": 2,
+            "Poste": "2023-01-06",
+            "3": null,
+            "6": null,
+            "17": "x",
+            "28": "x",
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": "Smog"
+          },
+          {
+            "_id": 3,
+            "Poste": "2023-01-15",
+            "3": null,
+            "6": null,
+            "17": null,
+            "28": "x",
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2023-01-27",
+            "3": null,
+            "6": "x",
+            "17": null,
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2023-02-01",
+            "3": null,
+            "6": null,
+            "17": "x",
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": "x",
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 18,
+          "null_pct": 51.4,
+          "populated_pct": 48.6
+        },
+        "6": {
+          "null_count": 21,
+          "null_pct": 60.0,
+          "populated_pct": 40.0
+        },
+        "17": {
+          "null_count": 21,
+          "null_pct": 60.0,
+          "populated_pct": 40.0
+        },
+        "28": {
+          "null_count": 14,
+          "null_pct": 40.0,
+          "populated_pct": 60.0
+        },
+        "31": {
+          "null_count": 22,
+          "null_pct": 62.9,
+          "populated_pct": 37.1
+        },
+        "50": {
+          "null_count": 19,
+          "null_pct": 54.3,
+          "populated_pct": 45.7
+        },
+        "55": {
+          "null_count": 24,
+          "null_pct": 68.6,
+          "populated_pct": 31.4
+        },
+        "66": {
+          "null_count": 23,
+          "null_pct": 65.7,
+          "populated_pct": 34.3
+        },
+        "80": {
+          "null_count": 26,
+          "null_pct": 74.3,
+          "populated_pct": 25.7
+        },
+        "99": {
+          "null_count": 22,
+          "null_pct": 62.9,
+          "populated_pct": 37.1
+        },
+        "103": {
+          "null_count": 20,
+          "null_pct": 57.1,
+          "populated_pct": 42.9
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 35,
+        "total_records": 35,
+        "audited_at": "2026-03-10T00:24:50.105261+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2023-01-06",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 18,
+            "null_pct": 51.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "6": {
+            "null_count": 21,
+            "null_pct": 60.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 21,
+            "null_pct": 60.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 14,
+            "null_pct": 40.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 22,
+            "null_pct": 62.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 19,
+            "null_pct": 54.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 24,
+            "null_pct": 68.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 23,
+            "null_pct": 65.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 26,
+            "null_pct": 74.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 22,
+            "null_pct": 62.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 20,
+            "null_pct": 57.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 24
+              },
+              {
+                "value": "oui",
+                "count": 10
+              },
+              {
+                "value": "Smog",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "1b0d6310-e36b-41e6-ba71-9aa0779fde5b",
+      "name": "Bilan 2022 de la qualité de l'air",
+      "description": "Bilan 2022 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/1b0d6310-e36b-41e6-ba71-9aa0779fde5b/download/fr-bilan-rsqa-2022.pdf",
+      "datastore_active": false,
+      "size": 2931561,
+      "last_modified": "2023-06-16T19:18:56.127558",
+      "created": "2023-06-15T10:18:43.890135",
+      "schema": null
+    },
+    {
+      "id": "32ec70dd-a671-4f89-9a2a-e16a956f5695",
+      "name": " 2022 air quality report",
+      "description": " 2022 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/32ec70dd-a671-4f89-9a2a-e16a956f5695/download/en-bilan-rsqa-2022.pdf",
+      "datastore_active": false,
+      "size": 2939278,
+      "last_modified": "2023-06-16T19:20:05.011627",
+      "created": "2023-06-15T10:20:38.970017",
+      "schema": null
+    },
+    {
+      "id": "647dfdd6-b8f2-4072-b21c-38860b6896d8",
+      "name": "2022 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2022.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/647dfdd6-b8f2-4072-b21c-38860b6896d8/download/2022-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": 1023,
+      "last_modified": "2023-06-15T10:22:56.050423",
+      "created": "2023-06-15T10:22:56.210868",
+      "schema": {
+        "resource_id": "647dfdd6-b8f2-4072-b21c-38860b6896d8",
+        "total_records": 34,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "6",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": null,
+            "6": null,
+            "17": null,
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": null
+          },
+          {
+            "_id": 2,
+            "Poste": "2022-01-01",
+            "3": "x",
+            "6": "x",
+            "17": "x",
+            "28": "x",
+            "31": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "103": "x",
+            "Smog": "Smog"
+          },
+          {
+            "_id": 3,
+            "Poste": "2022-01-05",
+            "3": null,
+            "6": "x",
+            "17": "x",
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": null,
+            "Smog": null
+          },
+          {
+            "_id": 4,
+            "Poste": "2022-01-13",
+            "3": null,
+            "6": null,
+            "17": null,
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": "x",
+            "Smog": "oui"
+          },
+          {
+            "_id": 5,
+            "Poste": "2022-01-14",
+            "3": null,
+            "6": null,
+            "17": null,
+            "28": null,
+            "31": null,
+            "50": null,
+            "55": null,
+            "66": null,
+            "80": null,
+            "99": null,
+            "103": "x",
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 26,
+          "null_pct": 76.5,
+          "populated_pct": 23.5
+        },
+        "6": {
+          "null_count": 27,
+          "null_pct": 79.4,
+          "populated_pct": 20.6
+        },
+        "17": {
+          "null_count": 30,
+          "null_pct": 88.2,
+          "populated_pct": 11.8
+        },
+        "28": {
+          "null_count": 23,
+          "null_pct": 67.6,
+          "populated_pct": 32.4
+        },
+        "31": {
+          "null_count": 28,
+          "null_pct": 82.4,
+          "populated_pct": 17.6
+        },
+        "50": {
+          "null_count": 29,
+          "null_pct": 85.3,
+          "populated_pct": 14.7
+        },
+        "55": {
+          "null_count": 29,
+          "null_pct": 85.3,
+          "populated_pct": 14.7
+        },
+        "66": {
+          "null_count": 32,
+          "null_pct": 94.1,
+          "populated_pct": 5.9
+        },
+        "80": {
+          "null_count": 28,
+          "null_pct": 82.4,
+          "populated_pct": 17.6
+        },
+        "99": {
+          "null_count": 30,
+          "null_pct": 88.2,
+          "populated_pct": 11.8
+        },
+        "103": {
+          "null_count": 23,
+          "null_pct": 67.6,
+          "populated_pct": 32.4
+        },
+        "Smog": {
+          "null_count": 2,
+          "null_pct": 5.9,
+          "populated_pct": 94.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 34,
+        "total_records": 34,
+        "audited_at": "2026-03-10T00:24:50.925235+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-01",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 26,
+            "null_pct": 76.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "6": {
+            "null_count": 27,
+            "null_pct": 79.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 30,
+            "null_pct": 88.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 23,
+            "null_pct": 67.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 28,
+            "null_pct": 82.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 29,
+            "null_pct": 85.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 29,
+            "null_pct": 85.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 32,
+            "null_pct": 94.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 28,
+            "null_pct": 82.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 30,
+            "null_pct": 88.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 23,
+            "null_pct": 67.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 2,
+            "null_pct": 5.9,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 27
+              },
+              {
+                "value": "oui",
+                "count": 4
+              },
+              {
+                "value": "Smog",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "dcb9e1b3-3bc2-4261-ad59-392e27e15b63",
+      "name": "Bilan 2021 de la qualité de l'air",
+      "description": "Bilan 2021 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/dcb9e1b3-3bc2-4261-ad59-392e27e15b63/download/fr-bilan-rsqa-2021.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-07-14T17:06:30.318406",
+      "created": "2022-07-14T17:06:30.502921",
+      "schema": null
+    },
+    {
+      "id": "2ef1fbb7-ad0d-4537-ad4c-45ae0fc9dc4c",
+      "name": " 2021 air quality report",
+      "description": " 2021 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/2ef1fbb7-ad0d-4537-ad4c-45ae0fc9dc4c/download/en-bilan-rsqa-2021.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-07-14T17:08:53.337228",
+      "created": "2022-07-14T17:08:53.537416",
+      "schema": null
+    },
+    {
+      "id": "c1dc5e92-a80f-4b12-afca-1d19cbdd9c4c",
+      "name": "2021 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2021.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/c1dc5e92-a80f-4b12-afca-1d19cbdd9c4c/download/2021-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-07-14T12:16:29.622838",
+      "created": "2022-07-14T12:10:54.478308",
+      "schema": {
+        "resource_id": "c1dc5e92-a80f-4b12-afca-1d19cbdd9c4c",
+        "total_records": 28,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "6",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2021-01-14",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2021-01-15",
+            "3": "x",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "x",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "x",
+            "103": "",
+            "Smog": "oui"
+          },
+          {
+            "_id": 4,
+            "Poste": "2021-01-20",
+            "3": "x",
+            "6": "",
+            "17": "",
+            "28": "x",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "x",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2021-01-31",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "x",
+            "103": "",
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "6": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 28,
+        "total_records": 28,
+        "audited_at": "2026-03-10T00:24:51.845696+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-01-14",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 18,
+            "null_pct": 64.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "6": {
+            "null_count": 22,
+            "null_pct": 78.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 21,
+            "null_pct": 75.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 10,
+            "null_pct": 35.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 25,
+            "null_pct": 89.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 23,
+            "null_pct": 82.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 19,
+            "null_pct": 67.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 21,
+            "null_pct": 75.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 26,
+            "null_pct": 92.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 22,
+            "null_pct": 78.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 23,
+            "null_pct": 82.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 3.6,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 20
+              },
+              {
+                "value": "oui",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "57e2bb96-a0b0-43f7-8ba0-df88fb59bd6d",
+      "name": "Bilan 2020 de la qualité de l'air",
+      "description": "Bilan 2020 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/57e2bb96-a0b0-43f7-8ba0-df88fb59bd6d/download/fr-bilan-rsqa-2020.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:17:37.462941",
+      "created": "2021-10-05T15:17:37.575510",
+      "schema": null
+    },
+    {
+      "id": "8a582791-ffdb-4d83-ace2-811119fc0d2b",
+      "name": " 2020 air quality report",
+      "description": " 2020 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/8a582791-ffdb-4d83-ace2-811119fc0d2b/download/en-bilan-rsqa-2020.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:15:33.018194",
+      "created": "2021-10-05T15:15:33.578346",
+      "schema": null
+    },
+    {
+      "id": "78bcf668-f377-4178-b64a-703adaa5e1a2",
+      "name": "2020 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2020.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/78bcf668-f377-4178-b64a-703adaa5e1a2/download/2020-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T14:48:12.540646",
+      "created": "2022-03-29T13:46:15.404037",
+      "schema": {
+        "resource_id": "78bcf668-f377-4178-b64a-703adaa5e1a2",
+        "total_records": 22,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "6",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2020-01-15",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "x",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "x",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2020-01-23",
+            "3": "",
+            "6": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "x",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2020-01-24",
+            "3": "",
+            "6": "",
+            "17": "x",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2020-01-31",
+            "3": "x",
+            "6": "x",
+            "17": "x",
+            "28": "x",
+            "31": "x",
+            "50": "x",
+            "55": "",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "103": "x",
+            "Smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "6": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 22,
+        "total_records": 22,
+        "audited_at": "2026-03-10T00:24:52.767935+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-01-15",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 10,
+            "null_pct": 45.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "6": {
+            "null_count": 11,
+            "null_pct": 50.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 10,
+            "null_pct": 45.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 10,
+            "null_pct": 45.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 15,
+            "null_pct": 68.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 12,
+            "null_pct": 54.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 12,
+            "null_pct": 54.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 13,
+            "null_pct": 59.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 13,
+            "null_pct": 59.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 16,
+            "null_pct": 72.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 12,
+            "null_pct": 54.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 4.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 11
+              },
+              {
+                "value": "oui",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "14381336-517f-4a86-a9f7-9eeb08d93225",
+      "name": "Bilan 2019 de la qualité de l'air",
+      "description": "Bilan 2019 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/14381336-517f-4a86-a9f7-9eeb08d93225/download/bilan-qualite-de-lair-fr-2019.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-04-01T18:21:39.409877",
+      "created": "2021-04-01T18:21:39.511020",
+      "schema": null
+    },
+    {
+      "id": "5c737fe3-dc66-49b7-9a9f-a8719703a646",
+      "name": " 2019 air quality report",
+      "description": " 2019 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/5c737fe3-dc66-49b7-9a9f-a8719703a646/download/en-bilan-rsqa-2019.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T13:18:55.029727",
+      "created": "2021-10-05T13:18:55.098682",
+      "schema": null
+    },
+    {
+      "id": "254919f6-f088-4c5d-b3ae-bc23bafd9910",
+      "name": "2019 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2019.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/254919f6-f088-4c5d-b3ae-bc23bafd9910/download/2019-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T15:15:18.793812",
+      "created": "2022-03-29T15:15:18.924281",
+      "schema": {
+        "resource_id": "254919f6-f088-4c5d-b3ae-bc23bafd9910",
+        "total_records": 44,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "6",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "6": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2019-01-05",
+            "3": "x",
+            "6": "",
+            "7": "",
+            "17": "x",
+            "28": "x",
+            "31": "",
+            "50": "x",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2019-01-10",
+            "3": "",
+            "6": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "x",
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2019-01-13",
+            "3": "x",
+            "6": "",
+            "7": "x",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2019-01-14",
+            "3": "x",
+            "6": "",
+            "7": "",
+            "17": "x",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "6": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 44,
+        "total_records": 44,
+        "audited_at": "2026-03-10T00:24:53.614124+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-05",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 39,
+            "null_pct": 88.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "6": {
+            "null_count": 42,
+            "null_pct": 95.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 43,
+            "null_pct": 97.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 32,
+            "null_pct": 72.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 27,
+            "null_pct": 61.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 41,
+            "null_pct": 93.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 37,
+            "null_pct": 84.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 35,
+            "null_pct": 79.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 43,
+            "null_pct": 97.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 43,
+            "null_pct": 97.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 41,
+            "null_pct": 93.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 25,
+            "null_pct": 56.8,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 2.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 39
+              },
+              {
+                "value": "oui",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "47ab4da7-ef39-4be7-b1e7-28374a52b50b",
+      "name": "Bilan 2018 de la qualité de l'air",
+      "description": "Bilan 2018 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/47ab4da7-ef39-4be7-b1e7-28374a52b50b/download/fr-bilan-rsqa-2018.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:01:35.509875",
+      "created": "2021-10-05T14:01:35.581949",
+      "schema": null
+    },
+    {
+      "id": "1901bd0a-98d0-4937-bea6-91fa5f2df616",
+      "name": " 2018 air quality report",
+      "description": " 2018 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/1901bd0a-98d0-4937-bea6-91fa5f2df616/download/en-bilan-rsqa-2018.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:13:53.219287",
+      "created": "2021-10-05T14:13:53.329749",
+      "schema": null
+    },
+    {
+      "id": "66236a80-7c0b-4896-baaa-45c194a809a7",
+      "name": "2018 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2018.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/66236a80-7c0b-4896-baaa-45c194a809a7/download/2018-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T15:24:36.259372",
+      "created": "2022-03-29T15:24:36.402958",
+      "schema": {
+        "resource_id": "66236a80-7c0b-4896-baaa-45c194a809a7",
+        "total_records": 42,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2018-01-02",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "x",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2018-01-03",
+            "3": "",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "x",
+            "50": "",
+            "55": "",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "103": "x",
+            "Smog": "oui"
+          },
+          {
+            "_id": 4,
+            "Poste": "2018-01-04",
+            "3": "",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "x",
+            "80": "",
+            "99": "x",
+            "103": "x",
+            "Smog": "oui"
+          },
+          {
+            "_id": 5,
+            "Poste": "2018-01-05",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "x",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 42,
+        "total_records": 42,
+        "audited_at": "2026-03-10T00:24:54.507542+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-01-02",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 35,
+            "null_pct": 83.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 33,
+            "null_pct": 78.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 30,
+            "null_pct": 71.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 24,
+            "null_pct": 57.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 38,
+            "null_pct": 90.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 25,
+            "null_pct": 59.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 36,
+            "null_pct": 85.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 35,
+            "null_pct": 83.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 37,
+            "null_pct": 88.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 39,
+            "null_pct": 92.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 35,
+            "null_pct": 83.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 2.4,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 35
+              },
+              {
+                "value": "oui",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "b5ee6773-3010-4076-be9d-2368fa253f13",
+      "name": "Bilan 2017 de la qualité de l'air",
+      "description": "Bilan 2017 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/b5ee6773-3010-4076-be9d-2368fa253f13/download/fr-bilan-rsqa-2017.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:02:48.053059",
+      "created": "2021-10-05T14:02:48.143336",
+      "schema": null
+    },
+    {
+      "id": "07e14795-cb10-4d24-9365-01adf5834f5e",
+      "name": " 2017 air quality report",
+      "description": " 2017 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/07e14795-cb10-4d24-9365-01adf5834f5e/download/en-bilan-rsqa-2017.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:15:13.175550",
+      "created": "2021-10-05T14:15:13.301466",
+      "schema": null
+    },
+    {
+      "id": "7fd9286c-505a-44bd-8c0f-7347fa3a6fc7",
+      "name": "2017 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2017.\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/7fd9286c-505a-44bd-8c0f-7347fa3a6fc7/download/2017-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T15:43:03.532123",
+      "created": "2022-03-29T15:43:03.710686",
+      "schema": {
+        "resource_id": "7fd9286c-505a-44bd-8c0f-7347fa3a6fc7",
+        "total_records": 35,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2017-01-02",
+            "3": "x",
+            "7": "",
+            "17": "x",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2017-01-06",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2017-01-07",
+            "3": "x",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "x",
+            "50": "",
+            "55": "x",
+            "66": "x",
+            "80": "",
+            "99": "x",
+            "103": "",
+            "Smog": "oui"
+          },
+          {
+            "_id": 5,
+            "Poste": "2017-01-08",
+            "3": "x",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "x",
+            "50": "",
+            "55": "x",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "103": "",
+            "Smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 35,
+        "total_records": 35,
+        "audited_at": "2026-03-10T00:24:55.417218+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-01-02",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 26,
+            "null_pct": 74.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 29,
+            "null_pct": 82.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 18,
+            "null_pct": 51.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 21,
+            "null_pct": 60.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 31,
+            "null_pct": 88.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 24,
+            "null_pct": 68.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 25,
+            "null_pct": 71.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 28,
+            "null_pct": 80.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 32,
+            "null_pct": 91.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 27,
+            "null_pct": 77.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 27,
+            "null_pct": 77.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 2.9,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 27
+              },
+              {
+                "value": "oui",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "a72ae9d0-7ce4-4876-80fd-aa0ae525b3cd",
+      "name": "Bilan 2016 de la qualité de l'air",
+      "description": "Bilan 2016 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/a72ae9d0-7ce4-4876-80fd-aa0ae525b3cd/download/fr-bilan-rsqa-2016.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:03:35.948290",
+      "created": "2021-10-05T14:03:36.035467",
+      "schema": null
+    },
+    {
+      "id": "1fe5ec51-fcb5-4964-9cb4-596ac83e7c29",
+      "name": " 2016 air quality report",
+      "description": " 2016 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/1fe5ec51-fcb5-4964-9cb4-596ac83e7c29/download/en-bilan-rsqa-2016.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:19:58.999017",
+      "created": "2021-10-05T14:19:59.084130",
+      "schema": null
+    },
+    {
+      "id": "750f0a21-042f-4d5b-9349-8e23cfe28bd6",
+      "name": "2016 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2016.\r\n\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air, sauf pour le 24 avril au poste 55 dont le responsable c'était l'ozone.\r\n\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/750f0a21-042f-4d5b-9349-8e23cfe28bd6/download/2016-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T16:53:09.635214",
+      "created": "2022-03-29T16:27:33.869370",
+      "schema": {
+        "resource_id": "750f0a21-042f-4d5b-9349-8e23cfe28bd6",
+        "total_records": 30,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "31",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "103",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "17": "",
+            "28": "",
+            "31": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2016-01-06",
+            "3": "",
+            "7": "",
+            "17": "x",
+            "28": "",
+            "31": "PM2_5 Non mesuré",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "103": "PM2_5 Non mesuré",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2016-01-07",
+            "3": "x",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "PM2_5 Non mesuré",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "",
+            "99": "",
+            "103": "PM2_5 Non mesuré",
+            "Smog": "oui"
+          },
+          {
+            "_id": 4,
+            "Poste": "2016-01-08",
+            "3": "x",
+            "7": "x",
+            "17": "x",
+            "28": "x",
+            "31": "PM2_5 Non mesuré",
+            "50": "x",
+            "55": "",
+            "66": "x",
+            "80": "",
+            "99": "x",
+            "103": "PM2_5 Non mesuré",
+            "Smog": "oui"
+          },
+          {
+            "_id": 5,
+            "Poste": "2016-01-14",
+            "3": "x",
+            "7": "",
+            "17": "x",
+            "28": "x",
+            "31": "PM2_5 Non mesuré",
+            "50": "",
+            "55": "x",
+            "66": "x",
+            "80": "",
+            "99": "",
+            "103": "PM2_5 Non mesuré",
+            "Smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "31": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "103": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 30,
+        "total_records": 30,
+        "audited_at": "2026-03-10T00:24:56.279804+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-06",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 22,
+            "null_pct": 73.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 26,
+            "null_pct": 86.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 20,
+            "null_pct": 66.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 19,
+            "null_pct": 63.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "31": {
+            "null_count": 19,
+            "null_pct": 63.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "PM2_5 Non mesuré",
+                "count": 7
+              },
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 21,
+            "null_pct": 70.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 22,
+            "null_pct": 73.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              },
+              {
+                "value": "OZONE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 24,
+            "null_pct": 80.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 28,
+            "null_pct": 93.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 24,
+            "null_pct": 80.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "103": {
+            "null_count": 9,
+            "null_pct": 30.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "PM2_5 Non mesuré",
+                "count": 17
+              },
+              {
+                "value": "x",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 3.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 21
+              },
+              {
+                "value": "oui",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "f9a198e7-c231-4cca-9c23-89ba0fa8b70e",
+      "name": "Bilan 2015 de la qualité de l'air",
+      "description": "Bilan 2015 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/f9a198e7-c231-4cca-9c23-89ba0fa8b70e/download/fr-bilan-rsqa-2015.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:07:47.184971",
+      "created": "2021-10-05T14:07:47.253319",
+      "schema": null
+    },
+    {
+      "id": "490f5265-34d4-4780-b061-7cf14a28c92d",
+      "name": " 2015 air quality report",
+      "description": " 2015 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/490f5265-34d4-4780-b061-7cf14a28c92d/download/en-bilan-rsqa-2015.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:20:59.501530",
+      "created": "2021-10-05T14:20:59.612545",
+      "schema": null
+    },
+    {
+      "id": "f0fb16d1-e445-4f5b-96f3-23a29f5372ff",
+      "name": "2015 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2015.\r\n\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air, sauf pour le 8 mai au poste 55 dont le responsable c'était l'ozone.\r\n\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/f0fb16d1-e445-4f5b-96f3-23a29f5372ff/download/2015-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T18:10:21.790759",
+      "created": "2022-03-29T18:10:21.944264",
+      "schema": {
+        "resource_id": "f0fb16d1-e445-4f5b-96f3-23a29f5372ff",
+        "total_records": 65,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "13",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2015-01-06",
+            "3": "x",
+            "7": "x",
+            "13": "",
+            "17": "x",
+            "28": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "PM2_5 Non mesuré",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2015-01-07",
+            "3": "x",
+            "7": "",
+            "13": "",
+            "17": "x",
+            "28": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "PM2_5 Non mesuré",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2015-01-12",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "PM2_5 Non mesuré",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2015-01-14",
+            "3": "x",
+            "7": "x",
+            "13": "x",
+            "17": "x",
+            "28": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "PM2_5 Non mesuré",
+            "99": "x",
+            "Smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "13": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 65,
+        "total_records": 65,
+        "audited_at": "2026-03-10T00:24:57.121469+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-01-06",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 58,
+            "null_pct": 89.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 58,
+            "null_pct": 89.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "13": {
+            "null_count": 23,
+            "null_pct": 35.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 42
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 53,
+            "null_pct": 81.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 54,
+            "null_pct": 83.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 56,
+            "null_pct": 86.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 52,
+            "null_pct": 80.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              },
+              {
+                "value": "OZONE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 60,
+            "null_pct": 92.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 56,
+            "null_pct": 86.2,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "PM2_5 Non mesuré",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 62,
+            "null_pct": 95.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 1.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 57
+              },
+              {
+                "value": "oui",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "44c046a7-494a-4cc0-ba54-2fce08708908",
+      "name": "Bilan 2014 de la qualité de l'air",
+      "description": "Bilan 2014 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/44c046a7-494a-4cc0-ba54-2fce08708908/download/fr-bilan-rsqa-2014.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:08:35.357006",
+      "created": "2021-10-05T14:08:35.425093",
+      "schema": null
+    },
+    {
+      "id": "b6ae15bb-952f-409b-977a-1b523a573282",
+      "name": " 2014 air quality report",
+      "description": " 2014 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/b6ae15bb-952f-409b-977a-1b523a573282/download/en-bilan-rsqa-2014.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:22:01.106377",
+      "created": "2021-10-05T14:22:01.293857",
+      "schema": null
+    },
+    {
+      "id": "229e0f97-3d60-455c-9b9f-e411c10d4edf",
+      "name": "2014 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2014.\r\n\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/229e0f97-3d60-455c-9b9f-e411c10d4edf/download/2014-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T18:16:44.967526",
+      "created": "2022-03-29T18:16:45.098953",
+      "schema": {
+        "resource_id": "229e0f97-3d60-455c-9b9f-e411c10d4edf",
+        "total_records": 64,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "13",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2014-01-04",
+            "3": "",
+            "7": "",
+            "13": "x",
+            "17": "",
+            "28": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2014-01-05",
+            "3": "",
+            "7": "x",
+            "13": "x",
+            "17": "x",
+            "28": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "",
+            "99": "x",
+            "Smog": "oui"
+          },
+          {
+            "_id": 4,
+            "Poste": "2014-01-10",
+            "3": "x",
+            "7": "x",
+            "13": "x",
+            "17": "x",
+            "28": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "Smog": "oui"
+          },
+          {
+            "_id": 5,
+            "Poste": "2014-01-11",
+            "3": "x",
+            "7": "x",
+            "13": "x",
+            "17": "x",
+            "28": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "Smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "13": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 64,
+        "total_records": 64,
+        "audited_at": "2026-03-10T00:24:57.972435+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-01-04",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 61,
+            "null_pct": 95.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 56,
+            "null_pct": 87.5,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "13": {
+            "null_count": 10,
+            "null_pct": 15.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 54
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 54,
+            "null_pct": 84.4,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 53,
+            "null_pct": 82.8,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 53,
+            "null_pct": 82.8,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 51,
+            "null_pct": 79.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 57,
+            "null_pct": 89.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 58,
+            "null_pct": 90.6,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 61,
+            "null_pct": 95.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 1.6,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 53
+              },
+              {
+                "value": "oui",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "2a72307d-c57c-418b-b928-e5a836a5f157",
+      "name": "Bilan 2013 de la qualité de l'air",
+      "description": "Bilan 2013 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/2a72307d-c57c-418b-b928-e5a836a5f157/download/fr-bilan-rsqa-2013.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:09:22.715234",
+      "created": "2021-10-05T14:09:22.785544",
+      "schema": null
+    },
+    {
+      "id": "7c036777-3e03-49fd-8afb-2043cc76cc99",
+      "name": " 2013 air quality report",
+      "description": " 2013 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/7c036777-3e03-49fd-8afb-2043cc76cc99/download/en-bilan-rsqa-2013.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:31:59.946277",
+      "created": "2021-10-05T14:32:00.046958",
+      "schema": null
+    },
+    {
+      "id": "5ff65b67-de4f-43ab-8f87-0360d483d05d",
+      "name": "2013 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2013.\r\n\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/5ff65b67-de4f-43ab-8f87-0360d483d05d/download/2013-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T18:42:19.475646",
+      "created": "2022-03-29T18:42:19.609164",
+      "schema": {
+        "resource_id": "5ff65b67-de4f-43ab-8f87-0360d483d05d",
+        "total_records": 54,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "13",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "17",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "29",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "29": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2013-01-09",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "29": "x",
+            "50": "x",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": "oui"
+          },
+          {
+            "_id": 3,
+            "Poste": "2013-01-12",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "29": "x",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 4,
+            "Poste": "2013-01-13",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "29": "x",
+            "50": "",
+            "55": "x",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2013-01-14",
+            "3": "",
+            "7": "",
+            "13": "",
+            "17": "",
+            "28": "",
+            "29": "x",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "Smog": "non"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "13": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "17": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "29": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 54,
+        "total_records": 54,
+        "audited_at": "2026-03-10T00:24:58.809225+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-01-09",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 47,
+            "null_pct": 87.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 40,
+            "null_pct": 74.1,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "13": {
+            "null_count": 22,
+            "null_pct": 40.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 32
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "17": {
+            "null_count": 45,
+            "null_pct": 83.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 42,
+            "null_pct": 77.8,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "29": {
+            "null_count": 49,
+            "null_pct": 90.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 36,
+            "null_pct": 66.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 41,
+            "null_pct": 75.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 41,
+            "null_pct": 75.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 45,
+            "null_pct": 83.3,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 49,
+            "null_pct": 90.7,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Smog": {
+            "null_count": 1,
+            "null_pct": 1.9,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 38
+              },
+              {
+                "value": "oui",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "22795ce5-70c0-4190-81ca-e90aed723b70",
+      "name": "Bilan 2012 de la qualité de l'air",
+      "description": "Bilan 2012 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/22795ce5-70c0-4190-81ca-e90aed723b70/download/fr-bilan-rsqa-2012.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:10:41.565733",
+      "created": "2021-10-05T14:10:41.657237",
+      "schema": null
+    },
+    {
+      "id": "84d9bb36-f3f3-44c2-beb9-82e67c9f8116",
+      "name": " 2012 air quality report",
+      "description": " 2012 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/84d9bb36-f3f3-44c2-beb9-82e67c9f8116/download/en-bilan-rsqa-2012.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:33:10.941033",
+      "created": "2021-10-05T14:33:11.031923",
+      "schema": null
+    },
+    {
+      "id": "7b28340c-a6af-41aa-b331-8f5afbf4b59a",
+      "name": "2012 - Dates/postes : Jours de mauvaise qualité de l'air et smog",
+      "description": "Tableau de la quantité des jours de mauvais qualité de l'air (MQA) et de smog pour l'année 2012.\r\n\r\nNote: Les particules fines étaient responsables de  l'ensemble des jours de mauvaise qualité de l'air.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/7b28340c-a6af-41aa-b331-8f5afbf4b59a/download/2012-datespostes-jours-de-mqa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-03-29T18:30:36.723883",
+      "created": "2022-03-29T18:30:36.854329",
+      "schema": {
+        "resource_id": "7b28340c-a6af-41aa-b331-8f5afbf4b59a",
+        "total_records": 50,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Poste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "7",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "13",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "28",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "29",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "50",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "55",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "66",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "80",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "99",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "smog",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Poste": "Date",
+            "3": "",
+            "7": "",
+            "13": "",
+            "28": "",
+            "29": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "smog": ""
+          },
+          {
+            "_id": 2,
+            "Poste": "2012-01-01",
+            "3": "",
+            "7": "",
+            "13": "",
+            "28": "",
+            "29": "x",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "smog": "non"
+          },
+          {
+            "_id": 3,
+            "Poste": "2012-01-07",
+            "3": "x",
+            "7": "x",
+            "13": "x",
+            "28": "x",
+            "29": "x",
+            "50": "x",
+            "55": "x",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "smog": "oui"
+          },
+          {
+            "_id": 4,
+            "Poste": "2012-01-16",
+            "3": "",
+            "7": "",
+            "13": "x",
+            "28": "",
+            "29": "",
+            "50": "",
+            "55": "",
+            "66": "",
+            "80": "",
+            "99": "",
+            "smog": "non"
+          },
+          {
+            "_id": 5,
+            "Poste": "2012-01-17",
+            "3": "",
+            "7": "",
+            "13": "x",
+            "28": "x",
+            "29": "x",
+            "50": "x",
+            "55": "",
+            "66": "x",
+            "80": "x",
+            "99": "x",
+            "smog": "oui"
+          }
+        ]
+      },
+      "field_stats": {
+        "Poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "7": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "13": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "28": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "29": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "50": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "55": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "66": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "80": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "99": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "smog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 50,
+        "total_records": 50,
+        "audited_at": "2026-03-10T00:24:59.663243+00:00",
+        "fields": {
+          "Poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-01-01",
+            "max_date": "Date",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "3": {
+            "null_count": 37,
+            "null_pct": 74.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "7": {
+            "null_count": 39,
+            "null_pct": 78.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "13": {
+            "null_count": 17,
+            "null_pct": 34.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 33
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "28": {
+            "null_count": 34,
+            "null_pct": 68.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "29": {
+            "null_count": 30,
+            "null_pct": 60.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "50": {
+            "null_count": 35,
+            "null_pct": 70.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "55": {
+            "null_count": 33,
+            "null_pct": 66.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "66": {
+            "null_count": 36,
+            "null_pct": 72.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "80": {
+            "null_count": 36,
+            "null_pct": 72.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "99": {
+            "null_count": 36,
+            "null_pct": 72.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "x",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "smog": {
+            "null_count": 1,
+            "null_pct": 2.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "non",
+                "count": 33
+              },
+              {
+                "value": "oui",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "5366ba7e-9d18-43a3-8a99-9676b379a6e9",
+      "name": "Bilan 2011 de la qualité de l'air",
+      "description": "Bilan 2011 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/5366ba7e-9d18-43a3-8a99-9676b379a6e9/download/fr-bilan-rsqa-2011.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:12:01.303903",
+      "created": "2021-10-05T14:12:01.477867",
+      "schema": null
+    },
+    {
+      "id": "dd7198ba-bc06-48f5-932c-ce220cd9cab2",
+      "name": " 2011 air quality report",
+      "description": " 2011 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/dd7198ba-bc06-48f5-932c-ce220cd9cab2/download/en-bilan-rsqa-2011.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:36:08.609218",
+      "created": "2021-10-05T14:36:08.881503",
+      "schema": null
+    },
+    {
+      "id": "b886a3ee-379a-4724-9022-69343f3e960d",
+      "name": "Bilan 2010 de la qualité de l'air",
+      "description": "Bilan 2010 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/b886a3ee-379a-4724-9022-69343f3e960d/download/fr-bilan-rsqa-2010.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:12:45.674263",
+      "created": "2021-10-05T14:12:45.839041",
+      "schema": null
+    },
+    {
+      "id": "2652e582-6827-4fd0-a998-2a1dfd73459a",
+      "name": " 2010 air quality report",
+      "description": " 2010 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/2652e582-6827-4fd0-a998-2a1dfd73459a/download/en-bilan-rsqa-2010.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T14:37:31.996060",
+      "created": "2021-10-05T14:37:32.090982",
+      "schema": null
+    },
+    {
+      "id": "58cec601-4db5-4020-971f-6f00e4548b4a",
+      "name": "Bilan 2009 de la qualité de l'air",
+      "description": "Bilan 2009 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/58cec601-4db5-4020-971f-6f00e4548b4a/download/fr-bilan-rsqa-2009.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:56:39.970671",
+      "created": "2021-10-05T15:56:40.079158",
+      "schema": null
+    },
+    {
+      "id": "e4112c68-3ee2-40f3-8d52-7862cced4ff8",
+      "name": " 2009 air quality report",
+      "description": " 2009 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/e4112c68-3ee2-40f3-8d52-7862cced4ff8/download/en-bilan-rsqa-2009.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:58:40.223284",
+      "created": "2021-10-05T15:58:40.349224",
+      "schema": null
+    },
+    {
+      "id": "dfa5d7cf-b3c0-4a38-ad46-82472df4eed9",
+      "name": "Bilan 2008 de la qualité de l'air",
+      "description": "Bilan 2008 de la qualité de l'air",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/dfa5d7cf-b3c0-4a38-ad46-82472df4eed9/download/fr-bilan-rsqa-2008.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:57:31.826340",
+      "created": "2021-10-05T15:57:31.936388",
+      "schema": null
+    },
+    {
+      "id": "b4589a89-211a-495b-a420-c0f0073b4327",
+      "name": " 2008 air quality report",
+      "description": " 2008 air quality report",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/24d31955-5590-47b9-a6f4-ffdac36429ba/resource/b4589a89-211a-495b-a420-c0f0073b4327/download/en-bilan-rsqa-2008.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-05T15:59:22.715153",
+      "created": "2021-10-05T15:59:22.857833",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Air",
+    "Bilan",
+    "Qualité de l air",
+    "RSQA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le RSQA mesure plusieurs polluants comme les particules fines, l'ozone, le dioxyde de soufre, les oxydes d'azote, le monoxyde de carbone. D'autres mesures et analyses sont effectués selon le calendrier d'échantillonnage du programme de surveillance national de la pollution atmosphérique (SNPA) d'Environnement et Changement climatique Canada (ECCC) auquel le RSQA appartient.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "1998-01-01/2020-12-31",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Air",
+      "Bilan",
+      "Qualité de l air",
+      "RSQA",
+      "SEnv"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsqa-bilans-annuels-qualite-air",
+    "scraped_at": "2026-03-09T20:20:08.480721+00:00"
+  }
+}

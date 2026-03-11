@@ -1,0 +1,257 @@
+{
+  "slug": "vmtl-reconnaissance-panam",
+  "title": "Organismes ayant reconnaissance PANAM",
+  "notes": "Cet ensemble présente la liste des organismes reconnus dans le cadre du programme PANAM. Un organisme reconnu PANAM (pan-montréalais) est un organisme montréalais à but non lucratif en sport, loisir ou culture desservant des citoyens ayant une déficience, un handicap ou une limitation fonctionnelle et qui provient d’au moins 10 arrondissements de la Ville de Montréal. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    },
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2015-01-19T14:37:54.072998",
+  "metadata_modified": "2025-06-30T20:31:50.640654",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "afedd652-f414-4344-9dd2-386325340db8",
+      "name": "Organismes PANAM",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f0bec8bb-2694-4ff4-8a41-98c6d4480d7d/resource/afedd652-f414-4344-9dd2-386325340db8/download/organismes-panam.csv",
+      "datastore_active": true,
+      "size": 24161,
+      "last_modified": "2025-06-30T19:53:59.790532",
+      "created": "2016-01-13T11:59:11.105544",
+      "schema": {
+        "resource_id": "afedd652-f414-4344-9dd2-386325340db8",
+        "total_records": 331,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "organisme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "site_internet",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "annee": "2016",
+            "organisme": "Association d'Entraide des Personnes Handicapées Physiques de Montréal, ALPHA",
+            "site_internet": "http://alpha-montreal.com"
+          },
+          {
+            "_id": 2,
+            "annee": "2016",
+            "organisme": "Association de Montréal pour la déficience intellectuelle, AMDI",
+            "site_internet": "http://www.amdi.info"
+          },
+          {
+            "_id": 3,
+            "annee": "2016",
+            "organisme": "Association de développement des arts martiaux adaptés, ADAMA",
+            "site_internet": "https://adamacanada.org/"
+          },
+          {
+            "_id": 4,
+            "annee": "2016",
+            "organisme": "Association du Québec pour enfants avec problèmes auditifs – Montréal régional, AQEPA",
+            "site_internet": "https://aqepa.org/"
+          },
+          {
+            "_id": 5,
+            "annee": "2016",
+            "organisme": "Association québécoise de voile adaptée, AQVA  ",
+            "site_internet": "http://www.aqva.org"
+          }
+        ]
+      },
+      "field_stats": {
+        "annee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "organisme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "site_internet": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 331,
+        "total_records": 331,
+        "audited_at": "2026-03-10T00:23:03.230299+00:00",
+        "fields": {
+          "annee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016",
+            "max_date": "2027",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "organisme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "Fondation Papillon",
+                "count": 10
+              },
+              {
+                "value": "Compagnons de Montréal",
+                "count": 8
+              },
+              {
+                "value": "La Gang à Rambrou",
+                "count": 8
+              },
+              {
+                "value": "Olympiques spéciaux Québec (section sud-ouest de l’Ile)",
+                "count": 8
+              },
+              {
+                "value": "Société canadienne de la sclérose en plaques (section Montréal)",
+                "count": 8
+              },
+              {
+                "value": "Théâtre Aphasique",
+                "count": 8
+              },
+              {
+                "value": "Association d'Entraide des Personnes Handicapées Physiques de Montréal, ALPHA",
+                "count": 7
+              },
+              {
+                "value": "Association de Montréal pour la déficience intellectuelle, AMDI",
+                "count": 7
+              },
+              {
+                "value": "Association du Québec pour enfants avec problèmes auditifs – Montréal régional, AQEPA",
+                "count": 7
+              },
+              {
+                "value": "Association québécoise de voile adaptée, AQVA",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "site_internet": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 73,
+            "top_values": [
+              {
+                "value": "https://civa.qc.ca/",
+                "count": 11
+              },
+              {
+                "value": "https://trisomie.qc.ca/",
+                "count": 11
+              },
+              {
+                "value": "http://www.amdi.info",
+                "count": 8
+              },
+              {
+                "value": "https://aqepa.org/",
+                "count": 8
+              },
+              {
+                "value": "http://www.aqva.org",
+                "count": 8
+              },
+              {
+                "value": "http://aphasie.ca",
+                "count": 8
+              },
+              {
+                "value": "http://www.autisme-montreal.com",
+                "count": 8
+              },
+              {
+                "value": "http://centreradisson.com",
+                "count": 8
+              },
+              {
+                "value": "http://maisonechelon.ca",
+                "count": 8
+              },
+              {
+                "value": "http://www.centreaction.org",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Accessibilité universelle",
+    "OBNL",
+    "SDIS",
+    "Services"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le statut d’organisme PANAM accorde aux organismes une reconnaissance officielle des autorités municipales et un soutien pour leur contribution à l’offre montréalaise en sport et en loisir. Les données présentent la liste des organismes reconnus et les liens pour consulter leurs sites web.\n\n## Dictionnaire de données\n\n\n\n- annee (Numérique) : Année de reconnaissance PANAM\n\n- organisme (Texte) : Organisme ayant reconnaissance PANAM\n\n- site_internet (Texte) : Lien au site web de l'organisme\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la diversité et de l'inclusion sociale",
+      "Couverture temporelle": "2016/",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Accessibilité universelle",
+      "OBNL",
+      "SDIS",
+      "Services"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/reconnaissance-panam",
+    "scraped_at": "2026-03-09T20:16:29.988289+00:00"
+  }
+}

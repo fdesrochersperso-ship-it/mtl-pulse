@@ -1,0 +1,607 @@
+{
+  "slug": "vmtl-anciennes-carrieres-depots-surface",
+  "title": "Anciennes carrières et dépôts de surface du territoire Montréalais",
+  "notes": "Polygones qui fournissent des indications approximatives sur la localisation et le contour des anciennes carrières et dépôts de surface sur le territoire montréalais.\r\n\r\nIl complète les informations fournies sur le [portail de la Ville](https://montreal.ca/sujets/anciennes-carrieres).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-06-12T21:13:53.580383",
+  "metadata_modified": "2026-01-01T02:29:42.894252",
+  "num_resources": 5,
+  "resources": [
+    {
+      "id": "aeee57bc-a21b-4aff-9b75-a78b9530e0f9",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://environnementmtl.maps.arcgis.com/apps/webappviewer/index.html?id=eddfe22f7ef54982a6545e8eb3c86a9a",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-21T19:54:23.989294",
+      "schema": null
+    },
+    {
+      "id": "4197dcf3-0f90-4034-b021-85c52ba4c9c2",
+      "name": "Polygones des anciennes carrières et dépôts de surface",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/d332b1ef-95af-42d8-a996-7e451f1c6722/resource/4197dcf3-0f90-4034-b021-85c52ba4c9c2/download/anciennes_carrieres_depot_surface.zip",
+      "datastore_active": false,
+      "size": 210021,
+      "last_modified": "2026-01-01T00:01:57.313015",
+      "created": "2020-04-02T16:26:48.417875",
+      "schema": null
+    },
+    {
+      "id": "56810fb3-18cf-44e5-b402-7dceef468cd8",
+      "name": "Polygones des anciennes carrières et dépôts de surface",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/d332b1ef-95af-42d8-a996-7e451f1c6722/resource/56810fb3-18cf-44e5-b402-7dceef468cd8/download/anciennes_carrieres_depot_surface.geojson",
+      "datastore_active": false,
+      "size": 862242,
+      "last_modified": "2026-01-01T00:01:55.425273",
+      "created": "2020-04-02T16:25:31.860916",
+      "schema": null
+    },
+    {
+      "id": "05e79cdf-c591-4607-a30b-19ca790f84ad",
+      "name": "Liste des anciennes carrières et dépôts de surface",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/d332b1ef-95af-42d8-a996-7e451f1c6722/resource/05e79cdf-c591-4607-a30b-19ca790f84ad/download/anciennes_carrieres_depot_surface.csv",
+      "datastore_active": true,
+      "size": 8803,
+      "last_modified": "2026-01-01T00:02:00.950790",
+      "created": "2020-04-02T16:22:18.216466",
+      "schema": {
+        "resource_id": "05e79cdf-c591-4607-a30b-19ca790f84ad",
+        "total_records": 121,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id_carriere",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation_precision",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Superficie",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id_carriere": "10",
+            "Type": "Carrière",
+            "Localisation_precision": "Localisation indéterminée - élément ponctuel approximatf",
+            "Superficie": null
+          },
+          {
+            "_id": 2,
+            "Id_carriere": "11",
+            "Type": "Carrière",
+            "Localisation_precision": "Délimitation polygonale approximative",
+            "Superficie": "98866"
+          },
+          {
+            "_id": 3,
+            "Id_carriere": "14",
+            "Type": "Carrière",
+            "Localisation_precision": "Localisation indéterminée - élément ponctuel approximatf",
+            "Superficie": null
+          },
+          {
+            "_id": 4,
+            "Id_carriere": "15",
+            "Type": "Carrière",
+            "Localisation_precision": "Localisation indéterminée - élément ponctuel approximatf",
+            "Superficie": null
+          },
+          {
+            "_id": 5,
+            "Id_carriere": "16",
+            "Type": "Carrière",
+            "Localisation_precision": "Localisation indéterminée - élément ponctuel approximatf",
+            "Superficie": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Id_carriere": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Localisation_precision": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Superficie": {
+          "null_count": 60,
+          "null_pct": 49.6,
+          "populated_pct": 50.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 121,
+        "total_records": 121,
+        "audited_at": "2026-03-10T00:13:44.113561+00:00",
+        "fields": {
+          "Id_carriere": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10.0,
+            "max": 513.0,
+            "mean": 117.5702,
+            "median": 70.0,
+            "unique_count": 113,
+            "field_type_detected": "numeric"
+          },
+          "Type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Carrière",
+                "count": 106
+              },
+              {
+                "value": "Dépôt",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Localisation_precision": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Délimitation polygonale approximative",
+                "count": 61
+              },
+              {
+                "value": "Localisation indéterminée - élément ponctuel approximatf",
+                "count": 60
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Superficie": {
+            "null_count": 60,
+            "null_pct": 49.6,
+            "min": -1.0,
+            "max": 1230841.0,
+            "mean": 117047.918,
+            "median": 20736.0,
+            "unique_count": 61,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "b74e2fb4-fd44-40dc-b530-aaf5987cb8f4",
+      "name": "Liste des documents reliés aux anciennes carrières et dépôts de surface",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/d332b1ef-95af-42d8-a996-7e451f1c6722/resource/b74e2fb4-fd44-40dc-b530-aaf5987cb8f4/download/documents_anciennes_carrieres_depots_surfa.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-07-10T15:08:39.140521",
+      "created": "2020-04-02T16:19:57.962834",
+      "schema": {
+        "resource_id": "b74e2fb4-fd44-40dc-b530-aaf5987cb8f4",
+        "total_records": 310,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id_Carriere",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "URL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id_Carriere": 10,
+            "Nom": "Carrière No 10",
+            "Type": "Carrière",
+            "Description": "Rapport géologique",
+            "URL": "https://drive.google.com/file/d/1slNc6Qj_XUWrQ4OdLHJVk6v8k-2f-ybv/view?usp=sharing",
+            "Arrondissement": "Pierrefonds — Roxboro"
+          },
+          {
+            "_id": 2,
+            "Id_Carriere": 11,
+            "Nom": "Carrière No 11",
+            "Type": "Carrière",
+            "Description": "Rapport géologique",
+            "URL": "https://drive.google.com/file/d/1XYFF95xtidFAeLH8XVSds187g3pOwsVN/view?usp=sharing",
+            "Arrondissement": "Pierrefonds — Roxboro"
+          },
+          {
+            "_id": 3,
+            "Id_Carriere": 14,
+            "Nom": "Carrière No 14",
+            "Type": "Carrière",
+            "Description": "Rapport géologique",
+            "URL": "https://drive.google.com/file/d/1ejvpRtB3iNW0LnqlMmxByPfm9ryajXUs/view?usp=sharing",
+            "Arrondissement": "Lachine"
+          },
+          {
+            "_id": 4,
+            "Id_Carriere": 15,
+            "Nom": "Carrière No 15",
+            "Type": "Carrière",
+            "Description": "Rapport géologique",
+            "URL": "https://drive.google.com/file/d/1Z509X_4kFalWpln2HOlqkmKeGBVoY7Xr/view?usp=sharing",
+            "Arrondissement": "Ville-Marie"
+          },
+          {
+            "_id": 5,
+            "Id_Carriere": 16,
+            "Nom": "Carrière No 16",
+            "Type": "Carrière",
+            "Description": "Rapport biogaz 1994",
+            "URL": "https://drive.google.com/file/d/1qrwzzbIL1l6Ah8n0c4__z9mlCaApgKHk/view?usp=sharing",
+            "Arrondissement": "Ville-Marie"
+          }
+        ]
+      },
+      "field_stats": {
+        "Id_Carriere": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "URL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 310,
+        "total_records": 310,
+        "audited_at": "2026-03-10T00:13:45.044343+00:00",
+        "fields": {
+          "Id_Carriere": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10.0,
+            "max": 513.0,
+            "mean": 110.9548,
+            "median": 54.0,
+            "unique_count": 111,
+            "field_type_detected": "numeric"
+          },
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 111,
+            "top_values": [
+              {
+                "value": "Carrière No 30",
+                "count": 12
+              },
+              {
+                "value": "Carrière No 29",
+                "count": 11
+              },
+              {
+                "value": "Carrière No 43",
+                "count": 9
+              },
+              {
+                "value": "DS(H)",
+                "count": 9
+              },
+              {
+                "value": "Carrière No 27",
+                "count": 8
+              },
+              {
+                "value": "Carrière No 56",
+                "count": 8
+              },
+              {
+                "value": "Carrière No 47",
+                "count": 7
+              },
+              {
+                "value": "Carrière No 36",
+                "count": 6
+              },
+              {
+                "value": "Carrière No 99",
+                "count": 6
+              },
+              {
+                "value": "Carrière No 23",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Carrière",
+                "count": 271
+              },
+              {
+                "value": "Dépôt de surface",
+                "count": 39
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 35,
+            "top_values": [
+              {
+                "value": "Rapport biogaz 1994",
+                "count": 62
+              },
+              {
+                "value": "Rapport géologique",
+                "count": 34
+              },
+              {
+                "value": "Plan de localisation",
+                "count": 30
+              },
+              {
+                "value": "Relevés de méthane 2016",
+                "count": 27
+              },
+              {
+                "value": "Fortification Survey",
+                "count": 19
+              },
+              {
+                "value": "Gerled",
+                "count": 18
+              },
+              {
+                "value": "Relevés de méthane 2017",
+                "count": 18
+              },
+              {
+                "value": "Plan de localisation 2",
+                "count": 11
+              },
+              {
+                "value": "Relevés de méthane 2018",
+                "count": 11
+              },
+              {
+                "value": "Plan de localisation 1",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "URL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 233,
+            "top_values": [
+              {
+                "value": "https://drive.google.com/file/d/1qrwzzbIL1l6Ah8n0c4__z9mlCaApgKHk/view?usp=sharing",
+                "count": 62
+              },
+              {
+                "value": "https://drive.google.com/file/d/1TMhsOerllao4HcD4oXL5TfQCnbVj8KCQ/view?usp=sharing",
+                "count": 4
+              },
+              {
+                "value": "https://drive.google.com/file/d/1iBwmtN4CnBtkbba9b6rWAt_QW7Pspld9/view?usp=sharing",
+                "count": 4
+              },
+              {
+                "value": "https://drive.google.com/file/d/1HtLzEeJBs0ea91pGan8foTgHq8qFXEDN/view?usp=sharing",
+                "count": 3
+              },
+              {
+                "value": "https://drive.google.com/file/d/1PI332TTCkVIkmWS0v_ShMo6QZRTcYsfm/view?usp=sharing",
+                "count": 2
+              },
+              {
+                "value": "https://drive.google.com/file/d/16IufFn4MLO5eOhDih65PUoF1E86MHeeD/view?usp=sharing",
+                "count": 2
+              },
+              {
+                "value": "https://drive.google.com/file/d/1QVssC6z_UmE9UYKvQezZOExXbwoY3PgD/view?usp=sharing",
+                "count": 2
+              },
+              {
+                "value": "https://drive.google.com/file/d/17dZSO6C9R8XoJZ5TjirnZx9q2ROhtnGk/view?usp=sharing",
+                "count": 2
+              },
+              {
+                "value": "https://drive.google.com/file/d/1YHw6MQ0vS4yIJi1T0mOWfOdak3RlcZ1w/view?usp=sharing",
+                "count": 2
+              },
+              {
+                "value": "https://drive.google.com/file/d/13-N2YrQ1E5fFhdP8l2w2up638b97zALu/view?usp=sharing",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Rosemont — La Petite-Patrie",
+                "count": 92
+              },
+              {
+                "value": "Mercier— Hochelaga-Maisonneuve",
+                "count": 38
+              },
+              {
+                "value": "Rivière-des-Prairies — Pointe-aux-Trembles",
+                "count": 33
+              },
+              {
+                "value": "Plateau-Mont-Royal",
+                "count": 32
+              },
+              {
+                "value": "Villeray—Saint-Michel — Parc-Extension",
+                "count": 30
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 21
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 12
+              },
+              {
+                "value": "Côte-des-Neiges — Notre-Dame-de-Grâce",
+                "count": 11
+              },
+              {
+                "value": "Verdun",
+                "count": 10
+              },
+              {
+                "value": "Plateau-Mont-Royal / Ville-Marie",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Carrière",
+    "Contamination",
+    "Dépôt",
+    "Enfouissement",
+    "Environnement",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "La Ville de Montréal a colligé les informations provenant principalement d’une compilation des documents historiques de sources diverses et disponibles à tous. La Ville ne peut donc garantir l’exactitude des données illustrées sur les cartes. La Ville de Montréal ne peut garantir l'exactitude des données contenues dans ces documents, les limites illustrées provenant de plans et de sources historiques. La nature et l’épaisseur des matériaux de remplissage ne sont pas connues. La Ville de Montréal se dégage de toute responsabilité découlant de l'utilisation de ces données. Pour déterminer si un lieu précis est situé sur une ancienne carrière, une validation doit être effectuée au moyen d’une recherche historique et de sondages du sol.\n\n\nAttention! Si un terrain se trouve dans l’emprise d’une ancienne carrière, cela ne signifie pas systématiquement qu’il est contaminé. Des vérifications (historique détaillé et sondages par collecte d’échantillons de sol) doivent être faites par le propriétaire.\n\n\nLes documents mis en ligne sont principalement des extraits de rapports géologiques et des plans qui ont permis de localiser approximativement les anciennes carrières.\n\n### Dictionnaire de données\n\n\n\n**DONNÉES POLYGONES (LIMITES)**\n\n\n- Id_Carriere (Texte variable) : Identifiant unique \n\n- Type (Texte variable) : Indication sur le type (Dépôt de surface ou Ancienne carrière)\n\n- Localisation_precision (Texte variable) : Précision sur le type de localisation (ponctuel et localisation indéterminé ou surfacique et délimitation approximative)\n\n- Superficie (Numérique) : Superficie approximative dans les cas où la délimitation approximative est connue (non ponctuel)\n\n\n\n**DONNÉES DES DOCUMENTS D'ARCHIVES LIÉS**\n\n\n- Id_Carriere (Texte variable) : Identifiant unique de la carrière (* plusieurs documents peuvent être disponibles pour une même carrière)\n\n- Nom (Texte variable) : Identifiant textuel\n\n- url (Texte variable) : Lien vers le document d'archive associé (PDF)\n\n- description (Texte variable) : description du document disponible document d'archive associé (PDF)\n\n\n\nNotes sur les documents associés: Il est possible qu'il y ait un délai de publication entre les délimitations des carrières et dépôts géré par le Service de l'environnement et la publication des documents officiels au Greffe.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "1900-01-01/",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Carrière",
+      "Contamination",
+      "Dépôt",
+      "Enfouissement",
+      "Environnement",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/anciennes-carrieres-depots-surface",
+    "scraped_at": "2026-03-09T19:52:02.534282+00:00"
+  }
+}

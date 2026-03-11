@@ -1,0 +1,1860 @@
+{
+  "slug": "vmtl-indicateurs-de-performance-de-la-ville-de-montreal",
+  "title": "Indicateurs de performance de la Ville de Montréal",
+  "notes": "Résultats, données et calculs des indicateurs de performance de la Ville de Montréal, dans le cadre des démarches d’étalonnage du ministère des affaires municipales et de l'habitation (MAMH) et du Réseau d'étalonnage municipal du Canada (REMC).\r\n\r\n*Il est à noter que la Ville de Montréal ne participe plus au REMC depuis 2020.  Aussi, les indicateurs du MAMH ne sont plus compilés à l'échelle provinciale depuis 2014. Il s'agit toutefois de mesures compilées par l'administration pour fin d'évaluation de performance évolutive sur une base annuelle.*",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2015-11-02T18:08:55.623999",
+  "metadata_modified": "2025-02-24T21:32:24.304676",
+  "num_resources": 5,
+  "resources": [
+    {
+      "id": "7ad83163-e95c-4213-9265-32671a27d63d",
+      "name": "Indicateur de performance MAMH",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/58fe2507-e1bd-48e6-8ae8-f4b993e5c870/resource/7ad83163-e95c-4213-9265-32671a27d63d/download/do_indicateurs.csv",
+      "datastore_active": true,
+      "size": 24923,
+      "last_modified": "2023-08-31T21:05:58.301139",
+      "created": "2022-12-19T18:53:24.179500",
+      "schema": {
+        "resource_id": "7ad83163-e95c-4213-9265-32671a27d63d",
+        "total_records": 126,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "KPIID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Domaine",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UniteMesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "noIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateDonnee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Valeur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Calcul_Formule",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "KPIID": "2598",
+            "Domaine": "Gestion de l'eau",
+            "NomIndicateur": "Coût de traitement par mètre cube eaux usées (incluant l'amortissement)",
+            "UniteMesure": "$",
+            "noIndicateur": "IEAU100021",
+            "TypeIndicateur": "MAMH",
+            "ville": "Montréal",
+            "DateDonnee": "2010",
+            "Valeur": "0,1367",
+            "Calcul_Formule": "( VEAU100012 + VEAU100013 ) / VEAU900031"
+          },
+          {
+            "_id": 2,
+            "KPIID": "2604",
+            "Domaine": "Ressources humaines",
+            "NomIndicateur": "Pourcentage du coût de la formation par rapport à la rémunération totale",
+            "UniteMesure": "Ratio",
+            "noIndicateur": "IRHU100005",
+            "TypeIndicateur": "MAMH",
+            "ville": "Montréal",
+            "DateDonnee": "2010",
+            "Valeur": "0,0183",
+            "Calcul_Formule": "VRHU100021 / VRHU100022"
+          },
+          {
+            "_id": 3,
+            "KPIID": "2598",
+            "Domaine": "Gestion de l'eau",
+            "NomIndicateur": "Coût de traitement par mètre cube eaux usées (incluant l'amortissement)",
+            "UniteMesure": "$",
+            "noIndicateur": "IEAU100021",
+            "TypeIndicateur": "MAMH",
+            "ville": "Montréal",
+            "DateDonnee": "2011",
+            "Valeur": "0,1306",
+            "Calcul_Formule": "( VEAU100012 + VEAU100013 ) / VEAU900031"
+          },
+          {
+            "_id": 4,
+            "KPIID": "2604",
+            "Domaine": "Ressources humaines",
+            "NomIndicateur": "Pourcentage du coût de la formation par rapport à la rémunération totale",
+            "UniteMesure": "Ratio",
+            "noIndicateur": "IRHU100005",
+            "TypeIndicateur": "MAMH",
+            "ville": "Montréal",
+            "DateDonnee": "2011",
+            "Valeur": "0,0189",
+            "Calcul_Formule": "VRHU100021 / VRHU100022"
+          },
+          {
+            "_id": 5,
+            "KPIID": "2598",
+            "Domaine": "Gestion de l'eau",
+            "NomIndicateur": "Coût de traitement par mètre cube eaux usées (incluant l'amortissement)",
+            "UniteMesure": "$",
+            "noIndicateur": "IEAU100021",
+            "TypeIndicateur": "MAMH",
+            "ville": "Montréal",
+            "DateDonnee": "2012",
+            "Valeur": "0,1593",
+            "Calcul_Formule": "( VEAU100012 + VEAU100013 ) / VEAU900031"
+          }
+        ]
+      },
+      "field_stats": {
+        "KPIID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Domaine": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UniteMesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "noIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateDonnee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Calcul_Formule": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 126,
+        "total_records": 126,
+        "audited_at": "2026-03-10T00:19:46.260469+00:00",
+        "fields": {
+          "KPIID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2481.0,
+            "max": 2678.0,
+            "mean": 2585.2063,
+            "median": 2598.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2598",
+                "count": 13
+              },
+              {
+                "value": "2604",
+                "count": 13
+              },
+              {
+                "value": "2481",
+                "count": 10
+              },
+              {
+                "value": "2529",
+                "count": 10
+              },
+              {
+                "value": "2559",
+                "count": 10
+              },
+              {
+                "value": "2600",
+                "count": 10
+              },
+              {
+                "value": "2623",
+                "count": 10
+              },
+              {
+                "value": "2558",
+                "count": 9
+              },
+              {
+                "value": "2591",
+                "count": 9
+              },
+              {
+                "value": "2596",
+                "count": 9
+              }
+            ]
+          },
+          "Domaine": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Gestion de l'eau",
+                "count": 61
+              },
+              {
+                "value": "Gestion des matières résiduelles",
+                "count": 23
+              },
+              {
+                "value": "Infrastructures routières",
+                "count": 20
+              },
+              {
+                "value": "Ressources humaines",
+                "count": 13
+              },
+              {
+                "value": "Sécurité incendie",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NomIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Coût de traitement par mètre cube eaux usées (incluant l'amortissement)",
+                "count": 13
+              },
+              {
+                "value": "Pourcentage du coût de la formation par rapport à la rémunération totale",
+                "count": 13
+              },
+              {
+                "value": "Coût de l’enlèvement de la neige par kilomètre de voie (incluant l’amortissement)",
+                "count": 10
+              },
+              {
+                "value": "Coût de distribution de l'eau potable par kilomètre de conduite (incluant l'amortissement)",
+                "count": 10
+              },
+              {
+                "value": "Coût de la voirie municipale par kilomètre de voie (incluant l’amortissement)",
+                "count": 10
+              },
+              {
+                "value": "Coût des réseaux d'égouts par kilomètre de conduite (incluant l'amortissement)",
+                "count": 10
+              },
+              {
+                "value": "Coût des réseaux d'égouts par mètre cube d'eaux usées (incluant l'amortissement)",
+                "count": 10
+              },
+              {
+                "value": "Coût de la sécurité incendie par 100 $ d’évaluation (incluant l’amortissement)",
+                "count": 9
+              },
+              {
+                "value": "Coût d'approvisionnement et de traitement par mètre cube d'eau (incluant l'amortissement)",
+                "count": 9
+              },
+              {
+                "value": "Coût de distribution par mètre cube d’eau (incluant l’amortissement)",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "UniteMesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "$",
+                "count": 95
+              },
+              {
+                "value": "Ratio",
+                "count": 31
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "noIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "IEAU100021",
+                "count": 13
+              },
+              {
+                "value": "IRHU100005",
+                "count": 13
+              },
+              {
+                "value": "ITRA100001",
+                "count": 10
+              },
+              {
+                "value": "IEAU100002",
+                "count": 10
+              },
+              {
+                "value": "ITRA100008",
+                "count": 10
+              },
+              {
+                "value": "IEAU100023",
+                "count": 10
+              },
+              {
+                "value": "IEAU100025",
+                "count": 10
+              },
+              {
+                "value": "IINC100017",
+                "count": 9
+              },
+              {
+                "value": "IEAU100016",
+                "count": 9
+              },
+              {
+                "value": "IEAU100019",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TypeIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "MAMH",
+                "count": 126
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 126
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateDonnee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010",
+            "max_date": "2022",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Valeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 123,
+            "top_values": [
+              {
+                "value": "0,0198",
+                "count": 2
+              },
+              {
+                "value": "0,1183",
+                "count": 2
+              },
+              {
+                "value": "0,0966",
+                "count": 2
+              },
+              {
+                "value": "0,1367",
+                "count": 1
+              },
+              {
+                "value": "0,0183",
+                "count": 1
+              },
+              {
+                "value": "0,1306",
+                "count": 1
+              },
+              {
+                "value": "0,0189",
+                "count": 1
+              },
+              {
+                "value": "0,1593",
+                "count": 1
+              },
+              {
+                "value": "0,022",
+                "count": 1
+              },
+              {
+                "value": "17068",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Calcul_Formule": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "( VEAU100012 + VEAU100013 ) / VEAU900031",
+                "count": 13
+              },
+              {
+                "value": "VRHU100021 / VRHU100022",
+                "count": 13
+              },
+              {
+                "value": "( VTRA100019 - VTRA900024 + VTRA100021 ) / VTRA900050",
+                "count": 10
+              },
+              {
+                "value": "( VEAU100001 - VEAU100035 + VEAU100002 ) / VEAU900063",
+                "count": 10
+              },
+              {
+                "value": "( VTRA100017 - VTRA100023 + VTRA100018 ) / VTRA900050",
+                "count": 10
+              },
+              {
+                "value": "( VEAU100009 - VEAU100033 + VEAU100010 ) / VEAU900023",
+                "count": 10
+              },
+              {
+                "value": "( VEAU100009 - VEAU100033 + VEAU100010 ) / VEAU900031",
+                "count": 10
+              },
+              {
+                "value": "( VINC100015 - VINC100008 + VINC100016 ) / VADM100025 * 100",
+                "count": 9
+              },
+              {
+                "value": "( VEAU100004 + VEAU100005 ) / ( VEAU900006 )",
+                "count": 9
+              },
+              {
+                "value": "( VEAU100001 - VEAU100035 + VEAU100002 ) / VEAU900006",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "30a9cdf6-a011-41e5-b47f-ea1f2b924dc2",
+      "name": "Variables de performance MAMH",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/58fe2507-e1bd-48e6-8ae8-f4b993e5c870/resource/30a9cdf6-a011-41e5-b47f-ea1f2b924dc2/download/do_variables.csv",
+      "datastore_active": true,
+      "size": 34294,
+      "last_modified": "2023-08-31T21:06:33.716767",
+      "created": "2022-12-19T18:12:13.700522",
+      "schema": {
+        "resource_id": "30a9cdf6-a011-41e5-b47f-ea1f2b924dc2",
+        "total_records": 337,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "variableID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomVariable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UniteMesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "AnneeDonne",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Valeur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "noVariablePourFormule",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "variableID": "6243",
+            "NomVariable": "Coût de l’activité de traitement des eaux usées (MAMH)",
+            "UniteMesure": "$",
+            "AnneeDonne": "2010",
+            "Valeur": "56548000",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VEAU100012"
+          },
+          {
+            "_id": 2,
+            "variableID": "6244",
+            "NomVariable": "Amortissement pour le traitement des eaux usées (MAMH)",
+            "UniteMesure": "$",
+            "AnneeDonne": "2010",
+            "Valeur": "67828000",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VEAU100013"
+          },
+          {
+            "_id": 3,
+            "variableID": "6526",
+            "NomVariable": "Nombre de mètres cubes d’eaux usées traités par station d'épuration (MAMH)",
+            "UniteMesure": "m3",
+            "AnneeDonne": "2010",
+            "Valeur": "910000000",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VEAU900031"
+          },
+          {
+            "_id": 4,
+            "variableID": "6819",
+            "NomVariable": "Coût de la formation",
+            "UniteMesure": "$",
+            "AnneeDonne": "2010",
+            "Valeur": "27030207",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VRHU100021"
+          },
+          {
+            "_id": 5,
+            "variableID": "6820",
+            "NomVariable": "Rémunération totale",
+            "UniteMesure": "$",
+            "AnneeDonne": "2010",
+            "Valeur": "1480198000",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VRHU100022"
+          }
+        ]
+      },
+      "field_stats": {
+        "variableID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomVariable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UniteMesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "AnneeDonne": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "noVariablePourFormule": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 337,
+        "total_records": 337,
+        "audited_at": "2026-03-10T00:19:47.151188+00:00",
+        "fields": {
+          "variableID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6064.0,
+            "max": 110078.0,
+            "mean": 9522.7418,
+            "median": 6322.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "NomVariable": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "Coût de l’activité de traitement des eaux usées (MAMH)",
+                "count": 13
+              },
+              {
+                "value": "Amortissement pour le traitement des eaux usées (MAMH)",
+                "count": 13
+              },
+              {
+                "value": "Nombre de mètres cubes d’eaux usées traités par station d'épuration (MAMH)",
+                "count": 13
+              },
+              {
+                "value": "Coût de la formation",
+                "count": 13
+              },
+              {
+                "value": "Rémunération totale",
+                "count": 13
+              },
+              {
+                "value": "Coût de l’activité de distribution de l’eau potable (MAMH)",
+                "count": 10
+              },
+              {
+                "value": "Amortissement du réseau de distribution de l’eau potable (MAMH)",
+                "count": 10
+              },
+              {
+                "value": "Coût de l’activité des réseaux d’égout (MAMH)",
+                "count": 10
+              },
+              {
+                "value": "Amortissement des réseaux d’égout (MAMH)",
+                "count": 10
+              },
+              {
+                "value": "Nombre de kilomètres de conduite d'égout",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "UniteMesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "$",
+                "count": 253
+              },
+              {
+                "value": "km",
+                "count": 30
+              },
+              {
+                "value": "m3",
+                "count": 22
+              },
+              {
+                "value": "tonne",
+                "count": 18
+              },
+              {
+                "value": "habitants",
+                "count": 9
+              },
+              {
+                "value": "Quantité",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "AnneeDonne": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010",
+            "max_date": "2022",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Valeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4320.0,
+            "max": 494795298834.0,
+            "mean": 9494416131.457,
+            "median": 35161698.0,
+            "unique_count": 328,
+            "field_type_detected": "numeric"
+          },
+          "Ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 337
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "noVariablePourFormule": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "VEAU100012",
+                "count": 13
+              },
+              {
+                "value": "VEAU100013",
+                "count": 13
+              },
+              {
+                "value": "VEAU900031",
+                "count": 13
+              },
+              {
+                "value": "VRHU100021",
+                "count": 13
+              },
+              {
+                "value": "VRHU100022",
+                "count": 13
+              },
+              {
+                "value": "VEAU100001",
+                "count": 10
+              },
+              {
+                "value": "VEAU100002",
+                "count": 10
+              },
+              {
+                "value": "VEAU100009",
+                "count": 10
+              },
+              {
+                "value": "VEAU100010",
+                "count": 10
+              },
+              {
+                "value": "VEAU900023",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "4609a9e8-ecb7-4b99-8643-a9d8b7d7fbee",
+      "name": "Indicateurs de performance REMC 2014-2020 (Archives)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/58fe2507-e1bd-48e6-8ae8-f4b993e5c870/resource/4609a9e8-ecb7-4b99-8643-a9d8b7d7fbee/download/indicateurs_remc_vf.csv",
+      "datastore_active": true,
+      "size": 170888,
+      "last_modified": "2023-02-15T20:57:22.546168",
+      "created": "2022-12-19T18:13:58.097364",
+      "schema": {
+        "resource_id": "4609a9e8-ecb7-4b99-8643-a9d8b7d7fbee",
+        "total_records": 902,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "KPIID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Domaine",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UniteMesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "noIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeIndicateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateDonnee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Calcul",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Valeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "KPIID": "2512",
+            "Domaine": "Affaires juridiques",
+            "NomIndicateur": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+            "UniteMesure": "$",
+            "noIndicateur": "LEGL252",
+            "TypeIndicateur": "REMC",
+            "ville": "Montréal",
+            "DateDonnee": "2014",
+            "Calcul": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+            "Valeur": "3,38$"
+          },
+          {
+            "_id": 2,
+            "KPIID": "2512",
+            "Domaine": "Affaires juridiques",
+            "NomIndicateur": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+            "UniteMesure": "$",
+            "noIndicateur": "LEGL252",
+            "TypeIndicateur": "REMC",
+            "ville": "Montréal",
+            "DateDonnee": "2015",
+            "Calcul": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+            "Valeur": "3,31$"
+          },
+          {
+            "_id": 3,
+            "KPIID": "2512",
+            "Domaine": "Affaires juridiques",
+            "NomIndicateur": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+            "UniteMesure": "$",
+            "noIndicateur": "LEGL252",
+            "TypeIndicateur": "REMC",
+            "ville": "Montréal",
+            "DateDonnee": "2016",
+            "Calcul": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+            "Valeur": "3,26$"
+          },
+          {
+            "_id": 4,
+            "KPIID": "2512",
+            "Domaine": "Affaires juridiques",
+            "NomIndicateur": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+            "UniteMesure": "$",
+            "noIndicateur": "LEGL252",
+            "TypeIndicateur": "REMC",
+            "ville": "Montréal",
+            "DateDonnee": "2017",
+            "Calcul": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+            "Valeur": "2,98$"
+          },
+          {
+            "_id": 5,
+            "KPIID": "2512",
+            "Domaine": "Affaires juridiques",
+            "NomIndicateur": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+            "UniteMesure": "$",
+            "noIndicateur": "LEGL252",
+            "TypeIndicateur": "REMC",
+            "ville": "Montréal",
+            "DateDonnee": "2018",
+            "Calcul": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+            "Valeur": "2,80$"
+          }
+        ]
+      },
+      "field_stats": {
+        "KPIID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Domaine": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UniteMesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "noIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeIndicateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateDonnee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Calcul": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 902,
+        "total_records": 902,
+        "audited_at": "2026-03-10T00:19:48.315826+00:00",
+        "fields": {
+          "KPIID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2412.0,
+            "max": 131822.0,
+            "mean": 6540.0055,
+            "median": 2540.0,
+            "unique_count": 137,
+            "field_type_detected": "numeric"
+          },
+          "Domaine": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 26,
+            "top_values": [
+              {
+                "value": "Gestion de l'eau",
+                "count": 103
+              },
+              {
+                "value": "Incendie",
+                "count": 95
+              },
+              {
+                "value": "Police",
+                "count": 70
+              },
+              {
+                "value": "Bibliothèques",
+                "count": 66
+              },
+              {
+                "value": "Gestion des matières résiduelles",
+                "count": 62
+              },
+              {
+                "value": "Stationnement",
+                "count": 50
+              },
+              {
+                "value": "Routes",
+                "count": 45
+              },
+              {
+                "value": "Comptes fournisseurs",
+                "count": 40
+              },
+              {
+                "value": "Revenus généraux",
+                "count": 32
+              },
+              {
+                "value": "Greffe",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NomIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 137,
+            "top_values": [
+              {
+                "value": "Coût des frais juridiques internes pour 1 000 $ de dépenses municipales",
+                "count": 7
+              },
+              {
+                "value": "Coût des heures de travail pour les avocats salariés",
+                "count": 7
+              },
+              {
+                "value": "Coûts d’exploitation du service centralisé des achats pour 1 000 $ d’achats de biens et services octroyés (fonctionnement et investissement) par le service centralisé des achats via un processus d'approvisionnement",
+                "count": 7
+              },
+              {
+                "value": "Nombre moyen d'offres par appel d'offres",
+                "count": 7
+              },
+              {
+                "value": "Pourcentage de biens et services octroyés par le service centralisé des achats via un processus d'approvisionnement",
+                "count": 7
+              },
+              {
+                "value": "Pourcentage de factures payées dans un délai de 30 jours et moins",
+                "count": 7
+              },
+              {
+                "value": "Pourcentage des paiements aux fournisseurs effectués par transferts électroniques",
+                "count": 7
+              },
+              {
+                "value": "Nombre de factures payées pour 1 000 000 $ d’achats municipaux",
+                "count": 7
+              },
+              {
+                "value": "Nombre de factures payées par équivalent à temps plein (ETP) assurant le traitement des comptes fournisseurs",
+                "count": 7
+              },
+              {
+                "value": "Coût total des activités culturelles par habitant",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "UniteMesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "$",
+                "count": 337
+              },
+              {
+                "value": "Quantité",
+                "count": 318
+              },
+              {
+                "value": "%",
+                "count": 180
+              },
+              {
+                "value": "heure",
+                "count": 26
+              },
+              {
+                "value": "pi2",
+                "count": 14
+              },
+              {
+                "value": "minutes",
+                "count": 14
+              },
+              {
+                "value": "kWh",
+                "count": 7
+              },
+              {
+                "value": "Jours",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "noIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 137,
+            "top_values": [
+              {
+                "value": "LEGL252",
+                "count": 7
+              },
+              {
+                "value": "LEGL315",
+                "count": 7
+              },
+              {
+                "value": "FPUR362",
+                "count": 7
+              },
+              {
+                "value": "FPUR415",
+                "count": 7
+              },
+              {
+                "value": "FPUR107",
+                "count": 7
+              },
+              {
+                "value": "FINV410",
+                "count": 7
+              },
+              {
+                "value": "FINV245",
+                "count": 7
+              },
+              {
+                "value": "FINV230",
+                "count": 7
+              },
+              {
+                "value": "FINV325",
+                "count": 7
+              },
+              {
+                "value": "CLTR205T",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TypeIndicateur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "REMC",
+                "count": 902
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 902
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateDonnee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014",
+            "max_date": "2020",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Calcul": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 136,
+            "top_values": [
+              {
+                "value": "VGMR900012 / ( VGMR900012 + VGMR900013)",
+                "count": 14
+              },
+              {
+                "value": "( VJUS100008 + VJUS900010 ) / ( VADM100045 * 1000 )",
+                "count": 7
+              },
+              {
+                "value": "( VJUS100008 + VJUS900010 ) / VADM900008",
+                "count": 7
+              },
+              {
+                "value": "( VAPP100035 + VAPP100036 ) / ( VAPP900010 / 1000 )",
+                "count": 7
+              },
+              {
+                "value": "VAPP900016 / VAPP900017",
+                "count": 7
+              },
+              {
+                "value": "VAPP900010 / VAPP900012",
+                "count": 7
+              },
+              {
+                "value": "VFIN900031 / ( VFIN900053 + VFIN900055 + VFIN900061 )",
+                "count": 7
+              },
+              {
+                "value": "VFIN900065 / VFIN900066",
+                "count": 7
+              },
+              {
+                "value": "( VFIN900053 + VFIN900055 + VFIN900061 ) / ( VADM100044 / 1000000 )",
+                "count": 7
+              },
+              {
+                "value": "( VFIN900053 + VFIN900055 + VFIN900061 ) / VFIN900040",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Valeur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 831,
+            "top_values": [
+              {
+                "value": "97",
+                "count": 7
+              },
+              {
+                "value": "0%",
+                "count": 7
+              },
+              {
+                "value": "245 562",
+                "count": 5
+              },
+              {
+                "value": "0,35",
+                "count": 4
+              },
+              {
+                "value": "4,61",
+                "count": 3
+              },
+              {
+                "value": "1,37%",
+                "count": 3
+              },
+              {
+                "value": "0,86",
+                "count": 3
+              },
+              {
+                "value": "0,25",
+                "count": 3
+              },
+              {
+                "value": "0,24",
+                "count": 3
+              },
+              {
+                "value": "2,50%",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "83b36089-560c-445a-bad4-7c47ef834da2",
+      "name": "Variables de performance REMC 2014-2020 (Archives)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/58fe2507-e1bd-48e6-8ae8-f4b993e5c870/resource/83b36089-560c-445a-bad4-7c47ef834da2/download/variables_remc_vf.csv",
+      "datastore_active": true,
+      "size": 246087,
+      "last_modified": "2023-02-15T20:15:19.503635",
+      "created": "2023-02-15T20:15:19.613248",
+      "schema": {
+        "resource_id": "83b36089-560c-445a-bad4-7c47ef834da2",
+        "total_records": 1928,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "variableID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Domaine",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomVariable",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UniteMesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "AnneeDonne",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "noVariablePourFormule",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Valeur",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "variableID": "6190",
+            "Domaine": "Affaires juridiques",
+            "NomVariable": "Nombre d’heures de travail salariées pour les avocats internes",
+            "UniteMesure": "heure",
+            "AnneeDonne": "2014",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VADM900008",
+            "Valeur": "98 280"
+          },
+          {
+            "_id": 2,
+            "variableID": "6190",
+            "Domaine": "Affaires juridiques",
+            "NomVariable": "Nombre d’heures de travail salariées pour les avocats internes",
+            "UniteMesure": "heure",
+            "AnneeDonne": "2015",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VADM900008",
+            "Valeur": "107 380"
+          },
+          {
+            "_id": 3,
+            "variableID": "6190",
+            "Domaine": "Affaires juridiques",
+            "NomVariable": "Nombre d’heures de travail salariées pour les avocats internes",
+            "UniteMesure": "heure",
+            "AnneeDonne": "2016",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VADM900008",
+            "Valeur": "109 200"
+          },
+          {
+            "_id": 4,
+            "variableID": "6190",
+            "Domaine": "Affaires juridiques",
+            "NomVariable": "Nombre d’heures de travail salariées pour les avocats internes",
+            "UniteMesure": "heure",
+            "AnneeDonne": "2017",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VADM900008",
+            "Valeur": "109 312"
+          },
+          {
+            "_id": 5,
+            "variableID": "6190",
+            "Domaine": "Affaires juridiques",
+            "NomVariable": "Nombre d’heures de travail salariées pour les avocats internes",
+            "UniteMesure": "heure",
+            "AnneeDonne": "2018",
+            "Ville": "Montréal",
+            "noVariablePourFormule": "VADM900008",
+            "Valeur": "117 600"
+          }
+        ]
+      },
+      "field_stats": {
+        "variableID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Domaine": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomVariable": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UniteMesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "AnneeDonne": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "noVariablePourFormule": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Valeur": {
+          "null_count": 15,
+          "null_pct": 0.8,
+          "populated_pct": 99.2
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1928,
+        "audited_at": "2026-03-10T00:19:49.430767+00:00",
+        "fields": {
+          "variableID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6020.0,
+            "max": 136030.0,
+            "mean": 9256.89,
+            "median": 6535.0,
+            "unique_count": 149,
+            "field_type_detected": "numeric"
+          },
+          "Domaine": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Bibliothèques",
+                "count": 304
+              },
+              {
+                "value": "Gestion de l'eau",
+                "count": 168
+              },
+              {
+                "value": "Gestion des matières résiduelles",
+                "count": 133
+              },
+              {
+                "value": "Comptes fournisseurs",
+                "count": 69
+              },
+              {
+                "value": "Incendie",
+                "count": 48
+              },
+              {
+                "value": "Approvisionnement",
+                "count": 46
+              },
+              {
+                "value": "Culture",
+                "count": 42
+              },
+              {
+                "value": "Immeubles",
+                "count": 42
+              },
+              {
+                "value": "Greffe",
+                "count": 35
+              },
+              {
+                "value": "Gestion des investissements",
+                "count": 34
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NomVariable": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 150,
+            "top_values": [
+              {
+                "value": "Population de la Ville de Montréal",
+                "count": 34
+              },
+              {
+                "value": "Population de l’agglomération de Montréal",
+                "count": 12
+              },
+              {
+                "value": "Nombre d’heures de travail salariées pour les avocats internes",
+                "count": 7
+              },
+              {
+                "value": "Dépenses municipales (dépenses de fonctionnement et d’immobilisations)",
+                "count": 7
+              },
+              {
+                "value": "Frais juridiques internes (affaires civiles)",
+                "count": 7
+              },
+              {
+                "value": "Coûts du soutien aux activités relatifs aux frais juridiques",
+                "count": 7
+              },
+              {
+                "value": "Valeur des appels d’offres octroyés au plus tard le 31 décembre par le service centralisé des achats",
+                "count": 7
+              },
+              {
+                "value": "Valeur des achats municipaux de biens et services",
+                "count": 7
+              },
+              {
+                "value": "Nombre d'offres reçues dans le cadre d'appels d'offres",
+                "count": 7
+              },
+              {
+                "value": "Nombre total d'appels d'offres créés",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "UniteMesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "$",
+                "count": 420
+              },
+              {
+                "value": "Quantité",
+                "count": 377
+              },
+              {
+                "value": "habitants",
+                "count": 53
+              },
+              {
+                "value": "tonne",
+                "count": 28
+              },
+              {
+                "value": "heure",
+                "count": 25
+              },
+              {
+                "value": "mégalitre",
+                "count": 21
+              },
+              {
+                "value": "km",
+                "count": 21
+              },
+              {
+                "value": "ans",
+                "count": 14
+              },
+              {
+                "value": "pi2",
+                "count": 14
+              },
+              {
+                "value": "kWh",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "AnneeDonne": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014",
+            "max_date": "2020",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "noVariablePourFormule": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 149,
+            "top_values": [
+              {
+                "value": "VPOP900002",
+                "count": 34
+              },
+              {
+                "value": "VPOP900004",
+                "count": 19
+              },
+              {
+                "value": "VADM900008",
+                "count": 7
+              },
+              {
+                "value": "VADM100045",
+                "count": 7
+              },
+              {
+                "value": "VJUS100008",
+                "count": 7
+              },
+              {
+                "value": "VJUS900010",
+                "count": 7
+              },
+              {
+                "value": "VAPP900010",
+                "count": 7
+              },
+              {
+                "value": "VAPP900012",
+                "count": 7
+              },
+              {
+                "value": "VAPP900016",
+                "count": 7
+              },
+              {
+                "value": "VAPP900017",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Valeur": {
+            "null_count": 13,
+            "null_pct": 1.3,
+            "unique_count": 869,
+            "top_values": [
+              {
+                "value": "0",
+                "count": 12
+              },
+              {
+                "value": "45",
+                "count": 6
+              },
+              {
+                "value": "1",
+                "count": 6
+              },
+              {
+                "value": "72",
+                "count": 6
+              },
+              {
+                "value": "1 753 034",
+                "count": 5
+              },
+              {
+                "value": "1 765 616",
+                "count": 5
+              },
+              {
+                "value": "1 777 058",
+                "count": 5
+              },
+              {
+                "value": "1 757 366",
+                "count": 5
+              },
+              {
+                "value": "1 801 546",
+                "count": 5
+              },
+              {
+                "value": "1 825 208",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "bc8e9c94-a9f1-4e81-ba75-228c88cf28e1",
+      "name": "Vue sur les indicateurs de performance REMC 2020 (Archives)",
+      "description": "",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/58fe2507-e1bd-48e6-8ae8-f4b993e5c870/resource/bc8e9c94-a9f1-4e81-ba75-228c88cf28e1/download/2020-vue-indicateurs-performance.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-27T20:28:39.294787",
+      "created": "2021-10-27T20:28:20.901488",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Efficacité",
+    "Performance organisationnelle",
+    "SPSPO",
+    "Étalonnage"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données servant à produire les variables et les indicateurs proviennent\nde différents services de la Ville de Montréal et sont colligées selon les\nparamètres fournis par le MAMH et le REMC.\n\n### Dictionnaire de données\n\n\n#### Indicateur\n\n\n\n- KPIID (numérique): Identifiant interne pour l’indicateur de performance\n\n- Domaine (texte): Domaine d'affaire de l'indicateur\n\n- NomIndicateur (texte): Le nom de l’indicateur de performance\n\n- UniteMesure (texte): L’unité de mesure de l’indicateur ($, km, m3, etc.)\n\n- NoIndicateur (texte): Le numéro de l’indicateur de performance dans le type d’indicateur\n\n- TypeIndicateur (texte): Classification des type d’indicateurs (MAMH))\n\n- Ville (texte): La ville concerné par le résultat\n\n- AnneeDonnee (numérique): Année du résultat pour la ville donnée.\n\n- Valeur (numérique): Résultat de l’indicateur\n\n- Calcul_Formule: Le Calcul executé pour obtenir le résultat de l’indicateur. (Les numéros de variables du fichier Vars sont utiliser pour le calcul)\n\n\n#### Variable\n\n\n\n- variableID (numérique): Identifiant interne pour la variable de performance\n\n- NomVariable (texte): Le nom de la variable de performance\n\n- UniteMesure (texte): L’unité de mesure de l’indicateur applicable ($, km, m3, etc.)\n\n- AnneeDonnee (numérique): Année de l'indicateur applicable\n\n- Valeur (numérique): Le numéro de l’indicateur de performance dans le type d’indicateur\n\n- Ville (texte): La ville concerné par l'indicateur\n\n- noVariablePourFormule (texte): Identification variable pour calcul indicateurs\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2014/",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Efficacité",
+      "Performance organisationnelle",
+      "SPSPO",
+      "Étalonnage"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/indicateurs-de-performance-de-la-ville-de-montreal",
+    "scraped_at": "2026-03-09T19:58:40.437165+00:00"
+  }
+}

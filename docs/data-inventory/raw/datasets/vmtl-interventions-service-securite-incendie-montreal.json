@@ -1,0 +1,2543 @@
+{
+  "slug": "vmtl-interventions-service-securite-incendie-montreal",
+  "title": "Interventions des pompiers de Montréal",
+  "notes": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la location des interventions et les unités déployées depuis 2005. Ces données sont tirées du système de répartition assisté par Poste de travail (RAO), un sous-système central du système de gestion des interventions qui permet la gestion en temps réel, la répartition des véhicules et du suivi opérationnel des interventions.  Ces données sont collectées pour produire des rapports requis par le ministère de la Sécurité publique et nécessaire pour le SIM.  Il permet également de compiler des statistiques afin de diffuser des informations aux citoyens, aux médias et aux assureurs.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-03-31T19:14:03.972700",
+  "metadata_modified": "2026-03-01T05:01:47.466900",
+  "num_resources": 9,
+  "resources": [
+    {
+      "id": "71e86320-e35c-4b4c-878a-e52124294355",
+      "name": "Interventions du SIM - courant (2 dernières années)",
+      "description": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la localisation des interventions et les unités déployées.\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/71e86320-e35c-4b4c-878a-e52124294355/download/donneesouvertes-interventions-sim.csv",
+      "datastore_active": true,
+      "size": 21026969,
+      "last_modified": "2026-03-01T03:04:31.835385",
+      "created": "2020-03-31T19:19:08.967503",
+      "schema": {
+        "resource_id": "71e86320-e35c-4b4c-878a-e52124294355",
+        "total_records": 147889,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_NBR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CREATION_DATE_TIME",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_TYPE_DESC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CASERNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DIVISION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_UNITES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INCIDENT_NBR": "1",
+            "CREATION_DATE_TIME": "2025-01-01T00:02:31",
+            "INCIDENT_TYPE_DESC": "Appel de Cie de détection",
+            "DESCRIPTION_GROUPE": "Alarmes-incendies",
+            "CASERNE": "64",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Lachine",
+            "DIVISION": "2",
+            "NOMBRE_UNITES": "3",
+            "MTM8_X": "290865.2",
+            "MTM8_Y": "5034016.9",
+            "LONGITUDE": "-73.678138",
+            "LATITUDE": "45.445944"
+          },
+          {
+            "_id": 2,
+            "INCIDENT_NBR": "1",
+            "CREATION_DATE_TIME": "2026-01-01T00:00:09",
+            "INCIDENT_TYPE_DESC": "Ascenseur",
+            "DESCRIPTION_GROUPE": "SANS FEU",
+            "CASERNE": "10",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Ville-Marie",
+            "DIVISION": "6",
+            "NOMBRE_UNITES": "2",
+            "MTM8_X": "298221.3",
+            "MTM8_Y": "5039611.1",
+            "LONGITUDE": "-73.584175",
+            "LATITUDE": "45.496391"
+          },
+          {
+            "_id": 3,
+            "INCIDENT_NBR": "2",
+            "CREATION_DATE_TIME": "2025-01-01T00:03:18",
+            "INCIDENT_TYPE_DESC": "10-22 sans feu",
+            "DESCRIPTION_GROUPE": "SANS FEU",
+            "CASERNE": "63",
+            "NOM_VILLE": "Dorval",
+            "NOM_ARROND": "Indéterminé",
+            "DIVISION": "1",
+            "NOMBRE_UNITES": "6",
+            "MTM8_X": "283233.9",
+            "MTM8_Y": "5033951.1",
+            "LONGITUDE": "-73.77569",
+            "LATITUDE": "45.445159"
+          },
+          {
+            "_id": 4,
+            "INCIDENT_NBR": "2",
+            "CREATION_DATE_TIME": "2026-01-01T00:07:38",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "9",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Villeray-Saint-Michel-Parc-Extension",
+            "DIVISION": "4",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "294971.7",
+            "MTM8_Y": "5047913.7",
+            "LONGITUDE": "-73.625921",
+            "LATITUDE": "45.571063"
+          },
+          {
+            "_id": 5,
+            "INCIDENT_NBR": "3",
+            "CREATION_DATE_TIME": "2025-01-01T00:06:30",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "49",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Ahuntsic-Cartierville",
+            "DIVISION": "3",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "293740.5",
+            "MTM8_Y": "5045140.5",
+            "LONGITUDE": "-73.641632",
+            "LATITUDE": "45.546091"
+          }
+        ]
+      },
+      "field_stats": {
+        "INCIDENT_NBR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CREATION_DATE_TIME": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INCIDENT_TYPE_DESC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_GROUPE": {
+          "null_count": 550,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "CASERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VILLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DIVISION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_UNITES": {
+          "null_count": 12,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 147889,
+        "audited_at": "2026-03-10T00:20:10.284730+00:00",
+        "fields": {
+          "INCIDENT_NBR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1174.0,
+            "mean": 590.691,
+            "median": 584.0,
+            "unique_count": 572,
+            "field_type_detected": "numeric"
+          },
+          "CREATION_DATE_TIME": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2025-01-01T00:02:31",
+            "max_date": "2026-01-04T07:44:01",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "INCIDENT_TYPE_DESC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "Premier répondant",
+                "count": 651
+              },
+              {
+                "value": "Appel de Cie de détection",
+                "count": 68
+              },
+              {
+                "value": "Alarme privé ou locale",
+                "count": 62
+              },
+              {
+                "value": "Aliments surchauffés",
+                "count": 62
+              },
+              {
+                "value": "10-22 sans feu",
+                "count": 21
+              },
+              {
+                "value": "Inondation",
+                "count": 21
+              },
+              {
+                "value": "Ascenseur",
+                "count": 19
+              },
+              {
+                "value": "Odeur suspecte - gaz",
+                "count": 15
+              },
+              {
+                "value": "Problèmes électriques",
+                "count": 10
+              },
+              {
+                "value": "Assistance serv. muni.",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DESCRIPTION_GROUPE": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "1-REPOND",
+                "count": 659
+              },
+              {
+                "value": "SANS FEU",
+                "count": 183
+              },
+              {
+                "value": "Alarmes-incendies",
+                "count": 134
+              },
+              {
+                "value": "AUTREFEU",
+                "count": 11
+              },
+              {
+                "value": "INCENDIE",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CASERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 78.0,
+            "mean": 37.506,
+            "median": 37.0,
+            "unique_count": 64,
+            "field_type_detected": "numeric"
+          },
+          "NOM_VILLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 895
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 21
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 20
+              },
+              {
+                "value": "Dorval",
+                "count": 18
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Kirkland",
+                "count": 11
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 7
+              },
+              {
+                "value": "Westmount",
+                "count": 6
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 5
+              },
+              {
+                "value": "Hampstead",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 125
+              },
+              {
+                "value": "Indéterminé",
+                "count": 105
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 81
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 79
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 70
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 67
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 67
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 66
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 57
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 47
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DIVISION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 6.0,
+            "mean": 3.699,
+            "median": 4.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 210
+              },
+              {
+                "value": "5",
+                "count": 197
+              },
+              {
+                "value": "3",
+                "count": 177
+              },
+              {
+                "value": "2",
+                "count": 167
+              },
+              {
+                "value": "6",
+                "count": 152
+              },
+              {
+                "value": "1",
+                "count": 97
+              }
+            ]
+          },
+          "NOMBRE_UNITES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 25.0,
+            "mean": 1.68,
+            "median": 1.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 735
+              },
+              {
+                "value": "2",
+                "count": 130
+              },
+              {
+                "value": "3",
+                "count": 46
+              },
+              {
+                "value": "4",
+                "count": 33
+              },
+              {
+                "value": "6",
+                "count": 25
+              },
+              {
+                "value": "5",
+                "count": 15
+              },
+              {
+                "value": "7",
+                "count": 5
+              },
+              {
+                "value": "8",
+                "count": 3
+              },
+              {
+                "value": "14",
+                "count": 2
+              },
+              {
+                "value": "16",
+                "count": 1
+              }
+            ]
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269094.3,
+            "max": 305738.5,
+            "mean": 295115.6033,
+            "median": 296525.1,
+            "unique_count": 915,
+            "field_type_detected": "numeric"
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029848.2,
+            "max": 5061705.4,
+            "mean": 5042933.1744,
+            "median": 5042339.25,
+            "unique_count": 913,
+            "field_type_detected": "numeric"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.956141,
+            "max": -73.487949,
+            "mean": -73.623936,
+            "pct_in_montreal_bbox": 99.9,
+            "field_type_detected": "geo_longitude"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.40766,
+            "max": 45.695233,
+            "mean": 45.526216,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "c42ff083-3002-4abe-aee3-951d17586dac",
+      "name": "Interventions du SIM - courant (2 dernières années)",
+      "description": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la localisation des interventions et les unités déployées.\r\n\r\nVoir le fichier \"Interventions du SIM - 2005-2014\" pour les années précédentes.",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/c42ff083-3002-4abe-aee3-951d17586dac/download/interventions-sim.json",
+      "datastore_active": false,
+      "size": 72077538,
+      "last_modified": "2026-03-01T03:04:40.519080",
+      "created": "2020-03-31T19:24:55.964042",
+      "schema": null
+    },
+    {
+      "id": "c08b5a11-549f-409d-9d2a-04eb3a10b66a",
+      "name": "Interventions du SIM - courant (2 dernières années)",
+      "description": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la localisation des interventions et les unités déployées.\r\n\r\nVoir le fichier \"Interventions du SIM - 2005-2014\" pour les années précédentes.",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/c08b5a11-549f-409d-9d2a-04eb3a10b66a/download/interventions-sim.zip",
+      "datastore_active": false,
+      "size": 8911638,
+      "last_modified": "2026-03-01T03:04:46.310137",
+      "created": "2020-03-31T19:27:23.092712",
+      "schema": null
+    },
+    {
+      "id": "4a46d93f-9fd9-4cce-8952-424918edeafe",
+      "name": "Interventions du SIM - 2020 à 2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/4a46d93f-9fd9-4cce-8952-424918edeafe/download/donneesouvertes-interventions-sim2020.csv",
+      "datastore_active": true,
+      "size": 76744488,
+      "last_modified": "2026-01-01T11:26:36.537955",
+      "created": "2024-08-08T16:14:13.597053",
+      "schema": {
+        "resource_id": "4a46d93f-9fd9-4cce-8952-424918edeafe",
+        "total_records": 539203,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_NBR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CREATION_DATE_TIME",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_TYPE_DESC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CASERNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DIVISION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_UNITES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INCIDENT_NBR": "4579",
+            "CREATION_DATE_TIME": "2022-01-16T09:45:45",
+            "INCIDENT_TYPE_DESC": "Feu / 4e Alerte",
+            "DESCRIPTION_GROUPE": "INCENDIE",
+            "CASERNE": "45",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Mercier-Hochelaga-Maisonneuve",
+            "DIVISION": "5",
+            "NOMBRE_UNITES": "80",
+            "MTM8_X": "301939.7",
+            "MTM8_Y": "5046439.7",
+            "LONGITUDE": "-73.536637",
+            "LATITUDE": "45.557863"
+          },
+          {
+            "_id": 2,
+            "INCIDENT_NBR": "17503",
+            "CREATION_DATE_TIME": "2022-03-01T14:24:44",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "34",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "DIVISION": "3",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "294702",
+            "MTM8_Y": "5037802.7",
+            "LONGITUDE": "-73.629167",
+            "LATITUDE": "45.480077"
+          },
+          {
+            "_id": 3,
+            "INCIDENT_NBR": "24768",
+            "CREATION_DATE_TIME": "2022-03-29T09:42:01",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "53",
+            "NOM_VILLE": "Beaconsfield",
+            "NOM_ARROND": "Indéterminé",
+            "DIVISION": "1",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "276414.2",
+            "MTM8_Y": "5032320.4",
+            "LONGITUDE": "-73.862773",
+            "LATITUDE": "45.430241"
+          },
+          {
+            "_id": 4,
+            "INCIDENT_NBR": "54618",
+            "CREATION_DATE_TIME": "2022-06-27T14:21:44",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "32",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "DIVISION": "4",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "305738.5",
+            "MTM8_Y": "5061616.6",
+            "LONGITUDE": "-73.487949",
+            "LATITUDE": "45.694433"
+          },
+          {
+            "_id": 5,
+            "INCIDENT_NBR": "55101",
+            "CREATION_DATE_TIME": "2022-06-28T20:35:07",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "45",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Mercier-Hochelaga-Maisonneuve",
+            "DIVISION": "5",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "301675.8",
+            "MTM8_Y": "5046174.7",
+            "LONGITUDE": "-73.540017",
+            "LATITUDE": "45.555478"
+          }
+        ]
+      },
+      "field_stats": {
+        "INCIDENT_NBR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CREATION_DATE_TIME": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INCIDENT_TYPE_DESC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_GROUPE": {
+          "null_count": 1012,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "CASERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VILLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DIVISION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_UNITES": {
+          "null_count": 141,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 539203,
+        "audited_at": "2026-03-10T00:20:11.602129+00:00",
+        "fields": {
+          "INCIDENT_NBR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 33.0,
+            "max": 128955.0,
+            "mean": 59911.114,
+            "median": 61416.0,
+            "unique_count": 995,
+            "field_type_detected": "numeric"
+          },
+          "CREATION_DATE_TIME": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-01-02T11:48:11",
+            "max_date": "2024-10-10T07:13:14",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "INCIDENT_TYPE_DESC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "Premier répondant",
+                "count": 632
+              },
+              {
+                "value": "Appel de Cie de détection",
+                "count": 88
+              },
+              {
+                "value": "Alarme privé ou locale",
+                "count": 43
+              },
+              {
+                "value": "Aliments surchauffés",
+                "count": 39
+              },
+              {
+                "value": "10-22 sans feu",
+                "count": 29
+              },
+              {
+                "value": "Ascenseur",
+                "count": 24
+              },
+              {
+                "value": "Problèmes électriques",
+                "count": 20
+              },
+              {
+                "value": "Odeur suspecte - gaz",
+                "count": 19
+              },
+              {
+                "value": "Aide à un citoyen",
+                "count": 18
+              },
+              {
+                "value": "Déchets en feu",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DESCRIPTION_GROUPE": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "1-REPOND",
+                "count": 636
+              },
+              {
+                "value": "SANS FEU",
+                "count": 189
+              },
+              {
+                "value": "Alarmes-incendies",
+                "count": 138
+              },
+              {
+                "value": "AUTREFEU",
+                "count": 23
+              },
+              {
+                "value": "INCENDIE",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CASERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 78.0,
+            "mean": 38.26,
+            "median": 38.0,
+            "unique_count": 66,
+            "field_type_detected": "numeric"
+          },
+          "NOM_VILLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 905
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 17
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 16
+              },
+              {
+                "value": "Dorval",
+                "count": 14
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 12
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 10
+              },
+              {
+                "value": "Westmount",
+                "count": 9
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 4
+              },
+              {
+                "value": "Montréal-Est",
+                "count": 3
+              },
+              {
+                "value": "Kirkland",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 137
+              },
+              {
+                "value": "Indéterminé",
+                "count": 95
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 78
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 75
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 61
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 59
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 58
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 55
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 51
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 49
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DIVISION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 6.0,
+            "mean": 3.614,
+            "median": 4.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 218
+              },
+              {
+                "value": "3",
+                "count": 195
+              },
+              {
+                "value": "2",
+                "count": 182
+              },
+              {
+                "value": "5",
+                "count": 162
+              },
+              {
+                "value": "6",
+                "count": 148
+              },
+              {
+                "value": "1",
+                "count": 95
+              }
+            ]
+          },
+          "NOMBRE_UNITES": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 1.0,
+            "max": 80.0,
+            "mean": 1.953,
+            "median": 1.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 696
+              },
+              {
+                "value": "2",
+                "count": 95
+              },
+              {
+                "value": "3",
+                "count": 82
+              },
+              {
+                "value": "4",
+                "count": 64
+              },
+              {
+                "value": "5",
+                "count": 24
+              },
+              {
+                "value": "6",
+                "count": 23
+              },
+              {
+                "value": "7",
+                "count": 3
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "80",
+                "count": 1
+              }
+            ]
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269712.5,
+            "max": 306301.6,
+            "mean": 295117.9231,
+            "median": 296604.75,
+            "unique_count": 946,
+            "field_type_detected": "numeric"
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029723.8,
+            "max": 5061851.3,
+            "mean": 5042946.312,
+            "median": 5042032.6,
+            "unique_count": 946,
+            "field_type_detected": "numeric"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.948234,
+            "max": -73.480718,
+            "mean": -73.623908,
+            "pct_in_montreal_bbox": 99.5,
+            "field_type_detected": "geo_longitude"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.406572,
+            "max": 45.696544,
+            "mean": 45.526334,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "63d406e8-b1c9-410e-a9c7-40d248fe9f94",
+      "name": "Interventions du SIM - 2020 à 2024",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/63d406e8-b1c9-410e-a9c7-40d248fe9f94/download/interventions-sim2020.json",
+      "datastore_active": false,
+      "size": 262871346,
+      "last_modified": "2026-01-01T11:27:02.632364",
+      "created": "2024-08-08T16:17:38.098669",
+      "schema": null
+    },
+    {
+      "id": "bc5a4f4b-dbcd-4aeb-99b1-49b764848567",
+      "name": "Interventions du SIM - 2020 à 2024",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/bc5a4f4b-dbcd-4aeb-99b1-49b764848567/download/interventions-sim2020.zip",
+      "datastore_active": false,
+      "size": 35147846,
+      "last_modified": "2026-01-01T11:27:16.598324",
+      "created": "2024-08-08T16:18:07.970185",
+      "schema": null
+    },
+    {
+      "id": "005e4eb6-0377-45bf-a911-7077fd3b5ed0",
+      "name": "Interventions du SIM - 2015 à 2022",
+      "description": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la localisation des interventions et les unités déployées.\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/005e4eb6-0377-45bf-a911-7077fd3b5ed0/download/donneesouvertes-interventions-sim_2015_2022.csv",
+      "datastore_active": true,
+      "size": 120080371,
+      "last_modified": "2024-07-03T21:20:56.638481",
+      "created": "2024-07-03T21:20:56.726885",
+      "schema": {
+        "resource_id": "005e4eb6-0377-45bf-a911-7077fd3b5ed0",
+        "total_records": 894970,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_NBR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CREATION_DATE_TIME",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_TYPE_DESC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CASERNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DIVISION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_UNITES",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INCIDENT_NBR": "130918",
+            "CREATION_DATE_TIME": "2017/12/30",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "21",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Saint-Léonard",
+            "DIVISION": "8",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "296661.6",
+            "MTM8_Y": "5050150.6",
+            "LONGITUDE": "-73.604306",
+            "LATITUDE": "45.591214"
+          },
+          {
+            "_id": 2,
+            "INCIDENT_NBR": "130922",
+            "CREATION_DATE_TIME": "2017/12/30",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "49",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Ahuntsic-Cartierville",
+            "DIVISION": "3",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "291219.4",
+            "MTM8_Y": "5043822.5",
+            "LONGITUDE": "-73.673881",
+            "LATITUDE": "45.534186"
+          },
+          {
+            "_id": 3,
+            "INCIDENT_NBR": "7977",
+            "CREATION_DATE_TIME": "2018/01/19",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "65",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "LaSalle",
+            "DIVISION": "5",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "297345.2",
+            "MTM8_Y": "5032063",
+            "LONGITUDE": "-73.59527",
+            "LATITUDE": "45.428462"
+          },
+          {
+            "_id": 4,
+            "INCIDENT_NBR": "8106",
+            "CREATION_DATE_TIME": "2018/01/19",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "72",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Saint-Laurent",
+            "DIVISION": "3",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "289249.9",
+            "MTM8_Y": "5038797.9",
+            "LONGITUDE": "-73.698938",
+            "LATITUDE": "45.488932"
+          },
+          {
+            "_id": 5,
+            "INCIDENT_NBR": "8138",
+            "CREATION_DATE_TIME": "2018/01/19",
+            "INCIDENT_TYPE_DESC": "Premier répondant",
+            "DESCRIPTION_GROUPE": "1-REPOND",
+            "CASERNE": "34",
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+            "DIVISION": "14",
+            "NOMBRE_UNITES": "1",
+            "MTM8_X": "296210.2",
+            "MTM8_Y": "5037083.1",
+            "LONGITUDE": "-73.609863",
+            "LATITUDE": "45.473622"
+          }
+        ]
+      },
+      "field_stats": {
+        "INCIDENT_NBR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CREATION_DATE_TIME": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INCIDENT_TYPE_DESC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_GROUPE": {
+          "null_count": 122,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CASERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VILLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DIVISION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_UNITES": {
+          "null_count": 265,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 894970,
+        "audited_at": "2026-03-10T00:20:12.966783+00:00",
+        "fields": {
+          "INCIDENT_NBR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 130974.0,
+            "mean": 37878.435,
+            "median": 12610.5,
+            "unique_count": 999,
+            "field_type_detected": "numeric"
+          },
+          "CREATION_DATE_TIME": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015/01/01",
+            "max_date": "2018/07/16",
+            "date_format": "YYYY/MM/DD",
+            "field_type_detected": "date"
+          },
+          "INCIDENT_TYPE_DESC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 30,
+            "top_values": [
+              {
+                "value": "Premier répondant",
+                "count": 643
+              },
+              {
+                "value": "Appel de Cie de détection",
+                "count": 78
+              },
+              {
+                "value": "Alarme privé ou locale",
+                "count": 46
+              },
+              {
+                "value": "Problèmes électriques",
+                "count": 40
+              },
+              {
+                "value": "Aliments surchauffés",
+                "count": 36
+              },
+              {
+                "value": "Inondation",
+                "count": 22
+              },
+              {
+                "value": "10-22 sans feu",
+                "count": 21
+              },
+              {
+                "value": "Ascenseur",
+                "count": 13
+              },
+              {
+                "value": "Déchets en feu",
+                "count": 13
+              },
+              {
+                "value": "Aide à un citoyen",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DESCRIPTION_GROUPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "1-REPOND",
+                "count": 653
+              },
+              {
+                "value": "SANS FEU",
+                "count": 177
+              },
+              {
+                "value": "Alarmes-incendies",
+                "count": 132
+              },
+              {
+                "value": "AUTREFEU",
+                "count": 27
+              },
+              {
+                "value": "INCENDIE",
+                "count": 9
+              },
+              {
+                "value": "FAU-ALER",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CASERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 78.0,
+            "mean": 38.905,
+            "median": 39.0,
+            "unique_count": 66,
+            "field_type_detected": "numeric"
+          },
+          "NOM_VILLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 913
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 16
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 14
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 12
+              },
+              {
+                "value": "Dorval",
+                "count": 11
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 11
+              },
+              {
+                "value": "Westmount",
+                "count": 10
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 4
+              },
+              {
+                "value": "Hampstead",
+                "count": 3
+              },
+              {
+                "value": "Kirkland",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 98
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 88
+              },
+              {
+                "value": "Indéterminé",
+                "count": 87
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 85
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 70
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 68
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 61
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 52
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 48
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 46
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DIVISION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 17.0,
+            "mean": 6.133,
+            "median": 6.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7",
+                "count": 162
+              },
+              {
+                "value": "8",
+                "count": 149
+              },
+              {
+                "value": "4",
+                "count": 136
+              },
+              {
+                "value": "3",
+                "count": 111
+              },
+              {
+                "value": "5",
+                "count": 103
+              },
+              {
+                "value": "6",
+                "count": 96
+              },
+              {
+                "value": "9",
+                "count": 74
+              },
+              {
+                "value": "1",
+                "count": 53
+              },
+              {
+                "value": "2",
+                "count": 38
+              },
+              {
+                "value": "14",
+                "count": 23
+              }
+            ]
+          },
+          "NOMBRE_UNITES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 73.0,
+            "mean": 1.852,
+            "median": 1.0,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 740
+              },
+              {
+                "value": "2",
+                "count": 67
+              },
+              {
+                "value": "4",
+                "count": 65
+              },
+              {
+                "value": "3",
+                "count": 62
+              },
+              {
+                "value": "5",
+                "count": 28
+              },
+              {
+                "value": "6",
+                "count": 21
+              },
+              {
+                "value": "8",
+                "count": 4
+              },
+              {
+                "value": "7",
+                "count": 3
+              },
+              {
+                "value": "10",
+                "count": 2
+              },
+              {
+                "value": "16",
+                "count": 1
+              }
+            ]
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269072.2,
+            "max": 306299.1,
+            "mean": 295081.2966,
+            "median": 296373.2,
+            "unique_count": 930,
+            "field_type_detected": "numeric"
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029725.0,
+            "max": 5061916.9,
+            "mean": 5042896.957,
+            "median": 5042315.15,
+            "unique_count": 932,
+            "field_type_detected": "numeric"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.956414,
+            "max": -73.48075,
+            "mean": -73.624379,
+            "pct_in_montreal_bbox": 99.6,
+            "field_type_detected": "geo_longitude"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.40655,
+            "max": 45.697137,
+            "mean": 45.525892,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "0a778ac0-9b5a-42cb-8557-167f7f9b8feb",
+      "name": "Interventions du SIM - 2005 à 2014",
+      "description": "Ensemble de données listant les interventions réalisées par le Service de sécurité incendie de Montréal (SIM) avec notamment la localisation des interventions et les unités déployées.\r\n\r\nCe fichier comprend les données pour les années 2005 à 2014.\r\n\r\nVoir le fichier \"Interventions du SIM - 2015 à aujourd'hui\" pour les années suivantes.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/0a778ac0-9b5a-42cb-8557-167f7f9b8feb/download/donneesouvertes-interventions-sim-2005-2014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-03-31T19:31:28.085878",
+      "created": "2020-03-31T19:31:28.366627",
+      "schema": {
+        "resource_id": "0a778ac0-9b5a-42cb-8557-167f7f9b8feb",
+        "total_records": 908486,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_NBR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CREATION_DATE_TIME",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_TYPE_DESC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CASERNE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NOM_VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DIVISION",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE_UNITES",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INCIDENT_NBR": 1,
+            "CREATION_DATE_TIME": "2005-01-01T00:03:47",
+            "INCIDENT_TYPE_DESC": "Inondation",
+            "DESCRIPTION_GROUPE": "Sans incendie",
+            "CASERNE": 18,
+            "NOM_VILLE": "Montréal-Nord",
+            "NOM_ARROND": "Montréal-Nord",
+            "DIVISION": 21,
+            "LATITUDE": 45.6202743134406,
+            "LONGITUDE": -73.6199555455142,
+            "NOMBRE_UNITES": 1
+          },
+          {
+            "_id": 2,
+            "INCIDENT_NBR": 2,
+            "CREATION_DATE_TIME": "2005-01-01T00:03:56",
+            "INCIDENT_TYPE_DESC": "Alarme privé ou locale",
+            "DESCRIPTION_GROUPE": "Alarmes-incendies",
+            "CASERNE": 10,
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Ville-Marie / Parc Jean-Drapeau / Centre-Sud",
+            "DIVISION": 18,
+            "LATITUDE": 45.4940870599786,
+            "LONGITUDE": -73.5825873217504,
+            "NOMBRE_UNITES": 7
+          },
+          {
+            "_id": 3,
+            "INCIDENT_NBR": 3,
+            "CREATION_DATE_TIME": "2005-01-01T00:03:57",
+            "INCIDENT_TYPE_DESC": "Alarme privé ou locale",
+            "DESCRIPTION_GROUPE": "Alarmes-incendies",
+            "CASERNE": 72,
+            "NOM_VILLE": "Saint-Laurent",
+            "NOM_ARROND": "St-Laurent",
+            "DIVISION": 13,
+            "LATITUDE": 45.4844061554197,
+            "LONGITUDE": -73.6930380818537,
+            "NOMBRE_UNITES": 6
+          },
+          {
+            "_id": 4,
+            "INCIDENT_NBR": 4,
+            "CREATION_DATE_TIME": "2005-01-01T00:05:01",
+            "INCIDENT_TYPE_DESC": "Inondation",
+            "DESCRIPTION_GROUPE": "Sans incendie",
+            "CASERNE": 13,
+            "NOM_VILLE": "Montréal",
+            "NOM_ARROND": "Mercier / Hochelaga-Maisonneuve",
+            "DIVISION": 23,
+            "LATITUDE": 45.5413831100549,
+            "LONGITUDE": -73.5459435227181,
+            "NOMBRE_UNITES": 1
+          },
+          {
+            "_id": 5,
+            "INCIDENT_NBR": 5,
+            "CREATION_DATE_TIME": "2005-01-01T00:06:20",
+            "INCIDENT_TYPE_DESC": "Inondation",
+            "DESCRIPTION_GROUPE": "Sans incendie",
+            "CASERNE": 18,
+            "NOM_VILLE": "Montréal-Nord",
+            "NOM_ARROND": "Montréal-Nord",
+            "DIVISION": 21,
+            "LATITUDE": 45.611304128944,
+            "LONGITUDE": -73.6324398522058,
+            "NOMBRE_UNITES": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "INCIDENT_NBR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CREATION_DATE_TIME": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INCIDENT_TYPE_DESC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_GROUPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CASERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_VILLE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_ARROND": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DIVISION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE_UNITES": {
+          "null_count": 436,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 908486,
+        "audited_at": "2026-03-10T00:20:14.367594+00:00",
+        "fields": {
+          "INCIDENT_NBR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1024.0,
+            "mean": 512.623,
+            "median": 512.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "CREATION_DATE_TIME": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2005-01-01T00:03:47",
+            "max_date": "2005-01-08T22:01:03",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "INCIDENT_TYPE_DESC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 42,
+            "top_values": [
+              {
+                "value": "Inondation",
+                "count": 140
+              },
+              {
+                "value": "Appel de Cie de détection",
+                "count": 132
+              },
+              {
+                "value": "Alarme privé ou locale",
+                "count": 126
+              },
+              {
+                "value": "Odeur suspecte - gaz",
+                "count": 64
+              },
+              {
+                "value": "10-22 sans feu",
+                "count": 59
+              },
+              {
+                "value": "Problèmes électriques",
+                "count": 56
+              },
+              {
+                "value": "Acc. sans victime sfeu - ext.",
+                "count": 56
+              },
+              {
+                "value": "Aliments surchauffés",
+                "count": 53
+              },
+              {
+                "value": "Premier répondant",
+                "count": 46
+              },
+              {
+                "value": "Aide à un citoyen",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DESCRIPTION_GROUPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Sans incendie",
+                "count": 553
+              },
+              {
+                "value": "Alarmes-incendies",
+                "count": 285
+              },
+              {
+                "value": "Premier répondant",
+                "count": 50
+              },
+              {
+                "value": "Autres incendies",
+                "count": 46
+              },
+              {
+                "value": "Incendies de bâtiments",
+                "count": 39
+              },
+              {
+                "value": "Fausses alertes/annulations",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CASERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 79.0,
+            "mean": 37.848,
+            "median": 37.0,
+            "unique_count": 63,
+            "field_type_detected": "numeric"
+          },
+          "NOM_VILLE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 26,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 613
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 41
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 36
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 35
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 34
+              },
+              {
+                "value": "Lasalle",
+                "count": 33
+              },
+              {
+                "value": "Westmount",
+                "count": 27
+              },
+              {
+                "value": "Verdun / Ïle-des-Soeurs",
+                "count": 24
+              },
+              {
+                "value": "Lachine",
+                "count": 21
+              },
+              {
+                "value": "Outremont",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Ville-Marie / Parc Jean-Drapeau / Centre-Sud",
+                "count": 104
+              },
+              {
+                "value": "Côte-des-Neiges / Notre-Dame-de-Grâce",
+                "count": 91
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 71
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 68
+              },
+              {
+                "value": "Mercier / Hochelaga-Maisonneuve",
+                "count": 66
+              },
+              {
+                "value": "Villeray / St-Michel / Parc Extension",
+                "count": 62
+              },
+              {
+                "value": "Rivière-des-Prairies / P-A-T/Mtl-Est",
+                "count": 60
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 50
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 45
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 41
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DIVISION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 11.0,
+            "max": 25.0,
+            "mean": 18.387,
+            "median": 18.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "17",
+                "count": 140
+              },
+              {
+                "value": "22",
+                "count": 122
+              },
+              {
+                "value": "21",
+                "count": 109
+              },
+              {
+                "value": "18",
+                "count": 101
+              },
+              {
+                "value": "20",
+                "count": 97
+              },
+              {
+                "value": "25",
+                "count": 78
+              },
+              {
+                "value": "15",
+                "count": 72
+              },
+              {
+                "value": "23",
+                "count": 66
+              },
+              {
+                "value": "14",
+                "count": 66
+              },
+              {
+                "value": "12",
+                "count": 63
+              }
+            ]
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.405061,
+            "max": 45.674296,
+            "mean": 45.522551,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.944981,
+            "max": -73.488366,
+            "mean": -73.627351,
+            "pct_in_montreal_bbox": 99.2,
+            "field_type_detected": "geo_longitude"
+          },
+          "NOMBRE_UNITES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 98.0,
+            "mean": 3.064,
+            "median": 2.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 388
+              },
+              {
+                "value": "2",
+                "count": 154
+              },
+              {
+                "value": "4",
+                "count": 117
+              },
+              {
+                "value": "5",
+                "count": 107
+              },
+              {
+                "value": "3",
+                "count": 106
+              },
+              {
+                "value": "7",
+                "count": 58
+              },
+              {
+                "value": "6",
+                "count": 49
+              },
+              {
+                "value": "8",
+                "count": 6
+              },
+              {
+                "value": "12",
+                "count": 3
+              },
+              {
+                "value": "18",
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "4f236894-3fdc-4b04-8d11-80f451ffd70d",
+      "name": "Tableau concordance : Type incident - Description",
+      "description": "Description des différents types d'interventions",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/2fc8a2b9-1556-410e-a118-c46e97e9f19e/resource/4f236894-3fdc-4b04-8d11-80f451ffd70d/download/type-interventions-descriptions20161122.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-09-22T13:50:01.807294",
+      "created": "2020-03-31T19:33:04.739257",
+      "schema": {
+        "resource_id": "4f236894-3fdc-4b04-8d11-80f451ffd70d",
+        "total_records": 170,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "INCIDENT_TYPE_DESCRIPTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "INCIDENT_TYPE_DESCRIPTION": "10-22 avec feu",
+            "Description": "Service non requis pour une intervention dans un bâtiment avec début d'incendie"
+          },
+          {
+            "_id": 2,
+            "INCIDENT_TYPE_DESCRIPTION": "10-22 pour appel aéroport",
+            "Description": "Service non requis pour une intervention à l'aéroport"
+          },
+          {
+            "_id": 3,
+            "INCIDENT_TYPE_DESCRIPTION": "10-22 PR effon de structure",
+            "Description": "Service non requis pour intervention combinée premier répondant et sauvetage en effondrement de structure"
+          },
+          {
+            "_id": 4,
+            "INCIDENT_TYPE_DESCRIPTION": "10-22 PR effon de tranché",
+            "Description": "Service non requis pour intervention combinée premier répondant et sauvetage en effondrement de tranchée"
+          },
+          {
+            "_id": 5,
+            "INCIDENT_TYPE_DESCRIPTION": "10-22 PR impliquant 10-43",
+            "Description": "Service non requis pour intervention combinée premier répondant et intervention impliquant une matière dangereuse"
+          }
+        ]
+      },
+      "field_stats": {
+        "INCIDENT_TYPE_DESCRIPTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 170,
+        "total_records": 170,
+        "audited_at": "2026-03-10T00:20:15.214381+00:00",
+        "fields": {
+          "INCIDENT_TYPE_DESCRIPTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 169,
+            "top_values": [
+              {
+                "value": "Sauv. nautique p.e. intérieurs",
+                "count": 2
+              },
+              {
+                "value": "10-22 avec feu",
+                "count": 1
+              },
+              {
+                "value": "10-22 pour appel aéroport",
+                "count": 1
+              },
+              {
+                "value": "10-22 PR effon de structure",
+                "count": 1
+              },
+              {
+                "value": "10-22 PR effon de tranché",
+                "count": 1
+              },
+              {
+                "value": "10-22 PR impliquant 10-43",
+                "count": 1
+              },
+              {
+                "value": "10-22 PR sauvetage en hauteur",
+                "count": 1
+              },
+              {
+                "value": "10-22 PR sauvetage tech. clos",
+                "count": 1
+              },
+              {
+                "value": "10-22 sans feu",
+                "count": 1
+              },
+              {
+                "value": "Ac.s.vict. sfeu train/métro",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 142,
+            "top_values": [
+              {
+                "value": "Type qui n'est plus utilisé à la suite de la mise à jour de l'algorithme en 2016",
+                "count": 23
+              },
+              {
+                "value": "Situation s'est aggravée acheminer les ressources prévues pour ce niveau d'alerte pour un feu de bâtiment",
+                "count": 4
+              },
+              {
+                "value": "Accident sans victime feu - pont",
+                "count": 2
+              },
+              {
+                "value": "Situation s'est aggravée acheminer les ressources prévues poru ce niveau d'alerte pour une intervention autre que Bâtiment",
+                "count": 2
+              },
+              {
+                "value": "Situation s'est aggravée acheminer les ressources prévues pour ce niveau d'alerte pour une intervention autre que Bâtiment",
+                "count": 2
+              },
+              {
+                "value": "Service non requis pour une intervention dans un bâtiment avec début d'incendie",
+                "count": 1
+              },
+              {
+                "value": "Service non requis pour une intervention à l'aéroport",
+                "count": 1
+              },
+              {
+                "value": "Service non requis pour intervention combinée premier répondant et sauvetage en effondrement de structure",
+                "count": 1
+              },
+              {
+                "value": "Service non requis pour intervention combinée premier répondant et sauvetage en effondrement de tranchée",
+                "count": 1
+              },
+              {
+                "value": "Service non requis pour intervention combinée premier répondant et intervention impliquant une matière dangereuse",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Incendie",
+    "Pompier",
+    "Premier répondant",
+    "SIM",
+    "Sécurité civile",
+    "Sécurité publique"
+  ],
+  "web_metadata": {
+    "methodology_text": "Extraction à partir du RAO des données opérationnelles concernant les interventions effectuées par le SIM.  Les données diffusées sont limitées aux types d'intervention et leur localisation.  \n\n### Vie privée\n\n\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels.\n\n\nLocalisation : La position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passée l'intervention.\n\n### Mise à jour des données\n\n\n\nLes données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent au rapport initial. Les données sont regroupées par année calendaire. \n\n### Dictionnaire de données\n\n\n\n- INCIDENT_NBR (numérique) : Identification de l'événement par année.\n\n- CREATION_DATE_TIME (date et heure) : Date et heure de l'événement.\n\n- DESCRIPTION_GROUPE (texte) : Regroupement des types d' interventions en 6 catégories : Incendies de bâtiments, Autres incendies, Sans incendie, Alarmes-incendie, Premiers répondants, Fausses alertes/annulations.\n\n- INCIDENT_TYPE_DESC (texte) : Type d'incident (voir fichier joint Incendie Type-description).\n\n- CASERNE (numérique) : Numéro de la caserne responsable du",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de sécurité incendie de Montréal",
+      "Couverture temporelle": "2005-01-01/",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Incendie",
+      "Pompier",
+      "Premier répondant",
+      "SIM",
+      "Sécurité civile",
+      "Sécurité publique"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/interventions-service-securite-incendie-montreal",
+    "scraped_at": "2026-03-09T19:59:09.254309+00:00"
+  }
+}

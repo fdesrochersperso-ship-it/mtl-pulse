@@ -1,0 +1,310 @@
+{
+  "slug": "vmtl-subvention-habitation",
+  "title": "Subventions en habitation destinées aux citoyennes et citoyens",
+  "notes": "La Ville de Montréal administre des programmes de subventions en habitation destinés à aider les citoyennes et les citoyens. Ces programmes ont entre autres pour objectif de préserver la qualité du parc résidentiel montréalais, d’offrir des logements adaptés aux personnes en situation de handicap et d'aider les ménages à acquérir une propriété.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-11-01T14:34:07.443815",
+  "metadata_modified": "2025-02-26T20:27:13.236290",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "a2f43996-87f9-4423-b800-2f2c41ac326e",
+      "name": "Subventions en habitation",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/c1c8a2de-0ae9-4c63-82eb-620ad57ac012/resource/a2f43996-87f9-4423-b800-2f2c41ac326e/download/subventions-habitation-destinees-citoyens.csv",
+      "datastore_active": true,
+      "size": 2637463,
+      "last_modified": "2025-02-12T20:28:11.781270",
+      "created": "2022-11-01T14:35:10.260092",
+      "schema": {
+        "resource_id": "a2f43996-87f9-4423-b800-2f2c41ac326e",
+        "total_records": 32060,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_SDSR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MONTANT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TRANSACTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_SDSR": "960019381",
+            "DATE": "2013-06-28",
+            "MONTANT": "-2943",
+            "TRANSACTION": "ANNU",
+            "ARRONDISSEMENT": "LaSalle",
+            "CATEGORIE": "Adaptation de domicile"
+          },
+          {
+            "_id": 2,
+            "ID_SDSR": "960002354",
+            "DATE": "2013-06-26",
+            "MONTANT": "-176",
+            "TRANSACTION": "REVI",
+            "ARRONDISSEMENT": "Rivière-des-Prairies - Pointe-aux-Trembles",
+            "CATEGORIE": "Adaptation de domicile"
+          },
+          {
+            "_id": 3,
+            "ID_SDSR": "930099104",
+            "DATE": "2013-06-26",
+            "MONTANT": "0",
+            "TRANSACTION": "REVI",
+            "ARRONDISSEMENT": "LaSalle",
+            "CATEGORIE": "Adaptation de domicile"
+          },
+          {
+            "_id": 4,
+            "ID_SDSR": "960012941",
+            "DATE": "2013-06-26",
+            "MONTANT": "-94",
+            "TRANSACTION": "REVI",
+            "ARRONDISSEMENT": "Anjou",
+            "CATEGORIE": "Adaptation de domicile"
+          },
+          {
+            "_id": 5,
+            "ID_SDSR": "960015641",
+            "DATE": "2013-06-21",
+            "MONTANT": "153",
+            "TRANSACTION": "REVI",
+            "ARRONDISSEMENT": "Le Sud-Ouest",
+            "CATEGORIE": "Adaptation de domicile"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_SDSR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MONTANT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TRANSACTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 32060,
+        "audited_at": "2026-03-10T00:28:24.912960+00:00",
+        "fields": {
+          "ID_SDSR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 930080065.0,
+            "max": 960349134.0,
+            "mean": 947026055.803,
+            "median": 960009281.0,
+            "unique_count": 802,
+            "field_type_detected": "numeric"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-01-20",
+            "max_date": "2023-11-03",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "MONTANT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -5000.0,
+            "max": 7000.0,
+            "mean": 3519.496,
+            "median": 3363.5,
+            "unique_count": 568,
+            "field_type_detected": "numeric"
+          },
+          "TRANSACTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "INIT",
+                "count": 800
+              },
+              {
+                "value": "REVI",
+                "count": 189
+              },
+              {
+                "value": "ANNU",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 174
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 156
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 70
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 65
+              },
+              {
+                "value": "Anjou",
+                "count": 59
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 58
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 55
+              },
+              {
+                "value": "LaSalle",
+                "count": 54
+              },
+              {
+                "value": "Pierrefonds - Roxboro",
+                "count": 51
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 45
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CATEGORIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Adaptation de domicile",
+                "count": 544
+              },
+              {
+                "value": "Acquisition d'une propriété",
+                "count": 456
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Habitation",
+    "Logement",
+    "SH",
+    "Subvention"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données représentent les montants de subvention engagés par l’administration, qu’ils aient été versés ou non. Elles incluent à la fois la part de financement municipal et provincial combinée et couvrent la période du 1er janvier 2012 jusqu’au 31 décembre 2024.\n\n\nLes montants de subvention engagés peuvent :\n\n\n- Varier à la hausse, suite à l'ajout de travaux assujettis au règlement, mais non planifiés au départ; \n\n- Varier à la baisse, lorsque le propriétaire ne réalise pas certains travaux liés à l’engagement de départ ou; \n\n- Être annulés lorsque les travaux ne sont pas réalisés ou que les conditions liées à la subvention ne sont pas respectées. \n\n\n\nDans le cadre de certains programmes, les travaux ou les conditions rattachées à la subvention peuvent s’échelonner sur plus d’une année. Les données sur les variations ou les annulations de subvention de ces dossiers sont présentées uniquement lorsque celles-ci surviennent dans l’année de l'engagement de départ. Les montants affichés dans l'ensemble de données peuvent être nuls ou négatifs lorsque les travaux ne sont pas réalisés ou que les conditions liées à la subvention ne sont pas respectées.\n\n\nLes principaux programmes de subventions en habitation destinés aux citoyennes et citoyens ont été regroupés selon les 3 catégories suivantes : \n\n\n- \n\n\n**Rénovation** :\ndivers programmes destinés à aider la rénovation de bâtiments (entre autres : RénoPlex, Réno Logement Abordable, Rénovation à la carte, Stabilisation des fondations, etc.)\n\n\n- \n\n\n**Adaptation de domicile** :\nprogrammes aidant les personnes en situation de handicap à adapter leur logement selon leurs besoins.\n\n\n- \n\n\n**Acquisition d’une propriété** : \nprogrammes d’aide financière octroyée à un acheteur dans le but de soutenir l’acquisition d’une propriété neuve ou existante. Cette aide prend la forme d’un montant forfaitaire ou du remboursement d’un pourcentage des droits de mutation immobilière.\n\n\n\n\nUne catégorie peut inclure plusieurs programmes. Les programmes sont sujets à évoluer au fil du temps afin de s’adapter aux réalités du moment et certains ne sont plus en vigueur.\n\n## Dictionnaire de données\n\n\n\n- ID_SDSR (numérique) : Numéro unique généré par le système de suivi des subventions à la rénovation (SDSR).\n\n- DATE (date et heure) : Date de l'engagement du montant de subvention par la Ville.\n\n- MONTANT (numérique) : Montant de subvention engagé (portions Ville de Montréal et Société d'Habitation du Québec combinées).\n\n- TRANSACTION (texte variable) : Statut lié au montant de subvention (approbation initiale, révision ou annulation).\n\n- ARRONDISSEMENT (texte variable) : Arrondissement de l'immeuble subventionné.\n\n- CATEGORIE (texte variable) : Les principaux programmes de subventions ont été regroupés selon 3 catégories suivantes (voir la description de la méthodologie, ci-haut).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Couverture temporelle": "2012 / 2024",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Habitation",
+      "Logement",
+      "SH",
+      "Subvention"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/subvention-habitation",
+    "scraped_at": "2026-03-09T20:22:53.829659+00:00"
+  }
+}

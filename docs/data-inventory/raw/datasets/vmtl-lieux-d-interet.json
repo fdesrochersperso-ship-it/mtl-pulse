@@ -1,0 +1,894 @@
+{
+  "slug": "vmtl-lieux-d-interet",
+  "title": "Lieux d'intérêt",
+  "notes": "Cet ensemble de données présente les lieux d'intérêt de la Ville de Montréal selon la classification effectuée dans le cadre de l'initiative Montréal à pied (MàP) en 2020. Le projet Montréal à Pied vise à améliorer l'orientation et le cheminement piéton sur l'ensemble du territoire montréalais.\r\n\r\nBien que les données concernent le territoire des arrondissements, des lieux d'intérêt peuvent se trouver sur le territoire de villes liées pour une meilleure cohérence de l'information géographique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-04-28T20:26:02.469332",
+  "metadata_modified": "2025-06-04T17:30:40.602427",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "7f33e845-05d3-4ae9-996b-284b87efe1f3",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNDkwMWI0MWQtYWI3Ni00ZTEzLWFiOWMtODg4ZjljY2JiY2UxIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T17:02:13.187408",
+      "schema": null
+    },
+    {
+      "id": "edce22aa-f7cc-495e-9c53-b367f68309f6",
+      "name": "Lieux d'intérêt de la Ville de Montréal",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/edce22aa-f7cc-495e-9c53-b367f68309f6/download/lieux_d_interet.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-04-28T20:28:42.366760",
+      "created": "2020-04-28T20:28:42.606175",
+      "schema": {
+        "resource_id": "edce22aa-f7cc-495e-9c53-b367f68309f6",
+        "total_records": 3231,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Famille",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Catégorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom français",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom court",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Numéro",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Étage",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Bureau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Code postal",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Classification",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": 1,
+            "Famille": "Culturel",
+            "Catégorie": "Établissement culturel",
+            "Nom français": "Maison du Meunier",
+            "Nom court": "",
+            "Type": "Musée et centre d'interprétation / d'exposition",
+            "Numéro": "10897",
+            "rue": "Rue du Pont",
+            "Étage": 0,
+            "Bureau": " ",
+            "Ville": "Montréal",
+            "Code postal": "H2B 1Z4",
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Classification": "niveau 3",
+            "Longitude": -73.661101796,
+            "Latitude": 45.5748620350001
+          },
+          {
+            "_id": 2,
+            "ID": 2,
+            "Famille": "Culturel",
+            "Catégorie": "Établissement culturel",
+            "Nom français": "Maison du Pressoir",
+            "Nom court": "",
+            "Type": "Musée et centre d'interprétation / d'exposition",
+            "Numéro": "10865",
+            "rue": "Rue du Pressoir",
+            "Étage": 0,
+            "Bureau": " ",
+            "Ville": "Montréal",
+            "Code postal": "H2B 2L1",
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Classification": "niveau 3",
+            "Longitude": -73.659552678,
+            "Latitude": 45.5759696870001
+          },
+          {
+            "_id": 3,
+            "ID": 3,
+            "Famille": "Commercial",
+            "Catégorie": "Regroupement de commerces",
+            "Nom français": "Marché Central",
+            "Nom court": "",
+            "Type": "Centre commercial",
+            "Numéro": "9187",
+            "rue": "Boulevard de l'Acadie",
+            "Étage": 0,
+            "Bureau": " ",
+            "Ville": "Montréal",
+            "Code postal": "H4N 3K1",
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Classification": "niveau 1",
+            "Longitude": -73.654955924,
+            "Latitude": 45.534023017
+          },
+          {
+            "_id": 4,
+            "ID": 4,
+            "Famille": "Culturel",
+            "Catégorie": "Établissement culturel",
+            "Nom français": "Musée des Sœurs de la Providence",
+            "Nom court": "",
+            "Type": "Musée et centre d'interprétation / d'exposition",
+            "Numéro": "12055 ",
+            "rue": "Rue Grenet",
+            "Étage": 0,
+            "Bureau": " ",
+            "Ville": "Montréal",
+            "Code postal": "H4J 2J5",
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Classification": "niveau 3",
+            "Longitude": -73.713635042,
+            "Latitude": 45.529374234
+          },
+          {
+            "_id": 5,
+            "ID": 5,
+            "Famille": "Récréatif / sportif",
+            "Catégorie": "Parc et autre espace vert",
+            "Nom français": "Parc Ahuntsic",
+            "Nom court": "",
+            "Type": "Parc",
+            "Numéro": " ",
+            "rue": " ",
+            "Étage": 0,
+            "Bureau": " ",
+            "Ville": "Montréal",
+            "Code postal": "H3L 2E5",
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "Classification": "niveau 2",
+            "Longitude": -73.6647101469999,
+            "Latitude": 45.555801382
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Famille": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Catégorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom français": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom court": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Numéro": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Étage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Bureau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Code postal": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Classification": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 3231,
+        "audited_at": "2026-03-10T00:20:27.831503+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1059.0,
+            "mean": 533.81,
+            "median": 534.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Famille": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Récréatif / sportif",
+                "count": 533
+              },
+              {
+                "value": "Service public",
+                "count": 312
+              },
+              {
+                "value": "Culturel",
+                "count": 134
+              },
+              {
+                "value": "Commercial",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Catégorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Parc et autre espace vert",
+                "count": 360
+              },
+              {
+                "value": "Établissement scolaire",
+                "count": 191
+              },
+              {
+                "value": "Équipement communautaire",
+                "count": 111
+              },
+              {
+                "value": "Équipement sportif et récréatif",
+                "count": 61
+              },
+              {
+                "value": "Lieu de diffusion",
+                "count": 53
+              },
+              {
+                "value": "Service de santé",
+                "count": 37
+              },
+              {
+                "value": "Service municipal",
+                "count": 35
+              },
+              {
+                "value": "Service d'urgence",
+                "count": 30
+              },
+              {
+                "value": "Bibliothèque",
+                "count": 19
+              },
+              {
+                "value": "Bâtiment et lieu d'intérêt",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom français": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 991,
+            "top_values": [
+              {
+                "value": "Parc Félix-Leclerc",
+                "count": 3
+              },
+              {
+                "value": "Lower Canada College",
+                "count": 3
+              },
+              {
+                "value": "Parc Lefebvre",
+                "count": 2
+              },
+              {
+                "value": "Collège international Marie de France",
+                "count": 2
+              },
+              {
+                "value": "Collège Jean-de-Brébeuf",
+                "count": 2
+              },
+              {
+                "value": "École Royal Vale School",
+                "count": 2
+              },
+              {
+                "value": "Parc Brewster",
+                "count": 2
+              },
+              {
+                "value": "Maison du Meunier",
+                "count": 1
+              },
+              {
+                "value": "Maison du Pressoir",
+                "count": 1
+              },
+              {
+                "value": "Marché Central",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nom court": {
+            "null_count": 892,
+            "null_pct": 89.2,
+            "unique_count": 84,
+            "top_values": [
+              {
+                "value": "Éco-quartier",
+                "count": 7
+              },
+              {
+                "value": "Compostage communautaire",
+                "count": 6
+              },
+              {
+                "value": "YMCA",
+                "count": 4
+              },
+              {
+                "value": "Bureau d'arrondissement",
+                "count": 3
+              },
+              {
+                "value": "Écocentre",
+                "count": 3
+              },
+              {
+                "value": "Mairie d'arrondissement",
+                "count": 3
+              },
+              {
+                "value": "Centre local d'emploi",
+                "count": 2
+              },
+              {
+                "value": "Bureau Accès Montréal",
+                "count": 2
+              },
+              {
+                "value": "Mairie d’arrondissement",
+                "count": 2
+              },
+              {
+                "value": "Tandem",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 42,
+            "top_values": [
+              {
+                "value": "Parc",
+                "count": 332
+              },
+              {
+                "value": "Organisme communautaire et centre de loisirs",
+                "count": 111
+              },
+              {
+                "value": "École primaire",
+                "count": 99
+              },
+              {
+                "value": "École secondaire et professionnelle",
+                "count": 72
+              },
+              {
+                "value": "Centre sportif intérieur",
+                "count": 32
+              },
+              {
+                "value": "Jardin communautaire",
+                "count": 28
+              },
+              {
+                "value": "Théâtre / salle de spectacle / petit lieu de diffusion",
+                "count": 28
+              },
+              {
+                "value": "Cégep et université",
+                "count": 20
+              },
+              {
+                "value": "Bibliothèque publique",
+                "count": 19
+              },
+              {
+                "value": "Bâtiment historique / patrimonial",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Numéro": {
+            "null_count": 411,
+            "null_pct": 41.1,
+            "min": 1.0,
+            "max": 16115.0,
+            "mean": 4390.7683,
+            "median": 4285.0,
+            "unique_count": 459,
+            "field_type_detected": "numeric"
+          },
+          "rue": {
+            "null_count": 365,
+            "null_pct": 36.5,
+            "unique_count": 327,
+            "top_values": [
+              {
+                "value": "Chemin de la Côte-des-Neiges",
+                "count": 20
+              },
+              {
+                "value": "Boulevard Saint-Joseph",
+                "count": 11
+              },
+              {
+                "value": "Boulevard Gouin Ouest",
+                "count": 10
+              },
+              {
+                "value": "Rue Saint-Denis",
+                "count": 10
+              },
+              {
+                "value": "Boulevard Décarie",
+                "count": 10
+              },
+              {
+                "value": "Boulevard Saint-Laurent",
+                "count": 10
+              },
+              {
+                "value": "Rue Sherbrooke Ouest",
+                "count": 9
+              },
+              {
+                "value": "Rue Notre-Dame Ouest",
+                "count": 9
+              },
+              {
+                "value": "Avenue du Parc",
+                "count": 8
+              },
+              {
+                "value": "Rue Saint-Urbain",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Étage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.016,
+            "median": 0.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 991
+              },
+              {
+                "value": "1",
+                "count": 5
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              }
+            ]
+          },
+          "Bureau": {
+            "null_count": 983,
+            "null_pct": 98.3,
+            "min": 11.0,
+            "max": 610.0,
+            "mean": 212.2667,
+            "median": 114.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "100",
+                "count": 2
+              },
+              {
+                "value": "101",
+                "count": 1
+              },
+              {
+                "value": "421",
+                "count": 1
+              },
+              {
+                "value": "300",
+                "count": 1
+              },
+              {
+                "value": "610",
+                "count": 1
+              },
+              {
+                "value": "204",
+                "count": 1
+              },
+              {
+                "value": "301",
+                "count": 1
+              },
+              {
+                "value": "102",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "109",
+                "count": 1
+              }
+            ]
+          },
+          "Ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Code postal": {
+            "null_count": 179,
+            "null_pct": 17.9,
+            "unique_count": 676,
+            "top_values": [
+              {
+                "value": "H8S 4B7",
+                "count": 8
+              },
+              {
+                "value": "H3W 1J3",
+                "count": 5
+              },
+              {
+                "value": "H1J 2H5",
+                "count": 4
+              },
+              {
+                "value": "H3S 2T6",
+                "count": 4
+              },
+              {
+                "value": "H9C 1G9",
+                "count": 4
+              },
+              {
+                "value": "H8P 3L2",
+                "count": 4
+              },
+              {
+                "value": "H8N 2J4",
+                "count": 4
+              },
+              {
+                "value": "H4C 0B1",
+                "count": 4
+              },
+              {
+                "value": "H3L 2E5",
+                "count": 3
+              },
+              {
+                "value": "H3S 2T3",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 179
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 179
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 158
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 149
+              },
+              {
+                "value": "LaSalle",
+                "count": 90
+              },
+              {
+                "value": "Lachine",
+                "count": 81
+              },
+              {
+                "value": "L'Île-Bizard–Sainte-Geneviève",
+                "count": 54
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 53
+              },
+              {
+                "value": "Anjou",
+                "count": 48
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Classification": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "niveau 3",
+                "count": 387
+              },
+              {
+                "value": "niveau 4",
+                "count": 333
+              },
+              {
+                "value": "niveau 2",
+                "count": 189
+              },
+              {
+                "value": "niveau 1",
+                "count": 91
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.906594,
+            "max": -73.509938,
+            "mean": -73.62847,
+            "pct_in_montreal_bbox": 99.7,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.415131,
+            "max": 45.625246,
+            "mean": 45.501746,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "5ca7cdb8-f86f-4038-b5a8-657446c75427",
+      "name": "Lieux d'intérêt de la Ville de Montréal",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-04-28T20:30:09.885994",
+      "created": "2020-04-28T20:30:10.119566",
+      "schema": null
+    },
+    {
+      "id": "e037b4a9-0df8-4985-be76-2cf6c652646a",
+      "name": "Lieux d'intérêt de la Ville de Montréal",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/e037b4a9-0df8-4985-be76-2cf6c652646a/download/lieux_d_interet.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-04-28T20:31:17.141090",
+      "created": "2020-04-28T20:31:17.401957",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cartographie",
+    "Intérêt",
+    "Lieu",
+    "Piéton",
+    "SUM"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cette base de données est une compilation de données appartenant à différents services et arrondissements de la Ville de Montréal, et de données rassemblées spécifiquement pour le projet MàP.\n\n\nLe niveau de classification lié aux lieux d'intérêts a été défini de façon à faciliter les déplacements piétonniers et locaux. MàP intègre un volet cartographique important. Cette classification tient donc compte de la représentation des lieux d'intérêt sur une carte pour en optimiser l'affichage à l'échelle du déplacement piétonnier. \n\n### Dictionnaire de données\n\n\n\n- ID (Numérique) : Identifiant unique\n\n- Famille (Liste de valeur) : Famille de catégorisation du lieu d'intérêt\n\n- Catégorie (Texte variable) : Catégorisation du lieu d'intérêt\n\n- Nom français (Texte variable) : Nom français du lieu d'intérêt\n\n- Nom court (Texte variable) : Nom raccourci du lieu d'intérêt\n\n- Type (Texte variable) : Typologie du lieu d'intérêt\n\n- Numéro (Texte variable) : Numéro civique\n\n- rue (Texte variable) : Odonyme\n\n- Étage (Texte variable) : Localisation de l'étage\n\n- Bureau (Texte variable) : Dénomination du bureau\n\n- Ville (Texte variable) : Nom de la Ville\n\n- Code postal (Texte variable) : Code postal\n\n- Arrondissement (Texte variable) : Arrondissement\n\n- Latitude (Coordonnées spatiales) : Latitude (WGS84)\n\n- Longitude (Coordonnées spatiales) : Longitude (WGS84)\n\n- Classification (Numérique) : Niveau de classification selon la méthodologie de MàP\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Cartographie",
+      "Intérêt",
+      "Lieu",
+      "Piéton",
+      "SUM"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/lieux-d-interet",
+    "scraped_at": "2026-03-09T20:11:35.280519+00:00"
+  }
+}

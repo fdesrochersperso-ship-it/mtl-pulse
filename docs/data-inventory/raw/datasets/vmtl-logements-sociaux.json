@@ -1,0 +1,911 @@
+{
+  "slug": "vmtl-logements-sociaux",
+  "title": "Logements hors marché dans l'agglomération de Montréal",
+  "notes": "Liste des projets et/ou bâtiments associés aux logements hors marché. Inventaire construit à partir de différentes sources de données de qualité variable au début des années 2000 et entretenue, depuis, sur une base annuelle. Données utilisées pour mieux connaître la desserte en logements hors marché sur le territoire.  \r\n\r\nLe logement hors marché correspond à tous les logements détenus par une entité qui ne vise pas à réaliser de profits : OBNL, coopérative, gouvernement, société paramunicipale. \r\n\r\nLes données sont catégorisées par type de projet, soit: \r\n\r\nHLM : Logements publics gérés par l'Office municipal d'habitation de Montréal, dont le loyer est fixé à 25 % des revenus du ménage. Cette catégorie inclut la Corporation des Habitations Jeanne-Mance. \r\n\r\nOMHM : Logements publics abordables issus de projets de l'Office municipal d'habitation de Montréal hors programme HLM et gérés sous une forme s'apparentant aux OBNL avec la participation des résidents. \r\n\r\nSHDM : Logements locatifs publics et abordables appartenant à la Société d'habitation et de développement de Montréal et dont certains projets peuvent être gérés par un OBNL. \r\n\r\nOBNL : Logements locatifs possédés et gérés par un organisme à but non lucratif et qui visent une clientèle ayant des difficultés à se loger convenablement. Les OBNL offrent parfois du soutien communautaire à leurs locataires. \r\n\r\nCoop : Logements appartenant à une coopérative qui les louent à ses membres. Les coopératives voient à offrir des logements de qualité à prix abordables tout en favorisant une mixité socio-économique dans les projets. \r\n\r\nAnjou80 : Logements locatifs abordables appartenant à l’organisme Anjou 80.\r\n\r\nPlus d'informations sur le sujet sont disponibles sur [le site web de la Ville de Montréal](https://montreal.ca/articles/repartition-des-logements-sociaux-et-communautaires-17858).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-06-29T19:30:20.919545",
+  "metadata_modified": "2026-01-14T20:00:15.125431",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "bb380faa-1ba5-458b-b520-9e2287bcc07f",
+      "name": "Liste des logements hors marché",
+      "description": "Tableau des logements hors marché, incluant le positionnement géographique.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/d26fad0f-2eae-44d5-88a0-2bc699fd2592/resource/bb380faa-1ba5-458b-b520-9e2287bcc07f/download/log_horsmarche_donneesouvertes_20241231.csv",
+      "datastore_active": true,
+      "size": 424273,
+      "last_modified": "2026-01-14T17:09:34.338967",
+      "created": "2017-06-29T15:31:13.048207",
+      "schema": {
+        "resource_id": "bb380faa-1ba5-458b-b520-9e2287bcc07f",
+        "total_records": 2832,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "OBJECTID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdGeom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Projetnom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "phase",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nlog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nbchambre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "unites_typ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "an_program",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nomrue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "villelie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "qr2008",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loghlm_fam",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loghlm_pa",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loghlm_aut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "xnad83_ts",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ynad83_ts",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Long_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitud_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "OBJECTID": "1",
+            "IdGeom": "1",
+            "Projetnom": "Saint-Sulpice",
+            "phase": null,
+            "nlog": "150",
+            "nbchambre": "0",
+            "unites_typ": "logement",
+            "type": "HLM",
+            "an_program": "1971",
+            "nomrue": "Louvain",
+            "arrond": "Ahuntsic-Cartierville",
+            "villelie": null,
+            "qr2008": "5",
+            "loghlm_fam": "148",
+            "loghlm_pa": "0",
+            "loghlm_aut": "2",
+            "xnad83_ts": "293381",
+            "ynad83_ts": "5046316",
+            "Long_x": "-73.6462628",
+            "Latitud_y": "45.5566623"
+          },
+          {
+            "_id": 2,
+            "OBJECTID": "2",
+            "IdGeom": "2",
+            "Projetnom": "Adrien Trudeau",
+            "phase": null,
+            "nlog": "32",
+            "nbchambre": "0",
+            "unites_typ": "logement",
+            "type": "HLM",
+            "an_program": "1994",
+            "nomrue": "10e",
+            "arrond": "Lachine",
+            "villelie": null,
+            "qr2008": "70",
+            "loghlm_fam": "0",
+            "loghlm_pa": "32",
+            "loghlm_aut": "0",
+            "xnad83_ts": "291242",
+            "ynad83_ts": "5033940",
+            "Long_x": "-73.6733185",
+            "Latitud_y": "45.4452598"
+          },
+          {
+            "_id": 3,
+            "OBJECTID": "3",
+            "IdGeom": "3",
+            "Projetnom": "Montmorency",
+            "phase": null,
+            "nlog": "80",
+            "nbchambre": "0",
+            "unites_typ": "logement",
+            "type": "HLM",
+            "an_program": "1978",
+            "nomrue": "Grand Trunk",
+            "arrond": "Le Sud-Ouest",
+            "villelie": null,
+            "qr2008": "47",
+            "loghlm_fam": "0",
+            "loghlm_pa": "74",
+            "loghlm_aut": "6",
+            "xnad83_ts": "300111",
+            "ynad83_ts": "5038206",
+            "Long_x": "-73.5599826",
+            "Latitud_y": "45.4837631"
+          },
+          {
+            "_id": 4,
+            "OBJECTID": "4",
+            "IdGeom": "4",
+            "Projetnom": "Place Normandie",
+            "phase": null,
+            "nlog": "168",
+            "nbchambre": "0",
+            "unites_typ": "logement",
+            "type": "HLM",
+            "an_program": "1972",
+            "nomrue": "Chartrand",
+            "arrond": "Montréal-Nord",
+            "villelie": null,
+            "qr2008": "61",
+            "loghlm_fam": "167",
+            "loghlm_pa": "0",
+            "loghlm_aut": "1",
+            "xnad83_ts": "295107",
+            "ynad83_ts": "5053707",
+            "Long_x": "-73.6243017",
+            "Latitud_y": "45.6231947"
+          },
+          {
+            "_id": 5,
+            "OBJECTID": "5",
+            "IdGeom": "5",
+            "Projetnom": "Étienne-Desmarteaux",
+            "phase": null,
+            "nlog": "117",
+            "nbchambre": "0",
+            "unites_typ": "logement",
+            "type": "HLM",
+            "an_program": "1978",
+            "nomrue": "13e",
+            "arrond": "Rosemont–La Petite-Patrie",
+            "villelie": null,
+            "qr2008": "17",
+            "loghlm_fam": "0",
+            "loghlm_pa": "108",
+            "loghlm_aut": "9",
+            "xnad83_ts": "298302",
+            "ynad83_ts": "5046266",
+            "Long_x": "-73.5832305",
+            "Latitud_y": "45.5562757"
+          }
+        ]
+      },
+      "field_stats": {
+        "OBJECTID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdGeom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Projetnom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "phase": {
+          "null_count": 2420,
+          "null_pct": 85.5,
+          "populated_pct": 14.5
+        },
+        "nlog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nbchambre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "unites_typ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "an_program": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nomrue": {
+          "null_count": 263,
+          "null_pct": 9.3,
+          "populated_pct": 90.7
+        },
+        "arrond": {
+          "null_count": 39,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "villelie": {
+          "null_count": 2793,
+          "null_pct": 98.6,
+          "populated_pct": 1.4
+        },
+        "qr2008": {
+          "null_count": 264,
+          "null_pct": 9.3,
+          "populated_pct": 90.7
+        },
+        "loghlm_fam": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "loghlm_pa": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "loghlm_aut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "xnad83_ts": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ynad83_ts": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Long_x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitud_y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2832,
+        "audited_at": "2026-03-10T00:20:52.216947+00:00",
+        "fields": {
+          "OBJECTID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1008.0,
+            "mean": 502.127,
+            "median": 500.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "IdGeom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1008.0,
+            "mean": 502.127,
+            "median": 500.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Projetnom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 526,
+            "top_values": [
+              {
+                "value": "Lenoir Saint-Henri",
+                "count": 14
+              },
+              {
+                "value": "PLM REST. 370-2 (Petite-Bourgogne)",
+                "count": 14
+              },
+              {
+                "value": "Barclay 2675-5110",
+                "count": 14
+              },
+              {
+                "value": "PLM REST. 370-1 (Petite-Bourgogne)",
+                "count": 13
+              },
+              {
+                "value": "Projet impliquant des groupes vulnérables de la population - Données obfusquées",
+                "count": 13
+              },
+              {
+                "value": "Dufresne A,B,C",
+                "count": 12
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 11
+              },
+              {
+                "value": "Lafontaine A et B",
+                "count": 11
+              },
+              {
+                "value": "Rose-de-Lima A, B, C, D",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "phase": {
+            "null_count": 984,
+            "null_pct": 98.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Projet impliquant des groupes vulnérables de la population - Données obfusquées",
+                "count": 13
+              },
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "Jarry",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nlog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 312.0,
+            "mean": 25.797,
+            "median": 11.0,
+            "unique_count": 132,
+            "field_type_detected": "numeric"
+          },
+          "nbchambre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 59.0,
+            "mean": 0.591,
+            "median": 0.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 977
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "26",
+                "count": 2
+              },
+              {
+                "value": "33",
+                "count": 2
+              },
+              {
+                "value": "28",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 1
+              },
+              {
+                "value": "40",
+                "count": 1
+              },
+              {
+                "value": "58",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              }
+            ]
+          },
+          "unites_typ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "logement",
+                "count": 977
+              },
+              {
+                "value": "chambre",
+                "count": 18
+              },
+              {
+                "value": "13 logement / 26 chambre",
+                "count": 1
+              },
+              {
+                "value": "38 logement / 26 chambre",
+                "count": 1
+              },
+              {
+                "value": "2 logement / 7 chambre",
+                "count": 1
+              },
+              {
+                "value": "3 logement / 11 chambre",
+                "count": 1
+              },
+              {
+                "value": "1 logement / 9 chambre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "HLM",
+                "count": 629
+              },
+              {
+                "value": "SHDM",
+                "count": 319
+              },
+              {
+                "value": "OBNL",
+                "count": 27
+              },
+              {
+                "value": "Coop",
+                "count": 23
+              },
+              {
+                "value": "OMHM",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "an_program": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1968.0,
+            "max": 2003.0,
+            "mean": 1983.252,
+            "median": 1983.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "nomrue": {
+            "null_count": 13,
+            "null_pct": 1.3,
+            "unique_count": 320,
+            "top_values": [
+              {
+                "value": "Barclay",
+                "count": 26
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 21
+              },
+              {
+                "value": "Saint-Antoine",
+                "count": 20
+              },
+              {
+                "value": "Quesnel",
+                "count": 17
+              },
+              {
+                "value": "Montcalm",
+                "count": 15
+              },
+              {
+                "value": "Coursol",
+                "count": 13
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 13
+              },
+              {
+                "value": "Cousineau",
+                "count": 11
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 11
+              },
+              {
+                "value": "Saint-Philippe",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "arrond": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Le Sud-Ouest",
+                "count": 283
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 175
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 108
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 95
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 75
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 74
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 63
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 58
+              },
+              {
+                "value": "Lachine",
+                "count": 15
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "villelie": {
+            "null_count": 994,
+            "null_pct": 99.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Westmount",
+                "count": 2
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 2
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 1
+              },
+              {
+                "value": "Dorval",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "qr2008": {
+            "null_count": 13,
+            "null_pct": 1.3,
+            "min": 1.0,
+            "max": 91.0,
+            "mean": 35.784,
+            "median": 35.0,
+            "unique_count": 68,
+            "field_type_detected": "numeric"
+          },
+          "loghlm_fam": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 203.0,
+            "mean": 9.425,
+            "median": 0.5,
+            "unique_count": 75,
+            "field_type_detected": "numeric"
+          },
+          "loghlm_pa": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 153.0,
+            "mean": 9.838,
+            "median": 0.0,
+            "unique_count": 78,
+            "field_type_detected": "numeric"
+          },
+          "loghlm_aut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 58.0,
+            "mean": 0.921,
+            "median": 0.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 835
+              },
+              {
+                "value": "2",
+                "count": 30
+              },
+              {
+                "value": "1",
+                "count": 24
+              },
+              {
+                "value": "6",
+                "count": 23
+              },
+              {
+                "value": "4",
+                "count": 17
+              },
+              {
+                "value": "5",
+                "count": 17
+              },
+              {
+                "value": "3",
+                "count": 13
+              },
+              {
+                "value": "8",
+                "count": 13
+              },
+              {
+                "value": "7",
+                "count": 11
+              },
+              {
+                "value": "12",
+                "count": 5
+              }
+            ]
+          },
+          "xnad83_ts": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269061.0,
+            "max": 305468.0,
+            "mean": 297839.724,
+            "median": 298718.5,
+            "unique_count": 936,
+            "field_type_detected": "numeric"
+          },
+          "ynad83_ts": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029594.0,
+            "max": 5058930.0,
+            "mean": 5041673.093,
+            "median": 5042264.0,
+            "unique_count": 950,
+            "field_type_detected": "numeric"
+          },
+          "Long_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.9565,
+            "max": -73.4914,
+            "mean": -73.5891,
+            "median": -73.5778,
+            "unique_count": 990,
+            "field_type_detected": "numeric"
+          },
+          "Latitud_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.4054,
+            "max": 45.6703,
+            "mean": 45.5149,
+            "median": 45.5203,
+            "unique_count": 990,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "09117f6b-4580-469f-be2c-2511252389fa",
+      "name": "Localisation des logements hors marché",
+      "description": "Conteneur ZIP des fichiers constituant le shapefile des logements hors marché\r\n\r\nRéférence géographique: NAD83 WGS84",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/d26fad0f-2eae-44d5-88a0-2bc699fd2592/resource/09117f6b-4580-469f-be2c-2511252389fa/download/log_horsmarche_donneesouvertes_20241231.zip",
+      "datastore_active": false,
+      "size": 204744,
+      "last_modified": "2026-01-14T17:11:10.190215",
+      "created": "2017-08-22T16:58:31.601748",
+      "schema": null
+    },
+    {
+      "id": "1c02ead8-f680-495f-9675-6dd18bd3cad0",
+      "name": "Localisation des logements hors marché",
+      "description": "Geojson des logements hors marché.\r\n\r\nRéférence géographique: NAD83 WGS84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/d26fad0f-2eae-44d5-88a0-2bc699fd2592/resource/1c02ead8-f680-495f-9675-6dd18bd3cad0/download/log_horsmarche_donneesouvertes_20241231.geojson",
+      "datastore_active": false,
+      "size": 1588459,
+      "last_modified": "2026-01-14T17:12:05.871863",
+      "created": "2017-08-22T16:59:22.488384",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Communautaire",
+    "Coop",
+    "HLM",
+    "Logement",
+    "Logement communautaire",
+    "Logement social",
+    "OBNL",
+    "OMHM",
+    "SH",
+    "SHDM",
+    "Social"
+  ],
+  "web_metadata": {
+    "methodology_text": "Un travail de mise à jour des données est réalisé annuellement, à partir des données issues de la mise en œuvre des programmes gouvernementaux et des initiatives municipales. Pour ce qui est des données du parc public (HLM, OMHM, SHDM, Anjou80), celles-ci sont validées avec les sociétés paramunicipales concernées. Pour les OBNL et les coopératives d’habitation, un repérage par titre de propriété au rôle foncier est effectué afin de relever les changements de titres. Ces changements ont, par la suite, été validés à l’aide du Registre des entreprises du Québec et les sites web des organismes concernés.  \n\n\nCet ensemble de données retient toutes les unités de logements hors marché, sans distinction à l’égard du loyer réel ou de la présence ou non d’une subvention provenant du Programme de supplément aux loyers (P.S.L.).   \n\n\nLes projets impliquant des groupes vulnérables de la population ont été inclus sans les données nominatives et celles de référence spatiale (outre le nom de l'arrondissement ou de la ville liée) afin de respecter la confidentialité et la sécurité des personnes y logeant. Ces projets s'adressent à des personnes éprouvant des besoins particuliers d'habitation et requièrent des installations spéciales et des services d'assistance personnelle sur place. La géolocalisation de ces projets est obfusquée, c’est-à-dire que les données sont localisées au centroïde du polygone de l'arrondissement ou de la ville liée correspondant.\n\n### Dictionnaire de données\n\n\n\n- IdGeom (Numérique) : Identifiant unique de la géométrie\n\n- Projetnom (Texte variable) : Nom du projet d'habitation\n\n- Phase (Texte variable) : Plusieurs étapes ou sites\n\n- Nlog (Numérique) : Nombre total d’unités par projet/bâtiment \n\n- Nbchambre (Numérique) : Nombre total de chambres par projet/bâtiment\n\n- unites_typ (Texte variable) : Type d'unité (logement ou chambre). Si le projet est mixte, une note apparaît à cet effet \n\n- Type (Liste de valeur) : Projet ou bâtiment selon le type de propriétaire et d'encadrement général\n\n- an_program (Date et/ou heure) : Année associée à la réalisation du projet, soit l'année de construction inscrite au rôle foncier ou l’année d’acquisition ou de disponibilité des unités, le cas échéant. \n\n- Nomrue (Texte variable) : Nom de la rue de l'adresse, concordance au rôle foncier\n\n- arrond (Liste de valeur) : Arrondissement où se situe le projet/bâtiment\n\n- Villelie (Liste de valeur) : Municipalité liée où se situe le projet/ bâtiment dans l'agglomération de Montréal\n\n- Qr (Liste de valeur) : Numéro du quartier de référence en habitation où se situe le projet/bâtiment\n\n- loghlm_fam (Numérique) : Nombre de logements dédiés à des familles ou des personnes seules de moins de 60 ans dans une habitation à loyer modique\n\n- loghlm_pa (Numérique) : Nombre de logements dédiés à des personnes âgées de 60 ans et plus dans une habitation à loyer modique\n\n- loghlm_autres (Numérique) : Nombre de logements dédiés à des personnes ayant des besoins particuliers (logements adaptés, chambres, etc) dans une habitation à loyer modique\n\n- xnad83_ts (Numérique) : Coordonnées X dans le système de projection EPSG 32188 (NAD 83 MTM 8) \n\n- ynad83_ts (Numérique) : Coordonnées Y dans le système de projection EPSG 32188 (NAD 83 MTM 8) \n\n- Long_x (Numérique) : Longitude (WGS 84)  \n\n- Latitud_y (Numérique) : Latitude (WGS 84)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Couverture temporelle": "2007-06-30/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Communautaire",
+      "Coop",
+      "HLM",
+      "Logement",
+      "Logement communautaire",
+      "Logement social",
+      "OBNL",
+      "OMHM",
+      "SH",
+      "SHDM",
+      "Social"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/logements-sociaux",
+    "scraped_at": "2026-03-09T20:12:11.446136+00:00"
+  }
+}

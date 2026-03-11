@@ -1,0 +1,941 @@
+{
+  "slug": "vmtl-permis-construction",
+  "title": "Permis de construction, transformation et démolition",
+  "notes": "Cet ensemble de données présente la liste de tous les permis délivrés aux citoyens par les arrondissements de la ville de Montréal pour la construction, transformation ou démolition d'un bâtiment ou une propriété.\r\n\r\nPlus de détails sur la réglementation régissant ces permis sont disponibles sur [montreal.ca](https://montreal.ca/articles/renovations-quoi-faire-avant-pendant-et-apres-vos-travaux). \r\n\r\n\r\nLe fichier statistique donne une vue globale sur les coûts des permis ainsi que les coûts des travaux estimés regroupés par année d’émission, par arrondissement et par type de permis.\r\n\r\n*À noter que ces coûts n’ont aucune valeur légale et des imprécisions peuvent exister dues aux méthodes de collectes variables selon les arrondissements.*\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-07-03T14:24:23.267350",
+  "metadata_modified": "2026-03-05T08:29:25.377305",
+  "num_resources": 5,
+  "resources": [
+    {
+      "id": "0e5fdc82-8e49-4279-8d82-b453fa064b8b",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYjAxYzI1M2UtMjA0MC00ODM5LWI2ODMtMzVjNjNiNjU2NmZhIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2023-12-14T14:58:34.589491",
+      "schema": null
+    },
+    {
+      "id": "5232a72d-235a-48eb-ae20-bb9d501300ad",
+      "name": "Permis de construction, transformation et démolition",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/d90eaf1b-2de8-43f0-923a-27a620ecdf41/resource/5232a72d-235a-48eb-ae20-bb9d501300ad/download/permis-construction.csv",
+      "datastore_active": true,
+      "size": 181189601,
+      "last_modified": "2026-03-05T06:20:26.104711",
+      "created": "2018-07-03T14:26:07.955826",
+      "schema": {
+        "resource_id": "5232a72d-235a-48eb-ae20-bb9d501300ad",
+        "total_records": 548077,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_permis",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_emission",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "emplacement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "code_type_base_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description_type_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description_type_batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description_categorie_batiment",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nature_travaux",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_logements",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_demande": "1200002398",
+            "id_permis": "1200007309",
+            "date_debut": "1997-07-17",
+            "date_emission": "1997-07-17",
+            "emplacement": "   81  rue Montigny",
+            "arrondissement": "L'Île-Bizard - Sainte-Geneviève",
+            "code_type_base_demande": "TR",
+            "description_type_demande": "Transformation - modification",
+            "description_type_batiment": "Résidentiel",
+            "description_categorie_batiment": "Permis ancien système",
+            "nature_travaux": "CONSTRUCTION D'UN PATIO DE BOIS, TRAITE SUR DEUX NIVEAUX., PATIO SUR BLOCS DE BETON, AVEC, GARDE-CORPS DE 91 CM DE HAUTEUR., 1 IER NIVEAU: 6.00 X 3.50 M",
+            "nb_logements": "0",
+            "longitude": "-73.88862841824243",
+            "latitude": "45.47996351776582",
+            "loc_x": "274417.83",
+            "loc_y": "5037855.47"
+          },
+          {
+            "_id": 2,
+            "no_demande": "1200002403",
+            "id_permis": "1200007315",
+            "date_debut": "1997-07-21",
+            "date_emission": "1997-07-25",
+            "emplacement": "  860  4e Avenue",
+            "arrondissement": "L'Île-Bizard - Sainte-Geneviève",
+            "code_type_base_demande": "TR",
+            "description_type_demande": "Transformation - modification",
+            "description_type_batiment": "Résidentiel",
+            "description_categorie_batiment": "Permis ancien système",
+            "nature_travaux": "TRANSFORME LE GARAGE EN SALLE, FAMILIALE. (18' X 24'), DOIT ETRE CONFORME AU C.N.B. 1990, ET AUX REGLEMENTS MUNICIPAUX., CHANGER LA PORTE DE GARAGE POUR",
+            "nb_logements": "0",
+            "longitude": "-73.8758723362205",
+            "latitude": "45.51782549600123",
+            "loc_x": "275434.76",
+            "loc_y": "5042058.34"
+          },
+          {
+            "_id": 3,
+            "no_demande": "1200002402",
+            "id_permis": "1200007314",
+            "date_debut": "1997-07-23",
+            "date_emission": "1997-07-24",
+            "emplacement": "  340  rue Dubuisson",
+            "arrondissement": "L'Île-Bizard - Sainte-Geneviève",
+            "code_type_base_demande": "TR",
+            "description_type_demande": "Transformation - modification",
+            "description_type_batiment": "Résidentiel",
+            "description_categorie_batiment": "Permis ancien système",
+            "nature_travaux": "CONSTRUCTION D'UN PATIO DE BOIS, TRAITE DE 4.26 X 4.26 M SUR BLOCS, DE BETON., DOIT ETRE CONFORME AU C.N.B. 1990, ET AUX REGLEMENTS MUNICIPAUX.",
+            "nb_logements": "0",
+            "longitude": "-73.88149021851946",
+            "latitude": "45.49720453325869",
+            "loc_x": "274984.97",
+            "loc_y": "5039768.79"
+          },
+          {
+            "_id": 4,
+            "no_demande": "1200002404",
+            "id_permis": "1200007316",
+            "date_debut": "1997-07-24",
+            "date_emission": "1997-07-28",
+            "emplacement": "  140  rue Pierre-Foretier",
+            "arrondissement": "L'Île-Bizard - Sainte-Geneviève",
+            "code_type_base_demande": "CA",
+            "description_type_demande": "Piscine",
+            "description_type_batiment": "Résidentiel",
+            "description_categorie_batiment": "Permis ancien système",
+            "nature_travaux": "CONSTRUCTION D'UNE PISCINE CREUSEE, DE 18 ' X 36 '.PISCINE DE BETON., DOIT ETRE CONFORME A L'ARTICLE, 3.3.4 DU REGLEMENT DE ZONAGE 319., CLOTURE DE MAILLE CIMENTEE DE 5' DE",
+            "nb_logements": "0",
+            "longitude": "-73.86469274508552",
+            "latitude": "45.499327275189785",
+            "loc_x": "276298.84",
+            "loc_y": "5039998.59"
+          },
+          {
+            "_id": 5,
+            "no_demande": "1200002406",
+            "id_permis": "1200007317",
+            "date_debut": "1997-07-24",
+            "date_emission": "1997-07-29",
+            "emplacement": "   21  chemin South Ridge",
+            "arrondissement": "L'Île-Bizard - Sainte-Geneviève",
+            "code_type_base_demande": "CA",
+            "description_type_demande": "Autres Certificats",
+            "description_type_batiment": "Commercial",
+            "description_categorie_batiment": "Permis ancien système",
+            "nature_travaux": "INSTALLATION DE 6 ENTENNES DE, TRANSMISSION SUR LA TOUR D'EAU DU, GOLF ROYAL MONTREAL, ET D'UN ABRI, S'Y RATTACHANT DE 3.65 M X 9.14 M, DOIT ETRE CONFORME AU C.N.B. 1990",
+            "nb_logements": "0",
+            "longitude": "-73.89095048900936",
+            "latitude": "45.49453116674046",
+            "loc_x": "274244.17",
+            "loc_y": "5039475.25"
+          }
+        ]
+      },
+      "field_stats": {
+        "no_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_permis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_emission": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "emplacement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "code_type_base_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description_type_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description_type_batiment": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description_categorie_batiment": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nature_travaux": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_logements": {
+          "null_count": 94,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 17328,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        },
+        "latitude": {
+          "null_count": 17328,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        },
+        "loc_x": {
+          "null_count": 17328,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        },
+        "loc_y": {
+          "null_count": 17328,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 548077,
+        "audited_at": "2026-03-10T00:22:09.983704+00:00",
+        "fields": {
+          "no_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1200000002.0,
+            "max": 1200005804.0,
+            "mean": 1200001075.296,
+            "median": 1200000956.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "id_permis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1200005322.0,
+            "max": 1200007355.0,
+            "mean": 1200006340.758,
+            "median": 1200006320.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1989-12-13",
+            "max_date": "1997-09-08",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_emission": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1990-01-09",
+            "max_date": "1997-09-24",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "emplacement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 875,
+            "top_values": [
+              {
+                "value": "860  4e Avenue",
+                "count": 4
+              },
+              {
+                "value": "850  rue Cherrier",
+                "count": 4
+              },
+              {
+                "value": "1621  chemin du Bord-du-Lac",
+                "count": 4
+              },
+              {
+                "value": "3292  rue Cherrier",
+                "count": 4
+              },
+              {
+                "value": "2085  chemin du Bord-du-Lac",
+                "count": 3
+              },
+              {
+                "value": "400  rue Closse",
+                "count": 3
+              },
+              {
+                "value": "223  rue Saint-Raphaël",
+                "count": 3
+              },
+              {
+                "value": "12  rue Bélair",
+                "count": 3
+              },
+              {
+                "value": "253  rue Saint-Raphaël",
+                "count": 3
+              },
+              {
+                "value": "243  rue Saint-Raphaël",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "L'Île-Bizard - Sainte-Geneviève",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "code_type_base_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "CO",
+                "count": 423
+              },
+              {
+                "value": "TR",
+                "count": 345
+              },
+              {
+                "value": "CA",
+                "count": 202
+              },
+              {
+                "value": "DE",
+                "count": 30
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "description_type_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Construction",
+                "count": 423
+              },
+              {
+                "value": "Transformation - modification",
+                "count": 264
+              },
+              {
+                "value": "Piscine",
+                "count": 200
+              },
+              {
+                "value": "Agrandissement",
+                "count": 81
+              },
+              {
+                "value": "Démolition",
+                "count": 30
+              },
+              {
+                "value": "Autres Certificats",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "description_type_batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Commercial",
+            "max_date": "Usage Multiple",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "description_categorie_batiment": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Permis ancien système",
+            "max_date": "Permis ancien système",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "nature_travaux": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 926,
+            "top_values": [
+              {
+                "value": "EXPIRATION DU PERMIS 1 FEVRIER 94., CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE JUMELEE DE DEUX ETAGES AVEC, GARAGE SIMPLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC",
+                "count": 8
+              },
+              {
+                "value": "INSTALLATION D'UNE PISCINE HORS-, TERRE., DOIT ETRE CONFORME A L'ARTICLE, 3.3.4 DU REGLEMENT DE ZONAGE 319., LA PISCINE NE DOIT PAS ETRE ACCES-",
+                "count": 8
+              },
+              {
+                "value": "INSTALLATION D'UNE PISCINE HORS-, TERRE., DOIT ETRE CONFORME A L'ARTICLE, 3.3.4 DU REGLEMENT DE ZONAGE 319., APPAREIL MECANIQUE ACCESSOIRE A LA",
+                "count": 6
+              },
+              {
+                "value": "CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES AVEC GARAGE, DOUBLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC, ANNEXE.DOIT ETRE CONFORME AU C.N.B.",
+                "count": 5
+              },
+              {
+                "value": "CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES AVEC GARAGE, SIMPLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC, ANNEXE.DOIT ETRE CONFORME AU C.N.B.",
+                "count": 4
+              },
+              {
+                "value": "CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES JUMELEE., CORRECTION SUR PLAN APPROUVE AVEC, ANNEXE. DOIT ETRE CONFORME AU C.N.B, 1990 ET AUX REGLEMENTS MUNICIPAUX.",
+                "count": 4
+              },
+              {
+                "value": "INSTALLATION D'UNE PISCINE HORS-, TERRE., DOIT ETRE CONFORME A L'ARTICLE, 3.3.4 DU REGLEMENT DE ZONAGE 319., FILTREUR ET PONT-SOLEIL: 6'-6\" MIN.",
+                "count": 4
+              },
+              {
+                "value": "EXPIRATION DU PERMIS 20 DEC. 1995., CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES AVEC GARAGE, SIMPLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC",
+                "count": 4
+              },
+              {
+                "value": "CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES AVEC GARAGE, DOUBLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC, ANNEXE. DOIT ETRE CONFORME AU C.N.B",
+                "count": 3
+              },
+              {
+                "value": "CONSTRUCTION D'UNE RESIDENCE UNIFA-, MILIALE DE DEUX ETAGES AVEC GARAGE, SIMPLE INTEGRE., CORRECTION SUR PLAN APPROUVE AVEC, ANNEXE. DOIT ETRE CONFORME AU C.N.B",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "nb_logements": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -1.0,
+            "max": 5.0,
+            "mean": 0.399,
+            "median": 0.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 590
+              },
+              {
+                "value": "1",
+                "count": 393
+              },
+              {
+                "value": "-1",
+                "count": 12
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "longitude": {
+            "null_count": 51,
+            "null_pct": 5.1,
+            "min": -73.942396,
+            "max": -73.855671,
+            "mean": -73.879596,
+            "pct_in_montreal_bbox": 82.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 51,
+            "null_pct": 5.1,
+            "min": 45.472332,
+            "max": 45.519366,
+            "mean": 45.499304,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "loc_x": {
+            "null_count": 51,
+            "null_pct": 5.1,
+            "min": 270213.05,
+            "max": 277009.57,
+            "mean": 275134.0852,
+            "median": 275493.78,
+            "unique_count": 833,
+            "field_type_detected": "numeric"
+          },
+          "loc_y": {
+            "null_count": 51,
+            "null_pct": 5.1,
+            "min": 5037008.45,
+            "max": 5042227.95,
+            "mean": 5040001.5841,
+            "median": 5040245.35,
+            "unique_count": 829,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "311f92e1-224f-43e5-83d3-f578ba23d104",
+      "name": "Permis de construction, transformation et démolition",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/d90eaf1b-2de8-43f0-923a-27a620ecdf41/resource/311f92e1-224f-43e5-83d3-f578ba23d104/download/permis-construction.geojson",
+      "datastore_active": false,
+      "size": 424650149,
+      "last_modified": "2026-03-05T06:19:49.812634",
+      "created": "2018-07-03T14:27:31.884324",
+      "schema": null
+    },
+    {
+      "id": "9c0569b0-1c40-4bf9-abef-add2771f3e21",
+      "name": "Permis de construction, transformation et démolition",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/d90eaf1b-2de8-43f0-923a-27a620ecdf41/resource/9c0569b0-1c40-4bf9-abef-add2771f3e21/download/permis-construction.zip",
+      "datastore_active": false,
+      "size": 81307122,
+      "last_modified": "2026-03-05T06:20:10.054133",
+      "created": "2018-07-03T14:27:45.838169",
+      "schema": null
+    },
+    {
+      "id": "6f875764-9353-43ee-9b7e-0a6abb647c7c",
+      "name": "Statistiques sur les permis de construction, transformation et démolition",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/d90eaf1b-2de8-43f0-923a-27a620ecdf41/resource/6f875764-9353-43ee-9b7e-0a6abb647c7c/download/statistiques-permis-de-construction.csv",
+      "datastore_active": true,
+      "size": 91558,
+      "last_modified": "2026-03-05T06:01:47.120838",
+      "created": "2020-08-25T14:41:36.017049",
+      "schema": {
+        "resource_id": "6f875764-9353-43ee-9b7e-0a6abb647c7c",
+        "total_records": 1661,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "code_type_base_demande",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nombre_permis_emis",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cout_permis_emis",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cout_travaux_estimes",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "annee": "1990",
+            "arrondissement": "Ahuntsic - Cartierville",
+            "code_type_base_demande": "CO",
+            "nombre_permis_emis": "110",
+            "cout_permis_emis": "114132.89",
+            "cout_travaux_estimes": "33677252"
+          },
+          {
+            "_id": 2,
+            "annee": "1990",
+            "arrondissement": "Ahuntsic - Cartierville",
+            "code_type_base_demande": "DE",
+            "nombre_permis_emis": "35",
+            "cout_permis_emis": "3860",
+            "cout_travaux_estimes": null
+          },
+          {
+            "_id": 3,
+            "annee": "1990",
+            "arrondissement": "Ahuntsic - Cartierville",
+            "code_type_base_demande": "TR",
+            "nombre_permis_emis": "328",
+            "cout_permis_emis": "105004.18",
+            "cout_travaux_estimes": "25819273"
+          },
+          {
+            "_id": 4,
+            "annee": "1990",
+            "arrondissement": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "code_type_base_demande": "CO",
+            "nombre_permis_emis": "46",
+            "cout_permis_emis": "78113.54",
+            "cout_travaux_estimes": "23429150"
+          },
+          {
+            "_id": 5,
+            "annee": "1990",
+            "arrondissement": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+            "code_type_base_demande": "DE",
+            "nombre_permis_emis": "21",
+            "cout_permis_emis": "2280",
+            "cout_travaux_estimes": null
+          }
+        ]
+      },
+      "field_stats": {
+        "annee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "code_type_base_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nombre_permis_emis": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "cout_permis_emis": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "cout_travaux_estimes": {
+          "null_count": 402,
+          "null_pct": 24.2,
+          "populated_pct": 75.8
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1661,
+        "audited_at": "2026-03-10T00:22:11.066430+00:00",
+        "fields": {
+          "annee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1990",
+            "max_date": "2013",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 74
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 73
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 73
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 72
+              },
+              {
+                "value": "LaSalle",
+                "count": 72
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 69
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 69
+              },
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 69
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 69
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 68
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "code_type_base_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "CO",
+                "count": 290
+              },
+              {
+                "value": "TR",
+                "count": 276
+              },
+              {
+                "value": "DE",
+                "count": 269
+              },
+              {
+                "value": "CA",
+                "count": 93
+              },
+              {
+                "value": "CA, CO, DE, TR",
+                "count": 35
+              },
+              {
+                "value": "CO, DE, TR",
+                "count": 25
+              },
+              {
+                "value": "CO, DE",
+                "count": 7
+              },
+              {
+                "value": "CA, CO, DE",
+                "count": 4
+              },
+              {
+                "value": "CA, CO, TR",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nombre_permis_emis": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 8.0,
+            "max": 2083.0,
+            "mean": 270.068,
+            "median": 79.5,
+            "unique_count": 460,
+            "field_type_detected": "numeric"
+          },
+          "cout_permis_emis": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 0.0,
+            "max": 6397926.59,
+            "mean": 246261.3783,
+            "median": 77477.5,
+            "unique_count": 963,
+            "field_type_detected": "numeric"
+          },
+          "cout_travaux_estimes": {
+            "null_count": 265,
+            "null_pct": 26.5,
+            "min_date": "100028372",
+            "max_date": "996000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "Construction",
+    "Habitation",
+    "Permis",
+    "Rénovation"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les travaux de construction, de démolition ou encore de rénovation intérieure ou extérieure exigent un permis. Avant de le délivrer, des experts en construction et urbanisme de la ville vérifient si les travaux sont sécuritaires et conformes aux règlements, ce qui fait qu'un permis pourrait être accordé ou non.  Les professionnels accompagnent généralement les citoyens dans leurs démarches. Plus de détails sur la réglementation régissant ces permis sont disponibles sur le site de la ville.\n\n### Collecte et gestion des données\n\n\n\nLa distribution des permis relève des arrondissements. À cet effet, chacun dispose d’un comptoir de service, où il est possible de se procurer le permis désiré.  Les permis liés au domaine de la construction au niveau de l’habitation sont de nature diversifiée (construction, rénovation, démolition, piscine, arbres, etc.). Bien que la plupart des arrondissements utilisent un système technologique commun pour la saisie des demandes, l’ensemble des processus de même que certains attributs de données peuvent varier d’un arrondissement à un autre.\n\n\nÀ noter aussi que les données des arrondissements Lachine et Saint-Léonard ne sont pas disponibles actuellement. La migration de l'ancien système est en cours et ces données seront disponibles d'ici la fin de l'année.\n\n### Géolocalisation\n\n\n\nLa géolocalisation de 73% des permis est faite  à base du centroïde des polygones des unités d’évaluation foncière associées.\nEn raison de migration vers un nouveau système, 24 % des permis n’ont pas un identifiant d’unité d’évaluation foncière. Ces cas sont géolocalisés à partir de l’adresse  au segment de la rue le plus prêt.\nLes 3% restants ne sont pas géolocalisés vu que leurs unités d’évaluation foncière associées n’ont pas de polygone.\n\n\nCes pourcentages sont indicatifs du chargement initial, ceux-ci sont sujets à changement dans le temps.\n\n### Dictionnaire de données\n\n\n\n**Permis de construction, transformation et démolition**\n\n\n- no_demande (numérique) : Numéro de demande d'un permis.\n\n- id_permis (numérique) : Numéro du permis.\n\n- date_debut (date et/ou heure) : Date début de la demande.\n\n- date_emission (date et/ou heure) : Date d'émission du permis.\n\n- emplacement (texte variable) : Adresse concernée par le permis.\n\n- arrondissement (texte variable) : Arrondissement concerné par le permis.\n\n- \n\n\ncode_type_base_demande (liste de valeurs) : Code de la demande.\n\n\n- TR : Transformation.\n\n- DE : Démolition.\n\n- CO : Construction.\n\n- CA  : Certificat d'autorisation.\n\n\n\n- \n\n\ndescription_type_demande (texte variable) : Description de la demande concernée par le permis.\n\n\n- description_type_batiment (texte variable) : Description du type du bâtiment concerné par le permis.\n\n- description_categorie_batiment (texte variable) : Description de la catégorie du bâtiment concerné par le permis.\n\n- nature_travaux(texte variable) : Travaux concernés par le permis.\n\n- nb_logements (numérique) : Nombre de logements concernés par le permis.\n\n- longitude (coordonnées spatiales) : Longitude en WGS84.\n\n- latitude (coordonnées spatiales) : Latitude en WGS84.\n\n- loc_x (coordonnées spatiales) : Coordonnée X en MTM ZONE 8.\n\n- loc_y (coordonnées spatiales) : Coordonnée Y en MTM ZONE 8.\n\n\n\n**Statistiques sur les permis de construction, transformation et démolition**\n\n\n- annee (numérique) : Année d'émission du permis.\n\n- arrondissement (texte variable) : Arrondissement concerné par le permis.\n\n- code_type_base_demande (liste de valeurs) : Code de la demande (type du permis).\n\n- TR: Transformation.\n\n- DE: Démolition.\n\n- CO: Construction.\n\n- CA: Certificat d'autorisation.\n\n\n\n\n\n_NOTE : Pour des raisons de respect de la vie privée , les permis sont regroupés pour tout type de permis confondu si le nombre de permis pour un type donné est en dessous de 10._\n\n\nPour la ressource Statistiques sur les permis de construction, transformation et démolition\n (compilation par code_type_base_demande et arrondissement)\n\n\n- nombre_permis_emis (numérique) : Nombre de permis émis.\n\n- cout_permis_emis (numérique) : Coûts des permis émis.\n\n- cout_travaux_estimes (numérique) : Coûts des travaux estimés.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements",
+      "Couverture temporelle": "1990-01/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Arr.",
+      "Construction",
+      "Habitation",
+      "Permis",
+      "Rénovation"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/permis-construction",
+    "scraped_at": "2026-03-09T20:14:43.665693+00:00"
+  }
+}

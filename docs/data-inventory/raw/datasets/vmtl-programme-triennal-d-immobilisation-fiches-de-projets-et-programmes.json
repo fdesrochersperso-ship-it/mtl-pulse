@@ -1,0 +1,103 @@
+{
+  "slug": "vmtl-programme-triennal-d-immobilisation-fiches-de-projets-et-programmes",
+  "title": "Programme triennal d'immobilisation - fiches de projets et programmes",
+  "notes": "Cet ensemble de données quantitatives et qualitatives concerne les budgets d'investissements prévus pour chaque projet et programme inscrit au Plan triennal d'immobilisation (PTI).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "triennial",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-11-29T18:47:18.581609",
+  "metadata_modified": "2025-02-26T21:55:33.344872",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "3947690a-edd9-4945-b9ad-c3e0dfd74779",
+      "name": "Fiches de plan triennal d'investissement 2018-2020 au format MS Excel",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/7dbea076-c916-4618-a663-f651247b112a/resource/3947690a-edd9-4945-b9ad-c3e0dfd74779/download/pti-2018-2020_donnees_ouvertes.xlsx",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-02-21T16:20:43.596688",
+      "created": "2018-02-06T15:06:41.417032",
+      "schema": null
+    },
+    {
+      "id": "43a780c5-2e27-4417-bc20-6fda26705775",
+      "name": "Fiches de plan triennal d'investissement 2018-2020 au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7dbea076-c916-4618-a663-f651247b112a/resource/43a780c5-2e27-4417-bc20-6fda26705775/download/pti-2018-2020_donnees_ouvertes.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-12-04T18:04:23.325695",
+      "created": "2018-02-06T15:07:08.843557",
+      "schema": null
+    },
+    {
+      "id": "671acd2b-4f6d-426d-a6fa-ea48fc2a45fb",
+      "name": "Fiches de plan triennal d'investissement 2017-2019 au format MS Excel",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/7dbea076-c916-4618-a663-f651247b112a/resource/671acd2b-4f6d-426d-a6fa-ea48fc2a45fb/download/pti2017-2019donnees-ouvertesenvoi20161125.xlsx",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-11-29T18:48:35.418370",
+      "created": "2016-11-29T13:48:35.475130",
+      "schema": null
+    },
+    {
+      "id": "ddb7fcf7-58d8-4726-ba66-8829541fe3a6",
+      "name": "Fiches de plan triennal d'investissement 2017-2019 au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/7dbea076-c916-4618-a663-f651247b112a/resource/ddb7fcf7-58d8-4726-ba66-8829541fe3a6/download/pti2017-2019donnees-ouvertesenvoi20161125.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-12-04T18:07:32.539037",
+      "created": "2016-11-29T14:12:27.029371",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Budget",
+    "Dépense",
+    "Finance",
+    "Investissement",
+    "PTI",
+    "SFEF"
+  ],
+  "web_metadata": {
+    "methodology_text": "Chaque Unité d'affaires établit la liste de ses projets et programmes à planifier dans le cadre du PTI et pour lesquels elle établit une fiche individuelle détaillée avec l'ensemble des données requises.\n\n### Notes importantes\n\n\n\n- Tous les montants sont en milliers de dollars\n\n- Pour les champs répétés pour chaque année du plan triennal, la n-ième année (annoncée dans le dictionnaire de données de la manière suivante [N]) a pour référence la première année du plan. Par exemple, la première année du plan 2018-2020 est 2018.\n\n\n### Dictionnaire de données\n\n\n\n- Projet Investi (numérique) : Numéro de projet investi à 5 caractères.\n\n- Projet description (texte variable) : Intitulé décrivant le projet ou programme.\n\n- Uadm Requerant (numérique) : Numéro de l'unité d'affaires initiatrice du projet/programme à 4 caractères.\n\n- Unité d'affaires Niv 3 (texte variable) : Nom complet de l'unité d'affaires  initiatrice du projet/programme.\n\n- Desc Sous Secteur (texte variable) : Critère définissant la nature du projet: s'agit-il d'un projet de \"développement\" ou d'un projet entrant dans le cadre de \"protection\" des actifs.\n\n- Projet Programme (texte variable) : Ce champ précise s'il s'agit d'un \"Projet\" avec échéance fixe ou d'un \"Programme\" qui peut s'étaler sur plusieurs années et dont l'échéance n'est pas nécessairement arrêtée.\n\n- Indicateur physique 1 & Indicateur physique 2 (texte variable) : Ces indicateurs sont des unités de mesure, susceptibles de donner un aperçu physique des sommes investies et prévues dans chacun des programmes initiés par la Ville. L’objectif est donc de savoir, à titre d’exemple, pour un programme de réfection routière, pour X $ d’investissement dans la réfection des artères, combien de kilomètres ont été réalisés et sont prévues au présent PTI. (2018-2020 seulement).\n\n- Brut_AGGLO_An[N] (numérique) : Montant brut planifié (n-ième année du plan) dans le PTI relevant de la compétence d'agglomération.\n\n- Brut_ARRON_An[N] (numérique) : Montant brut planifié (n-ième année du plan) dans le PTI relevant de la compétence d'arrondissement.\n\n- Brut_CORPO_An[N] (numérique) : Montant brut planifié (n-ième année du plan) dans le PTI relevant de la compétence municipale.\n\n- Dépôt_ARRON_An[N] (numérique) : Dépots effectués (n-ième année du plan) par les promoteurs privés de projets immobiliers,  pour la réalisation des infrastructures,  pour fins de parc… etc, conformément aux règlements de la ville (compétence arrondissement).\n\n- Dépôt_CORPO_An[N] (numérique) : Dépots effectués (n-ième année du plan) par les promoteurs privés de projets immobiliers,  pour la réalisation des infrastructures, pour fins de parc… etc, conformément aux règlements de la ville (compétence municipale).\n\n- SubC_AGGLO_An[N] (numérique) : Subvention en provenance du gouvernement fédéral (n-ième année du plan) pour le financement de projets de compétence d'agglomération.\n\n- SubC_ARRON_An[N] (numérique) : Subvention en provenance du gouvernement fédéral (n-ième année du plan) pour le financement de projets de compétence d'arrondissement.\n\n- SubC_CORPO_An[N] (numérique) : Subvention en provenance du gouvernement fédéral (n-ième année du plan) pour le financement de projets de compétence municipale.\n\n- BF_AGGLO_An[N] (numérique) : Il s'agit essentiellement des paiements au comptant effectués par la ville (n-ième année du plan) pour le financement de projets de compétence d'agglomération.\n\n- BF_CORPO_An[N] (numérique) : Il s'agit essentiellement des paiements au comptant effectués par la ville (n-ième année du plan) pour le financement de projets de compétence municipale.\n\n- SubD_AGGLO_An[N] (numérique) : Subvention en provenance du gouvernement provincial (n-ième année du plan) pour le financement de projets de compétence d'agglomération.\n\n- SubD_CORPO_An[N] (numérique) : Subvention en provenance du gouvernement provincial (n-ième année du plan) pour le financement de projets de compétence municipale.\n\n- Autres_AGGLO_An[N] (numérique) : Toute subvention, contribution ou apport (n-ième année du plan) en provenance d'autres sources autres que celles déjà mentionnées - Compétence d'agglomération.\n\n- Autres_CORPO_An[N] (numérique) : Toute subvention, contribution ou apport (n-ième année du plan) en provenance d'autres sources autres que celles déjà mentionnées - Compétence municipale.\n\n- Coût net avant 2016 (numérique) : Coût net du projet/programme planifié avant l'année courante (An1-1), 2016 dans notre cas.\n\n- Coût net en 2016 (numérique) : Coût net du projet/programme planifié pour l'année courante (An1-1), 2016 dans notre cas.\n\n- N° règlement d'emprunt (autre) : Le N° est de type alfa-numérique.\n\n- Montant règlement d'emprunt (numérique) : Montant du règlement d'emprunt.\n\n- N° de séquence fiche (numérique) : N° Chronolique donnée aux fiches par chacune des UA et représentant les 3 derniers \"Digits\" du N° de fiche.\n\n- N° fiche (autre) : Le N° de fiche est représenté par l'année (2 premiers digits), l'unité d'affaires (4 digits suivants) et N° de séquence (les 3 derniers digits).\n\n- Directeur de service (texte variable) : Nom du directeur de service.\n\n- Responsable du projet (texte variable) : Nom du chef de projet.\n\n- Arrondissement 1 (texte variable) :",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des finances et de l'évaluation foncière",
+      "Couverture temporelle": "2017-01-01/",
+      "Fréquence de mise à jour": "Triennial"
+    },
+    "keywords": [
+      "Budget",
+      "Dépense",
+      "Finance",
+      "Investissement",
+      "PTI",
+      "SFEF"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/programme-triennal-d-immobilisation-fiches-de-projets-et-programmes",
+    "scraped_at": "2026-03-09T20:16:01.547221+00:00"
+  }
+}

@@ -1,0 +1,1569 @@
+{
+  "slug": "vmtl-candidatures",
+  "title": "Élections municipales - Candidatures",
+  "notes": "Les fichiers comportent les informations liées aux différentes candidatures des élections générales des années passées.\r\n\r\nPlusieurs [ensembles de données connexes](https://donnees.montreal.ca/search?q=tags:%C3%89lections) sont disponibles pour l'élection municipale 2021 de Montréal.\r\n\r\nPlus d'informations sur les élections 2025 à Montréal sur le [portail](https://elections.montreal.ca/fr/) prévu à cet effet.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-09-27T13:50:53.222079",
+  "metadata_modified": "2025-10-21T22:00:08.481654",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "5789c988-3147-4e22-af24-8b3e6bb65c04",
+      "name": "Candidatures 2025",
+      "description": "Candidatures de l'élection générale du 2 novembre 2025.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e959d3e2-47a3-4023-b110-91fba52f3fac/resource/5789c988-3147-4e22-af24-8b3e6bb65c04/download/candidatures-2025.csv",
+      "datastore_active": true,
+      "size": 26853,
+      "last_modified": "2025-10-21T19:37:20.540278",
+      "created": "2025-10-07T19:02:34.081900",
+      "schema": {
+        "resource_id": "5789c988-3147-4e22-af24-8b3e6bb65c04",
+        "total_records": 421,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prenom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti politique ou candidat independant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prenom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Poste no",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom": "DUVAL",
+            "Prenom": "Jean",
+            "Parti politique ou candidat independant": "Indépendant",
+            "Nom-Co": null,
+            "Prenom-Co": null,
+            "Titre": null,
+            "Poste no": "0,00"
+          },
+          {
+            "_id": 2,
+            "Nom": "HU",
+            "Prenom": "Fang",
+            "Parti politique ou candidat independant": "Indépendant",
+            "Nom-Co": null,
+            "Prenom-Co": null,
+            "Titre": null,
+            "Poste no": "0,00"
+          },
+          {
+            "_id": 3,
+            "Nom": "KACOU",
+            "Prenom": "Jean-François",
+            "Parti politique ou candidat independant": "Futur Montréal",
+            "Nom-Co": null,
+            "Prenom-Co": null,
+            "Titre": null,
+            "Poste no": "0,00"
+          },
+          {
+            "_id": 4,
+            "Nom": "LE ROUGETEL",
+            "Prenom": "Katy",
+            "Parti politique ou candidat independant": "Indépendant",
+            "Nom-Co": null,
+            "Prenom-Co": null,
+            "Titre": null,
+            "Poste no": "0,00"
+          },
+          {
+            "_id": 5,
+            "Nom": "MARTINEZ FERRADA",
+            "Prenom": "Soraya",
+            "Parti politique ou candidat independant": "Ensemble Montréal - Équipe Soraya",
+            "Nom-Co": null,
+            "Prenom-Co": null,
+            "Titre": null,
+            "Poste no": "0,00"
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom": {
+          "null_count": 1,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "Prenom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti politique ou candidat independant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom-Co": {
+          "null_count": 416,
+          "null_pct": 98.8,
+          "populated_pct": 1.2
+        },
+        "Prenom-Co": {
+          "null_count": 416,
+          "null_pct": 98.8,
+          "populated_pct": 1.2
+        },
+        "Titre": {
+          "null_count": 416,
+          "null_pct": 98.8,
+          "populated_pct": 1.2
+        },
+        "Poste no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 421,
+        "total_records": 421,
+        "audited_at": "2026-03-10T00:14:37.923467+00:00",
+        "fields": {
+          "Nom": {
+            "null_count": 1,
+            "null_pct": 0.2,
+            "unique_count": 387,
+            "top_values": [
+              {
+                "value": "TREMBLAY",
+                "count": 4
+              },
+              {
+                "value": "LEBLANC",
+                "count": 3
+              },
+              {
+                "value": "PIERRE",
+                "count": 3
+              },
+              {
+                "value": "PELLETIER",
+                "count": 3
+              },
+              {
+                "value": "COSTA",
+                "count": 3
+              },
+              {
+                "value": "KACOU",
+                "count": 2
+              },
+              {
+                "value": "MARTINEZ FERRADA",
+                "count": 2
+              },
+              {
+                "value": "RABOUIN",
+                "count": 2
+              },
+              {
+                "value": "SAUVÉ",
+                "count": 2
+              },
+              {
+                "value": "THIBODEAU",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Prenom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 339,
+            "top_values": [
+              {
+                "value": "Jean-François",
+                "count": 6
+              },
+              {
+                "value": "Christopher",
+                "count": 5
+              },
+              {
+                "value": "Luc",
+                "count": 4
+              },
+              {
+                "value": "Nathalie",
+                "count": 4
+              },
+              {
+                "value": "Alain",
+                "count": 4
+              },
+              {
+                "value": "Philippe",
+                "count": 4
+              },
+              {
+                "value": "André",
+                "count": 4
+              },
+              {
+                "value": "Julie",
+                "count": 3
+              },
+              {
+                "value": "Alex",
+                "count": 3
+              },
+              {
+                "value": "Benoit",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti politique ou candidat independant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Projet Montréal - Équipe Luc Rabouin",
+                "count": 103
+              },
+              {
+                "value": "Ensemble Montréal - Équipe Soraya",
+                "count": 90
+              },
+              {
+                "value": "Transition Montréal - Équipe Craig Sauvé",
+                "count": 80
+              },
+              {
+                "value": "Action Montréal - Équipe Gilbert Thibodeau",
+                "count": 58
+              },
+              {
+                "value": "Futur Montréal",
+                "count": 51
+              },
+              {
+                "value": "Indépendant",
+                "count": 21
+              },
+              {
+                "value": "Équipe LaSalle Team",
+                "count": 7
+              },
+              {
+                "value": "Équipe St-Léonard",
+                "count": 5
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 5
+              },
+              {
+                "value": "Parti Outremont",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom-Co": {
+            "null_count": 416,
+            "null_pct": 98.8,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "VILAIN",
+                "count": 1
+              },
+              {
+                "value": "KHANDKER",
+                "count": 1
+              },
+              {
+                "value": "JEAN",
+                "count": 1
+              },
+              {
+                "value": "DEVAUX-GUIZANI",
+                "count": 1
+              },
+              {
+                "value": "NAULT",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Prenom-Co": {
+            "null_count": 416,
+            "null_pct": 98.8,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Maeva",
+                "count": 1
+              },
+              {
+                "value": "Samah",
+                "count": 1
+              },
+              {
+                "value": "Kathlen",
+                "count": 1
+              },
+              {
+                "value": "Alexandre",
+                "count": 1
+              },
+              {
+                "value": "Alain",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Titre": {
+            "null_count": 416,
+            "null_pct": 98.8,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Colistière",
+                "count": 3
+              },
+              {
+                "value": "Colistier",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Poste no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "0,00",
+                "count": 8
+              },
+              {
+                "value": "1,40",
+                "count": 6
+              },
+              {
+                "value": "19,40",
+                "count": 6
+              },
+              {
+                "value": "3,20",
+                "count": 6
+              },
+              {
+                "value": "3,50",
+                "count": 6
+              },
+              {
+                "value": "7,20",
+                "count": 6
+              },
+              {
+                "value": "8,10",
+                "count": 6
+              },
+              {
+                "value": "1,10",
+                "count": 5
+              },
+              {
+                "value": "1,20",
+                "count": 5
+              },
+              {
+                "value": "1,30",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "4e250240-b13d-4c28-8d07-6b19db77cf7b",
+      "name": "Candidatures 2021",
+      "description": "Candidatures de l'élection générale du 7 novembre 2021.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e959d3e2-47a3-4023-b110-91fba52f3fac/resource/4e250240-b13d-4c28-8d07-6b19db77cf7b/download/candidatures-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:57:24.313745",
+      "created": "2021-10-06T19:19:48.578735",
+      "schema": {
+        "resource_id": "4e250240-b13d-4c28-8d07-6b19db77cf7b",
+        "total_records": 340,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti politique ou candidat indépendant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Poste no",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom": "BERNARDO",
+            "Prénom": "Beverly",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 2,
+            "Nom": "CODERRE",
+            "Prénom": "Denis",
+            "Parti politique ou candidat indépendant": "Ensemble Montréal - Équipe Denis Coderre",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 3,
+            "Nom": "DUVAL",
+            "Prénom": "Jean",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 4,
+            "Nom": "HOLNESS",
+            "Prénom": "Balarama",
+            "Parti politique ou candidat indépendant": "Mouvement Montréal",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 5,
+            "Nom": "HU",
+            "Prénom": "Fang",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti politique ou candidat indépendant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Poste no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 340,
+        "total_records": 340,
+        "audited_at": "2026-03-10T00:14:38.873756+00:00",
+        "fields": {
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 318,
+            "top_values": [
+              {
+                "value": "VALLÉE",
+                "count": 3
+              },
+              {
+                "value": "TREMBLAY",
+                "count": 3
+              },
+              {
+                "value": "CODERRE",
+                "count": 2
+              },
+              {
+                "value": "HOLNESS",
+                "count": 2
+              },
+              {
+                "value": "MÉNARD",
+                "count": 2
+              },
+              {
+                "value": "PLANTE",
+                "count": 2
+              },
+              {
+                "value": "THIBODEAU",
+                "count": 2
+              },
+              {
+                "value": "MCCARTY",
+                "count": 2
+              },
+              {
+                "value": "LESSARD",
+                "count": 2
+              },
+              {
+                "value": "BÉLANGER",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Prénom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 277,
+            "top_values": [
+              {
+                "value": "Benoit",
+                "count": 5
+              },
+              {
+                "value": "Daniel",
+                "count": 5
+              },
+              {
+                "value": "Valérie",
+                "count": 4
+              },
+              {
+                "value": "Robert",
+                "count": 4
+              },
+              {
+                "value": "Philippe",
+                "count": 4
+              },
+              {
+                "value": "Denis",
+                "count": 3
+              },
+              {
+                "value": "Luc",
+                "count": 3
+              },
+              {
+                "value": "Eric",
+                "count": 3
+              },
+              {
+                "value": "Marie",
+                "count": 3
+              },
+              {
+                "value": "Caroline",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti politique ou candidat indépendant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Projet Montréal - Équipe Valérie Plante",
+                "count": 103
+              },
+              {
+                "value": "Ensemble Montréal - Équipe Denis Coderre",
+                "count": 97
+              },
+              {
+                "value": "Mouvement Montréal",
+                "count": 68
+              },
+              {
+                "value": "Action Montréal - Équipe Gilbert Thibodeau",
+                "count": 22
+              },
+              {
+                "value": "Indépendant",
+                "count": 17
+              },
+              {
+                "value": "Équipe LaSalle Team",
+                "count": 7
+              },
+              {
+                "value": "Équipe CDN - NDG / Team CDN - NDG",
+                "count": 6
+              },
+              {
+                "value": "Courage - Équipe Sue Montgomery",
+                "count": 6
+              },
+              {
+                "value": "Quartiers Montréal",
+                "count": 5
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom-Co": {
+            "null_count": 336,
+            "null_pct": 98.8,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "CUSSON",
+                "count": 1
+              },
+              {
+                "value": "ISSA",
+                "count": 1
+              },
+              {
+                "value": "MAUZEROLLE",
+                "count": 1
+              },
+              {
+                "value": "ROSSI",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Prénom-Co": {
+            "null_count": 336,
+            "null_pct": 98.8,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Karine",
+                "count": 1
+              },
+              {
+                "value": "Idil",
+                "count": 1
+              },
+              {
+                "value": "Sophie",
+                "count": 1
+              },
+              {
+                "value": "Chantal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Titre": {
+            "null_count": 336,
+            "null_pct": 98.8,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Colistière",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Poste no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.6416,
+            "median": 9.4,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "30e951da-c026-45f5-94d7-abea724f7ab4",
+      "name": "Candidatures 2017",
+      "description": "Candidatures de l'élection générale du 5 novembre 2017.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e959d3e2-47a3-4023-b110-91fba52f3fac/resource/30e951da-c026-45f5-94d7-abea724f7ab4/download/candidatures-2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:56:21.966264",
+      "created": "2021-09-27T13:53:51.226439",
+      "schema": {
+        "resource_id": "30e951da-c026-45f5-94d7-abea724f7ab4",
+        "total_records": 294,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti politique ou candidat indépendant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Poste no",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom": "CODERRE",
+            "Prénom": "Denis",
+            "Parti politique ou candidat indépendant": "Équipe Denis Coderre pour Montréal",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 2,
+            "Nom": "FORTIER",
+            "Prénom": "Jean",
+            "Parti politique ou candidat indépendant": "Coalition Montréal",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 3,
+            "Nom": "GURBERG",
+            "Prénom": "Bernard",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 4,
+            "Nom": "ILUNGA",
+            "Prénom": "Fabrice Ntompa",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          },
+          {
+            "_id": 5,
+            "Nom": "LEMCO",
+            "Prénom": "Tyler",
+            "Parti politique ou candidat indépendant": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0.0
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti politique ou candidat indépendant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Poste no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 294,
+        "total_records": 294,
+        "audited_at": "2026-03-10T00:14:39.746026+00:00",
+        "fields": {
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 284,
+            "top_values": [
+              {
+                "value": "CODERRE",
+                "count": 2
+              },
+              {
+                "value": "FORTIER",
+                "count": 2
+              },
+              {
+                "value": "PLANTE",
+                "count": 2
+              },
+              {
+                "value": "PLOURDE",
+                "count": 2
+              },
+              {
+                "value": "GAUTHIER",
+                "count": 2
+              },
+              {
+                "value": "ROULEAU",
+                "count": 2
+              },
+              {
+                "value": "TREMBLAY",
+                "count": 2
+              },
+              {
+                "value": "BEAUDRY",
+                "count": 2
+              },
+              {
+                "value": "BLANCHET",
+                "count": 2
+              },
+              {
+                "value": "MÉNARD",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Prénom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 231,
+            "top_values": [
+              {
+                "value": "Richard",
+                "count": 7
+              },
+              {
+                "value": "Nathalie",
+                "count": 4
+              },
+              {
+                "value": "Pierre",
+                "count": 4
+              },
+              {
+                "value": "Daniel",
+                "count": 4
+              },
+              {
+                "value": "Julie",
+                "count": 4
+              },
+              {
+                "value": "Valérie",
+                "count": 3
+              },
+              {
+                "value": "Alain",
+                "count": 3
+              },
+              {
+                "value": "Stéphanie",
+                "count": 3
+              },
+              {
+                "value": "Christine",
+                "count": 3
+              },
+              {
+                "value": "Mario",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti politique ou candidat indépendant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 103
+              },
+              {
+                "value": "Projet Montréal - Équipe Valérie Plante",
+                "count": 103
+              },
+              {
+                "value": "Indépendant",
+                "count": 30
+              },
+              {
+                "value": "Vrai changement pour Montréal",
+                "count": 20
+              },
+              {
+                "value": "Coalition Montréal",
+                "count": 18
+              },
+              {
+                "value": "Équipe Barbe Team",
+                "count": 7
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 5
+              },
+              {
+                "value": "Équipe Dauphin Lachine",
+                "count": 5
+              },
+              {
+                "value": "Plateau sans frontières",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom-Co": {
+            "null_count": 291,
+            "null_pct": 99.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "SYMON",
+                "count": 1
+              },
+              {
+                "value": "MAUZEROLLE",
+                "count": 1
+              },
+              {
+                "value": "ROSSI",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Prénom-Co": {
+            "null_count": 291,
+            "null_pct": 99.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "K. John",
+                "count": 1
+              },
+              {
+                "value": "Sophie",
+                "count": 1
+              },
+              {
+                "value": "Chantal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Titre": {
+            "null_count": 291,
+            "null_pct": 99.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Colistière",
+                "count": 2
+              },
+              {
+                "value": "Colistier",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Poste no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.1293,
+            "median": 9.05,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "5ed34590-fc2d-4882-b2df-e1aa459ff986",
+      "name": "Candidatures 2013",
+      "description": "Candidatures de l'élection générale du 3 novembre 2013.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e959d3e2-47a3-4023-b110-91fba52f3fac/resource/5ed34590-fc2d-4882-b2df-e1aa459ff986/download/candidatures-2013.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-09-27T13:57:04.470177",
+      "created": "2021-09-27T13:57:04.524311",
+      "schema": {
+        "resource_id": "5ed34590-fc2d-4882-b2df-e1aa459ff986",
+        "total_records": 480,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Parti",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Prénom-Co",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Poste no",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom": "BERGERON",
+            "Prénom": "Richard",
+            "Parti": "Projet Montréal - Équipe Bergeron",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0
+          },
+          {
+            "_id": 2,
+            "Nom": "BLAIS",
+            "Prénom": "Claude",
+            "Parti": "Indépendant",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0
+          },
+          {
+            "_id": 3,
+            "Nom": "BRÛLÉ",
+            "Prénom": "Michel",
+            "Parti": "Intégrité Montréal",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0
+          },
+          {
+            "_id": 4,
+            "Nom": "CODERRE",
+            "Prénom": "Denis",
+            "Parti": "Équipe Denis Coderre pour Montréal",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0
+          },
+          {
+            "_id": 5,
+            "Nom": "CÔTÉ",
+            "Prénom": "Marcel",
+            "Parti": "Coalition Montréal - Marcel Côté",
+            "Nom-Co": "",
+            "Prénom-Co": "",
+            "Titre": "",
+            "Poste no": 0
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parti": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Prénom-Co": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Poste no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 480,
+        "total_records": 480,
+        "audited_at": "2026-03-10T00:14:40.655229+00:00",
+        "fields": {
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 432,
+            "top_values": [
+              {
+                "value": "CÔTÉ",
+                "count": 5
+              },
+              {
+                "value": "TREMBLAY",
+                "count": 5
+              },
+              {
+                "value": "BERGERON",
+                "count": 3
+              },
+              {
+                "value": "BLANCHET",
+                "count": 3
+              },
+              {
+                "value": "POULIN",
+                "count": 3
+              },
+              {
+                "value": "BÉLANGER",
+                "count": 3
+              },
+              {
+                "value": "COHEN",
+                "count": 3
+              },
+              {
+                "value": "BRÛLÉ",
+                "count": 2
+              },
+              {
+                "value": "CODERRE",
+                "count": 2
+              },
+              {
+                "value": "JOLY",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Prénom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 339,
+            "top_values": [
+              {
+                "value": "Pierre",
+                "count": 14
+              },
+              {
+                "value": "Richard",
+                "count": 8
+              },
+              {
+                "value": "Michel",
+                "count": 8
+              },
+              {
+                "value": "Claude",
+                "count": 7
+              },
+              {
+                "value": "Daniel",
+                "count": 6
+              },
+              {
+                "value": "Nathalie",
+                "count": 5
+              },
+              {
+                "value": "Mario",
+                "count": 5
+              },
+              {
+                "value": "Jean",
+                "count": 5
+              },
+              {
+                "value": "Jean-François",
+                "count": 5
+              },
+              {
+                "value": "François",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Parti": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "Projet Montréal - Équipe Bergeron",
+                "count": 103
+              },
+              {
+                "value": "Équipe Denis Coderre pour Montréal",
+                "count": 100
+              },
+              {
+                "value": "Coalition Montréal - Marcel Côté",
+                "count": 97
+              },
+              {
+                "value": "Vrai changement pour Montréal - Groupe Mélanie Joly",
+                "count": 56
+              },
+              {
+                "value": "Indépendant",
+                "count": 54
+              },
+              {
+                "value": "Intégrité Montréal",
+                "count": 25
+              },
+              {
+                "value": "Équipe Barbe Team – Pro action LaSalle",
+                "count": 7
+              },
+              {
+                "value": "Équipe Andrée Champoux pour Verdun",
+                "count": 7
+              },
+              {
+                "value": "Équipe Savard - option Verdun / Montréal",
+                "count": 7
+              },
+              {
+                "value": "Équipe Anjou",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom-Co": {
+            "null_count": 475,
+            "null_pct": 99.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "PEREZ",
+                "count": 1
+              },
+              {
+                "value": "JOHNSON",
+                "count": 1
+              },
+              {
+                "value": "GIBEAU",
+                "count": 1
+              },
+              {
+                "value": "RACINE",
+                "count": 1
+              },
+              {
+                "value": "KRIEBER",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Prénom-Co": {
+            "null_count": 475,
+            "null_pct": 99.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Albert",
+                "count": 1
+              },
+              {
+                "value": "Marie-Claude",
+                "count": 1
+              },
+              {
+                "value": "Jean-Marc",
+                "count": 1
+              },
+              {
+                "value": "Crystal",
+                "count": 1
+              },
+              {
+                "value": "Janine",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Titre": {
+            "null_count": 475,
+            "null_pct": 99.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Colistière",
+                "count": 3
+              },
+              {
+                "value": "Colistier",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Poste no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.7055,
+            "median": 10.0,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SG",
+    "Élections"
+  ],
+  "web_metadata": {
+    "methodology_text": "La description des postes électifs se retrouve ici.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2013-11-03/2021-11-07",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "SG",
+      "Élections"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/candidatures",
+    "scraped_at": "2026-03-09T19:53:23.535811+00:00"
+  }
+}

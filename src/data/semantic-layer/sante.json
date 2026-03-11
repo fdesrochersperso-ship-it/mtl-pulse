@@ -1,0 +1,2957 @@
+{
+  "category_slug": "sante",
+  "category_name_fr": "Sante",
+  "category_name_en": "Health",
+  "generated_at": "2026-03-09T22:51:34.500618",
+  "dataset_count": 6,
+  "datasets": [
+    {
+      "slug": "vmtl-inspections-preventives-salubrite-service-habitation",
+      "title_fr": "Inspections préventives en salubrité du Service de l'habitation",
+      "title_en": "Inspections Prventives En Salubrit Du Service De L Habitation",
+      "description_fr": "Les données représentent le résultat des inspections préventives effectuées par le Service de l'habitation. Les données incluent : l'état physique des parties inspectées du bâtiment sur une échelle de 1 (excellent) à 6 (très mauvais), le transfert ou non du bâtiment pour une inspection complète et la signification ou non d'un constat d'infraction sans préavis. La période du 1er janvier au 1er juin 2024 a servi de projet pilote au cours duquel plusieurs processus ont été testés et optimisés.",
+      "description_en": "Les Donnes Reprsentent Le Rsultat Des inspections Prventives Effectues Par Le Service De L Habitation Les Donnes Incluent L Tat Physique Des Parties Inspectes Du Btiment Sur Une Chelle De",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "weekly",
+      "total_records": 1934,
+      "temporal_range": {
+        "min": "2024-01-16",
+        "max": "2025-09-25"
+      },
+      "methodology_fr": "### État physique du bâtiment\n\n\n\nL'équipe d'inspection inscrit dans une grille les défauts observés à l'extérieur et dans les parties communes du bâtiment. La grille calcule ensuite une note de 1 à 6 pour chaque composant du bâtiment, selon la norme européenne NEN 2767-1. Cette évaluation n'est pas un bilan complet du bâtiment, notamment car l'intérieur des logements, les systèmes électriques et le système de plomberie ne sont pas inspectés. \n\n\nLa note 1 représente un état \"Excellent\" et la note 6 représente un état \"Très mauvais\", équivalent à un composant en fin de vie. Si le composant n'a pas été observé directement, ou s'il était en cours de rénovations pendant l'inspection, aucune note n'est donnée.\n\n\nLa colonne _moy_composants_inspectes_ montre la note moyenne des composants inspectés, en excluant tout composant non vu ou en rénovations. Plus la moyenne s'approche de 1, meilleur est l'état du bâtiment.\n\n### Bâtiment proposé pour inspection intégrale\n\n\n\nLa colonne _indicateur_insp_integrale_ indique si l'équipe a recommandé que le bâtiment soit inspecté intégralement, y compris ses logements. La décision de proposer le bâtiment pour inspection intégrale se base à la fois sur l'état physique du bâtiment et sur d'autres signes avant-coureurs d'insalubrité, par exemple: la présence de vermine, de mauvaises odeurs, d'humidité excessive. Le Service de l'habitation compile sur une base régulière les bâtiments proposés et établit un plan d'inspection avec l'arrondissement concerné.\n\n### Constats d'infraction sans préavis\n\n\n\nLa colonne _constat_signifie_ précise si un ou des constats d'infractions ont été signifiés, sans préavis, au propriétaire du bâtiment à la suite de l'inspection préventive. Les constats sans préavis concernent des conditions dangereuses affectant les murs extérieurs et les saillies (balcons, escaliers, garde-corps, etc.). Les propriétaires s'exposent à des constats additionnels, non-comptabilisés dans la colonne, en cas d'inspection complète de leur bâtiment. \n\n## Dictionnaire de données\n\n\n\n- no_demande (Numérique) : Identifiant de la demande\n\n- date_inspection (Date) : Date de l'inspection\n\n- fondation (Numérique) :Note pour la fondation\n\n- structure (Numérique) : Note pour la structure \n\n- enveloppe (Numérique) : Note pour l'enveloppe\n\n- ouvertures (Numérique) : Note pour ouvertures\n\n- saillies (Numérique) : Note pour les saillies\n\n- interieur (Numérique) : Note pour la construction ou des finis intérieurs \n\n- moy_composants_inspectes (Numérique) : Note moyenne pour les composants inspectés\n\n- constat_signifie (Liste de valeur) : Constat signifié au propriétaire du bâtiment (oui/non)\n\n- indicateur_insp_integrale (Liste de valeur) : Bâtiment retenu pour inspection intégrale (oui/non)\n\n- adresse (Texte) : Adresse du bâtiment inspecté\n\n- arrondissement (Liste de valeur) : Nom de l'arrondissement où l'inspection a été effectuée\n\n- nombre_unite_logement (Numérique) : Nombre de logements dans le bâtiment inspecté\n\n- statut_dem (Lis",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "GEOJSON",
+        "SHP",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "no_demande",
+          "clean_name_fr": "No Demande",
+          "clean_name_en": "No. Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 3003333285.0,
+          "max": 3003583583.0,
+          "mean": 3003490323.551,
+          "median": 3003512410.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_inspection",
+          "clean_name_fr": "Inspection",
+          "clean_name_en": "Inspection",
+          "description_fr": "Champ inspection",
+          "description_en": "Inspection field",
+          "type": "date",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2024-01-16",
+          "max_date": "2025-09-25",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "fondation",
+          "clean_name_fr": "Fondation",
+          "clean_name_en": "Fondation",
+          "description_fr": "Champ fondation",
+          "description_en": "Fondation field",
+          "type": "numeric",
+          "null_pct": 7.3,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 5,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 799
+            },
+            {
+              "value": "3",
+              "count": 100
+            },
+            {
+              "value": "1",
+              "count": 23
+            },
+            {
+              "value": "4",
+              "count": 4
+            },
+            {
+              "value": "5",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 2.0949,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "structure",
+          "clean_name_fr": "Structure",
+          "clean_name_en": "Structure",
+          "description_fr": "Champ structure",
+          "description_en": "Structure field",
+          "type": "numeric",
+          "null_pct": 81.0,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 165
+            },
+            {
+              "value": "1",
+              "count": 16
+            },
+            {
+              "value": "3",
+              "count": 8
+            },
+            {
+              "value": "4",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 1.9684,
+          "median": 2.0,
+          "warnings_fr": "Champ partiellement rempli (81.0% null)",
+          "warnings_en": "Partially populated field (81.0% null)"
+        },
+        {
+          "raw_name": "enveloppe",
+          "clean_name_fr": "Enveloppe",
+          "clean_name_en": "Enveloppe",
+          "description_fr": "Champ enveloppe",
+          "description_en": "Enveloppe field",
+          "type": "numeric",
+          "null_pct": 0.7,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 657
+            },
+            {
+              "value": "3",
+              "count": 260
+            },
+            {
+              "value": "4",
+              "count": 54
+            },
+            {
+              "value": "1",
+              "count": 14
+            },
+            {
+              "value": "5",
+              "count": 6
+            },
+            {
+              "value": "6",
+              "count": 2
+            }
+          ],
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 2.3827,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "ouvertures",
+          "clean_name_fr": "Ouvertures",
+          "clean_name_en": "Ouvertures",
+          "description_fr": "Champ ouvertures",
+          "description_en": "Ouvertures field",
+          "type": "numeric",
+          "null_pct": 0.4,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 742
+            },
+            {
+              "value": "3",
+              "count": 189
+            },
+            {
+              "value": "4",
+              "count": 29
+            },
+            {
+              "value": "1",
+              "count": 20
+            },
+            {
+              "value": "5",
+              "count": 11
+            },
+            {
+              "value": "6",
+              "count": 5
+            }
+          ],
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 2.2811,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "saillies",
+          "clean_name_fr": "Saillies",
+          "clean_name_en": "Saillies",
+          "description_fr": "Champ saillies",
+          "description_en": "Saillies field",
+          "type": "numeric",
+          "null_pct": 3.2,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 499
+            },
+            {
+              "value": "3",
+              "count": 296
+            },
+            {
+              "value": "4",
+              "count": 121
+            },
+            {
+              "value": "5",
+              "count": 29
+            },
+            {
+              "value": "1",
+              "count": 21
+            },
+            {
+              "value": "6",
+              "count": 2
+            }
+          ],
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 2.6322,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "interieur",
+          "clean_name_fr": "Interieur",
+          "clean_name_en": "Interieur",
+          "description_fr": "Champ interieur",
+          "description_en": "Interieur field",
+          "type": "numeric",
+          "null_pct": 13.4,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 723
+            },
+            {
+              "value": "3",
+              "count": 116
+            },
+            {
+              "value": "1",
+              "count": 14
+            },
+            {
+              "value": "4",
+              "count": 13
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.1478,
+          "median": 2.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "moy_composants_inspectes",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 23,
+          "top_values": [
+            {
+              "value": "2",
+              "count": 315
+            },
+            {
+              "value": "2.2",
+              "count": 217
+            },
+            {
+              "value": "2.4",
+              "count": 113
+            },
+            {
+              "value": "2.6",
+              "count": 78
+            },
+            {
+              "value": "2.8",
+              "count": 74
+            },
+            {
+              "value": "2.5",
+              "count": 50
+            },
+            {
+              "value": "3",
+              "count": 37
+            },
+            {
+              "value": "2.3",
+              "count": 27
+            },
+            {
+              "value": "1.8",
+              "count": 23
+            },
+            {
+              "value": "2.7",
+              "count": 16
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.3063,
+          "median": 2.2,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "constat_signifie",
+          "clean_name_fr": "Constat Signifie",
+          "clean_name_en": "Constat Signifie",
+          "description_fr": "Champ constat signifie",
+          "description_en": "Constat Signifie field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "non",
+              "count": 925
+            },
+            {
+              "value": "oui",
+              "count": 75
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "indicateur_insp_integrale",
+          "clean_name_fr": "Indicateur Insp Integrale",
+          "clean_name_en": "Indicateur Insp Integrale",
+          "description_fr": "Champ indicateur insp integrale",
+          "description_en": "Indicateur Insp Integrale field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "non",
+              "count": 750
+            },
+            {
+              "value": "oui",
+              "count": 250
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "adresse",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "top_values": [
+            {
+              "value": "11960 av. Allard",
+              "count": 1
+            },
+            {
+              "value": "11935 av. Allard",
+              "count": 1
+            },
+            {
+              "value": "11940 av. Allard",
+              "count": 1
+            },
+            {
+              "value": "6395 rue Villeneuve",
+              "count": 1
+            },
+            {
+              "value": "6379 rue Villeneuve",
+              "count": 1
+            },
+            {
+              "value": "6373 rue Villeneuve",
+              "count": 1
+            },
+            {
+              "value": "11965 boul. Langelier",
+              "count": 1
+            },
+            {
+              "value": "11975 boul. Langelier",
+              "count": 1
+            },
+            {
+              "value": "11985 boul. Langelier",
+              "count": 1
+            },
+            {
+              "value": "5985 boul. Roi-René",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 18,
+          "top_values": [
+            {
+              "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+              "count": 287
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 207
+            },
+            {
+              "value": "Ahuntsic - Cartierville",
+              "count": 131
+            },
+            {
+              "value": "Lachine",
+              "count": 94
+            },
+            {
+              "value": "Villeray - Saint-Michel - Parc-Extension",
+              "count": 94
+            },
+            {
+              "value": "Ville-Marie",
+              "count": 69
+            },
+            {
+              "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+              "count": 61
+            },
+            {
+              "value": "Saint-Laurent",
+              "count": 12
+            },
+            {
+              "value": "Mercier - Hochelaga-Maisonneuve",
+              "count": 9
+            },
+            {
+              "value": "Saint-Léonard",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nombre_unite_logement",
+          "clean_name_fr": "Nombre Unite Logement",
+          "clean_name_en": "Count Unit Logement",
+          "description_fr": "Champ nombre",
+          "description_en": "Count field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 132,
+          "min": 4.0,
+          "max": 417.0,
+          "mean": 29.733,
+          "median": 10.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "statut_dem",
+          "clean_name_fr": "Statut Dem",
+          "clean_name_en": "Status Dem",
+          "description_fr": "Champ statut",
+          "description_en": "Status field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "FR",
+              "count": 930
+            },
+            {
+              "value": "ET",
+              "count": 70
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "code_type_demande",
+          "clean_name_fr": "Code Type Demande",
+          "clean_name_en": "Code Type Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "PX",
+              "count": 1000
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "no_ident_uev",
+          "clean_name_fr": "No Ident Uev",
+          "clean_name_en": "No. Ident Uev",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 990,
+          "min": 1000662.0,
+          "max": 5298148.0,
+          "mean": 2866022.7926,
+          "median": 3041521.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "longitude",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.878157,
+          "max": -73.488678,
+          "mean": -73.628614,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "latitude",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.426777,
+          "max": 45.693633,
+          "mean": 45.536657,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "X",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 275229.319695,
+          "max": 305681.820626,
+          "mean": 294753.103179,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Y",
+          "clean_name_fr": "Coordonnee Y (MTM) (Y)",
+          "clean_name_en": "Y coordinate (MTM) (Y)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.2,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5031876.115269,
+          "max": 5061527.634622,
+          "mean": 5044091.621111,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "spatial join via lat/long coordinates",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche",
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection",
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-liste-central-condamnations-salubrite-logements",
+      "title_fr": "Contrevenants condamnés - salubrité, entretien et sécurité des logements",
+      "title_en": "Contrevenants Condamns Salubrit Entretien Et Scurit Des housing",
+      "description_fr": "Cet ensemble de données présente la liste des contrevenants condamnés pour des infractions au Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096), suite à des constats d’infraction émis par la Division de la salubrité du Service de l’habitation.\r\n\r\nÀ noter que les condamnations émises par les arrondissements en vertu du même règlement ne font pas partie de cet ensemble.\r\n\r\nLes [inspections en salubrité](/ville-de-montreal/inspections-salubrite) du Service de l'habitation sont également  disponibles en données ouvertes.\r\n\r\nPour tout autre détail sur la salubrité des logements, veuillez consulter la page [Salubrité, entretien et sécurité des logements](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements) sur le site de la Ville de Montréal.",
+      "description_en": "Cet Ensemble De Donnes Prsente La list Des Contrevenants Condamns Pour Des Infractions Au Rglement Sur La Salubrit L Entretien Et La Scurit Des housing Rvm 03 096 Suite Des Constats D",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "annual",
+      "total_records": 321,
+      "temporal_range": null,
+      "methodology_fr": "Lorsque des situations non conformes aux exigences du Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096) sont constatées, la Ville de Montréal exige que les responsables apportent les correctifs nécessaires afin de se conformer à la réglementation en vigueur. \n\n\nLa Ville peut intenter des poursuites judiciaires contre les personnes morales ou physiques contrevenant à la réglementation (même sans avis préalable) si celles-ci ne se conforment pas au règlement ou n’apportent pas les correctifs demandés dans les délais accordés. De plus, quiconque contrevient à l'une ou l'autre des dispositions du Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096) est passible d’une amende pouvant aller de 250 $ jusqu’à 6 000 $ pour une personne physique ou de 500$ à 10 000 $ pour une personne morale. \n\n\nLes principales infractions constatées au Règlement sur la salubrité, l’entretien et la sécurité des logements (RVM 03-096) sont : \n\n\n• La présence de moisissures ou de conditions favorisant celles-ci; \n\n\n• La présence de vermine (coquerelles, punaises de lit, souris, etc.);\n\n\n• Les problèmes de structure du bâtiment;\n\n\n• Les problèmes d’étanchéité de l’enveloppe extérieure du bâtiment ou des ouvertures dans celle-ci (portes, fenêtres, etc.);\n\n\n• Les défaillances au niveau des systèmes de plomberie, d’électricité, de ventilation ou de chauffage du bâtiment; \n\n\n• Les problèmes avec les garde-corps et les mains-courantes des escaliers, des rampes et des balcons;\n\n\n• Les défaillances au niveau des mécanismes de verrouillage des portes de bâtiments ou de logements; \n\n\n• Les problèmes dans les espaces communs de l’immeuble (corridors, escaliers, buanderie, garage, etc.);\n\n\n• L'omission de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du règlement. \n\n\nEn 2020 et 2021, la Cour municipale a été fermée et les inspections ont été réduites pendant plusieurs mois, en raison de la pandémie. Il y a donc eu moins de jugements rendus ou de condamnations qu'en 2019 ou 2018.\n\n### Dictionnaire de données\n\n\n\n- lieu_infraction_no_civique (Numérique) : Numéro civique où l'infraction a été commise\n\n- lieu_infraction_rue (Texte variable) : Rue où l'infraction a été commise\n\n- \n\n\ncode_arrondissement (Texte variable) : Code alphanumérique représentant l'arrondissement où l'infraction a été commise\n\n\n- ST: Saint-Laurent\n\n- CN:Côtes-des-Neiges/Notre-Dame-de-Grâce\n\n- VM :Ville-Marie\n\n- MN:Montréal-Nord\n\n- VY:Villeray–Saint-Michel–Parc-Extension\n\n- VE:Verdun\n\n- LN:Lachine\n\n- PL:Le Plateau-Mont-Royal\n\n- HM:Mercier–Hochelaga-Maisonneuve\n\n- RO:Rosemont–La Petite-Patrie\n\n- AC:Ahuntsic-Cartierville\n\n- IG: L'Île-Bizard–Ste-Geneviève\n\n\n\n- \n\n\nnom_contrevenant (Texte variable) : Nom du contrevenant\n\n\n- article (Texte variable) : L'article du règlement RVM 03-096 qui définit l'infraction\n\n- nature_infraction (Texte variable) : Description de la nature de l'infraction\n\n- date_infraction (Date) : Date de l",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "lieu_infraction_no_civique",
+          "clean_name_fr": "Infraction",
+          "clean_name_en": "Violation",
+          "description_fr": "Champ infraction",
+          "description_en": "Violation field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 102,
+          "min": 5.0,
+          "max": 16595.0,
+          "mean": 5940.7722,
+          "median": 5605.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "lieu_infraction_rue",
+          "clean_name_fr": "Infraction (lieu_infraction_rue)",
+          "clean_name_en": "Violation (lieu_infraction_rue)",
+          "description_fr": "Champ infraction",
+          "description_en": "Violation field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 87,
+          "top_values": [
+            {
+              "value": "Marquette",
+              "count": 25
+            },
+            {
+              "value": "Grenet",
+              "count": 19
+            },
+            {
+              "value": "Saint-Marc",
+              "count": 15
+            },
+            {
+              "value": "Matte",
+              "count": 15
+            },
+            {
+              "value": "Henri-Bourassa Est",
+              "count": 13
+            },
+            {
+              "value": "Gouin O.",
+              "count": 13
+            },
+            {
+              "value": "De Lille",
+              "count": 12
+            },
+            {
+              "value": "Martial",
+              "count": 11
+            },
+            {
+              "value": "Chaminade",
+              "count": 10
+            },
+            {
+              "value": "Goyer",
+              "count": 9
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "code_arrondissement",
+          "clean_name_fr": "Code Arrondissement",
+          "clean_name_en": "Code Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.3,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 15,
+          "top_values": [
+            {
+              "value": "MN",
+              "count": 84
+            },
+            {
+              "value": "AC",
+              "count": 60
+            },
+            {
+              "value": "CN",
+              "count": 36
+            },
+            {
+              "value": "RO",
+              "count": 34
+            },
+            {
+              "value": "LN",
+              "count": 19
+            },
+            {
+              "value": "VM",
+              "count": 18
+            },
+            {
+              "value": "VY",
+              "count": 18
+            },
+            {
+              "value": "PL",
+              "count": 14
+            },
+            {
+              "value": "ST",
+              "count": 10
+            },
+            {
+              "value": "VE",
+              "count": 8
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nom_contrevenant",
+          "clean_name_fr": "Nom Contrevenant",
+          "clean_name_en": "Name Contrevenant",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 110,
+          "top_values": [
+            {
+              "value": "Principal, Odalbert",
+              "count": 21
+            },
+            {
+              "value": "Say Chanthea",
+              "count": 17
+            },
+            {
+              "value": "4378962 Canada Inc.",
+              "count": 15
+            },
+            {
+              "value": "Ara Begum, Kismat",
+              "count": 12
+            },
+            {
+              "value": "Rodnez Joseph Frantz",
+              "count": 10
+            },
+            {
+              "value": "Qautrini Angelo Antonio",
+              "count": 10
+            },
+            {
+              "value": "Colagiacomo Filiberto",
+              "count": 9
+            },
+            {
+              "value": "Sabatino Caprera",
+              "count": 8
+            },
+            {
+              "value": "Sutheara Charly Taing",
+              "count": 8
+            },
+            {
+              "value": "9216-3948 Québec Inc\n Extermination Roger",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "article",
+          "clean_name_fr": "Article",
+          "clean_name_en": "Article",
+          "description_fr": "Champ article",
+          "description_en": "Article field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 43,
+          "top_values": [
+            {
+              "value": "66",
+              "count": 57
+            },
+            {
+              "value": "12",
+              "count": 41
+            },
+            {
+              "value": "25.1",
+              "count": 34
+            },
+            {
+              "value": "25 al.2 par.10",
+              "count": 33
+            },
+            {
+              "value": "26",
+              "count": 19
+            },
+            {
+              "value": "25 al.2 par.9",
+              "count": 12
+            },
+            {
+              "value": "34",
+              "count": 11
+            },
+            {
+              "value": "25 al. 2 par. 9",
+              "count": 10
+            },
+            {
+              "value": "9",
+              "count": 9
+            },
+            {
+              "value": "60",
+              "count": 9
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nature_infraction",
+          "clean_name_fr": "Infraction (nature_infraction)",
+          "clean_name_en": "Violation (nature_infraction)",
+          "description_fr": "Champ infraction",
+          "description_en": "Violation field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 120,
+          "top_values": [
+            {
+              "value": "En ayant omis de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du présent règlement.",
+              "count": 18
+            },
+            {
+              "value": "En ayant une partie ou un accessoire d'un bâtiment qui ne rempli pas les fonctions pour lesquelles il a été conçu",
+              "count": 18
+            },
+            {
+              "value": "en ayant une partie ou un accessoire d'un bâtiment qui ne rempli pas les fonctions pour lesquelles il a été conçu",
+              "count": 18
+            },
+            {
+              "value": "en ayant une partie ou un accessoire d'un bâtiment n'étant pas maintenues en bon état (art.25.1)",
+              "count": 16
+            },
+            {
+              "value": "En ayant omis de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du présent règlement",
+              "count": 13
+            },
+            {
+              "value": "en ayant de la moisissure logement",
+              "count": 12
+            },
+            {
+              "value": "en ayant une partie ou un accessoire d'un  bâtiment n'étant pas maintenues en bon état (art.25.1)",
+              "count": 12
+            },
+            {
+              "value": "En ayant une partie constituante d'un bâtiment qui n'a pas été réparée ou remplacée au besoin",
+              "count": 10
+            },
+            {
+              "value": "En ayant de la moisissure logement",
+              "count": 8
+            },
+            {
+              "value": "Étant gestionnaire de parasites en ayant procédé à une extermination de punaises de lit sans avoir fourni à l'autorité compétente dans les 10 jours suivant l'extermination une copie de la déclaration d'inspection préalable prévue au paragraphe 1 du présent règlement.",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_infraction",
+          "clean_name_fr": "Infraction (date_infraction)",
+          "clean_name_en": "Violation (date_infraction)",
+          "description_fr": "Champ infraction",
+          "description_en": "Violation field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "date_jugement",
+          "clean_name_fr": "Date Jugement",
+          "clean_name_en": "Date Jugement",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "amende_imposee",
+          "clean_name_fr": "Amende Imposee",
+          "clean_name_en": "Amende Imposee",
+          "description_fr": "Champ fin",
+          "description_en": "End field",
+          "type": "text",
+          "null_pct": 0.6,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 25,
+          "top_values": [
+            {
+              "value": "675,00 $",
+              "count": 60
+            },
+            {
+              "value": "1 350,00 $",
+              "count": 48
+            },
+            {
+              "value": "250,00 $",
+              "count": 42
+            },
+            {
+              "value": "1 500,00 $",
+              "count": 39
+            },
+            {
+              "value": "500,00 $",
+              "count": 39
+            },
+            {
+              "value": "2 000,00 $",
+              "count": 22
+            },
+            {
+              "value": "400,00 $",
+              "count": 9
+            },
+            {
+              "value": "3 000,00 $",
+              "count": 9
+            },
+            {
+              "value": "750,00 $",
+              "count": 7
+            },
+            {
+              "value": "900,00 $",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-inspections-salubrite",
+      "title_fr": "Inspections de salubrité du Service de l'habitation",
+      "title_en": "Inspections De Salubrit Du Service De L Habitation",
+      "description_fr": "Cet ensemble de données contient des informations sur les inspections effectuées par la Division de la salubrité du Service de l’habitation (anciennement le Service de la mise en valeur du territoire).\r\n\r\nLa Ville de Montréal, par son [Règlement sur la salubrité, l’entretien et la sécurité des logements (R.V.M. 03-096)](https://montreal.ca/reglements-municipaux/recherche/60d7656afd6531443f578d96), veille à assurer la salubrité, le bon entretien et la sécurité des logements et des bâtiments résidentiels sur son territoire. \r\n\r\nPar salubrité, on entend l’ensemble des conditions rendant un logement propre à l’habitation.\r\n\r\nPour en savoir plus sur les efforts déployés par la Ville de Montréal en matière de salubrité des logements, consultez le [Plan d’action pour des conditions de logement décentes 2018-2021](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements).\r\n\r\n**Note:** Le présent ensemble concerne uniquement les inspections effectuées par la Division de la salub",
+      "description_en": "Cet Ensemble De Donnes Contient Des Informations Sur Les inspections Effectues Par La Division De La Salubrit Du Service De Lhabitation Anciennement Le Service De La Mise En Valeur Du Territoire",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "quarterly",
+      "total_records": 2453,
+      "temporal_range": null,
+      "methodology_fr": "La plupart des inspections visant l’application du Règlement 03-096 sont réalisées par le personnel des arrondissements montréalais à la suite de plaintes ou de requêtes soumises à la Ville de Montréal via le système d’appel 311 et dans les Bureaux Accès Montréal (BAM). Or, dans les cas complexes ou de grande ampleur, les arrondissements peuvent transférer certains dossiers de salubrité au Service central de l’habitation par le biais d’ententes. \n\n\nActive depuis 2007, la Division de la salubrité du Service de l’habitation procède ainsi à des inspections sur demande des arrondissements, et ce, sur l’ensemble du",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "ZIP",
+        "GEOJSON",
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "no_demande",
+          "clean_name_fr": "No Demande",
+          "clean_name_en": "No. Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 3000127288.0,
+          "max": 3003612856.0,
+          "mean": 3001123222.122,
+          "median": 3000708104.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 10,
+          "top_values": [
+            {
+              "value": "Saint-Laurent",
+              "count": 283
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 174
+            },
+            {
+              "value": "Lachine",
+              "count": 151
+            },
+            {
+              "value": "Verdun",
+              "count": 104
+            },
+            {
+              "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+              "count": 103
+            },
+            {
+              "value": "Saint-Léonard",
+              "count": 72
+            },
+            {
+              "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+              "count": 62
+            },
+            {
+              "value": "Rosemont - La Petite-Patrie",
+              "count": 26
+            },
+            {
+              "value": "Villeray - Saint-Michel - Parc-Extension",
+              "count": 16
+            },
+            {
+              "value": "Le Plateau-Mont-Royal",
+              "count": 9
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_premiere_inspection",
+          "clean_name_fr": "Inspection",
+          "clean_name_en": "Inspection",
+          "description_fr": "Champ inspection",
+          "description_en": "Inspection field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "statut_demande",
+          "clean_name_fr": "Statut Demande",
+          "clean_name_en": "Status Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Fermée",
+              "count": 899
+            },
+            {
+              "value": "Étude",
+              "count": 101
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nb_unite_logement",
+          "clean_name_fr": "Nombre Unite Logement",
+          "clean_name_en": "Count Unit Logement",
+          "description_fr": "Champ unite",
+          "description_en": "Unit field",
+          "type": "numeric",
+          "null_pct": 87.5,
+          "quality": "poor",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 33,
+          "min": 1.0,
+          "max": 198.0,
+          "mean": 21.304,
+          "median": 8.0,
+          "warnings_fr": "Champ partiellement rempli (87.5% null)",
+          "warnings_en": "Partially populated field (87.5% null)"
+        },
+        {
+          "raw_name": "nb_logements_non_conformes",
+          "clean_name_fr": "Nombre Logements Non Conformes",
+          "clean_name_en": "Count Logements No Conformes",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 78,
+          "min": 0.0,
+          "max": 192.0,
+          "mean": 12.902,
+          "median": 7.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nb_non_conformite",
+          "clean_name_fr": "Nombre Non Conformite",
+          "clean_name_en": "Count No Conformite",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 256,
+          "min": 0.0,
+          "max": 1587.0,
+          "mean": 89.718,
+          "median": 54.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "taux_correction",
+          "clean_name_fr": "Taux Correction",
+          "clean_name_en": "Rate Correction",
+          "description_fr": "Champ taux",
+          "description_en": "Rate field",
+          "type": "numeric",
+          "null_pct": 89.9,
+          "quality": "poor",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 62,
+          "min": 0.0,
+          "max": 0.8734,
+          "mean": 0.29,
+          "median": 0.1333,
+          "warnings_fr": "Champ partiellement rempli (89.9% null)",
+          "warnings_en": "Partially populated field (89.9% null)"
+        },
+        {
+          "raw_name": "quartier_de_reference_num",
+          "clean_name_fr": "Reference",
+          "clean_name_en": "Reference",
+          "description_fr": "Champ reference",
+          "description_en": "Reference field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 12,
+          "top_values": [
+            {
+              "value": "61",
+              "count": 174
+            },
+            {
+              "value": "56",
+              "count": 169
+            },
+            {
+              "value": "70",
+              "count": 151
+            },
+            {
+              "value": "64",
+              "count": 104
+            },
+            {
+              "value": "42",
+              "count": 103
+            },
+            {
+              "value": "59",
+              "count": 74
+            },
+            {
+              "value": "62",
+              "count": 72
+            },
+            {
+              "value": "54",
+              "count": 62
+            },
+            {
+              "value": "55",
+              "count": 40
+            },
+            {
+              "value": "18",
+              "count": 26
+            }
+          ],
+          "min": 9.0,
+          "max": 70.0,
+          "mean": 56.908,
+          "median": 61.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "quartier_de_reference_nom",
+          "clean_name_fr": "Reference (quartier_de_reference_nom)",
+          "clean_name_en": "Reference (quartier_de_reference_nom)",
+          "description_fr": "Champ reference",
+          "description_en": "Reference field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 12,
+          "top_values": [
+            {
+              "value": "Est",
+              "count": 174
+            },
+            {
+              "value": "Grenet",
+              "count": 169
+            },
+            {
+              "value": "Vieux-Lachine - Saint-Pierre",
+              "count": 151
+            },
+            {
+              "value": "Verdun-Centre",
+              "count": 104
+            },
+            {
+              "value": "Parc-Kent",
+              "count": 103
+            },
+            {
+              "value": "Du College/Hodge",
+              "count": 74
+            },
+            {
+              "value": "Port-Maurice",
+              "count": 72
+            },
+            {
+              "value": "Pointe-aux-Trembles",
+              "count": 62
+            },
+            {
+              "value": "Chameran/Montpellier",
+              "count": 40
+            },
+            {
+              "value": "Vieux-Rosemont",
+              "count": 26
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "x",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 288747.513175,
+          "max": 305542.67747,
+          "mean": 294614.119761,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "y",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5032640.994761,
+          "max": 5059409.141785,
+          "mean": 5043510.925156,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "longitude",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.705482,
+          "max": -73.490471,
+          "mean": -73.63038,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "latitude",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.433573,
+          "max": 45.674571,
+          "mean": 45.531427,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "spatial join via lat/long coordinates",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection"
+      ]
+    },
+    {
+      "slug": "vmtl-avis-deterioration",
+      "title_fr": "Avis de détérioration",
+      "title_en": "Avis De Dtrioration",
+      "description_fr": "L’avis de détérioration permet de rattacher des infractions au _Règlement 23-016 sur l'occupation et l'entretien des bâtiments_ à des bâtiments précis par le biais d'une inscription au registre foncier du Québec. Il sert à empêcher qu'un propriétaire n'évite des sanctions en vendant son immeuble à une société apparentée ou à un autre acheteur. Ce pouvoir est utilisé dans le cas de bâtiments sujets à une détérioration susceptible de porter atteinte à la santé ou à la sécurité des occupants, et dont le propriétaire n’effectue pas les travaux de réfection, de réparation ou d'entretien exigés dans les délais prescrits. Un avis de régularisation est émis lorsque toutes les infractions rattachées au bâtiment sont corrigées et a comme effet le retrait de l'avis de détérioration.",
+      "description_en": "Lavis De Dtrioration Permet De Rattacher Des Infractions Au Rglement 23 016 Sur L Occupation Et L Entretien Des Btiments Des Btiments Prcis Par Le Biais D Une Inscription Au Registre Foncie",
+      "publisher": "Service de l'habitation / Service de l'urbanisme et de la mobilité",
+      "update_frequency": "irregular",
+      "total_records": 38,
+      "temporal_range": null,
+      "methodology_fr": "Consignation manuelle des données des avis de détérioration actifs à la date de mise à jour du présent ensemble.\n\n\nNotez qu'il est possible de consulter et télécharger les avis en naviguant vers le lien fourni dans le fichier.\n\n### Dictionnaire de données\n\n\n\n- identifiant (texte variable) : Identifiant de l'avis.\n\n- adresse (texte variable) : Adresse du bâtiment visé par l'avis.\n\n- numero_lot (numérique) : Numéro de lot.\n\n- arrondissement (texte variable) : Nom de l'arrondissement.\n\n- date_inscription (date et/ou heure) : Date d'inscription de l'avis de détérioration au registre foncier du Québec.\n\n- nom_proprio (texte variable) : Nom du propriétaire visé par l’avis au moment de l'inscription de cet avis.\n\n- nombre_logement (numérique) : Nombre de logements inscrit au rôle foncier.\n\n- lien_avis (texte variable) : Lien qui permet de consulter le document.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "identifiant",
+          "clean_name_fr": "Identifiant",
+          "clean_name_en": "Identifier",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 38,
+          "top_values": [
+            {
+              "value": "AD_2511_2517_rue_de_Chateauguay_SO",
+              "count": 1
+            },
+            {
+              "value": "AD_6914_rue_Hutchison_VSMPE",
+              "count": 1
+            },
+            {
+              "value": "AD_4651_4657_rue_St_Andre_PMR",
+              "count": 1
+            },
+            {
+              "value": "AD_11344_rue_Ethier_MN",
+              "count": 1
+            },
+            {
+              "value": "AD_5830_5854_boulevard_Gouin_Ouest_AC",
+              "count": 1
+            },
+            {
+              "value": "AD_12296_rue_Grenet_AC",
+              "count": 1
+            },
+            {
+              "value": "AD_5280_5286_boulevard_Henri_Bourassa_Est_MN",
+              "count": 1
+            },
+            {
+              "value": "AD_boulevard_de_Chateauneuf_ANJ",
+              "count": 1
+            },
+            {
+              "value": "AD_7044_avenue_Papineau_RPP",
+              "count": 1
+            },
+            {
+              "value": "AD_11240_boulevard_Lacordaire_MN",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "adresse",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 38,
+          "top_values": [
+            {
+              "value": "2511-2517, rue de Châteauguay",
+              "count": 1
+            },
+            {
+              "value": "6914, rue Hutchison",
+              "count": 1
+            },
+            {
+              "value": "4651-4657, rue St-André",
+              "count": 1
+            },
+            {
+              "value": "11344, rue Éthier",
+              "count": 1
+            },
+            {
+              "value": "5830-5854, boulevard Gouin Ouest",
+              "count": 1
+            },
+            {
+              "value": "12296, rue Grenet",
+              "count": 1
+            },
+            {
+              "value": "5280-5286, Henri-Bourassa Est",
+              "count": 1
+            },
+            {
+              "value": "8325-8327, boulevard de Chateauneuf",
+              "count": 1
+            },
+            {
+              "value": "7044 avenue Papineau",
+              "count": 1
+            },
+            {
+              "value": "11240 boulevard Lacordaire",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "numero_lot",
+          "clean_name_fr": "Numero Lot",
+          "clean_name_en": "No. Lot",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 34,
+          "min": 1094161.0,
+          "max": 3946579.0,
+          "mean": 2112720.1842,
+          "median": 1985333.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 16,
+          "top_values": [
+            {
+              "value": "Montréal-Nord",
+              "count": 9
+            },
+            {
+              "value": "Saint-Laurent",
+              "count": 5
+            },
+            {
+              "value": "Villeray–Saint-Michel–Parc-Extension",
+              "count": 4
+            },
+            {
+              "value": "Rosemont–La Petite-Patrie",
+              "count": 4
+            },
+            {
+              "value": "Le Plateau–Mont-Royal",
+              "count": 3
+            },
+            {
+              "value": "Ahuntsic-Cartierville",
+              "count": 3
+            },
+            {
+              "value": "Le Sud-Ouest",
+              "count": 1
+            },
+            {
+              "value": "Anjou",
+              "count": 1
+            },
+            {
+              "value": "Lachine",
+              "count": 1
+            },
+            {
+              "value": "Saint-Léonard",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "date_inscription",
+          "clean_name_fr": "Date Inscription",
+          "clean_name_en": "Date Inscription",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "nom_proprio",
+          "clean_name_fr": "Nom Proprio",
+          "clean_name_en": "Name Proprio",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 30,
+          "top_values": [
+            {
+              "value": "9535-4817 Québec inc.",
+              "count": 5
+            },
+            {
+              "value": "Stevens Coulombe",
+              "count": 2
+            },
+            {
+              "value": "Chanthea Say - Cok Ly Taing - Sutheara Charly Taing - Suthearith Willy Taing",
+              "count": 2
+            },
+            {
+              "value": "Agostino La Rocca",
+              "count": 2
+            },
+            {
+              "value": "Jean-Onel d'Haïti",
+              "count": 2
+            },
+            {
+              "value": "3971147 Canada inc.",
+              "count": 1
+            },
+            {
+              "value": "Rikva Sebag",
+              "count": 1
+            },
+            {
+              "value": "Sultan Kadir",
+              "count": 1
+            },
+            {
+              "value": "INVESTISSEMENTS TNTNT INC.",
+              "count": 1
+            },
+            {
+              "value": "Vladimir Exacte",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nombre_logement",
+          "clean_name_fr": "Nombre Logement",
+          "clean_name_en": "Count Logement",
+          "description_fr": "Champ nombre",
+          "description_en": "Count field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 21,
+          "top_values": [
+            {
+              "value": "8",
+              "count": 6
+            },
+            {
+              "value": "3",
+              "count": 5
+            },
+            {
+              "value": "S/O",
+              "count": 4
+            },
+            {
+              "value": "5",
+              "count": 3
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "14",
+              "count": 2
+            },
+            {
+              "value": "21",
+              "count": 1
+            },
+            {
+              "value": "2",
+              "count": 1
+            },
+            {
+              "value": "27",
+              "count": 1
+            },
+            {
+              "value": "26",
+              "count": 1
+            }
+          ],
+          "min": 0.0,
+          "max": 369.0,
+          "mean": 22.7647,
+          "median": 8.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "lien_avis",
+          "clean_name_fr": "Lien Avis",
+          "clean_name_en": "Link Avis",
+          "description_fr": "Champ lien",
+          "description_en": "Link field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 38,
+          "top_values": [
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_2511_2517_rue_de_Chateauguay_SO.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_6914_rue_Hutchison_VSMPE.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_4651_4657_rue_St-Andre_PMR.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_11344_rue_Ethier_MN.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_5830_5854_boulevard_Gouin_Ouest_AC.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_12296_rue_Grenet_AC.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_5280_5286_boulevard_Henri-Bourassa_Est_MN.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_boulevard_de_Chateauneuf_ANJ.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_7044_avenue_Papineau_RPP.pdf",
+              "count": 1
+            },
+            {
+              "value": "https://depot.ville.montreal.qc.ca/avis-deterioration/AD_11240_boulevard_Lacordaire_MN.pdf",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-indicateur-priorite-inspection",
+      "title_fr": "Indicateur de priorité d'inspection de 2018",
+      "title_en": "Indicateur De Priorit D inspection De 2018",
+      "description_fr": "Cet ensemble résulte d'analyses statistiques réalisées par le Service de l'habitation de la Ville de Montréal. L’indicateur de priorité d'inspection vise à identifier les adresses les plus susceptibles de présenter des enjeux de salubrité afin de les faire inspecter par son équipe d’inspecteurs.",
+      "description_en": "Cet Ensemble Rsulte D Analyses statistics Ralises Par Le Service De L Habitation De La city De Montral Lindicateur De Priorit D inspection Vise Identifier Les Adresses Les Plus Susceptible",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "notPlanned",
+      "total_records": 69408,
+      "temporal_range": null,
+      "methodology_fr": "La Ville de Montréal a développé l’indicateur de priorité d'inspection pour se doter d’un portrait complet indiquant la localisation des logements pouvant posant problème sur le plan de la salubrité sur son",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "Id",
+          "clean_name_fr": "Identifiant",
+          "clean_name_en": "Identifier",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 1.0,
+          "max": 1000.0,
+          "mean": 500.5,
+          "median": 500.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "Le Plateau-Mont-Royal",
+              "count": 697
+            },
+            {
+              "value": "Ville-Marie",
+              "count": 272
+            },
+            {
+              "value": "Le Sud-Ouest",
+              "count": 30
+            },
+            {
+              "value": "Verdun",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nblog_batiment",
+          "clean_name_fr": "Nblog Batiment",
+          "clean_name_en": "Nblog Building",
+          "description_fr": "Champ nombre",
+          "description_en": "Count field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "requetes311_logement_2013_2017",
+          "clean_name_fr": "Requetes311 Logement 2013 2017",
+          "clean_name_en": "Requetes311 Logement 2013 2017",
+          "description_fr": "Champ requete",
+          "description_en": "Request field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 10,
+          "top_values": [
+            {
+              "value": "0",
+              "count": 838
+            },
+            {
+              "value": "1",
+              "count": 104
+            },
+            {
+              "value": "2",
+              "count": 37
+            },
+            {
+              "value": "3",
+              "count": 12
+            },
+            {
+              "value": "8",
+              "count": 2
+            },
+            {
+              "value": "4",
+              "count": 2
+            },
+            {
+              "value": "5",
+              "count": 2
+            },
+            {
+              "value": "37",
+              "count": 1
+            },
+            {
+              "value": "7",
+              "count": 1
+            },
+            {
+              "value": "6",
+              "count": 1
+            }
+          ],
+          "min": 0.0,
+          "max": 37.0,
+          "mean": 0.298,
+          "median": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "priorite_inspection",
+          "clean_name_fr": "Inspection",
+          "clean_name_en": "Inspection",
+          "description_fr": "Champ inspection",
+          "description_en": "Inspection field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "Inspection non prévue",
+              "count": 968
+            },
+            {
+              "value": "Priorité faible",
+              "count": 28
+            },
+            {
+              "value": "Priorité élevée",
+              "count": 2
+            },
+            {
+              "value": "Priorité moyenne",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "longitude",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.595933,
+          "max": -73.552883,
+          "mean": -73.582189,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "latitude",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.47199,
+          "max": 45.526264,
+          "mean": 45.514614,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "X",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 297305.214998,
+          "max": 300666.954992,
+          "mean": 298378.639445,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Y",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5036897.99978,
+          "max": 5042931.345781,
+          "mean": 5041636.10089,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "spatial join via lat/long coordinates"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-declarations-exterminations-punaises-de-lit",
+      "title_fr": "Déclarations des exterminations de punaises de lit par des gestionnaires de parasites",
+      "title_en": "Dclarations Des Exterminations De Punaises De Lit Par Des Gestionnaires De Parasites",
+      "description_fr": "Déclarations des gestionnaires de parasites. Les formulaires de déclaration ont été soumis depuis le 5 juillet 2011. Les données ont un faible degré de fiabilité car elles sont consignées manuellement par des tiers, soit les gestionnaires de parasites et *ne font l'objet d'aucune validation de la part de la Ville de Montréal*.",
+      "description_en": "Dclarations Des Gestionnaires De Parasites Les Formulaires De Dclaration Ont T Soumis Depuis Le 5 Juillet 2011 Les Donnes Ont Un Faible Degr De Fiabilit Car Elles Sont Consignes Manuellement",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "quarterly",
+      "total_records": 52193,
+      "temporal_range": {
+        "min": "2011-07-06",
+        "max": "2025-07-31T15:59:22"
+      },
+      "methodology_fr": "Il est opportun de mettre en contexte les données issues des déclarations selon le nombre de logements dans le quartier de référence ou dans l'arrondissement.\n\n### Couverture territoriale\n\n\n\nLes déclarations liées à des immeubles non résidentiels ou à des immeubles hors du",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "ZIP",
+        "GEOJSON",
+        "WEB",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "NO_DECLARATION",
+          "clean_name_fr": "Ratio",
+          "clean_name_en": "Ratio",
+          "description_fr": "Champ ratio",
+          "description_en": "Ratio field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "min": 114.0,
+          "max": 53355.0,
+          "mean": 27331.084,
+          "median": 27840.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "DATE_DECLARATION",
+          "clean_name_fr": "Ratio (DATE_DECLARATION)",
+          "clean_name_en": "Ratio (DATE_DECLARATION)",
+          "description_fr": "Champ ratio",
+          "description_en": "Ratio field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2011-07-06T16:07:08",
+          "max_date": "2025-07-31T15:59:22",
+          "date_format": "YYYY-MM-DDThh:mm:ss",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "DATE_INSP_VISPRE",
+          "clean_name_fr": "Date Insp Vispre",
+          "clean_name_en": "Date Insp Vispre",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2011-07-06",
+          "max_date": "2025-07-04",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NBR_EXTERMIN",
+          "clean_name_fr": "Nbr Extermin",
+          "clean_name_en": "Nbr Extermin",
+          "description_fr": "Champ nombre",
+          "description_en": "Count field",
+          "type": "numeric",
+          "null_pct": 21.3,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 4,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 590
+            },
+            {
+              "value": "2",
+              "count": 91
+            },
+            {
+              "value": "4",
+              "count": 54
+            },
+            {
+              "value": "3",
+              "count": 52
+            }
+          ],
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 1.4536,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "DATE_DEBUTTRAIT",
+          "clean_name_fr": "Date de debut",
+          "clean_name_en": "Start date",
+          "description_fr": "Champ date de debut",
+          "description_en": "Start date field",
+          "type": "date",
+          "null_pct": 21.3,
+          "quality": "usable",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2011-07-06",
+          "max_date": "2025-07-23",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "DATE_FINTRAIT",
+          "clean_name_fr": "Date Fintrait",
+          "clean_name_en": "Date Fintrait",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 21.3,
+          "quality": "usable",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2011-07-11",
+          "max_date": "2025-07-23",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "No_QR",
+          "clean_name_fr": "Numero",
+          "clean_name_en": "Number",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "30",
+              "count": 640
+            },
+            {
+              "value": "24",
+              "count": 360
+            }
+          ],
+          "min": 24.0,
+          "max": 30.0,
+          "mean": 27.84,
+          "median": 30.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NOM_QR",
+          "clean_name_fr": "Nom Qr",
+          "clean_name_en": "Name Qr",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Sainte-Marie",
+              "count": 640
+            },
+            {
+              "value": "Beaurivage",
+              "count": 360
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NOM_ARROND",
+          "clean_name_fr": "Nom Arrond",
+          "clean_name_en": "Name Arrond",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Ville-Marie",
+              "count": 640
+            },
+            {
+              "value": "Mercier–Hochelaga-Maisonneuve",
+              "count": 360
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "COORD_X",
+          "clean_name_fr": "Coord X",
+          "clean_name_en": "Coordinate X",
+          "description_fr": "Champ coordonnees",
+          "description_en": "Coordinates field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 299761.8,
+          "max": 304176.1,
+          "mean": 301598.1626,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "COORD_Y",
+          "clean_name_fr": "Coord Y",
+          "clean_name_en": "Coordinate Y",
+          "description_fr": "Champ coordonnees",
+          "description_en": "Coordinates field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 5041818.6,
+          "max": 5052309.7,
+          "mean": 5045717.0595,
+          "pct_in_montreal_bbox": 0.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LONGITUDE",
+          "clean_name_fr": "Longitude",
+          "clean_name_en": "Longitude",
+          "description_fr": "Champ longitude",
+          "description_en": "Longitude field",
+          "type": "geo_longitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": -73.564496,
+          "max": -73.507995,
+          "mean": -73.540996,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "LATITUDE",
+          "clean_name_fr": "Latitude",
+          "clean_name_en": "Latitude",
+          "description_fr": "Champ latitude",
+          "description_en": "Latitude field",
+          "type": "geo_latitude",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "geo",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "map"
+          ],
+          "min": 45.516275,
+          "max": 45.610688,
+          "mean": 45.551357,
+          "pct_in_montreal_bbox": 100.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "spatial join via lat/long coordinates",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [
+        "Localisation arrondie a l'intersection la plus proche"
+      ],
+      "warnings_en": [
+        "Location rounded to nearest intersection"
+      ]
+    }
+  ],
+  "fixed_at": "2026-03-10T07:57:46.416932",
+  "fixed_v2_at": "2026-03-10T08:09:43.140035"
+}

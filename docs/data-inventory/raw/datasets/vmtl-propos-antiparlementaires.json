@@ -1,0 +1,332 @@
+{
+  "slug": "vmtl-propos-antiparlementaires",
+  "title": "Propos antiparlementaires",
+  "notes": "Il importe d’utiliser un langage parlementaire lors des séances du conseil de ville. Selon l’article 46, la personne qui pose une question doit éviter les allusions personnelles, les insinuations, les paroles violentes, blessantes ou irrespectueuses à l’égard de qui que ce soit, les expressions et les tournures non parlementaires ou de désigner le président autrement que par son titre. À cet effet, une liste répertoriant différents propos tenus par le passé et jugés non parlementaires par la présidence du conseil est mise à jour par le Service du greffe.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-05-25T12:56:13.967745",
+  "metadata_modified": "2025-11-20T16:58:59.709685",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "529e4f5a-a65c-4754-848d-2f8b7f1fd1d2",
+      "name": "Propos antiparlementaires",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/49ee65ac-f821-42f2-a1da-93c8e9024b35/resource/529e4f5a-a65c-4754-848d-2f8b7f1fd1d2/download/propos-antiparlementaires.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-12-07T21:46:18.819867",
+      "created": "2018-05-25T12:57:13.242708",
+      "schema": {
+        "resource_id": "529e4f5a-a65c-4754-848d-2f8b7f1fd1d2",
+        "total_records": 230,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "TERMES_EXPRESSIONS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MOTIFS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "INSTANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SOUS_LA_PRESIDENCE_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "timestamp",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "TERMES_EXPRESSIONS": "Gueuler",
+            "MOTIFS": "insulte",
+            "INSTANCE": "AssNat",
+            "SOUS_LA_PRESIDENCE_DE": "Richard Guay",
+            "DATE": "1984-04-04T00:00:00"
+          },
+          {
+            "_id": 2,
+            "TERMES_EXPRESSIONS": "Vérité (ne pas dire la)",
+            "MOTIFS": "syn. de mentir",
+            "INSTANCE": "AssNat",
+            "SOUS_LA_PRESIDENCE_DE": "Richard Guay",
+            "DATE": "1984-06-14T00:00:00"
+          },
+          {
+            "_id": 3,
+            "TERMES_EXPRESSIONS": "Politicien patronneux",
+            "MOTIFS": "insulte",
+            "INSTANCE": "AssNat",
+            "SOUS_LA_PRESIDENCE_DE": "Richard Guay",
+            "DATE": "1984-11-13T00:00:00"
+          },
+          {
+            "_id": 4,
+            "TERMES_EXPRESSIONS": "Minable",
+            "MOTIFS": "insulte",
+            "INSTANCE": "AssNat",
+            "SOUS_LA_PRESIDENCE_DE": "Réal Rancourt",
+            "DATE": "1984-12-19T00:00:00"
+          },
+          {
+            "_id": 5,
+            "TERMES_EXPRESSIONS": "Mensonge",
+            "MOTIFS": "syn. de mentir",
+            "INSTANCE": "AssNat",
+            "SOUS_LA_PRESIDENCE_DE": "Jean-Pierre Saintonge",
+            "DATE": "1986-05-06T00:00:00"
+          }
+        ]
+      },
+      "field_stats": {
+        "TERMES_EXPRESSIONS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MOTIFS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "INSTANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SOUS_LA_PRESIDENCE_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 230,
+        "total_records": 230,
+        "audited_at": "2026-03-10T00:22:55.074475+00:00",
+        "fields": {
+          "TERMES_EXPRESSIONS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 230,
+            "top_values": [
+              {
+                "value": "Gueuler",
+                "count": 1
+              },
+              {
+                "value": "Vérité (ne pas dire la)",
+                "count": 1
+              },
+              {
+                "value": "Politicien patronneux",
+                "count": 1
+              },
+              {
+                "value": "Minable",
+                "count": 1
+              },
+              {
+                "value": "Mensonge",
+                "count": 1
+              },
+              {
+                "value": "Cochon, Cochonneries",
+                "count": 1
+              },
+              {
+                "value": "Intelligemment (parler de temps en temps…)",
+                "count": 1
+              },
+              {
+                "value": "Fausseté",
+                "count": 1
+              },
+              {
+                "value": "Tata",
+                "count": 1
+              },
+              {
+                "value": "Insignifiant (discours…)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "MOTIFS": {
+            "null_count": 1,
+            "null_pct": 0.4,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "insulte",
+                "count": 105
+              },
+              {
+                "value": "accusation",
+                "count": 86
+              },
+              {
+                "value": "syn. de mentir",
+                "count": 31
+              },
+              {
+                "value": "Insulte",
+                "count": 4
+              },
+              {
+                "value": "péjoratif",
+                "count": 1
+              },
+              {
+                "value": "partisan",
+                "count": 1
+              },
+              {
+                "value": "Injurieux",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "INSTANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "AssNat",
+                "count": 207
+              },
+              {
+                "value": "CM",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SOUS_LA_PRESIDENCE_DE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 22,
+            "top_values": [
+              {
+                "value": "Michel Bissonnet",
+                "count": 70
+              },
+              {
+                "value": "Jean-Pierre Charbonneau",
+                "count": 24
+              },
+              {
+                "value": "Louise Harel",
+                "count": 17
+              },
+              {
+                "value": "Harout Chitilian",
+                "count": 15
+              },
+              {
+                "value": "Yvon Vallières",
+                "count": 15
+              },
+              {
+                "value": "Jean-Pierre Saintonge",
+                "count": 13
+              },
+              {
+                "value": "Diane Leblanc",
+                "count": 13
+              },
+              {
+                "value": "Roger Bertrand",
+                "count": 11
+              },
+              {
+                "value": "Pierre Lorrain",
+                "count": 8
+              },
+              {
+                "value": "Raymond Brouillet",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1984-04-04T00:00:00",
+            "max_date": "2021-08-24T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Antiparlementaire",
+    "Conseil",
+    "Conseil municipal",
+    "SG",
+    "Élu"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n\n- TERMES_EXPRESSIONS (texte variable) : Les propos injurieux, grossiers, menaçants et les attaques personnelles; les accusations; les insinuations sous-entendant la mauvaise foi ou la volonté de nuire de certaines personnes.\n\n- MOTIFS (liste de valeurs) : Accusation, insulte, partisan, synonyme de mentir.\n\n- INSTANCE (liste de valeurs) : Assemblée nationale du Québec (AssNat), Conseil municipal de Montréal (CM).\n\n- SOUS_LA_PRESIDENCE_DE (texte variable) : Nom du président de l’instance qui a ajouté le terme ou l’expression à la liste.\n\n- DATE (date/heure) : Date à laquelle le terme ou l’expression a été ajouté à la liste.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "1984-01-01 / 2021-08-24",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Antiparlementaire",
+      "Conseil",
+      "Conseil municipal",
+      "SG",
+      "Élu"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/propos-antiparlementaires",
+    "scraped_at": "2026-03-09T20:16:13.192387+00:00"
+  }
+}

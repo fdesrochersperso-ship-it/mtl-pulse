@@ -1,0 +1,265 @@
+{
+  "slug": "vmtl-unites-administratives",
+  "title": "Unités administratives",
+  "notes": "Cet ensemble de données présente la liste des unités administratives de la Ville de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-11-06T20:52:07.028288",
+  "metadata_modified": "2025-02-28T19:26:26.074864",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "61a4428e-804b-4022-8f1a-8e40c9a46cb1",
+      "name": "Unités administratives de la Ville de Montréal",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/0935bc25-0026-4c34-baa4-ca1143c28fdc/resource/61a4428e-804b-4022-8f1a-8e40c9a46cb1/download/unites-administratives.csv",
+      "datastore_active": true,
+      "size": 110239,
+      "last_modified": "2024-09-25T19:13:07.418331",
+      "created": "2023-11-06T20:53:07.933514",
+      "schema": {
+        "resource_id": "61a4428e-804b-4022-8f1a-8e40c9a46cb1",
+        "total_records": 1752,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "No UADM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Service_arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "No UADM": "020000000000",
+            "Description": "DIRECTION GÉNÉRALE",
+            "Type": "SER",
+            "Service_arrondissement": "Service"
+          },
+          {
+            "_id": 2,
+            "No UADM": "020002000000",
+            "Description": "DIVISION DU SOUTIEN AUX INSTANCES",
+            "Type": "DIV",
+            "Service_arrondissement": "Service"
+          },
+          {
+            "_id": 3,
+            "No UADM": "020200000000",
+            "Description": "DIRECTION DES AFFAIRES PUBLIQUES ET DU PROTOCOLE",
+            "Type": "DIR",
+            "Service_arrondissement": "Service"
+          },
+          {
+            "_id": 4,
+            "No UADM": "020200030000",
+            "Description": "SECTION DU PROTOCOLE DE DE L ACCUEIL",
+            "Type": "SEC",
+            "Service_arrondissement": "Service"
+          },
+          {
+            "_id": 5,
+            "No UADM": "020203000000",
+            "Description": "DIVISION DES AFFAIRES PUBLIQUES ET DES MESURES D URGENCE",
+            "Type": "DIV",
+            "Service_arrondissement": "Service"
+          }
+        ]
+      },
+      "field_stats": {
+        "No UADM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Service_arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1752,
+        "audited_at": "2026-03-10T00:29:24.030237+00:00",
+        "fields": {
+          "No UADM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 20000000000.0,
+            "max": 390004000000.0,
+            "mean": 280093998971.404,
+            "median": 360304055000.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 950,
+            "top_values": [
+              {
+                "value": "DIVISION PROGRAMMES PUBLICS ET EDUCATIFS",
+                "count": 5
+              },
+              {
+                "value": "SURVEILLANCE",
+                "count": 3
+              },
+              {
+                "value": "CRIMES MAJEURS",
+                "count": 3
+              },
+              {
+                "value": "CONSEIL",
+                "count": 3
+              },
+              {
+                "value": "SARS - BALAIS",
+                "count": 3
+              },
+              {
+                "value": "UNITÉ AÉROPORTUAIRE",
+                "count": 3
+              },
+              {
+                "value": "SERVICES AUX COURS",
+                "count": 3
+              },
+              {
+                "value": "MANDATS",
+                "count": 3
+              },
+              {
+                "value": "DIRECTION GÉNÉRALE",
+                "count": 2
+              },
+              {
+                "value": "DIVISION DES SERVICES TECHNIQUES",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "SEC",
+                "count": 326
+              },
+              {
+                "value": "DIV",
+                "count": 257
+              },
+              {
+                "value": "BUR",
+                "count": 169
+              },
+              {
+                "value": "INS",
+                "count": 115
+              },
+              {
+                "value": "DIR",
+                "count": 75
+              },
+              {
+                "value": "SEP",
+                "count": 32
+              },
+              {
+                "value": "SER",
+                "count": 25
+              },
+              {
+                "value": "ORG",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Service_arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Service",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Organigramme",
+    "SRHC"
+  ],
+  "web_metadata": {
+    "methodology_text": "La Ville de Montréal est composée de plusieurs unités administratives. La gestion des données des unités administratives est sous la responsabilité du Service des ressources humaines et des communication. Le Service des ressources humaines et des communications effectue des mises à jour dans son système en continu en fonction de l'information qui est communiqué par les différents services et arrondissements.\n\n\nLes données ouvertes présentent les unités administratives actives au moment de l'extraction du système et celles-ci sont mises à jour sur une base annuelle. Ainsi, il est possible que des changements apportés à l'organigramme en cours d'année ne se reflètent pas dans les données actuellement publiées. \n\n## Dictionnaire de données\n\n\n\n- No_UADM (entier) : Identifiant unique de l'unité administrative.\n\n- Description (texte variable) : Description de l'unité administrative.\n\n- Type (liste de valeur) : Type d'unité administrative, soit :\n\n- ARR : Arrondissement.\n\n- BUR : Bureau.\n\n- DIR : Direction.\n\n- DIV : Division.\n\n- INS : Installation.\n\n- ORG : Organismes.\n\n- SEC : Section.\n\n- SEP : Service de police.\n\n- SER : Service.\n\n\n\n- Service_arrondissement (texte variable) : Indication si l'unité administrative est un service ou un arrondissement.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des ressources humaines et des communications",
+      "Couverture temporelle": "2024-06-18",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Organigramme",
+      "SRHC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/unites-administratives",
+    "scraped_at": "2026-03-09T20:23:37.171634+00:00"
+  }
+}

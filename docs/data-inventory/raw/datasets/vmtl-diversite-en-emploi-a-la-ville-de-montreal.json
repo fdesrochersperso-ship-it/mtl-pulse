@@ -1,0 +1,553 @@
+{
+  "slug": "vmtl-diversite-en-emploi-a-la-ville-de-montreal",
+  "title": "Diversité en emploi à la Ville de Montréal",
+  "notes": "Ces données permettent de connaître la représentation et l’embauche des personnes issues des groupes visés que sont : les femmes, les autochtones, les minorités visibles, les minorités ethniques et les personnes handicapées à la Ville de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-06-02T14:36:03.586440",
+  "metadata_modified": "2025-11-20T17:03:13.553938",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "ef00a9c0-95e4-4ab8-b58a-7920cb7a31a7",
+      "name": "Représentation des groupes visés",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/2fd43d51-8687-48b5-b63f-828c0b3b6112/resource/ef00a9c0-95e4-4ab8-b58a-7920cb7a31a7/download/representation-groupes-vises-categories-emploi.csv",
+      "datastore_active": true,
+      "size": 20045,
+      "last_modified": "2025-02-13T19:23:12.499845",
+      "created": "2021-06-02T14:38:12.225700",
+      "schema": {
+        "resource_id": "ef00a9c0-95e4-4ab8-b58a-7920cb7a31a7",
+        "total_records": 325,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ANNEE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POURCENTAGE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Minorités visibles",
+            "NOMBRE": "1680",
+            "POURCENTAGE": "22.68%"
+          },
+          {
+            "_id": 2,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Minorités ethniques",
+            "NOMBRE": "646",
+            "POURCENTAGE": "8.72%"
+          },
+          {
+            "_id": 3,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Femmes",
+            "NOMBRE": "4407",
+            "POURCENTAGE": "59.50%"
+          },
+          {
+            "_id": 4,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Autochtones",
+            "NOMBRE": "18",
+            "POURCENTAGE": "0.24%"
+          },
+          {
+            "_id": 5,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Personnes handicapées",
+            "NOMBRE": "60",
+            "POURCENTAGE": "0.81%"
+          }
+        ]
+      },
+      "field_stats": {
+        "ANNEE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "GROUPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POURCENTAGE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 325,
+        "total_records": 325,
+        "audited_at": "2026-03-10T00:18:22.893837+00:00",
+        "fields": {
+          "ANNEE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "CATEGORIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Cols blancs",
+                "count": 25
+              },
+              {
+                "value": "Cols bleus",
+                "count": 25
+              },
+              {
+                "value": "Personnel policier (syndiqué)",
+                "count": 25
+              },
+              {
+                "value": "Professionnelles et professionnels généraux",
+                "count": 25
+              },
+              {
+                "value": "Pompières et pompiers",
+                "count": 25
+              },
+              {
+                "value": "Cadres administratifs",
+                "count": 25
+              },
+              {
+                "value": "Brigadières et brigadiers scolaires",
+                "count": 25
+              },
+              {
+                "value": "Professionnelles et professionnels scientifiques",
+                "count": 25
+              },
+              {
+                "value": "Cadres de direction",
+                "count": 25
+              },
+              {
+                "value": "Professionnelles et professionnels juristes",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "GROUPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Minorités visibles",
+                "count": 65
+              },
+              {
+                "value": "Minorités ethniques",
+                "count": 65
+              },
+              {
+                "value": "Femmes",
+                "count": 65
+              },
+              {
+                "value": "Autochtones",
+                "count": 65
+              },
+              {
+                "value": "Personnes handicapées",
+                "count": 65
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOMBRE": {
+            "null_count": 10,
+            "null_pct": 3.1,
+            "min": 0.0,
+            "max": 4830.0,
+            "mean": 278.0921,
+            "median": 24.0,
+            "unique_count": 157,
+            "field_type_detected": "numeric"
+          },
+          "POURCENTAGE": {
+            "null_count": 10,
+            "null_pct": 3.1,
+            "min": 0.0,
+            "max": 0.7214,
+            "mean": 0.1177,
+            "median": 0.0349,
+            "unique_count": 254,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "87cb2927-6c87-4dab-b35a-694d58f9d965",
+      "name": "Embauche des groupes visés",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/2fd43d51-8687-48b5-b63f-828c0b3b6112/resource/87cb2927-6c87-4dab-b35a-694d58f9d965/download/embauche-groupes-vises-categories-emploi.csv",
+      "datastore_active": true,
+      "size": 18481,
+      "last_modified": "2025-02-13T19:27:38.188641",
+      "created": "2021-06-02T14:39:26.506349",
+      "schema": {
+        "resource_id": "87cb2927-6c87-4dab-b35a-694d58f9d965",
+        "total_records": 300,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ANNEE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "GROUPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOMBRE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POURCENTAGE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Minorités visibles",
+            "NOMBRE": "249",
+            "POURCENTAGE": "26.07%"
+          },
+          {
+            "_id": 2,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Minorités ethniques",
+            "NOMBRE": "85",
+            "POURCENTAGE": "8.90%"
+          },
+          {
+            "_id": 3,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Femmes",
+            "NOMBRE": "529",
+            "POURCENTAGE": "55.39%"
+          },
+          {
+            "_id": 4,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Autochtones",
+            "NOMBRE": "3",
+            "POURCENTAGE": "0.31%"
+          },
+          {
+            "_id": 5,
+            "ANNEE": "2020",
+            "CATEGORIE": "Cols blancs",
+            "GROUPE": "Personnes handicapées",
+            "NOMBRE": "8",
+            "POURCENTAGE": "0.84%"
+          }
+        ]
+      },
+      "field_stats": {
+        "ANNEE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "GROUPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOMBRE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POURCENTAGE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 300,
+        "total_records": 300,
+        "audited_at": "2026-03-10T00:18:23.977991+00:00",
+        "fields": {
+          "ANNEE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "CATEGORIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "COLS BLANCS",
+                "count": 25
+              },
+              {
+                "value": "COLS BLEUS",
+                "count": 25
+              },
+              {
+                "value": "POLICIÈRES ET POLICIERS",
+                "count": 25
+              },
+              {
+                "value": "PROFESSIONNELLES ET PROFESSIONNELS GÉNÉRAUX",
+                "count": 25
+              },
+              {
+                "value": "BRIGADIÈRES ET BRIGADIERS SCOLAIRES",
+                "count": 25
+              },
+              {
+                "value": "POMPIÈRES ET POMPIERS",
+                "count": 25
+              },
+              {
+                "value": "CADRES ADMINISTRATIFS",
+                "count": 25
+              },
+              {
+                "value": "PROFESSIONNELLES ET PROFESSIONNELS SCIENTIFIQUES",
+                "count": 25
+              },
+              {
+                "value": "PROFESSIONNELLES ET PROFESSIONNELS JURISTES",
+                "count": 25
+              },
+              {
+                "value": "CADRES NON CIVILS POMPIERS",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "GROUPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Minorités visibles",
+                "count": 60
+              },
+              {
+                "value": "Minorités ethniques",
+                "count": 60
+              },
+              {
+                "value": "Femmes",
+                "count": 60
+              },
+              {
+                "value": "Autochtones",
+                "count": 60
+              },
+              {
+                "value": "Personnes handicapées",
+                "count": 60
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOMBRE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1043.0,
+            "mean": 41.6267,
+            "median": 3.0,
+            "unique_count": 83,
+            "field_type_detected": "numeric"
+          },
+          "POURCENTAGE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 187,
+            "top_values": [
+              {
+                "value": "0.00%",
+                "count": 77
+              },
+              {
+                "value": "S/O",
+                "count": 20
+              },
+              {
+                "value": "0.62%",
+                "count": 3
+              },
+              {
+                "value": "37.50%",
+                "count": 3
+              },
+              {
+                "value": "1.17%",
+                "count": 2
+              },
+              {
+                "value": "0.98%",
+                "count": 2
+              },
+              {
+                "value": "10.81%",
+                "count": 2
+              },
+              {
+                "value": "5.56%",
+                "count": 2
+              },
+              {
+                "value": "0.38%",
+                "count": 2
+              },
+              {
+                "value": "0.48%",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Autochtone",
+    "Diversité",
+    "Embauche",
+    "Emploi",
+    "Femme",
+    "Minorité ethnique",
+    "Minorité visible",
+    "Personne handicapée",
+    "SRHC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les statistiques sur la diversité et la représentation en emploi des groupes visés à la Ville de Montréal sont basées sur l'auto-identification des personnes. \n\n### Dictionnaire de données\n\n\n\n- ANNEE (numérique) : L'année à laquelle les données font référence.\n\n- CATEGORIE (liste de valeurs) : Catégories d'emploi pour laquelle les données sont représentées. Liste de valeurs :  \n\n- Cols blancs \n\n- Cols bleus \n\n- Pompier(-ière)s \n\n- Personnel policier (agents et officiers syndiqués) \n\n- Professionnel(le)s gén. \n\n- Cadres de direction \n\n- Cadres administratifs \n\n- Cadres non civils pompiers \n\n- Brigadier(-ière)s scolaires \n\n- Professionnel(le)s architectes \n\n- Professionnel(le)s juristes \n\n- Professionnel(le)s scientifiques \n\n- Cadres policier(-ière)s\n\n\n\n- GROUPE (liste de valeurs) : Groupes visés pour lesquels les données sont collectées. Liste de valeurs :  \n\n- Minorités visibles : Les minorités visibles sont des groupes de personnes qui ne sont pas de race ou de couleur blanche.\n\n- Minorités ethniques : Les minorités ethniques sont des groupes de personnes dont la langue maternelle n’est ni le français ni l’anglais.\n\n- Femmes : Les femmes sont des personnes de sexe ou de genre féminin.\n\n- Autochtones : Les Autochtones sont les membres des Premières Nations, les Métis et les Inuits.\n\n- Personnes handicapées : Les personnes handicapées sont les personnes qui ont une déficience entraînant une incapacité significative et persistante, et qui sont sujettes à rencontrer des obstacles dans l’accomplissement d’activités courantes.\n\n\n\n- NOMBRE (numérique) : Valeur représentant le nombre de personnes par groupe visé dans une catégorie.\n\n- POURCENTAGE (numérique) : Valeur représentant le pourcentage de personnes identifiées pour un groupe visé en proportion de l'ensemble des personnes en emploi ou embauché dans cette catégorie.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des ressources humaines et des communications",
+      "Couverture temporelle": "2020 / 2024",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Autochtone",
+      "Diversité",
+      "Embauche",
+      "Emploi",
+      "Femme",
+      "Minorité ethnique",
+      "Minorité visible",
+      "Personne handicapée",
+      "SRHC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/diversite-en-emploi-a-la-ville-de-montreal",
+    "scraped_at": "2026-03-09T19:56:47.206762+00:00"
+  }
+}

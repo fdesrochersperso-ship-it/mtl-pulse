@@ -1,0 +1,3601 @@
+{
+  "slug": "vmtl-secteur-deneigement",
+  "title": "Secteurs de déneigement",
+  "notes": "L'ensemble contient les données géospatiales des secteurs de déneigement de la Ville de Montréal ainsi que les arrondissements qui y sont associés. \r\n\r\nLes ensembles sur les [sites d'élimination de la neige](/ville-de-montreal/depot-neige), les [contrats et transactions](/ville-de-montreal/contrats-transaction-deneigement) sont également disponibles sur le portail.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-03-10T16:47:17.028670",
+  "metadata_modified": "2026-03-09T07:00:16.729465",
+  "num_resources": 31,
+  "resources": [
+    {
+      "id": "65da16dd-7a13-476e-b0a3-5fd1b80314a5",
+      "name": "Secteurs de déneigement - Saison 2025-2026",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/65da16dd-7a13-476e-b0a3-5fd1b80314a5/download/secteurs_deneigement_saison_2025-2026.csv",
+      "datastore_active": true,
+      "size": 14966,
+      "last_modified": "2026-03-09T06:16:59.186948",
+      "created": "2025-11-03T06:16:47.553670",
+      "schema": {
+        "resource_id": "65da16dd-7a13-476e-b0a3-5fd1b80314a5",
+        "total_records": 322,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": "97",
+            "NomSecteur": "OUT-101",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": "469",
+            "NomSecteur": "OUT-101B",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": "471",
+            "NomSecteur": "OUT-601",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": "482",
+            "NomSecteur": "IBI-501",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": "482",
+            "NomSecteur": "IBI-501",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 322,
+        "total_records": 322,
+        "audited_at": "2026-03-10T00:26:58.857922+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 518.0,
+            "mean": 374.6553,
+            "median": 409.0,
+            "unique_count": 183,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 181,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 6
+              },
+              {
+                "value": "ANJ-311",
+                "count": 4
+              },
+              {
+                "value": "ANJ-312",
+                "count": 4
+              },
+              {
+                "value": "SLE-109",
+                "count": 4
+              },
+              {
+                "value": "SLE-110",
+                "count": 4
+              },
+              {
+                "value": "LAC-104",
+                "count": 4
+              },
+              {
+                "value": "PMR-101",
+                "count": 4
+              },
+              {
+                "value": "ANJ-309",
+                "count": 3
+              },
+              {
+                "value": "ANJ-310",
+                "count": 3
+              },
+              {
+                "value": "SLE-111",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 18.8261,
+            "median": 19.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 32
+              },
+              {
+                "value": "24",
+                "count": 28
+              },
+              {
+                "value": "22",
+                "count": 24
+              },
+              {
+                "value": "23",
+                "count": 23
+              },
+              {
+                "value": "21",
+                "count": 22
+              },
+              {
+                "value": "32",
+                "count": 22
+              },
+              {
+                "value": "25",
+                "count": 21
+              },
+              {
+                "value": "16",
+                "count": 19
+              },
+              {
+                "value": "18",
+                "count": 19
+              },
+              {
+                "value": "9",
+                "count": 16
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 32
+              },
+              {
+                "value": "VSP",
+                "count": 28
+              },
+              {
+                "value": "AHU",
+                "count": 24
+              },
+              {
+                "value": "RPP",
+                "count": 23
+              },
+              {
+                "value": "MHM",
+                "count": 22
+              },
+              {
+                "value": "HOR",
+                "count": 22
+              },
+              {
+                "value": "CDN",
+                "count": 21
+              },
+              {
+                "value": "LAS",
+                "count": 19
+              },
+              {
+                "value": "VMA",
+                "count": 19
+              },
+              {
+                "value": "ANJ",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 32
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 28
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 24
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 23
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 22
+              },
+              {
+                "value": "Hors Ville",
+                "count": 22
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 21
+              },
+              {
+                "value": "LaSalle",
+                "count": 19
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 19
+              },
+              {
+                "value": "Anjou",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "6ab1794f-10ec-4555-91b0-0b5e54f7bb0f",
+      "name": "Secteurs de déneigement - Saison 2025-2026",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/6ab1794f-10ec-4555-91b0-0b5e54f7bb0f/download/secteurs_deneigement_saison_2025-2026.geojson",
+      "datastore_active": false,
+      "size": 3855356,
+      "last_modified": "2026-03-09T06:17:25.213522",
+      "created": "2025-11-03T06:17:20.777841",
+      "schema": null
+    },
+    {
+      "id": "289e3dbe-7e73-44b5-8622-abf0ab2e82b0",
+      "name": "Secteurs de déneigement - Saison 2025-2026",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/289e3dbe-7e73-44b5-8622-abf0ab2e82b0/download/secteurs_deneigement_saison_2025-2026.zip",
+      "datastore_active": false,
+      "size": 577839,
+      "last_modified": "2026-03-09T06:17:23.570358",
+      "created": "2025-11-03T06:17:13.420725",
+      "schema": null
+    },
+    {
+      "id": "02b4164a-9d6e-4c29-9435-d2aeec739776",
+      "name": "Secteurs de déneigement - Saison 2024-2025",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/02b4164a-9d6e-4c29-9435-d2aeec739776/download/secteurs_deneigement_saison_2024-2025.csv",
+      "datastore_active": true,
+      "size": 14426,
+      "last_modified": "2025-10-27T06:17:04.133746",
+      "created": "2024-11-18T06:16:08.829080",
+      "schema": {
+        "resource_id": "02b4164a-9d6e-4c29-9435-d2aeec739776",
+        "total_records": 314,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": "97",
+            "NomSecteur": "OUT-101",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": "469",
+            "NomSecteur": "OUT-101B",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": "471",
+            "NomSecteur": "OUT-101A",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": "482",
+            "NomSecteur": "IBI-501",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": "482",
+            "NomSecteur": "IBI-501",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 314,
+        "total_records": 314,
+        "audited_at": "2026-03-10T00:26:59.786486+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 493.0,
+            "mean": 368.4777,
+            "median": 407.0,
+            "unique_count": 171,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 170,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 6
+              },
+              {
+                "value": "ANJ-311",
+                "count": 4
+              },
+              {
+                "value": "ANJ-312",
+                "count": 4
+              },
+              {
+                "value": "SLE-109",
+                "count": 4
+              },
+              {
+                "value": "SLE-110",
+                "count": 4
+              },
+              {
+                "value": "LAC-104",
+                "count": 4
+              },
+              {
+                "value": "ANJ-309",
+                "count": 3
+              },
+              {
+                "value": "ANJ-310",
+                "count": 3
+              },
+              {
+                "value": "SLE-111",
+                "count": 3
+              },
+              {
+                "value": "SLE-304",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 18.8599,
+            "median": 19.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 32
+              },
+              {
+                "value": "24",
+                "count": 28
+              },
+              {
+                "value": "23",
+                "count": 27
+              },
+              {
+                "value": "22",
+                "count": 24
+              },
+              {
+                "value": "32",
+                "count": 22
+              },
+              {
+                "value": "25",
+                "count": 21
+              },
+              {
+                "value": "16",
+                "count": 19
+              },
+              {
+                "value": "18",
+                "count": 19
+              },
+              {
+                "value": "9",
+                "count": 16
+              },
+              {
+                "value": "12",
+                "count": 16
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 32
+              },
+              {
+                "value": "VSP",
+                "count": 28
+              },
+              {
+                "value": "RPP",
+                "count": 27
+              },
+              {
+                "value": "AHU",
+                "count": 24
+              },
+              {
+                "value": "HOR",
+                "count": 22
+              },
+              {
+                "value": "CDN",
+                "count": 21
+              },
+              {
+                "value": "LAS",
+                "count": 19
+              },
+              {
+                "value": "VMA",
+                "count": 19
+              },
+              {
+                "value": "ANJ",
+                "count": 16
+              },
+              {
+                "value": "SLE",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 32
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 28
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 27
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 24
+              },
+              {
+                "value": "Hors Ville",
+                "count": 22
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 21
+              },
+              {
+                "value": "LaSalle",
+                "count": 19
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 19
+              },
+              {
+                "value": "Anjou",
+                "count": 16
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "90a9cc25-5d56-4881-903b-a16b9e775d12",
+      "name": "Secteurs de déneigement - Saison 2024-2025",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/90a9cc25-5d56-4881-903b-a16b9e775d12/download/secteurs_deneigement_saison_2024-2025.geojson",
+      "datastore_active": false,
+      "size": 3675966,
+      "last_modified": "2025-10-27T06:17:25.231734",
+      "created": "2024-11-18T06:16:24.703297",
+      "schema": null
+    },
+    {
+      "id": "24cd789e-b957-49a7-bd59-66d457168c66",
+      "name": "Secteurs de déneigement - Saison 2024-2025",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/24cd789e-b957-49a7-bd59-66d457168c66/download/secteurs_deneigement_saison_2024-2025.zip",
+      "datastore_active": false,
+      "size": 534486,
+      "last_modified": "2025-10-27T06:17:19.437008",
+      "created": "2024-11-18T06:16:14.898724",
+      "schema": null
+    },
+    {
+      "id": "4de82294-53a7-44ef-8e5f-dc7c438efa4b",
+      "name": "Secteurs de déneigement - Saison 2023-2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/4de82294-53a7-44ef-8e5f-dc7c438efa4b/download/secteurs_deneigement_saison_2023-2024.csv",
+      "datastore_active": true,
+      "size": 9514,
+      "last_modified": "2024-11-11T06:16:09.775019",
+      "created": "2023-11-13T06:18:32.420039",
+      "schema": {
+        "resource_id": "4de82294-53a7-44ef-8e5f-dc7c438efa4b",
+        "total_records": 203,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": "97",
+            "NomSecteur": "OUT-101",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": "469",
+            "NomSecteur": "OUT-101B",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": "471",
+            "NomSecteur": "OUT-101A",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": "119",
+            "NomSecteur": "IBI-301",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": "378",
+            "NomSecteur": "ANJ-101",
+            "IdentifiantArrondissement": "9",
+            "ArrondissementCode": "ANJ",
+            "Arrondissement": "Anjou"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 203,
+        "total_records": 203,
+        "audited_at": "2026-03-10T00:27:00.695931+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 473.0,
+            "mean": 348.1576,
+            "median": 398.0,
+            "unique_count": 151,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 150,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 4
+              },
+              {
+                "value": "ANJ-311",
+                "count": 3
+              },
+              {
+                "value": "ANJ-312",
+                "count": 3
+              },
+              {
+                "value": "SLE-109",
+                "count": 3
+              },
+              {
+                "value": "SLE-110",
+                "count": 3
+              },
+              {
+                "value": "LAC-104",
+                "count": 3
+              },
+              {
+                "value": "MHM-107",
+                "count": 3
+              },
+              {
+                "value": "RPP-204",
+                "count": 3
+              },
+              {
+                "value": "RPP-205",
+                "count": 3
+              },
+              {
+                "value": "ANJ-309",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 18.7931,
+            "median": 19.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 20
+              },
+              {
+                "value": "23",
+                "count": 19
+              },
+              {
+                "value": "24",
+                "count": 18
+              },
+              {
+                "value": "21",
+                "count": 14
+              },
+              {
+                "value": "25",
+                "count": 13
+              },
+              {
+                "value": "32",
+                "count": 13
+              },
+              {
+                "value": "18",
+                "count": 12
+              },
+              {
+                "value": "22",
+                "count": 12
+              },
+              {
+                "value": "9",
+                "count": 11
+              },
+              {
+                "value": "12",
+                "count": 11
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 20
+              },
+              {
+                "value": "RPP",
+                "count": 19
+              },
+              {
+                "value": "VSP",
+                "count": 18
+              },
+              {
+                "value": "MHM",
+                "count": 14
+              },
+              {
+                "value": "CDN",
+                "count": 13
+              },
+              {
+                "value": "HOR",
+                "count": 13
+              },
+              {
+                "value": "VMA",
+                "count": 12
+              },
+              {
+                "value": "AHU",
+                "count": 12
+              },
+              {
+                "value": "ANJ",
+                "count": 11
+              },
+              {
+                "value": "SLE",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 20
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 19
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 18
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 14
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 13
+              },
+              {
+                "value": "Hors Ville",
+                "count": 13
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 12
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 12
+              },
+              {
+                "value": "Anjou",
+                "count": 11
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "c54f5a29-631f-4499-88cb-bd7628c7ef3f",
+      "name": "Secteurs de déneigement - Saison 2023-2024",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/c54f5a29-631f-4499-88cb-bd7628c7ef3f/download/secteurs_deneigement_saison_2023-2024.zip",
+      "datastore_active": false,
+      "size": 374922,
+      "last_modified": "2024-11-11T06:16:25.037582",
+      "created": "2023-11-13T06:18:38.104269",
+      "schema": null
+    },
+    {
+      "id": "c2d3a9b2-6fb0-40ff-a959-bd75fbcb1214",
+      "name": "Secteurs de déneigement - Saison 2023-2024",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/c2d3a9b2-6fb0-40ff-a959-bd75fbcb1214/download/secteurs_deneigement_saison_2023-2024.geojson",
+      "datastore_active": false,
+      "size": 1963851,
+      "last_modified": "2024-11-11T06:16:32.419316",
+      "created": "2023-11-13T06:19:00.161520",
+      "schema": null
+    },
+    {
+      "id": "2bf59c58-8d08-40f8-9172-8e48b7693084",
+      "name": "Secteurs de déneigement - Saison 2022-2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/2bf59c58-8d08-40f8-9172-8e48b7693084/download/secteurs_deneigement_saison_2022-2023.csv",
+      "datastore_active": true,
+      "size": 7055,
+      "last_modified": "2023-11-06T06:18:53.507119",
+      "created": "2022-11-21T06:18:29.418652",
+      "schema": {
+        "resource_id": "2bf59c58-8d08-40f8-9172-8e48b7693084",
+        "total_records": 146,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": "97",
+            "NomSecteur": "OUT-101",
+            "IdentifiantArrondissement": "7",
+            "ArrondissementCode": "OUT",
+            "Arrondissement": "Outremont"
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": "119",
+            "NomSecteur": "IBI-301",
+            "IdentifiantArrondissement": "8",
+            "ArrondissementCode": "IBI",
+            "Arrondissement": "L'Île-Bizard–Sainte-Geneviève"
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": "378",
+            "NomSecteur": "ANJ-101",
+            "IdentifiantArrondissement": "9",
+            "ArrondissementCode": "ANJ",
+            "Arrondissement": "Anjou"
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": "379",
+            "NomSecteur": "ANJ-309",
+            "IdentifiantArrondissement": "9",
+            "ArrondissementCode": "ANJ",
+            "Arrondissement": "Anjou"
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": "379",
+            "NomSecteur": "ANJ-309",
+            "IdentifiantArrondissement": "9",
+            "ArrondissementCode": "ANJ",
+            "Arrondissement": "Anjou"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 146,
+        "total_records": 146,
+        "audited_at": "2026-03-10T00:27:01.679373+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 436.0,
+            "mean": 316.4315,
+            "median": 381.0,
+            "unique_count": 113,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 112,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 4
+              },
+              {
+                "value": "ANJ-309",
+                "count": 2
+              },
+              {
+                "value": "ANJ-311",
+                "count": 2
+              },
+              {
+                "value": "ANJ-312",
+                "count": 2
+              },
+              {
+                "value": "PRF-304C",
+                "count": 2
+              },
+              {
+                "value": "PRF-304D",
+                "count": 2
+              },
+              {
+                "value": "SLE-109",
+                "count": 2
+              },
+              {
+                "value": "SLE-110",
+                "count": 2
+              },
+              {
+                "value": "SLE-111",
+                "count": 2
+              },
+              {
+                "value": "SLE-304",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.8767,
+            "median": 18.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 14
+              },
+              {
+                "value": "25",
+                "count": 13
+              },
+              {
+                "value": "22",
+                "count": 12
+              },
+              {
+                "value": "24",
+                "count": 12
+              },
+              {
+                "value": "21",
+                "count": 11
+              },
+              {
+                "value": "16",
+                "count": 10
+              },
+              {
+                "value": "12",
+                "count": 9
+              },
+              {
+                "value": "17",
+                "count": 9
+              },
+              {
+                "value": "23",
+                "count": 9
+              },
+              {
+                "value": "9",
+                "count": 8
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 14
+              },
+              {
+                "value": "CDN",
+                "count": 13
+              },
+              {
+                "value": "AHU",
+                "count": 12
+              },
+              {
+                "value": "VSP",
+                "count": 12
+              },
+              {
+                "value": "MHM",
+                "count": 11
+              },
+              {
+                "value": "LAS",
+                "count": 10
+              },
+              {
+                "value": "SLE",
+                "count": 9
+              },
+              {
+                "value": "RDP",
+                "count": 9
+              },
+              {
+                "value": "RPP",
+                "count": 9
+              },
+              {
+                "value": "ANJ",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 14
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 13
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 12
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 12
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 11
+              },
+              {
+                "value": "LaSalle",
+                "count": 10
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 9
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 9
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 9
+              },
+              {
+                "value": "Anjou",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "5784f4e8-3c77-403e-bd13-4b14f39d354f",
+      "name": "Secteurs de déneigement - Saison 2022-2023",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/5784f4e8-3c77-403e-bd13-4b14f39d354f/download/secteurs_deneigement_saison_2022-2023.geojson",
+      "datastore_active": false,
+      "size": 1650900,
+      "last_modified": "2023-11-06T06:19:53.365758",
+      "created": "2022-11-21T06:18:06.996429",
+      "schema": null
+    },
+    {
+      "id": "3ea8403c-f433-46a6-b509-aaf35548392d",
+      "name": "Secteurs de déneigement - Saison 2022-2023",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/3ea8403c-f433-46a6-b509-aaf35548392d/download/secteurs_deneigement_saison_2022-2023.zip",
+      "datastore_active": false,
+      "size": 344273,
+      "last_modified": "2023-11-06T06:19:44.909073",
+      "created": "2022-11-21T06:18:21.011332",
+      "schema": null
+    },
+    {
+      "id": "f308290a-a0e8-46ca-9a69-15a51bf39374",
+      "name": "Secteurs de déneigement - Saison 2021-2022",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/f308290a-a0e8-46ca-9a69-15a51bf39374/download/secteurs_deneigement_saison_2021-2022.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-11-14T06:18:04.042265",
+      "created": "2021-11-01T06:17:34.589472",
+      "schema": {
+        "resource_id": "f308290a-a0e8-46ca-9a69-15a51bf39374",
+        "total_records": 572,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 572,
+        "total_records": 572,
+        "audited_at": "2026-03-10T00:27:02.656982+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 425.0,
+            "mean": 231.035,
+            "median": 340.0,
+            "unique_count": 210,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 209,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 12
+              },
+              {
+                "value": "AHU-106",
+                "count": 6
+              },
+              {
+                "value": "RPP-102",
+                "count": 6
+              },
+              {
+                "value": "RPP-104",
+                "count": 6
+              },
+              {
+                "value": "RPP-201",
+                "count": 6
+              },
+              {
+                "value": "RPP-33",
+                "count": 5
+              },
+              {
+                "value": "VSP-206",
+                "count": 5
+              },
+              {
+                "value": "MTN-303",
+                "count": 5
+              },
+              {
+                "value": "AHU-104",
+                "count": 5
+              },
+              {
+                "value": "RPP-103",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.3881,
+            "median": 17.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 83
+              },
+              {
+                "value": "23",
+                "count": 59
+              },
+              {
+                "value": "22",
+                "count": 53
+              },
+              {
+                "value": "17",
+                "count": 49
+              },
+              {
+                "value": "16",
+                "count": 45
+              },
+              {
+                "value": "9",
+                "count": 33
+              },
+              {
+                "value": "25",
+                "count": 32
+              },
+              {
+                "value": "21",
+                "count": 32
+              },
+              {
+                "value": "12",
+                "count": 32
+              },
+              {
+                "value": "11",
+                "count": 28
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 83
+              },
+              {
+                "value": "RPP",
+                "count": 59
+              },
+              {
+                "value": "AHU",
+                "count": 53
+              },
+              {
+                "value": "RDP",
+                "count": 49
+              },
+              {
+                "value": "LAS",
+                "count": 45
+              },
+              {
+                "value": "ANJ",
+                "count": 33
+              },
+              {
+                "value": "CDN",
+                "count": 32
+              },
+              {
+                "value": "MHM",
+                "count": 32
+              },
+              {
+                "value": "SLE",
+                "count": 32
+              },
+              {
+                "value": "PRF",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 83
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 59
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 53
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 49
+              },
+              {
+                "value": "LaSalle",
+                "count": 45
+              },
+              {
+                "value": "Anjou",
+                "count": 33
+              },
+              {
+                "value": "Cte-des-Neiges / Notre-Dame-de-Grce",
+                "count": 32
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 32
+              },
+              {
+                "value": "Saint-Lonard",
+                "count": 32
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "19ce5356-2ba6-4702-ad6c-c84e13698693",
+      "name": "Secteurs de déneigement - Saison 2021-2022",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/19ce5356-2ba6-4702-ad6c-c84e13698693/download/secteurs_deneigement_saison_2021-2022.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-11-14T06:18:59.127466",
+      "created": "2021-11-01T06:17:17.493579",
+      "schema": null
+    },
+    {
+      "id": "415aaea5-4f5f-4f82-8aa5-27b4eab6e6aa",
+      "name": "Secteurs de déneigement - Saison 2021-2022",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/415aaea5-4f5f-4f82-8aa5-27b4eab6e6aa/download/secteurs_deneigement_saison_2021-2022.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-11-14T06:19:11.878398",
+      "created": "2021-11-01T06:17:29.843423",
+      "schema": null
+    },
+    {
+      "id": "731b1cd8-c3cc-4156-84ec-9e0f55aa33af",
+      "name": "Secteurs de déneigement - Saison 2020-2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/731b1cd8-c3cc-4156-84ec-9e0f55aa33af/download/secteurs_deneigement_saison_2020-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-10-25T06:18:23.768532",
+      "created": "2020-11-16T06:20:30.010215",
+      "schema": {
+        "resource_id": "731b1cd8-c3cc-4156-84ec-9e0f55aa33af",
+        "total_records": 530,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 530,
+        "total_records": 530,
+        "audited_at": "2026-03-10T00:27:03.653736+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 411.0,
+            "mean": 223.5528,
+            "median": 181.0,
+            "unique_count": 196,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 195,
+            "top_values": [
+              {
+                "value": "CDN-301",
+                "count": 10
+              },
+              {
+                "value": "RPP-33",
+                "count": 5
+              },
+              {
+                "value": "MTN-303",
+                "count": 5
+              },
+              {
+                "value": "AHU-104",
+                "count": 5
+              },
+              {
+                "value": "AHU-106",
+                "count": 5
+              },
+              {
+                "value": "RPP-102",
+                "count": 5
+              },
+              {
+                "value": "RPP-104",
+                "count": 5
+              },
+              {
+                "value": "RPP-201",
+                "count": 5
+              },
+              {
+                "value": "AHU-101",
+                "count": 4
+              },
+              {
+                "value": "AHU-19",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.1925,
+            "median": 17.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 77
+              },
+              {
+                "value": "22",
+                "count": 52
+              },
+              {
+                "value": "23",
+                "count": 52
+              },
+              {
+                "value": "17",
+                "count": 49
+              },
+              {
+                "value": "16",
+                "count": 45
+              },
+              {
+                "value": "9",
+                "count": 33
+              },
+              {
+                "value": "12",
+                "count": 31
+              },
+              {
+                "value": "25",
+                "count": 30
+              },
+              {
+                "value": "11",
+                "count": 28
+              },
+              {
+                "value": "24",
+                "count": 24
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 77
+              },
+              {
+                "value": "AHU",
+                "count": 52
+              },
+              {
+                "value": "RPP",
+                "count": 52
+              },
+              {
+                "value": "RDP",
+                "count": 49
+              },
+              {
+                "value": "LAS",
+                "count": 45
+              },
+              {
+                "value": "ANJ",
+                "count": 33
+              },
+              {
+                "value": "SLE",
+                "count": 31
+              },
+              {
+                "value": "CDN",
+                "count": 30
+              },
+              {
+                "value": "PRF",
+                "count": 28
+              },
+              {
+                "value": "VSP",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 77
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 52
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 52
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 49
+              },
+              {
+                "value": "LaSalle",
+                "count": 45
+              },
+              {
+                "value": "Anjou",
+                "count": 33
+              },
+              {
+                "value": "Saint-Lonard",
+                "count": 31
+              },
+              {
+                "value": "Cte-des-Neiges / Notre-Dame-de-Grce",
+                "count": 30
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 28
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "2d5503ed-9e80-4980-8c02-bc8221df6485",
+      "name": "Secteurs de déneigement - Saison 2020-2021",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/2d5503ed-9e80-4980-8c02-bc8221df6485/download/secteurs_deneigement_saison_2020-2021.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-25T06:17:51.269163",
+      "created": "2020-11-16T06:20:22.662773",
+      "schema": null
+    },
+    {
+      "id": "c508530f-cb51-47bd-bbda-35e6b07edd41",
+      "name": "Secteurs de déneigement - Saison 2020-2021",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/c508530f-cb51-47bd-bbda-35e6b07edd41/download/secteurs_deneigement_saison_2020-2021.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-25T06:18:03.928925",
+      "created": "2020-11-16T06:20:26.342089",
+      "schema": null
+    },
+    {
+      "id": "9ed3d741-03f1-4972-a14d-2582a7f71e66",
+      "name": "Secteurs de déneigement - Saison 2019-2020",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/9ed3d741-03f1-4972-a14d-2582a7f71e66/download/secteurs_deneigement_saison_2019-2020.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:36.664035",
+      "created": "2020-06-22T06:19:51.583602",
+      "schema": {
+        "resource_id": "9ed3d741-03f1-4972-a14d-2582a7f71e66",
+        "total_records": 399,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 399,
+        "total_records": 399,
+        "audited_at": "2026-03-10T00:27:04.611495+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 377.0,
+            "mean": 176.7494,
+            "median": 108.0,
+            "unique_count": 162,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 162,
+            "top_values": [
+              {
+                "value": "RPP-33",
+                "count": 5
+              },
+              {
+                "value": "CDN-301",
+                "count": 5
+              },
+              {
+                "value": "AHU-19",
+                "count": 4
+              },
+              {
+                "value": "AHU-14",
+                "count": 4
+              },
+              {
+                "value": "AHU-16",
+                "count": 4
+              },
+              {
+                "value": "RPP-34C",
+                "count": 4
+              },
+              {
+                "value": "VSP-206",
+                "count": 4
+              },
+              {
+                "value": "MHM-103",
+                "count": 4
+              },
+              {
+                "value": "ANJ-303",
+                "count": 4
+              },
+              {
+                "value": "MTN-303",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.8972,
+            "median": 18.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "23",
+                "count": 49
+              },
+              {
+                "value": "22",
+                "count": 48
+              },
+              {
+                "value": "16",
+                "count": 45
+              },
+              {
+                "value": "13",
+                "count": 31
+              },
+              {
+                "value": "11",
+                "count": 28
+              },
+              {
+                "value": "25",
+                "count": 25
+              },
+              {
+                "value": "17",
+                "count": 22
+              },
+              {
+                "value": "21",
+                "count": 21
+              },
+              {
+                "value": "14",
+                "count": 18
+              },
+              {
+                "value": "20",
+                "count": 17
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "RPP",
+                "count": 49
+              },
+              {
+                "value": "AHU",
+                "count": 48
+              },
+              {
+                "value": "LAS",
+                "count": 45
+              },
+              {
+                "value": "SLA",
+                "count": 31
+              },
+              {
+                "value": "PRF",
+                "count": 28
+              },
+              {
+                "value": "CDN",
+                "count": 25
+              },
+              {
+                "value": "RDP",
+                "count": 22
+              },
+              {
+                "value": "MHM",
+                "count": 21
+              },
+              {
+                "value": "MTN",
+                "count": 18
+              },
+              {
+                "value": "PMR",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 49
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 48
+              },
+              {
+                "value": "LaSalle",
+                "count": 45
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 31
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 28
+              },
+              {
+                "value": "Cte-des-Neiges / Notre-Dame-de-Grce",
+                "count": 25
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 22
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 21
+              },
+              {
+                "value": "Montral-Nord",
+                "count": 18
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "79f5d5ab-cda7-4dad-b32e-b8b58f858434",
+      "name": "Secteurs de déneigement - Saison 2019-2020",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/79f5d5ab-cda7-4dad-b32e-b8b58f858434/download/secteurs_deneigement_saison_2019-2020.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:27.582427",
+      "created": "2020-03-30T06:20:04.473234",
+      "schema": null
+    },
+    {
+      "id": "2bdcae3f-dbc6-4ffd-b27a-e0e58af4c221",
+      "name": "Secteurs de déneigement - Saison 2019-2020",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/2bdcae3f-dbc6-4ffd-b27a-e0e58af4c221/download/secteurs_deneigement_saison_2019-2020.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:32.603902",
+      "created": "2020-03-30T06:20:20.288344",
+      "schema": null
+    },
+    {
+      "id": "aa6f2231-9a67-418f-8234-d49462dd6344",
+      "name": "Secteurs de déneigement - Saison 2018-2019 ",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/aa6f2231-9a67-418f-8234-d49462dd6344/download/secteurs_deneigement_saison_2018-2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:35.303092",
+      "created": "2018-10-08T06:19:50.719356",
+      "schema": {
+        "resource_id": "aa6f2231-9a67-418f-8234-d49462dd6344",
+        "total_records": 207,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 207,
+        "total_records": 207,
+        "audited_at": "2026-03-10T00:27:05.510934+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 182.0,
+            "mean": 71.7923,
+            "median": 66.0,
+            "unique_count": 123,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 123,
+            "top_values": [
+              {
+                "value": "RPP-33",
+                "count": 5
+              },
+              {
+                "value": "AHU-19",
+                "count": 4
+              },
+              {
+                "value": "AHU-14",
+                "count": 4
+              },
+              {
+                "value": "AHU-16",
+                "count": 4
+              },
+              {
+                "value": "RPP-34C",
+                "count": 4
+              },
+              {
+                "value": "SLA-55",
+                "count": 4
+              },
+              {
+                "value": "RDP-91",
+                "count": 3
+              },
+              {
+                "value": "RDP-95",
+                "count": 3
+              },
+              {
+                "value": "RDP-93",
+                "count": 3
+              },
+              {
+                "value": "RDP-99",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.6957,
+            "median": 17.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 25
+              },
+              {
+                "value": "22",
+                "count": 21
+              },
+              {
+                "value": "23",
+                "count": 21
+              },
+              {
+                "value": "17",
+                "count": 20
+              },
+              {
+                "value": "9",
+                "count": 16
+              },
+              {
+                "value": "25",
+                "count": 14
+              },
+              {
+                "value": "14",
+                "count": 13
+              },
+              {
+                "value": "21",
+                "count": 12
+              },
+              {
+                "value": "18",
+                "count": 10
+              },
+              {
+                "value": "20",
+                "count": 9
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 25
+              },
+              {
+                "value": "AHU",
+                "count": 21
+              },
+              {
+                "value": "RPP",
+                "count": 21
+              },
+              {
+                "value": "RDP",
+                "count": 20
+              },
+              {
+                "value": "ANJ",
+                "count": 16
+              },
+              {
+                "value": "CDN",
+                "count": 14
+              },
+              {
+                "value": "MTN",
+                "count": 13
+              },
+              {
+                "value": "MHM",
+                "count": 12
+              },
+              {
+                "value": "VMA",
+                "count": 10
+              },
+              {
+                "value": "PMR",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 25
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 21
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 21
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 20
+              },
+              {
+                "value": "Anjou",
+                "count": 16
+              },
+              {
+                "value": "Cte-des-Neiges / Notre-Dame-de-Grce",
+                "count": 14
+              },
+              {
+                "value": "Montral-Nord",
+                "count": 13
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 12
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 10
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "775c21d1-cff8-4050-8888-ebac40bac4ae",
+      "name": "Secteurs de déneigement - Saison 2018-2019 ",
+      "description": "Fichier structuré GeoJSON présentant les secteurs de déneigement de la saison 2018-2019.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/775c21d1-cff8-4050-8888-ebac40bac4ae/download/secteurs_deneigement_saison_2018-2019.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:32.812526",
+      "created": "2018-10-08T06:19:49.742020",
+      "schema": null
+    },
+    {
+      "id": "6fddd1fd-6361-4768-ab26-86c0ef50ea9a",
+      "name": "Secteurs de déneigement - Saison 2018-2019 ",
+      "description": "Fichier compressé contenant le shapefile (ESRI) présentant les secteurs de déneigement de la saison 2018-2019.\r\n\r\nRéférence géographique: NAD 83 MTM8\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/6fddd1fd-6361-4768-ab26-86c0ef50ea9a/download/secteurs_deneigement_saison_2018-2019.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:34.193205",
+      "created": "2018-10-08T06:19:50.177789",
+      "schema": null
+    },
+    {
+      "id": "3df1694d-02b9-4e53-9451-6f745e4ac4bf",
+      "name": "Secteurs de déneigement - Saison 2017-2018 ",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/3df1694d-02b9-4e53-9451-6f745e4ac4bf/download/secteurs_deneigement_saison_2017-2018.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:48.868503",
+      "created": "2017-12-05T16:29:39.864621",
+      "schema": {
+        "resource_id": "3df1694d-02b9-4e53-9451-6f745e4ac4bf",
+        "total_records": 186,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 4,
+            "NomSecteur": "RDP-91",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 5,
+            "NomSecteur": "RDP-92",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 6,
+            "NomSecteur": "RDP-95",
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 186,
+        "total_records": 186,
+        "audited_at": "2026-03-10T00:27:06.425487+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 160.0,
+            "mean": 64.6774,
+            "median": 62.5,
+            "unique_count": 106,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 106,
+            "top_values": [
+              {
+                "value": "AHU-19",
+                "count": 4
+              },
+              {
+                "value": "AHU-14",
+                "count": 4
+              },
+              {
+                "value": "AHU-16",
+                "count": 4
+              },
+              {
+                "value": "RPP-33",
+                "count": 4
+              },
+              {
+                "value": "SLA-55",
+                "count": 4
+              },
+              {
+                "value": "RDP-95",
+                "count": 3
+              },
+              {
+                "value": "RDP-93",
+                "count": 3
+              },
+              {
+                "value": "RDP-99",
+                "count": 3
+              },
+              {
+                "value": "RDP-97",
+                "count": 3
+              },
+              {
+                "value": "PMR-55",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 33.0,
+            "mean": 17.1505,
+            "median": 17.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 21
+              },
+              {
+                "value": "13",
+                "count": 21
+              },
+              {
+                "value": "12",
+                "count": 20
+              },
+              {
+                "value": "17",
+                "count": 19
+              },
+              {
+                "value": "23",
+                "count": 19
+              },
+              {
+                "value": "9",
+                "count": 15
+              },
+              {
+                "value": "21",
+                "count": 10
+              },
+              {
+                "value": "16",
+                "count": 9
+              },
+              {
+                "value": "24",
+                "count": 8
+              },
+              {
+                "value": "14",
+                "count": 8
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 21
+              },
+              {
+                "value": "SLA",
+                "count": 21
+              },
+              {
+                "value": "SLE",
+                "count": 20
+              },
+              {
+                "value": "RDP",
+                "count": 19
+              },
+              {
+                "value": "RPP",
+                "count": 19
+              },
+              {
+                "value": "ANJ",
+                "count": 15
+              },
+              {
+                "value": "MHM",
+                "count": 10
+              },
+              {
+                "value": "LAS",
+                "count": 9
+              },
+              {
+                "value": "VSP",
+                "count": 8
+              },
+              {
+                "value": "MTN",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 21
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 21
+              },
+              {
+                "value": "Saint-Lonard",
+                "count": 20
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 19
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 19
+              },
+              {
+                "value": "Anjou",
+                "count": 15
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 10
+              },
+              {
+                "value": "LaSalle",
+                "count": 9
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 8
+              },
+              {
+                "value": "Montral-Nord",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "4e2ce88f-1a3c-4076-a680-215dbec312f4",
+      "name": "Secteurs de déneigement - Saison 2017-2018",
+      "description": "Fichier structuré GeoJSON présentant les secteurs de déneigement de la saison 2017-2018.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/4e2ce88f-1a3c-4076-a680-215dbec312f4/download/secteurs_deneigement_saison_2017-2018.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:47.535721",
+      "created": "2017-12-05T16:29:39.215324",
+      "schema": null
+    },
+    {
+      "id": "e4b54ab5-1a8f-4808-9d4e-ac9a4b2f9b7b",
+      "name": "Secteurs de déneigement - Saison 2017-2018 ",
+      "description": "Fichier compressé contenant le shapefile (ESRI) présentant les secteurs de déneigement de la saison 2017-2018.\r\n\r\nRéférence géographique: NAD 83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/e4b54ab5-1a8f-4808-9d4e-ac9a4b2f9b7b/download/secteurs_deneigement_saison_2017-2018.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:48.271383",
+      "created": "2017-12-05T16:29:39.589945",
+      "schema": null
+    },
+    {
+      "id": "63e47dcf-a762-408d-a0d3-983b77f8b3f7",
+      "name": "Secteurs de déneigement - Saison 2016-2017",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/63e47dcf-a762-408d-a0d3-983b77f8b3f7/download/secteurs.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-03-03T20:29:14.654229",
+      "created": "2016-03-10T11:47:53.620314",
+      "schema": {
+        "resource_id": "63e47dcf-a762-408d-a0d3-983b77f8b3f7",
+        "total_records": 140,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdenfiantSecteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomSecteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdenfiantSecteur": 93,
+            "NomSecteur": "MTN-01",
+            "IdentifiantArrondissement": 14,
+            "ArrondissementCode": "MTN",
+            "Arrondissement": "Montréal-Nord"
+          },
+          {
+            "_id": 2,
+            "IdenfiantSecteur": 55,
+            "NomSecteur": "CDN-72",
+            "IdentifiantArrondissement": 25,
+            "ArrondissementCode": "CDN",
+            "Arrondissement": "Côte-des-Neiges / Notre-Dame-de-Grâce"
+          },
+          {
+            "_id": 3,
+            "IdenfiantSecteur": 98,
+            "NomSecteur": "PRF-01",
+            "IdentifiantArrondissement": 11,
+            "ArrondissementCode": "PRF",
+            "Arrondissement": "Pierrefonds / Roxboro"
+          },
+          {
+            "_id": 4,
+            "IdenfiantSecteur": 36,
+            "NomSecteur": "AHU-14",
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 5,
+            "IdenfiantSecteur": 31,
+            "NomSecteur": "AHU-15",
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdenfiantSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomSecteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 140,
+        "total_records": 140,
+        "audited_at": "2026-03-10T00:27:07.266417+00:00",
+        "fields": {
+          "IdenfiantSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 165.0,
+            "mean": 83.3643,
+            "median": 83.5,
+            "unique_count": 140,
+            "field_type_detected": "numeric"
+          },
+          "NomSecteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 140,
+            "top_values": [
+              {
+                "value": "MTN-01",
+                "count": 1
+              },
+              {
+                "value": "CDN-72",
+                "count": 1
+              },
+              {
+                "value": "PRF-01",
+                "count": 1
+              },
+              {
+                "value": "AHU-14",
+                "count": 1
+              },
+              {
+                "value": "AHU-15",
+                "count": 1
+              },
+              {
+                "value": "MTN-02",
+                "count": 1
+              },
+              {
+                "value": "ANJ-05",
+                "count": 1
+              },
+              {
+                "value": "VSP-101",
+                "count": 1
+              },
+              {
+                "value": "VSP-107",
+                "count": 1
+              },
+              {
+                "value": "ANJ-06",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.0,
+            "max": 36.0,
+            "mean": 17.3786,
+            "median": 17.0,
+            "unique_count": 24,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "16",
+                "count": 13
+              },
+              {
+                "value": "13",
+                "count": 13
+              },
+              {
+                "value": "22",
+                "count": 10
+              },
+              {
+                "value": "17",
+                "count": 10
+              },
+              {
+                "value": "9",
+                "count": 9
+              },
+              {
+                "value": "21",
+                "count": 9
+              },
+              {
+                "value": "12",
+                "count": 9
+              },
+              {
+                "value": "24",
+                "count": 8
+              },
+              {
+                "value": "23",
+                "count": 8
+              },
+              {
+                "value": "18",
+                "count": 6
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 24,
+            "top_values": [
+              {
+                "value": "LAS",
+                "count": 13
+              },
+              {
+                "value": "SLA",
+                "count": 13
+              },
+              {
+                "value": "AHU",
+                "count": 10
+              },
+              {
+                "value": "RDP",
+                "count": 10
+              },
+              {
+                "value": "ANJ",
+                "count": 9
+              },
+              {
+                "value": "MHM",
+                "count": 9
+              },
+              {
+                "value": "SLE",
+                "count": 9
+              },
+              {
+                "value": "VSP",
+                "count": 8
+              },
+              {
+                "value": "RPP",
+                "count": 8
+              },
+              {
+                "value": "VMA",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 24,
+            "top_values": [
+              {
+                "value": "LaSalle",
+                "count": 13
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 13
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 10
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 10
+              },
+              {
+                "value": "Anjou",
+                "count": 9
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 9
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 9
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 8
+              },
+              {
+                "value": "Rosemont / Petite-Patrie",
+                "count": 8
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "b19d704d-109a-45c2-aedb-6fe2968618a3",
+      "name": "Secteurs de déneigement - Saison 2016-2017",
+      "description": "Fichier structuré GeoJSON présentant les secteurs de déneigement de la saison 2016-2017.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/b19d704d-109a-45c2-aedb-6fe2968618a3/download/secteurs.json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-03-03T20:28:54.692851",
+      "created": "2016-04-28T17:18:45.577782",
+      "schema": null
+    },
+    {
+      "id": "dbb1cde8-8755-4f51-a272-861ca8fa8f90",
+      "name": "Secteurs de déneigement - Saison 2016-2017",
+      "description": "Fichier compressé contenant le shapefile (ESRI) présentant les secteurs de déneigement de la saison 2016-2017.\r\n\r\nRéférence géographique: NAD 83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/dbb1cde8-8755-4f51-a272-861ca8fa8f90/download/secteurs.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-03-03T20:31:36.834776",
+      "created": "2016-04-28T17:18:23.834355",
+      "schema": null
+    },
+    {
+      "id": "fbf443c1-c9b3-421d-8118-f7bb491573e9",
+      "name": "Secteurs de déneigement - Saison 2015-2016",
+      "description": "Plan (DAO) géoréférencé des secteur de déneigement de la saison 2015-2016",
+      "format": "DGN",
+      "url": "https://donnees.montreal.ca/dataset/9f3911af-3a5f-4c4b-89c7-239ba487b1f1/resource/fbf443c1-c9b3-421d-8118-f7bb491573e9/download/ileneige-topologique-151210.dgn",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-11-06T21:51:49.811577",
+      "created": "2017-11-06T16:51:49.980218",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Chargement",
+    "Déneigement",
+    "Neige",
+    "Opération",
+    "SCAEC",
+    "Secteur"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont extraites à partir du système de gestion du transport de la neige utilisé par la Ville de Montréal.  Les secteurs sont définis par chaque arrondissement. Notez que les limites des secteurs peuvent être modifiées d'une année à l'autre et il arrive que des secteurs soient fusionnés ou qu'un secteur soit divisé en plusieurs. \n\n\nCertains secteurs exécutés par la régie interne (NomSecteur = XXX-RE),  secteurs généraux d'entités externes (NuméroContrat/NomSecteur = EXT-XXX) ou secteurs fictifs n'ont pas de géométrie puisque lié à l'ensemble d'un arrondissement, au",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2016-10-01/2017-03-01",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Chargement",
+      "Déneigement",
+      "Neige",
+      "Opération",
+      "SCAEC",
+      "Secteur"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/secteur-deneigement",
+    "scraped_at": "2026-03-09T20:21:25.977480+00:00"
+  }
+}

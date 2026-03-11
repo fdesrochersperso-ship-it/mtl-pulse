@@ -1,0 +1,983 @@
+{
+  "slug": "vmtl-vehicules-electriques-et-hybrides",
+  "title": "Véhicules électriques et hybrides",
+  "notes": "Ensemble de données contenant le nombre de véhicules électriques et hybrides par type de véhicule et par unité administrative.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-03-07T22:13:13.915661",
+  "metadata_modified": "2025-11-20T20:00:37.001927",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "32d74c10-a270-4b04-ac83-0fa05f68d6e9",
+      "name": "Nombre de véhicules électriques et hybrides au format MS Excel",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/71eb9769-7501-4fc7-8654-b2eaf80ea624/resource/32d74c10-a270-4b04-ac83-0fa05f68d6e9/download/vehelectriquehybride.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-04-25T20:23:34.571300",
+      "created": "2016-03-07T17:13:49.111863",
+      "schema": {
+        "resource_id": "32d74c10-a270-4b04-ac83-0fa05f68d6e9",
+        "total_records": 30,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "unite_administrative",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "automobile_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "automobile_hybride",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh_outil_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh_outil_lourd_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre_equipement_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "total_general",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "unite_administrative": "Arr. Ahuntsic-Cartierville ",
+            "automobile_electrique": null,
+            "automobile_hybride": 2,
+            "camion_leger_electrique": null,
+            "veh_outil_leger_electrique": null,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": null,
+            "total_general": 4
+          },
+          {
+            "_id": 2,
+            "unite_administrative": "Arr. Anjou",
+            "automobile_electrique": null,
+            "automobile_hybride": 1,
+            "camion_leger_electrique": null,
+            "veh_outil_leger_electrique": null,
+            "veh_outil_lourd_electrique": null,
+            "autre_equipement_leger_electrique": null,
+            "total_general": 1
+          },
+          {
+            "_id": 3,
+            "unite_administrative": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce ",
+            "automobile_electrique": 1,
+            "automobile_hybride": 2,
+            "camion_leger_electrique": null,
+            "veh_outil_leger_electrique": null,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": null,
+            "total_general": 5
+          },
+          {
+            "_id": 4,
+            "unite_administrative": "Arr. Lachine",
+            "automobile_electrique": null,
+            "automobile_hybride": null,
+            "camion_leger_electrique": null,
+            "veh_outil_leger_electrique": null,
+            "veh_outil_lourd_electrique": 1,
+            "autre_equipement_leger_electrique": null,
+            "total_general": 1
+          },
+          {
+            "_id": 5,
+            "unite_administrative": "Arr. LaSalle",
+            "automobile_electrique": 1,
+            "automobile_hybride": null,
+            "camion_leger_electrique": null,
+            "veh_outil_leger_electrique": null,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": 1,
+            "total_general": 4
+          }
+        ]
+      },
+      "field_stats": {
+        "unite_administrative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "automobile_electrique": {
+          "null_count": 16,
+          "null_pct": 53.3,
+          "populated_pct": 46.7
+        },
+        "automobile_hybride": {
+          "null_count": 8,
+          "null_pct": 26.7,
+          "populated_pct": 73.3
+        },
+        "camion_leger_electrique": {
+          "null_count": 25,
+          "null_pct": 83.3,
+          "populated_pct": 16.7
+        },
+        "veh_outil_leger_electrique": {
+          "null_count": 23,
+          "null_pct": 76.7,
+          "populated_pct": 23.3
+        },
+        "veh_outil_lourd_electrique": {
+          "null_count": 13,
+          "null_pct": 43.3,
+          "populated_pct": 56.7
+        },
+        "autre_equipement_leger_electrique": {
+          "null_count": 18,
+          "null_pct": 60.0,
+          "populated_pct": 40.0
+        },
+        "total_general": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 30,
+        "total_records": 30,
+        "audited_at": "2026-03-10T00:32:28.369934+00:00",
+        "fields": {
+          "unite_administrative": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 30,
+            "top_values": [
+              {
+                "value": "Arr. Ahuntsic-Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Arr. Anjou",
+                "count": 1
+              },
+              {
+                "value": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Arr. Lachine",
+                "count": 1
+              },
+              {
+                "value": "Arr. LaSalle",
+                "count": 1
+              },
+              {
+                "value": "Arr. Mercier–Hochelaga-Maisonneuve",
+                "count": 1
+              },
+              {
+                "value": "Arr. Montréal-Nord",
+                "count": 1
+              },
+              {
+                "value": "Arr. Outremont",
+                "count": 1
+              },
+              {
+                "value": "Arr. Pierrefonds-Roxboro",
+                "count": 1
+              },
+              {
+                "value": "Arr. Plateau-Mont-Royal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "automobile_electrique": {
+            "null_count": 16,
+            "null_pct": 53.3,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.2857,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 10
+              },
+              {
+                "value": "2",
+                "count": 4
+              }
+            ]
+          },
+          "automobile_hybride": {
+            "null_count": 8,
+            "null_pct": 26.7,
+            "min": 1.0,
+            "max": 11.0,
+            "mean": 4.1364,
+            "median": 2.5,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "5",
+                "count": 2
+              },
+              {
+                "value": "10",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              }
+            ]
+          },
+          "camion_leger_electrique": {
+            "null_count": 25,
+            "null_pct": 83.3,
+            "min": 1.0,
+            "max": 3.0,
+            "mean": 1.4,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "3",
+                "count": 1
+              }
+            ]
+          },
+          "veh_outil_leger_electrique": {
+            "null_count": 23,
+            "null_pct": 76.7,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.1429,
+            "median": 2.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 3
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 2
+              }
+            ]
+          },
+          "veh_outil_lourd_electrique": {
+            "null_count": 13,
+            "null_pct": 43.3,
+            "min": 1.0,
+            "max": 3.0,
+            "mean": 1.8824,
+            "median": 2.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 9
+              },
+              {
+                "value": "1",
+                "count": 5
+              },
+              {
+                "value": "3",
+                "count": 3
+              }
+            ]
+          },
+          "autre_equipement_leger_electrique": {
+            "null_count": 18,
+            "null_pct": 60.0,
+            "min": 1.0,
+            "max": 16.0,
+            "mean": 6.0,
+            "median": 5.5,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 3
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "total_general": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 29.0,
+            "mean": 7.8333,
+            "median": 6.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "5",
+                "count": 3
+              },
+              {
+                "value": "2",
+                "count": 3
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "04e04cd7-96e3-4aed-bc5a-d30dc08c08fc",
+      "name": "Nombre de véhicules électriques et hybrides au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/71eb9769-7501-4fc7-8654-b2eaf80ea624/resource/04e04cd7-96e3-4aed-bc5a-d30dc08c08fc/download/vehelectriquehybride.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-04-25T20:23:55.232800",
+      "created": "2016-04-25T16:23:55.296409",
+      "schema": {
+        "resource_id": "04e04cd7-96e3-4aed-bc5a-d30dc08c08fc",
+        "total_records": 30,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "unite_administrative",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "automobile_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "automobile_hybride",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "camion_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh_outil_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "veh_outil_lourd_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "autre_equipement_leger_electrique",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "total_general",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "unite_administrative": "Arr. Ahuntsic-Cartierville ",
+            "automobile_electrique": 0,
+            "automobile_hybride": 2,
+            "camion_leger_electrique": 0,
+            "veh_outil_leger_electrique": 0,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": 0,
+            "total_general": 4
+          },
+          {
+            "_id": 2,
+            "unite_administrative": "Arr. Anjou",
+            "automobile_electrique": 0,
+            "automobile_hybride": 1,
+            "camion_leger_electrique": 0,
+            "veh_outil_leger_electrique": 0,
+            "veh_outil_lourd_electrique": 0,
+            "autre_equipement_leger_electrique": 0,
+            "total_general": 1
+          },
+          {
+            "_id": 3,
+            "unite_administrative": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce ",
+            "automobile_electrique": 1,
+            "automobile_hybride": 2,
+            "camion_leger_electrique": 0,
+            "veh_outil_leger_electrique": 0,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": 0,
+            "total_general": 5
+          },
+          {
+            "_id": 4,
+            "unite_administrative": "Arr. Lachine",
+            "automobile_electrique": 0,
+            "automobile_hybride": 0,
+            "camion_leger_electrique": 0,
+            "veh_outil_leger_electrique": 0,
+            "veh_outil_lourd_electrique": 1,
+            "autre_equipement_leger_electrique": 0,
+            "total_general": 1
+          },
+          {
+            "_id": 5,
+            "unite_administrative": "Arr. LaSalle",
+            "automobile_electrique": 1,
+            "automobile_hybride": 0,
+            "camion_leger_electrique": 0,
+            "veh_outil_leger_electrique": 0,
+            "veh_outil_lourd_electrique": 2,
+            "autre_equipement_leger_electrique": 1,
+            "total_general": 4
+          }
+        ]
+      },
+      "field_stats": {
+        "unite_administrative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "automobile_electrique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "automobile_hybride": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "camion_leger_electrique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh_outil_leger_electrique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "veh_outil_lourd_electrique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "autre_equipement_leger_electrique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "total_general": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 30,
+        "total_records": 30,
+        "audited_at": "2026-03-10T00:32:29.199899+00:00",
+        "fields": {
+          "unite_administrative": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 30,
+            "top_values": [
+              {
+                "value": "Arr. Ahuntsic-Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Arr. Anjou",
+                "count": 1
+              },
+              {
+                "value": "Arr. Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "Arr. Lachine",
+                "count": 1
+              },
+              {
+                "value": "Arr. LaSalle",
+                "count": 1
+              },
+              {
+                "value": "Arr. Mercier–Hochelaga-Maisonneuve",
+                "count": 1
+              },
+              {
+                "value": "Arr. Montréal-Nord",
+                "count": 1
+              },
+              {
+                "value": "Arr. Outremont",
+                "count": 1
+              },
+              {
+                "value": "Arr. Pierrefonds-Roxboro",
+                "count": 1
+              },
+              {
+                "value": "Arr. Plateau-Mont-Royal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "automobile_electrique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.6,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 16
+              },
+              {
+                "value": "1",
+                "count": 10
+              },
+              {
+                "value": "2",
+                "count": 4
+              }
+            ]
+          },
+          "automobile_hybride": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 11.0,
+            "mean": 3.0333,
+            "median": 2.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 8
+              },
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "5",
+                "count": 2
+              },
+              {
+                "value": "10",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              }
+            ]
+          },
+          "camion_leger_electrique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3.0,
+            "mean": 0.2333,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 25
+              },
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "3",
+                "count": 1
+              }
+            ]
+          },
+          "veh_outil_leger_electrique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.5,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 23
+              },
+              {
+                "value": "1",
+                "count": 3
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 2
+              }
+            ]
+          },
+          "veh_outil_lourd_electrique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3.0,
+            "mean": 1.0667,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 13
+              },
+              {
+                "value": "2",
+                "count": 9
+              },
+              {
+                "value": "1",
+                "count": 5
+              },
+              {
+                "value": "3",
+                "count": 3
+              }
+            ]
+          },
+          "autre_equipement_leger_electrique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 16.0,
+            "mean": 2.4,
+            "median": 0.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 18
+              },
+              {
+                "value": "6",
+                "count": 3
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "total_general": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 29.0,
+            "mean": 7.8333,
+            "median": 6.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "5",
+                "count": 3
+              },
+              {
+                "value": "2",
+                "count": 3
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Hybride",
+    "Réseau électrique",
+    "Véhicule hybride",
+    "Véhicule électrique",
+    "Zéro émission",
+    "Électrique"
+  ],
+  "web_metadata": {
+    "methodology_text": "Inventaire des véhicules électriques et hybrides regroupés par unité administrative (incluant les arrondissements, à l'exception du Service de police de la Ville de Montréal) et par type de véhicule en date d'août 2015.\n\n### Dictionnaire de données :\n\n\n\n- unite_administrative (Texte) : Unité administrative utilisant les véhicules\n\n- automobile_electrique (Numérique) : Nombre de voitures électriques\n\n- automobile_hybride (Numérique) : Nombre de voitures hybrides (électrique et thermique)\n\n- camion_leger_electrique (Numérique) : Nombre de camions légers électriques\n\n- veh_outil_leger_electrique (Numérique) : Nombre de véhicules-outils légers électriques \n\n- veh_outil_lourd_electrique (Numérique) : Nombre de véhicules-outils lourds électriques \n\n- autre_equipement_leger_electrique (Numérique) : Nombre d'équipements routiers légers autres électriques\n\n- total_general (Numérique) : Nombre total de véhicules électriques ou hybrides par unité administrative.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Geneviève Milot",
+      "Couverture temporelle": "2015-08-01/2015-08-31",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Hybride",
+      "Réseau électrique",
+      "Véhicule hybride",
+      "Véhicule électrique",
+      "Zéro émission",
+      "Électrique"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/vehicules-electriques-et-hybrides",
+    "scraped_at": "2026-03-09T20:23:42.376833+00:00"
+  }
+}

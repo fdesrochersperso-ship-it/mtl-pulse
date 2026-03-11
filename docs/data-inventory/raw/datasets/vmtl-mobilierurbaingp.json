@@ -1,0 +1,98 @@
+{
+  "slug": "vmtl-mobilierurbaingp",
+  "title": "Mobilier urbain dans les grands parcs",
+  "notes": "L'ensemble de données mobilier urbain dans les grands parcs comprend un inventaire complet de celui-ci mis à jour en grande partie en 2013. On y retrouve entre autres, sous forme de points géoréférencés, les bancs, barbecues, bollards, équipements de sports, fontaines à boire, poubelles, supports à vélo, tables à pique-nique et certains autres éléments des grands parcs.\r\n\r\nLes [limites des grands parcs](/ville-de-montreal/grands-parcs-parcs-d-arrondissements-et-espaces-publics) sont également disponibles sur le portail.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    },
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-10-03T15:03:42.532630",
+  "metadata_modified": "2025-02-28T19:13:12.080358",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "066278b4-2d7a-4a8b-ada1-05885552767b",
+      "name": "Mobilier urbain dans les grands parcs",
+      "description": "Points représentant le mobilier urbain dans les grands parcs. \r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile \r\n\r\nSystème de projection : NAD 83 MTM 8\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb04fa09-fda1-44df-b575-1d14b2508372/resource/066278b4-2d7a-4a8b-ada1-05885552767b/download/mobilierurbaingp.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-10-03T19:30:51.929001",
+      "created": "2017-10-03T11:14:08.995742",
+      "schema": null
+    },
+    {
+      "id": "65766e31-f186-4ac9-9595-bfcf47ae9158",
+      "name": "Mobilier urbain dans les grands parcs",
+      "description": "Points représentant le mobilier urbain dans les grands parcs. \r\n\r\nLe fichier contient les données au format geojson.\r\n\r\nSystème de coordonnées : WGS 84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb04fa09-fda1-44df-b575-1d14b2508372/resource/65766e31-f186-4ac9-9595-bfcf47ae9158/download/mobilierurbaingp.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-10-03T19:31:37.852357",
+      "created": "2017-10-03T11:20:38.133818",
+      "schema": null
+    },
+    {
+      "id": "f5b1e883-1cde-4d4c-93cd-7215be7c6f8a",
+      "name": "Mobilier urbain dans les grands parcs",
+      "description": "Points représentant le mobilier urbain dans les grands parcs. \r\n\r\nLe fichier contient les données au format kmz.\r\n\r\nSystème de coordonnées : WGS 84\r\n",
+      "format": "KMZ",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb04fa09-fda1-44df-b575-1d14b2508372/resource/f5b1e883-1cde-4d4c-93cd-7215be7c6f8a/download/mobilierurbaingp.kmz",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-10-03T19:32:33.949014",
+      "created": "2017-10-03T11:21:54.688839",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Espace vert",
+    "Grand parc",
+    "Mobilier urbain",
+    "Parc",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "L'emplacement et les caractéristiques du mobilier urbain des grands parcs sont le résultat d'une analyse des orthophotos de la CMM (2011, 2013, 2015) et de visites de terrain sur quelques années jusqu'en 2013. Depuis 2013 les données ont peu été mises à jour.  Le Service des grands parcs, du Mont-Royal et des sports travaille actuellement sur l'optimisation des mises à jour.\n\n\nL'emplacement des éléments est approximatif, c'est à dire à quelques mètres près, le mobilier urbain ayant été placé surtout à partir de photo-interprétation et sur le terrain à l'aide de plan papier. De plus, les éléments non ancrés peuvent bouger d'une année à l'autre.\n\n### Dictionnaire de données\n\n\n\n- OBJECTID (numérique) : Identifiant unique.\n\n- Element (texte variable) : Code du type d'élément (banc, table à pique-nique, etc.).\n\n- InspectDat (date et/ou heure) : Date de la dernière inspection.\n\n- ElementDes (texte variable) : Type d'élément (banc, table à pique-nique, etc.).\n\n- X (coordonnée spatiale) : Coordonnée en X dans le système de projection NAD83 MTM8.\n\n- Y (Coordonnée spatiale) : Coordonnée en Y dans le système de projection NAD83 MTM8.\n\n- Actif (liste de valeur) : Cet élément est-il un actif des grands parcs?\n\n- Ancree (liste de valeur) : Cet élément est-il ancré au sol?\n\n- InstalDate (date et/ou heure) : Date de l'installation ou estimation de celle-ci.\n\n- Materiau (texte variable) : Spécification sur le type de matériau (bois, acier, etc.).\n\n- GraRg (numérique) : Nombre de rangées des gradins.\n\n- GraSec (numérique) : Nombre de sections des gradins.\n\n- IndexGparc (texte variable) : Numéro d'index du grand parc.\n\n- Utilisatio (liste de valeur) : Niveau d'utilisation estimé.\n\n- TypeAncrag (liste de valeur) : Type d'ancrage.\n\n- Modele (texte variable) : Numéro de modèle au catalogue interne.\n\n- Remarque (texte variable) : Détail supplémentaire sur l'élément de mobilier urbain.\n\n- Nom_parc (texte variable) : Nom du grand parc.\n\n- Long (Coordonnée spatiale) : Coordonnée en longitude (WGS 84).\n\n- Lat (Coordonnée spatiale) : Coordonnée en latitude (WGS 84).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2011-01-01/2015-12-31",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Espace vert",
+      "Grand parc",
+      "Mobilier urbain",
+      "Parc",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/mobilierurbaingp",
+    "scraped_at": "2026-03-09T20:13:05.926292+00:00"
+  }
+}

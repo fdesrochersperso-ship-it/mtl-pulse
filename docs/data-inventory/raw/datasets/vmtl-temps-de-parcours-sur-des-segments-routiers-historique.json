@@ -1,0 +1,1179 @@
+{
+  "slug": "vmtl-temps-de-parcours-sur-des-segments-routiers-historique",
+  "title": "Temps de parcours sur des segments routiers (historique)",
+  "notes": "De manière à collecter des données sur l'état de la circulation, la Ville de Montréal déploie un réseau de capteurs utilisant la technologie Bluetooth sur certains segments routiers stratégiques et permettant de calculer le temps de parcours sur ces segments. Cet ensemble de données présente les temps de parcours. L'ensemble de données [Segments routiers de collecte des temps de parcours](/dataset/segments-routiers-de-collecte-des-temps-de-parcours) décrit les segments du réseau de collecte.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-03-03T16:14:38.719490",
+  "metadata_modified": "2025-02-26T14:41:15.315183",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "9b266e6d-bd3c-42d6-973f-cf09fa07bd05",
+      "name": "Temps de parcours 2019",
+      "description": "Attention: fichier volumineux",
+      "format": "CSV",
+      "url": "https://depot.ville.montreal.qc.ca/temps_parcours/trips2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": null,
+      "created": "2019-07-10T13:20:09.498501",
+      "schema": {
+        "resource_id": "9b266e6d-bd3c-42d6-973f-cf09fa07bd05",
+        "total_records": 7221500,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "LinkId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PathDistance_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TripStart_dt",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "TripEnd_dt",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Speed_kmh",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TravelTime_s",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "LinkId": "LSD_89-87",
+            "SrcDetectorId": "89",
+            "DestDetectorId": "87",
+            "PathDistance_m": 308,
+            "TripStart_dt": "2019-01-01T04:42:17",
+            "TripEnd_dt": "2019-01-01T04:43:42",
+            "Speed_kmh": 13.0447059,
+            "TravelTime_s": 85
+          },
+          {
+            "_id": 2,
+            "LinkId": "LRL_37-1B",
+            "SrcDetectorId": "37",
+            "DestDetectorId": "1B",
+            "PathDistance_m": 435,
+            "TripStart_dt": "2019-01-01T04:41:31",
+            "TripEnd_dt": "2019-01-01T04:43:43",
+            "Speed_kmh": 11.8636364,
+            "TravelTime_s": 132
+          },
+          {
+            "_id": 3,
+            "LinkId": "LSD_50-30",
+            "SrcDetectorId": "50",
+            "DestDetectorId": "30",
+            "PathDistance_m": 476,
+            "TripStart_dt": "2019-01-01T04:42:33",
+            "TripEnd_dt": "2019-01-01T04:43:44",
+            "Speed_kmh": 24.1352113,
+            "TravelTime_s": 71
+          },
+          {
+            "_id": 4,
+            "LinkId": "LSH_93-81",
+            "SrcDetectorId": "93",
+            "DestDetectorId": "81",
+            "PathDistance_m": 208,
+            "TripStart_dt": "2019-01-01T04:36:15",
+            "TripEnd_dt": "2019-01-01T04:43:45",
+            "Speed_kmh": 1.664,
+            "TravelTime_s": 450
+          },
+          {
+            "_id": 5,
+            "LinkId": "LND_1B-98",
+            "SrcDetectorId": "1B",
+            "DestDetectorId": "98",
+            "PathDistance_m": 369,
+            "TripStart_dt": "2019-01-01T04:43:21",
+            "TripEnd_dt": "2019-01-01T04:43:46",
+            "Speed_kmh": 53.136,
+            "TravelTime_s": 25
+          }
+        ]
+      },
+      "field_stats": {
+        "LinkId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PathDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripStart_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripEnd_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Speed_kmh": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TravelTime_s": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 7221500,
+        "audited_at": "2026-03-10T00:29:12.640324+00:00",
+        "fields": {
+          "LinkId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 154,
+            "top_values": [
+              {
+                "value": "LSD_50-30",
+                "count": 31
+              },
+              {
+                "value": "LSD_31-50",
+                "count": 26
+              },
+              {
+                "value": "LSD_32-31",
+                "count": 25
+              },
+              {
+                "value": "LSD_30-89",
+                "count": 22
+              },
+              {
+                "value": "LSD_31-30",
+                "count": 21
+              },
+              {
+                "value": "LSD_89-87",
+                "count": 20
+              },
+              {
+                "value": "LSD_31-32",
+                "count": 19
+              },
+              {
+                "value": "LSL_73-75",
+                "count": 18
+              },
+              {
+                "value": "LSD_50-31",
+                "count": 18
+              },
+              {
+                "value": "LSD_30-50",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 99.0,
+            "mean": 50.1396,
+            "median": 40.0,
+            "unique_count": 64,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 99.0,
+            "mean": 50.5695,
+            "median": 41.0,
+            "unique_count": 67,
+            "field_type_detected": "numeric"
+          },
+          "PathDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 101.0,
+            "max": 3242.0,
+            "mean": 740.705,
+            "median": 501.0,
+            "unique_count": 115,
+            "field_type_detected": "numeric"
+          },
+          "TripStart_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-01T03:59:07",
+            "max_date": "2019-01-01T05:23:30",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "TripEnd_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-01T04:43:42",
+            "max_date": "2019-01-01T05:23:51",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Speed_kmh": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.2326,
+            "max": 73.9636,
+            "mean": 24.3197,
+            "median": 23.2635,
+            "unique_count": 914,
+            "field_type_detected": "numeric"
+          },
+          "TravelTime_s": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "10",
+            "max_date": "990",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "6fcb45d7-9c98-4081-a56c-cf99e4e7b923",
+      "name": "Temps de parcours 2018",
+      "description": "À noter que pour l'année 2018, seuls les données pour les mois de janvier, février et décembre sont disponibles.",
+      "format": "CSV",
+      "url": "https://depot.ville.montreal.qc.ca/temps_parcours/trips2018.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": null,
+      "created": "2019-07-10T13:19:49.077430",
+      "schema": {
+        "resource_id": "6fcb45d7-9c98-4081-a56c-cf99e4e7b923",
+        "total_records": 3692545,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "LinkId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PathDistance_m",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TripStart_dt",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TripEnd_dt",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Speed_kmh",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TravelTime_s",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "LinkId": "LSC_92-93",
+            "SrcDetectorId": "92",
+            "DestDetectorId": "93",
+            "PathDistance_m": "222",
+            "TripStart_dt": "2018-01-08 16:54:51",
+            "TripEnd_dt": "2018-01-08 16:55:09",
+            "Speed_kmh": "44.4000000",
+            "TravelTime_s": "18"
+          },
+          {
+            "_id": 2,
+            "LinkId": "LSH_81-93",
+            "SrcDetectorId": "81",
+            "DestDetectorId": "93",
+            "PathDistance_m": "208",
+            "TripStart_dt": "2018-01-08 16:52:31",
+            "TripEnd_dt": "2018-01-08 16:55:09",
+            "Speed_kmh": "4.7392405",
+            "TravelTime_s": "158"
+          },
+          {
+            "_id": 3,
+            "LinkId": "LRo_32-35",
+            "SrcDetectorId": "32",
+            "DestDetectorId": "35",
+            "PathDistance_m": "508",
+            "TripStart_dt": "2018-01-08 16:35:52",
+            "TripEnd_dt": "2018-01-08 16:55:13",
+            "Speed_kmh": "1.5751938",
+            "TravelTime_s": "1161"
+          },
+          {
+            "_id": 4,
+            "LinkId": "LSh_03-02",
+            "SrcDetectorId": "03",
+            "DestDetectorId": "02",
+            "PathDistance_m": "1004",
+            "TripStart_dt": "2018-01-08 16:49:59",
+            "TripEnd_dt": "2018-01-08 16:55:14",
+            "Speed_kmh": "11.4742857",
+            "TravelTime_s": "315"
+          },
+          {
+            "_id": 5,
+            "LinkId": "LCC_35-34",
+            "SrcDetectorId": "35",
+            "DestDetectorId": "34",
+            "PathDistance_m": "448",
+            "TripStart_dt": "2018-01-08 16:54:32",
+            "TripEnd_dt": "2018-01-08 16:55:15",
+            "Speed_kmh": "37.5069767",
+            "TravelTime_s": "43"
+          }
+        ]
+      },
+      "field_stats": {
+        "LinkId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PathDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripStart_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripEnd_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Speed_kmh": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TravelTime_s": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 3692545,
+        "audited_at": "2026-03-10T00:29:14.320872+00:00",
+        "fields": {
+          "LinkId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "LND_54-55",
+                "count": 35
+              },
+              {
+                "value": "LND_52-54",
+                "count": 24
+              },
+              {
+                "value": "LND_52-55",
+                "count": 23
+              },
+              {
+                "value": "LSh_79-78",
+                "count": 22
+              },
+              {
+                "value": "LSh_07-08",
+                "count": 22
+              },
+              {
+                "value": "LSD_31-32",
+                "count": 21
+              },
+              {
+                "value": "LSD_87-92",
+                "count": 21
+              },
+              {
+                "value": "LSh_02-03",
+                "count": 18
+              },
+              {
+                "value": "LSh_72-79",
+                "count": 17
+              },
+              {
+                "value": "LPr_27-28",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 95.0,
+            "mean": 46.094,
+            "median": 35.0,
+            "unique_count": 62,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 95.0,
+            "mean": 45.142,
+            "median": 35.0,
+            "unique_count": 60,
+            "field_type_detected": "numeric"
+          },
+          "PathDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 101.0,
+            "max": 4213.0,
+            "mean": 823.776,
+            "median": 629.0,
+            "unique_count": 96,
+            "field_type_detected": "numeric"
+          },
+          "TripStart_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-01-08 16:31:20",
+            "max_date": "2018-01-08 17:18:25",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "TripEnd_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-01-08 16:55:09",
+            "max_date": "2018-01-08 17:19:14",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Speed_kmh": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.3002,
+            "max": 70.7625,
+            "mean": 13.7465,
+            "median": 12.3114,
+            "unique_count": 940,
+            "field_type_detected": "numeric"
+          },
+          "TravelTime_s": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "100",
+            "max_date": "994",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "960d7d6f-5c86-4eca-ae96-167440d5656c",
+      "name": "Temps de parcours 2017",
+      "description": "Attention: fichier volumineux",
+      "format": "CSV",
+      "url": "https://depot.ville.montreal.qc.ca/temps_parcours/trips2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": null,
+      "created": "2019-07-10T13:19:22.717012",
+      "schema": {
+        "resource_id": "960d7d6f-5c86-4eca-ae96-167440d5656c",
+        "total_records": 9470791,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "LinkId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PathDistance_m",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TripStart_dt",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TripEnd_dt",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Speed_kmh",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TravelTime_s",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "LinkId": "LCC_35-34",
+            "SrcDetectorId": "35",
+            "DestDetectorId": "34",
+            "PathDistance_m": "448",
+            "TripStart_dt": "2017-08-22 23:59:44",
+            "TripEnd_dt": "2017-08-23 00:00:07",
+            "Speed_kmh": "70.1217391",
+            "TravelTime_s": "23"
+          },
+          {
+            "_id": 2,
+            "LinkId": "LCC_35-34",
+            "SrcDetectorId": "35",
+            "DestDetectorId": "34",
+            "PathDistance_m": "448",
+            "TripStart_dt": "2017-08-22 23:59:44",
+            "TripEnd_dt": "2017-08-23 00:00:07",
+            "Speed_kmh": "70.1217391",
+            "TravelTime_s": "23"
+          },
+          {
+            "_id": 3,
+            "LinkId": "LCC_35-36",
+            "SrcDetectorId": "35",
+            "DestDetectorId": "36",
+            "PathDistance_m": "1570",
+            "TripStart_dt": "2017-08-22 23:58:02",
+            "TripEnd_dt": "2017-08-23 00:00:10",
+            "Speed_kmh": "44.1562500",
+            "TravelTime_s": "128"
+          },
+          {
+            "_id": 4,
+            "LinkId": "LCC_35-36",
+            "SrcDetectorId": "35",
+            "DestDetectorId": "36",
+            "PathDistance_m": "1570",
+            "TripStart_dt": "2017-08-22 23:58:02",
+            "TripEnd_dt": "2017-08-23 00:00:10",
+            "Speed_kmh": "44.1562500",
+            "TravelTime_s": "128"
+          },
+          {
+            "_id": 5,
+            "LinkId": "LLo_41-42",
+            "SrcDetectorId": "41",
+            "DestDetectorId": "42",
+            "PathDistance_m": "1115",
+            "TripStart_dt": "2017-08-22 23:58:58",
+            "TripEnd_dt": "2017-08-23 00:00:14",
+            "Speed_kmh": "52.8157895",
+            "TravelTime_s": "76"
+          }
+        ]
+      },
+      "field_stats": {
+        "LinkId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PathDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripStart_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripEnd_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Speed_kmh": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TravelTime_s": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 9470791,
+        "audited_at": "2026-03-10T00:29:16.986884+00:00",
+        "fields": {
+          "LinkId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 136,
+            "top_values": [
+              {
+                "value": "LSL_73-75",
+                "count": 33
+              },
+              {
+                "value": "LSC_94-92",
+                "count": 24
+              },
+              {
+                "value": "LSD_92-29",
+                "count": 22
+              },
+              {
+                "value": "LSL_75-78",
+                "count": 22
+              },
+              {
+                "value": "LSh_78-79",
+                "count": 19
+              },
+              {
+                "value": "LLo_40-41",
+                "count": 18
+              },
+              {
+                "value": "LLo_42-43",
+                "count": 18
+              },
+              {
+                "value": "LSL_76-73",
+                "count": 18
+              },
+              {
+                "value": "LRL_29-81",
+                "count": 18
+              },
+              {
+                "value": "LSD_87-92",
+                "count": 18
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 96.0,
+            "mean": 50.602,
+            "median": 44.0,
+            "unique_count": 70,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 96.0,
+            "mean": 47.939,
+            "median": 42.0,
+            "unique_count": 64,
+            "field_type_detected": "numeric"
+          },
+          "PathDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 101.0,
+            "max": 3933.0,
+            "mean": 871.481,
+            "median": 508.0,
+            "unique_count": 101,
+            "field_type_detected": "numeric"
+          },
+          "TripStart_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-08-22 23:35:55",
+            "max_date": "2017-08-23 00:40:53",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "TripEnd_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-08-23 00:00:07",
+            "max_date": "2017-08-23 00:41:53",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "Speed_kmh": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.3214,
+            "max": 70.1217,
+            "mean": 26.3635,
+            "median": 26.1901,
+            "unique_count": 487,
+            "field_type_detected": "numeric"
+          },
+          "TravelTime_s": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "10",
+            "max_date": "99",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "6542cee3-28b6-4b45-b62b-377fbb31c733",
+      "name": "Temps de parcours 2016",
+      "description": "Attention: fichier volumineux",
+      "format": "CSV",
+      "url": "https://depot.ville.montreal.qc.ca/temps_parcours/trips2016.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": null,
+      "created": "2019-07-10T13:18:41.974428",
+      "schema": {
+        "resource_id": "6542cee3-28b6-4b45-b62b-377fbb31c733",
+        "total_records": 757250,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "LinkId",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SrcDetectorId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DestDetectorId",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PathDistance_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TripStart_dt",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "TripEnd_dt",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Speed_kmh",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "TravelTime_s",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "LinkId": "LCC_35-34",
+            "SrcDetectorId": 35,
+            "DestDetectorId": 34,
+            "PathDistance_m": 448,
+            "TripStart_dt": "2016-01-25T15:40:49",
+            "TripEnd_dt": "2016-01-25T15:41:16",
+            "Speed_kmh": 597333333,
+            "TravelTime_s": 27
+          },
+          {
+            "_id": 2,
+            "LinkId": "LCC_35-34",
+            "SrcDetectorId": 35,
+            "DestDetectorId": 34,
+            "PathDistance_m": 448,
+            "TripStart_dt": "2016-01-25T15:40:52",
+            "TripEnd_dt": "2016-01-25T15:41:19",
+            "Speed_kmh": 597333333,
+            "TravelTime_s": 27
+          },
+          {
+            "_id": 3,
+            "LinkId": "LSh_05-06",
+            "SrcDetectorId": 5,
+            "DestDetectorId": 6,
+            "PathDistance_m": 403,
+            "TripStart_dt": "2016-01-25T15:40:53",
+            "TripEnd_dt": "2016-01-25T15:41:21",
+            "Speed_kmh": 518142857,
+            "TravelTime_s": 28
+          },
+          {
+            "_id": 4,
+            "LinkId": "LSh_02-01",
+            "SrcDetectorId": 2,
+            "DestDetectorId": 1,
+            "PathDistance_m": 1192,
+            "TripStart_dt": "2016-01-25T15:40:19",
+            "TripEnd_dt": "2016-01-25T15:41:41",
+            "Speed_kmh": 523317073,
+            "TravelTime_s": 82
+          },
+          {
+            "_id": 5,
+            "LinkId": "LSJ_41-39",
+            "SrcDetectorId": 41,
+            "DestDetectorId": 39,
+            "PathDistance_m": 298,
+            "TripStart_dt": "2016-01-25T15:40:16",
+            "TripEnd_dt": "2016-01-25T15:41:45",
+            "Speed_kmh": 120539326,
+            "TravelTime_s": 89
+          }
+        ]
+      },
+      "field_stats": {
+        "LinkId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SrcDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DestDetectorId": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PathDistance_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripStart_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TripEnd_dt": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Speed_kmh": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TravelTime_s": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 757250,
+        "audited_at": "2026-03-10T00:29:18.063492+00:00",
+        "fields": {
+          "LinkId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "LPa_17-16",
+                "count": 32
+              },
+              {
+                "value": "LSh_05-06",
+                "count": 26
+              },
+              {
+                "value": "LND_52-54",
+                "count": 23
+              },
+              {
+                "value": "LPa_16-17",
+                "count": 22
+              },
+              {
+                "value": "LND_54-55",
+                "count": 21
+              },
+              {
+                "value": "LSh_06-07",
+                "count": 19
+              },
+              {
+                "value": "LPi_01-47",
+                "count": 18
+              },
+              {
+                "value": "LSJ_41-39",
+                "count": 17
+              },
+              {
+                "value": "LSD_31-32",
+                "count": 17
+              },
+              {
+                "value": "LRo_32-35",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SrcDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 63.0,
+            "mean": 24.85,
+            "median": 27.0,
+            "unique_count": 44,
+            "field_type_detected": "numeric"
+          },
+          "DestDetectorId": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 63.0,
+            "mean": 25.173,
+            "median": 28.0,
+            "unique_count": 43,
+            "field_type_detected": "numeric"
+          },
+          "PathDistance_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 147.0,
+            "max": 3056.0,
+            "mean": 1212.629,
+            "median": 1154.0,
+            "unique_count": 78,
+            "field_type_detected": "numeric"
+          },
+          "TripStart_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-25T15:40:06",
+            "max_date": "2016-01-25T16:21:46",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "TripEnd_dt": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-25T15:41:16",
+            "max_date": "2016-01-25T16:22:34",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Speed_kmh": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7438017.0,
+            "max": 733090909.0,
+            "mean": 285400282.379,
+            "median": 273940223.5,
+            "unique_count": 915,
+            "field_type_detected": "numeric"
+          },
+          "TravelTime_s": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "100",
+            "max_date": "99",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Congestion",
+    "Route",
+    "SUM",
+    "Temps de parcours",
+    "Trafic",
+    "Vitesse"
+  ],
+  "web_metadata": {
+    "methodology_text": "Des capteurs Bluetooth sont placés à certaines intersections importantes du réseau artériel montréalais, créant ainsi, entre deux capteurs, des segments pour lesquels il est possible de calculer de temps de parcours. Le temps de parcours est défini en calculant la différence de temps entre les passages devant le premier et le second capteur. Avec la distance du segment, il devient possible de calculer la vitesse moyenne sur ce segment.\n\n\nTout dispositif électronique utilisant la norme Bluetooth peut être reconnu à condition de passer dans le rayon d'action du capteur. Toutefois, ce n'est pas nécessairement tous les dispositifs entrant dans le rayon d'action qui sont détectés et reconnus; de ce fait, les présentes ne peuvent pas être utilisées à des fins de comptage.\n\n### Dictionnaire de données\n\n\n\n- LinkId (texte) : Identifiant unique du segment de temps de parcours. Format LXX_AA-BB, XX identifiant de l'artère, AA identifiant de la source, BB identifiant de la destination. Cet idenfiant permet de faire le lien avec avec l'ensemble de données segments routiers de collecte des temps de parcours.\n\n- SrcDetectorId (texte) : Identifiant unique du capteur d'origine du segment.\n\n- DestDetectorId (texte) : Identifiant unique du capteur de destination du segment.\n\n- PathDistance_m (entier) : Longueur du segment, en mètres.\n\n- TripStart_dt (date et heure) : Date et heure de la capture au point d'origine du segment au format AAAA-MM-JJ HH:MM:SS.\n\n- TripEnd_dt (date et heure) : Date et heure de la capture au point de destination du segment au format AAAA-MM-JJ HH:MM:SS.\n\n- Speed_kmh (numérique) : Vitesse moyenne calculée sur le segment, en kilomètres par heure.\n\n- TravelTime_s (entier) : Temps de parcours calculé sur le segment, en secondes.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2016-01-25/2019-07-01",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Congestion",
+      "Route",
+      "SUM",
+      "Temps de parcours",
+      "Trafic",
+      "Vitesse"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/temps-de-parcours-sur-des-segments-routiers-historique",
+    "scraped_at": "2026-03-09T20:23:23.268619+00:00"
+  }
+}

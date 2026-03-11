@@ -1,0 +1,183 @@
+{
+  "slug": "vmtl-ecoterritoires",
+  "title": "Écoterritoires de l'agglomération de Montréal",
+  "notes": "Ce fichier contient des polygones délimitant les écoterritoires. La Ville de Montréal a identifié 10 secteurs, appelés écoterritoires, où la protection et la valorisation des espaces naturels s’y trouvant ont été jugées prioritaires. Ce sont de vastes territoires de plus de 15 hectares, regroupant des aires protégées existantes (grands parcs, réserves naturelles, etc.), des espaces urbanisés ainsi que des espaces naturels encore à protéger et à mettre en valeur. Les écoterritoires ont été établis par la Politique de protection et de mise en valeur des milieux naturels (Ville de Montréal, 2004), ceux-ci sont reconnus dans le Plan d’urbanisme de Montréal.\r\n\r\nLes écoterritoires sont des équipements d'intérêt collectif, définis à l'article 37 du Décret d'agglomération (1229-2005, 8 décembre 2005) (« Décret ») et son annexe. Cette mise à jour des écoterritoires fait suite à l'adoption des Règlements modifiant l'annexe du Décret.\r\n\r\nÀ noter que ces modifications ne seront visibles au Schéma d'aménagement et de développement de l'agglomération de Montréal que lors d'une prochaine mise à jour.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-06T16:04:56.915327",
+  "metadata_modified": "2026-02-16T18:16:51.054153",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "afe87d5d-de4e-44ea-bafb-0bf138b5e8bc",
+      "name": "Écoterritoires (2026)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/942ae48f-ba0c-4e33-bb81-b6da50d9d13d/resource/afe87d5d-de4e-44ea-bafb-0bf138b5e8bc/download/ecoterritoires.zip",
+      "datastore_active": false,
+      "size": 138226,
+      "last_modified": "2026-02-16T18:16:32.757936",
+      "created": "2026-02-16T18:16:32.849196",
+      "schema": null
+    },
+    {
+      "id": "46705e7a-da6c-4f22-8965-e9b10d37ca44",
+      "name": "Écoterritoires",
+      "description": "Polygones des nouveaux écoterritoires\r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile\r\n\r\nText_ : Nom de l’écoterritoire\r\n\r\nProjection : NAD_1983_MTM_8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/942ae48f-ba0c-4e33-bb81-b6da50d9d13d/resource/46705e7a-da6c-4f22-8965-e9b10d37ca44/download/ecoterritoires.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-03-08T14:09:10.647889",
+      "created": "2016-01-13T12:16:04.628040",
+      "schema": null
+    },
+    {
+      "id": "295d94b9-8515-4a7c-9bc2-0e661582f4d7",
+      "name": "Écoterritoires",
+      "description": "Polygones des nouveaux écoterritoires en format GEOJSON, conversion effectuée à l'aide de OGR2GUI\r\n\r\nText_ : Nom de l’écoterritoire",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/942ae48f-ba0c-4e33-bb81-b6da50d9d13d/resource/295d94b9-8515-4a7c-9bc2-0e661582f4d7/download/ecoterritoires.geojson",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-03-08T14:10:59.176513",
+      "created": "2016-03-08T09:10:59.254601",
+      "schema": {
+        "resource_id": "295d94b9-8515-4a7c-9bc2-0e661582f4d7",
+        "total_records": 16,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "{",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "{": "type: \"FeatureCollection\""
+          },
+          {
+            "_id": 2,
+            "{": "crs: { \"type\": \"name\""
+          },
+          {
+            "_id": 3,
+            "{": "                                                                                "
+          },
+          {
+            "_id": 4,
+            "{": "features: ["
+          },
+          {
+            "_id": 5,
+            "{": "{ \"type\": \"Feature\""
+          }
+        ]
+      },
+      "field_stats": {
+        "{": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 16,
+        "total_records": 16,
+        "audited_at": "2026-03-10T00:18:29.172340+00:00",
+        "fields": {
+          "{": {
+            "null_count": 1,
+            "null_pct": 6.2,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "{ \"type\": \"Feature\"",
+                "count": 10
+              },
+              {
+                "value": "type: \"FeatureCollection\"",
+                "count": 1
+              },
+              {
+                "value": "crs: { \"type\": \"name\"",
+                "count": 1
+              },
+              {
+                "value": "features: [",
+                "count": 1
+              },
+              {
+                "value": "]",
+                "count": 1
+              },
+              {
+                "value": "}",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "2c20fd23-e28c-43f9-a1ef-bf6cf5242094",
+      "name": "Écoterritoires",
+      "description": "Polygones des nouveaux écoterritoires en format kml, conversion effectuée à l'aide de OGR2GUI\r\n\r\nText_ : Nom de l’écoterritoire",
+      "format": "KML",
+      "url": "https://donnees.montreal.ca/dataset/942ae48f-ba0c-4e33-bb81-b6da50d9d13d/resource/2c20fd23-e28c-43f9-a1ef-bf6cf5242094/download/ecoterritoires.kml",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-03-08T14:13:11.334671",
+      "created": "2016-03-08T09:13:11.397157",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Milieu naturel",
+    "Nature",
+    "Protection",
+    "SGPMRS",
+    "Écoterritoire"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les limites des éco",
+    "territories": "Passer directement au contenu\n  \n\n  \n    \n\n\n\n\n  \n\n    \n\n    \n      \n  \n    \n        montreal.ca\n    \n    \n      \n      \n          English\n      \n      \n        Langue\n        \n      \n      \n        Français\n        English\n      \n\n    \n    \n  \n    \n\n    \n      \n    \n\n    \n    \n\n    \n    \n  \n\n  \n    \n      \n\n      \n\n      \n        \n          \n            \n              \n                \n              \n            \n          \n\n          \n    \n        \n        \n        \n            \n                \n                    \n                        \n                            \n                                \n                                \n                                    \n# \n                                        Écoterritoires de l'agglomération de Montréal\n                                    \n\n                     \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n\n\n          \n\n          \n            \n            \n            \n\n            \n   \n\n\n            \n\n\n    \n        \n            \n            \n            \n\n            \n\n            \n                \n            \n            \n            \n                \n                    \n                        \n                            \n\nCe fichier contient des polygones délimitant les écoterritoires. La Ville de Montréal a identifié 10 secteurs, appelés écoterritoires, où la protection et la valorisation des espaces naturels s’y trouvant ont été jugées prioritaires. Ce sont de vastes territoires de plus de 15 hectares, regroupant des aires protégées existantes (grands parcs, réserves naturelles, etc.), des espaces urbanisés ainsi que des espaces naturels encore à protéger et à mettre en valeur. Les écoterritoires ont été établis par la Politique de protection et de mise en valeur des milieux naturels (Ville de Montréal, 2004), ceux-ci sont reconnus dans le Plan d’urbanisme de Montréal.\n\n\nLes écoterritoires sont des équipements d'intérêt collectif, définis à l'article 37 du Décret d'agglomération (1229-2005, 8 décembre 2005) (« Décret ») et son annexe. Cette mise à jour des écoterritoires fait suite à l'adoption des Règlements modifiant l'annexe du Décret.\n\n\nÀ noter que ces modifications ne seront visibles au Schéma d'aménagement et de développement de l'agglomération de Montréal que lors d'une prochaine mise à jour.\n                        \n                            \n                                \n### Ressources\n\n                                \n                                \n                                \n                                \n                                \n                                    \n                                    \n                                        \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                        \n                                \n                                    \n#### Données\n\n                                    \n                                        \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            SHP\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Écoterritoires (2026)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 3 semaines\n                                                                            \n    \n    \n        134,9 KB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            SHP\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Écoterritoires\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 10 ans\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            GeoJSON\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Écoterritoires\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 10 ans\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            KML\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Écoterritoires\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 10 ans\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                        \n\n                                        \n                        \n                                    \n                                \n                            \n\n                            \n                                \n### Méthodologie\n\n                                \n                                \n                                    \n\nLes limites des écoterritoires suivent en général le cadastre et sont mises à jour à l'aide de celui-ci.\n                                \n                                \n                            \n\n                            \n                                \n### Territoires\n\n                                \n                                    \n\nMontreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Milieu naturel",
+      "Nature",
+      "Protection",
+      "SGPMRS",
+      "Écoterritoire"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/ecoterritoires",
+    "scraped_at": "2026-03-09T19:56:54.094319+00:00"
+  }
+}

@@ -1,0 +1,1341 @@
+{
+  "slug": "vmtl-rsqa-polluants-metaux",
+  "title": "RSQA - Polluants métaux",
+  "notes": "Concentrations atmosphériques de polluants métaux échantillonnés sur l'île de Montréal.\r\n\r\nCe programme s'inscrit dans les activités du réseau de surveillance de la qualité de l'air (RSQA) et bonifie le suivi sur la présence de [polluants atmosphériques gazeux](./rsqa-polluants-gazeux).\r\n\r\nL'ensemble présente la concentration par métaux par station par date d'échantillonnage. \r\n\r\nÀ partir de 2020, l'échantillonnage des métaux est effectué sur une base annuelle et spécifique aux stations 3, 80 et 99 . Les données historiques des métaux sont aussi disponibles pour les années, 2003, 2008, 2013 et 2018 au poste 3 seulement et pour l'année 2019 aux postes 3 et 99. Prière de noter que la liste des métaux peut différer d'une année à l'autre. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-03-12T19:50:54.142035",
+  "metadata_modified": "2025-10-09T18:53:33.799390",
+  "num_resources": 8,
+  "resources": [
+    {
+      "id": "b9f2f45f-071c-414d-bec5-67680c6b739e",
+      "name": "Visualisation des données (2020 et plus)",
+      "description": "<a href=\"https://vuesurlesdonnees.montreal.ca/pub/single/?appid=42c3e920-fa14-46c3-ada7-6e48efbe82f6&sheet=9e5ce17b-d237-47f6-987a-1c42c0279c92&opt=ctxmenu,currsel\" target=\"_blank\" title=\"Visualisation des données RSQA\">Ouvrir la visualisation dans un nouvel onglet</a>",
+      "format": "WEB",
+      "url": "",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-07-19T14:44:31.242663",
+      "created": "2021-06-11T13:56:10.239023",
+      "schema": null
+    },
+    {
+      "id": "efcb88ab-f179-45ec-bc58-51b352ceb31c",
+      "name": "RSQA - Polluants métaux (2020 et plus)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/efcb88ab-f179-45ec-bc58-51b352ceb31c/download/rsqa-polluants-metaux.csv",
+      "datastore_active": false,
+      "size": 1187377,
+      "last_modified": "2025-10-09T18:53:33.764127",
+      "created": "2021-03-12T19:54:37.752345",
+      "schema": null
+    },
+    {
+      "id": "4dc018ab-5f95-4bb7-9f8e-6345f3b85224",
+      "name": "RSQA - Polluants métaux 2019",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/4dc018ab-5f95-4bb7-9f8e-6345f3b85224/download/rsqa-polluants-metaux-2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-02-25T20:26:29.590067",
+      "created": "2022-02-24T15:15:01.400092",
+      "schema": {
+        "resource_id": "4dc018ab-5f95-4bb7-9f8e-6345f3b85224",
+        "total_records": 1875,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "metaux_pm10",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Aluminium",
+            "date": "2019-01-15T00:00:00",
+            "concentration_ng_m3": 313.7,
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Antimoine",
+            "date": "2019-01-15T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Argent",
+            "date": "2019-01-15T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 4,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Arsenic",
+            "date": "2019-01-15T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 5,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Baryum",
+            "date": "2019-01-15T00:00:00",
+            "concentration_ng_m3": 43.9,
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "metaux_pm10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 1049,
+          "null_pct": 55.9,
+          "populated_pct": 44.1
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1875,
+        "audited_at": "2026-03-10T00:26:50.653918+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 7.8,
+            "median": 3.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 950
+              },
+              {
+                "value": "99",
+                "count": 50
+              }
+            ]
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 950
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 50
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "metaux_pm10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Aluminium",
+                "count": 40
+              },
+              {
+                "value": "Antimoine",
+                "count": 40
+              },
+              {
+                "value": "Argent",
+                "count": 40
+              },
+              {
+                "value": "Arsenic",
+                "count": 40
+              },
+              {
+                "value": "Baryum",
+                "count": 40
+              },
+              {
+                "value": "Beryllium",
+                "count": 40
+              },
+              {
+                "value": "Cadmium",
+                "count": 40
+              },
+              {
+                "value": "Calcium",
+                "count": 40
+              },
+              {
+                "value": "Chrome",
+                "count": 40
+              },
+              {
+                "value": "Cobalt",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-15T00:00:00",
+            "max_date": "2019-09-06T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 522,
+            "null_pct": 52.2,
+            "min": 0.1,
+            "max": 67293.5,
+            "mean": 1651.5517,
+            "median": 20.95,
+            "unique_count": 308,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 522
+              },
+              {
+                "value": "mesure",
+                "count": 478
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "7bda623f-46b6-4c50-bb78-0da187e4cc9c",
+      "name": "RSQA - Polluants métaux 2018",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/7bda623f-46b6-4c50-bb78-0da187e4cc9c/download/rsqa-polluants-metaux-2018.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-02-24T15:19:18.631411",
+      "created": "2022-02-24T15:19:18.702738",
+      "schema": {
+        "resource_id": "7bda623f-46b6-4c50-bb78-0da187e4cc9c",
+        "total_records": 1275,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "metaux_pm10",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Aluminium",
+            "date": "2018-01-02T00:00:00",
+            "concentration_ng_m3": 278.8,
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Antimoine",
+            "date": "2018-01-02T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Argent",
+            "date": "2018-01-02T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 4,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Arsenic",
+            "date": "2018-01-02T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 5,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Baryum",
+            "date": "2018-01-02T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "metaux_pm10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 678,
+          "null_pct": 53.2,
+          "populated_pct": 46.8
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1275,
+        "audited_at": "2026-03-10T00:26:51.691996+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 3.0,
+            "mean": 3.0,
+            "median": 3.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 1000
+              }
+            ]
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "metaux_pm10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Aluminium",
+                "count": 40
+              },
+              {
+                "value": "Antimoine",
+                "count": 40
+              },
+              {
+                "value": "Argent",
+                "count": 40
+              },
+              {
+                "value": "Arsenic",
+                "count": 40
+              },
+              {
+                "value": "Baryum",
+                "count": 40
+              },
+              {
+                "value": "Beryllium",
+                "count": 40
+              },
+              {
+                "value": "Cadmium",
+                "count": 40
+              },
+              {
+                "value": "Calcium",
+                "count": 40
+              },
+              {
+                "value": "Chrome",
+                "count": 40
+              },
+              {
+                "value": "Cobalt",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-01-02T00:00:00",
+            "max_date": "2018-09-11T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 549,
+            "null_pct": 54.9,
+            "min": 0.1,
+            "max": 92425.9,
+            "mean": 2700.2266,
+            "median": 13.9,
+            "unique_count": 289,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 549
+              },
+              {
+                "value": "mesure",
+                "count": 451
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "66d39ea2-5da7-4efb-894a-59bddba7734f",
+      "name": "RSQA - Polluants métaux 2013",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/66d39ea2-5da7-4efb-894a-59bddba7734f/download/rsqa-polluants-metaux-2013.csv",
+      "datastore_active": true,
+      "size": 73683,
+      "last_modified": "2025-02-27T19:05:06.866654",
+      "created": "2022-02-24T15:21:12.539414",
+      "schema": {
+        "resource_id": "66d39ea2-5da7-4efb-894a-59bddba7734f",
+        "total_records": 1476,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "metaux_pm10",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Antimoine",
+            "date": "1/4/2013",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Argent",
+            "date": "1/4/2013",
+            "concentration_ng_m3": "10",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Aluminium",
+            "date": "1/4/2013",
+            "concentration_ng_m3": "862.9",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Arsenic",
+            "date": "1/4/2013",
+            "concentration_ng_m3": "2.5",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Barium",
+            "date": "1/4/2013",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "metaux_pm10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 764,
+          "null_pct": 51.8,
+          "populated_pct": 48.2
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1476,
+        "audited_at": "2026-03-10T00:26:52.702961+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 3.0,
+            "mean": 3.0,
+            "median": 3.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 1000
+              }
+            ]
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "metaux_pm10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Argent",
+                "count": 42
+              },
+              {
+                "value": "Antimoine",
+                "count": 40
+              },
+              {
+                "value": "Aluminium",
+                "count": 40
+              },
+              {
+                "value": "Arsenic",
+                "count": 40
+              },
+              {
+                "value": "Barium",
+                "count": 40
+              },
+              {
+                "value": "Beryllium",
+                "count": 40
+              },
+              {
+                "value": "Calcium",
+                "count": 40
+              },
+              {
+                "value": "Cadmium",
+                "count": 40
+              },
+              {
+                "value": "Chrome",
+                "count": 40
+              },
+              {
+                "value": "Cobalt",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1/10/2013",
+            "max_date": "9/7/2013",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 572,
+            "null_pct": 57.2,
+            "min": 0.0,
+            "max": 24333.5,
+            "mean": 1229.3923,
+            "median": 12.7,
+            "unique_count": 295,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 572
+              },
+              {
+                "value": "mesure",
+                "count": 428
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "7c11dee3-cb47-4b60-a956-5c265d69f5d6",
+      "name": "RSQA - Polluants métaux 2008",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/7c11dee3-cb47-4b60-a956-5c265d69f5d6/download/rsqa-polluants-metaux-2008.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-02-24T15:23:11.121652",
+      "created": "2022-02-24T15:23:11.190293",
+      "schema": {
+        "resource_id": "7c11dee3-cb47-4b60-a956-5c265d69f5d6",
+        "total_records": 1500,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "metaux_pm10",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Antimoine",
+            "date": "2008-01-01T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Argent",
+            "date": "2008-01-01T00:00:00",
+            "concentration_ng_m3": null,
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Aluminium",
+            "date": "2008-01-01T00:00:00",
+            "concentration_ng_m3": 3367,
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Arsenic",
+            "date": "2008-01-01T00:00:00",
+            "concentration_ng_m3": 1.7,
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Barium",
+            "date": "2008-01-01T00:00:00",
+            "concentration_ng_m3": 5992.1,
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "metaux_pm10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 710,
+          "null_pct": 47.3,
+          "populated_pct": 52.7
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1500,
+        "audited_at": "2026-03-10T00:26:53.748334+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 3.0,
+            "mean": 3.0,
+            "median": 3.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 1000
+              }
+            ]
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "metaux_pm10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Antimoine",
+                "count": 40
+              },
+              {
+                "value": "Argent",
+                "count": 40
+              },
+              {
+                "value": "Aluminium",
+                "count": 40
+              },
+              {
+                "value": "Arsenic",
+                "count": 40
+              },
+              {
+                "value": "Barium",
+                "count": 40
+              },
+              {
+                "value": "Beryllium",
+                "count": 40
+              },
+              {
+                "value": "Calcium",
+                "count": 40
+              },
+              {
+                "value": "Cadmium",
+                "count": 40
+              },
+              {
+                "value": "Chrome",
+                "count": 40
+              },
+              {
+                "value": "Cobalt",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2008-01-01T00:00:00",
+            "max_date": "2008-08-22T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 396,
+            "null_pct": 39.6,
+            "min": 0.1,
+            "max": 25845.7,
+            "mean": 1751.3349,
+            "median": 15.2,
+            "unique_count": 396,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 604
+              },
+              {
+                "value": "<LDR",
+                "count": 396
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "dc6a176e-3b99-4f8d-b160-ec685d358669",
+      "name": "RSQA - Polluants métaux 2003",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/dc6a176e-3b99-4f8d-b160-ec685d358669/download/rsqa-polluants-metaux-2003.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-02-24T15:31:09.559074",
+      "created": "2022-02-24T15:31:09.656450",
+      "schema": {
+        "resource_id": "dc6a176e-3b99-4f8d-b160-ec685d358669",
+        "total_records": 600,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nom_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "metaux_pm10",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "concentration_ng_m3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Arsenic",
+            "date": "2003-01-03T00:00:00",
+            "concentration_ng_m3": 0.5,
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Cadmium",
+            "date": "2003-01-03T00:00:00",
+            "concentration_ng_m3": 0.2,
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Chrome",
+            "date": "2003-01-03T00:00:00",
+            "concentration_ng_m3": 0.1,
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Cobalt",
+            "date": "2003-01-03T00:00:00",
+            "concentration_ng_m3": 2.3,
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": 3,
+            "nom_station": "Saint-Jean-Baptiste",
+            "metaux_pm10": "Cuivre",
+            "date": "2003-01-03T00:00:00",
+            "concentration_ng_m3": 15.1,
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "metaux_pm10": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration_ng_m3": {
+          "null_count": 51,
+          "null_pct": 8.5,
+          "populated_pct": 91.5
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 600,
+        "total_records": 600,
+        "audited_at": "2026-03-10T00:26:54.869856+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 3.0,
+            "mean": 3.0,
+            "median": 3.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 600
+              }
+            ]
+          },
+          "nom_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 600
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "metaux_pm10": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Arsenic",
+                "count": 50
+              },
+              {
+                "value": "Cadmium",
+                "count": 50
+              },
+              {
+                "value": "Chrome",
+                "count": 50
+              },
+              {
+                "value": "Cobalt",
+                "count": 50
+              },
+              {
+                "value": "Cuivre",
+                "count": 50
+              },
+              {
+                "value": "Fer",
+                "count": 50
+              },
+              {
+                "value": "Manganèse",
+                "count": 50
+              },
+              {
+                "value": "Nickel",
+                "count": 50
+              },
+              {
+                "value": "Plomb",
+                "count": 50
+              },
+              {
+                "value": "Sélénium",
+                "count": 50
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2003-01-03T00:00:00",
+            "max_date": "2003-12-29T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "concentration_ng_m3": {
+            "null_count": 51,
+            "null_pct": 8.5,
+            "min": 0.0,
+            "max": 1780.3,
+            "mean": 76.0005,
+            "median": 7.9,
+            "unique_count": 286,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 549
+              },
+              {
+                "value": "<LDR",
+                "count": 51
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "76342977-8a47-4ef7-968f-0dc999840d4f",
+      "name": "Document informatif (Arsenic)",
+      "description": "",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/072fff9d-fba4-4837-9837-7434fbf3c9e3/resource/76342977-8a47-4ef7-968f-0dc999840d4f/download/document-informatif-arsenic.pdf",
+      "datastore_active": false,
+      "size": 116626,
+      "last_modified": "2023-06-15T12:56:36.852763",
+      "created": "2023-06-15T12:56:36.950880",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Air",
+    "Arsenic",
+    "Métaux",
+    "Polluant",
+    "Qualité de l air",
+    "RSQA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le Réseau de surveillance de la qualité de l’air (RSQA) mesure les métaux sur les particules de taille inférieure à 10 µm, échantillonnés sur des filtres de préleveur Hi-Vol (haut débit) pendant 24h. Les échantillons prélevés doivent être séchés, pesés et envoyés au laboratoire pour analyse. Les résultats doivent ensuite être traités et validés, ce qui explique les délais dans l’obtention des résultats.\n\n\nLes données sont mises à jour manuellement sur une base trimestrielle après analyse des échantillons.\n\n## Dictionnaire de données\n\n\n\n- id (numérique) : Identifiant unique séquentiel automatique.\n\n- numero_station (numérique) : Numéro de référence de la station dont la localisation est disponible sous un ensemble de données connexe.\n\n- nom (texte variable) : Nom de la station.\n\n- metaux (liste de valeur) : Nom des métaux échantillonnés.\n\n- Aluminium\n\n- Antimoine\n\n- Argent\n\n- Arsenic\n\n- Baryum\n\n- Beryllium\n\n- Cadmium\n\n- Calcium\n\n- Chrome\n\n- Cobalt\n\n- Cuivre\n\n- Étain\n\n- Fer\n\n- Magnésium\n\n- Manganese\n\n- Molybdène\n\n- Nickel\n\n- Plomb\n\n- Potassium\n\n- Sélénium\n\n- Sodium\n\n- Thallium\n\n- Uranium\n\n- Vanadium\n\n- Zinc\n\n\n\n- date_prelevement (date) : Date de prélèvements.\n\n- concentration (numérique) : Valeur de la concentration en ng/m3.\n\n- statut (liste de valeurs) : Précision quant au prélèvement :\n\n- mesure : Valeur mesurée.\n\n- N/A : Aucune mesure\n\n- <LDR : Inférieur à la limite de détection rapportée.\n\n\n\n\n\n\n\nLa limite de détection rapportée est précisée dans le tableau suivant:\n\n\n| Métal | LDR (ng/m3) |\n\n|:---:|:---:|\n\n| Béryllium | 6,4 |\n\n| Sodium | 494,0 |\n\n| Magnésium | 148,2 |\n\n| Aluminium | 24,7 |\n\n| Potassium | 247,0 |\n\n| Calcium | 395,2 |\n\n| Vanadium | 1,5 |\n\n| Chrome | 1,5 |\n\n| Manganèse | 1,0 |\n\n| Fer | 49,4 |\n\n| Cobalt | 0,5 |\n\n| Nickel | 1,0 |\n\n| Cuivre | 2,5 |\n\n| Zinc | 34,6 |\n\n| Arsenic | 1,0 |\n\n| Sélénium | 2,5 |\n\n| Molybdène | 4,9 |\n\n| Argent | 0,5 |\n\n| Cadmium | 0,5 |\n\n| Étain | 4,9 |\n\n| Antimoine | 2,5 |\n\n| Barium | 24,7 |\n\n| Thallium | 1,0 |\n\n| Plomb | 1,0 |\n\n| Uranium | 0,5 |\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "2020-01-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Air",
+      "Arsenic",
+      "Métaux",
+      "Polluant",
+      "Qualité de l air",
+      "RSQA",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsqa-polluants-metaux",
+    "scraped_at": "2026-03-09T20:20:34.323155+00:00"
+  }
+}

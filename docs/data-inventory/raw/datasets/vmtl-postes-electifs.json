@@ -1,0 +1,922 @@
+{
+  "slug": "vmtl-postes-electifs",
+  "title": "Élections municipales - Postes électifs",
+  "notes": "Le fichier comporte les informations liées aux différents postes électifs des élections générales des années passées.\r\n\r\nPlusieurs [ensembles de données connexes](https://donnees.montreal.ca/search?q=tags:%C3%89lections) sont disponibles pour l'élection municipale 2025 de Montréal.\r\n\r\nPlus d'informations sur les élections 2025 à Montréal sur le [portail](https://elections.montreal.ca/fr/) prévu à cet effet.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-06-12T14:43:53.607309",
+  "metadata_modified": "2025-10-09T13:49:39.102053",
+  "num_resources": 5,
+  "resources": [
+    {
+      "id": "0e9a2bca-8a5c-44f6-bde7-3bb6fa5029ce",
+      "name": "Postes électifs 2025",
+      "description": "Postes électifs de l'élection générale du 2 novembre 2025.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d3be675b-153a-4c1a-bef1-b89839933d1e/resource/0e9a2bca-8a5c-44f6-bde7-3bb6fa5029ce/download/postes-electifs-2025.csv",
+      "datastore_active": true,
+      "size": 7682,
+      "last_modified": "2025-10-09T13:46:34.176223",
+      "created": "2025-10-09T13:46:34.355151",
+      "schema": {
+        "resource_id": "0e9a2bca-8a5c-44f6-bde7-3bb6fa5029ce",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "poste",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no": "0.00",
+            "type": "Maire de la Ville de Montréal",
+            "poste": "Maire de la Ville de Montréal"
+          },
+          {
+            "_id": 2,
+            "no": "1.00",
+            "type": "Maire d'arrondissement",
+            "poste": "Mairie de l'arrondissement d'Ahuntsic-Cartierville "
+          },
+          {
+            "_id": 3,
+            "no": "1.10",
+            "type": "Conseiller de ville",
+            "poste": "District électoral du Sault-au-Récollet  "
+          },
+          {
+            "_id": 4,
+            "no": "1.20",
+            "type": "Conseiller de ville",
+            "poste": "District électoral de Saint-Sulpice"
+          },
+          {
+            "_id": 5,
+            "no": "1.30",
+            "type": "Conseiller de ville",
+            "poste": "District électoral d'Ahuntsic"
+          }
+        ]
+      },
+      "field_stats": {
+        "no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:22:34.973315+00:00",
+        "fields": {
+          "no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.9398,
+            "median": 10.11,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Conseiller de ville",
+                "count": 46
+              },
+              {
+                "value": "Conseiller d'arrondissement",
+                "count": 38
+              },
+              {
+                "value": "Maire d'arrondissement",
+                "count": 18
+              },
+              {
+                "value": "Maire de la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "District électoral de Marie-Clarac",
+                "count": 2
+              },
+              {
+                "value": "District électoral d'Ovide-Clermont",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Bois-de-Liesse",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Cap-Saint-Jacques",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Mile-End",
+                "count": 2
+              },
+              {
+                "value": "District électoral de De Lorimier",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Jeanne-Mance",
+                "count": 2
+              },
+              {
+                "value": "District électoral de La Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Pointe-aux-Trembles",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Rivière-des-Prairies",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "8a997b8e-b27a-4e2e-b3da-75090b9383a6",
+      "name": "Postes électifs 2021",
+      "description": "Postes électifs de l'élection générale du 7 novembre 2021.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d3be675b-153a-4c1a-bef1-b89839933d1e/resource/8a997b8e-b27a-4e2e-b3da-75090b9383a6/download/postes-electifs-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:48:15.311127",
+      "created": "2017-06-12T10:47:13.836656",
+      "schema": {
+        "resource_id": "8a997b8e-b27a-4e2e-b3da-75090b9383a6",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "poste",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no": 0.0,
+            "type": "Maire de la Ville de Montréal",
+            "poste": "Maire de la Ville de Montréal"
+          },
+          {
+            "_id": 2,
+            "no": 1.0,
+            "type": "Maire d'arrondissement",
+            "poste": "Mairie de l'arrondissement d'Ahuntsic-Cartierville "
+          },
+          {
+            "_id": 3,
+            "no": 1.1,
+            "type": "Conseiller de ville",
+            "poste": "District électoral du Sault-au-Récollet  "
+          },
+          {
+            "_id": 4,
+            "no": 1.2,
+            "type": "Conseiller de ville",
+            "poste": "District électoral de Saint-Sulpice"
+          },
+          {
+            "_id": 5,
+            "no": 1.3,
+            "type": "Conseiller de ville",
+            "poste": "District électoral d'Ahuntsic"
+          }
+        ]
+      },
+      "field_stats": {
+        "no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:22:35.859226+00:00",
+        "fields": {
+          "no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.9398,
+            "median": 10.11,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Conseiller de ville",
+                "count": 46
+              },
+              {
+                "value": "Conseiller d'arrondissement",
+                "count": 38
+              },
+              {
+                "value": "Maire d'arrondissement",
+                "count": 18
+              },
+              {
+                "value": "Maire de la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "District électoral de Marie-Clarac",
+                "count": 2
+              },
+              {
+                "value": "District électoral d'Ovide-Clermont",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Bois-de-Liesse",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Cap-Saint-Jacques",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Mile-End",
+                "count": 2
+              },
+              {
+                "value": "District électoral de De Lorimier",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Jeanne-Mance",
+                "count": 2
+              },
+              {
+                "value": "District électoral de La Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Pointe-aux-Trembles",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Rivière-des-Prairies",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "6e1f1922-d2d3-49b9-9340-6604a3858ff3",
+      "name": "Postes électifs 2017",
+      "description": "Postes électifs de l'élection générale du 5 novembre 2017.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d3be675b-153a-4c1a-bef1-b89839933d1e/resource/6e1f1922-d2d3-49b9-9340-6604a3858ff3/download/postes-electifs-2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:51:29.398220",
+      "created": "2021-09-24T20:07:01.570991",
+      "schema": {
+        "resource_id": "6e1f1922-d2d3-49b9-9340-6604a3858ff3",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "poste",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no": 0.0,
+            "type": "Maire de la Ville de Montréal",
+            "poste": "Maire de la Ville de Montréal"
+          },
+          {
+            "_id": 2,
+            "no": 1.0,
+            "type": "Maire d'arrondissement",
+            "poste": "Mairie de l'arrondissement d'Ahuntsic-Cartierville "
+          },
+          {
+            "_id": 3,
+            "no": 1.1,
+            "type": "Conseiller de ville",
+            "poste": "District électoral du Sault-au-Récollet  "
+          },
+          {
+            "_id": 4,
+            "no": 1.2,
+            "type": "Conseiller de ville",
+            "poste": "District électoral de Saint-Sulpice"
+          },
+          {
+            "_id": 5,
+            "no": 1.3,
+            "type": "Conseiller de ville",
+            "poste": "District électoral d'Ahuntsic"
+          }
+        ]
+      },
+      "field_stats": {
+        "no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:22:36.780294+00:00",
+        "fields": {
+          "no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.9398,
+            "median": 10.11,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Conseiller de ville",
+                "count": 46
+              },
+              {
+                "value": "Conseiller d'arrondissement",
+                "count": 38
+              },
+              {
+                "value": "Maire d'arrondissement",
+                "count": 18
+              },
+              {
+                "value": "Maire de la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "District électoral de Marie-Clarac",
+                "count": 2
+              },
+              {
+                "value": "District électoral d'Ovide-Clermont",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Bois-de-Liesse",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Cap-Saint-Jacques",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Mile-End",
+                "count": 2
+              },
+              {
+                "value": "District électoral de De Lorimier",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Jeanne-Mance",
+                "count": 2
+              },
+              {
+                "value": "District électoral de La Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Pointe-aux-Trembles",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Rivière-des-Prairies",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "b2b13b46-b416-4d4c-86a8-8a8e04751574",
+      "name": "Postes électifs 2013",
+      "description": "Postes électifs de l'élection générale du 3 novembre 2013.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d3be675b-153a-4c1a-bef1-b89839933d1e/resource/b2b13b46-b416-4d4c-86a8-8a8e04751574/download/postes-electifs-2013.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:53:35.010372",
+      "created": "2021-09-24T20:09:33.129233",
+      "schema": {
+        "resource_id": "b2b13b46-b416-4d4c-86a8-8a8e04751574",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "poste",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no": 0.0,
+            "type": "Maire de la Ville de Montréal",
+            "poste": "Maire de la Ville de Montréal"
+          },
+          {
+            "_id": 2,
+            "no": 1.0,
+            "type": "Maire d'arrondissement",
+            "poste": "Mairie de l'arrondissement d'Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 3,
+            "no": 1.1,
+            "type": "Conseiller de ville",
+            "poste": "District électoral du Sault-au-Récollet  "
+          },
+          {
+            "_id": 4,
+            "no": 1.2,
+            "type": "Conseiller de ville",
+            "poste": "District électoral de Saint-Sulpice"
+          },
+          {
+            "_id": 5,
+            "no": 1.3,
+            "type": "Conseiller de ville",
+            "poste": "District électoral d'Ahuntsic"
+          }
+        ]
+      },
+      "field_stats": {
+        "no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:22:37.701046+00:00",
+        "fields": {
+          "no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.4,
+            "mean": 9.9398,
+            "median": 10.11,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Conseiller de ville",
+                "count": 46
+              },
+              {
+                "value": "Conseiller d'arrondissement",
+                "count": 38
+              },
+              {
+                "value": "Maire d'arrondissement",
+                "count": 18
+              },
+              {
+                "value": "Maire de la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "District électoral de Marie-Clarac",
+                "count": 2
+              },
+              {
+                "value": "District électoral d'Ovide-Clermont",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Bois-de-Liesse",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Cap-Saint-Jacques",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Mile End",
+                "count": 2
+              },
+              {
+                "value": "District électoral de De Lorimier",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Jeanne-Mance",
+                "count": 2
+              },
+              {
+                "value": "District électoral de La Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Pointe-aux-Trembles",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Rivière-des-Prairies",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "0a2df6d1-0283-4a2f-af53-ecdafe4393f7",
+      "name": "Postes électifs 2009",
+      "description": "Postes électifs de l'élection générale du 1er novembre 2009.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d3be675b-153a-4c1a-bef1-b89839933d1e/resource/0a2df6d1-0283-4a2f-af53-ecdafe4393f7/download/postes-electifs-2009.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-11-11T13:54:43.606439",
+      "created": "2021-09-24T20:13:11.677461",
+      "schema": {
+        "resource_id": "0a2df6d1-0283-4a2f-af53-ecdafe4393f7",
+        "total_records": 103,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "poste",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no": 0.0,
+            "type": "Maire de la Ville de Montréal",
+            "poste": "Maire de la Ville de Montréal"
+          },
+          {
+            "_id": 2,
+            "no": 1.0,
+            "type": "Maire d'arrondissement",
+            "poste": "Mairie de l'arrondissement d'Ahuntsic-Cartierville "
+          },
+          {
+            "_id": 3,
+            "no": 1.1,
+            "type": "Conseiller de ville",
+            "poste": "District électoral du Sault-au-Récollet  "
+          },
+          {
+            "_id": 4,
+            "no": 1.2,
+            "type": "Conseiller de ville",
+            "poste": "District électoral de Saint-Sulpice"
+          },
+          {
+            "_id": 5,
+            "no": 1.3,
+            "type": "Conseiller de ville",
+            "poste": "District électoral d'Ahuntsic"
+          }
+        ]
+      },
+      "field_stats": {
+        "no": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "poste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 103,
+        "total_records": 103,
+        "audited_at": "2026-03-10T00:22:38.622184+00:00",
+        "fields": {
+          "no": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 21.1,
+            "mean": 10.0272,
+            "median": 10.11,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Conseiller de ville",
+                "count": 46
+              },
+              {
+                "value": "Conseiller d'arrondissement",
+                "count": 38
+              },
+              {
+                "value": "Maire d'arrondissement",
+                "count": 18
+              },
+              {
+                "value": "Maire de la Ville de Montréal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "poste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "District électoral de Marie-Clarac",
+                "count": 2
+              },
+              {
+                "value": "District électoral d'Ovide-Clermont",
+                "count": 2
+              },
+              {
+                "value": "District électoral de l'Est (Pierrefonds-Roxboro)",
+                "count": 2
+              },
+              {
+                "value": "District électoral de l'Ouest (Pierrefonds-Roxboro)",
+                "count": 2
+              },
+              {
+                "value": "District électoral du Mile End",
+                "count": 2
+              },
+              {
+                "value": "District électoral de De Lorimier",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Jeanne-Mance",
+                "count": 2
+              },
+              {
+                "value": "District électoral de La Pointe-aux-Prairies",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Pointe-aux-Trembles",
+                "count": 2
+              },
+              {
+                "value": "District électoral de Rivière-des-Prairies",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SG",
+    "Élections"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les fichiers permettent d’associer le numéro d’un poste électif à un type générique de poste électif ainsi qu’au poste électif effectif. Il décrit la colonne « Poste » des fichiers des districts électoraux et des résultats d'élections.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2017-11-05/2025-11-07",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "SG",
+      "Élections"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/postes-electifs",
+    "scraped_at": "2026-03-09T20:15:33.105894+00:00"
+  }
+}

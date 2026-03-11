@@ -1,0 +1,984 @@
+{
+  "slug": "vmtl-frequentation-du-portail-de-donnees-ouvertes",
+  "title": "Fréquentation du portail de données ouvertes",
+  "notes": "Ensemble de données contenant la fréquentation du portail de données ouvertes, à savoir le nombre de visiteurs et de pages vues par jour de l'année.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-04-25T18:03:03.032591",
+  "metadata_modified": "2026-03-09T19:02:12.784321",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "f859c1c0-60bb-41d2-b0a8-bd7ab68aeb3a",
+      "name": "Fréquentation depuis juillet 2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b9871478-b6e9-44a7-8d4e-0a5eb9e5c36f/resource/f859c1c0-60bb-41d2-b0a8-bd7ab68aeb3a/download/frequentation-portail-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": 16681424,
+      "last_modified": "2024-03-18T17:17:14.449264",
+      "created": "2016-04-25T14:03:40.306425",
+      "schema": {
+        "resource_id": "f859c1c0-60bb-41d2-b0a8-bd7ab68aeb3a",
+        "total_records": 120889,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "path",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sessions",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageviews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "avgSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20220117",
+            "path": "/",
+            "title": "Bienvenue! | Welcome!",
+            "sessions": "71",
+            "pageviews": "118",
+            "avgSessionDuration": "508.46478873239437"
+          },
+          {
+            "_id": 2,
+            "date": "20220117",
+            "path": "/agence-de-mobilite-durable",
+            "title": "Agence de mobilité durable",
+            "sessions": "4",
+            "pageviews": "5",
+            "avgSessionDuration": "22.0"
+          },
+          {
+            "_id": 3,
+            "date": "20220117",
+            "path": "/agence-de-mobilite-durable/stationnements-municipaux-tarifes-sur-rue-et-hors-rue",
+            "title": "Stationnements municipaux tarifés, sur rue et hors rue - Dataset",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "0.0"
+          },
+          {
+            "_id": 4,
+            "date": "20220117",
+            "path": "/agence-de-mobilite-durable/stationnements-municipaux-tarifes-sur-rue-et-hors-rue",
+            "title": "Stationnements municipaux tarifés, sur rue et hors rue - Jeu de données",
+            "sessions": "2",
+            "pageviews": "2",
+            "avgSessionDuration": "0.0"
+          },
+          {
+            "_id": 5,
+            "date": "20220117",
+            "path": "/applications",
+            "title": "Applications - Dashboard",
+            "sessions": "4",
+            "pageviews": "14",
+            "avgSessionDuration": "152.0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "path": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "title": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sessions": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageviews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "avgSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 120889,
+        "audited_at": "2026-03-10T00:19:13.365332+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20220117",
+            "max_date": "20220121",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "path": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 290,
+            "top_values": [
+              {
+                "value": "/ville-de-montreal/cartographie-de-base",
+                "count": 11
+              },
+              {
+                "value": "/bureau-du-taxi-de-montreal/postes-attente-taxi",
+                "count": 8
+              },
+              {
+                "value": "/societe-de-transport-de-montreal/stm-traces-des-lignes-de-bus-et-de-metro",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/actes-criminels",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/diffusion-proactive-acces-information",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/interventions-service-securite-incendie-montreal",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/permis-construction",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/phototheque",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/phototheque-archives",
+                "count": 8
+              },
+              {
+                "value": "/ville-de-montreal/stationnement-sur-rue-signalisation-courant",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "title": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 389,
+            "top_values": [
+              {
+                "value": "Applications - Dashboard",
+                "count": 26
+              },
+              {
+                "value": "(not set)",
+                "count": 11
+              },
+              {
+                "value": "Bienvenue! | Welcome!",
+                "count": 5
+              },
+              {
+                "value": "Agence de mobilité durable",
+                "count": 5
+              },
+              {
+                "value": "État des stations - Jeu de données",
+                "count": 5
+              },
+              {
+                "value": "Postes d'attente de taxi - Jeu de données",
+                "count": 5
+              },
+              {
+                "value": "Stationnements municipaux tarifés, sur rue et hors rue - Jeu de données",
+                "count": 4
+              },
+              {
+                "value": "Dataset Collections",
+                "count": 4
+              },
+              {
+                "value": "Agriculture et alimentation",
+                "count": 4
+              },
+              {
+                "value": "Économie et entreprises",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "sessions": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 99.0,
+            "mean": 2.38,
+            "median": 1.0,
+            "unique_count": 31,
+            "field_type_detected": "numeric"
+          },
+          "pageviews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 463.0,
+            "mean": 6.002,
+            "median": 2.0,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          },
+          "avgSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3319.0,
+            "mean": 75.7526,
+            "median": 0.0,
+            "unique_count": 263,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "c0f468bc-2e31-4cb3-960c-4fc0262ef5e1",
+      "name": "Fréquentation jusqu'en juin 2020",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b9871478-b6e9-44a7-8d4e-0a5eb9e5c36f/resource/c0f468bc-2e31-4cb3-960c-4fc0262ef5e1/download/frequentation-portail-donnees-ouvertes-historique.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-01-27T14:34:43.625439",
+      "created": "2022-01-27T14:32:57.712707",
+      "schema": {
+        "resource_id": "c0f468bc-2e31-4cb3-960c-4fc0262ef5e1",
+        "total_records": 431959,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "path",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sessions",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageviews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "avgSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "date": "20180423",
+            "path": "/",
+            "title": "Portail données ouvertes",
+            "sessions": "64",
+            "pageviews": "93",
+            "avgSessionDuration": "246.640625"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "date": "20180423",
+            "path": "/dataset",
+            "title": "Ensembles de données - Portail données ouvertes",
+            "sessions": "9",
+            "pageviews": "54",
+            "avgSessionDuration": "175.77777777777777"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "date": "20180423",
+            "path": "/dataset/a7006c33-b2f3-48fe-a332-e794c95b9b08",
+            "title": "Dépenses des élus - autorisées par le comité exécutif - Ensembles de données - Portail données ouvertes",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "2.0"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "date": "20180423",
+            "path": "/dataset/actes-criminels",
+            "title": "Actes criminels - Ensembles de données - Portail données ouvertes",
+            "sessions": "1",
+            "pageviews": "10",
+            "avgSessionDuration": "29.0"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "date": "20180423",
+            "path": "/dataset/actes-criminels/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd",
+            "title": "Actes criminels - Criminalité - Année 2015-2018 - Portail données ouvertes",
+            "sessions": "0",
+            "pageviews": "5",
+            "avgSessionDuration": "0.0"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "path": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "title": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sessions": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageviews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "avgSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 431959,
+        "audited_at": "2026-03-10T00:19:14.678036+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1000.0,
+            "mean": 500.5,
+            "median": 500.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20180423",
+            "max_date": "20180424",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "path": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 917,
+            "top_values": [
+              {
+                "value": "/dataset/actes-criminels",
+                "count": 3
+              },
+              {
+                "value": "/dataset/canopee-2015",
+                "count": 3
+              },
+              {
+                "value": "/",
+                "count": 2
+              },
+              {
+                "value": "/dataset",
+                "count": 2
+              },
+              {
+                "value": "/dataset/actes-criminels/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd",
+                "count": 2
+              },
+              {
+                "value": "/dataset/actes-criminels/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/view/6e6af9b7-96f3-4e68-80f8-a1d229da2397",
+                "count": 2
+              },
+              {
+                "value": "/dataset/actes-criminels/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd?inner_span=True",
+                "count": 2
+              },
+              {
+                "value": "/dataset/affectation-du-sol",
+                "count": 2
+              },
+              {
+                "value": "/dataset/affectation-du-sol/resource/6c424c56-1cc9-4fd2-99b2-686ba78f54a7",
+                "count": 2
+              },
+              {
+                "value": "/dataset/affectation-du-sol/resource/6c424c56-1cc9-4fd2-99b2-686ba78f54a7/view/8852bcf5-abb7-46cf-bf6b-a06770141666",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "title": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 510,
+            "top_values": [
+              {
+                "value": "Ensembles de données - Portail données ouvertes",
+                "count": 136
+              },
+              {
+                "value": "Portail données ouvertes",
+                "count": 127
+              },
+              {
+                "value": "Infrastructures - Portail données ouvertes",
+                "count": 23
+              },
+              {
+                "value": "Environnement, ressources naturelles et énergie - Portail données ouvertes",
+                "count": 13
+              },
+              {
+                "value": "Gouvernement et finances - Portail données ouvertes",
+                "count": 13
+              },
+              {
+                "value": "Calendrier des délais de conservation des documents de la Ville de Montréal - Calendrier de conservation - Portail données ouvertes",
+                "count": 9
+              },
+              {
+                "value": "Cartographie de base - Compilation cartographique de base 2016, PDF - Portail données ouvertes",
+                "count": 9
+              },
+              {
+                "value": "Transport - Portail données ouvertes",
+                "count": 9
+              },
+              {
+                "value": "Cartographie de base - Compilation cartographique de base 2017, PDF - Portail données ouvertes",
+                "count": 6
+              },
+              {
+                "value": "Bornes d'incendie - Borne d'incendie - Portail données ouvertes",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "sessions": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 73.0,
+            "mean": 0.653,
+            "median": 0.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 822
+              },
+              {
+                "value": "1",
+                "count": 99
+              },
+              {
+                "value": "2",
+                "count": 23
+              },
+              {
+                "value": "3",
+                "count": 15
+              },
+              {
+                "value": "5",
+                "count": 8
+              },
+              {
+                "value": "4",
+                "count": 6
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "9",
+                "count": 4
+              },
+              {
+                "value": "7",
+                "count": 4
+              },
+              {
+                "value": "18",
+                "count": 3
+              }
+            ]
+          },
+          "pageviews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 98.0,
+            "mean": 2.751,
+            "median": 1.0,
+            "unique_count": 31,
+            "field_type_detected": "numeric"
+          },
+          "avgSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2795.0,
+            "mean": 35.0298,
+            "median": 0.0,
+            "unique_count": 110,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "5dd4ce6f-ae9f-44ac-8d98-202c3492aada",
+      "name": "Fréquentation 2023-2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/b9871478-b6e9-44a7-8d4e-0a5eb9e5c36f/resource/5dd4ce6f-ae9f-44ac-8d98-202c3492aada/download/frequentation-portail-donnees-ouvertes-g4.csv",
+      "datastore_active": true,
+      "size": 50800533,
+      "last_modified": "2026-03-09T17:01:09.834388",
+      "created": "2024-03-19T14:50:46.375829",
+      "schema": {
+        "resource_id": "5dd4ce6f-ae9f-44ac-8d98-202c3492aada",
+        "total_records": 250000,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pagePath",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageTitle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "activeUsers",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "screenPageViews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "averageSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20231030",
+            "pagePath": "/",
+            "pageTitle": "Welcome - Ville de Montréal's open data website",
+            "activeUsers": "1",
+            "screenPageViews": "0",
+            "averageSessionDuration": "4.293208"
+          },
+          {
+            "_id": 2,
+            "date": "20231030",
+            "pagePath": "/blog/perspectives-2023-une-demarche-au-coeur-des-priorites-de-montreal",
+            "pageTitle": "(not set)",
+            "activeUsers": "1",
+            "screenPageViews": "1",
+            "averageSessionDuration": "4.187988"
+          },
+          {
+            "_id": 3,
+            "date": "20231030",
+            "pagePath": "/blog/perspectives-2023-une-demarche-au-coeur-des-priorites-de-montreal",
+            "pageTitle": "Site web des données ouvertes de la Ville de Montréal",
+            "activeUsers": "1",
+            "screenPageViews": "0",
+            "averageSessionDuration": "0.893547"
+          },
+          {
+            "_id": 4,
+            "date": "20231030",
+            "pagePath": "/blog/priorisation-et-suggestion-des-ensembles-de-donnees",
+            "pageTitle": "Site web des données ouvertes de la Ville de Montréal",
+            "activeUsers": "1",
+            "screenPageViews": "1",
+            "averageSessionDuration": "40.476647"
+          },
+          {
+            "_id": 5,
+            "date": "20231030",
+            "pagePath": "/collections",
+            "pageTitle": "Site web des données ouvertes de la Ville de Montréal",
+            "activeUsers": "1",
+            "screenPageViews": "1",
+            "averageSessionDuration": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pagePath": {
+          "null_count": 2,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageTitle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "activeUsers": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "screenPageViews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "averageSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 250000,
+        "audited_at": "2026-03-10T00:19:16.690932+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20231030",
+            "max_date": "20231103",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "pagePath": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 660,
+            "top_values": [
+              {
+                "value": "/dataset/comptage-vehicules-pietons",
+                "count": 5
+              },
+              {
+                "value": "/dataset/mobilierurbaingp",
+                "count": 5
+              },
+              {
+                "value": "/dataset/cameras-observation-routiere",
+                "count": 4
+              },
+              {
+                "value": "/dataset/condition-chaussees-reseau-routier/resource/85085655-4ac0-4114-9793-715c0b63e2a0",
+                "count": 4
+              },
+              {
+                "value": "/dataset/feux-pietons",
+                "count": 4
+              },
+              {
+                "value": "/dataset/interventions-escouade-mobilite",
+                "count": 4
+              },
+              {
+                "value": "/dataset/maquette-numerique-plateau-mont-royal-batiments-lod2-avec-textures",
+                "count": 4
+              },
+              {
+                "value": "/dataset/modele-numerique-de-terrain-mnt",
+                "count": 4
+              },
+              {
+                "value": "/dataset/mtl-trajet",
+                "count": 4
+              },
+              {
+                "value": "/dataset/parcours-riverain",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "pageTitle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 474,
+            "top_values": [
+              {
+                "value": "Site web des données ouvertes de la Ville de Montréal",
+                "count": 277
+              },
+              {
+                "value": "Erreur 404 - Site web des données ouvertes de la Ville de Montréal",
+                "count": 22
+              },
+              {
+                "value": "Mobilier urbain dans les grands parcs - Site web des données ouvertes de la Ville de Montréal",
+                "count": 5
+              },
+              {
+                "value": "Postes de police de quartier sur l’île de Montréal - Postes de quartier - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Modèle numérique de terrain - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Parcours riverain - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Plans généraux d'occupation du sol de la Ville de Montréal, 1949 - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Recensement de la population de l’île de Montréal – 2011 - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Actes criminels - Actes criminels - Site web des données ouvertes de la Ville de Montréal",
+                "count": 4
+              },
+              {
+                "value": "Counting of vehicles, cyclists and pedestrians at intersections equipped with traffic lights - City of Montreal open data website",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "activeUsers": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "screenPageViews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 13.0,
+            "mean": 1.196,
+            "median": 1.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 773
+              },
+              {
+                "value": "2",
+                "count": 108
+              },
+              {
+                "value": "0",
+                "count": 71
+              },
+              {
+                "value": "3",
+                "count": 25
+              },
+              {
+                "value": "4",
+                "count": 9
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "5",
+                "count": 4
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              }
+            ]
+          },
+          "averageSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3199.1702,
+            "mean": 119.1567,
+            "median": 13.7718,
+            "unique_count": 926,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Analytics",
+    "Données ouvertes",
+    "Fréquentation",
+    "SPSPO",
+    "Web"
+  ],
+  "web_metadata": {
+    "methodology_text": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail de données ouvertes.\n\n\nLes données concernent autant le catalogue de données que les pages de contenu (aide en ligne, billets de blogues, etc.) sont disponibles.\n\n\nLes données sont disponibles à partir du 25 janvier 2016, date de l'ajout du code Google Analytics sur le portail.\n\n### Dictionnaire de données\n\n\n\n- id (Numérique) : Identifiant unique\n\n- date (Date et/ou heure) : Date des visites\n\n- path (Texte variable) : Chemin relatif de la page \n\n- title (Texte variable) : Titre de la page web tel que déclaré dans la balise title\n\n- sessions (Numérique) : Nombre de sessions différentes ayant visité la page path pour la journée date\n\n- pageviews (Numérique) : Nombre d'impression à l'écran pour la page page pour la journée date\n\n- avgSessionDuration (Numérique) : Durée moyenne des sessions\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2016-01-25/",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Analytics",
+      "Données ouvertes",
+      "Fréquentation",
+      "SPSPO",
+      "Web"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/frequentation-du-portail-de-donnees-ouvertes",
+    "scraped_at": "2026-03-09T19:57:41.215172+00:00"
+  }
+}

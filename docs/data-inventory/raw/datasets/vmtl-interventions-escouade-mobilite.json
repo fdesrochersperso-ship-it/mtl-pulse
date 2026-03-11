@@ -1,0 +1,872 @@
+{
+  "slug": "vmtl-interventions-escouade-mobilite",
+  "title": "Interventions de l'Escouade mobilité",
+  "notes": "L’Escouade mobilité travaille de façon proactive, et collabore étroitement avec le Centre de gestion de la mobilité urbaine (CGMU), le Service de police de la Ville de Montréal (SPVM) et les arrondissements pour débloquer les situations de congestion qui ont un impact direct sur les usagers du domaine public (piétons, cyclistes et automobilistes). À travers ses différentes interventions, elle assure la fluidité de la circulation et elle limite les entraves non autorisées.\r\n\r\nCet ensemble de données propose une liste de toutes les interventions effectuées par l'Escouade Mobilité depuis sa mise en place en juin 2018.\r\n\r\n_Les données sont mises à jour de façon bimensuel. La mise à jour en temps réel est planifiée pour plus tard, accompagnée de la géolocalisation des données._",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-04-28T13:01:09.972147",
+  "metadata_modified": "2025-06-04T18:37:47.748105",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "d884f34a-3791-450a-9030-f713a133c6dd",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNjlmMjBiODEtYzgyYy00ZDI5LWFjY2UtZjExMWY4MjMwNGMyIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T17:58:46.071263",
+      "schema": null
+    },
+    {
+      "id": "ff81ecc4-d3b0-4661-806f-a27870e63a4e",
+      "name": "Liste des interventions de l'escouade mobilité",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/95bb7872-3f72-4660-ab1e-4054a8a9fe02/resource/ff81ecc4-d3b0-4661-806f-a27870e63a4e/download/interventions-de-l-escouade-mobilite.csv",
+      "datastore_active": true,
+      "size": 8509063,
+      "last_modified": "2021-10-20T21:07:19.894515",
+      "created": "2020-04-28T13:01:49.762815",
+      "schema": {
+        "resource_id": "ff81ecc4-d3b0-4661-806f-a27870e63a4e",
+        "total_records": 53411,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "CLÉ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "QUART DE TRAVAIL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SECTEUR.ABR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SECTEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "HEURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ADRESSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE ENTRAVE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "OPERATION SPECIALE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SOURCE ENTRAVE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE INTERVENTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ENDROITS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CONSTATS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "EQUIPE_CONSTAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CRITICITÉ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT ENTRAVE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VELO_AUTO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SIGNALISATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SIGNALISATION_BALISE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SIGNALISATION_PANNEAU",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "CLÉ": "y6n3Q8Sb",
+            "QUART DE TRAVAIL": "Quart de jour",
+            "SECTEUR.ABR": "PMR",
+            "SECTEUR": "Plateau-Mont-Royal",
+            "DATE": "2018-06-04T00:00:00",
+            "HEURE": "15:32:00",
+            "ADRESSE": "2396 Rue Beaubien E, Montréal, QC H2G 1N1, Canada",
+            "NATURE ENTRAVE": "Signalisation",
+            "OPERATION SPECIALE": "",
+            "SOURCE ENTRAVE": "Escouade",
+            "NATURE INTERVENTION": "Support arrondissement , Support urgence , Action de l'Escouade auprès du problème",
+            "ENDROITS": "Piste cyclable",
+            "CONSTATS": "NON",
+            "EQUIPE_CONSTAT": "Sans constat",
+            "CRITICITÉ": "Faible",
+            "STATUT ENTRAVE": "Entrave réglée",
+            "VELO_AUTO": "",
+            "SIGNALISATION": "",
+            "SIGNALISATION_BALISE": "",
+            "SIGNALISATION_PANNEAU": ""
+          },
+          {
+            "_id": 2,
+            "CLÉ": "Ak2JanD8",
+            "QUART DE TRAVAIL": "Quart de jour",
+            "SECTEUR.ABR": "VMA",
+            "SECTEUR": "Nord-Est de René-Lévesque/Saint-Laurent",
+            "DATE": "2018-06-05T00:00:00",
+            "HEURE": "07:06:00",
+            "ADRESSE": "455 Boulevard René-Lévesque O, Montréal, QC H2Z 1Z3, Canada",
+            "NATURE ENTRAVE": "Obstruction",
+            "OPERATION SPECIALE": "",
+            "SOURCE ENTRAVE": "Escouade",
+            "NATURE INTERVENTION": "Action de l'Escouade auprès de l'entrepreneur",
+            "ENDROITS": "Voie de circulation",
+            "CONSTATS": "",
+            "EQUIPE_CONSTAT": "",
+            "CRITICITÉ": "Faible",
+            "STATUT ENTRAVE": "Entrave réglée",
+            "VELO_AUTO": "",
+            "SIGNALISATION": "",
+            "SIGNALISATION_BALISE": "",
+            "SIGNALISATION_PANNEAU": ""
+          },
+          {
+            "_id": 3,
+            "CLÉ": "BdMByysS",
+            "QUART DE TRAVAIL": "Quart de jour",
+            "SECTEUR.ABR": "PMR",
+            "SECTEUR": "Plateau-Mont-Royal",
+            "DATE": "2018-06-05T00:00:00",
+            "HEURE": "09:33:00",
+            "ADRESSE": "5060 Boul St-Laurent, Montréal, QC H2T 1R7, Canada",
+            "NATURE ENTRAVE": "Entrave autorisée mais non conforme",
+            "OPERATION SPECIALE": "",
+            "SOURCE ENTRAVE": "CGMU",
+            "NATURE INTERVENTION": "Action de l'Escouade auprès du problème",
+            "ENDROITS": "Voie de circulation",
+            "CONSTATS": "",
+            "EQUIPE_CONSTAT": "",
+            "CRITICITÉ": "Élevé",
+            "STATUT ENTRAVE": "Entrave réglée",
+            "VELO_AUTO": "",
+            "SIGNALISATION": "",
+            "SIGNALISATION_BALISE": "",
+            "SIGNALISATION_PANNEAU": ""
+          },
+          {
+            "_id": 4,
+            "CLÉ": "MsFqelwJ",
+            "QUART DE TRAVAIL": "Quart de jour",
+            "SECTEUR.ABR": "VMA",
+            "SECTEUR": "Sud de René-Lévesque",
+            "DATE": "2018-06-06T00:00:00",
+            "HEURE": "09:04:00",
+            "ADRESSE": "Avenue Viger O, Montréal, QC, Canada",
+            "NATURE ENTRAVE": "Entrave non autorisée",
+            "OPERATION SPECIALE": "",
+            "SOURCE ENTRAVE": "Escouade",
+            "NATURE INTERVENTION": "Action de l'Escouade auprès de l'entrepreneur",
+            "ENDROITS": "Voie de circulation",
+            "CONSTATS": "",
+            "EQUIPE_CONSTAT": "",
+            "CRITICITÉ": "Moyen",
+            "STATUT ENTRAVE": "Entrave réglée",
+            "VELO_AUTO": "",
+            "SIGNALISATION": "",
+            "SIGNALISATION_BALISE": "",
+            "SIGNALISATION_PANNEAU": ""
+          },
+          {
+            "_id": 5,
+            "CLÉ": "rKSSrVhq",
+            "QUART DE TRAVAIL": "Quart de jour",
+            "SECTEUR.ABR": "VMA",
+            "SECTEUR": "Nord-Ouest de René-Lévesque/Saint-Laurent",
+            "DATE": "2018-06-06T00:00:00",
+            "HEURE": "11:00:00",
+            "ADRESSE": "800 Boul de Maisonneuve E, Montréal, QC H2L 4M8, Canada",
+            "NATURE ENTRAVE": "Entrave non autorisée",
+            "OPERATION SPECIALE": "",
+            "SOURCE ENTRAVE": "Escouade",
+            "NATURE INTERVENTION": "Action de l'Escouade auprès de l'entrepreneur",
+            "ENDROITS": "Voie de circulation",
+            "CONSTATS": "",
+            "EQUIPE_CONSTAT": "",
+            "CRITICITÉ": "Faible",
+            "STATUT ENTRAVE": "Entrave réglée",
+            "VELO_AUTO": "",
+            "SIGNALISATION": "",
+            "SIGNALISATION_BALISE": "",
+            "SIGNALISATION_PANNEAU": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "CLÉ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "QUART DE TRAVAIL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SECTEUR.ABR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SECTEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "HEURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ADRESSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NATURE ENTRAVE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "OPERATION SPECIALE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SOURCE ENTRAVE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NATURE INTERVENTION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ENDROITS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CONSTATS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "EQUIPE_CONSTAT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CRITICITÉ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT ENTRAVE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VELO_AUTO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SIGNALISATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SIGNALISATION_BALISE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SIGNALISATION_PANNEAU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 53411,
+        "audited_at": "2026-03-10T00:20:08.789321+00:00",
+        "fields": {
+          "CLÉ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "y6n3Q8Sb",
+                "count": 1
+              },
+              {
+                "value": "Ak2JanD8",
+                "count": 1
+              },
+              {
+                "value": "BdMByysS",
+                "count": 1
+              },
+              {
+                "value": "MsFqelwJ",
+                "count": 1
+              },
+              {
+                "value": "rKSSrVhq",
+                "count": 1
+              },
+              {
+                "value": "hkYbkWlh",
+                "count": 1
+              },
+              {
+                "value": "o7UgPDaB",
+                "count": 1
+              },
+              {
+                "value": "sW6rAYH4",
+                "count": 1
+              },
+              {
+                "value": "tVjsKmqr",
+                "count": 1
+              },
+              {
+                "value": "wQDwi8Lz",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "QUART DE TRAVAIL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Quart de jour",
+                "count": 910
+              },
+              {
+                "value": "Quart de soir",
+                "count": 90
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SECTEUR.ABR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "VMA",
+                "count": 678
+              },
+              {
+                "value": "PMR",
+                "count": 246
+              },
+              {
+                "value": "S-O",
+                "count": 72
+              },
+              {
+                "value": "RPP",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "SECTEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Nord-Est de René-Lévesque/Saint-Laurent",
+                "count": 359
+              },
+              {
+                "value": "Plateau-Mont-Royal",
+                "count": 246
+              },
+              {
+                "value": "Sud de René-Lévesque",
+                "count": 221
+              },
+              {
+                "value": "Nord-Ouest de René-Lévesque/Saint-Laurent",
+                "count": 98
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 72
+              },
+              {
+                "value": "Rosemont-La-Petite-Patrie",
+                "count": 2
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-06-04T00:00:00",
+            "max_date": "2018-08-01T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "HEURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 304,
+            "top_values": [
+              {
+                "value": "07:20:00",
+                "count": 12
+              },
+              {
+                "value": "07:08:00",
+                "count": 11
+              },
+              {
+                "value": "07:28:00",
+                "count": 10
+              },
+              {
+                "value": "07:45:00",
+                "count": 10
+              },
+              {
+                "value": "07:16:00",
+                "count": 10
+              },
+              {
+                "value": "07:22:00",
+                "count": 9
+              },
+              {
+                "value": "08:00:00",
+                "count": 8
+              },
+              {
+                "value": "07:26:00",
+                "count": 8
+              },
+              {
+                "value": "07:10:00",
+                "count": 8
+              },
+              {
+                "value": "06:10:00",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ADRESSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 765,
+            "top_values": [
+              {
+                "value": "155 Boulevard René-Lévesque E, Montréal, QC H2X, Canada",
+                "count": 10
+              },
+              {
+                "value": "191 Boulevard René-Lévesque E, Montréal, QC H2X, Canada",
+                "count": 8
+              },
+              {
+                "value": "Rue Notre-Dame Ouest, Montréal, QC, Canada",
+                "count": 8
+              },
+              {
+                "value": "Avenue Viger O & Rue St-Alexandre, Montréal, QC H2Z, Canada",
+                "count": 6
+              },
+              {
+                "value": "Avenue Atwater & Rue Saint-Antoine O, Montréal, QC H3J, Canada",
+                "count": 6
+              },
+              {
+                "value": "1575 Boulevard René-Lévesque E, Montréal, QC H2L 2R8, Canada",
+                "count": 6
+              },
+              {
+                "value": "Rue Sanguinet & Boulevard René-Lévesque Est, Montréal, QC H2X, Canada",
+                "count": 6
+              },
+              {
+                "value": "555 Boulevard René-Lévesque O, Montréal, QC H2Z 1B1, Canada",
+                "count": 5
+              },
+              {
+                "value": "4388 Rue Saint-Denis, Montréal, QC H2J 2L1, Canada",
+                "count": 5
+              },
+              {
+                "value": "Boulevard René-Lévesque Ouest & Rue de Bleury, Montréal, QC H2Z, Canada",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NATURE ENTRAVE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Obstruction",
+                "count": 800
+              },
+              {
+                "value": "Entrave autorisée mais non conforme",
+                "count": 63
+              },
+              {
+                "value": "Entrave autorisée conforme",
+                "count": 62
+              },
+              {
+                "value": "Entrave non autorisée",
+                "count": 49
+              },
+              {
+                "value": "Signalisation",
+                "count": 16
+              },
+              {
+                "value": "Incident",
+                "count": 4
+              },
+              {
+                "value": "Autre",
+                "count": 4
+              },
+              {
+                "value": "Feux de circulation",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "OPERATION SPECIALE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "SOURCE ENTRAVE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Escouade",
+                "count": 967
+              },
+              {
+                "value": "CGMU",
+                "count": 13
+              },
+              {
+                "value": "Autre",
+                "count": 8
+              },
+              {
+                "value": "Arrondissement",
+                "count": 7
+              },
+              {
+                "value": "SPVM",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NATURE INTERVENTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 41,
+            "top_values": [
+              {
+                "value": "Action de l'Escouade auprès du problème",
+                "count": 278
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Support SPVM",
+                "count": 254
+              },
+              {
+                "value": "Support DAS",
+                "count": 122
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Action de l'Escouade auprès de l'entrepreneur",
+                "count": 95
+              },
+              {
+                "value": "Action de l'Escouade auprès de l'entrepreneur",
+                "count": 49
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Support DAS",
+                "count": 37
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Support arrondissement",
+                "count": 30
+              },
+              {
+                "value": "Support SPVM",
+                "count": 18
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Support remorquage , Support SPVM",
+                "count": 16
+              },
+              {
+                "value": "Action de l'Escouade auprès du problème , Action de l'Escouade auprès du citoyen",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ENDROITS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Voie de circulation",
+                "count": 967
+              },
+              {
+                "value": "Piste cyclable",
+                "count": 17
+              },
+              {
+                "value": "Corridor piéton",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CONSTATS": {
+            "null_count": 993,
+            "null_pct": 99.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "NON",
+                "count": 6
+              },
+              {
+                "value": "OUI",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "EQUIPE_CONSTAT": {
+            "null_count": 993,
+            "null_pct": 99.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Sans constat",
+                "count": 6
+              },
+              {
+                "value": "SPVM",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CRITICITÉ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 639
+              },
+              {
+                "value": "Faible",
+                "count": 340
+              },
+              {
+                "value": "Élevé",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "STATUT ENTRAVE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Entrave réglée",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "VELO_AUTO": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "SIGNALISATION": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "SIGNALISATION_BALISE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "SIGNALISATION_PANNEAU": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Circulation",
+    "Entrave",
+    "Mobilité",
+    "SCAEC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les interventions de l'Escouade mobilité sont rapportées par les agents sur le terrain selon les informations observées à leur arrivée et tout au long de son déroulement. Chaque enregistrement présente le statut de l'intervention au moment de la mise à jour des données, les informations publiées peuvent donc changer à tout moment.\n\n## Dictionnaire de données\n\n\n\n- CLÉ (Texte) : Clé unique de l'entrave\n\n- QUART DE TRAVAIL (Liste de valeur) : Période de la journée pendant laquelle l'entrave a été rapportée\n\n- Quart de jour\n\n- Quart de soir\n\n- Quart fin de semaine\n\n\n\n- SECTEUR.ABR (Liste de valeur) : Code pour l'arrondissement\n\n- SECTEUR (Liste de valeur) : Secteur dans lequel l'entrave a été observée\n\n- VM1: Nord-Ouest René-Lévesque/Saint-Laurent\n\n- VM2: Nord-Est René-Lévesque/Saint-Laurent\n\n- VM3: Sud de René-Lévesque\n\n- SO: Le Sud-Ouest\n\n- PMR: Le Plateau - Mont-Royal\n\n- CDN-NDG: Côte-des-Neiges–Notre-Dame-de-Grâce\n\n- MHM: Mercier-Hochelaga-Maisonneuve\n\n- RPP: Rosemont-La-Petit\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    CDN\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    RPP\n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2018-06-04/2020-07-05",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Circulation",
+      "Entrave",
+      "Mobilité",
+      "SCAEC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/interventions-escouade-mobilite",
+    "scraped_at": "2026-03-09T19:59:05.307540+00:00"
+  }
+}

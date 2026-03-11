@@ -1,0 +1,97 @@
+{
+  "slug": "vmtl-sites-immeubles-proteges-lpc",
+  "title": "Sites et immeubles protégés en vertu de la Loi sur le patrimoine culturel",
+  "notes": "Cet ensemble de données contient des informations géographiques et descriptives sur les immeubles et les sites assujettis à la Loi sur le patrimoine culturel et situés sur le territoire de la Ville de Montréal. Les délimitations polygonales proposées complètent les informations ponctuelles déjà fournies par le Ministère de la Culture et des Communications :\r\n\r\n- [Immeubles patrimoniaux cités par les municipalités](https://www.donneesquebec.ca/recherche/fr/dataset/immeubles-patrimoniaux-cites-par-les-municipalites-et-les-communautes-autochtones)\r\n- [Immeubles patrimoniaux classés par le ministre de la Culture et des Communications](https://www.donneesquebec.ca/recherche/fr/dataset/immeubles-patrimoniaux-classes-par-la-ministre-de-la-culture-et-des-communications)\r\n- [Sites patrimoniaux cités par les municipalités](https://www.donneesquebec.ca/recherche/fr/dataset/sites-patrimoniaux-cites-par-les-municipalites-et-les-communautes-autochtones) \r\n- [Site patrimonial national déclaré par la Loi sur le patrimoine culturel par le gouvernement du Québec ](https://www.donneesquebec.ca/recherche/fr/dataset/site-patrimonial-national-declare-par-la-loi-sur-le-patrimoine-culturel-par-le-gouvernement-du-)\r\n- [Sites patrimoniaux classés par le ministre de la Culture et des Communications ](https://www.donneesquebec.ca/recherche/fr/dataset/sites-patrimoniaux-classes-par-la-ministre-de-la-culture-et-des-communications )\r\n\r\nMISE EN GARDE : Les délimitations approximatives ont été effectuées à partir des lignes de propriété ou de l'emprise au sol des bâtiments. Les données sont fournies à titre indicatif et, par conséquent, n’ont aucune portée légale. Il faut se référer au Registre du patrimoine culturel, tenu au ministère de la Culture et des Communications par le registraire du patrimoine culturel, pour obtenir des informations légales.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-02-14T18:57:54.673800",
+  "metadata_modified": "2025-11-17T20:13:37.907515",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "a782ed14-1d60-498e-89f5-596c69824646",
+      "name": "Sites et immeubles protégés",
+      "description": "Conteneur zip intégrant le shapefile des sites et immeubles protégés.\r\nRéférence géographique: NAD83(CSRS)/ MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/41fcc790-e328-44be-bcbf-73556fa0bc32/resource/a782ed14-1d60-498e-89f5-596c69824646/download/patrimoinelpc.zip",
+      "datastore_active": false,
+      "size": 189933,
+      "last_modified": "2025-11-17T20:13:37.880794",
+      "created": "2018-03-15T12:45:02.889805",
+      "schema": null
+    },
+    {
+      "id": "b0a6cfa4-ad77-4f5b-bd1b-050fe233a31f",
+      "name": "Sites et immeubles protégés",
+      "description": "Geojson des sites et immeubles protégés.\r\nRéférence géographique: NAD83(CSRS)/MTM zone 8",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/41fcc790-e328-44be-bcbf-73556fa0bc32/resource/b0a6cfa4-ad77-4f5b-bd1b-050fe233a31f/download/patrimoinelpc.geojson",
+      "datastore_active": false,
+      "size": 972301,
+      "last_modified": "2025-11-14T15:57:49.662327",
+      "created": "2018-03-15T12:45:31.701021",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cité",
+    "Classé",
+    "Déclaré",
+    "Immeuble",
+    "LPC",
+    "Loi sur le patrimoine culturel",
+    "Patrimoine",
+    "Protection",
+    "SUM",
+    "Schéma aménagement développement",
+    "Site"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les délimitations ont été effectuées à partir des lignes de propriété ou de l'emprise au sol des bâtiments, selon les informations contenues dans les règlements de citation, les avis de classement ou les décrets adoptés.\n\n\nRéférence spatiale: NAD83 (CSRS) / MTM zone 8 / EPSG:2950 \n\n\nCertains de ces sites sont également consultables via les \nBases de données sur le patrimoine de Montréal.\n\n## Dictionnaire de données:\n\n\n\n- ID_LPC (Entier) : Identification unique du polygone\n\n- type_zone (Texte) : Statut en vertu de la Loi sur le patrimoine culturel (RLRQ, chapitre P-9.002) (Abréviation)\n\n- zone_expl (Texte) : Statut en vertu de la Loi sur le patrimoine culturel (RLRQ, chapitre P-9.002) (Explicite)\n\n- Nom (Texte) : Nom de l’immeuble ou du site\n\n- NomAutres (Texte) : Autres noms de l’immeuble ou du site\n\n- nom_ensemb (Texte) : Nom de l’ensemble auquel le bâtiment est associé (le cas échéant)\n\n- lien_RPCQ (Texte) : Lien vers la fiche du Répertoire du patrimoine culturel du Québec\n\n- lien_GRPBM (Texte) : Lien vers la fiche du Grand répertoire du patrimoine bâti de Montréal\n\n- DateStatut (Texte) : Date de l'attribution du statut\n\n- Date_Modif(Texte) : Date de la modification (AAAA-MM-JJ)\n\n- Shape_Leng (Numérique) : Périmètre du polygone (m)\n\n- Shape_Area (Numérique) : Superficie du polygone (m²)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Cité",
+      "Classé",
+      "Déclaré",
+      "Immeuble",
+      "LPC",
+      "Loi sur le patrimoine culturel",
+      "Patrimoine",
+      "Protection",
+      "SUM",
+      "Schéma aménagement développement",
+      "Site"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/sites-immeubles-proteges-lpc",
+    "scraped_at": "2026-03-09T20:21:46.104618+00:00"
+  }
+}

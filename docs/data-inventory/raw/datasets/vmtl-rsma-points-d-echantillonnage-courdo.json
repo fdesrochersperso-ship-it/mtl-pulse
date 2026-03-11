@@ -1,0 +1,369 @@
+{
+  "slug": "vmtl-rsma-points-d-echantillonnage-courdo",
+  "title": "RSMA – Points d’échantillonnage COURDO",
+  "notes": "Points d’échantillonnage du programme COURDO, qualité des cours d’eau, Réseau de suivi du milieu aquatique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-01-14T19:50:38.741317",
+  "metadata_modified": "2025-02-27T00:21:30.201519",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "8649f596-c5c6-429e-8352-5fb2ad958704",
+      "name": "RSMA – Point d’échantillonnage COURDO 2001-2017",
+      "description": "Points d’échantillonnage du programme COURDO régulier.\r\n\r\nPlan d’eau : BLAP (bassin de La Prairie) LSL (lac Saint-Louis), RDP (rivière des Prairies), RMI (rivière des Mille-Îles), FSL (fleuve Saint-Laurent) ou EMIS (zone d’influence des rejets de la station d’épuration des eaux usées Jean-R. Marcotte)\r\n\r\nPoint d'échantillonnage : Code du RSMA identifiant le point d’échantillonnage\r\n\r\nLocalisation : Précisions sur l’emplacement du point d’échantillonnage\r\n\r\nLongitude : Coordonnée longitude\r\n\r\nLatitude : Coordonnée latitude\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/19033140-062a-45c1-bd1e-7807ea5b4f78/resource/8649f596-c5c6-429e-8352-5fb2ad958704/download/stations_courdo.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-10-31T13:59:46.178710",
+      "created": "2016-01-14T14:50:39.279953",
+      "schema": {
+        "resource_id": "8649f596-c5c6-429e-8352-5fb2ad958704",
+        "total_records": 119,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Plan d’eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Point d’échantillonage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Localisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Plan d’eau": "Bassin de La Prairie",
+            "Point d’échantillonage": "BLAP-31R",
+            "Localisation": "Sous le pont Mercier, à 2 mètres de la rive de Montréal.",
+            "Longitude": -736524195408177,
+            "Latitude": 454207922554623
+          },
+          {
+            "_id": 2,
+            "Plan d’eau": "Bassin de La Prairie",
+            "Point d’échantillonage": "BLAP-34L",
+            "Localisation": "Du côté est de l'entrée du canal de l'Aqueduc de la ville de Montréal, à 1 mètre de la rive.",
+            "Longitude": -736310730657282,
+            "Latitude": 454160694056471
+          },
+          {
+            "_id": 3,
+            "Plan d’eau": "Bassin de La Prairie",
+            "Point d’échantillonage": "BLAP-38R",
+            "Localisation": "Dans le parc des rapides de Lachine, affluent nord du bassin artificiel, en face de la 8e Avenue, sous le premier ponceau.",
+            "Longitude": -7359296046923,
+            "Latitude": 454275065350059
+          },
+          {
+            "_id": 4,
+            "Plan d’eau": "Bassin de La Prairie",
+            "Point d’échantillonage": "BLAP-48R",
+            "Localisation": "En aval des rapides du Sault Normand, prélevé depuis le pont de la Concorde, à environ 50 mètres de la rive de Montréal.",
+            "Longitude": -735420559025735,
+            "Latitude": 455051493322
+          },
+          {
+            "_id": 5,
+            "Plan d’eau": "Émissaire de la STEP",
+            "Point d’échantillonage": "EMIS-(-1)P",
+            "Localisation": "À 1 km en amont du point de rejet de la STEP-Montréal, sous la ligne électrique, à 300m de l'île au Veau (côté île aux Vaches).",
+            "Longitude": -734747666669265,
+            "Latitude": 456567829741594
+          }
+        ]
+      },
+      "field_stats": {
+        "Plan d’eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Point d’échantillonage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Localisation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 119,
+        "total_records": 119,
+        "audited_at": "2026-03-10T00:24:17.165025+00:00",
+        "fields": {
+          "Plan d’eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Rivière des Prairies",
+                "count": 45
+              },
+              {
+                "value": "Émissaire de la STEP",
+                "count": 28
+              },
+              {
+                "value": "Fleuve Saint-Laurent",
+                "count": 22
+              },
+              {
+                "value": "Lac Saint-Louis",
+                "count": 17
+              },
+              {
+                "value": "Bassin de La Prairie",
+                "count": 4
+              },
+              {
+                "value": "Rivière l’Assomption",
+                "count": 1
+              },
+              {
+                "value": "Rivière des Milles-Îles",
+                "count": 1
+              },
+              {
+                "value": "Ruisseau La Pinière",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Point d’échantillonage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 119,
+            "top_values": [
+              {
+                "value": "BLAP-31R",
+                "count": 1
+              },
+              {
+                "value": "BLAP-34L",
+                "count": 1
+              },
+              {
+                "value": "BLAP-38R",
+                "count": 1
+              },
+              {
+                "value": "BLAP-48R",
+                "count": 1
+              },
+              {
+                "value": "EMIS-(-1)P",
+                "count": 1
+              },
+              {
+                "value": "EMIS-(-1)RS",
+                "count": 1
+              },
+              {
+                "value": "EMIS-0P",
+                "count": 1
+              },
+              {
+                "value": "EMIS-16P",
+                "count": 1
+              },
+              {
+                "value": "EMIS-16RN",
+                "count": 1
+              },
+              {
+                "value": "EMIS-1P1",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Localisation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 119,
+            "top_values": [
+              {
+                "value": "Sous le pont Mercier, à 2 mètres de la rive de Montréal.",
+                "count": 1
+              },
+              {
+                "value": "Du côté est de l'entrée du canal de l'Aqueduc de la ville de Montréal, à 1 mètre de la rive.",
+                "count": 1
+              },
+              {
+                "value": "Dans le parc des rapides de Lachine, affluent nord du bassin artificiel, en face de la 8e Avenue, sous le premier ponceau.",
+                "count": 1
+              },
+              {
+                "value": "En aval des rapides du Sault Normand, prélevé depuis le pont de la Concorde, à environ 50 mètres de la rive de Montréal.",
+                "count": 1
+              },
+              {
+                "value": "À 1 km en amont du point de rejet de la STEP-Montréal, sous la ligne électrique, à 300m de l'île au Veau (côté île aux Vaches).",
+                "count": 1
+              },
+              {
+                "value": "À 1 km en amont du point de rejet, sous la ligne électrique, à 100m de la rive des îles de Varennes (côté rive sud), dans le chenal de la voie maritime (panache du CERS)",
+                "count": 1
+              },
+              {
+                "value": "En aval de l'île aux Vaches, en bordure de la Voie maritime, au point de rejet des 'eaux traitées de la STEP-Montréal, près de la bouée M-144",
+                "count": 1
+              },
+              {
+                "value": "N  îles de Verchères à 1km mètres en amont du chenal Saint-Pierre, à 450 mètres de la rive de l'île Bouchard",
+                "count": 1
+              },
+              {
+                "value": "À 16 km en aval du point de rejet de la STEP-Montréal, au nord des îles de Verchères à 1km en amont du chenal Saint-Pierre, à 100 mètres de la rive nord.",
+                "count": 1
+              },
+              {
+                "value": "À 1,2 km en aval du point de rejet, à la hauteur du phare FG85, au centre du panache, à environ 50 m de la rive de l'île Sainte-Thérèse.",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -739442086261542.0,
+            "max": -73478407.0,
+            "mean": -625996950895964.4,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45614876.0,
+            "max": 459964161637459.0,
+            "mean": 420765888371662.56,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "053f05b6-99d3-4e15-be3a-64f89f858a80",
+      "name": "RSMA – Point d’échantillonnage COURDO 2001-2017",
+      "description": "Points d’échantillonnage du programme COURDO régulier.\r\nPlan d’eau : BLAP (bassin de La Prairie) LSL (lac Saint-Louis), RDP (rivière des Prairies), RMI (rivière des Mille-Îles), FSL (fleuve Saint-Laurent) ou EMIS (zone d’influence des rejets de la station d’épuration des eaux usées Jean-R. Marcotte)\r\nPoint d'échantillonnage : Code du RSMA identifiant le point d’échantillonnage\r\nLocalisation : Précisions sur l’emplacement du point d’échantillonnage\r\nLongitude : Coordonnée longitude\r\nLatitude : Coordonnée latitude",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/19033140-062a-45c1-bd1e-7807ea5b4f78/resource/053f05b6-99d3-4e15-be3a-64f89f858a80/download/stationscourdo_2001-2017.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-10-31T14:03:22.947436",
+      "created": "2019-10-31T14:03:23.597499",
+      "schema": null
+    },
+    {
+      "id": "ccbdbf09-c87b-47d9-853d-2d1bd97b5312",
+      "name": "RSMA – Point d’échantillonnage COURDO 2001-2017",
+      "description": "Points d’échantillonnage du programme COURDO régulier.\r\nPlan d’eau : BLAP (bassin de La Prairie) LSL (lac Saint-Louis), RDP (rivière des Prairies), RMI (rivière des Mille-Îles), FSL (fleuve Saint-Laurent) ou EMIS (zone d’influence des rejets de la station d’épuration des eaux usées Jean-R. Marcotte)\r\nPoint d'échantillonnage : Code du RSMA identifiant le point d’échantillonnage\r\nLocalisation : Précisions sur l’emplacement du point d’échantillonnage\r\nLongitude : Coordonnée longitude\r\nLatitude : Coordonnée latitude",
+      "format": "KMZ",
+      "url": "https://donnees.montreal.ca/fr/dataset/19033140-062a-45c1-bd1e-7807ea5b4f78/resource/ccbdbf09-c87b-47d9-853d-2d1bd97b5312/download/stationscourdo_2001-2017.kmz",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-10-31T14:04:32.928071",
+      "created": "2019-10-31T14:04:33.015285",
+      "schema": null
+    },
+    {
+      "id": "5aaba7c1-5b34-43ca-8576-155a5913e462",
+      "name": "RSMA – Point d’échantillonnage COURDO 2001-2017",
+      "description": "Points d’échantillonnage du programme COURDO régulier.\r\nPlan d’eau : BLAP (bassin de La Prairie) LSL (lac Saint-Louis), RDP (rivière des Prairies), RMI (rivière des Mille-Îles), FSL (fleuve Saint-Laurent) ou EMIS (zone d’influence des rejets de la station d’épuration des eaux usées Jean-R. Marcotte)\r\nPoint d'échantillonnage : Code du RSMA identifiant le point d’échantillonnage\r\nLocalisation : Précisions sur l’emplacement du point d’échantillonnage\r\nLongitude : Coordonnée longitude\r\nLatitude : Coordonnée latitude",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/19033140-062a-45c1-bd1e-7807ea5b4f78/resource/5aaba7c1-5b34-43ca-8576-155a5913e462/download/stationscourdo_2001-2017_shp.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-10-31T14:06:18.936261",
+      "created": "2019-10-31T14:06:19.008880",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cours d eau",
+    "Fleuve",
+    "Lac",
+    "Qualité de l eau",
+    "RSMA",
+    "Rivière",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "À sept reprises durant la saison estivale, l’équipe du RSMA (Réseau de suivi du milieu aquatique) prélève des échantillons d’eau de surface dans les cours d’eau ceinturant l’agglomération montréalaise (programme COURDO). Cet ensemble de données définit les points d’échantillonnage du programme COURDO.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Cours d eau",
+      "Fleuve",
+      "Lac",
+      "Qualité de l eau",
+      "RSMA",
+      "Rivière",
+      "SEnv"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsma-points-d-echantillonnage-courdo",
+    "scraped_at": "2026-03-09T20:19:41.167212+00:00"
+  }
+}

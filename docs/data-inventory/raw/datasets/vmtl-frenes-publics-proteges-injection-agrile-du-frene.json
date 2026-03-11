@@ -1,0 +1,2735 @@
+{
+  "slug": "vmtl-frenes-publics-proteges-injection-agrile-du-frene",
+  "title": "Frênes publics protégés de l'agrile du frêne par injection",
+  "notes": "Ensemble de données présentant les frênes publics protégés de l'agrile du frêne par traitement d'injection de TreeAzin depuis 2014 par la Ville de Montréal.\r\n\r\nPour plus d'information sur les injections de frêne, consultez la [page d'information dédiée à la lutte contre l'agrile du frêne](https://montreal.ca/articles/agrile-du-frene-pourquoi-abattre-mon-arbre-17766).\r\n\r\nLes plantations d'arbres sont disponibles via l'ensemble de données présentant les [arbres du domaine public](https://donnees.montreal.ca/dataset/arbres) qui sont mis à jour par les arrondissements de la Ville.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-06-23T19:59:41.608082",
+  "metadata_modified": "2025-02-27T18:30:13.383106",
+  "num_resources": 10,
+  "resources": [
+    {
+      "id": "32705611-6847-4227-9654-4aae33f6d91e",
+      "name": "Frênes publics protégés en 2018 (Shapefile)",
+      "description": "Conteneur zip contenant les points au format Shapefile des frênes publics protégés de l'agrile du frêne par injection en 2018 \r\n\r\nProjection: NAD83 MTM8\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/32705611-6847-4227-9654-4aae33f6d91e/download/injectionfrenepublic2018.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-05-29T19:31:57.178106",
+      "created": "2019-05-29T19:31:57.250901",
+      "schema": null
+    },
+    {
+      "id": "b68cb3fc-b6ab-4472-a831-4e1bbaf8346b",
+      "name": "Frênes publics protégés en 2018 (CSV)",
+      "description": "Fichier tabulaire des localisations des frênes publics protégés de l'agrile du frêne par injection en 2018.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/b68cb3fc-b6ab-4472-a831-4e1bbaf8346b/download/injectionfrenepublic2018.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-05-29T19:33:36.135286",
+      "created": "2019-05-29T19:33:36.209163",
+      "schema": {
+        "resource_id": "b68cb3fc-b6ab-4472-a831-4e1bbaf8346b",
+        "total_records": 26007,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Injections",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_civiq": 9805,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292946.888,
+            "Coord_Y": 5046548.5,
+            "Injections": 2018,
+            "Longitude": -73.65182879,
+            "Latitude": 45.55874714
+          },
+          {
+            "_id": 2,
+            "no_civiq": 9825,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292923.836,
+            "Coord_Y": 5046556.5,
+            "Injections": 2018,
+            "Longitude": -73.65212426,
+            "Latitude": 45.55881874
+          },
+          {
+            "_id": 3,
+            "no_civiq": 9810,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292944.121,
+            "Coord_Y": 5046531.5,
+            "Injections": 2018,
+            "Longitude": -73.65186383,
+            "Latitude": 45.55859412
+          },
+          {
+            "_id": 4,
+            "no_civiq": 9905,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292839.265,
+            "Coord_Y": 5046594,
+            "Injections": 2018,
+            "Longitude": -73.65320847,
+            "Latitude": 45.55915472
+          },
+          {
+            "_id": 5,
+            "no_civiq": 10432,
+            "Rue": "Lille, rue de",
+            "Rue_De": "Fleury Est, rue",
+            "Rue_A": "Prieur Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 293044.306,
+            "Coord_Y": 5048354.5,
+            "Injections": 2018,
+            "Longitude": -73.65062438,
+            "Latitude": 45.57499972
+          }
+        ]
+      },
+      "field_stats": {
+        "no_civiq": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Injections": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 26007,
+        "audited_at": "2026-03-10T00:19:07.621516+00:00",
+        "fields": {
+          "no_civiq": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 12525.0,
+            "mean": 7024.903,
+            "median": 9774.5,
+            "unique_count": 580,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 101,
+            "top_values": [
+              {
+                "value": "Dépatie, rue",
+                "count": 54
+              },
+              {
+                "value": "D'Iberville, rue",
+                "count": 53
+              },
+              {
+                "value": "Lille, rue de",
+                "count": 42
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 40
+              },
+              {
+                "value": "Clark, rue",
+                "count": 40
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 39
+              },
+              {
+                "value": "Sauriol Est, rue",
+                "count": 36
+              },
+              {
+                "value": "Papineau, avenue",
+                "count": 34
+              },
+              {
+                "value": "Durham, avenue",
+                "count": 32
+              },
+              {
+                "value": "Fleury, terrasse",
+                "count": 31
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 123,
+            "top_values": [
+              {
+                "value": "Sauvé Est, rue",
+                "count": 93
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 83
+              },
+              {
+                "value": "Fleury Est, rue",
+                "count": 74
+              },
+              {
+                "value": "Sauriol Est, rue",
+                "count": 57
+              },
+              {
+                "value": "Port-Royal Est, rue de",
+                "count": 34
+              },
+              {
+                "value": "Chabanel Est, rue",
+                "count": 33
+              },
+              {
+                "value": "Limite",
+                "count": 32
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 30
+              },
+              {
+                "value": "Fleury Ouest, rue",
+                "count": 29
+              },
+              {
+                "value": "Henri-Bourassa Est, boulevard",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 112,
+            "top_values": [
+              {
+                "value": "Sauriol Est, rue",
+                "count": 101
+              },
+              {
+                "value": "Henri-Bourassa Est, boulevard",
+                "count": 80
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 77
+              },
+              {
+                "value": "Fleury Est, rue",
+                "count": 55
+              },
+              {
+                "value": "Garnier, rue",
+                "count": 46
+              },
+              {
+                "value": "Sauvé Est, rue",
+                "count": 41
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 39
+              },
+              {
+                "value": "Gouin Est, boulevard",
+                "count": 31
+              },
+              {
+                "value": "Dudemaine, rue",
+                "count": 30
+              },
+              {
+                "value": "Fleury, place",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 844
+              },
+              {
+                "value": "FRAM",
+                "count": 58
+              },
+              {
+                "value": "FRPEMS",
+                "count": 35
+              },
+              {
+                "value": "FRPESU",
+                "count": 27
+              },
+              {
+                "value": "FRAMAP",
+                "count": 13
+              },
+              {
+                "value": "FRPEPA",
+                "count": 13
+              },
+              {
+                "value": "FRAMMA",
+                "count": 7
+              },
+              {
+                "value": "FRAMKL",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coord_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 285082.534,
+            "max": 294826.688,
+            "mean": 292174.475167,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5041221.7509,
+            "max": 5048886.5,
+            "mean": 5046243.388641,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Injections": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2018.0,
+            "max": 2018.0,
+            "mean": 2018.0,
+            "median": 2018.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2018",
+                "count": 1000
+              }
+            ]
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.752351,
+            "max": -73.627738,
+            "mean": -73.66171,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.510639,
+            "max": 45.579791,
+            "mean": 45.555986,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "8bba11ee-cb31-4277-8421-7cb6427a83de",
+      "name": "Frênes publics protégés en 2017 (Shapefile)",
+      "description": "Conteneur zip contenant les points au format Shapefile des frênes publics protégés de l'agrile du frêne par injection en 2017\r\n\r\nProjection: NAD83 MTM8 ",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/8bba11ee-cb31-4277-8421-7cb6427a83de/download/injectionfrenepublic2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-05-29T19:26:59.620949",
+      "created": "2019-05-29T19:26:59.864535",
+      "schema": null
+    },
+    {
+      "id": "2617b898-51da-4d6c-ac06-4c82097894f1",
+      "name": "Frênes publics protégés en 2017 (CSV)",
+      "description": "Fichier tabulaire des localisations des frênes publics protégés de l'agrile du frêne par injection en 2017",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/2617b898-51da-4d6c-ac06-4c82097894f1/download/injectionfrenepublic2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-05-29T19:30:32.380125",
+      "created": "2019-05-29T19:30:32.469288",
+      "schema": {
+        "resource_id": "2617b898-51da-4d6c-ac06-4c82097894f1",
+        "total_records": 27661,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Injections",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_civiq": 9451,
+            "Rue": "Foucher, rue",
+            "Rue_De": "Chabanel Est, rue",
+            "Rue_A": "Louvain Est, rue de",
+            "Nom_parc": "",
+            "Sigle": "FRAMKL",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 293090.719,
+            "Coord_Y": 5045715.5,
+            "Injections": 2017,
+            "Longitude": -73.6499665,
+            "Latitude": 45.55125398
+          },
+          {
+            "_id": 2,
+            "no_civiq": 1475,
+            "Rue": "Prieur Est, rue",
+            "Rue_De": "Olympia, boulevard",
+            "Rue_A": "Hamel, avenue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292325.8971,
+            "Coord_Y": 5047059.656,
+            "Injections": 2017,
+            "Longitude": -73.65979619,
+            "Latitude": 45.56333583
+          },
+          {
+            "_id": 3,
+            "no_civiq": 9905,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 292839.265,
+            "Coord_Y": 5046594,
+            "Injections": 2017,
+            "Longitude": -73.65320847,
+            "Latitude": 45.55915472
+          },
+          {
+            "_id": 4,
+            "no_civiq": 9345,
+            "Rue": "Millen, avenue",
+            "Rue_De": "Chabanel Est, rue",
+            "Rue_A": "Louvain Est, rue de",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 293251.938,
+            "Coord_Y": 5045722.5,
+            "Injections": 2017,
+            "Longitude": -73.64790186,
+            "Latitude": 45.55131966
+          },
+          {
+            "_id": 5,
+            "no_civiq": 10125,
+            "Rue": "Parthenais, rue",
+            "Rue_De": "Sauriol Est, rue",
+            "Rue_A": "Fleury Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRAM",
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "Coord_X": 293285.9382,
+            "Coord_Y": 5047970.9549,
+            "Injections": 2017,
+            "Longitude": -73.64751935,
+            "Latitude": 45.57155251
+          }
+        ]
+      },
+      "field_stats": {
+        "no_civiq": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Injections": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 27661,
+        "audited_at": "2026-03-10T00:19:08.821008+00:00",
+        "fields": {
+          "no_civiq": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 12540.0,
+            "mean": 6158.86,
+            "median": 9149.0,
+            "unique_count": 546,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 128,
+            "top_values": [
+              {
+                "value": "Papineau, avenue",
+                "count": 137
+              },
+              {
+                "value": "Basile-Routhier, rue",
+                "count": 43
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 38
+              },
+              {
+                "value": "Lajeunesse, rue",
+                "count": 35
+              },
+              {
+                "value": "Foucher, rue",
+                "count": 33
+              },
+              {
+                "value": "D'Iberville, rue",
+                "count": 33
+              },
+              {
+                "value": "Verville, rue",
+                "count": 30
+              },
+              {
+                "value": "Parthenais, rue",
+                "count": 25
+              },
+              {
+                "value": "De Salaberry, rue",
+                "count": 24
+              },
+              {
+                "value": "Millen, avenue",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "Sauriol Est, rue",
+                "count": 78
+              },
+              {
+                "value": "Chabanel Est, rue",
+                "count": 61
+              },
+              {
+                "value": "Sauvé Est, rue",
+                "count": 52
+              },
+              {
+                "value": "Émile-Journault, avenue",
+                "count": 48
+              },
+              {
+                "value": "François-H.-Prévost, rue",
+                "count": 43
+              },
+              {
+                "value": "Port-Royal Est, rue de",
+                "count": 39
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 32
+              },
+              {
+                "value": "Sauvé Ouest, rue",
+                "count": 30
+              },
+              {
+                "value": "Legendre Est, rue",
+                "count": 29
+              },
+              {
+                "value": "Fleury Est, rue",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 128,
+            "top_values": [
+              {
+                "value": "Fleury Est, rue",
+                "count": 79
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 72
+              },
+              {
+                "value": "Sauriol Est, rue",
+                "count": 54
+              },
+              {
+                "value": "Émile-Journault, avenue",
+                "count": 54
+              },
+              {
+                "value": "Sauvé Est, rue",
+                "count": 42
+              },
+              {
+                "value": "Gouin Ouest, boulevard",
+                "count": 38
+              },
+              {
+                "value": "Fleury Ouest, rue",
+                "count": 31
+              },
+              {
+                "value": "Chabanel Est, rue",
+                "count": 30
+              },
+              {
+                "value": "Legendre Est, rue",
+                "count": 30
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 847
+              },
+              {
+                "value": "FRAM",
+                "count": 44
+              },
+              {
+                "value": "FRPESU",
+                "count": 40
+              },
+              {
+                "value": "FRPEMS",
+                "count": 24
+              },
+              {
+                "value": "FRPEPA",
+                "count": 14
+              },
+              {
+                "value": "FRAMMA",
+                "count": 11
+              },
+              {
+                "value": "FRAMAP",
+                "count": 10
+              },
+              {
+                "value": "FRAMKL",
+                "count": 7
+              },
+              {
+                "value": "FRAMNB",
+                "count": 2
+              },
+              {
+                "value": "FR",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coord_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 285270.757,
+            "max": 295107.953,
+            "mean": 292373.593447,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5041298.764,
+            "max": 5049013.32,
+            "mean": 5045996.043703,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Injections": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2017.0,
+            "max": 2017.0,
+            "mean": 2017.0,
+            "median": 2017.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2017",
+                "count": 1000
+              }
+            ]
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.749948,
+            "max": -73.62414,
+            "mean": -73.659154,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.511343,
+            "max": 45.580929,
+            "mean": 45.553763,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "81faeee7-02c6-4a70-9f0b-d0cf68d2d391",
+      "name": "Frênes publics protégés en 2016 (Shapefile)",
+      "description": "Conteneur zip contenant les points au format Shapefile des frênes publics protégés de l'agrile du frêne par injection en 2016 \r\n\r\nProjection: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/81faeee7-02c6-4a70-9f0b-d0cf68d2d391/download/injectionfrenepublic2016.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-04-19T21:04:09.164161",
+      "created": "2017-04-19T17:04:09.211342",
+      "schema": null
+    },
+    {
+      "id": "0a5984e4-752f-401e-b2d9-aa0567535d39",
+      "name": "Frênes publics protégés en 2016 (CSV)",
+      "description": "Fichier tabulaire des localisation de frênes publics protégés de l'agrile du frêne par injection en 2016",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/0a5984e4-752f-401e-b2d9-aa0567535d39/download/frenepublicinjection2016.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-04-19T21:04:49.927521",
+      "created": "2017-04-19T17:04:49.976826",
+      "schema": {
+        "resource_id": "0a5984e4-752f-401e-b2d9-aa0567535d39",
+        "total_records": 27244,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no_civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Injections",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "no_civiq": 9805,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2016,
+            "x": 292946.888016,
+            "y": 5046548.49994,
+            "longitude": -73.651828794,
+            "latitude": 45.558747141
+          },
+          {
+            "_id": 2,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "no_civiq": 9825,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2016,
+            "x": 292923.835994,
+            "y": 5046556.49987,
+            "longitude": -73.6521242649999,
+            "latitude": 45.5588187340001
+          },
+          {
+            "_id": 3,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "no_civiq": 9810,
+            "Rue": "Sacré-Coeur, avenue du",
+            "Rue_De": "Sauvé Est, rue",
+            "Rue_A": "Sauriol Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2016,
+            "x": 292944.121003,
+            "y": 5046531.49987,
+            "longitude": -73.651863825,
+            "latitude": 45.558594122
+          },
+          {
+            "_id": 4,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "no_civiq": 10432,
+            "Rue": "Lille, rue de",
+            "Rue_De": "Fleury Est, rue",
+            "Rue_A": "Prieur Est, rue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2016,
+            "x": 293044.305983,
+            "y": 5048354.49993,
+            "longitude": -73.650624379,
+            "latitude": 45.5749997190001
+          },
+          {
+            "_id": 5,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "no_civiq": 1170,
+            "Rue": "Louvain Est, rue de",
+            "Rue_De": "Christophe-Colomb, avenue",
+            "Rue_A": "De Bretonvilliers, avenue",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2016,
+            "x": 293425.855011,
+            "y": 5046560.49992,
+            "longitude": -73.6456939129999,
+            "latitude": 45.5588631100001
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no_civiq": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Injections": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 27244,
+        "audited_at": "2026-03-10T00:19:10.009239+00:00",
+        "fields": {
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "no_civiq": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 12525.0,
+            "mean": 6869.661,
+            "median": 9739.0,
+            "unique_count": 573,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 100,
+            "top_values": [
+              {
+                "value": "D'Iberville, rue",
+                "count": 58
+              },
+              {
+                "value": "Dépatie, rue",
+                "count": 58
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 47
+              },
+              {
+                "value": "Lille, rue de",
+                "count": 45
+              },
+              {
+                "value": "Sauriol Est, rue",
+                "count": 38
+              },
+              {
+                "value": "Fleury, terrasse",
+                "count": 35
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 33
+              },
+              {
+                "value": "Durham, avenue",
+                "count": 32
+              },
+              {
+                "value": "Antoine-Déat, rue",
+                "count": 28
+              },
+              {
+                "value": "Sauvé Est, rue",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 119,
+            "top_values": [
+              {
+                "value": "Sauvé Est, rue",
+                "count": 88
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 84
+              },
+              {
+                "value": "Fleury Est, rue",
+                "count": 77
+              },
+              {
+                "value": "Sauriol Est, rue",
+                "count": 50
+              },
+              {
+                "value": "Limite",
+                "count": 43
+              },
+              {
+                "value": "Port-Royal Est, rue de",
+                "count": 39
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 33
+              },
+              {
+                "value": "Fleury Ouest, rue",
+                "count": 33
+              },
+              {
+                "value": "Christophe-Colomb, avenue",
+                "count": 28
+              },
+              {
+                "value": "Garnier, rue",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 108,
+            "top_values": [
+              {
+                "value": "Sauriol Est, rue",
+                "count": 93
+              },
+              {
+                "value": "Henri-Bourassa Est, boulevard",
+                "count": 82
+              },
+              {
+                "value": "Prieur Est, rue",
+                "count": 80
+              },
+              {
+                "value": "Garnier, rue",
+                "count": 54
+              },
+              {
+                "value": "Sauvé Est, rue",
+                "count": 53
+              },
+              {
+                "value": "Fleury Est, rue",
+                "count": 49
+              },
+              {
+                "value": "Louvain Est, rue de",
+                "count": 41
+              },
+              {
+                "value": "Fleury, place",
+                "count": 33
+              },
+              {
+                "value": "Dudemaine, rue",
+                "count": 31
+              },
+              {
+                "value": "Gouin Est, boulevard",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 826
+              },
+              {
+                "value": "FRAM",
+                "count": 77
+              },
+              {
+                "value": "FRPEMS",
+                "count": 34
+              },
+              {
+                "value": "FRPESU",
+                "count": 28
+              },
+              {
+                "value": "FRAMAP",
+                "count": 15
+              },
+              {
+                "value": "FRPEPA",
+                "count": 9
+              },
+              {
+                "value": "FRAMMA",
+                "count": 7
+              },
+              {
+                "value": "FRAMKL",
+                "count": 3
+              },
+              {
+                "value": "FRAMSK",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Injections": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2016.0,
+            "max": 2016.0,
+            "mean": 2016.0,
+            "median": 2016.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2016",
+                "count": 1000
+              }
+            ]
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 284992.076022,
+            "max": 294826.68802,
+            "mean": 292205.616848,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5041168.86889,
+            "max": 5048997.99994,
+            "mean": 5046287.077737,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.753505,
+            "max": -73.627738,
+            "mean": -73.661312,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.510159,
+            "max": 45.580792,
+            "mean": 45.556379,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "42bb7c8c-2738-4076-acd4-6074c82cdcb2",
+      "name": "Frênes publics protégés en 2015 (Shapefile)",
+      "description": "Conteneur zip contenant les points au format Shapefile des frênes publics protégés de l'agrile du frêne par injection en 2015\r\n\r\nProjection: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/42bb7c8c-2738-4076-acd4-6074c82cdcb2/download/injectionfrenepublic2015.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-04-19T21:02:20.403415",
+      "created": "2017-04-19T17:02:20.447770",
+      "schema": null
+    },
+    {
+      "id": "a57f787f-bde9-4a59-88d1-4ae742edd9b8",
+      "name": "Frênes publics protégés en 2015 (CSV)",
+      "description": "Fichier tabulaire des localisation de frênes publics protégés de l'agrile du frêne par injection en 2015",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/a57f787f-bde9-4a59-88d1-4ae742edd9b8/download/frenepublicinjection2015.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-04-19T21:03:14.435235",
+      "created": "2017-04-19T17:03:14.482079",
+      "schema": {
+        "resource_id": "a57f787f-bde9-4a59-88d1-4ae742edd9b8",
+        "total_records": 16000,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_Civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_a",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Injections",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 10265,
+            "Rue": "Rue Saint-Hubert",
+            "Rue_De": "SAURIOL E RUE",
+            "Rue_a": "FLEURY E RUE",
+            "Nom_parc": "",
+            "Sigle": "FRPESU",
+            "Injections": 2015,
+            "x": 292338.75,
+            "y": 5046268.5,
+            "longitude": -73.6596113879546,
+            "latitude": 45.5562169952192
+          },
+          {
+            "_id": 2,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 9451,
+            "Rue": "Rue Foucher",
+            "Rue_De": "CHABANEL E RUE",
+            "Rue_a": "LOUVAIN E RUE DE",
+            "Nom_parc": "",
+            "Sigle": "FRAMKL",
+            "Injections": 2015,
+            "x": 293090.719,
+            "y": 5045715.5,
+            "longitude": -73.6499665032798,
+            "latitude": 45.5512539761596
+          },
+          {
+            "_id": 3,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 10435,
+            "Rue": "Rue Taché",
+            "Rue_De": "TACHÉ PLACE",
+            "Rue_a": "PRIEUR E RUE",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2015,
+            "x": 292521.682,
+            "y": 5047302.0,
+            "longitude": -73.6572942384626,
+            "latitude": 45.5655199930171
+          },
+          {
+            "_id": 4,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 1475,
+            "Rue": "Rue Prieur Est",
+            "Rue_De": "OLYMPIA BOULE",
+            "Rue_a": "HAMEL AVENU",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2015,
+            "x": 292325.8971,
+            "y": 5047059.656,
+            "longitude": -73.6597961939526,
+            "latitude": 45.5633358284252
+          },
+          {
+            "_id": 5,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 9905,
+            "Rue": "Avenue du Sacré-Coeur",
+            "Rue_De": "SAUVÉ E RUE",
+            "Rue_a": "SAURIOL E RUE",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2015,
+            "x": 292839.265,
+            "y": 5046594.0,
+            "longitude": -73.6532084656865,
+            "latitude": 45.5591547231261
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No_Civiq": {
+          "null_count": 2364,
+          "null_pct": 14.8,
+          "populated_pct": 85.2
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_a": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Injections": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 16000,
+        "audited_at": "2026-03-10T00:19:11.144737+00:00",
+        "fields": {
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "No_Civiq": {
+            "null_count": 95,
+            "null_pct": 9.5,
+            "min": 30.0,
+            "max": 12525.0,
+            "mean": 8350.0519,
+            "median": 9720.0,
+            "unique_count": 660,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 121,
+            "top_values": [
+              {
+                "value": "Rue D'Iberville",
+                "count": 53
+              },
+              {
+                "value": "Rue Basile-Routhier",
+                "count": 52
+              },
+              {
+                "value": "Rue Foucher",
+                "count": 49
+              },
+              {
+                "value": "Rue Lajeunesse",
+                "count": 47
+              },
+              {
+                "value": "Rue Prieur Est",
+                "count": 43
+              },
+              {
+                "value": "Rue De Salaberry",
+                "count": 36
+              },
+              {
+                "value": "Rue Parthenais",
+                "count": 29
+              },
+              {
+                "value": "Rue Legendre Est",
+                "count": 28
+              },
+              {
+                "value": "Avenue De Lorimier",
+                "count": 26
+              },
+              {
+                "value": "Rue de Louvain Est",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 130,
+            "top_values": [
+              {
+                "value": "SAURIOL E RUE",
+                "count": 102
+              },
+              {
+                "value": "CHABANEL E RUE",
+                "count": 81
+              },
+              {
+                "value": "SAUVÉ E RUE",
+                "count": 57
+              },
+              {
+                "value": "PORT-ROYAL E RUE DE",
+                "count": 49
+              },
+              {
+                "value": "ÉMILE-JOURNAULT AVENU",
+                "count": 35
+              },
+              {
+                "value": "LOUISBOURG RUE DE",
+                "count": 34
+              },
+              {
+                "value": "LEGENDRE E RUE",
+                "count": 33
+              },
+              {
+                "value": "FLEURY E RUE",
+                "count": 32
+              },
+              {
+                "value": "HENRI-BOURASSA E BOULE",
+                "count": 26
+              },
+              {
+                "value": "ANDRÉ-GRASSET AVENU",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_a": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 129,
+            "top_values": [
+              {
+                "value": "FLEURY E RUE",
+                "count": 105
+              },
+              {
+                "value": "LOUVAIN E RUE DE",
+                "count": 75
+              },
+              {
+                "value": "SAURIOL E RUE",
+                "count": 57
+              },
+              {
+                "value": "SAUVÉ E RUE",
+                "count": 52
+              },
+              {
+                "value": "LEGENDRE E RUE",
+                "count": 39
+              },
+              {
+                "value": "GOUIN E BOULE",
+                "count": 36
+              },
+              {
+                "value": "CHABANEL E RUE",
+                "count": 33
+              },
+              {
+                "value": "PRIEUR E RUE",
+                "count": 32
+              },
+              {
+                "value": "DE SALABERRY RUE",
+                "count": 27
+              },
+              {
+                "value": "GOUIN O BOULE",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 818
+              },
+              {
+                "value": "FRAM",
+                "count": 60
+              },
+              {
+                "value": "FRPESU",
+                "count": 39
+              },
+              {
+                "value": "FRPEMS",
+                "count": 37
+              },
+              {
+                "value": "FRAMMA",
+                "count": 13
+              },
+              {
+                "value": "FRPEPA",
+                "count": 12
+              },
+              {
+                "value": "FRAMAP",
+                "count": 12
+              },
+              {
+                "value": "FRAMKL",
+                "count": 6
+              },
+              {
+                "value": "FRAMNB",
+                "count": 2
+              },
+              {
+                "value": "FRNIFG",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Injections": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2015.0,
+            "max": 2015.0,
+            "mean": 2015.0,
+            "median": 2015.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2015",
+                "count": 1000
+              }
+            ]
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 285438.0683,
+            "max": 294794.344,
+            "mean": 292025.549002,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5041298.764,
+            "max": 5049009.0,
+            "mean": 5045906.89649,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.747809,
+            "max": -73.628152,
+            "mean": -73.663608,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.511343,
+            "max": 45.580891,
+            "mean": 45.552955,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "e031ac3d-fd53-4ff9-a0ac-eaff1d9a3d13",
+      "name": "Frênes publics protégés en 2014 (Shapefile)",
+      "description": "Conteneur zip contenant les points au format Shapefile des frênes publics protégés de l'agrile du frêne par injection en 2014 \r\n\r\nProjection: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/e031ac3d-fd53-4ff9-a0ac-eaff1d9a3d13/download/injectionfrenepublic2014.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-04-19T20:59:18.923602",
+      "created": "2016-06-29T14:04:47.148200",
+      "schema": null
+    },
+    {
+      "id": "27a5c89f-6bd5-44ac-bbe9-8a0fdc9858f8",
+      "name": "Frênes publics protégés en 2014 (CSV)",
+      "description": "Fichier tabulaire des localisation de frênes publics protégés de l'agrile du frêne par injection en 2014",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/ebb813dd-a93f-4fb0-8137-80492a30a1fa/resource/27a5c89f-6bd5-44ac-bbe9-8a0fdc9858f8/download/frenepublicinjection2014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-04-19T21:01:06.198926",
+      "created": "2017-04-19T17:01:06.270035",
+      "schema": {
+        "resource_id": "27a5c89f-6bd5-44ac-bbe9-8a0fdc9858f8",
+        "total_records": 10250,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom_arrond",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Invent",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_Civiq",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue_a",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_parc",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sigle",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Injections",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 1405,
+            "Rue": "Boulevard Henri-Bourassa Ouest / Voie latérale Nord",
+            "Rue_De": "HAMON RUE",
+            "Rue_a": "DE SAINT-RÉAL RUE",
+            "Nom_parc": "",
+            "Sigle": "FRAM",
+            "Injections": 2014,
+            "x": 290857.018,
+            "y": 5044346.356,
+            "longitude": -73.6785354760738,
+            "latitude": 45.5388928418513
+          },
+          {
+            "_id": 2,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 1405,
+            "Rue": "Boulevard Henri-Bourassa Ouest / Voie latérale Nord",
+            "Rue_De": "HAMON RUE",
+            "Rue_a": "DE SAINT-RÉAL RUE",
+            "Nom_parc": "",
+            "Sigle": "FRAM",
+            "Injections": 2014,
+            "x": 290853.439,
+            "y": 5044337.734,
+            "longitude": -73.6785810582177,
+            "latitude": 45.5388151866184
+          },
+          {
+            "_id": 3,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 1405,
+            "Rue": "Boulevard Henri-Bourassa Ouest / Voie latérale Nord",
+            "Rue_De": "HAMON RUE",
+            "Rue_a": "DE SAINT-RÉAL RUE",
+            "Nom_parc": "",
+            "Sigle": "FRAM",
+            "Injections": 2014,
+            "x": 290848.951,
+            "y": 5044327.573,
+            "longitude": -73.678638235753,
+            "latitude": 45.5387236647356
+          },
+          {
+            "_id": 4,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 9905,
+            "Rue": "Avenue du Sacré-Coeur",
+            "Rue_De": "SAUVÉ E RUE",
+            "Rue_a": "SAURIOL E RUE",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2014,
+            "x": 292839.265,
+            "y": 5046594.0,
+            "longitude": -73.6532084656865,
+            "latitude": 45.5591547231261
+          },
+          {
+            "_id": 5,
+            "Nom_arrond": "Ahuntsic-Cartierville",
+            "Invent": "R",
+            "No_Civiq": 9345,
+            "Rue": "Avenue Millen",
+            "Rue_De": "CHABANEL E RUE",
+            "Rue_a": "LOUVAIN E RUE DE",
+            "Nom_parc": "",
+            "Sigle": "FRPE",
+            "Injections": 2014,
+            "x": 293251.938,
+            "y": 5045722.5,
+            "longitude": -73.6479018646843,
+            "latitude": 45.5513196564192
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom_arrond": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Invent": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No_Civiq": {
+          "null_count": 1687,
+          "null_pct": 16.5,
+          "populated_pct": 83.5
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue_a": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Sigle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Injections": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 10250,
+        "audited_at": "2026-03-10T00:19:12.364867+00:00",
+        "fields": {
+          "Nom_arrond": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Invent": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "R",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "No_Civiq": {
+            "null_count": 113,
+            "null_pct": 11.3,
+            "min": 30.0,
+            "max": 12648.0,
+            "mean": 9114.6392,
+            "median": 10365.0,
+            "unique_count": 621,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 110,
+            "top_values": [
+              {
+                "value": "Rue Dépatie",
+                "count": 71
+              },
+              {
+                "value": "Avenue De Poutrincourt",
+                "count": 59
+              },
+              {
+                "value": "Boulevard O'Brien",
+                "count": 49
+              },
+              {
+                "value": "Terrasse Fleury",
+                "count": 45
+              },
+              {
+                "value": "Rue Clark",
+                "count": 39
+              },
+              {
+                "value": "Place D'Aiguillon",
+                "count": 27
+              },
+              {
+                "value": "Avenue De Lorimier",
+                "count": 24
+              },
+              {
+                "value": "Place D'Argenteuil",
+                "count": 24
+              },
+              {
+                "value": "Rue Daigle",
+                "count": 24
+              },
+              {
+                "value": "Place Prieur",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_De": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "unique_count": 123,
+            "top_values": [
+              {
+                "value": "SAUVÉ E RUE",
+                "count": 64
+              },
+              {
+                "value": "PRIEUR E RUE",
+                "count": 54
+              },
+              {
+                "value": "LIMITE",
+                "count": 54
+              },
+              {
+                "value": "ROBERT-GIFFARD AVENU",
+                "count": 54
+              },
+              {
+                "value": "FLEURY O RUE",
+                "count": 42
+              },
+              {
+                "value": "PORT-ROYAL E RUE DE",
+                "count": 40
+              },
+              {
+                "value": "FORBES RUE",
+                "count": 35
+              },
+              {
+                "value": "SAURIOL E RUE",
+                "count": 29
+              },
+              {
+                "value": "DE SALABERRY RUE",
+                "count": 28
+              },
+              {
+                "value": "SAUVÉ O RUE",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Rue_a": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "unique_count": 118,
+            "top_values": [
+              {
+                "value": "GOUIN O BOULE",
+                "count": 68
+              },
+              {
+                "value": "SAURIOL E RUE",
+                "count": 66
+              },
+              {
+                "value": "FLEURY PLACE",
+                "count": 66
+              },
+              {
+                "value": "DUDEMAINE RUE",
+                "count": 61
+              },
+              {
+                "value": "HENRI-BOURASSA E BOULE",
+                "count": 52
+              },
+              {
+                "value": "ROBERT-GIFFARD AVENU",
+                "count": 51
+              },
+              {
+                "value": "FORBES RUE",
+                "count": 45
+              },
+              {
+                "value": "SAUVÉ E RUE",
+                "count": 42
+              },
+              {
+                "value": "FLEURY E RUE",
+                "count": 30
+              },
+              {
+                "value": "LOUISBOURG RUE DE",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Nom_parc": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sigle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 836
+              },
+              {
+                "value": "FRAM",
+                "count": 86
+              },
+              {
+                "value": "FRPEMS",
+                "count": 24
+              },
+              {
+                "value": "FRPESU",
+                "count": 17
+              },
+              {
+                "value": "FRPEPA",
+                "count": 12
+              },
+              {
+                "value": "FRAMAP",
+                "count": 11
+              },
+              {
+                "value": "FRAMMA",
+                "count": 7
+              },
+              {
+                "value": "FRAMKL",
+                "count": 5
+              },
+              {
+                "value": "FRNIFG",
+                "count": 1
+              },
+              {
+                "value": "FRAMSK",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Injections": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2014.0,
+            "max": 2014.0,
+            "mean": 2014.0,
+            "median": 2014.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2014",
+                "count": 1000
+              }
+            ]
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 286424.171,
+            "max": 294794.344,
+            "mean": 290975.579672,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5042515.597,
+            "max": 5048960.0,
+            "mean": 5045223.728168,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.735237,
+            "max": -73.628152,
+            "mean": -73.677036,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.522319,
+            "max": 45.580445,
+            "mean": 45.546787,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Agrile",
+    "Arbre",
+    "Foresterie",
+    "Frêne",
+    "Grand parc",
+    "Injection",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Programme de protection des frênes :\n\n\nPour qu'un frêne soit injecté, ce dernier doit présenter les éléments suivants: une structure adéquate, un minimum de défaut mécanique à son pied et au tronc ainsi qu'un niveau de dépérissement de sa cime inférieur à 30%.\n\n\nLes traitements effectués sur les arbres sont généralement valides pour une période de deux ans, il est donc possible de retrouver les mêmes arbres dans les données sur plusieurs années.\n\n### Dictionnaire de données\n\n\n\n- Nom_arrond (Texte variable) : Nom de l’arrondissement\n\n- \n\n\nInvent (Liste de valeur) : Type d’arbre inventorié\n\n\n- H pour Hors rue  \n\n- R pour arbre de Rue\n\n\n\n- \n\n\nNo_Civiq (Texte variable) : Numéro civique de la résidence ou le bâtiment sur lequel ou en face duquel l’arbre est situé, lorsque disponible\n\n\n- Rue (Texte variable) : Nom de la rue sur laquelle l’arbre est positionné, uniquement dans le cas des arbres des rues  \n\n- Rue_De (Texte variable) : Nom de la rue qui délimite le début du tronçon de la rue sur laquelle l’arbre est positionné, uniquement dans le cas des arbres des rues\n\n- Rue_A (Texte variable) : Nom de la rue qui délimite la fin du tronçon de la rue sur laquelle l’arbre est positionné, uniquement dans le cas des arbres des rues\n\n- Nom_parc (Texte variable) : Nom du parc où se trouve l’arbre (s'il y a lieu)\n\n- Sigle (Texte variable) : Acronyme composé des deux premières lettres du genre, de l’espèce et du cultivar, si appliquable du nom Latin. Exemple : Sigle : GYDI -► Nom latin : Gymnocladus dioicus\n\n- Injections (Numérique) :  Année du traitement par injection\n\n- x (Numérique) : Coordonnée x du point central de l’intersection (Projection: Québec Modified Transverse Mercator (NAD83) – Québec MTM Zone 8)\n\n- y (Numérique) : Coordonnée y du point central de l’intersection (Projection: Québec Modified Transverse Mercator (NAD83) – Québec MTM Zone 8)\n\n- latitude (Numérique) : latitude (WGS84)\n\n- longitude (Numérique) : longitude (WGS84)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2014-06-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Agrile",
+      "Arbre",
+      "Foresterie",
+      "Frêne",
+      "Grand parc",
+      "Injection",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/frenes-publics-proteges-injection-agrile-du-frene",
+    "scraped_at": "2026-03-09T19:57:39.477187+00:00"
+  }
+}

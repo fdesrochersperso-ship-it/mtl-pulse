@@ -1,0 +1,603 @@
+{
+  "slug": "vmtl-murales",
+  "title": "Murales subventionnées",
+  "notes": "Depuis plusieurs années, la Ville de Montréal soutient la réalisation de murales extérieures visibles, créatives et liées à leur contexte. Par le biais de divers programmes, unifiés depuis 2016 au sein du Programme d'art mural, la Ville a soutenu la réalisation de centaines de murales. Cet ensemble de données présente les murales financées par la Ville de Montréal depuis 2007.\r\n\r\nPour en savoir plus, visualiser la carte des murales et découvrir les créations, un [site web](https://ville.montreal.qc.ca/murales/) de la Ville de Montréal est aussi disponible.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-06-10T17:22:06.465391",
+  "metadata_modified": "2026-03-08T02:29:22.012740",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "f02401c2-8336-4086-9955-4c5592ace72e",
+      "name": "Murales",
+      "description": "Cet ensemble de données présente les murales financées par la Ville de Montréal depuis 2007. Les murales répertoriées sont celles financées par les programmes suivants: Graffitis et murales (2007-2015), Projet pilote d'art mural (2014-2015) et Programme d'art mural (2016-). \r\n\r\n_Veuillez noter que les photographies des murales liées dans l'ensemble de données ne sont pas soumises à la licence de données ouvertes Creatives Commons 4.0. Les œuvres sont protégées par les droits d'auteur d'usage. Pour toute utilisation, veuillez contacter les ayants droits afin d'obtenir les licences nécessaires._\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/53d2e586-6e7f-4eae-89a1-2cfa7fc29fa0/resource/f02401c2-8336-4086-9955-4c5592ace72e/download/murales.csv",
+      "datastore_active": true,
+      "size": 84372,
+      "last_modified": "2026-03-08T00:01:41.571312",
+      "created": "2016-06-14T14:42:36.130891",
+      "schema": {
+        "resource_id": "f02401c2-8336-4086-9955-4c5592ace72e",
+        "total_records": 340,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "artiste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "organisme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "annee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "programme_entente",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "image",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "1",
+            "artiste": "Yannick Picard",
+            "organisme": "MU",
+            "adresse": "4105, 47e rue (coin Pie IX)",
+            "annee": "2007",
+            "arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "programme_entente": "Programme graffitis et murales",
+            "latitude": "45.58041",
+            "longitude": "-73.622218",
+            "image": "//murales.s3.montreal.ca/s3fs-public/MU-CentreSaintReneGoupil.jpg"
+          },
+          {
+            "_id": 2,
+            "id": "2",
+            "artiste": "Artducommun",
+            "organisme": "Corporation de développement urbain Faubourg Saint-Laurent",
+            "adresse": "coin des rues Saint-Laurent et Viger",
+            "annee": "2007",
+            "arrondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+            "programme_entente": "Programme graffitis et murales",
+            "latitude": "45.506855",
+            "longitude": "-73.558029",
+            "image": "//murales.s3.montreal.ca/s3fs-public/CDU-MissionOldBrewery–40eExpo67.jpg"
+          },
+          {
+            "_id": 3,
+            "id": "3",
+            "artiste": "Carlito Dalceggio",
+            "organisme": "MU",
+            "adresse": "3 601, rue De Bullion (coin Prince-Arthur)",
+            "annee": "2008",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "programme_entente": "Programme graffitis et murales",
+            "latitude": "45.515387",
+            "longitude": "-73.571347",
+            "image": "//murales.s3.montreal.ca/s3fs-public/MU-PrinceArthur-DeBullion.jpg"
+          },
+          {
+            "_id": 4,
+            "id": "4",
+            "artiste": "Dominique Desbiens",
+            "organisme": "MU",
+            "adresse": "7255, Lajeunesse (coin Jean-Talon)",
+            "annee": "2008",
+            "arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "programme_entente": "Programme graffitis et murales",
+            "latitude": "45.539966",
+            "longitude": "-73.614816",
+            "image": "//murales.s3.montreal.ca/s3fs-public/MU-Murale-7255Lajeunesse-Villeray_S.jpg"
+          },
+          {
+            "_id": 5,
+            "id": "5",
+            "artiste": "Yannick Picard",
+            "organisme": "MU",
+            "adresse": "8090, rue des Érables",
+            "annee": "2008",
+            "arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "programme_entente": "Programme graffitis et murales",
+            "latitude": "45.555841",
+            "longitude": "-73.616364",
+            "image": "//murales.s3.montreal.ca/s3fs-public/MU-Bouillonsculture-YannickPicard.jpg"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "artiste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "organisme": {
+          "null_count": 2,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "annee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "programme_entente": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "image": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 340,
+        "total_records": 340,
+        "audited_at": "2026-03-10T00:21:09.247658+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 343.0,
+            "mean": 170.5824,
+            "median": 170.5,
+            "unique_count": 340,
+            "field_type_detected": "numeric"
+          },
+          "artiste": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 204,
+            "top_values": [
+              {
+                "value": "Artducommun",
+                "count": 25
+              },
+              {
+                "value": "A'Shop",
+                "count": 11
+              },
+              {
+                "value": "Mateo (Mathieu Bories)",
+                "count": 10
+              },
+              {
+                "value": "Laurent Gascon",
+                "count": 9
+              },
+              {
+                "value": "Monk.E",
+                "count": 8
+              },
+              {
+                "value": "Zek One",
+                "count": 6
+              },
+              {
+                "value": "Kevin Ledo",
+                "count": 5
+              },
+              {
+                "value": "Fluke",
+                "count": 5
+              },
+              {
+                "value": "Dodo Ose",
+                "count": 5
+              },
+              {
+                "value": "Borrris",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "organisme": {
+            "null_count": 2,
+            "null_pct": 0.6,
+            "unique_count": 60,
+            "top_values": [
+              {
+                "value": "MU",
+                "count": 83
+              },
+              {
+                "value": "SODER",
+                "count": 57
+              },
+              {
+                "value": "AGC Art Public (Artgang)",
+                "count": 30
+              },
+              {
+                "value": "Maison des Jeunes l'Escalier de Lachine",
+                "count": 18
+              },
+              {
+                "value": "Prévention Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 14
+              },
+              {
+                "value": "MURAL",
+                "count": 14
+              },
+              {
+                "value": "KOLAB",
+                "count": 14
+              },
+              {
+                "value": "Y’a QuelQu’un l’aut’bord du mur (YQQ)",
+                "count": 12
+              },
+              {
+                "value": "Prévention du crime Ahuntsic-Cartierville",
+                "count": 10
+              },
+              {
+                "value": "Société pour Promouvoir les Arts Gigantesques (SPAG)",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 330,
+            "top_values": [
+              {
+                "value": "12 631, 6350-6358, 6320-6326, avenue Chartrand",
+                "count": 4
+              },
+              {
+                "value": "357, rue Saint-Jacques",
+                "count": 2
+              },
+              {
+                "value": "métro Jarry",
+                "count": 2
+              },
+              {
+                "value": "735, rue Notre-Dame",
+                "count": 2
+              },
+              {
+                "value": "Parc Nelson Mandela,4920 Rue Vézina",
+                "count": 2
+              },
+              {
+                "value": "6262 avenue Fielding",
+                "count": 2
+              },
+              {
+                "value": "5111, rue Paré",
+                "count": 2
+              },
+              {
+                "value": "1624, rue Nicolet",
+                "count": 2
+              },
+              {
+                "value": "4105, 47e rue (coin Pie IX)",
+                "count": 1
+              },
+              {
+                "value": "coin des rues Saint-Laurent et Viger",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "annee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 74
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 60
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 34
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 28
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 25
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 23
+              },
+              {
+                "value": "Lachine",
+                "count": 22
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 20
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 14
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "programme_entente": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Programme d'art mural (volet 2)",
+                "count": 184
+              },
+              {
+                "value": "Programme graffitis et murales",
+                "count": 101
+              },
+              {
+                "value": "Programme d'art mural (volet 1)\n\nFinancé dans le cadre de l’Entente sur le développement culturel de Montréal conclue entre la Ville de Montréal et le gouvernement du Québec.",
+                "count": 31
+              },
+              {
+                "value": "Projet pilote d'art mural\n\nFinancé dans le cadre de l’Entente sur le développement culturel de Montréal conclue entre la Ville de Montréal et le gouvernement du Québec.",
+                "count": 11
+              },
+              {
+                "value": "Financé par le Service de la culture",
+                "count": 4
+              },
+              {
+                "value": "Programme d'art mural (volet 3)",
+                "count": 2
+              },
+              {
+                "value": "Concours lancé par le Service de la culture",
+                "count": 2
+              },
+              {
+                "value": "Programme d'art mural (volet 1) \n\nFinancé dans le cadre de l’Entente sur le développement culturel de Montréal conclue entre la Ville de Montréal et le gouvernement du Québec.",
+                "count": 2
+              },
+              {
+                "value": "Financé par le gouvernement du Québec dans le cadre du projet Arrue",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.0,
+            "max": 45.637428,
+            "mean": 45.519303,
+            "pct_in_montreal_bbox": 99.4,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.87038,
+            "max": -73.0,
+            "mean": -73.592442,
+            "pct_in_montreal_bbox": 99.4,
+            "field_type_detected": "geo_longitude"
+          },
+          "image": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 340,
+            "top_values": [
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/MU-CentreSaintReneGoupil.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/CDU-MissionOldBrewery–40eExpo67.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/MU-PrinceArthur-DeBullion.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/MU-Murale-7255Lajeunesse-Villeray_S.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/MU-Bouillonsculture-YannickPicard.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/CDU-ClubSoda.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/SDCVillage-HotelBourbon.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/r_MU_HJM_2009_Winter_Haze_Final_03_XS2.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/CHJM_MURAL1.jpg",
+                "count": 1
+              },
+              {
+                "value": "//murales.s3.montreal.ca/s3fs-public/SPAG_Vittorio.jpg",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "d325352b-1c06-4c3a-bf5e-1e4c98e0636b",
+      "name": "Murales",
+      "description": "Cet ensemble de données présente les murales financées par la Ville de Montréal depuis 2007. Les murales répertoriées sont celles financées par les programmes suivants: Graffitis et murales (2007-2015), Projet pilote d'art mural (2014-2015) et Programme d'art mural (2016-). \r\n\r\n_Veuillez noter que les photographies des murales liées dans l'ensemble de données ne sont pas soumises à la licence de données ouvertes Creatives Commons 4.0. Les œuvres sont protégées par les droits d'auteur d'usage. Pour toute utilisation, veuillez contacter les ayants droits afin d'obtenir les licences nécessaires._\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/53d2e586-6e7f-4eae-89a1-2cfa7fc29fa0/resource/d325352b-1c06-4c3a-bf5e-1e4c98e0636b/download/murales.geojson",
+      "datastore_active": false,
+      "size": 169126,
+      "last_modified": "2026-03-08T00:01:42.861873",
+      "created": "2016-06-10T13:24:36.324702",
+      "schema": null
+    },
+    {
+      "id": "d7a37d56-af8e-4105-af8e-4eeae8213b17",
+      "name": "Murales",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/53d2e586-6e7f-4eae-89a1-2cfa7fc29fa0/resource/d7a37d56-af8e-4105-af8e-4eeae8213b17/download/murales.zip",
+      "datastore_active": false,
+      "size": 30206,
+      "last_modified": "2026-03-08T00:01:44.066934",
+      "created": "2024-11-04T18:24:45.341805",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Art mural",
+    "Art urbain",
+    "Culture",
+    "Fresque",
+    "Graffiti",
+    "Murale",
+    "SC",
+    "SCAEC",
+    "Street art"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les murales répertoriées sont celles financées par les programmes suivants: Graffitis et murales (2007-2015), Projet pilote d'art mural (2014-2015) et Programme d'art mural (2016-). Certaines murales financées par les arrondissements pourront être ajoutées ultérieurement. Les murales ont été réalisées sur des murs privés ou publics par des organismes financés en ce sens par la Ville ou par des arrondissements. Les données collectées ont été fournies par les organismes et arrondissements ayant coordonné la réalisation des murales. \n\n### Dictionnaire de données\n\n\n\n- id (numerique) : Numéro séquentiel.\n\n- artiste (texte variable) : Nom de l'artiste.\n\n- organisme (texte variable) : Nom de l'organisme.\n\n- adresse (texte variable) : L'adresse civique de l'emplacement de la murale.\n\n- annee (date) : L'année de réalisation de la murale.\n\n- arrondissement (texte) : L'arrondissement dans lequel se trouve la murale.\n\n- programme_entente (texte variable) : Financement de la murale.\n\n- latitude (coordonnées spatiales) : Latitude en WGS84.\n\n- longitude (coordonnées spatiales) : Longitude en WGS84.\n\n- image (texte) : URL de l'image.\n\n\n\n_Veuillez noter que les photographies des murales liées dans l'ensemble de données ne sont pas soumises à la licence de données ouvertes Creatives Commons 4.0. Les œuvres sont protégées par les droits d'auteur d'usage. Pour toute utilisation, veuillez contacter les ayants droit afin d'obtenir les licences nécessaires._\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne / Service de la culture",
+      "Couverture temporelle": "2007-01-01 / à ce jour",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Art mural",
+      "Art urbain",
+      "Culture",
+      "Fresque",
+      "Graffiti",
+      "Murale",
+      "SC",
+      "SCAEC",
+      "Street art"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/murales",
+    "scraped_at": "2026-03-09T20:13:54.753096+00:00"
+  }
+}

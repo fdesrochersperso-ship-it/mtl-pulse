@@ -1,0 +1,3135 @@
+{
+  "slug": "vmtl-condition-chaussees-reseau-routier",
+  "title": "Indicateurs de condition des chaussées du réseau routier",
+  "notes": "La Ville de Montréal est responsable du développement, du maintien et de la gestion du réseau routier situé sur son territoire. La connaissance de la condition des chaussées est un élément important du processus de gestion et de détermination des besoins.  Pour obtenir ces informations relatives à la condition des chaussées, des campagnes d'auscultation utilisant des véhicules multifonctions équipés de différentes technologies sont réalisées ponctuellement.  \r\n\r\nDans les dernières années, les campagnes d'auscultation du réseau des rues locales et du réseau artériel administratif de la Ville (RAAV) suivantes ont été réalisées :\r\n\r\n- 2024 - Réseau artériel (RAAV);\r\n- 2022 - Réseau local;\r\n- 2020 - Réseau artériel (RAAV);\r\n- 2018 - Réseau artériel (RAAV);\r\n- 2015 - Réseau routier complet (local et RAAV);\r\n- 2010 - Réseau routier complet (local et RAAV).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-05-02T14:29:15.360863",
+  "metadata_modified": "2025-10-09T16:20:46.900975",
+  "num_resources": 16,
+  "resources": [
+    {
+      "id": "c1a587c1-b1bf-4f5e-abf2-907ddc506d47",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNzVmZjRiZWQtZjdjNS00MTE5LTg2YWItNmM0NDFmYzQxYzM3IiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-21T18:12:32.814763",
+      "schema": null
+    },
+    {
+      "id": "2aae14e0-62c0-40b3-89f6-d865cda158e2",
+      "name": "Auscultation chaussée 2024",
+      "description": "Réseau artériel (RAAV) en CSV",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/2aae14e0-62c0-40b3-89f6-d865cda158e2/download/auscultation-chaussee-2024.csv",
+      "datastore_active": true,
+      "size": 2261095,
+      "last_modified": "2025-09-23T19:33:29.499427",
+      "created": "2025-09-23T19:17:05.262762",
+      "schema": {
+        "resource_id": "2aae14e0-62c0-40b3-89f6-d865cda158e2",
+        "total_records": 17176,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice_PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Etat_PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice_IRI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Etat_IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": "1160132",
+            "Rue": "Chabot, rue",
+            "De": "Carrières des, rue",
+            "A": "Rosemont, boulevard",
+            "Longueur": "236",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "DateReleve": "2024-09-09",
+            "Indice_PCI": "99.0",
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": "4.53",
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": "1160133",
+            "Rue": "Chabot, rue",
+            "De": "Rosemont, boulevard",
+            "A": "Bellechasse de, rue",
+            "Longueur": "182",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "DateReleve": "2024-09-09",
+            "Indice_PCI": "93.0",
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": "4.66",
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": "1160380",
+            "Rue": "Rosemont, boulevard",
+            "De": "Cartier, rue",
+            "A": "Chabot, rue",
+            "Longueur": "87",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "DateReleve": "2024-09-04",
+            "Indice_PCI": "52.0",
+            "Etat_PCI": "Mauvais",
+            "Indice_IRI": "2.95",
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": "1160381",
+            "Rue": "Rosemont, boulevard",
+            "De": "Chabot, rue",
+            "A": "Bordeaux de, rue",
+            "Longueur": "82",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "DateReleve": "2024-09-04",
+            "Indice_PCI": "55.0",
+            "Etat_PCI": "Mauvais",
+            "Indice_IRI": "2.83",
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": "1160382",
+            "Rue": "Rosemont, boulevard",
+            "De": "Bordeaux de, rue",
+            "A": "De Lorimier, avenue",
+            "Longueur": "80",
+            "Arrondissement": "Rosemont-La Petite-Patrie",
+            "DateReleve": "2024-09-04",
+            "Indice_PCI": "46.0",
+            "Etat_PCI": "Mauvais",
+            "Indice_IRI": "4.12",
+            "Etat_IRI": "Moyen"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 33,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_IRI": {
+          "null_count": 788,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "Etat_IRI": {
+          "null_count": 788,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 17176,
+        "audited_at": "2026-03-10T00:15:03.472224+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010270.0,
+            "max": 4015719.0,
+            "mean": 1525705.78,
+            "median": 1601971.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 288,
+            "top_values": [
+              {
+                "value": "Champlain, boulevard",
+                "count": 33
+              },
+              {
+                "value": "Victoria, rue",
+                "count": 24
+              },
+              {
+                "value": "Bannantyne, rue",
+                "count": 22
+              },
+              {
+                "value": "Jarry, rue [Est]",
+                "count": 21
+              },
+              {
+                "value": "Église de l', rue",
+                "count": 20
+              },
+              {
+                "value": "LaSalle, boulevard",
+                "count": 19
+              },
+              {
+                "value": "Saint-Joseph, boulevard",
+                "count": 18
+              },
+              {
+                "value": "Gouin, boulevard [Est]",
+                "count": 17
+              },
+              {
+                "value": "Verdun de, rue",
+                "count": 17
+              },
+              {
+                "value": "Muir, rue",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 544,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 10
+              },
+              {
+                "value": "Industriel, boulevard",
+                "count": 9
+              },
+              {
+                "value": "Van Horne, avenue",
+                "count": 8
+              },
+              {
+                "value": "2e, avenue",
+                "count": 8
+              },
+              {
+                "value": "1re, avenue",
+                "count": 8
+              },
+              {
+                "value": "24e, avenue",
+                "count": 7
+              },
+              {
+                "value": "Muir, rue",
+                "count": 7
+              },
+              {
+                "value": "Cartier, rue",
+                "count": 6
+              },
+              {
+                "value": "Parc du, avenue",
+                "count": 6
+              },
+              {
+                "value": "8e, avenue",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 531,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 17
+              },
+              {
+                "value": "2e, avenue",
+                "count": 8
+              },
+              {
+                "value": "1re, avenue",
+                "count": 8
+              },
+              {
+                "value": "Champlain, boulevard",
+                "count": 7
+              },
+              {
+                "value": "6e, avenue",
+                "count": 7
+              },
+              {
+                "value": "25e, avenue",
+                "count": 7
+              },
+              {
+                "value": "Amiens d', rue",
+                "count": 7
+              },
+              {
+                "value": "Bordeaux de, rue",
+                "count": 6
+              },
+              {
+                "value": "Parc du, avenue",
+                "count": 6
+              },
+              {
+                "value": "Saint-Hubert, rue",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 20.0,
+            "max": 866.0,
+            "mean": 117.126,
+            "median": 85.5,
+            "unique_count": 263,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Verdun",
+                "count": 156
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 147
+              },
+              {
+                "value": "LaSalle",
+                "count": 112
+              },
+              {
+                "value": "Lachine",
+                "count": 107
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 74
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 64
+              },
+              {
+                "value": "Outremont",
+                "count": 62
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 60
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 43
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 42
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-06-04",
+            "max_date": "2024-10-23",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Indice_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 100.0,
+            "mean": 65.621,
+            "median": 69.0,
+            "unique_count": 92,
+            "field_type_detected": "numeric"
+          },
+          "Etat_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 257
+              },
+              {
+                "value": "Bon",
+                "count": 249
+              },
+              {
+                "value": "Excellent",
+                "count": 219
+              },
+              {
+                "value": "Mauvais",
+                "count": 172
+              },
+              {
+                "value": "Très mauvais",
+                "count": 103
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice_IRI": {
+            "null_count": 19,
+            "null_pct": 1.9,
+            "min": 1.63,
+            "max": 12.44,
+            "mean": 4.3605,
+            "median": 4.05,
+            "unique_count": 453,
+            "field_type_detected": "numeric"
+          },
+          "Etat_IRI": {
+            "null_count": 19,
+            "null_pct": 1.9,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 457
+              },
+              {
+                "value": "Bon",
+                "count": 288
+              },
+              {
+                "value": "Mauvais",
+                "count": 143
+              },
+              {
+                "value": "Très mauvais",
+                "count": 81
+              },
+              {
+                "value": "Excellent",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "97489483-85f9-49cc-be33-829559439ab2",
+      "name": "Auscultation chaussée 2024",
+      "description": "Réseau artériel (RAAV) en GeoPackage.",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/97489483-85f9-49cc-be33-829559439ab2/download/auscultation-chaussee-2024.gpkg",
+      "datastore_active": false,
+      "size": 5611520,
+      "last_modified": "2025-09-23T19:33:11.228177",
+      "created": "2025-09-23T19:14:31.926230",
+      "schema": null
+    },
+    {
+      "id": "832ffd3b-edc9-4354-a43e-4d696de9d3c5",
+      "name": "Auscultation chaussée 2022",
+      "description": "Réseau local en csv.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/832ffd3b-edc9-4354-a43e-4d696de9d3c5/download/auscultation-chaussees-2022-local.csv",
+      "datastore_active": true,
+      "size": 2015864,
+      "last_modified": "2023-06-18T17:02:04.347655",
+      "created": "2023-06-18T00:01:28.479095",
+      "schema": {
+        "resource_id": "832ffd3b-edc9-4354-a43e-4d696de9d3c5",
+        "total_records": 15821,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice_PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Etat_PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice_IRI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Etat_IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": "1220016",
+            "Rue": "Berri, rue",
+            "De": "Rachel Est, rue",
+            "A": "Marie-Anne Est, rue",
+            "Longueur": "224.17",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "DateReleve": "2022-07-27",
+            "Indice_PCI": "80",
+            "Etat_PCI": "Bon",
+            "Indice_IRI": "1.32",
+            "Etat_IRI": "Excellent"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": "1220015",
+            "Rue": "Berri, rue",
+            "De": "Duluth Est, avenue",
+            "A": "Rachel Est, rue",
+            "Longueur": "212.89",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "DateReleve": "2022-07-27",
+            "Indice_PCI": "85",
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": "3.31",
+            "Etat_IRI": "Bon"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": "1220013",
+            "Rue": "Berri, rue",
+            "De": "Roy Est, rue",
+            "A": "Duluth Est, avenue",
+            "Longueur": "306.92",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "DateReleve": "2022-07-27",
+            "Indice_PCI": "92",
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": "2.62",
+            "Etat_IRI": "Bon"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": "1230404",
+            "Rue": "Rivard, rue",
+            "De": "Saint-Joseph Est, boulevard",
+            "A": "Laurier Est, avenue",
+            "Longueur": "142.94",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "DateReleve": "2022-07-27",
+            "Indice_PCI": "12",
+            "Etat_PCI": "Très mauvais",
+            "Indice_IRI": "2.78",
+            "Etat_IRI": "Bon"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": "1230405",
+            "Rue": "Rivard, rue",
+            "De": "Laurier Est, avenue",
+            "A": "Bibaud, rue",
+            "Longueur": "63.24",
+            "Arrondissement": "Le Plateau-Mont-Royal",
+            "DateReleve": "2022-07-27",
+            "Indice_PCI": "49",
+            "Etat_PCI": "Moyen",
+            "Indice_IRI": "4.24",
+            "Etat_IRI": "Moyen"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 259,
+          "null_pct": 1.6,
+          "populated_pct": 98.4
+        },
+        "A": {
+          "null_count": 404,
+          "null_pct": 2.6,
+          "populated_pct": 97.4
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_IRI": {
+          "null_count": 1462,
+          "null_pct": 9.2,
+          "populated_pct": 90.8
+        },
+        "Etat_IRI": {
+          "null_count": 1462,
+          "null_pct": 9.2,
+          "populated_pct": 90.8
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 15821,
+        "audited_at": "2026-03-10T00:15:04.421966+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1040026.0,
+            "max": 4016712.0,
+            "mean": 1677383.422,
+            "median": 1380172.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 241,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 30
+              },
+              {
+                "value": "Saint-André, rue",
+                "count": 22
+              },
+              {
+                "value": "Saint-Dominique, rue",
+                "count": 22
+              },
+              {
+                "value": "Linton, avenue",
+                "count": 22
+              },
+              {
+                "value": "De Bullion, rue",
+                "count": 21
+              },
+              {
+                "value": "de l'Hôtel-de-Ville, avenue",
+                "count": 19
+              },
+              {
+                "value": "Foucher, rue",
+                "count": 16
+              },
+              {
+                "value": "Légaré, rue",
+                "count": 16
+              },
+              {
+                "value": "De Chateaubriand, avenue",
+                "count": 14
+              },
+              {
+                "value": "du Tour-de-l'Isle, chemin",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 15,
+            "null_pct": 1.5,
+            "unique_count": 322,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 49
+              },
+              {
+                "value": "René-Lévesque Est, boulevard",
+                "count": 14
+              },
+              {
+                "value": "de la Côte-Sainte-Catherine, chemin",
+                "count": 14
+              },
+              {
+                "value": "Saint-André, rue",
+                "count": 12
+              },
+              {
+                "value": "Van Horne, avenue",
+                "count": 12
+              },
+              {
+                "value": "Utilités publiques, rue",
+                "count": 12
+              },
+              {
+                "value": "Ontario Est, rue",
+                "count": 11
+              },
+              {
+                "value": "Macdonald, chemin",
+                "count": 11
+              },
+              {
+                "value": "Saint-Hubert, rue",
+                "count": 10
+              },
+              {
+                "value": "De La Gauchetière Est, rue",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 22,
+            "null_pct": 2.2,
+            "unique_count": 318,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 49
+              },
+              {
+                "value": "Van Horne, avenue",
+                "count": 14
+              },
+              {
+                "value": "Sainte-Catherine Est, rue",
+                "count": 13
+              },
+              {
+                "value": "René-Lévesque Est, boulevard",
+                "count": 12
+              },
+              {
+                "value": "Ontario Est, rue",
+                "count": 12
+              },
+              {
+                "value": "Saint-André, rue",
+                "count": 11
+              },
+              {
+                "value": "Macdonald, chemin",
+                "count": 11
+              },
+              {
+                "value": "de Liège Est, rue",
+                "count": 10
+              },
+              {
+                "value": "du Tour-de-l'Isle, chemin",
+                "count": 10
+              },
+              {
+                "value": "Utilités publiques, rue",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.65,
+            "max": 1137.43,
+            "mean": 137.8438,
+            "median": 100.935,
+            "unique_count": 973,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 342
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 171
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 166
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 142
+              },
+              {
+                "value": "Outremont",
+                "count": 116
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 32
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 27
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-07-27",
+            "max_date": "2022-07-31",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "Indice_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 100.0,
+            "mean": 48.262,
+            "median": 47.0,
+            "unique_count": 99,
+            "field_type_detected": "numeric"
+          },
+          "Etat_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Très mauvais",
+                "count": 242
+              },
+              {
+                "value": "Mauvais",
+                "count": 213
+              },
+              {
+                "value": "Bon",
+                "count": 207
+              },
+              {
+                "value": "Excellent",
+                "count": 169
+              },
+              {
+                "value": "Moyen",
+                "count": 169
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice_IRI": {
+            "null_count": 261,
+            "null_pct": 26.1,
+            "min": 0.82,
+            "max": 13.44,
+            "mean": 3.7615,
+            "median": 3.38,
+            "unique_count": 393,
+            "field_type_detected": "numeric"
+          },
+          "Etat_IRI": {
+            "null_count": 261,
+            "null_pct": 26.1,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Bon",
+                "count": 327
+              },
+              {
+                "value": "Moyen",
+                "count": 185
+              },
+              {
+                "value": "Excellent",
+                "count": 151
+              },
+              {
+                "value": "Mauvais",
+                "count": 55
+              },
+              {
+                "value": "Très mauvais",
+                "count": 21
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "a4ac1425-0f4e-4dca-91da-c8666509a395",
+      "name": "Auscultation chaussée 2022",
+      "description": "Réseau local en GeoPackage.",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/a4ac1425-0f4e-4dca-91da-c8666509a395/download/auscultation-chaussees-2022-local.gpkg",
+      "datastore_active": false,
+      "size": 5562368,
+      "last_modified": "2023-06-18T17:02:46.049513",
+      "created": "2023-06-18T00:03:11.451525",
+      "schema": null
+    },
+    {
+      "id": "b9061b12-af1f-487c-9df8-11f3fb4e93a7",
+      "name": "Auscultation chaussée 2020",
+      "description": "Réseau artériel (RAAV) en csv",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/b9061b12-af1f-487c-9df8-11f3fb4e93a7/download/auscultation-chaussees-2020-arteriel.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-07-20T14:19:08.844004",
+      "created": "2022-07-20T14:18:00.397599",
+      "schema": {
+        "resource_id": "b9061b12-af1f-487c-9df8-11f3fb4e93a7",
+        "total_records": 13876,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Indice_PCI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat_PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice_IRI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat_IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": 1500740,
+            "Rue": "100e, avenue",
+            "De": "Marion, rue",
+            "A": "Sainte-Maria-Goretti, terrasse",
+            "Longueur": 100.4893354,
+            "Arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "DateReleve": "2020-09-16T00:00:00",
+            "Indice_PCI": 68,
+            "Etat_PCI": "Bon",
+            "Indice_IRI": 5.44000006,
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": 1624431,
+            "Rue": "100e, avenue",
+            "De": "Utilités publiques, rue",
+            "A": "Marion, rue",
+            "Longueur": 68.72415041,
+            "Arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "DateReleve": "2020-09-16T00:00:00",
+            "Indice_PCI": 75,
+            "Etat_PCI": "Bon",
+            "Indice_IRI": 4.55999994,
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": 1500739,
+            "Rue": "100e, avenue",
+            "De": "Bureau, rue",
+            "A": "Utilités publiques, rue",
+            "Longueur": 64.69502458,
+            "Arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "DateReleve": "2020-09-16T00:00:00",
+            "Indice_PCI": 66,
+            "Etat_PCI": "Bon",
+            "Indice_IRI": 5.30000019,
+            "Etat_IRI": "Moyen"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": 1605185,
+            "Rue": "10e, avenue",
+            "De": "Saint-Joseph, boulevard",
+            "A": "Saint-Louis, rue",
+            "Longueur": 204.2517852,
+            "Arrondissement": "Lachine",
+            "DateReleve": "2020-09-23T00:00:00",
+            "Indice_PCI": 94,
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": 3.46000004,
+            "Etat_IRI": "Bon"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": 1605199,
+            "Rue": "10e, avenue",
+            "De": "Saint-Louis, rue",
+            "A": "Notre-Dame, rue",
+            "Longueur": 148.6345254,
+            "Arrondissement": "Lachine",
+            "DateReleve": "2020-09-23T00:00:00",
+            "Indice_PCI": 89,
+            "Etat_PCI": "Excellent",
+            "Indice_IRI": 4.36000013,
+            "Etat_IRI": "Moyen"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat_PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice_IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat_IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 13876,
+        "audited_at": "2026-03-10T00:15:05.600774+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1020069.0,
+            "max": 4016766.0,
+            "mean": 1960384.419,
+            "median": 1603978.0,
+            "unique_count": 991,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 138,
+            "top_values": [
+              {
+                "value": "Beaubien Est, rue",
+                "count": 95
+              },
+              {
+                "value": "Alexis-Nihon, boulevard",
+                "count": 63
+              },
+              {
+                "value": "Atwater, avenue",
+                "count": 53
+              },
+              {
+                "value": "Berri, rue",
+                "count": 51
+              },
+              {
+                "value": "32e, avenue",
+                "count": 49
+              },
+              {
+                "value": "Bannantyne, rue",
+                "count": 32
+              },
+              {
+                "value": "Armand-Bombardier, boulevard",
+                "count": 27
+              },
+              {
+                "value": "Adam, rue",
+                "count": 25
+              },
+              {
+                "value": "Airlie, rue",
+                "count": 20
+              },
+              {
+                "value": "Allard, rue",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 533,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 48
+              },
+              {
+                "value": "Berri, rue",
+                "count": 21
+              },
+              {
+                "value": "Atwater, avenue",
+                "count": 20
+              },
+              {
+                "value": "Henri-Bourassa Est, boulevard",
+                "count": 17
+              },
+              {
+                "value": "Victoria, rue",
+                "count": 15
+              },
+              {
+                "value": "Crémazie Est, boulevard",
+                "count": 12
+              },
+              {
+                "value": "Saint-Joseph, boulevard",
+                "count": 11
+              },
+              {
+                "value": "Armand-Bombardier, boulevard",
+                "count": 9
+              },
+              {
+                "value": "Provost, rue",
+                "count": 8
+              },
+              {
+                "value": "Saint-Louis, rue",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 537,
+            "top_values": [
+              {
+                "value": "Non-nommée, voie",
+                "count": 51
+              },
+              {
+                "value": "Berri, rue",
+                "count": 17
+              },
+              {
+                "value": "Atwater, avenue",
+                "count": 16
+              },
+              {
+                "value": "Victoria, rue",
+                "count": 10
+              },
+              {
+                "value": "Sherbrooke, rue",
+                "count": 9
+              },
+              {
+                "value": "Crémazie Est, boulevard",
+                "count": 9
+              },
+              {
+                "value": "de la Côte-de-Liesse, chemin",
+                "count": 9
+              },
+              {
+                "value": "Armand-Bombardier, boulevard",
+                "count": 9
+              },
+              {
+                "value": "Notre-Dame, rue",
+                "count": 8
+              },
+              {
+                "value": "Gouin Est, boulevard",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 7.5513,
+            "max": 923.404,
+            "mean": 140.4911,
+            "median": 94.0623,
+            "unique_count": 991,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 193
+              },
+              {
+                "value": "Lachine",
+                "count": 123
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 101
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 96
+              },
+              {
+                "value": "LaSalle",
+                "count": 78
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 64
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 63
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 53
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 43
+              },
+              {
+                "value": "Verdun",
+                "count": 41
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-09-16T00:00:00",
+            "max_date": "2020-12-01T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Indice_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6.0,
+            "max": 100.0,
+            "mean": 71.123,
+            "median": 76.0,
+            "unique_count": 91,
+            "field_type_detected": "numeric"
+          },
+          "Etat_PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Excellent",
+                "count": 376
+              },
+              {
+                "value": "Bon",
+                "count": 229
+              },
+              {
+                "value": "Moyen",
+                "count": 216
+              },
+              {
+                "value": "Mauvais",
+                "count": 123
+              },
+              {
+                "value": "Très mauvais",
+                "count": 56
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice_IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 17.71,
+            "mean": 4.0131,
+            "median": 3.81,
+            "unique_count": 459,
+            "field_type_detected": "numeric"
+          },
+          "Etat_IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 367
+              },
+              {
+                "value": "Bon",
+                "count": 312
+              },
+              {
+                "value": "Mauvais",
+                "count": 133
+              },
+              {
+                "value": "-",
+                "count": 78
+              },
+              {
+                "value": "Très mauvais",
+                "count": 71
+              },
+              {
+                "value": "Excellent",
+                "count": 39
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "adb29504-2358-4123-b046-0942194fdc10",
+      "name": "Parcours auscultation chaussée 2020",
+      "description": "Les tronçons de rues parcourus lors de la compagne d'auscultation du réseau artériel en 2020",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/adb29504-2358-4123-b046-0942194fdc10/download/parcours-auscultation-chaussee-2020.gpkg",
+      "datastore_active": false,
+      "size": 2912256,
+      "last_modified": "2025-09-29T18:04:48.491851",
+      "created": "2025-09-29T18:04:48.720273",
+      "schema": null
+    },
+    {
+      "id": "aaa1b91b-20f9-4703-8fd8-a11769d3518e",
+      "name": "Parcours auscultation chaussée 2022 Local",
+      "description": "Les tronçons de rues parcourus lors de la compagne d'auscultation du réseau local en 2022",
+      "format": "GPKG",
+      "url": "",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2025-09-29T18:09:18.262072",
+      "schema": null
+    },
+    {
+      "id": "ab4b1114-4caa-47f0-9314-6e19de9df527",
+      "name": "Auscultation chaussée 2020",
+      "description": "Réseau artériel (RAAV)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/ab4b1114-4caa-47f0-9314-6e19de9df527/download/auscultation-chaussees-2020-arteriel.json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-07-20T14:23:53.875979",
+      "created": "2022-07-20T14:23:53.963961",
+      "schema": null
+    },
+    {
+      "id": "85085655-4ac0-4114-9793-715c0b63e2a0",
+      "name": "Auscultation chaussée 2018",
+      "description": "Réseau artériel en CSV",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/85085655-4ac0-4114-9793-715c0b63e2a0/download/auscultation-chaussees-2018-arteriel.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-05-10T14:32:58.162005",
+      "created": "2019-05-10T14:32:58.263949",
+      "schema": {
+        "resource_id": "85085655-4ac0-4114-9793-715c0b63e2a0",
+        "total_records": 14114,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Indice PCI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice IRI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": 1020069,
+            "Rue": "Antonio-Barbeau  rue",
+            "De": "de l'Acadie  boulevard",
+            "A": "Charles-De La Tour  rue",
+            "Longueur": 295,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2018-07-30T00:00:00",
+            "Indice PCI": 100,
+            "Etat PCI": "Excellent",
+            "Indice IRI": 2.8,
+            "Etat IRI": "Bon"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": 4009708,
+            "Rue": "Berri  rue",
+            "De": "Berri  rue",
+            "A": "Crémazie Est  boulevard",
+            "Longueur": 22,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2018-07-20T00:00:00",
+            "Indice PCI": 76,
+            "Etat PCI": "Bon",
+            "Indice IRI": 3.73,
+            "Etat IRI": "Bon"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": 1050020,
+            "Rue": "Berri  rue",
+            "De": "Prieur Est  rue",
+            "A": "Henri-Bourassa Est  boulevard",
+            "Longueur": 263,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2018-07-20T00:00:00",
+            "Indice PCI": 99,
+            "Etat PCI": "Excellent",
+            "Indice IRI": 3.26,
+            "Etat IRI": "Moyen"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": 4002495,
+            "Rue": "Berri  rue",
+            "De": "Henri-Bourassa Est  boulevard",
+            "A": "Henri-Bourassa Est  boulevard",
+            "Longueur": 17,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2018-07-20T00:00:00",
+            "Indice PCI": 96,
+            "Etat PCI": "Excellent",
+            "Indice IRI": 8.2,
+            "Etat IRI": "Très mauvais"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": 1050021,
+            "Rue": "Berri  rue",
+            "De": "Henri-Bourassa Est  boulevard",
+            "A": "Gouin Est  boulevard",
+            "Longueur": 242,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2018-07-20T00:00:00",
+            "Indice PCI": 96,
+            "Etat PCI": "Excellent",
+            "Indice IRI": 4.92,
+            "Etat IRI": "Mauvais"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice IRI": {
+          "null_count": 15,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Etat IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 14114,
+        "audited_at": "2026-03-10T00:15:06.581426+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010059.0,
+            "max": 4012303.0,
+            "mean": 1586279.375,
+            "median": 1040358.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 83,
+            "top_values": [
+              {
+                "value": "Henri-Bourassa Est  boulevard",
+                "count": 93
+              },
+              {
+                "value": "Gouin Ouest  boulevard",
+                "count": 90
+              },
+              {
+                "value": "de l'Acadie  boulevard",
+                "count": 70
+              },
+              {
+                "value": "Henri-Bourassa Ouest  boulevard",
+                "count": 50
+              },
+              {
+                "value": "Fleury Est  rue",
+                "count": 49
+              },
+              {
+                "value": "De Salaberry  rue",
+                "count": 44
+              },
+              {
+                "value": "Gouin Est  boulevard",
+                "count": 40
+              },
+              {
+                "value": "Christophe-Colomb  avenue",
+                "count": 37
+              },
+              {
+                "value": "Prieur Est  rue",
+                "count": 33
+              },
+              {
+                "value": "Chabanel Ouest  rue",
+                "count": 29
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 252,
+            "top_values": [
+              {
+                "value": "Non-nommée  voie",
+                "count": 63
+              },
+              {
+                "value": "Christophe-Colomb  avenue",
+                "count": 24
+              },
+              {
+                "value": "de l'Acadie  boulevard",
+                "count": 23
+              },
+              {
+                "value": "Henri-Bourassa Est  boulevard",
+                "count": 23
+              },
+              {
+                "value": "De Salaberry  rue",
+                "count": 20
+              },
+              {
+                "value": "Gouin Ouest  boulevard",
+                "count": 19
+              },
+              {
+                "value": "Papineau  avenue",
+                "count": 17
+              },
+              {
+                "value": "Henri-Bourassa Ouest  boulevard",
+                "count": 16
+              },
+              {
+                "value": "Prieur Est  rue",
+                "count": 12
+              },
+              {
+                "value": "de Louvain Est  rue",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 251,
+            "top_values": [
+              {
+                "value": "Non-nommée  voie",
+                "count": 68
+              },
+              {
+                "value": "Gouin Ouest  boulevard",
+                "count": 23
+              },
+              {
+                "value": "Henri-Bourassa Est  boulevard",
+                "count": 22
+              },
+              {
+                "value": "Christophe-Colomb  avenue",
+                "count": 22
+              },
+              {
+                "value": "De Salaberry  rue",
+                "count": 20
+              },
+              {
+                "value": "de l'Acadie  boulevard",
+                "count": 18
+              },
+              {
+                "value": "Gouin Est  boulevard",
+                "count": 16
+              },
+              {
+                "value": "Papineau  avenue",
+                "count": 15
+              },
+              {
+                "value": "Henri-Bourassa Ouest  boulevard",
+                "count": 14
+              },
+              {
+                "value": "de Louvain Est  rue",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6.0,
+            "max": 599.0,
+            "mean": 112.893,
+            "median": 84.0,
+            "unique_count": 266,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-07-04T00:00:00",
+            "max_date": "2018-08-13T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Indice PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 100.0,
+            "mean": 58.562,
+            "median": 61.0,
+            "unique_count": 96,
+            "field_type_detected": "numeric"
+          },
+          "Etat PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Très mauvais",
+                "count": 247
+              },
+              {
+                "value": "Excellent",
+                "count": 227
+              },
+              {
+                "value": "Moyen",
+                "count": 224
+              },
+              {
+                "value": "Mauvais",
+                "count": 200
+              },
+              {
+                "value": "Bon",
+                "count": 102
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.06,
+            "max": 24.61,
+            "mean": 5.3471,
+            "median": 4.565,
+            "unique_count": 594,
+            "field_type_detected": "numeric"
+          },
+          "Etat IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 414
+              },
+              {
+                "value": "Très mauvais",
+                "count": 242
+              },
+              {
+                "value": "Mauvais",
+                "count": 174
+              },
+              {
+                "value": "Bon",
+                "count": 156
+              },
+              {
+                "value": "Excellent",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "4993bfd8-0460-401c-991e-994ed21172ab",
+      "name": "Parcours auscultation chaussée 2018",
+      "description": "Les tronçons de rues parcourus lors de la compagne d'auscultation du réseau artériel en 2018",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/4993bfd8-0460-401c-991e-994ed21172ab/download/parcours-auscultation-chaussee-2018.gpkg",
+      "datastore_active": false,
+      "size": 3055616,
+      "last_modified": "2025-09-29T18:03:21.531330",
+      "created": "2025-09-29T18:03:21.752597",
+      "schema": null
+    },
+    {
+      "id": "c5c3b97e-83ec-468b-a62f-992a2d29e75b",
+      "name": "Auscultation chaussée 2015",
+      "description": "Réseau routier complet (local et RAAV) en CSV",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/c5c3b97e-83ec-468b-a62f-992a2d29e75b/download/auscultation-chaussees-2015.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-05-02T14:54:06.600291",
+      "created": "2017-05-02T10:30:38.091022",
+      "schema": {
+        "resource_id": "c5c3b97e-83ec-468b-a62f-992a2d29e75b",
+        "total_records": 30905,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Indice PCI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice IRI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": 1010001,
+            "Rue": "Adhémar-Mailhiot avenue",
+            "De": "rue Paul-Morand ",
+            "A": "boulevard Gouin Ouest ",
+            "Longueur": 120,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2015-07-27T00:00:00",
+            "Indice PCI": 76,
+            "Etat PCI": "Bon",
+            "Indice IRI": 4.25,
+            "Etat IRI": "Moyen"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": 1010004,
+            "Rue": "D'Aiguillon place",
+            "De": "avenue Robert-Giffard ",
+            "A": "avenue Robert-Giffard ",
+            "Longueur": 236,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2015-07-24T00:00:00",
+            "Indice PCI": 65,
+            "Etat PCI": "Bon",
+            "Indice IRI": 5.4,
+            "Etat IRI": "Moyen"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": 1010005,
+            "Rue": "Albert-LeSage avenue",
+            "De": "boulevard Toupin ",
+            "A": "avenue Albert-Prévost ",
+            "Longueur": 202,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2015-07-27T00:00:00",
+            "Indice PCI": 67,
+            "Etat PCI": "Bon",
+            "Indice IRI": 7.02,
+            "Etat IRI": "Mauvais"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": 1010006,
+            "Rue": "Albert-Prévost avenue",
+            "De": "avenue Jean-Bourdon ",
+            "A": "rue De Bécancour ",
+            "Longueur": 76,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2015-07-27T00:00:00",
+            "Indice PCI": 32,
+            "Etat PCI": "Mauvais",
+            "Indice IRI": 6.72,
+            "Etat IRI": "Mauvais"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": 1010007,
+            "Rue": "Albert-Prévost avenue",
+            "De": "rue De Bécancour ",
+            "A": "rue De Villebon ",
+            "Longueur": 75,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2015-07-27T00:00:00",
+            "Indice PCI": 51,
+            "Etat PCI": "Moyen",
+            "Indice IRI": 6.96,
+            "Etat IRI": "Mauvais"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 30905,
+        "audited_at": "2026-03-10T00:15:07.578440+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010001.0,
+            "max": 1030348.0,
+            "mean": 1018200.266,
+            "median": 1020281.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 229,
+            "top_values": [
+              {
+                "value": "Gouin Ouest boulevard",
+                "count": 68
+              },
+              {
+                "value": "de l'Acadie boulevard",
+                "count": 42
+              },
+              {
+                "value": "De Salaberry rue",
+                "count": 30
+              },
+              {
+                "value": "Henri-Bourassa Ouest boulevard",
+                "count": 28
+              },
+              {
+                "value": "de Louisbourg rue",
+                "count": 26
+              },
+              {
+                "value": "Dudemaine rue",
+                "count": 21
+              },
+              {
+                "value": "Charles-Gill rue",
+                "count": 20
+              },
+              {
+                "value": "Jean-Bourdon avenue",
+                "count": 19
+              },
+              {
+                "value": "Fleury Ouest rue",
+                "count": 18
+              },
+              {
+                "value": "Taylor boulevard",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 247,
+            "top_values": [
+              {
+                "value": "boulevard Gouin Ouest",
+                "count": 30
+              },
+              {
+                "value": "boulevard de l'Acadie",
+                "count": 30
+              },
+              {
+                "value": "rue De Salaberry",
+                "count": 29
+              },
+              {
+                "value": "rue de Louisbourg",
+                "count": 25
+              },
+              {
+                "value": "rue Dudemaine",
+                "count": 21
+              },
+              {
+                "value": "rue Pasteur",
+                "count": 19
+              },
+              {
+                "value": "rue Viel",
+                "count": 16
+              },
+              {
+                "value": "avenue Jean-Bourdon",
+                "count": 15
+              },
+              {
+                "value": "boulevard Henri-Bourassa Ouest",
+                "count": 14
+              },
+              {
+                "value": "avenue du Bois-de-Boulogne",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 248,
+            "top_values": [
+              {
+                "value": "boulevard Gouin Ouest",
+                "count": 46
+              },
+              {
+                "value": "rue de Louisbourg",
+                "count": 31
+              },
+              {
+                "value": "rue De Salaberry",
+                "count": 28
+              },
+              {
+                "value": "boulevard de l'Acadie",
+                "count": 20
+              },
+              {
+                "value": "rue Dudemaine",
+                "count": 19
+              },
+              {
+                "value": "rue James-Morrice",
+                "count": 16
+              },
+              {
+                "value": "avenue De Poutrincourt",
+                "count": 15
+              },
+              {
+                "value": "rue Viel",
+                "count": 14
+              },
+              {
+                "value": "avenue Jean-Bourdon",
+                "count": 13
+              },
+              {
+                "value": "rue Ranger",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 20.0,
+            "max": 600.0,
+            "mean": 130.709,
+            "median": 90.5,
+            "unique_count": 285,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 999
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-07-15T00:00:00",
+            "max_date": "2015-09-02T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Indice PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 100.0,
+            "mean": 45.474,
+            "median": 45.0,
+            "unique_count": 97,
+            "field_type_detected": "numeric"
+          },
+          "Etat PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Mauvais",
+                "count": 312
+              },
+              {
+                "value": "Moyen",
+                "count": 304
+              },
+              {
+                "value": "Très mauvais",
+                "count": 206
+              },
+              {
+                "value": "Bon",
+                "count": 112
+              },
+              {
+                "value": "Excellent",
+                "count": 66
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.63,
+            "max": 12.58,
+            "mean": 5.101,
+            "median": 5.005,
+            "unique_count": 489,
+            "field_type_detected": "numeric"
+          },
+          "Etat IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 485
+              },
+              {
+                "value": "Mauvais",
+                "count": 244
+              },
+              {
+                "value": "Bon",
+                "count": 183
+              },
+              {
+                "value": "Très mauvais",
+                "count": 80
+              },
+              {
+                "value": "Excellent",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "bdda349d-8ecb-4607-8418-793565222dfd",
+      "name": "Parcours auscultation chaussée 2015",
+      "description": "Les tronçons de rues parcourus lors de la compagne d'auscultation du réseau artériel en 2015",
+      "format": "GPKG",
+      "url": "",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2025-09-29T18:02:05.916714",
+      "schema": null
+    },
+    {
+      "id": "d714c4b1-fe1a-4f9e-aa76-3fe45076c830",
+      "name": "Auscultation chaussée 2010",
+      "description": "Réseau routier complet (local et RAAV) en CSV",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/d714c4b1-fe1a-4f9e-aa76-3fe45076c830/download/auscultation-chaussees-2010.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-05-02T14:54:25.714758",
+      "created": "2017-05-02T10:30:06.297461",
+      "schema": {
+        "resource_id": "d714c4b1-fe1a-4f9e-aa76-3fe45076c830",
+        "total_records": 29271,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "De",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longueur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DateReleve",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Indice PCI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat PCI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Indice IRI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Etat IRI",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_TRC": 1010191,
+            "Rue": "Élie-Blanchard avenue",
+            "De": "rue Dudemaine ",
+            "A": "rue Olivar-Asselin ",
+            "Longueur": 69,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2011-06-22T00:00:00",
+            "Indice PCI": 78,
+            "Etat PCI": "Bon",
+            "Indice IRI": 5.41,
+            "Etat IRI": "Moyen"
+          },
+          {
+            "_id": 2,
+            "ID_TRC": 1010192,
+            "Rue": "Élie-Blanchard avenue",
+            "De": "rue Olivar-Asselin ",
+            "A": "rue Duval ",
+            "Longueur": 70,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2011-06-22T00:00:00",
+            "Indice PCI": 51,
+            "Etat PCI": "Moyen",
+            "Indice IRI": 5.48,
+            "Etat IRI": "Moyen"
+          },
+          {
+            "_id": 3,
+            "ID_TRC": 1010194,
+            "Rue": "Émile-Nelligan rue",
+            "De": "rue Lachapelle ",
+            "A": "boulevard Laurentien ",
+            "Longueur": 95,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2011-06-29T00:00:00",
+            "Indice PCI": 50,
+            "Etat PCI": "Moyen",
+            "Indice IRI": 7.51,
+            "Etat IRI": "Mauvais"
+          },
+          {
+            "_id": 4,
+            "ID_TRC": 1010195,
+            "Rue": "Émile-Nelligan rue",
+            "De": "boulevard Laurentien ",
+            "A": "rue Émile-Nelligan ",
+            "Longueur": 159,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2011-06-29T00:00:00",
+            "Indice PCI": 66,
+            "Etat PCI": "Bon",
+            "Indice IRI": 6.24,
+            "Etat IRI": "Mauvais"
+          },
+          {
+            "_id": 5,
+            "ID_TRC": 1010197,
+            "Rue": "Émile-Nelligan rue",
+            "De": "rue Lachapelle ",
+            "A": "boulevard Laurentien ",
+            "Longueur": 296,
+            "Arrondissement": "Ahuntsic-Cartierville",
+            "DateReleve": "2011-06-29T00:00:00",
+            "Indice PCI": 52,
+            "Etat PCI": "Moyen",
+            "Indice IRI": 6.48,
+            "Etat IRI": "Mauvais"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "De": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longueur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DateReleve": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat PCI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Indice IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Etat IRI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 29271,
+        "audited_at": "2026-03-10T00:15:08.731135+00:00",
+        "fields": {
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010001.0,
+            "max": 1030419.0,
+            "mean": 1019271.567,
+            "median": 1020397.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 221,
+            "top_values": [
+              {
+                "value": "Gouin Ouest boulevard",
+                "count": 71
+              },
+              {
+                "value": "de l'Acadie boulevard",
+                "count": 42
+              },
+              {
+                "value": "De Salaberry rue",
+                "count": 30
+              },
+              {
+                "value": "de Louisbourg rue",
+                "count": 28
+              },
+              {
+                "value": "Henri-Bourassa Ouest boulevard",
+                "count": 28
+              },
+              {
+                "value": "Charles-Gill rue",
+                "count": 20
+              },
+              {
+                "value": "Jean-Bourdon avenue",
+                "count": 19
+              },
+              {
+                "value": "Fleury Ouest rue",
+                "count": 18
+              },
+              {
+                "value": "Taylor boulevard",
+                "count": 17
+              },
+              {
+                "value": "James-Morrice rue",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "De": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 247,
+            "top_values": [
+              {
+                "value": "boulevard de l'Acadie",
+                "count": 32
+              },
+              {
+                "value": "rue De Salaberry",
+                "count": 31
+              },
+              {
+                "value": "boulevard Gouin Ouest",
+                "count": 26
+              },
+              {
+                "value": "rue de Louisbourg",
+                "count": 24
+              },
+              {
+                "value": "rue Pasteur",
+                "count": 19
+              },
+              {
+                "value": "rue Dudemaine",
+                "count": 18
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 18
+              },
+              {
+                "value": "rue Viel",
+                "count": 16
+              },
+              {
+                "value": "boulevard Henri-Bourassa Ouest",
+                "count": 15
+              },
+              {
+                "value": "avenue du Bois-de-Boulogne",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 249,
+            "top_values": [
+              {
+                "value": "boulevard Gouin Ouest",
+                "count": 43
+              },
+              {
+                "value": "rue de Louisbourg",
+                "count": 30
+              },
+              {
+                "value": "rue De Salaberry",
+                "count": 29
+              },
+              {
+                "value": "boulevard de l'Acadie",
+                "count": 22
+              },
+              {
+                "value": "rue Dudemaine",
+                "count": 17
+              },
+              {
+                "value": "rue James-Morrice",
+                "count": 16
+              },
+              {
+                "value": "avenue De Poutrincourt",
+                "count": 15
+              },
+              {
+                "value": "rue Viel",
+                "count": 14
+              },
+              {
+                "value": "rue du Bocage",
+                "count": 13
+              },
+              {
+                "value": "boulevard Henri-Bourassa Ouest",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Longueur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 8.0,
+            "max": 600.0,
+            "mean": 130.652,
+            "median": 91.0,
+            "unique_count": 291,
+            "field_type_detected": "numeric"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 999
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DateReleve": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-10-24T00:00:00",
+            "max_date": "2011-06-29T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Indice PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10.0,
+            "max": 100.0,
+            "mean": 61.441,
+            "median": 63.0,
+            "unique_count": 87,
+            "field_type_detected": "numeric"
+          },
+          "Etat PCI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Bon",
+                "count": 365
+              },
+              {
+                "value": "Moyen",
+                "count": 340
+              },
+              {
+                "value": "Mauvais",
+                "count": 163
+              },
+              {
+                "value": "Excellent",
+                "count": 97
+              },
+              {
+                "value": "Très mauvais",
+                "count": 35
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Indice IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.48,
+            "max": 21.01,
+            "mean": 5.1032,
+            "median": 4.705,
+            "unique_count": 524,
+            "field_type_detected": "numeric"
+          },
+          "Etat IRI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moyen",
+                "count": 449
+              },
+              {
+                "value": "Bon",
+                "count": 231
+              },
+              {
+                "value": "Mauvais",
+                "count": 197
+              },
+              {
+                "value": "Très mauvais",
+                "count": 111
+              },
+              {
+                "value": "Excellent",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "1cc15e70-5a84-4086-9128-569ea76cfde1",
+      "name": "Parcours auscultation chaussée 2010",
+      "description": "Les tronçons de rues parcourus lors de la compagne d'auscultation du réseau artériel en 2010",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/1cc15e70-5a84-4086-9128-569ea76cfde1/download/parcours-auscultation-chaussee-2010.gpkg",
+      "datastore_active": false,
+      "size": 6520832,
+      "last_modified": "2025-09-29T18:00:28.568938",
+      "created": "2025-09-29T18:00:28.847341",
+      "schema": null
+    },
+    {
+      "id": "47ae6e70-69a6-46f2-842a-739f8d4d55fc",
+      "name": "Carte de l'état de la chaussée du réseau routier 2020-2022",
+      "description": "Carte thématique de l'état du réseau routier à partir des résultats d'auscultation 2020 et 2022 en pdf.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/cee47404-08bc-40e6-af71-cfcdce4617e8/resource/47ae6e70-69a6-46f2-842a-739f8d4d55fc/download/carte-condition-chaussee-reaseau-routier_2020-2022.pdf",
+      "datastore_active": false,
+      "size": 59856027,
+      "last_modified": "2023-10-05T20:08:19.434629",
+      "created": "2023-06-18T00:19:50.213005",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Auscultation",
+    "Chaussée",
+    "Condition",
+    "IRI",
+    "PCI",
+    "Pavage",
+    "Roulement",
+    "Réseau routier",
+    "SIRR"
+  ],
+  "web_metadata": {
+    "methodology_text": "La Ville de Montréal se conforme aux exigences du Ministère des Affaires Municipales et de l'Organisation du",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier - Division gestion stratégique des actifs",
+      "Couverture temporelle": "2010-01-01/2025-12-31",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Auscultation",
+      "Chaussée",
+      "Condition",
+      "IRI",
+      "PCI",
+      "Pavage",
+      "Roulement",
+      "Réseau routier",
+      "SIRR"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/condition-chaussees-reseau-routier",
+    "scraped_at": "2026-03-09T19:54:09.288044+00:00"
+  }
+}

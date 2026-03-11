@@ -1,0 +1,977 @@
+{
+  "slug": "vmtl-inventaire-donnees-ouvertes",
+  "title": "Inventaire de données",
+  "notes": "Inventaire de données colligé par la Ville de Montréal dans le cadre de l'application de la [Politique de données ouvertes](https://donnees.montreal.ca/notre-demarche).\r\n\r\nL'inventaire dresse un portrait des données dont la Ville de Montréal est propriétaire au nom des citoyens. La portée de la Politique de données ouvertes de la Ville de Montréal couvre les services centraux, les arrondissements et l'agglomération pour les compétences sous responsabilités de la Ville de Montréal. Il comprend les ensembles de données __disponibles__ et __inventoriés__. Il précise également si certaines limites freinent l'ouverture d'un ensemble spécifique. L'inventaire est en évolution constante et sujet à des changements ponctuels.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-02-19T20:41:01.678988",
+  "metadata_modified": "2025-06-23T10:18:35.702970",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "86626b5a-c48f-4d80-8a43-58aee820c742",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZGVkOTBiMTAtOGNkNS00NzJlLWI0NjYtYWI2ZjFjNGFkMzU1IiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T20:20:58.774160",
+      "schema": null
+    },
+    {
+      "id": "634b2c58-a7a6-470e-8c97-a38d0d5e7fdd",
+      "name": "Inventaire de données",
+      "description": "Liste de l'inventaire des données colligées dans le cadre de l'application de la Politique de données ouvertes de la Ville de Montréal.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/ecd2af68-731c-4896-be5f-55e58adaad0e/resource/634b2c58-a7a6-470e-8c97-a38d0d5e7fdd/download/inventaire-des-ensembles-de-donnees-de-la-ville-de-montreal.csv",
+      "datastore_active": true,
+      "size": 368678,
+      "last_modified": "2024-10-15T18:46:06.212907",
+      "created": "2018-02-19T20:42:26.670302",
+      "schema": {
+        "resource_id": "634b2c58-a7a6-470e-8c97-a38d0d5e7fdd",
+        "total_records": 1217,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Unite administrative mandataire (Ville de Montreal)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Niveau de confidentialite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Notes sur la confidentialite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lien",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": "1",
+            "Nom": "Réseau d'égouts",
+            "Description": "Données physiques du réseau d'égouts de la Ville de Montréal (ex. : longueur, diamètre, matériaux, date d'installation) et des réhabilitations (ex. : date de réhabilitation, type de réhabilitation, diamètre vertical et horizontal, juridiction, type de segment, type de réseau, statut, propriétaire) ainsi que sa géolocalisation",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "En cours d'évaluation",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 2,
+            "ID": "2",
+            "Nom": "Chambres d'égouts",
+            "Description": "Données physiques des chambres d'égouts (ex. : date d'installation, forme, juridiction, matériau, propriétaire, statut, type) et sa géolocalisation",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "En cours d'évaluation",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 3,
+            "ID": "3",
+            "Nom": "Capacité de production des usines",
+            "Description": "Capacité de production m³/jr et %  de la capacité de production  par rapport à la moyenne journalière.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 4,
+            "ID": "4",
+            "Nom": "Déclaration de prélèvement d'eau à la source",
+            "Description": "Exigence réglementaire du RQEP: Volumes annuels prélevés par chaque usine à la source d'approvisionnement.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 5,
+            "ID": "5",
+            "Nom": "ARCHIVES - Résultats du Plan d'intervention des actifs des réseaux d'eau potable, d'égouts et de voirie de la Ville de Montréal",
+            "Description": "Cet ensemble de données représente les interventions déterminées par le Plan d'intervention de la Ville de Montréal pour la période 2016-2021.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Disponible",
+            "Lien": "https://donnees.montreal.ca/ville-de-montreal/resultats-plan-intervention-actifs-eau-voirie"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description": {
+          "null_count": 47,
+          "null_pct": 3.9,
+          "populated_pct": 96.1
+        },
+        "Unite administrative mandataire (Ville de Montreal)": {
+          "null_count": 11,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "Niveau de confidentialite": {
+          "null_count": 38,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Notes sur la confidentialite": {
+          "null_count": 1080,
+          "null_pct": 88.7,
+          "populated_pct": 11.3
+        },
+        "Statut": {
+          "null_count": 257,
+          "null_pct": 21.1,
+          "populated_pct": 78.9
+        },
+        "Lien": {
+          "null_count": 876,
+          "null_pct": 72.0,
+          "populated_pct": 28.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1217,
+        "audited_at": "2026-03-10T00:20:16.496828+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1348.0,
+            "mean": 664.15,
+            "median": 679.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Nom": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 997,
+            "top_values": [
+              {
+                "value": "Tarifs - Espace pour la vie",
+                "count": 2
+              },
+              {
+                "value": "Parcs industriels - Inventaires",
+                "count": 2
+              },
+              {
+                "value": "Réseau d'égouts",
+                "count": 1
+              },
+              {
+                "value": "Chambres d'égouts",
+                "count": 1
+              },
+              {
+                "value": "Capacité de production des usines",
+                "count": 1
+              },
+              {
+                "value": "Déclaration de prélèvement d'eau à la source",
+                "count": 1
+              },
+              {
+                "value": "ARCHIVES - Résultats du Plan d'intervention des actifs des réseaux d'eau potable, d'égouts et de voirie de la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Permis de coupe d'eau sur le domaine public",
+                "count": 1
+              },
+              {
+                "value": "Compteurs d'eau exploités par la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Résidus produits par les opérations de la Station",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Description": {
+            "null_count": 43,
+            "null_pct": 4.3,
+            "unique_count": 944,
+            "top_values": [
+              {
+                "value": "Liste des contrats octroyés par les fonctionnaires de l'arrondissement de Côte-des-Neiges--Notre-Dame-de-Grâce en vertu du pouvoir délégué.",
+                "count": 6
+              },
+              {
+                "value": "Plans PDF thématisés à une échelle qui permettent une impression esthétique (extrait des données des réseaux d'infrastructures)",
+                "count": 2
+              },
+              {
+                "value": "Ce jeu de données présente certaines espèces végétales. Il n'est pas complet et on y fait peu de mises à jour.",
+                "count": 2
+              },
+              {
+                "value": "Ce jeu de données présente certaines espèces qu'on retrouve dans les écosystèmes d'Amérique. Il n'est pas complet et on y fait peu de mises à jour.",
+                "count": 2
+              },
+              {
+                "value": "Données annuelles de l'ISQ,  ensemble du Québec, RMR de Montréal et agglomération de Montréal, 1997-2021",
+                "count": 2
+              },
+              {
+                "value": "Liste de sites et bâtiments avec coordonnées géographiques",
+                "count": 2
+              },
+              {
+                "value": "Plantations effectuées dans le cadre du programme de plantation du service des grands parcs, du Mont-Royal et des sports",
+                "count": 2
+              },
+              {
+                "value": "Projet de la Chambre de commerce en réponse à la crise de la COVID-19 dont l'objectif est d'aider les organisations qui comptent plusieurs centaines d’employés à diminuer le nombre de déplacements en voiture solo par la mise en place d’un plan de gestion des déplacements et de mesures concrètes de mobilité durable.",
+                "count": 2
+              },
+              {
+                "value": "Liste des chèques émis par la Ville et non encaissés",
+                "count": 2
+              },
+              {
+                "value": "Données physiques du réseau d'égouts de la Ville de Montréal (ex. : longueur, diamètre, matériaux, date d'installation) et des réhabilitations (ex. : date de réhabilitation, type de réhabilitation, diamètre vertical et horizontal, juridiction, type de segment, type de réseau, statut, propriétaire) ainsi que sa géolocalisation",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Unite administrative mandataire (Ville de Montreal)": {
+            "null_count": 11,
+            "null_pct": 1.1,
+            "unique_count": 40,
+            "top_values": [
+              {
+                "value": "Service de l'environnement",
+                "count": 118
+              },
+              {
+                "value": "Service de l'urbanisme et de la mobilité",
+                "count": 89
+              },
+              {
+                "value": "Service du développement économique",
+                "count": 78
+              },
+              {
+                "value": "Service de la culture",
+                "count": 78
+              },
+              {
+                "value": "Service de l'eau",
+                "count": 72
+              },
+              {
+                "value": "Arrondissements",
+                "count": 61
+              },
+              {
+                "value": "Service du greffe",
+                "count": 56
+              },
+              {
+                "value": "Service des infrastructures du réseau routier",
+                "count": 51
+              },
+              {
+                "value": "Service des finances et de l'évaluation foncière",
+                "count": 39
+              },
+              {
+                "value": "Service des grands parcs, du Mont-Royal et des sports",
+                "count": 39
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Niveau de confidentialite": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Ouvert",
+                "count": 808
+              },
+              {
+                "value": "En cours d'évaluation",
+                "count": 70
+              },
+              {
+                "value": "Restreint",
+                "count": 63
+              },
+              {
+                "value": "Fermé",
+                "count": 55
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Notes sur la confidentialite": {
+            "null_count": 875,
+            "null_pct": 87.5,
+            "unique_count": 60,
+            "top_values": [
+              {
+                "value": "Le respect de la vie privée et des informations personnelles",
+                "count": 17
+              },
+              {
+                "value": "La propriété intellectuelle ou le droit de republier la donnée ne sont pas détenus par la Ville de Montréal - Autorisation requise",
+                "count": 17
+              },
+              {
+                "value": "Sécurité du public et des biens",
+                "count": 13
+              },
+              {
+                "value": "Des enjeux de sécurité publique limitent l'ouverture",
+                "count": 4
+              },
+              {
+                "value": "Enjeu de respect de la vie privée et des informations personnelles en cours de validation (évaluation de publication de données anonymisées)",
+                "count": 4
+              },
+              {
+                "value": "Les informations détaillées (e.g non statistiques) sont principalement constituées d'informations personnelles",
+                "count": 4
+              },
+              {
+                "value": "Loi sur le Cadastre et greffe des arpenteurs-géomètres",
+                "count": 3
+              },
+              {
+                "value": "La propriété intellectuelle ou le droit de republier la donnée ne sont pas détenus par la Ville de Montréal",
+                "count": 3
+              },
+              {
+                "value": "Le respect de la vie privée est un enjeu",
+                "count": 3
+              },
+              {
+                "value": "Validation de la propriété intellectuelle ou du droit de republier la donnée détenus par la Ville de Montréal ainsi que le secret industriel",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Statut": {
+            "null_count": 54,
+            "null_pct": 5.4,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inventorié",
+                "count": 623
+              },
+              {
+                "value": "Disponible",
+                "count": 323
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Lien": {
+            "null_count": 673,
+            "null_pct": 67.3,
+            "unique_count": 323,
+            "top_values": [
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/inspection-aliments-bilan",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/permis-construction",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/rsqa-iqa-historique",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/reglements-municipaux",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/resultats-plan-intervention-actifs-eau-voirie",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/compteurs-eau",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/debordement",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/donnees-debordements-intercepteur-ete2015",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/ouvrage-surverse",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/pluviometre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "f31ec232-b2cb-4b39-921d-d985008238b6",
+      "name": "Inventaire de données",
+      "description": "Liste de l'inventaire des données colligées dans le cadre de l'application de la Politique de données ouvertes de la Ville de Montréal.",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/dataset/ecd2af68-731c-4896-be5f-55e58adaad0e/resource/f31ec232-b2cb-4b39-921d-d985008238b6/download/inventaire-des-ensembles-de-donnees-de-la-ville-de-montreal.xlsx",
+      "datastore_active": true,
+      "size": 149745,
+      "last_modified": "2024-10-15T18:46:54.188292",
+      "created": "2018-03-07T19:22:56.678628",
+      "schema": {
+        "resource_id": "f31ec232-b2cb-4b39-921d-d985008238b6",
+        "total_records": 1217,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Unite administrative mandataire (Ville de Montreal)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Niveau de confidentialite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Notes sur la confidentialite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Lien",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": "1",
+            "Nom": "Réseau d'égouts",
+            "Description": "Données physiques du réseau d'égouts de la Ville de Montréal (ex. : longueur, diamètre, matériaux, date d'installation) et des réhabilitations (ex. : date de réhabilitation, type de réhabilitation, diamètre vertical et horizontal, juridiction, type de segment, type de réseau, statut, propriétaire) ainsi que sa géolocalisation",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "En cours d'évaluation",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 2,
+            "ID": "2",
+            "Nom": "Chambres d'égouts",
+            "Description": "Données physiques des chambres d'égouts (ex. : date d'installation, forme, juridiction, matériau, propriétaire, statut, type) et sa géolocalisation",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "En cours d'évaluation",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 3,
+            "ID": "3",
+            "Nom": "Capacité de production des usines",
+            "Description": "Capacité de production m³/jr et %  de la capacité de production  par rapport à la moyenne journalière.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 4,
+            "ID": "4",
+            "Nom": "Déclaration de prélèvement d'eau à la source",
+            "Description": "Exigence réglementaire du RQEP: Volumes annuels prélevés par chaque usine à la source d'approvisionnement.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Inventorié",
+            "Lien": null
+          },
+          {
+            "_id": 5,
+            "ID": "5",
+            "Nom": "ARCHIVES - Résultats du Plan d'intervention des actifs des réseaux d'eau potable, d'égouts et de voirie de la Ville de Montréal",
+            "Description": "Cet ensemble de données représente les interventions déterminées par le Plan d'intervention de la Ville de Montréal pour la période 2016-2021.",
+            "Unite administrative mandataire (Ville de Montreal)": "Service de l'eau",
+            "Niveau de confidentialite": "Ouvert",
+            "Notes sur la confidentialite": null,
+            "Statut": "Disponible",
+            "Lien": "https://donnees.montreal.ca/ville-de-montreal/resultats-plan-intervention-actifs-eau-voirie"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Description": {
+          "null_count": 47,
+          "null_pct": 3.9,
+          "populated_pct": 96.1
+        },
+        "Unite administrative mandataire (Ville de Montreal)": {
+          "null_count": 11,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "Niveau de confidentialite": {
+          "null_count": 38,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Notes sur la confidentialite": {
+          "null_count": 1080,
+          "null_pct": 88.7,
+          "populated_pct": 11.3
+        },
+        "Statut": {
+          "null_count": 257,
+          "null_pct": 21.1,
+          "populated_pct": 78.9
+        },
+        "Lien": {
+          "null_count": 876,
+          "null_pct": 72.0,
+          "populated_pct": 28.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1217,
+        "audited_at": "2026-03-10T00:20:17.663649+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1348.0,
+            "mean": 664.15,
+            "median": 679.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "Nom": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 997,
+            "top_values": [
+              {
+                "value": "Tarifs - Espace pour la vie",
+                "count": 2
+              },
+              {
+                "value": "Parcs industriels - Inventaires",
+                "count": 2
+              },
+              {
+                "value": "Réseau d'égouts",
+                "count": 1
+              },
+              {
+                "value": "Chambres d'égouts",
+                "count": 1
+              },
+              {
+                "value": "Capacité de production des usines",
+                "count": 1
+              },
+              {
+                "value": "Déclaration de prélèvement d'eau à la source",
+                "count": 1
+              },
+              {
+                "value": "ARCHIVES - Résultats du Plan d'intervention des actifs des réseaux d'eau potable, d'égouts et de voirie de la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Permis de coupe d'eau sur le domaine public",
+                "count": 1
+              },
+              {
+                "value": "Compteurs d'eau exploités par la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Résidus produits par les opérations de la Station",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Description": {
+            "null_count": 43,
+            "null_pct": 4.3,
+            "unique_count": 944,
+            "top_values": [
+              {
+                "value": "Liste des contrats octroyés par les fonctionnaires de l'arrondissement de Côte-des-Neiges--Notre-Dame-de-Grâce en vertu du pouvoir délégué.",
+                "count": 6
+              },
+              {
+                "value": "Plans PDF thématisés à une échelle qui permettent une impression esthétique (extrait des données des réseaux d'infrastructures)",
+                "count": 2
+              },
+              {
+                "value": "Ce jeu de données présente certaines espèces végétales. Il n'est pas complet et on y fait peu de mises à jour.",
+                "count": 2
+              },
+              {
+                "value": "Ce jeu de données présente certaines espèces qu'on retrouve dans les écosystèmes d'Amérique. Il n'est pas complet et on y fait peu de mises à jour.",
+                "count": 2
+              },
+              {
+                "value": "Données annuelles de l'ISQ,  ensemble du Québec, RMR de Montréal et agglomération de Montréal, 1997-2021",
+                "count": 2
+              },
+              {
+                "value": "Liste de sites et bâtiments avec coordonnées géographiques",
+                "count": 2
+              },
+              {
+                "value": "Plantations effectuées dans le cadre du programme de plantation du service des grands parcs, du Mont-Royal et des sports",
+                "count": 2
+              },
+              {
+                "value": "Projet de la Chambre de commerce en réponse à la crise de la COVID-19 dont l'objectif est d'aider les organisations qui comptent plusieurs centaines d’employés à diminuer le nombre de déplacements en voiture solo par la mise en place d’un plan de gestion des déplacements et de mesures concrètes de mobilité durable.",
+                "count": 2
+              },
+              {
+                "value": "Liste des chèques émis par la Ville et non encaissés",
+                "count": 2
+              },
+              {
+                "value": "Données physiques du réseau d'égouts de la Ville de Montréal (ex. : longueur, diamètre, matériaux, date d'installation) et des réhabilitations (ex. : date de réhabilitation, type de réhabilitation, diamètre vertical et horizontal, juridiction, type de segment, type de réseau, statut, propriétaire) ainsi que sa géolocalisation",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Unite administrative mandataire (Ville de Montreal)": {
+            "null_count": 11,
+            "null_pct": 1.1,
+            "unique_count": 40,
+            "top_values": [
+              {
+                "value": "Service de l'environnement",
+                "count": 118
+              },
+              {
+                "value": "Service de l'urbanisme et de la mobilité",
+                "count": 89
+              },
+              {
+                "value": "Service du développement économique",
+                "count": 78
+              },
+              {
+                "value": "Service de la culture",
+                "count": 78
+              },
+              {
+                "value": "Service de l'eau",
+                "count": 72
+              },
+              {
+                "value": "Arrondissements",
+                "count": 61
+              },
+              {
+                "value": "Service du greffe",
+                "count": 56
+              },
+              {
+                "value": "Service des infrastructures du réseau routier",
+                "count": 51
+              },
+              {
+                "value": "Service des finances et de l'évaluation foncière",
+                "count": 39
+              },
+              {
+                "value": "Service des grands parcs, du Mont-Royal et des sports",
+                "count": 39
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Niveau de confidentialite": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Ouvert",
+                "count": 808
+              },
+              {
+                "value": "En cours d'évaluation",
+                "count": 70
+              },
+              {
+                "value": "Restreint",
+                "count": 63
+              },
+              {
+                "value": "Fermé",
+                "count": 55
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Notes sur la confidentialite": {
+            "null_count": 875,
+            "null_pct": 87.5,
+            "unique_count": 60,
+            "top_values": [
+              {
+                "value": "Le respect de la vie privée et des informations personnelles",
+                "count": 17
+              },
+              {
+                "value": "La propriété intellectuelle ou le droit de republier la donnée ne sont pas détenus par la Ville de Montréal - Autorisation requise",
+                "count": 17
+              },
+              {
+                "value": "Sécurité du public et des biens",
+                "count": 13
+              },
+              {
+                "value": "Des enjeux de sécurité publique limitent l'ouverture",
+                "count": 4
+              },
+              {
+                "value": "Enjeu de respect de la vie privée et des informations personnelles en cours de validation (évaluation de publication de données anonymisées)",
+                "count": 4
+              },
+              {
+                "value": "Les informations détaillées (e.g non statistiques) sont principalement constituées d'informations personnelles",
+                "count": 4
+              },
+              {
+                "value": "Loi sur le Cadastre et greffe des arpenteurs-géomètres",
+                "count": 3
+              },
+              {
+                "value": "La propriété intellectuelle ou le droit de republier la donnée ne sont pas détenus par la Ville de Montréal",
+                "count": 3
+              },
+              {
+                "value": "Le respect de la vie privée est un enjeu",
+                "count": 3
+              },
+              {
+                "value": "Validation de la propriété intellectuelle ou du droit de republier la donnée détenus par la Ville de Montréal ainsi que le secret industriel",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Statut": {
+            "null_count": 54,
+            "null_pct": 5.4,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Inventorié",
+                "count": 623
+              },
+              {
+                "value": "Disponible",
+                "count": 323
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Lien": {
+            "null_count": 673,
+            "null_pct": 67.3,
+            "unique_count": 323,
+            "top_values": [
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/inspection-aliments-bilan",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/permis-construction",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/rsqa-iqa-historique",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/reglements-municipaux",
+                "count": 2
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/resultats-plan-intervention-actifs-eau-voirie",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/compteurs-eau",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/debordement",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/donnees-debordements-intercepteur-ete2015",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/ouvrage-surverse",
+                "count": 1
+              },
+              {
+                "value": "https://donnees.montreal.ca/ville-de-montreal/pluviometre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Données ouvertes",
+    "SPSPO",
+    "Transparence"
+  ],
+  "web_metadata": {
+    "methodology_text": "Afin de présenter un portrait des données disponibles au sein de la Ville de Montréal, cette liste a été réalisée en partenariat avec tous ses services et ses unités administratives. Il est important de noter que la Politique de données ouvertes s'applique uniquement aux données dont Montréal est fiduciaire.  \n\n\nComme il s'agit d'un inventaire en constante évolution, il est possible que des ensembles de données aient échappé au travail de collecte. Il est aussi possible que des données actuellement listées ne soient finalement plus pertinentes lorsque l'opportunité de les ouvrir se présentera.\n\n\nUne démarche pour l'automatisation de la mise à jour des données sur les plates-formes informatiques de la Ville est en cours pour améliorer la gestion du processus et assurer la pérennité de la démarche.\n\n## Gouvernance des données\n\n\n\nLes ensembles de données présentés dans l'inventaire reflètent la réalité de l'administration montréalaise. La colonne \"Unité administrative\" présente le ou les Service(s) responsable(s) de l'ensemble de données. La Ville est composée de 19 arrondissements qui possèdent des compétences propres et distinctes des compétences assignées aux Services centraux. Il est ainsi difficile d'évaluer la complétude des données gérées de façon décentralisée; des ensembles de données seront parfois partiels en fonction du",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2024-09-24",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Données ouvertes",
+      "SPSPO",
+      "Transparence"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/inventaire-donnees-ouvertes",
+    "scraped_at": "2026-03-09T19:59:11.413054+00:00"
+  }
+}

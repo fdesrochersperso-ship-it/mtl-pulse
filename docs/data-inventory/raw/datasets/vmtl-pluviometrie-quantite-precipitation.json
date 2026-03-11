@@ -1,0 +1,1387 @@
+{
+  "slug": "vmtl-pluviometrie-quantite-precipitation",
+  "title": "Pluviométrie - mesure de la quantité de précipitation",
+  "notes": "Cet ensemble de données présente les mesures instantanées de quantités de précipitation tombées par bascule de l'auget aux pluviomètres.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-05-26T16:28:08.288986",
+  "metadata_modified": "2026-02-12T23:00:35.226845",
+  "num_resources": 8,
+  "resources": [
+    {
+      "id": "573d6d63-1407-40b3-a2b9-78ff8b9217ef",
+      "name": "Pluviométrie - quantité de précipitation - 2025-2027",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/573d6d63-1407-40b3-a2b9-78ff8b9217ef/download/pluviometrie-quantite_2025-2027.csv",
+      "datastore_active": true,
+      "size": 5456316,
+      "last_modified": "2026-02-12T20:14:41.218815",
+      "created": "2025-02-14T21:44:06.834690",
+      "schema": {
+        "resource_id": "573d6d63-1407-40b3-a2b9-78ff8b9217ef",
+        "total_records": 160478,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1051",
+            "DATE": "2025-01-01 07:22:12",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1431",
+            "DATE": "2025-01-01 07:25:42",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1441",
+            "DATE": "2025-01-01 07:33:02",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1261",
+            "DATE": "2025-01-01 07:33:13",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1051",
+            "DATE": "2025-01-01 07:43:07",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 160478,
+        "audited_at": "2026-03-10T00:22:21.576092+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "obft1211",
+                "count": 30
+              },
+              {
+                "value": "obft1541",
+                "count": 29
+              },
+              {
+                "value": "obft1401",
+                "count": 28
+              },
+              {
+                "value": "obft1031",
+                "count": 26
+              },
+              {
+                "value": "obft1571",
+                "count": 26
+              },
+              {
+                "value": "obft1461",
+                "count": 26
+              },
+              {
+                "value": "obft1551",
+                "count": 26
+              },
+              {
+                "value": "obft1021",
+                "count": 25
+              },
+              {
+                "value": "obft1051",
+                "count": 24
+              },
+              {
+                "value": "obft1241",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2025-01-01 07:22:12",
+            "max_date": "2025-01-01 19:52:12",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "e2e69fc1-f346-4c5f-9082-24330360e45f",
+      "name": "Pluviométrie - quantité de précipitation - 2022-2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/e2e69fc1-f346-4c5f-9082-24330360e45f/download/pluviometrie-quantite_2022-2024.csv",
+      "datastore_active": true,
+      "size": 21028227,
+      "last_modified": "2025-02-14T21:42:54.128335",
+      "created": "2023-05-26T16:29:16.669468",
+      "schema": {
+        "resource_id": "e2e69fc1-f346-4c5f-9082-24330360e45f",
+        "total_records": 618476,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "OBFT1011",
+            "DATE": "2023-10-25 06:46:00",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "OBFT1011",
+            "DATE": "2023-10-25 07:21:00",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "OBFT1011",
+            "DATE": "2023-10-25 07:50:00",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "OBFT1011",
+            "DATE": "2023-10-25 08:15:00",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "OBFT1011",
+            "DATE": "2023-10-25 08:19:00",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 618476,
+        "audited_at": "2026-03-10T00:22:22.688575+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "OBFT1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-01 13:21:00",
+            "max_date": "2023-10-28 04:51:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "3423fbe1-c289-414a-82a7-152e3bd4039d",
+      "name": "Pluviométrie - quantité de précipitation - 2019-2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/3423fbe1-c289-414a-82a7-152e3bd4039d/download/pluviometrie-quantite_2019-2021.csv",
+      "datastore_active": true,
+      "size": 17653375,
+      "last_modified": "2024-12-06T14:42:55.429050",
+      "created": "2024-12-06T14:42:55.516113",
+      "schema": {
+        "resource_id": "3423fbe1-c289-414a-82a7-152e3bd4039d",
+        "total_records": 518850,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2019-01-01 00:07:21",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2019-01-01 00:14:45",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2019-01-01 00:23:05",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2019-01-01 00:32:30",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2019-01-01 00:40:59",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 518850,
+        "audited_at": "2026-03-10T00:22:23.760211+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-01 00:07:21",
+            "max_date": "2019-04-19 21:31:21",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.032,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 992
+              },
+              {
+                "value": "4",
+                "count": 8
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "a8ede150-4f06-4426-9c3b-c504511b78d1",
+      "name": "Pluviométrie - quantité de précipitation - 2016-2018",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/a8ede150-4f06-4426-9c3b-c504511b78d1/download/pluviometrie-quantite_2016-2018.csv",
+      "datastore_active": true,
+      "size": 19780276,
+      "last_modified": "2024-12-06T14:43:56.353673",
+      "created": "2024-12-06T14:43:56.434697",
+      "schema": {
+        "resource_id": "a8ede150-4f06-4426-9c3b-c504511b78d1",
+        "total_records": 581140,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2016-03-15 00:32:24",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2016-03-15 00:59:02",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2016-01-01 12:36:29",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2016-01-02 23:51:58",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2016-01-03 00:07:48",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 581140,
+        "audited_at": "2026-03-10T00:22:24.752862+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-01 12:36:29",
+            "max_date": "2016-03-15 00:59:02",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 546
+              },
+              {
+                "value": "0 ",
+                "count": 454
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "24f5149c-ad57-4b90-ab42-eafa2b96d7ca",
+      "name": "Pluviométrie - quantité de précipitation - 2013-2015",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/24f5149c-ad57-4b90-ab42-eafa2b96d7ca/download/pluviometrie-quantite_2013-2015.csv",
+      "datastore_active": true,
+      "size": 18008365,
+      "last_modified": "2024-12-06T14:44:48.531065",
+      "created": "2024-12-06T14:44:48.613096",
+      "schema": {
+        "resource_id": "24f5149c-ad57-4b90-ab42-eafa2b96d7ca",
+        "total_records": 528877,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2013-01-02 04:01:54",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2013-01-02 05:40:41",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2013-01-03 23:26:14",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2013-01-06 07:29:52",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2013-01-06 09:21:16",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 528877,
+        "audited_at": "2026-03-10T00:22:25.893505+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-01-02 04:01:54",
+            "max_date": "2013-05-24 08:29:49",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "71eb0988-33d1-44cd-9035-ae85384cb7d5",
+      "name": "Pluviométrie - quantité de précipitation - 2010-2012",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/71eb0988-33d1-44cd-9035-ae85384cb7d5/download/pluviometrie-quantite_2010-2012.csv",
+      "datastore_active": true,
+      "size": 19674503,
+      "last_modified": "2024-12-06T14:46:07.674784",
+      "created": "2024-12-06T14:46:07.769182",
+      "schema": {
+        "resource_id": "71eb0988-33d1-44cd-9035-ae85384cb7d5",
+        "total_records": 578089,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2010-01-01 00:45:40",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2010-01-01 02:03:40",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2010-01-01 07:00:49",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2010-01-01 11:28:40",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2010-01-01 16:59:22",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 578089,
+        "audited_at": "2026-03-10T00:22:26.993008+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-01-01 00:45:40",
+            "max_date": "2010-06-03 04:40:27",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.02,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 995
+              },
+              {
+                "value": "4",
+                "count": 5
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "d647ba74-45d7-4376-b553-477adb790dd6",
+      "name": "Pluviométrie - quantité de précipitation - 2007-2009",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/d647ba74-45d7-4376-b553-477adb790dd6/download/pluviometrie-quantite_2007-2009.csv",
+      "datastore_active": true,
+      "size": 13220714,
+      "last_modified": "2024-12-06T14:41:37.090053",
+      "created": "2024-12-06T14:41:37.168161",
+      "schema": {
+        "resource_id": "d647ba74-45d7-4376-b553-477adb790dd6",
+        "total_records": 386979,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2008-01-11 08:34:43",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2008-01-11 08:37:31",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2008-01-11 08:40:29",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2008-01-11 08:45:27",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2008-01-11 08:53:16",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 386979,
+        "audited_at": "2026-03-10T00:22:28.031928+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007-01-01 01:35:17",
+            "max_date": "2009-07-04 18:40:41",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 607
+              },
+              {
+                "value": "0 ",
+                "count": 393
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "0a6da06e-a4fd-4d62-9beb-5203a08662eb",
+      "name": "Pluviométrie - quantité de précipitation - 2004-2006",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/57e5248f-bd91-4381-af6e-57747158895e/resource/0a6da06e-a4fd-4d62-9beb-5203a08662eb/download/pluviometrie-quantite_2004-2006.csv",
+      "datastore_active": true,
+      "size": 11157102,
+      "last_modified": "2024-12-06T14:40:33.887954",
+      "created": "2024-12-06T14:40:33.973680",
+      "schema": {
+        "resource_id": "0a6da06e-a4fd-4d62-9beb-5203a08662eb",
+        "total_records": 326407,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SICOS",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IMPULSION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SICOS": "obft1011",
+            "DATE": "2004-11-05 10:55:50",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 2,
+            "NO_SICOS": "obft1011",
+            "DATE": "2004-11-06 16:32:51",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 3,
+            "NO_SICOS": "obft1011",
+            "DATE": "2004-11-06 16:36:21",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 4,
+            "NO_SICOS": "obft1011",
+            "DATE": "2004-11-06 16:40:05",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          },
+          {
+            "_id": 5,
+            "NO_SICOS": "obft1011",
+            "DATE": "2004-11-06 16:56:24",
+            "IMPULSION": "1",
+            "STATUT": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SICOS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IMPULSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 326407,
+        "audited_at": "2026-03-10T00:22:28.968425+00:00",
+        "fields": {
+          "NO_SICOS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "obft1011",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2004-05-10 09:49:34",
+            "max_date": "2006-10-28 19:54:46",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "IMPULSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0 ",
+                "count": 717
+              },
+              {
+                "value": "0",
+                "count": 283
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Eau",
+    "Pluie",
+    "Pluviométrie",
+    "SE"
+  ],
+  "web_metadata": {
+    "methodology_text": "Pour aider à l’opération et la gestion de son réseau d’assainissement et de drainage, la Ville de Montréal exploite un réseau de pluviomètres à auget basculant répartis sur son",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2004-05-10 / à ce jour",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Eau",
+      "Pluie",
+      "Pluviométrie",
+      "SE"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/pluviometrie-quantite-precipitation",
+    "scraped_at": "2026-03-09T20:15:08.085605+00:00"
+  }
+}

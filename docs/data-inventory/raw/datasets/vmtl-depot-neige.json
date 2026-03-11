@@ -1,0 +1,6365 @@
+{
+  "slug": "vmtl-depot-neige",
+  "title": "Sites d'élimination de la neige",
+  "notes": "Ensemble de données contenant la liste et la localisation des sites d'élimination de la neige utilisés par la Ville de Montréal pendant les périodes de chargement de la neige, incluant des informations sur chaque site.\r\n\r\nLes ensembles sur les\r\n [secteurs de déneigement](/ville-de-montreal/secteur-deneigement), les [contrats et transactions](/ville-de-montreal/contrats-transaction-deneigement) sont également disponibles sur le portail.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-03-14T20:34:56.860005",
+  "metadata_modified": "2026-03-09T07:00:28.161068",
+  "num_resources": 30,
+  "resources": [
+    {
+      "id": "2184d015-426a-4c96-9d22-5b2249234f32",
+      "name": "Dépôt de neige au format CSV - Saison 2025-2026",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/2184d015-426a-4c96-9d22-5b2249234f32/download/depots_deneigement_saison_2025-2026.csv",
+      "datastore_active": true,
+      "size": 2660,
+      "last_modified": "2026-03-09T06:16:38.652163",
+      "created": "2025-11-17T06:16:46.350791",
+      "schema": {
+        "resource_id": "2184d015-426a-4c96-9d22-5b2249234f32",
+        "total_records": 24,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": "27",
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.557450",
+            "Longitude": "-73.667600",
+            "VolumeDeverse": "146922.89",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": "28",
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.540330",
+            "Longitude": "-73.664890",
+            "VolumeDeverse": "5415.70",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": "30",
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.529290",
+            "Longitude": "-73.686700",
+            "VolumeDeverse": "186794.67",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": "31",
+            "NomDepot": "St-Michel - Robert (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": "3780000.00",
+            "Latitude": "45.573425",
+            "Longitude": "-73.612205",
+            "VolumeDeverse": "1423539.16",
+            "IdentifiantArrondissement": "24",
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": "34",
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": "1100000.00",
+            "Latitude": "45.617708",
+            "Longitude": "-73.523766",
+            "VolumeDeverse": "0.00",
+            "IdentifiantArrondissement": "21",
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier–Hochelaga-Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 24,
+        "total_records": 24,
+        "audited_at": "2026-03-10T00:18:07.224677+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 60.0,
+            "mean": 43.5,
+            "median": 43.5,
+            "unique_count": 24,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "41",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 24,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Iberville (PMR)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Turcot (CDN)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 10
+              },
+              {
+                "value": "Carierre",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 576592.0833,
+            "median": 100000.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.00",
+                "count": 12
+              },
+              {
+                "value": "3780000.00",
+                "count": 1
+              },
+              {
+                "value": "1100000.00",
+                "count": 1
+              },
+              {
+                "value": "375000.00",
+                "count": 1
+              },
+              {
+                "value": "1500000.00",
+                "count": 1
+              },
+              {
+                "value": "1400000.00",
+                "count": 1
+              },
+              {
+                "value": "2450000.00",
+                "count": 1
+              },
+              {
+                "value": "200000.00",
+                "count": 1
+              },
+              {
+                "value": "478210.00",
+                "count": 1
+              },
+              {
+                "value": "345000.00",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.44049,
+            "max": 45.66083,
+            "mean": 45.527252,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.625305,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1423539.16,
+            "mean": 309572.8054,
+            "median": 172649.545,
+            "unique_count": 24,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "146922.89",
+                "count": 1
+              },
+              {
+                "value": "5415.70",
+                "count": 1
+              },
+              {
+                "value": "186794.67",
+                "count": 1
+              },
+              {
+                "value": "1423539.16",
+                "count": 1
+              },
+              {
+                "value": "0.00",
+                "count": 1
+              },
+              {
+                "value": "246596.30",
+                "count": 1
+              },
+              {
+                "value": "1980.07",
+                "count": 1
+              },
+              {
+                "value": "267228.73",
+                "count": 1
+              },
+              {
+                "value": "203206.76",
+                "count": 1
+              },
+              {
+                "value": "186.00",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 25.0,
+            "mean": 17.5,
+            "median": 18.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              },
+              {
+                "value": "25",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "SLA",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "PMR",
+                "count": 1
+              },
+              {
+                "value": "CDN",
+                "count": 1
+              },
+              {
+                "value": "LAS",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 2
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              },
+              {
+                "value": "LaSalle",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "36d622cf-396c-4edb-adae-4ae2c20f65a6",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2025-2026",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/36d622cf-396c-4edb-adae-4ae2c20f65a6/download/depots_deneigement_saison_2025-2026.geojson",
+      "datastore_active": false,
+      "size": 10599,
+      "last_modified": "2026-03-09T06:17:19.801759",
+      "created": "2025-11-17T06:17:17.650475",
+      "schema": null
+    },
+    {
+      "id": "231c0d6c-35cc-492f-915d-e7855efb09aa",
+      "name": "Dépôt de neige au format SHP - Saison 2025-2026",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/231c0d6c-35cc-492f-915d-e7855efb09aa/download/depots_deneigement_saison_2025-2026.zip",
+      "datastore_active": false,
+      "size": 3663,
+      "last_modified": "2026-03-09T06:17:01.613261",
+      "created": "2025-11-17T06:17:21.294899",
+      "schema": null
+    },
+    {
+      "id": "0e210d57-f96c-4443-9635-7f9f44ea6e28",
+      "name": "Dépôt de neige au format CSV - Saison 2024-2025",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/0e210d57-f96c-4443-9635-7f9f44ea6e28/download/depots_deneigement_saison_2024-2025.csv",
+      "datastore_active": true,
+      "size": 2773,
+      "last_modified": "2025-10-27T06:17:49.650284",
+      "created": "2024-11-18T06:16:47.126412",
+      "schema": {
+        "resource_id": "0e210d57-f96c-4443-9635-7f9f44ea6e28",
+        "total_records": 25,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": "27",
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.557450",
+            "Longitude": "-73.667600",
+            "VolumeDeverse": "233061.19",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": "28",
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.540330",
+            "Longitude": "-73.664890",
+            "VolumeDeverse": "16307.55",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": "30",
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.529290",
+            "Longitude": "-73.686700",
+            "VolumeDeverse": "301864.17",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": "31",
+            "NomDepot": "St-Michel - Robert (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": "3780000.00",
+            "Latitude": "45.573425",
+            "Longitude": "-73.612205",
+            "VolumeDeverse": "2212671.85",
+            "IdentifiantArrondissement": "24",
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": "34",
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": "1100000.00",
+            "Latitude": "45.617708",
+            "Longitude": "-73.523766",
+            "VolumeDeverse": "712193.13",
+            "IdentifiantArrondissement": "21",
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier–Hochelaga-Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 25,
+        "total_records": 25,
+        "audited_at": "2026-03-10T00:18:08.054871+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 65.0,
+            "mean": 44.36,
+            "median": 44.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "41",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Iberville (PMR)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Turcot (CDN)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 11
+              },
+              {
+                "value": "Carierre",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 553528.4,
+            "median": 0.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.00",
+                "count": 13
+              },
+              {
+                "value": "3780000.00",
+                "count": 1
+              },
+              {
+                "value": "1100000.00",
+                "count": 1
+              },
+              {
+                "value": "375000.00",
+                "count": 1
+              },
+              {
+                "value": "1500000.00",
+                "count": 1
+              },
+              {
+                "value": "1400000.00",
+                "count": 1
+              },
+              {
+                "value": "2450000.00",
+                "count": 1
+              },
+              {
+                "value": "200000.00",
+                "count": 1
+              },
+              {
+                "value": "478210.00",
+                "count": 1
+              },
+              {
+                "value": "345000.00",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.44049,
+            "max": 45.66083,
+            "mean": 45.526331,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.630499,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4756.88,
+            "max": 2212671.85,
+            "mean": 498758.3744,
+            "median": 244136.48,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "233061.19",
+                "count": 1
+              },
+              {
+                "value": "16307.55",
+                "count": 1
+              },
+              {
+                "value": "301864.17",
+                "count": 1
+              },
+              {
+                "value": "2212671.85",
+                "count": 1
+              },
+              {
+                "value": "712193.13",
+                "count": 1
+              },
+              {
+                "value": "147774.56",
+                "count": 1
+              },
+              {
+                "value": "30341.68",
+                "count": 1
+              },
+              {
+                "value": "347471.57",
+                "count": 1
+              },
+              {
+                "value": "383204.87",
+                "count": 1
+              },
+              {
+                "value": "68846.80",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 25.0,
+            "mean": 17.24,
+            "median": 18.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              },
+              {
+                "value": "25",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 2
+              },
+              {
+                "value": "SLA",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "PMR",
+                "count": 1
+              },
+              {
+                "value": "CDN",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 2
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 2
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "4cdeb8de-4050-4848-bd0f-f2f0e941b755",
+      "name": "Dépôt de neige au format SHP - Saison 2024-2025",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/4cdeb8de-4050-4848-bd0f-f2f0e941b755/download/depots_deneigement_saison_2024-2025.zip",
+      "datastore_active": false,
+      "size": 3779,
+      "last_modified": "2025-10-27T06:18:05.202372",
+      "created": "2024-11-18T06:16:43.557265",
+      "schema": null
+    },
+    {
+      "id": "8df1a259-d01b-4216-8d42-ceb2918ee12f",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2024-2025",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/8df1a259-d01b-4216-8d42-ceb2918ee12f/download/depots_deneigement_saison_2024-2025.geojson",
+      "datastore_active": false,
+      "size": 11048,
+      "last_modified": "2025-10-27T06:18:10.747172",
+      "created": "2024-11-18T06:16:45.292967",
+      "schema": null
+    },
+    {
+      "id": "15b76288-24c6-4d01-91cd-d3ad8ebfab98",
+      "name": "Dépôt de neige au format CSV - Saison 2023-2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/15b76288-24c6-4d01-91cd-d3ad8ebfab98/download/depots_deneigement_saison_2023-2024.csv",
+      "datastore_active": true,
+      "size": 2764,
+      "last_modified": "2024-11-11T07:22:04.390579",
+      "created": "2023-11-27T06:17:54.898363",
+      "schema": {
+        "resource_id": "15b76288-24c6-4d01-91cd-d3ad8ebfab98",
+        "total_records": 25,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": "27",
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.557450",
+            "Longitude": "-73.667600",
+            "VolumeDeverse": "162108.95",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": "28",
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.540330",
+            "Longitude": "-73.664890",
+            "VolumeDeverse": "28006.11",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": "30",
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.529290",
+            "Longitude": "-73.686700",
+            "VolumeDeverse": "175153.60",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": "31",
+            "NomDepot": "St-Michel - Robert (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": "3780000.00",
+            "Latitude": "45.573425",
+            "Longitude": "-73.612205",
+            "VolumeDeverse": "1333542.53",
+            "IdentifiantArrondissement": "24",
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": "34",
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": "1100000.00",
+            "Latitude": "45.617708",
+            "Longitude": "-73.523766",
+            "VolumeDeverse": "382438.65",
+            "IdentifiantArrondissement": "21",
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier–Hochelaga-Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 25,
+        "total_records": 25,
+        "audited_at": "2026-03-10T00:18:08.872499+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 65.0,
+            "mean": 44.36,
+            "median": 44.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "41",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Iberville (PMR)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Turcot (CDN)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 11
+              },
+              {
+                "value": "Carierre",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 553528.4,
+            "median": 0.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.00",
+                "count": 13
+              },
+              {
+                "value": "3780000.00",
+                "count": 1
+              },
+              {
+                "value": "1100000.00",
+                "count": 1
+              },
+              {
+                "value": "375000.00",
+                "count": 1
+              },
+              {
+                "value": "1500000.00",
+                "count": 1
+              },
+              {
+                "value": "1400000.00",
+                "count": 1
+              },
+              {
+                "value": "2450000.00",
+                "count": 1
+              },
+              {
+                "value": "200000.00",
+                "count": 1
+              },
+              {
+                "value": "478210.00",
+                "count": 1
+              },
+              {
+                "value": "345000.00",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.44049,
+            "max": 45.66083,
+            "mean": 45.526331,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.630499,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1333542.53,
+            "mean": 266939.4048,
+            "median": 162108.95,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "162108.95",
+                "count": 1
+              },
+              {
+                "value": "28006.11",
+                "count": 1
+              },
+              {
+                "value": "175153.60",
+                "count": 1
+              },
+              {
+                "value": "1333542.53",
+                "count": 1
+              },
+              {
+                "value": "382438.65",
+                "count": 1
+              },
+              {
+                "value": "220261.42",
+                "count": 1
+              },
+              {
+                "value": "7767.51",
+                "count": 1
+              },
+              {
+                "value": "267135.73",
+                "count": 1
+              },
+              {
+                "value": "140586.00",
+                "count": 1
+              },
+              {
+                "value": "23338.74",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 25.0,
+            "mean": 17.24,
+            "median": 18.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              },
+              {
+                "value": "25",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 2
+              },
+              {
+                "value": "SLA",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "PMR",
+                "count": 1
+              },
+              {
+                "value": "CDN",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 2
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 2
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "c7338369-fdf6-4133-ae63-2cda75dbda08",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2023-2024",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/c7338369-fdf6-4133-ae63-2cda75dbda08/download/depots_deneigement_saison_2023-2024.geojson",
+      "datastore_active": false,
+      "size": 11037,
+      "last_modified": "2024-11-11T06:21:49.440775",
+      "created": "2023-11-27T06:19:23.101658",
+      "schema": null
+    },
+    {
+      "id": "9e5b29b7-9601-495b-a0f2-90ee6ca9037f",
+      "name": "Dépôt de neige au format SHP - Saison 2023-2024",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/9e5b29b7-9601-495b-a0f2-90ee6ca9037f/download/depots_deneigement_saison_2023-2024.zip",
+      "datastore_active": false,
+      "size": 3757,
+      "last_modified": "2024-11-11T06:21:47.728815",
+      "created": "2023-11-27T06:19:37.071833",
+      "schema": null
+    },
+    {
+      "id": "7b21c5f8-7980-48af-bcea-3f955cb4b940",
+      "name": "Dépôt de neige au format CSV - Saison 2022-2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/7b21c5f8-7980-48af-bcea-3f955cb4b940/download/depots_deneigement_saison_2022-2023.csv",
+      "datastore_active": true,
+      "size": 2890,
+      "last_modified": "2023-11-06T06:18:13.616061",
+      "created": "2022-11-21T06:17:55.215991",
+      "schema": {
+        "resource_id": "7b21c5f8-7980-48af-bcea-3f955cb4b940",
+        "total_records": 26,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": "27",
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.557280",
+            "Longitude": "-73.667768",
+            "VolumeDeverse": "338178.66",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": "28",
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.540365",
+            "Longitude": "-73.664776",
+            "VolumeDeverse": "58109.08",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": "30",
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": "0.00",
+            "Latitude": "45.529812",
+            "Longitude": "-73.692688",
+            "VolumeDeverse": "386378.76",
+            "IdentifiantArrondissement": "22",
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic-Cartierville"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": "31",
+            "NomDepot": "St-Michel - Robert (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": "3780000.00",
+            "Latitude": "45.573425",
+            "Longitude": "-73.612205",
+            "VolumeDeverse": "2548685.56",
+            "IdentifiantArrondissement": "24",
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": "34",
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": "1100000.00",
+            "Latitude": "45.617708",
+            "Longitude": "-73.523766",
+            "VolumeDeverse": "772747.75",
+            "IdentifiantArrondissement": "21",
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier–Hochelaga-Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 26,
+        "total_records": 26,
+        "audited_at": "2026-03-10T00:18:09.718304+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 65.0,
+            "mean": 45.4615,
+            "median": 45.5,
+            "unique_count": 26,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "42",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 26,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Iberville (PMR)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Butler (S-O)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 11
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 609161.9231,
+            "median": 100000.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.00",
+                "count": 13
+              },
+              {
+                "value": "3780000.00",
+                "count": 1
+              },
+              {
+                "value": "1100000.00",
+                "count": 1
+              },
+              {
+                "value": "375000.00",
+                "count": 1
+              },
+              {
+                "value": "1500000.00",
+                "count": 1
+              },
+              {
+                "value": "1400000.00",
+                "count": 1
+              },
+              {
+                "value": "2450000.00",
+                "count": 1
+              },
+              {
+                "value": "200000.00",
+                "count": 1
+              },
+              {
+                "value": "478210.00",
+                "count": 1
+              },
+              {
+                "value": "345000.00",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.449769,
+            "max": 45.660361,
+            "mean": 45.531713,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.631849,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2548685.56,
+            "mean": 536798.0131,
+            "median": 337660.705,
+            "unique_count": 26,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "338178.66",
+                "count": 1
+              },
+              {
+                "value": "58109.08",
+                "count": 1
+              },
+              {
+                "value": "386378.76",
+                "count": 1
+              },
+              {
+                "value": "2548685.56",
+                "count": 1
+              },
+              {
+                "value": "772747.75",
+                "count": 1
+              },
+              {
+                "value": "345533.69",
+                "count": 1
+              },
+              {
+                "value": "25353.67",
+                "count": 1
+              },
+              {
+                "value": "415817.03",
+                "count": 1
+              },
+              {
+                "value": "337142.75",
+                "count": 1
+              },
+              {
+                "value": "237141.35",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 24.0,
+            "mean": 17.0385,
+            "median": 17.5,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "SLA",
+                "count": 3
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "PMR",
+                "count": 1
+              },
+              {
+                "value": "LAS",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 3
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 1
+              },
+              {
+                "value": "LaSalle",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "c4ef17fc-bca2-406b-865b-9206ca8ebced",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2022-2023",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/c4ef17fc-bca2-406b-865b-9206ca8ebced/download/depots_deneigement_saison_2022-2023.geojson",
+      "datastore_active": false,
+      "size": 11548,
+      "last_modified": "2023-11-06T06:20:30.599723",
+      "created": "2022-11-21T06:17:34.841051",
+      "schema": null
+    },
+    {
+      "id": "467a5bc6-f31f-4831-884f-ecb3abbbce15",
+      "name": "Dépôt de neige au format SHP - Saison 2022-2023",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/467a5bc6-f31f-4831-884f-ecb3abbbce15/download/depots_deneigement_saison_2022-2023.zip",
+      "datastore_active": false,
+      "size": 3820,
+      "last_modified": "2023-11-06T06:19:01.932587",
+      "created": "2022-11-21T06:17:45.884058",
+      "schema": null
+    },
+    {
+      "id": "db20b2a5-8132-4738-b8d6-2272688cae06",
+      "name": "Dépôt de neige au format CSV - Saison 2021-2022",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/db20b2a5-8132-4738-b8d6-2272688cae06/download/depots_deneigement_saison_2021-2022.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-11-14T06:17:51.613313",
+      "created": "2021-11-22T06:17:46.055395",
+      "schema": {
+        "resource_id": "db20b2a5-8132-4738-b8d6-2272688cae06",
+        "total_records": 25,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 28,
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.540365,
+            "Longitude": -73.664776,
+            "VolumeDeverse": 38115.53,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 51,
+            "NomDepot": "Jules-Poitras 2 (SLA)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.529281,
+            "Longitude": -73.686676,
+            "VolumeDeverse": 9039.33,
+            "IdentifiantArrondissement": 13,
+            "ArrondissementCode": "SLA",
+            "Arrondissement": "Saint-Laurent"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 60,
+            "NomDepot": "Riverside (VMA)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.4909,
+            "Longitude": -73.552162,
+            "VolumeDeverse": 160921.7,
+            "IdentifiantArrondissement": 18,
+            "ArrondissementCode": "VMA",
+            "Arrondissement": "Ville-Marie"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 27,
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.55728,
+            "Longitude": -73.667768,
+            "VolumeDeverse": 228591.87,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 34,
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": 1100000,
+            "Latitude": 45.617708,
+            "Longitude": -73.523766,
+            "VolumeDeverse": 814649.31,
+            "IdentifiantArrondissement": 21,
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier / Hochelaga / Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 25,
+        "total_records": 25,
+        "audited_at": "2026-03-10T00:18:10.642399+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 63.0,
+            "mean": 44.68,
+            "median": 45.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "51",
+                "count": 1
+              },
+              {
+                "value": "60",
+                "count": 1
+              },
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "45",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "46",
+                "count": 1
+              },
+              {
+                "value": "50",
+                "count": 1
+              },
+              {
+                "value": "63",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 2 (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Riverside (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Armand-Chaput (RDP)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Ray-Lawson (ANJ)",
+                "count": 1
+              },
+              {
+                "value": "Sartelon (SLA)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel-17ième(Sous-Sol)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 10
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 633528.4,
+            "median": 200000.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 12
+              },
+              {
+                "value": "1100000",
+                "count": 1
+              },
+              {
+                "value": "1400000",
+                "count": 1
+              },
+              {
+                "value": "3780000",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              },
+              {
+                "value": "345000",
+                "count": 1
+              },
+              {
+                "value": "2000000",
+                "count": 1
+              },
+              {
+                "value": "375000",
+                "count": 1
+              },
+              {
+                "value": "700000",
+                "count": 1
+              },
+              {
+                "value": "1260000",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.449769,
+            "max": 45.660361,
+            "mean": 45.532813,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.626916,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1978396.59,
+            "mean": 426535.3716,
+            "median": 228591.87,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "38115.53",
+                "count": 1
+              },
+              {
+                "value": "9039.33",
+                "count": 1
+              },
+              {
+                "value": "160921.7",
+                "count": 1
+              },
+              {
+                "value": "228591.87",
+                "count": 1
+              },
+              {
+                "value": "814649.31",
+                "count": 1
+              },
+              {
+                "value": "969276.8",
+                "count": 1
+              },
+              {
+                "value": "1978396.59",
+                "count": 1
+              },
+              {
+                "value": "1006671.22",
+                "count": 1
+              },
+              {
+                "value": "299651.64",
+                "count": 1
+              },
+              {
+                "value": "1.0",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 24.0,
+            "mean": 17.28,
+            "median": 18.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "17",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "SLA",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "RDP",
+                "count": 1
+              },
+              {
+                "value": "ANJ",
+                "count": 1
+              },
+              {
+                "value": "SLE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 3
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 1
+              },
+              {
+                "value": "Anjou",
+                "count": 1
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "6356860a-905e-46c2-a94b-de3284fdb76e",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2021-2022",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/6356860a-905e-46c2-a94b-de3284fdb76e/download/depots_deneigement_saison_2021-2022.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-11-14T06:18:39.654857",
+      "created": "2021-11-15T06:17:13.461255",
+      "schema": null
+    },
+    {
+      "id": "e99923ae-7159-4bdb-8b10-9385fb70fb55",
+      "name": "Dépôt de neige au format SHP - Saison 2021-2022",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/e99923ae-7159-4bdb-8b10-9385fb70fb55/download/depots_deneigement_saison_2021-2022.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-11-14T06:18:42.301251",
+      "created": "2021-11-15T06:17:29.988752",
+      "schema": null
+    },
+    {
+      "id": "0f196620-6c61-4f24-b0c2-f7d3ae246d22",
+      "name": "Dépôt de neige au format CSV - Saison 2020-2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/0f196620-6c61-4f24-b0c2-f7d3ae246d22/download/depots_deneigement_saison_2020-2021.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-10-25T06:17:31.004230",
+      "created": "2020-11-16T06:20:20.930498",
+      "schema": {
+        "resource_id": "0f196620-6c61-4f24-b0c2-f7d3ae246d22",
+        "total_records": 25,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 27,
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.55728,
+            "Longitude": -73.667768,
+            "VolumeDeverse": 217948.24,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 34,
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": 1100000,
+            "Latitude": 45.617708,
+            "Longitude": -73.523766,
+            "VolumeDeverse": 593863.14,
+            "IdentifiantArrondissement": 21,
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier / Hochelaga / Maisonneuve"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 45,
+            "NomDepot": "Armand-Chaput (RDP)",
+            "TypeDepot": "Entassement",
+            "Capacite": 1400000,
+            "Latitude": 45.660361,
+            "Longitude": -73.52711,
+            "VolumeDeverse": 976127.26,
+            "IdentifiantArrondissement": 17,
+            "ArrondissementCode": "RDP",
+            "Arrondissement": "R.D.P. /  P.A.T."
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 30,
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.529812,
+            "Longitude": -73.692688,
+            "VolumeDeverse": 254237.14,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 47,
+            "NomDepot": "Château Pierrefonds (PRF)",
+            "TypeDepot": "Entassement",
+            "Capacite": 200000,
+            "Latitude": 45.460858,
+            "Longitude": -73.899178,
+            "VolumeDeverse": 162317.35,
+            "IdentifiantArrondissement": 11,
+            "ArrondissementCode": "PRF",
+            "Arrondissement": "Pierrefonds / Roxboro"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 25,
+        "total_records": 25,
+        "audited_at": "2026-03-10T00:18:11.459609+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 63.0,
+            "mean": 44.68,
+            "median": 45.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "45",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "47",
+                "count": 1
+              },
+              {
+                "value": "49",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "57",
+                "count": 1
+              },
+              {
+                "value": "58",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Armand-Chaput (RDP)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Château Pierrefonds (PRF)",
+                "count": 1
+              },
+              {
+                "value": "Thimens (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Langelier (SLE)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Charland (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 10
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 633528.4,
+            "median": 200000.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 12
+              },
+              {
+                "value": "1100000",
+                "count": 1
+              },
+              {
+                "value": "1400000",
+                "count": 1
+              },
+              {
+                "value": "200000",
+                "count": 1
+              },
+              {
+                "value": "478210",
+                "count": 1
+              },
+              {
+                "value": "375000",
+                "count": 1
+              },
+              {
+                "value": "700000",
+                "count": 1
+              },
+              {
+                "value": "1260000",
+                "count": 1
+              },
+              {
+                "value": "3780000",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.449769,
+            "max": 45.660361,
+            "mean": 45.532813,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.626916,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 1783961.39,
+            "mean": 411503.0304,
+            "median": 254237.14,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "217948.24",
+                "count": 1
+              },
+              {
+                "value": "593863.14",
+                "count": 1
+              },
+              {
+                "value": "976127.26",
+                "count": 1
+              },
+              {
+                "value": "254237.14",
+                "count": 1
+              },
+              {
+                "value": "162317.35",
+                "count": 1
+              },
+              {
+                "value": "453178.34",
+                "count": 1
+              },
+              {
+                "value": "324794.43",
+                "count": 1
+              },
+              {
+                "value": "646981.73",
+                "count": 1
+              },
+              {
+                "value": "554168.44",
+                "count": 1
+              },
+              {
+                "value": "45827.23",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 24.0,
+            "mean": 17.28,
+            "median": 18.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "17",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "SLA",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "RDP",
+                "count": 1
+              },
+              {
+                "value": "PRF",
+                "count": 1
+              },
+              {
+                "value": "SLE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 3
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 1
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 1
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "0048a58d-dc8f-4889-88b7-2ed759c01511",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2020-2021",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/0048a58d-dc8f-4889-88b7-2ed759c01511/download/depots_deneigement_saison_2020-2021.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-25T06:17:12.096261",
+      "created": "2020-11-16T06:20:15.800656",
+      "schema": null
+    },
+    {
+      "id": "e4ac7d23-52c9-4ce3-aeb8-7dcf153d48be",
+      "name": "Dépôt de neige au format SHP - Saison 2020-2021",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/e4ac7d23-52c9-4ce3-aeb8-7dcf153d48be/download/depots_deneigement_saison_2020-2021.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-10-25T06:17:15.697404",
+      "created": "2020-12-14T21:11:02.204046",
+      "schema": null
+    },
+    {
+      "id": "2860c15c-6d67-4a1d-a8e4-84e230fe528c",
+      "name": "Dépôt de neige au format CSV - Saison 2019-2020",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/2860c15c-6d67-4a1d-a8e4-84e230fe528c/download/depots_deneigement_saison_2019-2020.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:33.794335",
+      "created": "2020-04-02T18:38:06.236176",
+      "schema": {
+        "resource_id": "2860c15c-6d67-4a1d-a8e4-84e230fe528c",
+        "total_records": 25,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 63,
+            "NomDepot": "St-Michel-17ième(Sous-Sol)",
+            "TypeDepot": "Carierre",
+            "Capacite": 2000000,
+            "Latitude": 45.576419,
+            "Longitude": -73.625385,
+            "VolumeDeverse": 1,
+            "IdentifiantArrondissement": 24,
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray / St-Michel / Parc-Extension",
+            "MTM8_X": 295014.4,
+            "MTM8_Y": 5048508.8
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 47,
+            "NomDepot": "Château Pierrefonds (PRF)",
+            "TypeDepot": "Entassement",
+            "Capacite": 200000,
+            "Latitude": 45.460858,
+            "Longitude": -73.899178,
+            "VolumeDeverse": 226048.87,
+            "IdentifiantArrondissement": 11,
+            "ArrondissementCode": "PRF",
+            "Arrondissement": "Pierrefonds / Roxboro",
+            "MTM8_X": 273582.5,
+            "MTM8_Y": 5035736.3
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 37,
+            "NomDepot": "Fullum (VMA)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.524818,
+            "Longitude": -73.545051,
+            "VolumeDeverse": 503729.08,
+            "IdentifiantArrondissement": 18,
+            "ArrondissementCode": "VMA",
+            "Arrondissement": "Ville-Marie",
+            "MTM8_X": 301280.8,
+            "MTM8_Y": 5042767.7
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 55,
+            "NomDepot": "Saint-Pierre (LAC)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.467577,
+            "Longitude": -73.598836,
+            "VolumeDeverse": 149806.87,
+            "IdentifiantArrondissement": 15,
+            "ArrondissementCode": "LAC",
+            "Arrondissement": "Lachine",
+            "MTM8_X": 297071.5,
+            "MTM8_Y": 5036410.2
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 58,
+            "NomDepot": "St-Michel - Charland (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": 1260000,
+            "Latitude": 45.578529,
+            "Longitude": -73.633005,
+            "VolumeDeverse": 716037.05,
+            "IdentifiantArrondissement": 24,
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray / St-Michel / Parc-Extension",
+            "MTM8_X": 294420.1,
+            "MTM8_Y": 5048744.3
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 25,
+        "total_records": 25,
+        "audited_at": "2026-03-10T00:18:12.381854+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 63.0,
+            "mean": 44.68,
+            "median": 45.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "63",
+                "count": 1
+              },
+              {
+                "value": "47",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "55",
+                "count": 1
+              },
+              {
+                "value": "58",
+                "count": 1
+              },
+              {
+                "value": "45",
+                "count": 1
+              },
+              {
+                "value": "51",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "43",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "St-Michel-17ième(Sous-Sol)",
+                "count": 1
+              },
+              {
+                "value": "Château Pierrefonds (PRF)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Saint-Pierre (LAC)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Charland (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Armand-Chaput (RDP)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 2 (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Angrignon (LAS)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 12
+              },
+              {
+                "value": "Entassement",
+                "count": 10
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 633528.4,
+            "median": 200000.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 12
+              },
+              {
+                "value": "2000000",
+                "count": 1
+              },
+              {
+                "value": "200000",
+                "count": 1
+              },
+              {
+                "value": "1260000",
+                "count": 1
+              },
+              {
+                "value": "1400000",
+                "count": 1
+              },
+              {
+                "value": "1500000",
+                "count": 1
+              },
+              {
+                "value": "3780000",
+                "count": 1
+              },
+              {
+                "value": "478210",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              },
+              {
+                "value": "700000",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.449769,
+            "max": 45.660361,
+            "mean": 45.532813,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.626916,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 2341996.51,
+            "mean": 508940.3796,
+            "median": 276896.87,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "226048.87",
+                "count": 1
+              },
+              {
+                "value": "503729.08",
+                "count": 1
+              },
+              {
+                "value": "149806.87",
+                "count": 1
+              },
+              {
+                "value": "716037.05",
+                "count": 1
+              },
+              {
+                "value": "1039400.33",
+                "count": 1
+              },
+              {
+                "value": "65786.79",
+                "count": 1
+              },
+              {
+                "value": "84659.7",
+                "count": 1
+              },
+              {
+                "value": "1684904.09",
+                "count": 1
+              },
+              {
+                "value": "2341996.51",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 24.0,
+            "mean": 17.28,
+            "median": 18.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "17",
+                "count": 1
+              },
+              {
+                "value": "16",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "SLA",
+                "count": 3
+              },
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 1
+              },
+              {
+                "value": "RDP",
+                "count": 1
+              },
+              {
+                "value": "LAS",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 3
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 1
+              },
+              {
+                "value": "R.D.P. /  P.A.T.",
+                "count": 1
+              },
+              {
+                "value": "LaSalle",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 273582.5,
+            "max": 302946.6,
+            "mean": 294884.776,
+            "median": 296042.6,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "295014.4",
+                "count": 1
+              },
+              {
+                "value": "273582.5",
+                "count": 1
+              },
+              {
+                "value": "301280.8",
+                "count": 1
+              },
+              {
+                "value": "297071.5",
+                "count": 1
+              },
+              {
+                "value": "294420.1",
+                "count": 1
+              },
+              {
+                "value": "302687.4",
+                "count": 1
+              },
+              {
+                "value": "290218.8",
+                "count": 1
+              },
+              {
+                "value": "291931.9",
+                "count": 1
+              },
+              {
+                "value": "295732.5",
+                "count": 1
+              },
+              {
+                "value": "296042.6",
+                "count": 1
+              }
+            ]
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5034448.0,
+            "max": 5057830.3,
+            "mean": 5043666.376,
+            "median": 5043339.7,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5048508.8",
+                "count": 1
+              },
+              {
+                "value": "5035736.3",
+                "count": 1
+              },
+              {
+                "value": "5042767.7",
+                "count": 1
+              },
+              {
+                "value": "5036410.2",
+                "count": 1
+              },
+              {
+                "value": "5048744.3",
+                "count": 1
+              },
+              {
+                "value": "5057830.3",
+                "count": 1
+              },
+              {
+                "value": "5043279.6",
+                "count": 1
+              },
+              {
+                "value": "5044507.7",
+                "count": 1
+              },
+              {
+                "value": "5034780.2",
+                "count": 1
+              },
+              {
+                "value": "5048174.6",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "e5498cb1-2fcd-4175-a00d-2b55c0d98c0a",
+      "name": "Dépôt de neige au format SHP - Saison 2019-2020",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/e5498cb1-2fcd-4175-a00d-2b55c0d98c0a/download/depots_deneigement_saison_2019-2020.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:28.842961",
+      "created": "2020-04-02T18:39:15.172943",
+      "schema": null
+    },
+    {
+      "id": "6e1d77b3-f0d2-40e5-835f-1be4b2c8423e",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2019-2020",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/6e1d77b3-f0d2-40e5-835f-1be4b2c8423e/download/depots_deneigement_saison_2019-2020.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-11-09T06:20:23.456882",
+      "created": "2020-04-02T18:40:23.639513",
+      "schema": null
+    },
+    {
+      "id": "9ea7b63a-18e1-4e9a-834e-77fd28e55bf8",
+      "name": "Dépôt de neige au format CSV - Saison 2018-2019",
+      "description": "Fichier tabulaire contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/9ea7b63a-18e1-4e9a-834e-77fd28e55bf8/download/depots_deneigement_saison_2018-2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:34.628893",
+      "created": "2018-10-08T06:19:47.675190",
+      "schema": {
+        "resource_id": "9ea7b63a-18e1-4e9a-834e-77fd28e55bf8",
+        "total_records": 27,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 55,
+            "NomDepot": "Saint-Pierre (LAC)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.467577,
+            "Longitude": -73.598836,
+            "VolumeDeverse": 168702.09,
+            "IdentifiantArrondissement": 15,
+            "ArrondissementCode": "LAC",
+            "Arrondissement": "Lachine",
+            "MTM8_X": 297071.5,
+            "MTM8_Y": 5036410.2
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 56,
+            "NomDepot": "Lausanne (MTN)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.587811,
+            "Longitude": -73.648882,
+            "VolumeDeverse": 62295.03,
+            "IdentifiantArrondissement": 14,
+            "ArrondissementCode": "MTN",
+            "Arrondissement": "Montréal-Nord",
+            "MTM8_X": 293182.9,
+            "MTM8_Y": 5049778
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 30,
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.529812,
+            "Longitude": -73.692688,
+            "VolumeDeverse": 337523.87,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville",
+            "MTM8_X": 289749.3,
+            "MTM8_Y": 5043339.7
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 47,
+            "NomDepot": "Château Pierrefonds (PRF)",
+            "TypeDepot": "Entassement",
+            "Capacite": 200000,
+            "Latitude": 45.460858,
+            "Longitude": -73.899178,
+            "VolumeDeverse": 229395.56,
+            "IdentifiantArrondissement": 11,
+            "ArrondissementCode": "PRF",
+            "Arrondissement": "Pierrefonds / Roxboro",
+            "MTM8_X": 273582.5,
+            "MTM8_Y": 5035736.3
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 49,
+            "NomDepot": "Thimens (SLA)",
+            "TypeDepot": "Entassement",
+            "Capacite": 478210,
+            "Latitude": 45.49518,
+            "Longitude": -73.721363,
+            "VolumeDeverse": 634490.55,
+            "IdentifiantArrondissement": 13,
+            "ArrondissementCode": "SLA",
+            "Arrondissement": "Saint-Laurent",
+            "MTM8_X": 287499,
+            "MTM8_Y": 5039496.8
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 27,
+        "total_records": 27,
+        "audited_at": "2026-03-10T00:18:13.212690+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 63.0,
+            "mean": 44.3704,
+            "median": 45.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "55",
+                "count": 1
+              },
+              {
+                "value": "56",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "47",
+                "count": 1
+              },
+              {
+                "value": "49",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "51",
+                "count": 1
+              },
+              {
+                "value": "60",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "57",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Saint-Pierre (LAC)",
+                "count": 1
+              },
+              {
+                "value": "Lausanne (MTN)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Château Pierrefonds (PRF)",
+                "count": 1
+              },
+              {
+                "value": "Thimens (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 2 (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Riverside (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Langelier (SLE)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 14
+              },
+              {
+                "value": "Entassement",
+                "count": 10
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 586600.3704,
+            "median": 0.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 14
+              },
+              {
+                "value": "200000",
+                "count": 1
+              },
+              {
+                "value": "478210",
+                "count": 1
+              },
+              {
+                "value": "375000",
+                "count": 1
+              },
+              {
+                "value": "700000",
+                "count": 1
+              },
+              {
+                "value": "1260000",
+                "count": 1
+              },
+              {
+                "value": "3780000",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              },
+              {
+                "value": "345000",
+                "count": 1
+              },
+              {
+                "value": "2000000",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.449769,
+            "max": 45.660361,
+            "mean": 45.53269,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.630132,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -1.0,
+            "max": 2674472.3,
+            "mean": 529611.3681,
+            "median": 269811.32,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "168702.09",
+                "count": 1
+              },
+              {
+                "value": "62295.03",
+                "count": 1
+              },
+              {
+                "value": "337523.87",
+                "count": 1
+              },
+              {
+                "value": "229395.56",
+                "count": 1
+              },
+              {
+                "value": "634490.55",
+                "count": 1
+              },
+              {
+                "value": "139456.57",
+                "count": 1
+              },
+              {
+                "value": "85942.39",
+                "count": 1
+              },
+              {
+                "value": "143269.02",
+                "count": 1
+              },
+              {
+                "value": "417366.96",
+                "count": 1
+              },
+              {
+                "value": "952323.16",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 24.0,
+            "mean": 17.2963,
+            "median": 18.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 4
+              },
+              {
+                "value": "13",
+                "count": 4
+              },
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "AHU",
+                "count": 4
+              },
+              {
+                "value": "SLA",
+                "count": 4
+              },
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "MTN",
+                "count": 1
+              },
+              {
+                "value": "PRF",
+                "count": 1
+              },
+              {
+                "value": "SLE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 4
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 4
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 1
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 1
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 273582.5,
+            "max": 302946.6,
+            "mean": 294633.7889,
+            "median": 295732.5,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "297071.5",
+                "count": 1
+              },
+              {
+                "value": "293182.9",
+                "count": 1
+              },
+              {
+                "value": "289749.3",
+                "count": 1
+              },
+              {
+                "value": "273582.5",
+                "count": 1
+              },
+              {
+                "value": "287499",
+                "count": 1
+              },
+              {
+                "value": "291931.9",
+                "count": 1
+              },
+              {
+                "value": "290218.8",
+                "count": 1
+              },
+              {
+                "value": "300722.9",
+                "count": 1
+              },
+              {
+                "value": "296277.5",
+                "count": 1
+              },
+              {
+                "value": "296429.8",
+                "count": 1
+              }
+            ]
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5034448.0,
+            "max": 5057830.3,
+            "mean": 5043652.9852,
+            "median": 5043339.7,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5036410.2",
+                "count": 1
+              },
+              {
+                "value": "5049778",
+                "count": 1
+              },
+              {
+                "value": "5043339.7",
+                "count": 1
+              },
+              {
+                "value": "5035736.3",
+                "count": 1
+              },
+              {
+                "value": "5039496.8",
+                "count": 1
+              },
+              {
+                "value": "5044507.7",
+                "count": 1
+              },
+              {
+                "value": "5043279.6",
+                "count": 1
+              },
+              {
+                "value": "5038998.7",
+                "count": 1
+              },
+              {
+                "value": "5035159.2",
+                "count": 1
+              },
+              {
+                "value": "5051960.6",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "a2cab095-cf29-4432-bcff-c5a5ff0c0b30",
+      "name": "Dépôt de neige au format SHP - Saison 2018-2019",
+      "description": "Fichier compressé contenant le shapefile (ESRI) des dépôts de neige de la Ville. Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: NAD 83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/a2cab095-cf29-4432-bcff-c5a5ff0c0b30/download/depots_deneigement_saison_2018-2019.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:33.835788",
+      "created": "2018-10-08T06:19:47.131203",
+      "schema": null
+    },
+    {
+      "id": "ffaa7e2c-e002-4332-8ca6-f37acfccfd98",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2018-2019",
+      "description": "Fichier au format GeoJson contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/ffaa7e2c-e002-4332-8ca6-f37acfccfd98/download/depots_deneigement_saison_2018-2019.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-09-16T06:19:33.120612",
+      "created": "2018-10-08T06:19:46.326999",
+      "schema": null
+    },
+    {
+      "id": "9efb1559-452e-4cd4-9d04-b9e1432cc9fc",
+      "name": "Dépôt de neige au format CSV - Saison 2017-2018",
+      "description": "Fichier tabulaire contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/9efb1559-452e-4cd4-9d04-b9e1432cc9fc/download/depots_deneigement_saison_2017-2018.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:47.957737",
+      "created": "2017-12-05T16:29:25.718484",
+      "schema": {
+        "resource_id": "9efb1559-452e-4cd4-9d04-b9e1432cc9fc",
+        "total_records": 32,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 41,
+            "NomDepot": "Saint-Pierre (CDN)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.440517,
+            "Longitude": -73.652528,
+            "VolumeDeverse": 100219.48,
+            "IdentifiantArrondissement": 25,
+            "ArrondissementCode": "CDN",
+            "Arrondissement": "Côte-des-Neiges / Notre-Dame-de-Grâce",
+            "MTM8_X": 292867.4,
+            "MTM8_Y": 5033409.6
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 55,
+            "NomDepot": "Saint-Pierre (LAC)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.467577,
+            "Longitude": -73.598836,
+            "VolumeDeverse": 309906.76,
+            "IdentifiantArrondissement": 15,
+            "ArrondissementCode": "LAC",
+            "Arrondissement": "Lachine",
+            "MTM8_X": 297071.5,
+            "MTM8_Y": 5036410.2
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 56,
+            "NomDepot": "Lausanne (MTN)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.587811,
+            "Longitude": -73.648882,
+            "VolumeDeverse": 121720.42,
+            "IdentifiantArrondissement": 14,
+            "ArrondissementCode": "MTN",
+            "Arrondissement": "Montréal-Nord",
+            "MTM8_X": 293182.9,
+            "MTM8_Y": 5049778
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 35,
+            "NomDepot": "De la Salle (MHM)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.549463,
+            "Longitude": -73.531399,
+            "VolumeDeverse": 505298.84,
+            "IdentifiantArrondissement": 21,
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier / Hochelaga / Maisonneuve",
+            "MTM8_X": 302348.3,
+            "MTM8_Y": 5045506
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 37,
+            "NomDepot": "Fullum (VMA)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "Latitude": 45.524818,
+            "Longitude": -73.545051,
+            "VolumeDeverse": 744375.95,
+            "IdentifiantArrondissement": 18,
+            "ArrondissementCode": "VMA",
+            "Arrondissement": "Ville-Marie",
+            "MTM8_X": 301280.8,
+            "MTM8_Y": 5042767.7
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 32,
+        "total_records": 32,
+        "audited_at": "2026-03-10T00:18:14.064389+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 63.0,
+            "mean": 45.3125,
+            "median": 45.5,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 32,
+            "top_values": [
+              {
+                "value": "Saint-Pierre (CDN)",
+                "count": 1
+              },
+              {
+                "value": "Saint-Pierre (LAC)",
+                "count": 1
+              },
+              {
+                "value": "Lausanne (MTN)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Butler (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Verdun (VER)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 2 (SLA)",
+                "count": 1
+              },
+              {
+                "value": "Riverside (VMA)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 16
+              },
+              {
+                "value": "Entassement",
+                "count": 13
+              },
+              {
+                "value": "Carierre",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3780000.0,
+            "mean": 559117.5,
+            "median": 26775.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 16
+              },
+              {
+                "value": "1500000",
+                "count": 2
+              },
+              {
+                "value": "250000",
+                "count": 1
+              },
+              {
+                "value": "500000",
+                "count": 1
+              },
+              {
+                "value": "200000",
+                "count": 1
+              },
+              {
+                "value": "478210",
+                "count": 1
+              },
+              {
+                "value": "3780000",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              },
+              {
+                "value": "53550",
+                "count": 1
+              },
+              {
+                "value": "345000",
+                "count": 1
+              }
+            ]
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.440517,
+            "max": 45.660361,
+            "mean": 45.523809,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.899178,
+            "max": -73.523766,
+            "mean": -73.636645,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4329.35,
+            "max": 3324166.34,
+            "mean": 574725.685,
+            "median": 311311.845,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 25.0,
+            "mean": 18.0625,
+            "median": 18.5,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "25",
+                "count": 4
+              },
+              {
+                "value": "22",
+                "count": 4
+              },
+              {
+                "value": "13",
+                "count": 4
+              },
+              {
+                "value": "24",
+                "count": 3
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "CDN",
+                "count": 4
+              },
+              {
+                "value": "AHU",
+                "count": 4
+              },
+              {
+                "value": "SLA",
+                "count": 4
+              },
+              {
+                "value": "VSP",
+                "count": 3
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 2
+              },
+              {
+                "value": "MTN",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Côte-des-Neiges / Notre-Dame-de-Grâce",
+                "count": 4
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 4
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 4
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 3
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 2
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 273582.5,
+            "max": 302946.6,
+            "mean": 294123.4719,
+            "median": 294402.3,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5033409.6,
+            "max": 5057830.3,
+            "mean": 5042666.6156,
+            "median": 5042552.05,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "32f123e3-7b27-4158-b1b1-f0953ac75252",
+      "name": "Dépôt de neige au format SHP - Saison 2017-2018",
+      "description": "Fichier compressé contenant le shapefile (ESRI) des dépôts de neige de la Ville. Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: NAD 83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/32f123e3-7b27-4158-b1b1-f0953ac75252/download/depots_deneigement_saison_2017-2018.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:47.388316",
+      "created": "2017-12-05T16:29:25.388902",
+      "schema": null
+    },
+    {
+      "id": "c9b8d6c7-b861-458c-8cb6-afabc5c6b5d8",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2017-2018",
+      "description": "Fichier au format GeoJson contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/c9b8d6c7-b861-458c-8cb6-afabc5c6b5d8/download/depots_deneigement_saison_2017-2018.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-10-01T06:19:47.062465",
+      "created": "2017-12-05T16:29:25.120806",
+      "schema": null
+    },
+    {
+      "id": "befd5280-767d-426a-aa44-c251be20023b",
+      "name": "Dépôt de neige au format CSV - Saison 2016-2017",
+      "description": "Fichier tabulaire contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/befd5280-767d-426a-aa44-c251be20023b/download/depots.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-04-24T17:32:05.636081",
+      "created": "2016-03-14T16:35:28.889047",
+      "schema": {
+        "resource_id": "befd5280-767d-426a-aa44-c251be20023b",
+        "total_records": 28,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantDepot",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NomDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TypeDepot",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Capacite",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VolumeDeverse",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "IdentifiantArrondissement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ArrondissementCode",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "IdentifiantDepot": 27,
+            "NomDepot": "Millen (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "VolumeDeverse": 218149.5,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 2,
+            "IdentifiantDepot": 28,
+            "NomDepot": "Sauvé (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "VolumeDeverse": 152553.99,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 3,
+            "IdentifiantDepot": 30,
+            "NomDepot": "Jules-Poitras 1 (AHU)",
+            "TypeDepot": "Chute_Egout",
+            "Capacite": 0,
+            "VolumeDeverse": 409158.27,
+            "IdentifiantArrondissement": 22,
+            "ArrondissementCode": "AHU",
+            "Arrondissement": "Ahuntsic / Cartierville"
+          },
+          {
+            "_id": 4,
+            "IdentifiantDepot": 31,
+            "NomDepot": "St-Michel - Robert (VSP)",
+            "TypeDepot": "Carierre",
+            "Capacite": 2385000,
+            "VolumeDeverse": 2697500.58,
+            "IdentifiantArrondissement": 24,
+            "ArrondissementCode": "VSP",
+            "Arrondissement": "Villeray / St-Michel / Parc-Extension"
+          },
+          {
+            "_id": 5,
+            "IdentifiantDepot": 34,
+            "NomDepot": "Lafarge (sud) (MHM)",
+            "TypeDepot": "Entassement",
+            "Capacite": 1100000,
+            "VolumeDeverse": 895641.07,
+            "IdentifiantArrondissement": 21,
+            "ArrondissementCode": "MHM",
+            "Arrondissement": "Mercier / Hochelaga / Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "IdentifiantDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NomDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TypeDepot": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Capacite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VolumeDeverse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "IdentifiantArrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ArrondissementCode": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 28,
+        "total_records": 28,
+        "audited_at": "2026-03-10T00:18:14.940639+00:00",
+        "fields": {
+          "IdentifiantDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 27.0,
+            "max": 60.0,
+            "mean": 44.1071,
+            "median": 44.5,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "27",
+                "count": 1
+              },
+              {
+                "value": "28",
+                "count": 1
+              },
+              {
+                "value": "30",
+                "count": 1
+              },
+              {
+                "value": "31",
+                "count": 1
+              },
+              {
+                "value": "34",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "36",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "39",
+                "count": 1
+              },
+              {
+                "value": "40",
+                "count": 1
+              }
+            ]
+          },
+          "NomDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 28,
+            "top_values": [
+              {
+                "value": "Millen (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Sauvé (AHU)",
+                "count": 1
+              },
+              {
+                "value": "Jules-Poitras 1 (AHU)",
+                "count": 1
+              },
+              {
+                "value": "St-Michel - Robert (VSP)",
+                "count": 1
+              },
+              {
+                "value": "Lafarge (sud) (MHM)",
+                "count": 1
+              },
+              {
+                "value": "De la Salle (MHM)",
+                "count": 1
+              },
+              {
+                "value": "Iberville (PMR)",
+                "count": 1
+              },
+              {
+                "value": "Fullum (VMA)",
+                "count": 1
+              },
+              {
+                "value": "Newman (S-O)",
+                "count": 1
+              },
+              {
+                "value": "Anbar (CDN)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "TypeDepot": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Chute_Egout",
+                "count": 15
+              },
+              {
+                "value": "Entassement",
+                "count": 11
+              },
+              {
+                "value": "Carierre",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Capacite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2450000.0,
+            "mean": 429698.2143,
+            "median": 0.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 15
+              },
+              {
+                "value": "2385000",
+                "count": 1
+              },
+              {
+                "value": "1100000",
+                "count": 1
+              },
+              {
+                "value": "375000",
+                "count": 1
+              },
+              {
+                "value": "1500000",
+                "count": 1
+              },
+              {
+                "value": "1400000",
+                "count": 1
+              },
+              {
+                "value": "2450000",
+                "count": 1
+              },
+              {
+                "value": "200000",
+                "count": 1
+              },
+              {
+                "value": "53550",
+                "count": 1
+              },
+              {
+                "value": "478000",
+                "count": 1
+              }
+            ]
+          },
+          "VolumeDeverse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 34427.78,
+            "max": 2697500.58,
+            "mean": 516789.7893,
+            "median": 244648.795,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "218149.5",
+                "count": 1
+              },
+              {
+                "value": "152553.99",
+                "count": 1
+              },
+              {
+                "value": "409158.27",
+                "count": 1
+              },
+              {
+                "value": "2697500.58",
+                "count": 1
+              },
+              {
+                "value": "895641.07",
+                "count": 1
+              },
+              {
+                "value": "419138.87",
+                "count": 1
+              },
+              {
+                "value": "51995.85",
+                "count": 1
+              },
+              {
+                "value": "493233.82",
+                "count": 1
+              },
+              {
+                "value": "315827.49",
+                "count": 1
+              },
+              {
+                "value": "58567.63",
+                "count": 1
+              }
+            ]
+          },
+          "IdentifiantArrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 25.0,
+            "mean": 17.2143,
+            "median": 17.5,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 4
+              },
+              {
+                "value": "22",
+                "count": 3
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "21",
+                "count": 2
+              },
+              {
+                "value": "18",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "25",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 2
+              },
+              {
+                "value": "20",
+                "count": 1
+              }
+            ]
+          },
+          "ArrondissementCode": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "SLA",
+                "count": 4
+              },
+              {
+                "value": "AHU",
+                "count": 3
+              },
+              {
+                "value": "VSP",
+                "count": 2
+              },
+              {
+                "value": "MHM",
+                "count": 2
+              },
+              {
+                "value": "VMA",
+                "count": 2
+              },
+              {
+                "value": "S-O",
+                "count": 2
+              },
+              {
+                "value": "CDN",
+                "count": 2
+              },
+              {
+                "value": "PRF",
+                "count": 2
+              },
+              {
+                "value": "LAC",
+                "count": 2
+              },
+              {
+                "value": "PMR",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 4
+              },
+              {
+                "value": "Ahuntsic / Cartierville",
+                "count": 3
+              },
+              {
+                "value": "Villeray / St-Michel / Parc-Extension",
+                "count": 2
+              },
+              {
+                "value": "Mercier / Hochelaga / Maisonneuve",
+                "count": 2
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 2
+              },
+              {
+                "value": "Côte-des-Neiges / Notre-Dame-de-Grâce",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds / Roxboro",
+                "count": 2
+              },
+              {
+                "value": "Lachine",
+                "count": 2
+              },
+              {
+                "value": "Plateau Mont-Royal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "53b729db-4b33-46fc-97c6-461e1e903ab0",
+      "name": "Dépôt de neige au format SHP - Saison 2016-2017",
+      "description": "Fichier compressé contenant le shapefile (ESRI) des dépôts de neige de la Ville. Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: NAD 83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/53b729db-4b33-46fc-97c6-461e1e903ab0/download/depots-shp.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-04-24T17:34:26.825521",
+      "created": "2017-03-03T10:05:23.198116",
+      "schema": null
+    },
+    {
+      "id": "52957661-5893-4f40-8afd-2e7c98552c7d",
+      "name": "Dépôt de neige au format GeoJSON - Saison 2016-2017",
+      "description": "Fichier au format GeoJson contenant les informations sur les dépôts de neige de la Ville.  Les données sont géolocalisées approximativement aux entrées des sites de dépôt de neige.\r\n\r\nRéférence géographique: WGS 84 (latitude/longitude)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/8a1d7d54-c297-46fe-b670-bb205641b13e/resource/52957661-5893-4f40-8afd-2e7c98552c7d/download/depots.json",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-04-24T17:32:37.638688",
+      "created": "2017-03-03T10:13:19.993972",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Chargement",
+    "Déneigement",
+    "Dépôt",
+    "Neige",
+    "Opération",
+    "SCAEC"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont extraites à partir du système de gestion du transport de la neige utilisé par la Ville de Montréal.  Les opérations de déneigement sont gérées en arrondissement.\n\n### Dictionnaire de données\n\n\n\n- IdentifiantDepot (numérique) : Identifiant unique numérique du site d'élimination de la neige.\n\n- NomDepot (texte) : Nom complet du site d'élimination de la neige.\n\n- \n\n\nTypeDepot (liste de valeurs) : Type de site d'élimination de la neige. Liste de valeurs :\n\n\n- Entassement : Un site de surface sur lequel la neige est déposée.\n\n- Chute_Egout : La neige est envoyée dans le système d'égout de la ville.\n\n- Carierre : La neige est déposée dans une carrière.\n\n\n\n- \n\n\nCapacite (numérique) : Capacité approximative du site d'élimination de la neige en mètres cubes. Pour les chutes à l'égout, la capacité est de 0 puisqu'elles n'ont pas de contraintes au niveau de l'espace de stockage, contrairement aux sites de surface.\n\n\n- volumeDeverse (numérique) :  Volume déversé pour l'année en cours en date de l'extraction (mètre cube).\n\n- IdentifiantArrondissement (numérique) : Identifiant unique numérique de l'arrondissement dans lequel le dépôt est situé.\n\n- ArrondissementCode (texte) : Code de l'arrondissement.\n\n- Arrondissement (texte) : Nom complet de l'arrondissement. \n\n- Latitude (coordonnées spatiales) : Coordonnées (WGS84).\n\n- Longitude (coordonnées spatiales) : Coordonnées (WGS84).\n\n- MTM8_X (coordonnées spatiales) : Coordonnées X (NAD83 MTM8). \n\n- MTM8_Y (coordonnées spatiales) : Coordonnées Y(NAD83 MTM8).\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2016-10-01/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Chargement",
+      "Déneigement",
+      "Dépôt",
+      "Neige",
+      "Opération",
+      "SCAEC"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/depot-neige",
+    "scraped_at": "2026-03-09T19:56:34.646926+00:00"
+  }
+}

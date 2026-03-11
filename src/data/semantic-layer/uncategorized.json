@@ -1,0 +1,3386 @@
+{
+  "category_slug": "uncategorized",
+  "category_name_fr": "Non categorise",
+  "category_name_en": "Uncategorized",
+  "generated_at": "2026-03-09T22:51:34.670945",
+  "dataset_count": 20,
+  "datasets": [
+    {
+      "slug": "vmtl-statistiques-utilisation-site-web-ville-de-montreal",
+      "title_fr": "Statistiques d'utilisation du site web de la Ville de Montréal (montreal.ca)",
+      "title_en": "Statistics D Utilisation Du Site Web De La city De Montral Montrealca",
+      "description_fr": "Ensemble de données contenant la fréquentation du portail Montreal.ca à savoir le nombre de visiteurs et de pages vues par jour de l'année.",
+      "description_en": "Ensemble De Donnes Contenant La Frquentation Du Portail Montrealca Savoir Le Nombre De Visiteurs Et De Pages Vues Par Jour De L Anne",
+      "publisher": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "update_frequency": "daily",
+      "total_records": 2167971,
+      "temporal_range": {
+        "min": "20250101",
+        "max": "20250101"
+      },
+      "methodology_fr": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail Montreal.ca.\n\n### Dictionnaire de données\n\n\n\n- id (Numérique) : Identifiant unique\n\n- date (Date et/ou heure) : Date des visites\n\n- path (Texte variable) : Chemin relatif de la page (segment de l'adresse web suivant le domaine http://donnees.montreal.ca)\n\n- title (Texte variable) : Titre de la page web tel que déclaré dans la balise title\n\n- sessions (Numérique) : Nombre de sessions différentes ayant visité la page path pour la journée date\n\n- pageviews (Numérique) : Nombre d'impression à l'écran pour la page page pour la journée date\n\n- avgSessionDuration (Numérique) : Durée moyenne des sessions\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "date",
+          "clean_name_fr": "Date",
+          "clean_name_en": "Date",
+          "description_fr": "Champ date",
+          "description_en": "Date field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "20250101",
+          "max_date": "20250101",
+          "date_format": "unknown",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "path",
+          "clean_name_fr": "Path",
+          "clean_name_en": "Path",
+          "description_fr": "Champ path",
+          "description_en": "Path field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 958,
+          "top_values": [
+            {
+              "value": "/en/",
+              "count": 4
+            },
+            {
+              "value": "/",
+              "count": 3
+            },
+            {
+              "value": "/articles/espacement-de-la-collecte-des-ordures-menageres-22753",
+              "count": 3
+            },
+            {
+              "value": "/demarches/payer-un-constat-dinfraction",
+              "count": 3
+            },
+            {
+              "value": "/en/how-to/get-details-about-christmas-trees-collections",
+              "count": 3
+            },
+            {
+              "value": "/articles/carte-acces-montreal-offres-et-rabais-exclusifs-5990",
+              "count": 2
+            },
+            {
+              "value": "/articles/permis-doccupation-du-domaine-public-guide-pour-les-titulaires-de-permis-12412",
+              "count": 2
+            },
+            {
+              "value": "/collectes-et-recyclage",
+              "count": 2
+            },
+            {
+              "value": "/demarches",
+              "count": 2
+            },
+            {
+              "value": "/demarches/demander-un-bac-de-recyclage",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "title",
+          "clean_name_fr": "Titre",
+          "clean_name_en": "Title",
+          "description_fr": "Champ titre",
+          "description_en": "Title field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 988,
+          "top_values": [
+            {
+              "value": "欢迎来到 Montréal.ca |蒙特利尔市",
+              "count": 2
+            },
+            {
+              "value": "L'Île-Bizard ̶ Sainte-Geneviève | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Pierrefonds-Roxboro | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Alan DeSousa | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Despina Sourias | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Stephanie Valenzuela | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Participatory budget | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Afternoon Video Games | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Atelier de dessin avec modèle vivant | Ville de Montréal",
+              "count": 2
+            },
+            {
+              "value": "Sabor de mi corazón, chapitre I : Cumbia - Voies | Ville de Montréal",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "sessions",
+          "clean_name_fr": "Sessions",
+          "clean_name_en": "Sessions",
+          "description_fr": "Champ sessions",
+          "description_en": "Sessions field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 1000
+            }
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "pageviews",
+          "clean_name_fr": "Pageviews",
+          "clean_name_en": "Pageviews",
+          "description_fr": "Champ pageviews",
+          "description_en": "Pageviews field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 8,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 609
+            },
+            {
+              "value": "2",
+              "count": 190
+            },
+            {
+              "value": "0",
+              "count": 121
+            },
+            {
+              "value": "3",
+              "count": 59
+            },
+            {
+              "value": "4",
+              "count": 14
+            },
+            {
+              "value": "5",
+              "count": 4
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "8",
+              "count": 1
+            }
+          ],
+          "min": 0.0,
+          "max": 8.0,
+          "mean": 1.264,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "avgSessionDuration",
+          "clean_name_fr": "Ratio",
+          "clean_name_en": "Ratio",
+          "description_fr": "Champ ratio",
+          "description_en": "Ratio field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 859,
+          "min": 0.0,
+          "max": 1842.7778,
+          "mean": 74.0698,
+          "median": 17.0736,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-rsqa-polluants-gazeux",
+      "title_fr": "RSQA - Multi-Polluants (en continu)",
+      "title_en": "Rsqa Multi Polluants En Continu",
+      "description_fr": "Un [réseau de stations de mesure localisées sur l’Île de Montréal](http://donnees.montreal.ca/dataset/rsqa-liste-des-stations) permet la détermination en continu de la concentration atmosphérique de plusieurs polluants.  La transmission des données recueillies s’effectue par télémétrie. Les valeurs disponibles représentent  les concentrations moyennes horaires des polluants mesurés.  Ceux-ci varient selon les différentes stations du Réseau de surveillance de la qualité de l’air (RSQA).",
+      "description_en": "Un Rseau De stations De Mesure Localises Sur Lle De Montralhttpdonneesmontrealcadatasetrsqa list Des stations Permet La Dtermination En Continu De La Concentration Atmosphrique De P",
+      "publisher": "Service de l'environnement",
+      "update_frequency": "irregular",
+      "total_records": 111715,
+      "temporal_range": null,
+      "methodology_fr": "### Notes générales\n\n\n\nLes concentrations sont mesurées par des analyseurs en continu suivant les critères métrologiques des lignes directrices d'assurance et de contrôle de la qualité (AQ-CQ) du programme de surveillance national de la pollution atmosphérique.\n\n\nLes systèmes ne changent pas d’heure: ils utilisent toujours l’heure normale de l’est (HNE) et non l’heure avancée de l’est (HAE). Ainsi, pendant l’heure avancée, il y a un décalage d’une heure dans les données. À titre d’exemple, une mesure enregistrée à 12 HNE est celle de 13h HAE.\n\n### Dictionnaire de données\n\n\n\n- NO_POSTE (Numérique) : Identifiant unique de chaque station RSQA\n\n- DATE_HEURE (Date/Heure) : Horodatage de la mesure\n\n- Pour les fichiers de 1986 à 2012, l'heure fait référence à l'heure de début de la prise de mesure pour la moyenne calculée. Ainsi, 01:00:00 fait référence à la moyenne des mesures entre 01:00:00 et 01:59:59 la même journée.\n\n- Pour les fichiers à partir de 2013, l'heure fait référence à l'heure de fin de la prise de mesure pour la moyenne calculée. Ainsi 02:00:00 fait référence à la moyenne des mesures entre 01:01:00 et 02:00:00 la même journée. Ce changement a été fait pour s'arrimer au Ministère de l'environnement du Québec. \n\n- De plus, pour les fichiers à partir de 2013, la moyenne journalière est calculée de 01:00:00 à 00:00:00 (00:00:00 = 24:00:00).\n\n- CO (Numérique) : Concentration en monoxyde de carbone (exprimée en ppb)\n\n- H2S (Numérique) : Concentration en sulfure d'hydrogène (exprimée en ppb)\n\n- NO (Numérique) : Concentration en monoxyde d'azote (exprimée en ppb)\n\n- NO2 (Numérique) : Concentration en dioxyde d'azote (exprimée en ppb)\n\n- PM2,5 (Numérique) : Concentration en particules fines, diamètre 2,5 microns et moins (exprimée en µg/m3).\n\n- PM10 (Numérique) : Concentration en particules respirables, diamètre 10 microns et moins (exprimée en µg/m3)\n\n- PST (Numérique) : Concentration en particules en suspension totales (exprimée en µg/m3)\n\n- PUF (Numérique) : Concentration en particules ultrafines, diamètre 0.1 microns et moins (exprimée en # particules/cm3)\n\n- O3 (Numérique) : Concentration en ozone (exprimée en ppb)\n\n- SO2 (Numérique) : Concentration en dioxyde de soufre (exprimée en ppb)\n\n- BC1_370nm (Numérique) : Concentration en carbone élémentaire 370nm (exprimée en µg/m3)\n\n- BC6_880nm (Numérique) : Concentration en carbone élémentaire 880nm (exprimée en µg/m3)\n\n- Benzene, Toluene, Ethylbenzene, M-P-Xylene et O-Xylene (Numérique) : Concentration en BTEX (exprimée en µg/m3)  \n\n- COH (Numérique) : Indice de souillure. Concentration des particules fines jusqu'à 3,5 microns de diamètres et leur pourvoir opacifiant sur un filtre révélant la présence de suie dans l'air (exprimée en unités COH (\"coefficient of haze\")/ 1000 pieds(327,8 m) linéaire). Valeur individuelle aux 2h.\n\n\n### Informations complémentaires\n\n\n\nÀ partir de 2017,  BC1_370nm et BC6_880nm sont disponibles tandis que les PUF sont disponibles à partir de 2021.\n\n### Définition des v",
+      "data_quality_score": "C",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "POSTE",
+          "clean_name_fr": "Poste",
+          "clean_name_en": "Poste",
+          "description_fr": "Champ poste",
+          "description_en": "Poste field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 1000
+            }
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "TEMPS",
+          "clean_name_fr": "Temps",
+          "clean_name_en": "Temps",
+          "description_fr": "Champ temps",
+          "description_en": "Temps field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 1000,
+          "top_values": [
+            {
+              "value": "2008-01-01 00:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 01:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 02:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 03:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 04:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 05:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 06:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 07:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 08:00:00.000",
+              "count": 1
+            },
+            {
+              "value": "2008-01-01 09:00:00.000",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CO",
+          "clean_name_fr": "Co",
+          "clean_name_en": "Co",
+          "description_fr": "Champ co",
+          "description_en": "Co field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "H2S",
+          "clean_name_fr": "H2S",
+          "clean_name_en": "H2S",
+          "description_fr": "Champ h2s",
+          "description_en": "H2S field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "NO",
+          "clean_name_fr": "Numero",
+          "clean_name_en": "Number",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 745,
+          "min": 0.0,
+          "max": 154.5833,
+          "mean": 11.6163,
+          "median": 4.175,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NO2",
+          "clean_name_fr": "Numero (NO2)",
+          "clean_name_en": "Number (NO2)",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.1,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 945,
+          "min": 2.0814,
+          "max": 57.3667,
+          "mean": 20.9815,
+          "median": 19.907,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "PM25",
+          "clean_name_fr": "Pm25",
+          "clean_name_en": "Pm25",
+          "description_fr": "Champ pm25",
+          "description_en": "Pm25 field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "O3",
+          "clean_name_fr": "O3",
+          "clean_name_en": "O3",
+          "description_fr": "Champ o3",
+          "description_en": "O3 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 936,
+          "min": 0.0,
+          "max": 36.5417,
+          "mean": 17.4423,
+          "median": 18.1958,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "SO2",
+          "clean_name_fr": "So2",
+          "clean_name_en": "So2",
+          "description_fr": "Champ so2",
+          "description_en": "So2 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 759,
+          "min": 0.1333,
+          "max": 37.925,
+          "mean": 3.1625,
+          "median": 1.9042,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "BENZENE",
+          "clean_name_fr": "Benzene",
+          "clean_name_en": "Benzene",
+          "description_fr": "Champ benzene",
+          "description_en": "Benzene field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "TOLUENE",
+          "clean_name_fr": "Toluene",
+          "clean_name_en": "Toluene",
+          "description_fr": "Champ toluene",
+          "description_en": "Toluene field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "ETHYLBENZENE",
+          "clean_name_fr": "Coordonnee Y (MTM)",
+          "clean_name_en": "Y coordinate (MTM)",
+          "description_fr": "Champ coordonnee y (mtm)",
+          "description_en": "Y coordinate (MTM) field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "MP-Xylene",
+          "clean_name_fr": "Coordonnee X (MTM)",
+          "clean_name_en": "X coordinate (MTM)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        },
+        {
+          "raw_name": "O-Xylene",
+          "clean_name_fr": "Coordonnee X (MTM) (O-Xylene)",
+          "clean_name_en": "X coordinate (MTM) (O-Xylene)",
+          "description_fr": "Champ coordonnee x (mtm)",
+          "description_en": "X coordinate (MTM) field",
+          "type": "all_null",
+          "null_pct": 100.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "warnings_fr": "Champ presque vide (100.0% null)",
+          "warnings_en": "Nearly empty field (100.0% null)"
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-developpement-projete-du-reseau-de-voies-reservees-et-des-corridors-de-mobilite-durable",
+      "title_fr": "Développement projeté du réseau de voies réservées et des corridors de mobilité durable (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Dveloppement Projet Du Rseau De Voies Rserves Et Des Corridors De Mobilit Durable Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente le développement projeté du réseau de voies réservées et des corridors de mobilité durable pour 2050 et qui apparaît à la carte 2-5 du Plan d'urbanisme et de mobilité 2050 (PUM).\r\n\r\nLe réseau de voies réservées au transport collectif constitue l’une des mesures préférentielles pour bus, au même titre que les feux prioritaires intelligents. Il permet d’accroître la performance du réseau de surface et d’assurer un maillage efficace entre les dessertes locales et le réseau structurant. Bien qu’il soit complémentaire au réseau de transport collectif structurant, une redondance peut être observée avec les développements projetés pour certains axes à l’étude. Cette situation est liée au fait que l’aménagement d’une voie réservée peut précéder, dans une logique séquentielle, l’implantation à moyen ou long terme d’un mode structurant sur un axe donné. De même, dans l’éventualité où les caractéristiques de la rue poseraient des enjeux d‘aménagement pour l’implan",
+      "description_en": "Cet Ensemble De Donnes Prsente Le Dveloppement Projet Du Rseau De Voies Rserves Et Des Corridors De Mobilit Durable Pour 2050 Et Qui Apparat La map 2 5 Du Plan D Urbanisme Et De Mobilit",
+      "publisher": "Service de l'urbanisme et de la mobilité",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "### Voie réservée à l'étude\n\n\n\nCette donnée ne reflète pas le positionnement du réseau de voies réservées au mètre exact, elle vise à représenter le réseau projeté, certains tracés sont plus approximatifs que d'autres.\n\n### Corridor de mobilité durable\n\n\n\nCette donnée ne reflète pas le positionnement du réseau de corridors de mobilité durable au mètre exact, elle vise à représenter le réseau projeté, certains tracés sont plus approximatifs que d'autres. Les champs ID_CYCL et ID_TRC permettent d'associés, lorsque disponibles, une portion de corridor au tronçon du réseau cyclable ou de la géobase.\n\n\nRéférence spatiale : NAD83 (CSRS) / MTM zone 8 / EPSG:2950\n\n### Dictionnaire de données\n\n\n## Voie réservée à l'étude (PUM 2050)\n\n\n\n- Shape (Texte) : Polyline. Type de donnée (géométrie).\n\n- Shape_Leng (Numérique) : [360,548792931 à 9704,7934606] Longueur en mètres de la polyligne.\n\n\n## Corridor de mobilité durable (PUM 2050)\n\n\n\n- Shape (Texte) : Polyline. Type de donnée (géométrie).\n\n- ID_CYCL (Numérique) : Multiple. Numéro unique de voie cyclable.\n\n- ID_TRC (Numérique) : Identifiant de la géobase si disponible.\n\n- Shape_Leng (Numérique) :    [5,44893567633 à 7827,36218358] Longueur en mètres de la polyligne.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-limite-des-societes-de-developpement-commercial-sdc",
+      "title_fr": "Limite des sociétés de développement commercial (SDC)",
+      "title_en": "Boundary Des Socits De Dveloppement Commercial Sdc",
+      "description_fr": "Polygones des limites des sociétés de développement commercial (SDC) présentent sur le territoire de la Ville de Montréal. \r\n\r\nLes [sociétés de développement commercial (SDC)](https://montreal.ca/sujets/societes-de-developpement-commercial) sont des organismes sans but lucratif qui contribuent au développement économique et à la mise en valeur des artères commerciales dans un secteur donné. Une SDC regroupe les commerces, les entreprises de service et les bureaux professionnels d’un territoire déterminé. La Ville de Montréal compte 26 SDC réparties sur son territoire. Toutes les entreprises situées dans le district d'une SDC sont automatiquement membres de celle-ci. Une cotisation est obligatoire en fonction du budget adopté par la SDC annuellement. Cette cotisation permet d'assurer le maintien de la SDC qui peut à son tour organiser des activités, des événements et réaliser des projets ayant pour objectif, notamment, le développement social, culturel et économique.",
+      "description_en": "Polygones Des boundaries Des Socits De Dveloppement Commercial Sdc Prsentent Sur Le Territoire De La city De Montral Les Socits De Dveloppement Commercial Sdchttpsmontrealcasuje",
+      "publisher": "Service du développement économique",
+      "update_frequency": "asNeeded",
+      "total_records": 27,
+      "temporal_range": null,
+      "methodology_fr": "Les limites des SDC ont été constituées en référence au système NAD 83 MTM Zone 8. \n\n### Dictionnaire de données\n\n\n\n- ID (entier) : Identifiant unique de la SDC.\n\n- NOM_SDC (texte variable) : Nom de la SDC.\n\n- ARRONDISSEMENT (texte variable) : Nom de l'arrondissement où est située la SDC.\n\n- SITE_WEB (texte variable) : Lien vers le site Web de la SDC.\n\n- ANNÉE_CRÉATION (entier) : Année de création de la SDC.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "SHP",
+        "GPKG",
+        "GEOJSON",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "ID",
+          "clean_name_fr": "Identifiant",
+          "clean_name_en": "Identifier",
+          "description_fr": "Champ identifiant",
+          "description_en": "Identifier field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 27,
+          "top_values": [
+            {
+              "value": "15",
+              "count": 1
+            },
+            {
+              "value": "4",
+              "count": 1
+            },
+            {
+              "value": "5",
+              "count": 1
+            },
+            {
+              "value": "6",
+              "count": 1
+            },
+            {
+              "value": "3",
+              "count": 1
+            },
+            {
+              "value": "1",
+              "count": 1
+            },
+            {
+              "value": "11",
+              "count": 1
+            },
+            {
+              "value": "9",
+              "count": 1
+            },
+            {
+              "value": "13",
+              "count": 1
+            },
+            {
+              "value": "14",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 27.0,
+          "mean": 14.0,
+          "median": 14.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NOM",
+          "clean_name_fr": "Nom",
+          "clean_name_en": "Name",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 27,
+          "top_values": [
+            {
+              "value": "SDC Petite-Italie - Marché Jean-Talon",
+              "count": 1
+            },
+            {
+              "value": "SDC Hochelaga-Maisonneuve (Ontario)",
+              "count": 1
+            },
+            {
+              "value": "SDC Hochelaga-Maisonneuve (Ste-Catherine)",
+              "count": 1
+            },
+            {
+              "value": "SDC L'Avenue du Mont-Royal",
+              "count": 1
+            },
+            {
+              "value": "SDC Promenade Masson",
+              "count": 1
+            },
+            {
+              "value": "SDC Plaza Saint-Hubert",
+              "count": 1
+            },
+            {
+              "value": "SDC Promenade Wellington",
+              "count": 1
+            },
+            {
+              "value": "SDC Quartier Latin",
+              "count": 1
+            },
+            {
+              "value": "SDC Village Montréal",
+              "count": 1
+            },
+            {
+              "value": "SDC Jean-Talon Est",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 13,
+          "top_values": [
+            {
+              "value": "Le Plateau-Mont-Royal",
+              "count": 4
+            },
+            {
+              "value": "Ville-Marie",
+              "count": 4
+            },
+            {
+              "value": "Ahuntsic - Cartierville",
+              "count": 4
+            },
+            {
+              "value": "Rosemont - La Petite-Patrie",
+              "count": 3
+            },
+            {
+              "value": "Le Sud-Ouest",
+              "count": 3
+            },
+            {
+              "value": "Mercier - Hochelaga-Maisonneuve",
+              "count": 2
+            },
+            {
+              "value": "Verdun",
+              "count": 1
+            },
+            {
+              "value": "Saint-Léonard",
+              "count": 1
+            },
+            {
+              "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+              "count": 1
+            },
+            {
+              "value": "Villeray - Saint-Michel - Parc-Extension",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Site Web",
+          "clean_name_fr": "Site Web",
+          "clean_name_en": "Site Web",
+          "description_fr": "Champ site web",
+          "description_en": "Site Web field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 25,
+          "top_values": [
+            {
+              "value": "https://hochelaga.ca/",
+              "count": 2
+            },
+            {
+              "value": "https://laurierouest.com/",
+              "count": 2
+            },
+            {
+              "value": "https://www.petiteitalie.com/",
+              "count": 1
+            },
+            {
+              "value": "https://www.mont-royal.net/",
+              "count": 1
+            },
+            {
+              "value": "https://www.promenademasson.com/fr/",
+              "count": 1
+            },
+            {
+              "value": "https://plazasthubert.com/",
+              "count": 1
+            },
+            {
+              "value": "https://www.promenadewellington.com/fr/",
+              "count": 1
+            },
+            {
+              "value": "https://quartierlatin.ca/",
+              "count": 1
+            },
+            {
+              "value": "https://www.villagemontreal.ca/",
+              "count": 1
+            },
+            {
+              "value": "https://www.jeantalonest.com/",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Annee creation",
+          "clean_name_fr": "Annee Creation",
+          "clean_name_en": "Year Creation",
+          "description_fr": "Champ annee",
+          "description_en": "Year field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field"
+      ],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-bilan-mensuel-criminalite",
+      "title_fr": "Bilan mensuel sur la criminalité",
+      "title_en": "Report Mensuel Sur La Criminalit",
+      "description_fr": "Le bilan mensuel sur la criminalité produit par le Service de police de la Ville de Montréal (SPVM) offre un outil de visualisation des statistiques. Celles-ci sont présentées par mois, par année ainsi que par grand groupe et sous-groupe d’infractions criminelles. De plus, il est possible d’obtenir les statistiques présentées dans ce jeu de données sous la forme de tableau..",
+      "description_en": "Le report Mensuel Sur La Criminalit Produit Par Le Service De police De La city De Montral Spvm Offre Un Outil De Visualisation Des statistics Celles Ci Sont Prsentes Par Mois Par Anne Ains",
+      "publisher": "Service de police de la Ville de Montréal",
+      "update_frequency": "monthly",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Les statistiques criminelles présentées dans les quatre onglets proviennent d’une extraction réalisée par le Service des technologies de l’information (STI), à partir du système de gestion de dossiers M-IRIS.  Ces données sont ensuite compilées par la Section du soutien à l’information policière et archives, relevant de la Division de l’information policière du SPVM. \n\n\nLes infractions dont le statut est « annulé » ou « non fondé » sont exclues des statistiques. Conformément aux règles de la Déclaration uniforme de la criminalité (DUC) de Statistique Canada, seule l’infraction la plus grave de chaque événement est comptabilisée. Par ailleurs, les crimes contre la personne sont comptabilisés à partir du nombre de victimes.\n\n\nLes statistiques présentées par poste de quartier tiennent en compte la récente fusion du poste 22 avec le poste 21. À des fins de comparaison annuelle, cette fusion a également été appliquée rétroactivement aux résultats des années antérieures. De plus, les infractions auparavant associées au poste 55, lié à l’aéroport de Montréal et qui n’est plus sous la responsabilité du SPVM, ont été regroupées sous le poste de quartier 5 pour l’ensemble des années. \n\n\nBien que le PDQ 50 soit attitré au réseau du métro de Montréal, les statistiques associées à celui-ci ne reflètent pas toute la criminalité qui s'y produit. En effet, plusieurs événements sont attribués aux postes de quartier qui comptent une station de métro sur leur",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "PDF",
+        "CSV"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Donnees archivees - ne sont plus mises a jour"
+      ],
+      "warnings_en": [
+        "Archived data - no longer updated"
+      ]
+    },
+    {
+      "slug": "vmtl-commande-sh-recensement-2021",
+      "title_fr": "Commande personnalisée du recensement 2021 du Service de l'habitation",
+      "title_en": "Commande Personnalise Du census 2021 Du Service De L Habitation",
+      "description_fr": "Cet ensemble de données présente les données du recensement de la population de 2021 partagées par Statistique Canada à la Ville de Montréal dans le cadre d'une commande de données réalisée par le Service de l’habitation. \r\n\r\nLa Division stratégies et politiques du Service de l’habitation a également produit une série de profils des ménages et des logements à partir de ces données afin d’offrir une analyse approfondie des dimensions liées à l’habitation par arrondissement et pour l’ensemble de l’agglomération.  \r\n\r\n- [Profils des ménages et des logements](https://donnees.montreal.ca/fr/dataset/profils-menages-logements)\r\n\r\n**Important :** Les données sont disponibles sous la licence ouverte de Statistique Canada. Pour connaître les conditions d'utilisation, veuillez consulter la licence disponible sur le site de Statistique Canada. Lors de la réutilisation des données, il est important de citer la source (Recensement 2021 de Statistique Canada) et de mentionner que le produit est issu ",
+      "description_en": "Cet Ensemble De Donnes Prsente Les Donnes Du census De La population De 2021 Partages Par Statistique Canada La city De Montral Dans Le Cadre D Une Commande De Donnes Ralise Par Le Ser",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "notPlanned",
+      "total_records": 91,
+      "temporal_range": null,
+      "methodology_fr": "Cet ensemble de données contient plusieurs fichiers tels que partagés avec la Ville de Montréal par Statistique Canada. Les données permettent d'effectuer des analyses sur les ménages à différentes échelles géographiques et dans une perspective d'analyse différenciée par les sexes (ADS+). \n\n\nLes tableaux ont été nommés en fonction du sujet qu'ils abordent et de la plus petite unité géographique qu'ils contiennent. \n\n\nAfin de consulter les données et effectuer des croisements de variables, il est conseillé de télécharger et ouvrir les fichiers avec le logiciel **Beyond 20/20**. Ce dernier est disponible gratuitement sur le site de Statistique Canada. \n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "C",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "IVT",
+        "PNG",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "Num Quartier",
+          "clean_name_fr": "Quartier",
+          "clean_name_en": "Neighbourhood",
+          "description_fr": "Champ quartier",
+          "description_en": "Neighbourhood field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 88,
+          "min": 1.0,
+          "max": 93.0,
+          "mean": 45.4659,
+          "median": 44.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Nom Quartier",
+          "clean_name_fr": "Quartier (Nom Quartier)",
+          "clean_name_en": "Neighbourhood (Nom Quartier)",
+          "description_fr": "Champ quartier",
+          "description_en": "Neighbourhood field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 91,
+          "top_values": [
+            {
+              "value": "Cartierville",
+              "count": 1
+            },
+            {
+              "value": "Nouveau-Bordeaux",
+              "count": 1
+            },
+            {
+              "value": "Nicolas-Viel",
+              "count": 1
+            },
+            {
+              "value": "Sault-au-Récollet",
+              "count": 1
+            },
+            {
+              "value": "Saint-Sulpice",
+              "count": 1
+            },
+            {
+              "value": "La Visitation",
+              "count": 1
+            },
+            {
+              "value": "Sainte-Lucie",
+              "count": 1
+            },
+            {
+              "value": "René-Goupil",
+              "count": 1
+            },
+            {
+              "value": "Gabriel-Sagard",
+              "count": 1
+            },
+            {
+              "value": "François-Perrault",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Num Arr",
+          "clean_name_fr": "Num Arr",
+          "clean_name_en": "Num Borough",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 15.4,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 19,
+          "top_values": [
+            {
+              "value": "22",
+              "count": 9
+            },
+            {
+              "value": "25",
+              "count": 7
+            },
+            {
+              "value": "24",
+              "count": 7
+            },
+            {
+              "value": "34",
+              "count": 7
+            },
+            {
+              "value": "23",
+              "count": 6
+            },
+            {
+              "value": "21",
+              "count": 6
+            },
+            {
+              "value": "20",
+              "count": 5
+            },
+            {
+              "value": "15",
+              "count": 5
+            },
+            {
+              "value": "19",
+              "count": 4
+            },
+            {
+              "value": "16",
+              "count": 4
+            }
+          ],
+          "min": 5.0,
+          "max": 34.0,
+          "mean": 22.2987,
+          "median": 22.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Nom Arr",
+          "clean_name_fr": "Nom Arr",
+          "clean_name_en": "Name Borough",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "category",
+          "null_pct": 15.4,
+          "quality": "usable",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 19,
+          "top_values": [
+            {
+              "value": "Mercier-Hochelaga-Maisonneuve",
+              "count": 9
+            },
+            {
+              "value": "Villeray-Saint-Michel-Parc Extension",
+              "count": 7
+            },
+            {
+              "value": "Rosemont-La Petite-Patrie",
+              "count": 7
+            },
+            {
+              "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+              "count": 7
+            },
+            {
+              "value": "Ahuntsic-Cartierville",
+              "count": 6
+            },
+            {
+              "value": "Plateau-Mont-Royal",
+              "count": 6
+            },
+            {
+              "value": "Sud-Ouest",
+              "count": 5
+            },
+            {
+              "value": "Saint-Laurent",
+              "count": 5
+            },
+            {
+              "value": "Ville-Marie",
+              "count": 4
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 4
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "nom_mun",
+          "clean_name_fr": "Nom Mun",
+          "clean_name_en": "Name Mun",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 15,
+          "top_values": [
+            {
+              "value": "Montréal",
+              "count": 77
+            },
+            {
+              "value": "Montréal-Est",
+              "count": 1
+            },
+            {
+              "value": "Westmount",
+              "count": 1
+            },
+            {
+              "value": "Hampstead",
+              "count": 1
+            },
+            {
+              "value": "Côte-Saint-Luc",
+              "count": 1
+            },
+            {
+              "value": "Montréal-Ouest",
+              "count": 1
+            },
+            {
+              "value": "Dorval",
+              "count": 1
+            },
+            {
+              "value": "Pointe-Claire",
+              "count": 1
+            },
+            {
+              "value": "Beaconsfield",
+              "count": 1
+            },
+            {
+              "value": "Baie-D'Urfé",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-niveaux-intensification-urbaine-densite-affectation-sol-pum-2050",
+      "title_fr": "Niveaux d'intensification urbaine, seuils minimaux moyens de densité nette et affectation du sol (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Niveaux D Intensification Urbaine Seuils Minimaux Moyens De Densit Nette Et Affectation Du Sol Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "####  &nbsp;\r\nCet ensemble de données contient les informations apparaissant aux cartes 2-10 – Niveaux d'intensification urbaine, 2-11 – Seuils minimaux moyens de densité nette, 5-1 – Affectations du sol et 5-3 – Affectations du sol « Espace vert local » du Plan d'urbanisme et de mobilité 2050 (PUM). Celles-ci traduisent comment la Ville de Montréal entend utiliser et permettre une intensification urbaine des diverses parties de son territoire sur la base de la vision, des orientations et des objectifs qu’elle s’est donnés. Des extraits de ces cartes par arrondissement sont présentés à l'annexe 5 du [PUM](https://montreal.ca/articles/plan-durbanisme-et-de-mobilite-2050-72130).\r\n####  &nbsp;\r\nLes données liées à ces trois cartes font partie d'un même ensemble de données, l’intensification urbaine et les seuils minimaux moyens de densité en logements par hectare nette s’appliquant seulement dans les affectations résidentielle et mixte.\r\n####  &nbsp;\r\nLa carte 2-10 – Niveaux d'intensifica",
+      "description_en": "Nbsp Cet Ensemble De Donnes Contient Les Informations Apparaissant Aux maps 2 10 Niveaux D Intensification Urbaine 2 11 Seuils Minimaux Moyens De Densit Nette 5 1 Affectations Du",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction de l'urbanisme",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Les polygones des affectations du sol ont été délimités en grande partie en fonction des polygones des affectations du Schéma d’aménagement et de développement de l’agglomération de Montréal (Schéma), le PUM doit demeurer conforme aux objectifs du Schéma et aux dispositions de son document complémentaire. Ce document de planification qui édicte les grandes affectations du",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    },
+    {
+      "slug": "vmtl-mesure-harmonisee-delais-delivrance-permis",
+      "title_fr": "Mesure harmonisée des délais de délivrance de permis",
+      "title_en": "Mesure Harmonise Des Dlais De Dlivrance De permits",
+      "description_fr": "Données trimestrielles sur la mesure harmonisée des délais de délivrance de permis",
+      "description_en": "Donnes Trimestrielles Sur La Mesure Harmonise Des Dlais De Dlivrance De permits",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "quarterly",
+      "total_records": 256,
+      "temporal_range": {
+        "min": "2024-11-05",
+        "max": "2025-12-22"
+      },
+      "methodology_fr": "Les données compilées dans ce tableau concernent le délai de traitement des permis. Elles résultent de l’implantation d’une procédure harmonisée concernant les étapes de prise en charge et de suspension de l’étude des demandes. Cette procédure harmonisée permet un calcul des délais dont les résultats sont comparables entre les arrondissements. \n\n\nLe délai est calculé en jour ouvrable. \n\n\nLes jours pendant lesquels l’étude de la demande a été suspendue sont exclues. La demande est suspendue lorsqu’un un paiement, une information où un correctif sont attendus de la part de la personne qui l’a déposée. \n\n\nL’approbation d’un plan d’implantation et d’intégration architecturale (PIIA) est comptabilisée dans les délais de traitement du permis, incluant si elle est effectuée en amont de l’ouverture de la demande de permis.  \n\n\nLa procédure se déploie progressivement. Les données actuelles concernent les phases ci-dessous. \n\n\nPHASE 1 : permis résidentiels ajoutant un logement, peu importe la nature des travaux (construction ou transformation), et qui ne demandent pas d’autorisation réglementaire en urbanisme préalable et qui ne découlent pas de la démolition d’un immeuble ou d’une opération cadastrale. Un délai cible de 120 jours s’applique à ces demandes. \n\n\nCollecte et gestion des données \n\n\nLes données sont saisies par les arrondissements lors de l’étude des permis. Elles sont compilées et traitées de manière centralisée. \n\n## Dictionnaire de données\n\n\n\n- \n\n\n**Arrondissement** (texte variable) : Arrondissement concerné par le permis. \n\n\n- \n\n\n**Type de bâtiment** (texte variable) : Type du bâtiment concerné par le permis. \n\n\n- \n\n\n**+/-120 jours ** (liste de valeurs) : Indicateur : le permis a-t-il été émis en plus ou moins de 120 jours? \n\n\n- \n\n\n+120 jours \n\n\n- \n\n\n-120 jours : 120 jours ou moins \n\n\n\n\n- \n\n\n**Numéro de demande **(numérique) : Numéro de demande d'un permis \n\n\n- \n\n\n**Numéro de permis** (numérique) : Numéro du permis \n\n\n- \n\n\n**Type de demande** (texte variable) : Description de la demande concernée par le permis. \n\n\n- \n\n\n**Date d'ouverture de la demande** (date) : Date début de la demande \n\n\n- \n\n\n**Indicateur PIIA** (liste de valeurs) : Indicateur : le permis concerné est-il visé par un plan d’implantation et d’intégration architecturale (PIIA) ? \n\n\n- Sans PIIA \n\n- Avec PIIA \n\n\n\n- \n\n\n**Numéro Dossier PIIA** (numérique) : Numéro de la requête PIIA, dans les cas où une telle requête est créée \n\n\n- \n\n\n**Numéro civique **(numérique) : Numéro civique du bâtiment concerné par le permis \n\n\n- \n\n\n**Adresse** (texte variable) : Adresse complète du bâtiment concerné par le permis \n\n\n- \n\n\n**Numéro d'unité d'évaluation foncière (UEF) **(numérique) : Numéro d'unité d'évaluation foncière du bâtiment concerné par le permis  \n\n\n- \n\n\n**Date émission permis** (date) : Date d'émission du permis. \n\n\n- \n\n\n**Description du permis** (texte variable) : Description des travaux visés par le permis \n\n\n- \n\n\n**Projet démol. **(liste de valeurs) : Indicateur : est-ce que l",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "Arrondissement",
+          "clean_name_fr": "Arrondissement",
+          "clean_name_en": "Borough",
+          "description_fr": "Champ arrondissement",
+          "description_en": "Borough field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 18,
+          "top_values": [
+            {
+              "value": "Ahuntsic - Cartierville",
+              "count": 27
+            },
+            {
+              "value": "Mercier - Hochelaga-Maisonneuve",
+              "count": 25
+            },
+            {
+              "value": "Le Plateau-Mont-Royal",
+              "count": 24
+            },
+            {
+              "value": "LaSalle",
+              "count": 24
+            },
+            {
+              "value": "Rosemont - La Petite-Patrie",
+              "count": 21
+            },
+            {
+              "value": "Villeray - Saint-Michel - Parc-Extension",
+              "count": 21
+            },
+            {
+              "value": "Montréal-Nord",
+              "count": 21
+            },
+            {
+              "value": "Anjou",
+              "count": 19
+            },
+            {
+              "value": "Saint-Léonard",
+              "count": 15
+            },
+            {
+              "value": "Saint-Laurent",
+              "count": 15
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Type de batiment",
+          "clean_name_fr": "Type De Batiment",
+          "clean_name_en": "Type De Building",
+          "description_fr": "Champ type",
+          "description_en": "Type field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "+/-120 jours",
+          "clean_name_fr": "120 Jours",
+          "clean_name_en": "120 Jours",
+          "description_fr": "Champ jour",
+          "description_en": "Day field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "Numero de demande",
+          "clean_name_fr": "Numero De Demande",
+          "clean_name_en": "No. De Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 256,
+          "min": 3003481581.0,
+          "max": 3003622106.0,
+          "mean": 3003543738.4883,
+          "median": 3003537212.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Numero de permis",
+          "clean_name_fr": "Numero De Permis",
+          "clean_name_en": "No. De Permit",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 256,
+          "min": 3001796293.0,
+          "max": 3001902983.0,
+          "mean": 3001862091.6914,
+          "median": 3001864244.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Type de demande",
+          "clean_name_fr": "Type De Demande",
+          "clean_name_en": "Type De Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 22,
+          "top_values": [
+            {
+              "value": "Transformation",
+              "count": 143
+            },
+            {
+              "value": "LS - Logement sous-sol",
+              "count": 21
+            },
+            {
+              "value": "Transformation combinée",
+              "count": 12
+            },
+            {
+              "value": "T4-Transfo.int/ext (sans PIIA)",
+              "count": 10
+            },
+            {
+              "value": "Construction",
+              "count": 10
+            },
+            {
+              "value": "TR Transformations Intérieures",
+              "count": 9
+            },
+            {
+              "value": "Travaux intérieurs",
+              "count": 8
+            },
+            {
+              "value": "T4:Transf. int. RBQ/NEXEMP",
+              "count": 8
+            },
+            {
+              "value": "Travaux d'agrandissement",
+              "count": 5
+            },
+            {
+              "value": "Construction bât.principal",
+              "count": 4
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Date d'ouverture de la demande",
+          "clean_name_fr": "Date D Ouverture De La Demande",
+          "clean_name_en": "Date D Ouverture De La Application",
+          "description_fr": "Champ demande",
+          "description_en": "Request field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2024-11-05",
+          "max_date": "2025-11-25",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Indicateur PIIA",
+          "clean_name_fr": "Indicateur Piia",
+          "clean_name_en": "Indicateur Piia",
+          "description_fr": "Champ indicateur piia",
+          "description_en": "Indicateur Piia field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Sans PIIA",
+              "count": 230
+            },
+            {
+              "value": "Avec PIIA",
+              "count": 26
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Numero Dossier PIIA",
+          "clean_name_fr": "Numero Dossier Piia",
+          "clean_name_en": "No. Dossier Piia",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 10,
+          "top_values": [
+            {
+              "value": "-",
+              "count": 247
+            },
+            {
+              "value": "2258238004",
+              "count": 1
+            },
+            {
+              "value": "3003507307",
+              "count": 1
+            },
+            {
+              "value": "3003564671",
+              "count": 1
+            },
+            {
+              "value": "3003245347",
+              "count": 1
+            },
+            {
+              "value": "DB258208007",
+              "count": 1
+            },
+            {
+              "value": "3003504844",
+              "count": 1
+            },
+            {
+              "value": "CA24 28 058",
+              "count": 1
+            },
+            {
+              "value": "3003524728",
+              "count": 1
+            },
+            {
+              "value": "3003529343",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Numero civique",
+          "clean_name_fr": "Numero civique",
+          "clean_name_en": "Civic number",
+          "description_fr": "Champ numero civique",
+          "description_en": "Civic number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 246,
+          "min": 3.0,
+          "max": 12405.0,
+          "mean": 5424.6641,
+          "median": 5732.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Adresse",
+          "clean_name_fr": "Adresse",
+          "clean_name_en": "Address",
+          "description_fr": "Champ adresse",
+          "description_en": "Address field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 255,
+          "top_values": [
+            {
+              "value": "424 à 426A, boulevard Saint-Joseph Est, 4840 à 4846, rue Rivard",
+              "count": 2
+            },
+            {
+              "value": "6527, rue Saint-Hubert",
+              "count": 1
+            },
+            {
+              "value": "8180, rue Saint-Hubert",
+              "count": 1
+            },
+            {
+              "value": "6300, 24e Avenue",
+              "count": 1
+            },
+            {
+              "value": "518, avenue Mercier",
+              "count": 1
+            },
+            {
+              "value": "8134, Rue Saint-Denis",
+              "count": 1
+            },
+            {
+              "value": "1403, rue Dézéry",
+              "count": 1
+            },
+            {
+              "value": "7163-7165, rue Hurteau",
+              "count": 1
+            },
+            {
+              "value": "2544, Rue Saint-Zotique Est et  6700 et 6702, Molson",
+              "count": 1
+            },
+            {
+              "value": "1131, rue Saint-Zotique Est",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Numero d'unite d'evaluation fonciere (UEF)",
+          "clean_name_fr": "Numero D Unite D Evaluation Fonciere Ue",
+          "clean_name_en": "No. D Unit D Assessment Property Ue",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 255,
+          "min": 1002401.0,
+          "max": 5309835.0,
+          "mean": 2663337.4922,
+          "median": 2090463.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Date emission permis",
+          "clean_name_fr": "Date Emission Permis",
+          "clean_name_en": "Date Issuance Permit",
+          "description_fr": "Champ permis",
+          "description_en": "Permit field",
+          "type": "date",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "date",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "line",
+            "area",
+            "table"
+          ],
+          "min_date": "2024-12-06",
+          "max_date": "2025-12-22",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Description du permis",
+          "clean_name_fr": "Description Du Permis",
+          "clean_name_en": "Description Du Permit",
+          "description_fr": "Champ description",
+          "description_en": "Description field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 255,
+          "top_values": [
+            {
+              "value": "Réfection de la toiture",
+              "count": 2
+            },
+            {
+              "value": "Au 2e étage, aménager 2 logements, sans travaux de structure. Tel que documents approuvés.",
+              "count": 1
+            },
+            {
+              "value": "AU NIVEAU DU RDC, RÉAMÉNAGER L'AIRE DE PLANCHER DU LOCAL COMMERCIAL (8180) AFIN DE CONVERTIR L'ESPACE EN LOGEMENT. EN FAÇADE, RETIRER LES ENSEIGNES ET REMPLACER LES PORTES ET FENÊTRES DU RDC DANS LES MÊMES OUVERTURES, AU MUR ARRIÈRE AGRANDIR UNE FENÊTRE. LE TOUT TEL QUE SUR LES PLANS SOUSMIS.",
+              "count": 1
+            },
+            {
+              "value": "Construire un nouveau bâtiment de deux logements sur deux étages + mezzanine, tels que documents approuvés",
+              "count": 1
+            },
+            {
+              "value": "En façade, ajout d'une cour anglaise + ajout d'une porte + au sous-sol, réaménagement intérieur pour l'ajout d'un logement.",
+              "count": 1
+            },
+            {
+              "value": "AU RDC ET AU SOUS-SOL, CONVERTIR LE LOCAL (8134) COMMERCIAL EXISTANT EN UN LOGEMENT. EN FAÇADE AU RDC, DÉMOLIR LE PORTIQUE DE VERRE, REMPLACER LE REVÊTEMENT PAR DE LA BRIQUE ET MODIFIER LES OUVERTURES. EFFECTUER UN RÉAMÉNAGEMENT PAYSAGER DU TERRAIN. LE TOUT TEL QUE DOCUMENTS SOUMIS.",
+              "count": 1
+            },
+            {
+              "value": "Façades St-Joseph & Rivard, remplacer totalité portes & fenêtres (conserver & intégrer vitraux) par guillotines 60-40. Au toit, ajouter édicule d'escalier, revêt. tôle d'acier MS-1, Mac Métal + brique Modular 661 Smooth, terrasse 34 m² et équipements mécaniques. Face Rivard, enlever 2 portes de garage, refaire mur et intégrer soupirail. SS et RC, aménager 1 log. sur 2 niveaux.",
+              "count": 1
+            },
+            {
+              "value": "Au RDC, conversation du local commercial en logement. Aucun travaux à la cave autorisée. Le tout tel que plans.",
+              "count": 1
+            },
+            {
+              "value": "Sur le coté latéral droit du bâtiment, démolir et reconstruire le garage avec un agrandissement en aire de plancher et en aire du bâtiment sur 2 étages. Ajout d'un nouveau logement au dessus du garage.Travaux de structure. Modification des façades.Sur le coté gauche retrait de L'escalier et du balcon.Trav. mineurs à l'intérieur du Logemt. existant.",
+              "count": 1
+            },
+            {
+              "value": "Face à Molson, Agrandir le bâtiment au sol et sur 3 étages afin d'y ajouter de 2 logements. Tel que documents approuvés.",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Projet demol.",
+          "clean_name_fr": "Projet",
+          "clean_name_en": "Project",
+          "description_fr": "Champ projet",
+          "description_en": "Project field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Operation cadastrale",
+          "clean_name_fr": "Ratio",
+          "clean_name_en": "Ratio",
+          "description_fr": "Champ ratio",
+          "description_en": "Ratio field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Usage conditionnel",
+          "clean_name_fr": "Usage Conditionnel",
+          "clean_name_en": "Usage Conditionnel",
+          "description_fr": "Champ usage conditionnel",
+          "description_en": "Usage Conditionnel field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Derogation mineure",
+          "clean_name_fr": "Derogation Mineure",
+          "clean_name_en": "Derogation Mineure",
+          "description_fr": "Champ derogation mineure",
+          "description_en": "Derogation Mineure field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "PPCMOI",
+          "clean_name_fr": "Ppcmoi",
+          "clean_name_en": "Ppcmoi",
+          "description_fr": "Champ ppcmoi",
+          "description_en": "Ppcmoi field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Zonage incitatif",
+          "clean_name_fr": "Zonage Incitatif",
+          "clean_name_en": "Zonage Incitatif",
+          "description_fr": "Champ zonage incitatif",
+          "description_en": "Zonage Incitatif field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Article 89",
+          "clean_name_fr": "Article 89",
+          "clean_name_en": "Article 89",
+          "description_fr": "Champ article 89",
+          "description_en": "Article 89 field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Article 93",
+          "clean_name_fr": "Article 93",
+          "clean_name_en": "Article 93",
+          "description_fr": "Champ article 93",
+          "description_en": "Article 93 field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Article 94",
+          "clean_name_fr": "Article 94",
+          "clean_name_en": "Article 94",
+          "description_fr": "Champ article 94",
+          "description_en": "Article 94 field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "N",
+              "count": 256
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Date fin de requete",
+          "clean_name_fr": "Date Fin De Requete",
+          "clean_name_en": "Date End De Request",
+          "description_fr": "Champ requete",
+          "description_en": "Request field",
+          "type": "date",
+          "null_pct": 98.4,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "min_date": "2025-03-07",
+          "max_date": "2025-08-20",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "Champ presque vide (98.4% null)",
+          "warnings_en": "Nearly empty field (98.4% null)"
+        },
+        {
+          "raw_name": "Date debut de requete",
+          "clean_name_fr": "Date Debut De Requete",
+          "clean_name_en": "Date Start De Request",
+          "description_fr": "Champ requete",
+          "description_en": "Request field",
+          "type": "date",
+          "null_pct": 98.0,
+          "quality": "empty",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "min_date": "2025-01-17",
+          "max_date": "2025-07-11",
+          "date_format": "YYYY-MM-DD",
+          "warnings_fr": "Champ presque vide (98.0% null)",
+          "warnings_en": "Nearly empty field (98.0% null)"
+        },
+        {
+          "raw_name": "Temps global",
+          "clean_name_fr": "Temps Global",
+          "clean_name_en": "Temps Global",
+          "description_fr": "Champ temps global",
+          "description_en": "Temps Global field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 123,
+          "min": 1.0,
+          "max": 201.0,
+          "mean": 61.3203,
+          "median": 49.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Temps d'attente",
+          "clean_name_fr": "Temps D'Attente",
+          "clean_name_en": "Temps D'Attente",
+          "description_fr": "Champ temps d'attente",
+          "description_en": "Temps D'Attente field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 85,
+          "min": 0.0,
+          "max": 176.0,
+          "mean": 28.9258,
+          "median": 15.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Nombre unites de logements",
+          "clean_name_fr": "Nombre Unites De Logements",
+          "clean_name_en": "Count Unites De Logements",
+          "description_fr": "Champ nombre",
+          "description_en": "Count field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 14,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 194
+            },
+            {
+              "value": "2",
+              "count": 32
+            },
+            {
+              "value": "3",
+              "count": 9
+            },
+            {
+              "value": "4",
+              "count": 4
+            },
+            {
+              "value": "8",
+              "count": 3
+            },
+            {
+              "value": "5",
+              "count": 3
+            },
+            {
+              "value": "14",
+              "count": 2
+            },
+            {
+              "value": "21",
+              "count": 2
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "85",
+              "count": 1
+            }
+          ],
+          "min": 1.0,
+          "max": 196.0,
+          "mean": 3.1602,
+          "median": 1.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Classes - nombre de logements",
+          "clean_name_fr": "Classes Nombre De Logements",
+          "clean_name_en": "Classes Count De Logements",
+          "description_fr": "Champ classe",
+          "description_en": "Class field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 6,
+          "top_values": [
+            {
+              "value": "1",
+              "count": 194
+            },
+            {
+              "value": "2-3",
+              "count": 41
+            },
+            {
+              "value": "4-9",
+              "count": 12
+            },
+            {
+              "value": "20-100",
+              "count": 5
+            },
+            {
+              "value": "10-19",
+              "count": 3
+            },
+            {
+              "value": "100 et +",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Delai de traitement (j ouvr)",
+          "clean_name_fr": "Delai De Traitement (J Ouvr)",
+          "clean_name_en": "Delai De Traitement (J Ouvr)",
+          "description_fr": "Champ delai de traitement (j ouvr)",
+          "description_en": "Delai De Traitement (J Ouvr) field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 85,
+          "min": 1.0,
+          "max": 141.0,
+          "mean": 32.3945,
+          "median": 24.5,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Proportion Delai Ville",
+          "clean_name_fr": "Ville",
+          "clean_name_en": "City",
+          "description_fr": "Champ ville",
+          "description_en": "City field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 172,
+          "top_values": [
+            {
+              "value": "100",
+              "count": 66
+            },
+            {
+              "value": "85,7142857142857",
+              "count": 3
+            },
+            {
+              "value": "88,8888888888889",
+              "count": 3
+            },
+            {
+              "value": "40",
+              "count": 3
+            },
+            {
+              "value": "20",
+              "count": 3
+            },
+            {
+              "value": "74,6666666666667",
+              "count": 2
+            },
+            {
+              "value": "82,3529411764706",
+              "count": 2
+            },
+            {
+              "value": "75",
+              "count": 2
+            },
+            {
+              "value": "86,6666666666667",
+              "count": 2
+            },
+            {
+              "value": "24",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "boroughs via arrondissement field",
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-profils-menages-logements",
+      "title_fr": "Profils des ménages et des logements 2021",
+      "title_en": "Profils Des Mnages Et Des housing 2021",
+      "description_fr": "Les profils des ménages et des logements ont été élaborés par le Service de l’habitation afin d’offrir une analyse approfondie des dimensions liées à l’habitation couvertes par le recensement de 2021.\r\n\r\nRéalisés à l’échelle de l’agglomération, de la ville et des arrondissements de Montréal, ils présentent des tableaux et faits saillants qui croisent les principales variables portant sur les ménages (composition, nombre d'enfants, âge, immigration, étudiants, revenu,) et sur le logement (frais de logement, taux d'effort, surpeuplement,  mode d’occupation, nombre de chambres, type d’immeuble et état d'entretien). \r\n\r\nLes tableaux de données utilisées pour ces rapports sont disponibles sur la page suivante : [Commande personnalisée du recensement 2021 du Service de l'habitation](https://donnees.montreal.ca/fr/dataset/commande-sh-recensement-2021).\r\n\r\nLes profils des ménages et des logements des recensements antérieurs (2006, 2011 et 2016) sont disponibles sur le site de [Montréal en stat",
+      "description_en": "Les Profils Des Mnages Et Des housing Ont T Labors Par Le Service De Lhabitation Afin Doffrir Une Analyse Approfondie Des Dimensions Lies Lhabitation Couvertes Par Le census De 2021",
+      "publisher": "Service de l'habitation",
+      "update_frequency": "notPlanned",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Les données utilisées pour produire ces portraits ont été importées à partir de fichiers IVT avec le logiciel Beyond 20/20. Elles ont ensuite été traitées via le logiciel R et son extension R Markdown. Le traitement des données a principalement consisté en leur structuration et au calcul des pourcentages pour chaque dimension explorée dans les portraits.\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "HTML"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    },
+    {
+      "slug": "vmtl-secteurs-reference-dispositions-stationnement-plan-urbanisme-mobilite-2050",
+      "title_fr": "Secteurs de référence pour les dispositions en stationnement (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Secteurs De Rfrence Pour Les Dispositions En parking Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente les secteurs de référence pour les dispositions en stationnement qui apparaissent à la carte 6-34 du Plan d'urbanisme et de mobilité 2050 (PUM). Ils se divisent entre les secteurs A correspondant à une distance de marche de 750 mètres à partir d'un point d'accès du réseau de métro ou du train léger (REM) et les secteurs B correspondant à une distance de marche de 500 mètres à partir d'un point d'accès du réseau de SRB.\r\n\r\nLes données peuvent également être consultées sur la carte interactive du Plan d'urbanisme et de mobilité 2050 de la Ville de Montréal. (https://experience.arcgis.com/experience/056d776e719c45f29a8906d532fa2c5f) \r\n\r\nMise en garde\r\nEn cas de divergence entre les données présentées ici et la cartographie présentée dans le PUM, la cartographie du PUM a préséance (voir règlement 24-017).",
+      "description_en": "Cet Ensemble De Donnes Prsente Les Secteurs De Rfrence Pour Les Dispositions En parking Qui Apparaissent La map 6 34 Du Plan D Urbanisme Et De Mobilit 2050 Pum Ils Se Divisent Entre",
+      "publisher": "Service de l'urbanisme et de la mobilité",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Secteurs de référence pour les dispositions en stationnement\n\n\nLes délimitations des secteurs de référence de 500 ou 750 mètres pour les dispositions en stationnement ont été produites à l'aide d'une analyse de distance sur le réseau routier à partir des points d'accès au réseau de métro, de REM et de SRB. À noter que certaines stations possèdent plus d'un point d'accès.\n\n\nRéférence spatiale: NAD83 (CSRS) / MTM zone 8 / EPSG:2950\n\n### Dictionnaire de données\n\n\n## Secteur de référence pour les dispositions en stationnement autour des stations de métro (PUM 2050)\n\n\n\n- Shape    (Texte)        Polygon Type de donnée (géométrie)\n\n- no_stat  (Entier)       De 0 à 9999495  Numéro de la station\n\n- Nom  (Texte)        Multiples   Nom de la station\n\n- Shape Area   (Numérique)        De 52683,3895201 à 1782691,25407000002  Superficie en m² du polygone\n\n\n## Secteur de référence pour les dispositions en stationnement autour des stations de REM (PUM 2050)\n\n\n\n- Shape    (Texte)        Polygon Type de donnée (géométrie)\n\n- id_station   (Entier)       De 1 à 22   ID de la station\n\n- station  (Texte)        Multiples   Nom de la station\n\n- Shape Area   (Numérique)        De 300392,919432 à 1272717,259002   Superficie en m² du polygone\n\n\n## Secteur de référence pour les dispositions en stationnement autour des stations du SRB Pie-IX (PUM 2050)\n\n\n\n- Shape    (Texte)        Polygon Type de donnée (géométrie)\n\n- srb_pieix    (Entier)       De 1 à 22   Numéro de la station\n\n- Direction    (Texte)        N ou S  Direction \n\n- stop_id  (Entier)       0 à 62108   Numéro de l'arrêt\n\n- srb_piei_1   (Texte)        Multiples   Nom de la station\n\n- Shape_Area   (Numérique)        De 440197,642846 à 681803,608353    Superficie en m² du polygone\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-vision-2050-reseau-transport-collectif-structurant-plan-urbanisme-mobilite-2050",
+      "title_fr": "Vision 2050 du réseau de transport collectif structurant (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Vision 2050 Du Rseau De transport Collectif Structurant Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente le réseau de transport collectif structurant qui devrait exister en 2050 et chacun de ses modes. Ainsi que les stations de train de banlieue et du REM supplémentaires qui devraient être construites avant 2040. Le tout tel qu'apparaissant à la carte 1-3 - Vision 2050 du réseau de transport collectif structurant du Plan d'urbanisme et de mobilité 2050 (PUM).\r\n\r\nEn 2050, Montréal dispose d’un réseau de transport collectif structurant étendu qui dessert efficacement et équitablement l’ensemble du territoire tout en contribuant à l’atteinte des cibles métropolitaines et gouvernementales en matière de mobilité et d’environnement. Ce réseau traduit la poursuite en continu des efforts de développement entrepris au cours des décennies précédentes.\r\n\r\nAvant de procéder à leur réalisation, les interventions projetées dans cette vision devront faire l’objet d’études d’opportunités, de faisabilité et d’analyses financières par les instances de planification désignée",
+      "description_en": "Cet Ensemble De Donnes Prsente Le Rseau De transport Collectif Structurant Qui Devrait Exister En 2050 Et Chacun De Ses Modes Ainsi Que Les stations De Train De Banlieue Et Du Rem Supplmentaires",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction de l'urbanisme",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "### Réseau de transport collectif structurant (2050)\n\n\n\nCette donnée ne reflète pas le positionnement du réseau transport collectif au mètre exact. Elle a été modifiée manuellement pour des raisons esthétiques dans les cartes. Les données ont été générées à l'échelle de la carte de la ville de Montréal (1:138 000) et elles visent à représenter la vision 2050 du réseau de transport collectif structurant. Certains tracés sont plus approximatifs que d'autres, mais ils permettent d'identifier les axes empruntés par le transport collectif structurant dans la vision. La table attributaire permet de distinguer les différents modes, ainsi que des prolongements des réseaux en dehors de l’île de Montréal.\n\n### Stations et gares additionnelles\n\n\n\nLe positionnement des futures gares et stations n’est pas précis. La table attributaire permet de distinguer les gares de train de banlieue des stations du REM.\n\n\nRéférence spatiale: NAD83 (CSRS) / MTM zone 8 / EPSG:2950\n\n## Dictionnaire de données\n\n\n### Réseau de transport collectif structurant (2050)\n\n\n\n- Shape    (Texte)  Valeur:polyline   Type de donnée (géométrie)\n\n- Nom (Texte)     Valeurs:multiple    -  Nom / phase prévue de développement\n\n- Type_mode   (Texte)     Valeurs:multiple        -   Type de mode de transport en commun \n\n- Shape_leng  (Numérique) Valeurs [373,232298742 à 201387,406961]     -   Longueur en mètres de la polyligne\n\n\n### Station ou gare additionnelle\n\n\n\n- Nom_gare Nom_gare   (Texte)     Valeurs:multiple    -   Nom de la gare projetée\n\n- Nom_REM  Nom_REM    (Texte)     Valeurs:multiple        -   Nom de la station du REM projetée\n\n- Type_mode   (Texte)     Valeurs:multiple        -   Type de mode de transport en commun\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-secteurs-d-opportunite-plan-d-urbanisme-et-de-mobilite-2050",
+      "title_fr": "Secteurs d'opportunité (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Secteurs D Opportunit Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente les secteurs d'opportunité qui apparaissent aux cartes 2-9, 4-1 à 4-19 et 4-21 à 4-102 du Plan d'urbanisme et de mobilité 2050 (PUM). Ils se divisent entre les programmes et plans particuliers d'ubanisme (PPU) en vigueur, pour les autres secteurs d'opportunité selon l'échelle d'impact (de quartier ou métropolitaine) et selon s'ils sont planifié ou à planifier.\r\n\r\nLes données peuvent également être consultées sur la carte interactive du [Plan d'urbanisme et de mobilité 2050](https://experience.arcgis.com/experience/056d776e719c45f29a8906d532fa2c5f) de la Ville de Montréal. \r\n\r\nMise en garde\r\nEn cas de divergence entre les données présentées ici et la cartographie présentée dans le PUM, la cartographie du PUM a préséance (voir règlement 24-017).",
+      "description_en": "Cet Ensemble De Donnes Prsente Les Secteurs D Opportunit Qui Apparaissent Aux maps 2 9 4 1 4 19 Et 4 21 4 102 Du Plan D Urbanisme Et De Mobilit 2050 Pum Ils Se Divisent Entre Les Program",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction de l'urbanisme",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Secteurs d'opportunités\n\n\nLes délimitations des secteurs d’opportunité ont été tracées selon les indications des arrondissements. Certains ont des limites strictes suivant la voirie ou le cadastre, d'autres ont des limites floues. \n\n\nRéférence spatiale: NAD83 (CSRS) / MTM zone 8 / EPSG:2950\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-patrimoine-et-paysages-plan-d-urbanisme-et-de-mobilite-2050",
+      "title_fr": "Patrimoine et paysages (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Heritage Et Paysages Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente plusieurs données liées au patrimoine et aux paysages apparaissant aux cartes 2-22 à 2-26, aux cartes 6-1 à 6-24 de l'annexe I et II et à la carte 6-25 du chapitre 6 (DC) ainsi qu'aux listes présentent à l'annexe 3 du Plan d'urbanisme et de mobilité 2050 (PUM).\r\n\r\n- \\- Ensemble patrimonial industriel ou institutionnel et secteur patrimonial\r\n- \\- Tracé historique patrimonial\r\n- \\- Point de vue d'un corridor visuel exceptionnel ou intéressant\r\n- \\- Corridor visuel exceptionnel ou intéressant\r\n- \\- Côtes altimétriques des corridors visuels exceptionnels\r\n- \\- Côtes altimétriques des corridors visuels intéressants\r\n- \\- Parcours d'une vue dynamique\r\n- \\- Repère emblématique bâti\r\n- \\- Périmètre de protection d'un repère emblématique bâti (100 m)\r\n- \\- Secteur d'intérêt archéologique\r\n- \\- Liste des immeubles patrimoniaux\r\n\r\nNotes : Les données sur les sites et [immeubles protégés](https://donnees.montreal.ca/dataset/sites-immeubles-proteges-lpc) en vertu d",
+      "description_en": "Cet Ensemble De Donnes Prsente Plusieurs Donnes Lies Au heritage Et Aux Paysages Apparaissant Aux maps 2 22 2 26 Aux maps 6 1 6 24 De L Annexe I Et Ii Et La map 6 25 Du Chapitre 6",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction de l'urbanisme",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "### Secteur patrimonial\n\n\n\nInclus les secteurs patrimoniaux et les ensembles patrimoniaux institutionnels identifiés à la carte 2-22. \nLes secteurs patrimoniaux se caractérisent notamment par la présence d’une concentration\nd’immeubles patrimoniaux, présentent parfois un patrimoine plus homogène, parfois plus éclectique ou disparate, parfois ancien, parfois moderne, parfois monumental, parfois plus modeste.\n\n\nLes ensembles patrimoniaux institutionnels sont historiquement voués à la vie conventuelle, à l’éducation, à la santé et aux services sociaux, plusieurs de ces ensembles constituent toujours de hauts lieux de la vie publique, collective ou communautaire. Ces ensembles se démarquent dans la ville par leur taille ainsi que par leur cadre bâti, réunissant des typologies architecturales distinctes. Ils peuvent être formés d’un ou de plusieurs immeubles patrimoniaux et sont constitués de constructions et d’aménagements reliés par une histoire, une utilisation commune ou complémentaire ainsi que par une certaine organisation spatiale interne. Ils forment encore aujourd’hui de vastes propriétés de grande qualité architecturale, entourées d’espaces libres, souvent verts et paysagers, que l’on se doit de conserver et de mettre en valeur pour le bien de la collectivité.\nIl est à noter qu'un ensemble patrimonial demeure identifié sous sa vocation historique (institutionnelle ou industrielle), et ce, malgré un changement de celle-ci, afin de préserver son caractère et ses valeurs patrimoniales.\n\n#### Ensemble patrimonial industriel\n\n\n\nLes ensembles patrimoniaux industriels sont des regroupements particulièrement complexes de bâtiments industriels, de structures de génie civil, de machines, d’instruments, d’outils et d’équipements divers appartenant à une seule ou à plusieurs compagnies et auxquels on reconnaît un intérêt patrimonial. Ils font partie des paysages identitaires montréalais.\nCeux-ci se divisent entre les ensembles patrimoniaux industriels exceptionnels et intéressants à la carte 2-22.\nIl est à noter qu'un ensemble patrimonial demeure identifié sous sa vocation historique (institutionnelle ou industrielle), et ce, malgré un changement de celle-ci, afin de préserver son caractère et ses valeurs patrimoniales.\n\n### Tracé historique patrimonial (carte 2-22)\n\n\n\nLes tracés historiques patrimoniaux identifiés au PUM sont les sections des tracés qui présentent encore des éléments d'intérêt perceptibles témoignant de son ancienneté. Ils sont les mêmes que ceux identifiés dans les cahiers d'évaluation de 2003.\n\n### Point de vue d'un corridor visuel exceptionnel ou intéressant (carte 2-23, 2-24, cartes 6-1 à 6-24 de l'annexe I du chapitre 6, fiches de l'annexe 4)\n\n\n\nLe point de vue représente l'endroit sélectionné pour l'appréciation de la vue vers un repère emblématique à partir de la hauteur des yeux (1,6 m) d'un observateur. Il peut être caractérisé comme exceptionnel ou intéressant ou les deux, tout dépendant s'il est le point de départ d'un ou de",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-grands-ensembles-commerciaux-pericentriques-redeveloppement-plan-urbanisme-mobilite-2050",
+      "title_fr": "Grands ensembles commerciaux péricentriques présentant un potentiel de redéveloppement (Plan d'urbanisme et de mobilité 2050)",
+      "title_en": "Grands Ensembles Commerciaux Pricentriques Prsentant Un Potentiel De Redveloppement Plan D Urbanisme Et De Mobilit 2050",
+      "description_fr": "Cet ensemble de données présente les grands ensembles commerciaux péricentriques présentant un potentiel de redéveloppement qui apparaissent à la carte 2-16 du Plan d'urbanisme et de mobilité 2050 (PUM). Ils se divisent entre ceux situés dans un secteur d'opportunité planifié ou à planifier et ceux situés hors d'un secteur d'opportunité.\r\n\r\nLes données peuvent également être consultées sur la carte interactive du Plan d'urbanisme et de mobilité 2050 de la Ville de Montréal. (https://experience.arcgis.com/experience/056d776e719c45f29a8906d532fa2c5f) \r\n\r\nMise en garde\r\nEn cas de divergence entre les données présentées ici et la cartographie présentée dans le PUM, la cartographie du PUM a préséance (voir règlement 24-017).",
+      "description_en": "Cet Ensemble De Donnes Prsente Les Grands Ensembles Commerciaux Pricentriques Prsentant Un Potentiel De Redveloppement Qui Apparaissent La map 2 16 Du Plan D Urbanisme Et De Mobilit 2050 Pu",
+      "publisher": "Service de l'urbanisme et de la mobilité - Direction de l'urbanisme",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Regroupent différents formats commerciaux, notamment les centres commerciaux traditionnels, les mégacentres et les environnements commerciaux linéaires localisés sur de grands axes du réseau artériel d'agglomération. Ceux retenus comme ayant un potentiel de redéveloppement présentent généralement les caractéristiques suivantes : un environnement monofonctionnel composé d'un minimum de 20 commerces et incluant habituellement des commerces de grande surface; un faible encadrement de la rue lié à l'implantation d'une majorité de bâtiments en fond de lot ou au cœur de vastes îlots; la présence de stationnements hors rue de surface de grande taille (plus de 200 cases contigües) localisés en façade; des usages riverains propices à l'intégration de la fonction résidentielle; et un faible niveau de verdissement.\n\n\nRéférence spatiale: NAD83 (CSRS) / MTM zone 8 / EPSG:2950\n\n## Dictionnaire de données\n\n\n\n- Shape (Texte) : Polygon Type de donnée (géométrie)\n\n- Name (Texte) : Multiples    Nom du terrain\n\n- ensemble_1 (Texte) : À planifier, Planifiés, Autres Classification de l'ensemble\n\n- Shape_Area (Numérique) : 15973,6750202 à 641844,93962399999 Superficie en m² du polygone\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Coordonnees en projection MTM (pas WGS84)"
+      ],
+      "warnings_en": [
+        "Coordinates in MTM projection (not WGS84)"
+      ]
+    },
+    {
+      "slug": "vmtl-geobase-double-statique",
+      "title_fr": "Géobase double - côtés de rue du réseau routier (statique)",
+      "title_en": "Gobase Double Cts De Rue Du Rseau Routier Statique",
+      "description_fr": "La géobase double se présente comme une projection du réseau filamentaire de la géobase qui simule approximativement les limites des trottoirs et bordures.  Les [pôles de géobase](/ville-de-montreal/geobase-pole), une représentation ponctuelle des côtés gauche et droit des tronçons segmentés du réseau routier, sont également disponibles sur le portail.\r\n\r\nL'[API de Planif-Neige](https://donnees.montreal.ca/ville-de-montreal/deneigement) fait référence à une version statique des données de la géobase double extraite en début de saison. Pour suivre les modifications apportées durant la saison hivernale, vous pouvez vous référer aux ensembles de données suivants: [Géobase - gestion tronçons](https://donnees.montreal.ca/ville-de-montreal/geobase-gestion-troncon) et [Géobase - tronçons détruits](https://donnees.montreal.ca/ville-de-montreal/geobase-troncon-detruit).\r\n\r\nEnsembles de données connexes:\r\n\r\n- [Géobase - réseau routier](http://donnees.montreal.ca/dataset/geobase)\r\n- [Géobase - pô",
+      "description_en": "La Gobase Double Se Prsente Comme Une Projection Du Rseau Filamentaire De La Gobase Qui Simule Approximativement Les boundaries Des sidewalks Et Bordures Les Ples De Gobaseville De Montrealg",
+      "publisher": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "update_frequency": "annual",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Le réseau de polylignes de la géobase double est  créé automatiquement par géotraitements à partir des données officielles du réseau routier de la Ville de Montréal représentées par des tronçons de centres de rues sous l'ensemble de la géobase sur le portail.  L'ensemble est une représentation approximative des bordures des rues.  Les dimensions ne sont pas exactes, mais elles peuvent être utiles à la représentation graphique ou pour des analyses distinguant les deux côtés d'une route.\n\n### Dictionnaire de données\n\n\n\n- COTE_RUE_ID : Clé primaire\n\n- ID_TRC : Lien avec la géobase\n\n- ID_VOIE : Lien\n\n- NOM_VOIE : Spécifique de la toponymie officielle, sans abréviation\n\n- NOM_VILLE : Nom de la ville\n\n- DEBUT_ADRESSE : Limite des numéros civiques\n\n- FIN ADRESSE : Limite des numéros civiques\n\n- COTE : \"Droit\" ou \"Gauche\"\n\n- TYPE_F : Type de voie générique de la toponymie officielle, sans abréviation\n\n- SENS_CIR : Sens de circulation selon le sens de numérisation des tronçons de la géobase linéaire\n\n- 1 -> sens unique dans le sens de la numérisation\n\n- -1 -> sens unique dans le sens contraire de la numérisation \n\n- 0 -> double sens\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "ZIP",
+        "GEOJSON",
+        "CSV"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    },
+    {
+      "slug": "vmtl-projet-station-longue-pointe-25",
+      "title_fr": "Projet: Station Longue-Pointe (25)",
+      "title_en": "Projet station Longue Pointe 25",
+      "description_fr": "La station Longue-Pointe (25) a été implantée dans le cadre du projet de l’implantation d’un système de gestion collaborative de corridors de mobilité intégrée Notre-Dame pour l’optimisation de l’accès au Port de Montréal. Son emplacement est au coin de l’avenue Haig et de la rue Notre-Dame Est dans l’arrondissement Mercier-Hochelaga-Maisonneuve.",
+      "description_en": "La station Longue Pointe 25 A T Implante Dans Le Cadre Du Projet De Limplantation Dun Systme De Gestion Collaborative De Corridors De Mobilit Intgre Notre Dame Pour Loptimisation De Lacc",
+      "publisher": "Service de l'environnement",
+      "update_frequency": "asNeeded",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "### Méthodologie multi polluants\n\n\n\nLes concentrations sont mesurées par des analyseurs en continu suivant les critères métrologiques des lignes directrices d'assurance et de contrôle de la qualité (AQ-CQ) du programme de surveillance national de la pollution atmosphérique.​\n\n### Dictionnaire de données\n\n\n\n- NO_POSTE (Numérique) : Identifiant unique de chaque station RSQA\n\n- DATE_HEURE (Date/Heure) : Horodatage de la mesure\n\n- L'heure fait référence à l'heure de fin de la prise de mesure pour la moyenne calculée. Ainsi 02:00:00 fait référence à la moyenne des mesures entre 01:01:00 et 02:00:00 la même journée. \n\n- La moyenne journalière est calculée de 01:00:00 à 00:00:00 (00:00:00 = 24:00:00).\n\n- NO (Numérique) : Concentration en monoxyde d'azote (exprimée en ppb)\n\n- NO2 (Numérique) : Concentration en dioxyde d'azote (exprimée en ppb)\n\n- PM2,5 (Numérique) : Concentration en particules fines, diamètre 2,5 microns et moins (exprimée en µg/m3).\n\n- O3 (Numérique) : Concentration en ozone (exprimée en ppb)\n\n- SO2 (Numérique) : Concentration en dioxyde de soufre (exprimée en ppb)\n\n\n### Définition des valeurs retrouvées dans les fichiers qui ne sont pas des mesures:\n\n\n\n- « alarm »: mauvais fonctionnement de l'appareil\n\n- « down »:  l'appareil est arrêté pour une intervention (étalonnage, débits et étanchéité etc.)\n\n- « <Samp »:indique qu'il n'y a pas 75% des données minutes pour que l'heure soit valide\n\n- « span », « calib » ou « purge »:l'appareil fait son étalonnage journalier\n\n- « InVld » :donnée horaire que nous avons indiqué comme invalide (mauvais fonctionnement de l'appareil ou autre)\n\n- « zero » : l'appareil est entrain de faire le zéro\n\n- « No Data » ou « RS232» : l'appareil ne communique plus avec l'ordinateur (re-démarrage de l'ordinateur ou panne de courant etc.)\n\n- « FailPwr » : panne de courant\n\n- « N/M » ou une valeur vide : Non mesuré\n\n- « N/A» : Non-disponible (non-échantillonné, invalidé ou autre)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "MP4"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    },
+    {
+      "slug": "vmtl-remuneration-elus",
+      "title_fr": "Tableau de la rémunération des personnes élues de la Ville de Montréal",
+      "title_en": "Tableau De La Rmunration Des Personnes Lues De La city De Montral",
+      "description_fr": "Tableau joint au rapport financier de la Ville. Le tableau indique les rémunérations et allocations de dépenses versées au cours de l’exercice concerné.",
+      "description_en": "Tableau Joint Au Rapport Financier De La city Le Tableau Indique Les Rmunrations Et Allocations De Dpenses Verses Au Cours De Lexercice Concern",
+      "publisher": "Service du greffe",
+      "update_frequency": "irregular",
+      "total_records": 143,
+      "temporal_range": null,
+      "methodology_fr": "--\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "B",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "XLSX",
+        "CSV"
+      ],
+      "fields": [
+        {
+          "raw_name": "Nom, Prenom",
+          "clean_name_fr": "Nom Prenom",
+          "clean_name_en": "Name First Name",
+          "description_fr": "Champ nom",
+          "description_en": "Name field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 143,
+          "top_values": [
+            {
+              "value": "Alneus, Ericka",
+              "count": 1
+            },
+            {
+              "value": "Amaya Munro, Kaila",
+              "count": 1
+            },
+            {
+              "value": "Arseneault, Christian",
+              "count": 1
+            },
+            {
+              "value": "Auger, Benoit",
+              "count": 1
+            },
+            {
+              "value": "Barbe, Manon",
+              "count": 1
+            },
+            {
+              "value": "Baril, Marie-Claude",
+              "count": 1
+            },
+            {
+              "value": "Battista, Mario",
+              "count": 1
+            },
+            {
+              "value": "Beaudry, Robert",
+              "count": 1
+            },
+            {
+              "value": "Beauregard, Céline-Audrey",
+              "count": 1
+            },
+            {
+              "value": "Beis, Dimitrios",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Fonctions",
+          "clean_name_fr": "Fonctions",
+          "clean_name_en": "Fonctions",
+          "description_fr": "Champ fonctions",
+          "description_en": "Fonctions field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 2,
+          "top_values": [
+            {
+              "value": "Conseiller",
+              "count": 118
+            },
+            {
+              "value": "Maire",
+              "count": 25
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Recu de l'organisme principal - Recu de l'organisme principal -",
+          "clean_name_fr": "Organisme",
+          "clean_name_en": "Organization",
+          "description_fr": "Champ organisme",
+          "description_en": "Organization field",
+          "type": "identifier",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "exclude",
+          "groupable": false,
+          "filterable": false,
+          "aggregatable": false,
+          "chartable_as": [],
+          "unique_values": 134,
+          "top_values": [
+            {
+              "value": "3 742,64  $",
+              "count": 5
+            },
+            {
+              "value": "2 702,90  $",
+              "count": 3
+            },
+            {
+              "value": "4 071,79  $",
+              "count": 2
+            },
+            {
+              "value": "5 007,44  $",
+              "count": 2
+            },
+            {
+              "value": "5 336,69  $",
+              "count": 2
+            },
+            {
+              "value": "7 630,76  $",
+              "count": 1
+            },
+            {
+              "value": "4 334,56  $",
+              "count": 1
+            },
+            {
+              "value": "46 746,41  $",
+              "count": 1
+            },
+            {
+              "value": "108 043,54  $",
+              "count": 1
+            },
+            {
+              "value": "4 730,09  $",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Recu de l'organisme principal -  Allocation depenses",
+          "clean_name_fr": "Organisme (Recu de l'organisme principal -  Allocation depenses)",
+          "clean_name_en": "Organization (Recu de l'organisme principal -  Allocation depenses)",
+          "description_fr": "Champ organisme",
+          "description_en": "Organization field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 14,
+          "top_values": [
+            {
+              "value": "17 339,06  $",
+              "count": 58
+            },
+            {
+              "value": "15 956,51  $",
+              "count": 34
+            },
+            {
+              "value": "1 430,23  $",
+              "count": 31
+            },
+            {
+              "value": "1 351,44  $",
+              "count": 4
+            },
+            {
+              "value": "16 337,90  $",
+              "count": 4
+            },
+            {
+              "value": "17 341,34  $",
+              "count": 3
+            },
+            {
+              "value": "1 048,83  $",
+              "count": 2
+            },
+            {
+              "value": "11 475,12  $",
+              "count": 1
+            },
+            {
+              "value": "1 401,34  $",
+              "count": 1
+            },
+            {
+              "value": "17 005,34  $",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "Recu d'organismes mandataires\nou supramunicipaux - Remuneration",
+          "clean_name_fr": "Organisme (Recu d'organismes mandataires\nou supramunicipaux - Remuneration)",
+          "clean_name_en": "Organization (Recu d'organismes mandataires\nou supramunicipaux - Remuneration)",
+          "description_fr": "Champ organisme",
+          "description_en": "Organization field",
+          "type": "text",
+          "null_pct": 72.0,
+          "quality": "poor",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 33,
+          "top_values": [
+            {
+              "value": "157,53  $",
+              "count": 5
+            },
+            {
+              "value": "9 327,92  $",
+              "count": 3
+            },
+            {
+              "value": "1 993,04  $",
+              "count": 2
+            },
+            {
+              "value": "13 116,70  $",
+              "count": 1
+            },
+            {
+              "value": "7 263,16  $",
+              "count": 1
+            },
+            {
+              "value": "19 986,01  $",
+              "count": 1
+            },
+            {
+              "value": "5 987,70  $",
+              "count": 1
+            },
+            {
+              "value": "33 404,86  $",
+              "count": 1
+            },
+            {
+              "value": "12 783,37  $",
+              "count": 1
+            },
+            {
+              "value": "5 631,25  $",
+              "count": 1
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (72.0% null)",
+          "warnings_en": "Partially populated field (72.0% null)"
+        },
+        {
+          "raw_name": "Recu d'organismes mandataires\nou supramunicipaux -Allocation de",
+          "clean_name_fr": "Organisme (Recu d'organismes mandataires\nou supramunicipaux -Allocation de)",
+          "clean_name_en": "Organization (Recu d'organismes mandataires\nou supramunicipaux -Allocation de)",
+          "description_fr": "Champ organisme",
+          "description_en": "Organization field",
+          "type": "category",
+          "null_pct": 72.0,
+          "quality": "poor",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "-    $",
+              "count": 40
+            }
+          ],
+          "warnings_fr": "Champ partiellement rempli (72.0% null)",
+          "warnings_en": "Partially populated field (72.0% null)"
+        }
+      ],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-regle-3-30-30-pour-le-suivi-de-l-acces-aux-espaces-verts",
+      "title_fr": "Règle 3-30-30 pour le suivi de l'accès aux espaces verts",
+      "title_en": "Rgle 3 30 30 Pour Le Suivi De L Accs Aux Espaces Verts",
+      "description_fr": "Polygone représentant la Règle 3-30-300, soit voir 3 arbres à proximité de son domicile, se déplacer dans des quartiers où 30 % de l’espace est couvert d’arbres et  vivre à moins de 300 mètres d’un espace vert. Cette approche fondée sur la nature visent à créer des villes plus vertes et résilientes. Elle a été développée par le chercheur néerlandais [Cecil Konijnendijk]( https://www.researchgate.net/publication/353571108_The_3-30-300_Rule_for_Urban_Forestry_and_Greener_Cities) travaillant dans les domaines de la foresterie et de l'écologie urbaine.\r\n\r\nCes couches servent à la planification des plantations dans les secteurs vulnérables avec pour cible 500 000 arbres à planter par la Ville et ses partenaires, dans le cadre du Plan climat 2020-2030. Elle aident également à mieux planifier et prioriser les projets de verdissement.\r\n\r\nLes données peuvent également être consultées sur la carte interactive des vulnérabilités aux changements climatiques de l'agglomération de Montréal. https://",
+      "description_en": "Polygone Reprsentant La Rgle 3 30 300 Soit Voir 3 trees Proximit De Son Domicile Se Dplacer Dans Des Quartiers O 30 De Lespace Est Couvert Darbres Et Vivre Moins De 300 Mtres Dun Es",
+      "publisher": "Bureau de la transition écologique et de la résilience",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "### Règle 3 : voir 3 arbres à proximité de son domicile\n\n\n\nLes classes de végétation moyenne (4) et haute (5) du LiDAR aérien 2015 ont été utilisées pour détecter les points centraux des arbres. Les nuages de points se situant à moins de 50 centimètres les uns des autres ont été regroupés en un point central unique permettant ainsi de représenter approximativement l’emplacement du tronc de l’arbre. L’inventaire des arbres publics de la Ville de Montréal a par la suite été intégré pour bonifier cette base. Les densités d’arbres, comme les boisés, ne sont pas représentées, car cette technique permet de localiser que les arbres individuels localisés à plus ou moins un mètre de distance les uns des autres. Afin de déterminer le nombre d’arbres à proximité des domiciles, l’empreinte des bâtiments dont les murs mitoyens sont fusionnés a été scindée avec les unités d’évaluation foncière. Une zone tampon de 15 mètres a ensuite été créée autour des bâtiments pour calculer le nombre de points par bâtiment.\n\n\n\n * LiDAR aérien 2015 (https://donnees.montreal.ca/fr/dataset/lidar-aerien-2015) \n\n * Bâtiments (https://donnees.montreal.ca/dataset/batiment-2d)\n\n * Unités d’évaluation foncière (https://donnees.montreal.ca/dataset/unites-evaluation-fonciere)\n\n### Règle 30 : se déplacer dans des quartiers où 30 % de l’espace est couvert d’arbre\n\n\n\nLe couvert végétal formé par les arbres de 2019 a été scindé par quartier de référence en habitation et par îlot de diffusion de Statistique Canada afin de connaître la superficie occupée par polygone. Un portrait plus précis permet de mieux localiser les milieux de vie. \n\n\n\n * Canopée 2019 (https://donnees.montreal.ca/dataset/canopee)\n\n * Quartiers de référence en habitation (https://donnees.montreal.ca/dataset/quartiers)\n\n * Îlots de diffusion de Statistique Canada (https://www150.statcan.gc.ca/n1/fr/catalogue/92-163-X)\n\n### Règle 300 : vivre à moins de 300 mètres d’un espace vert\n\n\n\nSeuls les parcs d’arrondissement, les grands parcs et les espaces accessibles aux publics (passages, rues partagées, rues piétonnes, etc.) ont été retenus pour cet exercice. L’accès à moins de 300 mètres à pied et à vol d’oiseaux a été calculé pour tous les espaces retenus, de même que l’accès à moins de 1000 mètres à pied et à vol d’oiseau des grands parcs. Pour l’accès à vol d’oiseaux, la zone tampon n’inclut aucun obstacle, c’est-à-dire que la population peut s’y rendre en automobile. Pour l’accès à pied, la zone tampon inclut des obstacles, comme les autoroutes et les chemins de fer. L’outil Zone de Desserte du logiciel QGIS a été utilisé avec les critères suivants : trajet le plus rapide, coût du voyage à 1250 mètres et vitesse de marche à 3,7 km/h (personnes âgées, personnes à mobilité réduite et jeunes enfants). Une fois les zones tampons créées, le nombre approximatif de personnes ayant accès à pied et à vol d’oiseaux à un espace vert a été obtenu en multipliant la population totale du",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-projet-station-nomade-rsqa",
+      "title_fr": "Projet: Station Nomade RSQA",
+      "title_en": "Projet station Nomade Rsqa",
+      "description_fr": "Dans le cadre de projets spéciaux, le réseau de surveillance de la qualité de l'air (RSQA) mesure les concentrations de polluants à la station nomade. Son objectif est d’approfondir nos connaissances sur la qualité de l’air ambiant. Comme l’indique son nom, cette station changera de localisation à la fin de chaque campagne de mesure, dont la durée peut s’échelonner de 12 à 24 mois.​\r\n​\r\nLa station Nomade mesure en continu: l’ozone (O3), les particules fines (PM2,5), le monoxyde de carbone (CO), le dioxyde de soufre (SO2), les oxydes d’azote (NOx), le carbone élémentaire (CÉ) et les particules ultrafines (PUF); ainsi que les mesures ponctuelles des particules respirables (PM10) et des particules en suspension totales (PST) avec analyse des métaux sur ces dernières.​",
+      "description_en": "Dans Le Cadre De Projets Spciaux Le Rseau De Surveillance De La Qualit De L air Rsqa Mesure Les Concentrations De Polluants La station Nomade Son Objectif Est Dapprofondir Nos Connaissances",
+      "publisher": "Service de l'environnement",
+      "update_frequency": "asNeeded",
+      "total_records": 10944,
+      "temporal_range": null,
+      "methodology_fr": "La station nomade a été installée  aux Jardins collectifs de Montréal-Est à l’intersection de la rue Victoria et de l’avenue Marien entre le 1er janvier 2023 et le 31 mars 2024 pour sa première campagne de mesure (26-1).\n\n\nLa station nomade change de localisation à la fin de chaque projet, dont la durée peut s’échelonner de 18 à 24 mois. \n\n\nSon deuxième emplacement (26-2) depuis le 1er octobre 2024 est à côté de la station de métro St-Laurent au centre-ville.\n\n### Méthodologie métaux\n\n\n\nLe Réseau de surveillance de la qualité de l’air (RSQA) mesure les métaux sur les particules de taille inférieure à 10 µm et sur les particules totales, échantillonnés sur des filtres de préleveur Hi-Vol (haut débit) pendant 24h. Les échantillons prélevés doivent être séchés, pesés et envoyés au laboratoire pour analyse. Les résultats doivent ensuite être traités et validés, ce qui explique les délais dans l’obtention des résultats.\n\n### Dictionnaire de données\n\n\n\n- fraction (Text variable): Préleveur utilisé (PST ou PM10)\n\n- nom_station (Texte variable): Nom de la station\n\n- metaux (Liste): Nom des métaux échantillonnés\n\n\n\nAluminium\nAntimoine\nArgent\nArsenic\nBaryum\nBeryllium\nCadmium\nCalcium\nChrome\nCobalt\nCuivre\nEtain\nFer\nMagnesium\nManganese\nMolybdene\nNickel\nPlomb\nPotassium\nSelenium\nSodium\nThallium\nUranium\nVanadium\nZinc\n\n\n- date_prelevement (date): Date de prélèvements\n\n- concentration(numérique): Valeur de la concentration en ng/m3\n\n- statut (liste de valeurs): Précision quant au prélèvement\n\n- mesure: valeur mesurée\nN/A: aucune mesure\n<LDR: inférieur à la limite de détection rapportée\n\n\n\nLa limite de détection rapportée est précisée dans le tableau suivant:\n\n\n| Métal | LDR (ng/m3) | |:---:|:---:| | Béryllium | 6,4 | | Sodium | 494,0 | | Magnésium | 148,2 | | Aluminium | 24,7 | | Potassium | 247,0 | | Calcium | 395,2 | | Vanadium | 1,5 | | Chrome | 1,5 | | Manganèse | 1,0 | | Fer | 49,4 | | Cobalt | 0,5 | | Nickel | 1,0 | | Cuivre | 2,5 | | Zinc | 34,6 | | Arsenic | 1,0 | | Sélénium | 2,5 | | Molybdène | 4,9 | | Argent | 0,5 | | Cadmium | 0,5 | | Étain | 4,9 | | Antimoine | 2,5 | | Barium | 24,7 | | Thallium | 1,0 | | Plomb | 1,0 | | Uranium | 0,5 |\n\n### Méthodologie multipolluants\n\n\n\nLes concentrations sont mesurées par des analyseurs en continu suivant les critères métrologiques des lignes directrices d'assurance et de contrôle de la qualité (AQ-CQ) du programme de surveillance national de la pollution atmosphérique.​\n\n### Dictionnaire de données\n\n\n\n- NO_POSTE (Numérique) : Identifiant unique de chaque station RSQA\n\n- DATE_HEURE (Date/Heure) : Horodatage de la mesure\n\n- L'heure fait référence à l'heure de fin de la prise de mesure pour la moyenne calculée. Ainsi 02:00:00 fait référence à la moyenne des mesures entre 01:01:00 et 02:00:00 la même journée. \n\n- La moyenne journalière est calculée de 01:00:00 à 00:00:00 (00:00:00 = 24:00:00).\n\n- CO (Numérique) : Concentration en monoxyde de carbone (exprimée en ppb)\n\n- NO (Numérique) : Concentration en monoxyde d'azo",
+      "data_quality_score": "A",
+      "usable_in_report_builder": true,
+      "available_formats": [
+        "CSV",
+        "MP4"
+      ],
+      "fields": [
+        {
+          "raw_name": "DATE_HEURE",
+          "clean_name_fr": "Date Heure",
+          "clean_name_en": "Date Hour",
+          "description_fr": "Champ heure",
+          "description_en": "Hour field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "warnings_fr": "",
+          "warnings_en": "",
+          "field_type_detected": "text"
+        },
+        {
+          "raw_name": "O3",
+          "clean_name_fr": "O3",
+          "clean_name_en": "O3",
+          "description_fr": "Champ o3",
+          "description_en": "O3 field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 248,
+          "top_values": [
+            {
+              "value": "InVld",
+              "count": 391
+            },
+            {
+              "value": "NoData",
+              "count": 40
+            },
+            {
+              "value": "Down",
+              "count": 10
+            },
+            {
+              "value": "27.1",
+              "count": 10
+            },
+            {
+              "value": "28.4",
+              "count": 9
+            },
+            {
+              "value": "31.2",
+              "count": 8
+            },
+            {
+              "value": "30.6",
+              "count": 8
+            },
+            {
+              "value": "27.8",
+              "count": 8
+            },
+            {
+              "value": "<Samp",
+              "count": 7
+            },
+            {
+              "value": "25.2",
+              "count": 7
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NO",
+          "clean_name_fr": "Numero",
+          "clean_name_en": "Number",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 150,
+          "min": 0.3,
+          "max": 102.1,
+          "mean": 3.3407,
+          "median": 0.7,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "NO2",
+          "clean_name_fr": "Numero (NO2)",
+          "clean_name_en": "Number (NO2)",
+          "description_fr": "Champ numero",
+          "description_en": "Number field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 254,
+          "min": 0.9,
+          "max": 46.2,
+          "mean": 9.8697,
+          "median": 7.1,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "SO2",
+          "clean_name_fr": "So2",
+          "clean_name_en": "So2",
+          "description_fr": "Champ so2",
+          "description_en": "So2 field",
+          "type": "category",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "dimension",
+          "groupable": true,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "bar",
+            "pie",
+            "table"
+          ],
+          "unique_values": 1,
+          "top_values": [
+            {
+              "value": "InVld",
+              "count": 1000
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "CO",
+          "clean_name_fr": "Co",
+          "clean_name_en": "Co",
+          "description_fr": "Champ co",
+          "description_en": "Co field",
+          "type": "text",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "filter",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": false,
+          "chartable_as": [
+            "table"
+          ],
+          "unique_values": 80,
+          "top_values": [
+            {
+              "value": "NoData",
+              "count": 900
+            },
+            {
+              "value": "InVld",
+              "count": 5
+            },
+            {
+              "value": "172",
+              "count": 3
+            },
+            {
+              "value": "158",
+              "count": 3
+            },
+            {
+              "value": "<Samp",
+              "count": 2
+            },
+            {
+              "value": "186",
+              "count": 2
+            },
+            {
+              "value": "199",
+              "count": 2
+            },
+            {
+              "value": "233",
+              "count": 2
+            },
+            {
+              "value": "178",
+              "count": 2
+            },
+            {
+              "value": "261",
+              "count": 2
+            }
+          ],
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "PM2.5",
+          "clean_name_fr": "Pm2.5",
+          "clean_name_en": "Pm2.5",
+          "description_fr": "Champ pm2.5",
+          "description_en": "Pm2.5 field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 734,
+          "min": 0.24,
+          "max": 40.86,
+          "mean": 7.9437,
+          "median": 6.03,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "BC1_370nm",
+          "clean_name_fr": "Bc1 370Nm",
+          "clean_name_en": "Bc1 370Nm",
+          "description_fr": "Champ bc1 370nm",
+          "description_en": "Bc1 370Nm field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 709,
+          "min": 0.028,
+          "max": 7.775,
+          "mean": 0.7649,
+          "median": 0.552,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "BC6_880nm",
+          "clean_name_fr": "Bc6 880Nm",
+          "clean_name_en": "Bc6 880Nm",
+          "description_fr": "Champ bc6 880nm",
+          "description_en": "Bc6 880Nm field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 609,
+          "min": 0.032,
+          "max": 5.11,
+          "mean": 0.4715,
+          "median": 0.335,
+          "warnings_fr": "",
+          "warnings_en": ""
+        },
+        {
+          "raw_name": "PUF",
+          "clean_name_fr": "Puf",
+          "clean_name_en": "Puf",
+          "description_fr": "Champ puf",
+          "description_en": "Puf field",
+          "type": "numeric",
+          "null_pct": 0.0,
+          "quality": "good",
+          "report_builder_role": "measure",
+          "groupable": false,
+          "filterable": true,
+          "aggregatable": true,
+          "chartable_as": [
+            "bar",
+            "line",
+            "histogram",
+            "table"
+          ],
+          "unique_values": 831,
+          "min": 656.0,
+          "max": 41473.0,
+          "mean": 10002.8996,
+          "median": 8090.0,
+          "warnings_fr": "",
+          "warnings_en": ""
+        }
+      ],
+      "recommended_joins": [
+        "temporal join via date fields"
+      ],
+      "warnings_fr": [],
+      "warnings_en": []
+    },
+    {
+      "slug": "vmtl-milieux-humides-sous-controle-interimaire",
+      "title_fr": "Milieux humides à protéger ou à restaurer (sous contrôle intérimaire)",
+      "title_en": "Milieux Humides Protger Ou Restaurer Sous Contrle Intrimaire",
+      "description_fr": "Ces données sont un extrait du plan régional des milieux humides et hydriques de l'agglomération de Montréal (en processus d'adoption). Elles illustrent les milieux humides et leurs aires de protection de 30 mètres qui sont visés par les mesures de contrôles intérimaires, soit les données cartographiques de l'Annexe A - Contrôle intérimaire : milieux humides à protéger ou à restaurer. (Résolution de contrôle intérimaire relative à la protection des milieux humides (CG23 0753) et règlement de contrôle intérimaire relative à la protection des milieux humides (RCG 24-008)).\r\n\r\nIl est possible de visualiser les données sur la [carte interactive](https://smvt.maps.arcgis.com/apps/webappviewer/index.html?id=637aeb612e4c48eda895ab8e58505765) associée au règlement sur les contrôles intérimaires.",
+      "description_en": "Ces Donnes Sont Un Extrait Du Plan Rgional Des Milieux Humides Et Hydriques De L Agglomration De Montral En Processus D Adoption Elles Illustrent Les Milieux Humides Et Leurs Aires De Protectio",
+      "publisher": "Service de l'urbanisme et de la mobilité",
+      "update_frequency": "irregular",
+      "total_records": 0,
+      "temporal_range": null,
+      "methodology_fr": "Ces données découlent du plan régional des milieux humides et hydriques de l'agglomération de Montréal (PRMHH) (en processus d'adoption). Un jeu de données plus complet sera rendu public lorsque PRMHH sera adopté par le conseil d'agglomération.\n\n## Dictionnaire de données (Milieux humides visés par le RCI )\n\n\n\n- OBJECTID (numérique) : Clef unique générée automatiquement.\n\n- mh_id (numérique) : Identifiant unique de chaque milieu humide (mh).\n\n- mh_type_dv (liste de valeurs) : Type de milieu humide (Selon la typologie du gouvernement du Québec).\n\n- 1: Étang\n\n- 2: Marais  \n\n- 3: Marécage\n\n- 4: Tourbière   \n\n\n\n- commu_vege (texte) : Communauté végétale.\n\n- superficie (numérique) : Superficie du polygone.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+      "data_quality_score": "F",
+      "usable_in_report_builder": false,
+      "available_formats": [
+        "PDF",
+        "SHP",
+        "GEOJSON"
+      ],
+      "fields": [],
+      "recommended_joins": [],
+      "warnings_fr": [
+        "Pas de ressource DataStore (API non disponible)"
+      ],
+      "warnings_en": [
+        "No DataStore resource (API not available)"
+      ]
+    }
+  ],
+  "fixed_at": "2026-03-10T07:57:46.874837",
+  "fixed_v2_at": "2026-03-10T08:09:43.234802"
+}

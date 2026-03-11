@@ -1,0 +1,343 @@
+{
+  "slug": "vmtl-indicateurs-de-l-etat-du-centre-ville",
+  "title": "Indicateurs de l'état du centre-ville (archives)",
+  "notes": "L’état du centre-ville est un rapport trimestriel gratuit et accessible à tous qui donne le pouls de l’activité socioéconomique du centre-ville de Montréal. L’état du centre-ville vise à suivre l’évolution de la crise liée à la COVID-19 et à éclairer les efforts de relance.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "economie-entreprises",
+      "display_name": "Économie et entreprises",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-11-04T20:36:57.626514",
+  "metadata_modified": "2025-02-21T17:06:01.751324",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "eae25e9a-3ca8-4d81-9c25-d09ef4ae2b97",
+      "name": "Indicateurs",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/fr/dataset/92516710-bdc9-404b-b4b5-b8472a1e8803/resource/eae25e9a-3ca8-4d81-9c25-d09ef4ae2b97/download/indicateurs-etat-centre-ville.xlsx",
+      "datastore_active": true,
+      "size": 23886,
+      "last_modified": "2020-11-23T14:11:36.056485",
+      "created": "2020-11-04T20:39:09.743665",
+      "schema": {
+        "resource_id": "eae25e9a-3ca8-4d81-9c25-d09ef4ae2b97",
+        "total_records": 32,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Sources",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fréquence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Dernière période de référence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Période de comparaison",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Variation  (fleche / couleur/ %)",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Sources": "",
+            "Fréquence": "",
+            "Dernière période de référence": "",
+            "Période de comparaison": "",
+            "Variation  (fleche / couleur/ %)": ""
+          },
+          {
+            "_id": 2,
+            "Sources": "",
+            "Fréquence": "Mois/ trimestre ",
+            "Dernière période de référence": "2020-08-01 00:00:00",
+            "Période de comparaison": "2019.0",
+            "Variation  (fleche / couleur/ %)": ""
+          },
+          {
+            "_id": 3,
+            "Sources": "",
+            "Fréquence": "",
+            "Dernière période de référence": "Données",
+            "Période de comparaison": "Donnée",
+            "Variation  (fleche / couleur/ %)": ""
+          },
+          {
+            "_id": 4,
+            "Sources": "",
+            "Fréquence": "Mois",
+            "Dernière période de référence": "",
+            "Période de comparaison": "",
+            "Variation  (fleche / couleur/ %)": ""
+          },
+          {
+            "_id": 5,
+            "Sources": "",
+            "Fréquence": "",
+            "Dernière période de référence": "10232.0",
+            "Période de comparaison": "",
+            "Variation  (fleche / couleur/ %)": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Sources": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fréquence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Dernière période de référence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Période de comparaison": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Variation  (fleche / couleur/ %)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 32,
+        "total_records": 32,
+        "audited_at": "2026-03-10T00:19:45.359374+00:00",
+        "fields": {
+          "Sources": {
+            "null_count": 32,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Fréquence": {
+            "null_count": 28,
+            "null_pct": 87.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Mois",
+                "count": 3
+              },
+              {
+                "value": "Mois/ trimestre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Dernière période de référence": {
+            "null_count": 24,
+            "null_pct": 75.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Août",
+                "count": 2
+              },
+              {
+                "value": "2020-08-01 00:00:00",
+                "count": 1
+              },
+              {
+                "value": "Données",
+                "count": 1
+              },
+              {
+                "value": "10232.0",
+                "count": 1
+              },
+              {
+                "value": "11893.0",
+                "count": 1
+              },
+              {
+                "value": "17726.0",
+                "count": 1
+              },
+              {
+                "value": "10426.0",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Période de comparaison": {
+            "null_count": 11,
+            "null_pct": 34.4,
+            "min": 0.865,
+            "max": 8121854.0,
+            "mean": 2252608.5148,
+            "median": 76047.5,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2019.0",
+                "count": 3
+              },
+              {
+                "value": "Donnée",
+                "count": 1
+              },
+              {
+                "value": "0.884",
+                "count": 1
+              },
+              {
+                "value": "0.871",
+                "count": 1
+              },
+              {
+                "value": "0.888",
+                "count": 1
+              },
+              {
+                "value": "0.9",
+                "count": 1
+              },
+              {
+                "value": "0.889",
+                "count": 1
+              },
+              {
+                "value": "0.865",
+                "count": 1
+              },
+              {
+                "value": "8121854.0",
+                "count": 1
+              },
+              {
+                "value": "7631445.0",
+                "count": 1
+              }
+            ]
+          },
+          "Variation  (fleche / couleur/ %)": {
+            "null_count": 12,
+            "null_pct": 37.5,
+            "min": -0.9459,
+            "max": -0.15,
+            "mean": -0.5824,
+            "median": -0.5451,
+            "unique_count": 17,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "vs 2019",
+                "count": 3
+              },
+              {
+                "value": "-0.37",
+                "count": 1
+              },
+              {
+                "value": "-0.6",
+                "count": 1
+              },
+              {
+                "value": "-0.45",
+                "count": 1
+              },
+              {
+                "value": "-0.25",
+                "count": 1
+              },
+              {
+                "value": "-0.29",
+                "count": 1
+              },
+              {
+                "value": "-0.15",
+                "count": 1
+              },
+              {
+                "value": "-0.499070655542",
+                "count": 1
+              },
+              {
+                "value": "-0.945884429489",
+                "count": 1
+              },
+              {
+                "value": "-0.929947865887",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bureau",
+    "COVID-19",
+    "Commerce",
+    "Enseignement supérieur",
+    "Habitation",
+    "Immobilier",
+    "Mobilité",
+    "SDÉ"
+  ],
+  "web_metadata": {
+    "methodology_text": "Ce projet est piloté par la Société de développement commercial Montréal centre-ville et l’Institut de développement urbain du Québec (IDU). Il est rendu possible par le soutien financier de la Ville de Montréal et la collaboration de partenaires publics et privés qui contribuent au financement de l’initiative ou au partage des données colligées par le Groupe Altus.\n\n\nLes données proviennent du site web L’État du centre-ville de Montréal et des rapports PDF. Le fichier XLSX présente l'évolution pour chacun des indicateurs thématiques suivants :\n\n\n- Commerces (source : Enquête terrain Groupe Altus)\n\n- Bureaux (source : Groupe Altus InSite)\n\n- Habitation (source : APCIQ par Centris® - Arrondissement Ville-Marie - T1 à T3 2020 vs T1 à T3 2019 / Outil Condo du Groupe Altus - Centre-ville de Montréal T1 à T2 2020 vs T1 à T2 2019 / SCHL - Mises en chantier - Arrondissement Ville-Marie - T1 à T3 2020 vs T1 à T3 2019)\n\n- Tourisme (source : Tourisme Montréal / * Île/Agglomération de Montréal, 68,3 % des chambres dans l’arrondissement Ville-Marie sur total Île de Montréal)\n\n- Enseignement supérieur (source : Bureau de coopération interuniversitaire et Directions des universités McGill, Concordia et UQAM ainsi que le Collège Dawson et le Collège LaSalle / Automne 2019 versus Automne 2020)\n\n- Achalandage et mobilité (source : comptages piétonniers, Agence de la mobilité durable, Société de transport de Montréal et BIXI)\n\n\n\n\n_La nature et la structure des données, ainsi que les indicateurs seront itératifs au fur et à mesure que les nouvelles mises à jour se mettent en place._\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du développement économique",
+      "Couverture temporelle": "2019 / 2020",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Bureau",
+      "COVID-19",
+      "Commerce",
+      "Enseignement supérieur",
+      "Habitation",
+      "Immobilier",
+      "Mobilité",
+      "SDÉ"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/indicateurs-de-l-etat-du-centre-ville",
+    "scraped_at": "2026-03-09T19:58:37.704202+00:00"
+  }
+}

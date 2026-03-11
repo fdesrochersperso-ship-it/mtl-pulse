@@ -1,0 +1,391 @@
+{
+  "slug": "vmtl-avis-alertes",
+  "title": "Avis et alertes",
+  "notes": "Cet ensemble de données présente les avis et alertes publiés sur [le site web de la Ville de Montréal](https://montreal.ca/avis-et-alertes).  Les avis et alertes communiquent les renseignements importants à la population en cas d'urgence et en situations pouvant avoir un impact sur la vie quotidienne (avis d’ébullition d’eau, travaux, fermeture de piscine, etc.).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-01-25T21:02:19.053220",
+  "metadata_modified": "2026-03-09T01:28:46.725667",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "fc6e5f85-7eba-451c-8243-bdf35c2ab336",
+      "name": "Avis et alertes",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/556c84af-aebf-4ca9-9a9c-2f246601674c/resource/fc6e5f85-7eba-451c-8243-bdf35c2ab336/download/avis-alertes.csv",
+      "datastore_active": true,
+      "size": 82721,
+      "last_modified": "2026-03-09T00:02:07.278790",
+      "created": "2023-11-30T19:27:41.483150",
+      "schema": {
+        "resource_id": "fc6e5f85-7eba-451c-8243-bdf35c2ab336",
+        "total_records": 217,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "service_publieur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lien",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "titre": "Coupure d'eau – Rue Forsyth et 58e Avenue, arrondissement de Rivière-des-Prairies-Pointe-aux-Trembles",
+            "date_debut": "2026-02-05T21:45:47.854000",
+            "date_fin": "2026-06-05T22:45:47.854000",
+            "type": "Eau et aqueduc",
+            "service_publieur": "Services des communications",
+            "lien": "https://montreal.ca/alertes/coupure-deau-rue-forsyth-et-58e-avenue-arrondissement-de-rivieredesprairiespointeauxtrembles-20260205165811"
+          },
+          {
+            "_id": 2,
+            "titre": "Collecte des déchets domestiques est reportée – 06/02/2026 , arrondissement de Mercier–Hochelaga-Maisonneuve   ",
+            "date_debut": "2026-02-05T22:27:29.255000",
+            "date_fin": "2026-06-05T23:27:29.255000",
+            "type": "Déchets et recyclage",
+            "service_publieur": "Services des communications",
+            "lien": "https://montreal.ca/alertes/collecte-des-dechets-domestiques-est-reportee-06022026-arrondissement-de-mercierhochelagamaisonneuve--20260205173605"
+          },
+          {
+            "_id": 3,
+            "titre": "Fermeture de la circulation – Boulevard de la Côte-Vertu, direction Ouest, entre les rues Muir et Latour, arrondissement de Saint-Laurent",
+            "date_debut": "2026-02-06T14:40:42.953000",
+            "date_fin": "2026-06-06T15:40:42.953000",
+            "type": "Circulation et transport",
+            "service_publieur": "Services des communications",
+            "lien": "https://montreal.ca/alertes/fermeture-de-la-circulation-boulevard-de-la-cotevertu-direction-ouest-entre-les-rues-muir-et-latour-arrondissement-de-saintlaurent-20260206094615"
+          },
+          {
+            "_id": 4,
+            "titre": "Coupure d'eau – Rue Duff Court, entre le croissant Roy et la rue Esther-Blondin, arrondissement de Lachine ",
+            "date_debut": "2026-02-06T15:00:41.345000",
+            "date_fin": "2026-06-06T16:00:41.345000",
+            "type": "Eau et aqueduc",
+            "service_publieur": "Services des communications",
+            "lien": "https://montreal.ca/alertes/coupure-deau-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine--20260206100614"
+          },
+          {
+            "_id": 5,
+            "titre": "Fermeture de la circulation – Rue Duff Court, entre le croissant Roy et la rue Esther-Blondin, arrondissement de Lachine",
+            "date_debut": "2026-02-06T15:12:04.865000",
+            "date_fin": "2026-06-06T16:12:04.865000",
+            "type": "Circulation et transport",
+            "service_publieur": "Services des communications",
+            "lien": "https://montreal.ca/alertes/fermeture-de-la-circulation-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine-20260206101443"
+          }
+        ]
+      },
+      "field_stats": {
+        "titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "service_publieur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lien": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 217,
+        "total_records": 217,
+        "audited_at": "2026-03-10T00:13:59.235787+00:00",
+        "fields": {
+          "titre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 209,
+            "top_values": [
+              {
+                "value": "Entrave à la circulation – Boulevard René-Lévesque Est, entre la rue Sainte-Élisabeth et l'avenue de l'Hôtel-de-Ville, arr. de Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Fermeture de la circulation – Rue  Lespérance entre les rues Terrase Thomas-Valin, arrondissement de Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "MISE À JOUR- Fermeture de la circulation – Av. Savoie, entre la rue Ontario Est et boulevard De Maisonneuve Est – Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "MISE À JOUR – Fermeture de la circulation – Boulevard LaSalle, entre la 1re et la 3e Avenue, arrondissement de Verdun",
+                "count": 2
+              },
+              {
+                "value": "Entrave à la circulation – Rue Sainte-Catherine Est, entre l'avenue De Lorimier et la rue Fullum, arrondissement de Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Fermeture de la circulation – Rue Saint-André, entre les rues Ontario et Robin, arrondissement de Ville-Marie",
+                "count": 2
+              },
+              {
+                "value": "Coupure d'eau – Avenue De Lorimier, entre la rue Masson et l'avenue Laurier, arrondissement du Plateau-Mont-Royal",
+                "count": 2
+              },
+              {
+                "value": "Fermeture de la circulation – Avenue De Lorimier, entre la rue Masson et le boulevard Saint-Joseph, arrondissement du Plateau-Mont-Royal",
+                "count": 2
+              },
+              {
+                "value": "Coupure d'eau – Rue Forsyth et 58e Avenue, arrondissement de Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 1
+              },
+              {
+                "value": "Collecte des déchets domestiques est reportée – 06/02/2026 , arrondissement de Mercier–Hochelaga-Maisonneuve",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-01-30T13:31:43.794000",
+            "max_date": "2026-03-08T23:35:14.143000",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-05-30T14:31:43.794000",
+            "max_date": "2026-07-06T23:35:14.143000",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Circulation et transport",
+                "count": 97
+              },
+              {
+                "value": "Eau et aqueduc",
+                "count": 50
+              },
+              {
+                "value": "Urgence",
+                "count": 34
+              },
+              {
+                "value": "Parcs et bâtiments municipaux",
+                "count": 31
+              },
+              {
+                "value": "Déchets et recyclage",
+                "count": 2
+              },
+              {
+                "value": "Déneigement",
+                "count": 2
+              },
+              {
+                "value": "Séances publiques",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "service_publieur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Services des communications",
+                "count": 217
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "lien": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 217,
+            "top_values": [
+              {
+                "value": "https://montreal.ca/alertes/coupure-deau-rue-forsyth-et-58e-avenue-arrondissement-de-rivieredesprairiespointeauxtrembles-20260205165811",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/collecte-des-dechets-domestiques-est-reportee-06022026-arrondissement-de-mercierhochelagamaisonneuve--20260205173605",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/fermeture-de-la-circulation-boulevard-de-la-cotevertu-direction-ouest-entre-les-rues-muir-et-latour-arrondissement-de-saintlaurent-20260206094615",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/coupure-deau-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine--20260206100614",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/fermeture-de-la-circulation-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine-20260206101443",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/correction-horaire-special-pour-le-complexe-sportif-de-lecole-secondaire-anjou-le-06032026-arrondissement-danjou-20260205171835",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/fermetures-a-la-circulation-sur-les-rues-de-maricourt-et-eadie-arrondissement-du-sudouest-20260206121105",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/coupure-deau-07022026-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine-20260206150201",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/fermeture-de-la-circulation-07022026-rue-duff-court-entre-le-croissant-roy-et-la-rue-estherblondin-arrondissement-de-lachine-20260206151326",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/alertes/entrave-a-la-circulation-boulevard-renelevesque-est-entre-la-rue-sainteelisabeth-et-lavenue-de-lhoteldeville-arr-de-villemarie-20260206155339",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "d249e452-46f5-422f-91ae-898c98eea6cc",
+      "name": "Avis et alertes",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/556c84af-aebf-4ca9-9a9c-2f246601674c/resource/d249e452-46f5-422f-91ae-898c98eea6cc/download/avis-alertes.geojson",
+      "datastore_active": false,
+      "size": 133866,
+      "last_modified": "2026-03-09T00:02:33.872683",
+      "created": "2023-11-30T19:28:39.294130",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "311 Montréal",
+    "Alerte",
+    "Avis",
+    "Eau",
+    "SCAEC",
+    "Urgence",
+    "circulation",
+    "déchets",
+    "déneigement",
+    "parc",
+    "recyclage",
+    "stationnement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données représentent les avis et alertes qui ont été émis par l'outil de gestion des alertes de la Ville. Les données contiennent les avis et alertes publiés dans les 12 dernières semaines. \n\n## Dictionnaire de données\n\n\n\n- titre (texte variable) : Titre de l'avis.  \n\n- date_debut (date et heure) : Date de début de la période de publication de l'avis. \n\n- date_fin (texte variable) : Date de fin de la période de publication de l'avis.\n\n- type (liste de valeurs) : Type d'avis.    \n\n- Urgence\n\n- Eau et aqueduc\n\n- Circulation et transport\n\n- Déchets et recyclage\n\n- Stationnement\n\n- Déneigement\n\n- Parcs et bâtiments municipaux\n\n- Séances publiques\n\n- Complexes sportifs\n\n\n\n- service_publieur (texte variable) : Service ou arrondissement ayant émis l'avis ou l'alerte.\n\n- lien (texte variable) : Lien URL pour consulter la ficher de l'avis sur le site web de la Ville de Montréal.\n\n- X (coordonnées spatiales) : Position géographique de l’observation, coordonnée X en MTM 8 NAD83.\n\n- Y (coordonnées spatiales) : Position géographique de l’observation, coordonnée X en MTM 8 NAD83.\n\n- Lat (coordonnées spatiales) : Position géographique de l’observation, latitude en WGS84.\n\n- Long (coordonnées spatiales) : Position géographique de l’observation, latitude en WGS84.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2023-12-01/à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "311 Montréal",
+      "Alerte",
+      "Avis",
+      "Eau",
+      "SCAEC",
+      "Urgence",
+      "circulation",
+      "déchets",
+      "déneigement",
+      "parc",
+      "recyclage",
+      "stationnement"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/avis-alertes",
+    "scraped_at": "2026-03-09T19:52:20.869921+00:00"
+  }
+}

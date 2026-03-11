@@ -1,0 +1,656 @@
+{
+  "slug": "vmtl-inspections-salubrite",
+  "title": "Inspections de salubrité du Service de l'habitation",
+  "notes": "Cet ensemble de données contient des informations sur les inspections effectuées par la Division de la salubrité du Service de l’habitation (anciennement le Service de la mise en valeur du territoire).\r\n\r\nLa Ville de Montréal, par son [Règlement sur la salubrité, l’entretien et la sécurité des logements (R.V.M. 03-096)](https://montreal.ca/reglements-municipaux/recherche/60d7656afd6531443f578d96), veille à assurer la salubrité, le bon entretien et la sécurité des logements et des bâtiments résidentiels sur son territoire. \r\n\r\nPar salubrité, on entend l’ensemble des conditions rendant un logement propre à l’habitation.\r\n\r\nPour en savoir plus sur les efforts déployés par la Ville de Montréal en matière de salubrité des logements, consultez le [Plan d’action pour des conditions de logement décentes 2018-2021](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements).\r\n\r\n**Note:** Le présent ensemble concerne uniquement les inspections effectuées par la Division de la salubrité du Service de l’habitation, et non celles effectuées par le personnel des arrondissements. \r\n\r\nLes données sur les inspections ne présentent pas un portrait de l’insalubrité ni un diagnostic de l’état du parc de logements locatifs, mais plutôt le travail fait par l’équipe.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "sante",
+      "display_name": "Santé",
+      "mapped": {
+        "name_fr": "Santé",
+        "name_en": "Health",
+        "icon": "heart"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-03-23T20:32:15.455213",
+  "metadata_modified": "2026-02-01T05:01:04.670771",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "4405a181-a90a-4499-b04b-8ec759142686",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNmJhODNmMmQtZDkyNC00ZTVmLWJjOTgtM2NlMjM0YzZhNjhiIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-04-20T14:57:50.141156",
+      "schema": null
+    },
+    {
+      "id": "ed5bae4e-9136-4218-a82c-1e3d18bd056e",
+      "name": "Inspections en salubrité",
+      "description": "Fichier CSV des inspections en salubrité du Service de l'habitation",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/ed5bae4e-9136-4218-a82c-1e3d18bd056e/download/inspections-salubrite.csv",
+      "datastore_active": true,
+      "size": 377159,
+      "last_modified": "2026-02-01T03:08:08.338552",
+      "created": "2020-03-23T20:35:28.194729",
+      "schema": {
+        "resource_id": "ed5bae4e-9136-4218-a82c-1e3d18bd056e",
+        "total_records": 2453,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_demande",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "date_premiere_inspection",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "statut_demande",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "nb_unite_logement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_logements_non_conformes",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_non_conformite",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "taux_correction",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "text",
+              "label": ""
+            }
+          },
+          {
+            "id": "quartier_de_reference_num",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "text",
+              "label": ""
+            }
+          },
+          {
+            "id": "quartier_de_reference_nom",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_demande": "3000127500",
+            "arrondissement": "Rosemont - La Petite-Patrie",
+            "date_premiere_inspection": "2008-12",
+            "statut_demande": "Fermée",
+            "nb_unite_logement": null,
+            "nb_logements_non_conformes": "45",
+            "nb_non_conformite": "187",
+            "taux_correction": null,
+            "quartier_de_reference_num": "18",
+            "quartier_de_reference_nom": "Vieux-Rosemont",
+            "x": "298515.5569998949",
+            "y": "5045014.468785744",
+            "longitude": "-73.5804790394",
+            "latitude": "45.545015934829195"
+          },
+          {
+            "_id": 2,
+            "no_demande": "3000911800",
+            "arrondissement": "Rosemont - La Petite-Patrie",
+            "date_premiere_inspection": "2014-12",
+            "statut_demande": "Fermée",
+            "nb_unite_logement": null,
+            "nb_logements_non_conformes": "1",
+            "nb_non_conformite": "4",
+            "taux_correction": null,
+            "quartier_de_reference_num": "18",
+            "quartier_de_reference_nom": "Vieux-Rosemont",
+            "x": "298925.4179999007",
+            "y": "5045293.593785738",
+            "longitude": "-73.5752336843526",
+            "latitude": "45.547531177580794"
+          },
+          {
+            "_id": 3,
+            "no_demande": "3000127288",
+            "arrondissement": "Rosemont - La Petite-Patrie",
+            "date_premiere_inspection": "2008-11",
+            "statut_demande": "Fermée",
+            "nb_unite_logement": null,
+            "nb_logements_non_conformes": "16",
+            "nb_non_conformite": "69",
+            "taux_correction": null,
+            "quartier_de_reference_num": "18",
+            "quartier_de_reference_nom": "Vieux-Rosemont",
+            "x": "298543.853889894",
+            "y": "5045078.667060749",
+            "longitude": "-73.5801174882868",
+            "latitude": "45.5455938683896"
+          },
+          {
+            "_id": 4,
+            "no_demande": "3000127289",
+            "arrondissement": "Rosemont - La Petite-Patrie",
+            "date_premiere_inspection": "2008-11",
+            "statut_demande": "Fermée",
+            "nb_unite_logement": null,
+            "nb_logements_non_conformes": "15",
+            "nb_non_conformite": "77",
+            "taux_correction": null,
+            "quartier_de_reference_num": "18",
+            "quartier_de_reference_nom": "Vieux-Rosemont",
+            "x": "298515.5569998949",
+            "y": "5045014.468785744",
+            "longitude": "-73.5804790394",
+            "latitude": "45.545015934829195"
+          },
+          {
+            "_id": 5,
+            "no_demande": "3000127290",
+            "arrondissement": "Rosemont - La Petite-Patrie",
+            "date_premiere_inspection": "2008-11",
+            "statut_demande": "Fermée",
+            "nb_unite_logement": null,
+            "nb_logements_non_conformes": "16",
+            "nb_non_conformite": "91",
+            "taux_correction": null,
+            "quartier_de_reference_num": "18",
+            "quartier_de_reference_nom": "Vieux-Rosemont",
+            "x": "298820.34664490295",
+            "y": "5045045.907885741",
+            "longitude": "-73.5765762684767",
+            "latitude": "45.5453015181471"
+          }
+        ]
+      },
+      "field_stats": {
+        "no_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_premiere_inspection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut_demande": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_unite_logement": {
+          "null_count": 2021,
+          "null_pct": 82.4,
+          "populated_pct": 17.6
+        },
+        "nb_logements_non_conformes": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_non_conformite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "taux_correction": {
+          "null_count": 2099,
+          "null_pct": 85.6,
+          "populated_pct": 14.4
+        },
+        "quartier_de_reference_num": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "quartier_de_reference_nom": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "x": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "y": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "longitude": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "latitude": {
+          "null_count": 22,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2453,
+        "audited_at": "2026-03-10T00:20:05.478145+00:00",
+        "fields": {
+          "no_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3000127288.0,
+            "max": 3003612856.0,
+            "mean": 3001123222.122,
+            "median": 3000708104.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 283
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 174
+              },
+              {
+                "value": "Lachine",
+                "count": 151
+              },
+              {
+                "value": "Verdun",
+                "count": 104
+              },
+              {
+                "value": "Côte-des-Neiges - Notre-Dame-de-Grâce",
+                "count": 103
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 72
+              },
+              {
+                "value": "Rivière-des-Prairies - Pointe-aux-Trembles",
+                "count": 62
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 26
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 16
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_premiere_inspection": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007-12",
+            "max_date": "2025-12",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "statut_demande": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Fermée",
+                "count": 899
+              },
+              {
+                "value": "Étude",
+                "count": 101
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nb_unite_logement": {
+            "null_count": 875,
+            "null_pct": 87.5,
+            "min": 1.0,
+            "max": 198.0,
+            "mean": 21.304,
+            "median": 8.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "nb_logements_non_conformes": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 192.0,
+            "mean": 12.902,
+            "median": 7.5,
+            "unique_count": 78,
+            "field_type_detected": "numeric"
+          },
+          "nb_non_conformite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1587.0,
+            "mean": 89.718,
+            "median": 54.0,
+            "unique_count": 256,
+            "field_type_detected": "numeric"
+          },
+          "taux_correction": {
+            "null_count": 899,
+            "null_pct": 89.9,
+            "min": 0.0,
+            "max": 0.8734,
+            "mean": 0.29,
+            "median": 0.1333,
+            "unique_count": 62,
+            "field_type_detected": "numeric"
+          },
+          "quartier_de_reference_num": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 70.0,
+            "mean": 56.908,
+            "median": 61.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "61",
+                "count": 174
+              },
+              {
+                "value": "56",
+                "count": 169
+              },
+              {
+                "value": "70",
+                "count": 151
+              },
+              {
+                "value": "64",
+                "count": 104
+              },
+              {
+                "value": "42",
+                "count": 103
+              },
+              {
+                "value": "59",
+                "count": 74
+              },
+              {
+                "value": "62",
+                "count": 72
+              },
+              {
+                "value": "54",
+                "count": 62
+              },
+              {
+                "value": "55",
+                "count": 40
+              },
+              {
+                "value": "18",
+                "count": 26
+              }
+            ]
+          },
+          "quartier_de_reference_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Est",
+                "count": 174
+              },
+              {
+                "value": "Grenet",
+                "count": 169
+              },
+              {
+                "value": "Vieux-Lachine - Saint-Pierre",
+                "count": 151
+              },
+              {
+                "value": "Verdun-Centre",
+                "count": 104
+              },
+              {
+                "value": "Parc-Kent",
+                "count": 103
+              },
+              {
+                "value": "Du College/Hodge",
+                "count": 74
+              },
+              {
+                "value": "Port-Maurice",
+                "count": 72
+              },
+              {
+                "value": "Pointe-aux-Trembles",
+                "count": 62
+              },
+              {
+                "value": "Chameran/Montpellier",
+                "count": 40
+              },
+              {
+                "value": "Vieux-Rosemont",
+                "count": 26
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 288747.513175,
+            "max": 305542.67747,
+            "mean": 294614.119761,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5032640.994761,
+            "max": 5059409.141785,
+            "mean": 5043510.925156,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.705482,
+            "max": -73.490471,
+            "mean": -73.63038,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.433573,
+            "max": 45.674571,
+            "mean": 45.531427,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "1d0df764-3936-45fe-b6ca-46a75abed9d2",
+      "name": "Inspections en salubrité",
+      "description": "Fichier en format GeoJson des inspections en salubrité du Service de l'habitation",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/1d0df764-3936-45fe-b6ca-46a75abed9d2/download/inspections-salubrite.geojson",
+      "datastore_active": false,
+      "size": 1409827,
+      "last_modified": "2026-02-01T03:08:09.946154",
+      "created": "2020-03-23T20:36:45.728793",
+      "schema": null
+    },
+    {
+      "id": "1b9a1e0e-728a-435e-8098-e8453086709d",
+      "name": "Inspections en salubrité",
+      "description": "Conteneur Zip en format SHP des inspections en salubrité du Service de l'habitation",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/e166ecc3-f139-4c77-9855-0e0d43865397/resource/1b9a1e0e-728a-435e-8098-e8453086709d/download/inspections-salubrite.zip",
+      "datastore_active": false,
+      "size": 119334,
+      "last_modified": "2026-02-01T03:08:13.871079",
+      "created": "2020-03-23T20:37:36.632035",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Habitation",
+    "Inspection",
+    "Logement",
+    "SH",
+    "Salubrité"
+  ],
+  "web_metadata": {
+    "methodology_text": "La plupart des inspections visant l’application du Règlement 03-096 sont réalisées par le personnel des arrondissements montréalais à la suite de plaintes ou de requêtes soumises à la Ville de Montréal via le système d’appel 311 et dans les Bureaux Accès Montréal (BAM). Or, dans les cas complexes ou de grande ampleur, les arrondissements peuvent transférer certains dossiers de salubrité au Service central de l’habitation par le biais d’ententes. \n\n\nActive depuis 2007, la Division de la salubrité du Service de l’habitation procède ainsi à des inspections sur demande des arrondissements, et ce, sur l’ensemble du",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "Habitation",
+      "Inspection",
+      "Logement",
+      "SH",
+      "Salubrité"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/inspections-salubrite",
+    "scraped_at": "2026-03-09T19:59:01.293755+00:00"
+  }
+}

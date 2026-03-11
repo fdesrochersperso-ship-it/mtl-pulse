@@ -1,0 +1,184 @@
+{
+  "slug": "vmtl-concentration-mes-station-epuration",
+  "title": "Concentration en MES à l'affluent et à l'effluent de la station d’épuration (période estivale 2015) (archives)",
+  "notes": "Cet ensemble présente les données liées à l'affluent et l'effluent de la station d'épuration pendant la saison estivale de 2015.  Ces données ont fait l’objet de traitements spéciaux  (efforts de simulation et estimation) pour offrir plus de latitude aux prototypes développés dans le cadre de l'évènement Aquahacking 2016.  Il s'agit d'une extraction unique et ponctuelle (sans mise à jour prévue).\r\n\r\nL'ensemble inclut :\r\n\r\n- Concentration mesurée en matières en suspension (MES)  et en phosphore d’un échantillon composé de l’affluent sur une base journalière\r\n- Concentration mesurée en matières en suspension (MES)  et en phosphore d’un échantillon composé de l’effluent sur une base journalière\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-10-04T17:42:28.809585",
+  "metadata_modified": "2025-02-26T21:35:27.484063",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "940147cd-dc15-4d89-bb83-871114d790ba",
+      "name": "Concentration en MES aux affluent et effluent de la station d’épuration (saison estival 2015)",
+      "description": "",
+      "format": "XLS",
+      "url": "https://donnees.montreal.ca/fr/dataset/bdc8d3a8-a9f7-484a-a56b-4076118bb5df/resource/940147cd-dc15-4d89-bb83-871114d790ba/download/mesphosphoreaffeffstation2015.xls",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-10-04T20:39:48.422856",
+      "created": "2016-10-04T16:39:48.469891",
+      "schema": {
+        "resource_id": "940147cd-dc15-4d89-bb83-871114d790ba",
+        "total_records": 13,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "FICHE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "FICHE": "Titre"
+          },
+          {
+            "_id": 2,
+            "FICHE": "Description"
+          },
+          {
+            "_id": 3,
+            "FICHE": "Méthodologie"
+          },
+          {
+            "_id": 4,
+            "FICHE": "Période de couverture"
+          },
+          {
+            "_id": 5,
+            "FICHE": "LEGENDE"
+          }
+        ]
+      },
+      "field_stats": {
+        "FICHE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 13,
+        "total_records": 13,
+        "audited_at": "2026-03-10T00:15:02.544706+00:00",
+        "fields": {
+          "FICHE": {
+            "null_count": 2,
+            "null_pct": 15.4,
+            "unique_count": 11,
+            "top_values": [
+              {
+                "value": "Titre",
+                "count": 1
+              },
+              {
+                "value": "Description",
+                "count": 1
+              },
+              {
+                "value": "Méthodologie",
+                "count": 1
+              },
+              {
+                "value": "Période de couverture",
+                "count": 1
+              },
+              {
+                "value": "LEGENDE",
+                "count": 1
+              },
+              {
+                "value": "MES_AFF",
+                "count": 1
+              },
+              {
+                "value": "MES_EFF",
+                "count": 1
+              },
+              {
+                "value": "P_TOTAL_AFF",
+                "count": 1
+              },
+              {
+                "value": "P_TOTAL_EFF",
+                "count": 1
+              },
+              {
+                "value": "DATE (aaaa-mm-jj)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "b85d8297-ca30-4096-b39f-ffec66801059",
+      "name": "Note technique - AquaHacking",
+      "description": "Ces données ont été préparée pour des fins d'étude du Fleuve Saint-Laurent et ont été fournies pour l'événement AquaHacking. Cette note technique apporte des précisions sur les ensembles de données de la période estival 2015.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/bdc8d3a8-a9f7-484a-a56b-4076118bb5df/resource/b85d8297-ca30-4096-b39f-ffec66801059/download/notetechniquedescriptiondonneesdeeu20161003.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-04T20:40:26.980041",
+      "created": "2016-10-04T16:40:27.040622",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Affluent effluent",
+    "Aquahacking",
+    "Eau",
+    "MES",
+    "Matière en suspention",
+    "SE",
+    "Station épuration"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le débit des eaux usées entrant à la station (affluent) tout comme le débit de l’effluent traité et rejeté au fleuve St-Laurent sont mesurés en continu et tous deux sont échantillonnés régulièrement et font l’objet d’analyses physico-chimiques. Ces données sont exploitées pour l’opération et le suivi de performances. Le jeu de données proposées est constitué des séries temporelles\npour la saison estivale 2015 (1er mai au 31 octobre).\n\n\nVoir note technique PDF.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2015-05-01 / 2015-10-31",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Affluent effluent",
+      "Aquahacking",
+      "Eau",
+      "MES",
+      "Matière en suspention",
+      "SE",
+      "Station épuration"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/concentration-mes-station-epuration",
+    "scraped_at": "2026-03-09T19:54:02.824748+00:00"
+  }
+}

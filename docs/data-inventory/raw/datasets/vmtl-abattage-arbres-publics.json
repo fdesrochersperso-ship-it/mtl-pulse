@@ -1,0 +1,396 @@
+{
+  "slug": "vmtl-abattage-arbres-publics",
+  "title": "Abattage - Arbres publics sur le territoire de la Ville",
+  "notes": "Données sur les abattages d'arbres appartenant à la municipalité désignés du « domaine public ». Ces données contiennent les arbres de rue et hors rue (parcs et places publiques) depuis la période comprise entre 1989 et 1991, soit la première période d'inventaire massif à Montréal.\r\n\r\nVeuillez noter que dans plusieurs cas, les données concernant la localisation spatiale des arbres peuvent être imprécises. De plus, il est important de mentionner que cet ensemble présente seulement les abattages d'arbres colligés dans le système centralisé de Montréal. Certains arrondissements ne s'y retrouvent donc pas. \r\n\r\nPour plus d'informations sur les arbres publics montréalais, veuillez consulter l'ensemble : [Arbres publics sur le territoire de la Ville.](/dataset/arbres)",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-04-30T15:18:44.679061",
+  "metadata_modified": "2026-03-09T10:14:00.165474",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "1b00ea3f-92a4-4ed3-adcf-3fb12a2d0910",
+      "name": "Visualisation des données",
+      "description": "<a href=\"https://vuesurlesdonnees.montreal.ca/pub/sense/app/13c61352-8813-41fa-95f6-d4ac486f6879/sheet/SH01/state/analysis\" target=\"_blank\" title=\"Visualisation Qlik des actes criminels\">Ouvrir la visualisation dans un nouvel onglet</a>",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzBjMjM3NjItZDQ0Ny00ZGRiLTk3ZmMtYzE2NWNjZTIwMzQzIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T15:09:04.947381",
+      "schema": null
+    },
+    {
+      "id": "d99f8ff2-55ae-4581-920e-146219c5f429",
+      "name": "Liste des abattages",
+      "description": "Liste tabulaire des abattages réalisés.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/63ca34cd-d636-420c-929b-cac47116f2e5/resource/d99f8ff2-55ae-4581-920e-146219c5f429/download/arbres-abattages.csv",
+      "datastore_active": true,
+      "size": 9869760,
+      "last_modified": "2026-03-09T07:03:58.354118",
+      "created": "2018-04-30T15:19:29.896594",
+      "schema": {
+        "resource_id": "d99f8ff2-55ae-4581-920e-146219c5f429",
+        "total_records": 137914,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ARH_TYPE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARH_EMP_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARH_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARH_ESSENCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARH_DATE_ABATTAGE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coord_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ARH_TYPE": "H",
+            "ARH_EMP_NO": "3",
+            "ARH_NO": "1",
+            "ARH_ESSENCE": "ACPLCO",
+            "ARH_DATE_ABATTAGE": "2008-05-28T00:00:00",
+            "Coord_X": null,
+            "Coord_Y": null,
+            "Longitude": null,
+            "Latitude": null
+          },
+          {
+            "_id": 2,
+            "ARH_TYPE": "H",
+            "ARH_EMP_NO": "4",
+            "ARH_NO": "1",
+            "ARH_ESSENCE": "ACPLCO",
+            "ARH_DATE_ABATTAGE": "2006-04-24T00:00:00",
+            "Coord_X": null,
+            "Coord_Y": null,
+            "Longitude": null,
+            "Latitude": null
+          },
+          {
+            "_id": 3,
+            "ARH_TYPE": "H",
+            "ARH_EMP_NO": "4",
+            "ARH_NO": "2",
+            "ARH_ESSENCE": "ACPLCO",
+            "ARH_DATE_ABATTAGE": "2016-09-22T00:00:00",
+            "Coord_X": null,
+            "Coord_Y": null,
+            "Longitude": null,
+            "Latitude": null
+          },
+          {
+            "_id": 4,
+            "ARH_TYPE": "H",
+            "ARH_EMP_NO": "23",
+            "ARH_NO": "1",
+            "ARH_ESSENCE": "ACSAMO",
+            "ARH_DATE_ABATTAGE": "2018-07-11T00:00:00",
+            "Coord_X": "289540.842",
+            "Coord_Y": "5045271.265",
+            "Longitude": "-73.695417",
+            "Latitude": "45.547188"
+          },
+          {
+            "_id": 5,
+            "ARH_TYPE": "H",
+            "ARH_EMP_NO": "26",
+            "ARH_NO": "1",
+            "ARH_ESSENCE": "ACPLDE",
+            "ARH_DATE_ABATTAGE": "2017-11-19T00:00:00",
+            "Coord_X": null,
+            "Coord_Y": null,
+            "Longitude": null,
+            "Latitude": null
+          }
+        ]
+      },
+      "field_stats": {
+        "ARH_TYPE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARH_EMP_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARH_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARH_ESSENCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARH_DATE_ABATTAGE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coord_X": {
+          "null_count": 52896,
+          "null_pct": 38.4,
+          "populated_pct": 61.6
+        },
+        "Coord_Y": {
+          "null_count": 52896,
+          "null_pct": 38.4,
+          "populated_pct": 61.6
+        },
+        "Longitude": {
+          "null_count": 52896,
+          "null_pct": 38.4,
+          "populated_pct": 61.6
+        },
+        "Latitude": {
+          "null_count": 52896,
+          "null_pct": 38.4,
+          "populated_pct": 61.6
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 137914,
+        "audited_at": "2026-03-10T00:13:31.701343+00:00",
+        "fields": {
+          "ARH_TYPE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "H",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ARH_EMP_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 3489.0,
+            "mean": 1667.125,
+            "median": 1640.0,
+            "unique_count": 893,
+            "field_type_detected": "numeric"
+          },
+          "ARH_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 1.122,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 891
+              },
+              {
+                "value": "2",
+                "count": 97
+              },
+              {
+                "value": "3",
+                "count": 11
+              },
+              {
+                "value": "4",
+                "count": 1
+              }
+            ]
+          },
+          "ARH_ESSENCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 134,
+            "top_values": [
+              {
+                "value": "FRPE",
+                "count": 100
+              },
+              {
+                "value": "PODE",
+                "count": 53
+              },
+              {
+                "value": "ACSA",
+                "count": 49
+              },
+              {
+                "value": "GLTRSK",
+                "count": 39
+              },
+              {
+                "value": "MABARH",
+                "count": 37
+              },
+              {
+                "value": "ACPL",
+                "count": 37
+              },
+              {
+                "value": "ACPLCO",
+                "count": 32
+              },
+              {
+                "value": "ACSC",
+                "count": 31
+              },
+              {
+                "value": "FRPESU",
+                "count": 27
+              },
+              {
+                "value": "GYDI",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ARH_DATE_ABATTAGE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2004-03-01T00:00:00",
+            "max_date": "2026-02-18T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Coord_X": {
+            "null_count": 394,
+            "null_pct": 39.4,
+            "min": 286140.861,
+            "max": 306123.28,
+            "mean": 298713.337083,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Coord_Y": {
+            "null_count": 394,
+            "null_pct": 39.4,
+            "min": 5033939.5,
+            "max": 5062262.645,
+            "mean": 5040378.657677,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 394,
+            "null_pct": 39.4,
+            "min": -73.738847,
+            "max": -73.483007,
+            "mean": -73.577887,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 394,
+            "null_pct": 39.4,
+            "min": 45.445349,
+            "max": 45.700246,
+            "mean": 45.503297,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Abattage",
+    "Agrile",
+    "Arbre",
+    "Arr.",
+    "Foresterie",
+    "Frêne",
+    "Grand parc",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Pour chaque arrondissement participant au présent ensemble, les inspecteurs et agents techniques de la Ville effectuent la collecte et la mise à jour des données sur les arbres publics. Les données recueillies sont téléchargées dans une base de données et gérées via l’application « Gestion des végétaux » (GDV).  Les premières données datent de la période comprise entre les années 1989 et 1991.\n\n\nL'abattage d'un arbre public est une intervention arboricole nécessaire lorsque ce dernier est mort, atteint d'une maladie irréversible, susceptible de causer un dommage ou une nuisance à la personne ou aux biens ou lorsque celui-ci est situé dans l'aire d'implantation d'une construction projetée ou à proximité de celle-ci. \n\n\nEn raison de l'infestation d'agrile du frêne sur son",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    CDN\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements / Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "1989-01-01 /",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Abattage",
+      "Agrile",
+      "Arbre",
+      "Arr.",
+      "Foresterie",
+      "Frêne",
+      "Grand parc",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/abattage-arbres-publics",
+    "scraped_at": "2026-03-09T19:51:45.703935+00:00"
+  }
+}

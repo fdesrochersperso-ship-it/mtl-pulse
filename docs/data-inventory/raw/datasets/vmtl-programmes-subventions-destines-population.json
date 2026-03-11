@@ -1,0 +1,432 @@
+{
+  "slug": "vmtl-programmes-subventions-destines-population",
+  "title": "Programmes et subventions destinés à la population et aux organismes",
+  "notes": "La Ville de Montréal offre une multitude de programmes destinés à la population montréalaise et aux organismes établis sur le territoire. Cet ensemble de données permet de consulter la liste des programmes telle que publiée sur [le site web de la Ville de Montréal](https://montreal.ca/recherche?dc_type.machine_name=programs).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    },
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    },
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-01-27T15:24:56.860046",
+  "metadata_modified": "2026-03-09T01:28:51.760601",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "5a2bef39-3b3e-4d7d-82cf-658f7821e141",
+      "name": "Programmes",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/ed18ce85-dc88-4db8-94f5-75cb6001e03f/resource/5a2bef39-3b3e-4d7d-82cf-658f7821e141/download/programmes.csv",
+      "datastore_active": true,
+      "size": 40264,
+      "last_modified": "2026-03-09T00:02:09.872525",
+      "created": "2023-02-02T15:19:55.045831",
+      "schema": {
+        "resource_id": "5a2bef39-3b3e-4d7d-82cf-658f7821e141",
+        "total_records": 187,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "url_fiche",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "service_publieur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_cree",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "titre": "RénoPlex : subventions à la rénovation des immeubles de 1 à 5 logements",
+            "url_fiche": "https://montreal.ca/programmes/renoplex-subventions-la-renovation-des-immeubles-de-1-5-logements",
+            "service_publieur": "Ville de Montréal",
+            "date_cree": "2021-01-27",
+            "type": "Subvention",
+            "statut": "En cours"
+          },
+          {
+            "_id": 2,
+            "titre": "Aide aux personnes aînées pour le paiement des taxes municipales",
+            "url_fiche": "https://montreal.ca/programmes/aide-aux-personnes-ainees-pour-le-paiement-des-taxes-municipales",
+            "service_publieur": "Ville de Montréal",
+            "date_cree": "2021-02-14",
+            "type": "Subvention",
+            "statut": "En cours"
+          },
+          {
+            "_id": 3,
+            "titre": "Citoyens et citoyennes d'honneur",
+            "url_fiche": "https://montreal.ca/programmes/citoyens-et-citoyennes-dhonneur",
+            "service_publieur": "Ville de Montréal",
+            "date_cree": "2021-05-20",
+            "type": "Prix et concours",
+            "statut": null
+          },
+          {
+            "_id": 4,
+            "titre": "Clés de la ville",
+            "url_fiche": "https://montreal.ca/programmes/cles-de-la-ville",
+            "service_publieur": "Ville de Montréal",
+            "date_cree": "2021-05-20",
+            "type": "Prix et concours",
+            "statut": null
+          },
+          {
+            "_id": 5,
+            "titre": "L’Ordre de Montréal",
+            "url_fiche": "https://montreal.ca/programmes/lordre-de-montreal",
+            "service_publieur": "Ville de Montréal",
+            "date_cree": "2021-05-21",
+            "type": "Prix et concours",
+            "statut": null
+          }
+        ]
+      },
+      "field_stats": {
+        "titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "url_fiche": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "service_publieur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_cree": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 145,
+          "null_pct": 77.5,
+          "populated_pct": 22.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 187,
+        "total_records": 187,
+        "audited_at": "2026-03-10T00:22:51.053281+00:00",
+        "fields": {
+          "titre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 187,
+            "top_values": [
+              {
+                "value": "RénoPlex : subventions à la rénovation des immeubles de 1 à 5 logements",
+                "count": 1
+              },
+              {
+                "value": "Aide aux personnes aînées pour le paiement des taxes municipales",
+                "count": 1
+              },
+              {
+                "value": "Citoyens et citoyennes d'honneur",
+                "count": 1
+              },
+              {
+                "value": "Clés de la ville",
+                "count": 1
+              },
+              {
+                "value": "L’Ordre de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Programme d'appui à l'acquisition résidentielle",
+                "count": 1
+              },
+              {
+                "value": "Réno logement abordable : subventions pour immeubles de 6 logements ou plus",
+                "count": 1
+              },
+              {
+                "value": "Programme d’adaptation de domicile (PAD)",
+                "count": 1
+              },
+              {
+                "value": "Aide financière aux OBNL locataires",
+                "count": 1
+              },
+              {
+                "value": "Intervention de milieu pour les jeunes 12-30 ans",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "url_fiche": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 187,
+            "top_values": [
+              {
+                "value": "https://montreal.ca/programmes/renoplex-subventions-la-renovation-des-immeubles-de-1-5-logements",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/aide-aux-personnes-ainees-pour-le-paiement-des-taxes-municipales",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/citoyens-et-citoyennes-dhonneur",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/cles-de-la-ville",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/lordre-de-montreal",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/programme-dappui-lacquisition-residentielle",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/reno-logement-abordable-subventions-pour-immeubles-de-6-logements-ou-plus",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/programme-dadaptation-de-domicile-pad",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/aide-financiere-aux-obnl-locataires",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/programmes/intervention-de-milieu-pour-les-jeunes-12-30-ans",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "service_publieur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 93
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 16
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 12
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 12
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 10
+              },
+              {
+                "value": "Verdun",
+                "count": 7
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 7
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 6
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 4
+              },
+              {
+                "value": "Anjou",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date_cree": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-11-19",
+            "max_date": "2026-02-20",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Appel à projets",
+                "count": 67
+              },
+              {
+                "value": "Subvention",
+                "count": 43
+              },
+              {
+                "value": "Aide et accompagnement",
+                "count": 40
+              },
+              {
+                "value": "Prix et concours",
+                "count": 18
+              },
+              {
+                "value": "Embellissement de quartier",
+                "count": 10
+              },
+              {
+                "value": "Aménagement ou infrastructure",
+                "count": 4
+              },
+              {
+                "value": "Rabais et avantages",
+                "count": 3
+              },
+              {
+                "value": "Sensibilisation",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "statut": {
+            "null_count": 145,
+            "null_pct": 77.5,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "En cours",
+                "count": 15
+              },
+              {
+                "value": "Terminé",
+                "count": 15
+              },
+              {
+                "value": "Date limite passée",
+                "count": 10
+              },
+              {
+                "value": "Suspendu",
+                "count": 1
+              },
+              {
+                "value": "Nouveau",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SCAEC",
+    "aide financière",
+    "appel à projet",
+    "concours",
+    "soutien",
+    "subventions"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le présent ensemble de données contient plusieurs types de programmes, incluant les programmes d'aide et d'accompagnement, les rabais et avantages, les prix et concours, les appels à projets, les subventions, entre autres. \n\n\nVeuillez noter que les données ne présentent pas l’intégralité des programmes de la Ville de Montréal, mais ceux qui sont publiés sur le site de la Ville.\n\n## Dictionnaire de données\n\n\n\n- titre (texte) : Nom du programme.\n\n- url_fiche (texte) : Lien URL pour consulter la fiche détaillée du programme.\n\n- service_publieur (texte) : Service ou arrondissement ayant publié le programme sur le site web de la Ville.\n\n- date_cree (date) : Date à laquelle la fiche du programme a été créée sur le site web de la Ville.\n\n- type (liste de valeur) : Type de programme.\n\n- statut (liste de valeur) : Statut du programme.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2023 / à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "SCAEC",
+      "aide financière",
+      "appel à projet",
+      "concours",
+      "soutien",
+      "subventions"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/programmes-subventions-destines-population",
+    "scraped_at": "2026-03-09T20:16:03.257108+00:00"
+  }
+}

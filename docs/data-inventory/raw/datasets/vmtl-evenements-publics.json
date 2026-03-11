@@ -1,0 +1,988 @@
+{
+  "slug": "vmtl-evenements-publics",
+  "title": "Événements publics",
+  "notes": "Le présent ensemble de données contient les événements publics de la Ville de Montréal tels que diffusés sur [le calendrier de la Ville](https://montreal.ca/calendrier). Les données permettent de connaître les caractéristiques principales de l'événement, notamment la date, le type d'événement (p. ex. spectacle, séance publique, exposition), le public cible, le coût et l'emplacement.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    },
+    {
+      "id": "societe-culture",
+      "display_name": "Société et culture",
+      "mapped": {}
+    },
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-12-06T20:54:46.127897",
+  "metadata_modified": "2026-03-09T01:08:29.012032",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "6decf611-6f11-4f34-bb36-324d804c9bad",
+      "name": "Événements",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578/resource/6decf611-6f11-4f34-bb36-324d804c9bad/download/evenements.csv",
+      "datastore_active": true,
+      "size": 2105004,
+      "last_modified": "2026-03-09T00:02:19.398575",
+      "created": "2023-08-02T16:05:41.606586",
+      "schema": {
+        "resource_id": "6decf611-6f11-4f34-bb36-324d804c9bad",
+        "total_records": 5237,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "titre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "url_fiche",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "type_evenement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "public_cible",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "emplacement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "inscription",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cout",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "titre_adresse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_principale",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse_secondaire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "code_postal",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lat",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "long",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "titre": "Consultation sur vos parcs et espaces verts dans CDN-NDG au CELO",
+            "url_fiche": "https://montreal.ca/evenements/consultation-sur-vos-parcs-et-espaces-verts-dans-cdn-ndg-au-celo-86536",
+            "description": "Consultation sur vos parcs et espaces verts dans CDN-NDG : séances d'information et de validation les 25 et 27 mars 2025",
+            "date_debut": "2025-03-25",
+            "date_fin": "2025-03-25",
+            "type_evenement": "Séance d'information",
+            "public_cible": "Pour tous",
+            "emplacement": "En salle",
+            "inscription": "Entrée libre",
+            "cout": "Gratuit",
+            "arrondissement": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+            "titre_adresse": "Centre communautaire de loisir de la Côte-des-Neiges (CELO)",
+            "adresse_principale": "5347, chemin de la Côte-des-Neiges",
+            "adresse_secondaire": "None",
+            "code_postal": "H3T1Y4",
+            "lat": "45.496642",
+            "long": "-73.622299",
+            "X": "295241.7",
+            "Y": "5039642.8"
+          },
+          {
+            "_id": 2,
+            "titre": "Assemblée publique de consultation - redéveloppement de l'Institution des Sourdes-Muettes",
+            "url_fiche": "https://montreal.ca/evenements/assemblee-publique-de-consultation-redeveloppement-de-linstitution-des-sourdes-muettes-96278",
+            "description": "L'arrondissement du Plateau-Mont-Royal invite la population à une assemblée publique de consultation sur la redéveloppement de l'Institution des Sourdes-Muettes",
+            "date_debut": "2025-08-26",
+            "date_fin": "2025-08-26",
+            "type_evenement": "Assemblée publique",
+            "public_cible": "Pour tous",
+            "emplacement": "En salle",
+            "inscription": "Sur inscription",
+            "cout": "Gratuit",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "titre_adresse": "Institut de tourisme et d'hôtellerie du Québec (ITHQ)",
+            "adresse_principale": "3535, rue Saint-Denis",
+            "adresse_secondaire": "None",
+            "code_postal": "H2X3P1",
+            "lat": "45.51776",
+            "long": "-73.568756",
+            "X": "299428.4",
+            "Y": "5041984.6"
+          },
+          {
+            "_id": 3,
+            "titre": "Séance d'information sur le réaménagement de la rue Saint-Dominique",
+            "url_fiche": "https://montreal.ca/evenements/seance-dinformation-sur-le-reamenagement-de-la-rue-saint-dominique-88944",
+            "description": "L’arrondissement du Plateau-Mont-Royal invite la population à une séance d’information sur le réaménagement de la rue Saint-Dominique.",
+            "date_debut": "2025-05-21",
+            "date_fin": "2025-05-21",
+            "type_evenement": "Séance d'information",
+            "public_cible": "Pour tous",
+            "emplacement": "En ligne",
+            "inscription": "Sur inscription",
+            "cout": "Gratuit",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "titre_adresse": "nan",
+            "adresse_principale": "nan",
+            "adresse_secondaire": "nan",
+            "code_postal": "nan",
+            "lat": "45.525128",
+            "long": "-73.591167",
+            "X": "297678.4",
+            "Y": "5042805.2"
+          },
+          {
+            "_id": 4,
+            "titre": "Séance d'information sur le réaménagement de la rue Rivard",
+            "url_fiche": "https://montreal.ca/evenements/seance-dinformation-sur-le-reamenagement-de-la-rue-rivard-88945",
+            "description": "L’arrondissement du Plateau-Mont-Royal invite la population à une séance d’information sur le réaménagement de la rue Rivard.",
+            "date_debut": "2025-05-21",
+            "date_fin": "2025-05-21",
+            "type_evenement": "Séance d'information",
+            "public_cible": "Pour tous",
+            "emplacement": "En salle",
+            "inscription": "Sur inscription",
+            "cout": "Gratuit",
+            "arrondissement": "Le Plateau-Mont-Royal",
+            "titre_adresse": "nan",
+            "adresse_principale": "nan",
+            "adresse_secondaire": "nan",
+            "code_postal": "nan",
+            "lat": "45.525128",
+            "long": "-73.591167",
+            "X": "297678.4",
+            "Y": "5042805.2"
+          },
+          {
+            "_id": 5,
+            "titre": "Assemblée de consultation publique sur un PPCMOI au 4118-4132, rue de Verdun",
+            "url_fiche": "https://montreal.ca/evenements/assemblee-de-consultation-publique-sur-un-ppcmoi-au-4118-4132-rue-de-verdun-86609",
+            "description": "Le propriétaire du restaurant et locataire du bâtiment situé au 4118-4132, rue de Verdun (Church Pub) souhaite aménager deux toits-terrasses commerciaux.",
+            "date_debut": "2025-03-25",
+            "date_fin": "2025-03-25",
+            "type_evenement": "Consultation publique",
+            "public_cible": "Pour tous",
+            "emplacement": "En ligne",
+            "inscription": "Entrée libre",
+            "cout": "Gratuit",
+            "arrondissement": "Verdun",
+            "titre_adresse": "nan",
+            "adresse_principale": "nan",
+            "adresse_secondaire": "nan",
+            "code_postal": "nan",
+            "lat": "45.458965",
+            "long": "-73.573331",
+            "X": "299065",
+            "Y": "5035451.1"
+          }
+        ]
+      },
+      "field_stats": {
+        "titre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "url_fiche": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_fin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type_evenement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "public_cible": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "emplacement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "inscription": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "cout": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "titre_adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse_principale": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse_secondaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "code_postal": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lat": {
+          "null_count": 164,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "long": {
+          "null_count": 164,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "X": {
+          "null_count": 164,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        },
+        "Y": {
+          "null_count": 164,
+          "null_pct": 3.1,
+          "populated_pct": 96.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5219,
+        "audited_at": "2026-03-10T00:19:00.467223+00:00",
+        "fields": {
+          "titre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 778,
+            "top_values": [
+              {
+                "value": "Séance du conseil de Pierrefonds-Roxboro",
+                "count": 15
+              },
+              {
+                "value": "Café Réparation de Saint-Laurent",
+                "count": 8
+              },
+              {
+                "value": "Atelier de conversation en français avec Guy",
+                "count": 8
+              },
+              {
+                "value": "Atelier de français pour débutants",
+                "count": 8
+              },
+              {
+                "value": "Livres O Max",
+                "count": 8
+              },
+              {
+                "value": "Club de tricot Maille Maille",
+                "count": 6
+              },
+              {
+                "value": "Vive la glisse!",
+                "count": 6
+              },
+              {
+                "value": "Cabaret Noir - Mayday",
+                "count": 6
+              },
+              {
+                "value": "Briell - Myriam Sutton",
+                "count": 5
+              },
+              {
+                "value": "Séance de bien-être en ligne avec Florence Say",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "url_fiche": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "https://montreal.ca/evenements/consultation-sur-vos-parcs-et-espaces-verts-dans-cdn-ndg-au-celo-86536",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/assemblee-publique-de-consultation-redeveloppement-de-linstitution-des-sourdes-muettes-96278",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-dinformation-sur-le-reamenagement-de-la-rue-saint-dominique-88944",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-dinformation-sur-le-reamenagement-de-la-rue-rivard-88945",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/assemblee-de-consultation-publique-sur-un-ppcmoi-au-4118-4132-rue-de-verdun-86609",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/assemblee-publique-de-consultation-pour-ladoption-du-reglement-sur-les-derogations-mineures-86619",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/assemblee-de-consultation-publique-sur-le-reglement-de-zonage-relatif-lhebergement-touristique-87448",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/assemblee-ppcmoi-du-4155-wellington-ppcmoi-du-3955-wellington-et-projet-du-8-place-du-commerce-95545",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/club-de-tricot-maille-maille-102330",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/club-de-tricot-maille-maille-102332",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 790,
+            "top_values": [
+              {
+                "value": "Le Quai 5160 propose une programmation culturelle, gratuite ou à petits prix, en arts visuels, cinéma et arts de la scène.",
+                "count": 30
+              },
+              {
+                "value": "Les séances du conseil d’arrondissement de Villeray–Saint-Michel–Parc-Extension permettent au plus grand nombre de citoyens de participer à la vie démocratique.",
+                "count": 18
+              },
+              {
+                "value": "Tout sur la séance du conseil d'arrondissement de Pierrefonds-Roxboro. Posez une question et regardez la séance en direct en ligne.",
+                "count": 15
+              },
+              {
+                "value": "Tous les mois, les citoyennes et citoyens de Saint-Léonard peuvent assister à la séance ordinaire du conseil d'arrondissement  et y poser des questions.",
+                "count": 10
+              },
+              {
+                "value": "Le Café Réparation vous permet de réparer vos objets gratuitement grâce au savoir-faire de bénévoles.",
+                "count": 8
+              },
+              {
+                "value": "atelier français, francisation",
+                "count": 8
+              },
+              {
+                "value": "atelier de français, francisation",
+                "count": 8
+              },
+              {
+                "value": "Série d'ateliers découvertes en lecture, langage et motricité pour les petits et leurs parents à la bibliothèque de Saint-Michel  avec la Joujouthèque.",
+                "count": 8
+              },
+              {
+                "value": "atelier",
+                "count": 6
+              },
+              {
+                "value": "Plongez dans l’univers de cette artiste conteuse et bricoleuse qui, depuis plus de vingt ans, crée des oeuvres théâtrales pour enfants.",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-05-02",
+            "max_date": "2026-12-08",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-05-21",
+            "max_date": "2030-04-30",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "type_evenement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "Conseil et comité",
+                "count": 204
+              },
+              {
+                "value": "Atelier et cours",
+                "count": 169
+              },
+              {
+                "value": "Musique",
+                "count": 137
+              },
+              {
+                "value": "Théâtre",
+                "count": 88
+              },
+              {
+                "value": "Film",
+                "count": 76
+              },
+              {
+                "value": "Exposition temporaire",
+                "count": 74
+              },
+              {
+                "value": "Danse",
+                "count": 41
+              },
+              {
+                "value": "Consultation publique",
+                "count": 31
+              },
+              {
+                "value": "Jeux",
+                "count": 22
+              },
+              {
+                "value": "Séance d'information",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "public_cible": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Pour tous",
+                "count": 682
+              },
+              {
+                "value": "Adultes",
+                "count": 118
+              },
+              {
+                "value": "Enfants",
+                "count": 85
+              },
+              {
+                "value": "Famille",
+                "count": 66
+              },
+              {
+                "value": "Adolescents",
+                "count": 23
+              },
+              {
+                "value": "Enfants d'âge préscolaire",
+                "count": 17
+              },
+              {
+                "value": "Personnes aînées",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "emplacement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "En salle",
+                "count": 848
+              },
+              {
+                "value": "En ligne",
+                "count": 97
+              },
+              {
+                "value": "À l'extérieur",
+                "count": 55
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "inscription": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Entrée libre",
+                "count": 444
+              },
+              {
+                "value": "Avec billet",
+                "count": 336
+              },
+              {
+                "value": "Sur inscription",
+                "count": 220
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "cout": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Gratuit",
+                "count": 935
+              },
+              {
+                "value": "Payant",
+                "count": 65
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 106
+              },
+              {
+                "value": "Lachine",
+                "count": 95
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 85
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 82
+              },
+              {
+                "value": "Rivière-des-Prairies–Pointe-aux-Trembles",
+                "count": 61
+              },
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 60
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 56
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 52
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 51
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 50
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "titre_adresse": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "nan",
+                "count": 932
+              },
+              {
+                "value": "Salle Émile-Legault",
+                "count": 9
+              },
+              {
+                "value": "Salle du conseil de la mairie d'arrondissement d'Anjou",
+                "count": 8
+              },
+              {
+                "value": "Salle du conseil d'arrondissement",
+                "count": 8
+              },
+              {
+                "value": "Musée des métiers d'art du Quéebc",
+                "count": 6
+              },
+              {
+                "value": "Église Saint-Édouard",
+                "count": 3
+              },
+              {
+                "value": "Mairie d'arrondissement - Saint-Laurent",
+                "count": 2
+              },
+              {
+                "value": "Salle Jean-Eudes",
+                "count": 2
+              },
+              {
+                "value": "Église Notre-Dame-des-Sept-Douleurs",
+                "count": 2
+              },
+              {
+                "value": "Stationnement de la mairie d'Anjou",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse_principale": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 31,
+            "top_values": [
+              {
+                "value": "nan",
+                "count": 932
+              },
+              {
+                "value": "613, avenue Sainte-Croix",
+                "count": 9
+              },
+              {
+                "value": "7701, boulevard Louis-H. La Fontaine",
+                "count": 8
+              },
+              {
+                "value": "800, boulevard De Maisonneuve Est",
+                "count": 8
+              },
+              {
+                "value": "615, avenue Sainte-Croix",
+                "count": 6
+              },
+              {
+                "value": "3535, boulevard Rosemont",
+                "count": 5
+              },
+              {
+                "value": "777 boul Marcel-Laurin",
+                "count": 2
+              },
+              {
+                "value": "coin des rues Saint-Denis et Beaubien",
+                "count": 2
+              },
+              {
+                "value": "4155, rue Wellington",
+                "count": 2
+              },
+              {
+                "value": "7701, boulevard Louis-H.-La Fontaine",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "adresse_secondaire": {
+            "null_count": 51,
+            "null_pct": 5.1,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "nan",
+                "count": 932
+              },
+              {
+                "value": "rez-de-chaussée",
+                "count": 8
+              },
+              {
+                "value": "Salle du conseil",
+                "count": 2
+              },
+              {
+                "value": "Salle Jean-Eudes",
+                "count": 2
+              },
+              {
+                "value": "Entrée par la 15e Avenue",
+                "count": 2
+              },
+              {
+                "value": "3e étage",
+                "count": 1
+              },
+              {
+                "value": "boulevard Lacordaire",
+                "count": 1
+              },
+              {
+                "value": "Rez-de-chaussée",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "code_postal": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 27,
+            "top_values": [
+              {
+                "value": "nan",
+                "count": 932
+              },
+              {
+                "value": "H4L3X6",
+                "count": 15
+              },
+              {
+                "value": "H1K4B9",
+                "count": 10
+              },
+              {
+                "value": "H2L4L8",
+                "count": 9
+              },
+              {
+                "value": "H1X1K7",
+                "count": 4
+              },
+              {
+                "value": "H2S1S4",
+                "count": 3
+              },
+              {
+                "value": "H4M2M7",
+                "count": 2
+              },
+              {
+                "value": "H1R1R1",
+                "count": 2
+              },
+              {
+                "value": "H4G1V8",
+                "count": 2
+              },
+              {
+                "value": "H8Y3T4",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "lat": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "min": 45.42342,
+            "max": 45.684606,
+            "mean": 45.524405,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "long": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "min": -73.882029,
+            "max": 73.6615,
+            "mean": -73.479451,
+            "pct_in_montreal_bbox": 99.9,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "min": 274938.2,
+            "max": 2857754.0,
+            "mean": 297192.253656,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "min": 5031505.9,
+            "max": 14401589.7,
+            "mean": 5052365.853862,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "552efd9b-ad21-4829-9a67-8596c3be4c26",
+      "name": "Événements",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578/resource/552efd9b-ad21-4829-9a67-8596c3be4c26/download/evenements.zip",
+      "datastore_active": false,
+      "size": 442114,
+      "last_modified": "2026-03-09T00:02:42.863068",
+      "created": "2023-08-02T16:06:38.321125",
+      "schema": null
+    },
+    {
+      "id": "35307457-a00f-4912-9941-8095ead51f6e",
+      "name": "Événements",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578/resource/35307457-a00f-4912-9941-8095ead51f6e/download/evenements.geojson",
+      "datastore_active": false,
+      "size": 4188026,
+      "last_modified": "2026-03-09T00:03:05.684555",
+      "created": "2023-08-02T16:07:36.426080",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Calendrier",
+    "Participation citoyenne",
+    "Participation publique",
+    "SCAEC",
+    "Vie de quartier"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont extraites du calendrier des événements publics de la Ville. Veuillez noter que les données ne présentent pas l’intégralité des événements de la Ville de Montréal, mais ceux qui sont publiés sur le site de la Ville.\n\n## Dictionnaire de données\n\n\n\n- titre (Texte variable) : Nom de l'événement.\n\n- url_fiche (Texte variable) : Lien URL pour consulter la fiche de l'événement sur le site web de la Ville de Montréal.\n\n- description (Texte variable) : Description de l'événement.\n\n- date_debut (Date et heure) : Date de début de l'événement.\n\n- date_fin (Date et heure) : Date de fin de l'événement.\n\n- type_evenement (Texte variable) : Type d'événement (p. ex. spectacle, séance publique, exposition, atelier, marché).\n\n- public_cible (Texte variable) : Public cible (p. ex. enfants, adultes, pour tous).\n\n- emplacement (Texte variable) : Emplacement (p. ex. en salle, en ligne).\n\n- inscription (Texte variable) : Inscription (p. ex. sur inscription, sans billet).\n\n- cout (Texte variable) : Coût (p. ex. gratuit, payant).\n\n- arrondissement (Texte variable) : L'arrondissement qui a publié l'événement sur le site de la Ville.\n\n- titre_adresse (Texte variable) : Nom de l'adresse de l'événement.\n\n- adresse_principale (Texte variable) : Adresse de l'événement.\n\n- adresse_secondaire (Texte variable) : Renseignements supplémentaires sur l'adresse.\n\n- code_postal (Texte variable) : Code postal.\n\n- lat (Coordonnée spatiale) : Latitude en WGS84.\n\n- long (Coordonnée spatiale) : Longitude en WGS84.\n\n- X (Coordonnée spatiale) : Coordonnée X en MTM ZONE 8.\n\n- Y (Coordonnée spatiale) : Coordonnée Y en MTM ZONE 8.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2023 / à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Calendrier",
+      "Participation citoyenne",
+      "Participation publique",
+      "SCAEC",
+      "Vie de quartier"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/evenements-publics",
+    "scraped_at": "2026-03-09T19:57:22.719190+00:00"
+  }
+}

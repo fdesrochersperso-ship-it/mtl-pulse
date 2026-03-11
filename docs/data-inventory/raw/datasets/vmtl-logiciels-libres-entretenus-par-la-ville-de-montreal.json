@@ -1,0 +1,520 @@
+{
+  "slug": "vmtl-logiciels-libres-entretenus-par-la-ville-de-montreal",
+  "title": "Logiciels libres entretenus par la Ville de Montréal",
+  "notes": "Dans le cadre de la [Politique et directives traitant du code et matériel libre à la Ville de Montréal](https://github.com/VilledeMontreal/politique-libre), le Service des technologies de l'information de la Ville de Montréal publient l’inventaire des solutions libres qui sont développées et modifiées par l'organisation.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-03-08T16:48:40.055553",
+  "metadata_modified": "2026-03-01T02:14:11.214402",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "1eeabbbb-58e7-46d3-a1a0-7f0548e17767",
+      "name": "Liste des logiciels libres entretenus par la Ville de Montréal",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/341c17cd-229c-4ad0-86c9-7f4aeb92d8bd/resource/1eeabbbb-58e7-46d3-a1a0-7f0548e17767/download/liste-des-logiciels-libres-entretenus-par-la-ville-de-montreal.csv",
+      "datastore_active": true,
+      "size": 9414,
+      "last_modified": "2026-03-01T00:03:13.024530",
+      "created": "2023-03-08T16:52:04.378138",
+      "schema": {
+        "resource_id": "1eeabbbb-58e7-46d3-a1a0-7f0548e17767",
+        "total_records": 33,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_complet",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_creation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_mise_a_jour",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "url",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "git_url",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "licence_nom",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "462326922",
+            "nom": "angular-ui",
+            "nom_complet": "VilledeMontreal/angular-ui",
+            "description": null,
+            "date_creation": "2022-02-22",
+            "date_mise_a_jour": "2026-01-16",
+            "url": "https://api.github.com/repos/VilledeMontreal/angular-ui",
+            "git_url": "git://github.com/VilledeMontreal/angular-ui.git",
+            "licence_nom": "MIT License"
+          },
+          {
+            "_id": 2,
+            "id": "419318954",
+            "nom": "asset-tracking-receiver-api",
+            "nom_complet": "VilledeMontreal/asset-tracking-receiver-api",
+            "description": "villedemontreal.github.io/asset-tracking-receiver-api",
+            "date_creation": "2021-10-20",
+            "date_mise_a_jour": "2025-11-13",
+            "url": "https://api.github.com/repos/VilledeMontreal/asset-tracking-receiver-api",
+            "git_url": "git://github.com/VilledeMontreal/asset-tracking-receiver-api.git",
+            "licence_nom": "MIT License"
+          },
+          {
+            "_id": 3,
+            "id": "323442377",
+            "nom": "authentication-nodejs-lib",
+            "nom_complet": "VilledeMontreal/authentication-nodejs-lib",
+            "description": "This library handles transparent authentication of backend to backend API calls, using the OpenID Connect protocol.",
+            "date_creation": "2020-12-21",
+            "date_mise_a_jour": "2025-11-20",
+            "url": "https://api.github.com/repos/VilledeMontreal/authentication-nodejs-lib",
+            "git_url": "git://github.com/VilledeMontreal/authentication-nodejs-lib.git",
+            "licence_nom": "MIT License"
+          },
+          {
+            "_id": 4,
+            "id": "16923872",
+            "nom": "CKAN-Extension-Export-Utilisateurs",
+            "nom_complet": "VilledeMontreal/CKAN-Extension-Export-Utilisateurs",
+            "description": "Permet l'export de la liste des utilisateurs de CKAN en format CSV.",
+            "date_creation": "2014-02-17",
+            "date_mise_a_jour": "2020-05-19",
+            "url": "https://api.github.com/repos/VilledeMontreal/CKAN-Extension-Export-Utilisateurs",
+            "git_url": "git://github.com/VilledeMontreal/CKAN-Extension-Export-Utilisateurs.git",
+            "licence_nom": "Other"
+          },
+          {
+            "_id": 5,
+            "id": "14627472",
+            "nom": "CKAN-Extension-Territoire",
+            "nom_complet": "VilledeMontreal/CKAN-Extension-Territoire",
+            "description": "This extension is developed basing on the extension (example_idatasetform), with the variant type to add custom fields and tags extra.",
+            "date_creation": "2013-11-22",
+            "date_mise_a_jour": "2020-05-19",
+            "url": "https://api.github.com/repos/VilledeMontreal/CKAN-Extension-Territoire",
+            "git_url": "git://github.com/VilledeMontreal/CKAN-Extension-Territoire.git",
+            "licence_nom": "Other"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_complet": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 12,
+          "null_pct": 36.4,
+          "populated_pct": 63.6
+        },
+        "date_creation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_mise_a_jour": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "url": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "git_url": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "licence_nom": {
+          "null_count": 1,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 33,
+        "total_records": 33,
+        "audited_at": "2026-03-10T00:20:53.075933+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 14627472.0,
+            "max": 946075665.0,
+            "mean": 337473230.9394,
+            "median": 353764838.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "angular-ui",
+                "count": 1
+              },
+              {
+                "value": "asset-tracking-receiver-api",
+                "count": 1
+              },
+              {
+                "value": "authentication-nodejs-lib",
+                "count": 1
+              },
+              {
+                "value": "CKAN-Extension-Export-Utilisateurs",
+                "count": 1
+              },
+              {
+                "value": "CKAN-Extension-Territoire",
+                "count": 1
+              },
+              {
+                "value": "ckan-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "ckanext-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "concurrent-api-tests",
+                "count": 1
+              },
+              {
+                "value": "environment-collections-api",
+                "count": 1
+              },
+              {
+                "value": "express-idempotency",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "nom_complet": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "VilledeMontreal/angular-ui",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/asset-tracking-receiver-api",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/authentication-nodejs-lib",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/CKAN-Extension-Export-Utilisateurs",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/CKAN-Extension-Territoire",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/ckan-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/ckanext-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/concurrent-api-tests",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/environment-collections-api",
+                "count": 1
+              },
+              {
+                "value": "VilledeMontreal/express-idempotency",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "description": {
+            "null_count": 12,
+            "null_pct": 36.4,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "villedemontreal.github.io/asset-tracking-receiver-api",
+                "count": 1
+              },
+              {
+                "value": "This library handles transparent authentication of backend to backend API calls, using the OpenID Connect protocol.",
+                "count": 1
+              },
+              {
+                "value": "Permet l'export de la liste des utilisateurs de CKAN en format CSV.",
+                "count": 1
+              },
+              {
+                "value": "This extension is developed basing on the extension (example_idatasetform), with the variant type to add custom fields and tags extra.",
+                "count": 1
+              },
+              {
+                "value": "Theming extension for Montreal city.",
+                "count": 1
+              },
+              {
+                "value": "The GAD system makes it possible to move away from paper and move to electronic disposal authorizations.",
+                "count": 1
+              },
+              {
+                "value": "Add idempotency to your express route, effortlessly, the way you want it.",
+                "count": 1
+              },
+              {
+                "value": "Use MongoDB to store data related to the express idempotency middleware",
+                "count": 1
+              },
+              {
+                "value": "mocha-error-reporters includes the full error object as JSON in the test report when an error has some meaningful extra information.",
+                "count": 1
+              },
+              {
+                "value": "Principes directeurs d'architecture TI du programme Montréal en commun",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_creation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-11-22",
+            "max_date": "2025-03-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_mise_a_jour": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-05-01",
+            "max_date": "2026-02-20",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "url": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/angular-ui",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/asset-tracking-receiver-api",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/authentication-nodejs-lib",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/CKAN-Extension-Export-Utilisateurs",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/CKAN-Extension-Territoire",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/ckan-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/ckanext-montreal-archive",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/concurrent-api-tests",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/environment-collections-api",
+                "count": 1
+              },
+              {
+                "value": "https://api.github.com/repos/VilledeMontreal/express-idempotency",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "git_url": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "git://github.com/VilledeMontreal/angular-ui.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/asset-tracking-receiver-api.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/authentication-nodejs-lib.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/CKAN-Extension-Export-Utilisateurs.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/CKAN-Extension-Territoire.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/ckan-montreal-archive.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/ckanext-montreal-archive.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/concurrent-api-tests.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/environment-collections-api.git",
+                "count": 1
+              },
+              {
+                "value": "git://github.com/VilledeMontreal/express-idempotency.git",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "licence_nom": {
+            "null_count": 1,
+            "null_pct": 3.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "MIT License",
+                "count": 26
+              },
+              {
+                "value": "Other",
+                "count": 3
+              },
+              {
+                "value": "GNU Affero General Public License v3.0",
+                "count": 2
+              },
+              {
+                "value": "GNU General Public License v3.0",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Logiciel libre",
+    "STI"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Dictionnaire des données\n\n\n\n- ID : ID Git du projet.\n\n- nom : Nom du projet.    \n\n- nom_complet : Concaténation du nom usager de la Ville de Montréal et le nom du projet.\n\n- description : Description du projet.\n\n- date_creation : Date à laquelle le projet a été créé sur GitHub.\n\n- date_mise_a_jour : Dernière date de mise à jour sur GitHub.\n\n- url : URL de la page GitHub.\n\n- git_url : Lien pour une utilisation avec l'outils Git.\n\n- licence_nom : Nom de la licence ouverte qui régit l'utilisation du projet.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des technologies de l'information",
+      "Couverture temporelle": "2018-09-11/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Logiciel libre",
+      "STI"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/logiciels-libres-entretenus-par-la-ville-de-montreal",
+    "scraped_at": "2026-03-09T20:12:13.048514+00:00"
+  }
+}

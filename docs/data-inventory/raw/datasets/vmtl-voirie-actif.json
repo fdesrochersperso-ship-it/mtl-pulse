@@ -1,0 +1,1084 @@
+{
+  "slug": "vmtl-voirie-actif",
+  "title": "Actifs de voirie (Base de données complète - Chaussée, Îlot, Intersection, Trottoir, Zone)",
+  "notes": "La base de données Voirie inclut l'inventaire des actifs de voirie (chaussées, îlots, intersections, trottoirs, bordures) avec une représentation spatiale et diverses informations attachées.\r\n\r\nLes __actifs de voirie de type chaussée agrégée__ représentent les voies carrossables situées dans le domaine public et qui font partie du réseau routier local ou artériel. Les chaussées agrégées sont figurées par des polygones qui sont agrégés par type d'utilisation. Parmi les informations associées à un objet de type chaussée se trouvent la date de construction, la date de résurfaçage, la date de relevé, les matériaux de la chaussée, le type de fondation, la présence de voie cyclable, l’utilisation, etc.\r\n\r\nLes __actifs de voirie de type îlot__ représentent les mails situés dans le domaine public et qui sont juxtaposés au réseau routier local ou artériel. Les îlots sont figurés par des polygones qui sont différenciés par leur configuration. Parmi les informations associées à un objet de type îlot se trouvent la date de construction, la date de relevé, les matériaux de l'îlot et de la bordure, la présence d’arbres, le type d'îlot, etc.\r\n\r\nLes __actifs de voirie de type intersection__ représentent les croisements des voies carrossables situées dans le domaine public et qui font partie du réseau routier local ou artériel. Les intersections sont figurées par des polygones qui sont découpés en fonction du nombre d'axes de circulation. Parmi les informations associées à un objet de type intersection se trouvent la date de construction, la date de résurfaçage, la date de relevé, les matériaux de l'intersection, le type de fondation, la présence de voie cyclable, etc.\r\n\r\nLes __actifs de voirie de type trottoir__ représentent les trottoirs et les bordures juxtaposés aux voies carrossables situées dans le domaine public et qui font partie du réseau routier local ou artériel. Les trottoirs et les bordures sont figurés par des polygones différenciés par catégorie et type. Parmi les informations associées à un objet de type trottoir se trouvent la date de construction, la date de relevé, le type de trottoir et de bordure, les matériaux du trottoir, de la bordure et de la bande aménagée, la présence d'arbres, la présence de saillie, la présence de voie cyclable, l’utilisation, etc.\r\n\r\nLes __actifs de voirie de type zone__ représentent les régions situées entre les autres actifs de voirie et qui ne font pas partie du réseau routier local ou artériel. Les zones sont figurées par des polygones. Parmi les informations associées à un objet de type zone se trouvent le type de zone, etc.\r\n\r\nLes données sont aussi disponibles dans des ensembles distincts sur le portail pour supporter plusieurs utilisations:\r\n\r\n- [Chaussée et intersection](/ville-de-montreal/voirie-chaussee-intersection)\r\n- [Trottoir et îlot](/ville-de-montreal/voirie-trottoir-ilot)\r\n- [Zone hors voirie](/ville-de-montreal/voirie-zone) \r\n\r\n__Avertissements__\r\n\r\n- Les données diffusées sur les actifs de voirie sont celles qui se trouvent en la possession de l'équipe géomatique de la Ville et ne sont pas nécessairement à jour sur l'ensemble du territoire.\r\n- Les données diffusées sur les actifs de voirie sont fournies seulement à titre indicatif et ne devraient pas être utilisées pour des fins de conception ou réalisation des travaux ni pour la localisation des actifs.\r\n\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-08-16T18:59:59.356230",
+  "metadata_modified": "2026-03-02T11:04:30.119813",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "98af4fca-429a-41e3-8300-80a9f52e231b",
+      "name": "Voirie - V22 - actifs Chaussée agrégée Îlot Intersection Trottoir Zone - format CSV",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/0acbc6c8-bbfc-4aae-a0fa-ec74ba0686c6/resource/98af4fca-429a-41e3-8300-80a9f52e231b/download/voi_voirie_s_v22_csv.zip",
+      "datastore_active": true,
+      "size": 109519374,
+      "last_modified": "2026-03-02T10:28:45.543151",
+      "created": "2018-08-17T19:42:09.098917",
+      "schema": {
+        "resource_id": "98af4fca-429a-41e3-8300-80a9f52e231b",
+        "total_records": 237792,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_VOI_VOIRIE_AGR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIECHAUSSEE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIETROTTOIR_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATECONSTRUCTION",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "DATECONSTRUCTIONPREC_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATERESURFACAGE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUBORDURE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUCHAUSSEE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUILOT_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUINSER_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUINSERILOT_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUINTER_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATERIAUTROTTOIR_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POSITION_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PRESENCEARBRE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROPRIETAIRE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SAILLIE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEBORDURE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEFONDATION_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEILOT_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEINTERSECTION_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPETROTTOIR_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEUSAGECYCLABLE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEZONE_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UTILISATION_REF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_VERSION",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ACTIF_VOIRIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "GEOMETRY",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_VOI_VOIRIE_AGR": 200149523,
+            "CATEGORIECHAUSSEE_REF": "Rue",
+            "CATEGORIETROTTOIR_REF": "",
+            "DATECONSTRUCTION": 19170101000000,
+            "DATECONSTRUCTIONPREC_REF": "",
+            "DATERESURFACAGE": null,
+            "MATERIAUBORDURE_REF": "",
+            "MATERIAUCHAUSSEE_REF": "Asphalte",
+            "MATERIAUILOT_REF": "",
+            "MATERIAUINSER_REF": "",
+            "MATERIAUINSERILOT_REF": "",
+            "MATERIAUINTER_REF": "",
+            "MATERIAUTROTTOIR_REF": "",
+            "POSITION_REF": "Actif de voirie (5) situé au sol",
+            "PRESENCEARBRE_REF": "",
+            "PROPRIETAIRE_REF": "Lachine",
+            "SAILLIE_REF": "",
+            "TYPEBORDURE_REF": "",
+            "TYPEFONDATION_REF": "",
+            "TYPEILOT_REF": "",
+            "TYPEINTERSECTION_REF": "",
+            "TYPETROTTOIR_REF": "",
+            "TYPEUSAGECYCLABLE_REF": "NULL",
+            "TYPEZONE_REF": "",
+            "UTILISATION_REF": "Véhicule",
+            "DATE_VERSION": 20200530000000,
+            "ACTIF_VOIRIE": "VOI_CHAUSSEE_S_C22",
+            "GEOMETRY": "POLYGON((-73.693616181888743 45.434311621171247,-73.693612532344389 45.434283541731517,-73.693608882797037 45.434255462240259,-73.693590251990202 45.434256662555036,-73.693321771313592 45.434273959440119,-73.693176609422153 45.434282843626846,-73.693056147660783 45.434290111140911,-73.693060411446297 45.434345845358848,-73.693060856447147 45.434351662192292,-73.693065578178349 45.434413258213638,-73.693071280483707 45.434406337696977,-73.693077808624423 45.434401719410232,-73.693084348547572 45.434400556542393,-73.693273257023847 45.434386991208214,-73.693549484597241 45.434365718863582,-73.693555190266835 45.43436537575726,-73.693558723378743 45.434365163296135,-73.693574966643638 45.434364748832984,-73.693591212369611 45.43436505424652,-73.693607409372049 45.434366061626427,-73.69362348099645 45.434367780101191,-73.693619831491915 45.434339701032648,-73.693616181888743 45.434311621171247))"
+          },
+          {
+            "_id": 2,
+            "ID_VOI_VOIRIE_AGR": 200403182,
+            "CATEGORIECHAUSSEE_REF": "Rue",
+            "CATEGORIETROTTOIR_REF": "",
+            "DATECONSTRUCTION": 19850101000000,
+            "DATECONSTRUCTIONPREC_REF": "",
+            "DATERESURFACAGE": null,
+            "MATERIAUBORDURE_REF": "",
+            "MATERIAUCHAUSSEE_REF": "Asphalte",
+            "MATERIAUILOT_REF": "",
+            "MATERIAUINSER_REF": "",
+            "MATERIAUINSERILOT_REF": "",
+            "MATERIAUINTER_REF": "",
+            "MATERIAUTROTTOIR_REF": "",
+            "POSITION_REF": "Actif de voirie (5) situé au sol",
+            "PRESENCEARBRE_REF": "",
+            "PROPRIETAIRE_REF": "Montreal-Nord",
+            "SAILLIE_REF": "",
+            "TYPEBORDURE_REF": "",
+            "TYPEFONDATION_REF": "",
+            "TYPEILOT_REF": "",
+            "TYPEINTERSECTION_REF": "",
+            "TYPETROTTOIR_REF": "",
+            "TYPEUSAGECYCLABLE_REF": "NULL",
+            "TYPEZONE_REF": "",
+            "UTILISATION_REF": "Véhicule",
+            "DATE_VERSION": 20200530000000,
+            "ACTIF_VOIRIE": "VOI_CHAUSSEE_S_C22",
+            "GEOMETRY": "POLYGON((-73.62515179682525 45.61177542230952,-73.625145894539799 45.611767977450022,-73.625088403949647 45.611695461459902,-73.625088046098611 45.611703891911588,-73.625086439194121 45.611712102472985,-73.625084256591862 45.611719609857964,-73.625081034338592 45.611727040074115,-73.625076781064394 45.611734287538582,-73.625071534344869 45.611741247834274,-73.625065359968531 45.611747822570095,-73.625058349243886 45.611753923962134,-73.625050614571123 45.611759478692129,-73.625042283720688 45.611764430695011,-73.624956828036503 45.611809713453454,-73.624588889841576 45.611997953957626,-73.623623779003779 45.612500016414089,-73.623611791858778 45.61250625617933,-73.623548564431601 45.612539024243283,-73.623199902644259 45.612722497319318,-73.623126915518966 45.61276017972331,-73.62311651140547 45.612765984162692,-73.623105006366757 45.612771021010381,-73.623092581243512 45.612775146553894,-73.623079465020979 45.612778246920371,-73.623065921555494 45.612780247463078,-73.623052232173322 45.612781118517468,-73.62303867652777 45.612780876635227,-73.623105793783367 45.612841860736296,-73.623106254886778 45.612842279703962,-73.623172911183246 45.612902844797141,-73.623176113803225 45.612895072754718,-73.623180453348354 45.612887488241121,-73.62318588916159 45.61288021266558,-73.623192345994894 45.61287336041763,-73.623199717400368 45.612867032950277,-73.623207871481327 45.612861313842728,-73.623216658344731 45.612856265333953,-73.623323800901233 45.612800531496731,-73.623752597671796 45.612576632078472,-73.623824968890304 45.612539030925284,-73.623900080659709 45.612500005028991,-73.624401425137592 45.61223956351774,-73.624588887526485 45.612141674139743,-73.62502725788228 45.611914763049604,-73.625138572415096 45.611857151297265,-73.625151442877467 45.611850442493974,-73.62515914697029 45.611846959892624,-73.62516751901552 45.611844205101022,-73.625176341533461 45.611842262499508,-73.625185372993641 45.611841173105027,-73.625203385278255 45.611840493410106,-73.62515179682525 45.61177542230952))"
+          },
+          {
+            "_id": 3,
+            "ID_VOI_VOIRIE_AGR": 103100917,
+            "CATEGORIECHAUSSEE_REF": "Bretelle",
+            "CATEGORIETROTTOIR_REF": "",
+            "DATECONSTRUCTION": 19170701000000,
+            "DATECONSTRUCTIONPREC_REF": "DATE construction +/- 100 ans maximum",
+            "DATERESURFACAGE": null,
+            "MATERIAUBORDURE_REF": "",
+            "MATERIAUCHAUSSEE_REF": "Asphalte",
+            "MATERIAUILOT_REF": "",
+            "MATERIAUINSER_REF": "",
+            "MATERIAUINSERILOT_REF": "",
+            "MATERIAUINTER_REF": "",
+            "MATERIAUTROTTOIR_REF": "",
+            "POSITION_REF": "Actif de voirie (2) de type viaduc situé au-dessus d'autres actifs",
+            "PRESENCEARBRE_REF": "",
+            "PROPRIETAIRE_REF": "Dorval - Ile Dorval",
+            "SAILLIE_REF": "",
+            "TYPEBORDURE_REF": "",
+            "TYPEFONDATION_REF": "",
+            "TYPEILOT_REF": "",
+            "TYPEINTERSECTION_REF": "",
+            "TYPETROTTOIR_REF": "",
+            "TYPEUSAGECYCLABLE_REF": "NULL",
+            "TYPEZONE_REF": "",
+            "UTILISATION_REF": "Véhicule",
+            "DATE_VERSION": 20200530000000,
+            "ACTIF_VOIRIE": "VOI_CHAUSSEE_S_C22",
+            "GEOMETRY": "POLYGON((-73.777564867571215 45.449475393447436,-73.777565055090363 45.449513625167128,-73.777755488164274 45.449519744462982,-73.777945921277876 45.449525863441245,-73.778213299743584 45.44953197940049,-73.778480678264117 45.449538094733704,-73.778716343267419 45.449542559112722,-73.778952008305581 45.449547023005415,-73.779122214918331 45.449551070479721,-73.779292421554217 45.449555117700342,-73.779340299481461 45.449557736173517,-73.77938817741304 45.449560354626598,-73.779428700121343 45.449564718767945,-73.779469222835843 45.449569082894911,-73.779522249350975 45.449578743531802,-73.779575275884085 45.449588404144002,-73.779632829546955 45.44960352474687,-73.779690383240435 45.449618645320619,-73.77981660471589 45.449662680876571,-73.779854941568217 45.449680008084584,-73.779893278443978 45.449697335279652,-73.779938612042841 45.449723139914049,-73.779983945683014 45.449748944530235,-73.780015549606787 45.449769743617431,-73.780047153553767 45.449790542695759,-73.780075903091031 45.449813220455496,-73.780104652651332 45.449835898207837,-73.7801435655783 45.449804271978969,-73.780182478461711 45.449772645736772,-73.780178985436493 45.449769486827044,-73.780175492411658 45.449766327917196,-73.780108980326929 45.449718402969907,-73.780064656575462 45.449690004354458,-73.780027318888258 45.449667923550805,-73.779995324440151 45.449650868806522,-73.779963330011313 45.449633814053179,-73.779927246045418 45.449617057265428,-73.779891162100853 45.449600300466173,-73.779854475210811 45.449585704776638,-73.779817788339656 45.449571109075215,-73.779773737729911 45.449556531398237,-73.77972968714279 45.449541953704191,-73.779658407408363 45.449522547468334,-73.779598610899541 45.449508872130778,-73.779563191976763 45.449502479890782,-73.779527773061943 45.449496087639773,-73.779474760843925 45.449489306495614,-73.779421748638498 45.449482525326815,-73.77935094356603 45.449476363554112,-73.779239242303689 45.449473037269627,-73.779127541053953 45.449469710875874,-73.778991294705847 45.44946658830203,-73.778855048371994 45.449463465565621,-73.778666843191047 45.449459749556645,-73.778478638033334 45.44945603323751,-73.778076859534011 45.449447797571636,-73.77783076017154 45.44944278134804,-73.777584660850167 45.449437764594109,-73.77757467045123 45.449437463161246,-73.777564680052436 45.449437161727403,-73.777564867571215 45.449475393447436))"
+          },
+          {
+            "_id": 4,
+            "ID_VOI_VOIRIE_AGR": 100039653,
+            "CATEGORIECHAUSSEE_REF": "Rue",
+            "CATEGORIETROTTOIR_REF": "",
+            "DATECONSTRUCTION": 19970101000000,
+            "DATECONSTRUCTIONPREC_REF": "",
+            "DATERESURFACAGE": null,
+            "MATERIAUBORDURE_REF": "",
+            "MATERIAUCHAUSSEE_REF": "Asphalte",
+            "MATERIAUILOT_REF": "",
+            "MATERIAUINSER_REF": "",
+            "MATERIAUINSERILOT_REF": "",
+            "MATERIAUINTER_REF": "",
+            "MATERIAUTROTTOIR_REF": "",
+            "POSITION_REF": "Actif de voirie (5) situé au sol",
+            "PRESENCEARBRE_REF": "",
+            "PROPRIETAIRE_REF": "Pierrefonds - Roxboro",
+            "SAILLIE_REF": "",
+            "TYPEBORDURE_REF": "",
+            "TYPEFONDATION_REF": "",
+            "TYPEILOT_REF": "",
+            "TYPEINTERSECTION_REF": "",
+            "TYPETROTTOIR_REF": "",
+            "TYPEUSAGECYCLABLE_REF": "NULL",
+            "TYPEZONE_REF": "",
+            "UTILISATION_REF": "Véhicule",
+            "DATE_VERSION": 20200530000000,
+            "ACTIF_VOIRIE": "VOI_CHAUSSEE_S_C22",
+            "GEOMETRY": "POLYGON((-73.77696870891829 45.503110364001763,-73.776980285510675 45.503101947511979,-73.777036454068991 45.50306110239724,-73.777002067208059 45.503063201437556,-73.776978295893471 45.503058939831952,-73.776959424283845 45.503051786843571,-73.77693520678649 45.503040039615414,-73.776870087296359 45.502998714698577,-73.776825553038194 45.503029608894174,-73.776815299596137 45.503036721879653,-73.776760524618624 45.503074729003281,-73.776797793413706 45.503075790500453,-73.776825258556073 45.503081770890965,-73.776852356559274 45.503096390659188,-73.776924116827047 45.503142783600595,-73.77696870891829 45.503110364001763))"
+          },
+          {
+            "_id": 5,
+            "ID_VOI_VOIRIE_AGR": 101020973,
+            "CATEGORIECHAUSSEE_REF": "Rue",
+            "CATEGORIETROTTOIR_REF": "",
+            "DATECONSTRUCTION": 19170701000000,
+            "DATECONSTRUCTIONPREC_REF": "DATE construction +/- 100 ans maximum",
+            "DATERESURFACAGE": null,
+            "MATERIAUBORDURE_REF": "",
+            "MATERIAUCHAUSSEE_REF": "Asphalte",
+            "MATERIAUILOT_REF": "",
+            "MATERIAUINSER_REF": "",
+            "MATERIAUINSERILOT_REF": "",
+            "MATERIAUINTER_REF": "",
+            "MATERIAUTROTTOIR_REF": "",
+            "POSITION_REF": "Actif de voirie (5) situé au sol",
+            "PRESENCEARBRE_REF": "",
+            "PROPRIETAIRE_REF": "Dollard-des-Ormeaux",
+            "SAILLIE_REF": "",
+            "TYPEBORDURE_REF": "",
+            "TYPEFONDATION_REF": "",
+            "TYPEILOT_REF": "",
+            "TYPEINTERSECTION_REF": "",
+            "TYPETROTTOIR_REF": "",
+            "TYPEUSAGECYCLABLE_REF": "NULL",
+            "TYPEZONE_REF": "",
+            "UTILISATION_REF": "Véhicule",
+            "DATE_VERSION": 20200530000000,
+            "ACTIF_VOIRIE": "VOI_CHAUSSEE_S_C22",
+            "GEOMETRY": "POLYGON((-73.826579514468349 45.480785799951896,-73.826538209817514 45.480745731599875,-73.826152816676384 45.480939841238083,-73.826143615248924 45.480943529886694,-73.826134001174708 45.480946643810618,-73.82612403830683 45.480949164830875,-73.826113803289815 45.480951074731273,-73.826103372820114 45.480952364294659,-73.826092823542268 45.480953015304905,-73.826082232204854 45.480953027543222,-73.826071688347469 45.48095240075375,-73.826066472163262 45.480951772253171,-73.826118154388169 45.481002503159253,-73.826128778086016 45.481012931292526,-73.826169836704821 45.481053234042164,-73.826569121567019 45.480851933581533,-73.826578297472921 45.480848262968578,-73.82658788597513 45.480845158078694,-73.826597810533841 45.480842655124491,-73.826608019983951 45.480840754252164,-73.826618412151333 45.480839482749211,-73.826628923131722 45.480838849796775,-73.826634199628515 45.480838848206496,-73.826586204683437 45.480792289913566,-73.826581090450972 45.48078732876062,-73.826579514468349 45.480785799951896))"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_VOI_VOIRIE_AGR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIECHAUSSEE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CATEGORIETROTTOIR_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATECONSTRUCTION": {
+          "null_count": 149263,
+          "null_pct": 62.8,
+          "populated_pct": 37.2
+        },
+        "DATECONSTRUCTIONPREC_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATERESURFACAGE": {
+          "null_count": 224427,
+          "null_pct": 94.4,
+          "populated_pct": 5.6
+        },
+        "MATERIAUBORDURE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUCHAUSSEE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUILOT_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUINSER_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUINSERILOT_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUINTER_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MATERIAUTROTTOIR_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POSITION_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PRESENCEARBRE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROPRIETAIRE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SAILLIE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEBORDURE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEFONDATION_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEILOT_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEINTERSECTION_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPETROTTOIR_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEUSAGECYCLABLE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEZONE_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UTILISATION_REF": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_VERSION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTIF_VOIRIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "GEOMETRY": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 237792,
+        "audited_at": "2026-03-10T00:32:55.204579+00:00",
+        "fields": {
+          "ID_VOI_VOIRIE_AGR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100018389.0,
+            "max": 200415951.0,
+            "mean": 158958400.43,
+            "median": 200078839.0,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "CATEGORIECHAUSSEE_REF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Rue",
+                "count": 953
+              },
+              {
+                "value": "Autoroute",
+                "count": 27
+              },
+              {
+                "value": "Bretelle",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CATEGORIETROTTOIR_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DATECONSTRUCTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "18821230000000",
+            "max_date": "20191030000000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "DATECONSTRUCTIONPREC_REF": {
+            "null_count": 646,
+            "null_pct": 64.6,
+            "min_date": "DATE construction +/- 100 ans maximum",
+            "max_date": "DATE construction précise",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "DATERESURFACAGE": {
+            "null_count": 902,
+            "null_pct": 90.2,
+            "min_date": "19890101000000",
+            "max_date": "20190930000000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "MATERIAUBORDURE_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MATERIAUCHAUSSEE_REF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Asphalte",
+                "count": 982
+              },
+              {
+                "value": "Béton",
+                "count": 11
+              },
+              {
+                "value": "Pavé",
+                "count": 5
+              },
+              {
+                "value": "Pierre concassée (Gravier)",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MATERIAUILOT_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MATERIAUINSER_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MATERIAUINSERILOT_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MATERIAUINTER_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MATERIAUTROTTOIR_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "POSITION_REF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Actif de voirie (5) situé au sol",
+                "count": 959
+              },
+              {
+                "value": "Actif de voirie (6) de type passage situé au-dessous d'autres actifs",
+                "count": 26
+              },
+              {
+                "value": "Actif de voirie (2) de type viaduc situé au-dessus d'autres actifs",
+                "count": 12
+              },
+              {
+                "value": "Actif de voirie (1) de type pont situé au-dessus de cours d'eau ou d'autres actifs",
+                "count": 2
+              },
+              {
+                "value": "Actif de voirie (3) de type viaduc situé au-dessous d'un actif de voirie de position 2",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PRESENCEARBRE_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "PROPRIETAIRE_REF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 34,
+            "top_values": [
+              {
+                "value": "Rivière-Des-Prairies - Pointe-Aux-Trembles",
+                "count": 69
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 67
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 61
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 57
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 56
+              },
+              {
+                "value": "Pierrefonds - Roxboro",
+                "count": 53
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 52
+              },
+              {
+                "value": "Dollard-des-Ormeaux",
+                "count": 44
+              },
+              {
+                "value": "Villeray - St-Michel - Parc-Extension",
+                "count": 44
+              },
+              {
+                "value": "Côte-Des-Neiges - Notre-Dame-de-Grâce",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "SAILLIE_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPEBORDURE_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPEFONDATION_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPEILOT_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPEINTERSECTION_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPETROTTOIR_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "TYPEUSAGECYCLABLE_REF": {
+            "null_count": 956,
+            "null_pct": 95.6,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Chaussée désignée",
+                "count": 43
+              },
+              {
+                "value": "Traverse de piétons - vélo",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "TYPEZONE_REF": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "UTILISATION_REF": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Véhicule",
+                "count": 976
+              },
+              {
+                "value": "Traverse de piétons",
+                "count": 20
+              },
+              {
+                "value": "Passage à niveau",
+                "count": 3
+              },
+              {
+                "value": "Aménagement",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE_VERSION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20200530000000",
+            "max_date": "20200530000000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "ACTIF_VOIRIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "VOI_CHAUSSEE_S_C22",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "GEOMETRY": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "POLYGON((-73.693616181888743 45.434311621171247,-73.693612532344389 45.434283541731517,-73.693608882797037 45.434255462240259,-73.693590251990202 45.434256662555036,-73.693321771313592 45.434273959440119,-73.693176609422153 45.434282843626846,-73.693056147660783 45.434290111140911,-73.693060411446297 45.434345845358848,-73.693060856447147 45.434351662192292,-73.693065578178349 45.434413258213638,-73.693071280483707 45.434406337696977,-73.693077808624423 45.434401719410232,-73.693084348547572 45.434400556542393,-73.693273257023847 45.434386991208214,-73.693549484597241 45.434365718863582,-73.693555190266835 45.43436537575726,-73.693558723378743 45.434365163296135,-73.693574966643638 45.434364748832984,-73.693591212369611 45.43436505424652,-73.693607409372049 45.434366061626427,-73.69362348099645 45.434367780101191,-73.693619831491915 45.434339701032648,-73.693616181888743 45.434311621171247))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.62515179682525 45.61177542230952,-73.625145894539799 45.611767977450022,-73.625088403949647 45.611695461459902,-73.625088046098611 45.611703891911588,-73.625086439194121 45.611712102472985,-73.625084256591862 45.611719609857964,-73.625081034338592 45.611727040074115,-73.625076781064394 45.611734287538582,-73.625071534344869 45.611741247834274,-73.625065359968531 45.611747822570095,-73.625058349243886 45.611753923962134,-73.625050614571123 45.611759478692129,-73.625042283720688 45.611764430695011,-73.624956828036503 45.611809713453454,-73.624588889841576 45.611997953957626,-73.623623779003779 45.612500016414089,-73.623611791858778 45.61250625617933,-73.623548564431601 45.612539024243283,-73.623199902644259 45.612722497319318,-73.623126915518966 45.61276017972331,-73.62311651140547 45.612765984162692,-73.623105006366757 45.612771021010381,-73.623092581243512 45.612775146553894,-73.623079465020979 45.612778246920371,-73.623065921555494 45.612780247463078,-73.623052232173322 45.612781118517468,-73.62303867652777 45.612780876635227,-73.623105793783367 45.612841860736296,-73.623106254886778 45.612842279703962,-73.623172911183246 45.612902844797141,-73.623176113803225 45.612895072754718,-73.623180453348354 45.612887488241121,-73.62318588916159 45.61288021266558,-73.623192345994894 45.61287336041763,-73.623199717400368 45.612867032950277,-73.623207871481327 45.612861313842728,-73.623216658344731 45.612856265333953,-73.623323800901233 45.612800531496731,-73.623752597671796 45.612576632078472,-73.623824968890304 45.612539030925284,-73.623900080659709 45.612500005028991,-73.624401425137592 45.61223956351774,-73.624588887526485 45.612141674139743,-73.62502725788228 45.611914763049604,-73.625138572415096 45.611857151297265,-73.625151442877467 45.611850442493974,-73.62515914697029 45.611846959892624,-73.62516751901552 45.611844205101022,-73.625176341533461 45.611842262499508,-73.625185372993641 45.611841173105027,-73.625203385278255 45.611840493410106,-73.62515179682525 45.61177542230952))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.777564867571215 45.449475393447436,-73.777565055090363 45.449513625167128,-73.777755488164274 45.449519744462982,-73.777945921277876 45.449525863441245,-73.778213299743584 45.44953197940049,-73.778480678264117 45.449538094733704,-73.778716343267419 45.449542559112722,-73.778952008305581 45.449547023005415,-73.779122214918331 45.449551070479721,-73.779292421554217 45.449555117700342,-73.779340299481461 45.449557736173517,-73.77938817741304 45.449560354626598,-73.779428700121343 45.449564718767945,-73.779469222835843 45.449569082894911,-73.779522249350975 45.449578743531802,-73.779575275884085 45.449588404144002,-73.779632829546955 45.44960352474687,-73.779690383240435 45.449618645320619,-73.77981660471589 45.449662680876571,-73.779854941568217 45.449680008084584,-73.779893278443978 45.449697335279652,-73.779938612042841 45.449723139914049,-73.779983945683014 45.449748944530235,-73.780015549606787 45.449769743617431,-73.780047153553767 45.449790542695759,-73.780075903091031 45.449813220455496,-73.780104652651332 45.449835898207837,-73.7801435655783 45.449804271978969,-73.780182478461711 45.449772645736772,-73.780178985436493 45.449769486827044,-73.780175492411658 45.449766327917196,-73.780108980326929 45.449718402969907,-73.780064656575462 45.449690004354458,-73.780027318888258 45.449667923550805,-73.779995324440151 45.449650868806522,-73.779963330011313 45.449633814053179,-73.779927246045418 45.449617057265428,-73.779891162100853 45.449600300466173,-73.779854475210811 45.449585704776638,-73.779817788339656 45.449571109075215,-73.779773737729911 45.449556531398237,-73.77972968714279 45.449541953704191,-73.779658407408363 45.449522547468334,-73.779598610899541 45.449508872130778,-73.779563191976763 45.449502479890782,-73.779527773061943 45.449496087639773,-73.779474760843925 45.449489306495614,-73.779421748638498 45.449482525326815,-73.77935094356603 45.449476363554112,-73.779239242303689 45.449473037269627,-73.779127541053953 45.449469710875874,-73.778991294705847 45.44946658830203,-73.778855048371994 45.449463465565621,-73.778666843191047 45.449459749556645,-73.778478638033334 45.44945603323751,-73.778076859534011 45.449447797571636,-73.77783076017154 45.44944278134804,-73.777584660850167 45.449437764594109,-73.77757467045123 45.449437463161246,-73.777564680052436 45.449437161727403,-73.777564867571215 45.449475393447436))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.77696870891829 45.503110364001763,-73.776980285510675 45.503101947511979,-73.777036454068991 45.50306110239724,-73.777002067208059 45.503063201437556,-73.776978295893471 45.503058939831952,-73.776959424283845 45.503051786843571,-73.77693520678649 45.503040039615414,-73.776870087296359 45.502998714698577,-73.776825553038194 45.503029608894174,-73.776815299596137 45.503036721879653,-73.776760524618624 45.503074729003281,-73.776797793413706 45.503075790500453,-73.776825258556073 45.503081770890965,-73.776852356559274 45.503096390659188,-73.776924116827047 45.503142783600595,-73.77696870891829 45.503110364001763))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.826579514468349 45.480785799951896,-73.826538209817514 45.480745731599875,-73.826152816676384 45.480939841238083,-73.826143615248924 45.480943529886694,-73.826134001174708 45.480946643810618,-73.82612403830683 45.480949164830875,-73.826113803289815 45.480951074731273,-73.826103372820114 45.480952364294659,-73.826092823542268 45.480953015304905,-73.826082232204854 45.480953027543222,-73.826071688347469 45.48095240075375,-73.826066472163262 45.480951772253171,-73.826118154388169 45.481002503159253,-73.826128778086016 45.481012931292526,-73.826169836704821 45.481053234042164,-73.826569121567019 45.480851933581533,-73.826578297472921 45.480848262968578,-73.82658788597513 45.480845158078694,-73.826597810533841 45.480842655124491,-73.826608019983951 45.480840754252164,-73.826618412151333 45.480839482749211,-73.826628923131722 45.480838849796775,-73.826634199628515 45.480838848206496,-73.826586204683437 45.480792289913566,-73.826581090450972 45.48078732876062,-73.826579514468349 45.480785799951896))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.641959041134299 45.481857495180279,-73.64196279128285 45.481861602160862,-73.642000295786872 45.481902675232313,-73.642000979802759 45.481901408010074,-73.642002502879407 45.481898917717501,-73.64200417199541 45.481896474183749,-73.642005982881614 45.481894081216076,-73.642007934885811 45.481891740470104,-73.642010026261659 45.481889459977218,-73.642012250755585 45.481887249531276,-73.642014607571639 45.481885108023526,-73.642017093636454 45.481883033588844,-73.642019701250661 45.481881034384926,-73.642022428329668 45.481879113126404,-73.642025269014098 45.481877275102889,-73.642028191639497 45.481875501625019,-73.642031259785284 45.481873866234736,-73.642034447509928 45.481872346029895,-73.642037635223204 45.481870821325749,-73.642060124149054 45.48186104352375,-73.642082606693862 45.48185127472388,-73.642125434842924 45.481831460817098,-73.642168269346584 45.481811642387044,-73.642210246761024 45.481790966389724,-73.642251206702497 45.481769255350237,-73.642291606754412 45.481747051509515,-73.642331259052185 45.481724190305293,-73.642370136002455 45.481700689086658,-73.642408221996476 45.481676555494637,-73.642445510201924 45.481651796129825,-73.642481967820089 45.481626432069817,-73.64251756504008 45.481600486699968,-73.642552292218625 45.481573964267653,-73.642586372955279 45.481547002441978,-73.642619067503389 45.481519242238235,-73.642650604026542 45.481490821701556,-73.642682146902459 45.481462396648865,-73.642700350749479 45.481445177842886,-73.642718548212301 45.481427968040329,-73.642720181597525 45.481426553043576,-73.642721815721771 45.481425133940718,-73.642723548325534 45.48142377981857,-73.64272540353268 45.481422501906074,-73.642727310187666 45.481421270540515,-73.64272928611841 45.481420094464816,-73.642731329226294 45.481418972265338,-73.642733437895899 45.481417911648592,-73.64273561284665 45.481416917398143,-73.642737846164295 45.48141598946718,-73.642740128688757 45.481415125331402,-73.642742459757258 45.481414327984531,-73.642744836081775 45.481413601745295,-73.64274601712809 45.481413273104216,-73.642685486082613 45.481386061444461,-73.642673437314954 45.481380644928016,-73.64260083566576 45.481347992311136,-73.642601409589972 45.481349321476905,-73.642602412863582 45.481351963572116,-73.642603254587456 45.481354628354367,-73.642603935779647 45.481357315757499,-73.642604458855615 45.481360022423246,-73.642604819297347 45.481362740728898,-73.642605015693377 45.481365471514323,-73.642605050534002 45.481368202508555,-73.642604927101218 45.481370930002896,-73.642604642167626 45.481373656088046,-73.642604193692151 45.481376368709761,-73.642603581315626 45.481379065489953,-73.642602808644071 45.481381742406271,-73.642601880678541 45.481384394704264,-73.642600801174666 45.481387018295372,-73.642599565748753 45.481389607705268,-73.642598170634002 45.481392159951085,-73.642596623643612 45.481394668515357,-73.642594936779602 45.481397126161909,-73.642593105415898 45.481399532078399,-73.642591158275962 45.481401899448663,-73.64258901099744 45.481404171398843,-73.642586694776071 45.481406365479295,-73.642584385090771 45.481408559425553,-73.642557141115091 45.481432277388713,-73.642459357755797 45.4815094037425,-73.642377918701129 45.481567477888028,-73.642296485863568 45.481625547467928,-73.642275772969214 45.481639794564998,-73.642238027456244 45.481663577395032,-73.642208717324678 45.481680646297903,-73.642163641235499 45.481705397066776,-73.642117855477338 45.481729603131789,-73.64207088902775 45.481753636364743,-73.642035194948406 45.481771070508721,-73.64198080700902 45.481796315927873,-73.641925286833484 45.481820529076906,-73.641959041134299 45.481857495180279))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.527823433402475 45.566290700618119,-73.527858854956719 45.566235310140961,-73.527856687112234 45.566235415958268,-73.527838416798886 45.566235837097089,-73.527820066662528 45.566234549724967,-73.527802121369888 45.566231565306644,-73.527785044435404 45.56622698397377,-73.527754968706631 45.566216905353969,-73.527502659004341 45.566132353878629,-73.527168638088952 45.566020678844758,-73.527139238483741 45.566064062311057,-73.527104068465803 45.566115960776813,-73.527107263157092 45.566114067534549,-73.527111050023436 45.566112667284116,-73.52711517934145 45.566111877830565,-73.527119354083183 45.566111732606231,-73.527126804411566 45.56611309733745,-73.527285838538162 45.566166086623568,-73.527562508930046 45.566258298082332,-73.527771322214988 45.566327417674216,-73.527775932149282 45.566330742785254,-73.527778940656873 45.566335163262309,-73.527779712051355 45.566340032810452,-73.527778299805135 45.56634456679496,-73.527787072994855 45.566347559102731,-73.527823433402475 45.566290700618119))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.632812253110941 45.487872715620917,-73.632811547031878 45.487873450559988,-73.632762898594748 45.48792407842668,-73.632766914147126 45.487923443867743,-73.632770994214454 45.487923043193476,-73.632775100417547 45.487922876448522,-73.632779220005787 45.487922961644571,-73.632783314536354 45.48792327183088,-73.632787358465421 45.487923825034315,-73.632791313392659 45.487924612300809,-73.632795166524943 45.487925633645311,-73.632798892212762 45.487926862102213,-73.632802452119066 45.487928315713276,-73.633496532937869 45.488237971342009,-73.633500593090545 45.488239964253658,-73.63350441072609 45.488242191408602,-73.633507921878675 45.488244652881271,-73.633511126463134 45.48824731267829,-73.633513998850646 45.488250152832507,-73.633516500640482 45.488253164390422,-73.633518618975586 45.488256320371775,-73.633520353770891 45.488259584782831,-73.633521666625583 45.488262948670062,-73.633566179727296 45.488216572589081,-73.63357081217714 45.488211744869325,-73.633610679962729 45.488170196505315,-73.632887157061816 45.487847393085183,-73.632882546221779 45.487845130838551,-73.632878228988233 45.487842598296446,-73.632874230968412 45.487839804427686,-73.632870603398132 45.487836776168081,-73.63286735913384 45.487833540498038,-73.632864536597239 45.487830115369725,-73.63286213585161 45.487826527778765,-73.632860195360735 45.487822813673965,-73.632812253110941 45.487872715620917))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.640993836754802 45.542324167770275,-73.640959337169036 45.542377926870302,-73.640965192738776 45.542379314391788,-73.64099569002498 45.542392540349155,-73.64102290402549 45.542403727722004,-73.641055293934002 45.542415907516109,-73.641072211748522 45.542421735564467,-73.641104113870668 45.542372604587392,-73.641135967886797 45.542323547599992,-73.641130354293495 45.542321628884473,-73.64112470219419 45.542319674222931,-73.641100949976703 45.542310201286661,-73.641078052894471 45.542299593494832,-73.641064192190058 45.542292393920278,-73.641051494261887 45.542284185090899,-73.641047234269038 45.542280752974072,-73.641043421881236 45.542277086346822,-73.641040326394432 45.542273337848997,-73.64103770423587 45.542269399800972,-73.641035620174819 45.54226556906896,-73.641033958467588 45.542261647831779,-73.640993836754802 45.542324167770275))",
+                "count": 1
+              },
+              {
+                "value": "POLYGON((-73.557672431442754 45.61217673249827,-73.557594737950325 45.612144563605774,-73.557596165669821 45.612155083183701,-73.557594750603414 45.61216541090954,-73.557590786036855 45.612175028299717,-73.557584775523779 45.612183553411043,-73.557524602346319 45.612251262014624,-73.557502927662398 45.612267995300023,-73.557493773706767 45.612273915841477,-73.557484118629148 45.612279178154274,-73.557473987207246 45.612283463595212,-73.557463497500407 45.612287261646571,-73.557456590839337 45.612289386892357,-73.557441554870735 45.612295329388495,-73.557427834386758 45.612302674159309,-73.557418003933108 45.612309720085051,-73.557408870115083 45.612317815325412,-73.557400726469524 45.612326932492714,-73.557393874696757 45.612336993960511,-73.557388603456062 45.612347867263132,-73.557385163730274 45.612359365799961,-73.557383744001612 45.612371256032958,-73.557384449275702 45.612383271239729,-73.557387287951471 45.612395130465394,-73.557392169297103 45.612406560000494,-73.557398912230184 45.61241731404202,-73.557407263728393 45.612427191330347,-73.557416923393802 45.61243604557778,-73.557427569863052 45.612443788919194,-73.557438885111267 45.61245038903931,-73.557450573864259 45.612455861599507,-73.557455196512421 45.612457574732097,-73.55746160302661 45.612459948957529,-73.557473541149463 45.612463412529017,-73.55748629149744 45.612466131703833,-73.55749971791154 45.612467994483261,-73.557513646355346 45.61246890505933,-73.557527869956616 45.612468791308828,-73.557542157530875 45.612467611283968,-73.557556265099123 45.612465357773118,-73.557569949278516 45.612462060208046,-73.557582981075214 45.612457783509164,-73.557595158484602 45.612452623966902,-73.557606316440499 45.612446702677055,-73.557616333184299 45.61244015740251,-73.557625132643366 45.612433133906059,-73.55763268309299 45.612425777721093,-73.557638992788526 45.612418227129709,-73.557644507101173 45.61241017932776,-73.557648997126932 45.612401785841485,-73.557652403118922 45.612393144858117,-73.557654691074362 45.612384360446875,-73.557654574832569 45.612372202178065,-73.557652149594958 45.612351953287146,-73.557649337094716 45.612328471018245,-73.557649243273246 45.612313466553154,-73.557649524398585 45.612306716224481,-73.557651321937485 45.612299997000591,-73.557654597375929 45.612293558432405,-73.557659204671538 45.612287629647774,-73.557708660210565 45.612231120016538,-73.557717297827864 45.61222407306132,-73.557728147846092 45.612217909049242,-73.557740907279054 45.612213104833366,-73.557755007063136 45.612210053997792,-73.55767967151489 45.612179730235269,-73.557672431442754 45.61217673249827))",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "6aefdcfb-5d52-4f4c-a494-8c6ece819714",
+      "name": "Voirie - V22 - actifs Chaussée agrégée Îlot Intersection Trottoir Zone - format GeoJSON",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/0acbc6c8-bbfc-4aae-a0fa-ec74ba0686c6/resource/6aefdcfb-5d52-4f4c-a494-8c6ece819714/download/voi_voirie_s_v22_geojson.zip",
+      "datastore_active": false,
+      "size": 121976952,
+      "last_modified": "2026-03-02T10:29:03.553634",
+      "created": "2018-08-17T19:45:21.400504",
+      "schema": null
+    },
+    {
+      "id": "102dd6af-836d-443e-9bee-bfdd2f525fb8",
+      "name": "Voirie - V22 - actifs Chaussée agrégée Îlot Intersection Trottoir Zone - format SHP",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/0acbc6c8-bbfc-4aae-a0fa-ec74ba0686c6/resource/102dd6af-836d-443e-9bee-bfdd2f525fb8/download/voi_voirie_s_v22_shp.zip",
+      "datastore_active": false,
+      "size": 84162303,
+      "last_modified": "2026-03-02T10:29:16.240811",
+      "created": "2018-08-17T19:46:51.723698",
+      "schema": null
+    },
+    {
+      "id": "b8c1c83e-b658-4ff9-818d-ace86da51b0e",
+      "name": "Voirie - Liste de valeurs des attributs - format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0acbc6c8-bbfc-4aae-a0fa-ec74ba0686c6/resource/b8c1c83e-b658-4ff9-818d-ace86da51b0e/download/voi_liste_valeurs_csv.csv",
+      "datastore_active": true,
+      "size": 6829,
+      "last_modified": "2026-03-02T10:29:35.588459",
+      "created": "2018-08-29T19:52:17.508504",
+      "schema": {
+        "resource_id": "b8c1c83e-b658-4ff9-818d-ace86da51b0e",
+        "total_records": 184,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ATTRIBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "REFERENCE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Autoroute"
+          },
+          {
+            "_id": 2,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Autoroute accotement"
+          },
+          {
+            "_id": 3,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Bretelle"
+          },
+          {
+            "_id": 4,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Bretelle accotement"
+          },
+          {
+            "_id": 5,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Chemin privé"
+          }
+        ]
+      },
+      "field_stats": {
+        "ATTRIBUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "REFERENCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 184,
+        "total_records": 184,
+        "audited_at": "2026-03-10T00:32:56.019504+00:00",
+        "fields": {
+          "ATTRIBUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "PROPRIETAIRE_REF",
+                "count": 41
+              },
+              {
+                "value": "MATERIAU_REF",
+                "count": 20
+              },
+              {
+                "value": "TYPEILOT_REF",
+                "count": 13
+              },
+              {
+                "value": "TYPEUSAGECYCLABLE_REF",
+                "count": 13
+              },
+              {
+                "value": "UTILISATION_REF",
+                "count": 13
+              },
+              {
+                "value": "DATECONSTRUCTIONPREC_REF",
+                "count": 11
+              },
+              {
+                "value": "CATEGORIECHAUSSEE_REF",
+                "count": 10
+              },
+              {
+                "value": "TYPEBORDURE_REF",
+                "count": 10
+              },
+              {
+                "value": "POSITION_REF",
+                "count": 9
+              },
+              {
+                "value": "CATEGORIETROTTOIR_REF",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "REFERENCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 140,
+            "top_values": [
+              {
+                "value": "Inconnu",
+                "count": 15
+              },
+              {
+                "value": "Non applicable",
+                "count": 15
+              },
+              {
+                "value": "Null",
+                "count": 15
+              },
+              {
+                "value": "Non",
+                "count": 2
+              },
+              {
+                "value": "Oui",
+                "count": 2
+              },
+              {
+                "value": "Autoroute",
+                "count": 1
+              },
+              {
+                "value": "Autoroute accotement",
+                "count": 1
+              },
+              {
+                "value": "Bretelle",
+                "count": 1
+              },
+              {
+                "value": "Bretelle accotement",
+                "count": 1
+              },
+              {
+                "value": "Chemin privé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Accotement",
+    "Autoroute",
+    "Bordure",
+    "Bretelle",
+    "Chaussée",
+    "Chemin",
+    "Giratoire",
+    "Intersection",
+    "Latéral",
+    "Mail",
+    "Rue",
+    "Ruelle",
+    "SIRR",
+    "Terre-plein",
+    "Trottoir",
+    "Voirie",
+    "Îlot"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les polygones des actifs de voirie ont été créés à partir de la cartographie de base et des relevés terrain. \n\n\nLes mises à jour sont faites avec des relevés terrain, des relevés photogrammétriques, des plans finaux de construction, etc. \n\n\nÀ cause de ces différentes sources de données spatiales, la précision peut varier entre ± 5 centimètres (relevé terrain) et ± 30 centimètres (cartographie, photogrammétrie).\n\n\nDans la base de données Voirie, la plus vieille année de mise à jour est 2009 et la plus récente est l'année en cours. \n\n\nLes diverses autres informations proviennent des visites terrain, des plans et profils, des listes ou plans de rues, des hypothèses d'ingénierie, etc. \n\n\nLes polygones des actifs de voirie sont découpés sur les limites administratives.\n\n### Dictionnaire de données\n\n\n\n_Note: La liste des domaines de valeurs des attributs ci-dessous est disponible en format CSV dans les ressources._\n\n\n**NOM ATTRIBUT             [format]**         - **_Description_**\n\n\n- \n\n\nID_VOI_VOIRIE_AGR          [numérique]        - _Identifiant pour les objets de voirie_\n\n\n- \n\n\nACTIF_VOIRIE               [liste de valeurs] - _Caractérise l'actif de voirie_\n\n\n- \n\n\nCATEGORIECHAUSSEE_REF      [liste de valeurs] - _Caractérise la catégorie de la chaussée_\n\n\n- \n\n\nCATEGORIETROTTOIR_REF      [liste de valeurs] - _Caractérise la catégorie de l'objet de type trottoir_\n\n\n- \n\n\nDATECONSTRUCTION           [date]             - _La date de construction de l'objet de voirie_\n\n\n- \n\n\nDATECONSTRUCTIONPREC_REF   [texte variable]   - _Caractérise la précision de la date de construction de l'objet de voirie_\n\n\n- \n\n\nDATERESURFACAGE            [date]             - _La date des travaux de resurfaçage de l'objet de voirie_\n\n\n- \n\n\nMATERIAUBORDURE_REF        [liste de valeurs] - _Caractérise le matériau de construction de la bordure de l'objet de type trottoir_\n\n\n- \n\n\nMATERIAUCHAUSSEE_REF       [liste de valeurs] - _Caractérise le matériau de construction de la chaussée_\n\n\n- \n\n\nMATERIAUILOT_REF           [liste de valeurs] - _Caractérise le matériau de construction de l'îlot_\n\n\n- \n\n\nMATERIAUINSER_REF          [liste de valeurs] - _Caractérise le matériau de construction de l'insertion ou de la bande aménagée dans le trottoir_\n\n\n- \n\n\nMATERIAUINSERILOT_REF      [liste de valeurs] - _Caractérise le matériau de construction de l'insertion dans l'îlot_\n\n\n- \n\n\nMATERIAUINTER_REF          [liste de valeurs] - _Caractérise le matériau de construction de l'intersection_\n\n\n- \n\n\nMATERIAUTROTTOIR_REF       [liste de valeurs] - _Caractérise le matériau de construction de la bande de trottoir_\n\n\n- \n\n\nPOSITION_REF               [liste de valeurs] - _Définit la position de l'objet de voirie par rapport au milieu environnant_\n\n\n- \n\n\nPRESENCEARBRE_REF          [liste de valeurs] - _Définit la présence des arbres sur l'objet de voirie_\n\n\n- \n\n\nPROPRIETAIRE_REF           [liste de valeurs] - _Définit le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier - Division de la géomatique",
+      "Couverture temporelle": "2009-01-01/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Accotement",
+      "Autoroute",
+      "Bordure",
+      "Bretelle",
+      "Chaussée",
+      "Chemin",
+      "Giratoire",
+      "Intersection",
+      "Latéral",
+      "Mail",
+      "Rue",
+      "Ruelle",
+      "SIRR",
+      "Terre-plein",
+      "Trottoir",
+      "Voirie",
+      "Îlot"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/voirie-actif",
+    "scraped_at": "2026-03-09T20:23:59.164891+00:00"
+  }
+}

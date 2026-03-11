@@ -1,0 +1,712 @@
+{
+  "slug": "vmtl-compteurs-eau",
+  "title": "Compteurs d'eau exploités par la Ville de Montréal",
+  "notes": "Cette liste contient les compteurs d'eau exploités par le Service de l'eau de la Ville de Montréal.\r\n\r\nLe parc de compteurs est utilisé pour la réalisation des bilans d'eau et permet de mesurer l'eau distribuée vers les autres municipalités formant l'agglomération de Montréal.\r\n\r\nCette liste est une vue de la situation au moment de la génération du fichier.\r\n\r\nNOTE : Les données du présent ensemble visent à avoir une meilleure connaissance du parc des compteurs d'eau industriel, commercial et institutionnel installés dans le cadre de la stratégie de mesure de la consommation de l’eau de la Ville de Montréal. Pour des raisons d'enjeux sur la protection des secrets industriels de tiers, les consommations liées à ces compteurs ne seront pas publiées.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-04-18T18:52:52.379635",
+  "metadata_modified": "2025-11-13T02:13:34.252166",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "01f91df2-6ed9-47b2-ba85-e6bc9236ac73",
+      "name": "Localisation des compteurs d'eau à Montréal",
+      "description": "Fichier tabulaire CSV des compteurs d'eau",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/6502942d-788a-43ff-b935-eb7b7d8b58cd/resource/01f91df2-6ed9-47b2-ba85-e6bc9236ac73/download/compteur-eau.csv",
+      "datastore_active": true,
+      "size": 4620475,
+      "last_modified": "2025-11-13T01:53:18.463486",
+      "created": "2018-04-18T18:54:53.895179",
+      "schema": {
+        "resource_id": "01f91df2-6ed9-47b2-ba85-e6bc9236ac73",
+        "total_records": 20831,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_compteur",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "diametre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "mecan_elect",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "unite_mesure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "loc_x",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "loc_y",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "rue",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "no_civique",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "suite_no_civique",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "uef",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "emetteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {
+              "notes": "",
+              "type_override": "",
+              "label": ""
+            }
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_compteur": "C30004",
+            "diametre": "3 PO",
+            "mecan_elect": "Compteurs mécaniques",
+            "statut": "Opérant depuis le",
+            "unite_mesure": "Mètre cube",
+            "loc_x": "301816.2403702235",
+            "loc_y": "5041842.272430377",
+            "rue": "chemin Du Bas Contour",
+            "no_civique": "1358",
+            "suite_no_civique": null,
+            "arrondissement": "Ville-Marie",
+            "uef": "1000547",
+            "emetteur": null,
+            "longitude": "-73.53819093657532",
+            "latitude": "45.51649325119916"
+          },
+          {
+            "_id": 2,
+            "no_compteur": "C30020",
+            "diametre": "3 PO",
+            "mecan_elect": "Compteurs mécaniques",
+            "statut": "Opérant depuis le",
+            "unite_mesure": "Mètre cube",
+            "loc_x": "294165.5333436157",
+            "loc_y": "5038037.727731047",
+            "rue": "avenue Macdonald",
+            "no_civique": "5320",
+            "suite_no_civique": "5320",
+            "arrondissement": "Côte-Saint-Luc",
+            "uef": "3071547",
+            "emetteur": null,
+            "longitude": "-73.63603430220026",
+            "latitude": "45.482183682312936"
+          },
+          {
+            "_id": 3,
+            "no_compteur": "C30018",
+            "diametre": "3 PO",
+            "mecan_elect": "Compteurs mécaniques",
+            "statut": "Opérant depuis le",
+            "unite_mesure": "Mètre cube",
+            "loc_x": "303334.5418324361",
+            "loc_y": "5056368.1349644335",
+            "rue": "boulevard Industriel",
+            "no_civique": "12180",
+            "suite_no_civique": "12180",
+            "arrondissement": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "uef": "2079567",
+            "emetteur": null,
+            "longitude": "-73.51880085899288",
+            "latitude": "45.64720623803858"
+          },
+          {
+            "_id": 4,
+            "no_compteur": "C40002",
+            "diametre": "4 PO",
+            "mecan_elect": "Compteurs mécaniques",
+            "statut": "Opérant depuis le",
+            "unite_mesure": "Mètre cube",
+            "loc_x": "296979.55330693454",
+            "loc_y": "5038005.452757791",
+            "rue": "rue Sherbrooke Ouest",
+            "no_civique": "4574",
+            "suite_no_civique": null,
+            "arrondissement": "Westmount",
+            "uef": "1010758",
+            "emetteur": null,
+            "longitude": "-73.60003738507254",
+            "latitude": "45.481930453645774"
+          },
+          {
+            "_id": 5,
+            "no_compteur": "C60005",
+            "diametre": "6 PO",
+            "mecan_elect": "Compteurs mécaniques",
+            "statut": "Opérant depuis le",
+            "unite_mesure": "Mètre cube",
+            "loc_x": "301048.88847675733",
+            "loc_y": "5042070.556932178",
+            "rue": "rue Notre-Dame Est",
+            "no_civique": "1590",
+            "suite_no_civique": "1670",
+            "arrondissement": "Ville-Marie",
+            "uef": "1114748",
+            "emetteur": "7330990",
+            "longitude": "-73.5480144795147",
+            "latitude": "45.51854374147841"
+          }
+        ]
+      },
+      "field_stats": {
+        "no_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "diametre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "mecan_elect": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "unite_mesure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "loc_x": {
+          "null_count": 316,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        },
+        "loc_y": {
+          "null_count": 316,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        },
+        "rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no_civique": {
+          "null_count": 31,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "suite_no_civique": {
+          "null_count": 355,
+          "null_pct": 1.7,
+          "populated_pct": 98.3
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "uef": {
+          "null_count": 1148,
+          "null_pct": 5.5,
+          "populated_pct": 94.5
+        },
+        "emetteur": {
+          "null_count": 410,
+          "null_pct": 2.0,
+          "populated_pct": 98.0
+        },
+        "longitude": {
+          "null_count": 316,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        },
+        "latitude": {
+          "null_count": 316,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 20831,
+        "audited_at": "2026-03-10T00:15:00.009996+00:00",
+        "fields": {
+          "no_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "C30004",
+                "count": 1
+              },
+              {
+                "value": "C30020",
+                "count": 1
+              },
+              {
+                "value": "C30018",
+                "count": 1
+              },
+              {
+                "value": "C40002",
+                "count": 1
+              },
+              {
+                "value": "C60005",
+                "count": 1
+              },
+              {
+                "value": "C-6002",
+                "count": 1
+              },
+              {
+                "value": "C-6001",
+                "count": 1
+              },
+              {
+                "value": "C60030",
+                "count": 1
+              },
+              {
+                "value": "C80010",
+                "count": 1
+              },
+              {
+                "value": "C80011",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "diametre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "1 PO",
+                "count": 311
+              },
+              {
+                "value": "1,5 PO",
+                "count": 289
+              },
+              {
+                "value": "0,625 PO",
+                "count": 171
+              },
+              {
+                "value": "0,75 PO",
+                "count": 75
+              },
+              {
+                "value": "6 PO",
+                "count": 37
+              },
+              {
+                "value": "8 PO",
+                "count": 35
+              },
+              {
+                "value": "2 PO",
+                "count": 35
+              },
+              {
+                "value": "4 PO",
+                "count": 20
+              },
+              {
+                "value": "3 PO",
+                "count": 13
+              },
+              {
+                "value": "16 PO",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "mecan_elect": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Compteurs mécaniques",
+                "count": 985
+              },
+              {
+                "value": "Compteurs électroniques",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Opérant depuis le",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "unite_mesure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Mètre cube",
+                "count": 988
+              },
+              {
+                "value": "Gallon imp",
+                "count": 6
+              },
+              {
+                "value": "Pied cube",
+                "count": 5
+              },
+              {
+                "value": "Gallon US",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "loc_x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269392.0651,
+            "max": 305963.3691,
+            "mean": 295933.4609,
+            "median": 296990.3963,
+            "unique_count": 884,
+            "field_type_detected": "numeric"
+          },
+          "loc_y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029448.3089,
+            "max": 5062286.5918,
+            "mean": 5043779.0181,
+            "median": 5043226.3782,
+            "unique_count": 884,
+            "field_type_detected": "numeric"
+          },
+          "rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 376,
+            "top_values": [
+              {
+                "value": "rue Wellington",
+                "count": 25
+              },
+              {
+                "value": "rue Notre-Dame Est",
+                "count": 24
+              },
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 20
+              },
+              {
+                "value": "rue Beaubien Est",
+                "count": 19
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 19
+              },
+              {
+                "value": "rue Saint-Denis",
+                "count": 16
+              },
+              {
+                "value": "boulevard Henri-Bourassa Est",
+                "count": 14
+              },
+              {
+                "value": "rue Sherbrooke Ouest",
+                "count": 13
+              },
+              {
+                "value": "rue Jean-Talon Ouest",
+                "count": 12
+              },
+              {
+                "value": "avenue du Mont-Royal Est",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "no_civique": {
+            "null_count": 15,
+            "null_pct": 1.5,
+            "min": 1.0,
+            "max": 20410.0,
+            "mean": 4932.2305,
+            "median": 4640.0,
+            "unique_count": 787,
+            "field_type_detected": "numeric"
+          },
+          "suite_no_civique": {
+            "null_count": 34,
+            "null_pct": 3.4,
+            "min": 1.0,
+            "max": 16043.0,
+            "mean": 4942.5031,
+            "median": 4731.0,
+            "unique_count": 793,
+            "field_type_detected": "numeric"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 26,
+            "top_values": [
+              {
+                "value": "Saint-Laurent",
+                "count": 126
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 88
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 78
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 77
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 71
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 67
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 63
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 53
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 51
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 49
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "uef": {
+            "null_count": 52,
+            "null_pct": 5.2,
+            "min": 1000043.0,
+            "max": 5293808.0,
+            "mean": 2642681.6741,
+            "median": 2094388.5,
+            "unique_count": 760,
+            "field_type_detected": "numeric"
+          },
+          "emetteur": {
+            "null_count": 200,
+            "null_pct": 20.0,
+            "min": 4366060.0,
+            "max": 1575582236.0,
+            "mean": 1348057995.5412,
+            "median": 1545199106.0,
+            "unique_count": 800,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.952308,
+            "max": -73.485061,
+            "mean": -73.613494,
+            "pct_in_montreal_bbox": 99.8,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.404077,
+            "max": 45.700462,
+            "mean": 45.533852,
+            "pct_in_montreal_bbox": 99.9,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "d43c8941-74dd-481b-9141-437310e14f63",
+      "name": "Localisation des compteurs d'eau à Montréal",
+      "description": "Fichier geojson de la localisation des compteurs d'eau sur le territoire.\r\n\r\nRéférence géographique: WGS84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/6502942d-788a-43ff-b935-eb7b7d8b58cd/resource/d43c8941-74dd-481b-9141-437310e14f63/download/compteur-eau.geojson",
+      "datastore_active": false,
+      "size": 12057733,
+      "last_modified": "2025-11-13T01:53:14.275529",
+      "created": "2018-04-19T14:33:42.045814",
+      "schema": null
+    },
+    {
+      "id": "ffdb23b7-e728-4ec7-9d0e-be8ab83c17cc",
+      "name": "Localisation des compteurs d'eau à Montréal",
+      "description": "Conteneur zip des fichiers constituant le shapefile de la localisation des compteurs d'eau sur le territoire.\r\n\r\nRéférence géographique: NAD83 MTM8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/6502942d-788a-43ff-b935-eb7b7d8b58cd/resource/ffdb23b7-e728-4ec7-9d0e-be8ab83c17cc/download/compteur-eau.zip",
+      "datastore_active": false,
+      "size": 2058969,
+      "last_modified": "2025-11-13T01:53:16.401063",
+      "created": "2020-04-02T17:22:56.409443",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Compteur",
+    "Consommation",
+    "Eau",
+    "Industrie",
+    "SE"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cette liste contient uniquement les compteurs en opération au moment de sa génération. Le parc de compteurs est en constante évolution.  \n\n\nIl est important de savoir que les données peuvent contenir certaines imprécisions, notamment dans les coordonnées.  Ces données sont issues d'un système de relève automatisé de compteurs d'eau de la Ville dont les lectures sont récupérées par  ondes  radio. Les compteurs de nouvelle génération incluent  certains types d'alarmes servant, notamment,  à aviser des déficiences du compteur et de ces composantes.\n\n\nLe positionnement géographique a été réalisé à l'aide des tranches d'adresses début/fin disponibles sous la géobase, il est approximatif.\n\n### Dictionnaire de données\n\n\n\n- no_compteur (texte variable) : Numéro d'actif utilisé par la Ville de Montréal pour l'exploitation.\n\n- diamètre (liste de valeur) : Diamètre du compteur en pouce.\n\n- mécan_élect (liste de valeur) : Spécifie l'élément de mesure du compteur d'eau (Mécanique/Électronique).\n\n- statut (liste de valeur) : Compteur en exploitation au moment de la génération du fichier.\n\n- no_civique (texte variable) : Numéro civique du bâtiment où est situé le compteur.\n\n- suite_no_civique (texte variable) : Numéro civique de fin du bâtiment où est situé le compteur (dans le cas d'une série d'adresses).\n\n- rue (texte variable) : Rue du bâtiment où se retrouve le compteur ou le nom de la rue dans le cas d'un compteur situé sur le réseau d'aqueduc.\n\n- arrondissement (liste de valeur) :",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2018-04-20 /",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Compteur",
+      "Consommation",
+      "Eau",
+      "Industrie",
+      "SE"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/compteurs-eau",
+    "scraped_at": "2026-03-09T19:53:58.435694+00:00"
+  }
+}

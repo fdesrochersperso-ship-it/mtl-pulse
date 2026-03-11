@@ -1,0 +1,4341 @@
+{
+  "slug": "vmtl-velos-comptage",
+  "title": "Comptages des vélos sur les pistes cyclables",
+  "notes": "Nombre de passages calculé au quotidien",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-14T20:14:45.386975",
+  "metadata_modified": "2026-03-02T23:50:29.260160",
+  "num_resources": 19,
+  "resources": [
+    {
+      "id": "c7d0546a-a218-479e-bc9f-ce8f13ca972c",
+      "name": "Localisation des compteurs",
+      "description": "Emplacement des compteurs avec la correspondance pour les noms dans les fichiers de comptage.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/c7d0546a-a218-479e-bc9f-ce8f13ca972c/download/localisation_des_compteurs_velo.csv",
+      "datastore_active": true,
+      "size": 5176,
+      "last_modified": "2026-03-02T20:51:44.564785",
+      "created": "2016-01-13T11:55:27.258811",
+      "schema": {
+        "resource_id": "c7d0546a-a218-479e-bc9f-ce8f13ca972c",
+        "total_records": 66,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "text",
+            "info": {
+              "notes": "Identifiant unique du compteur",
+              "type_override": "text",
+              "label": "ID"
+            }
+          },
+          {
+            "id": "Ancien_ID",
+            "type": "text",
+            "info": {
+              "notes": "Ancien identifiant unique du compteur, gardé pour des fins de compatibilité.",
+              "type_override": "text",
+              "label": "Ancien_id"
+            }
+          },
+          {
+            "id": "Nom",
+            "type": "text",
+            "info": {
+              "notes": "Intitulé du compteur",
+              "type_override": "text",
+              "label": "Nom"
+            }
+          },
+          {
+            "id": "Statut",
+            "type": "text",
+            "info": {
+              "notes": "Statut du compteur",
+              "type_override": "text",
+              "label": "Statut"
+            }
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {
+              "notes": "Position géographique du compteur (latitude)",
+              "type_override": "numeric",
+              "label": "Latitude"
+            }
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {
+              "notes": "Position géographique du compteur (longitude)",
+              "type_override": "text",
+              "label": "Longitude"
+            }
+          },
+          {
+            "id": "Annee_implante",
+            "type": "numeric",
+            "info": {
+              "notes": "Année d'implantation du compteur.",
+              "type_override": "numeric",
+              "label": "Annee_implante"
+            }
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": "100041114",
+            "Ancien_ID": null,
+            "Nom": "Eco-Display Parc Stanley",
+            "Statut": "Actif",
+            "Latitude": 45.55759296561201,
+            "Longitude": "-73.67322198070093",
+            "Annee_implante": 2018
+          },
+          {
+            "_id": 2,
+            "ID": "100002880",
+            "Ancien_ID": "10",
+            "Nom": "Pont Jacques-Cartier",
+            "Statut": "En maintenance",
+            "Latitude": 45.5255082563413,
+            "Longitude": "-73.5544220271119",
+            "Annee_implante": 2011
+          },
+          {
+            "_id": 3,
+            "ID": "100003032",
+            "Ancien_ID": "3",
+            "Nom": "Berri1",
+            "Statut": "Actif",
+            "Latitude": 45.516216,
+            "Longitude": "-73.56297",
+            "Annee_implante": 2010
+          },
+          {
+            "_id": 4,
+            "ID": "100003034",
+            "Ancien_ID": "6",
+            "Nom": "Rachel / Papineau",
+            "Statut": "Actif",
+            "Latitude": 45.53044782912952,
+            "Longitude": "-73.56954036492331",
+            "Annee_implante": 2007
+          },
+          {
+            "_id": 5,
+            "ID": "100003039",
+            "Ancien_ID": "5",
+            "Nom": "Maisonneuve / Peel",
+            "Statut": "Actif",
+            "Latitude": 45.500507,
+            "Longitude": "-73.57497",
+            "Annee_implante": 2008
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ancien_ID": {
+          "null_count": 47,
+          "null_pct": 71.2,
+          "populated_pct": 28.8
+        },
+        "Nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Annee_implante": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 66,
+        "total_records": 66,
+        "audited_at": "2026-03-10T00:32:30.054032+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300032161.0,
+            "mean": 148418213.5323,
+            "median": 100052830.5,
+            "unique_count": 62,
+            "field_type_detected": "numeric"
+          },
+          "Ancien_ID": {
+            "null_count": 47,
+            "null_pct": 71.2,
+            "min": 1.0,
+            "max": 37.0,
+            "mean": 14.1579,
+            "median": 12.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "10",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "37",
+                "count": 1
+              },
+              {
+                "value": "14",
+                "count": 1
+              }
+            ]
+          },
+          "Nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "Eco-Display Parc Stanley",
+                "count": 1
+              },
+              {
+                "value": "Pont Jacques-Cartier",
+                "count": 1
+              },
+              {
+                "value": "Berri1",
+                "count": 1
+              },
+              {
+                "value": "Rachel / Papineau",
+                "count": 1
+              },
+              {
+                "value": "Maisonneuve / Peel",
+                "count": 1
+              },
+              {
+                "value": "Pierre-Dupuy",
+                "count": 1
+              },
+              {
+                "value": "Côte Sainte-Catherine / Stuart",
+                "count": 1
+              },
+              {
+                "value": "Parc / Duluth",
+                "count": 1
+              },
+              {
+                "value": "Brébeuf / Rachel",
+                "count": 1
+              },
+              {
+                "value": "Eco-Display - Métro Laurier",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Actif",
+                "count": 54
+              },
+              {
+                "value": "En maintenance",
+                "count": 7
+              },
+              {
+                "value": "Inactif_Déplacé",
+                "count": 2
+              },
+              {
+                "value": "Inactif",
+                "count": 1
+              },
+              {
+                "value": "EnMaintenance",
+                "count": 1
+              },
+              {
+                "value": "Inactif_Travaux",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.446922,
+            "max": 45.700896,
+            "mean": 45.526802,
+            "pct_in_montreal_bbox": 98.5,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.866064,
+            "max": -73.483252,
+            "mean": -73.594486,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Annee_implante": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007",
+            "max_date": "2025",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "f3eab3d7-f313-42f1-a5f1-353e26fe5ff9",
+      "name": "Vélos - comptage sur les pistes cyclables, 2026",
+      "description": "Comptage des vélos sur les pistes cyclables pour l'années 2026",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/f3eab3d7-f313-42f1-a5f1-353e26fe5ff9/download/comptage_velo_2026.csv",
+      "datastore_active": true,
+      "size": 12324067,
+      "last_modified": "2026-03-02T20:56:03.504334",
+      "created": "2026-02-11T16:45:18.820260",
+      "schema": {
+        "resource_id": "f3eab3d7-f313-42f1-a5f1-353e26fe5ff9",
+        "total_records": 227524,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2026-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "nb_passages": "0",
+            "longitude": "-73.590636",
+            "latitude": "45.560713"
+          },
+          {
+            "_id": 2,
+            "date": "2026-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "300021685",
+            "nb_passages": "0",
+            "longitude": "-73.613370",
+            "latitude": "45.631590"
+          },
+          {
+            "_id": 3,
+            "date": "2026-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "nb_passages": "0",
+            "longitude": "-73.544410",
+            "latitude": "45.501270"
+          },
+          {
+            "_id": 4,
+            "date": "2026-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "nb_passages": "0",
+            "longitude": "-73.538818",
+            "latitude": "45.555084"
+          },
+          {
+            "_id": 5,
+            "date": "2026-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "nb_passages": "0",
+            "longitude": "-73.562970",
+            "latitude": "45.516216"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 227524,
+        "audited_at": "2026-03-10T00:32:31.239814+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-01-01",
+            "max_date": "2026-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 40
+              },
+              {
+                "value": "00:15:00",
+                "count": 40
+              },
+              {
+                "value": "00:30:00",
+                "count": 40
+              },
+              {
+                "value": "00:45:00",
+                "count": 40
+              },
+              {
+                "value": "01:00:00",
+                "count": 40
+              },
+              {
+                "value": "01:15:00",
+                "count": 40
+              },
+              {
+                "value": "01:30:00",
+                "count": 40
+              },
+              {
+                "value": "01:45:00",
+                "count": 40
+              },
+              {
+                "value": "02:00:00",
+                "count": 40
+              },
+              {
+                "value": "02:15:00",
+                "count": 40
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300028650.0,
+            "mean": 157923063.6579,
+            "median": 100052604.0,
+            "unique_count": 38,
+            "field_type_detected": "numeric"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7.0,
+            "mean": 0.248,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 850
+              },
+              {
+                "value": "1",
+                "count": 90
+              },
+              {
+                "value": "2",
+                "count": 35
+              },
+              {
+                "value": "3",
+                "count": 18
+              },
+              {
+                "value": "4",
+                "count": 4
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              }
+            ]
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.673425,
+            "max": -73.483252,
+            "mean": -73.585995,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.459972,
+            "max": 45.700895,
+            "mean": 45.535809,
+            "pct_in_montreal_bbox": 97.5,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "607715d2-4bb9-4f8e-bd05-13365e241dc6",
+      "name": "Vélos - comptage sur les pistes cyclables, 2025",
+      "description": "Comptage des vélos sur les pistes cyclables pour l'années 2025",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/607715d2-4bb9-4f8e-bd05-13365e241dc6/download/comptage_velo_2025.csv",
+      "datastore_active": true,
+      "size": 76334524,
+      "last_modified": "2026-01-08T16:43:22.180617",
+      "created": "2025-02-20T16:55:10.422337",
+      "schema": {
+        "resource_id": "607715d2-4bb9-4f8e-bd05-13365e241dc6",
+        "total_records": 1404316,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2025-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "nb_passages": "0",
+            "longitude": "-73.590636",
+            "latitude": "45.560713"
+          },
+          {
+            "_id": 2,
+            "date": "2025-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "300021685",
+            "nb_passages": "0",
+            "longitude": "-73.613370",
+            "latitude": "45.631590"
+          },
+          {
+            "_id": 3,
+            "date": "2025-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "nb_passages": "0",
+            "longitude": "-73.544410",
+            "latitude": "45.501270"
+          },
+          {
+            "_id": 4,
+            "date": "2025-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "nb_passages": "0",
+            "longitude": "-73.538818",
+            "latitude": "45.555084"
+          },
+          {
+            "_id": 5,
+            "date": "2025-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "nb_passages": "2",
+            "longitude": "-73.562970",
+            "latitude": "45.516216"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 5,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1404316,
+        "audited_at": "2026-03-10T00:32:32.445917+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2025-01-01",
+            "max_date": "2025-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 41
+              },
+              {
+                "value": "00:15:00",
+                "count": 41
+              },
+              {
+                "value": "00:30:00",
+                "count": 41
+              },
+              {
+                "value": "00:45:00",
+                "count": 41
+              },
+              {
+                "value": "01:00:00",
+                "count": 41
+              },
+              {
+                "value": "01:15:00",
+                "count": 41
+              },
+              {
+                "value": "01:30:00",
+                "count": 41
+              },
+              {
+                "value": "01:45:00",
+                "count": 41
+              },
+              {
+                "value": "02:00:00",
+                "count": 41
+              },
+              {
+                "value": "02:15:00",
+                "count": 41
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300028650.0,
+            "mean": 158026864.113,
+            "median": 100052603.0,
+            "unique_count": 41,
+            "field_type_detected": "numeric"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 92.0,
+            "mean": 2.473,
+            "median": 0.0,
+            "unique_count": 34,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.673221,
+            "max": -73.483252,
+            "mean": -73.586551,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.470493,
+            "max": 45.700895,
+            "mean": 45.538463,
+            "pct_in_montreal_bbox": 97.6,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "59ce7ec4-f398-43b5-9311-ebad77b782c3",
+      "name": " Vélos - comptage sur les pistes cyclables, 2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/59ce7ec4-f398-43b5-9311-ebad77b782c3/download/comptage_velo_2024.csv",
+      "datastore_active": true,
+      "size": 88025671,
+      "last_modified": "2025-10-23T16:20:36.342284",
+      "created": "2024-02-02T17:11:49.627438",
+      "schema": {
+        "resource_id": "59ce7ec4-f398-43b5-9311-ebad77b782c3",
+        "total_records": 1626015,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2024-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "nb_passages": "0",
+            "longitude": "-73.590636",
+            "latitude": "45.560713"
+          },
+          {
+            "_id": 2,
+            "date": "2024-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "300021685",
+            "nb_passages": "0",
+            "longitude": "-73.613370",
+            "latitude": "45.631590"
+          },
+          {
+            "_id": 3,
+            "date": "2024-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "nb_passages": "0",
+            "longitude": "-73.544410",
+            "latitude": "45.501270"
+          },
+          {
+            "_id": 4,
+            "date": "2024-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "nb_passages": "0",
+            "longitude": "-73.538819",
+            "latitude": "45.555084"
+          },
+          {
+            "_id": 5,
+            "date": "2024-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "nb_passages": "1",
+            "longitude": "-73.562970",
+            "latitude": "45.516216"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 4,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 4,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 4,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 4,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1626015,
+        "audited_at": "2026-03-10T00:32:33.738285+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-01-01",
+            "max_date": "2024-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 49
+              },
+              {
+                "value": "00:15:00",
+                "count": 49
+              },
+              {
+                "value": "00:30:00",
+                "count": 49
+              },
+              {
+                "value": "00:45:00",
+                "count": 49
+              },
+              {
+                "value": "01:00:00",
+                "count": 49
+              },
+              {
+                "value": "01:15:00",
+                "count": 49
+              },
+              {
+                "value": "01:30:00",
+                "count": 49
+              },
+              {
+                "value": "01:45:00",
+                "count": 49
+              },
+              {
+                "value": "02:00:00",
+                "count": 49
+              },
+              {
+                "value": "02:15:00",
+                "count": 49
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300028650.0,
+            "mean": 152428870.19,
+            "median": 100052606.0,
+            "unique_count": 49,
+            "field_type_detected": "numeric"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 248.0,
+            "mean": 4.283,
+            "median": 0.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 563
+              },
+              {
+                "value": "1",
+                "count": 176
+              },
+              {
+                "value": "2",
+                "count": 101
+              },
+              {
+                "value": "3",
+                "count": 59
+              },
+              {
+                "value": "4",
+                "count": 29
+              },
+              {
+                "value": "5",
+                "count": 22
+              },
+              {
+                "value": "6",
+                "count": 19
+              },
+              {
+                "value": "8",
+                "count": 9
+              },
+              {
+                "value": "240",
+                "count": 6
+              },
+              {
+                "value": "224",
+                "count": 5
+              }
+            ]
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.673222,
+            "max": -73.483252,
+            "mean": -73.584948,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.470493,
+            "max": 45.700896,
+            "mean": 45.537025,
+            "pct_in_montreal_bbox": 98.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "65a37da8-a7cf-4812-a3b5-5edff31c45f6",
+      "name": "Vélos - comptage sur les pistes cyclables, 2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/65a37da8-a7cf-4812-a3b5-5edff31c45f6/download/comptage_velo_2023.csv",
+      "datastore_active": true,
+      "size": 91011363,
+      "last_modified": "2024-01-08T18:46:31.487283",
+      "created": "2023-01-13T14:52:17.847570",
+      "schema": {
+        "resource_id": "65a37da8-a7cf-4812-a3b5-5edff31c45f6",
+        "total_records": 1708250,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2023-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "longitude": "-73.590636",
+            "latitude": "45.560713",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 2,
+            "date": "2023-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "300021685",
+            "longitude": "-73.613370",
+            "latitude": "45.631590",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 3,
+            "date": "2023-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "longitude": "-73.544410",
+            "latitude": "45.501270",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 4,
+            "date": "2023-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "longitude": "-73.538819",
+            "latitude": "45.555084",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 5,
+            "date": "2023-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "longitude": "-73.562970",
+            "latitude": "45.516216",
+            "nb_passages": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1708250,
+        "audited_at": "2026-03-10T00:32:35.079209+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2023-01-01",
+            "max_date": "2023-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 50
+              },
+              {
+                "value": "00:15:00",
+                "count": 50
+              },
+              {
+                "value": "00:30:00",
+                "count": 50
+              },
+              {
+                "value": "00:45:00",
+                "count": 50
+              },
+              {
+                "value": "01:00:00",
+                "count": 50
+              },
+              {
+                "value": "01:15:00",
+                "count": 50
+              },
+              {
+                "value": "01:30:00",
+                "count": 50
+              },
+              {
+                "value": "01:45:00",
+                "count": 50
+              },
+              {
+                "value": "02:00:00",
+                "count": 50
+              },
+              {
+                "value": "02:15:00",
+                "count": 50
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300028650.0,
+            "mean": 152028931.96,
+            "median": 100052605.5,
+            "unique_count": 50,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.673222,
+            "max": -73.483252,
+            "mean": -73.582514,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.466751,
+            "max": 45.700896,
+            "mean": 45.535166,
+            "pct_in_montreal_bbox": 98.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8.0,
+            "mean": 0.454,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 739
+              },
+              {
+                "value": "1",
+                "count": 146
+              },
+              {
+                "value": "2",
+                "count": 72
+              },
+              {
+                "value": "3",
+                "count": 23
+              },
+              {
+                "value": "4",
+                "count": 11
+              },
+              {
+                "value": "5",
+                "count": 5
+              },
+              {
+                "value": "6",
+                "count": 3
+              },
+              {
+                "value": "8",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "fd3da18e-8f87-44e4-890b-30dff05c12b8",
+      "name": "Vélos - comptage sur les pistes cyclables, 2022",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/fd3da18e-8f87-44e4-890b-30dff05c12b8/download/comptage_velo_2022.csv",
+      "datastore_active": true,
+      "size": 99638308,
+      "last_modified": "2023-10-25T20:50:04.609150",
+      "created": "2022-05-13T20:19:22.151836",
+      "schema": {
+        "resource_id": "fd3da18e-8f87-44e4-890b-30dff05c12b8",
+        "total_records": 1870506,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2022-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "longitude": "-73.590636",
+            "latitude": "45.560713",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 2,
+            "date": "2022-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "300021685",
+            "longitude": "-73.613370",
+            "latitude": "45.631590",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 3,
+            "date": "2022-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "longitude": "-73.544410",
+            "latitude": "45.501270",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 4,
+            "date": "2022-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "longitude": "-73.538819",
+            "latitude": "45.555084",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 5,
+            "date": "2022-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "longitude": "-73.562970",
+            "latitude": "45.516216",
+            "nb_passages": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1870506,
+        "audited_at": "2026-03-10T00:32:36.277759+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-01",
+            "max_date": "2022-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 53
+              },
+              {
+                "value": "00:15:00",
+                "count": 53
+              },
+              {
+                "value": "00:30:00",
+                "count": 53
+              },
+              {
+                "value": "00:45:00",
+                "count": 53
+              },
+              {
+                "value": "01:00:00",
+                "count": 53
+              },
+              {
+                "value": "01:15:00",
+                "count": 53
+              },
+              {
+                "value": "01:30:00",
+                "count": 53
+              },
+              {
+                "value": "01:45:00",
+                "count": 53
+              },
+              {
+                "value": "02:00:00",
+                "count": 53
+              },
+              {
+                "value": "02:15:00",
+                "count": 53
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300022314.0,
+            "mean": 149229194.724,
+            "median": 100052604.0,
+            "unique_count": 53,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.866064,
+            "max": -73.483252,
+            "mean": -73.587547,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.466751,
+            "max": 45.700896,
+            "mean": 45.533825,
+            "pct_in_montreal_bbox": 98.1,
+            "field_type_detected": "geo_latitude"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 11.0,
+            "mean": 0.067,
+            "median": 0.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 956
+              },
+              {
+                "value": "1",
+                "count": 36
+              },
+              {
+                "value": "2",
+                "count": 4
+              },
+              {
+                "value": "5",
+                "count": 1
+              },
+              {
+                "value": "11",
+                "count": 1
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "3",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "b463fa29-8549-4664-ae68-b17ab604e0a5",
+      "name": "Vélos - comptage sur les pistes cyclables, 2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/b463fa29-8549-4664-ae68-b17ab604e0a5/download/comptage_velo_2021.csv",
+      "datastore_active": true,
+      "size": 95452920,
+      "last_modified": "2023-10-25T20:49:52.867204",
+      "created": "2021-01-07T14:55:46.882445",
+      "schema": {
+        "resource_id": "b463fa29-8549-4664-ae68-b17ab604e0a5",
+        "total_records": 1791818,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2021-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "longitude": "-73.590636",
+            "latitude": "45.560713",
+            "nb_passages": "1"
+          },
+          {
+            "_id": 2,
+            "date": "2021-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "longitude": "-73.544410",
+            "latitude": "45.501270",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 3,
+            "date": "2021-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "longitude": "-73.538819",
+            "latitude": "45.555084",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 4,
+            "date": "2021-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "longitude": "-73.562970",
+            "latitude": "45.516216",
+            "nb_passages": "1"
+          },
+          {
+            "_id": 5,
+            "date": "2021-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100053057",
+            "longitude": "-73.782791",
+            "latitude": "45.446922",
+            "nb_passages": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1791818,
+        "audited_at": "2026-03-10T00:32:37.655575+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-01-01",
+            "max_date": "2021-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 50
+              },
+              {
+                "value": "00:15:00",
+                "count": 50
+              },
+              {
+                "value": "00:30:00",
+                "count": 50
+              },
+              {
+                "value": "00:45:00",
+                "count": 50
+              },
+              {
+                "value": "01:00:00",
+                "count": 50
+              },
+              {
+                "value": "01:15:00",
+                "count": 50
+              },
+              {
+                "value": "01:30:00",
+                "count": 50
+              },
+              {
+                "value": "01:45:00",
+                "count": 50
+              },
+              {
+                "value": "02:00:00",
+                "count": 50
+              },
+              {
+                "value": "02:15:00",
+                "count": 50
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 300014996.0,
+            "mean": 120032395.92,
+            "median": 100052601.5,
+            "unique_count": 50,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.866064,
+            "max": -73.483252,
+            "mean": -73.591603,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.446922,
+            "max": 45.700896,
+            "mean": 45.52695,
+            "pct_in_montreal_bbox": 98.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 61.0,
+            "mean": 0.557,
+            "median": 0.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 843
+              },
+              {
+                "value": "1",
+                "count": 81
+              },
+              {
+                "value": "2",
+                "count": 34
+              },
+              {
+                "value": "3",
+                "count": 10
+              },
+              {
+                "value": "5",
+                "count": 7
+              },
+              {
+                "value": "4",
+                "count": 7
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "7",
+                "count": 3
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "8",
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "eec17749-1a50-47b2-bc4e-1960ddc09eff",
+      "name": "Vélos - comptage sur les pistes cyclables, 2020",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/eec17749-1a50-47b2-bc4e-1960ddc09eff/download/comptage_velo_2020.csv",
+      "datastore_active": true,
+      "size": 80252977,
+      "last_modified": "2023-10-25T20:49:22.811583",
+      "created": "2020-05-28T14:47:45.684714",
+      "schema": {
+        "resource_id": "eec17749-1a50-47b2-bc4e-1960ddc09eff",
+        "total_records": 1506877,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2020-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100054073",
+            "longitude": "-73.590636",
+            "latitude": "45.560713",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 2,
+            "date": "2020-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "longitude": "-73.544410",
+            "latitude": "45.501270",
+            "nb_passages": "1"
+          },
+          {
+            "_id": 3,
+            "date": "2020-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100052606",
+            "longitude": "-73.538819",
+            "latitude": "45.555084",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 4,
+            "date": "2020-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "longitude": "-73.562970",
+            "latitude": "45.516216",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 5,
+            "date": "2020-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100053057",
+            "longitude": "-73.782791",
+            "latitude": "45.446922",
+            "nb_passages": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1506877,
+        "audited_at": "2026-03-10T00:32:38.929322+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-01-01",
+            "max_date": "2020-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 24,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 42
+              },
+              {
+                "value": "00:15:00",
+                "count": 42
+              },
+              {
+                "value": "00:30:00",
+                "count": 42
+              },
+              {
+                "value": "00:45:00",
+                "count": 42
+              },
+              {
+                "value": "01:00:00",
+                "count": 42
+              },
+              {
+                "value": "01:15:00",
+                "count": 42
+              },
+              {
+                "value": "01:30:00",
+                "count": 42
+              },
+              {
+                "value": "01:45:00",
+                "count": 42
+              },
+              {
+                "value": "02:00:00",
+                "count": 42
+              },
+              {
+                "value": "02:15:00",
+                "count": 42
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 100057500.0,
+            "mean": 100032374.188,
+            "median": 100035409.0,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.866064,
+            "max": -73.483252,
+            "mean": -73.596532,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.446922,
+            "max": 45.700896,
+            "mean": 45.529552,
+            "pct_in_montreal_bbox": 97.6,
+            "field_type_detected": "geo_latitude"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 9.0,
+            "mean": 0.208,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 891
+              },
+              {
+                "value": "1",
+                "count": 64
+              },
+              {
+                "value": "2",
+                "count": 21
+              },
+              {
+                "value": "3",
+                "count": 12
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "5",
+                "count": 3
+              },
+              {
+                "value": "4",
+                "count": 3
+              },
+              {
+                "value": "9",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "2cd0e082-f818-4014-9390-8e1c197ba806",
+      "name": "Vélos - comptage sur les pistes cyclables, 2019",
+      "description": "Informations disponibles : Date Site de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/2cd0e082-f818-4014-9390-8e1c197ba806/download/comptage_velo_2019.csv",
+      "datastore_active": true,
+      "size": 54342936,
+      "last_modified": "2023-10-25T20:48:22.561425",
+      "created": "2020-05-28T14:46:13.916797",
+      "schema": {
+        "resource_id": "2cd0e082-f818-4014-9390-8e1c197ba806",
+        "total_records": 1019862,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_compteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_passages",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "2019-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003040",
+            "longitude": "-73.544410",
+            "latitude": "45.501270",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 2,
+            "date": "2019-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100003032",
+            "longitude": "-73.562970",
+            "latitude": "45.516216",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 3,
+            "date": "2019-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100035408",
+            "longitude": "-73.616683",
+            "latitude": "45.543461",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 4,
+            "date": "2019-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100012218",
+            "longitude": "-73.594590",
+            "latitude": "45.533650",
+            "nb_passages": "0"
+          },
+          {
+            "_id": 5,
+            "date": "2019-01-01",
+            "heure": "00:00:00",
+            "id_compteur": "100004575",
+            "longitude": "-73.574320",
+            "latitude": "45.527496",
+            "nb_passages": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_compteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_passages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1019862,
+        "audited_at": "2026-03-10T00:32:40.180148+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-01",
+            "max_date": "2019-01-01",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 44,
+            "top_values": [
+              {
+                "value": "00:00:00",
+                "count": 23
+              },
+              {
+                "value": "00:15:00",
+                "count": 23
+              },
+              {
+                "value": "00:30:00",
+                "count": 23
+              },
+              {
+                "value": "00:45:00",
+                "count": 23
+              },
+              {
+                "value": "01:00:00",
+                "count": 23
+              },
+              {
+                "value": "01:15:00",
+                "count": 23
+              },
+              {
+                "value": "01:30:00",
+                "count": 23
+              },
+              {
+                "value": "01:45:00",
+                "count": 23
+              },
+              {
+                "value": "02:00:00",
+                "count": 23
+              },
+              {
+                "value": "02:15:00",
+                "count": 23
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "id_compteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100001753.0,
+            "max": 100047030.0,
+            "mean": 100016234.462,
+            "median": 100011748.0,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "100003040",
+                "count": 44
+              },
+              {
+                "value": "100003032",
+                "count": 44
+              },
+              {
+                "value": "100035408",
+                "count": 44
+              },
+              {
+                "value": "100012218",
+                "count": 44
+              },
+              {
+                "value": "100004575",
+                "count": 44
+              },
+              {
+                "value": "100035409",
+                "count": 44
+              },
+              {
+                "value": "100003041",
+                "count": 44
+              },
+              {
+                "value": "100007390",
+                "count": 44
+              },
+              {
+                "value": "100041114",
+                "count": 44
+              },
+              {
+                "value": "100041101",
+                "count": 44
+              }
+            ]
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.68448,
+            "max": -73.54441,
+            "mean": -73.5935,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.470493,
+            "max": 45.55773,
+            "mean": 45.523879,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "nb_passages": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7.0,
+            "mean": 0.221,
+            "median": 0.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 854
+              },
+              {
+                "value": "1",
+                "count": 103
+              },
+              {
+                "value": "2",
+                "count": 27
+              },
+              {
+                "value": "3",
+                "count": 8
+              },
+              {
+                "value": "4",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "eea2434f-32b3-4dc5-9035-f1642509f0e7",
+      "name": "Vélos - comptage sur les pistes cyclables, 2018",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/eea2434f-32b3-4dc5-9035-f1642509f0e7/download/comptage_velo_2018.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-03-06T14:16:45.307307",
+      "created": "2019-03-06T14:16:45.405772",
+      "schema": null
+    },
+    {
+      "id": "83063700-8fe7-4e6f-8c4b-ed55f4602514",
+      "name": "Vélos - comptage sur les pistes cyclables, 2017",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/83063700-8fe7-4e6f-8c4b-ed55f4602514/download/comptagevelo2017.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2018-06-05T16:36:17.513677",
+      "created": "2018-06-05T16:36:17.591860",
+      "schema": null
+    },
+    {
+      "id": "6caecdd0-e5ac-48c1-a0cc-5b537936d5f6",
+      "name": "Vélos - comptage sur les pistes cyclables, 2016",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/6caecdd0-e5ac-48c1-a0cc-5b537936d5f6/download/comptagevelo20162.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-01-30T20:30:00.963165",
+      "created": "2016-10-07T10:31:33.240604",
+      "schema": null
+    },
+    {
+      "id": "64c26fd3-0bdf-45f8-92c6-715a9c852a7b",
+      "name": "Vélos - comptage sur les pistes cyclables, 2015",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/64c26fd3-0bdf-45f8-92c6-715a9c852a7b/download/comptagevelo20152.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-01-30T20:27:43.295175",
+      "created": "2016-01-13T11:55:26.640476",
+      "schema": null
+    },
+    {
+      "id": "868b4bc8-ff55-4c48-ab3b-d80615445595",
+      "name": "Vélos - comptage sur les pistes cyclables, 2014",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/868b4bc8-ff55-4c48-ab3b-d80615445595/download/comptagevelo2014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-07-27T12:59:39.455623",
+      "created": "2016-01-13T11:55:25.972039",
+      "schema": {
+        "resource_id": "868b4bc8-ff55-4c48-ab3b-d80615445595",
+        "total_records": 365,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Papineau",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Berri1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_2",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Brébeuf",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Parc",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PierDup",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CSC (Côte Sainte-Catherine)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pont_Jacques_Cartier",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Totem_Laurier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Notre-Dame",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Hôtel de Ville",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Saint-Antoine",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "René-Lévesque",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Viger",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Boyer",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "University",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Saint-Urbain",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Date": "2014-01-01T00:00:00",
+            "Rachel / Papineau": 21,
+            "Berri1": 9,
+            "Maisonneuve_1": 22,
+            "Maisonneuve_2": 28,
+            "Brébeuf": 0,
+            "Parc": 14,
+            "PierDup": 3,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": 77,
+            "Notre-Dame": 6,
+            "Rachel / Hôtel de Ville": 8,
+            "Saint-Antoine": 0,
+            "René-Lévesque": 9,
+            "Viger": 1,
+            "Boyer": 1,
+            "Maisonneuve_3": 3,
+            "University": 6,
+            "Saint-Urbain": null
+          },
+          {
+            "_id": 2,
+            "Date": "2014-01-02T00:00:00",
+            "Rachel / Papineau": 43,
+            "Berri1": 9,
+            "Maisonneuve_1": 18,
+            "Maisonneuve_2": 41,
+            "Brébeuf": 0,
+            "Parc": 14,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": 115,
+            "Notre-Dame": 2,
+            "Rachel / Hôtel de Ville": 18,
+            "Saint-Antoine": 0,
+            "René-Lévesque": 14,
+            "Viger": 4,
+            "Boyer": 4,
+            "Maisonneuve_3": 9,
+            "University": 22,
+            "Saint-Urbain": null
+          },
+          {
+            "_id": 3,
+            "Date": "2014-01-03T00:00:00",
+            "Rachel / Papineau": 73,
+            "Berri1": 28,
+            "Maisonneuve_1": 34,
+            "Maisonneuve_2": 64,
+            "Brébeuf": 0,
+            "Parc": 32,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": 179,
+            "Notre-Dame": 5,
+            "Rachel / Hôtel de Ville": 27,
+            "Saint-Antoine": 0,
+            "René-Lévesque": 16,
+            "Viger": 13,
+            "Boyer": 6,
+            "Maisonneuve_3": 18,
+            "University": 32,
+            "Saint-Urbain": null
+          },
+          {
+            "_id": 4,
+            "Date": "2014-01-04T00:00:00",
+            "Rachel / Papineau": 71,
+            "Berri1": 27,
+            "Maisonneuve_1": 21,
+            "Maisonneuve_2": 59,
+            "Brébeuf": 0,
+            "Parc": 22,
+            "PierDup": 2,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": 128,
+            "Notre-Dame": 2,
+            "Rachel / Hôtel de Ville": 34,
+            "Saint-Antoine": 0,
+            "René-Lévesque": 12,
+            "Viger": 6,
+            "Boyer": 9,
+            "Maisonneuve_3": 9,
+            "University": 25,
+            "Saint-Urbain": null
+          },
+          {
+            "_id": 5,
+            "Date": "2014-01-05T00:00:00",
+            "Rachel / Papineau": 117,
+            "Berri1": 55,
+            "Maisonneuve_1": 25,
+            "Maisonneuve_2": 73,
+            "Brébeuf": 0,
+            "Parc": 21,
+            "PierDup": 10,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": 22,
+            "Notre-Dame": 3,
+            "Rachel / Hôtel de Ville": 53,
+            "Saint-Antoine": 0,
+            "René-Lévesque": 19,
+            "Viger": 6,
+            "Boyer": 1,
+            "Maisonneuve_3": 19,
+            "University": 25,
+            "Saint-Urbain": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rachel / Papineau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Berri1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Brébeuf": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PierDup": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CSC (Côte Sainte-Catherine)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Pont_Jacques_Cartier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Totem_Laurier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Notre-Dame": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rachel / Hôtel de Ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Saint-Antoine": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "René-Lévesque": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Viger": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Boyer": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "University": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Saint-Urbain": {
+          "null_count": 316,
+          "null_pct": 86.6,
+          "populated_pct": 13.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 365,
+        "total_records": 365,
+        "audited_at": "2026-03-10T00:32:41.158114+00:00",
+        "fields": {
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-01-01T00:00:00",
+            "max_date": "2014-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Rachel / Papineau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 21.0,
+            "max": 9772.0,
+            "mean": 2641.8466,
+            "median": 2024.0,
+            "unique_count": 350,
+            "field_type_detected": "numeric"
+          },
+          "Berri1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 7900.0,
+            "mean": 2373.0384,
+            "median": 1762.0,
+            "unique_count": 349,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 18.0,
+            "max": 5209.0,
+            "mean": 1543.1425,
+            "median": 1138.0,
+            "unique_count": 340,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 28.0,
+            "max": 8152.0,
+            "mean": 2815.9671,
+            "median": 2219.0,
+            "unique_count": 352,
+            "field_type_detected": "numeric"
+          },
+          "Brébeuf": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7913.0,
+            "mean": 2422.6247,
+            "median": 1870.0,
+            "unique_count": 255,
+            "field_type_detected": "numeric"
+          },
+          "Parc": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 5135.0,
+            "mean": 1599.4767,
+            "median": 1213.0,
+            "unique_count": 329,
+            "field_type_detected": "numeric"
+          },
+          "PierDup": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4326.0,
+            "mean": 921.863,
+            "median": 400.0,
+            "unique_count": 251,
+            "field_type_detected": "numeric"
+          },
+          "CSC (Côte Sainte-Catherine)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3738.0,
+            "mean": 1048.8192,
+            "median": 823.0,
+            "unique_count": 314,
+            "field_type_detected": "numeric"
+          },
+          "Pont_Jacques_Cartier": {
+            "null_count": 365,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Totem_Laurier": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 4981.0,
+            "mean": 1753.7233,
+            "median": 1580.0,
+            "unique_count": 338,
+            "field_type_detected": "numeric"
+          },
+          "Notre-Dame": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3880.0,
+            "mean": 912.0438,
+            "median": 540.0,
+            "unique_count": 277,
+            "field_type_detected": "numeric"
+          },
+          "Rachel / Hôtel de Ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 8.0,
+            "max": 9346.0,
+            "mean": 1724.4548,
+            "median": 1437.0,
+            "unique_count": 332,
+            "field_type_detected": "numeric"
+          },
+          "Saint-Antoine": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 952.0,
+            "mean": 262.3068,
+            "median": 144.0,
+            "unique_count": 213,
+            "field_type_detected": "numeric"
+          },
+          "René-Lévesque": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 4373.0,
+            "mean": 1232.4904,
+            "median": 741.0,
+            "unique_count": 321,
+            "field_type_detected": "numeric"
+          },
+          "Viger": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 709.0,
+            "mean": 200.2767,
+            "median": 114.0,
+            "unique_count": 248,
+            "field_type_detected": "numeric"
+          },
+          "Boyer": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 6475.0,
+            "mean": 1875.6849,
+            "median": 1310.0,
+            "unique_count": 236,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2230.0,
+            "mean": 750.789,
+            "median": 595.0,
+            "unique_count": 303,
+            "field_type_detected": "numeric"
+          },
+          "University": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2596.0,
+            "mean": 185.5918,
+            "median": 0.0,
+            "unique_count": 137,
+            "field_type_detected": "numeric"
+          },
+          "Saint-Urbain": {
+            "null_count": 316,
+            "null_pct": 86.6,
+            "min": 1.0,
+            "max": 896.0,
+            "mean": 203.102,
+            "median": 142.0,
+            "unique_count": 46,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "ec12447d-6b2a-45d0-b0e7-fd69c382e368",
+      "name": "Vélos - comptage sur les pistes cyclables, 2013",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/ec12447d-6b2a-45d0-b0e7-fd69c382e368/download/comptagevelo2013.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2020-07-27T12:59:25.818874",
+      "created": "2016-01-13T11:55:25.313420",
+      "schema": {
+        "resource_id": "ec12447d-6b2a-45d0-b0e7-fd69c382e368",
+        "total_records": 365,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Papineau",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Berri1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_2",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Brébeuf",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Parc",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PierDup",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CSC (Côte Sainte-Catherine)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pont_Jacques_Cartier",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Totem_Laurier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Notre-Dame",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Hôtel de Ville",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Saint-Antoine",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "René-Lévesque",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Viger",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Boyer",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_3",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "University",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Date": "2013-01-01T00:00:00",
+            "Rachel / Papineau": 1,
+            "Berri1": 0,
+            "Maisonneuve_1": 1,
+            "Maisonneuve_2": 0,
+            "Brébeuf": null,
+            "Parc": 6,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": null,
+            "Notre-Dame": null,
+            "Rachel / Hôtel de Ville": null,
+            "Saint-Antoine": null,
+            "René-Lévesque": null,
+            "Viger": null,
+            "Boyer": null,
+            "Maisonneuve_3": null,
+            "University": null
+          },
+          {
+            "_id": 2,
+            "Date": "2013-01-02T00:00:00",
+            "Rachel / Papineau": 2,
+            "Berri1": 69,
+            "Maisonneuve_1": 13,
+            "Maisonneuve_2": 0,
+            "Brébeuf": null,
+            "Parc": 18,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": null,
+            "Notre-Dame": null,
+            "Rachel / Hôtel de Ville": null,
+            "Saint-Antoine": null,
+            "René-Lévesque": null,
+            "Viger": null,
+            "Boyer": null,
+            "Maisonneuve_3": null,
+            "University": null
+          },
+          {
+            "_id": 3,
+            "Date": "2013-01-03T00:00:00",
+            "Rachel / Papineau": 0,
+            "Berri1": 69,
+            "Maisonneuve_1": 21,
+            "Maisonneuve_2": 6,
+            "Brébeuf": null,
+            "Parc": 22,
+            "PierDup": 1,
+            "CSC (Côte Sainte-Catherine)": 2,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": null,
+            "Notre-Dame": null,
+            "Rachel / Hôtel de Ville": null,
+            "Saint-Antoine": null,
+            "René-Lévesque": null,
+            "Viger": null,
+            "Boyer": null,
+            "Maisonneuve_3": null,
+            "University": null
+          },
+          {
+            "_id": 4,
+            "Date": "2013-01-04T00:00:00",
+            "Rachel / Papineau": 125,
+            "Berri1": 80,
+            "Maisonneuve_1": 22,
+            "Maisonneuve_2": 4,
+            "Brébeuf": null,
+            "Parc": 16,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 0,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": null,
+            "Notre-Dame": null,
+            "Rachel / Hôtel de Ville": null,
+            "Saint-Antoine": null,
+            "René-Lévesque": null,
+            "Viger": null,
+            "Boyer": null,
+            "Maisonneuve_3": null,
+            "University": null
+          },
+          {
+            "_id": 5,
+            "Date": "2013-01-05T00:00:00",
+            "Rachel / Papineau": 97,
+            "Berri1": 52,
+            "Maisonneuve_1": 19,
+            "Maisonneuve_2": 3,
+            "Brébeuf": null,
+            "Parc": 12,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 4,
+            "Pont_Jacques_Cartier": "",
+            "Totem_Laurier": null,
+            "Notre-Dame": null,
+            "Rachel / Hôtel de Ville": null,
+            "Saint-Antoine": null,
+            "René-Lévesque": null,
+            "Viger": null,
+            "Boyer": null,
+            "Maisonneuve_3": null,
+            "University": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rachel / Papineau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Berri1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Brébeuf": {
+          "null_count": 294,
+          "null_pct": 80.5,
+          "populated_pct": 19.5
+        },
+        "Parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PierDup": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CSC (Côte Sainte-Catherine)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Pont_Jacques_Cartier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Totem_Laurier": {
+          "null_count": 43,
+          "null_pct": 11.8,
+          "populated_pct": 88.2
+        },
+        "Notre-Dame": {
+          "null_count": 291,
+          "null_pct": 79.7,
+          "populated_pct": 20.3
+        },
+        "Rachel / Hôtel de Ville": {
+          "null_count": 292,
+          "null_pct": 80.0,
+          "populated_pct": 20.0
+        },
+        "Saint-Antoine": {
+          "null_count": 77,
+          "null_pct": 21.1,
+          "populated_pct": 78.9
+        },
+        "René-Lévesque": {
+          "null_count": 305,
+          "null_pct": 83.6,
+          "populated_pct": 16.4
+        },
+        "Viger": {
+          "null_count": 305,
+          "null_pct": 83.6,
+          "populated_pct": 16.4
+        },
+        "Boyer": {
+          "null_count": 305,
+          "null_pct": 83.6,
+          "populated_pct": 16.4
+        },
+        "Maisonneuve_3": {
+          "null_count": 306,
+          "null_pct": 83.8,
+          "populated_pct": 16.2
+        },
+        "University": {
+          "null_count": 305,
+          "null_pct": 83.6,
+          "populated_pct": 16.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 365,
+        "total_records": 365,
+        "audited_at": "2026-03-10T00:32:42.219451+00:00",
+        "fields": {
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-01-01T00:00:00",
+            "max_date": "2013-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Rachel / Papineau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8555.0,
+            "mean": 2823.0082,
+            "median": 2492.0,
+            "unique_count": 339,
+            "field_type_detected": "numeric"
+          },
+          "Berri1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 6803.0,
+            "mean": 2534.2356,
+            "median": 2210.0,
+            "unique_count": 353,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 4716.0,
+            "mean": 1631.8877,
+            "median": 1421.0,
+            "unique_count": 331,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7684.0,
+            "mean": 3008.1096,
+            "median": 2678.0,
+            "unique_count": 345,
+            "field_type_detected": "numeric"
+          },
+          "Brébeuf": {
+            "null_count": 294,
+            "null_pct": 80.5,
+            "min": 0.0,
+            "max": 3527.0,
+            "mean": 728.0141,
+            "median": 0.0,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 43
+              },
+              {
+                "value": "1457",
+                "count": 2
+              },
+              {
+                "value": "1593",
+                "count": 1
+              },
+              {
+                "value": "3527",
+                "count": 1
+              },
+              {
+                "value": "3093",
+                "count": 1
+              },
+              {
+                "value": "2847",
+                "count": 1
+              },
+              {
+                "value": "760",
+                "count": 1
+              },
+              {
+                "value": "1175",
+                "count": 1
+              },
+              {
+                "value": "2143",
+                "count": 1
+              },
+              {
+                "value": "2817",
+                "count": 1
+              }
+            ]
+          },
+          "Parc": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 4.0,
+            "max": 4103.0,
+            "mean": 1605.1041,
+            "median": 1438.0,
+            "unique_count": 333,
+            "field_type_detected": "numeric"
+          },
+          "PierDup": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4841.0,
+            "mean": 953.8438,
+            "median": 428.0,
+            "unique_count": 266,
+            "field_type_detected": "numeric"
+          },
+          "CSC (Côte Sainte-Catherine)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 3330.0,
+            "mean": 1151.4521,
+            "median": 1018.0,
+            "unique_count": 265,
+            "field_type_detected": "numeric"
+          },
+          "Pont_Jacques_Cartier": {
+            "null_count": 365,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Totem_Laurier": {
+            "null_count": 43,
+            "null_pct": 11.8,
+            "min": 42.0,
+            "max": 4293.0,
+            "mean": 2043.0807,
+            "median": 2224.0,
+            "unique_count": 306,
+            "field_type_detected": "numeric"
+          },
+          "Notre-Dame": {
+            "null_count": 291,
+            "null_pct": 79.7,
+            "min": 0.0,
+            "max": 1026.0,
+            "mean": 257.3514,
+            "median": 141.5,
+            "unique_count": 62,
+            "field_type_detected": "numeric"
+          },
+          "Rachel / Hôtel de Ville": {
+            "null_count": 292,
+            "null_pct": 80.0,
+            "min": 1.0,
+            "max": 2345.0,
+            "mean": 712.863,
+            "median": 459.0,
+            "unique_count": 68,
+            "field_type_detected": "numeric"
+          },
+          "Saint-Antoine": {
+            "null_count": 77,
+            "null_pct": 21.1,
+            "min": 0.0,
+            "max": 364.0,
+            "mean": 21.3194,
+            "median": 0.0,
+            "unique_count": 35,
+            "field_type_detected": "numeric"
+          },
+          "René-Lévesque": {
+            "null_count": 305,
+            "null_pct": 83.6,
+            "min": 0.0,
+            "max": 1089.0,
+            "mean": 277.1667,
+            "median": 124.0,
+            "unique_count": 59,
+            "field_type_detected": "numeric"
+          },
+          "Viger": {
+            "null_count": 305,
+            "null_pct": 83.6,
+            "min": 0.0,
+            "max": 1101.0,
+            "mean": 397.3,
+            "median": 64.5,
+            "unique_count": 54,
+            "field_type_detected": "numeric"
+          },
+          "Boyer": {
+            "null_count": 305,
+            "null_pct": 83.6,
+            "min": 0.0,
+            "max": 24.0,
+            "mean": 2.4167,
+            "median": 0.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 43
+              },
+              {
+                "value": "5",
+                "count": 3
+              },
+              {
+                "value": "3",
+                "count": 2
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "23",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "18",
+                "count": 1
+              },
+              {
+                "value": "6",
+                "count": 1
+              },
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "24",
+                "count": 1
+              }
+            ]
+          },
+          "Maisonneuve_3": {
+            "null_count": 306,
+            "null_pct": 83.8,
+            "min": 1.0,
+            "max": 778.0,
+            "mean": 212.9661,
+            "median": 106.0,
+            "unique_count": 54,
+            "field_type_detected": "numeric"
+          },
+          "University": {
+            "null_count": 305,
+            "null_pct": 83.6,
+            "min": 0.0,
+            "max": 710.0,
+            "mean": 101.1833,
+            "median": 5.5,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "d54cec49-349e-47af-b152-7740056d7311",
+      "name": "Vélos - comptage sur les pistes cyclables, 2012",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/d54cec49-349e-47af-b152-7740056d7311/download/comptagevelo2012.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-07T14:26:52.301741",
+      "created": "2016-01-13T11:55:24.708450",
+      "schema": null
+    },
+    {
+      "id": "f2e43419-ebb2-4e38-80b6-0644c8344338",
+      "name": "Vélos - comptage sur les pistes cyclables, 2011",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/f2e43419-ebb2-4e38-80b6-0644c8344338/download/comptagevelo2011.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-10-07T14:26:34.969665",
+      "created": "2016-01-13T11:55:24.166143",
+      "schema": {
+        "resource_id": "f2e43419-ebb2-4e38-80b6-0644c8344338",
+        "total_records": 365,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Papineau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Berri1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_2",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Brébeuf",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Parc",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PierDup",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CSC (Côte Sainte-Catherine)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pont_Jacques_Cartier",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Date": "2011-01-01T00:00:00",
+            "Rachel / Papineau": "85",
+            "Berri1": 81,
+            "Maisonneuve_2": 110,
+            "Maisonneuve_1": 62,
+            "Brébeuf": 0,
+            "Parc": 41,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 5,
+            "Pont_Jacques_Cartier": null
+          },
+          {
+            "_id": 2,
+            "Date": "2011-02-01T00:00:00",
+            "Rachel / Papineau": "124",
+            "Berri1": 95,
+            "Maisonneuve_2": 169,
+            "Maisonneuve_1": 79,
+            "Brébeuf": 0,
+            "Parc": 68,
+            "PierDup": 6,
+            "CSC (Côte Sainte-Catherine)": 21,
+            "Pont_Jacques_Cartier": null
+          },
+          {
+            "_id": 3,
+            "Date": "2011-03-01T00:00:00",
+            "Rachel / Papineau": "242",
+            "Berri1": 150,
+            "Maisonneuve_2": 329,
+            "Maisonneuve_1": 115,
+            "Brébeuf": 0,
+            "Parc": 205,
+            "PierDup": 3,
+            "CSC (Côte Sainte-Catherine)": 30,
+            "Pont_Jacques_Cartier": null
+          },
+          {
+            "_id": 4,
+            "Date": "2011-04-01T00:00:00",
+            "Rachel / Papineau": "205",
+            "Berri1": 232,
+            "Maisonneuve_2": 441,
+            "Maisonneuve_1": 163,
+            "Brébeuf": 0,
+            "Parc": 250,
+            "PierDup": 0,
+            "CSC (Côte Sainte-Catherine)": 34,
+            "Pont_Jacques_Cartier": null
+          },
+          {
+            "_id": 5,
+            "Date": "2011-05-01T00:00:00",
+            "Rachel / Papineau": "184",
+            "Berri1": 237,
+            "Maisonneuve_2": 415,
+            "Maisonneuve_1": 168,
+            "Brébeuf": 0,
+            "Parc": 250,
+            "PierDup": 1,
+            "CSC (Côte Sainte-Catherine)": 26,
+            "Pont_Jacques_Cartier": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rachel / Papineau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Berri1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Brébeuf": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parc": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PierDup": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CSC (Côte Sainte-Catherine)": {
+          "null_count": 15,
+          "null_pct": 4.1,
+          "populated_pct": 95.9
+        },
+        "Pont_Jacques_Cartier": {
+          "null_count": 321,
+          "null_pct": 87.9,
+          "populated_pct": 12.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 365,
+        "total_records": 365,
+        "audited_at": "2026-03-10T00:32:43.130203+00:00",
+        "fields": {
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2011-01-01T00:00:00",
+            "max_date": "2011-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Rachel / Papineau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7515.0,
+            "mean": 2434.3205,
+            "median": 2083.0,
+            "unique_count": 323,
+            "field_type_detected": "numeric"
+          },
+          "Berri1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7399.0,
+            "mean": 2071.2274,
+            "median": 811.0,
+            "unique_count": 308,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 24.0,
+            "max": 8332.0,
+            "mean": 3114.6137,
+            "median": 2592.0,
+            "unique_count": 355,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 16.0,
+            "max": 5355.0,
+            "mean": 1691.6137,
+            "median": 1357.0,
+            "unique_count": 343,
+            "field_type_detected": "numeric"
+          },
+          "Brébeuf": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8228.0,
+            "mean": 1857.1397,
+            "median": 1378.0,
+            "unique_count": 265,
+            "field_type_detected": "numeric"
+          },
+          "Parc": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 4577.0,
+            "mean": 1645.5452,
+            "median": 1450.0,
+            "unique_count": 334,
+            "field_type_detected": "numeric"
+          },
+          "PierDup": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4044.0,
+            "mean": 849.7644,
+            "median": 349.0,
+            "unique_count": 258,
+            "field_type_detected": "numeric"
+          },
+          "CSC (Côte Sainte-Catherine)": {
+            "null_count": 15,
+            "null_pct": 4.1,
+            "min": 0.0,
+            "max": 3140.0,
+            "mean": 920.8771,
+            "median": 635.5,
+            "unique_count": 280,
+            "field_type_detected": "numeric"
+          },
+          "Pont_Jacques_Cartier": {
+            "null_count": 321,
+            "null_pct": 87.9,
+            "min": 10.0,
+            "max": 770.0,
+            "mean": 252.1364,
+            "median": 241.5,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "f23e1c88-cd04-467f-a64a-48f5eb1b6c9e",
+      "name": "Vélos - comptage sur les pistes cyclables, 2010",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/f23e1c88-cd04-467f-a64a-48f5eb1b6c9e/download/comptagevelo2010.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-10-07T14:26:18.145161",
+      "created": "2016-01-13T11:55:23.605682",
+      "schema": {
+        "resource_id": "f23e1c88-cd04-467f-a64a-48f5eb1b6c9e",
+        "total_records": 365,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Rachel / Papineau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Berri1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_1",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Maisonneuve_2",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Brébeuf",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Parc",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CSC (Côte Sainte-Catherine)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PierDup",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Date": "2010-01-01T00:00:00",
+            "Rachel / Papineau": null,
+            "Berri1": 36,
+            "Maisonneuve_1": 17,
+            "Maisonneuve_2": 37,
+            "Brébeuf": 0,
+            "Parc": null,
+            "CSC (Côte Sainte-Catherine)": null,
+            "PierDup": null
+          },
+          {
+            "_id": 2,
+            "Date": "2010-02-01T00:00:00",
+            "Rachel / Papineau": null,
+            "Berri1": 28,
+            "Maisonneuve_1": 24,
+            "Maisonneuve_2": 47,
+            "Brébeuf": 0,
+            "Parc": null,
+            "CSC (Côte Sainte-Catherine)": null,
+            "PierDup": null
+          },
+          {
+            "_id": 3,
+            "Date": "2010-03-01T00:00:00",
+            "Rachel / Papineau": null,
+            "Berri1": 39,
+            "Maisonneuve_1": 22,
+            "Maisonneuve_2": 56,
+            "Brébeuf": 0,
+            "Parc": null,
+            "CSC (Côte Sainte-Catherine)": null,
+            "PierDup": null
+          },
+          {
+            "_id": 4,
+            "Date": "2010-04-01T00:00:00",
+            "Rachel / Papineau": null,
+            "Berri1": 117,
+            "Maisonneuve_1": 71,
+            "Maisonneuve_2": 237,
+            "Brébeuf": 0,
+            "Parc": null,
+            "CSC (Côte Sainte-Catherine)": null,
+            "PierDup": null
+          },
+          {
+            "_id": 5,
+            "Date": "2010-05-01T00:00:00",
+            "Rachel / Papineau": null,
+            "Berri1": 225,
+            "Maisonneuve_1": 88,
+            "Maisonneuve_2": 309,
+            "Brébeuf": 0,
+            "Parc": null,
+            "CSC (Côte Sainte-Catherine)": null,
+            "PierDup": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rachel / Papineau": {
+          "null_count": 275,
+          "null_pct": 75.3,
+          "populated_pct": 24.7
+        },
+        "Berri1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Maisonneuve_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Brébeuf": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Parc": {
+          "null_count": 278,
+          "null_pct": 76.2,
+          "populated_pct": 23.8
+        },
+        "CSC (Côte Sainte-Catherine)": {
+          "null_count": 277,
+          "null_pct": 75.9,
+          "populated_pct": 24.1
+        },
+        "PierDup": {
+          "null_count": 280,
+          "null_pct": 76.7,
+          "populated_pct": 23.3
+        }
+      },
+      "quality_audit": {
+        "sample_size": 365,
+        "total_records": 365,
+        "audited_at": "2026-03-10T00:32:44.077122+00:00",
+        "fields": {
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-01-01T00:00:00",
+            "max_date": "2010-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Rachel / Papineau": {
+            "null_count": 275,
+            "null_pct": 75.3,
+            "min": 0.0,
+            "max": 3721.0,
+            "mean": 1243.8778,
+            "median": 1236.5,
+            "unique_count": 83,
+            "field_type_detected": "numeric"
+          },
+          "Berri1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 28.0,
+            "max": 7495.0,
+            "mean": 2506.9589,
+            "median": 2174.0,
+            "unique_count": 350,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 17.0,
+            "max": 5077.0,
+            "mean": 1531.2356,
+            "median": 1267.0,
+            "unique_count": 337,
+            "field_type_detected": "numeric"
+          },
+          "Maisonneuve_2": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 28.0,
+            "max": 7204.0,
+            "mean": 2875.337,
+            "median": 2647.0,
+            "unique_count": 356,
+            "field_type_detected": "numeric"
+          },
+          "Brébeuf": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 9258.0,
+            "mean": 1929.7068,
+            "median": 1146.0,
+            "unique_count": 214,
+            "field_type_detected": "numeric"
+          },
+          "Parc": {
+            "null_count": 278,
+            "null_pct": 76.2,
+            "min": 14.0,
+            "max": 3161.0,
+            "mean": 1031.2414,
+            "median": 972.0,
+            "unique_count": 86,
+            "field_type_detected": "numeric"
+          },
+          "CSC (Côte Sainte-Catherine)": {
+            "null_count": 277,
+            "null_pct": 75.9,
+            "min": 0.0,
+            "max": 1921.0,
+            "mean": 580.0909,
+            "median": 495.0,
+            "unique_count": 70,
+            "field_type_detected": "numeric"
+          },
+          "PierDup": {
+            "null_count": 280,
+            "null_pct": 76.7,
+            "min": 0.0,
+            "max": 1070.0,
+            "mean": 174.6824,
+            "median": 77.0,
+            "unique_count": 56,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "ee1e9541-939d-429e-919a-8ab94527773c",
+      "name": "Vélos - comptage sur les pistes cyclables, 2009",
+      "description": "Informations disponibles :\r\n\r\nDate\r\n\r\nSite de comptage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/ee1e9541-939d-429e-919a-8ab94527773c/download/comptagevelo2009.csv",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-10-07T14:25:54.568065",
+      "created": "2016-01-13T11:55:23.113679",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Comptage",
+    "Piste cyclable",
+    "SUM",
+    "Vélo"
+  ],
+  "web_metadata": {
+    "methodology_text": "Boucles magnétiques réparties sur plusieurs sites de comptage.\n\n\nLimites possibles: \n- Les vélos au carbone ne sont pas détectés\n- Les entraves routières \n- Événements qui interfèrent avec les comptages\n- Bris d'équipement\n- Maintenance\n- Les données relevées semblent trop élevées pour la période de décembre 2019 à février 2020\n\n\n**Note: Les corridors sanitaires mis en place en réponse de la COVID-19 viennent interférer avec certains compteurs. Ceux-ci ont été marqués comme Unidirectionnel dans la liste des compteurs.**\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    PLA\n    \n    LSO\n    \n    montreal\n    \n    OUT\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2009-01-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Comptage",
+      "Piste cyclable",
+      "SUM",
+      "Vélo"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/velos-comptage",
+    "scraped_at": "2026-03-09T20:23:47.503797+00:00"
+  }
+}

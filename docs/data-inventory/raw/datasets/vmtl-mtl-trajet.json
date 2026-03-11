@@ -1,0 +1,135 @@
+{
+  "slug": "vmtl-mtl-trajet",
+  "title": "Déplacements MTL Trajet",
+  "notes": "Dans un contexte de chantiers nombreux, Montréal a déployé tous les efforts nécessaires pour améliorer la mobilité des usagers, tous modes de transport confondu. L’application [MTL Trajet](https://ville.montreal.qc.ca/mtltrajet/) est l’une des nombreuses mesures mises de l’avant afin de mieux comprendre et faciliter les déplacements à Montréal.\r\n\r\nLe présent ensemble contient les données filtrées recueillies lors de cette étude. Les données sont divisées sous deux jeux différents pour offrir le maximum de données sans pour autant compromettre la confidentialité des utilisateurs de l'application MTL Trajet.\r\n\r\n__Points__\r\n\r\nLe jeu de données “points_mtl_trajet” comprend chacun des points, possédant une qualité de positionnement acceptable, recueilli lors de l’enquête sur les déplacements MTL Trajet. Ces points ont été traités et filtrés pour y enlever tous les éléments sensibles sur un utilisateur.\r\n\r\n__Trajets__ \r\n\r\nCe fichier comprend chacun des trajets obtenus à l’aide des données filtrées. Ce fichier est donc une agglomération de point en segments permettant de définir les trajets des usagers. Ces segments ont été produits à l’aide de l’engin de routage OSRM afin de repérer les points sur les réseaux (voies, pistes cyclables, métro, train de banlieue). Par souci de protection de la vie privée des utilisateurs de l’application,  les informations permettant de relier les trajets aux usagers ont été enlevées. Ces trajets sont alors complets, il est par contre impossible de déterminer si deux trajets ont été effectués par le même utilisateur. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-09-05T18:53:29.580616",
+  "metadata_modified": "2025-02-26T14:56:42.807867",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "64278608-6bf4-4a30-83c0-2bc6e3a459e1",
+      "name": "MTL Trajet 2017 - Trajets",
+      "description": "Conteneur zip des shapefiles des données des trajets obfusqués résultantes de l'étude 2017",
+      "format": "SHP",
+      "url": "https://depot.ville.montreal.qc.ca/mtl-trajet/trajets_mtl_trajet_2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2018-09-24T13:35:17.107804",
+      "schema": null
+    },
+    {
+      "id": "71d43835-1eef-4ae0-a0c4-578d5c8c605d",
+      "name": "MTL Trajet 2017 - Trajets",
+      "description": "Geojson des données des trajets obfusqués résultantes de l'étude 2017",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/955de068-9556-4aa1-980e-487b057bbc9d/resource/71d43835-1eef-4ae0-a0c4-578d5c8c605d/download/trajets_mtl_trajet_2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-01-17T20:05:53.275523",
+      "created": "2018-09-24T13:43:20.446883",
+      "schema": null
+    },
+    {
+      "id": "1fa36506-3116-495b-9fd4-5fec978be65d",
+      "name": "MTL Trajet 2017 - Points",
+      "description": "Conteneur zip des shapefiles des données de points résultantes de l'étude 2017",
+      "format": "SHP",
+      "url": "https://depot.ville.montreal.qc.ca/mtl-trajet/points_mtl_trajet_2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2018-09-24T13:44:54.769510",
+      "schema": null
+    },
+    {
+      "id": "cb661499-3fa9-4793-a5fd-1ba320342fcd",
+      "name": "MTL Trajet 2017 - Points",
+      "description": "Geojson des données de points résultantes de l'étude 2017",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/955de068-9556-4aa1-980e-487b057bbc9d/resource/cb661499-3fa9-4793-a5fd-1ba320342fcd/download/points_mtl_trajet_2017.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-01-17T20:07:35.680975",
+      "created": "2018-09-24T13:47:03.172521",
+      "schema": null
+    },
+    {
+      "id": "5397e58a-8fe1-4bd3-a9cb-c9d8a0d3e0ef",
+      "name": "MTL Trajet 2016",
+      "description": "Conteneur zip des shapefiles des données résultantes de l'étude 2016  \r\n\r\nIl est à noter que la structure de données a légèrement évoluée dans les versions postérieur.\r\n\r\n### Dictionnaire de données (MTL Trajet 2016)\r\n\r\nTRIP FINAL (Trajets)\r\n\r\n- `id_trip` (Numérique) : Identifiant unique du trajet\r\n- `avg_speed` (Numérique) : Vitesse moyenne sur l'ensemble du trajet (km/h)\r\n- `duration` (Numérique) : Duré totale du trajet (sec)\r\n- `mode` (Liste de valeur) : Mode de transport reporté par l'usager\r\n    * À pied\r\n    * Vélo\r\n    * Transport Collectif\r\n    * Automobile\r\n    * Automobile et transport collectif\r\n    * Autre mode\r\n    * Autre combinaison\r\n    * Annulé / pas à destination\r\n- `purpose` (Liste de valeur) : Motif du déplacement\r\n    * Éducation\r\n    * Santé\r\n    * Loisir\r\n    * Repas / collation /café\r\n    * Déposer / Ramasser\r\n    * Magasinage / Commission\r\n    * Retour à la maison\r\n    * Travail\r\n    * Réunion pour le travail\r\n- `n_coord` (Numérique) : Nombre de coordonnées GPS dans le fichier coordinates.shp via id_trip\r\n- `segments` (Texte variable) : Liste des segments originaux disponibles dans le fichier qa_segments_ref_with_count.{shp, json}.\r\n\"- `starttime` (Texte variable) : Horodatage du début du trajet \r\n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\"\r\n\"- `endtime` (Texte variable) : Horodatatge de la fin du trajet\r\n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\"\r\n- `[geometry]` (Coordonnées spatiales) : Multilinestring selon le système de référence spatial WGS84\r\n\r\nCOORDINATES (Points)\r\n\r\n- `id_coord` (Numérique) : Identifiant unique d'un point\r\n- `latitude` (Coordonnées spatiales) : Latitude du point\r\n- `longitude` (Coordonnées spatiales) : Longitude du point\r\n- `speed` (Numérique) : Vitesse détectée en mètre par seconde. (m/s)\r\n- `h_accuracy` (Numérique) : Le niveau de précision de la position horizontale de la position GPS. (m)\r\n- `v_accuracy` (Numérique) : Le niveau de précision de la position verticale de la position GPS. (m)\r\n\"- `timestamp` (Texte variable) : Horodatage d'un point (ISO8601)\r\n(AAAA-MM-JJT HH:MM:SS-TIMEZONE)\"\r\n- `id_trip` (Numérique) : Identifiant unique du trajet. Disponible dans trip_final\r\n- `geometry` (Coordonnées spatiales) : Géométrie ponctuelle selon le système de référence spatial WGS84\r\n\r\nQA_SEGMENT_WITH_COUNT (Résultats - dénombrement sur les segments)\r\n\r\n- `id` (Numérique) : Identifiant unique du segment\r\n- `id_segment` (Numérique) : Identifiant unique du segment dans le jeu de données source\r\n- `source` (Liste de valeur) : Source externe utilisée pour créer l'ensemble de données\r\n    * geobase mtl : [Réseau routier de Montréal] (https://donnees.montreal.ca/dataset/geobase)   (version du 21 décembre 2016) \r\n    * reseau cyclable: [Réseau cyclable] (https://donnees.montreal.ca/dataset/pistes-cyclables)(version du 9 décembre 2016) \r\n    * aq routes cmm clipped mtl: [Réseau routier d'Adresse Québec] (http://adressesquebec.gouv.qc.ca/aqreseauPlus.asp#) (version du 1er septembre 2015)  \r\n- `count` (Numérique) : Nombre de passages sur un segment.",
+      "format": "SHP",
+      "url": "https://depot.ville.montreal.qc.ca/mtl-trajet/MTL_Trajet_2016_SHP.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2018-08-31T16:59:19.369667",
+      "schema": null
+    },
+    {
+      "id": "0bf6de95-1ad6-4141-bb70-5cc6a58537a1",
+      "name": "MTL Trajet 2016",
+      "description": "Conteneur zip des geojson des données résultantes de l'étude 2016  \r\n\r\nIl est à noter que la structure de données a légèrement évoluée dans les versions postérieur.\r\n\r\n### Dictionnaire de données (MTL Trajet 2016)\r\n\r\nTRIP FINAL (Trajets)\r\n\r\n- `id_trip` (Numérique) : Identifiant unique du trajet\r\n- `avg_speed` (Numérique) : Vitesse moyenne sur l'ensemble du trajet (km/h)\r\n- `duration` (Numérique) : Duré totale du trajet (sec)\r\n- `mode` (Liste de valeur) : Mode de transport reporté par l'usager\r\n    * À pied\r\n    * Vélo\r\n    * Transport Collectif\r\n    * Automobile\r\n    * Automobile et transport collectif\r\n    * Autre mode\r\n    * Autre combinaison\r\n    * Annulé / pas à destination\r\n- `purpose` (Liste de valeur) : Motif du déplacement\r\n    * Éducation\r\n    * Santé\r\n    * Loisir\r\n    * Repas / collation /café\r\n    * Déposer / Ramasser\r\n    * Magasinage / Commission\r\n    * Retour à la maison\r\n    * Travail\r\n    * Réunion pour le travail\r\n- `n_coord` (Numérique) : Nombre de coordonnées GPS dans le fichier coordinates.shp via id_trip\r\n- `segments` (Texte variable) : Liste des segments originaux disponibles dans le fichier qa_segments_ref_with_count.{shp, json}.\r\n\"- `starttime` (Texte variable) : Horodatage du début du trajet \r\n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\"\r\n\"- `endtime` (Texte variable) : Horodatatge de la fin du trajet\r\n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\"\r\n- `[geometry]` (Coordonnées spatiales) : Multilinestring selon le système de référence spatial WGS84\r\n\r\nCOORDINATES (Points)\r\n\r\n- `id_coord` (Numérique) : Identifiant unique d'un point\r\n- `latitude` (Coordonnées spatiales) : Latitude du point\r\n- `longitude` (Coordonnées spatiales) : Longitude du point\r\n- `speed` (Numérique) : Vitesse détectée en mètre par seconde. (m/s)\r\n- `h_accuracy` (Numérique) : Le niveau de précision de la position horizontale de la position GPS. (m)\r\n- `v_accuracy` (Numérique) : Le niveau de précision de la position verticale de la position GPS. (m)\r\n\"- `timestamp` (Texte variable) : Horodatage d'un point (ISO8601)\r\n(AAAA-MM-JJT HH:MM:SS-TIMEZONE)\"\r\n- `id_trip` (Numérique) : Identifiant unique du trajet. Disponible dans trip_final\r\n- `geometry` (Coordonnées spatiales) : Géométrie ponctuelle selon le système de référence spatial WGS84\r\n\r\nQA_SEGMENT_WITH_COUNT (Résultats - dénombrement sur les segments)\r\n\r\n- `id` (Numérique) : Identifiant unique du segment\r\n- `id_segment` (Numérique) : Identifiant unique du segment dans le jeu de données source\r\n- `source` (Liste de valeur) : Source externe utilisée pour créer l'ensemble de données\r\n    * geobase mtl : [Réseau routier de Montréal] (https://donnees.montreal.ca/dataset/geobase)   (version du 21 décembre 2016) \r\n    * reseau cyclable: [Réseau cyclable] (https://donnees.montreal.ca/dataset/pistes-cyclables)(version du 9 décembre 2016) \r\n    * aq routes cmm clipped mtl: [Réseau routier d'Adresse Québec] (http://adressesquebec.gouv.qc.ca/aqreseauPlus.asp#) (version du 1er septembre 2015)  \r\n- `count` (Numérique) : Nombre de passages sur un segment.",
+      "format": "GEOJSON",
+      "url": "https://depot.ville.montreal.qc.ca/mtl-trajet/MTL_Trajet_2016_JSON.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2018-08-31T17:00:47.419306",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Déplacement",
+    "MTL Trajet",
+    "Piéton",
+    "SUM",
+    "Trajet",
+    "Transport",
+    "Transport en commun",
+    "Vélo"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont recueillies à l’aide de l’application mobile MTL Trajet. Cette application mobile étant disponible sur les plateformes IOS et Android pour une durée d’un mois par année permet la récolte des trajets de milliers d'utilisateurs.\n\n\nLe fonctionnement de l’application est le suivant. Premièrement, les utilisateurs sont invités à répondre à quelques questions sociodémographiques sur leurs ménages, puis à effectuer des trajets. L’application MTL Trajet utilise une intelligence artificielle pour identifier elle-même le début et la fin des trajets effectués par les utilisateurs. Une fois que l’algorithme détecte une fin de parcours, l’application envoie à l’utilisateur une notification leur demandant la raison de son déplacement ainsi que le mode de transport utilisé.\n\n\nL'ensemble représente les données recueillies des trajets effectués par les utilisateurs. Cependant, par souci de confidentialité, les données sensibles des utilisateurs ont toutes été enlevées. Le début ainsi que la fin des trajets ont aussi été traités afin d’éliminer la possibilité de retrouver le domicile ou encore le lieu de travail des usagers. L’extrémité de chaque trajet (origine et destination) est tronquée à l’intersection empruntée la plus proche. De plus, les données ont été filtrées pour l'exclusion des incohérences, des trajets complètement hors de Montréal et les coordonnées hors de la région couvrant toutes les stations de train de banlieue.\n\n\nLes données présentées ici sont alors chaque trajet effectué par les utilisateurs de MTL Trajet. Les différents trajets comprennent la position de captation de chaque point et l’heure et la date à laquelle ceux-ci ont été récoltés. Certains trajets sont discontinus car la précision des points ne permettait pas d’inférer le chemin emprunté avec confiance. \n\n### Dictionnaire de données\n\n\n\nTRIP FINAL\n\n\n- id_trip (Numérique) : Identifiant unique du trajet\n\n- mode (Liste de valeur) : Mode de transport reporté par l'usager\n\n- Transport collectif\n\n- À pied\n\n- Voiture / Moto\n\n- Vélo\n\n- Autopartage\n\n- Autre\n\n- Taxi\n\n- ND (Non disponible)\n\n\n\n- purpose (Liste de valeur) : Motif du déplacement\n\n- Éducation\n\n- Santé\n\n- Loisir\n\n- Repas / collation / café\n\n- Reconduire / aller chercher une personne\n\n- Magasinage / emplettes\n\n- Retourner à mon domicile\n\n- Travail / Rendez-vous d'affaires\n\n- Autre\n\n- ND\n\n\n\n- starttime (Texte variable) : Horodatage du début du trajet \n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\n\n- endtime (Texte variable) : Horodatatge de la fin du trajet\n(AAAA-MM-JJTHH:MM:SS-TIMEZONE)\n\n- [geometry] (Coordonnées spatiales) : Multilinestring selon le système de référence spatial WGS84\n\n\n\nCOORDINATES\n\n\n- id_coord (Numérique) : Identifiant unique d'un point\n\n- latitude (Coordonnées spatiales) : Latitude du point\n\n- longitude (Coordonnées spatiales) : Longitude du point\n\n- speed (Numérique) : Vitesse détectée en mètre par seconde. (m/s)\n\n- h_accuracy (Numérique) : Le niveau de précision de la position horizontale de la position GPS. (m)\n\n- v_accuracy (Numérique) : Le niveau de précision de la position verticale de la position GPS. (m)\n\n- timestamp (Texte variable) : Horodatage d'un point (ISO8601)\n(AAAA-MM-JJT HH:MM:SS-TIMEZONE)\n\n- id_trip (Numérique) : Identifiant unique du trajet. Disponible dans trip_final\n\n- geometry (Coordonnées spatiales) : Géométrie ponctuelle selon le système de référence spatial WGS84\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2016-10-17/2016-11-17",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Déplacement",
+      "MTL Trajet",
+      "Piéton",
+      "SUM",
+      "Trajet",
+      "Transport",
+      "Transport en commun",
+      "Vélo"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/mtl-trajet",
+    "scraped_at": "2026-03-09T20:13:52.732866+00:00"
+  }
+}

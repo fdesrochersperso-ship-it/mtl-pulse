@@ -1,0 +1,3533 @@
+{
+  "slug": "vmtl-sondage-mobilite-autonome",
+  "title": "Sondage - Expérimentation de mobilité autonome à Montréal",
+  "notes": "Cet ensemble de données présente deux sondages effectués dans le cadre des projets pilotes de navettes autonomes ayant eu lieu sur le territoire de Montréal depuis 2018 portés par la Ville ou auxquels la Ville a collaboré. \r\n\r\nLe premier a été fait l'automne 2018 auprès des utilisateurs des navettes ayant opéré au Parc Olympique et passants sur le site. La [documentation](\r\nhttps://parcolympique.qc.ca/nouvelles/2019/12/navette-electriques-autonomes-au-parc-olympique-publication-du-rapport-du-projet-pilote/) est disponible sur le site de l'organisation.\r\n\r\nLe second a été réalisé à l’automne 2019 auprès des utilisateurs du premier projet sur voies publiques à Montréal entre le Parc Olympique et le Marché Maisonneuve. \r\n\r\nEn 2021 et 2022, c’est au sein de l’arrondissement de Rosemont-La Petite-Patrie, plus précisément sur les rues Saint-Hubert et Saint-André, qu’a eu lieu un troisième projet pilote de navettes autonomes. L’INRS a publié les résultats d’une étude sur la perception des utilisateurs et des riverains : [Évaluation du projet pilote de navettes autonomes sur la Plaza Saint-Hubert (2021-2022) : Résultats sur la perception des utilisateurs et riverains (volets 2 et 3)](https://espace.inrs.ca/id/eprint/14210/).\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-11-22T19:33:42.436067",
+  "metadata_modified": "2025-02-21T17:04:34.908688",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "b3fdbfb5-4f3c-4c9e-bc1b-748b76c53ce7",
+      "name": "Sondage sur les navettes autonomes - Marché Maisonneuve (2019)",
+      "description": "Fichier au format CSV des résultats du sondage sur les navettes autonomes du Marché Maisonneuve en 2019.\r\n\r\n### Dictionnaire de données\r\n- `Id`(Numérique): Identifiant de l'ensemble\r\n- `date`(Date/Heure): Date du sondage\r\n- `evaluation_service_motivation_prise_navette ` (Texte variable) : Réponse à la question ‘ Pourquoi avez-vous pris la navette (plusieurs réponses possibles)?’\r\n- `evaluation_service_but_deplacement` (Texte variable):Réponse à la question  ‘Quel était le but de votre déplacement ?’\r\n- `evaluation_service_transport_remplace` (Liste de valeurs): Réponse à la question  ‘Comment auriez-vous fait habituellement le déplacement que vous faites aujourd'hui en l'absence de la navette autonome ?’\r\n- `evaluation_service_planification_trajet` (Booléen):Réponse à la question ‘Avez-vous planifié votre trajet à l'avance ?’ (Oui/Non)\r\n- `evaluation_service_appreciation ` (Texte variable):Réponse à la question 'Quelle est votre appréciation globale du service de cette navette autonome ?'\r\n- `evaluation_service_avantages` (Texte variable):Réponse à la question  ‘Quels sont les avantages des services de navettes autonomes selon vous ? (plusieurs réponses possibles)’\r\n- `evaluation_service_besoins_mobilite` (Texte variable):Réponse à la question ‘Pensez-vous que les navettes autonomes peuvent répondre à vos besoins de mobilité ? (si oui, lesquels)’\r\n- `evaluation_service_arrets_plus_frequents` (Texte variable):Réponse à la question ‘A quels arrêts êtes-vous monté / descendu ? '\r\n- `evaluation_service_apport` (Texte variable):Réponse à la question ‘La navette circule jusqu'à début août, cela a t-il modifié / va t-il modifier vos habitudes de mobilité dans le quartier ? (expliquer pourquoi)’\r\n- `evaluation_service_obstacles_integration` (Texte variable):Réponse à la question ‘Lesquels de ces points représentent des obstacles à l'intégration des navettes autonomes dans les rues de la ville ?’\r\n- `habitudes_transport_frequence` (Texte variable):Réponse à la question ‘À quelle fréquence utilisez-vous les transports collectifs ?’\r\n- `habitudes_transport_temps` (Texte variable):Réponse à la question ‘Combien de temps passez-vous en déplacement chaque jour en moyenne ? (au total, tout mode de transport confondu)’\r\n- `habitudes_transport_irritants` (Texte variable):Réponse à la question ‘Quels sont les facteurs qui font que vous ne prenez pas ou pas plus les transports collectifs ? (plusieurs réponses possibles)’\r\n- `relation_navette_premiere_experience` (Booléen):Réponse à la question ‘Êtes-vous déjà monté à bord d'une navette autonome ? (autre que celle-ci)’ (Oui/Non)\r\n- `relation_navette_confort_autonomie ` (Liste de valeurs):Réponse à la question ‘Quel est votre niveau de confort par rapport au fait qu'il n'y a pas de conducteur dans une navette autonome?’.( Echelle entre 1 et 5).\r\n- `relation_navette_confiance_technologie` (Liste de valeurs):Réponse à la question ‘Avez-vous confiance dans les technologies qui assurent le déplacement et la sécurité de la navette autonome (quand vous étiez à bord)?’.( Echelle entre 1 et 5).\r\n- `relation_navette_confort_absence_operateur` (Texte variable):Réponse à la question ‘À terme les navettes circuleront sans opérateur à bord, qu'en pensez-vous ? (plusieurs réponses possibles)'\r\n- `relation_navette_confort_controleur_a_distance` (Liste de valeurs):Réponse à la question ‘Pensez-vous que la possibilité de communiquer avec et voir un contrôleur à distance sur un écran résoudrait ces problèmes ?’.(Oui, Non, Peut être).\r\n- `relation_navette_pieton ` (Liste de valeurs):Réponse à la question ‘Si cette navette était en service dans la rue à plus grande vitesse, seriez-vous confortable en tant que piéton à proximité de la navette ?’. (Echelle entre 1 et  5)\r\n- `relation_navette_cycliste` (Liste de valeurs):Réponse à la question 'Si cette navette était en service dans la rue à plus grande vitesse, seriez-vous confortable en tant que cycliste à proximité de la navette ?'. (Echelle entre 1 et 5)\r\n- `relation_navette_voiture ` (Liste de valeurs):Réponse à la question ‘Si cette navette était en service dans la rue à plus grande vitesse, seriez-vous confortable de circuler dans votre voiture à proximité de la navette ?’. (Echelle entre 1 et 5)\r\n- `relation_navette_perception` (Liste de valeurs):Réponse à la question ‘Comment les navettes autonomes modifient votre perception du transport collectif ?’\r\n- `classement_groupe_age `(Liste de valeurs):Groupe d'age du répondant.\r\n- `classement_genre `(Liste de valeurs):Genre du répondant.\r\n- `classement_niveau_etude`(Texte variable):Niveau d'étude du répondant.\r\n- `classement_mobilite_reduite`(Booléen):Identification des personnes à mobilité réduite.(Oui/Non)\r\n- `classement_statut_emploi`(Texte variable):Statut d'emploi du répondant.\r\n- `commentaire `(Texte variable):Commentaires.\r\n\r\n\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/b3fdbfb5-4f3c-4c9e-bc1b-748b76c53ce7/download/sondage-navettes-autonomes-marche-maisonneuve.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-12-09T20:34:50.401171",
+      "created": "2019-11-27T03:59:57.480124",
+      "schema": {
+        "resource_id": "b3fdbfb5-4f3c-4c9e-bc1b-748b76c53ce7",
+        "total_records": 151,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_motivation_prise_navette",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_but_deplacement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_transport_remplace",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_planification_trajet",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_appreciation",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_avantages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_besoins_mobilite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_arrets_plus_frequents",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_apport",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "evaluation_service_obstacles_integration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "habitudes_transport_frequence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "habitudes_transport_temps",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "habitudes_transport_irritants",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_premiere_experience",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confort_autonomie",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confiance_technologie",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confort_absence_operateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confort_controleur_a_distance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_pieton",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_cycliste",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_voiture",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_perception",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_groupe_age",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_genre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_niveau_etude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_mobilite_reduite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_statut_emploi",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "commentaire",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id": 1,
+            "date": "2019-07-11T14:19:54",
+            "evaluation_service_motivation_prise_navette": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple)",
+            "evaluation_service_but_deplacement": "Loisir / promenade",
+            "evaluation_service_transport_remplace": "À pied",
+            "evaluation_service_planification_trajet": "Non",
+            "evaluation_service_appreciation": 4,
+            "evaluation_service_avantages": "Accroitre la fréquence des transports collectifs, Déployer des lignes dans les milieux faiblement denses, Augmenter la mobilité de quartier, Augmenter la mobilité des personnes à mob réduite, Favoriser un mode de transport non-polluant",
+            "evaluation_service_besoins_mobilite": "Oui, lesquels, Personne âgée",
+            "evaluation_service_arrets_plus_frequents": "Stade Olympique",
+            "evaluation_service_apport": "Non",
+            "evaluation_service_obstacles_integration": "Fiabilité de la technologie",
+            "habitudes_transport_frequence": "Tous les jours ou presque",
+            "habitudes_transport_temps": "30 min - 1h",
+            "habitudes_transport_irritants": "Fiabilité (panne, accident, non présentation du bus ...)",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 4,
+            "relation_navette_confort_absence_operateur": "Aucun problème",
+            "relation_navette_confort_controleur_a_distance": "Oui",
+            "relation_navette_pieton": 3,
+            "relation_navette_cycliste": 3,
+            "relation_navette_voiture": 4,
+            "relation_navette_perception": "de manière très positive",
+            "classement_groupe_age": "51 à 64 ans",
+            "classement_genre": "Homme",
+            "classement_niveau_etude": "Diplôme d'études secondaires",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Retraité",
+            "commentaire": ""
+          },
+          {
+            "_id": 2,
+            "Id": 2,
+            "date": "2019-07-11T14:24:45",
+            "evaluation_service_motivation_prise_navette": "Pour l'expérience de monter dans une navette autonome, pour tester",
+            "evaluation_service_but_deplacement": "Loisir / promenade",
+            "evaluation_service_transport_remplace": "À pied",
+            "evaluation_service_planification_trajet": "Non",
+            "evaluation_service_appreciation": 4,
+            "evaluation_service_avantages": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses",
+            "evaluation_service_besoins_mobilite": "Oui, lesquels",
+            "evaluation_service_arrets_plus_frequents": "Stade Olympique",
+            "evaluation_service_apport": "Non",
+            "evaluation_service_obstacles_integration": "Fiabilité de la technologie",
+            "habitudes_transport_frequence": "Tous les jours ou presque",
+            "habitudes_transport_temps": "1h - 1h30",
+            "habitudes_transport_irritants": "Fréquence, Confort, Achalandage, Distance au transport collectif le plus proche",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 4,
+            "relation_navette_confiance_technologie": 4,
+            "relation_navette_confort_absence_operateur": "Aucun problème",
+            "relation_navette_confort_controleur_a_distance": "Oui",
+            "relation_navette_pieton": 3,
+            "relation_navette_cycliste": 3,
+            "relation_navette_voiture": 3,
+            "relation_navette_perception": "de manière plutôt positive",
+            "classement_groupe_age": "35 à 50 ans",
+            "classement_genre": "Femme",
+            "classement_niveau_etude": "Diplôme d'études collégiales",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Travailleur à temps plein",
+            "commentaire": "En banlieue ce serait pratique"
+          },
+          {
+            "_id": 3,
+            "Id": 3,
+            "date": "2019-07-11T14:31:08",
+            "evaluation_service_motivation_prise_navette": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus confortable (climatisation, place assise ..)",
+            "evaluation_service_but_deplacement": "Loisir / promenade",
+            "evaluation_service_transport_remplace": "À pied",
+            "evaluation_service_planification_trajet": "Non",
+            "evaluation_service_appreciation": 4,
+            "evaluation_service_avantages": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service",
+            "evaluation_service_besoins_mobilite": "Oui, lesquels, Personne âgée",
+            "evaluation_service_arrets_plus_frequents": "Stade Olympique",
+            "evaluation_service_apport": "Oui",
+            "evaluation_service_obstacles_integration": "Fiabilité de la technologie, Peur des autres voitures",
+            "habitudes_transport_frequence": "Tous les jours ou presque",
+            "habitudes_transport_temps": "30 min - 1h",
+            "habitudes_transport_irritants": "Confort, Distance à pied totale sur le trajet",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 3,
+            "relation_navette_confiance_technologie": 3,
+            "relation_navette_confort_absence_operateur": "Aucun problème",
+            "relation_navette_confort_controleur_a_distance": "Oui",
+            "relation_navette_pieton": 3,
+            "relation_navette_cycliste": 3,
+            "relation_navette_voiture": 3,
+            "relation_navette_perception": "de manière très positive",
+            "classement_groupe_age": "51 à 64 ans",
+            "classement_genre": "Femme",
+            "classement_niveau_etude": "Diplôme d'études collégiales",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Retraité",
+            "commentaire": ""
+          },
+          {
+            "_id": 4,
+            "Id": 4,
+            "date": "2019-07-11T14:47:07",
+            "evaluation_service_motivation_prise_navette": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple), Plus confortable (climatisation, place assise ..), Pour encourager le transport collectif et écologique",
+            "evaluation_service_but_deplacement": "Loisir / promenade",
+            "evaluation_service_transport_remplace": "À vélo",
+            "evaluation_service_planification_trajet": "Oui",
+            "evaluation_service_appreciation": 5,
+            "evaluation_service_avantages": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses, Accroitre la sécurité vis à vis des cyclistes et des piétons, Quand tout sera autonome",
+            "evaluation_service_besoins_mobilite": "Oui, lesquels, Personne âgée",
+            "evaluation_service_arrets_plus_frequents": "Marché Maisonneuve",
+            "evaluation_service_apport": "Pas régulièrement plus circuit plus étendu",
+            "evaluation_service_obstacles_integration": "Sécurité des passagers de la navette, Cybersécurité - (attaque à distance des systèmes de contrôle de la navette), Collecte des données personnelles, Sécurité face aux autres passagers",
+            "habitudes_transport_frequence": "Quelques fois par semaine",
+            "habitudes_transport_temps": "0 - 30 min",
+            "habitudes_transport_irritants": "",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 5,
+            "relation_navette_confort_absence_operateur": "Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transport, respect des règles à bord ..) ?",
+            "relation_navette_confort_controleur_a_distance": "Oui",
+            "relation_navette_pieton": 4,
+            "relation_navette_cycliste": 4,
+            "relation_navette_voiture": 4,
+            "relation_navette_perception": "de manière plutôt positive",
+            "classement_groupe_age": "35 à 50 ans",
+            "classement_genre": "Homme",
+            "classement_niveau_etude": "Diplôme d'études secondaires",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Travailleur à temps plein",
+            "commentaire": ""
+          },
+          {
+            "_id": 5,
+            "Id": 5,
+            "date": "2019-07-11T15:12:04",
+            "evaluation_service_motivation_prise_navette": "Pour l'expérience de monter dans une navette autonome, pour tester",
+            "evaluation_service_but_deplacement": "",
+            "evaluation_service_transport_remplace": "À pied",
+            "evaluation_service_planification_trajet": "Oui",
+            "evaluation_service_appreciation": null,
+            "evaluation_service_avantages": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Accroitre la sécurité vis à vis des cyclistes et des piétons, Favoriser un mode de transport non-polluant",
+            "evaluation_service_besoins_mobilite": "Oui, lesquels",
+            "evaluation_service_arrets_plus_frequents": "Marché Maisonneuve",
+            "evaluation_service_apport": "Oui",
+            "evaluation_service_obstacles_integration": "Collecte des données personnelles, Absence de conducteur, Fiabilité de la technologie",
+            "habitudes_transport_frequence": "Tous les jours ou presque",
+            "habitudes_transport_temps": "30 min - 1h",
+            "habitudes_transport_irritants": "",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 5,
+            "relation_navette_confort_absence_operateur": "Aucun problème",
+            "relation_navette_confort_controleur_a_distance": "Oui",
+            "relation_navette_pieton": 3,
+            "relation_navette_cycliste": 3,
+            "relation_navette_voiture": 3,
+            "relation_navette_perception": "de manière très positive",
+            "classement_groupe_age": "18 à 34 ans",
+            "classement_genre": "Ne souhaite pas répondre",
+            "classement_niveau_etude": "Diplôme d'études collégiales",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Étudiant",
+            "commentaire": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_motivation_prise_navette": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_but_deplacement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_transport_remplace": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_planification_trajet": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_appreciation": {
+          "null_count": 3,
+          "null_pct": 2.0,
+          "populated_pct": 98.0
+        },
+        "evaluation_service_avantages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_besoins_mobilite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_arrets_plus_frequents": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_apport": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "evaluation_service_obstacles_integration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "habitudes_transport_frequence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "habitudes_transport_temps": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "habitudes_transport_irritants": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_premiere_experience": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_confort_autonomie": {
+          "null_count": 5,
+          "null_pct": 3.3,
+          "populated_pct": 96.7
+        },
+        "relation_navette_confiance_technologie": {
+          "null_count": 1,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "relation_navette_confort_absence_operateur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_confort_controleur_a_distance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_pieton": {
+          "null_count": 5,
+          "null_pct": 3.3,
+          "populated_pct": 96.7
+        },
+        "relation_navette_cycliste": {
+          "null_count": 2,
+          "null_pct": 1.3,
+          "populated_pct": 98.7
+        },
+        "relation_navette_voiture": {
+          "null_count": 2,
+          "null_pct": 1.3,
+          "populated_pct": 98.7
+        },
+        "relation_navette_perception": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "classement_groupe_age": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "classement_genre": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "classement_niveau_etude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "classement_mobilite_reduite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "classement_statut_emploi": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "commentaire": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 151,
+        "total_records": 151,
+        "audited_at": "2026-03-10T00:27:24.646972+00:00",
+        "fields": {
+          "Id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 151.0,
+            "mean": 76.0,
+            "median": 76.0,
+            "unique_count": 151,
+            "field_type_detected": "numeric"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-07-11T14:19:54",
+            "max_date": "2019-07-31T16:38:33",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "evaluation_service_motivation_prise_navette": {
+            "null_count": 1,
+            "null_pct": 0.7,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester",
+                "count": 68
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus confortable (climatisation, place assise ..), Pour encourager le transport collectif et écologique",
+                "count": 26
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Pour encourager le transport collectif et écologique",
+                "count": 20
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus confortable (climatisation, place assise ..)",
+                "count": 12
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple)",
+                "count": 6
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple), Plus confortable (climatisation, place assise ..), Pour encourager le transport collectif et écologique",
+                "count": 5
+              },
+              {
+                "value": "Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple)",
+                "count": 4
+              },
+              {
+                "value": "Plus confortable (climatisation, place assise ..)",
+                "count": 3
+              },
+              {
+                "value": "Pour l'expérience de monter dans une navette autonome, pour tester, Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple), Plus confortable (climatisation, place assise ..)",
+                "count": 2
+              },
+              {
+                "value": "Plus pratique ou plus rapide (que de marcher ou de prendre ma voiture par exemple), Plus confortable (climatisation, place assise ..), Pour encourager le transport collectif et écologique",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_but_deplacement": {
+            "null_count": 3,
+            "null_pct": 2.0,
+            "unique_count": 9,
+            "top_values": [
+              {
+                "value": "Loisir / promenade",
+                "count": 105
+              },
+              {
+                "value": "Magasiner",
+                "count": 15
+              },
+              {
+                "value": "Aller travailler",
+                "count": 11
+              },
+              {
+                "value": "Rejoindre un autre transport en commun",
+                "count": 7
+              },
+              {
+                "value": "Retour à la maisom",
+                "count": 4
+              },
+              {
+                "value": "Accompagner un proche (école, activité, parent ...)",
+                "count": 2
+              },
+              {
+                "value": "Rejoindre un autre transport en commun, Magasiner",
+                "count": 2
+              },
+              {
+                "value": "Loisir / promenade, Valider la capacité pour personnes handicapées",
+                "count": 1
+              },
+              {
+                "value": "Loisir / promenade, Accompagner un proche (école, activité, parent ...)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_transport_remplace": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "À pied",
+                "count": 100
+              },
+              {
+                "value": "Je n'aurais pas fait ce déplacement",
+                "count": 34
+              },
+              {
+                "value": "À vélo",
+                "count": 7
+              },
+              {
+                "value": "En transport collectif",
+                "count": 7
+              },
+              {
+                "value": "En voiture",
+                "count": 2
+              },
+              {
+                "value": "En fauteuil roulant",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_planification_trajet": {
+            "null_count": 10,
+            "null_pct": 6.6,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 77
+              },
+              {
+                "value": "Oui",
+                "count": 64
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_appreciation": {
+            "null_count": 3,
+            "null_pct": 2.0,
+            "min": 2.0,
+            "max": 5.0,
+            "mean": 4.4392,
+            "median": 5.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 78
+              },
+              {
+                "value": "4",
+                "count": 58
+              },
+              {
+                "value": "3",
+                "count": 11
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "evaluation_service_avantages": {
+            "null_count": 2,
+            "null_pct": 1.3,
+            "unique_count": 85,
+            "top_values": [
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses, Accroitre la sécurité vis à vis des cyclistes et des piétons, Réduire les accidents de la route, Faciliter l'accès a",
+                "count": 26
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses, Augmenter la mobilité des personnes à mob réduite, Favoriser un mode de transport non-polluant",
+                "count": 6
+              },
+              {
+                "value": "Augmenter la mobilité de quartier",
+                "count": 5
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Déployer des lignes dans les milieux faiblement denses, Augmenter la mobilité de quartier",
+                "count": 3
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Déployer des lignes dans les milieux faiblement denses, Augmenter la mobilité de quartier, Favoriser un mode de transport non-polluant",
+                "count": 3
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Augmenter la mobilité de quartier, Augmenter la mobilité des personnes à mob réduite",
+                "count": 3
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Accroitre la sécurité vis à vis des cyclistes et des piétons, Augmenter la mobilité des personnes à mob réduite",
+                "count": 3
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses, Augmenter la mobilité de quartier, Favoriser un mode de transport non-polluant",
+                "count": 2
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Déployer des lignes dans les milieux faiblement denses, Faciliter l'accès au réseau de bus ou de métro, Augmenter la mobilité de quartier, Augmenter la mobilité des personn",
+                "count": 2
+              },
+              {
+                "value": "Accroitre la fréquence des transports collectifs, Étendre les horaires de service, Faciliter l'accès au réseau de bus ou de métro",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "evaluation_service_besoins_mobilite": {
+            "null_count": 7,
+            "null_pct": 4.6,
+            "unique_count": 29,
+            "top_values": [
+              {
+                "value": "Oui, lesquels",
+                "count": 70
+              },
+              {
+                "value": "Non",
+                "count": 30
+              },
+              {
+                "value": "Oui, lesquels, Dernier kilomètre",
+                "count": 8
+              },
+              {
+                "value": "Oui, lesquels, Personne âgée",
+                "count": 5
+              },
+              {
+                "value": "Oui, lesquels, Magasinage",
+                "count": 3
+              },
+              {
+                "value": "Oui, lesquels, Courses",
+                "count": 3
+              },
+              {
+                "value": "Oui, lesquels, Non",
+                "count": 2
+              },
+              {
+                "value": "Oui, lesquels, Plus de service",
+                "count": 2
+              },
+              {
+                "value": "Oui, lesquels, Parcours plus longs",
+                "count": 1
+              },
+              {
+                "value": "Oui, lesquels, Faire le tour du stade",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "evaluation_service_arrets_plus_frequents": {
+            "null_count": 3,
+            "null_pct": 2.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Marché Maisonneuve",
+                "count": 38
+              },
+              {
+                "value": "Biodôme, Marché Maisonneuve",
+                "count": 27
+              },
+              {
+                "value": "Stade Olympique, Marché Maisonneuve",
+                "count": 27
+              },
+              {
+                "value": "Stade Olympique",
+                "count": 20
+              },
+              {
+                "value": "Stade Olympique, De Rouen Ouest / Est",
+                "count": 7
+              },
+              {
+                "value": "De Rouen Ouest / Est, Marché Maisonneuve",
+                "count": 7
+              },
+              {
+                "value": "De Rouen Ouest / Est",
+                "count": 5
+              },
+              {
+                "value": "Biodôme",
+                "count": 5
+              },
+              {
+                "value": "Biodôme, De Rouen Ouest / Est",
+                "count": 3
+              },
+              {
+                "value": "Hochelaga Ouest / Est",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_apport": {
+            "null_count": 12,
+            "null_pct": 7.9,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 103
+              },
+              {
+                "value": "Non",
+                "count": 22
+              },
+              {
+                "value": "Peut-être",
+                "count": 4
+              },
+              {
+                "value": "Pas régulièrement plus circuit plus étendu",
+                "count": 1
+              },
+              {
+                "value": "Non, Trop lent",
+                "count": 1
+              },
+              {
+                "value": "Pas assez rapide",
+                "count": 1
+              },
+              {
+                "value": "Oui, Courses",
+                "count": 1
+              },
+              {
+                "value": "Oui, Loisirs",
+                "count": 1
+              },
+              {
+                "value": "Oui, Pour bus",
+                "count": 1
+              },
+              {
+                "value": "Non, Oui",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "evaluation_service_obstacles_integration": {
+            "null_count": 39,
+            "null_pct": 25.8,
+            "unique_count": 62,
+            "top_values": [
+              {
+                "value": "Fiabilité de la technologie",
+                "count": 8
+              },
+              {
+                "value": "Absence de conducteur",
+                "count": 8
+              },
+              {
+                "value": "Entrave à la circulation des voitures, Entrave à la circulation des cyclistes",
+                "count": 6
+              },
+              {
+                "value": "Les autres",
+                "count": 6
+              },
+              {
+                "value": "Sécurité des passagers de la navette, Cybersécurité - (attaque à distance des systèmes de contrôle de la navette)",
+                "count": 4
+              },
+              {
+                "value": "Sécurité des passagers de la navette, Fiabilité de la technologie",
+                "count": 4
+              },
+              {
+                "value": "Coûts d'exploitation",
+                "count": 4
+              },
+              {
+                "value": "Cybersécurité - (attaque à distance des systèmes de contrôle de la navette)",
+                "count": 4
+              },
+              {
+                "value": "Sécurité des passagers de la navette, Absence de conducteur, Fiabilité de la technologie",
+                "count": 3
+              },
+              {
+                "value": "Entrave à la circulation des cyclistes",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "habitudes_transport_frequence": {
+            "null_count": 7,
+            "null_pct": 4.6,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Tous les jours ou presque",
+                "count": 66
+              },
+              {
+                "value": "Quelques fois par semaine",
+                "count": 39
+              },
+              {
+                "value": "Quelques fois par mois",
+                "count": 14
+              },
+              {
+                "value": "Quelques fois par année",
+                "count": 13
+              },
+              {
+                "value": "Jamais",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "habitudes_transport_temps": {
+            "null_count": 6,
+            "null_pct": 4.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "30 min - 1h",
+                "count": 53
+              },
+              {
+                "value": "0 - 30 min",
+                "count": 35
+              },
+              {
+                "value": "plus de 2h",
+                "count": 23
+              },
+              {
+                "value": "1h - 1h30",
+                "count": 22
+              },
+              {
+                "value": "1h30 - 2h",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "habitudes_transport_irritants": {
+            "null_count": 26,
+            "null_pct": 17.2,
+            "unique_count": 77,
+            "top_values": [
+              {
+                "value": "Infrastructures non adaptées à certaines situations (poussette, fauteuil roulant ...)",
+                "count": 7
+              },
+              {
+                "value": "Achalandage",
+                "count": 6
+              },
+              {
+                "value": "Confort, Achalandage, Fiabilité (panne, accident, non présentation du bus ...)",
+                "count": 5
+              },
+              {
+                "value": "Fréquence, Fiabilité (panne, accident, non présentation du bus ...)",
+                "count": 5
+              },
+              {
+                "value": "Fiabilité (panne, accident, non présentation du bus ...)",
+                "count": 3
+              },
+              {
+                "value": "Achalandage, Infrastructures non adaptées à certaines situations (poussette, fauteuil roulant ...)",
+                "count": 3
+              },
+              {
+                "value": "Fréquence, Infrastructures non adaptées à certaines situations (poussette, fauteuil roulant ...)",
+                "count": 3
+              },
+              {
+                "value": "Achalandage, Fiabilité (panne, accident, non présentation du bus ...)",
+                "count": 3
+              },
+              {
+                "value": "Fréquence, Confort, Achalandage",
+                "count": 3
+              },
+              {
+                "value": "Fréquence, Temps de trajet",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "relation_navette_premiere_experience": {
+            "null_count": 2,
+            "null_pct": 1.3,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 106
+              },
+              {
+                "value": "Oui",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_confort_autonomie": {
+            "null_count": 5,
+            "null_pct": 3.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.1575,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 75
+              },
+              {
+                "value": "4",
+                "count": 36
+              },
+              {
+                "value": "3",
+                "count": 23
+              },
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "1",
+                "count": 5
+              }
+            ]
+          },
+          "relation_navette_confiance_technologie": {
+            "null_count": 1,
+            "null_pct": 0.7,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.24,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 70
+              },
+              {
+                "value": "4",
+                "count": 54
+              },
+              {
+                "value": "3",
+                "count": 20
+              },
+              {
+                "value": "2",
+                "count": 4
+              },
+              {
+                "value": "1",
+                "count": 2
+              }
+            ]
+          },
+          "relation_navette_confort_absence_operateur": {
+            "null_count": 9,
+            "null_pct": 6.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "Aucun problème",
+                "count": 51
+              },
+              {
+                "value": "Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..), Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transport, respect des règles à bord ..) ?",
+                "count": 22
+              },
+              {
+                "value": "Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..)",
+                "count": 14
+              },
+              {
+                "value": "J'aurai peur, Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..), Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transport, respect des règles à bord",
+                "count": 8
+              },
+              {
+                "value": "Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transport, respect des règles à bord ..) ?",
+                "count": 7
+              },
+              {
+                "value": "J'aurai peur",
+                "count": 7
+              },
+              {
+                "value": "Aucun problème, Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transport, respect des règles à bord ..) ?",
+                "count": 5
+              },
+              {
+                "value": "Aucun problème, Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..)",
+                "count": 5
+              },
+              {
+                "value": "Je me demande qui va répondre aux questions, Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..)",
+                "count": 4
+              },
+              {
+                "value": "Je me demande qui va répondre aux questions, Je me demande comment sera gérée une situation d'urgence (dysfonctionnement de la navette, malaise à bord ..), Je me demande qui assurera la sécurité et le civisme à bord (calme, validation des titres de transp",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_confort_controleur_a_distance": {
+            "null_count": 6,
+            "null_pct": 4.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 109
+              },
+              {
+                "value": "Peut-être",
+                "count": 25
+              },
+              {
+                "value": "Non",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_pieton": {
+            "null_count": 5,
+            "null_pct": 3.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.2603,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 81
+              },
+              {
+                "value": "4",
+                "count": 31
+              },
+              {
+                "value": "3",
+                "count": 26
+              },
+              {
+                "value": "2",
+                "count": 7
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "relation_navette_cycliste": {
+            "null_count": 2,
+            "null_pct": 1.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.2617,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 80
+              },
+              {
+                "value": "4",
+                "count": 35
+              },
+              {
+                "value": "3",
+                "count": 28
+              },
+              {
+                "value": "2",
+                "count": 5
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "relation_navette_voiture": {
+            "null_count": 2,
+            "null_pct": 1.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.1678,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 79
+              },
+              {
+                "value": "4",
+                "count": 33
+              },
+              {
+                "value": "3",
+                "count": 26
+              },
+              {
+                "value": "1",
+                "count": 6
+              },
+              {
+                "value": "2",
+                "count": 5
+              }
+            ]
+          },
+          "relation_navette_perception": {
+            "null_count": 8,
+            "null_pct": 5.3,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "de manière très positive",
+                "count": 81
+              },
+              {
+                "value": "de manière plutôt positive",
+                "count": 47
+              },
+              {
+                "value": "Neutre (cela ne change pas ma perception)",
+                "count": 14
+              },
+              {
+                "value": "de manière plutôt négative",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_groupe_age": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "35 à 50 ans",
+                "count": 53
+              },
+              {
+                "value": "18 à 34 ans",
+                "count": 37
+              },
+              {
+                "value": "51 à 64 ans",
+                "count": 32
+              },
+              {
+                "value": "65 à 74 ans",
+                "count": 19
+              },
+              {
+                "value": "Ne souhaite pas répondre",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_genre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Femme",
+                "count": 82
+              },
+              {
+                "value": "Homme",
+                "count": 59
+              },
+              {
+                "value": "Ne souhaite pas répondre",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_niveau_etude": {
+            "null_count": 5,
+            "null_pct": 3.3,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Diplôme universitaire",
+                "count": 69
+              },
+              {
+                "value": "Diplôme d'études collégiales",
+                "count": 34
+              },
+              {
+                "value": "Diplôme d'études secondaires",
+                "count": 25
+              },
+              {
+                "value": "Ne souhaite pas répondre",
+                "count": 16
+              },
+              {
+                "value": "Aucun diplôme",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_mobilite_reduite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 132
+              },
+              {
+                "value": "Ne souhaite pas répondre",
+                "count": 10
+              },
+              {
+                "value": "Oui",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_statut_emploi": {
+            "null_count": 3,
+            "null_pct": 2.0,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Travailleur à temps plein",
+                "count": 60
+              },
+              {
+                "value": "Retraité",
+                "count": 32
+              },
+              {
+                "value": "Étudiant",
+                "count": 15
+              },
+              {
+                "value": "Ne souhaite pas répondre",
+                "count": 15
+              },
+              {
+                "value": "Travailleur à temps partiel",
+                "count": 13
+              },
+              {
+                "value": "Autre",
+                "count": 4
+              },
+              {
+                "value": "Étudiant, Travailleur à temps partiel",
+                "count": 3
+              },
+              {
+                "value": "Travailleur à temps plein, Ne souhaite pas répondre",
+                "count": 2
+              },
+              {
+                "value": "Étudiant, Travailleur à temps plein",
+                "count": 1
+              },
+              {
+                "value": "Travailleur à temps plein, Autre",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "commentaire": {
+            "null_count": 102,
+            "null_pct": 67.5,
+            "unique_count": 48,
+            "top_values": [
+              {
+                "value": "Offrir du service adapté pas seulement sur demande",
+                "count": 2
+              },
+              {
+                "value": "En banlieue ce serait pratique",
+                "count": 1
+              },
+              {
+                "value": "Abris bus avec sieges",
+                "count": 1
+              },
+              {
+                "value": "Très bon service",
+                "count": 1
+              },
+              {
+                "value": "Arret mal indiqué",
+                "count": 1
+              },
+              {
+                "value": "Septique sur l intégration dans le reseau",
+                "count": 1
+              },
+              {
+                "value": "Dans les festivals",
+                "count": 1
+              },
+              {
+                "value": "Continuez il doit y en avoir plus",
+                "count": 1
+              },
+              {
+                "value": "Plus de projets pilotes et pour le tourisme",
+                "count": 1
+              },
+              {
+                "value": "Meilleur encadrement du trajet pour les autos piétons et cyclistes",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "aaf1dd78-3c73-4338-95c6-c783d00ea13a",
+      "name": "Bilan du sondage - Marché Maisonneuve (2019)",
+      "description": "Fichier au format PDF présentant la synthèse des données récoltées lors du sondage réalisé par Jalon  lors de l’expérimentation des navettes autonomes \r\nau Marché Maisonneuve",
+      "format": "PDF",
+      "url": "https://laburbain.montreal.ca/sites/villeintelligente.montreal.ca/files/jalon_projet_navette_autonome_mm_juin-aout2019_rapportjalon.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2019-11-22T19:53:52.286508",
+      "schema": null
+    },
+    {
+      "id": "a8315937-4e51-4f86-aeab-6b219dd27cef",
+      "name": "Sondage sur les navettes autonomes - Parc Olympique (2018)",
+      "description": "Fichier au format CSV des résultats du sondage sur les navettes autonomes du Parc Olympique en 2018.\r\n\r\n### Dictionnaire de données\r\n- `Id`(Numérique): Identifiant de l'ensemble\r\n- `date`(Date): Date du sondage\r\n- `provenance `(Liste de valeurs): Courriel ou présence\r\n- `relation_navette_connaissance` (Booléen): Réponse à la question ‘Avez-vous déjà entendu parler des navettes autonomes?’. (Oui/Non)\r\n- `relation_navette_premiere_experience`(Booléen): Réponse à la question ‘Êtes-vous déjà monté à bord d'une navette autonome?’. (Oui/Non)\r\n- `relation_navette_confort_autonomie `(Liste de valeur): Réponse à la question ‘Quel est votre niveau de confort par rapport au fait que personne ne contrôle le volant dans une navette autonome?’.(Echelle entre 1 et 5)\r\n- `relation_navette_confiance_technologie`(Liste de valeur): Réponse à la question ‘Avez-vous confiance dans les technologies à bord des navettes autonomes?’ .(Echelle entre 1 et 5)\r\n- `relation_avec _technologie` (Texte variable): Réponse à la question ‘Quelle est votre relation avec les technologies?’\r\n- `relation_navette_meilleur_usage` (Texte variable): Réponse à la question ‘Quel serait le meilleur contexte, selon vous, pour intégrer ce type de véhicule dans l'offre de transport?’\r\n- `relation_navette_avantages`  (Texte variable): Réponse à la question ‘Quels avantages de la navette autonome sont les plus attirants pour vous?’\r\n- `relation_navette_barrieres_utilisation` (Texte variable): Réponse à la question ‘Lesquels de ces points représentent des barrières à l'utilisation de navettes autonomes dans les rues de la ville ?’\r\n- `relation_navette_integration_rue `(Liste de valeurs): Réponse à la question ‘Êtes-vous en faveur de l'intégration des navettes autonomes dans les rues de la ville?’.( Oui/Non/Pas convaincu)\r\n- `relation_navette_integration_transport ` (Liste de valeurs): Réponse à la question 'Croyez-vous que ce type de véhicule devrait faire partie de l'offre de service en transport en commun?. (Oui/Non/Peut être)\r\n- `relation_navette_voiture` (Liste de valeurs): Réponse à la question ‘Si une navette était en service dans la rue, seriez-vous confortable de circuler à côté de la manière suivante ? [Au volant de votre voiture]’. (Très confortable/Confortable/Neutre)\r\n- `relation_navette_cycliste` (Liste de valeurs): Réponse à la question ‘Si une navette était en service dans la rue, seriez-vous confortable de circuler à côté de la manière suivante ? [En vélo].( Très confortable/Confortable/Neutre)\r\n- `relation_navette_pieton` (Liste de valeurs): Réponse à la question ‘Si une navette était en service dans la rue, seriez-vous confortable de circuler à côté de la manière suivante ? [À pied sur le trottoir]’. (Très confortable/Confortable/Neutre)\r\n- `navette_parc_olympique_connaissance` (Booléen): Réponse à la question ‘Êtes-vous au courant qu'il y a une navette électrique autonome au Parc Olympique?’.(Oui/Non)\r\n- `navette_parc_olympique_essaie` (Booléen): Réponse à la question ‘Avez-vous eu l’occasion d’essayer les navettes électriques autonome qui circule sur le site du Parc Olympique?’\r\n- `navette_parc_olympique_non_essaie` (Texte variable): Réponse à la question ’Si non, pourquoi?’\r\n- `navette_parc_olympique_evaluation_experience`  (Liste de valeurs) : Réponse à la question ‘Sur une échelle de 1 à 5 comment qualifieriez-vous votre expérience à bord du véhicule autonome?’. \r\n- `navette_parc_olympique_confort_autonomie` (Liste de valeurs): Réponse à la question ‘Quel a été votre niveau de confort par rapport au fait que personne ne contrôle le volant dans une navette autonome?’.(Echelle entre 1 et 5)\r\n- `navette_parc_olympique_securite_en_mouvement`  (Liste de valeurs): Réponse à la question ‘Vous êtes-vous senti en sécurité à bord du véhicule pendant qu'il roulait?’.( Oui/Non/Oui mais je n'aurais pas aimé que la navette circule plus rapidement)\r\n- `navette_parc_olympique_sentiment_sans_controleur` (Liste de valeurs): Réponse à la question  ‘Votre sentiment de sécurité aurait-il été différent s'il n'y avait pas eu d'opérateur à bord du véhicule?’\r\n- `navette_parc_olympique_comparaison_autre_transport` (Liste de valeurs):Réponse à la question ‘Comment se compare le confort de la navette avec un moyen de transport collectif habituel’.( Echelle entre 1 et 5)\r\n- `navette_parc_olympique_integration` (Booléen): Réponse à la question ‘Croyez-vous que ce type de véhicule devrait faire partie de l'offre de service en transport en commun?’.(Oui/Non)\r\n- `navette_parc_olympique_evaluation_trajet`(Liste de valeurs) : Réponse à la question  ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants ?[Trajet]’.\r\n- `navette_parc_olympique_evaluation_confort ` (Liste de valeurs): Réponse à la question ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants? [Confort]’\r\n- `navette_parc_olympique_evaluation_vitesse` (Liste de valeurs): Réponse à la question ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants? [Vitesse]’\r\n- `navette_parc_olympique_evaluation_emplacement_arrets ` (Liste de valeurs): Réponse à la question  ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants ?[Emplacements des arrêts]’\r\n- `navette_parc_olympique_evaluation_nbre_arrets`  (Liste de valeurs): Réponse à la question ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants? [Nombre d'arrêts]’\r\n- `navette_parc_olympique_evaluation_cortoisie_operateur`  (Liste de valeurs): Réponse à la question ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants? [Courtoisie de l'opérateur]’\r\n- `navette_parc_olympique_evaluation_horaire`  (Liste de valeurs):Réponse à la question ‘Sur une échelle de 1 à 5, comment évaluez-vous les éléments suivants? [Horaire du service]’\r\n- `relation_voiture_pocession` (Booléen): Réponse à la question ‘Possédez-vous un véhicule automobile?’\r\n- `relation_voiture_frequence_usage` (Texte variable): Réponse à la question ‘À quelle fréquence utilisez-vous votre véhicule?’.\r\n- `relation_voiture_conduite` (Liste de valeurs): Réponse à la question ‘Aimez-vous conduire?’\r\n- `relation_tranport_en_commun_usage`   (Booléen): Réponse à la question ‘Prenez-vous le transport en commun ou des transports partagés tels Communauto ou Bixi?’\r\n- `relation_tranport_en_commun_frequence` (Texte variable): Réponse à la question ‘À quelle fréquence utilisez-vous le transport en commun?’.\r\n- `relation_transport_en_commun_nature`(Liste de valeurs): Réponse à la question ‘Quels transports en commun utilisez-vous?’\r\n- `relation_tranport_en_commun_appreciation` (Liste de valeurs): Réponse à la question ‘Quelle est votre appréciation du service de transport en commun actuel?’\r\n- `classement_groupe_age ` (Liste de valeurs):Groupe d'age du répondant.\r\n- `classement_genre `(Liste de valeurs) : Genre du répondant\r\n- `classement_niveau_etude` (Liste de valeurs) : Niveau d'étude du répondant.\r\n- `classement_mobilite_reduite `(Booléen): Identification des personnes à mobilité réduite .(Oui/Non)\r\n- `classement_statut_emploi ` (Texte variable): Statut d'emploi du répondant\r\n- `classement_duree_trajet `(Texte variable): Temps passé par le répondant dans les déplacements journaliers.\r\n- `classement_frequence_teletravail`(Texte variable): Temps passé par le répondant en télétravail.\r\n- `classement_statut_familial` (Texte variable):Statut familial du répondant.\r\n- `Commentaire` (Texte variable):Commentaires.\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/a8315937-4e51-4f86-aeab-6b219dd27cef/download/sondage-navettes-autonomes-parc-olympique.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-12-09T19:36:26.701036",
+      "created": "2019-11-22T19:35:39.944896",
+      "schema": {
+        "resource_id": "a8315937-4e51-4f86-aeab-6b219dd27cef",
+        "total_records": 182,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Id",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "provenance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_connaissance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_premiere_experience",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confort_autonomie",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_confiance_technologie",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "relation_avec _technologie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_meilleur_usage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_avantages",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_barrieres_utilisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_integration_rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_integration_transport",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_voiture",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_cycliste",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_navette_pieton",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_connaissance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_essaie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_non_essaie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_experience",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_confort_autonomie",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_securite_en_mouvement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_sentiment_sans_controleur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_comparaison_autre_transport",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_integration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_trajet",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_confort",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_vitesse",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_emplacement_arrets",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_nbre_arrets",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_cortoisie_operateur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "navette_parc_olympique_evaluation_horaire",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_voiture_pocession",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_voiture_frequence_usage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_voiture_conduite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_tranport_en_commun_usage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_tranport_en_commun_frequence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_transport_en_commun_nature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "relation_tranport_en_commun_appreciation",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "classement_groupe_age",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_genre",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_niveau_etude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_mobilite_reduite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_statut_emploi",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_duree_trajet",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_frequence_teletravail",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "classement_statut_familial",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "commentaire",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Id": 1,
+            "date": "2018-10-23T00:00:00",
+            "provenance": "Par courriel",
+            "relation_navette_connaissance": "Oui",
+            "relation_navette_premiere_experience": "Oui",
+            "relation_navette_confort_autonomie": 4,
+            "relation_navette_confiance_technologie": 3,
+            "relation_avec _technologie": "J'adopte rapidement les technologies et j'influence les autres",
+            "relation_navette_meilleur_usage": "À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), Utilisation pour le dernier kilomètre entre la maison et le travail",
+            "relation_navette_avantages": "Ne pas avoir à me stationner (la navette vous dépose et repart), Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation)",
+            "relation_navette_barrieres_utilisation": "Sécurité des passants, Fiabilité des technologies",
+            "relation_navette_integration_rue": "Pas convaincu",
+            "relation_navette_integration_transport": "Oui",
+            "relation_navette_voiture": "Confortable",
+            "relation_navette_cycliste": "Confortable",
+            "relation_navette_pieton": "Très confortable",
+            "navette_parc_olympique_connaissance": "Oui",
+            "navette_parc_olympique_essaie": "Oui",
+            "navette_parc_olympique_non_essaie": "",
+            "navette_parc_olympique_evaluation_experience": 3,
+            "navette_parc_olympique_confort_autonomie": 4,
+            "navette_parc_olympique_securite_en_mouvement": "Oui",
+            "navette_parc_olympique_sentiment_sans_controleur": 3,
+            "navette_parc_olympique_comparaison_autre_transport": 4,
+            "navette_parc_olympique_integration": "Oui",
+            "navette_parc_olympique_evaluation_trajet": "2",
+            "navette_parc_olympique_evaluation_confort": "4",
+            "navette_parc_olympique_evaluation_vitesse": "2",
+            "navette_parc_olympique_evaluation_emplacement_arrets": "4",
+            "navette_parc_olympique_evaluation_nbre_arrets": "5",
+            "navette_parc_olympique_evaluation_cortoisie_operateur": "3",
+            "navette_parc_olympique_evaluation_horaire": "4",
+            "relation_voiture_pocession": "Oui",
+            "relation_voiture_frequence_usage": "Quelques fois par semaine",
+            "relation_voiture_conduite": "Je n'ai pas d'opinion",
+            "relation_tranport_en_commun_usage": "Oui",
+            "relation_tranport_en_commun_frequence": "Tous les jours",
+            "relation_transport_en_commun_nature": "Autobus",
+            "relation_tranport_en_commun_appreciation": 1,
+            "classement_groupe_age": "35 - 50 ans",
+            "classement_genre": "Homme",
+            "classement_niveau_etude": "Baccalauréat",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Employé à temps plein",
+            "classement_duree_trajet": "20 minutes",
+            "classement_frequence_teletravail": "Moins d'une fois par mois",
+            "classement_statut_familial": "Famille avec enfant (1 ou 2 parents)",
+            "commentaire": ""
+          },
+          {
+            "_id": 2,
+            "Id": 2,
+            "date": "2018-10-23T00:00:00",
+            "provenance": "Par courriel",
+            "relation_navette_connaissance": "Oui",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 4,
+            "relation_navette_confiance_technologie": 4,
+            "relation_avec _technologie": "J'adopte rapidement les technologies et j'influence les autres",
+            "relation_navette_meilleur_usage": "Transport de personnes à mobilité réduite, Désservir des activités de tourisme et de loisirs (festival, centre sportifs)",
+            "relation_navette_avantages": "Ne pas avoir à me stationner (la navette vous dépose et repart), Aide au transport de personnes qui ne conduisent pas, Meilleur flot de circulation dans la ville, Transport collectif plus durable",
+            "relation_navette_barrieres_utilisation": "Cybersécurité, Fiabilité des technologies",
+            "relation_navette_integration_rue": "Oui",
+            "relation_navette_integration_transport": "Oui",
+            "relation_navette_voiture": "Très confortable",
+            "relation_navette_cycliste": "Confortable",
+            "relation_navette_pieton": "Très confortable",
+            "navette_parc_olympique_connaissance": "Oui",
+            "navette_parc_olympique_essaie": "Non",
+            "navette_parc_olympique_non_essaie": "Trop lent",
+            "navette_parc_olympique_evaluation_experience": null,
+            "navette_parc_olympique_confort_autonomie": null,
+            "navette_parc_olympique_securite_en_mouvement": "",
+            "navette_parc_olympique_sentiment_sans_controleur": null,
+            "navette_parc_olympique_comparaison_autre_transport": null,
+            "navette_parc_olympique_integration": "",
+            "navette_parc_olympique_evaluation_trajet": "",
+            "navette_parc_olympique_evaluation_confort": "",
+            "navette_parc_olympique_evaluation_vitesse": "",
+            "navette_parc_olympique_evaluation_emplacement_arrets": "",
+            "navette_parc_olympique_evaluation_nbre_arrets": "",
+            "navette_parc_olympique_evaluation_cortoisie_operateur": "",
+            "navette_parc_olympique_evaluation_horaire": "",
+            "relation_voiture_pocession": "Non",
+            "relation_voiture_frequence_usage": "",
+            "relation_voiture_conduite": "Oui",
+            "relation_tranport_en_commun_usage": "Oui",
+            "relation_tranport_en_commun_frequence": "Tous les jours",
+            "relation_transport_en_commun_nature": "Autobus, Métro",
+            "relation_tranport_en_commun_appreciation": 3,
+            "classement_groupe_age": "16 ans à 24 ans",
+            "classement_genre": "Femme",
+            "classement_niveau_etude": "Études supérieures (DESS, Maitrise, Doctorat, Post- Doctorat)",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Employé à temps plein",
+            "classement_duree_trajet": "1h",
+            "classement_frequence_teletravail": "Jamais",
+            "classement_statut_familial": "Personne seule ou en couple",
+            "commentaire": ""
+          },
+          {
+            "_id": 3,
+            "Id": 3,
+            "date": "2018-10-23T00:00:00",
+            "provenance": "Par courriel",
+            "relation_navette_connaissance": "Oui",
+            "relation_navette_premiere_experience": "Non",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 5,
+            "relation_avec _technologie": "J'ai besoin d'être convaincu pour adopter une nouvelle technologie",
+            "relation_navette_meilleur_usage": "À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), En remplacement de la voiture individuelle",
+            "relation_navette_avantages": "Aide au transport de personnes qui ne conduisent pas",
+            "relation_navette_barrieres_utilisation": "",
+            "relation_navette_integration_rue": "Oui",
+            "relation_navette_integration_transport": "",
+            "relation_navette_voiture": "Très confortable",
+            "relation_navette_cycliste": "Très confortable",
+            "relation_navette_pieton": "Très confortable",
+            "navette_parc_olympique_connaissance": "Oui",
+            "navette_parc_olympique_essaie": "Non",
+            "navette_parc_olympique_non_essaie": "L'occasion ne s'est pas encore présentée",
+            "navette_parc_olympique_evaluation_experience": null,
+            "navette_parc_olympique_confort_autonomie": null,
+            "navette_parc_olympique_securite_en_mouvement": "",
+            "navette_parc_olympique_sentiment_sans_controleur": null,
+            "navette_parc_olympique_comparaison_autre_transport": null,
+            "navette_parc_olympique_integration": "",
+            "navette_parc_olympique_evaluation_trajet": "",
+            "navette_parc_olympique_evaluation_confort": "",
+            "navette_parc_olympique_evaluation_vitesse": "",
+            "navette_parc_olympique_evaluation_emplacement_arrets": "",
+            "navette_parc_olympique_evaluation_nbre_arrets": "",
+            "navette_parc_olympique_evaluation_cortoisie_operateur": "",
+            "navette_parc_olympique_evaluation_horaire": "",
+            "relation_voiture_pocession": "Non",
+            "relation_voiture_frequence_usage": "",
+            "relation_voiture_conduite": "Je ne conduis pas",
+            "relation_tranport_en_commun_usage": "Oui",
+            "relation_tranport_en_commun_frequence": "Quelques fois par semaine",
+            "relation_transport_en_commun_nature": "Autobus, Métro",
+            "relation_tranport_en_commun_appreciation": 4,
+            "classement_groupe_age": "51 - 65",
+            "classement_genre": "Femme",
+            "classement_niveau_etude": "Diplome d'études secondaire",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Employé à temps plein",
+            "classement_duree_trajet": "15 minutes à pied",
+            "classement_frequence_teletravail": "Jamais",
+            "classement_statut_familial": "Famille avec enfant (1 ou 2 parents)",
+            "commentaire": ""
+          },
+          {
+            "_id": 4,
+            "Id": 4,
+            "date": "2018-10-23T00:00:00",
+            "provenance": "Par courriel",
+            "relation_navette_connaissance": "Oui",
+            "relation_navette_premiere_experience": "Oui",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 5,
+            "relation_avec _technologie": "J'adopte rapidement les technologies et j'influence les autres",
+            "relation_navette_meilleur_usage": "À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), En remplacement de la voiture individuelle",
+            "relation_navette_avantages": "Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation), Aide au transport de personnes qui ne conduisent pas",
+            "relation_navette_barrieres_utilisation": "Cybersécurité, Fiabilité des technologies",
+            "relation_navette_integration_rue": "Oui",
+            "relation_navette_integration_transport": "Oui",
+            "relation_navette_voiture": "Confortable",
+            "relation_navette_cycliste": "Confortable",
+            "relation_navette_pieton": "Confortable",
+            "navette_parc_olympique_connaissance": "Oui",
+            "navette_parc_olympique_essaie": "Non",
+            "navette_parc_olympique_non_essaie": "Elle circule trop lentement, toujours en arrêt à cause d'un piéton. va plus vite si on marche à ses côtés.",
+            "navette_parc_olympique_evaluation_experience": null,
+            "navette_parc_olympique_confort_autonomie": null,
+            "navette_parc_olympique_securite_en_mouvement": "",
+            "navette_parc_olympique_sentiment_sans_controleur": null,
+            "navette_parc_olympique_comparaison_autre_transport": null,
+            "navette_parc_olympique_integration": "",
+            "navette_parc_olympique_evaluation_trajet": "",
+            "navette_parc_olympique_evaluation_confort": "",
+            "navette_parc_olympique_evaluation_vitesse": "",
+            "navette_parc_olympique_evaluation_emplacement_arrets": "",
+            "navette_parc_olympique_evaluation_nbre_arrets": "",
+            "navette_parc_olympique_evaluation_cortoisie_operateur": "",
+            "navette_parc_olympique_evaluation_horaire": "",
+            "relation_voiture_pocession": "Non",
+            "relation_voiture_frequence_usage": "Quelques fois par année",
+            "relation_voiture_conduite": "Je ne conduis pas",
+            "relation_tranport_en_commun_usage": "Oui",
+            "relation_tranport_en_commun_frequence": "Tous les jours",
+            "relation_transport_en_commun_nature": "Autobus, Métro",
+            "relation_tranport_en_commun_appreciation": 4,
+            "classement_groupe_age": "35 - 50 ans",
+            "classement_genre": "Homme",
+            "classement_niveau_etude": "Diplôme d'études collégiales",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Employé à temps partiel",
+            "classement_duree_trajet": "30",
+            "classement_frequence_teletravail": "Jamais",
+            "classement_statut_familial": "Personne seule ou en couple",
+            "commentaire": ""
+          },
+          {
+            "_id": 5,
+            "Id": 5,
+            "date": "2018-10-23T00:00:00",
+            "provenance": "Par courriel",
+            "relation_navette_connaissance": "Oui",
+            "relation_navette_premiere_experience": "Oui",
+            "relation_navette_confort_autonomie": 5,
+            "relation_navette_confiance_technologie": 5,
+            "relation_avec _technologie": "J'ai besoin d'être convaincu pour adopter une nouvelle technologie",
+            "relation_navette_meilleur_usage": "Transport de personnes à mobilité réduite, En remplacement de la voiture individuelle, Utilisation pour le dernier kilomètre entre la maison et le travail",
+            "relation_navette_avantages": "Augmente la sécurité routière, Aide au transport de personnes qui ne conduisent pas",
+            "relation_navette_barrieres_utilisation": "non utilisable s'il y a beaucoup de piétons et aucun feu rouge (s'arrête trop)",
+            "relation_navette_integration_rue": "Oui",
+            "relation_navette_integration_transport": "Oui",
+            "relation_navette_voiture": "Très confortable",
+            "relation_navette_cycliste": "Très confortable",
+            "relation_navette_pieton": "Très confortable",
+            "navette_parc_olympique_connaissance": "Oui",
+            "navette_parc_olympique_essaie": "Oui",
+            "navette_parc_olympique_non_essaie": "",
+            "navette_parc_olympique_evaluation_experience": 3,
+            "navette_parc_olympique_confort_autonomie": 5,
+            "navette_parc_olympique_securite_en_mouvement": "Oui",
+            "navette_parc_olympique_sentiment_sans_controleur": 3,
+            "navette_parc_olympique_comparaison_autre_transport": 3,
+            "navette_parc_olympique_integration": "Oui",
+            "navette_parc_olympique_evaluation_trajet": "1",
+            "navette_parc_olympique_evaluation_confort": "5",
+            "navette_parc_olympique_evaluation_vitesse": "2",
+            "navette_parc_olympique_evaluation_emplacement_arrets": "1",
+            "navette_parc_olympique_evaluation_nbre_arrets": "1",
+            "navette_parc_olympique_evaluation_cortoisie_operateur": "Pas d'opinion",
+            "navette_parc_olympique_evaluation_horaire": "4",
+            "relation_voiture_pocession": "Oui",
+            "relation_voiture_frequence_usage": "Quelques fois par semaine",
+            "relation_voiture_conduite": "Non",
+            "relation_tranport_en_commun_usage": "Non",
+            "relation_tranport_en_commun_frequence": "Quelques fois par année",
+            "relation_transport_en_commun_nature": "Métro",
+            "relation_tranport_en_commun_appreciation": 4,
+            "classement_groupe_age": "35 - 50 ans",
+            "classement_genre": "Femme",
+            "classement_niveau_etude": "Diplôme d'études collégiales",
+            "classement_mobilite_reduite": "Non",
+            "classement_statut_emploi": "Employé à temps plein",
+            "classement_duree_trajet": "6 minutes",
+            "classement_frequence_teletravail": "Jamais",
+            "classement_statut_familial": "Personne seule ou en couple",
+            "commentaire": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "provenance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_connaissance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_premiere_experience": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_confort_autonomie": {
+          "null_count": 13,
+          "null_pct": 7.1,
+          "populated_pct": 92.9
+        },
+        "relation_navette_confiance_technologie": {
+          "null_count": 9,
+          "null_pct": 4.9,
+          "populated_pct": 95.1
+        },
+        "relation_avec _technologie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_meilleur_usage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_avantages": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_barrieres_utilisation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_integration_rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_integration_transport": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_voiture": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_cycliste": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "relation_navette_pieton": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_connaissance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_essaie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_non_essaie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_experience": {
+          "null_count": 139,
+          "null_pct": 76.4,
+          "populated_pct": 23.6
+        },
+        "navette_parc_olympique_confort_autonomie": {
+          "null_count": 140,
+          "null_pct": 76.9,
+          "populated_pct": 23.1
+        },
+        "navette_parc_olympique_securite_en_mouvement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_sentiment_sans_controleur": {
+          "null_count": 140,
+          "null_pct": 76.9,
+          "populated_pct": 23.1
+        },
+        "navette_parc_olympique_comparaison_autre_transport": {
+          "null_count": 142,
+          "null_pct": 78.0,
+          "populated_pct": 22.0
+        },
+        "navette_parc_olympique_integration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_trajet": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_confort": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_vitesse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_emplacement_arrets": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "navette_parc_olympique_evaluation_nbre_arrets": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 182,
+        "total_records": 182,
+        "audited_at": "2026-03-10T00:27:25.912797+00:00",
+        "fields": {
+          "Id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 182.0,
+            "mean": 91.5,
+            "median": 91.5,
+            "unique_count": 182,
+            "field_type_detected": "numeric"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-10-22T00:00:00",
+            "max_date": "2018-11-06T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "provenance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Par courriel",
+                "count": 114
+              },
+              {
+                "value": "Présence",
+                "count": 68
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_connaissance": {
+            "null_count": 2,
+            "null_pct": 1.1,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 127
+              },
+              {
+                "value": "Non",
+                "count": 53
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_premiere_experience": {
+            "null_count": 1,
+            "null_pct": 0.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 134
+              },
+              {
+                "value": "Oui",
+                "count": 47
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_confort_autonomie": {
+            "null_count": 13,
+            "null_pct": 7.1,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.8107,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 66
+              },
+              {
+                "value": "3",
+                "count": 49
+              },
+              {
+                "value": "4",
+                "count": 34
+              },
+              {
+                "value": "2",
+                "count": 11
+              },
+              {
+                "value": "1",
+                "count": 9
+              }
+            ]
+          },
+          "relation_navette_confiance_technologie": {
+            "null_count": 9,
+            "null_pct": 4.9,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.8613,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 63
+              },
+              {
+                "value": "3",
+                "count": 48
+              },
+              {
+                "value": "4",
+                "count": 45
+              },
+              {
+                "value": "2",
+                "count": 12
+              },
+              {
+                "value": "1",
+                "count": 5
+              }
+            ]
+          },
+          "relation_avec _technologie": {
+            "null_count": 3,
+            "null_pct": 1.6,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "J'adopte rapidement les technologies et j'influence les autres",
+                "count": 90
+              },
+              {
+                "value": "J'adopte les technologies lorsque nécessaire",
+                "count": 51
+              },
+              {
+                "value": "J'ai besoin d'être convaincu pour adopter une nouvelle technologie",
+                "count": 37
+              },
+              {
+                "value": "Je ne suis pas attiré par l'utilisation des technologies",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_meilleur_usage": {
+            "null_count": 3,
+            "null_pct": 1.6,
+            "unique_count": 64,
+            "top_values": [
+              {
+                "value": "Transport de personnes à mobilité réduite, À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), En remplacement de la voiture individuelle, Service spécial au",
+                "count": 15
+              },
+              {
+                "value": "Désservir des activités de tourisme et de loisirs (festival, centre sportifs)",
+                "count": 13
+              },
+              {
+                "value": "Transport de personnes à mobilité réduite, À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), Service spécial au centre-ville, Navette dans des endroits très",
+                "count": 13
+              },
+              {
+                "value": "Transport de personnes à mobilité réduite",
+                "count": 12
+              },
+              {
+                "value": "Transport de personnes à mobilité réduite, Désservir des activités de tourisme et de loisirs (festival, centre sportifs)",
+                "count": 11
+              },
+              {
+                "value": "À la sortie des stations de transport en commun du métro et du train",
+                "count": 8
+              },
+              {
+                "value": "Transport de personnes à mobilité réduite, À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs)",
+                "count": 6
+              },
+              {
+                "value": "En remplacement de la voiture individuelle",
+                "count": 6
+              },
+              {
+                "value": "Transport de personnes à mobilité réduite, À la sortie des stations de transport en commun du métro et du train",
+                "count": 6
+              },
+              {
+                "value": "À la sortie des stations de transport en commun du métro et du train, Désservir des activités de tourisme et de loisirs (festival, centre sportifs), Service spécial au centre-ville",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "relation_navette_avantages": {
+            "null_count": 6,
+            "null_pct": 3.3,
+            "unique_count": 52,
+            "top_values": [
+              {
+                "value": "Aide au transport de personnes qui ne conduisent pas",
+                "count": 15
+              },
+              {
+                "value": "Ne pas avoir à me stationner (la navette vous dépose et repart), Augmente la sécurité routière, Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation), Aide au transport de personnes qui ne conduisent pa",
+                "count": 15
+              },
+              {
+                "value": "Ne pas avoir à me stationner (la navette vous dépose et repart), Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation), Aide au transport de personnes qui ne conduisent pas, Meilleur flot de circulation",
+                "count": 14
+              },
+              {
+                "value": "Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation)",
+                "count": 11
+              },
+              {
+                "value": "Ne pas avoir à me stationner (la navette vous dépose et repart), Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation)",
+                "count": 8
+              },
+              {
+                "value": "Meilleur flot de circulation dans la ville",
+                "count": 8
+              },
+              {
+                "value": "Ne pas avoir à me stationner (la navette vous dépose et repart), Aide au transport de personnes qui ne conduisent pas, Transport collectif plus durable",
+                "count": 7
+              },
+              {
+                "value": "Ne pas avoir à me stationner (la navette vous dépose et repart), Aide au transport de personnes qui ne conduisent pas, Meilleur flot de circulation dans la ville, Transport collectif plus durable",
+                "count": 6
+              },
+              {
+                "value": "Transport collectif plus durable",
+                "count": 6
+              },
+              {
+                "value": "Permet de faire autre chose pendant le trajet (utilisation d'objets connectés, lecture, repos, méditation), Aide au transport de personnes qui ne conduisent pas",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "relation_navette_barrieres_utilisation": {
+            "null_count": 22,
+            "null_pct": 12.1,
+            "unique_count": 51,
+            "top_values": [
+              {
+                "value": "Fiabilité des technologies",
+                "count": 21
+              },
+              {
+                "value": "Sécurité des passants",
+                "count": 16
+              },
+              {
+                "value": "Sécurité des passants, Fiabilité des technologies",
+                "count": 15
+              },
+              {
+                "value": "Absence physique de conducteur",
+                "count": 11
+              },
+              {
+                "value": "Cybersécurité, Fiabilité des technologies",
+                "count": 8
+              },
+              {
+                "value": "Sécurité des passants, Absence physique de conducteur, Fiabilité des technologies",
+                "count": 8
+              },
+              {
+                "value": "Sécurité des passants, Collecte de données personnelles, Cybersécurité, Absence physique de conducteur, Fiabilité des technologies",
+                "count": 7
+              },
+              {
+                "value": "Sécurité des passants, Collecte de données personnelles, Absence physique de conducteur, Fiabilité des technologies",
+                "count": 5
+              },
+              {
+                "value": "Cybersécurité",
+                "count": 5
+              },
+              {
+                "value": "Sécurité des passants, Absence physique de conducteur",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "relation_navette_integration_rue": {
+            "null_count": 2,
+            "null_pct": 1.1,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 115
+              },
+              {
+                "value": "Pas convaincu",
+                "count": 36
+              },
+              {
+                "value": "Non",
+                "count": 17
+              },
+              {
+                "value": "Je n'y ai jamais pensé",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_integration_transport": {
+            "null_count": 5,
+            "null_pct": 2.7,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 121
+              },
+              {
+                "value": "Peut-être",
+                "count": 41
+              },
+              {
+                "value": "Non",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_voiture": {
+            "null_count": 4,
+            "null_pct": 2.2,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Confortable",
+                "count": 56
+              },
+              {
+                "value": "Très confortable",
+                "count": 42
+              },
+              {
+                "value": "Neutre",
+                "count": 38
+              },
+              {
+                "value": "Inconfortable",
+                "count": 35
+              },
+              {
+                "value": "Très inconfortable",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_cycliste": {
+            "null_count": 4,
+            "null_pct": 2.2,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Confortable",
+                "count": 54
+              },
+              {
+                "value": "Inconfortable",
+                "count": 41
+              },
+              {
+                "value": "Neutre",
+                "count": 36
+              },
+              {
+                "value": "Très confortable",
+                "count": 32
+              },
+              {
+                "value": "Très inconfortable",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_navette_pieton": {
+            "null_count": 2,
+            "null_pct": 1.1,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Confortable",
+                "count": 63
+              },
+              {
+                "value": "Très confortable",
+                "count": 50
+              },
+              {
+                "value": "Neutre",
+                "count": 30
+              },
+              {
+                "value": "Inconfortable",
+                "count": 25
+              },
+              {
+                "value": "Très inconfortable",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "navette_parc_olympique_connaissance": {
+            "null_count": 1,
+            "null_pct": 0.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 119
+              },
+              {
+                "value": "Non",
+                "count": 62
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "navette_parc_olympique_essaie": {
+            "null_count": 2,
+            "null_pct": 1.1,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 137
+              },
+              {
+                "value": "Oui",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "navette_parc_olympique_non_essaie": {
+            "null_count": 111,
+            "null_pct": 61.0,
+            "unique_count": 71,
+            "top_values": [
+              {
+                "value": "Trop lent",
+                "count": 1
+              },
+              {
+                "value": "L'occasion ne s'est pas encore présentée",
+                "count": 1
+              },
+              {
+                "value": "Elle circule trop lentement, toujours en arrêt à cause d'un piéton. va plus vite si on marche à ses côtés.",
+                "count": 1
+              },
+              {
+                "value": "Plus vite à pied",
+                "count": 1
+              },
+              {
+                "value": "J'ai l'impression que de l'utiliser c'est aussi vite que de me rendre à pied à l'endroit désiré. De plus, je ne sais jamais vers ou elle va.",
+                "count": 1
+              },
+              {
+                "value": "Manque de temps (travail)",
+                "count": 1
+              },
+              {
+                "value": "Distance courte, je préfère marcher",
+                "count": 1
+              },
+              {
+                "value": "la navette du Parc semble être de l'âge de pierre + je marche plus vite qu'elle",
+                "count": 1
+              },
+              {
+                "value": "j'ai pas eu la chance encore de l'essayer",
+                "count": 1
+              },
+              {
+                "value": "Pas le public cible",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "navette_parc_olympique_evaluation_experience": {
+            "null_count": 139,
+            "null_pct": 76.4,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.1163,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 21
+              },
+              {
+                "value": "4",
+                "count": 11
+              },
+              {
+                "value": "3",
+                "count": 7
+              },
+              {
+                "value": "2",
+                "count": 3
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_confort_autonomie": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.381,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 25
+              },
+              {
+                "value": "4",
+                "count": 11
+              },
+              {
+                "value": "3",
+                "count": 4
+              },
+              {
+                "value": "2",
+                "count": 1
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_securite_en_mouvement": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 37
+              },
+              {
+                "value": "Oui mais je n'aurais pas aimé que la navette circule plus rapidement",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "navette_parc_olympique_sentiment_sans_controleur": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "min_date": "2",
+            "max_date": "5",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "navette_parc_olympique_comparaison_autre_transport": {
+            "null_count": 142,
+            "null_pct": 78.0,
+            "min": 2.0,
+            "max": 5.0,
+            "mean": 3.625,
+            "median": 4.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 18
+              },
+              {
+                "value": "4",
+                "count": 16
+              },
+              {
+                "value": "5",
+                "count": 5
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_integration": {
+            "null_count": 141,
+            "null_pct": 77.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 36
+              },
+              {
+                "value": "Non",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "navette_parc_olympique_evaluation_trajet": {
+            "null_count": 141,
+            "null_pct": 77.5,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.2,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 18
+              },
+              {
+                "value": "4",
+                "count": 16
+              },
+              {
+                "value": "3",
+                "count": 3
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "1",
+                "count": 1
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_confort": {
+            "null_count": 139,
+            "null_pct": 76.4,
+            "min": 3.0,
+            "max": 5.0,
+            "mean": 4.2619,
+            "median": 4.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 18
+              },
+              {
+                "value": "4",
+                "count": 17
+              },
+              {
+                "value": "3",
+                "count": 7
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_vitesse": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.4878,
+            "median": 2.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 15
+              },
+              {
+                "value": "3",
+                "count": 11
+              },
+              {
+                "value": "4",
+                "count": 8
+              },
+              {
+                "value": "1",
+                "count": 7
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_emplacement_arrets": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.2683,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 25
+              },
+              {
+                "value": "4",
+                "count": 9
+              },
+              {
+                "value": "1",
+                "count": 3
+              },
+              {
+                "value": "3",
+                "count": 3
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 1
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_nbre_arrets": {
+            "null_count": 140,
+            "null_pct": 76.9,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 4.1951,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 22
+              },
+              {
+                "value": "4",
+                "count": 12
+              },
+              {
+                "value": "2",
+                "count": 3
+              },
+              {
+                "value": "1",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 2
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_cortoisie_operateur": {
+            "null_count": 142,
+            "null_pct": 78.0,
+            "min": 3.0,
+            "max": 5.0,
+            "mean": 4.8947,
+            "median": 5.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 35
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 1
+              }
+            ]
+          },
+          "navette_parc_olympique_evaluation_horaire": {
+            "null_count": 141,
+            "null_pct": 77.5,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.5,
+            "median": 4.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 12
+              },
+              {
+                "value": "4",
+                "count": 8
+              },
+              {
+                "value": "3",
+                "count": 6
+              },
+              {
+                "value": "2",
+                "count": 6
+              },
+              {
+                "value": "Pas d'opinion",
+                "count": 5
+              },
+              {
+                "value": "1",
+                "count": 4
+              }
+            ]
+          },
+          "relation_voiture_pocession": {
+            "null_count": 4,
+            "null_pct": 2.2,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 126
+              },
+              {
+                "value": "Non",
+                "count": 52
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_voiture_frequence_usage": {
+            "null_count": 49,
+            "null_pct": 26.9,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Tous les jours",
+                "count": 92
+              },
+              {
+                "value": "Quelques fois par semaine",
+                "count": 26
+              },
+              {
+                "value": "Quelques fois par mois",
+                "count": 13
+              },
+              {
+                "value": "Quelques fois par année",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_voiture_conduite": {
+            "null_count": 6,
+            "null_pct": 3.3,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 124
+              },
+              {
+                "value": "Non",
+                "count": 19
+              },
+              {
+                "value": "Je n'ai pas d'opinion",
+                "count": 18
+              },
+              {
+                "value": "Je ne conduis pas",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_tranport_en_commun_usage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Oui",
+                "count": 104
+              },
+              {
+                "value": "Non",
+                "count": 78
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_tranport_en_commun_frequence": {
+            "null_count": 11,
+            "null_pct": 6.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Tous les jours",
+                "count": 71
+              },
+              {
+                "value": "Quelques fois par année",
+                "count": 54
+              },
+              {
+                "value": "Quelques fois par mois",
+                "count": 24
+              },
+              {
+                "value": "Quelques fois par semaine",
+                "count": 22
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_transport_en_commun_nature": {
+            "null_count": 7,
+            "null_pct": 3.8,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Autobus, Métro",
+                "count": 91
+              },
+              {
+                "value": "Métro",
+                "count": 46
+              },
+              {
+                "value": "Autobus, Métro, Bixi",
+                "count": 10
+              },
+              {
+                "value": "Autobus, Métro, Communauto, Car2Go",
+                "count": 5
+              },
+              {
+                "value": "Métro, Trains de banlieue",
+                "count": 4
+              },
+              {
+                "value": "Métro, Bixi",
+                "count": 4
+              },
+              {
+                "value": "Autobus, Métro, Trains de banlieue",
+                "count": 4
+              },
+              {
+                "value": "Autobus",
+                "count": 2
+              },
+              {
+                "value": "Autobus, Métro, Bixi, Communauto, Car2Go",
+                "count": 2
+              },
+              {
+                "value": "Autobus, Métro, Trains de banlieue, Bixi",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "relation_tranport_en_commun_appreciation": {
+            "null_count": 6,
+            "null_pct": 3.3,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.3409,
+            "median": 3.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 66
+              },
+              {
+                "value": "4",
+                "count": 66
+              },
+              {
+                "value": "2",
+                "count": 22
+              },
+              {
+                "value": "5",
+                "count": 15
+              },
+              {
+                "value": "1",
+                "count": 7
+              }
+            ]
+          },
+          "classement_groupe_age": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "35 - 50 ans",
+                "count": 76
+              },
+              {
+                "value": "25 à 34 ans",
+                "count": 44
+              },
+              {
+                "value": "51 - 65",
+                "count": 38
+              },
+              {
+                "value": "16 ans à 24 ans",
+                "count": 23
+              },
+              {
+                "value": "65 et plus",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_genre": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Femme",
+                "count": 114
+              },
+              {
+                "value": "Homme",
+                "count": 68
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_niveau_etude": {
+            "null_count": 2,
+            "null_pct": 1.1,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Baccalauréat",
+                "count": 64
+              },
+              {
+                "value": "Diplôme d'études collégiales",
+                "count": 61
+              },
+              {
+                "value": "Études supérieures (DESS, Maitrise, Doctorat, Post- Doctorat)",
+                "count": 31
+              },
+              {
+                "value": "Diplome d'études secondaire",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_mobilite_reduite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 177
+              },
+              {
+                "value": "Oui",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_statut_emploi": {
+            "null_count": 3,
+            "null_pct": 1.6,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Employé à temps plein",
+                "count": 142
+              },
+              {
+                "value": "Étudiant",
+                "count": 18
+              },
+              {
+                "value": "Employé à temps partiel",
+                "count": 17
+              },
+              {
+                "value": "Retraité",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_duree_trajet": {
+            "null_count": 11,
+            "null_pct": 6.0,
+            "unique_count": 91,
+            "top_values": [
+              {
+                "value": "1h",
+                "count": 23
+              },
+              {
+                "value": "2h",
+                "count": 16
+              },
+              {
+                "value": "30 minutes",
+                "count": 8
+              },
+              {
+                "value": "1 heure",
+                "count": 7
+              },
+              {
+                "value": "2 heures",
+                "count": 6
+              },
+              {
+                "value": "1h30",
+                "count": 5
+              },
+              {
+                "value": "30 min",
+                "count": 5
+              },
+              {
+                "value": "3h",
+                "count": 5
+              },
+              {
+                "value": "3 heures",
+                "count": 3
+              },
+              {
+                "value": "45 minutes",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "classement_frequence_teletravail": {
+            "null_count": 16,
+            "null_pct": 8.8,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Jamais",
+                "count": 88
+              },
+              {
+                "value": "Moins d'une fois par mois",
+                "count": 22
+              },
+              {
+                "value": "Quelques fois par semaine",
+                "count": 20
+              },
+              {
+                "value": "Quelques fois par mois",
+                "count": 20
+              },
+              {
+                "value": "Une fois par semaine",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "classement_statut_familial": {
+            "null_count": 1,
+            "null_pct": 0.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Personne seule ou en couple",
+                "count": 102
+              },
+              {
+                "value": "Famille avec enfant (1 ou 2 parents)",
+                "count": 79
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "commentaire": {
+            "null_count": 176,
+            "null_pct": 96.7,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Il doit en avoir plus",
+                "count": 1
+              },
+              {
+                "value": "Pertinent d-etre informé",
+                "count": 1
+              },
+              {
+                "value": "Très préoccupée par la perte d’emploi des chauffeurs",
+                "count": 1
+              },
+              {
+                "value": "Le monsieur est monté dans la\nNavette mais elle tardait à partir. Il est donc sorti avant qu’elle parte.",
+                "count": 1
+              },
+              {
+                "value": "Être là ll’hiver",
+                "count": 1
+              },
+              {
+                "value": "Il faudrait avoir une indication pour savoir si la navette est en circulation",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "abb7f1a4-684f-461b-99ce-577ec765ed0d",
+      "name": "Bilan du sondage - Parc Olympique (2018)",
+      "description": "Fichier au format PDF présentant le bilan du sondage lors de l’expérimentation des navettes autonomes au Parc olympique.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/abb7f1a4-684f-461b-99ce-577ec765ed0d/download/jalon_mtl-rapport_final_na_rio.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-11-22T19:43:18.787564",
+      "created": "2019-11-22T19:43:18.840149",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Innovation",
+    "Mobilité",
+    "SPSPO",
+    "Sondage",
+    "Véhicule autonome"
+  ],
+  "web_metadata": {
+    "methodology_text": "L'arrivée de la mobilité autonome dans les villes a le potentiel de bouleverser en profondeur le système de transport. Consciente des changements à venir et désirant être à l’avant-garde, la Ville a entamé les efforts pour se préparer à la venue des véhicules automatisés (VA).  L'objectif est d'évaluer l’intégration de ce nouveau service dans l’offre de transport de la Ville, dans une optique de mobilité durable et en fonction des attentes et des besoins des citoyens.  \n\n\nAinsi, face aux enjeux, la Ville estime que la tenue de projets pilotes est un moyen d’alimenter le processus de planification.  D'ailleurs, en avril 2018, la Politique de mobilité durable du Gouvernement du Québec a alloué 5 M$ à la Ville pour tester les navettes automatisées sur 5 ans (MAMOT). En ajout le projet de loi 165 modifiant le Code de sécurité de la route est entré en vigueur le 18 mai 2018 pour permettre la tenue d'expérimentation sur voies publiques.\n\n\nC'est dans ce contexte que les sondages présentés dans cet ensemble ont été menés.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2018/2022",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Innovation",
+      "Mobilité",
+      "SPSPO",
+      "Sondage",
+      "Véhicule autonome"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/sondage-mobilite-autonome",
+    "scraped_at": "2026-03-09T20:21:54.423808+00:00"
+  }
+}

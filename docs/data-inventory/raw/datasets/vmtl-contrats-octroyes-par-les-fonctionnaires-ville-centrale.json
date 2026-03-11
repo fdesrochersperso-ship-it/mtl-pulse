@@ -1,0 +1,464 @@
+{
+  "slug": "vmtl-contrats-octroyes-par-les-fonctionnaires-ville-centrale",
+  "title": "Contrats – Fonctionnaires",
+  "notes": "Contrats accordés par les fonctionnaires en vertu des pouvoirs délégués.\r\n\r\nIl est à noter que les données peuvent également être visualisées à l'aide d'un [API](https://donnees.montreal.ca/dataset/contrats-et-subventions-api) ou de l'outil [Vue sur les contrats](https://app.powerbi.com/view?r=eyJrIjoiNDE1ZWFlMjItMGEwOS00Y2Q5LThkMGQtZWJiMmFkMGNiYzM4IiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-03-17T14:16:16.866679",
+  "metadata_modified": "2026-03-08T02:01:39.290528",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "61e6a376-a031-422d-a3d8-7b6ce42f23b9",
+      "name": "Visualisation des données",
+      "description": "\r\n\r\n",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzZlYjkyYjAtODE5Ny00YjFkLWFkYjUtNzk0MzVhZmY0NjgxIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-25T14:51:20.443047",
+      "schema": null
+    },
+    {
+      "id": "e4b758ab-3edb-4b6a-8764-2a443b6b9404",
+      "name": "Contrats Fonctionnaires",
+      "description": "Contrats depuis 2011-09-01.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0b7955a7-8523-4254-8f95-81a59684866d/resource/e4b758ab-3edb-4b6a-8764-2a443b6b9404/download/contratsfonctionnaires.csv",
+      "datastore_active": true,
+      "size": 61955135,
+      "last_modified": "2026-03-08T00:11:48.902188",
+      "created": "2016-01-13T12:16:16.321976",
+      "schema": {
+        "resource_id": "e4b758ab-3edb-4b6a-8764-2a443b6b9404",
+        "total_records": 285961,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NOM DU FOURNISSEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NUMERO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE D'APPROBATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "APPROBATEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SERVICE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACTIVITE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MONTANT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NOM DU FOURNISSEUR": "VDL PROMOTION",
+            "NUMERO": "1000000",
+            "DATE D'APPROBATION": "2014-10-29",
+            "APPROBATEUR": null,
+            "DESCRIPTION": "Achat de sacs et chandails - Projet GDR - PDQ 5",
+            "SERVICE": "Police",
+            "ACTIVITE": "Activités policières",
+            "MONTANT": "2706.08"
+          },
+          {
+            "_id": 2,
+            "NOM DU FOURNISSEUR": "DESCAIR INC.",
+            "NUMERO": "1000060",
+            "DATE D'APPROBATION": "2014-10-29",
+            "APPROBATEUR": null,
+            "DESCRIPTION": "V.C.R. (ACHAT DE DIVERSES PIÈCES ET PRODUIT POUR LA PISCINE ST-ROCH #0337, REQ. 71-229318)",
+            "SERVICE": "Gestion et planification des immeubles",
+            "ACTIVITE": "Sout. mat. et tech. - Gestion des immeubles GPI - À répartir",
+            "MONTANT": "2434.86"
+          },
+          {
+            "_id": 3,
+            "NOM DU FOURNISSEUR": "NEDCO",
+            "NUMERO": "1000168",
+            "DATE D'APPROBATION": "2014-10-29",
+            "APPROBATEUR": null,
+            "DESCRIPTION": "Fixture néon - aménagement #1424672026 -  Éric Desrochers c/m électricité",
+            "SERVICE": "Gestion et planification des immeubles",
+            "ACTIVITE": "Sout. mat. et tech. - Gestion des immeubles GPI - À répartir",
+            "MONTANT": "2167.33"
+          },
+          {
+            "_id": 4,
+            "NOM DU FOURNISSEUR": "TECHNO-CONTACT INC.",
+            "NUMERO": "1000211",
+            "DATE D'APPROBATION": "2014-10-29",
+            "APPROBATEUR": null,
+            "DESCRIPTION": "ÉLECTRICITÉ (AMÉNAG. 1424670138, ACHAT D'UN ASSEMBLAGE COMPLET POUR LES ATELIERS MUNICIPAUX VIAU #0246)",
+            "SERVICE": "Gestion et planification des immeubles",
+            "ACTIVITE": "Sout. mat. et tech. - Gestion des immeubles GPI - À répartir",
+            "MONTANT": "3578.02"
+          },
+          {
+            "_id": 5,
+            "NOM DU FOURNISSEUR": "INSTRUMENTS ISAAC INC",
+            "NUMERO": "1000253",
+            "DATE D'APPROBATION": "2014-10-29",
+            "APPROBATEUR": null,
+            "DESCRIPTION": "SOUMISSION Q-100935 - GEOLOCALISATION & TELEMETRIE + FORMATION POUR L'INSTALLATION DES EQUIPEMENTS",
+            "SERVICE": "Police",
+            "ACTIVITE": "Activités policières",
+            "MONTANT": "9162.22"
+          }
+        ]
+      },
+      "field_stats": {
+        "NOM DU FOURNISSEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NUMERO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE D'APPROBATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "APPROBATEUR": {
+          "null_count": 285961,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "DESCRIPTION": {
+          "null_count": 369,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "SERVICE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTIVITE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MONTANT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 285961,
+        "audited_at": "2026-03-10T00:17:17.772390+00:00",
+        "fields": {
+          "NOM DU FOURNISSEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 690,
+            "top_values": [
+              {
+                "value": "AXIA SERVICES",
+                "count": 13
+              },
+              {
+                "value": "BOUTY INC",
+                "count": 12
+              },
+              {
+                "value": "C.P.U. DESIGN INC.",
+                "count": 8
+              },
+              {
+                "value": "NEDCO",
+                "count": 7
+              },
+              {
+                "value": "ISOTECH INSTRUMENTATION INC. - L'ARSENAL",
+                "count": 7
+              },
+              {
+                "value": "GESTION PFB",
+                "count": 6
+              },
+              {
+                "value": "NORBEC COMMUNICATION",
+                "count": 6
+              },
+              {
+                "value": "LE DEVOIR INC.",
+                "count": 6
+              },
+              {
+                "value": "FONDERIE LAPERLE DIR. TUYAUTERIES CANADA LTEE",
+                "count": 6
+              },
+              {
+                "value": "TRANSPORT MOTTILLO ET FILS INC.",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NUMERO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1000000.0,
+            "max": 1217379.0,
+            "mean": 1115118.048,
+            "median": 1119695.0,
+            "unique_count": 989,
+            "field_type_detected": "numeric"
+          },
+          "DATE D'APPROBATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-10-29",
+            "max_date": "2021-11-19",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "APPROBATEUR": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DESCRIPTION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 978,
+            "top_values": [
+              {
+                "value": "Réparations sur retrocaveuse en location pour les travaux d'aqueduc. Appareil 1T0410KXCCD229374.",
+                "count": 3
+              },
+              {
+                "value": "Travaux d'entretien pour divers bâtiments",
+                "count": 3
+              },
+              {
+                "value": "Matériel de laboratoire",
+                "count": 3
+              },
+              {
+                "value": "Disposition des terres - BC 2015",
+                "count": 2
+              },
+              {
+                "value": "Service pour échantillonnage environnemental de sol",
+                "count": 2
+              },
+              {
+                "value": "Asphalte, bitume EB10C-58-28J FACTURES 404844. Ajout des 3 facture #405151, #405116, #405195.",
+                "count": 2
+              },
+              {
+                "value": "Juricomptabilité",
+                "count": 2
+              },
+              {
+                "value": "LOCATION TUYAU 3\" SUCCION POMPE A EAU P.LANDRY",
+                "count": 2
+              },
+              {
+                "value": "Préparation de plans et devis pour une nouvelle fontaine au parc Claude-Melançon (frais incidents 1156143001)",
+                "count": 2
+              },
+              {
+                "value": "Travaux de protection incendie dans divers bâtiments",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "SERVICE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 48,
+            "top_values": [
+              {
+                "value": "Gestion et planification des immeubles",
+                "count": 174
+              },
+              {
+                "value": "Police",
+                "count": 103
+              },
+              {
+                "value": "Grands parcs, mont Royal et sports",
+                "count": 68
+              },
+              {
+                "value": "Sécurité incendie de Montréal",
+                "count": 65
+              },
+              {
+                "value": "Espace pour la vie",
+                "count": 60
+              },
+              {
+                "value": "Environnement",
+                "count": 46
+              },
+              {
+                "value": "Culture",
+                "count": 38
+              },
+              {
+                "value": "Urbanisme et mobilité",
+                "count": 31
+              },
+              {
+                "value": "Service de l'eau",
+                "count": 30
+              },
+              {
+                "value": "Technologies de l'information",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ACTIVITE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 70,
+            "top_values": [
+              {
+                "value": "Sout. mat. et tech. - Gestion des immeubles GPI - À répartir",
+                "count": 146
+              },
+              {
+                "value": "Activités policières",
+                "count": 107
+              },
+              {
+                "value": "Réseau de distribution de l'eau potable",
+                "count": 74
+              },
+              {
+                "value": "Musées et centres d'exposition",
+                "count": 65
+              },
+              {
+                "value": "Réseaux d'égout",
+                "count": 36
+              },
+              {
+                "value": "Interventions - Séc. incendie",
+                "count": 33
+              },
+              {
+                "value": "Autres - Administration générale",
+                "count": 30
+              },
+              {
+                "value": "Administration, finances et approvisionnement",
+                "count": 29
+              },
+              {
+                "value": "Autres - activités culturelles",
+                "count": 29
+              },
+              {
+                "value": "Gestion de l'information",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "MONTANT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 6.22,
+            "max": 1242878.46,
+            "mean": 11188.7229,
+            "median": 4297.235,
+            "unique_count": 927,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Commande",
+    "Conseil d agglomération",
+    "Conseil municipal",
+    "Contrat",
+    "Dépense",
+    "Fonctionnaire",
+    "Fournisseur",
+    "SG"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Dictionnaire de données\n\n\n\n- FOURNISSEUR (Texte variable) : \n\n- NUMÉRO (Numérique) : \n\n- DATE D'APPROBATION (Date) : \n\n- APPROBATEUR (Texte variable) : \n\n- DESCRIPTION (Texte variable) : \n\n- SERVICE (Liste de valeur) : \n\n- ACTIVITÉ (Texte variable) : \n\n- MONTANT (Numérique) :\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2011-08-27/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Commande",
+      "Conseil d agglomération",
+      "Conseil municipal",
+      "Contrat",
+      "Dépense",
+      "Fonctionnaire",
+      "Fournisseur",
+      "SG"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/contrats-octroyes-par-les-fonctionnaires-ville-centrale",
+    "scraped_at": "2026-03-09T19:55:44.122472+00:00"
+  }
+}

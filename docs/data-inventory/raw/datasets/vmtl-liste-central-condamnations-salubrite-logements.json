@@ -1,0 +1,556 @@
+{
+  "slug": "vmtl-liste-central-condamnations-salubrite-logements",
+  "title": "Contrevenants condamnés - salubrité, entretien et sécurité des logements",
+  "notes": "Cet ensemble de données présente la liste des contrevenants condamnés pour des infractions au Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096), suite à des constats d’infraction émis par la Division de la salubrité du Service de l’habitation.\r\n\r\nÀ noter que les condamnations émises par les arrondissements en vertu du même règlement ne font pas partie de cet ensemble.\r\n\r\nLes [inspections en salubrité](/ville-de-montreal/inspections-salubrite) du Service de l'habitation sont également  disponibles en données ouvertes.\r\n\r\nPour tout autre détail sur la salubrité des logements, veuillez consulter la page [Salubrité, entretien et sécurité des logements](https://montreal.ca/sujets/salubrite-entretien-et-securite-des-logements) sur le site de la Ville de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "sante",
+      "display_name": "Santé",
+      "mapped": {
+        "name_fr": "Santé",
+        "name_en": "Health",
+        "icon": "heart"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-01-08T18:25:51.182103",
+  "metadata_modified": "2026-02-20T23:00:10.228741",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7",
+      "name": "Liste des contrevenants condamnés",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5c627001-5945-4769-bd8a-41a1cb6065df/resource/f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7/download/contrevenants-condamnes.csv",
+      "datastore_active": true,
+      "size": 62471,
+      "last_modified": "2026-02-20T21:17:41.230445",
+      "created": "2020-04-28T19:43:45.680885",
+      "schema": {
+        "resource_id": "f270cb02-ca30-4b3b-96eb-f0dbdbc50ea7",
+        "total_records": 321,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "lieu_infraction_no_civique",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lieu_infraction_rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "code_arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_contrevenant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "article",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nature_infraction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_infraction",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_jugement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "amende_imposee",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "lieu_infraction_no_civique": "2094",
+            "lieu_infraction_rue": "Place Beaudet",
+            "code_arrondissement": "ST",
+            "nom_contrevenant": "Michael A. Pires",
+            "article": "23 al. 1",
+            "nature_infraction": "En ayant une partie du bâtiment évacué en vertu du règlement, vacant ou laissé à l'abandon qui n'est pas clos ou barricadé(e) de façon à en empêcher l'accès et à prévenir tout accident.",
+            "date_infraction": "Entre le 17-05-2017 et le 14-06-2017",
+            "date_jugement": "2018-04-05",
+            "amende_imposee": "1 500,00 $"
+          },
+          {
+            "_id": 2,
+            "lieu_infraction_no_civique": "2094",
+            "lieu_infraction_rue": "Place Beaudet",
+            "code_arrondissement": "ST",
+            "nom_contrevenant": "Michael A. Pires",
+            "article": "23 al. 2",
+            "nature_infraction": "Étant propriétaire d'un bâtiment, en n'ayant pas pris toutes les mesures nécessaires afin de supprimer la condition dangereuse de votre bâtiment.",
+            "date_infraction": "Entre le 17-05-2017 et le 20-06-2017",
+            "date_jugement": "2018-04-05",
+            "amende_imposee": "1 500,00 $"
+          },
+          {
+            "_id": 3,
+            "lieu_infraction_no_civique": "3290",
+            "lieu_infraction_rue": "Goyer",
+            "code_arrondissement": "CN",
+            "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+            "article": "25 al. 2 par. 9",
+            "nature_infraction": "En ayant des rongeurs (souris) dans un logement.",
+            "date_infraction": "2017-02-15",
+            "date_jugement": "2018-04-05",
+            "amende_imposee": "1 350,00 $"
+          },
+          {
+            "_id": 4,
+            "lieu_infraction_no_civique": "3290",
+            "lieu_infraction_rue": "Goyer",
+            "code_arrondissement": "CN",
+            "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+            "article": "25 al. 2 par. 9",
+            "nature_infraction": "En ayant des rongeurs dans un logement.",
+            "date_infraction": "2017-04-24",
+            "date_jugement": "2018-04-05",
+            "amende_imposee": "1 350,00 $"
+          },
+          {
+            "_id": 5,
+            "lieu_infraction_no_civique": "3290",
+            "lieu_infraction_rue": "Goyer",
+            "code_arrondissement": "CN",
+            "nom_contrevenant": "Immeuble 3290 Goyer Inc.",
+            "article": "25 al. 2 par. 9",
+            "nature_infraction": "En ayant des insectes (coquerelles) dans un logement.",
+            "date_infraction": "2017-03-24",
+            "date_jugement": "2018-04-05",
+            "amende_imposee": "1 350,00 $"
+          }
+        ]
+      },
+      "field_stats": {
+        "lieu_infraction_no_civique": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lieu_infraction_rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "code_arrondissement": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "nom_contrevenant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "article": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nature_infraction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_infraction": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_jugement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "amende_imposee": {
+          "null_count": 2,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 321,
+        "total_records": 321,
+        "audited_at": "2026-03-10T00:20:32.700771+00:00",
+        "fields": {
+          "lieu_infraction_no_civique": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 16595.0,
+            "mean": 5940.7722,
+            "median": 5605.0,
+            "unique_count": 102,
+            "field_type_detected": "numeric"
+          },
+          "lieu_infraction_rue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "Marquette",
+                "count": 25
+              },
+              {
+                "value": "Grenet",
+                "count": 19
+              },
+              {
+                "value": "Saint-Marc",
+                "count": 15
+              },
+              {
+                "value": "Matte",
+                "count": 15
+              },
+              {
+                "value": "Henri-Bourassa Est",
+                "count": 13
+              },
+              {
+                "value": "Gouin O.",
+                "count": 13
+              },
+              {
+                "value": "De Lille",
+                "count": 12
+              },
+              {
+                "value": "Martial",
+                "count": 11
+              },
+              {
+                "value": "Chaminade",
+                "count": 10
+              },
+              {
+                "value": "Goyer",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "code_arrondissement": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "MN",
+                "count": 84
+              },
+              {
+                "value": "AC",
+                "count": 60
+              },
+              {
+                "value": "CN",
+                "count": 36
+              },
+              {
+                "value": "RO",
+                "count": 34
+              },
+              {
+                "value": "LN",
+                "count": 19
+              },
+              {
+                "value": "VM",
+                "count": 18
+              },
+              {
+                "value": "VY",
+                "count": 18
+              },
+              {
+                "value": "PL",
+                "count": 14
+              },
+              {
+                "value": "ST",
+                "count": 10
+              },
+              {
+                "value": "VE",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_contrevenant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 110,
+            "top_values": [
+              {
+                "value": "Principal, Odalbert",
+                "count": 21
+              },
+              {
+                "value": "Say Chanthea",
+                "count": 17
+              },
+              {
+                "value": "4378962 Canada Inc.",
+                "count": 15
+              },
+              {
+                "value": "Ara Begum, Kismat",
+                "count": 12
+              },
+              {
+                "value": "Rodnez Joseph Frantz",
+                "count": 10
+              },
+              {
+                "value": "Qautrini Angelo Antonio",
+                "count": 10
+              },
+              {
+                "value": "Colagiacomo Filiberto",
+                "count": 9
+              },
+              {
+                "value": "Sabatino Caprera",
+                "count": 8
+              },
+              {
+                "value": "Sutheara Charly Taing",
+                "count": 8
+              },
+              {
+                "value": "9216-3948 Québec Inc\n Extermination Roger",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "article": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 43,
+            "top_values": [
+              {
+                "value": "66",
+                "count": 57
+              },
+              {
+                "value": "12",
+                "count": 41
+              },
+              {
+                "value": "25.1",
+                "count": 34
+              },
+              {
+                "value": "25 al.2 par.10",
+                "count": 33
+              },
+              {
+                "value": "26",
+                "count": 19
+              },
+              {
+                "value": "25 al.2 par.9",
+                "count": 12
+              },
+              {
+                "value": "34",
+                "count": 11
+              },
+              {
+                "value": "25 al. 2 par. 9",
+                "count": 10
+              },
+              {
+                "value": "9",
+                "count": 9
+              },
+              {
+                "value": "60",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "nature_infraction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 120,
+            "top_values": [
+              {
+                "value": "En ayant omis de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du présent règlement.",
+                "count": 18
+              },
+              {
+                "value": "En ayant une partie ou un accessoire d'un bâtiment qui ne rempli pas les fonctions pour lesquelles il a été conçu",
+                "count": 18
+              },
+              {
+                "value": "en ayant une partie ou un accessoire d'un bâtiment qui ne rempli pas les fonctions pour lesquelles il a été conçu",
+                "count": 18
+              },
+              {
+                "value": "en ayant une partie ou un accessoire d'un bâtiment n'étant pas maintenues en bon état (art.25.1)",
+                "count": 16
+              },
+              {
+                "value": "En ayant omis de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du présent règlement",
+                "count": 13
+              },
+              {
+                "value": "en ayant de la moisissure logement",
+                "count": 12
+              },
+              {
+                "value": "en ayant une partie ou un accessoire d'un  bâtiment n'étant pas maintenues en bon état (art.25.1)",
+                "count": 12
+              },
+              {
+                "value": "En ayant une partie constituante d'un bâtiment qui n'a pas été réparée ou remplacée au besoin",
+                "count": 10
+              },
+              {
+                "value": "En ayant de la moisissure logement",
+                "count": 8
+              },
+              {
+                "value": "Étant gestionnaire de parasites en ayant procédé à une extermination de punaises de lit sans avoir fourni à l'autorité compétente dans les 10 jours suivant l'extermination une copie de la déclaration d'inspection préalable prévue au paragraphe 1 du présent règlement.",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_infraction": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "01-03-2023",
+            "max_date": "Entre le 17-05-2017 et le 20-06-2017",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "date_jugement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "01-08-2024",
+            "max_date": "31-10-2025",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "amende_imposee": {
+            "null_count": 2,
+            "null_pct": 0.6,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "675,00 $",
+                "count": 60
+              },
+              {
+                "value": "1 350,00 $",
+                "count": 48
+              },
+              {
+                "value": "250,00 $",
+                "count": 42
+              },
+              {
+                "value": "1 500,00 $",
+                "count": 39
+              },
+              {
+                "value": "500,00 $",
+                "count": 39
+              },
+              {
+                "value": "2 000,00 $",
+                "count": 22
+              },
+              {
+                "value": "400,00 $",
+                "count": 9
+              },
+              {
+                "value": "3 000,00 $",
+                "count": 9
+              },
+              {
+                "value": "750,00 $",
+                "count": 7
+              },
+              {
+                "value": "900,00 $",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Amende",
+    "Condamnation",
+    "Habitation",
+    "Logement",
+    "SH",
+    "Salubrité"
+  ],
+  "web_metadata": {
+    "methodology_text": "Lorsque des situations non conformes aux exigences du Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096) sont constatées, la Ville de Montréal exige que les responsables apportent les correctifs nécessaires afin de se conformer à la réglementation en vigueur. \n\n\nLa Ville peut intenter des poursuites judiciaires contre les personnes morales ou physiques contrevenant à la réglementation (même sans avis préalable) si celles-ci ne se conforment pas au règlement ou n’apportent pas les correctifs demandés dans les délais accordés. De plus, quiconque contrevient à l'une ou l'autre des dispositions du Règlement sur la salubrité, l'entretien et la sécurité des logements (RVM 03-096) est passible d’une amende pouvant aller de 250 $ jusqu’à 6 000 $ pour une personne physique ou de 500$ à 10 000 $ pour une personne morale. \n\n\nLes principales infractions constatées au Règlement sur la salubrité, l’entretien et la sécurité des logements (RVM 03-096) sont : \n\n\n• La présence de moisissures ou de conditions favorisant celles-ci; \n\n\n• La présence de vermine (coquerelles, punaises de lit, souris, etc.);\n\n\n• Les problèmes de structure du bâtiment;\n\n\n• Les problèmes d’étanchéité de l’enveloppe extérieure du bâtiment ou des ouvertures dans celle-ci (portes, fenêtres, etc.);\n\n\n• Les défaillances au niveau des systèmes de plomberie, d’électricité, de ventilation ou de chauffage du bâtiment; \n\n\n• Les problèmes avec les garde-corps et les mains-courantes des escaliers, des rampes et des balcons;\n\n\n• Les défaillances au niveau des mécanismes de verrouillage des portes de bâtiments ou de logements; \n\n\n• Les problèmes dans les espaces communs de l’immeuble (corridors, escaliers, buanderie, garage, etc.);\n\n\n• L'omission de fournir à l'autorité compétente un renseignement ou un document relatif à l'application du règlement. \n\n\nEn 2020 et 2021, la Cour municipale a été fermée et les inspections ont été réduites pendant plusieurs mois, en raison de la pandémie. Il y a donc eu moins de jugements rendus ou de condamnations qu'en 2019 ou 2018.\n\n### Dictionnaire de données\n\n\n\n- lieu_infraction_no_civique (Numérique) : Numéro civique où l'infraction a été commise\n\n- lieu_infraction_rue (Texte variable) : Rue où l'infraction a été commise\n\n- \n\n\ncode_arrondissement (Texte variable) : Code alphanumérique représentant l'arrondissement où l'infraction a été commise\n\n\n- ST: Saint-Laurent\n\n- CN:Côtes-des-Neiges/Notre-Dame-de-Grâce\n\n- VM :Ville-Marie\n\n- MN:Montréal-Nord\n\n- VY:Villeray–Saint-Michel–Parc-Extension\n\n- VE:Verdun\n\n- LN:Lachine\n\n- PL:Le Plateau-Mont-Royal\n\n- HM:Mercier–Hochelaga-Maisonneuve\n\n- RO:Rosemont–La Petite-Patrie\n\n- AC:Ahuntsic-Cartierville\n\n- IG: L'Île-Bizard–Ste-Geneviève\n\n\n\n- \n\n\nnom_contrevenant (Texte variable) : Nom du contrevenant\n\n\n- article (Texte variable) : L'article du règlement RVM 03-096 qui définit l'infraction\n\n- nature_infraction (Texte variable) : Description de la nature de l'infraction\n\n- date_infraction (Date) : Date de l'infraction\n\n- date_jugement (Date) : Date du jugement\n\n- amende_imposee (Numérique) : Montant de l'amende imposée (en CAD)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Couverture temporelle": "2018/",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "Amende",
+      "Condamnation",
+      "Habitation",
+      "Logement",
+      "SH",
+      "Salubrité"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/liste-central-condamnations-salubrite-logements",
+    "scraped_at": "2026-03-09T20:11:49.538490+00:00"
+  }
+}

@@ -1,0 +1,767 @@
+{
+  "slug": "vmtl-quartiers",
+  "title": "Quartiers de référence en habitation",
+  "notes": "Couche géographique découpant le territoire montréalais en entités historiques et analytiques, répondant aux besoins d'analyse en habitation. De plus, ces quartiers sont des milieux de vie relativement homogènes socio-économiquement. \r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "politiques-sociales",
+      "display_name": "Politiques sociales",
+      "mapped": {
+        "name_fr": "Politiques sociales",
+        "name_en": "Social Policy",
+        "icon": "users"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-14T15:03:09.358143",
+  "metadata_modified": "2026-03-04T08:00:46.239841",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "a80e611f-5336-4306-ba2a-fd657f0f00fa",
+      "name": "Quartiers de référence en habitation",
+      "description": "Couche géographique découpant le territoire montréalais en entités historiques et analytiques, répondant aux besoins d'analyse en habitation. De plus, ces quartiers sont des milieux de vie relativement homogènes socio-économiquement. \r\nProjection : WSG84  - EPSG : 4326.\r\n\r\nConsultez le [Portail de la Direction de l'habitation](https://ville.montreal.qc.ca/portal/page?_pageid=9337,112637818&_dad=portal&_schema=PORTAL) pour plus de détails.\r\n\r\n\r\n\r\n\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/f38c91a1-e33f-4475-a112-3b84b1c60c1e/resource/a80e611f-5336-4306-ba2a-fd657f0f00fa/download/quartierreferencehabitation.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-01-13T15:58:14.678619",
+      "created": "2016-01-13T12:01:00.352884",
+      "schema": null
+    },
+    {
+      "id": "6043f2bb-d61e-4b87-9ed1-b41c350fd288",
+      "name": "Quartiers de référence en habitation",
+      "description": "Couche géographique découpant le territoire montréalais en entités historiques et analytiques, répondant aux besoins d'analyse en habitation. De plus, ces quartiers sont des milieux de vie relativement homogènes socio-économiquement. \r\nProjection:  WSG84  - EPSG-4326\r\n\r\n\r\n### Dictionnaire de données\r\n- `no_qr` (Texte variable) : Numéro identifiant les quartiers\r\n- `nom_qr` (Texte variable) : Nom des quartiers (et villes liées)\r\n- `no_arr`(Texte variable) : Numéro d'identification administratif de l'arrondissement\r\n- `nom_arr`(Texte variable) : Nom de l'arrondissement\r\n- `nom_mun`(Texte variable) : Nom de la municipalité",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/f38c91a1-e33f-4475-a112-3b84b1c60c1e/resource/6043f2bb-d61e-4b87-9ed1-b41c350fd288/download/quartierreferencehabitation.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2017-01-13T15:57:28.642107",
+      "created": "2016-11-04T14:58:00.762437",
+      "schema": null
+    },
+    {
+      "id": "1c142277-53f7-4801-9d19-c54acce747d8",
+      "name": "Quartiers de référence en habitation",
+      "description": "Couche géographique découpant le territoire montréalais en entités historiques et analytiques, répondant aux besoins d'analyse en habitation. De plus, ces quartiers sont des milieux de vie relativement homogènes socio-économiquement.\r\n\r\n### Dictionnaire de données\r\n- `no_qr` (Texte variable) : Numéro identifiant les quartiers\r\n- `nom_qr` (Texte variable) : Nom des quartiers (et villes liées)\r\n- `no_arr`(Texte variable) : Numéro d'identification administratif de l'arrondissement\r\n- `nom_arr`(Texte variable) : Nom de l'arrondissement\r\n- `nom_mun`(Texte variable) : Nom de la municipalité",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f38c91a1-e33f-4475-a112-3b84b1c60c1e/resource/1c142277-53f7-4801-9d19-c54acce747d8/download/quartierreferencehabitation.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2017-01-13T15:58:39.410649",
+      "created": "2016-11-04T15:10:25.294500",
+      "schema": {
+        "resource_id": "1c142277-53f7-4801-9d19-c54acce747d8",
+        "total_records": 91,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "no_qr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_qr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "no_arr",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nom_arr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_mun",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "no_qr": "53",
+            "nom_qr": "Rivière-des-Prairies",
+            "no_arr": 33,
+            "nom_arr": "Rivière-des-Prairies–Pointe-aux-Trembles",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 2,
+            "no_qr": "24",
+            "nom_qr": "Beaurivage",
+            "no_arr": 22,
+            "nom_arr": "Mercier–Hochelaga-Maisonneuve",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 3,
+            "no_qr": "23",
+            "nom_qr": "Tétreaultville",
+            "no_arr": 22,
+            "nom_arr": "Mercier–Hochelaga-Maisonneuve",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 4,
+            "no_qr": "22",
+            "nom_qr": "Dupéré",
+            "no_arr": 22,
+            "nom_arr": "Mercier–Hochelaga-Maisonneuve",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 5,
+            "no_qr": "25",
+            "nom_qr": "Guybourg",
+            "no_arr": 22,
+            "nom_arr": "Mercier–Hochelaga-Maisonneuve",
+            "nom_mun": "Montréal"
+          }
+        ]
+      },
+      "field_stats": {
+        "no_qr": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_qr": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "no_arr": {
+          "null_count": 14,
+          "null_pct": 15.4,
+          "populated_pct": 84.6
+        },
+        "nom_arr": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom_mun": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 91,
+        "total_records": 91,
+        "audited_at": "2026-03-10T00:23:00.537989+00:00",
+        "fields": {
+          "no_qr": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 93.0,
+            "mean": 45.4659,
+            "median": 44.5,
+            "unique_count": 88,
+            "field_type_detected": "numeric"
+          },
+          "nom_qr": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 91,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 1
+              },
+              {
+                "value": "Beaurivage",
+                "count": 1
+              },
+              {
+                "value": "Tétreaultville",
+                "count": 1
+              },
+              {
+                "value": "Dupéré",
+                "count": 1
+              },
+              {
+                "value": "Guybourg",
+                "count": 1
+              },
+              {
+                "value": "Longue-Pointe",
+                "count": 1
+              },
+              {
+                "value": "Louis-Riel",
+                "count": 1
+              },
+              {
+                "value": "Marie-Victorin",
+                "count": 1
+              },
+              {
+                "value": "Maisonneuve",
+                "count": 1
+              },
+              {
+                "value": "René-Goupil",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "no_arr": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "min": 5.0,
+            "max": 34.0,
+            "mean": 22.2987,
+            "median": 22.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 9
+              },
+              {
+                "value": "24",
+                "count": 7
+              },
+              {
+                "value": "25",
+                "count": 7
+              },
+              {
+                "value": "34",
+                "count": 7
+              },
+              {
+                "value": "23",
+                "count": 6
+              },
+              {
+                "value": "21",
+                "count": 6
+              },
+              {
+                "value": "20",
+                "count": 5
+              },
+              {
+                "value": "15",
+                "count": 5
+              },
+              {
+                "value": "19",
+                "count": 4
+              },
+              {
+                "value": "16",
+                "count": 4
+              }
+            ]
+          },
+          "nom_arr": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 9
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 7
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 7
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 7
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 6
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 6
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 5
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 5
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 4
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_mun": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 77
+              },
+              {
+                "value": "Montréal-Est",
+                "count": 1
+              },
+              {
+                "value": "Westmount",
+                "count": 1
+              },
+              {
+                "value": "Hampstead",
+                "count": 1
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 1
+              },
+              {
+                "value": "Montréal-Ouest",
+                "count": 1
+              },
+              {
+                "value": "Dorval",
+                "count": 1
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 1
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 1
+              },
+              {
+                "value": "Kirkland",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "58ca829c-ffb6-4cb8-8582-9ff796209fd4",
+      "name": "Nombre de logements dans les quartiers de référence",
+      "description": "Ce fichier comprend le nombre de logements pour chacun des quartiers de référence de la Ville de Montréal. Le nombre de logements est basé sur les données du rôle foncier 2017.\r\n\r\n\r\n### Dictionnaire de données\r\n- `no_qr` : Numéro identifiant les quartiers\r\n- `nom_qr` (Texte variable) : Nom des quartiers (et villes liées)\r\n- `nb_log` : Nombre de logements dans les quartiers",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/f38c91a1-e33f-4475-a112-3b84b1c60c1e/resource/58ca829c-ffb6-4cb8-8582-9ff796209fd4/download/nombrelogementsquartiersreference.csv",
+      "datastore_active": true,
+      "size": 6090,
+      "last_modified": "2026-03-04T06:25:36.528894",
+      "created": "2016-11-09T15:30:59.788227",
+      "schema": {
+        "resource_id": "58ca829c-ffb6-4cb8-8582-9ff796209fd4",
+        "total_records": 91,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "No_QR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_QR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "No_arr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_arr_Montreal",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom_mun",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nb_log",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "No_QR": "01",
+            "Nom_QR": "Cartierville",
+            "No_arr": "23",
+            "Nom_arr_Montreal": "Ahuntsic-Cartierville",
+            "Nom_mun": "Montréal",
+            "Nb_log": "9779"
+          },
+          {
+            "_id": 2,
+            "No_QR": "02",
+            "Nom_QR": "Nouveau-Bordeaux",
+            "No_arr": "23",
+            "Nom_arr_Montreal": "Ahuntsic-Cartierville",
+            "Nom_mun": "Montréal",
+            "Nb_log": "13251"
+          },
+          {
+            "_id": 3,
+            "No_QR": "03",
+            "Nom_QR": "Nicolas-Viel",
+            "No_arr": "23",
+            "Nom_arr_Montreal": "Ahuntsic-Cartierville",
+            "Nom_mun": "Montréal",
+            "Nb_log": "9392"
+          },
+          {
+            "_id": 4,
+            "No_QR": "04",
+            "Nom_QR": "Sault-au-Récollet",
+            "No_arr": "23",
+            "Nom_arr_Montreal": "Ahuntsic-Cartierville",
+            "Nom_mun": "Montréal",
+            "Nb_log": "13094"
+          },
+          {
+            "_id": 5,
+            "No_QR": "05",
+            "Nom_QR": "Saint-Sulpice",
+            "No_arr": "23",
+            "Nom_arr_Montreal": "Ahuntsic-Cartierville",
+            "Nom_mun": "Montréal",
+            "Nb_log": "9167"
+          }
+        ]
+      },
+      "field_stats": {
+        "No_QR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom_QR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "No_arr": {
+          "null_count": 14,
+          "null_pct": 15.4,
+          "populated_pct": 84.6
+        },
+        "Nom_arr_Montreal": {
+          "null_count": 14,
+          "null_pct": 15.4,
+          "populated_pct": 84.6
+        },
+        "Nom_mun": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nb_log": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 91,
+        "total_records": 91,
+        "audited_at": "2026-03-10T00:23:01.355634+00:00",
+        "fields": {
+          "No_QR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 93.0,
+            "mean": 45.4659,
+            "median": 44.5,
+            "unique_count": 88,
+            "field_type_detected": "numeric"
+          },
+          "Nom_QR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 91,
+            "top_values": [
+              {
+                "value": "Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Nouveau-Bordeaux",
+                "count": 1
+              },
+              {
+                "value": "Nicolas-Viel",
+                "count": 1
+              },
+              {
+                "value": "Sault-au-Récollet",
+                "count": 1
+              },
+              {
+                "value": "Saint-Sulpice",
+                "count": 1
+              },
+              {
+                "value": "La Visitation",
+                "count": 1
+              },
+              {
+                "value": "Sainte-Lucie",
+                "count": 1
+              },
+              {
+                "value": "René-Goupil",
+                "count": 1
+              },
+              {
+                "value": "Gabriel-Sagard",
+                "count": 1
+              },
+              {
+                "value": "François-Perrault",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "No_arr": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "min": 5.0,
+            "max": 34.0,
+            "mean": 22.2987,
+            "median": 22.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 9
+              },
+              {
+                "value": "25",
+                "count": 7
+              },
+              {
+                "value": "24",
+                "count": 7
+              },
+              {
+                "value": "34",
+                "count": 7
+              },
+              {
+                "value": "23",
+                "count": 6
+              },
+              {
+                "value": "21",
+                "count": 6
+              },
+              {
+                "value": "20",
+                "count": 5
+              },
+              {
+                "value": "15",
+                "count": 5
+              },
+              {
+                "value": "19",
+                "count": 4
+              },
+              {
+                "value": "16",
+                "count": 4
+              }
+            ]
+          },
+          "Nom_arr_Montreal": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Mercier–Hochelaga-Maisonneuve",
+                "count": 9
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 7
+              },
+              {
+                "value": "Rosemont–La Petite-Patrie",
+                "count": 7
+              },
+              {
+                "value": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 7
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 6
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 6
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 5
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 5
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 4
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nom_mun": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 77
+              },
+              {
+                "value": "Montréal-Est",
+                "count": 1
+              },
+              {
+                "value": "Westmount",
+                "count": 1
+              },
+              {
+                "value": "Hampstead",
+                "count": 1
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 1
+              },
+              {
+                "value": "Montréal-Ouest",
+                "count": 1
+              },
+              {
+                "value": "Dorval",
+                "count": 1
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 1
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 1
+              },
+              {
+                "value": "Baie-D'Urfé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Nb_log": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 396.0,
+            "max": 27912.0,
+            "mean": 10966.8681,
+            "median": 9779.0,
+            "unique_count": 91,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Habitation",
+    "Milieu de vie",
+    "Quartier",
+    "Référence",
+    "SH",
+    "Territoire",
+    "Urbanisme"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les quartiers de référence sont issus des anciens quartiers de planification des années 1980 de la ville de Montréal, avec de légères modifications permettant de respecter des délimitations des arrondissements.\nLes arrondissements qui se sont joints à la ville de Montréal en 2001 ont contribué à la définition des quartiers.  \n\n\nLes villes liées sont intégralement présentes dans la couche vectorielle afin de permettre des analyses thématiques à l'échelle de l'agglomération.\n\n### Dictionnaire de données\n\n\n\nQUARTIERS DE RÉFÉRENCE\n\n\n- no_qr (Numérique) : Numéro identifiant les quartiers\n\n- nom_qr (Texte variable) : Nom des quartiers (et villes liées)\n\n- no_arr(Numérique) : Numéro d'identification administratif de l'arrondissement\n\n- nom_arr(Texte variable) : Nom de l'arrondissement\n\n- nom_mun(Texte variable) : Nom de la municipalité\n\n\n\nSTATISTIQUES (NOMBRE DE LOGEMENTS)\n\n\n- No_QR(Numérique) : Numéro identifiant des quartiers\n\n- Nom_QR (Texte variable) : Nom des quartiers (et villes liées)\n\n- No_arr(Numérique) : Numéro identifiant des arrondissements\n\n- Nom_arr_Montreal(Texte variable) : Nom d'arrondissement\n\n- Nom_mun(Texte variable) : Nom de la municipalité\n\n- Nb_log (Numérique) : Nombre de logements par quartiers\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Habitation",
+      "Milieu de vie",
+      "Quartier",
+      "Référence",
+      "SH",
+      "Territoire",
+      "Urbanisme"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/quartiers",
+    "scraped_at": "2026-03-09T20:16:26.733532+00:00"
+  }
+}

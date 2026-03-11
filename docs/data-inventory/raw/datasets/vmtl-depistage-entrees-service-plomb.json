@@ -1,0 +1,512 @@
+{
+  "slug": "vmtl-depistage-entrees-service-plomb",
+  "title": "Résultats du dépistage des entrées de service en plomb réalisé par un Palintest",
+  "notes": "Cet ensemble de données présente les résultats du dépistage par Palintest permettant de détecter la présence ou l’absence d’une entrée d’eau en plomb.\r\n\r\nL’eau potable distribuée à Montréal est d’excellente qualité. Toutefois, la tuyauterie de certains bâtiments contient du plomb qui peut se dissoudre et se retrouver dans l'eau du robinet.\r\n\r\nPour plus d’information, visitez [montreal.ca et cherchez « plomb »](https://montreal.ca/recherche?q=plomb).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2020-10-20T13:27:34.244890",
+  "metadata_modified": "2026-03-09T10:01:58.485495",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "ebceda9f-8ddb-4e1e-b707-66f00e0b8daa",
+      "name": "Carte interactive",
+      "description": "",
+      "format": "WEB",
+      "url": "https://services.montreal.ca/presence-plomb/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-11-23T20:59:56.426451",
+      "schema": null
+    },
+    {
+      "id": "dd23658a-23d3-428e-adda-f76b62cbd144",
+      "name": "Résultats du dépistage des entrées de service en plomb",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/0b871076-93d3-4247-9f04-21495fd2bee4/resource/dd23658a-23d3-428e-adda-f76b62cbd144/download/resultats-depistage-entrees-service-plomb.csv",
+      "datastore_active": true,
+      "size": 11824680,
+      "last_modified": "2026-03-09T08:31:58.167734",
+      "created": "2020-10-20T13:29:14.599189",
+      "schema": {
+        "resource_id": "dd23658a-23d3-428e-adda-f76b62cbd144",
+        "total_records": 111333,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_depistage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "id_branchement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresses",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut_resultat",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test1_type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test1_temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test1_palintest",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test2_type",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test2_temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "test2_palintest",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_depistage": "161",
+            "id_branchement": "161",
+            "adresses": "2264 - 2266 avenue Old Orchard",
+            "statut_resultat": "60",
+            "date": "2020-06-26 17:05:34-04",
+            "test1_type": "2",
+            "test1_temperature": "20.8",
+            "test1_palintest": "8",
+            "test2_type": "1",
+            "test2_temperature": "20.6",
+            "test2_palintest": "6",
+            "longitude": "-73.612167",
+            "latitude": "45.471514"
+          },
+          {
+            "_id": 2,
+            "id_depistage": "203",
+            "id_branchement": "203",
+            "adresses": "2236 - 2240 avenue Old Orchard",
+            "statut_resultat": "15",
+            "date": "2020-06-29 09:43:30-04",
+            "test1_type": "2",
+            "test1_temperature": "24",
+            "test1_palintest": "2",
+            "test2_type": "1",
+            "test2_temperature": "20.7",
+            "test2_palintest": "2",
+            "longitude": "-73.611738",
+            "latitude": "45.47132"
+          },
+          {
+            "_id": 3,
+            "id_depistage": "243",
+            "id_branchement": "243",
+            "adresses": "10144 - 10146 avenue Millen",
+            "statut_resultat": "25",
+            "date": "2020-06-29 11:08:43-04",
+            "test1_type": "2",
+            "test1_temperature": "21.9",
+            "test1_palintest": "3",
+            "test2_type": "1",
+            "test2_temperature": "22.1",
+            "test2_palintest": "2",
+            "longitude": "-73.65914",
+            "latitude": "45.553991"
+          },
+          {
+            "_id": 4,
+            "id_depistage": "286",
+            "id_branchement": "286",
+            "adresses": "5520 rue D'Iberville",
+            "statut_resultat": "15",
+            "date": "2020-06-29 11:56:39-04",
+            "test1_type": "2",
+            "test1_temperature": "23",
+            "test1_palintest": "1",
+            "test2_type": "1",
+            "test2_temperature": "22",
+            "test2_palintest": "1",
+            "longitude": "-73.579923",
+            "latitude": "45.543571"
+          },
+          {
+            "_id": 5,
+            "id_depistage": "294",
+            "id_branchement": "294",
+            "adresses": "10435 - 10437 avenue Saint-Charles",
+            "statut_resultat": "15",
+            "date": "2020-06-29 12:07:01-04",
+            "test1_type": "2",
+            "test1_temperature": "24.6",
+            "test1_palintest": "1",
+            "test2_type": "1",
+            "test2_temperature": "22.9",
+            "test2_palintest": "1",
+            "longitude": "-73.661665",
+            "latitude": "45.558579"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_depistage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "id_branchement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresses": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut_resultat": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "test1_type": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "test1_temperature": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "test1_palintest": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "test2_type": {
+          "null_count": 39996,
+          "null_pct": 35.9,
+          "populated_pct": 64.1
+        },
+        "test2_temperature": {
+          "null_count": 39903,
+          "null_pct": 35.8,
+          "populated_pct": 64.2
+        },
+        "test2_palintest": {
+          "null_count": 39913,
+          "null_pct": 35.9,
+          "populated_pct": 64.1
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 111333,
+        "audited_at": "2026-03-10T00:18:06.387082+00:00",
+        "fields": {
+          "id_depistage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 10700.0,
+            "mean": 4333.374,
+            "median": 4196.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "id_branchement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19.0,
+            "max": 10700.0,
+            "mean": 4333.374,
+            "median": 4196.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "adresses": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 993,
+            "top_values": [
+              {
+                "value": "2348 rue Magnan",
+                "count": 2
+              },
+              {
+                "value": "2158 - 2192 place de Dublin",
+                "count": 2
+              },
+              {
+                "value": "7918 rue Durocher",
+                "count": 2
+              },
+              {
+                "value": "675 - 677 25e Avenue",
+                "count": 2
+              },
+              {
+                "value": "7961 - 7963 avenue Candes",
+                "count": 2
+              },
+              {
+                "value": "625 rue Bourgeoys",
+                "count": 2
+              },
+              {
+                "value": "4770 rue Sir-George-Simpson",
+                "count": 2
+              },
+              {
+                "value": "2264 - 2266 avenue Old Orchard",
+                "count": 1
+              },
+              {
+                "value": "2236 - 2240 avenue Old Orchard",
+                "count": 1
+              },
+              {
+                "value": "10144 - 10146 avenue Millen",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "statut_resultat": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 15.0,
+            "max": 999.0,
+            "mean": 35.594,
+            "median": 15.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "15",
+                "count": 529
+              },
+              {
+                "value": "60",
+                "count": 426
+              },
+              {
+                "value": "25",
+                "count": 44
+              },
+              {
+                "value": "999",
+                "count": 1
+              }
+            ]
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-06-12 03:50:03-04",
+            "max_date": "2020-07-31 09:56:07-04",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "test1_type": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.494,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 506
+              },
+              {
+                "value": "2",
+                "count": 494
+              }
+            ]
+          },
+          "test1_temperature": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 15.8,
+            "max": 33.4,
+            "mean": 23.5815,
+            "median": 23.6,
+            "unique_count": 119,
+            "field_type_detected": "numeric"
+          },
+          "test1_palintest": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 99.0,
+            "mean": 5.3668,
+            "median": 2.0,
+            "unique_count": 140,
+            "field_type_detected": "numeric"
+          },
+          "test2_type": {
+            "null_count": 371,
+            "null_pct": 37.1,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.496,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 317
+              },
+              {
+                "value": "2",
+                "count": 312
+              }
+            ]
+          },
+          "test2_temperature": {
+            "null_count": 365,
+            "null_pct": 36.5,
+            "min": 16.7,
+            "max": 33.5,
+            "mean": 23.5677,
+            "median": 23.6,
+            "unique_count": 100,
+            "field_type_detected": "numeric"
+          },
+          "test2_palintest": {
+            "null_count": 365,
+            "null_pct": 36.5,
+            "min": 1.0,
+            "max": 16.0,
+            "mean": 1.6898,
+            "median": 1.0,
+            "unique_count": 36,
+            "field_type_detected": "numeric"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.733787,
+            "max": -73.489579,
+            "mean": -73.599062,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.416713,
+            "max": 45.690465,
+            "mean": 45.502531,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aqueduc",
+    "Eau",
+    "SE",
+    "Santé publique"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les dépistages ont été effectués avec un appareil portatif, le Palintest®, selon un protocole développé exclusivement pour détecter la présence d’une entrée d'eau en plomb dans le contexte de la Ville de Montréal. La disponibilité immédiate des résultats de ce test facilite la planification de nos interventions. Cette méthode n’est toutefois pas celle exigée par le Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs, dont le Règlement sur la qualité de l’eau potable précise que seules les analyses réalisées dans un laboratoire accrédité peuvent être reconnues pour juger si l’eau respecte les critères de qualité imposés.\n\n\nLes résultats présentés sont basés sur l’ensemble des opérations de dépistage réalisées entre 2007 et aujourd'hui sur le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2007/",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Aqueduc",
+      "Eau",
+      "SE",
+      "Santé publique"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/depistage-entrees-service-plomb",
+    "scraped_at": "2026-03-09T19:56:25.884204+00:00"
+  }
+}

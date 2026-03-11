@@ -1,0 +1,1251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MTL Pulse — Complete Dataset Schema Reference",
+  "description": "Comprehensive mapping of every dataset ingested by MTL Pulse: open data sources, API details, raw field mappings, database schemas, pipeline schedules, and computed metrics.",
+  "generated": "2026-03-11",
+  "version": "1.0.0",
+
+  "infrastructure": {
+    "database": "PostgreSQL 16 via Drizzle ORM",
+    "framework": "Next.js 14 (App Router)",
+    "hosting": "Vercel",
+    "ai": "Anthropic Claude (Sonnet) for digests",
+    "openDataPortal": "donnees.montreal.ca (CKAN 2.10 via Données Québec)",
+    "ckanApiBase": "https://data.montreal.ca/api/3/action",
+    "ckanPageSize": 1000,
+    "ckanRequestDelay": 500
+  },
+
+  "enums": {
+    "snapshot_status": ["success", "error"],
+    "pipeline_run_status": ["running", "success", "failed"],
+    "digest_type": ["daily", "weekly", "borough"],
+    "digest_language": ["fr", "en"]
+  },
+
+  "boroughs": {
+    "AHU": { "name": "Ahuntsic-Cartierville", "population": 134245, "centroid": [45.55, -73.66] },
+    "ANJ": { "name": "Anjou", "population": 44040, "centroid": [45.61, -73.55] },
+    "CDN": { "name": "Côte-des-Neiges–Notre-Dame-de-Grâce", "population": 165031, "centroid": [45.49, -73.62] },
+    "IBI": { "name": "L'Île-Bizard–Sainte-Geneviève", "population": 18410, "centroid": [45.47, -73.88] },
+    "LAC": { "name": "Lachine", "population": 44489, "centroid": [45.44, -73.68] },
+    "LSL": { "name": "LaSalle", "population": 79860, "centroid": [45.42, -73.58] },
+    "PLA": { "name": "Le Plateau-Mont-Royal", "population": 104000, "centroid": [45.53, -73.58] },
+    "LSO": { "name": "Le Sud-Ouest", "population": 78151, "centroid": [45.45, -73.58] },
+    "MHM": { "name": "Mercier–Hochelaga-Maisonneuve", "population": 136024, "centroid": [45.55, -73.55] },
+    "MTN": { "name": "Montréal-Nord", "population": 84234, "centroid": [45.60, -73.64] },
+    "OUT": { "name": "Outremont", "population": 23566, "centroid": [45.52, -73.61] },
+    "PFD": { "name": "Pierrefonds-Roxboro", "population": 69297, "centroid": [45.48, -73.78] },
+    "RPP": { "name": "Rivière-des-Prairies–Pointe-aux-Trembles", "population": 107175, "centroid": [45.64, -73.52] },
+    "RDP": { "name": "Rosemont–La Petite-Patrie", "population": 139590, "centroid": [45.55, -73.59] },
+    "SLR": { "name": "Saint-Laurent", "population": 98828, "centroid": [45.52, -73.67] },
+    "SLE": { "name": "Saint-Léonard", "population": 79979, "centroid": [45.58, -73.60] },
+    "VER": { "name": "Verdun", "population": 69229, "centroid": [45.46, -73.57] },
+    "VSP": { "name": "Villeray–Saint-Michel–Parc-Extension", "population": 142222, "centroid": [45.55, -73.62] },
+    "VMA": { "name": "Ville-Marie", "population": 89170, "centroid": [45.51, -73.57] }
+  },
+
+  "datasets": {
+
+    "crime_incidents": {
+      "displayName": "Criminal Acts (Actes criminels)",
+      "description": "Criminal acts reported to the SPVM (Service de police de la Ville de Montréal). Includes category of crime, date, shift, police district (PDQ), and location.",
+      "pipelineName": "actes_criminels",
+      "tableName": "crime_incidents",
+      "source": {
+        "organization": "Ville de Montréal / SPVM",
+        "portalSlug": "vmtl-actes-criminels",
+        "resourceId": "c6f482bf-bf0f-4960-8b2f-9982c211addd",
+        "fetchMethod": "CKAN DataStore SQL",
+        "apiUrl": "https://data.montreal.ca/api/3/action/datastore_search_sql",
+        "format": "JSON",
+        "estimatedRows": 342316,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 11 * * *",
+        "scheduleType": "daily",
+        "expectedHoursInterval": 24,
+        "description": "Daily at 6AM ET (11:00 UTC)"
+      },
+      "backfillStrategy": "5 years on first run, incremental after",
+      "sourceFields": [
+        { "name": "DATE", "type": "string", "description": "Incident date (YYYY-MM-DD)" },
+        { "name": "CATEGORIE", "type": "string", "description": "Crime category (e.g., Vol, Méfait, Introduction)" },
+        { "name": "QUART", "type": "string", "description": "Shift (jour, soir, nuit)" },
+        { "name": "PDQ", "type": "integer", "description": "Police district number (maps to borough)" },
+        { "name": "LATITUDE", "type": "number", "description": "Latitude coordinate" },
+        { "name": "LONGITUDE", "type": "number", "description": "Longitude coordinate" },
+        { "name": "X", "type": "number", "description": "MTM X coordinate" },
+        { "name": "Y", "type": "number", "description": "MTM Y coordinate" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(200)", "unique": true, "description": "Generated from DATE+CATEGORIE+PDQ+LAT+LNG" },
+          { "name": "category", "dbColumn": "category", "type": "varchar(100)", "notNull": true, "description": "Crime category" },
+          { "name": "incidentDate", "dbColumn": "incident_date", "type": "date", "notNull": true },
+          { "name": "shift", "dbColumn": "shift", "type": "varchar(20)", "description": "jour/soir/nuit" },
+          { "name": "pdq", "dbColumn": "pdq", "type": "integer", "description": "Police district number" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "description": "Derived from PDQ via lookup table" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb", "description": "Full original record" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_crime_date", "columns": ["incident_date"] },
+          { "name": "idx_crime_borough", "columns": ["borough_code"] },
+          { "name": "idx_crime_category", "columns": ["category"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "crime_count_daily", "description": "Total crimes on a given day", "period": "daily", "boroughAware": true },
+        { "name": "crime_count_7d", "description": "Crime count over rolling 7-day window with previous 7d comparison", "period": "daily", "boroughAware": true },
+        { "name": "crime_delta_vs_prev_7d", "description": "Percentage change in crime this week vs previous week", "period": "daily", "boroughAware": true },
+        { "name": "crime_vs_30d_avg", "description": "Current week crime count as ratio of 30-day daily average * 7", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "travaux": {
+      "displayName": "Road Works & Construction (Info-Travaux)",
+      "description": "Active road obstructions and construction work projects across Montreal. Tracks permits with start/end dates, responsible organizations, and affected streets.",
+      "pipelineName": "info_travaux",
+      "tableName": "travaux",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-info-travaux",
+        "resourceId": "cc41b532-f12d-40fb-9f55-eb58c9a2b12b",
+        "packageId": "info-travaux",
+        "fetchMethod": "CKAN Package → CSV download",
+        "format": "CSV",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 */6 * * *",
+        "scheduleType": "every_6h",
+        "expectedHoursInterval": 6,
+        "description": "Every 6 hours"
+      },
+      "backfillStrategy": "Full download each run (CSV contains all active works)",
+      "sourceFields": [
+        { "name": "id", "type": "string", "description": "Internal record ID" },
+        { "name": "permit_permit_id", "type": "string", "description": "Permit identifier" },
+        { "name": "boroughid", "type": "string", "description": "Borough identifier" },
+        { "name": "permitcategory", "type": "string", "description": "Permit category" },
+        { "name": "currentstatus", "type": "string", "description": "Current status (Actif, En cours, etc.)" },
+        { "name": "duration_start_date", "type": "string", "description": "Work start date" },
+        { "name": "duration_end_date", "type": "string", "description": "Work end date" },
+        { "name": "occupancy_name", "type": "string", "description": "Street / occupancy name" },
+        { "name": "reason_category", "type": "string", "description": "Reason for work" },
+        { "name": "submittercategory", "type": "string", "description": "Submitter category" },
+        { "name": "organizationname", "type": "string", "description": "Responsible organization" },
+        { "name": "longitude", "type": "number" },
+        { "name": "latitude", "type": "number" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(100)", "unique": true, "notNull": true, "description": "permit_permit_id or internal id" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "description": "Derived via findBoroughCode()" },
+          { "name": "category", "dbColumn": "category", "type": "varchar(100)" },
+          { "name": "status", "dbColumn": "status", "type": "varchar(100)" },
+          { "name": "startDate", "dbColumn": "start_date", "type": "date" },
+          { "name": "endDate", "dbColumn": "end_date", "type": "date" },
+          { "name": "street", "dbColumn": "street", "type": "varchar(500)" },
+          { "name": "organizationName", "dbColumn": "organization_name", "type": "varchar(500)" },
+          { "name": "firstSeenAt", "dbColumn": "first_seen_at", "type": "timestamp", "default": "now()" },
+          { "name": "lastSeenAt", "dbColumn": "last_seen_at", "type": "timestamp", "default": "now()" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_travaux_external", "columns": ["external_id"] },
+          { "name": "idx_travaux_borough", "columns": ["borough_code"] },
+          { "name": "idx_travaux_dates", "columns": ["start_date", "end_date"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "active_travaux_count", "description": "Count of currently active construction works (status like actif/active/en cours/ouvert, end_date >= today)", "period": "daily", "boroughAware": true },
+        { "name": "new_travaux_today", "description": "New works first seen today", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "construction_permits": {
+      "displayName": "Building Permits (Permis de construction)",
+      "description": "Building permits issued by the city of Montreal. Includes permit type (construction, transformation, demolition, certificate), estimated cost, building type, and location.",
+      "pipelineName": "permis_construction",
+      "tableName": "construction_permits",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-permis-construction",
+        "resourceId": "5232a72d-235a-48eb-ae20-bb9d501300ad",
+        "packageId": "permis-construction",
+        "fetchMethod": "CKAN DataStore SQL (NOT the 172MB full CSV)",
+        "format": "JSON",
+        "estimatedRows": 548077,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 5 * * 0",
+        "scheduleType": "weekly",
+        "expectedHoursInterval": 168,
+        "description": "Weekly on Sunday at midnight ET (05:00 UTC)"
+      },
+      "backfillStrategy": "5 years on first run",
+      "sourceFields": [
+        { "name": "no_demande", "type": "string", "description": "Permit request number" },
+        { "name": "date_emission", "type": "string", "description": "Date issued (YYYY-MM-DD)" },
+        { "name": "latitude/LATITUDE", "type": "number" },
+        { "name": "longitude/LONGITUDE", "type": "number" },
+        { "name": "arrondissement/ARRONDISSEMENT", "type": "string", "description": "Borough name" },
+        { "name": "code_type_base_demande", "type": "string", "description": "Permit type code (CO/TR/DE/CA)" },
+        { "name": "description_type_batiment", "type": "string", "description": "Building type description" },
+        { "name": "nature_travaux", "type": "string", "description": "Nature of work" },
+        { "name": "nb_logements", "type": "integer", "description": "Number of units" },
+        { "name": "cout_travaux_estimes", "type": "number", "description": "Estimated cost in CAD" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "permitNumber", "dbColumn": "permit_number", "type": "varchar(50)", "unique": true },
+          { "name": "dateIssued", "dbColumn": "date_issued", "type": "date", "notNull": true },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "permitType", "dbColumn": "permit_type", "type": "varchar(20)", "description": "CO=Construction, TR=Transformation, DE=Demolition, CA=Certificate" },
+          { "name": "buildingType", "dbColumn": "building_type", "type": "varchar(200)" },
+          { "name": "natureTravaux", "dbColumn": "nature_travaux", "type": "text" },
+          { "name": "numUnits", "dbColumn": "num_units", "type": "integer" },
+          { "name": "estimatedCost", "dbColumn": "estimated_cost", "type": "numeric", "description": "In CAD" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_permits_date", "columns": ["date_issued"] },
+          { "name": "idx_permits_borough", "columns": ["borough_code"] }
+        ],
+        "upsertConflictKey": "permit_number"
+      },
+      "permitTypeCodes": {
+        "CO": { "fr": "Construction", "en": "Construction" },
+        "TR": { "fr": "Transformation", "en": "Transformation" },
+        "DE": { "fr": "Démolition", "en": "Demolition" },
+        "CA": { "fr": "Certificat", "en": "Certificate" }
+      },
+      "computedMetrics": [
+        { "name": "permits_count_week", "description": "Number of permits issued this week vs previous week", "period": "weekly", "boroughAware": true },
+        { "name": "permits_total_value_week", "description": "Total estimated cost of permits this week in CAD", "period": "weekly", "boroughAware": true }
+      ]
+    },
+
+    "road_obstructions": {
+      "displayName": "Road Obstructions (Entraves à la circulation — CIFS)",
+      "description": "Real-time road obstructions from the CIFS (Common Incident Feed Standard) feed. Full replace on each fetch — represents current state of road closures, detours, and obstructions.",
+      "pipelineName": "entraves_circulation",
+      "tableName": "road_obstructions",
+      "source": {
+        "organization": "Ville de Montréal",
+        "fetchMethod": "REST API (JSON)",
+        "apiUrl": "https://api.montreal.ca/api/transportation/traffic-events-api/v1/export-cifs?type=json",
+        "format": "JSON (CIFS)",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 * * * *",
+        "scheduleType": "hourly",
+        "expectedHoursInterval": 2,
+        "description": "Hourly"
+      },
+      "backfillStrategy": "FULL REPLACE — deletes all rows and reinserts on every run. Previous state archived in obstruction_snapshots.",
+      "sourceFields": [
+        { "name": "id", "type": "string", "description": "CIFS event ID" },
+        { "name": "starttime/start_time", "type": "string", "description": "Obstruction start time" },
+        { "name": "endtime/end_time", "type": "string", "description": "Obstruction end time" },
+        { "name": "street", "type": "string", "description": "Affected street" },
+        { "name": "direction", "type": "string", "description": "Direction of traffic impact" },
+        { "name": "arrondissement", "type": "string", "description": "Borough" },
+        { "name": "type", "type": "string", "description": "Obstruction type" },
+        { "name": "subtype", "type": "string", "description": "Obstruction subtype" },
+        { "name": "description", "type": "string", "description": "Free-text description" },
+        { "name": "location.polyline", "type": "string", "description": "Comma-separated lat/lng pairs" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "sourceId", "dbColumn": "source_id", "type": "varchar(100)", "unique": true },
+          { "name": "startTime", "dbColumn": "start_time", "type": "timestamp" },
+          { "name": "endTime", "dbColumn": "end_time", "type": "timestamp" },
+          { "name": "street", "dbColumn": "street", "type": "varchar(300)" },
+          { "name": "direction", "dbColumn": "direction", "type": "varchar(50)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "obstructionType", "dbColumn": "obstruction_type", "type": "text" },
+          { "name": "subtype", "dbColumn": "subtype", "type": "text" },
+          { "name": "description", "dbColumn": "description", "type": "text" },
+          { "name": "status", "dbColumn": "status", "type": "varchar(30)" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_obstructions_source", "columns": ["source_id"] },
+          { "name": "idx_obstructions_borough", "columns": ["borough_code"] },
+          { "name": "idx_obstructions_fetched", "columns": ["fetched_at"] }
+        ]
+      },
+      "computedMetrics": [
+        { "name": "active_obstructions", "description": "Total current road obstructions", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "requests_311": {
+      "displayName": "311 Service Requests (Requêtes 311)",
+      "description": "Citizen service requests submitted via 311. Tracks nature of request, type, status, borough, creation date and closure date. Covers all municipal services (potholes, graffiti, noise complaints, etc.).",
+      "pipelineName": "requetes_311",
+      "tableName": "requests_311",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-requete-311",
+        "resourceId": "2cfa0e06-9be4-49a6-b7f1-ee9f2363a872",
+        "packageId": "requete-311",
+        "fetchMethod": "CKAN DataStore SQL",
+        "format": "JSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 5 * * 0",
+        "scheduleType": "weekly",
+        "expectedHoursInterval": 168,
+        "description": "Weekly on Sunday at midnight ET"
+      },
+      "backfillStrategy": "5 years on first run, incremental 7 days after",
+      "sourceFields": [
+        { "name": "ID_UNIQUE", "type": "string", "description": "Unique request ID" },
+        { "name": "NATURE", "type": "string", "description": "Request nature (e.g., Propreté, Éclairage)" },
+        { "name": "ACTI_NOM", "type": "string", "description": "Activity name / request type" },
+        { "name": "ARRONDISSEMENT", "type": "string", "description": "Borough name" },
+        { "name": "ARRONDISSEMENT_GEO", "type": "string", "description": "Geographic borough code" },
+        { "name": "DDS_DATE_CREATION", "type": "string", "description": "Request creation date" },
+        { "name": "DERNIER_STATUT", "type": "string", "description": "Latest status (e.g., Terminée, En traitement)" },
+        { "name": "DATE_DERNIER_STATUT", "type": "string", "description": "Date of latest status change" },
+        { "name": "LOC_LAT", "type": "number" },
+        { "name": "LOC_LONG", "type": "number" },
+        { "name": "LOC_X", "type": "number", "description": "Quebec projection X (fallback)" },
+        { "name": "LOC_Y", "type": "number", "description": "Quebec projection Y (fallback)" },
+        { "name": "LOCATION", "type": "object", "description": "Nested object with lat/lng (alternative)" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "requestId", "dbColumn": "request_id", "type": "varchar(100)", "unique": true },
+          { "name": "nature", "dbColumn": "nature", "type": "varchar(100)" },
+          { "name": "requestType", "dbColumn": "request_type", "type": "varchar(200)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "status", "dbColumn": "status", "type": "varchar(100)", "description": "Terminée, Annulée, Refusée = closed" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "closedAt", "dbColumn": "closed_at", "type": "timestamp", "description": "Set when status is 'Fermé' or contains 'terminée'" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_311_created", "columns": ["created_at"] },
+          { "name": "idx_311_borough", "columns": ["borough_code"] },
+          { "name": "idx_311_nature", "columns": ["nature"] }
+        ],
+        "upsertConflictKey": "request_id"
+      },
+      "closedStatuses": ["Terminée", "Annulée", "Refusée"],
+      "computedMetrics": [
+        { "name": "requests_311_new_today", "description": "New 311 requests created today", "period": "daily", "boroughAware": true },
+        { "name": "requests_311_open", "description": "Total open (non-closed) 311 requests", "period": "daily", "boroughAware": true },
+        { "name": "requests_311_avg_resolution_days", "description": "Average resolution time in days (closedAt - createdAt)", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "fire_interventions": {
+      "displayName": "Fire Interventions (Interventions du SIM)",
+      "description": "Fire department (Service de sécurité incendie de Montréal) interventions. Includes incident type, station, number of units dispatched, and location.",
+      "pipelineName": "fire_interventions",
+      "tableName": "fire_interventions",
+      "source": {
+        "organization": "Ville de Montréal / SIM",
+        "portalSlug": "vmtl-interventions-service-securite-incendie-montreal",
+        "resourceId": "71e86320-e35c-4b4c-878a-e52124294355",
+        "fetchMethod": "CKAN DataStore SQL",
+        "format": "JSON",
+        "estimatedRows": 908486,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 11 * * *",
+        "scheduleType": "daily",
+        "expectedHoursInterval": 24,
+        "description": "Daily at 6AM ET"
+      },
+      "backfillStrategy": "5 years on first run",
+      "sourceFields": [
+        { "name": "INCIDENT_NBR", "type": "string", "description": "Incident number" },
+        { "name": "CREATION_DATE_TIME", "type": "string", "description": "Incident datetime" },
+        { "name": "DESCRIPTION_GROUPE/INCIDENT_TYPE_DESC", "type": "string", "description": "Incident type" },
+        { "name": "CASERNE", "type": "string", "description": "Fire station number" },
+        { "name": "NOM_ARROND", "type": "string", "description": "Borough name" },
+        { "name": "NOMBRE_UNITES", "type": "integer", "description": "Number of units dispatched" },
+        { "name": "LATITUDE", "type": "number" },
+        { "name": "LONGITUDE", "type": "number" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(50)", "unique": true, "description": "INCIDENT_NBR|CREATION_DATE_TIME|LAT|LNG" },
+          { "name": "incidentType", "dbColumn": "incident_type", "type": "varchar(100)" },
+          { "name": "incidentDate", "dbColumn": "incident_date", "type": "date", "notNull": true },
+          { "name": "station", "dbColumn": "station", "type": "varchar(20)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "numUnits", "dbColumn": "num_units", "type": "integer" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_fire_date", "columns": ["incident_date"] },
+          { "name": "idx_fire_borough", "columns": ["borough_code"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "fire_interventions_7d", "description": "Fire interventions in rolling 7-day window", "period": "daily", "boroughAware": true },
+        { "name": "fire_false_alarm_rate", "description": "Percentage of interventions that are false alarms (type LIKE '%fausses alertes%')", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "pothole_repairs": {
+      "displayName": "Pothole Repairs (Réfection de chaussée — nids-de-poule)",
+      "description": "Mechanized pothole filling operations. Data comes from multiple yearly resources (2016-2020); 2021+ is GPKG-only and not currently processed.",
+      "pipelineName": "pothole_repairs",
+      "tableName": "pothole_repairs",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-refection-de-chaussee-par-remplissage-mecanise-de-nid-de-poule",
+        "resourceIds": {
+          "2020": "1fd93da8-08bc-4ff3-a233-2917eaeab6c6",
+          "2019": "c3d11c03-17d2-4909-9c45-a4d5e0050816",
+          "2018": "b6dbc325-bec5-4d51-876e-4a54fd6bd563",
+          "2017": "db9f7ad5-63fb-48a8-a282-8276367383e9",
+          "2016": "bfb60be3-22d0-43db-8795-19d28dab1d76"
+        },
+        "fetchMethod": "CKAN DataStore SQL (multiple yearly resources)",
+        "format": "JSON",
+        "license": "CC-BY 4.0",
+        "notes": "2021+ data is GPKG-only format, not currently processed"
+      },
+      "schedule": {
+        "cronExpression": "0 11 * * *",
+        "scheduleType": "daily",
+        "expectedHoursInterval": 24,
+        "description": "Daily at 6AM ET (seasonal spring focus)"
+      },
+      "backfillStrategy": "All available years",
+      "sourceFields": [
+        { "name": "DateJour", "type": "string", "description": "Repair date" },
+        { "name": "Appareil", "type": "string", "description": "Vehicle/equipment ID" },
+        { "name": "Latitude", "type": "number" },
+        { "name": "Longitude", "type": "number" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "repairDate", "dbColumn": "repair_date", "type": "date", "notNull": true },
+          { "name": "vehicleId", "dbColumn": "vehicle_id", "type": "varchar(30)" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "description": "Not in source data; would need geocoding" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_potholes_date", "columns": ["repair_date"] },
+          { "name": "idx_potholes_borough", "columns": ["borough_code"] }
+        ]
+      },
+      "computedMetrics": [
+        { "name": "potholes_repaired_ytd", "description": "Total potholes repaired year-to-date", "period": "ytd", "boroughAware": true },
+        { "name": "potholes_repaired_7d", "description": "Potholes repaired in rolling 7-day window", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "snow_towings": {
+      "displayName": "Snow Towings (Remorquages de véhicules)",
+      "description": "Vehicle towing records during snow removal operations. Seasonal (winter). Includes reason, location, sector. Pre-November 2015 data has no GPS coordinates.",
+      "pipelineName": "remorquages",
+      "tableName": "snow_towings",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-remorquages-de-vehicules-genants",
+        "resourceId": "65dd096f-7296-40e8-8cfe-e26b928bcce5",
+        "fetchMethod": "CKAN DataStore SQL",
+        "format": "JSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 11 * * *",
+        "scheduleType": "daily",
+        "expectedHoursInterval": 24,
+        "description": "Daily at 6AM ET"
+      },
+      "backfillStrategy": "5 years on first run",
+      "sourceFields": [
+        { "name": "DATE_ORIGINE", "type": "string", "description": "Towing date/time" },
+        { "name": "LATITUDE_ORIGINE", "type": "number" },
+        { "name": "LONGITUDE_ORIGINE", "type": "number" },
+        { "name": "MOTIF_REMORQUAGE", "type": "string", "description": "Reason for towing" },
+        { "name": "RUE_ORIGINE", "type": "string", "description": "Street where towed" },
+        { "name": "ARRONDISSEMENT_ORIGINE", "type": "string", "description": "Borough name" },
+        { "name": "SECTEUR_ORIGINE", "type": "string", "description": "Sector within borough" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "towingDate", "dbColumn": "towing_date", "type": "timestamp", "notNull": true },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "reason", "dbColumn": "reason", "type": "varchar(100)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "sector", "dbColumn": "sector", "type": "varchar(50)" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_towings_date", "columns": ["towing_date"] },
+          { "name": "idx_towings_borough", "columns": ["borough_code"] }
+        ]
+      },
+      "computedMetrics": [
+        { "name": "towing_count_today", "description": "Towings today", "period": "daily", "boroughAware": true },
+        { "name": "towing_count_7d", "description": "Towings in rolling 7-day window", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "bedbug_reports": {
+      "displayName": "Bedbug Reports (Déclarations punaises de lit)",
+      "description": "Bedbug extermination declarations. Tracks number of exterminations per report, location, and borough. Data updated quarterly.",
+      "pipelineName": "bedbug_reports",
+      "tableName": "bedbug_reports",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-declarations-exterminations-punaises-de-lit",
+        "packageId": "declarations-exterminations-punaises-de-lit",
+        "fetchMethod": "CSV download from package",
+        "format": "CSV",
+        "estimatedRows": 52193,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 5 * * 0",
+        "scheduleType": "weekly",
+        "expectedHoursInterval": 168,
+        "description": "Weekly Sunday (data updates quarterly)"
+      },
+      "backfillStrategy": "Full CSV download",
+      "sourceFields": [
+        { "name": "NO_DECLARATION", "type": "string", "description": "Declaration number" },
+        { "name": "DATE_DECLARATION", "type": "string", "description": "Declaration date" },
+        { "name": "NOM_ARROND", "type": "string", "description": "Borough name" },
+        { "name": "NBR_EXTERMIN", "type": "integer", "description": "Number of exterminations" },
+        { "name": "LATITUDE", "type": "number" },
+        { "name": "LONGITUDE", "type": "number" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(100)", "unique": true },
+          { "name": "reportDate", "dbColumn": "report_date", "type": "date" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "numExterminations", "dbColumn": "num_exterminations", "type": "integer" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_bedbugs_date", "columns": ["report_date"] },
+          { "name": "idx_bedbugs_borough", "columns": ["borough_code"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "bedbug_reports_ytd", "description": "Bedbug reports year-to-date", "period": "ytd", "boroughAware": true }
+      ]
+    },
+
+    "air_quality": {
+      "displayName": "Air Quality (RSQA — Réseau de surveillance de la qualité de l'air)",
+      "description": "Hourly air quality readings from RSQA monitoring stations across Montreal. Tracks pollutant levels (PM2.5, O3, NO2, SO2, CO) by station.",
+      "pipelineName": "air_quality",
+      "tableName": "air_quality",
+      "source": {
+        "organization": "Ville de Montréal / RSQA",
+        "portalSlug": "vmtl-rsqa-indice-qualite-air",
+        "resourceId": "6554355e-63d1-4a01-a268-91e0763c3606",
+        "fetchMethod": "CKAN DataStore SQL",
+        "format": "JSON",
+        "estimatedRows": 1020000,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "50 * * * *",
+        "scheduleType": "hourly",
+        "expectedHoursInterval": 2,
+        "description": "Hourly at :50"
+      },
+      "backfillStrategy": "Back to 2020-01-01",
+      "sourceFields": [
+        { "name": "date", "type": "string", "description": "Reading date (YYYY-MM-DD)" },
+        { "name": "heure", "type": "string", "description": "Hour (00:00:00 format or numeric)" },
+        { "name": "stationId/Id", "type": "string", "description": "Monitoring station ID" },
+        { "name": "pollutant", "type": "string", "description": "Pollutant type (PM2.5, O3, NO2, SO2, CO)" },
+        { "name": "valeur/value", "type": "number", "description": "Reading value" },
+        { "name": "latitude/Latitude", "type": "number" },
+        { "name": "longitude/Longitude", "type": "number" },
+        { "name": "secteur/Secteur", "type": "string", "description": "Sector name" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "stationId", "dbColumn": "station_id", "type": "varchar(20)", "notNull": true },
+          { "name": "readingDate", "dbColumn": "reading_date", "type": "date", "notNull": true },
+          { "name": "readingHour", "dbColumn": "reading_hour", "type": "integer", "description": "0-23" },
+          { "name": "pollutant", "dbColumn": "pollutant", "type": "varchar(20)", "notNull": true },
+          { "name": "value", "dbColumn": "value", "type": "numeric" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "sectorName", "dbColumn": "sector_name", "type": "varchar(100)" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_air_quality_unique", "columns": ["station_id", "reading_date", "reading_hour", "pollutant"], "unique": true },
+          { "name": "idx_air_quality_date", "columns": ["reading_date"] },
+          { "name": "idx_air_quality_station", "columns": ["station_id"] }
+        ],
+        "upsertConflictKey": ["station_id", "reading_date", "reading_hour", "pollutant"]
+      },
+      "computedMetrics": [
+        { "name": "air_quality_current", "description": "Max air quality index value in last 7 days (across all stations/pollutants)", "period": "daily", "boroughAware": false }
+      ]
+    },
+
+    "cycling_counts": {
+      "displayName": "Cycling Counts (Compteurs cyclistes)",
+      "description": "Daily bicycle volume from permanent cycling counters across Montreal. Data organized by year with separate resource IDs per year (2020-2026).",
+      "pipelineName": "cycling_counts",
+      "tableName": "cycling_counts",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-cyclistes",
+        "resourceIds": {
+          "2026": "f3eab3d7-f313-42f1-a5f1-353e26fe5ff9",
+          "2025": "607715d2-4bb9-4f8e-bd05-13365e241dc6",
+          "2024": "59ce7ec4-f398-43b5-9311-ebad77b782c3"
+        },
+        "fetchMethod": "CKAN DataStore SQL (multiple yearly resources)",
+        "format": "JSON",
+        "estimatedRows": 1270000,
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 13 * * *",
+        "scheduleType": "daily",
+        "expectedHoursInterval": 24,
+        "description": "Daily at 8AM ET"
+      },
+      "backfillStrategy": "Prior year on first run",
+      "sourceFields": [
+        { "name": "date/Date", "type": "string", "description": "Count date" },
+        { "name": "id_compteur", "type": "string", "description": "Counter station ID" },
+        { "name": "nb_passages", "type": "integer", "description": "Number of cyclists (daily total)" },
+        { "name": "heure", "type": "string", "description": "Hour (filters for 00:00:00 = daily agg)" },
+        { "name": "latitude/Latitude", "type": "number" },
+        { "name": "longitude/Longitude", "type": "number" },
+        { "name": "Arrondissement", "type": "string", "description": "Borough name" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "counterId", "dbColumn": "counter_id", "type": "varchar(50)", "notNull": true },
+          { "name": "periodDate", "dbColumn": "period_date", "type": "date", "notNull": true },
+          { "name": "volume", "dbColumn": "volume", "type": "integer", "notNull": true },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_cycling_counts_unique", "columns": ["counter_id", "period_date"], "unique": true },
+          { "name": "idx_cycling_counts_date", "columns": ["period_date"] },
+          { "name": "idx_cycling_counts_counter", "columns": ["counter_id"] }
+        ],
+        "upsertConflictKey": ["counter_id", "period_date"]
+      },
+      "computedMetrics": [
+        { "name": "cycling_volume_today", "description": "Total cyclist volume across all counters today", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "water_breaks": {
+      "displayName": "Water Main Breaks (Réparations réseau eau potable)",
+      "description": "Water main break repairs across Montreal. Data since 1972. Includes break type, pipe material, diameter, and location.",
+      "pipelineName": "water_breaks",
+      "tableName": "water_breaks",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-reparation-reseau-eau-potable",
+        "resourceId": "0828c687-a459-4c82-a5cf-3d8f9c314697",
+        "fetchMethod": "CKAN DataStore SQL",
+        "format": "JSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 5 * * 1",
+        "scheduleType": "weekly",
+        "expectedHoursInterval": 168,
+        "description": "Weekly on Monday"
+      },
+      "backfillStrategy": "Full history from 1972-01-01 on first run, 30 days incremental after",
+      "sourceFields": [
+        { "name": "ID_AQU_BRIS", "type": "string", "description": "Break external ID" },
+        { "name": "DATE", "type": "string", "description": "Break date" },
+        { "name": "ARRONDISSEMENT", "type": "string", "description": "Borough name" },
+        { "name": "Rue", "type": "string", "description": "Street name" },
+        { "name": "TypeBris", "type": "string", "description": "Type of break" },
+        { "name": "Materiau", "type": "string", "description": "Pipe material" },
+        { "name": "Diametre", "type": "number", "description": "Pipe diameter" },
+        { "name": "Latitude", "type": "number" },
+        { "name": "Longitude", "type": "number" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(50)", "unique": true },
+          { "name": "breakDate", "dbColumn": "break_date", "type": "date", "notNull": true },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "streetName", "dbColumn": "street_name", "type": "varchar(500)" },
+          { "name": "breakType", "dbColumn": "break_type", "type": "varchar(100)" },
+          { "name": "pipeMaterial", "dbColumn": "pipe_material", "type": "varchar(100)" },
+          { "name": "pipeDiameter", "dbColumn": "pipe_diameter", "type": "numeric" },
+          { "name": "lat", "dbColumn": "lat", "type": "numeric" },
+          { "name": "lng", "dbColumn": "lng", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_water_breaks_date", "columns": ["break_date"] },
+          { "name": "idx_water_breaks_borough", "columns": ["borough_code"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "water_breaks_ytd", "description": "Water main breaks year-to-date", "period": "ytd", "boroughAware": true }
+      ]
+    },
+
+    "road_conditions": {
+      "displayName": "Road Conditions (Condition des chaussées)",
+      "description": "Road surface quality survey data. Uses PCI (Pavement Condition Index) and IRI (International Roughness Index) to grade road segments. Data from survey years 2010-2024.",
+      "pipelineName": "road_condition",
+      "tableName": "road_conditions",
+      "source": {
+        "organization": "Ville de Montréal",
+        "resourceIds": {
+          "2024": "2aae14e0-62c0-40b3-89f6-d865cda158e2",
+          "2022": "832ffd3b-edc9-4354-a43e-4d696de9d3c5",
+          "2020": "b9061b12-af1f-487c-9df8-11f3fb4e93a7",
+          "2018": "85085655-4ac0-4114-9793-715c0b63e2a0",
+          "2015": "c5c3b97e-83ec-468b-a62f-992a2d29e75b",
+          "2010": "d714c4b1-fe1a-4f9e-aa76-3fe45076c830"
+        },
+        "fetchMethod": "CKAN DataStore SQL (multiple survey year resources)",
+        "format": "JSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 11 1 * *",
+        "scheduleType": "monthly",
+        "expectedHoursInterval": 720,
+        "description": "Monthly on the 1st"
+      },
+      "backfillStrategy": "All survey years",
+      "sourceFields": [
+        { "name": "ID_TRC", "type": "string", "description": "Road segment ID" },
+        { "name": "Rue", "type": "string", "description": "Street name" },
+        { "name": "Arrondissement", "type": "string", "description": "Borough name" },
+        { "name": "DateReleve", "type": "string", "description": "Survey date" },
+        { "name": "Indice_PCI", "type": "number", "description": "Pavement Condition Index (0-100, higher = better)" },
+        { "name": "Etat_PCI", "type": "string", "description": "PCI state label (Bon, Acceptable, Mauvais)" },
+        { "name": "Indice_IRI", "type": "number", "description": "International Roughness Index (lower = smoother)" },
+        { "name": "Etat_IRI", "type": "string", "description": "IRI state label" },
+        { "name": "Longueur", "type": "number", "description": "Segment length in meters" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "segmentId", "dbColumn": "segment_id", "type": "varchar(50)", "notNull": true },
+          { "name": "streetName", "dbColumn": "street_name", "type": "varchar(300)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "surveyDate", "dbColumn": "survey_date", "type": "date" },
+          { "name": "pciScore", "dbColumn": "pci_score", "type": "numeric", "description": "0-100 (higher = better condition)" },
+          { "name": "pciState", "dbColumn": "pci_state", "type": "varchar(50)" },
+          { "name": "iriScore", "dbColumn": "iri_score", "type": "numeric", "description": "Lower = smoother surface" },
+          { "name": "iriState", "dbColumn": "iri_state", "type": "varchar(50)" },
+          { "name": "lengthM", "dbColumn": "length_m", "type": "numeric" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_road_conditions_unique", "columns": ["segment_id", "survey_date"], "unique": true },
+          { "name": "idx_road_conditions_borough", "columns": ["borough_code"] },
+          { "name": "idx_road_conditions_survey", "columns": ["survey_date"] }
+        ],
+        "upsertConflictKey": ["segment_id", "survey_date"]
+      },
+      "computedMetrics": []
+    },
+
+    "contracts": {
+      "displayName": "Municipal Contracts (Contrats municipaux)",
+      "description": "City contracts and procurement from two sources: Conseil municipal and Conseil d'agglomération. Includes contract type, supplier, amount, and awarding body.",
+      "pipelineName": "contracts",
+      "tableName": "contracts",
+      "source": {
+        "organization": "Ville de Montréal",
+        "resourceIds": {
+          "conseil_municipal": "1e5ab066-f560-4b4f-8f12-991de39df134",
+          "conseil_agglomeration": "7cf955d0-a3e6-4e94-8c24-9b0a4f7c0408"
+        },
+        "alternateApi": "https://ville.montreal.qc.ca/vuesurlescontrats/api/releases",
+        "fetchMethod": "CKAN DataStore SQL (2 resources)",
+        "format": "JSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 5 * * 1",
+        "scheduleType": "weekly",
+        "expectedHoursInterval": 168,
+        "description": "Weekly on Monday"
+      },
+      "backfillStrategy": "90 days on incremental runs",
+      "sourceFields": [
+        { "name": "NO DE DOSSIER", "type": "string", "description": "File number" },
+        { "name": "DATE SIGNATURE", "type": "string", "description": "Contract signature date" },
+        { "name": "FOURNISSEUR", "type": "string", "description": "Supplier name" },
+        { "name": "OBJET", "type": "string", "description": "Contract object/title" },
+        { "name": "MONTANT", "type": "number", "description": "Contract amount in CAD" },
+        { "name": "SERVICE", "type": "string", "description": "City service" },
+        { "name": "DIRECTION", "type": "string", "description": "Department/direction" },
+        { "name": "ARRONDISSEMENT", "type": "string", "description": "Borough" },
+        { "name": "TYPE CONTRAT", "type": "string", "description": "Contract type" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(200)", "unique": true, "description": "awardingBody|noDossier" },
+          { "name": "contractType", "dbColumn": "contract_type", "type": "varchar(100)" },
+          { "name": "title", "dbColumn": "title", "type": "text" },
+          { "name": "supplierName", "dbColumn": "supplier_name", "type": "varchar(300)" },
+          { "name": "amount", "dbColumn": "amount", "type": "numeric", "description": "In CAD" },
+          { "name": "awardDate", "dbColumn": "award_date", "type": "date" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "sector", "dbColumn": "sector", "type": "varchar(200)" },
+          { "name": "awardingBody", "dbColumn": "awarding_body", "type": "varchar(200)" },
+          { "name": "rawData", "dbColumn": "raw_data", "type": "jsonb" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_contracts_date", "columns": ["award_date"] },
+          { "name": "idx_contracts_borough", "columns": ["borough_code"] }
+        ],
+        "upsertConflictKey": "external_id"
+      },
+      "computedMetrics": [
+        { "name": "contracts_value_ytd", "description": "Total contract value year-to-date in CAD", "period": "ytd", "boroughAware": true }
+      ]
+    },
+
+    "elected_officials": {
+      "displayName": "Elected Officials (Élus municipaux)",
+      "description": "List of elected officials of the City of Montreal. Includes function type, party affiliation, and borough. Full replace on each run.",
+      "pipelineName": "elected_officials",
+      "tableName": "elected_officials",
+      "source": {
+        "organization": "Ville de Montréal",
+        "portalSlug": "vmtl-listes-des-elus-de-la-ville-de-montreal",
+        "packageId": "listes-des-elus-de-la-ville-de-montreal",
+        "fetchMethod": "CSV download from package",
+        "format": "CSV",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "cronExpression": "0 11 1 * *",
+        "scheduleType": "monthly",
+        "expectedHoursInterval": 720,
+        "description": "Monthly on the 1st"
+      },
+      "backfillStrategy": "FULL REPLACE — deletes all rows and reinserts",
+      "sourceFields": [
+        { "name": "Prénom", "type": "string", "description": "First name" },
+        { "name": "Nom", "type": "string", "description": "Last name" },
+        { "name": "Arrondissement", "type": "string", "description": "Borough name" },
+        { "name": "Poste électif", "type": "string", "description": "Elected position" },
+        { "name": "Nom du parti", "type": "string", "description": "Party name" }
+      ],
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "name", "dbColumn": "name", "type": "varchar(100)", "notNull": true, "description": "Full name (Prénom + Nom)" },
+          { "name": "functionType", "dbColumn": "function_type", "type": "varchar(50)" },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)" },
+          { "name": "party", "dbColumn": "party", "type": "varchar(100)" },
+          { "name": "mandateStart", "dbColumn": "mandate_start", "type": "date" },
+          { "name": "mandateEnd", "dbColumn": "mandate_end", "type": "date" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": []
+      },
+      "computedMetrics": [
+        { "name": "elected_officials_count", "description": "Count of elected officials", "period": "daily", "boroughAware": true }
+      ]
+    },
+
+    "boroughs": {
+      "displayName": "Boroughs (Arrondissements — reference data)",
+      "description": "Reference table of Montreal's 19 boroughs with administrative boundaries (GeoJSON geometry), population data, and 3-letter codes used throughout the system.",
+      "pipelineName": "boroughs",
+      "tableName": "boroughs",
+      "source": {
+        "organization": "Ville de Montréal",
+        "packageId": "limites-administratives-agglomeration",
+        "fetchMethod": "GeoJSON download from package",
+        "format": "GeoJSON",
+        "license": "CC-BY 4.0"
+      },
+      "schedule": {
+        "description": "Yearly / on deploy"
+      },
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "code", "dbColumn": "code", "type": "varchar(5)", "unique": true, "notNull": true, "description": "3-letter borough code (AHU, VMA, etc.)" },
+          { "name": "name", "dbColumn": "name", "type": "varchar(200)", "notNull": true },
+          { "name": "population", "dbColumn": "population", "type": "integer" },
+          { "name": "geometry", "dbColumn": "geometry", "type": "jsonb", "description": "GeoJSON polygon/multipolygon" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_boroughs_code", "columns": ["code"] }
+        ]
+      },
+      "computedMetrics": []
+    }
+  },
+
+  "internalTables": {
+
+    "pipeline_runs": {
+      "displayName": "Pipeline Runs (execution log)",
+      "description": "Logs every pipeline execution with status, record counts, duration, and errors. Used by the /admin/pipelines monitoring dashboard.",
+      "tableName": "pipeline_runs",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "pipelineName", "dbColumn": "pipeline_name", "type": "varchar(100)", "notNull": true },
+          { "name": "status", "dbColumn": "status", "type": "pipeline_run_status", "notNull": true, "description": "running | success | failed" },
+          { "name": "recordsFetched", "dbColumn": "records_fetched", "type": "integer" },
+          { "name": "recordsInserted", "dbColumn": "records_inserted", "type": "integer" },
+          { "name": "recordsUpdated", "dbColumn": "records_updated", "type": "integer" },
+          { "name": "errorMessage", "dbColumn": "error_message", "type": "text" },
+          { "name": "startedAt", "dbColumn": "started_at", "type": "timestamp", "default": "now()" },
+          { "name": "completedAt", "dbColumn": "completed_at", "type": "timestamp" },
+          { "name": "durationMs", "dbColumn": "duration_ms", "type": "integer" }
+        ],
+        "indexes": [
+          { "name": "idx_pipeline_runs_name", "columns": ["pipeline_name"] },
+          { "name": "idx_pipeline_runs_started", "columns": ["started_at"] }
+        ]
+      }
+    },
+
+    "snapshots": {
+      "displayName": "Fetch Snapshots (data hash log)",
+      "description": "Logs every data fetch attempt with SHA256 hash for change detection. If hash matches previous successful fetch, data processing is skipped.",
+      "tableName": "snapshots",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "sourceKey", "dbColumn": "source_key", "type": "varchar(50)", "notNull": true },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" },
+          { "name": "dataHash", "dbColumn": "data_hash", "type": "varchar(64)", "description": "SHA256 hash of fetched data" },
+          { "name": "recordCount", "dbColumn": "record_count", "type": "integer" },
+          { "name": "status", "dbColumn": "status", "type": "snapshot_status", "notNull": true, "description": "success | error" },
+          { "name": "errorMessage", "dbColumn": "error_message", "type": "text" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_snapshots_source_key", "columns": ["source_key"] },
+          { "name": "idx_snapshots_fetched_at", "columns": ["fetched_at"] }
+        ]
+      }
+    },
+
+    "dataset_records": {
+      "displayName": "Generic Dataset Records (DataStore storage)",
+      "description": "Generic key-value store for datasets that don't have a dedicated table. Stores full record as JSONB with optional date, location, and borough metadata.",
+      "tableName": "dataset_records",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "bigserial", "primaryKey": true },
+          { "name": "datasetSlug", "dbColumn": "dataset_slug", "type": "varchar(200)", "notNull": true },
+          { "name": "resourceId", "dbColumn": "resource_id", "type": "varchar(100)", "notNull": true },
+          { "name": "externalId", "dbColumn": "external_id", "type": "varchar(500)" },
+          { "name": "recordDate", "dbColumn": "record_date", "type": "date" },
+          { "name": "boroughName", "dbColumn": "borough_name", "type": "varchar(100)" },
+          { "name": "latitude", "dbColumn": "latitude", "type": "numeric" },
+          { "name": "longitude", "dbColumn": "longitude", "type": "numeric" },
+          { "name": "data", "dbColumn": "data", "type": "jsonb", "notNull": true },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_dataset_records_unique", "columns": ["dataset_slug", "external_id"], "unique": true },
+          { "name": "idx_dataset_records_slug", "columns": ["dataset_slug"] },
+          { "name": "idx_dataset_records_date", "columns": ["record_date"] }
+        ]
+      }
+    },
+
+    "daily_metrics": {
+      "displayName": "Daily Metrics (legacy pre-aggregated)",
+      "description": "Pre-aggregated daily metrics by date, borough, and category. Used by legacy aggregation engine. Being superseded by computed_metrics.",
+      "tableName": "daily_metrics",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "date", "dbColumn": "date", "type": "date", "notNull": true },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "notNull": true },
+          { "name": "category", "dbColumn": "category", "type": "varchar(30)", "notNull": true },
+          { "name": "metricKey", "dbColumn": "metric_key", "type": "varchar(50)", "notNull": true },
+          { "name": "metricValue", "dbColumn": "metric_value", "type": "numeric", "notNull": true },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" },
+          { "name": "updatedAt", "dbColumn": "updated_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_daily_metrics_unique", "columns": ["date", "borough_code", "category", "metric_key"], "unique": true },
+          { "name": "idx_daily_metrics_date", "columns": ["date"] },
+          { "name": "idx_daily_metrics_borough", "columns": ["borough_code"] },
+          { "name": "idx_daily_metrics_category", "columns": ["category"] }
+        ]
+      }
+    },
+
+    "computed_metrics": {
+      "displayName": "Computed Metrics (dashboard engine output)",
+      "description": "Primary metrics table for the dashboard. Stores current and previous values per metric/borough/period. Frontend ONLY reads from this table, never raw tables.",
+      "tableName": "computed_metrics",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "metricName", "dbColumn": "metric_name", "type": "varchar(80)", "notNull": true },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "description": "null = city-wide" },
+          { "name": "periodType", "dbColumn": "period_type", "type": "varchar(20)", "notNull": true, "default": "current" },
+          { "name": "periodDate", "dbColumn": "period_date", "type": "date", "notNull": true },
+          { "name": "value", "dbColumn": "value", "type": "numeric", "notNull": true },
+          { "name": "previousValue", "dbColumn": "previous_value", "type": "numeric" },
+          { "name": "metadata", "dbColumn": "metadata", "type": "jsonb" },
+          { "name": "computedAt", "dbColumn": "computed_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_computed_metrics_unique", "columns": ["metric_name", "borough_code", "period_type", "period_date"], "unique": true },
+          { "name": "idx_computed_metrics_name", "columns": ["metric_name"] },
+          { "name": "idx_computed_metrics_borough", "columns": ["borough_code"] },
+          { "name": "idx_computed_metrics_period", "columns": ["period_date"] },
+          { "name": "idx_computed_metrics_dashboard", "columns": ["period_type", "period_date", "borough_code"] }
+        ]
+      }
+    },
+
+    "daily_digests": {
+      "displayName": "Daily Digests (legacy AI summaries)",
+      "description": "Legacy AI-generated daily summaries in French and English. Being superseded by unified digests table.",
+      "tableName": "daily_digests",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "digestDate", "dbColumn": "digest_date", "type": "date", "unique": true, "notNull": true },
+          { "name": "summaryFr", "dbColumn": "summary_fr", "type": "text" },
+          { "name": "summaryEn", "dbColumn": "summary_en", "type": "text" },
+          { "name": "metricsSnapshot", "dbColumn": "metrics_snapshot", "type": "jsonb" },
+          { "name": "generatedAt", "dbColumn": "generated_at", "type": "timestamp", "default": "now()" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": []
+      }
+    },
+
+    "digests": {
+      "displayName": "Digests (unified AI-generated summaries)",
+      "description": "Unified table for all AI-generated digests: daily, weekly, or borough-specific. Stores title, summary, highlights, stats, and token usage metadata.",
+      "tableName": "digests",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "digestType", "dbColumn": "digest_type", "type": "digest_type", "notNull": true, "description": "daily | weekly | borough" },
+          { "name": "periodDate", "dbColumn": "period_date", "type": "date", "notNull": true },
+          { "name": "boroughCode", "dbColumn": "borough_code", "type": "varchar(5)", "description": "Only set for borough-type digests" },
+          { "name": "language", "dbColumn": "language", "type": "digest_language", "notNull": true, "description": "fr | en" },
+          { "name": "title", "dbColumn": "title", "type": "varchar(300)", "notNull": true },
+          { "name": "summary", "dbColumn": "summary", "type": "text", "notNull": true },
+          { "name": "highlights", "dbColumn": "highlights", "type": "jsonb", "notNull": true },
+          { "name": "stats", "dbColumn": "stats", "type": "jsonb" },
+          { "name": "modelUsed", "dbColumn": "model_used", "type": "varchar(80)" },
+          { "name": "promptTokens", "dbColumn": "prompt_tokens", "type": "integer" },
+          { "name": "completionTokens", "dbColumn": "completion_tokens", "type": "integer" },
+          { "name": "generatedAt", "dbColumn": "generated_at", "type": "timestamp", "default": "now()" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_digests_unique", "columns": ["digest_type", "period_date", "borough_code", "language"], "unique": true },
+          { "name": "idx_digests_type_lang", "columns": ["digest_type", "language"] },
+          { "name": "idx_digests_period", "columns": ["period_date"] }
+        ]
+      }
+    },
+
+    "obstruction_snapshots": {
+      "displayName": "Obstruction Snapshots (CIFS archival)",
+      "description": "Archives the full CIFS feed on every fetch for historical analysis. Each row contains the entire JSON response from the road obstructions API.",
+      "tableName": "obstruction_snapshots",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "snapshotData", "dbColumn": "snapshot_data", "type": "jsonb", "notNull": true },
+          { "name": "recordCount", "dbColumn": "record_count", "type": "integer" },
+          { "name": "fetchedAt", "dbColumn": "fetched_at", "type": "timestamp", "default": "now()" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_obstruction_snapshots_fetched", "columns": ["fetched_at"] }
+        ]
+      }
+    },
+
+    "dataset_registry": {
+      "displayName": "Dataset Registry (CKAN catalog)",
+      "description": "Catalog of all Montreal open data datasets discovered via CKAN crawl. Tracks metadata, pipeline status, and priority tier for 281+ datasets.",
+      "tableName": "dataset_registry",
+      "dbSchema": {
+        "columns": [
+          { "name": "id", "dbColumn": "id", "type": "serial", "primaryKey": true },
+          { "name": "slug", "dbColumn": "slug", "type": "varchar(200)", "unique": true, "notNull": true },
+          { "name": "title", "dbColumn": "title", "type": "varchar(500)", "notNull": true },
+          { "name": "description", "dbColumn": "description", "type": "text" },
+          { "name": "organization", "dbColumn": "organization", "type": "varchar(200)" },
+          { "name": "updateFrequency", "dbColumn": "update_frequency", "type": "varchar(50)" },
+          { "name": "lastModified", "dbColumn": "last_modified", "type": "timestamp" },
+          { "name": "resourceCount", "dbColumn": "resource_count", "type": "integer" },
+          { "name": "primaryResourceId", "dbColumn": "primary_resource_id", "type": "varchar(100)" },
+          { "name": "hasDatastore", "dbColumn": "has_datastore", "type": "boolean", "default": false },
+          { "name": "hasGeospatial", "dbColumn": "has_geospatial", "type": "boolean", "default": false },
+          { "name": "hasTemporal", "dbColumn": "has_temporal", "type": "boolean", "default": false },
+          { "name": "estimatedRows", "dbColumn": "estimated_rows", "type": "integer" },
+          { "name": "fileSizeBytes", "dbColumn": "file_size_bytes", "type": "integer" },
+          { "name": "category", "dbColumn": "category", "type": "varchar(100)" },
+          { "name": "priorityTier", "dbColumn": "priority_tier", "type": "integer" },
+          { "name": "pipelineStatus", "dbColumn": "pipeline_status", "type": "varchar(20)", "default": "pending" },
+          { "name": "lastPipelineRun", "dbColumn": "last_pipeline_run", "type": "timestamp" },
+          { "name": "notes", "dbColumn": "notes", "type": "text" },
+          { "name": "rawMetadata", "dbColumn": "raw_metadata", "type": "jsonb" },
+          { "name": "createdAt", "dbColumn": "created_at", "type": "timestamp", "default": "now()" }
+        ],
+        "indexes": [
+          { "name": "idx_dataset_registry_slug", "columns": ["slug"] },
+          { "name": "idx_dataset_registry_priority", "columns": ["priority_tier"] }
+        ]
+      }
+    }
+  },
+
+  "specialJobs": [
+    {
+      "name": "compute_metrics",
+      "description": "Runs all metric definitions against raw tables and upserts results into computed_metrics. Iterates every metric × every borough + city-wide.",
+      "cronExpression": "0 12 * * *",
+      "scheduleType": "daily",
+      "runsAfter": "All data pipelines"
+    },
+    {
+      "name": "generate_daily_digest",
+      "description": "Generates AI-powered daily summary using Claude Sonnet. Reads from computed_metrics and raw tables, produces bilingual (FR/EN) digests.",
+      "cronExpression": "0 13 * * *",
+      "scheduleType": "daily",
+      "runsAfter": "compute_metrics"
+    }
+  ],
+
+  "allComputedMetrics": [
+    { "name": "active_travaux_count", "table": "travaux", "period": "daily", "boroughAware": true },
+    { "name": "new_travaux_today", "table": "travaux", "period": "daily", "boroughAware": true },
+    { "name": "crime_count_daily", "table": "crime_incidents", "period": "daily", "boroughAware": true },
+    { "name": "crime_count_7d", "table": "crime_incidents", "period": "daily", "boroughAware": true },
+    { "name": "crime_delta_vs_prev_7d", "table": "crime_incidents", "period": "daily", "boroughAware": true },
+    { "name": "crime_vs_30d_avg", "table": "crime_incidents", "period": "daily", "boroughAware": true },
+    { "name": "permits_count_week", "table": "construction_permits", "period": "weekly", "boroughAware": true },
+    { "name": "permits_total_value_week", "table": "construction_permits", "period": "weekly", "boroughAware": true },
+    { "name": "requests_311_new_today", "table": "requests_311", "period": "daily", "boroughAware": true },
+    { "name": "requests_311_open", "table": "requests_311", "period": "daily", "boroughAware": true },
+    { "name": "requests_311_avg_resolution_days", "table": "requests_311", "period": "daily", "boroughAware": true },
+    { "name": "active_obstructions", "table": "road_obstructions", "period": "daily", "boroughAware": true },
+    { "name": "fire_interventions_7d", "table": "fire_interventions", "period": "daily", "boroughAware": true },
+    { "name": "fire_false_alarm_rate", "table": "fire_interventions", "period": "daily", "boroughAware": true },
+    { "name": "potholes_repaired_ytd", "table": "pothole_repairs", "period": "ytd", "boroughAware": true },
+    { "name": "potholes_repaired_7d", "table": "pothole_repairs", "period": "daily", "boroughAware": true },
+    { "name": "towing_count_today", "table": "snow_towings", "period": "daily", "boroughAware": true },
+    { "name": "towing_count_7d", "table": "snow_towings", "period": "daily", "boroughAware": true },
+    { "name": "bedbug_reports_ytd", "table": "bedbug_reports", "period": "ytd", "boroughAware": true },
+    { "name": "air_quality_current", "table": "air_quality", "period": "daily", "boroughAware": false },
+    { "name": "cycling_volume_today", "table": "cycling_counts", "period": "daily", "boroughAware": true },
+    { "name": "water_breaks_ytd", "table": "water_breaks", "period": "ytd", "boroughAware": true },
+    { "name": "contracts_value_ytd", "table": "contracts", "period": "ytd", "boroughAware": true },
+    { "name": "elected_officials_count", "table": "elected_officials", "period": "daily", "boroughAware": true }
+  ],
+
+  "pipelineSummary": {
+    "totalPipelines": 16,
+    "totalDbTables": 27,
+    "totalComputedMetrics": 24,
+    "fetchMethods": {
+      "CKAN DataStore SQL": ["actes_criminels", "requetes_311", "fire_interventions", "pothole_repairs", "remorquages", "air_quality", "cycling_counts", "water_breaks", "road_condition", "contracts", "permis_construction"],
+      "CSV download": ["info_travaux", "bedbug_reports", "elected_officials"],
+      "GeoJSON download": ["boroughs"],
+      "REST API (JSON)": ["entraves_circulation"]
+    },
+    "scheduleDistribution": {
+      "hourly": ["entraves_circulation"],
+      "daily": ["actes_criminels", "fire_interventions", "pothole_repairs", "remorquages", "cycling_counts", "compute_metrics", "generate_daily_digest"],
+      "every_6h": ["info_travaux"],
+      "weekly": ["requetes_311", "permis_construction", "bedbug_reports", "water_breaks", "contracts"],
+      "monthly": ["elected_officials", "road_condition"],
+      "yearly": ["boroughs"]
+    }
+  }
+}

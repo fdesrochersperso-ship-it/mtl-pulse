@@ -1,0 +1,351 @@
+{
+  "slug": "vmtl-actes-criminels",
+  "title": "Actes criminels",
+  "notes": "Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).\r\n\r\nUn outil de visualisation des données permet également d'afficher sur les données sous forme de carte : [Vue sur la sécurité publique](https://ville.montreal.qc.ca/vuesurlasecuritepublique/)",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-02-26T21:00:10.960143",
+  "metadata_modified": "2026-03-08T22:01:57.760658",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "c6f482bf-bf0f-4960-8b2f-9982c211addd",
+      "name": "Actes criminels",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/actes-criminels.csv",
+      "datastore_active": true,
+      "size": 31088615,
+      "last_modified": "2026-03-08T20:03:33.863960",
+      "created": "2016-02-26T16:01:33.269959",
+      "schema": {
+        "resource_id": "c6f482bf-bf0f-4960-8b2f-9982c211addd",
+        "total_records": 344031,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "CATEGORIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "QUART",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PDQ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "CATEGORIE": "Vol de véhicule à moteur",
+            "DATE": "2018-09-13",
+            "QUART": "jour",
+            "PDQ": "30",
+            "X": "294904.159001211",
+            "Y": "5047548.92099452",
+            "LONGITUDE": "-73.626778",
+            "LATITUDE": "45.56778"
+          },
+          {
+            "_id": 2,
+            "CATEGORIE": "Vol de véhicule à moteur",
+            "DATE": "2018-04-30",
+            "QUART": "jour",
+            "PDQ": "30",
+            "X": "294904.159001211",
+            "Y": "5047548.92099452",
+            "LONGITUDE": "-73.626778",
+            "LATITUDE": "45.56778"
+          },
+          {
+            "_id": 3,
+            "CATEGORIE": "Vol de véhicule à moteur",
+            "DATE": "2018-09-01",
+            "QUART": "nuit",
+            "PDQ": "7",
+            "X": "290274.565",
+            "Y": "5042150.474",
+            "LONGITUDE": "-73.685928",
+            "LATITUDE": "45.519122"
+          },
+          {
+            "_id": 4,
+            "CATEGORIE": "Méfait",
+            "DATE": "2017-07-21",
+            "QUART": "jour",
+            "PDQ": "21",
+            "X": null,
+            "Y": null,
+            "LONGITUDE": null,
+            "LATITUDE": null
+          },
+          {
+            "_id": 5,
+            "CATEGORIE": "Méfait",
+            "DATE": "2017-07-29",
+            "QUART": "jour",
+            "PDQ": "12",
+            "X": null,
+            "Y": null,
+            "LONGITUDE": null,
+            "LATITUDE": null
+          }
+        ]
+      },
+      "field_stats": {
+        "CATEGORIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "QUART": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PDQ": {
+          "null_count": 6,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 57759,
+          "null_pct": 16.8,
+          "populated_pct": 83.2
+        },
+        "Y": {
+          "null_count": 57759,
+          "null_pct": 16.8,
+          "populated_pct": 83.2
+        },
+        "LONGITUDE": {
+          "null_count": 57759,
+          "null_pct": 16.8,
+          "populated_pct": 83.2
+        },
+        "LATITUDE": {
+          "null_count": 57759,
+          "null_pct": 16.8,
+          "populated_pct": 83.2
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 344063,
+        "audited_at": "2026-03-10T00:13:32.823022+00:00",
+        "fields": {
+          "CATEGORIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Introduction",
+                "count": 311
+              },
+              {
+                "value": "Vol dans / sur véhicule à moteur",
+                "count": 255
+              },
+              {
+                "value": "Méfait",
+                "count": 230
+              },
+              {
+                "value": "Vol de véhicule à moteur",
+                "count": 164
+              },
+              {
+                "value": "Vols qualifiés",
+                "count": 39
+              },
+              {
+                "value": "Infractions entrainant la mort",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-01-01",
+            "max_date": "2018-12-31",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "QUART": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "jour",
+                "count": 525
+              },
+              {
+                "value": "soir",
+                "count": 327
+              },
+              {
+                "value": "nuit",
+                "count": 148
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PDQ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 49.0,
+            "mean": 24.714,
+            "median": 23.0,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "X": {
+            "null_count": 65,
+            "null_pct": 6.5,
+            "min": 271614.927008,
+            "max": 305817.012,
+            "mean": 294810.586311,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 65,
+            "null_pct": 6.5,
+            "min": 5030793.500004,
+            "max": 5061470.687,
+            "mean": 5042852.542393,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 65,
+            "null_pct": 6.5,
+            "min": -73.924475,
+            "max": -73.486942,
+            "mean": -73.627846,
+            "pct_in_montreal_bbox": 99.9,
+            "field_type_detected": "geo_longitude"
+          },
+          "LATITUDE": {
+            "null_count": 65,
+            "null_pct": 6.5,
+            "min": 45.41702,
+            "max": 45.693121,
+            "mean": 45.525496,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "aacc4576-97b3-4d8d-883d-22bbca41dbe6",
+      "name": "Actes criminels",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/aacc4576-97b3-4d8d-883d-22bbca41dbe6/download/actes-criminels.geojson",
+      "datastore_active": false,
+      "size": 106189354,
+      "last_modified": "2026-03-08T20:03:37.209777",
+      "created": "2022-07-05T15:48:10.229848",
+      "schema": null
+    },
+    {
+      "id": "1171793b-3c41-4dd5-ab99-7bd294c0c9f0",
+      "name": "Actes criminels",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/1171793b-3c41-4dd5-ab99-7bd294c0c9f0/download/actes-criminels.zip",
+      "datastore_active": false,
+      "size": 12652965,
+      "last_modified": "2026-03-08T20:03:30.628118",
+      "created": "2022-07-05T15:47:32.169919",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Crime",
+    "Criminalité",
+    "Police",
+    "SPVM",
+    "Sécurité publique"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Avertissement\n\n\n\n- Les données sont divulguées telles que rapportées au SPVM. Il est normal qu’il existe un écart entre celles-ci et celles compilées officiellement par le Centre canadien de la statistique juridique puisque le statut d’un incident peut être modifié en cours d’enquête.\n\n- La section méthodologie contient plusieurs éléments importants pour l'interprétation des données.\n\n\n### Vie privée\n\n\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels:\n\n\n- Localisation : la position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passé l'événement.\n\n- Temporalité : le moment de l'événement est représenté par la date et le quart de travail (ou moment de la journée : jour, soir, nuit)  durant lequel l'événement a été enregistré.\n\n\n### Mise à jour des données\n\n\n\n- Les données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent à la déclaration initiale. De manière générale, ces évolutions ont lieu dans les jours qui suivent la création de l'événement.\n\n- Les données sont regroupées par année calendaire. Quelques mois après la fin d'année, les données cessent d'être mises à jour (p.ex les données pour 2015 cessent d'être mises à jour à partir d'avril 2016)\n\n- Lorsque plusieurs infractions sont commises lors d'un même événement, l'infraction la plus grave est utilisée dans les données ouvertes.\n\n\n### Couverture territoriale\n\n\n\nLes données couvrent l'ensemble de l'agglomération de Montréal (e.g toute l'île de Montréal)\n\n\nLe poste de quartier 50 correspond à l'unité en charge du métro. Pour les événements prenant place dans le métro, la localisation est celle de l'édicule concerné ou un point fictif entre deux édicules.\n\n### Dictionnaire de données\n\n\n\n- \n\n\nCATEGORIE (liste de valeurs) : Nature de l'événement.\n\n\n- Introduction : introduction par effraction dans un établissement public ou une résidence privée, vol d’arme à feu dans une résidence\n\n- Vol dans / sur véhicule à moteur : vol du contenu d’un véhicule à moteur (voiture, camion, motocyclette, etc.) ou d’une pièce de véhicule (roue, parechoc, etc.)\n\n- Vol de véhicule à moteur : vol de voiture, camion, motocyclette, motoneige tracteur avec ou sans remorque, véhicule de construction ou de ferme, tout-terrain\n\n- Méfait : Graffiti et dommage de biens religieux, de véhicule ou dommage général et tous autres types de méfaits\n\n- Vol qualifié : Vol accompagné de violence de commerce, institution financière, personne, sac à main, véhicule blindé, véhicule, arme à feu, et tous autres types de vols qualifiés\n\n- Infraction entraînant la mort : Meurtre au premier degré, meurtre au deuxième degré, homicide involontaire, infanticide, négligence criminelle, et tous autres types d’infractions entraînant la mort\n\n\n\n- \n\n\nDATE (date) : Date du signalement de l'événement au SPVM au format AAAA-MM-JJ\n\n\n- \n\n\nQUART (liste de valeurs) : Moment de la journée du signalement de l'événement au SPVM.\n\n\n- jour : Entre 8h01 et 16h\n\n- soir : Entre 16h01 et minuit\n\n- nuit : Entre 00h01 et 8h\n\n\n\n- \n\n\nPDQ (numérique) : Numéro du poste de quartier couvrant le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de police de la Ville de Montréal",
+      "Couverture temporelle": "2015-01-01/",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Crime",
+      "Criminalité",
+      "Police",
+      "SPVM",
+      "Sécurité publique"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/actes-criminels",
+    "scraped_at": "2026-03-09T19:51:47.347989+00:00"
+  }
+}

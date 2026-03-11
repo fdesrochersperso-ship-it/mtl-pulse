@@ -1,0 +1,527 @@
+{
+  "slug": "vmtl-casernes-pompiers",
+  "title": "Casernes de pompiers sur l’île de Montréal",
+  "notes": "Cet ensemble de données comprend les coordonnées des casernes de pompier du service incendie de la Ville de Montréal.  \r\nL'ensemble de données [Territoires administratifs des casernes](/ville-de-montreal/territoires-administratifs-des-casernes) fournit le territoire couvert par les casernes.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-06T14:23:30.437619",
+  "metadata_modified": "2026-03-05T02:09:03.058764",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "5b9c0e1d-3f75-4e98-b53d-6e979c18cc98",
+      "name": "Casernes des pompiers ",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/c69e78c6-e454-4bd9-9778-e4b0eaf8105b/resource/5b9c0e1d-3f75-4e98-b53d-6e979c18cc98/download/casernes.csv",
+      "datastore_active": true,
+      "size": 9033,
+      "last_modified": "2026-03-05T00:01:52.813361",
+      "created": "2020-04-02T18:45:03.649447",
+      "schema": {
+        "resource_id": "5b9c0e1d-3f75-4e98-b53d-6e979c18cc98",
+        "total_records": 68,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "CASERNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NO_CIVIQUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LATITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LONGITUDE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VILLE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DEBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_FIN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MTM8_Y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "CASERNE": "03",
+            "NO_CIVIQUE": "256",
+            "RUE": "rue  Young",
+            "LATITUDE": "45.4934543793718",
+            "LONGITUDE": "-73.5601720032226",
+            "ARRONDISSEMENT": "LE SUD-OUEST",
+            "VILLE": null,
+            "DATE_DEBUT": "2015-01-01T07:00:00",
+            "DATE_FIN": null,
+            "MTM8_X": "300097",
+            "MTM8_Y": "5039283"
+          },
+          {
+            "_id": 2,
+            "CASERNE": "15",
+            "NO_CIVIQUE": "1255",
+            "RUE": "rue de la Sucrerie",
+            "LATITUDE": "45.4844194758814",
+            "LONGITUDE": "-73.5609171345086",
+            "ARRONDISSEMENT": "LE SUD-OUEST",
+            "VILLE": null,
+            "DATE_DEBUT": "2015-01-01T07:00:00",
+            "DATE_FIN": null,
+            "MTM8_X": "300038",
+            "MTM8_Y": "5038279"
+          },
+          {
+            "_id": 3,
+            "CASERNE": "23",
+            "NO_CIVIQUE": "523",
+            "RUE": "place Saint-Henri",
+            "LATITUDE": "45.477820050794",
+            "LONGITUDE": "-73.5852566191264",
+            "ARRONDISSEMENT": "LE SUD-OUEST",
+            "VILLE": null,
+            "DATE_DEBUT": "2015-01-01T07:00:00",
+            "DATE_FIN": null,
+            "MTM8_X": "298134.6",
+            "MTM8_Y": "5037547.3"
+          },
+          {
+            "_id": 4,
+            "CASERNE": "33",
+            "NO_CIVIQUE": "6040",
+            "RUE": "boulevard Monk",
+            "LATITUDE": "45.4578413687524",
+            "LONGITUDE": "-73.5954499348277",
+            "ARRONDISSEMENT": "LE SUD-OUEST",
+            "VILLE": null,
+            "DATE_DEBUT": "2015-01-01T07:00:00",
+            "DATE_FIN": null,
+            "MTM8_X": "297335",
+            "MTM8_Y": "5035328"
+          },
+          {
+            "_id": 5,
+            "CASERNE": "09",
+            "NO_CIVIQUE": "8100",
+            "RUE": "boulevard Saint-Michel",
+            "LATITUDE": "45.5637484701804",
+            "LONGITUDE": "-73.6101688625091",
+            "ARRONDISSEMENT": "VILLERAY-SAINT-MICHEL-PARC-EXTENSION",
+            "VILLE": null,
+            "DATE_DEBUT": "2019-05-06T07:00:00",
+            "DATE_FIN": null,
+            "MTM8_X": "296200",
+            "MTM8_Y": "5047099"
+          }
+        ]
+      },
+      "field_stats": {
+        "CASERNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_CIVIQUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LATITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LONGITUDE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 14,
+          "null_pct": 20.6,
+          "populated_pct": 79.4
+        },
+        "VILLE": {
+          "null_count": 54,
+          "null_pct": 79.4,
+          "populated_pct": 20.6
+        },
+        "DATE_DEBUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_FIN": {
+          "null_count": 67,
+          "null_pct": 98.5,
+          "populated_pct": 1.5
+        },
+        "MTM8_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MTM8_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 68,
+        "total_records": 68,
+        "audited_at": "2026-03-10T00:14:42.476119+00:00",
+        "fields": {
+          "CASERNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 79.0,
+            "mean": 41.1176,
+            "median": 41.5,
+            "unique_count": 68,
+            "field_type_detected": "numeric"
+          },
+          "NO_CIVIQUE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 18661.0,
+            "mean": 4150.9853,
+            "median": 2981.5,
+            "unique_count": 65,
+            "field_type_detected": "numeric"
+          },
+          "RUE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 66,
+            "top_values": [
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 2
+              },
+              {
+                "value": "rue Hochelaga",
+                "count": 2
+              },
+              {
+                "value": "rue  Young",
+                "count": 1
+              },
+              {
+                "value": "rue de la Sucrerie",
+                "count": 1
+              },
+              {
+                "value": "place Saint-Henri",
+                "count": 1
+              },
+              {
+                "value": "boulevard Monk",
+                "count": 1
+              },
+              {
+                "value": "boulevard Saint-Michel",
+                "count": 1
+              },
+              {
+                "value": "rue Jarry Est",
+                "count": 1
+              },
+              {
+                "value": "avenue Champagneur",
+                "count": 1
+              },
+              {
+                "value": "boulevard Maurice-Duplessis",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "LATITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.417779,
+            "max": 45.697052,
+            "mean": 45.520471,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LONGITUDE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.950016,
+            "max": -73.492367,
+            "mean": -73.642306,
+            "pct_in_montreal_bbox": 97.1,
+            "field_type_detected": "geo_longitude"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 14,
+            "null_pct": 20.6,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "VILLE-MARIE",
+                "count": 6
+              },
+              {
+                "value": "MERCIER-HOCHELAGA-MAISONNEUVE",
+                "count": 5
+              },
+              {
+                "value": "LE SUD-OUEST",
+                "count": 4
+              },
+              {
+                "value": "RIVIÈRE-DES-PRAIRIES-POINTE-AUX-TREMBLES",
+                "count": 4
+              },
+              {
+                "value": "CÔTE-DES-NEIGES-NOTRE-DAME-DE-GRÂCE",
+                "count": 4
+              },
+              {
+                "value": "ROSEMONT-LA PETITE-PATRIE",
+                "count": 4
+              },
+              {
+                "value": "AHUNTSIC-CARTIERVILLE",
+                "count": 4
+              },
+              {
+                "value": "VILLERAY-SAINT-MICHEL-PARC-EXTENSION",
+                "count": 3
+              },
+              {
+                "value": "LE PLATEAU-MONT-ROYAL",
+                "count": 3
+              },
+              {
+                "value": "SAINT-LAURENT",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "VILLE": {
+            "null_count": 54,
+            "null_pct": 79.4,
+            "unique_count": 13,
+            "top_values": [
+              {
+                "value": "DORVAL",
+                "count": 2
+              },
+              {
+                "value": "BAIE-D'URFÉ",
+                "count": 1
+              },
+              {
+                "value": "BEACONSFIELD",
+                "count": 1
+              },
+              {
+                "value": "CÔTE-SAINT-LUC",
+                "count": 1
+              },
+              {
+                "value": "DOLLARD-DES-ORMEAUX",
+                "count": 1
+              },
+              {
+                "value": "HAMPSTEAD",
+                "count": 1
+              },
+              {
+                "value": "KIRKLAND",
+                "count": 1
+              },
+              {
+                "value": "MONT-ROYAL",
+                "count": 1
+              },
+              {
+                "value": "MONTRÉAL-EST",
+                "count": 1
+              },
+              {
+                "value": "MONTRÉAL-OUEST",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE_DEBUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1900-01-01T07:00:00",
+            "max_date": "2019-05-06T07:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "DATE_FIN": {
+            "null_count": 67,
+            "null_pct": 98.5,
+            "min_date": "2009-11-05T06:59:59",
+            "max_date": "2009-11-05T06:59:59",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "MTM8_X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269580.0,
+            "max": 305394.4,
+            "mean": 293677.5044,
+            "median": 296033.5,
+            "unique_count": 68,
+            "field_type_detected": "numeric"
+          },
+          "MTM8_Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5030970.0,
+            "max": 5061907.6,
+            "mean": 5042299.2706,
+            "median": 5041398.5,
+            "unique_count": 68,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "d12b4ec0-cdd8-4bd5-b2f0-de1cbc902173",
+      "name": "Casernes des pompiers ",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/c69e78c6-e454-4bd9-9778-e4b0eaf8105b/resource/d12b4ec0-cdd8-4bd5-b2f0-de1cbc902173/download/casernes.zip",
+      "datastore_active": false,
+      "size": 6861,
+      "last_modified": "2026-03-05T00:01:50.822468",
+      "created": "2020-04-02T18:46:03.594373",
+      "schema": null
+    },
+    {
+      "id": "beff8ce0-7a61-4a82-95b5-96d89bafa671",
+      "name": "Casernes des pompiers ",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/c69e78c6-e454-4bd9-9778-e4b0eaf8105b/resource/beff8ce0-7a61-4a82-95b5-96d89bafa671/download/casernes.geojson",
+      "datastore_active": false,
+      "size": 28739,
+      "last_modified": "2026-03-05T00:01:45.395802",
+      "created": "2020-04-02T18:46:52.509689",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Caserne",
+    "Géolocalisation",
+    "Incendie",
+    "Intervention",
+    "Pompier",
+    "Ponctuelle",
+    "Première ligne",
+    "SIM",
+    "Saint-Laurent",
+    "Sapeur"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les coordonnées des casernes de pompiers sont mises à jour occasionnellement lorsqu’il a des changements. \n\n### Dictionnaire des données\n\n\n\n- CASERNE (numérique) : Numéro de la caserne.\n\n- NO_CIVIQUE (numérique) : Numéro de l'adresse.\n\n- RUE (texte) : Rue où se trouve la caserne.\n\n- LATITUDE, LONGITUDE (coordonnée spatiale) :  Selon le référentiel WGS84.\n\n- ARRONDISSEMENT (texte) : Arrondissement où se trouve la caserne (s'il a lieu).\n\n- VILLE (texte) : Ville liée où se trouve la caserne.\n\n- DATE_DEBUT (date) : Date liée au dernier découpage municipal.  Si cette date est présente, c'est que la caserne est présentement opérationnelle.\n\n- DATE_FIN (date) : Date de fermeture de la caserne.\n\n- MTM8_X (coordonnée spatiale) : Coordonnée X de la caserne dans la projection NAD83 MTM8  (MTM: Mercator Transverse Modifié).\n\n- MTM8_Y(coordonnée spatiale) : Coordonnée Y de la caserne dans la projection NAD83 MTM8.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "### Ressources\n\n                                \n                                \n                                \n                                \n                                \n                                    \n                                    \n                                        \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                        \n                                \n                                    \n#### Données\n\n                                    \n                                        \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Casernes des pompiers \n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 5 jours\n                                                                            \n    \n    \n        8,8 KB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            SHP\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Casernes des pompiers \n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 5 jours\n                                                                            \n    \n    \n        6,7 KB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            GeoJSON\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Casernes des pompiers \n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 5 jours\n                                                                            \n    \n    \n        28 KB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                        \n\n                                        \n                        \n                                    \n                                \n                            \n\n                            \n                                \n### Méthodologie\n\n                                \n                                \n                                    \n\nLes coordonnées des casernes de pompiers sont mises à jour occasionnellement lorsqu’il a des changements. \n\n### Dictionnaire des données\n\n\n\n- CASERNE (numérique) : Numéro de la caserne.\n\n- NO_CIVIQUE (numérique) : Numéro de l'adresse.\n\n- RUE (texte) : Rue où se trouve la caserne.\n\n- LATITUDE, LONGITUDE (coordonnée spatiale) :  Selon le référentiel WGS84.\n\n- ARRONDISSEMENT (texte) : Arrondissement où se trouve la caserne (s'il a lieu).\n\n- VILLE (texte) : Ville liée où se trouve la caserne.\n\n- DATE_DEBUT (date) : Date liée au dernier découpage municipal.  Si cette date est présente, c'est que la caserne est présentement opérationnelle.\n\n- DATE_FIN (date) : Date de fermeture de la caserne.\n\n- MTM8_X (coordonnée spatiale) : Coordonnée X de la caserne dans la projection NAD83 MTM8  (MTM: Mercator Transverse Modifié).\n\n- MTM8_Y(coordonnée spatiale) : Coordonnée Y de la caserne dans la projection NAD83 MTM8.\n\n                                \n                                \n                            \n\n                            \n                                \n### Territoires\n\n                                \n                                    \n\nMontreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de sécurité incendie de Montréal",
+      "Couverture temporelle": "2019-05-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Caserne",
+      "Géolocalisation",
+      "Incendie",
+      "Intervention",
+      "Pompier",
+      "Ponctuelle",
+      "Première ligne",
+      "SIM",
+      "Saint-Laurent",
+      "Sapeur"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/casernes-pompiers",
+    "scraped_at": "2026-03-09T19:53:39.220909+00:00"
+  }
+}

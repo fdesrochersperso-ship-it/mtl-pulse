@@ -1,0 +1,3458 @@
+{
+  "slug": "vmtl-requete-311",
+  "title": "Demandes de services citoyennes (Requêtes 311)",
+  "notes": "Le présent ensemble de données contient les demandes d'information et les demandes de services soumises à la Ville de Montréal via le système d’appel 311, par courriel et dans les Bureaux Accès Montréal (BAM). Il faut préciser que les demandes de services se subdivisent en trois catégories : les requêtes, les plaintes et les commentaires.\r\n\r\nAVERTISSEMENT : Les données contenues dans cet ensemble représentent toutes les demandes soumises qu’il en ai résulté une intervention de la part de la Ville de Montréal ou non. Par ailleurs, il est important de prendre connaissance de la méthodologie puisqu’elle contient des informations quant à la collecte et à la gestion des données nécessaires pour toutes analyses ou interprétations des données.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-05-02T19:36:43.364394",
+  "metadata_modified": "2026-03-09T12:06:08.905089",
+  "num_resources": 6,
+  "resources": [
+    {
+      "id": "92a77124-3c34-42cc-8199-35fab7f16ff8",
+      "name": "Visualisation des données  ",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzVlZjI0NjQtYWI3NS00ZDM0LWJiYmItOGFiZWUzN2VhNWIxIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-28T17:59:47.508578",
+      "schema": null
+    },
+    {
+      "id": "2cfa0e06-9be4-49a6-b7f1-ee9f2363a872",
+      "name": "Requêtes 3-1-1 (2022 à ce jour)",
+      "description": "Données tabulaires des demandes citoyennes (incluant le positionnement géographique obfusqué) depuis janvier 2022.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/2cfa0e06-9be4-49a6-b7f1-ee9f2363a872/download/requetes311.csv",
+      "datastore_active": true,
+      "size": 712549599,
+      "last_modified": "2026-03-09T12:06:08.851977",
+      "created": "2017-05-02T15:39:15.405548",
+      "schema": {
+        "resource_id": "2cfa0e06-9be4-49a6-b7f1-ee9f2363a872",
+        "total_records": 2761818,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_UNIQUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACTI_NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_LIEU_INTERV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_ERREUR_GDT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_GEO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIN_CODE_POSTAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DDS_DATE_CREATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_ORIGINALE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELEPHONE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIEL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_PERSONNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIER",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELECOPIEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_INSTANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MOBILE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MEDIASOCIAUX",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_SITEINTERNET",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UNITE_RESP_PARENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LONG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Organisme divers",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2023-07-10T20:15:39",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2023-07-10T20:15:39"
+          },
+          {
+            "_id": 2,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Écocentre",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2023-07-10T20:24:59",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2023-07-10T20:24:59"
+          },
+          {
+            "_id": 3,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Direction d'arrondissement",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2023-07-11T08:35:02",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2023-07-11T08:35:02"
+          },
+          {
+            "_id": 4,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Subvention - Habitation - Service central",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2023-07-11T08:39:19",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2023-07-11T08:39:19"
+          },
+          {
+            "_id": 5,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Taxes foncières",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2023-07-11T08:47:26",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2023-07-11T08:47:26"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_UNIQUE": {
+          "null_count": 1279018,
+          "null_pct": 46.3,
+          "populated_pct": 53.7
+        },
+        "NATURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTI_NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_LIEU_INTERV": {
+          "null_count": 1279024,
+          "null_pct": 46.3,
+          "populated_pct": 53.7
+        },
+        "RUE": {
+          "null_count": 1486402,
+          "null_pct": 53.8,
+          "populated_pct": 46.2
+        },
+        "RUE_INTERSECTION1": {
+          "null_count": 2535152,
+          "null_pct": 91.8,
+          "populated_pct": 8.2
+        },
+        "RUE_INTERSECTION2": {
+          "null_count": 2535302,
+          "null_pct": 91.8,
+          "populated_pct": 8.2
+        },
+        "LOC_ERREUR_GDT": {
+          "null_count": 1280291,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 1279024,
+          "null_pct": 46.3,
+          "populated_pct": 53.7
+        },
+        "ARRONDISSEMENT_GEO": {
+          "null_count": 1280345,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "LIN_CODE_POSTAL": {
+          "null_count": 1602966,
+          "null_pct": 58.0,
+          "populated_pct": 42.0
+        },
+        "DDS_DATE_CREATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_ORIGINALE": {
+          "null_count": 1608,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "PROVENANCE_TELEPHONE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIEL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_PERSONNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIER": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_TELECOPIEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_INSTANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MOBILE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MEDIASOCIAUX": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_SITEINTERNET": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UNITE_RESP_PARENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_LONG": {
+          "null_count": 1280291,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "LOC_LAT": {
+          "null_count": 1280291,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "LOC_X": {
+          "null_count": 1280291,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "LOC_Y": {
+          "null_count": 1280291,
+          "null_pct": 46.4,
+          "populated_pct": 53.6
+        },
+        "DERNIER_STATUT": {
+          "null_count": 1279018,
+          "null_pct": 46.3,
+          "populated_pct": 53.7
+        },
+        "DATE_DERNIER_STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2761818,
+        "audited_at": "2026-03-10T00:23:41.199017+00:00",
+        "fields": {
+          "ID_UNIQUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NATURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Information",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ACTI_NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 134,
+            "top_values": [
+              {
+                "value": "Info-Remorquage",
+                "count": 98
+              },
+              {
+                "value": "Collecte des encombrants",
+                "count": 65
+              },
+              {
+                "value": "Taxes foncières",
+                "count": 61
+              },
+              {
+                "value": "Collecte de déchets",
+                "count": 59
+              },
+              {
+                "value": "Y-Eau - Divers",
+                "count": 41
+              },
+              {
+                "value": "Organisme divers",
+                "count": 40
+              },
+              {
+                "value": "Fermeture d'entrée d'eau",
+                "count": 31
+              },
+              {
+                "value": "Opération déneigement",
+                "count": 28
+              },
+              {
+                "value": "Manque d'eau",
+                "count": 25
+              },
+              {
+                "value": "Fermeture d'une conduite d'eau - Urgence",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TYPE_LIEU_INTERV": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION1": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION2": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_ERREUR_GDT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_GEO": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LIN_CODE_POSTAL": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DDS_DATE_CREATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-08T09:12:29",
+            "max_date": "2026-03-01T09:10:40",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "PROVENANCE_ORIGINALE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Téléphone",
+                "count": 957
+              },
+              {
+                "value": "Personne",
+                "count": 34
+              },
+              {
+                "value": "Courriel",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PROVENANCE_TELEPHONE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.957,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 957
+              },
+              {
+                "value": "0",
+                "count": 43
+              }
+            ]
+          },
+          "PROVENANCE_COURRIEL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.009,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 991
+              },
+              {
+                "value": "1",
+                "count": 9
+              }
+            ]
+          },
+          "PROVENANCE_PERSONNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.034,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 966
+              },
+              {
+                "value": "1",
+                "count": 34
+              }
+            ]
+          },
+          "PROVENANCE_COURRIER": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_TELECOPIEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_INSTANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MOBILE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MEDIASOCIAUX": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_SITEINTERNET": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "UNITE_RESP_PARENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+                "count": 857
+              },
+              {
+                "value": "SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE",
+                "count": 86
+              },
+              {
+                "value": "LASALLE",
+                "count": 12
+              },
+              {
+                "value": "ST-LAURENT",
+                "count": 11
+              },
+              {
+                "value": "SUD-OUEST",
+                "count": 6
+              },
+              {
+                "value": "L ÎLE BIZARD - STE-GENEVIÈVE",
+                "count": 5
+              },
+              {
+                "value": "RELATIONS AVEC LES CITOYENS - 311",
+                "count": 5
+              },
+              {
+                "value": "ANJOU",
+                "count": 4
+              },
+              {
+                "value": "DIRECTION GÉNÉRALE",
+                "count": 4
+              },
+              {
+                "value": "SAINT-LÉONARD",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_LONG": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_LAT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_X": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_Y": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DERNIER_STATUT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DATE_DERNIER_STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-08T09:12:29",
+            "max_date": "2026-03-01T09:10:40",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "dbfc05f8-b939-4639-ae52-2e77f738e43f",
+      "name": "Requêtes 3-1-1 (archives 2019 à 2021)",
+      "description": "Fichier tabulaire des demandes citoyennes (incluant le positionnement géographique obfusqué).",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/dbfc05f8-b939-4639-ae52-2e77f738e43f/download/requetes311_2019-2021.csv",
+      "datastore_active": true,
+      "size": 516510692,
+      "last_modified": "2026-03-08T12:05:58.128034",
+      "created": "2023-01-24T20:47:15.700689",
+      "schema": {
+        "resource_id": "dbfc05f8-b939-4639-ae52-2e77f738e43f",
+        "total_records": 2105573,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_UNIQUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACTI_NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_LIEU_INTERV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_ERREUR_GDT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_GEO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIN_CODE_POSTAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DDS_DATE_CREATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_ORIGINALE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELEPHONE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIEL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_PERSONNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIER",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELECOPIEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_INSTANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MOBILE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MEDIASOCIAUX",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_SITEINTERNET",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UNITE_RESP_PARENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LONG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Feux de circulation - Entretien",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2019-11-10T08:48:01",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2019-11-10T08:48:01"
+          },
+          {
+            "_id": 2,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Direction - Capital humain",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2019-11-18T08:35:08",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "ST-LAURENT",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2019-11-18T08:35:08"
+          },
+          {
+            "_id": 3,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Gouvernement du Québec",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2019-11-18T08:36:40",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "ST-LAURENT",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2019-11-18T08:36:40"
+          },
+          {
+            "_id": 4,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Permis de construction - rénovation",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2019-11-26T08:39:41",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "ANJOU",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2019-11-26T08:39:41"
+          },
+          {
+            "_id": 5,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Accès à l'information",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2019-11-26T08:43:43",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2019-11-26T08:43:43"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_UNIQUE": {
+          "null_count": 1056684,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "NATURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTI_NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_LIEU_INTERV": {
+          "null_count": 1056689,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "RUE": {
+          "null_count": 1231257,
+          "null_pct": 58.5,
+          "populated_pct": 41.5
+        },
+        "RUE_INTERSECTION1": {
+          "null_count": 1932142,
+          "null_pct": 91.8,
+          "populated_pct": 8.2
+        },
+        "RUE_INTERSECTION2": {
+          "null_count": 1932273,
+          "null_pct": 91.8,
+          "populated_pct": 8.2
+        },
+        "LOC_ERREUR_GDT": {
+          "null_count": 1057231,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 1056689,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "ARRONDISSEMENT_GEO": {
+          "null_count": 1057319,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "LIN_CODE_POSTAL": {
+          "null_count": 1310733,
+          "null_pct": 62.3,
+          "populated_pct": 37.7
+        },
+        "DDS_DATE_CREATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_ORIGINALE": {
+          "null_count": 2031,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "PROVENANCE_TELEPHONE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIEL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_PERSONNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIER": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_TELECOPIEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_INSTANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MOBILE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MEDIASOCIAUX": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_SITEINTERNET": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UNITE_RESP_PARENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_LONG": {
+          "null_count": 1057231,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "LOC_LAT": {
+          "null_count": 1057231,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "LOC_X": {
+          "null_count": 1057231,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "LOC_Y": {
+          "null_count": 1057231,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "DERNIER_STATUT": {
+          "null_count": 1056684,
+          "null_pct": 50.2,
+          "populated_pct": 49.8
+        },
+        "DATE_DERNIER_STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2105573,
+        "audited_at": "2026-03-10T00:23:43.123417+00:00",
+        "fields": {
+          "ID_UNIQUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NATURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Information",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ACTI_NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 140,
+            "top_values": [
+              {
+                "value": "Taxes foncières",
+                "count": 78
+              },
+              {
+                "value": "Collecte des encombrants",
+                "count": 68
+              },
+              {
+                "value": "Collecte de déchets",
+                "count": 36
+              },
+              {
+                "value": "Permis - Divers",
+                "count": 32
+              },
+              {
+                "value": "Sports et loisirs - Activités",
+                "count": 30
+              },
+              {
+                "value": "Cour municipale",
+                "count": 30
+              },
+              {
+                "value": "Collecte de résidus verts",
+                "count": 28
+              },
+              {
+                "value": "Bureau d'arrondissement - Service à la clientèle",
+                "count": 26
+              },
+              {
+                "value": "Info-Remorquage",
+                "count": 26
+              },
+              {
+                "value": "Fermeture d'une conduite d'eau - Urgence",
+                "count": 25
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TYPE_LIEU_INTERV": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION1": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION2": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_ERREUR_GDT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_GEO": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LIN_CODE_POSTAL": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DDS_DATE_CREATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-06T11:37:35",
+            "max_date": "2021-12-27T09:16:48",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "PROVENANCE_ORIGINALE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Téléphone",
+                "count": 905
+              },
+              {
+                "value": "Personne",
+                "count": 88
+              },
+              {
+                "value": "Courriel",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PROVENANCE_TELEPHONE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.905,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 905
+              },
+              {
+                "value": "0",
+                "count": 95
+              }
+            ]
+          },
+          "PROVENANCE_COURRIEL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.007,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 993
+              },
+              {
+                "value": "1",
+                "count": 7
+              }
+            ]
+          },
+          "PROVENANCE_PERSONNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.088,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 912
+              },
+              {
+                "value": "1",
+                "count": 88
+              }
+            ]
+          },
+          "PROVENANCE_COURRIER": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_TELECOPIEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_INSTANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MOBILE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MEDIASOCIAUX": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_SITEINTERNET": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "UNITE_RESP_PARENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 21,
+            "top_values": [
+              {
+                "value": "DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES",
+                "count": 695
+              },
+              {
+                "value": "MERCIER - HOCHELAGA-MAISONNEUVE",
+                "count": 41
+              },
+              {
+                "value": "DIRECTION GÉNÉRALE",
+                "count": 36
+              },
+              {
+                "value": "SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE",
+                "count": 32
+              },
+              {
+                "value": "ST-LAURENT",
+                "count": 31
+              },
+              {
+                "value": "SUD-OUEST",
+                "count": 25
+              },
+              {
+                "value": "ROSEMONT - LA PETITE-PATRIE",
+                "count": 25
+              },
+              {
+                "value": "LASALLE",
+                "count": 24
+              },
+              {
+                "value": "SAINT-LÉONARD",
+                "count": 23
+              },
+              {
+                "value": "RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES",
+                "count": 19
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "LOC_LONG": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_LAT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_X": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_Y": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DERNIER_STATUT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DATE_DERNIER_STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-06T11:37:35",
+            "max_date": "2021-12-27T09:16:48",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "f180b33d-7525-48de-b0d1-1b8d15a958bb",
+      "name": "Requêtes 3-1-1 (archives 2017 à 2018)",
+      "description": "Fichier tabulaire des demandes citoyennes (incluant le positionnement géographique obfusqué).",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/f180b33d-7525-48de-b0d1-1b8d15a958bb/download/requetes311_2017-2018.csv",
+      "datastore_active": true,
+      "size": 392206612,
+      "last_modified": "2024-08-22T20:00:25.920635",
+      "created": "2022-05-25T21:00:04.925509",
+      "schema": null
+    },
+    {
+      "id": "f62595b0-b26a-4e7b-ba67-05b84521ab64",
+      "name": "Requêtes 3-1-1 (archives 2014 à 2016)",
+      "description": "Fichier tabulaire des demandes citoyennes (incluant le positionnement géographique obfusqué).",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/f62595b0-b26a-4e7b-ba67-05b84521ab64/download/requetes311_2014-2016.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-05-26T10:38:30.217799",
+      "created": "2022-05-26T10:38:30.287964",
+      "schema": {
+        "resource_id": "f62595b0-b26a-4e7b-ba67-05b84521ab64",
+        "total_records": 2403830,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_UNIQUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACTI_NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_LIEU_INTERV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_ERREUR_GDT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_GEO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIN_CODE_POSTAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DDS_DATE_CREATION",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_ORIGINALE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELEPHONE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIEL",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_PERSONNE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIER",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELECOPIEUR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_INSTANCE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MOBILE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MEDIASOCIAUX",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_SITEINTERNET",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "UNITE_RESP_PARENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LONG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_UNIQUE": "",
+            "NATURE": "Information",
+            "ACTI_NOM": "Débris sur la voie publique",
+            "TYPE_LIEU_INTERV": "",
+            "RUE": "",
+            "RUE_INTERSECTION1": "",
+            "RUE_INTERSECTION2": "",
+            "LOC_ERREUR_GDT": "",
+            "ARRONDISSEMENT": "",
+            "ARRONDISSEMENT_GEO": "",
+            "LIN_CODE_POSTAL": "",
+            "DDS_DATE_CREATION": "2014-01-01T04:06:49",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": 1,
+            "PROVENANCE_COURRIEL": 0,
+            "PROVENANCE_PERSONNE": 0,
+            "PROVENANCE_COURRIER": 0,
+            "PROVENANCE_TELECOPIEUR": 0,
+            "PROVENANCE_INSTANCE": 0,
+            "PROVENANCE_MOBILE": 0,
+            "PROVENANCE_MEDIASOCIAUX": 0,
+            "PROVENANCE_SITEINTERNET": 0,
+            "UNITE_RESP_PARENT": "SEC.CENT.SERVICE.311",
+            "LOC_LONG": "",
+            "LOC_LAT": "",
+            "LOC_X": "",
+            "LOC_Y": "",
+            "DERNIER_STATUT": "",
+            "DATE_DERNIER_STATUT": ""
+          },
+          {
+            "_id": 2,
+            "ID_UNIQUE": "",
+            "NATURE": "Information",
+            "ACTI_NOM": "Collecte des matières recyclables",
+            "TYPE_LIEU_INTERV": "",
+            "RUE": "",
+            "RUE_INTERSECTION1": "",
+            "RUE_INTERSECTION2": "",
+            "LOC_ERREUR_GDT": "",
+            "ARRONDISSEMENT": "",
+            "ARRONDISSEMENT_GEO": "",
+            "LIN_CODE_POSTAL": "",
+            "DDS_DATE_CREATION": "2014-01-01T09:02:14",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": 1,
+            "PROVENANCE_COURRIEL": 0,
+            "PROVENANCE_PERSONNE": 0,
+            "PROVENANCE_COURRIER": 0,
+            "PROVENANCE_TELECOPIEUR": 0,
+            "PROVENANCE_INSTANCE": 0,
+            "PROVENANCE_MOBILE": 0,
+            "PROVENANCE_MEDIASOCIAUX": 0,
+            "PROVENANCE_SITEINTERNET": 0,
+            "UNITE_RESP_PARENT": "LASALLE",
+            "LOC_LONG": "",
+            "LOC_LAT": "",
+            "LOC_X": "",
+            "LOC_Y": "",
+            "DERNIER_STATUT": "",
+            "DATE_DERNIER_STATUT": ""
+          },
+          {
+            "_id": 3,
+            "ID_UNIQUE": "",
+            "NATURE": "Information",
+            "ACTI_NOM": "Collecte des matières recyclables",
+            "TYPE_LIEU_INTERV": "",
+            "RUE": "",
+            "RUE_INTERSECTION1": "",
+            "RUE_INTERSECTION2": "",
+            "LOC_ERREUR_GDT": "",
+            "ARRONDISSEMENT": "",
+            "ARRONDISSEMENT_GEO": "",
+            "LIN_CODE_POSTAL": "",
+            "DDS_DATE_CREATION": "2014-01-01T09:02:38",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": 1,
+            "PROVENANCE_COURRIEL": 0,
+            "PROVENANCE_PERSONNE": 0,
+            "PROVENANCE_COURRIER": 0,
+            "PROVENANCE_TELECOPIEUR": 0,
+            "PROVENANCE_INSTANCE": 0,
+            "PROVENANCE_MOBILE": 0,
+            "PROVENANCE_MEDIASOCIAUX": 0,
+            "PROVENANCE_SITEINTERNET": 0,
+            "UNITE_RESP_PARENT": "LASALLE",
+            "LOC_LONG": "",
+            "LOC_LAT": "",
+            "LOC_X": "",
+            "LOC_Y": "",
+            "DERNIER_STATUT": "",
+            "DATE_DERNIER_STATUT": ""
+          },
+          {
+            "_id": 4,
+            "ID_UNIQUE": "",
+            "NATURE": "Information",
+            "ACTI_NOM": "Info-Remorquage",
+            "TYPE_LIEU_INTERV": "",
+            "RUE": "",
+            "RUE_INTERSECTION1": "",
+            "RUE_INTERSECTION2": "",
+            "LOC_ERREUR_GDT": "",
+            "ARRONDISSEMENT": "",
+            "ARRONDISSEMENT_GEO": "",
+            "LIN_CODE_POSTAL": "",
+            "DDS_DATE_CREATION": "2014-01-01T09:03:19",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": 1,
+            "PROVENANCE_COURRIEL": 0,
+            "PROVENANCE_PERSONNE": 0,
+            "PROVENANCE_COURRIER": 0,
+            "PROVENANCE_TELECOPIEUR": 0,
+            "PROVENANCE_INSTANCE": 0,
+            "PROVENANCE_MOBILE": 0,
+            "PROVENANCE_MEDIASOCIAUX": 0,
+            "PROVENANCE_SITEINTERNET": 0,
+            "UNITE_RESP_PARENT": "LASALLE",
+            "LOC_LONG": "",
+            "LOC_LAT": "",
+            "LOC_X": "",
+            "LOC_Y": "",
+            "DERNIER_STATUT": "",
+            "DATE_DERNIER_STATUT": ""
+          },
+          {
+            "_id": 5,
+            "ID_UNIQUE": "",
+            "NATURE": "Information",
+            "ACTI_NOM": "Bureau d'arrondissement - Service à la clientèle",
+            "TYPE_LIEU_INTERV": "",
+            "RUE": "",
+            "RUE_INTERSECTION1": "",
+            "RUE_INTERSECTION2": "",
+            "LOC_ERREUR_GDT": "",
+            "ARRONDISSEMENT": "",
+            "ARRONDISSEMENT_GEO": "",
+            "LIN_CODE_POSTAL": "",
+            "DDS_DATE_CREATION": "2014-01-01T09:04:11",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": 1,
+            "PROVENANCE_COURRIEL": 0,
+            "PROVENANCE_PERSONNE": 0,
+            "PROVENANCE_COURRIER": 0,
+            "PROVENANCE_TELECOPIEUR": 0,
+            "PROVENANCE_INSTANCE": 0,
+            "PROVENANCE_MOBILE": 0,
+            "PROVENANCE_MEDIASOCIAUX": 0,
+            "PROVENANCE_SITEINTERNET": 0,
+            "UNITE_RESP_PARENT": "LASALLE",
+            "LOC_LONG": "",
+            "LOC_LAT": "",
+            "LOC_X": "",
+            "LOC_Y": "",
+            "DERNIER_STATUT": "",
+            "DATE_DERNIER_STATUT": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_UNIQUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NATURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTI_NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_LIEU_INTERV": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_INTERSECTION1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_INTERSECTION2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_ERREUR_GDT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ARRONDISSEMENT_GEO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LIN_CODE_POSTAL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DDS_DATE_CREATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_ORIGINALE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_TELEPHONE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIEL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_PERSONNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIER": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_TELECOPIEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_INSTANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MOBILE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MEDIASOCIAUX": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_SITEINTERNET": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UNITE_RESP_PARENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_LONG": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_LAT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DERNIER_STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_DERNIER_STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2403830,
+        "audited_at": "2026-03-10T00:23:45.283304+00:00",
+        "fields": {
+          "ID_UNIQUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NATURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Information",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ACTI_NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 81,
+            "top_values": [
+              {
+                "value": "Collecte des matières recyclables",
+                "count": 162
+              },
+              {
+                "value": "Collecte de déchets",
+                "count": 135
+              },
+              {
+                "value": "Eau - Divers",
+                "count": 103
+              },
+              {
+                "value": "Bureau d'arrondissement - Service à la clientèle",
+                "count": 62
+              },
+              {
+                "value": "Sports et loisirs - Installations",
+                "count": 38
+              },
+              {
+                "value": "Organisme divers",
+                "count": 35
+              },
+              {
+                "value": "Tuyauterie gelée",
+                "count": 34
+              },
+              {
+                "value": "SRRR",
+                "count": 33
+              },
+              {
+                "value": "Centre de services 311",
+                "count": 30
+              },
+              {
+                "value": "Sports et loisirs - Activités",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TYPE_LIEU_INTERV": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION1": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION2": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_ERREUR_GDT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_GEO": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LIN_CODE_POSTAL": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DDS_DATE_CREATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-01-01T04:06:49",
+            "max_date": "2014-01-02T11:29:27",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "PROVENANCE_ORIGINALE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Téléphone",
+                "count": 999
+              },
+              {
+                "value": "Personne",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PROVENANCE_TELEPHONE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.999,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 999
+              },
+              {
+                "value": "0",
+                "count": 1
+              }
+            ]
+          },
+          "PROVENANCE_COURRIEL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_PERSONNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.001,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 999
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "PROVENANCE_COURRIER": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_TELECOPIEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_INSTANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MOBILE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MEDIASOCIAUX": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_SITEINTERNET": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "UNITE_RESP_PARENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "LASALLE",
+                "count": 886
+              },
+              {
+                "value": "ARRONDISSEMENT DE VERDUN",
+                "count": 61
+              },
+              {
+                "value": "ROSEMONT - LA PETITE-PATRIE",
+                "count": 37
+              },
+              {
+                "value": "SEC.CENT.SERVICE.311",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_LONG": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_LAT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_X": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_Y": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DERNIER_STATUT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DATE_DERNIER_STATUT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "dbc02208-907c-46ff-a052-e4c42042d327",
+      "name": "Requêtes 3-1-1 (archives 2016 à 2018)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/dbc02208-907c-46ff-a052-e4c42042d327/download/requetes311_2016-2018.csv",
+      "datastore_active": true,
+      "size": 589611328,
+      "last_modified": "2026-03-06T12:06:05.241734",
+      "created": "2024-10-06T12:06:01.103462",
+      "schema": {
+        "resource_id": "dbc02208-907c-46ff-a052-e4c42042d327",
+        "total_records": 2456638,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_UNIQUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NATURE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ACTI_NOM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_LIEU_INTERV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_INTERSECTION2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_ERREUR_GDT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ARRONDISSEMENT_GEO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIN_CODE_POSTAL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DDS_DATE_CREATION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_ORIGINALE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELEPHONE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIEL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_PERSONNE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_COURRIER",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_TELECOPIEUR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_INSTANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MOBILE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_MEDIASOCIAUX",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE_SITEINTERNET",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "UNITE_RESP_PARENT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LONG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_DERNIER_STATUT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "IRP - Fermeture de rue",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2018-01-21T20:04:02",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIRECTION GÉNÉRALE",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2018-01-21T20:04:02"
+          },
+          {
+            "_id": 2,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Nid-de-poule",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2018-01-21T20:26:01",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIRECTION GÉNÉRALE",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2018-01-21T20:26:01"
+          },
+          {
+            "_id": 3,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Y-Eau - Divers",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2018-01-22T00:03:17",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "DIRECTION GÉNÉRALE",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2018-01-22T00:03:17"
+          },
+          {
+            "_id": 4,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Y-Eau - Divers",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2016-08-29T20:01:48",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2016-08-29T20:01:48"
+          },
+          {
+            "_id": 5,
+            "ID_UNIQUE": null,
+            "NATURE": "Information",
+            "ACTI_NOM": "Collecte de résidus alimentaires",
+            "TYPE_LIEU_INTERV": null,
+            "RUE": null,
+            "RUE_INTERSECTION1": null,
+            "RUE_INTERSECTION2": null,
+            "LOC_ERREUR_GDT": null,
+            "ARRONDISSEMENT": null,
+            "ARRONDISSEMENT_GEO": null,
+            "LIN_CODE_POSTAL": null,
+            "DDS_DATE_CREATION": "2016-10-23T11:16:56",
+            "PROVENANCE_ORIGINALE": "Téléphone",
+            "PROVENANCE_TELEPHONE": "1",
+            "PROVENANCE_COURRIEL": "0",
+            "PROVENANCE_PERSONNE": "0",
+            "PROVENANCE_COURRIER": "0",
+            "PROVENANCE_TELECOPIEUR": "0",
+            "PROVENANCE_INSTANCE": "0",
+            "PROVENANCE_MOBILE": "0",
+            "PROVENANCE_MEDIASOCIAUX": "0",
+            "PROVENANCE_SITEINTERNET": "0",
+            "UNITE_RESP_PARENT": "SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE",
+            "LOC_LONG": null,
+            "LOC_LAT": null,
+            "LOC_X": null,
+            "LOC_Y": null,
+            "DERNIER_STATUT": null,
+            "DATE_DERNIER_STATUT": "2016-10-23T11:16:56"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_UNIQUE": {
+          "null_count": 1260922,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "NATURE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ACTI_NOM": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_LIEU_INTERV": {
+          "null_count": 1260943,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "RUE": {
+          "null_count": 1467522,
+          "null_pct": 59.7,
+          "populated_pct": 40.3
+        },
+        "RUE_INTERSECTION1": {
+          "null_count": 2269767,
+          "null_pct": 92.4,
+          "populated_pct": 7.6
+        },
+        "RUE_INTERSECTION2": {
+          "null_count": 2269784,
+          "null_pct": 92.4,
+          "populated_pct": 7.6
+        },
+        "LOC_ERREUR_GDT": {
+          "null_count": 1261015,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "ARRONDISSEMENT": {
+          "null_count": 1260943,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "ARRONDISSEMENT_GEO": {
+          "null_count": 1261167,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "LIN_CODE_POSTAL": {
+          "null_count": 1534712,
+          "null_pct": 62.5,
+          "populated_pct": 37.5
+        },
+        "DDS_DATE_CREATION": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_ORIGINALE": {
+          "null_count": 2133,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "PROVENANCE_TELEPHONE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIEL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_PERSONNE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_COURRIER": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_TELECOPIEUR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_INSTANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MOBILE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_MEDIASOCIAUX": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE_SITEINTERNET": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "UNITE_RESP_PARENT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LOC_LONG": {
+          "null_count": 1261113,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "LOC_LAT": {
+          "null_count": 1261113,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "LOC_X": {
+          "null_count": 1261113,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "LOC_Y": {
+          "null_count": 1261113,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "DERNIER_STATUT": {
+          "null_count": 1260922,
+          "null_pct": 51.3,
+          "populated_pct": 48.7
+        },
+        "DATE_DERNIER_STATUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2456638,
+        "audited_at": "2026-03-10T00:23:48.103196+00:00",
+        "fields": {
+          "ID_UNIQUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NATURE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Information",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ACTI_NOM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 131,
+            "top_values": [
+              {
+                "value": "Collecte de déchets",
+                "count": 58
+              },
+              {
+                "value": "Collecte des encombrants",
+                "count": 55
+              },
+              {
+                "value": "Permis animalier",
+                "count": 50
+              },
+              {
+                "value": "Y-Eau - Divers",
+                "count": 46
+              },
+              {
+                "value": "Taxes foncières",
+                "count": 42
+              },
+              {
+                "value": "Bureau d'arrondissement - Service à la clientèle",
+                "count": 34
+              },
+              {
+                "value": "Intervention stationnement",
+                "count": 34
+              },
+              {
+                "value": "Collecte de résidus verts",
+                "count": 29
+              },
+              {
+                "value": "Permis - Divers",
+                "count": 28
+              },
+              {
+                "value": "Organisme divers",
+                "count": 24
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TYPE_LIEU_INTERV": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION1": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_INTERSECTION2": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_ERREUR_GDT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ARRONDISSEMENT_GEO": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LIN_CODE_POSTAL": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DDS_DATE_CREATION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-11T07:44:09",
+            "max_date": "2018-12-21T20:16:35",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "PROVENANCE_ORIGINALE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Téléphone",
+                "count": 921
+              },
+              {
+                "value": "Personne",
+                "count": 65
+              },
+              {
+                "value": "Courriel",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "PROVENANCE_TELEPHONE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.921,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 921
+              },
+              {
+                "value": "0",
+                "count": 79
+              }
+            ]
+          },
+          "PROVENANCE_COURRIEL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.014,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 986
+              },
+              {
+                "value": "1",
+                "count": 14
+              }
+            ]
+          },
+          "PROVENANCE_PERSONNE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.065,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 935
+              },
+              {
+                "value": "1",
+                "count": 65
+              }
+            ]
+          },
+          "PROVENANCE_COURRIER": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_TELECOPIEUR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_INSTANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MOBILE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_MEDIASOCIAUX": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "PROVENANCE_SITEINTERNET": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "UNITE_RESP_PARENT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 23,
+            "top_values": [
+              {
+                "value": "SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE",
+                "count": 631
+              },
+              {
+                "value": "DIRECTION GÉNÉRALE",
+                "count": 61
+              },
+              {
+                "value": "LASALLE",
+                "count": 46
+              },
+              {
+                "value": "ROSEMONT - LA PETITE-PATRIE",
+                "count": 34
+              },
+              {
+                "value": "ST-LAURENT",
+                "count": 31
+              },
+              {
+                "value": "OUTREMONT",
+                "count": 26
+              },
+              {
+                "value": "SUD-OUEST",
+                "count": 26
+              },
+              {
+                "value": "MERCIER - HOCHELAGA-MAISONNEUVE",
+                "count": 24
+              },
+              {
+                "value": "AHUNTSIC-CARTIERVILLE",
+                "count": 17
+              },
+              {
+                "value": "RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "LOC_LONG": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_LAT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_X": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "LOC_Y": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DERNIER_STATUT": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "DATE_DERNIER_STATUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-11T07:44:09",
+            "max_date": "2018-12-21T20:16:35",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "311",
+    "311 Montréal",
+    "SCAEC",
+    "citoyen",
+    "requête",
+    "service",
+    "travaux publics"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Ressources\n\n                                \n                                \n                                \n                                \n                                \n                                    \n                                    \n                                        \n                                    \n                                    \n                                \n                                    \n                                    \n                                        \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                                    \n                                    \n                                    \n                                \n                        \n                                \n                                    \n#### Cartes\n\n                                    \n                                        \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            WEB\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Visualisation des données  \n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 4 mois\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                        \n\n                                        \n                        \n                                    \n                                \n                                    \n#### Données\n\n                                    \n                                        \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Requêtes 3-1-1 (2022 à ce jour)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 8 heures\n                                                                            \n    \n    \n        679,5 MB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Requêtes 3-1-1 (archives 2019 à 2021)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 1 jour\n                                                                            \n    \n    \n        492,5 MB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Requêtes 3-1-1 (archives 2017 à 2018)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 2 ans\n                                                                            \n    \n    \n        374 MB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Requêtes 3-1-1 (archives 2014 à 2016)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 4 ans\n                                                                            \n    \n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                        \n                                                            CSV\n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    Requêtes 3-1-1 (archives 2016 à 2018)\n                                                                    \n                                                                        \n                                                                            Dernière modification: il y a 3 jours\n                                                                            \n    \n    \n        562,2 MB\n    \n\n                                                                        \n                                                                    \n                                                                \n                                                     \n                                                            \n                                                        \n                                                        \n                                                            \n                                                                \n                                                                    \n                                                                        \n                                                                    \n                                                                \n                                                                \n                                                                    \n                                                                        \n                                                                            \n                                                                        \n                                                                    \n                                                                \n                                                            \n                                                        \n                                                    \n                                                \n                                            \n                                        \n\n                                        \n                        \n                                    \n                                \n                            \n\n                            \n                                \n### Méthodologie\n\n                                \n                                \n                                    \n\nLe service 311 capte et saisit les demandes d'information et les demandes de services des citoyens et des entreprises concernant le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Couverture temporelle": "2014-01-01/à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "311",
+      "311 Montréal",
+      "SCAEC",
+      "citoyen",
+      "requête",
+      "service",
+      "travaux publics"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/requete-311",
+    "scraped_at": "2026-03-09T20:18:49.810807+00:00"
+  }
+}

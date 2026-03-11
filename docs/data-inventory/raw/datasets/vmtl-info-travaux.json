@@ -1,0 +1,2318 @@
+{
+  "slug": "vmtl-info-travaux",
+  "title": "Entraves et travaux en cours (anciennement Info-travaux)",
+  "notes": "Renseignements sur la nature, la durée ainsi que sur les entraves qu'occasionnent les travaux en cours des grands chantiers sur le réseau routier de la Ville de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-12T21:27:08.793639",
+  "metadata_modified": "2026-03-09T10:00:50.684601",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "cc41b532-f12d-40fb-9f55-eb58c9a2b12b",
+      "name": "Entraves et travaux en cours",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d/resource/cc41b532-f12d-40fb-9f55-eb58c9a2b12b/download/entraves-travaux-en-cours.csv",
+      "datastore_active": true,
+      "size": 495995,
+      "last_modified": "2026-03-09T07:00:58.139863",
+      "created": "2023-12-12T23:26:40.239988",
+      "schema": {
+        "resource_id": "cc41b532-f12d-40fb-9f55-eb58c9a2b12b",
+        "total_records": 1115,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "permit_permit_id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "contractnumber",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "boroughid",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "permitcategory",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "currentstatus",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_start_date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_end_date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "reason_category",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "occupancy_name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "submittercategory",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "organizationname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_mon_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_mon_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_tue_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_tue_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_wed_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_wed_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_thu_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_thu_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_fri_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_fri_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sat_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sat_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sun_active",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sun_all_day_round",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sat_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sat_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_mon_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_mon_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_tue_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_tue_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_wed_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_wed_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_thu_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_thu_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_fri_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_fri_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sun_start_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "duration_days_sun_end_time",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "load_date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "66858b3b36fb47001994a9ac",
+            "permit_permit_id": "OCC-2407DB02432206",
+            "contractnumber": "15881",
+            "boroughid": "Montréal-Nord",
+            "permitcategory": "Travaux",
+            "currentstatus": "Permis émis",
+            "duration_start_date": "2024-07-07T20:00:00Z",
+            "duration_end_date": "2026-07-17T19:59:59Z",
+            "reason_category": "Construction/rénovation sans excavation",
+            "occupancy_name": "Henri-Bourassa entre J.-J.-Gagnier et Oscar",
+            "submittercategory": "Entrepreneur sous contrat avec la Ville de Montréal",
+            "organizationname": "Magil Construction est du Canada inc.",
+            "duration_days_mon_active": "t",
+            "duration_days_mon_all_day_round": "t",
+            "duration_days_tue_active": "t",
+            "duration_days_tue_all_day_round": "t",
+            "duration_days_wed_active": "t",
+            "duration_days_wed_all_day_round": "t",
+            "duration_days_thu_active": "t",
+            "duration_days_thu_all_day_round": "t",
+            "duration_days_fri_active": "t",
+            "duration_days_fri_all_day_round": "t",
+            "duration_days_sat_active": "t",
+            "duration_days_sat_all_day_round": "t",
+            "duration_days_sun_active": "t",
+            "duration_days_sun_all_day_round": "t",
+            "duration_days_sat_start_time": null,
+            "duration_days_sat_end_time": null,
+            "duration_days_mon_start_time": null,
+            "duration_days_mon_end_time": null,
+            "duration_days_tue_start_time": null,
+            "duration_days_tue_end_time": null,
+            "duration_days_wed_start_time": null,
+            "duration_days_wed_end_time": null,
+            "duration_days_thu_start_time": null,
+            "duration_days_thu_end_time": null,
+            "duration_days_fri_start_time": null,
+            "duration_days_fri_end_time": null,
+            "duration_days_sun_start_time": null,
+            "duration_days_sun_end_time": null,
+            "load_date": "2024-10-29T19:06:02Z",
+            "longitude": "-73.65066134966027",
+            "latitude": "45.582496632261645"
+          },
+          {
+            "_id": 2,
+            "id": "6722842681073d0019ed46ca",
+            "permit_permit_id": "OCC-2410IP26341911",
+            "contractnumber": "1234",
+            "boroughid": "Verdun",
+            "permitcategory": "Travaux",
+            "currentstatus": "Permis émis",
+            "duration_start_date": "2024-10-30T20:00:00Z",
+            "duration_end_date": "2027-10-30T19:59:59Z",
+            "reason_category": "Autre",
+            "occupancy_name": "Parc Duquette",
+            "submittercategory": "Entrepreneur sous contrat avec la Ville de Montréal",
+            "organizationname": "PME MTL Grand Sud-Ouest",
+            "duration_days_mon_active": "t",
+            "duration_days_mon_all_day_round": "t",
+            "duration_days_tue_active": "t",
+            "duration_days_tue_all_day_round": "t",
+            "duration_days_wed_active": "t",
+            "duration_days_wed_all_day_round": "t",
+            "duration_days_thu_active": "t",
+            "duration_days_thu_all_day_round": "t",
+            "duration_days_fri_active": "t",
+            "duration_days_fri_all_day_round": "t",
+            "duration_days_sat_active": "t",
+            "duration_days_sat_all_day_round": "t",
+            "duration_days_sun_active": "t",
+            "duration_days_sun_all_day_round": "t",
+            "duration_days_sat_start_time": null,
+            "duration_days_sat_end_time": null,
+            "duration_days_mon_start_time": null,
+            "duration_days_mon_end_time": null,
+            "duration_days_tue_start_time": null,
+            "duration_days_tue_end_time": null,
+            "duration_days_wed_start_time": null,
+            "duration_days_wed_end_time": null,
+            "duration_days_thu_start_time": null,
+            "duration_days_thu_end_time": null,
+            "duration_days_fri_start_time": null,
+            "duration_days_fri_end_time": null,
+            "duration_days_sun_start_time": null,
+            "duration_days_sun_end_time": null,
+            "load_date": "2024-11-02T00:01:24Z",
+            "longitude": "-73.57532216878346",
+            "latitude": "45.465649419534"
+          },
+          {
+            "_id": 3,
+            "id": "6740a6236669d60012e1746b",
+            "permit_permit_id": "OCC-2411YW18727818",
+            "contractnumber": null,
+            "boroughid": "Verdun",
+            "permitcategory": "Travaux",
+            "currentstatus": "Permis émis",
+            "duration_start_date": "2024-11-24T19:00:00Z",
+            "duration_end_date": "2027-11-12T18:59:59Z",
+            "reason_category": "Construction/rénovation sans excavation",
+            "occupancy_name": "Gordon entre Wellington et Verdun",
+            "submittercategory": "Organisation publique ou son sous-traitant",
+            "organizationname": "MGB Associés Inc.",
+            "duration_days_mon_active": "t",
+            "duration_days_mon_all_day_round": "t",
+            "duration_days_tue_active": "t",
+            "duration_days_tue_all_day_round": "t",
+            "duration_days_wed_active": "t",
+            "duration_days_wed_all_day_round": "t",
+            "duration_days_thu_active": "t",
+            "duration_days_thu_all_day_round": "t",
+            "duration_days_fri_active": "t",
+            "duration_days_fri_all_day_round": "t",
+            "duration_days_sat_active": "t",
+            "duration_days_sat_all_day_round": "t",
+            "duration_days_sun_active": "t",
+            "duration_days_sun_all_day_round": "t",
+            "duration_days_sat_start_time": null,
+            "duration_days_sat_end_time": null,
+            "duration_days_mon_start_time": null,
+            "duration_days_mon_end_time": null,
+            "duration_days_tue_start_time": null,
+            "duration_days_tue_end_time": null,
+            "duration_days_wed_start_time": null,
+            "duration_days_wed_end_time": null,
+            "duration_days_thu_start_time": null,
+            "duration_days_thu_end_time": null,
+            "duration_days_fri_start_time": null,
+            "duration_days_fri_end_time": null,
+            "duration_days_sun_start_time": null,
+            "duration_days_sun_end_time": null,
+            "load_date": "2024-11-24T00:01:25Z",
+            "longitude": "-73.56810097062612",
+            "latitude": "45.46104407577799"
+          },
+          {
+            "_id": 4,
+            "id": "6980ec5f7e9f5a0012d6af2f",
+            "permit_permit_id": "OCC-2602SD02177924",
+            "contractnumber": null,
+            "boroughid": "Ville-Marie",
+            "permitcategory": "Travaux",
+            "currentstatus": "Permis émis",
+            "duration_start_date": "2026-01-31T19:00:00Z",
+            "duration_end_date": "2026-04-30T19:59:59Z",
+            "reason_category": "Construction/rénovation sans excavation",
+            "occupancy_name": "Savoie entre De Maisonneuve et Ontario",
+            "submittercategory": "Entreprise",
+            "organizationname": "LA SOCIÉTÉ DE DÉVELOPPEMENT DONACONA INC.",
+            "duration_days_mon_active": "t",
+            "duration_days_mon_all_day_round": "t",
+            "duration_days_tue_active": "t",
+            "duration_days_tue_all_day_round": "t",
+            "duration_days_wed_active": "t",
+            "duration_days_wed_all_day_round": "t",
+            "duration_days_thu_active": "t",
+            "duration_days_thu_all_day_round": "t",
+            "duration_days_fri_active": "t",
+            "duration_days_fri_all_day_round": "t",
+            "duration_days_sat_active": "t",
+            "duration_days_sat_all_day_round": "t",
+            "duration_days_sun_active": "t",
+            "duration_days_sun_all_day_round": "t",
+            "duration_days_sat_start_time": null,
+            "duration_days_sat_end_time": null,
+            "duration_days_mon_start_time": null,
+            "duration_days_mon_end_time": null,
+            "duration_days_tue_start_time": null,
+            "duration_days_tue_end_time": null,
+            "duration_days_wed_start_time": null,
+            "duration_days_wed_end_time": null,
+            "duration_days_thu_start_time": null,
+            "duration_days_thu_end_time": null,
+            "duration_days_fri_start_time": null,
+            "duration_days_fri_end_time": null,
+            "duration_days_sun_start_time": null,
+            "duration_days_sun_end_time": null,
+            "load_date": "2026-02-05T00:01:40Z",
+            "longitude": "-73.56293288036353",
+            "latitude": "45.51537739416232"
+          },
+          {
+            "_id": 5,
+            "id": "696a4293827929001233ce2c",
+            "permit_permit_id": "OCC-2601ZR13460197",
+            "contractnumber": "240575 - C",
+            "boroughid": "Rosemont-La Petite-Patrie",
+            "permitcategory": "Travaux",
+            "currentstatus": "Permis émis",
+            "duration_start_date": "2026-01-15T19:00:00Z",
+            "duration_end_date": "2026-12-31T18:59:59Z",
+            "reason_category": "Autre",
+            "occupancy_name": "Saint-Joseph entre Molson et 2e",
+            "submittercategory": "Entrepreneur sous contrat avec la Ville de Montréal",
+            "organizationname": "Pomerleau",
+            "duration_days_mon_active": "t",
+            "duration_days_mon_all_day_round": "t",
+            "duration_days_tue_active": "t",
+            "duration_days_tue_all_day_round": "t",
+            "duration_days_wed_active": "t",
+            "duration_days_wed_all_day_round": "t",
+            "duration_days_thu_active": "t",
+            "duration_days_thu_all_day_round": "t",
+            "duration_days_fri_active": "t",
+            "duration_days_fri_all_day_round": "t",
+            "duration_days_sat_active": "t",
+            "duration_days_sat_all_day_round": "t",
+            "duration_days_sun_active": "t",
+            "duration_days_sun_all_day_round": "t",
+            "duration_days_sat_start_time": null,
+            "duration_days_sat_end_time": null,
+            "duration_days_mon_start_time": null,
+            "duration_days_mon_end_time": null,
+            "duration_days_tue_start_time": null,
+            "duration_days_tue_end_time": null,
+            "duration_days_wed_start_time": null,
+            "duration_days_wed_end_time": null,
+            "duration_days_thu_start_time": null,
+            "duration_days_thu_end_time": null,
+            "duration_days_fri_start_time": null,
+            "duration_days_fri_end_time": null,
+            "duration_days_sun_start_time": null,
+            "duration_days_sun_end_time": null,
+            "load_date": "2026-01-18T00:01:49Z",
+            "longitude": "-73.57163856523734",
+            "latitude": "45.54418300448018"
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "permit_permit_id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "contractnumber": {
+          "null_count": 862,
+          "null_pct": 77.3,
+          "populated_pct": 22.7
+        },
+        "boroughid": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "permitcategory": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "currentstatus": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_start_date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_end_date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "reason_category": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "occupancy_name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "submittercategory": {
+          "null_count": 30,
+          "null_pct": 2.7,
+          "populated_pct": 97.3
+        },
+        "organizationname": {
+          "null_count": 99,
+          "null_pct": 8.9,
+          "populated_pct": 91.1
+        },
+        "duration_days_mon_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_mon_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_tue_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_tue_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_wed_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_wed_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_thu_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_thu_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_fri_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_fri_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_sat_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_sat_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_sun_active": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_sun_all_day_round": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "duration_days_sat_start_time": {
+          "null_count": 1079,
+          "null_pct": 96.8,
+          "populated_pct": 3.2
+        },
+        "duration_days_sat_end_time": {
+          "null_count": 1079,
+          "null_pct": 96.8,
+          "populated_pct": 3.2
+        },
+        "duration_days_mon_start_time": {
+          "null_count": 594,
+          "null_pct": 53.3,
+          "populated_pct": 46.7
+        },
+        "duration_days_mon_end_time": {
+          "null_count": 594,
+          "null_pct": 53.3,
+          "populated_pct": 46.7
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1115,
+        "audited_at": "2026-03-10T00:19:57.753142+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "66858b3b36fb47001994a9ac",
+                "count": 1
+              },
+              {
+                "value": "6722842681073d0019ed46ca",
+                "count": 1
+              },
+              {
+                "value": "6740a6236669d60012e1746b",
+                "count": 1
+              },
+              {
+                "value": "6980ec5f7e9f5a0012d6af2f",
+                "count": 1
+              },
+              {
+                "value": "696a4293827929001233ce2c",
+                "count": 1
+              },
+              {
+                "value": "696a45527cd3be00129b046a",
+                "count": 1
+              },
+              {
+                "value": "696a7df9827929001233da40",
+                "count": 1
+              },
+              {
+                "value": "698231a9f9ce480012a94958",
+                "count": 1
+              },
+              {
+                "value": "697b76107e9f5a0012d675d1",
+                "count": 1
+              },
+              {
+                "value": "691cae4df17abb0012a5e0dc",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "permit_permit_id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "OCC-2407DB02432206",
+                "count": 1
+              },
+              {
+                "value": "OCC-2410IP26341911",
+                "count": 1
+              },
+              {
+                "value": "OCC-2411YW18727818",
+                "count": 1
+              },
+              {
+                "value": "OCC-2602SD02177924",
+                "count": 1
+              },
+              {
+                "value": "OCC-2601ZR13460197",
+                "count": 1
+              },
+              {
+                "value": "OCC-2601OJ13468506",
+                "count": 1
+              },
+              {
+                "value": "OCC-2601UG13635273",
+                "count": 1
+              },
+              {
+                "value": "OCC-2602JS02374524",
+                "count": 1
+              },
+              {
+                "value": "OCC-2602SF03121185",
+                "count": 1
+              },
+              {
+                "value": "OCC-2511IC15321585",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "contractnumber": {
+            "null_count": 766,
+            "null_pct": 76.6,
+            "min": 1234.0,
+            "max": 6000030205.0,
+            "mean": 131418248.8546,
+            "median": 519701.0,
+            "unique_count": 74,
+            "field_type_detected": "numeric"
+          },
+          "boroughid": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Ville-Marie",
+                "count": 252
+              },
+              {
+                "value": "Le Sud-Ouest",
+                "count": 98
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 87
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 76
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 61
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 60
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc-Extension",
+                "count": 58
+              },
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 48
+              },
+              {
+                "value": "Saint-Léonard",
+                "count": 41
+              },
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 35
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "permitcategory": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Travaux",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "currentstatus": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Permis émis",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_start_date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-07-07T20:00:00Z",
+            "max_date": "2026-03-10T20:00:00Z",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "duration_end_date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2026-03-08T19:59:59Z",
+            "max_date": "2029-05-01T19:59:59Z",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "reason_category": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 23,
+            "top_values": [
+              {
+                "value": "Construction/rénovation sans excavation",
+                "count": 263
+              },
+              {
+                "value": "Autre",
+                "count": 263
+              },
+              {
+                "value": "Construction/rénovation avec excavation",
+                "count": 111
+              },
+              {
+                "value": "Entretien",
+                "count": 107
+              },
+              {
+                "value": "Égouts et aqueducs - Inspection et nettoyage",
+                "count": 52
+              },
+              {
+                "value": "Égouts et aqueducs - Excavation",
+                "count": 50
+              },
+              {
+                "value": "S-2 Infrastructure souterraine mineure ou équipement hors-sol - Réseaux de gaz",
+                "count": 27
+              },
+              {
+                "value": "Égouts et aqueducs - Réhabilitation",
+                "count": 19
+              },
+              {
+                "value": "Feux de signalisation - Ajout/réparation",
+                "count": 19
+              },
+              {
+                "value": "AS-2 Réseau aérosouterrain existant",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "occupancy_name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 843,
+            "top_values": [
+              {
+                "value": "Ruelle",
+                "count": 46
+              },
+              {
+                "value": "Atateken entre Amherst et Amherst",
+                "count": 5
+              },
+              {
+                "value": "136 entre 720 et 720",
+                "count": 5
+              },
+              {
+                "value": "Bishop entre René-Lévesque et Sainte-Catherine",
+                "count": 4
+              },
+              {
+                "value": "Viau entre Paisley et Jean-Talon",
+                "count": 3
+              },
+              {
+                "value": "Jean-Talon entre Buies et Cannes",
+                "count": 3
+              },
+              {
+                "value": "Bates entre Wilderton et Darlington",
+                "count": 3
+              },
+              {
+                "value": "Décarie entre Jean-Talon et Jockeys",
+                "count": 3
+              },
+              {
+                "value": "Mountain Sights entre Vézina et Mackenzie",
+                "count": 3
+              },
+              {
+                "value": "Jean-Talon entre Jean-Talon et Daudet",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "submittercategory": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "Entreprise",
+                "count": 271
+              },
+              {
+                "value": "Entrepreneur sous contrat avec la Ville de Montréal",
+                "count": 234
+              },
+              {
+                "value": "RTU (Réseau technique urbain) ou son sous-traitant",
+                "count": 190
+              },
+              {
+                "value": "Organisation publique ou son sous-traitant",
+                "count": 170
+              },
+              {
+                "value": "Ville de Montréal",
+                "count": 79
+              },
+              {
+                "value": "CSEM (Commission des services électriques de Montréal) ou son sous-traitant",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "organizationname": {
+            "null_count": 88,
+            "null_pct": 8.8,
+            "unique_count": 252,
+            "top_values": [
+              {
+                "value": "Hydro-Québec-Entrave courte durée",
+                "count": 83
+              },
+              {
+                "value": "Société de transports de Montréal (STM) Prolongement de la ligne bleue",
+                "count": 62
+              },
+              {
+                "value": "Énergir",
+                "count": 26
+              },
+              {
+                "value": "ORTEC ENVIRONNEMENT SERVICES INC",
+                "count": 24
+              },
+              {
+                "value": "Telecon",
+                "count": 22
+              },
+              {
+                "value": "G-TEK INC.",
+                "count": 21
+              },
+              {
+                "value": "Ville de Montréal",
+                "count": 20
+              },
+              {
+                "value": "Lanauco",
+                "count": 17
+              },
+              {
+                "value": "Néolect Inc.",
+                "count": 17
+              },
+              {
+                "value": "Énergère Inc.",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "duration_days_mon_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 993
+              },
+              {
+                "value": "f",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_mon_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 502
+              },
+              {
+                "value": "t",
+                "count": 498
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_tue_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 993
+              },
+              {
+                "value": "f",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_tue_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 502
+              },
+              {
+                "value": "t",
+                "count": 498
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_wed_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 993
+              },
+              {
+                "value": "f",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_wed_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 502
+              },
+              {
+                "value": "t",
+                "count": 498
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_thu_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 993
+              },
+              {
+                "value": "f",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_thu_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 502
+              },
+              {
+                "value": "t",
+                "count": 498
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_fri_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 993
+              },
+              {
+                "value": "f",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_fri_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 502
+              },
+              {
+                "value": "t",
+                "count": 498
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_sat_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 525
+              },
+              {
+                "value": "t",
+                "count": 475
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_sat_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 553
+              },
+              {
+                "value": "t",
+                "count": 447
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_sun_active": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 536
+              },
+              {
+                "value": "t",
+                "count": 464
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_sun_all_day_round": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "f",
+                "count": 553
+              },
+              {
+                "value": "t",
+                "count": 447
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "duration_days_sat_start_time": {
+            "null_count": 968,
+            "null_pct": 96.8,
+            "min_date": "05:00",
+            "max_date": "15:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_sat_end_time": {
+            "null_count": 968,
+            "null_pct": 96.8,
+            "min_date": "16:00",
+            "max_date": "21:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_mon_start_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_mon_end_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_tue_start_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_tue_end_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_wed_start_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_wed_end_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_thu_start_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_thu_end_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_fri_start_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_fri_end_time": {
+            "null_count": 505,
+            "null_pct": 50.5,
+            "min_date": "05:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_sun_start_time": {
+            "null_count": 979,
+            "null_pct": 97.9,
+            "min_date": "00:00",
+            "max_date": "20:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "duration_days_sun_end_time": {
+            "null_count": 979,
+            "null_pct": 97.9,
+            "min_date": "08:00",
+            "max_date": "23:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "load_date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-10-29T19:06:02Z",
+            "max_date": "2026-03-08T00:02:07Z",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.890822,
+            "max": -73.48513,
+            "mean": -73.598018,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.417664,
+            "max": 45.696935,
+            "mean": 45.52458,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "a2bc8014-488c-495d-941b-e7ae1999d1bd",
+      "name": "Impacts des entraves et travaux en cours",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d/resource/a2bc8014-488c-495d-941b-e7ae1999d1bd/download/impacts-entraves-travaux-en-cours.csv",
+      "datastore_active": true,
+      "size": 462051,
+      "last_modified": "2026-03-09T07:00:56.651976",
+      "created": "2023-12-12T23:26:42.220103",
+      "schema": {
+        "resource_id": "a2bc8014-488c-495d-941b-e7ae1999d1bd",
+        "total_records": 1173,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_request",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "streetid",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "streetimpactwidth",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "streetimpacttype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nbfreeparkingplace",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sidewalk_blockedtype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "backsidewalk_blockedtype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "bikepath_blockedtype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "name",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "shortname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "fromname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "fromshortname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "toname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "toshortname",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "length",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "isarterial",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "stmimpact_blockedtype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "otherproviderimpact_blockedtype",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "reservedlane_blockedtype",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_request": "6931e288dee8ef00126493f0",
+            "streetid": "rue Alexandre-DeSève ",
+            "streetimpactwidth": "0-3 mètres",
+            "streetimpacttype": "Voie de stationnement obstruée",
+            "nbfreeparkingplace": "10",
+            "sidewalk_blockedtype": "Aucun impact / non applicable",
+            "backsidewalk_blockedtype": "Aucun impact / non applicable",
+            "bikepath_blockedtype": "Aucun impact / non applicable",
+            "name": "rue Alexandre-DeSève ",
+            "shortname": "Alexandre-DeSève",
+            "fromname": "avenue Viger Est ",
+            "fromshortname": "Viger",
+            "toname": "boulevard René-Lévesque Est ",
+            "toshortname": "René-Lévesque",
+            "length": "185.72",
+            "isarterial": "t",
+            "stmimpact_blockedtype": "Aucun impact / non applicable",
+            "otherproviderimpact_blockedtype": "Aucun impact / non applicable",
+            "reservedlane_blockedtype": "Aucun impact / non applicable"
+          },
+          {
+            "_id": 2,
+            "id_request": "66e4405d1e0e0e00190091f4",
+            "streetid": "boulevard Édouard-Montpetit ",
+            "streetimpactwidth": "9-12 mètres",
+            "streetimpacttype": "Voie de stationnement et voie de circulation obstruées",
+            "nbfreeparkingplace": "0",
+            "sidewalk_blockedtype": "Obstrué (un passage piéton de 1,5 m est conservé)",
+            "backsidewalk_blockedtype": "Obstrué",
+            "bikepath_blockedtype": "Barrée",
+            "name": "boulevard Édouard-Montpetit ",
+            "shortname": "Édouard-Montpetit",
+            "fromname": "avenue Vincent-d'Indy ",
+            "fromshortname": "Vincent-d'Indy",
+            "toname": "avenue de Stirling ",
+            "toshortname": "Stirling",
+            "length": "359.78",
+            "isarterial": "t",
+            "stmimpact_blockedtype": "Aucun impact / non applicable",
+            "otherproviderimpact_blockedtype": "Aucun impact / non applicable",
+            "reservedlane_blockedtype": "Aucun impact / non applicable"
+          },
+          {
+            "_id": 3,
+            "id_request": "6933012edee8ef001264a7d5",
+            "streetid": "rue Ontario Est ",
+            "streetimpactwidth": "0-3 mètres",
+            "streetimpacttype": "Voie de stationnement obstruée",
+            "nbfreeparkingplace": "0",
+            "sidewalk_blockedtype": "Aucun impact / non applicable",
+            "backsidewalk_blockedtype": "Aucun impact / non applicable",
+            "bikepath_blockedtype": "Aucun impact / non applicable",
+            "name": "rue Ontario Est ",
+            "shortname": "Ontario",
+            "fromname": "rue Saint-Christophe ",
+            "fromshortname": "Saint-Christophe",
+            "toname": "rue Amherst ",
+            "toshortname": "Amherst",
+            "length": "211.54",
+            "isarterial": "t",
+            "stmimpact_blockedtype": "Aucun impact / non applicable",
+            "otherproviderimpact_blockedtype": "Aucun impact / non applicable",
+            "reservedlane_blockedtype": "Aucun impact / non applicable"
+          },
+          {
+            "_id": 4,
+            "id_request": "69330262dee8ef001264a858",
+            "streetid": "rue Ontario Est ",
+            "streetimpactwidth": "0-3 mètres",
+            "streetimpacttype": "Voie de stationnement obstruée",
+            "nbfreeparkingplace": "0",
+            "sidewalk_blockedtype": "Aucun impact / non applicable",
+            "backsidewalk_blockedtype": "Aucun impact / non applicable",
+            "bikepath_blockedtype": "Aucun impact / non applicable",
+            "name": "rue Ontario Est ",
+            "shortname": "Ontario",
+            "fromname": "rue Saint-Hubert ",
+            "fromshortname": "Saint-Hubert",
+            "toname": "rue Saint-Christophe ",
+            "toshortname": "Saint-Christophe",
+            "length": "61.37",
+            "isarterial": "t",
+            "stmimpact_blockedtype": "Aucun impact / non applicable",
+            "otherproviderimpact_blockedtype": "Aucun impact / non applicable",
+            "reservedlane_blockedtype": "Aucun impact / non applicable"
+          },
+          {
+            "_id": 5,
+            "id_request": "69331592dee8ef001264ae06",
+            "streetid": "rue Messier ",
+            "streetimpactwidth": "0-3 mètres",
+            "streetimpacttype": "Voie de stationnement obstruée",
+            "nbfreeparkingplace": "0",
+            "sidewalk_blockedtype": "Aucun impact / non applicable",
+            "backsidewalk_blockedtype": "Aucun impact / non applicable",
+            "bikepath_blockedtype": "Aucun impact / non applicable",
+            "name": "rue Messier ",
+            "shortname": "Messier",
+            "fromname": "boulevard Saint-Joseph Est ",
+            "fromshortname": "Saint-Joseph",
+            "toname": "avenue Laurier Est ",
+            "toshortname": "Laurier",
+            "length": "98.15",
+            "isarterial": "f",
+            "stmimpact_blockedtype": "Aucun impact / non applicable",
+            "otherproviderimpact_blockedtype": "Aucun impact / non applicable",
+            "reservedlane_blockedtype": "Aucun impact / non applicable"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_request": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "streetid": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "streetimpactwidth": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "streetimpacttype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nbfreeparkingplace": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sidewalk_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "backsidewalk_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "bikepath_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "name": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "shortname": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fromname": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fromshortname": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "toname": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "toshortname": {
+          "null_count": 2,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "length": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "isarterial": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "stmimpact_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "otherproviderimpact_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "reservedlane_blockedtype": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1173,
+        "audited_at": "2026-03-10T00:19:59.093867+00:00",
+        "fields": {
+          "id_request": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 879,
+            "top_values": [
+              {
+                "value": "69398b05df5da80012889174",
+                "count": 3
+              },
+              {
+                "value": "69398bb1dee8ef00126501b7",
+                "count": 3
+              },
+              {
+                "value": "6986551b7e9f5a0012d71836",
+                "count": 3
+              },
+              {
+                "value": "6998add61464910012e65f8f",
+                "count": 3
+              },
+              {
+                "value": "699d9dce1464910012e689ee",
+                "count": 3
+              },
+              {
+                "value": "699f24c91464910012e6a889",
+                "count": 3
+              },
+              {
+                "value": "6984ce10f9ce480012a97d27",
+                "count": 3
+              },
+              {
+                "value": "697b923a7e9f5a0012d67bb4",
+                "count": 3
+              },
+              {
+                "value": "69a07241f521230012f287dd",
+                "count": 3
+              },
+              {
+                "value": "699888ec1464910012e65959",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "streetid": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 497,
+            "top_values": [
+              {
+                "value": "rue Jean-Talon Est",
+                "count": 19
+              },
+              {
+                "value": "boulevard Henri-Bourassa Est",
+                "count": 16
+              },
+              {
+                "value": "rue Ontario Est",
+                "count": 14
+              },
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 14
+              },
+              {
+                "value": "rue Notre-Dame Ouest",
+                "count": 14
+              },
+              {
+                "value": "rue Saint-Antoine Ouest",
+                "count": 13
+              },
+              {
+                "value": "rue Notre-Dame Est",
+                "count": 13
+              },
+              {
+                "value": "rue Saint-Jacques",
+                "count": 12
+              },
+              {
+                "value": "boulevard Décarie",
+                "count": 10
+              },
+              {
+                "value": "rue Saint-Urbain",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "streetimpactwidth": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0-3 mètres",
+            "max_date": "9-12 mètres",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "streetimpacttype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Voie de stationnement obstruée",
+                "count": 411
+              },
+              {
+                "value": "Voie de stationnement et voie de circulation obstruées",
+                "count": 208
+              },
+              {
+                "value": "Voie de circulation obstruée",
+                "count": 139
+              },
+              {
+                "value": "Rue barrée",
+                "count": 133
+              },
+              {
+                "value": "Aucun impact / non applicable",
+                "count": 109
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nbfreeparkingplace": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 160.0,
+            "mean": 1.425,
+            "median": 0.0,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 804
+              },
+              {
+                "value": "2",
+                "count": 49
+              },
+              {
+                "value": "3",
+                "count": 34
+              },
+              {
+                "value": "1",
+                "count": 21
+              },
+              {
+                "value": "10",
+                "count": 18
+              },
+              {
+                "value": "4",
+                "count": 14
+              },
+              {
+                "value": "5",
+                "count": 13
+              },
+              {
+                "value": "6",
+                "count": 8
+              },
+              {
+                "value": "7",
+                "count": 6
+              },
+              {
+                "value": "8",
+                "count": 4
+              }
+            ]
+          },
+          "sidewalk_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Obstrué (un passage piéton de 1,5 m est conservé)",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "backsidewalk_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Obstrué",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "bikepath_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Obstruée",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "name": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 497,
+            "top_values": [
+              {
+                "value": "rue Jean-Talon Est",
+                "count": 19
+              },
+              {
+                "value": "boulevard Henri-Bourassa Est",
+                "count": 16
+              },
+              {
+                "value": "rue Ontario Est",
+                "count": 14
+              },
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 14
+              },
+              {
+                "value": "rue Notre-Dame Ouest",
+                "count": 14
+              },
+              {
+                "value": "rue Saint-Antoine Ouest",
+                "count": 13
+              },
+              {
+                "value": "rue Notre-Dame Est",
+                "count": 13
+              },
+              {
+                "value": "rue Saint-Jacques",
+                "count": 12
+              },
+              {
+                "value": "boulevard Décarie",
+                "count": 10
+              },
+              {
+                "value": "rue Saint-Urbain",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "shortname": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 465,
+            "top_values": [
+              {
+                "value": "Notre-Dame",
+                "count": 28
+              },
+              {
+                "value": "Jean-Talon",
+                "count": 22
+              },
+              {
+                "value": "Henri-Bourassa",
+                "count": 19
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 18
+              },
+              {
+                "value": "Ontario",
+                "count": 14
+              },
+              {
+                "value": "Saint-Antoine",
+                "count": 14
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 12
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 11
+              },
+              {
+                "value": "René-Lévesque",
+                "count": 10
+              },
+              {
+                "value": "Décarie",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "fromname": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 521,
+            "top_values": [
+              {
+                "value": "rue Jean-Talon Est",
+                "count": 17
+              },
+              {
+                "value": "boulevard René-Lévesque Ouest",
+                "count": 15
+              },
+              {
+                "value": "boulevard Saint-Laurent",
+                "count": 13
+              },
+              {
+                "value": "rue Saint-Urbain",
+                "count": 12
+              },
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Jacques",
+                "count": 10
+              },
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 9
+              },
+              {
+                "value": "rue Ontario Est",
+                "count": 9
+              },
+              {
+                "value": "chemin de la Côte-Sainte-Catherine",
+                "count": 8
+              },
+              {
+                "value": "rue Saint-Antoine Ouest",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "fromshortname": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 487,
+            "top_values": [
+              {
+                "value": "René-Lévesque",
+                "count": 23
+              },
+              {
+                "value": "Jean-Talon",
+                "count": 23
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 17
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 16
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 13
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 12
+              },
+              {
+                "value": "De Maisonneuve",
+                "count": 12
+              },
+              {
+                "value": "Saint-Urbain",
+                "count": 12
+              },
+              {
+                "value": "Henri-Bourassa",
+                "count": 10
+              },
+              {
+                "value": "Saint-Jacques",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "toname": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 540,
+            "top_values": [
+              {
+                "value": "rue Jean-Talon Est",
+                "count": 19
+              },
+              {
+                "value": "rue Sainte-Catherine Ouest",
+                "count": 15
+              },
+              {
+                "value": "rue Notre-Dame Ouest",
+                "count": 11
+              },
+              {
+                "value": "boulevard De Maisonneuve Ouest",
+                "count": 11
+              },
+              {
+                "value": "rue Sherbrooke Est",
+                "count": 11
+              },
+              {
+                "value": "rue Amherst",
+                "count": 10
+              },
+              {
+                "value": "rue Wellington",
+                "count": 9
+              },
+              {
+                "value": "avenue du Mont-Royal Est",
+                "count": 9
+              },
+              {
+                "value": "rue Ontario Est",
+                "count": 9
+              },
+              {
+                "value": "boulevard Gouin Est",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "toshortname": {
+            "null_count": 2,
+            "null_pct": 0.2,
+            "unique_count": 499,
+            "top_values": [
+              {
+                "value": "Jean-Talon",
+                "count": 24
+              },
+              {
+                "value": "Sainte-Catherine",
+                "count": 21
+              },
+              {
+                "value": "Notre-Dame",
+                "count": 19
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 17
+              },
+              {
+                "value": "De Maisonneuve",
+                "count": 14
+              },
+              {
+                "value": "Mont-Royal",
+                "count": 11
+              },
+              {
+                "value": "Gouin",
+                "count": 11
+              },
+              {
+                "value": "Amherst",
+                "count": 10
+              },
+              {
+                "value": "Ontario",
+                "count": 10
+              },
+              {
+                "value": "Henri-Bourassa",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "length": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 15.82,
+            "max": 4999.17,
+            "mean": 214.249,
+            "median": 161.075,
+            "unique_count": 877,
+            "field_type_detected": "numeric"
+          },
+          "isarterial": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "t",
+                "count": 659
+              },
+              {
+                "value": "f",
+                "count": 341
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "stmimpact_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Déplacer",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "otherproviderimpact_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Déplacer",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "reservedlane_blockedtype": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "Aucun impact / non applicable",
+            "max_date": "Aucun impact / non applicable",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    },
+    {
+      "id": "535c090c-2f74-4398-83ec-2771a6ce7174",
+      "name": "Informations complémentaires sur les entraves et travaux",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/667342f7-f667-4c3c-9837-65e81312cd8d/resource/535c090c-2f74-4398-83ec-2771a6ce7174/download/informations-complementaires-entraves-travaux.json",
+      "datastore_active": false,
+      "size": 875110,
+      "last_modified": "2026-03-09T07:10:42.891802",
+      "created": "2024-05-27T13:28:04.746520",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Chantier",
+    "Circulation",
+    "Entrave",
+    "Info-travaux",
+    "SCAEC",
+    "Travaux"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n### Entraves et travaux en cours\n\n\n\n- id (Texte): Identifiant unique de la demande de permis\n\n- permit_permitid (Texte): Numéro du permis émis\n\n- boroughid (Texte): Arrondissement\n\n- permitcategory (Texte): Catégorie du permis émis\n\n- currentstatus (Texte): Statut de la demande de permis\n\n- duration_startdate (Date et heure): Date de début de l'occupation du domaine public\n\n- duration_enddate (Date et heure): Date de fin de l'occupation du domaine public\n\n- reason_category (Texte): Description de l'intervention prévue\n\n- occupancyname (Texte): Description de la zone occupée\n\n- submittercategory (Texte): Catégorie du demandeur de permis\n\n- organizationname (Texte): Nom de l'organisation qui a fait la demande (si applicable)\n\n- duration_days_mon_active (Booléen): Indique si le permis est en vigueur le lundi (toute la journée ou selon une plage horaire)\n\n- duration_days_mon_alldayround (Booléen): Indique si le permis est en vigueur le lundi toute la journée (voir plage hora\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Chantier",
+      "Circulation",
+      "Entrave",
+      "Info-travaux",
+      "SCAEC",
+      "Travaux"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/info-travaux",
+    "scraped_at": "2026-03-09T19:58:52.145776+00:00"
+  }
+}

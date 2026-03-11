@@ -1,0 +1,92 @@
+{
+  "slug": "vmtl-frichenaturelle",
+  "title": "Friches naturelles",
+  "notes": "Cet ensemble de données contient les polygones délimitant les friches naturelles de l’agglomération de Montréal.\r\n\r\nLes limites des friches et leur type sont le résultat d’une analyse des photos aériennes et/ou de visites sur le terrain et/ou d’études écologiques particulières. Celles-ci sont perpétuellement mises à jour en fonction de l’avancement des connaissances du milieu. Certains types et leur limite peuvent donc être imprécis.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-05-12T19:42:14.817961",
+  "metadata_modified": "2025-02-26T21:32:45.281042",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "fb93bcd2-c992-45f7-a4c9-34a572b4d557",
+      "name": "Friche naturelle en format shapefile",
+      "description": "Polygones des friches naturelles de l’agglomération de Montréal\r\n\r\nLe fichier conteneur ZIP contient les fichiers au format ShapeFile\r\n\r\nDescription des champs :\r\n\r\n* TYPE = Catégorie de friche (herbacée, arbustive, arborescente)\r\n* TYPE2 = Regroupement des friches à caractère industriel\r\n\t\r\nSystème géodésique : WGS84\r\n",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/c885e9b8-deea-4e97-b141-3c09a43d5296/resource/fb93bcd2-c992-45f7-a4c9-34a572b4d557/download/friche.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-05-12T19:47:21.943637",
+      "created": "2016-05-12T15:47:22.018224",
+      "schema": null
+    },
+    {
+      "id": "16d80ded-edf4-46ec-8d80-de6a0b41085c",
+      "name": "Friche naturelle en format geojson",
+      "description": "Polygones des friches naturelles de l’agglomération de Montréal\r\n\r\nFichier au format geojson\r\n\r\nDescription des champs :\r\n\r\n* TYPE = Catégorie de friche (herbacée, arbustive, arborescente)\r\n* TYPE2 = Regroupement des friches à caractère industriel\r\n\t\r\nSystème géodésique : WGS84\r\n",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/c885e9b8-deea-4e97-b141-3c09a43d5296/resource/16d80ded-edf4-46ec-8d80-de6a0b41085c/download/friche.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-05-12T19:49:23.367429",
+      "created": "2016-05-12T15:49:23.427550",
+      "schema": null
+    },
+    {
+      "id": "b9a05b19-6b1f-4e9f-913d-e5550f99509b",
+      "name": "Friche naturelle en format kml",
+      "description": "Polygones des friches naturelles de l’agglomération de Montréal\r\n\r\nFichier au format kml\r\n\r\nDescription des champs :\r\n\r\n* TYPE = Catégorie de friche (herbacée, arbustive, arborescente)\r\n* TYPE2 = Regroupement des friches à caractère industriel\r\n\t\r\nSystème géodésique : WGS84\r\n",
+      "format": "KML",
+      "url": "https://donnees.montreal.ca/fr/dataset/c885e9b8-deea-4e97-b141-3c09a43d5296/resource/b9a05b19-6b1f-4e9f-913d-e5550f99509b/download/friche.kml",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2016-05-12T19:51:55.830626",
+      "created": "2016-05-12T15:51:55.889489",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arborescente",
+    "Arbustive",
+    "Friche",
+    "Herbacée",
+    "Milieu naturel",
+    "Nature",
+    "SGPMRS"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cet ensemble de données est une extraction des friches en format Shapefile à partir d'une feature class dans une file geodatabase créée avec le logiciel ArcGis de ESRI. Transfert ensuite des données en format GeoJSON et Kml à l'aide de OGR2GUI.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Arborescente",
+      "Arbustive",
+      "Friche",
+      "Herbacée",
+      "Milieu naturel",
+      "Nature",
+      "SGPMRS"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/frichenaturelle",
+    "scraped_at": "2026-03-09T19:57:45.554504+00:00"
+  }
+}

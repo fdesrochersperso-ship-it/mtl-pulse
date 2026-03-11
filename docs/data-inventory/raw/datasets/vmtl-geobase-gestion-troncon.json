@@ -1,0 +1,301 @@
+{
+  "slug": "vmtl-geobase-gestion-troncon",
+  "title": "Géobase - gestion tronçons",
+  "notes": "La géobase est la représentation spatiale du réseau routier sous la forme d'un réseau filamentaire composé de lignes nommées tronçons. \r\n\r\nLes opérations de mise à jour sont enregistrées dans un journal avec les identifiants des tronçons, les dates et les types des opérations, les numéros de versions. \r\n\r\nLa géométrie des tronçons affectés par les opérations de mise à jour n'est pas enregistrée dans le journal et en conséquence **_cet ensemble de données ne contient pas de l'information géospatiale_**.\r\n\r\nSeulement les opérations effectuées après le **_25 octobre 2017_**, à partir de la version **_618_**, sont inclues dans l'ensemble de données __Géobase - gestion tronçons__.\r\n\r\nEnsembles de données connexes:\r\n\r\n- [Géobase - réseau routier](http://donnees.montreal.ca/dataset/geobase)\r\n- [Géobase double - côtés de rue du réseau routier](http://donnees.montreal.ca/dataset/geobase-double)\r\n- [Géobase - pôles](http://donnees.montreal.ca/dataset/geobase-pole)\r\n- [Géobase - tronçons détruits](http://donnees.montreal.ca/dataset/geobase-troncon-detruit)\r\n- [Géobase - noeuds](http://donnees.montreal.ca/dataset/geobase-noeud)\r\n\r\n __Avertissements__\r\n\r\n- Les données diffusées (Géobase - gestion tronçons) doivent être utilisées en respectant la politique et la licence en matière de données ouvertes de la Ville de Montréal.\r\n- Les données diffusées (Géobase - gestion tronçons) sont celles qui se trouvent en notre possession et ne sont pas nécessairement à jour sur l'ensemble du territoire.\r\n- Les données diffusées (Géobase - gestion tronçons) sont fournies seulement à titre indicatif et ne devraient pas être utilisées aux fins de conception ou réalisation des travaux, ni aux fins de localisation des actifs.\r\n- La Ville de Montréal et la Division de la géomatique ne pourront pas être tenues responsables des imprécisions ou inexactitudes des données diffusées (Géobase - gestion tronçons).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "weekly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-03-29T18:11:43.228966",
+  "metadata_modified": "2026-02-27T02:18:16.632548",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "180852c3-fc1b-43bf-b86d-20c0e08caab5",
+      "name": "Géobase - gestion tronçons - format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/72928aba-53aa-4480-98ca-9a430ba331d8/resource/180852c3-fc1b-43bf-b86d-20c0e08caab5/download/gestiontroncon.csv",
+      "datastore_active": true,
+      "size": 23067095,
+      "last_modified": "2026-02-27T00:03:33.599162",
+      "created": "2019-03-29T18:13:39.035884",
+      "schema": {
+        "resource_id": "180852c3-fc1b-43bf-b86d-20c0e08caab5",
+        "total_records": 445302,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_LOG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_TRC_ANC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATEMAJ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPEMAJ",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "VERSIONMAJ",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_LOG": "1",
+            "ID_TRC": "1625776",
+            "ID_TRC_ANC": "9999999",
+            "DATEMAJ": "20021108000000",
+            "TYPEMAJ": "Ajouté",
+            "VERSIONMAJ": "1"
+          },
+          {
+            "_id": 2,
+            "ID_LOG": "2",
+            "ID_TRC": "1625814",
+            "ID_TRC_ANC": "9999999",
+            "DATEMAJ": "20021108000000",
+            "TYPEMAJ": "Ajouté",
+            "VERSIONMAJ": "1"
+          },
+          {
+            "_id": 3,
+            "ID_LOG": "3",
+            "ID_TRC": "1625812",
+            "ID_TRC_ANC": "9999999",
+            "DATEMAJ": "20021108000000",
+            "TYPEMAJ": "Ajouté",
+            "VERSIONMAJ": "1"
+          },
+          {
+            "_id": 4,
+            "ID_LOG": "4",
+            "ID_TRC": "1625802",
+            "ID_TRC_ANC": "9999999",
+            "DATEMAJ": "20021108000000",
+            "TYPEMAJ": "Ajouté",
+            "VERSIONMAJ": "1"
+          },
+          {
+            "_id": 5,
+            "ID_LOG": "5",
+            "ID_TRC": "1625811",
+            "ID_TRC_ANC": "9999999",
+            "DATEMAJ": "20021108000000",
+            "TYPEMAJ": "Ajouté",
+            "VERSIONMAJ": "1"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_LOG": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_TRC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_TRC_ANC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATEMAJ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPEMAJ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "VERSIONMAJ": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 445302,
+        "audited_at": "2026-03-10T00:19:26.770429+00:00",
+        "fields": {
+          "ID_LOG": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1000.0,
+            "mean": 500.5,
+            "median": 500.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "ID_TRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010223.0,
+            "max": 9999999.0,
+            "mean": 3521487.788,
+            "median": 4001721.0,
+            "unique_count": 903,
+            "field_type_detected": "numeric"
+          },
+          "ID_TRC_ANC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1010223.0,
+            "max": 9999999.0,
+            "mean": 4001267.265,
+            "median": 1625169.5,
+            "unique_count": 734,
+            "field_type_detected": "numeric"
+          },
+          "DATEMAJ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20021108000000",
+            "max_date": "20030331000000",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "TYPEMAJ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Modifié",
+                "count": 578
+              },
+              {
+                "value": "Ajouté",
+                "count": 219
+              },
+              {
+                "value": "Sectionné",
+                "count": 99
+              },
+              {
+                "value": "Détruit",
+                "count": 90
+              },
+              {
+                "value": "Fusionné",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "VERSIONMAJ": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1b721a23-388a-47be-860e-2634193e1988",
+      "name": "Géobase - gestion tronçons - format GeoJSON",
+      "description": "",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/72928aba-53aa-4480-98ca-9a430ba331d8/resource/1b721a23-388a-47be-860e-2634193e1988/download/gestiontroncon.json",
+      "datastore_active": false,
+      "size": 111654708,
+      "last_modified": "2026-02-13T20:44:41.737418",
+      "created": "2019-03-29T18:14:30.548407",
+      "schema": null
+    },
+    {
+      "id": "483f98a1-aa93-4218-9329-28383ac10781",
+      "name": "Géobase - gestion tronçons - format SHP",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/72928aba-53aa-4480-98ca-9a430ba331d8/resource/483f98a1-aa93-4218-9329-28383ac10781/download/gestiontroncon.zip",
+      "datastore_active": false,
+      "size": 5224013,
+      "last_modified": "2026-02-27T00:03:11.772596",
+      "created": "2019-03-29T18:15:00.209118",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Géobase",
+    "Historique",
+    "Réseau routier",
+    "SIRR",
+    "Tronçon"
+  ],
+  "web_metadata": {
+    "methodology_text": "L'ensemble de données «Géobase - gestion tronçons» contient la liste des opérations de mise à jour effectuées sur l'ensemble de données «Géobase - réseau routier», **_sans aucune information géospatiale_**.\n\n\n- \n\n\nQuand un nouveau tronçon est **ajouté** à la géobase, l'opération est enregistrée avec TYPEMAJ = «Ajouté», le nouvel identifiant du tronçon ajouté dans ID_TRC, la valeur 9 999 999 dans ID_TRC_ANC.\n\n\n- \n\n\nQuand un tronçon est **détruit** de la géobase, l'opération est enregistrée avec TYPEMAJ = «Détruit», la valeur 9 999 999 dans ID_TRC, l'identifiant du tronçon détruit dans ID_TRC_ANC.\n\n\n- \n\n\nQuand un tronçon est **modifié** (un attribut ou la géométrie), l'opération est enregistrée avec TYPEMAJ = «Modifié», l'identifiant du tronçon modifié dans ID_TRC et ID_TRC_ANC.\n\n\n- \n\n\nQuand deux ou plusieurs tronçons sont **fusionnés**, l'opération est enregistrée sur deux ou plusieurs lignes avec TYPEMAJ = «Fusionné», le nouvel identifiant du tronçon créé dans ID_TRC, les identifiants des tronçons fusionnés dans ID_TRC_ANC.\n\n\n- \n\n\nQuand un tronçon est **sectionné** dans deux ou plusieurs nouveaux tronçons, l'opération est enregistrée sur deux ou plusieurs lignes avec TYPEMAJ = «Sectionné», les nouveaux identifiants des tronçons créés dans ID_TRC, l'identifiant du tronçon sectionné dans ID_TRC_ANC.\n\n\n\n### Dictionnaire de données\n\n\n\n- **NOM ATTRIBUT             [format]**         - **_Description_**\n\n- ID_LOG       [numérique]            - _Identifiant unique de l'opération de mise à jour_\n\n- ID_TRC       [numérique]            - _Identifiant du nouveau tronçon_\n\n- ID_TRC_ANC   [numérique]            - _Identifiant de l'ancien tronçon_\n\n- DATEMAJ      [date et/ou heure]     - _Date de l'opération de mise à jour_\n\n- TYPEMAJ      [liste de valeur]      - _Type de l'opération de mise à jour_ [Ajouté, Détruit, Modifié, Fusionné, Sectionné]\n\n- VERSIONMAJ   [numérique]            - _Version de la mise à jour_\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier - Division de la géomatique",
+      "Couverture temporelle": "2017-10-25/",
+      "Fréquence de mise à jour": "Hebdomadaire"
+    },
+    "keywords": [
+      "Géobase",
+      "Historique",
+      "Réseau routier",
+      "SIRR",
+      "Tronçon"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/geobase-gestion-troncon",
+    "scraped_at": "2026-03-09T19:57:54.680443+00:00"
+  }
+}

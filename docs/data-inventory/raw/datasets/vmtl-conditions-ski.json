@@ -1,0 +1,76 @@
+{
+  "slug": "vmtl-conditions-ski",
+  "title": "Conditions de ski et sentiers ainsi que les grands parcs (sites hivernaux)",
+  "notes": "Informations sur les conditions de ski sur le territoire montréalais y compris les grands parcs.  Ces informations sont tirées du [site web des conditions des sites hivernaux](https://montreal.ca/services/conditions-des-sites-hivernaux) pour les arrondissements de Montréal qui y participe.\r\n\r\nLes conditions des glissades et des patinoires sont également [disponibles en ligne](https://montreal.ca/services/conditions-des-sites-hivernaux). \r\n\r\n[Les ressources HTML sont temporaires]",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "tourisme-sports-loisirs",
+      "display_name": "Tourisme, sports et loisirs",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2013-10-06T15:23:51.364746",
+  "metadata_modified": "2026-01-20T18:02:04.569363",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "41721587-bfc4-4ea5-a8d9-2a7584d9979e",
+      "name": "Conditions de ski et sentiers en arrondissement",
+      "description": "Flux XML\r\n\r\n• piste\r\n• nom\r\n• arrondissement\r\n• cle\r\n• date_maj\r\n• ouvert\r\n• deblaye\r\n• condition\r\n",
+      "format": "HTML",
+      "url": "https://montreal.ca/conditions-des-pistes-de-ski-de-fond?shownResults=47",
+      "datastore_active": false,
+      "size": 8047,
+      "last_modified": "2025-10-03T19:14:17.909947",
+      "created": "2016-01-13T12:17:48.051558",
+      "schema": null
+    },
+    {
+      "id": "5b19d41c-468d-4f37-b289-e9b044346615",
+      "name": "Conditions de ski dans les grands parcs",
+      "description": "Le fichier XML renseigne pour chaque parc les informations suivantes:\r\n\r\n- `parc id`\r\n\r\n- `nom_fr`\r\n\r\n- `Condition`:\r\n\r\n      - date_maj  \r\n      - piste:\r\n          * ski_piste_tracees_pourcent\r\n          * marche_piste_nivelees_pourcent      \r\n          * commentaires         \r\n          \r\n\r\n      - etat_general:\r\n \r\n           * Ski (Etat, Commentaires)\r\n           * marche (Etat, Commentaires)\r\n           * raquette (Etat, Commentaires)\r\n           * glissade_libre (Etat, Commentaires)\r\n           * glissade_chambre_air (Etat, Commentaires)\r\n           * glissade_secondaire (Etat, Commentaires)\r\n           * patinoire (Etat, Commentaires)\r\n           * patinoire_debutant(Etat, Commentaires)\r\n           * patinoire_lac (Etat, Commentaires)\r\n           * fatbike (Etat, Commentaires)\r\n\r\n\r\n      - enneigement:\r\n       \r\n           * qualite (Etat, Commentaires)\r\n           * precipitations (nb_cm, commentaires)\r\n\r\n**Note**:Il se pourrait que des champs ne seront pas renseignés pour quelques activités hivernales dans le cas des parcs qui n'en disposent pas.",
+      "format": "HTML",
+      "url": "https://montreal.ca/conditions-des-pistes-de-ski-de-fond?shownResults=47",
+      "datastore_active": false,
+      "size": 2847235,
+      "last_modified": "2025-10-03T19:15:09.243073",
+      "created": "2018-11-15T18:54:31.696491",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Conditions de ski",
+    "Grand parc",
+    "Sentier",
+    "Site hivernal",
+    "Ski"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les vérifications des conditions des sites hivernaux  sont faites par les contremaîtres en arrondissement. Ceux-ci intègrent les données manuellement dans un outil de la Ville, les fichiers XML sont ensuite automatisés par le Service des technologies de l’information.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Sonia Beauchemin",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Conditions de ski",
+      "Grand parc",
+      "Sentier",
+      "Site hivernal",
+      "Ski"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/conditions-ski",
+    "scraped_at": "2026-03-09T19:54:11.222030+00:00"
+  }
+}

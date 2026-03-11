@@ -1,0 +1,263 @@
+{
+  "slug": "vmtl-voirie-zone",
+  "title": "Zone hors voirie (Base de données des actifs de voirie)",
+  "notes": "La base de données Voirie inclut l'inventaire des actifs de voirie (chaussées, îlots, intersections, trottoirs, bordures) avec une représentation spatiale et diverses informations attachées.\r\n\r\nLes actifs de voirie de type zone représentent les régions situées entre les autres actifs de voirie et qui ne font pas partie du réseau routier local ou artériel. Les zones sont figurées par des polygones.\r\n\r\nParmi les informations associées à un objet de type zone se trouvent le type de zone, etc.\r\n\r\nLes données connexes sont aussi disponibles dans des ensembles distincts sur le portail:\r\n\r\n- [Actif de voirie (base de données complète)](/ville-de-montreal/voirie-actif)\r\n- [Chaussée et intersection](/ville-de-montreal/voirie-chaussee-intersection)\r\n- [Trottoir et îlot](/ville-de-montreal/voirie-trottoir-ilot)\r\n\r\n\r\n__Avertissements__\r\n\r\n- Les données diffusées sur les actifs de voirie sont celles qui se trouvent en la possession de l'équipe géomatique de la Ville et ne sont pas nécessairement à jour sur l'ensemble du territoire.\r\n- Les données diffusées sur les actifs de voirie sont fournies seulement à titre indicatif et ne devraient pas être utilisées pour des fins de conception ou réalisation des travaux, ni pour la localisation des actifs.\r\n",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-08-16T18:30:43.686790",
+  "metadata_modified": "2026-03-02T11:04:25.243198",
+  "num_resources": 4,
+  "resources": [
+    {
+      "id": "6ea4e364-b5f8-4ace-8867-299a5dee9501",
+      "name": "Voirie - Z12 - actif Zone - format CSV",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/6ece3ceb-f611-43bd-80ce-238f52a04928/resource/6ea4e364-b5f8-4ace-8867-299a5dee9501/download/voi_zone_s_z12_csv.zip",
+      "datastore_active": false,
+      "size": 19933632,
+      "last_modified": "2026-03-02T10:29:22.056109",
+      "created": "2018-08-17T19:25:13.268861",
+      "schema": null
+    },
+    {
+      "id": "426ac414-4894-4335-9611-a8071f846e18",
+      "name": "Voirie - Z12 - actif Zone - format GeoJSON",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/6ece3ceb-f611-43bd-80ce-238f52a04928/resource/426ac414-4894-4335-9611-a8071f846e18/download/voi_zone_s_z12_geojson.zip",
+      "datastore_active": false,
+      "size": 21258722,
+      "last_modified": "2026-03-02T10:29:27.028042",
+      "created": "2018-08-17T19:26:14.405456",
+      "schema": null
+    },
+    {
+      "id": "0a84a5e1-e1c8-44dd-845d-c42a21c307c6",
+      "name": "Voirie - Z12 - actif Zone - format format SHP",
+      "description": "",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/6ece3ceb-f611-43bd-80ce-238f52a04928/resource/0a84a5e1-e1c8-44dd-845d-c42a21c307c6/download/voi_zone_s_z12_shp.zip",
+      "datastore_active": false,
+      "size": 14418853,
+      "last_modified": "2026-03-02T10:29:31.622786",
+      "created": "2018-08-17T19:27:01.443874",
+      "schema": null
+    },
+    {
+      "id": "3435ddf6-f061-4992-b15a-15c89b8c4b62",
+      "name": "Voirie - Liste de valeurs des attributs - format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/6ece3ceb-f611-43bd-80ce-238f52a04928/resource/3435ddf6-f061-4992-b15a-15c89b8c4b62/download/voi_liste_valeurs_csv.csv",
+      "datastore_active": true,
+      "size": 6829,
+      "last_modified": "2026-03-02T10:29:37.052231",
+      "created": "2018-09-05T15:04:27.481176",
+      "schema": {
+        "resource_id": "3435ddf6-f061-4992-b15a-15c89b8c4b62",
+        "total_records": 184,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ATTRIBUT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "REFERENCE",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Autoroute"
+          },
+          {
+            "_id": 2,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Autoroute accotement"
+          },
+          {
+            "_id": 3,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Bretelle"
+          },
+          {
+            "_id": 4,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Bretelle accotement"
+          },
+          {
+            "_id": 5,
+            "ATTRIBUT": "CATEGORIECHAUSSEE_REF",
+            "REFERENCE": "Chemin privé"
+          }
+        ]
+      },
+      "field_stats": {
+        "ATTRIBUT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "REFERENCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 184,
+        "total_records": 184,
+        "audited_at": "2026-03-10T00:33:04.193764+00:00",
+        "fields": {
+          "ATTRIBUT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 16,
+            "top_values": [
+              {
+                "value": "PROPRIETAIRE_REF",
+                "count": 41
+              },
+              {
+                "value": "MATERIAU_REF",
+                "count": 20
+              },
+              {
+                "value": "TYPEILOT_REF",
+                "count": 13
+              },
+              {
+                "value": "TYPEUSAGECYCLABLE_REF",
+                "count": 13
+              },
+              {
+                "value": "UTILISATION_REF",
+                "count": 13
+              },
+              {
+                "value": "DATECONSTRUCTIONPREC_REF",
+                "count": 11
+              },
+              {
+                "value": "CATEGORIECHAUSSEE_REF",
+                "count": 10
+              },
+              {
+                "value": "TYPEBORDURE_REF",
+                "count": 10
+              },
+              {
+                "value": "POSITION_REF",
+                "count": 9
+              },
+              {
+                "value": "CATEGORIETROTTOIR_REF",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "REFERENCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 140,
+            "top_values": [
+              {
+                "value": "Inconnu",
+                "count": 15
+              },
+              {
+                "value": "Non applicable",
+                "count": 15
+              },
+              {
+                "value": "Null",
+                "count": 15
+              },
+              {
+                "value": "Non",
+                "count": 2
+              },
+              {
+                "value": "Oui",
+                "count": 2
+              },
+              {
+                "value": "Autoroute",
+                "count": 1
+              },
+              {
+                "value": "Autoroute accotement",
+                "count": 1
+              },
+              {
+                "value": "Bretelle",
+                "count": 1
+              },
+              {
+                "value": "Bretelle accotement",
+                "count": 1
+              },
+              {
+                "value": "Chemin privé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "SIRR",
+    "Voirie",
+    "Zone"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les polygones des actifs de voirie ont été créés à partir de la cartographie de base et des relevés terrain. \n\n\nLes mises à jour sont faites avec des relevés terrain, des relevés photogrammétriques, des plans finaux de construction, etc. \n\n\nÀ cause de ces différentes sources de données spatiales, la précision peut varier entre ± 5 centimètres (relevé terrain) et ± 30 centimètres (cartographie, photogrammétrie).\n\n\nDans la base de données Voirie, la plus vieille année de mise à jour est 2009 et la plus récente est l'année en cours. \n\n\nLes diverses autres informations proviennent des visites terrain, des plans et profils, des listes ou plans de rues, des hypothèses d'ingénierie, etc. \n\n\nLes polygones des actifs de voirie sont découpés sur les limites administratives.\n\n### Dictionnaire de données\n\n\n\n_Note: La liste des domaines de valeurs des attributs ci-dessous est disponible en format CSV dans les ressources._\n\n\n**NOM ATTRIBUT             [format]**         - **_Description_**\n\n\n- ID_VOI_ZONE                [numérique]        - _Identifiant pour les objets de type zone_\n\n- POSITION_REF               [liste de valeurs] - _Définit la position de l'objet de voirie par rapport au milieu environnant_\n\n- PROPRIETAIRE_REF           [liste de valeurs] - _Définit le",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier - Division de la géomatique",
+      "Couverture temporelle": "2009-01-01/",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "SIRR",
+      "Voirie",
+      "Zone"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/voirie-zone",
+    "scraped_at": "2026-03-09T20:24:07.637343+00:00"
+  }
+}

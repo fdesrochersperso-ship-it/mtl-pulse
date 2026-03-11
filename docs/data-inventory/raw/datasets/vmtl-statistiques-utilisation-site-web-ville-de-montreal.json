@@ -1,0 +1,988 @@
+{
+  "slug": "vmtl-statistiques-utilisation-site-web-ville-de-montreal",
+  "title": "Statistiques d'utilisation du site web de la Ville de Montréal (montreal.ca)",
+  "notes": "Ensemble de données contenant la fréquentation du portail Montreal.ca à savoir le nombre de visiteurs et de pages vues par jour de l'année.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-06-03T12:59:51.521166",
+  "metadata_modified": "2026-03-09T10:13:14.635373",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "4cbbba4d-1ff2-4996-ae31-2a6ee34ec6e6",
+      "name": "Fréquentation du portail Montreal.ca",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/91ec9195-19b2-4cc5-a3c7-8e295a30ad68/resource/4cbbba4d-1ff2-4996-ae31-2a6ee34ec6e6/download/frequentation-portail-montreal-ca.csv",
+      "datastore_active": true,
+      "size": 58405456,
+      "last_modified": "2026-03-09T07:01:50.675645",
+      "created": "2024-06-17T18:01:25.893289",
+      "schema": {
+        "resource_id": "4cbbba4d-1ff2-4996-ae31-2a6ee34ec6e6",
+        "total_records": 388370,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "path",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sessions",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageviews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "avgSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20260101",
+            "path": "/",
+            "title": "Bem-vindo(a) ao Montréal.ca | Cidade de Montreal",
+            "sessions": "1",
+            "pageviews": "0",
+            "avgSessionDuration": "19.487435"
+          },
+          {
+            "_id": 2,
+            "date": "20260101",
+            "path": "/",
+            "title": "Montréal.ca'ya hoş geldiniz | Montreal Şehri",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "10.129064"
+          },
+          {
+            "_id": 3,
+            "date": "20260101",
+            "path": "/",
+            "title": "欢迎访问 Montréal.ca | 蒙特利尔市",
+            "sessions": "1",
+            "pageviews": "0",
+            "avgSessionDuration": "10.493122"
+          },
+          {
+            "_id": 4,
+            "date": "20260101",
+            "path": "/acheter-un-coupon-pour-les-sites-de-depot-neige",
+            "title": "Acheter un coupon pour les sites de dépôt à neige | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "3",
+            "avgSessionDuration": "44.194504"
+          },
+          {
+            "_id": 5,
+            "date": "20260101",
+            "path": "/activites-de-consultation/schema-de-couverture-de-risques-en-securite-incendie-de-lagglomeration-de-montreal-2025-2034-88892",
+            "title": "Schéma de couverture de risques en sécurité incendie de l'agglomération de Montréal 2025 -2034 | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "2",
+            "avgSessionDuration": "175.227305"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "path": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "title": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sessions": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageviews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "avgSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 388370,
+        "audited_at": "2026-03-10T00:28:12.036820+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20260101",
+            "max_date": "20260101",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "path": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 950,
+            "top_values": [
+              {
+                "value": "/",
+                "count": 3
+              },
+              {
+                "value": "/en/articles/understanding-statements-offence-15321",
+                "count": 3
+              },
+              {
+                "value": "/actualites/saint-laurent-devoile-son-plan-strategique-2026-2029-97773",
+                "count": 2
+              },
+              {
+                "value": "/actualites/stationnement-hivernal-lile-bizard-sainte-genevieve-ce-quil-faut-savoir-80755",
+                "count": 2
+              },
+              {
+                "value": "/articles/comprendre-les-contraventions-15321",
+                "count": 2
+              },
+              {
+                "value": "/articles/crue-des-eaux-ahuntsic-cartierville-la-reference-65614",
+                "count": 2
+              },
+              {
+                "value": "/articles/jours-feries-bureaux-installations-et-services-ouverts-ou-fermes-30540",
+                "count": 2
+              },
+              {
+                "value": "/articles/reso-le-reseau-souterrain-de-montreal-13713",
+                "count": 2
+              },
+              {
+                "value": "/calendrier",
+                "count": 2
+              },
+              {
+                "value": "/calendrier-participation-publique",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "title": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 991,
+            "top_values": [
+              {
+                "value": "Coffee & Conversation with Pierrefonds Seniors | Ville de Montréal",
+                "count": 3
+              },
+              {
+                "value": "Danielle Myrand | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Ericka Alneus | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Chair Yoga | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Libraries : Full STEAM ahead | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Science Playground with Captain Catalyst | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Special agglomeration council meeting | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Toddler Story Time - 0 to 18 months | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Bem-vindo(a) ao Montréal.ca | Cidade de Montreal",
+                "count": 1
+              },
+              {
+                "value": "Montréal.ca'ya hoş geldiniz | Montreal Şehri",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "sessions": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "pageviews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 10.0,
+            "mean": 1.355,
+            "median": 1.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 559
+              },
+              {
+                "value": "2",
+                "count": 187
+              },
+              {
+                "value": "0",
+                "count": 143
+              },
+              {
+                "value": "3",
+                "count": 59
+              },
+              {
+                "value": "4",
+                "count": 33
+              },
+              {
+                "value": "5",
+                "count": 11
+              },
+              {
+                "value": "6",
+                "count": 3
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "10",
+                "count": 1
+              }
+            ]
+          },
+          "avgSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1901.1282,
+            "mean": 84.7238,
+            "median": 22.0117,
+            "unique_count": 940,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "99dc7e4d-4f29-4676-bbac-16e070a42f0d",
+      "name": "Fréquentation du portail Montreal.ca 2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/91ec9195-19b2-4cc5-a3c7-8e295a30ad68/resource/99dc7e4d-4f29-4676-bbac-16e070a42f0d/download/frequentation-portail-montreal-ca-2023.csv",
+      "datastore_active": true,
+      "size": 284427825,
+      "last_modified": "2024-11-28T19:41:37.856357",
+      "created": "2024-11-28T19:41:37.924121",
+      "schema": {
+        "resource_id": "99dc7e4d-4f29-4676-bbac-16e070a42f0d",
+        "total_records": 1924222,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "path",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sessions",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageviews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "avgSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20230210",
+            "path": "/",
+            "title": "(not set)",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "0"
+          },
+          {
+            "_id": 2,
+            "date": "20230210",
+            "path": "/accompagnement-et-financement",
+            "title": "Support and financing| City of Montreal",
+            "sessions": "1",
+            "pageviews": "0",
+            "avgSessionDuration": "40.534842"
+          },
+          {
+            "_id": 3,
+            "date": "20230210",
+            "path": "/actualites/apik-la-rue-saint-denis-se-transforme-en-mont-saint-denis-44677",
+            "title": "APIK : la rue Saint-Denis se transforme en mont Saint-Denis | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "8.899389"
+          },
+          {
+            "_id": 4,
+            "date": "20230210",
+            "path": "/actualites/bravo-aux-jeunes-athletes-pour-leur-participation-aux-preliminaires-dathletisme-44725",
+            "title": "Bravo aux jeunes athlètes pour leur participation aux préliminaires d’athlétisme | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "76.260798"
+          },
+          {
+            "_id": 5,
+            "date": "20230210",
+            "path": "/actualites/conseil-de-fevrier-perseverance-scolaire-et-lutte-contre-lislamophobie-44933",
+            "title": "Conseil de février : persévérance scolaire et lutte contre l’islamophobie | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "0"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "path": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "title": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sessions": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageviews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "avgSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 1924222,
+        "audited_at": "2026-03-10T00:28:13.513876+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20230210",
+            "max_date": "20230210",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "path": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 982,
+            "top_values": [
+              {
+                "value": "/en/places",
+                "count": 3
+              },
+              {
+                "value": "/actualites/dans-lunivers-dartistes-peintres-la-maison-de-la-culture-claude-leveillee-44082",
+                "count": 2
+              },
+              {
+                "value": "/articles",
+                "count": 2
+              },
+              {
+                "value": "/articles/les-collectes-saint-leonard-8976",
+                "count": 2
+              },
+              {
+                "value": "/articles/programmation-des-bibliotheques-de-pierrefonds-roxboro-38160",
+                "count": 2
+              },
+              {
+                "value": "/articles/se-rafraichir-verdun-15690",
+                "count": 2
+              },
+              {
+                "value": "/demarches/consulter-une-copie-de-son-compte-de-taxes",
+                "count": 2
+              },
+              {
+                "value": "/demarches/payer-son-compte-de-taxes",
+                "count": 2
+              },
+              {
+                "value": "/demarches/reserver-un-terrain-sportif-exterieur",
+                "count": 2
+              },
+              {
+                "value": "/en/",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "title": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 955,
+            "top_values": [
+              {
+                "value": "Ville de Montréal",
+                "count": 11
+              },
+              {
+                "value": "Baldwin, Styron et moi - Festival international de la littérature (FIL) | Ville de Montréal",
+                "count": 3
+              },
+              {
+                "value": "Lachine | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Luis Miranda | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "LaSalle | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Club de Lego à la bibliothèque du Boisé | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Jeu du mois | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Les corps avalés - Compagnie Virginie Brunelle | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Lis avec Poilu | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Patin de Saint-Valentin | Ville de Montréal",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "sessions": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "pageviews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8.0,
+            "mean": 1.183,
+            "median": 1.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 786
+              },
+              {
+                "value": "2",
+                "count": 111
+              },
+              {
+                "value": "0",
+                "count": 57
+              },
+              {
+                "value": "3",
+                "count": 27
+              },
+              {
+                "value": "4",
+                "count": 9
+              },
+              {
+                "value": "5",
+                "count": 6
+              },
+              {
+                "value": "6",
+                "count": 2
+              },
+              {
+                "value": "8",
+                "count": 2
+              }
+            ]
+          },
+          "avgSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2409.8906,
+            "mean": 91.2593,
+            "median": 19.5706,
+            "unique_count": 853,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "ff322fea-6220-4453-89dc-1e75e8bc01a0",
+      "name": "Fréquentation du portail Montreal.ca 2025",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/91ec9195-19b2-4cc5-a3c7-8e295a30ad68/resource/ff322fea-6220-4453-89dc-1e75e8bc01a0/download/frequentation-portail-montreal-ca-2025.csv",
+      "datastore_active": true,
+      "size": 323980130,
+      "last_modified": "2026-01-02T08:21:01.112679",
+      "created": "2026-01-02T08:21:01.270902",
+      "schema": {
+        "resource_id": "ff322fea-6220-4453-89dc-1e75e8bc01a0",
+        "total_records": 2167971,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "path",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sessions",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pageviews",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "avgSessionDuration",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20250101",
+            "path": "/",
+            "title": "Montréal.ca'ya hoş geldiniz | Montreal Şehri",
+            "sessions": "1",
+            "pageviews": "0",
+            "avgSessionDuration": "59.848527"
+          },
+          {
+            "_id": 2,
+            "date": "20250101",
+            "path": "/",
+            "title": "Willkommen bei Montréal.ca | Stadt Montreal",
+            "sessions": "1",
+            "pageviews": "0",
+            "avgSessionDuration": "97.25635"
+          },
+          {
+            "_id": 3,
+            "date": "20250101",
+            "path": "/",
+            "title": "欢迎来到 Montréal.ca |蒙特利尔市",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "11.76731"
+          },
+          {
+            "_id": 4,
+            "date": "20250101",
+            "path": "/accessibilite-universelle",
+            "title": "Accessibilité universelle | Ville de Montréal",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "12.453608"
+          },
+          {
+            "_id": 5,
+            "date": "20250101",
+            "path": "/actualites/calendriers-trimestriels-des-collectes-maintenant-dans-accent-81810",
+            "title": "Quarterly collection schedules now in Accent | City of Montreal",
+            "sessions": "1",
+            "pageviews": "1",
+            "avgSessionDuration": "6.885138"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "path": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "title": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sessions": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pageviews": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "avgSessionDuration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2167971,
+        "audited_at": "2026-03-10T00:28:14.880574+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20250101",
+            "max_date": "20250101",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "path": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 958,
+            "top_values": [
+              {
+                "value": "/en/",
+                "count": 4
+              },
+              {
+                "value": "/",
+                "count": 3
+              },
+              {
+                "value": "/articles/espacement-de-la-collecte-des-ordures-menageres-22753",
+                "count": 3
+              },
+              {
+                "value": "/demarches/payer-un-constat-dinfraction",
+                "count": 3
+              },
+              {
+                "value": "/en/how-to/get-details-about-christmas-trees-collections",
+                "count": 3
+              },
+              {
+                "value": "/articles/carte-acces-montreal-offres-et-rabais-exclusifs-5990",
+                "count": 2
+              },
+              {
+                "value": "/articles/permis-doccupation-du-domaine-public-guide-pour-les-titulaires-de-permis-12412",
+                "count": 2
+              },
+              {
+                "value": "/collectes-et-recyclage",
+                "count": 2
+              },
+              {
+                "value": "/demarches",
+                "count": 2
+              },
+              {
+                "value": "/demarches/demander-un-bac-de-recyclage",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "title": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 988,
+            "top_values": [
+              {
+                "value": "欢迎来到 Montréal.ca |蒙特利尔市",
+                "count": 2
+              },
+              {
+                "value": "L'Île-Bizard ̶ Sainte-Geneviève | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Pierrefonds-Roxboro | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Alan DeSousa | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Despina Sourias | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Stephanie Valenzuela | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Participatory budget | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Afternoon Video Games | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Atelier de dessin avec modèle vivant | Ville de Montréal",
+                "count": 2
+              },
+              {
+                "value": "Sabor de mi corazón, chapitre I : Cumbia - Voies | Ville de Montréal",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "sessions": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 1000
+              }
+            ]
+          },
+          "pageviews": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8.0,
+            "mean": 1.264,
+            "median": 1.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 609
+              },
+              {
+                "value": "2",
+                "count": 190
+              },
+              {
+                "value": "0",
+                "count": 121
+              },
+              {
+                "value": "3",
+                "count": 59
+              },
+              {
+                "value": "4",
+                "count": 14
+              },
+              {
+                "value": "5",
+                "count": 4
+              },
+              {
+                "value": "7",
+                "count": 2
+              },
+              {
+                "value": "8",
+                "count": 1
+              }
+            ]
+          },
+          "avgSessionDuration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1842.7778,
+            "mean": 74.0698,
+            "median": 17.0736,
+            "unique_count": 859,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Analytique Web",
+    "Montreal.ca",
+    "SCAEC",
+    "Statistique de fréquentation"
+  ],
+  "web_metadata": {
+    "methodology_text": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail Montreal.ca.\n\n### Dictionnaire de données\n\n\n\n- id (Numérique) : Identifiant unique\n\n- date (Date et/ou heure) : Date des visites\n\n- path (Texte variable) : Chemin relatif de la page (segment de l'adresse web suivant le domaine http://donnees.montreal.ca)\n\n- title (Texte variable) : Titre de la page web tel que déclaré dans la balise title\n\n- sessions (Numérique) : Nombre de sessions différentes ayant visité la page path pour la journée date\n\n- pageviews (Numérique) : Nombre d'impression à l'écran pour la page page pour la journée date\n\n- avgSessionDuration (Numérique) : Durée moyenne des sessions\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Analytique Web",
+      "Montreal.ca",
+      "SCAEC",
+      "Statistique de fréquentation"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/statistiques-utilisation-site-web-ville-de-montreal",
+    "scraped_at": "2026-03-09T20:22:37.702001+00:00"
+  }
+}

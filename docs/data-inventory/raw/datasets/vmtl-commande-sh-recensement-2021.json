@@ -1,0 +1,448 @@
+{
+  "slug": "vmtl-commande-sh-recensement-2021",
+  "title": "Commande personnalisée du recensement 2021 du Service de l'habitation",
+  "notes": "Cet ensemble de données présente les données du recensement de la population de 2021 partagées par Statistique Canada à la Ville de Montréal dans le cadre d'une commande de données réalisée par le Service de l’habitation. \r\n\r\nLa Division stratégies et politiques du Service de l’habitation a également produit une série de profils des ménages et des logements à partir de ces données afin d’offrir une analyse approfondie des dimensions liées à l’habitation par arrondissement et pour l’ensemble de l’agglomération.  \r\n\r\n- [Profils des ménages et des logements](https://donnees.montreal.ca/fr/dataset/profils-menages-logements)\r\n\r\n**Important :** Les données sont disponibles sous la licence ouverte de Statistique Canada. Pour connaître les conditions d'utilisation, veuillez consulter la licence disponible sur le site de Statistique Canada. Lors de la réutilisation des données, il est important de citer la source (Recensement 2021 de Statistique Canada) et de mentionner que le produit est issu d'une commande personnalisée faite par la Ville de Montréal.\r\n\r\nLes arrondissements sont divisés en quartiers de référence en habitation. Un tableau et une carte permettent d’identifier les quartiers propres à chaque arrondissement. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2025-12-15T20:45:56.306068",
+  "metadata_modified": "2026-02-17T15:57:12.333328",
+  "num_resources": 7,
+  "resources": [
+    {
+      "id": "16adee0c-a10b-4d65-94b5-feb529c064c6",
+      "name": "Carte des quartiers de référence en habitation",
+      "description": "",
+      "format": "PNG",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/16adee0c-a10b-4d65-94b5-feb529c064c6/download/quartiers_reference_habitation.png",
+      "datastore_active": false,
+      "size": 996144,
+      "last_modified": "2025-12-15T20:57:44.362850",
+      "created": "2025-12-15T20:57:44.444038",
+      "schema": null
+    },
+    {
+      "id": "755969f3-2334-4dc3-8d11-dbf0e13373fd",
+      "name": "Tableau des quartiers de référence en habitation",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/755969f3-2334-4dc3-8d11-dbf0e13373fd/download/quartiers_reference_habitation.csv",
+      "datastore_active": true,
+      "size": 4652,
+      "last_modified": "2025-12-15T20:56:10.349789",
+      "created": "2025-12-15T20:56:10.430689",
+      "schema": {
+        "resource_id": "755969f3-2334-4dc3-8d11-dbf0e13373fd",
+        "total_records": 91,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Num Quartier",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom Quartier",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Num Arr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom Arr",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom_mun",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Num Quartier": "01",
+            "Nom Quartier": "Cartierville",
+            "Num Arr": "23",
+            "Nom Arr": "Ahuntsic-Cartierville",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 2,
+            "Num Quartier": "02",
+            "Nom Quartier": "Nouveau-Bordeaux",
+            "Num Arr": "23",
+            "Nom Arr": "Ahuntsic-Cartierville",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 3,
+            "Num Quartier": "03",
+            "Nom Quartier": "Nicolas-Viel",
+            "Num Arr": "23",
+            "Nom Arr": "Ahuntsic-Cartierville",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 4,
+            "Num Quartier": "04",
+            "Nom Quartier": "Sault-au-Récollet",
+            "Num Arr": "23",
+            "Nom Arr": "Ahuntsic-Cartierville",
+            "nom_mun": "Montréal"
+          },
+          {
+            "_id": 5,
+            "Num Quartier": "05",
+            "Nom Quartier": "Saint-Sulpice",
+            "Num Arr": "23",
+            "Nom Arr": "Ahuntsic-Cartierville",
+            "nom_mun": "Montréal"
+          }
+        ]
+      },
+      "field_stats": {
+        "Num Quartier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom Quartier": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Num Arr": {
+          "null_count": 14,
+          "null_pct": 15.4,
+          "populated_pct": 84.6
+        },
+        "Nom Arr": {
+          "null_count": 14,
+          "null_pct": 15.4,
+          "populated_pct": 84.6
+        },
+        "nom_mun": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 91,
+        "total_records": 91,
+        "audited_at": "2026-03-10T00:14:45.782909+00:00",
+        "fields": {
+          "Num Quartier": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 93.0,
+            "mean": 45.4659,
+            "median": 44.5,
+            "unique_count": 88,
+            "field_type_detected": "numeric"
+          },
+          "Nom Quartier": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 91,
+            "top_values": [
+              {
+                "value": "Cartierville",
+                "count": 1
+              },
+              {
+                "value": "Nouveau-Bordeaux",
+                "count": 1
+              },
+              {
+                "value": "Nicolas-Viel",
+                "count": 1
+              },
+              {
+                "value": "Sault-au-Récollet",
+                "count": 1
+              },
+              {
+                "value": "Saint-Sulpice",
+                "count": 1
+              },
+              {
+                "value": "La Visitation",
+                "count": 1
+              },
+              {
+                "value": "Sainte-Lucie",
+                "count": 1
+              },
+              {
+                "value": "René-Goupil",
+                "count": 1
+              },
+              {
+                "value": "Gabriel-Sagard",
+                "count": 1
+              },
+              {
+                "value": "François-Perrault",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Num Arr": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "min": 5.0,
+            "max": 34.0,
+            "mean": 22.2987,
+            "median": 22.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "22",
+                "count": 9
+              },
+              {
+                "value": "25",
+                "count": 7
+              },
+              {
+                "value": "24",
+                "count": 7
+              },
+              {
+                "value": "34",
+                "count": 7
+              },
+              {
+                "value": "23",
+                "count": 6
+              },
+              {
+                "value": "21",
+                "count": 6
+              },
+              {
+                "value": "20",
+                "count": 5
+              },
+              {
+                "value": "15",
+                "count": 5
+              },
+              {
+                "value": "19",
+                "count": 4
+              },
+              {
+                "value": "16",
+                "count": 4
+              }
+            ]
+          },
+          "Nom Arr": {
+            "null_count": 14,
+            "null_pct": 15.4,
+            "unique_count": 19,
+            "top_values": [
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 9
+              },
+              {
+                "value": "Villeray-Saint-Michel-Parc Extension",
+                "count": 7
+              },
+              {
+                "value": "Rosemont-La Petite-Patrie",
+                "count": 7
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 7
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 6
+              },
+              {
+                "value": "Plateau-Mont-Royal",
+                "count": 6
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 5
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 5
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 4
+              },
+              {
+                "value": "Montréal-Nord",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom_mun": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 15,
+            "top_values": [
+              {
+                "value": "Montréal",
+                "count": 77
+              },
+              {
+                "value": "Montréal-Est",
+                "count": 1
+              },
+              {
+                "value": "Westmount",
+                "count": 1
+              },
+              {
+                "value": "Hampstead",
+                "count": 1
+              },
+              {
+                "value": "Côte-Saint-Luc",
+                "count": 1
+              },
+              {
+                "value": "Montréal-Ouest",
+                "count": 1
+              },
+              {
+                "value": "Dorval",
+                "count": 1
+              },
+              {
+                "value": "Pointe-Claire",
+                "count": 1
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 1
+              },
+              {
+                "value": "Baie-D'Urfé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "6231a84c-a5c2-4a38-84f8-1987fbda5766",
+      "name": "Tableau - Caractéristiques des logements (par quartiers de référence)",
+      "description": "",
+      "format": "IVT",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/6231a84c-a5c2-4a38-84f8-1987fbda5766/download/caracteristiques_logements.ivt",
+      "datastore_active": false,
+      "size": 254142069,
+      "last_modified": "2025-12-15T20:48:48.064305",
+      "created": "2025-12-15T20:48:48.162273",
+      "schema": null
+    },
+    {
+      "id": "d39239c2-2971-4c47-b7de-4de9212f0a45",
+      "name": "Tableau - Ménages étudiants (par arrondissements) ",
+      "description": "",
+      "format": "IVT",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/d39239c2-2971-4c47-b7de-4de9212f0a45/download/menages_etudiants.ivt",
+      "datastore_active": false,
+      "size": 195316842,
+      "last_modified": "2025-12-15T20:50:34.872598",
+      "created": "2025-12-15T20:50:34.943021",
+      "schema": null
+    },
+    {
+      "id": "49d2ad27-ef29-444f-a141-f0fc596030c9",
+      "name": "Tableau - Caractéristiques des ménages (par arrondissements) ",
+      "description": "",
+      "format": "IVT",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/49d2ad27-ef29-444f-a141-f0fc596030c9/download/menages_arrondissements.ivt",
+      "datastore_active": false,
+      "size": 171810313,
+      "last_modified": "2025-12-15T20:51:22.483410",
+      "created": "2025-12-15T20:51:22.556730",
+      "schema": null
+    },
+    {
+      "id": "c02d573e-f062-47be-b4aa-bf77ded92db0",
+      "name": "Tableau - Caractéristiques des ménages (par quartiers de référence) ",
+      "description": "",
+      "format": "IVT",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/c02d573e-f062-47be-b4aa-bf77ded92db0/download/menages_qr.ivt",
+      "datastore_active": false,
+      "size": 311526092,
+      "last_modified": "2025-12-15T20:52:26.954226",
+      "created": "2025-12-15T20:52:27.040067",
+      "schema": null
+    },
+    {
+      "id": "3b6cbbfa-7d17-4b33-9549-98652df8ee69",
+      "name": "Tableau – Familles et statut d’immigrant (par quartier de référence) ",
+      "description": "",
+      "format": "IVT",
+      "url": "https://donnees.montreal.ca/fr/dataset/d70cf7d7-0f8f-4c24-a3fa-b8569de5bffe/resource/3b6cbbfa-7d17-4b33-9549-98652df8ee69/download/familles_immigration.ivt",
+      "datastore_active": false,
+      "size": 487530359,
+      "last_modified": "2025-12-15T20:54:05.655771",
+      "created": "2025-12-15T20:54:05.732118",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Composition des ménages",
+    "Habitation",
+    "Logement",
+    "Ménages",
+    "Recensement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Cet ensemble de données contient plusieurs fichiers tels que partagés avec la Ville de Montréal par Statistique Canada. Les données permettent d'effectuer des analyses sur les ménages à différentes échelles géographiques et dans une perspective d'analyse différenciée par les sexes (ADS+). \n\n\nLes tableaux ont été nommés en fonction du sujet qu'ils abordent et de la plus petite unité géographique qu'ils contiennent. \n\n\nAfin de consulter les données et effectuer des croisements de variables, il est conseillé de télécharger et ouvrir les fichiers avec le logiciel **Beyond 20/20**. Ce dernier est disponible gratuitement sur le site de Statistique Canada. \n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'habitation",
+      "Couverture temporelle": "2021",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Composition des ménages",
+      "Habitation",
+      "Logement",
+      "Ménages",
+      "Recensement"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/commande-sh-recensement-2021",
+    "scraped_at": "2026-03-09T19:53:49.226155+00:00"
+  }
+}

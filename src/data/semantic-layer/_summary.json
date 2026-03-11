@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-09T22:51:34.678810",
+  "total_datasets": 390,
+  "total_fields": 4490,
+  "quality_grades": {
+    "B": 107,
+    "A": 116,
+    "C": 30,
+    "F": 130,
+    "D": 7
+  },
+  "field_roles": {
+    "dimension": 2215,
+    "date": 316,
+    "exclude": 574,
+    "measure": 789,
+    "filter": 390,
+    "geo": 206
+  },
+  "top_20_datasets": [
+    {
+      "slug": "vmtl-temps-de-parcours-sur-des-segments-routiers-historique",
+      "title": "Temps de parcours sur des segments routiers (historique)",
+      "grade": "A",
+      "records": 9470791,
+      "fields": 8,
+      "frequency": "irregular"
+    },
+    {
+      "slug": "vmtl-geobase-double",
+      "title": "Géobase double - côtés de rue du réseau routier",
+      "grade": "A",
+      "records": 2361455,
+      "fields": 1,
+      "frequency": "weekly"
+    },
+    {
+      "slug": "vmtl-statistiques-utilisation-site-web-ville-de-montreal",
+      "title": "Statistiques d'utilisation du site web de la Ville de Montréal (montreal.ca)",
+      "grade": "A",
+      "records": 2167971,
+      "fields": 6,
+      "frequency": "daily"
+    },
+    {
+      "slug": "vmtl-taxes-municipales",
+      "title": "Imposition annuelle de taxes municipales",
+      "grade": "B",
+      "records": 1890978,
+      "fields": 17,
+      "frequency": "annual"
+    },
+    {
+      "slug": "vmtl-velos-comptage",
+      "title": "Comptages des vélos sur les pistes cyclables",
+      "grade": "B",
+      "records": 1870506,
+      "fields": 6,
+      "frequency": "irregular"
+    },
+    {
+      "slug": "vmtl-ordres-travail-signalisation-routiere",
+      "title": "Ordres de travail émis pour la signalisation routière",
+      "grade": "B",
+      "records": 1690958,
+      "fields": 8,
+      "frequency": "daily"
+    },
+    {
+      "slug": "vmtl-mesure-impact-projets-verdissement",
+      "title": "Mesure de l'impact des projets de verdissement sur la température de l'air et l'humidité",
+      "grade": "A",
+      "records": 1605120,
+      "fields": 8,
+      "frequency": "irregular"
+    },
+    {
+      "slug": "vmtl-geobase-pole",
+      "title": "Géobase - pôles",
+      "grade": "A",
+      "records": 1602750,
+      "fields": 1,
+      "frequency": "weekly"
+    },
+    {
+      "slug": "vmtl-cyclistes",
+      "title": "Compteurs cyclistes permanents",
+      "grade": "A",
+      "records": 1274493,
+      "fields": 12,
+      "frequency": "daily"
+    },
+    {
+      "slug": "vmtl-rsqa-iqa-historique",
+      "title": "RSQA - indice de la qualité de l'air (historique)",
+      "grade": "A",
+      "records": 1024982,
+      "fields": 5,
+      "frequency": "daily"
+    },
+    {
+      "slug": "vmtl-sections-vote-adresse-civique",
+      "title": "Élections municipales - Sections de vote par adresse civique",
+      "grade": "B",
+      "records": 923103,
+      "fields": 35,
+      "frequency": "irregular"
+    },
+    {
+      "slug": "vmtl-interventions-service-securite-incendie-montreal",
+      "title": "Interventions des pompiers de Montréal",
+      "grade": "A",
+      "records": 908486,
+      "fields": 11,
+      "frequency": "daily"
+    },
+    {
+      "slug": "vmtl-comptage-vehicules-pietons",
+      "title": "Comptages des véhicules, cyclistes et piétons aux intersections munies de feux de circulation",
+      "grade": "A",
+      "records": 837600,
+      "fields": 30,
+      "frequency": "monthly"
+    },
+    {
+      "slug": "vmtl-vignettes-stationnement",
+      "title": "Vignettes de stationnement",
+      "grade": "A",
+      "records": 832841,
+      "fields": 6,
+      "frequency": "weekly"
+    },
+    {
+      "slug": "vmtl-arbres",
+      "title": "Arbres publics sur le territoire de la Ville",
+      "grade": "A",
+      "records": 790214,
+      "fields": 5,
+      "frequency": "monthly"
+    },
+    {
+      "slug": "vmtl-pluviometrie-quantite-precipitation",
+      "title": "Pluviométrie - mesure de la quantité de précipitation",
+      "grade": "B",
+      "records": 618476,
+      "fields": 4,
+      "frequency": "quarterly"
+    },
+    {
+      "slug": "vmtl-inspection-aliments-bilan",
+      "title": "Rapport sur les activités de l'inspection des aliments",
+      "grade": "B",
+      "records": 610414,
+      "fields": 6,
+      "frequency": "monthly"
+    },
+    {
+      "slug": "vmtl-stm-kilometrage-realise-par-les-voitures-de-metro-de-la-stm",
+      "title": "Kilométrage réalisé par les voitures de métro",
+      "grade": "A",
+      "records": 559549,
+      "fields": 14,
+      "frequency": "monthly"
+    },
+    {
+      "slug": "vmtl-mesures-niveaux-acoustiques",
+      "title": "Mesures de niveaux acoustiques",
+      "grade": "A",
+      "records": 551402,
+      "fields": 24,
+      "frequency": "asNeeded"
+    },
+    {
+      "slug": "vmtl-permis-construction",
+      "title": "Permis de construction, transformation et démolition",
+      "grade": "A",
+      "records": 548077,
+      "fields": 16,
+      "frequency": "weekly"
+    }
+  ],
+  "cross_dataset_joins": [
+    {
+      "join_key": "date",
+      "datasets_count": 140,
+      "sample_datasets": [
+        "vmtl-firmes-a-rendement-insatisfaisant",
+        "vmtl-rsqa-polluants-metaux",
+        "vmtl-declarations-exterminations-punaises-de-lit",
+        "vmtl-vues-aeriennes-de-montreal-1958-1975",
+        "vmtl-vues-aeriennes-obliques-de-l-ile-de-montreal-1960-1992"
+      ]
+    },
+    {
+      "join_key": "coordinates",
+      "datasets_count": 73,
+      "sample_datasets": [
+        "vmtl-pluviometre-localisation",
+        "vmtl-velos-comptage",
+        "vmtl-rsma-points-d-echantillonnage-qualo",
+        "vmtl-genotoxicite-de-l-eau-de-surface-nov-2015",
+        "vmtl-patrimoine-architectural-outremont-fiches-immeubles-inventaire-bisson"
+      ]
+    },
+    {
+      "join_key": "borough",
+      "datasets_count": 55,
+      "sample_datasets": [
+        "vmtl-bureaux-vote",
+        "vmtl-ententes-reglement-metropole-mixte",
+        "vmtl-portrait-camps-de-jour2013",
+        "vmtl-rues-pietonnes",
+        "vmtl-programme-inclusion-innovation2008-2014"
+      ]
+    }
+  ]
+}

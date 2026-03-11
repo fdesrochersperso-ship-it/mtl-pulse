@@ -1,0 +1,79 @@
+{
+  "slug": "vmtl-batiment-2d",
+  "title": "Bâtiments",
+  "notes": "Représentation géométrique et conventionnelle des toits des bâtiments en plan 2.5D.  C'est-à-dire que les éléments sont montrés en planimétrie 2D en plus d' informations altimétriques représentées par des cotes d'élévation ponctuelles.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2017-12-14T15:44:53.038799",
+  "metadata_modified": "2025-02-24T21:51:03.612366",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "183866d5-9027-456a-b0af-36b2e45c8aac",
+      "name": "Bâtiments 2D 2016 - Tous les arrondissements",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip",
+      "datastore_active": false,
+      "size": 100284823,
+      "last_modified": "2023-08-28T18:39:22.166910",
+      "created": "2018-04-26T21:22:36.134166",
+      "schema": null
+    },
+    {
+      "id": "5e8e9981-8677-42a6-874b-7568b3384af1",
+      "name": " Bâtiments 2D 2016 - Tous les arrondissements",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/fr/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/5e8e9981-8677-42a6-874b-7568b3384af1/download/batiments_2d_2016_arrondissements.zip",
+      "datastore_active": false,
+      "size": 154129917,
+      "last_modified": "2023-08-28T18:45:07.073241",
+      "created": "2023-07-06T20:36:59.010223",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Bâtiment",
+    "SIRR",
+    "Toit",
+    "Élévation"
+  ],
+  "web_metadata": {
+    "methodology_text": "- Source : Photo aérienne (CMM), LiDAR aérien et orthophoto (CMM)\n\n- Traitement : Captage photogrammétrique, modélisation automatique depuis le LiDAR (2015) ou tracé sur l'orthophotographie\n\n- Diffusion : Données linéaires et surfaciques\n\n- Mise à jour : avril 2016\n\n\n### Qualification des données\n\n\n\n- Géoréférence planimétrique : NAD83 SCRS (MTM8)\n\n- Géoréférence altimétrique : CGVD28 (NMM)\n\n- \n\n\nExactitude des éléments modélisés\n\n\n- \n\n\nPhotogrammétrie :\n\n\n- planimétrie : ± 30 à ± 40 cm\n\n- altimétrie : ± 45 à ± 60 cm\n\n\n\n- \n\n\nLiDAR:\n\n\n- planimétrie : N/D\n\n- altimétrie : N/D\n\n\n\n- \n\n\nTracé sur orthophoto:\n\n\n- planimétrie : N/D\n\n- altimétrie : N/D\n\n\n\n\n### Compléments de notes\n\n\n\nLes calques des bâtiments proviennent de la compilation cartographique. Les bâtiments sont représentés par des surfaces contiguës entre elles dans un même quadrilatère avec des éléments linéaires pour détailler les éléments des\ntoits. Seuls les bâtiments sur rue sont représentés par photogrammétrie, les annexes et dépendances sont modélisation automatique depuis le LiDAR ou le tracé sur l'orthophotographie.\n\n\nVoici les calques disponibles :\n\n\n- CARTO-BAT-TOIT Bordure du toit (polygones)\n\n- CARTO-BAT-CONSTRUCTION Bâtiment en construction (polygones)\n\n- CARTO-BAT-RUINE Bâtiment en ruine (polygones)\n\n- CARTO-BAT-DETAIL Détail des bâtiments (polylignes)\n\n- CARTO-BAT-SUPER-STRUCTURE Structure extérieure d’un bâtiment ayant un impact visuel important (polylignes)\n\n- CARTO-BAT-COTE Cote altimétrique du toit (points)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier",
+      "Couverture temporelle": "2016",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Bâtiment",
+      "SIRR",
+      "Toit",
+      "Élévation"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/batiment-2d",
+    "scraped_at": "2026-03-09T19:52:27.008963+00:00"
+  }
+}

@@ -1,0 +1,4523 @@
+{
+  "slug": "vmtl-rsqa-aldehydes-cetones",
+  "title": "RSQA - Aldéhydes-cétones",
+  "notes": "Concentrations atmosphériques de composés organiques volatils de la famille des aldéhydes-cétones échantillonnés sur l'île de Montréal. L'ensemble présente la concentration par aldéhydes-cétones par station par date d'échantillonnage.\r\n\r\nCe programme s'inscrit dans les activités du réseau de surveillance de la qualité de l'air (RSQA) et bonifie le suivi sur la présence de polluants atmosphériques gazeux.\r\n\r\nLa liste des stations peut différer d'une année à l'autre.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2022-06-16T13:33:16.756777",
+  "metadata_modified": "2025-06-02T17:32:19.449536",
+  "num_resources": 16,
+  "resources": [
+    {
+      "id": "d44f1b04-b89e-4340-893d-e2e1482b840b",
+      "name": "RSQA - Aldéhydes-cétones 2024",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/d44f1b04-b89e-4340-893d-e2e1482b840b/download/rsqa-aldehydes-cetones-2024.csv",
+      "datastore_active": true,
+      "size": 249184,
+      "last_modified": "2025-06-02T16:34:38.114450",
+      "created": "2025-06-02T16:34:38.244246",
+      "schema": {
+        "resource_id": "d44f1b04-b89e-4340-893d-e2e1482b840b",
+        "total_records": 4165,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2024-01-07",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2024-01-07",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2024-01-07",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2024-01-07",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2024-01-07",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 4165,
+        "audited_at": "2026-03-10T00:24:32.306245+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 57.023,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "31",
+                "count": 238
+              },
+              {
+                "value": "55",
+                "count": 235
+              },
+              {
+                "value": "66",
+                "count": 221
+              },
+              {
+                "value": "99",
+                "count": 221
+              },
+              {
+                "value": "3",
+                "count": 85
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Dominique",
+                "count": 238
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 235
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 221
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 221
+              },
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 85
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-01-07",
+            "max_date": "2024-03-25",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 18.68,
+            "mean": 0.3183,
+            "median": 0.0,
+            "unique_count": 158,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 155,
+            "null_pct": 15.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 488
+              },
+              {
+                "value": "mesure",
+                "count": 357
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "dec45249-18a8-4e55-a33c-898db237f0b3",
+      "name": "RSQA - Aldéhydes-cétones 2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/dec45249-18a8-4e55-a33c-898db237f0b3/download/rsqa-aldehydes-cetones-2023.csv",
+      "datastore_active": true,
+      "size": 303148,
+      "last_modified": "2024-10-21T16:37:44.666125",
+      "created": "2024-10-21T16:37:44.799987",
+      "schema": {
+        "resource_id": "dec45249-18a8-4e55-a33c-898db237f0b3",
+        "total_records": 5100,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2023-01-06",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2023-01-06",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2023-01-06",
+            "concentration ug/m3": "0.24",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2023-01-06",
+            "concentration ug/m3": "0.52",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2023-01-06",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5100,
+        "audited_at": "2026-03-10T00:24:33.274181+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2023-01-06",
+            "max_date": "2023-03-13",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 12.92,
+            "mean": 0.2308,
+            "median": 0.0,
+            "unique_count": 147,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 586
+              },
+              {
+                "value": "mesure",
+                "count": 414
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "e4856562-142c-4b15-a425-d4d364596dc9",
+      "name": "RSQA - Aldéhydes-cétones 2022",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/e4856562-142c-4b15-a425-d4d364596dc9/download/rsqa-aldehydes-cetones-2022.csv",
+      "datastore_active": true,
+      "size": 302719,
+      "last_modified": "2024-10-18T17:08:56.833593",
+      "created": "2023-06-08T20:06:49.189805",
+      "schema": {
+        "resource_id": "e4856562-142c-4b15-a425-d4d364596dc9",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2022-01-05",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2022-01-05",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2022-01-05",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2022-01-05",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2022-01-05",
+            "concentration ug/m3": "0",
+            "statut": "N/A"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:34.327428+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2022-01-05",
+            "max_date": "2022-03-12",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7.57,
+            "mean": 0.1895,
+            "median": 0.0,
+            "unique_count": 142,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 545
+              },
+              {
+                "value": "mesure",
+                "count": 370
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "0f49ff88-47af-4025-8c0f-b695af6d17db",
+      "name": "RSQA - Aldéhydes-cétones 2021",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/0f49ff88-47af-4025-8c0f-b695af6d17db/download/rsqa-aldehydes-cetones-2021.csv",
+      "datastore_active": true,
+      "size": 306642,
+      "last_modified": "2023-04-18T15:55:10.184643",
+      "created": "2022-08-04T10:44:47.337717",
+      "schema": {
+        "resource_id": "0f49ff88-47af-4025-8c0f-b695af6d17db",
+        "total_records": 5202,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2021-01-04",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2021-01-04",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2021-01-04",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2021-01-04",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2021-01-04",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 476,
+          "null_pct": 9.2,
+          "populated_pct": 90.8
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5202,
+        "audited_at": "2026-03-10T00:24:35.318244+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 50.529,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "99",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 201
+              },
+              {
+                "value": "66",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 201
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2021-01-04",
+            "max_date": "2021-03-11",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "min": 0.0,
+            "max": 3.72,
+            "mean": 0.1861,
+            "median": 0.0,
+            "unique_count": 123,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 576
+              },
+              {
+                "value": "mesure",
+                "count": 328
+              },
+              {
+                "value": "invalidé",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "75744ba6-fad3-41b1-a4b0-adb2d4d73e32",
+      "name": "RSQA - Aldéhydes-cétones 2020",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/75744ba6-fad3-41b1-a4b0-adb2d4d73e32/download/rsqa-aldehydes-cetones-2020.csv",
+      "datastore_active": true,
+      "size": 304129,
+      "last_modified": "2023-04-18T15:56:33.270231",
+      "created": "2022-06-16T13:35:51.813222",
+      "schema": {
+        "resource_id": "75744ba6-fad3-41b1-a4b0-adb2d4d73e32",
+        "total_records": 5186,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2020-01-04",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2020-01-04",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2020-01-04",
+            "concentration ug/m3": "0.51",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2020-01-04",
+            "concentration ug/m3": "1.03",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2020-01-04",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 476,
+          "null_pct": 9.2,
+          "populated_pct": 90.8
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5186,
+        "audited_at": "2026-03-10T00:24:36.300981+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2020-01-04",
+            "max_date": "2020-03-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 5.17,
+            "mean": 0.2398,
+            "median": 0.0,
+            "unique_count": 152,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 669
+              },
+              {
+                "value": "mesure",
+                "count": 320
+              },
+              {
+                "value": "invalidé",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "65b8469a-d3e2-4fbd-be2a-65640c2d1668",
+      "name": "RSQA - Aldéhydes-cétones 2019",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/65b8469a-d3e2-4fbd-be2a-65640c2d1668/download/rsqa-aldehydes-cetones-2019.csv",
+      "datastore_active": true,
+      "size": 304215,
+      "last_modified": "2023-04-18T15:57:10.537301",
+      "created": "2022-06-20T16:26:58.923659",
+      "schema": {
+        "resource_id": "65b8469a-d3e2-4fbd-be2a-65640c2d1668",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2019-01-03",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2019-01-03",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2019-01-03",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2019-01-03",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2019-01-03",
+            "concentration ug/m3": null,
+            "statut": "N/A"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 442,
+          "null_pct": 8.5,
+          "populated_pct": 91.5
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:37.347156+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2019-01-03",
+            "max_date": "2019-03-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "min": 0.0,
+            "max": 3.42,
+            "mean": 0.1588,
+            "median": 0.0,
+            "unique_count": 115,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 613
+              },
+              {
+                "value": "mesure",
+                "count": 292
+              },
+              {
+                "value": "invalidé",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "e1a0a893-9817-4a70-8e32-9a7096abf3be",
+      "name": "RSQA - Aldéhydes-cétones 2018",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/e1a0a893-9817-4a70-8e32-9a7096abf3be/download/rsqa-aldehydes-cetones-2018.csv",
+      "datastore_active": true,
+      "size": 305472,
+      "last_modified": "2023-04-18T15:57:35.962816",
+      "created": "2022-07-21T10:43:42.530315",
+      "schema": {
+        "resource_id": "e1a0a893-9817-4a70-8e32-9a7096abf3be",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2018-01-02",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2018-01-02",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2018-01-02",
+            "concentration ug/m3": "1.2",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2018-01-02",
+            "concentration ug/m3": "1.83",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2018-01-02",
+            "concentration ug/m3": "0.14",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 778,
+          "null_pct": 15.0,
+          "populated_pct": 85.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:38.290249+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2018-01-02",
+            "max_date": "2018-03-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 170,
+            "null_pct": 17.0,
+            "min": 0.0,
+            "max": 5.14,
+            "mean": 0.3679,
+            "median": 0.02,
+            "unique_count": 159,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 68,
+            "null_pct": 6.8,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 482
+              },
+              {
+                "value": "mesure",
+                "count": 440
+              },
+              {
+                "value": "invalidé",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "57da897c-0e69-4e9d-8ce0-5cc574df5d6f",
+      "name": "RSQA - Aldéhydes-cétones 2017",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/57da897c-0e69-4e9d-8ce0-5cc574df5d6f/download/rsqa-aldehydes-cetones-2017.csv",
+      "datastore_active": true,
+      "size": 308277,
+      "last_modified": "2023-04-18T15:58:07.076723",
+      "created": "2022-07-18T21:29:25.436610",
+      "schema": {
+        "resource_id": "57da897c-0e69-4e9d-8ce0-5cc574df5d6f",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2017-01-01",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2017-01-01",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2017-01-01",
+            "concentration ug/m3": "1.51",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2017-01-01",
+            "concentration ug/m3": "1.76",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2017-01-01",
+            "concentration ug/m3": "0.13",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 340,
+          "null_pct": 6.6,
+          "populated_pct": 93.4
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:39.357991+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 49.935,
+            "median": 55.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-01-01",
+            "max_date": "2017-03-08",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 17,
+            "null_pct": 1.7,
+            "min": 0.0,
+            "max": 4.4,
+            "mean": 0.2574,
+            "median": 0.0,
+            "unique_count": 159,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 17,
+            "null_pct": 1.7,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 523
+              },
+              {
+                "value": "mesure",
+                "count": 460
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "f2da39db-32af-47ba-9e65-af60145a7c81",
+      "name": "RSQA - Aldéhydes-cétones 2016",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/f2da39db-32af-47ba-9e65-af60145a7c81/download/rsqa-aldehydes-cetones-2016.csv",
+      "datastore_active": true,
+      "size": 239750,
+      "last_modified": "2023-04-18T15:58:53.393749",
+      "created": "2022-12-02T15:59:25.448080",
+      "schema": {
+        "resource_id": "f2da39db-32af-47ba-9e65-af60145a7c81",
+        "total_records": 4030,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2016-01-01",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2016-01-01",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2016-01-01",
+            "concentration ug/m3": "0.66",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2016-01-01",
+            "concentration ug/m3": "1.34",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2016-01-01",
+            "concentration ug/m3": "0.06",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 69,
+          "null_pct": 1.7,
+          "populated_pct": 98.3
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 4030,
+        "audited_at": "2026-03-10T00:24:40.245936+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 50.924,
+            "median": 66.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 289
+              },
+              {
+                "value": "66",
+                "count": 272
+              },
+              {
+                "value": "99",
+                "count": 272
+              },
+              {
+                "value": "31",
+                "count": 167
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 289
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 272
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 272
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 167
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2016-01-01",
+            "max_date": "2016-04-06",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.4,
+            "mean": 0.2795,
+            "median": 0.0,
+            "unique_count": 159,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 569
+              },
+              {
+                "value": "mesure",
+                "count": 431
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "160ef486-ca78-4fbb-824c-11f4a33c27a5",
+      "name": "RSQA - Aldéhydes-cétones 2015",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/160ef486-ca78-4fbb-824c-11f4a33c27a5/download/rsqa-aldehydes-cetones-2015.csv",
+      "datastore_active": true,
+      "size": 302295,
+      "last_modified": "2023-04-18T15:59:20.844139",
+      "created": "2022-12-02T16:02:40.616523",
+      "schema": {
+        "resource_id": "160ef486-ca78-4fbb-824c-11f4a33c27a5",
+        "total_records": 5100,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2015-01-06",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2015-01-06",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2015-01-06",
+            "concentration ug/m3": "2.7",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2015-01-06",
+            "concentration ug/m3": "3.96",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2015-01-06",
+            "concentration ug/m3": "0.48",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 714,
+          "null_pct": 14.0,
+          "populated_pct": 86.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5100,
+        "audited_at": "2026-03-10T00:24:41.306937+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 51.159,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "31",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Aéroport de Montréal",
+                "count": 405
+              },
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Saint-Dominique",
+                "count": 204
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2015-01-06",
+            "max_date": "2015-03-13",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.03,
+            "mean": 0.2883,
+            "median": 0.0,
+            "unique_count": 163,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 528
+              },
+              {
+                "value": "mesure",
+                "count": 471
+              },
+              {
+                "value": "invalidé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "7ba4a775-ec3c-44f5-9b81-ed3762c75614",
+      "name": "RSQA - Aldéhydes-cétones 2014",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/7ba4a775-ec3c-44f5-9b81-ed3762c75614/download/rsqa-aldehydes-cetones-2014.csv",
+      "datastore_active": true,
+      "size": 315861,
+      "last_modified": "2023-04-18T15:59:45.820559",
+      "created": "2022-12-02T16:32:38.270185",
+      "schema": {
+        "resource_id": "7ba4a775-ec3c-44f5-9b81-ed3762c75614",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "2_Methyl_4_Pentanone (MIBK)",
+            "date": "2014-01-05",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "25_MeBenzaldehyde",
+            "date": "2014-01-05",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetaldehyde",
+            "date": "2014-01-05",
+            "concentration ug/m3": "0.9",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acetone",
+            "date": "2014-01-05",
+            "concentration ug/m3": "2.3",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroleine",
+            "date": "2014-01-05",
+            "concentration ug/m3": "0.12",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 85,
+          "null_pct": 1.6,
+          "populated_pct": 98.4
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:42.365024+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 56.055,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Aéroport de Montréal",
+                "count": 405
+              },
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "2_Methyl_4_Pentanone (MIBK)",
+                "count": 59
+              },
+              {
+                "value": "25_MeBenzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Acetone",
+                "count": 59
+              },
+              {
+                "value": "Acroleine",
+                "count": 59
+              },
+              {
+                "value": "Benzaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldehyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldehyde",
+                "count": 59
+              },
+              {
+                "value": "Formaldehyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-01-05",
+            "max_date": "2014-03-12",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 34,
+            "null_pct": 3.4,
+            "min": 0.0,
+            "max": 4.28,
+            "mean": 0.2885,
+            "median": 0.0,
+            "unique_count": 155,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 34,
+            "null_pct": 3.4,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 544
+              },
+              {
+                "value": "mesure",
+                "count": 422
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "3c5a2ffe-ae45-4d64-8171-0276a382f3f7",
+      "name": "RSQA - Aldéhydes-cétones 2013",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/3c5a2ffe-ae45-4d64-8171-0276a382f3f7/download/rsqa-aldehydes-cetones-2013.csv",
+      "datastore_active": true,
+      "size": 189504,
+      "last_modified": "2023-04-17T20:25:49.953187",
+      "created": "2023-04-17T18:52:45.974448",
+      "schema": {
+        "resource_id": "3c5a2ffe-ae45-4d64-8171-0276a382f3f7",
+        "total_records": 3196,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Formaldéhyde ",
+            "date": "2013-01-04",
+            "concentration ug/m3": "1.21",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétaldéhyde ",
+            "date": "2013-01-04",
+            "concentration ug/m3": "1.95",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroléine ",
+            "date": "2013-01-04",
+            "concentration ug/m3": "0.08",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétone",
+            "date": "2013-01-04",
+            "concentration ug/m3": "2.74",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Propionaldéhyde",
+            "date": "2013-01-04",
+            "concentration ug/m3": "0.18",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 901,
+          "null_pct": 28.2,
+          "populated_pct": 71.8
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 3196,
+        "audited_at": "2026-03-10T00:24:43.410084+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 66.0,
+            "mean": 40.873,
+            "median": 55.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 340
+              },
+              {
+                "value": "55",
+                "count": 337
+              },
+              {
+                "value": "66",
+                "count": 323
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 340
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 337
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 323
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 33,
+            "top_values": [
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Formaldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Acétaldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Acroléine",
+                "count": 30
+              },
+              {
+                "value": "Acétone",
+                "count": 30
+              },
+              {
+                "value": "Propionaldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Crotonaldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Butyraldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Benzaldéhyde",
+                "count": 30
+              },
+              {
+                "value": "Isovaléraldéhyde",
+                "count": 30
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-01-04",
+            "max_date": "2013-04-28",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 17,
+            "null_pct": 1.7,
+            "min": 0.0,
+            "max": 7.99,
+            "mean": 0.2775,
+            "median": 0.0,
+            "unique_count": 142,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 17,
+            "null_pct": 1.7,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "<LDR",
+                "count": 538
+              },
+              {
+                "value": "mesure",
+                "count": 445
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "659161d1-4a5f-4276-95fe-b3bb5d4faa2f",
+      "name": "RSQA - Aldéhydes-cétones 2012",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/659161d1-4a5f-4276-95fe-b3bb5d4faa2f/download/rsqa-aldehydes-cetones-2012.csv",
+      "datastore_active": true,
+      "size": 323584,
+      "last_modified": "2023-04-18T14:42:39.322959",
+      "created": "2022-12-02T17:13:55.758894",
+      "schema": {
+        "resource_id": "659161d1-4a5f-4276-95fe-b3bb5d4faa2f",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Formaldéhyde ",
+            "date": "2012-01-04",
+            "concentration ug/m3": "0.95",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétaldéhyde ",
+            "date": "2012-01-04",
+            "concentration ug/m3": "1.1",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroléine ",
+            "date": "2012-01-04",
+            "concentration ug/m3": "0.1",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétone",
+            "date": "2012-01-04",
+            "concentration ug/m3": "1.73",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Propionaldéhyde",
+            "date": "2012-01-04",
+            "concentration ug/m3": "0",
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 153,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:44.474509+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 56.055,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Maisonneuve Ouest",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Formaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acétaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acroléine",
+                "count": 59
+              },
+              {
+                "value": "Acétone",
+                "count": 59
+              },
+              {
+                "value": "Propionaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Benzaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Isovaléraldéhyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-01-04",
+            "max_date": "2012-03-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 8.51,
+            "mean": 0.3474,
+            "median": 0.01,
+            "unique_count": 159,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 451
+              },
+              {
+                "value": "<LDR",
+                "count": 430
+              },
+              {
+                "value": "Invalidé",
+                "count": 119
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "6a837567-f1b3-4ee3-8d86-090d75db8210",
+      "name": "RSQA - Aldéhydes-cétones 2011",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/6a837567-f1b3-4ee3-8d86-090d75db8210/download/rsqa-aldehydes-cetones-2011.csv",
+      "datastore_active": true,
+      "size": 316843,
+      "last_modified": "2023-04-18T18:25:12.486844",
+      "created": "2023-04-18T18:25:12.556901",
+      "schema": {
+        "resource_id": "6a837567-f1b3-4ee3-8d86-090d75db8210",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Formaldéhyde ",
+            "date": "2011-01-03",
+            "concentration ug/m3": "0.6",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétaldéhyde ",
+            "date": "2011-01-03",
+            "concentration ug/m3": "0.7",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroléine ",
+            "date": "2011-01-03",
+            "concentration ug/m3": "0",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétone",
+            "date": "2011-01-03",
+            "concentration ug/m3": "1.3",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Propionaldéhyde",
+            "date": "2011-01-03",
+            "concentration ug/m3": null,
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 2331,
+          "null_pct": 45.0,
+          "populated_pct": 55.0
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:45.461571+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 56.055,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Maisonneuve Ouest",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Formaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acétaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acroléine",
+                "count": 59
+              },
+              {
+                "value": "Acétone",
+                "count": 59
+              },
+              {
+                "value": "Propionaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Benzaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Isovaléraldéhyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2011-01-03",
+            "max_date": "2011-03-10",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 462,
+            "null_pct": 46.2,
+            "min": 0.0,
+            "max": 9.6,
+            "mean": 0.4862,
+            "median": 0.1,
+            "unique_count": 38,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 538
+              },
+              {
+                "value": "<LDR",
+                "count": 462
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "796d04e2-6443-47b0-8271-9de6524f7375",
+      "name": "RSQA - Aldéhydes-cétones 2010",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/796d04e2-6443-47b0-8271-9de6524f7375/download/rsqa-aldehydes-cetones-2010.csv",
+      "datastore_active": true,
+      "size": 317988,
+      "last_modified": "2023-04-18T19:45:22.429548",
+      "created": "2023-04-18T19:43:16.289632",
+      "schema": {
+        "resource_id": "796d04e2-6443-47b0-8271-9de6524f7375",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Formaldéhyde ",
+            "date": "2010-01-02",
+            "concentration ug/m3": "0.8",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétaldéhyde ",
+            "date": "2010-01-02",
+            "concentration ug/m3": "0.7",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroléine ",
+            "date": "2010-01-02",
+            "concentration ug/m3": "0",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétone",
+            "date": "2010-01-02",
+            "concentration ug/m3": "1.2",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Propionaldéhyde",
+            "date": "2010-01-02",
+            "concentration ug/m3": "0.2",
+            "statut": "mesure"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 2198,
+          "null_pct": 42.4,
+          "populated_pct": 57.6
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:46.576205+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 56.055,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Maisonneuve Ouest",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Formaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acétaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acroléine",
+                "count": 59
+              },
+              {
+                "value": "Acétone",
+                "count": 59
+              },
+              {
+                "value": "Propionaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Benzaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Isovaléraldéhyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-01-02",
+            "max_date": "2010-03-09",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 490,
+            "null_pct": 49.0,
+            "min": 0.0,
+            "max": 12.2,
+            "mean": 0.5735,
+            "median": 0.2,
+            "unique_count": 39,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 17,
+            "null_pct": 1.7,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 510
+              },
+              {
+                "value": "<LDR",
+                "count": 473
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "e326e71e-7515-4cd2-8d34-780abb13796f",
+      "name": "RSQA - Aldéhydes-cétones 2009",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/86bfb25c-470b-43cc-bca3-2a6eaf133a18/resource/e326e71e-7515-4cd2-8d34-780abb13796f/download/rsqa-aldehydes-cetones-2009.csv",
+      "datastore_active": true,
+      "size": 314372,
+      "last_modified": "2023-04-18T20:16:08.418360",
+      "created": "2023-04-18T20:16:08.503043",
+      "schema": {
+        "resource_id": "e326e71e-7515-4cd2-8d34-780abb13796f",
+        "total_records": 5185,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numero_station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom station",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "polluant",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "concentration ug/m3",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "statut",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Formaldéhyde ",
+            "date": "2009-01-01",
+            "concentration ug/m3": "0.5",
+            "statut": "mesure"
+          },
+          {
+            "_id": 2,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétaldéhyde ",
+            "date": "2009-01-01",
+            "concentration ug/m3": "0.6",
+            "statut": "mesure"
+          },
+          {
+            "_id": 3,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acroléine ",
+            "date": "2009-01-01",
+            "concentration ug/m3": "0.1",
+            "statut": "mesure"
+          },
+          {
+            "_id": 4,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Acétone",
+            "date": "2009-01-01",
+            "concentration ug/m3": "1.5",
+            "statut": "mesure"
+          },
+          {
+            "_id": 5,
+            "numero_station": "3",
+            "nom station": "Saint-Jean-Baptiste",
+            "polluant": "Propionaldéhyde",
+            "date": "2009-01-01",
+            "concentration ug/m3": null,
+            "statut": "<LDR"
+          }
+        ]
+      },
+      "field_stats": {
+        "numero_station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom station": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "polluant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "concentration ug/m3": {
+          "null_count": 2815,
+          "null_pct": 54.3,
+          "populated_pct": 45.7
+        },
+        "statut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 5185,
+        "audited_at": "2026-03-10T00:24:47.581790+00:00",
+        "fields": {
+          "numero_station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 99.0,
+            "mean": 56.055,
+            "median": 61.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 204
+              },
+              {
+                "value": "55",
+                "count": 204
+              },
+              {
+                "value": "61",
+                "count": 204
+              },
+              {
+                "value": "66",
+                "count": 201
+              },
+              {
+                "value": "99",
+                "count": 187
+              }
+            ]
+          },
+          "nom station": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Saint-Jean-Baptiste",
+                "count": 204
+              },
+              {
+                "value": "Rivière-des-Prairies",
+                "count": 204
+              },
+              {
+                "value": "Maisonneuve Ouest",
+                "count": 204
+              },
+              {
+                "value": "Aéroport de Montréal",
+                "count": 201
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 187
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "polluant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Formaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acétaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Acroléine",
+                "count": 59
+              },
+              {
+                "value": "Acétone",
+                "count": 59
+              },
+              {
+                "value": "Propionaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Crotonaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Butanone",
+                "count": 59
+              },
+              {
+                "value": "Butyraldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Benzaldéhyde",
+                "count": 59
+              },
+              {
+                "value": "Isovaléraldéhyde",
+                "count": 59
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2009-01-01",
+            "max_date": "2009-03-08",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "concentration ug/m3": {
+            "null_count": 532,
+            "null_pct": 53.2,
+            "min": 0.0,
+            "max": 5.4,
+            "mean": 0.5912,
+            "median": 0.2,
+            "unique_count": 39,
+            "field_type_detected": "numeric"
+          },
+          "statut": {
+            "null_count": 120,
+            "null_pct": 12.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "mesure",
+                "count": 468
+              },
+              {
+                "value": "<LDR",
+                "count": 412
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Polluant gazeux",
+    "Qualité de l air",
+    "RSQA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les échantillonnages sont effectués selon la méthode TO-11A pendant 24h à tous les 6 jours. Les analyses sont effectuées par le laboratoire de la Ville de Montréal.\n\n\nLa limite de détection rapportée est précisée dans le tableau suivant:\n\n\n| Polluant| LDR (µg/m3) |\n|:---:|:---:|\n| Méthyl Isobutyl cétone(MIBK)| 0,03|\n| 2,5-Diméthylbenzaldéhyde  | 0,03|\n| Acétaldéhyde| 0,17|\n| Acétone| 0,35|\n| Acroléine| 0,01|\n| Benzaldéhyde| 0,17|\n| Butanone| 0,03|\n| Butyraldéhyde| 0,03|\n| Crotonaldéhyde| 0,01|\n| Formaldéhyde| 0,07|\n| Hexanaldéhyde| 0,07 |\n| Isovaléraldéhyde| 0,03 |\n| m-Tolualdéhyde    | 0,01|\n| o-Tolualdéhyde    | 0,02 |\n| p-Tolualdéhyde    | 0,02 |\n| Propionaldéhyde| 0,17|\n| Valéraldéhyde| 0,03 |\n\n## Dictionnaire de données\n\n\n\n- id (numérique): identifiant unique séquentiel automatique \n\n- numero_station (numérique): Numéro de référence de la station dont la localisation est disponible sous un ensemble de données connexe\n\n- nom (texte): Nom de la station\n\n- polluant (Liste): Nom des polluants échantillonnés\n\n- 2_Methyl_4_Pentanone (MIBK)\n\n- 25_MeBenzaldehyde\n\n- Acétaldéhyde\n\n- Acétone\n\n- Acroléine\n\n- Benzaldéhyde\n\n- Butanone\n\n- Butyraldéhyde\n\n- Crotonaldéhyde\n\n- Formaldéhyde\n\n- Hexanaldéhyde\n\n- Isovaleraldéhyde\n\n- m_Tolualdéhyde\n\n- o_Tolualdéhyde\n\n- p_Tolualdéhyde\n\n- Propionaldéhyde\n\n- Valeraldéhyde\n\n\n\n- date_prelevement (date): Date de prélèvements\n\n- concentration (numérique): Valeur de la concentration en ug/m3\n\n- statut (texte): Précision quant au prélèvement\n\n- mesure: valeur mesurée\n\n- invalidé: mesure invalidée\n\n- N/A : aucune mesure\n\n- <LDR: inférieur à la limite de détection rapportée\n\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "2020-06-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Polluant gazeux",
+      "Qualité de l air",
+      "RSQA",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsqa-aldehydes-cetones",
+    "scraped_at": "2026-03-09T20:19:54.530016+00:00"
+  }
+}

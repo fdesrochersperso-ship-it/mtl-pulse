@@ -1,0 +1,726 @@
+{
+  "slug": "vmtl-ouvrage-surverse",
+  "title": "Ouvrages de surverse",
+  "notes": "Le réseau d'égout (réseaux secondaire et principal) de l'Île de Montréal comporte 170 ouvrages de débordement. Un ouvrage de débordement est composé d'une chambre souterraine de régulation qui dirige en conditions normales d'opération les eaux usées dans le réseau de collecte et d'interception jusqu'à la station d'épuration. Par temps de pluie, de fonte ou lors d'une opération associée à l'entretien ou à une déficience, les apports excèdent la capacité de régulation et cet excédant est débordé par l'ouvrage en question aux cours d'eau. C'est sous ces conditions qu'une partie des eaux combinant des eaux de pluie et des eaux usées s'écoule vers le cours d'eau récepteur durant une courte période (via l'émissaire). Évidemment, le cours d'eau récepteur au sud est le Fleuve Saint-Laurent et celui au nord, la rivière des Prairies.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-10-04T13:32:07.279615",
+  "metadata_modified": "2025-02-27T18:31:06.078053",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "d72ebb4b-fb22-4bc9-a572-f677cefaa34c",
+      "name": "Liste des ouvrages de surverses et émissaires",
+      "description": "Coordonnées x et y en NAD83 MTM8 (mètres)\r\nCoordonnées latitude et longitude en WGS84",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb9955aa-7d12-4382-a908-2cc12413470f/resource/d72ebb4b-fb22-4bc9-a572-f677cefaa34c/download/ouvrages-surverses.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-08-30T18:31:38.787015",
+      "created": "2016-10-04T09:42:05.482235",
+      "schema": {
+        "resource_id": "d72ebb4b-fb22-4bc9-a572-f677cefaa34c",
+        "total_records": 167,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "N Env_Canada",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_SOMAEU",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_ouvrage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nom Ouvrage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SOMAEU-Secteur",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Region",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Trop-Plein X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Trop-Plein Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Trop-Plein Z",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Trop-Plein Lat",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Trop-Plein Lon",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Emissaire X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Emissaire Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Emissaire Lon",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Emissaire Lat",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "N Env_Canada": "MTL-153",
+            "ID_SOMAEU": "MTL-1",
+            "ID_ouvrage": "0642-01D",
+            "Nom Ouvrage": "0642-01D Station d'epur. CUM - Cdte de deriv. d'urgence",
+            "SOMAEU-Secteur": "OMAEU de Montreal (Station Jean-R.-Marcotte)",
+            "Region": "MONTREAL (R-D-P)",
+            "Trop-Plein X": 302760.72,
+            "Trop-Plein Y": 5059197.57,
+            "Trop-Plein Z": null,
+            "Trop-Plein Lat": 45.6726645581945,
+            "Trop-Plein Lon": -73.5261744730218,
+            "Emissaire X": 307554.2,
+            "Emissaire Y": 5058388.36,
+            "Emissaire Lon": -73.4646540034421,
+            "Emissaire Lat": 45.6653806815436
+          },
+          {
+            "_id": 2,
+            "N Env_Canada": "MTL-162",
+            "ID_SOMAEU": "MTL-2",
+            "ID_ouvrage": "0672-01D",
+            "Nom Ouvrage": "0672-01D T.-P. 101e avenue",
+            "SOMAEU-Secteur": "OMAEU de Montreal (Station Jean-R.-Marcotte)",
+            "Region": "MONTREAL (R-D-P)",
+            "Trop-Plein X": 302385.83,
+            "Trop-Plein Y": 5060269.22,
+            "Trop-Plein Z": 9.12,
+            "Trop-Plein Lat": 45.6823062250848,
+            "Trop-Plein Lon": -73.5309915660176,
+            "Emissaire X": 302362.29,
+            "Emissaire Y": 5060314.52,
+            "Emissaire Lon": -73.5312939846466,
+            "Emissaire Lat": 45.6827137586788
+          },
+          {
+            "_id": 3,
+            "N Env_Canada": "MTL-164",
+            "ID_SOMAEU": "MTL-3",
+            "ID_ouvrage": "0672-02D",
+            "Nom Ouvrage": "0672-02D S.P. Riv.-des-Prairies - T.P. d'urgence",
+            "SOMAEU-Secteur": "OMAEU de Montreal (Station Jean-R.-Marcotte)",
+            "Region": "MONTREAL (R-D-P)",
+            "Trop-Plein X": 303131.45,
+            "Trop-Plein Y": 5061556.25,
+            "Trop-Plein Z": 10.23,
+            "Trop-Plein Lat": 45.6938892926858,
+            "Trop-Plein Lon": -73.5214241961586,
+            "Emissaire X": 303107.8,
+            "Emissaire Y": 5061591.01,
+            "Emissaire Lon": -73.5217279834598,
+            "Emissaire Lat": 45.6942020102478
+          },
+          {
+            "_id": 4,
+            "N Env_Canada": "MTL-159",
+            "ID_SOMAEU": "MTL-4",
+            "ID_ouvrage": "0672-03D",
+            "Nom Ouvrage": "0672-03D Regul. 89e avenue (Montreal)",
+            "SOMAEU-Secteur": "OMAEU de Montreal (Station Jean-R.-Marcotte)",
+            "Region": "MONTREAL (R-D-P)",
+            "Trop-Plein X": 301667.89,
+            "Trop-Plein Y": 5059259.11,
+            "Trop-Plein Z": 9.99,
+            "Trop-Plein Lat": 45.6732142303012,
+            "Trop-Plein Lon": -73.5402015080491,
+            "Emissaire X": 301619.87,
+            "Emissaire Y": 5059338.49,
+            "Emissaire Lon": -73.5408183772808,
+            "Emissaire Lat": 45.6739282855525
+          },
+          {
+            "_id": 5,
+            "N Env_Canada": "IND-9",
+            "ID_SOMAEU": "IND-2",
+            "ID_ouvrage": "0801-01D",
+            "Nom Ouvrage": "Emissaire d'urgence (801-01D)",
+            "SOMAEU-Secteur": "OMAEU de Montreal (Ile Notre-Dame)",
+            "Region": "ILE NOTRE-DAME",
+            "Trop-Plein X": 302655.4,
+            "Trop-Plein Y": 5042120.33,
+            "Trop-Plein Z": 13.71,
+            "Trop-Plein Lat": 45.5189984120942,
+            "Trop-Plein Lon": -73.5274512451364,
+            "Emissaire X": 302752.59,
+            "Emissaire Y": 5042284.09,
+            "Emissaire Lon": -73.5262078808267,
+            "Emissaire Lat": 45.5204722827374
+          }
+        ]
+      },
+      "field_stats": {
+        "N Env_Canada": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_SOMAEU": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_ouvrage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nom Ouvrage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SOMAEU-Secteur": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Region": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Trop-Plein X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Trop-Plein Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Trop-Plein Z": {
+          "null_count": 17,
+          "null_pct": 10.2,
+          "populated_pct": 89.8
+        },
+        "Trop-Plein Lat": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Trop-Plein Lon": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Emissaire X": {
+          "null_count": 5,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        },
+        "Emissaire Y": {
+          "null_count": 5,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        },
+        "Emissaire Lon": {
+          "null_count": 5,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        },
+        "Emissaire Lat": {
+          "null_count": 5,
+          "null_pct": 3.0,
+          "populated_pct": 97.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 167,
+        "total_records": 167,
+        "audited_at": "2026-03-10T00:21:28.890090+00:00",
+        "fields": {
+          "N Env_Canada": {
+            "null_count": 1,
+            "null_pct": 0.6,
+            "unique_count": 159,
+            "top_values": [
+              {
+                "value": "MTL-91",
+                "count": 2
+              },
+              {
+                "value": "MTL-85",
+                "count": 2
+              },
+              {
+                "value": "MTL-83",
+                "count": 2
+              },
+              {
+                "value": "MTL-99",
+                "count": 2
+              },
+              {
+                "value": "MTL-5",
+                "count": 2
+              },
+              {
+                "value": "MTL-11",
+                "count": 2
+              },
+              {
+                "value": "MTL-39",
+                "count": 2
+              },
+              {
+                "value": "MTL-153",
+                "count": 1
+              },
+              {
+                "value": "MTL-162",
+                "count": 1
+              },
+              {
+                "value": "MTL-164",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "ID_SOMAEU": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 160,
+            "top_values": [
+              {
+                "value": "MTL-41",
+                "count": 2
+              },
+              {
+                "value": "MTL-31",
+                "count": 2
+              },
+              {
+                "value": "MTL-33",
+                "count": 2
+              },
+              {
+                "value": "MTL-45",
+                "count": 2
+              },
+              {
+                "value": "MTL-124",
+                "count": 2
+              },
+              {
+                "value": "MTL-125",
+                "count": 2
+              },
+              {
+                "value": "MTL-155",
+                "count": 2
+              },
+              {
+                "value": "MTL-1",
+                "count": 1
+              },
+              {
+                "value": "MTL-2",
+                "count": 1
+              },
+              {
+                "value": "MTL-3",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "ID_ouvrage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 161,
+            "top_values": [
+              {
+                "value": "3350-08D",
+                "count": 2
+              },
+              {
+                "value": "3350-09D",
+                "count": 2
+              },
+              {
+                "value": "3350-11D",
+                "count": 2
+              },
+              {
+                "value": "3400-01D",
+                "count": 2
+              },
+              {
+                "value": "4430-03D",
+                "count": 2
+              },
+              {
+                "value": "4430-04D",
+                "count": 2
+              },
+              {
+                "value": "0642-01D",
+                "count": 1
+              },
+              {
+                "value": "0672-01D",
+                "count": 1
+              },
+              {
+                "value": "0672-02D",
+                "count": 1
+              },
+              {
+                "value": "0672-03D",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nom Ouvrage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 160,
+            "top_values": [
+              {
+                "value": "3350-08D Trop-plein Bohle",
+                "count": 2
+              },
+              {
+                "value": "3350-09D S.P. Lavigne - Trop-plein d'orage",
+                "count": 2
+              },
+              {
+                "value": "3350-11D Trop-plein Notre-Dame-de-Grace",
+                "count": 2
+              },
+              {
+                "value": "3400-01D Ouv. de regulation Meilleur",
+                "count": 2
+              },
+              {
+                "value": "4430-03D Derivation Canal de l'Aqueduc",
+                "count": 2
+              },
+              {
+                "value": "4430-04D Derivation Orchard",
+                "count": 2
+              },
+              {
+                "value": "4795-01D S.P. Moffat",
+                "count": 2
+              },
+              {
+                "value": "0642-01D Station d'epur. CUM - Cdte de deriv. d'urgence",
+                "count": 1
+              },
+              {
+                "value": "0672-01D T.-P. 101e avenue",
+                "count": 1
+              },
+              {
+                "value": "0672-02D S.P. Riv.-des-Prairies - T.P. d'urgence",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "SOMAEU-Secteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "OMAEU de Montreal (Station Jean-R.-Marcotte)",
+                "count": 142
+              },
+              {
+                "value": "OMAEU de Beaconsfield",
+                "count": 11
+              },
+              {
+                "value": "OMAEU de Montreal (Ile Notre-Dame)",
+                "count": 9
+              },
+              {
+                "value": "Secteur DDO",
+                "count": 2
+              },
+              {
+                "value": "OMAEU de Sainte-Anne-de-Bellevue",
+                "count": 1
+              },
+              {
+                "value": "OMAEU de Pointe-Claire",
+                "count": 1
+              },
+              {
+                "value": "OMAEU de Kirkland",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Region": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 20,
+            "top_values": [
+              {
+                "value": "MONTREAL",
+                "count": 46
+              },
+              {
+                "value": "MONTREAL (R-D-P)",
+                "count": 31
+              },
+              {
+                "value": "MONTREAL-NORD",
+                "count": 12
+              },
+              {
+                "value": "BEACONSFIELD",
+                "count": 12
+              },
+              {
+                "value": "VERDUN",
+                "count": 10
+              },
+              {
+                "value": "ILE NOTRE-DAME",
+                "count": 9
+              },
+              {
+                "value": "LASALLE",
+                "count": 8
+              },
+              {
+                "value": "PIERREFONDS",
+                "count": 5
+              },
+              {
+                "value": "DOLLARD-DES-ORMEAUX",
+                "count": 5
+              },
+              {
+                "value": "STE-GENEVIEVE",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Trop-Plein X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 269039.04,
+            "max": 306361.71,
+            "mean": 292938.5059,
+            "median": 294601.47,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Trop-Plein Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029265.96,
+            "max": 5062251.49,
+            "mean": 5044407.4066,
+            "median": 5043636.47,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Trop-Plein Z": {
+            "null_count": 17,
+            "null_pct": 10.2,
+            "min": 8.347,
+            "max": 38.93,
+            "mean": 19.3526,
+            "median": 19.47,
+            "unique_count": 131,
+            "field_type_detected": "numeric"
+          },
+          "Trop-Plein Lat": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.4025,
+            "max": 45.7001,
+            "mean": 45.5394,
+            "median": 45.5325,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Trop-Plein Lon": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.9569,
+            "max": -73.4799,
+            "mean": -73.6518,
+            "median": -73.6303,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Emissaire X": {
+            "null_count": 5,
+            "null_pct": 3.0,
+            "min": 269008.16,
+            "max": 307554.2,
+            "mean": 293275.4556,
+            "median": 294714.975,
+            "unique_count": 134,
+            "field_type_detected": "numeric"
+          },
+          "Emissaire Y": {
+            "null_count": 5,
+            "null_pct": 3.0,
+            "min": 5029242.02,
+            "max": 5062289.78,
+            "mean": 5044696.0737,
+            "median": 5044219.62,
+            "unique_count": 134,
+            "field_type_detected": "numeric"
+          },
+          "Emissaire Lon": {
+            "null_count": 5,
+            "null_pct": 3.0,
+            "min": -73.9572,
+            "max": -73.4647,
+            "mean": -73.6475,
+            "median": -73.6291,
+            "unique_count": 134,
+            "field_type_detected": "numeric"
+          },
+          "Emissaire Lat": {
+            "null_count": 5,
+            "null_pct": 3.0,
+            "min": 45.4022,
+            "max": 45.7005,
+            "mean": 45.542,
+            "median": 45.5377,
+            "unique_count": 134,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "c4707efb-c71c-4c78-88f4-7c542c911a1d",
+      "name": "Localisation des émissaires",
+      "description": "Projection: WGS84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb9955aa-7d12-4382-a908-2cc12413470f/resource/c4707efb-c71c-4c78-88f4-7c542c911a1d/download/localisation-des-emissaires.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-08-30T18:32:35.044166",
+      "created": "2018-10-05T12:30:18.882636",
+      "schema": null
+    },
+    {
+      "id": "608e1de9-5d64-45e0-a517-d3bfef65d515",
+      "name": "Localisation des trops plein",
+      "description": "Projection: WGS84",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/fb9955aa-7d12-4382-a908-2cc12413470f/resource/608e1de9-5d64-45e0-a517-d3bfef65d515/download/localisation-des-trops-plein.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-08-30T18:33:00.841973",
+      "created": "2018-10-05T12:33:22.840204",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aquahacking",
+    "Débordement",
+    "Eau usée",
+    "Ouvrage",
+    "SE",
+    "Surverse",
+    "Égout",
+    "Émissaire"
+  ],
+  "web_metadata": {
+    "methodology_text": "Le positionnement géographique des ouvrages de débordement est associé aux émissaires dans cet ensemble de données.  La localisation exacte de certains ouvrages est inconnue.  Dans ces cas un null est affiché.\n\n\nNote: Il arrive que la conduite se divise en deux, ce qui explique que certains ouvrages de débordement sont en doubles et à cet effet, ils ont les mêmes coordonnées de trop-plein mais des coordonnées d'émissaires différentes \n\n### Dictionnaire de données\n\n\n\n- No Env_Canada (Numérique) : Identifiant de l'ouvrage Environnement Cananda  \n\n- No_SOMAEU (Numérique) : Identifiant SOMAEU (Gouvernement du Québec)\n\n- No_ouvrage (Numérique) : Identifiant Ville\n\n- Nom_Ouvrage (Texte variable) : Nom ouvrage\n\n- SOMAEU-Secteur (Texte variable) : Nom du secteur SOMEAU\n\n- Region (Texte variable) : Indication sur la localisation (Arrondissement ou municipalité)\n\n- Trop-Plein X (Numérique) : Coordonnée X (NAD83 MTM8) du trop-plein\n\n- Trop-Plein Y (Numérique) : Coordonnée Y (NAD83 MTM8) du trop-plein\n\n- Trop-Plein Z (Numérique) : Coordonnée Z (NAD83 MTM8)  (mètre) du trop-plein\n\n- Trop-Plein Lon (Numérique) : Latitude (WGS84) du trop-plein\n\n- Trop-Plein Lat (Numérique) : Longitude (WGS84) du trop-plein\n\n- Trop-Plein X (Numérique) : Coordonnée X (NAD83 MTM8) du trop-plein\n\n- Émissaire X (Numérique) : Coordonnée Y (NAD83 MTM8) de l'émissaire\n\n- Émissaire Y (Numérique) : Coordonnée Y (NAD83 MTM8) de l'émissaire\n\n- Émissaire Lon (Numérique) : Latitude (WGS84) de l'émissaire\n\n- Émissaire Lat (Numérique) : Longitude (WGS84) de l'émissaire\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'eau",
+      "Couverture temporelle": "2016-10-01",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Aquahacking",
+      "Débordement",
+      "Eau usée",
+      "Ouvrage",
+      "SE",
+      "Surverse",
+      "Égout",
+      "Émissaire"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/ouvrage-surverse",
+    "scraped_at": "2026-03-09T20:14:11.038974+00:00"
+  }
+}

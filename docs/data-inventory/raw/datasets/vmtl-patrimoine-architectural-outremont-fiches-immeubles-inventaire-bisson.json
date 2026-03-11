@@ -1,0 +1,1004 @@
+{
+  "slug": "vmtl-patrimoine-architectural-outremont-fiches-immeubles-inventaire-bisson",
+  "title": "Patrimoine architectural de l'arrondissement Outremont - Fiches d'immeubles de l'inventaire Bisson",
+  "notes": "Ce jeu de données présente la localisation des immeubles repérés de Catégorie 1 et 2 ( bâtiments remarquables, bâtiments intéressants) dans l'inventaire du patrimoine d'Outremont réalisé par Pierre-Richard Bisson en 1992. Les fiches associées y sont accessibles au format PDF lorsqu'elles sont disponibles.\r\nLes immeubles de catégorie 1 (bâtiments remarquables) sont associés à des fiches détaillées et les immeubles de Catégorie 2 (bâtiments intéressants) sont associés à des fiches courtes. Les fiches sont repérables dans l'outil cartographique en indiquant LAT comme données pour la latitude et LNG en données pour la longitude.\r\n\r\nLes données de ces fiches correspondent à l'état des connaissances au moment de la réalisation de l'inventaire et n'ont pas été actualisées depuis. \r\n\r\nCette ressource est le fruit d'une collaboration entre l'arrondissement d'Outremont, le service de la Planification stratégique et de la performance organisationnelle, et de la section des Inventaires de la division du Patrimoine de la Ville de Montréal.\r\n\r\nLa ressource est également consultable via la carte interactive des TAS - Témoin architectural significatif de l'arrondissement d'Outremont disponible à cette adresse :  https://spectrum.montreal.ca/connect/analyst/mobile/#/main?mapcfg=-%20Outremont\r\n ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "education-recherche",
+      "display_name": "Éducation et recherche",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2026-01-29T21:51:28.347143",
+  "metadata_modified": "2026-02-13T20:00:16.437498",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "ee45226b-dcae-4f0e-bf89-3cec582ebd70",
+      "name": "Liste des immeubles des catégories 1 et 2 de l'inventaire Bisson d'Outremont",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/358e49a9-eb46-4987-ba8d-dc84af8e1c36/resource/ee45226b-dcae-4f0e-bf89-3cec582ebd70/download/outremont-patrimoine-etude-bisson-cat-1-2.csv",
+      "datastore_active": true,
+      "size": 241235,
+      "last_modified": "2026-01-29T21:52:54.566450",
+      "created": "2026-01-29T21:52:54.652537",
+      "schema": {
+        "resource_id": "ee45226b-dcae-4f0e-bf89-3cec582ebd70",
+        "total_records": 671,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID_FICHE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CAT_BISSON",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_CAT_BISSON",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIEN_FTP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CIV_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CIV_A",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPE_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LIEN_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ORIENT_VOIE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ADRESSE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOTE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DEMOLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_INDICATIF",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "STATUT_INV_PRE_40_2025",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_IMM_INV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "ID_UEV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NUM_UEV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MATRICULE_83",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LNG",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LAT",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID_FICHE": "1_001",
+            "CAT_BISSON": "1",
+            "TYPE_CAT_BISSON": "Bâtiment remarquable",
+            "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/7_avenue_ainslie_CAT_1.pdf",
+            "CIV_DE": "7",
+            "CIV_A": "7",
+            "TYPE_VOIE": "avenue",
+            "LIEN_VOIE": null,
+            "NOM_VOIE": "Ainslie",
+            "ORIENT_VOIE": null,
+            "ADRESSE": "7-7 avenue Ainslie ",
+            "NOTE": null,
+            "DEMOLI": "Non",
+            "NOM_INDICATIF": "maison J.-B.-Beaudry-Leman",
+            "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+            "ID_IMM_INV": "i663-OUT-3031346",
+            "ID_UEV": "3034299",
+            "NUM_UEV": "277755",
+            "MATRICULE_83": "9541-95-8444-6-000-0000",
+            "X": "295981.1421155482",
+            "Y": "5041541.883752364",
+            "LNG": "-73.6128723720578",
+            "LAT": "45.51374085"
+          },
+          {
+            "_id": 2,
+            "ID_FICHE": "1_012",
+            "CAT_BISSON": "1",
+            "TYPE_CAT_BISSON": "Bâtiment remarquable",
+            "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/1100_44_avenue_bernard_CAT_1.pdf",
+            "CIV_DE": "1100",
+            "CIV_A": "1144",
+            "TYPE_VOIE": "avenue",
+            "LIEN_VOIE": null,
+            "NOM_VOIE": "Bernard",
+            "ORIENT_VOIE": null,
+            "ADRESSE": "1100-1144 avenue Bernard ",
+            "NOTE": null,
+            "DEMOLI": "Non",
+            "NOM_INDICATIF": "appartements Royal York",
+            "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+            "ID_IMM_INV": "i663-OUT-3027755",
+            "ID_UEV": "3030156",
+            "NUM_UEV": "162702",
+            "MATRICULE_83": "9642-43-2081-8-001-0020",
+            "X": "296420.2807787741",
+            "Y": "5042380.92644095",
+            "LNG": "-73.6072662",
+            "LAT": "45.5212963"
+          },
+          {
+            "_id": 3,
+            "ID_FICHE": "1_002",
+            "CAT_BISSON": "1",
+            "TYPE_CAT_BISSON": "Bâtiment remarquable",
+            "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/18_avenue_ainslie_CAT_1.pdf",
+            "CIV_DE": "18",
+            "CIV_A": "18",
+            "TYPE_VOIE": "avenue",
+            "LIEN_VOIE": null,
+            "NOM_VOIE": "Ainslie",
+            "ORIENT_VOIE": null,
+            "ADRESSE": "18-18 avenue Ainslie ",
+            "NOTE": null,
+            "DEMOLI": "Non",
+            "NOM_INDICATIF": "maison Édouard-Ouellette",
+            "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+            "ID_IMM_INV": "i663-OUT-3031356-001",
+            "ID_UEV": "3034309",
+            "NUM_UEV": "277750",
+            "MATRICULE_83": "9541-95-1516-8-000-0000",
+            "X": "295912.9784914519",
+            "Y": "5041525.604780755",
+            "LNG": "-73.6137445",
+            "LAT": "45.5135935"
+          },
+          {
+            "_id": 4,
+            "ID_FICHE": "1_003",
+            "CAT_BISSON": "1",
+            "TYPE_CAT_BISSON": "Bâtiment remarquable",
+            "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/22_avenue_ainslie_CAT_1.pdf",
+            "CIV_DE": "22",
+            "CIV_A": "22",
+            "TYPE_VOIE": "avenue",
+            "LIEN_VOIE": null,
+            "NOM_VOIE": "Ainslie",
+            "ORIENT_VOIE": null,
+            "ADRESSE": "22-22 avenue Ainslie ",
+            "NOTE": null,
+            "DEMOLI": "Non",
+            "NOM_INDICATIF": "maison Rodolphe-Tourville",
+            "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+            "ID_IMM_INV": "i663-OUT-5028985-001",
+            "ID_UEV": "3034315",
+            "NUM_UEV": "283499",
+            "MATRICULE_83": "9541-85-8238-3-000-0000",
+            "X": "295892.23910342203",
+            "Y": "5041537.491111169",
+            "LNG": "-73.6140101577257",
+            "LAT": "45.5137001932859"
+          },
+          {
+            "_id": 5,
+            "ID_FICHE": "1_004",
+            "CAT_BISSON": "1",
+            "TYPE_CAT_BISSON": "Bâtiment remarquable",
+            "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/26_avenue_ainslie_CAT_1.pdf",
+            "CIV_DE": "26",
+            "CIV_A": "26",
+            "TYPE_VOIE": "avenue",
+            "LIEN_VOIE": null,
+            "NOM_VOIE": "Ainslie",
+            "ORIENT_VOIE": null,
+            "ADRESSE": "26-26 avenue Ainslie ",
+            "NOTE": null,
+            "DEMOLI": "Non",
+            "NOM_INDICATIF": "maison Ferdinand-Guérin",
+            "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+            "ID_IMM_INV": "i663-OUT-3031367",
+            "ID_UEV": "3034321",
+            "NUM_UEV": "277747",
+            "MATRICULE_83": "9541-85-6052-0-000-0000",
+            "X": "295862.3589220622",
+            "Y": "5041554.35956846",
+            "LNG": "-73.6143929",
+            "LAT": "45.5138516"
+          }
+        ]
+      },
+      "field_stats": {
+        "ID_FICHE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CAT_BISSON": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_CAT_BISSON": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LIEN_FTP": {
+          "null_count": 3,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "CIV_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CIV_A": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPE_VOIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LIEN_VOIE": {
+          "null_count": 557,
+          "null_pct": 83.0,
+          "populated_pct": 17.0
+        },
+        "NOM_VOIE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ORIENT_VOIE": {
+          "null_count": 671,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "ADRESSE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOTE": {
+          "null_count": 556,
+          "null_pct": 82.9,
+          "populated_pct": 17.1
+        },
+        "DEMOLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_INDICATIF": {
+          "null_count": 506,
+          "null_pct": 75.4,
+          "populated_pct": 24.6
+        },
+        "STATUT_INV_PRE_40_2025": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_IMM_INV": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "ID_UEV": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "NUM_UEV": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "MATRICULE_83": {
+          "null_count": 1,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LNG": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "LAT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 671,
+        "total_records": 671,
+        "audited_at": "2026-03-10T00:22:08.902392+00:00",
+        "fields": {
+          "ID_FICHE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1001.0,
+            "max": 2340.0,
+            "mean": 1674.9866,
+            "median": 2005.0,
+            "unique_count": 671,
+            "field_type_detected": "numeric"
+          },
+          "CAT_BISSON": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.5067,
+            "median": 2.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 340
+              },
+              {
+                "value": "1",
+                "count": 331
+              }
+            ]
+          },
+          "TYPE_CAT_BISSON": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Bâtiment intéressant",
+                "count": 340
+              },
+              {
+                "value": "Bâtiment remarquable",
+                "count": 331
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LIEN_FTP": {
+            "null_count": 3,
+            "null_pct": 0.4,
+            "unique_count": 665,
+            "top_values": [
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/675_avenue_dunlop_CAT_1.pdf",
+                "count": 2
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_2/650_avenue_Hartland_CAT_2.pdf?csf=1&web=1&e=wdp3jx",
+                "count": 2
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_2/441_avenue_Stuart_CAT_2.pdf?csf=1&web=1&e=UmI5hN",
+                "count": 2
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/7_avenue_ainslie_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/1100_44_avenue_bernard_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/18_avenue_ainslie_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/22_avenue_ainslie_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/26_avenue_ainslie_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/749_avenue_antonine_maillet_CAT_1.pdf",
+                "count": 1
+              },
+              {
+                "value": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/11_avenue_beloeil_CAT_1.pdf",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "CIV_DE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 3.0,
+            "max": 6051.0,
+            "mean": 769.0999,
+            "median": 541.0,
+            "unique_count": 493,
+            "field_type_detected": "numeric"
+          },
+          "CIV_A": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 6055.0,
+            "mean": 770.386,
+            "median": 541.0,
+            "unique_count": 496,
+            "field_type_detected": "numeric"
+          },
+          "TYPE_VOIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "avenue",
+                "count": 568
+              },
+              {
+                "value": "chemin",
+                "count": 63
+              },
+              {
+                "value": "boulevard",
+                "count": 30
+              },
+              {
+                "value": "rue",
+                "count": 5
+              },
+              {
+                "value": "place",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LIEN_VOIE": {
+            "null_count": 557,
+            "null_pct": 83.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "de la",
+                "count": 75
+              },
+              {
+                "value": "de l'",
+                "count": 26
+              },
+              {
+                "value": "du",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_VOIE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 62,
+            "top_values": [
+              {
+                "value": "Côte-Sainte-Catherine",
+                "count": 60
+              },
+              {
+                "value": "Stuart",
+                "count": 57
+              },
+              {
+                "value": "Bloomfield",
+                "count": 50
+              },
+              {
+                "value": "Querbes",
+                "count": 30
+              },
+              {
+                "value": "Maplewood",
+                "count": 29
+              },
+              {
+                "value": "Durocher",
+                "count": 27
+              },
+              {
+                "value": "Épée",
+                "count": 26
+              },
+              {
+                "value": "Outremont",
+                "count": 25
+              },
+              {
+                "value": "Bernard",
+                "count": 23
+              },
+              {
+                "value": "Davaar",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "ORIENT_VOIE": {
+            "null_count": 671,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "ADRESSE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 669,
+            "top_values": [
+              {
+                "value": "543-543 chemin de la Côte-Sainte-Catherine",
+                "count": 2
+              },
+              {
+                "value": "15-17 avenue de l'Épée",
+                "count": 2
+              },
+              {
+                "value": "7-7 avenue Ainslie",
+                "count": 1
+              },
+              {
+                "value": "1100-1144 avenue Bernard",
+                "count": 1
+              },
+              {
+                "value": "18-18 avenue Ainslie",
+                "count": 1
+              },
+              {
+                "value": "22-22 avenue Ainslie",
+                "count": 1
+              },
+              {
+                "value": "26-26 avenue Ainslie",
+                "count": 1
+              },
+              {
+                "value": "749-749 avenue Antonine-Maillet",
+                "count": 1
+              },
+              {
+                "value": "11-11 avenue Beloeil",
+                "count": 1
+              },
+              {
+                "value": "1040-1050 avenue Bernard",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "NOTE": {
+            "null_count": 556,
+            "null_pct": 82.9,
+            "unique_count": 111,
+            "top_values": [
+              {
+                "value": "FICHE INTROUVABLE OUTREMONT.",
+                "count": 2
+              },
+              {
+                "value": "850-854",
+                "count": 2
+              },
+              {
+                "value": "832-836",
+                "count": 2
+              },
+              {
+                "value": "495-497",
+                "count": 2
+              },
+              {
+                "value": "Indiqué comme 1139 boulevard du Mont-Royal, adresse secondaire.",
+                "count": 1
+              },
+              {
+                "value": "FiCHE INTROUVABLE OUTREMONT.",
+                "count": 1
+              },
+              {
+                "value": "1310-1320 ou 1312-1320 Bernard",
+                "count": 1
+              },
+              {
+                "value": "634-638",
+                "count": 1
+              },
+              {
+                "value": "640-644",
+                "count": 1
+              },
+              {
+                "value": "710-712",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DEMOLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Non",
+                "count": 670
+              },
+              {
+                "value": "Oui",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "NOM_INDICATIF": {
+            "null_count": 506,
+            "null_pct": 75.4,
+            "unique_count": 163,
+            "top_values": [
+              {
+                "value": "maison Adolphe-Deschamps",
+                "count": 2
+              },
+              {
+                "value": "maison William-Saint-Pierre",
+                "count": 2
+              },
+              {
+                "value": "maison J.-B.-Beaudry-Leman",
+                "count": 1
+              },
+              {
+                "value": "appartements Royal York",
+                "count": 1
+              },
+              {
+                "value": "maison Édouard-Ouellette",
+                "count": 1
+              },
+              {
+                "value": "maison Rodolphe-Tourville",
+                "count": 1
+              },
+              {
+                "value": "maison Ferdinand-Guérin",
+                "count": 1
+              },
+              {
+                "value": "maison Madame Harry-Tittleman",
+                "count": 1
+              },
+              {
+                "value": "maison A.-Reeve",
+                "count": 1
+              },
+              {
+                "value": "appartements Montcalm",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "STATUT_INV_PRE_40_2025": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Retenu Inventaire pre 1940",
+                "count": 621
+              },
+              {
+                "value": "Post 1940",
+                "count": 36
+              },
+              {
+                "value": "Analyse en cours",
+                "count": 12
+              },
+              {
+                "value": "Future analyse",
+                "count": 1
+              },
+              {
+                "value": "Démoli",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "ID_IMM_INV": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 670,
+            "top_values": [
+              {
+                "value": "i663-OUT-3034596",
+                "count": 2
+              },
+              {
+                "value": "i663-OUT-3031346",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3027755",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3031356-001",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-5028985-001",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3031367",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3034176-001",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3034427",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3027745",
+                "count": 1
+              },
+              {
+                "value": "i663-OUT-3027749",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "ID_UEV": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 3030098.0,
+            "max": 5298123.0,
+            "mean": 3179761.5015,
+            "median": 3037014.0,
+            "unique_count": 661,
+            "field_type_detected": "numeric"
+          },
+          "NUM_UEV": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 507.0,
+            "max": 1089307.0,
+            "mean": 288470.4612,
+            "median": 278026.5,
+            "unique_count": 661,
+            "field_type_detected": "numeric"
+          },
+          "MATRICULE_83": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 661,
+            "top_values": [
+              {
+                "value": "9641-09-8352-0-001-0015",
+                "count": 2
+              },
+              {
+                "value": "9641-06-9830-0-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9741-09-5100-4-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9542-92-7254-5-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9541-82-6898-3-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9741-18-8187-9-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9741-48-8223-9-000-0000",
+                "count": 2
+              },
+              {
+                "value": "9542-83-3978-2-002-0001",
+                "count": 2
+              },
+              {
+                "value": "9542-62-5547-7-001-0004",
+                "count": 2
+              },
+              {
+                "value": "9541-95-8444-6-000-0000",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 294979.013013,
+            "max": 297660.177034,
+            "mean": 296347.30598,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5040591.085333,
+            "max": 5043041.855006,
+            "mean": 5041868.137565,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "LNG": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.625705,
+            "max": -73.591385,
+            "mean": -73.608191,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "LAT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.50518,
+            "max": 45.527235,
+            "mean": 45.516681,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Architecture",
+    "Archives",
+    "Outremont",
+    "Patrimoine",
+    "Pierre-Richard Bisson",
+    "SUM",
+    "Urbanimse"
+  ],
+  "web_metadata": {
+    "methodology_text": "Processus de création: La localisation des points est partiellement issue d'un travail de géocodage des adresses, corrigé manuellement pour correspondre à la localisation des polygones des immeubles pris en compte dans l'inventaire des immeubles patrimoniaux de l'arrondissement d'Outremont.\n\n\nLes fiches au format PDF proviennent de numérisations réalisées par l'arrondissement d'Outremont.\n\n## Dictionnaire de données\n\n\n\nType de géométrie: Points\n\n\nSystème de référence: EPSG:32188 - NAD83 / MTM zone 8\n\n\n- \n\n\nID_FICHE : Identifiant unique.\n\n\n- \n\n\nX : Coordonnée X en EPSG 32188\n\n\n- \n\n\nY: Coordonnée Y en EPSG 32188\n\n\n- \n\n\nCAT_BISSON : Catégorie de l'immeuble de l'inventaire Bisson. Format numérique.\n\n\n- \n\n\nTYPE_CAT_BISSON : Catégorie de l'immeuble de l'inventaire Bisson. Expression textuelle.\n\n\n- \n\n\nLIEN_FTP : Lien vers la fiche en format PDF sur le serveur de fichier.\n\n\n- \n\n\nCIV_DE : Début de l'intervalle des numéros civiques de l'adresse.\n\n\n- \n\n\nCIV_A : Fin de l'intervalle des numéros civiques de l'adresse.\n\n\n- \n\n\nTYPE_VOIE : Type de voie\n\n\n- \n\n\nLIEN_VOIE : Mots de liaison du nom de la voie (de la, par exemple)\n\n\n- \n\n\nNOM_VOIE : Nom de la voie\n\n\n- \n\n\nORIENT_VOIE : Orientation de la voie si pertinent (Est, Ouest)\n\n\n- \n\n\nADRESSE : Adresse complète à partir des champs précédents.\n\n\n- \n\n\nNOTE : Note si pertinent sur la fiche ou l'absence de fiche\n\n\n- \n\n\nDEMOLI : Valeur Oui si l'immeuble est démoli.\n\n\n- \n\n\nNOM_INDICATIF : Nom donné à titre indicatif des immeubles si repéré.\n\n\n- \n\n\nSTATUT_INV_PRE_40_2025 : Statut de l'immeuble à l'inventaire des immeubles patrimoniaux pré 1940 d'Outremont si retenu, ou statut de l'immeuble au pré inventaire des immeubles patrimoniaux pré 1940 d'Outremont pour les autres.\n\n\n- \n\n\nID_IMM_INV : Identifiant unique de l'immeuble ou de sa partie principale à l'inventaire des immeubles patrimoniaux pré 1940 d'Outremont.\n\n\n- \n\n\nID_UEV : Autre numéro séquentiel des UEV présent sur d'autres couches en données ouvertes.\n\n\n- \n\n\nNUM_UEV : Numéro séquentiel généré automatiquement et identifiant une unité d'évaluation foncière.\n\n\n- \n\n\nMATRICULE_83 : North American Datum. Matricule de la CUM incluant une coordonnée spatiale permettant de positionner le compte foncier. \n\n\n- \n\n\nLAT : latitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n\n- \n\n\nLNG: longitude (coordonnée spatiale) : Selon le référentiel WGS84.\n\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    OUT\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité - Direction du patrimoine",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Architecture",
+      "Archives",
+      "Outremont",
+      "Patrimoine",
+      "Pierre-Richard Bisson",
+      "SUM",
+      "Urbanimse"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/patrimoine-architectural-outremont-fiches-immeubles-inventaire-bisson",
+    "scraped_at": "2026-03-09T20:14:34.163893+00:00"
+  }
+}

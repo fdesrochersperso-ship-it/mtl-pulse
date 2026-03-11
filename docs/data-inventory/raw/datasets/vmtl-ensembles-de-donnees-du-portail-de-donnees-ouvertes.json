@@ -1,0 +1,1440 @@
+{
+  "slug": "vmtl-ensembles-de-donnees-du-portail-de-donnees-ouvertes",
+  "title": "Liste des ensembles disponibles en données ouvertes",
+  "notes": "Liste des ensembles de données disponibles sur le site web de données ouvertes de Montréal avec les principaux attributs tels que les dates d'ouverture et de modification, les formats des ressources et autres.\r\n\r\nL'[inventaire complet](https://donnees.montreal.ca/ville-de-montreal/inventaire-donnees-ouvertes) des données de Montréal est aussi disponible.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "quarterly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2016-02-09T22:46:03.262606",
+  "metadata_modified": "2026-03-05T02:08:19.073808",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "de903761-0463-490f-b984-5edcd79cc0ab",
+      "name": "Visualisation des données",
+      "description": "",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiMzU5MWJmNTUtM2MwZS00ZWQzLTg4NzQtMjM0YjEwM2E2MWJmIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2026-02-25T18:30:19.769426",
+      "schema": null
+    },
+    {
+      "id": "bcc0b608-2d54-4746-88b6-521023524f6e",
+      "name": "Liste des données ouvertes au format CSV",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/dc7aca8a-9c11-419b-8094-f0d6f359fdc0/resource/bcc0b608-2d54-4746-88b6-521023524f6e/download/do.csv",
+      "datastore_active": true,
+      "size": 1068255,
+      "last_modified": "2026-03-04T23:06:25.267633",
+      "created": "2016-02-09T17:46:30.996494",
+      "schema": {
+        "resource_id": "bcc0b608-2d54-4746-88b6-521023524f6e",
+        "total_records": 397,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_creation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "derniere_modification",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "unite_administrative",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "frequence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_fichiers",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "format_fichiers",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tags",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "thematiques",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "methodologie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "rsqa-indice-qualite-air",
+            "nom": "RSQA - indice de la qualité de l'air temps réel (quotidien)",
+            "date_creation": "2013-10-17T20:45:22.826827",
+            "derniere_modification": "2026-03-04T22:47:21.183656",
+            "unite_administrative": "Service de l'environnement ",
+            "frequence": "hourly",
+            "nb_fichiers": "3",
+            "format_fichiers": "WEB, CSV",
+            "tags": "IQA, Pollution, Qualité de l air, RSQA, SEnv",
+            "thematiques": "Environnement, ressources naturelles et énergie",
+            "methodologie": "La valeur 50 de cet indice correspond à la limite supérieure acceptable pour chacun des polluants mesurés. L’indice horaire rapporté est le plus élevé des sous-indices calculés pour cinq des polluants mesurés en continu dans les stations du Réseau de surveillance de la qualité de l’air de Montréal.\n\nTrois ressources sont disponibles : IQA détaillé par station, IQA par station et IQA par secteur. La ressource la plus complète, IQA détaillé par station, est agrégée par date, heure et station et le polluant avec la plus grande valeur produit la ressource IQA par station. Puis, la station avec l'IQA le plus élevé pour chaque secteur détermine la ressource IQA par secteur.\n\n## Calcul de l'indice de qualité de l'air\n\nLa valeur de l'indice de la qualité de l’air (IQA) est définie comme suit :\n\n- Bon : De 1 à 25\n- Acceptable : De 26 à 50\n- Mauvais : 51 ou plus\n\nOn calcule l’indice selon cette formule : \n>`Indice = (mesure / norme ou valeur IQA*) x 50`\n\nLe calcul est basé sur le tableau suivant :\n\n| &nbsp; Polluant &nbsp; | &nbsp; Symbole &nbsp; | &nbsp; Type de mesure &nbsp; | Valeur de référence (calcul IQA) |\n|:---:|:---:|:---:| ---:|\n| Dioxyde de soufre | SO<sub>2</sub> | 10 minutes mobiles | 500 µg/m<sup>3</sup> |\n| Monoxyde de carbone | CO | Horaire | 35mg/m<sup>3</sup> |\n| Ozone troposphérique | O<sub>3</sub> | Horaire | 160 µg/m<sup>3</sup> |\n| Dioxyde d'azote | NO<sub>2</sub> | Horaire | 400 µg/m<sup>3</sup> |\n| Particules fines | PM<sub>2,5</sub> | 3 heures mobiles | 35 µg/m<sup>3</sup> |\n\n## Dictionnaire de données\n\n__IQA détaillé par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `polluant` (texte) : Nom du polluant mesuré.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'IQA du polluant.\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `adresse` (texte) : Adresse de la station.\n- `latitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `longitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `X` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `Y` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `polluant` (texte) : Polluant ayant le plus d'impact dans le calcul de l'IQA.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par secteur en temps réel (Quotidien)__\n\n- `secteur` (texte) : Nom du [secteur](rsqa-secteurs-geographiques).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure estimée de la récolte de données (selon l'heure à laquelle sont recueillies l'IQA par station et l'IQA détaillé par station en temps réel).\n",
+            "description": "La Ville de Montréal mesure la qualité de l’air sous la forme d’une valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50 minutes après l'heure. Par exemple, les données de 13h sont disponibles vers 13h50, et ce, pour les trois ressources.\n\n***Note :** les systèmes de l'IQA ne changent pas d'heure : ils utilisent toujours l'heure normale de l'Est (HNE) et non l'heure avancée de l'Est (HAE). Ainsi, dans l'exemple ci-dessus, vers 13h50&nbsp;HAE, les données disponibles les plus récentes seront celles de 12h&nbsp;HNE.*\n\nLes valeurs historiques, mises à jour à quotidiennement, sont disponibles [ici](rsqa-iqa-historique).\n\nLa [liste des stations](rsqa-liste-des-stations) et [secteurs](rsqa-secteurs-geographiques) liés aux données du RSQA est également disponible."
+          },
+          {
+            "_id": 2,
+            "id": "actes-criminels",
+            "nom": "Actes criminels",
+            "date_creation": "2016-02-26T21:00:10.960143",
+            "derniere_modification": "2026-03-04T20:05:13.431149",
+            "unite_administrative": "Service de police de la Ville de Montréal ",
+            "frequence": "daily",
+            "nb_fichiers": "3",
+            "format_fichiers": "CSV, GeoJSON, ZIP",
+            "tags": "Crime, Criminalité, Police, SPVM, Sécurité publique",
+            "thematiques": "Loi, justice et sécurité publique",
+            "methodologie": "## Avertissement \n\n- Les données sont divulguées telles que rapportées au SPVM. Il est normal qu’il existe un écart entre celles-ci et celles compilées officiellement par le Centre canadien de la statistique juridique puisque le statut d’un incident peut être modifié en cours d’enquête.\n- La section méthodologie contient plusieurs éléments importants pour l'interprétation des données.\n\n\n### Vie privée\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels:\n\n- Localisation : la position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passé l'événement.\n- Temporalité : le moment de l'événement est représenté par la date et le quart de travail (ou moment de la journée : jour, soir, nuit)  durant lequel l'événement a été enregistré.\n\n### Mise à jour des données\n\n- Les données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent à la déclaration initiale. De manière générale, ces évolutions ont lieu dans les jours qui suivent la création de l'événement.\n- Les données sont regroupées par année calendaire. Quelques mois après la fin d'année, les données cessent d'être mises à jour (p.ex les données pour 2015 cessent d'être mises à jour à partir d'avril 2016)\n- Lorsque plusieurs infractions sont commises lors d'un même événement, l'infraction la plus grave est utilisée dans les données ouvertes.\n\n### Couverture territoriale\n\nLes données couvrent l'ensemble de l'agglomération de Montréal (e.g toute l'île de Montréal)\n\nLe poste de quartier 50 correspond à l'unité en charge du métro. Pour les événements prenant place dans le métro, la localisation est celle de l'édicule concerné ou un point fictif entre deux édicules.\n\n### Dictionnaire de données\n\n- `CATEGORIE` (liste de valeurs) : Nature de l'événement.\n\n    - `Introduction` : introduction par effraction dans un établissement public ou une résidence privée, vol d’arme à feu dans une résidence\n    - `Vol dans / sur véhicule à moteur` : vol du contenu d’un véhicule à moteur (voiture, camion, motocyclette, etc.) ou d’une pièce de véhicule (roue, parechoc, etc.)\n    - `Vol de véhicule à moteur` : vol de voiture, camion, motocyclette, motoneige tracteur avec ou sans remorque, véhicule de construction ou de ferme, tout-terrain\n    - `Méfait` : Graffiti et dommage de biens religieux, de véhicule ou dommage général et tous autres types de méfaits\n    - `Vol qualifié` : Vol accompagné de violence de commerce, institution financière, personne, sac à main, véhicule blindé, véhicule, arme à feu, et tous autres types de vols qualifiés\n    - `Infraction entraînant la mort` : Meurtre au premier degré, meurtre au deuxième degré, homicide involontaire, infanticide, négligence criminelle, et tous autres types d’infractions entraînant la mort\n\n- `DATE` (date) : Date du signalement de l'événement au SPVM au format AAAA-MM-JJ\n- `QUART` (liste de valeurs) : Moment de la journée du signalement de l'événement au SPVM.\n\n    - jour : Entre 8h01 et 16h\n    - soir : Entre 16h01 et minuit\n    - nuit : Entre 00h01 et 8h\n\n- `PDQ` (numérique) : Numéro du poste de quartier couvrant le territoire où s'est passé l'événement. Le territoire couvert par chaque poste est disponible dans l'ensemble de données des [polygones des secteurs du poste de quartier](limites-pdq-spvm)\n- `X` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `Y` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `LATITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84\n- `LONGITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84",
+            "description": "Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).\n\nUn outil de visualisation des données permet également d'afficher sur les données sous forme de carte : [Vue sur la sécurité publique](https://ville.montreal.qc.ca/vuesurlasecuritepublique/)"
+          },
+          {
+            "_id": 3,
+            "id": "frequentation-du-portail-de-donnees-ouvertes",
+            "nom": "Fréquentation du portail de données ouvertes",
+            "date_creation": "2016-04-25T18:03:03.032591",
+            "derniere_modification": "2026-03-04T17:02:48.220440",
+            "unite_administrative": "Service de la planification stratégique et de la performance organisationnelle",
+            "frequence": "quarterly",
+            "nb_fichiers": "3",
+            "format_fichiers": "CSV",
+            "tags": "Analytics, Données ouvertes, Fréquentation, SPSPO, Web",
+            "thematiques": "Gouvernement et finances",
+            "methodologie": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail de données ouvertes.\n\nLes données concernent autant le catalogue de données que les pages de contenu (aide en ligne, billets de blogues, etc.) sont disponibles.\n\nLes données sont disponibles à partir du 25 janvier 2016, date de l'ajout du code Google Analytics sur le portail.\n\n### Dictionnaire de données\t\t\n\n- `id` (Numérique) : Identifiant unique\n- `date` (Date et/ou heure) : Date des visites\n- `path` (Texte variable) : Chemin relatif de la page \n- `title` (Texte variable) : Titre de la page web tel que déclaré dans la balise `title`\n- `sessions` (Numérique) : Nombre de sessions différentes ayant visité la page `path` pour la journée `date`\n- `pageviews` (Numérique) : Nombre d'impression à l'écran pour la page `page` pour la journée `date`\n- `avgSessionDuration` (Numérique) : Durée moyenne des sessions",
+            "description": "Ensemble de données contenant la fréquentation du portail de données ouvertes, à savoir le nombre de visiteurs et de pages vues par jour de l'année."
+          },
+          {
+            "_id": 4,
+            "id": "nombre-telechargment-donnees",
+            "nom": "Téléchargment quotidien des ressources à partir du site des Données ouvertes",
+            "date_creation": "2024-02-29T14:43:17.999320",
+            "derniere_modification": "2026-03-04T17:01:22.105250",
+            "unite_administrative": "Service de la planification stratégique et de la performance organisationnelle",
+            "frequence": "daily",
+            "nb_fichiers": "1",
+            "format_fichiers": "CSV",
+            "tags": "Données ouvertes, SPSPO, Statistiques Web, Téléchargement",
+            "thematiques": "Gouvernement et finances",
+            "methodologie": "Nombre de téléchargements effectués par les usagers du site des données ouvertes de Montréal tel que compilé par l'outil Google Analytics. Ces données excluent les téléchargements effectués à partir de l'API Ckan ainsi que les téléchargements déclenchés sur les sites de nos partenaires tels que Données Québec ou Gouvernement ouvert (Canada). Ces données excluent aussi les téléchargements effectués à partir d'une URL directe. Noter que ces données couvrent presque tous les formats de fichiers disponibles sur le site des données ouvertes, quelques rares formats non connus de Google Analytics en sont exclus.\n\n## Dictionnaire de données\n\n- `date` (date) : Statistique de cette date spécifique pour ce fichier.\n- `pagePath` (texte) : Chemin du répertoire et de la page à partir de laquelle la ressource a été téléchargée.\n- `fileExtension` (liste de valeur) : Extension de fichier du téléchargement.\n- `fileName` (texte) : Nom complet du fichier téléchargé.\n- `eventCount` (numérique) : Nombre de fois où le fichier a été téléchargé pour une date précise.\n ",
+            "description": "Ce jeu de donnée contient la liste des ressources présentes sur le site web des Données ouvertes de Montréal et comptabilise le nombre de fois où ils ont été téléchargés quotidiennement depuis le mois de juillet 2023."
+          },
+          {
+            "_id": 5,
+            "id": "cartographie-de-base",
+            "nom": "Cartographie de base",
+            "date_creation": "2014-08-28T13:34:07.782885",
+            "derniere_modification": "2026-03-04T15:37:36.398075",
+            "unite_administrative": "Service des infrastructures du réseau routier - Division de la géomatique",
+            "frequence": "irregular",
+            "nb_fichiers": "19",
+            "format_fichiers": "WEB, DGN, PDF, DWG, JPEG",
+            "tags": "Base, Carte, Carto, Cartographie, Cartographique, Compilation, Feuillet, Index, SIRR, Usage du sol",
+            "thematiques": "Environnement, ressources naturelles et énergie, Infrastructures",
+            "methodologie": "La photogrammétrie, méthode principale de captage pour les feuillets cartographiques, est l'ensemble des techniques qui permettent de déterminer la forme, les dimensions et la position dans l'espace d'un objet à partir de photographies aériennes. Les qualités géospatiales des différents éléments, et autres informations, sont définis dans le cartouche des cartes.  Les cartes de base sont produites et compilées dans un format de DAO (dessin assisté par ordinateur).\n\n### Qualification des données:\n\nRéférence spatiale:\n\n   - Géoréférence planimétrique : NAD27 ou NAD83 SCRS\n   - Géoréférence altimétrique : C-GVD28 (NMM)\n\nExactitude des éléments modélisés:\n\n   - Par photogrammétrie : planimétrie : ± 30 à 40 cm / altimétrie    : ± 45 à 60 cm\n   - Par autre méthode :   définit dans le cartouche\n\nType de données : Surfacique, vectoriels, ponctuels \n\nDécoupage : Feuillet cartographique 1:1000 (SQRC) ou autre\n \nTraitement:\n\n*  Captage photogrammétrique (VdM)\n*  Autocorrélation et algorithmes\n*  Autres, définis dans le cartouche\n\n### Normes cartographiques:\n\nLe produit \"compilation cartographie de base\" (2015 et à ce jour) est normé suivant les \n[prescriptions du ministère des Transports du Québec actuelles](https://www.transports.gouv.qc.ca/fr/entreprises-partenaires/entreprises-reseaux-routier/guides-formulaires/Pages/arpentage-conception.aspx) et adaptées par la Ville de Montréal. Alors que le MTQ adopte l'usage de préfixe \"P\"= projeté, \"E\"=existant, le comité responsable de la Ville a décidé d'identifier la source productrice des données par un préfixe (ex. CARTO-plage info MTQ) .\n\nLe produit \"cartographie de base numérique\" (2007 et antérieur) est normé suivant les prescriptions du ministère de l'Énergie et des Ressources du gouvernement du Québec édictées en 1984. Les plages d'information utilisées par la Ville de Montréal sont présentées dans la fiche d'information sur le produit disponible en PDF.",
+            "description": "L'ensemble de données cartographiques regroupe les cartes de base de la Ville.\n\nIl s'agit d'une représentation du territoire de la ville de Montréal à grande et moyenne échelles (1:1000, 1:5000, etc).  La présentation de l'occupation du sol est composée d'éléments produits principalement par photogrammétrie et complémentée par diverses techniques, à des dates déterminées. C'est une représentation géométrique et conventionnelle du territoire montréalais en 2D+1 (X, Y + cotes d’altitudes ou courbes de niveaux).\n\nLes principales fins du produit cartographie de base sont la planification du territoire et la concertation publique.\n\nLe découpage des feuillets SQRC 1:1000 est disponible [ici](/ville-de-montreal/quadrillage-sqrc). "
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_creation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "derniere_modification": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "unite_administrative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "frequence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_fichiers": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "format_fichiers": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "tags": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "thematiques": {
+          "null_count": 22,
+          "null_pct": 5.5,
+          "populated_pct": 94.5
+        },
+        "methodologie": {
+          "null_count": 11,
+          "null_pct": 2.8,
+          "populated_pct": 97.2
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 397,
+        "total_records": 397,
+        "audited_at": "2026-03-10T00:18:46.629244+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 397,
+            "top_values": [
+              {
+                "value": "rsqa-indice-qualite-air",
+                "count": 1
+              },
+              {
+                "value": "actes-criminels",
+                "count": 1
+              },
+              {
+                "value": "frequentation-du-portail-de-donnees-ouvertes",
+                "count": 1
+              },
+              {
+                "value": "nombre-telechargment-donnees",
+                "count": 1
+              },
+              {
+                "value": "cartographie-de-base",
+                "count": 1
+              },
+              {
+                "value": "requete-311",
+                "count": 1
+              },
+              {
+                "value": "cyclistes",
+                "count": 1
+              },
+              {
+                "value": "remorquages-de-vehicules-genants",
+                "count": 1
+              },
+              {
+                "value": "depistage-entrees-service-plomb",
+                "count": 1
+              },
+              {
+                "value": "statistiques-utilisation-site-web-ville-de-montreal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 397,
+            "top_values": [
+              {
+                "value": "RSQA - indice de la qualité de l'air temps réel (quotidien)",
+                "count": 1
+              },
+              {
+                "value": "Actes criminels",
+                "count": 1
+              },
+              {
+                "value": "Fréquentation du portail de données ouvertes",
+                "count": 1
+              },
+              {
+                "value": "Téléchargment quotidien des ressources à partir du site des Données ouvertes",
+                "count": 1
+              },
+              {
+                "value": "Cartographie de base",
+                "count": 1
+              },
+              {
+                "value": "Demandes de services citoyennes (Requêtes 311)",
+                "count": 1
+              },
+              {
+                "value": "Compteurs cyclistes permanents",
+                "count": 1
+              },
+              {
+                "value": "Remorquages de véhicules entravant les opérations de la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Résultats du dépistage des entrées de service en plomb réalisé par un Palintest",
+                "count": 1
+              },
+              {
+                "value": "Statistiques d'utilisation du site web de la Ville de Montréal (montreal.ca)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "date_creation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-10-03T01:05:16.380224",
+            "max_date": "2026-02-26T14:38:37.909316",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "derniere_modification": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-10-22T14:20:45.084307",
+            "max_date": "2026-03-04T22:47:21.183656",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "unite_administrative": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 72,
+            "top_values": [
+              {
+                "value": "Service de l'urbanisme et de la mobilité",
+                "count": 38
+              },
+              {
+                "value": "Service du greffe",
+                "count": 33
+              },
+              {
+                "value": "Service de l'environnement",
+                "count": 28
+              },
+              {
+                "value": "Service de l'eau",
+                "count": 26
+              },
+              {
+                "value": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+                "count": 24
+              },
+              {
+                "value": "Service des grands parcs, du Mont-Royal et des sports",
+                "count": 17
+              },
+              {
+                "value": "Service de la diversité et de l'inclusion sociale",
+                "count": 15
+              },
+              {
+                "value": "Service des infrastructures du réseau routier - Division de la géomatique",
+                "count": 14
+              },
+              {
+                "value": "Service des infrastructures du réseau routier",
+                "count": 14
+              },
+              {
+                "value": "Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "frequence": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "irregular",
+                "count": 169
+              },
+              {
+                "value": "notPlanned",
+                "count": 73
+              },
+              {
+                "value": "annual",
+                "count": 33
+              },
+              {
+                "value": "daily",
+                "count": 28
+              },
+              {
+                "value": "monthly",
+                "count": 28
+              },
+              {
+                "value": "weekly",
+                "count": 23
+              },
+              {
+                "value": "asNeeded",
+                "count": 17
+              },
+              {
+                "value": "quarterly",
+                "count": 15
+              },
+              {
+                "value": "continuous",
+                "count": 5
+              },
+              {
+                "value": "triennial",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nb_fichiers": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 69.0,
+            "mean": 6.4912,
+            "median": 3.0,
+            "unique_count": 35,
+            "field_type_detected": "numeric"
+          },
+          "format_fichiers": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "unique_count": 131,
+            "top_values": [
+              {
+                "value": "CSV",
+                "count": 92
+              },
+              {
+                "value": "WEB, CSV",
+                "count": 21
+              },
+              {
+                "value": "GeoJSON, SHP",
+                "count": 16
+              },
+              {
+                "value": "SHP, GeoJSON",
+                "count": 16
+              },
+              {
+                "value": "CSV, GeoJSON, SHP",
+                "count": 12
+              },
+              {
+                "value": "XLSX, CSV",
+                "count": 12
+              },
+              {
+                "value": "CSV, PDF",
+                "count": 11
+              },
+              {
+                "value": "CSV, SHP, GeoJSON",
+                "count": 10
+              },
+              {
+                "value": "HTML",
+                "count": 10
+              },
+              {
+                "value": "CSV, XLS",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "tags": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 360,
+            "top_values": [
+              {
+                "value": "Arr., CN-NdG, Contrat, Côte-des-Neiges--Notre-Dame-de-Grâce, Dépense, Fournisseur",
+                "count": 9
+              },
+              {
+                "value": "SG, Élections",
+                "count": 8
+              },
+              {
+                "value": "Cours d eau, Eau, Fleuve Saint-Laurent, SE, Travaux Intercepteur Novembre 2015",
+                "count": 4
+              },
+              {
+                "value": "Habitation, Inspection, Logement, SH, Salubrité",
+                "count": 3
+              },
+              {
+                "value": "Qualité de l air, RSQA, SEnv",
+                "count": 3
+              },
+              {
+                "value": "Occupation du sol, Photographie aérienne, SG",
+                "count": 3
+              },
+              {
+                "value": "Cours d eau, Fleuve, Lac, Qualité de l eau, RSMA, Rivière, SEnv",
+                "count": 3
+              },
+              {
+                "value": "IQA, Pollution, Qualité de l air, RSQA, SEnv",
+                "count": 2
+              },
+              {
+                "value": "SUM, Toponymie",
+                "count": 2
+              },
+              {
+                "value": "DG",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "thematiques": {
+            "null_count": 22,
+            "null_pct": 5.5,
+            "unique_count": 42,
+            "top_values": [
+              {
+                "value": "Gouvernement et finances",
+                "count": 100
+              },
+              {
+                "value": "Environnement, ressources naturelles et énergie",
+                "count": 79
+              },
+              {
+                "value": "Infrastructures",
+                "count": 55
+              },
+              {
+                "value": "Transport",
+                "count": 21
+              },
+              {
+                "value": "Infrastructures, Transport",
+                "count": 20
+              },
+              {
+                "value": "Société et culture",
+                "count": 18
+              },
+              {
+                "value": "Tourisme, sports et loisirs",
+                "count": 11
+              },
+              {
+                "value": "Politiques sociales",
+                "count": 8
+              },
+              {
+                "value": "Infrastructures, Loi, justice et sécurité publique",
+                "count": 7
+              },
+              {
+                "value": "Économie et entreprises",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "methodologie": {
+            "null_count": 11,
+            "null_pct": 2.8,
+            "unique_count": 373,
+            "top_values": [
+              {
+                "value": "La Division intelligence d'affaire sociale et optimisation du Service de la diversité et de l'inclusion sociale a été mandatée afin de réaliser des portraits socio-démographiques sur les différentes thématiques.\n\nLes données utilisées pour produire ces portraits ont été importées à partir de fichiers IVT avec le logiciel Beyond 20/20 et sont disponibles sur la page [Commande personnalisée du recensement 2021](/dataset/commande-personnalisee-recensement-2021). Elles ont ensuite été traitées via le logiciel R et son extension R Markdown. Le traitement des données a principalement consisté en leur structuration et au calcul des pourcentages pour chaque dimension explorée dans les portraits.",
+                "count": 6
+              },
+              {
+                "value": "### Dictionnaire de données\n- `FOURNISSEUR` (Texte variable) : Entreprise qui réalise le contrat.\n- `RÉPARTITITION` (Texte variable) : Pourcentage du contrat payé selon le partage de compétences entre les instances de la ville selon, entre autres, le Règlement sur les dépenses mixtes.\n- `SERVICE` (Liste de valeur) : Service émetteur du contrat.\n- `DIRECTION` (Texte variable) : Direction émettrice du contrat.\n- `NO DE DOSSIER` (Numérique) : Numéro du dossier des instances décisionnelles.\n- `OBJET` (Texte variable) : Nature du contrat.\n- `NO DÉCISION` (Numérique) : Numéro de la résolution de l’instance décisionnelle compétente relative à l’émission du contrat.\n- `DATE SIGNATURE` (Date) : Date de la signature de la résolution.\n- `MONTANT` (Numérique) : Montant du contrat accordé.",
+                "count": 3
+              },
+              {
+                "value": "Le fichier comprend pour chaque contrat : le numéro de bon de commande, la date d'approbation, le nom du fournisseur, le numéro de l'entente d'achat (si applicable), la description et le montant de l'engagement.",
+                "count": 3
+              },
+              {
+                "value": "### Dictionnaire de données\n- `id_rire` (numérique) : Identifiant unique\n- `types` (liste de valeurs) : Type de lieu\n    - immeuble\n    - parc\n    - voie\n    - voieparc\n- `specific` (texte) : Toponyme utilisé\n- `generic` (texte) : Spécification du type\n- `designation_date` (texte) : Date de désignation\n- `history` (texte) : Histoire de la désignation\n- `history_source` (texte) : Source\n- `former_name` (texte) : Ancienne désignation\n- `borough_codes` (texte) : Code d'arrondissement (séparés par un point-virgule lorsque plus d'un)\n- `borough_names` (texte) : Nom de l'arrondissement (séparés par un point-virgule lorsque plus d'un)\n- `title` (texte) : Nom complet (champs `generic` + `specific`)\n- `topic_codes` (texte) : Code numérique de la thématique (séparés par un point-virgule lorsque plus d'un)\n- `topic_names` (texte) : Thématique (séparés par un point-virgule lorsque plus d'un)",
+                "count": 2
+              },
+              {
+                "value": "Le réseau de polylignes de la géobase double est  créé automatiquement par géotraitements à partir des données officielles du réseau routier de la Ville de Montréal représentées par des tronçons de centres de rues sous l'ensemble de la [géobase](http://donnees.montreal.ca/dataset/geobase) sur le portail.  L'ensemble est une représentation approximative des bordures des rues.  Les dimensions ne sont pas exactes, mais elles peuvent être utiles à la représentation graphique ou pour des analyses distinguant les deux côtés d'une route.\n\n### Dictionnaire de données\n\n- COTE_RUE_ID : Clé primaire\n- ID_TRC : Lien avec la géobase\n- ID_VOIE : Lien\n- NOM_VOIE : Spécifique de la toponymie officielle, sans abréviation\n- NOM_VILLE : Nom de la ville\n- DEBUT_ADRESSE : Limite des numéros civiques\n- FIN ADRESSE : Limite des numéros civiques\n- COTE : \"Droit\" ou \"Gauche\"\n- TYPE_F : Type de voie générique de la toponymie officielle, sans abréviation\n- SENS_CIR : Sens de circulation selon le sens de numérisation des tronçons de la [géobase linéaire](/ville-de-montreal/geobase)\n     - 1 -> sens unique dans le sens de la numérisation\n     - -1 -> sens unique dans le sens contraire de la numérisation \n     - 0 -> double sens",
+                "count": 2
+              },
+              {
+                "value": "Les vérifications des conditions des sites hivernaux  sont faites par les contremaîtres en arrondissement. Ceux-ci intègrent les données manuellement dans un outil de la Ville, les fichiers XML sont ensuite automatisés par le Service des technologies de l’information.",
+                "count": 2
+              },
+              {
+                "value": "Le schéma résulte d’un travail de collaboration soutenu des municipalités et des arrondissements de l’agglomération; il s’inscrit dans la poursuite des propositions du Plan métropolitain d’aménagement et de développement (PMAD) de la Communauté métropolitaine de Montréal (CMM) et il intègre les orientations gouvernementales en matière d’aménagement du territoire. Il entraîne l’obligation de la mise en conformité des plans et réglementations d’urbanisme des municipalités reconstituées de l’agglomération ainsi que de ceux de Montréal et de ses arrondissements. \n\nPour plus d’information consulter le [Schéma d’aménagement et de développement de l’agglomération de Montréal](https://montreal.ca/articles/schema-damenagement-et-de-developpement-de-lagglomeration-de-montreal-18112). \n\nLes projections géographiques des données publiées sont :\n\n- Shapefile (SHP) en NAD 83 MTM Zone 8 \n\n- GEOJSON en WGS84 (lat/long)",
+                "count": 2
+              },
+              {
+                "value": "La valeur 50 de cet indice correspond à la limite supérieure acceptable pour chacun des polluants mesurés. L’indice horaire rapporté est le plus élevé des sous-indices calculés pour cinq des polluants mesurés en continu dans les stations du Réseau de surveillance de la qualité de l’air de Montréal.\n\nTrois ressources sont disponibles : IQA détaillé par station, IQA par station et IQA par secteur. La ressource la plus complète, IQA détaillé par station, est agrégée par date, heure et station et le polluant avec la plus grande valeur produit la ressource IQA par station. Puis, la station avec l'IQA le plus élevé pour chaque secteur détermine la ressource IQA par secteur.\n\n## Calcul de l'indice de qualité de l'air\n\nLa valeur de l'indice de la qualité de l’air (IQA) est définie comme suit :\n\n- Bon : De 1 à 25\n- Acceptable : De 26 à 50\n- Mauvais : 51 ou plus\n\nOn calcule l’indice selon cette formule : \n>`Indice = (mesure / norme ou valeur IQA*) x 50`\n\nLe calcul est basé sur le tableau suivant :\n\n| &nbsp; Polluant &nbsp; | &nbsp; Symbole &nbsp; | &nbsp; Type de mesure &nbsp; | Valeur de référence (calcul IQA) |\n|:---:|:---:|:---:| ---:|\n| Dioxyde de soufre | SO<sub>2</sub> | 10 minutes mobiles | 500 µg/m<sup>3</sup> |\n| Monoxyde de carbone | CO | Horaire | 35mg/m<sup>3</sup> |\n| Ozone troposphérique | O<sub>3</sub> | Horaire | 160 µg/m<sup>3</sup> |\n| Dioxyde d'azote | NO<sub>2</sub> | Horaire | 400 µg/m<sup>3</sup> |\n| Particules fines | PM<sub>2,5</sub> | 3 heures mobiles | 35 µg/m<sup>3</sup> |\n\n## Dictionnaire de données\n\n__IQA détaillé par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `polluant` (texte) : Nom du polluant mesuré.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'IQA du polluant.\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `adresse` (texte) : Adresse de la station.\n- `latitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `longitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `X` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `Y` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `polluant` (texte) : Polluant ayant le plus d'impact dans le calcul de l'IQA.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par secteur en temps réel (Quotidien)__\n\n- `secteur` (texte) : Nom du [secteur](rsqa-secteurs-geographiques).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure estimée de la récolte de données (selon l'heure à laquelle sont recueillies l'IQA par station et l'IQA détaillé par station en temps réel).",
+                "count": 1
+              },
+              {
+                "value": "## Avertissement \n\n- Les données sont divulguées telles que rapportées au SPVM. Il est normal qu’il existe un écart entre celles-ci et celles compilées officiellement par le Centre canadien de la statistique juridique puisque le statut d’un incident peut être modifié en cours d’enquête.\n- La section méthodologie contient plusieurs éléments importants pour l'interprétation des données.\n\n\n### Vie privée\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels:\n\n- Localisation : la position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passé l'événement.\n- Temporalité : le moment de l'événement est représenté par la date et le quart de travail (ou moment de la journée : jour, soir, nuit)  durant lequel l'événement a été enregistré.\n\n### Mise à jour des données\n\n- Les données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent à la déclaration initiale. De manière générale, ces évolutions ont lieu dans les jours qui suivent la création de l'événement.\n- Les données sont regroupées par année calendaire. Quelques mois après la fin d'année, les données cessent d'être mises à jour (p.ex les données pour 2015 cessent d'être mises à jour à partir d'avril 2016)\n- Lorsque plusieurs infractions sont commises lors d'un même événement, l'infraction la plus grave est utilisée dans les données ouvertes.\n\n### Couverture territoriale\n\nLes données couvrent l'ensemble de l'agglomération de Montréal (e.g toute l'île de Montréal)\n\nLe poste de quartier 50 correspond à l'unité en charge du métro. Pour les événements prenant place dans le métro, la localisation est celle de l'édicule concerné ou un point fictif entre deux édicules.\n\n### Dictionnaire de données\n\n- `CATEGORIE` (liste de valeurs) : Nature de l'événement.\n\n    - `Introduction` : introduction par effraction dans un établissement public ou une résidence privée, vol d’arme à feu dans une résidence\n    - `Vol dans / sur véhicule à moteur` : vol du contenu d’un véhicule à moteur (voiture, camion, motocyclette, etc.) ou d’une pièce de véhicule (roue, parechoc, etc.)\n    - `Vol de véhicule à moteur` : vol de voiture, camion, motocyclette, motoneige tracteur avec ou sans remorque, véhicule de construction ou de ferme, tout-terrain\n    - `Méfait` : Graffiti et dommage de biens religieux, de véhicule ou dommage général et tous autres types de méfaits\n    - `Vol qualifié` : Vol accompagné de violence de commerce, institution financière, personne, sac à main, véhicule blindé, véhicule, arme à feu, et tous autres types de vols qualifiés\n    - `Infraction entraînant la mort` : Meurtre au premier degré, meurtre au deuxième degré, homicide involontaire, infanticide, négligence criminelle, et tous autres types d’infractions entraînant la mort\n\n- `DATE` (date) : Date du signalement de l'événement au SPVM au format AAAA-MM-JJ\n- `QUART` (liste de valeurs) : Moment de la journée du signalement de l'événement au SPVM.\n\n    - jour : Entre 8h01 et 16h\n    - soir : Entre 16h01 et minuit\n    - nuit : Entre 00h01 et 8h\n\n- `PDQ` (numérique) : Numéro du poste de quartier couvrant le territoire où s'est passé l'événement. Le territoire couvert par chaque poste est disponible dans l'ensemble de données des [polygones des secteurs du poste de quartier](limites-pdq-spvm)\n- `X` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `Y` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `LATITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84\n- `LONGITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84",
+                "count": 1
+              },
+              {
+                "value": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail de données ouvertes.\n\nLes données concernent autant le catalogue de données que les pages de contenu (aide en ligne, billets de blogues, etc.) sont disponibles.\n\nLes données sont disponibles à partir du 25 janvier 2016, date de l'ajout du code Google Analytics sur le portail.\n\n### Dictionnaire de données\t\t\n\n- `id` (Numérique) : Identifiant unique\n- `date` (Date et/ou heure) : Date des visites\n- `path` (Texte variable) : Chemin relatif de la page \n- `title` (Texte variable) : Titre de la page web tel que déclaré dans la balise `title`\n- `sessions` (Numérique) : Nombre de sessions différentes ayant visité la page `path` pour la journée `date`\n- `pageviews` (Numérique) : Nombre d'impression à l'écran pour la page `page` pour la journée `date`\n- `avgSessionDuration` (Numérique) : Durée moyenne des sessions",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 395,
+            "top_values": [
+              {
+                "value": "Liste des contrats octroyés par les fonctionnaires de l'arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce en vertu du pouvoir délégué.",
+                "count": 3
+              },
+              {
+                "value": "La Ville de Montréal mesure la qualité de l’air sous la forme d’une valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50 minutes après l'heure. Par exemple, les données de 13h sont disponibles vers 13h50, et ce, pour les trois ressources.\n\n***Note :** les systèmes de l'IQA ne changent pas d'heure : ils utilisent toujours l'heure normale de l'Est (HNE) et non l'heure avancée de l'Est (HAE). Ainsi, dans l'exemple ci-dessus, vers 13h50&nbsp;HAE, les données disponibles les plus récentes seront celles de 12h&nbsp;HNE.*\n\nLes valeurs historiques, mises à jour à quotidiennement, sont disponibles [ici](rsqa-iqa-historique).\n\nLa [liste des stations](rsqa-liste-des-stations) et [secteurs](rsqa-secteurs-geographiques) liés aux données du RSQA est également disponible.",
+                "count": 1
+              },
+              {
+                "value": "Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).\n\nUn outil de visualisation des données permet également d'afficher sur les données sous forme de carte : [Vue sur la sécurité publique](https://ville.montreal.qc.ca/vuesurlasecuritepublique/)",
+                "count": 1
+              },
+              {
+                "value": "Ensemble de données contenant la fréquentation du portail de données ouvertes, à savoir le nombre de visiteurs et de pages vues par jour de l'année.",
+                "count": 1
+              },
+              {
+                "value": "Ce jeu de donnée contient la liste des ressources présentes sur le site web des Données ouvertes de Montréal et comptabilise le nombre de fois où ils ont été téléchargés quotidiennement depuis le mois de juillet 2023.",
+                "count": 1
+              },
+              {
+                "value": "L'ensemble de données cartographiques regroupe les cartes de base de la Ville.\n\nIl s'agit d'une représentation du territoire de la ville de Montréal à grande et moyenne échelles (1:1000, 1:5000, etc).  La présentation de l'occupation du sol est composée d'éléments produits principalement par photogrammétrie et complémentée par diverses techniques, à des dates déterminées. C'est une représentation géométrique et conventionnelle du territoire montréalais en 2D+1 (X, Y + cotes d’altitudes ou courbes de niveaux).\n\nLes principales fins du produit cartographie de base sont la planification du territoire et la concertation publique.\n\nLe découpage des feuillets SQRC 1:1000 est disponible [ici](/ville-de-montreal/quadrillage-sqrc).",
+                "count": 1
+              },
+              {
+                "value": "Le présent ensemble de données contient les demandes d'information et les demandes de services soumises à la Ville de Montréal via le système d’appel 311, par courriel et dans les Bureaux Accès Montréal (BAM). Il faut préciser que les demandes de services se subdivisent en trois catégories : les requêtes, les plaintes et les commentaires.\n\nAVERTISSEMENT : Les données contenues dans cet ensemble représentent toutes les demandes soumises qu’il en ai résulté une intervention de la part de la Ville de Montréal ou non. Par ailleurs, il est important de prendre connaissance de la méthodologie puisqu’elle contient des informations quant à la collecte et à la gestion des données nécessaires pour toutes analyses ou interprétations des données.",
+                "count": 1
+              },
+              {
+                "value": "Les jeux de données analysés proviennent de détecteurs de comptage vélo installés sur différents sites par le SUM -DIGD. Ces capteurs enregistrent le nombre de passages de cyclistes à chaque minute, permettant une observation fine de la fréquentation. Sur certains emplacements, les détecteurs fournissent également des données de vitesse, enrichissant l’analyse comportementale. \n\nAfin de faciliter l’interprétation et de dégager des tendances, les données brutes sont agrégées de plusieurs façons :\n### \n* -15min\n* -1hr\n* -quotidien\n* -mensuel\n* -annuel \n\nCette méthodologie permet de suivre l’évolution du trafic cycliste, d’identifier les variations saisonnières et d’évaluer l’impact d’aménagements ou d’événements spécifiques. L’agrégation est réalisée à l’aide de traitements automatisés, garantissant la cohérence des séries temporelles et la qualité des analyses.",
+                "count": 1
+              },
+              {
+                "value": "L'ensemble de données présente une liste des remorquages de véhicules gênants effectués par la Ville de Montréal. Ces remorquages sont effectués, par exemple lors des opérations de déneigement, des travaux ou encore lors d'événements spéciaux.",
+                "count": 1
+              },
+              {
+                "value": "Cet ensemble de données présente les résultats du dépistage par Palintest permettant de détecter la présence ou l’absence d’une entrée d’eau en plomb.\n\nL’eau potable distribuée à Montréal est d’excellente qualité. Toutefois, la tuyauterie de certains bâtiments contient du plomb qui peut se dissoudre et se retrouver dans l'eau du robinet.\n\nPour plus d’information, visitez [montreal.ca et cherchez « plomb »](https://montreal.ca/recherche?q=plomb).",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "ddce5f93-8efa-4d77-950f-d1705cf27fce",
+      "name": "Liste des ensembles de données ouvertes disponibles",
+      "description": "",
+      "format": "XLSX",
+      "url": "https://donnees.montreal.ca/dataset/dc7aca8a-9c11-419b-8094-f0d6f359fdc0/resource/ddce5f93-8efa-4d77-950f-d1705cf27fce/download/do.xlsx",
+      "datastore_active": true,
+      "size": 321118,
+      "last_modified": "2026-03-05T00:06:46.442295",
+      "created": "2022-01-19T14:32:04.894544",
+      "schema": {
+        "resource_id": "ddce5f93-8efa-4d77-950f-d1705cf27fce",
+        "total_records": 397,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_creation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "derniere_modification",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "unite_administrative",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "frequence",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_fichiers",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "format_fichiers",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tags",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "thematiques",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "methodologie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id": "rsqa-indice-qualite-air",
+            "nom": "RSQA - indice de la qualité de l'air temps réel (quotidien)",
+            "date_creation": "2013-10-17T20:45:22.826827",
+            "derniere_modification": "2026-03-04T22:47:21.183656",
+            "unite_administrative": "Service de l'environnement ",
+            "frequence": "hourly",
+            "nb_fichiers": "3",
+            "format_fichiers": "WEB, CSV",
+            "tags": "IQA, Pollution, Qualité de l air, RSQA, SEnv",
+            "thematiques": "Environnement, ressources naturelles et énergie",
+            "methodologie": "La valeur 50 de cet indice correspond à la limite supérieure acceptable pour chacun des polluants mesurés. L’indice horaire rapporté est le plus élevé des sous-indices calculés pour cinq des polluants mesurés en continu dans les stations du Réseau de surveillance de la qualité de l’air de Montréal.\n\nTrois ressources sont disponibles : IQA détaillé par station, IQA par station et IQA par secteur. La ressource la plus complète, IQA détaillé par station, est agrégée par date, heure et station et le polluant avec la plus grande valeur produit la ressource IQA par station. Puis, la station avec l'IQA le plus élevé pour chaque secteur détermine la ressource IQA par secteur.\n\n## Calcul de l'indice de qualité de l'air\n\nLa valeur de l'indice de la qualité de l’air (IQA) est définie comme suit :\n\n- Bon : De 1 à 25\n- Acceptable : De 26 à 50\n- Mauvais : 51 ou plus\n\nOn calcule l’indice selon cette formule : \n>`Indice = (mesure / norme ou valeur IQA*) x 50`\n\nLe calcul est basé sur le tableau suivant :\n\n| &nbsp; Polluant &nbsp; | &nbsp; Symbole &nbsp; | &nbsp; Type de mesure &nbsp; | Valeur de référence (calcul IQA) |\n|:---:|:---:|:---:| ---:|\n| Dioxyde de soufre | SO<sub>2</sub> | 10 minutes mobiles | 500 µg/m<sup>3</sup> |\n| Monoxyde de carbone | CO | Horaire | 35mg/m<sup>3</sup> |\n| Ozone troposphérique | O<sub>3</sub> | Horaire | 160 µg/m<sup>3</sup> |\n| Dioxyde d'azote | NO<sub>2</sub> | Horaire | 400 µg/m<sup>3</sup> |\n| Particules fines | PM<sub>2,5</sub> | 3 heures mobiles | 35 µg/m<sup>3</sup> |\n\n## Dictionnaire de données\n\n__IQA détaillé par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `polluant` (texte) : Nom du polluant mesuré.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'IQA du polluant.\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `adresse` (texte) : Adresse de la station.\n- `latitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `longitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `X` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `Y` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `polluant` (texte) : Polluant ayant le plus d'impact dans le calcul de l'IQA.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par secteur en temps réel (Quotidien)__\n\n- `secteur` (texte) : Nom du [secteur](rsqa-secteurs-geographiques).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure estimée de la récolte de données (selon l'heure à laquelle sont recueillies l'IQA par station et l'IQA détaillé par station en temps réel).\n",
+            "description": "La Ville de Montréal mesure la qualité de l’air sous la forme d’une valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50 minutes après l'heure. Par exemple, les données de 13h sont disponibles vers 13h50, et ce, pour les trois ressources.\n\n***Note :** les systèmes de l'IQA ne changent pas d'heure : ils utilisent toujours l'heure normale de l'Est (HNE) et non l'heure avancée de l'Est (HAE). Ainsi, dans l'exemple ci-dessus, vers 13h50&nbsp;HAE, les données disponibles les plus récentes seront celles de 12h&nbsp;HNE.*\n\nLes valeurs historiques, mises à jour à quotidiennement, sont disponibles [ici](rsqa-iqa-historique).\n\nLa [liste des stations](rsqa-liste-des-stations) et [secteurs](rsqa-secteurs-geographiques) liés aux données du RSQA est également disponible."
+          },
+          {
+            "_id": 2,
+            "id": "actes-criminels",
+            "nom": "Actes criminels",
+            "date_creation": "2016-02-26T21:00:10.960143",
+            "derniere_modification": "2026-03-04T20:05:13.431149",
+            "unite_administrative": "Service de police de la Ville de Montréal ",
+            "frequence": "daily",
+            "nb_fichiers": "3",
+            "format_fichiers": "CSV, GeoJSON, ZIP",
+            "tags": "Crime, Criminalité, Police, SPVM, Sécurité publique",
+            "thematiques": "Loi, justice et sécurité publique",
+            "methodologie": "## Avertissement \n\n- Les données sont divulguées telles que rapportées au SPVM. Il est normal qu’il existe un écart entre celles-ci et celles compilées officiellement par le Centre canadien de la statistique juridique puisque le statut d’un incident peut être modifié en cours d’enquête.\n- La section méthodologie contient plusieurs éléments importants pour l'interprétation des données.\n\n\n### Vie privée\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels:\n\n- Localisation : la position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passé l'événement.\n- Temporalité : le moment de l'événement est représenté par la date et le quart de travail (ou moment de la journée : jour, soir, nuit)  durant lequel l'événement a été enregistré.\n\n### Mise à jour des données\n\n- Les données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent à la déclaration initiale. De manière générale, ces évolutions ont lieu dans les jours qui suivent la création de l'événement.\n- Les données sont regroupées par année calendaire. Quelques mois après la fin d'année, les données cessent d'être mises à jour (p.ex les données pour 2015 cessent d'être mises à jour à partir d'avril 2016)\n- Lorsque plusieurs infractions sont commises lors d'un même événement, l'infraction la plus grave est utilisée dans les données ouvertes.\n\n### Couverture territoriale\n\nLes données couvrent l'ensemble de l'agglomération de Montréal (e.g toute l'île de Montréal)\n\nLe poste de quartier 50 correspond à l'unité en charge du métro. Pour les événements prenant place dans le métro, la localisation est celle de l'édicule concerné ou un point fictif entre deux édicules.\n\n### Dictionnaire de données\n\n- `CATEGORIE` (liste de valeurs) : Nature de l'événement.\n\n    - `Introduction` : introduction par effraction dans un établissement public ou une résidence privée, vol d’arme à feu dans une résidence\n    - `Vol dans / sur véhicule à moteur` : vol du contenu d’un véhicule à moteur (voiture, camion, motocyclette, etc.) ou d’une pièce de véhicule (roue, parechoc, etc.)\n    - `Vol de véhicule à moteur` : vol de voiture, camion, motocyclette, motoneige tracteur avec ou sans remorque, véhicule de construction ou de ferme, tout-terrain\n    - `Méfait` : Graffiti et dommage de biens religieux, de véhicule ou dommage général et tous autres types de méfaits\n    - `Vol qualifié` : Vol accompagné de violence de commerce, institution financière, personne, sac à main, véhicule blindé, véhicule, arme à feu, et tous autres types de vols qualifiés\n    - `Infraction entraînant la mort` : Meurtre au premier degré, meurtre au deuxième degré, homicide involontaire, infanticide, négligence criminelle, et tous autres types d’infractions entraînant la mort\n\n- `DATE` (date) : Date du signalement de l'événement au SPVM au format AAAA-MM-JJ\n- `QUART` (liste de valeurs) : Moment de la journée du signalement de l'événement au SPVM.\n\n    - jour : Entre 8h01 et 16h\n    - soir : Entre 16h01 et minuit\n    - nuit : Entre 00h01 et 8h\n\n- `PDQ` (numérique) : Numéro du poste de quartier couvrant le territoire où s'est passé l'événement. Le territoire couvert par chaque poste est disponible dans l'ensemble de données des [polygones des secteurs du poste de quartier](limites-pdq-spvm)\n- `X` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `Y` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `LATITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84\n- `LONGITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84",
+            "description": "Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).\n\nUn outil de visualisation des données permet également d'afficher sur les données sous forme de carte : [Vue sur la sécurité publique](https://ville.montreal.qc.ca/vuesurlasecuritepublique/)"
+          },
+          {
+            "_id": 3,
+            "id": "frequentation-du-portail-de-donnees-ouvertes",
+            "nom": "Fréquentation du portail de données ouvertes",
+            "date_creation": "2016-04-25T18:03:03.032591",
+            "derniere_modification": "2026-03-04T17:02:48.220440",
+            "unite_administrative": "Service de la planification stratégique et de la performance organisationnelle",
+            "frequence": "quarterly",
+            "nb_fichiers": "3",
+            "format_fichiers": "CSV",
+            "tags": "Analytics, Données ouvertes, Fréquentation, SPSPO, Web",
+            "thematiques": "Gouvernement et finances",
+            "methodologie": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail de données ouvertes.\n\nLes données concernent autant le catalogue de données que les pages de contenu (aide en ligne, billets de blogues, etc.) sont disponibles.\n\nLes données sont disponibles à partir du 25 janvier 2016, date de l'ajout du code Google Analytics sur le portail.\n\n### Dictionnaire de données\t\t\n\n- `id` (Numérique) : Identifiant unique\n- `date` (Date et/ou heure) : Date des visites\n- `path` (Texte variable) : Chemin relatif de la page \n- `title` (Texte variable) : Titre de la page web tel que déclaré dans la balise `title`\n- `sessions` (Numérique) : Nombre de sessions différentes ayant visité la page `path` pour la journée `date`\n- `pageviews` (Numérique) : Nombre d'impression à l'écran pour la page `page` pour la journée `date`\n- `avgSessionDuration` (Numérique) : Durée moyenne des sessions",
+            "description": "Ensemble de données contenant la fréquentation du portail de données ouvertes, à savoir le nombre de visiteurs et de pages vues par jour de l'année."
+          },
+          {
+            "_id": 4,
+            "id": "nombre-telechargment-donnees",
+            "nom": "Téléchargment quotidien des ressources à partir du site des Données ouvertes",
+            "date_creation": "2024-02-29T14:43:17.999320",
+            "derniere_modification": "2026-03-04T17:01:22.105250",
+            "unite_administrative": "Service de la planification stratégique et de la performance organisationnelle",
+            "frequence": "daily",
+            "nb_fichiers": "1",
+            "format_fichiers": "CSV",
+            "tags": "Données ouvertes, SPSPO, Statistiques Web, Téléchargement",
+            "thematiques": "Gouvernement et finances",
+            "methodologie": "Nombre de téléchargements effectués par les usagers du site des données ouvertes de Montréal tel que compilé par l'outil Google Analytics. Ces données excluent les téléchargements effectués à partir de l'API Ckan ainsi que les téléchargements déclenchés sur les sites de nos partenaires tels que Données Québec ou Gouvernement ouvert (Canada). Ces données excluent aussi les téléchargements effectués à partir d'une URL directe. Noter que ces données couvrent presque tous les formats de fichiers disponibles sur le site des données ouvertes, quelques rares formats non connus de Google Analytics en sont exclus.\n\n## Dictionnaire de données\n\n- `date` (date) : Statistique de cette date spécifique pour ce fichier.\n- `pagePath` (texte) : Chemin du répertoire et de la page à partir de laquelle la ressource a été téléchargée.\n- `fileExtension` (liste de valeur) : Extension de fichier du téléchargement.\n- `fileName` (texte) : Nom complet du fichier téléchargé.\n- `eventCount` (numérique) : Nombre de fois où le fichier a été téléchargé pour une date précise.\n ",
+            "description": "Ce jeu de donnée contient la liste des ressources présentes sur le site web des Données ouvertes de Montréal et comptabilise le nombre de fois où ils ont été téléchargés quotidiennement depuis le mois de juillet 2023."
+          },
+          {
+            "_id": 5,
+            "id": "cartographie-de-base",
+            "nom": "Cartographie de base",
+            "date_creation": "2014-08-28T13:34:07.782885",
+            "derniere_modification": "2026-03-04T15:37:36.398075",
+            "unite_administrative": "Service des infrastructures du réseau routier - Division de la géomatique",
+            "frequence": "irregular",
+            "nb_fichiers": "19",
+            "format_fichiers": "WEB, DGN, PDF, DWG, JPEG",
+            "tags": "Base, Carte, Carto, Cartographie, Cartographique, Compilation, Feuillet, Index, SIRR, Usage du sol",
+            "thematiques": "Environnement, ressources naturelles et énergie, Infrastructures",
+            "methodologie": "La photogrammétrie, méthode principale de captage pour les feuillets cartographiques, est l'ensemble des techniques qui permettent de déterminer la forme, les dimensions et la position dans l'espace d'un objet à partir de photographies aériennes. Les qualités géospatiales des différents éléments, et autres informations, sont définis dans le cartouche des cartes.  Les cartes de base sont produites et compilées dans un format de DAO (dessin assisté par ordinateur).\n\n### Qualification des données:\n\nRéférence spatiale:\n\n   - Géoréférence planimétrique : NAD27 ou NAD83 SCRS\n   - Géoréférence altimétrique : C-GVD28 (NMM)\n\nExactitude des éléments modélisés:\n\n   - Par photogrammétrie : planimétrie : ± 30 à 40 cm / altimétrie    : ± 45 à 60 cm\n   - Par autre méthode :   définit dans le cartouche\n\nType de données : Surfacique, vectoriels, ponctuels \n\nDécoupage : Feuillet cartographique 1:1000 (SQRC) ou autre\n \nTraitement:\n\n*  Captage photogrammétrique (VdM)\n*  Autocorrélation et algorithmes\n*  Autres, définis dans le cartouche\n\n### Normes cartographiques:\n\nLe produit \"compilation cartographie de base\" (2015 et à ce jour) est normé suivant les \n[prescriptions du ministère des Transports du Québec actuelles](https://www.transports.gouv.qc.ca/fr/entreprises-partenaires/entreprises-reseaux-routier/guides-formulaires/Pages/arpentage-conception.aspx) et adaptées par la Ville de Montréal. Alors que le MTQ adopte l'usage de préfixe \"P\"= projeté, \"E\"=existant, le comité responsable de la Ville a décidé d'identifier la source productrice des données par un préfixe (ex. CARTO-plage info MTQ) .\n\nLe produit \"cartographie de base numérique\" (2007 et antérieur) est normé suivant les prescriptions du ministère de l'Énergie et des Ressources du gouvernement du Québec édictées en 1984. Les plages d'information utilisées par la Ville de Montréal sont présentées dans la fiche d'information sur le produit disponible en PDF.",
+            "description": "L'ensemble de données cartographiques regroupe les cartes de base de la Ville.\n\nIl s'agit d'une représentation du territoire de la ville de Montréal à grande et moyenne échelles (1:1000, 1:5000, etc).  La présentation de l'occupation du sol est composée d'éléments produits principalement par photogrammétrie et complémentée par diverses techniques, à des dates déterminées. C'est une représentation géométrique et conventionnelle du territoire montréalais en 2D+1 (X, Y + cotes d’altitudes ou courbes de niveaux).\n\nLes principales fins du produit cartographie de base sont la planification du territoire et la concertation publique.\n\nLe découpage des feuillets SQRC 1:1000 est disponible [ici](/ville-de-montreal/quadrillage-sqrc). "
+          }
+        ]
+      },
+      "field_stats": {
+        "id": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_creation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "derniere_modification": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "unite_administrative": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "frequence": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nb_fichiers": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "format_fichiers": {
+          "null_count": 1,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "tags": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "thematiques": {
+          "null_count": 22,
+          "null_pct": 5.5,
+          "populated_pct": 94.5
+        },
+        "methodologie": {
+          "null_count": 11,
+          "null_pct": 2.8,
+          "populated_pct": 97.2
+        },
+        "description": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 397,
+        "total_records": 397,
+        "audited_at": "2026-03-10T00:18:48.154520+00:00",
+        "fields": {
+          "id": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 397,
+            "top_values": [
+              {
+                "value": "rsqa-indice-qualite-air",
+                "count": 1
+              },
+              {
+                "value": "actes-criminels",
+                "count": 1
+              },
+              {
+                "value": "frequentation-du-portail-de-donnees-ouvertes",
+                "count": 1
+              },
+              {
+                "value": "nombre-telechargment-donnees",
+                "count": 1
+              },
+              {
+                "value": "cartographie-de-base",
+                "count": 1
+              },
+              {
+                "value": "requete-311",
+                "count": 1
+              },
+              {
+                "value": "cyclistes",
+                "count": 1
+              },
+              {
+                "value": "remorquages-de-vehicules-genants",
+                "count": 1
+              },
+              {
+                "value": "depistage-entrees-service-plomb",
+                "count": 1
+              },
+              {
+                "value": "statistiques-utilisation-site-web-ville-de-montreal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 397,
+            "top_values": [
+              {
+                "value": "RSQA - indice de la qualité de l'air temps réel (quotidien)",
+                "count": 1
+              },
+              {
+                "value": "Actes criminels",
+                "count": 1
+              },
+              {
+                "value": "Fréquentation du portail de données ouvertes",
+                "count": 1
+              },
+              {
+                "value": "Téléchargment quotidien des ressources à partir du site des Données ouvertes",
+                "count": 1
+              },
+              {
+                "value": "Cartographie de base",
+                "count": 1
+              },
+              {
+                "value": "Demandes de services citoyennes (Requêtes 311)",
+                "count": 1
+              },
+              {
+                "value": "Compteurs cyclistes permanents",
+                "count": 1
+              },
+              {
+                "value": "Remorquages de véhicules entravant les opérations de la Ville de Montréal",
+                "count": 1
+              },
+              {
+                "value": "Résultats du dépistage des entrées de service en plomb réalisé par un Palintest",
+                "count": 1
+              },
+              {
+                "value": "Statistiques d'utilisation du site web de la Ville de Montréal (montreal.ca)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "date_creation": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-10-03T01:05:16.380224",
+            "max_date": "2026-02-26T14:38:37.909316",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "derniere_modification": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-10-22T14:20:45.084307",
+            "max_date": "2026-03-04T22:47:21.183656",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "unite_administrative": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 72,
+            "top_values": [
+              {
+                "value": "Service de l'urbanisme et de la mobilité",
+                "count": 38
+              },
+              {
+                "value": "Service du greffe",
+                "count": 33
+              },
+              {
+                "value": "Service de l'environnement",
+                "count": 28
+              },
+              {
+                "value": "Service de l'eau",
+                "count": 26
+              },
+              {
+                "value": "Service de la concertation des arrondissements et de l'expérience citoyenne",
+                "count": 24
+              },
+              {
+                "value": "Service des grands parcs, du Mont-Royal et des sports",
+                "count": 17
+              },
+              {
+                "value": "Service de la diversité et de l'inclusion sociale",
+                "count": 15
+              },
+              {
+                "value": "Service des infrastructures du réseau routier - Division de la géomatique",
+                "count": 14
+              },
+              {
+                "value": "Service des infrastructures du réseau routier",
+                "count": 14
+              },
+              {
+                "value": "Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "frequence": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "irregular",
+                "count": 169
+              },
+              {
+                "value": "notPlanned",
+                "count": 73
+              },
+              {
+                "value": "annual",
+                "count": 33
+              },
+              {
+                "value": "daily",
+                "count": 28
+              },
+              {
+                "value": "monthly",
+                "count": 28
+              },
+              {
+                "value": "weekly",
+                "count": 23
+              },
+              {
+                "value": "asNeeded",
+                "count": 17
+              },
+              {
+                "value": "quarterly",
+                "count": 15
+              },
+              {
+                "value": "continuous",
+                "count": 5
+              },
+              {
+                "value": "triennial",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nb_fichiers": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 69.0,
+            "mean": 6.4912,
+            "median": 3.0,
+            "unique_count": 35,
+            "field_type_detected": "numeric"
+          },
+          "format_fichiers": {
+            "null_count": 1,
+            "null_pct": 0.3,
+            "unique_count": 131,
+            "top_values": [
+              {
+                "value": "CSV",
+                "count": 92
+              },
+              {
+                "value": "WEB, CSV",
+                "count": 21
+              },
+              {
+                "value": "GeoJSON, SHP",
+                "count": 16
+              },
+              {
+                "value": "SHP, GeoJSON",
+                "count": 16
+              },
+              {
+                "value": "CSV, GeoJSON, SHP",
+                "count": 12
+              },
+              {
+                "value": "XLSX, CSV",
+                "count": 12
+              },
+              {
+                "value": "CSV, PDF",
+                "count": 11
+              },
+              {
+                "value": "CSV, SHP, GeoJSON",
+                "count": 10
+              },
+              {
+                "value": "HTML",
+                "count": 10
+              },
+              {
+                "value": "CSV, XLS",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "tags": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 360,
+            "top_values": [
+              {
+                "value": "Arr., CN-NdG, Contrat, Côte-des-Neiges--Notre-Dame-de-Grâce, Dépense, Fournisseur",
+                "count": 9
+              },
+              {
+                "value": "SG, Élections",
+                "count": 8
+              },
+              {
+                "value": "Cours d eau, Eau, Fleuve Saint-Laurent, SE, Travaux Intercepteur Novembre 2015",
+                "count": 4
+              },
+              {
+                "value": "Habitation, Inspection, Logement, SH, Salubrité",
+                "count": 3
+              },
+              {
+                "value": "Qualité de l air, RSQA, SEnv",
+                "count": 3
+              },
+              {
+                "value": "Occupation du sol, Photographie aérienne, SG",
+                "count": 3
+              },
+              {
+                "value": "Cours d eau, Fleuve, Lac, Qualité de l eau, RSMA, Rivière, SEnv",
+                "count": 3
+              },
+              {
+                "value": "IQA, Pollution, Qualité de l air, RSQA, SEnv",
+                "count": 2
+              },
+              {
+                "value": "SUM, Toponymie",
+                "count": 2
+              },
+              {
+                "value": "DG",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "thematiques": {
+            "null_count": 22,
+            "null_pct": 5.5,
+            "unique_count": 42,
+            "top_values": [
+              {
+                "value": "Gouvernement et finances",
+                "count": 100
+              },
+              {
+                "value": "Environnement, ressources naturelles et énergie",
+                "count": 79
+              },
+              {
+                "value": "Infrastructures",
+                "count": 55
+              },
+              {
+                "value": "Transport",
+                "count": 21
+              },
+              {
+                "value": "Infrastructures, Transport",
+                "count": 20
+              },
+              {
+                "value": "Société et culture",
+                "count": 18
+              },
+              {
+                "value": "Tourisme, sports et loisirs",
+                "count": 11
+              },
+              {
+                "value": "Politiques sociales",
+                "count": 8
+              },
+              {
+                "value": "Infrastructures, Loi, justice et sécurité publique",
+                "count": 7
+              },
+              {
+                "value": "Économie et entreprises",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "methodologie": {
+            "null_count": 11,
+            "null_pct": 2.8,
+            "unique_count": 373,
+            "top_values": [
+              {
+                "value": "La Division intelligence d'affaire sociale et optimisation du Service de la diversité et de l'inclusion sociale a été mandatée afin de réaliser des portraits socio-démographiques sur les différentes thématiques.\n\nLes données utilisées pour produire ces portraits ont été importées à partir de fichiers IVT avec le logiciel Beyond 20/20 et sont disponibles sur la page [Commande personnalisée du recensement 2021](/dataset/commande-personnalisee-recensement-2021). Elles ont ensuite été traitées via le logiciel R et son extension R Markdown. Le traitement des données a principalement consisté en leur structuration et au calcul des pourcentages pour chaque dimension explorée dans les portraits.",
+                "count": 6
+              },
+              {
+                "value": "### Dictionnaire de données\n- `FOURNISSEUR` (Texte variable) : Entreprise qui réalise le contrat.\n- `RÉPARTITITION` (Texte variable) : Pourcentage du contrat payé selon le partage de compétences entre les instances de la ville selon, entre autres, le Règlement sur les dépenses mixtes.\n- `SERVICE` (Liste de valeur) : Service émetteur du contrat.\n- `DIRECTION` (Texte variable) : Direction émettrice du contrat.\n- `NO DE DOSSIER` (Numérique) : Numéro du dossier des instances décisionnelles.\n- `OBJET` (Texte variable) : Nature du contrat.\n- `NO DÉCISION` (Numérique) : Numéro de la résolution de l’instance décisionnelle compétente relative à l’émission du contrat.\n- `DATE SIGNATURE` (Date) : Date de la signature de la résolution.\n- `MONTANT` (Numérique) : Montant du contrat accordé.",
+                "count": 3
+              },
+              {
+                "value": "Le fichier comprend pour chaque contrat : le numéro de bon de commande, la date d'approbation, le nom du fournisseur, le numéro de l'entente d'achat (si applicable), la description et le montant de l'engagement.",
+                "count": 3
+              },
+              {
+                "value": "### Dictionnaire de données\n- `id_rire` (numérique) : Identifiant unique\n- `types` (liste de valeurs) : Type de lieu\n    - immeuble\n    - parc\n    - voie\n    - voieparc\n- `specific` (texte) : Toponyme utilisé\n- `generic` (texte) : Spécification du type\n- `designation_date` (texte) : Date de désignation\n- `history` (texte) : Histoire de la désignation\n- `history_source` (texte) : Source\n- `former_name` (texte) : Ancienne désignation\n- `borough_codes` (texte) : Code d'arrondissement (séparés par un point-virgule lorsque plus d'un)\n- `borough_names` (texte) : Nom de l'arrondissement (séparés par un point-virgule lorsque plus d'un)\n- `title` (texte) : Nom complet (champs `generic` + `specific`)\n- `topic_codes` (texte) : Code numérique de la thématique (séparés par un point-virgule lorsque plus d'un)\n- `topic_names` (texte) : Thématique (séparés par un point-virgule lorsque plus d'un)",
+                "count": 2
+              },
+              {
+                "value": "Le réseau de polylignes de la géobase double est  créé automatiquement par géotraitements à partir des données officielles du réseau routier de la Ville de Montréal représentées par des tronçons de centres de rues sous l'ensemble de la [géobase](http://donnees.montreal.ca/dataset/geobase) sur le portail.  L'ensemble est une représentation approximative des bordures des rues.  Les dimensions ne sont pas exactes, mais elles peuvent être utiles à la représentation graphique ou pour des analyses distinguant les deux côtés d'une route.\n\n### Dictionnaire de données\n\n- COTE_RUE_ID : Clé primaire\n- ID_TRC : Lien avec la géobase\n- ID_VOIE : Lien\n- NOM_VOIE : Spécifique de la toponymie officielle, sans abréviation\n- NOM_VILLE : Nom de la ville\n- DEBUT_ADRESSE : Limite des numéros civiques\n- FIN ADRESSE : Limite des numéros civiques\n- COTE : \"Droit\" ou \"Gauche\"\n- TYPE_F : Type de voie générique de la toponymie officielle, sans abréviation\n- SENS_CIR : Sens de circulation selon le sens de numérisation des tronçons de la [géobase linéaire](/ville-de-montreal/geobase)\n     - 1 -> sens unique dans le sens de la numérisation\n     - -1 -> sens unique dans le sens contraire de la numérisation \n     - 0 -> double sens",
+                "count": 2
+              },
+              {
+                "value": "Les vérifications des conditions des sites hivernaux  sont faites par les contremaîtres en arrondissement. Ceux-ci intègrent les données manuellement dans un outil de la Ville, les fichiers XML sont ensuite automatisés par le Service des technologies de l’information.",
+                "count": 2
+              },
+              {
+                "value": "Le schéma résulte d’un travail de collaboration soutenu des municipalités et des arrondissements de l’agglomération; il s’inscrit dans la poursuite des propositions du Plan métropolitain d’aménagement et de développement (PMAD) de la Communauté métropolitaine de Montréal (CMM) et il intègre les orientations gouvernementales en matière d’aménagement du territoire. Il entraîne l’obligation de la mise en conformité des plans et réglementations d’urbanisme des municipalités reconstituées de l’agglomération ainsi que de ceux de Montréal et de ses arrondissements. \n\nPour plus d’information consulter le [Schéma d’aménagement et de développement de l’agglomération de Montréal](https://montreal.ca/articles/schema-damenagement-et-de-developpement-de-lagglomeration-de-montreal-18112). \n\nLes projections géographiques des données publiées sont :\n\n- Shapefile (SHP) en NAD 83 MTM Zone 8 \n\n- GEOJSON en WGS84 (lat/long)",
+                "count": 2
+              },
+              {
+                "value": "La valeur 50 de cet indice correspond à la limite supérieure acceptable pour chacun des polluants mesurés. L’indice horaire rapporté est le plus élevé des sous-indices calculés pour cinq des polluants mesurés en continu dans les stations du Réseau de surveillance de la qualité de l’air de Montréal.\n\nTrois ressources sont disponibles : IQA détaillé par station, IQA par station et IQA par secteur. La ressource la plus complète, IQA détaillé par station, est agrégée par date, heure et station et le polluant avec la plus grande valeur produit la ressource IQA par station. Puis, la station avec l'IQA le plus élevé pour chaque secteur détermine la ressource IQA par secteur.\n\n## Calcul de l'indice de qualité de l'air\n\nLa valeur de l'indice de la qualité de l’air (IQA) est définie comme suit :\n\n- Bon : De 1 à 25\n- Acceptable : De 26 à 50\n- Mauvais : 51 ou plus\n\nOn calcule l’indice selon cette formule : \n>`Indice = (mesure / norme ou valeur IQA*) x 50`\n\nLe calcul est basé sur le tableau suivant :\n\n| &nbsp; Polluant &nbsp; | &nbsp; Symbole &nbsp; | &nbsp; Type de mesure &nbsp; | Valeur de référence (calcul IQA) |\n|:---:|:---:|:---:| ---:|\n| Dioxyde de soufre | SO<sub>2</sub> | 10 minutes mobiles | 500 µg/m<sup>3</sup> |\n| Monoxyde de carbone | CO | Horaire | 35mg/m<sup>3</sup> |\n| Ozone troposphérique | O<sub>3</sub> | Horaire | 160 µg/m<sup>3</sup> |\n| Dioxyde d'azote | NO<sub>2</sub> | Horaire | 400 µg/m<sup>3</sup> |\n| Particules fines | PM<sub>2,5</sub> | 3 heures mobiles | 35 µg/m<sup>3</sup> |\n\n## Dictionnaire de données\n\n__IQA détaillé par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `polluant` (texte) : Nom du polluant mesuré.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'IQA du polluant.\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par station en temps réel (Quotidien)__\n\n- `stationId` (entier) : Numéro de la [station](https://donnees.montreal.ca/ville-de-montreal/rsqa-liste-des-stations).\n- `adresse` (texte) : Adresse de la station.\n- `latitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `longitude` (coordonnée spatiale) : Selon le référentiel WGS84.\n- `X` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `Y` (coordonnée spatiale) : Selon le référentiel NAD83 / MTM zone 8.\n- `polluant` (texte) : Polluant ayant le plus d'impact dans le calcul de l'IQA.\n    - `CO`: Monoxyde de carbone.\n    - `NO2`: Dioxyde d'azote (NO<sub>2</sub>).\n    - `O3`: Ozone troposphérique (O<sub>3</sub>).\n    - `PM`: Particules fines (PM<sub>2,5</sub>).\n    - `SO2`: Dioxyde de soufre (SO<sub>2</sub>).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure de la récolte de données.\n\n__IQA par secteur en temps réel (Quotidien)__\n\n- `secteur` (texte) : Nom du [secteur](rsqa-secteurs-geographiques).\n- `valeur` (numérique) : Valeur de l'indice de la qualité de l'air (IQA).\n- `date` (date) : Date de la récolte de données.\n- `heure` (heure) : Heure estimée de la récolte de données (selon l'heure à laquelle sont recueillies l'IQA par station et l'IQA détaillé par station en temps réel).",
+                "count": 1
+              },
+              {
+                "value": "## Avertissement \n\n- Les données sont divulguées telles que rapportées au SPVM. Il est normal qu’il existe un écart entre celles-ci et celles compilées officiellement par le Centre canadien de la statistique juridique puisque le statut d’un incident peut être modifié en cours d’enquête.\n- La section méthodologie contient plusieurs éléments importants pour l'interprétation des données.\n\n\n### Vie privée\n\nLes données ont été obfusquées et modifiées pour garantir le respect à la vie privée et la protection des renseignements personnels:\n\n- Localisation : la position géographique de l'événement a été localisée à une des intersections du segment de rue où s'est passé l'événement.\n- Temporalité : le moment de l'événement est représenté par la date et le quart de travail (ou moment de la journée : jour, soir, nuit)  durant lequel l'événement a été enregistré.\n\n### Mise à jour des données\n\n- Les données peuvent évoluer dans le temps; le type d'un événement peut être modifié si des éléments s'ajoutent à la déclaration initiale. De manière générale, ces évolutions ont lieu dans les jours qui suivent la création de l'événement.\n- Les données sont regroupées par année calendaire. Quelques mois après la fin d'année, les données cessent d'être mises à jour (p.ex les données pour 2015 cessent d'être mises à jour à partir d'avril 2016)\n- Lorsque plusieurs infractions sont commises lors d'un même événement, l'infraction la plus grave est utilisée dans les données ouvertes.\n\n### Couverture territoriale\n\nLes données couvrent l'ensemble de l'agglomération de Montréal (e.g toute l'île de Montréal)\n\nLe poste de quartier 50 correspond à l'unité en charge du métro. Pour les événements prenant place dans le métro, la localisation est celle de l'édicule concerné ou un point fictif entre deux édicules.\n\n### Dictionnaire de données\n\n- `CATEGORIE` (liste de valeurs) : Nature de l'événement.\n\n    - `Introduction` : introduction par effraction dans un établissement public ou une résidence privée, vol d’arme à feu dans une résidence\n    - `Vol dans / sur véhicule à moteur` : vol du contenu d’un véhicule à moteur (voiture, camion, motocyclette, etc.) ou d’une pièce de véhicule (roue, parechoc, etc.)\n    - `Vol de véhicule à moteur` : vol de voiture, camion, motocyclette, motoneige tracteur avec ou sans remorque, véhicule de construction ou de ferme, tout-terrain\n    - `Méfait` : Graffiti et dommage de biens religieux, de véhicule ou dommage général et tous autres types de méfaits\n    - `Vol qualifié` : Vol accompagné de violence de commerce, institution financière, personne, sac à main, véhicule blindé, véhicule, arme à feu, et tous autres types de vols qualifiés\n    - `Infraction entraînant la mort` : Meurtre au premier degré, meurtre au deuxième degré, homicide involontaire, infanticide, négligence criminelle, et tous autres types d’infractions entraînant la mort\n\n- `DATE` (date) : Date du signalement de l'événement au SPVM au format AAAA-MM-JJ\n- `QUART` (liste de valeurs) : Moment de la journée du signalement de l'événement au SPVM.\n\n    - jour : Entre 8h01 et 16h\n    - soir : Entre 16h01 et minuit\n    - nuit : Entre 00h01 et 8h\n\n- `PDQ` (numérique) : Numéro du poste de quartier couvrant le territoire où s'est passé l'événement. Le territoire couvert par chaque poste est disponible dans l'ensemble de données des [polygones des secteurs du poste de quartier](limites-pdq-spvm)\n- `X` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `Y` (coordonnées spatiales) : Position géospatiale selon la projection MTM8 (SRID 2950)\n- `LATITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84\n- `LONGITUDE` (coordonnées spatiales) : position géographique de l'événement après obfuscation à une intersection selon le référentiel géodésique WGS84",
+                "count": 1
+              },
+              {
+                "value": "Données obtenues à partir de l'interface programmable (API) du système de suivi Google Analytics pour le portail de données ouvertes.\n\nLes données concernent autant le catalogue de données que les pages de contenu (aide en ligne, billets de blogues, etc.) sont disponibles.\n\nLes données sont disponibles à partir du 25 janvier 2016, date de l'ajout du code Google Analytics sur le portail.\n\n### Dictionnaire de données\t\t\n\n- `id` (Numérique) : Identifiant unique\n- `date` (Date et/ou heure) : Date des visites\n- `path` (Texte variable) : Chemin relatif de la page \n- `title` (Texte variable) : Titre de la page web tel que déclaré dans la balise `title`\n- `sessions` (Numérique) : Nombre de sessions différentes ayant visité la page `path` pour la journée `date`\n- `pageviews` (Numérique) : Nombre d'impression à l'écran pour la page `page` pour la journée `date`\n- `avgSessionDuration` (Numérique) : Durée moyenne des sessions",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "description": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 395,
+            "top_values": [
+              {
+                "value": "Liste des contrats octroyés par les fonctionnaires de l'arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce en vertu du pouvoir délégué.",
+                "count": 3
+              },
+              {
+                "value": "La Ville de Montréal mesure la qualité de l’air sous la forme d’une valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50 minutes après l'heure. Par exemple, les données de 13h sont disponibles vers 13h50, et ce, pour les trois ressources.\n\n***Note :** les systèmes de l'IQA ne changent pas d'heure : ils utilisent toujours l'heure normale de l'Est (HNE) et non l'heure avancée de l'Est (HAE). Ainsi, dans l'exemple ci-dessus, vers 13h50&nbsp;HAE, les données disponibles les plus récentes seront celles de 12h&nbsp;HNE.*\n\nLes valeurs historiques, mises à jour à quotidiennement, sont disponibles [ici](rsqa-iqa-historique).\n\nLa [liste des stations](rsqa-liste-des-stations) et [secteurs](rsqa-secteurs-geographiques) liés aux données du RSQA est également disponible.",
+                "count": 1
+              },
+              {
+                "value": "Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).\n\nUn outil de visualisation des données permet également d'afficher sur les données sous forme de carte : [Vue sur la sécurité publique](https://ville.montreal.qc.ca/vuesurlasecuritepublique/)",
+                "count": 1
+              },
+              {
+                "value": "Ensemble de données contenant la fréquentation du portail de données ouvertes, à savoir le nombre de visiteurs et de pages vues par jour de l'année.",
+                "count": 1
+              },
+              {
+                "value": "Ce jeu de donnée contient la liste des ressources présentes sur le site web des Données ouvertes de Montréal et comptabilise le nombre de fois où ils ont été téléchargés quotidiennement depuis le mois de juillet 2023.",
+                "count": 1
+              },
+              {
+                "value": "L'ensemble de données cartographiques regroupe les cartes de base de la Ville.\n\nIl s'agit d'une représentation du territoire de la ville de Montréal à grande et moyenne échelles (1:1000, 1:5000, etc).  La présentation de l'occupation du sol est composée d'éléments produits principalement par photogrammétrie et complémentée par diverses techniques, à des dates déterminées. C'est une représentation géométrique et conventionnelle du territoire montréalais en 2D+1 (X, Y + cotes d’altitudes ou courbes de niveaux).\n\nLes principales fins du produit cartographie de base sont la planification du territoire et la concertation publique.\n\nLe découpage des feuillets SQRC 1:1000 est disponible [ici](/ville-de-montreal/quadrillage-sqrc).",
+                "count": 1
+              },
+              {
+                "value": "Le présent ensemble de données contient les demandes d'information et les demandes de services soumises à la Ville de Montréal via le système d’appel 311, par courriel et dans les Bureaux Accès Montréal (BAM). Il faut préciser que les demandes de services se subdivisent en trois catégories : les requêtes, les plaintes et les commentaires.\n\nAVERTISSEMENT : Les données contenues dans cet ensemble représentent toutes les demandes soumises qu’il en ai résulté une intervention de la part de la Ville de Montréal ou non. Par ailleurs, il est important de prendre connaissance de la méthodologie puisqu’elle contient des informations quant à la collecte et à la gestion des données nécessaires pour toutes analyses ou interprétations des données.",
+                "count": 1
+              },
+              {
+                "value": "Les jeux de données analysés proviennent de détecteurs de comptage vélo installés sur différents sites par le SUM -DIGD. Ces capteurs enregistrent le nombre de passages de cyclistes à chaque minute, permettant une observation fine de la fréquentation. Sur certains emplacements, les détecteurs fournissent également des données de vitesse, enrichissant l’analyse comportementale. \n\nAfin de faciliter l’interprétation et de dégager des tendances, les données brutes sont agrégées de plusieurs façons :\n### \n* -15min\n* -1hr\n* -quotidien\n* -mensuel\n* -annuel \n\nCette méthodologie permet de suivre l’évolution du trafic cycliste, d’identifier les variations saisonnières et d’évaluer l’impact d’aménagements ou d’événements spécifiques. L’agrégation est réalisée à l’aide de traitements automatisés, garantissant la cohérence des séries temporelles et la qualité des analyses.",
+                "count": 1
+              },
+              {
+                "value": "L'ensemble de données présente une liste des remorquages de véhicules gênants effectués par la Ville de Montréal. Ces remorquages sont effectués, par exemple lors des opérations de déneigement, des travaux ou encore lors d'événements spéciaux.",
+                "count": 1
+              },
+              {
+                "value": "Cet ensemble de données présente les résultats du dépistage par Palintest permettant de détecter la présence ou l’absence d’une entrée d’eau en plomb.\n\nL’eau potable distribuée à Montréal est d’excellente qualité. Toutefois, la tuyauterie de certains bâtiments contient du plomb qui peut se dissoudre et se retrouver dans l'eau du robinet.\n\nPour plus d’information, visitez [montreal.ca et cherchez « plomb »](https://montreal.ca/recherche?q=plomb).",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Données ouvertes",
+    "Inventaire",
+    "Ressource informationnelle",
+    "SPSPO"
+  ],
+  "web_metadata": {
+    "methodology_text": "Données obtenues à partir de l'API de catalogue du site web de données ouvertes.\n\n\nNote sur les dates de création et de modification:\n\n\n- La valeur du champ date de création est lié à la plateforme en place qui a été mise en place en octobre 2013, de ce fait aucun ensemble de données n'a de date antérieure à octobre 2013 même si certains ont été libérés dès 2011.\n\n- La date de modification implique n'importe quelle modification des métadonnées, incluant l'ajout ou la modification d'un fichier sur la plateforme. Toutefois, pour les fichiers hébergés à l'extérieur de la plateforme, par exemple ceux de Stationnement de Montréal, les fichiers sont modifiés directement sur un serveur distant, sans modifier les métadonnées et donc sans affecter la date de dernière modification.\n\n\n### Dictionnaire de données\n\n\n\n- id: identifiant unique;\n\n- nom: nom de l'ensemble de données;\n\n- date_creation: date de création (dans la plateforme actuelle);\n\n- derniere_modification: dernière date de modification;\n\n- unite_administrative: unité administrative en charge de l'ensemble de données;\n\n- frequence: fréquence visée de mise à jour. Liste de valeur du Dublin core;\n\n- nb_fichiers: Nombre de fichiers contenus dans l'ensemble de données;\n\n- format_fichiers: Formats des fichiers contenus dans l'ensemble de données;\n\n- tags:",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2013-11-01 /",
+      "Fréquence de mise à jour": "Trimestriel"
+    },
+    "keywords": [
+      "thematiques: thématiques attribuées à l'ensemble de données;",
+      "methodologie: méthodologie concernant l'ensemble de données;",
+      "description: description de l'ensemble de données.",
+      "Montreal",
+      "agglomeration",
+      "Données ouvertes",
+      "Inventaire",
+      "Ressource informationnelle",
+      "SPSPO"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/ensembles-de-donnees-du-portail-de-donnees-ouvertes",
+    "scraped_at": "2026-03-09T19:57:06.228056+00:00"
+  }
+}

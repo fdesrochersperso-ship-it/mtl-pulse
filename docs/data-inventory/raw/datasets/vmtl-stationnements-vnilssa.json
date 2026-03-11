@@ -1,0 +1,519 @@
+{
+  "slug": "vmtl-stationnements-vnilssa",
+  "title": "Espaces de stationnement des VNILSSA (véhicules non immatriculés en libre-service sans ancrage)",
+  "notes": "Cet ensemble de données présente la localisation géographique des espaces de stationnement autorisés pour les véhicules non immatriculés en libre-service sans ancrage (VNILSSA) sur le territoire de la Ville de Montréal. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-07-29T19:35:24.539662",
+  "metadata_modified": "2025-02-26T17:49:39.446085",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "115a8d97-c37a-4a7e-bebb-7534809a11ff",
+      "name": "Espaces de stationnement des véhicules non immatriculés en libre service sans ancrage",
+      "description": "Fichier au format CSV des espaces de stationnement des véhicules non immatriculés en libre service sans ancrage",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/55a1a627-bc86-4f1c-940e-20131c678021/resource/115a8d97-c37a-4a7e-bebb-7534809a11ff/download/vnilssa-2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-10-17T18:44:02.383008",
+      "created": "2019-07-29T19:36:08.949543",
+      "schema": {
+        "resource_id": "115a8d97-c37a-4a7e-bebb-7534809a11ff",
+        "total_records": 423,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "ID",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Rue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Intersection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Orientation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Type d'espace",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "ID": 1,
+            "Rue": "Entrée Principale Stade",
+            "Intersection": "Gary-Carter",
+            "Orientation": "Nord-Est",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "Type d'espace": "Dégagement de 5m",
+            "Latitude": 45.534183,
+            "Longitude": -73.623679,
+            "X": 295140.30603922,
+            "Y": 5043814.88171208
+          },
+          {
+            "_id": 2,
+            "ID": 2,
+            "Rue": "Mile End",
+            "Intersection": "Gary-Carter",
+            "Orientation": "Sud-Est",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "Type d'espace": "Dégagement de 5m",
+            "Latitude": 45.536122,
+            "Longitude": -73.622312,
+            "X": 295247.40105537,
+            "Y": 5044030.20137971
+          },
+          {
+            "_id": 3,
+            "ID": 3,
+            "Rue": "Gary-Carter",
+            "Intersection": "Devant Les Bornes D'Incendies",
+            "Orientation": "Côté Sud Bi",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "Type d'espace": "Sur rue à +5m",
+            "Latitude": 45.535475,
+            "Longitude": -73.622658,
+            "X": 295220.26851061,
+            "Y": 5043958.34076755
+          },
+          {
+            "_id": 4,
+            "ID": 4,
+            "Rue": "Metro De Castelneau",
+            "Intersection": "Arrière Trottoir",
+            "Orientation": "",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "Type d'espace": "Sur trottoir près des supports à vélo",
+            "Latitude": 45.535258,
+            "Longitude": -73.620052,
+            "X": 295423.76405395,
+            "Y": 5043933.91765231
+          },
+          {
+            "_id": 5,
+            "ID": 5,
+            "Rue": "Metro Jarry",
+            "Intersection": "Arrière Trottoir",
+            "Orientation": "",
+            "Arrondissement": "Villeray–Saint-Michel–Parc-Extension",
+            "Type d'espace": "Sur trottoir",
+            "Latitude": 45.543617,
+            "Longitude": -73.628411,
+            "X": 294772.39996183,
+            "Y": 5044863.8736037
+          }
+        ]
+      },
+      "field_stats": {
+        "ID": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Rue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Intersection": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Orientation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Type d'espace": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 8,
+          "null_pct": 1.9,
+          "populated_pct": 98.1
+        },
+        "Longitude": {
+          "null_count": 8,
+          "null_pct": 1.9,
+          "populated_pct": 98.1
+        },
+        "X": {
+          "null_count": 8,
+          "null_pct": 1.9,
+          "populated_pct": 98.1
+        },
+        "Y": {
+          "null_count": 8,
+          "null_pct": 1.9,
+          "populated_pct": 98.1
+        }
+      },
+      "quality_audit": {
+        "sample_size": 423,
+        "total_records": 423,
+        "audited_at": "2026-03-10T00:28:09.942664+00:00",
+        "fields": {
+          "ID": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 423.0,
+            "mean": 212.0,
+            "median": 212.0,
+            "unique_count": 423,
+            "field_type_detected": "numeric"
+          },
+          "Rue": {
+            "null_count": 11,
+            "null_pct": 2.6,
+            "unique_count": 230,
+            "top_values": [
+              {
+                "value": "Dézéry",
+                "count": 10
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 9
+              },
+              {
+                "value": "Nicolet",
+                "count": 9
+              },
+              {
+                "value": "Souligny",
+                "count": 9
+              },
+              {
+                "value": "Casgrain",
+                "count": 6
+              },
+              {
+                "value": "Berri",
+                "count": 6
+              },
+              {
+                "value": "Desjardins",
+                "count": 6
+              },
+              {
+                "value": "Chambord",
+                "count": 5
+              },
+              {
+                "value": "Moreau",
+                "count": 5
+              },
+              {
+                "value": "Aylwin",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Intersection": {
+            "null_count": 24,
+            "null_pct": 5.7,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "Ste Catherine E",
+                "count": 32
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 25
+              },
+              {
+                "value": "Ontario E",
+                "count": 22
+              },
+              {
+                "value": "Hochelega",
+                "count": 16
+              },
+              {
+                "value": "Monkland",
+                "count": 15
+              },
+              {
+                "value": "Beaubien E",
+                "count": 15
+              },
+              {
+                "value": "Honoré-Beaugrand",
+                "count": 14
+              },
+              {
+                "value": "Jarry E",
+                "count": 12
+              },
+              {
+                "value": "Villeray",
+                "count": 11
+              },
+              {
+                "value": "Ste-Catherine",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Orientation": {
+            "null_count": 26,
+            "null_pct": 6.1,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Nord-Ouest",
+                "count": 110
+              },
+              {
+                "value": "Nord-Est",
+                "count": 106
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 91
+              },
+              {
+                "value": "Sud-Est",
+                "count": 87
+              },
+              {
+                "value": "Côté Sud Bi",
+                "count": 1
+              },
+              {
+                "value": "Ouest",
+                "count": 1
+              },
+              {
+                "value": "Nord",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Mercier-Hochelaga-Maisonneuve",
+                "count": 127
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 101
+              },
+              {
+                "value": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+                "count": 84
+              },
+              {
+                "value": "Villeray–Saint-Michel–Parc-Extension",
+                "count": 44
+              },
+              {
+                "value": "Rosemont—La Petite-Patrie",
+                "count": 37
+              },
+              {
+                "value": "Westmount",
+                "count": 18
+              },
+              {
+                "value": "Parc Jean-Drapeau",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Type d'espace": {
+            "null_count": 91,
+            "null_pct": 21.5,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Dégagement de 5m",
+                "count": 198
+              },
+              {
+                "value": "Dégagement 5 m",
+                "count": 98
+              },
+              {
+                "value": "Sur Saillie de trottoir",
+                "count": 17
+              },
+              {
+                "value": "Hors rue, près des support à vélos",
+                "count": 9
+              },
+              {
+                "value": "Sur trottoir près des supports à vélo",
+                "count": 2
+              },
+              {
+                "value": "Sur Saillie de trottoir et dégagement 5m",
+                "count": 2
+              },
+              {
+                "value": "Sur rue à +5m",
+                "count": 1
+              },
+              {
+                "value": "Sur trottoir",
+                "count": 1
+              },
+              {
+                "value": "Dans le parc près de la station Bixi",
+                "count": 1
+              },
+              {
+                "value": "Hors-rue en arrière trottoir",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Latitude": {
+            "null_count": 8,
+            "null_pct": 1.9,
+            "min": 45.454293,
+            "max": 45.610347,
+            "mean": 45.521042,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 8,
+            "null_pct": 1.9,
+            "min": -73.646353,
+            "max": -73.509733,
+            "mean": -73.579671,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "X": {
+            "null_count": 8,
+            "null_pct": 1.9,
+            "min": 293355.034816,
+            "max": 304040.645583,
+            "mean": 298574.96872,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 8,
+            "null_pct": 1.9,
+            "min": 5034938.738637,
+            "max": 5052271.771839,
+            "mean": 5042350.838141,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Mobilité",
+    "SUM",
+    "Stationnement",
+    "Transport",
+    "Trottinette",
+    "Vélo"
+  ],
+  "web_metadata": {
+    "methodology_text": "Ces données découlent du règlement 19-026 adopté par la Ville de Montréal sur les VNILSSA. Les zones ont été identifiées manuellement à l'aide d'un point à partir des informations transmises de manière distincte par les arrondissements concernés.\n\n\nActuellement, les données de cet ensemble inclue seulement les arrondissements : Côte-des-Neiges–Notre-Dame-de-Grâce, Ville-Marie, Villeray–Saint-Michel–Parc-Extension, Rosemont–La Petite-Patrie, Mercier–Hochelaga-Maisonneuve et la ville liée Westmount. D'autres arrondissements s'ajouteront dans l'avenir.\n\n\nAvertissement : Les données sont fournies à titre indicatif, la position des stationnements est approximative et non-uniforme.\n\n### Dictionnaire de données\n\n\n\n- ID(Numérique) : Identifiant de l'ensemble\n\n- Rue (Texte variable) : Rue ou localisation où se trouve l'espace de stationnement\n\n- Intersection (Texte variable) : Rue à l'intersection de l'espace de stationnement où précision sur la localisation\n\n- Orientation (Texte variable) : Indication sur la position du stationnement à l'intersection, orientation approximative\n\n- Arrondissement (Texte variable) : Arrondissement ou Ville liée où se situe l'espace de stationnement\n\n- Type d'espace (Texte variable) : Type de l'espace de stationnement\n\n- Latitude (Numérique) : Coordonnées (WGS84)\n\n- Longitude (Numérique) : Coordonnées (WGS84)\n\n- X (Numérique) : Coordonnées X (NAD83 MTM8)\n\n- Y (Numérique) : Coordonnées Y (NAD83 MTM8)\n\n\n\nUn enregistrement sans coordonnées indique un espace de stationnement légal en vertu de l'Annexe A du règlement, mais qui n'est pas encore marqué au sol.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    CDN\n    \n    MHM\n    \n    RPP\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2019-08-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Mobilité",
+      "SUM",
+      "Stationnement",
+      "Transport",
+      "Trottinette",
+      "Vélo"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/stationnements-vnilssa",
+    "scraped_at": "2026-03-09T20:22:36.031621+00:00"
+  }
+}

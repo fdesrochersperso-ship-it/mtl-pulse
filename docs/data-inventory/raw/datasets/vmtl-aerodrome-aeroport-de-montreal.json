@@ -1,0 +1,78 @@
+{
+  "slug": "vmtl-aerodrome-aeroport-de-montreal",
+  "title": "Aérodrome (Aéroport de Montréal)",
+  "notes": "Représentation géométrique et conventionnelle des installations aéroportuaires pour des fins de planification. \r\n\r\nLes données géospatiales « aérodrome » sont structurées selon les couches d’informations suivantes:\r\n\r\n- CARTO-VOI-AERODROME-PISTE: Surface définie sur terre destinée à être utilisée, en totalité ou en partie, pour l'arrivée, le départ et les manœuvres des aéronefs.\r\n- CARTO-VOI-AERODROME-STATIONNEMENT: Endroit aménagé, hors piste d’aérodrome, destiné au stationnement d'un certain nombre d’aéronefs.\r\n\r\nCes éléments constituent une partie des calques de la compilation cartographique numérique.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-01-04T16:57:54.472267",
+  "metadata_modified": "2025-02-24T21:51:38.185753",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "dc3a5038-5596-4cb9-955a-95c096d94218",
+      "name": "Aérodrome (2020)",
+      "description": "",
+      "format": "GPKG",
+      "url": "https://donnees.montreal.ca/fr/dataset/da95489c-2938-4075-b467-81415680af7a/resource/dc3a5038-5596-4cb9-955a-95c096d94218/download/aerodrome-2020.gpkg",
+      "datastore_active": false,
+      "size": 258048,
+      "last_modified": "2024-01-04T17:00:23.627191",
+      "created": "2024-01-04T17:00:23.689138",
+      "schema": null
+    },
+    {
+      "id": "3d370ed6-b77e-4810-bb72-c6ed49bdb261",
+      "name": "Aérodrome (2020)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/da95489c-2938-4075-b467-81415680af7a/resource/3d370ed6-b77e-4810-bb72-c6ed49bdb261/download/aerodrome-2020.zip",
+      "datastore_active": false,
+      "size": 89420,
+      "last_modified": "2024-01-04T17:00:46.816439",
+      "created": "2024-01-04T17:00:46.873243",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Aviation",
+    "Avion",
+    "Infrastructure",
+    "SIRR"
+  ],
+  "web_metadata": {
+    "methodology_text": "Source: Photos aériennes de la CMM\n\n\nMise à jour : novembre 2020\n\n\nTraitement:\n\n\n- Nomenclature MTQ adaptée par la Ville de Montréal\n\n- Captage photogrammétrique (Ville de Montréal)\n\n\n## QUALIFICATION DES DONNÉES\n\n\n\nGéoréférence planimétrique : NAD83 SCRS\n\n\nGéoréférence altimétrique : CGVD28 (NMM)\n\n\nExactitude des éléments modélisés:\n\n\n- planimétrie : ± 30 à ± 40 cm\n\n- altimétrie : ± 45 à ± 60 cm\n\n\n## Dictionnaire de données\n\n\n\n- ID (Entier): Numéro identifiant unique\n\n- EQM (Texte): L'erreur quadratique moyenne (EQM) est un indicateur des écarts entre les valeurs réellement observées et les valeurs prédites par le modèle.\n\n- SOURCE (Texte): Éléments servants à produire les données originales.\n\n- TRAITEMENT (Texte): Type de traitement\n\n- DIFFUSEUR (Texte): Unité d'affaires chargé de diffuser cette information\n\n- VERSION (Entier): Indique la version à l'intérieur de l'année de production de cette donnée\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des infrastructures du réseau routier",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Aviation",
+      "Avion",
+      "Infrastructure",
+      "SIRR"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/aerodrome-aeroport-de-montreal",
+    "scraped_at": "2026-03-09T19:51:52.890131+00:00"
+  }
+}

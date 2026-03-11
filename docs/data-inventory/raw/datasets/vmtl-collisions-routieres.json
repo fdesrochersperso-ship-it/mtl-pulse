@@ -1,0 +1,2757 @@
+{
+  "slug": "vmtl-collisions-routieres",
+  "title": "Collisions routières",
+  "notes": "Liste des collisions survenues à Montréal depuis 2012.\r\n\r\nCet ensemble fait état des collisions impliquant au moins un véhicule motorisé circulant sur le réseau et qui ont fait l'objet d'un rapport de police.  Il inclut les éléments descriptifs, contextuels et la localisation des événements, dont la gravité exprimée en décès, blessures graves, blessures légères et dommages matériels seulement.\r\n\r\n### IMPORTANT :\r\n\r\nLe présent ensemble est un sous-ensemble de celui qui était mis en ligne par la  Société de l'assurance automobile du Québec (SAAQ) sur [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/rapports-d-accident) avant décembre 2023.  Il contient l'ensemble des collisions recensées sur le territoire de Montréal, y compris celles dont les dommages matériels seulement (DMS) sont de moins de 2 000 $ comptabilisés par le Service de Police de la Ville de Montréal (SPVM), avec une géolocalisation compilée par la Ville à des fins d'analyses. Les données comptabilisées sous l'ensemble de la Ville ne présentent que les collisions survenues sur le réseau routier sous la fiducie de l'agglomération de Montréal. Les collisions survenues sur le réseau autoroutier sont exclues de ce jeu de données.\r\n\r\nDepuis la révision des données par la SAAQ en décembre 2023, les contenus des 2 plateformes diffèrent pour la période 2012-2021. \r\n\r\nPour toutes les collisions subséquentes à 2021, il est possible de consulter les données mises en lignes par la Société de l'assurance automobile du Québec (SAAQ) sur [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/rapports-d-accident).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "loi-justice-securite-publique",
+      "display_name": "Loi, justice et sécurité publique",
+      "mapped": {}
+    },
+    {
+      "id": "transport",
+      "display_name": "Transport",
+      "mapped": {
+        "name_fr": "Transport",
+        "name_en": "Transport",
+        "icon": "bus"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-11-12T02:39:19.149723",
+  "metadata_modified": "2025-12-04T17:07:48.894805",
+  "num_resources": 8,
+  "resources": [
+    {
+      "id": "52492e26-628a-43c2-ba2f-12488b567fa0",
+      "name": "Visualisation des données",
+      "description": "Visualisation des données",
+      "format": "WEB",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNWZkMzM4OWYtZWZiNy00ZTU3LThkNzItYjIwZTNjZjYyMjZmIiwidCI6IjlmMTVkMmRjLTg3NTMtNGY4My1hYWMyLWE1ODI4OGQzYTRiYyJ9",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T15:30:37.594118",
+      "schema": null
+    },
+    {
+      "id": "05deae93-d9fc-4acb-9779-e0942b5e962f",
+      "name": "Collisions routières ",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/05deae93-d9fc-4acb-9779-e0942b5e962f/download/collisions_routieres.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-10-06T19:26:22.242493",
+      "created": "2019-01-18T20:13:31.430691",
+      "schema": {
+        "resource_id": "05deae93-d9fc-4acb-9779-e0942b5e962f",
+        "total_records": 218272,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO_SEQ_COLL",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "JR_SEMN_ACCDN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DT_ACCDN",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "CD_MUNCP",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_CIVIQ_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "SFX_NO_CIVIQ_ACCDN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "BORNE_KM_ACCDN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "RUE_ACCDN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TP_REPRR_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "ACCDN_PRES_DE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NB_METRE_DIST_ACCD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_GENRE_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_SIT_PRTCE_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ETAT_SURFC",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ECLRM",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ENVRN_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NO_ROUTE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_CATEG_ROUTE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ETAT_CHASS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ASPCT_ROUTE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_LOCLN_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_POSI_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_CONFG_ROUTE",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_ZON_TRAVX_ROUTR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "CD_PNT_CDRNL_ROUTE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CD_PNT_CDRNL_REPRR",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CD_COND_METEO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_VEH_IMPLIQUES_ACCDN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_MORTS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_BLESSES_GRAVES",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_BLESSES_LEGERS",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "HEURE_ACCDN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "AN",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_VICTIMES_TOTAL",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "GRAVITE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "REG_ADM",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MRC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nb_automobile_camion_leger",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_camionLourd_tractRoutier",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_outil_equipement",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_tous_autobus_minibus",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_bicyclette",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_cyclomoteur",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_motocyclette",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_taxi",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_urgence",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_motoneige",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_VHR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_autres_types",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "nb_veh_non_precise",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_DECES_PIETON",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_BLESSES_PIETON",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_VICTIMES_PIETON",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_DECES_MOTO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_BLESSES_MOTO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_VICTIMES_MOTO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_DECES_VELO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_BLESSES_VELO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NB_VICTIMES_VELO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "VITESSE_AUTOR",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LOC_X",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LOC_Y",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LOC_COTE_QD",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_COTE_PD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LOC_DETACHEE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_IMPRECISION",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "LOC_LONG",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "LOC_LAT",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO_SEQ_COLL": "SPVM _ 2012 _ 1",
+            "JR_SEMN_ACCDN": "ME",
+            "DT_ACCDN": "2012-02-01T00:00:00",
+            "CD_MUNCP": 66102,
+            "NO_CIVIQ_ACCDN": 3501,
+            "SFX_NO_CIVIQ_ACCDN": "",
+            "BORNE_KM_ACCDN": "",
+            "RUE_ACCDN": "ST CHARLES",
+            "TP_REPRR_ACCDN": 2,
+            "ACCDN_PRES_DE": "STAT",
+            "NB_METRE_DIST_ACCD": null,
+            "CD_GENRE_ACCDN": 31,
+            "CD_SIT_PRTCE_ACCDN": null,
+            "CD_ETAT_SURFC": 16,
+            "CD_ECLRM": 1,
+            "CD_ENVRN_ACCDN": 1,
+            "NO_ROUTE": null,
+            "CD_CATEG_ROUTE": 21,
+            "CD_ETAT_CHASS": null,
+            "CD_ASPCT_ROUTE": 11,
+            "CD_LOCLN_ACCDN": 33,
+            "CD_POSI_ACCDN": null,
+            "CD_CONFG_ROUTE": 4,
+            "CD_ZON_TRAVX_ROUTR": null,
+            "CD_PNT_CDRNL_ROUTE": "",
+            "CD_PNT_CDRNL_REPRR": "",
+            "CD_COND_METEO": 11,
+            "NB_VEH_IMPLIQUES_ACCDN": 2,
+            "NB_MORTS": 0,
+            "NB_BLESSES_GRAVES": 0,
+            "NB_BLESSES_LEGERS": 0,
+            "HEURE_ACCDN": "Non précisé",
+            "AN": 2012,
+            "NB_VICTIMES_TOTAL": 0,
+            "GRAVITE": "Dommages matériels inférieurs au seuil de rapportage",
+            "REG_ADM": "Montréal(06)",
+            "MRC": "Montréal (66 )",
+            "nb_automobile_camion_leger": 1,
+            "nb_camionLourd_tractRoutier": 0,
+            "nb_outil_equipement": 0,
+            "nb_tous_autobus_minibus": 0,
+            "nb_bicyclette": 0,
+            "nb_cyclomoteur": 0,
+            "nb_motocyclette": 0,
+            "nb_taxi": 0,
+            "nb_urgence": 0,
+            "nb_motoneige": 0,
+            "nb_VHR": 0,
+            "nb_autres_types": 0,
+            "nb_veh_non_precise": 1,
+            "NB_DECES_PIETON": 0,
+            "NB_BLESSES_PIETON": 0,
+            "NB_VICTIMES_PIETON": 0,
+            "NB_DECES_MOTO": 0,
+            "NB_BLESSES_MOTO": 0,
+            "NB_VICTIMES_MOTO": 0,
+            "NB_DECES_VELO": 0,
+            "NB_BLESSES_VELO": 0,
+            "NB_VICTIMES_VELO": 0,
+            "VITESSE_AUTOR": null,
+            "LOC_X": 276517.3795,
+            "LOC_Y": 5035127.484,
+            "LOC_COTE_QD": "A",
+            "LOC_COTE_PD": 3,
+            "LOC_DETACHEE": "O",
+            "LOC_IMPRECISION": "N",
+            "LOC_LONG": -73.861616,
+            "LOC_LAT": 45.455505
+          },
+          {
+            "_id": 2,
+            "NO_SEQ_COLL": "SPVM _ 2012 _ 10",
+            "JR_SEMN_ACCDN": "MA",
+            "DT_ACCDN": "2012-01-03T00:00:00",
+            "CD_MUNCP": 66023,
+            "NO_CIVIQ_ACCDN": null,
+            "SFX_NO_CIVIQ_ACCDN": "",
+            "BORNE_KM_ACCDN": "",
+            "RUE_ACCDN": "TERR VILLE DE MTL",
+            "TP_REPRR_ACCDN": null,
+            "ACCDN_PRES_DE": "",
+            "NB_METRE_DIST_ACCD": null,
+            "CD_GENRE_ACCDN": 31,
+            "CD_SIT_PRTCE_ACCDN": null,
+            "CD_ETAT_SURFC": 11,
+            "CD_ECLRM": null,
+            "CD_ENVRN_ACCDN": null,
+            "NO_ROUTE": null,
+            "CD_CATEG_ROUTE": null,
+            "CD_ETAT_CHASS": null,
+            "CD_ASPCT_ROUTE": null,
+            "CD_LOCLN_ACCDN": null,
+            "CD_POSI_ACCDN": null,
+            "CD_CONFG_ROUTE": null,
+            "CD_ZON_TRAVX_ROUTR": null,
+            "CD_PNT_CDRNL_ROUTE": "",
+            "CD_PNT_CDRNL_REPRR": "",
+            "CD_COND_METEO": 11,
+            "NB_VEH_IMPLIQUES_ACCDN": 2,
+            "NB_MORTS": 0,
+            "NB_BLESSES_GRAVES": 0,
+            "NB_BLESSES_LEGERS": 0,
+            "HEURE_ACCDN": "Non précisé",
+            "AN": 2012,
+            "NB_VICTIMES_TOTAL": 0,
+            "GRAVITE": "Dommages matériels seulement",
+            "REG_ADM": "Montréal(06)",
+            "MRC": "Montréal (66 )",
+            "nb_automobile_camion_leger": 1,
+            "nb_camionLourd_tractRoutier": 0,
+            "nb_outil_equipement": 0,
+            "nb_tous_autobus_minibus": 0,
+            "nb_bicyclette": 0,
+            "nb_cyclomoteur": 0,
+            "nb_motocyclette": 0,
+            "nb_taxi": 0,
+            "nb_urgence": 0,
+            "nb_motoneige": 0,
+            "nb_VHR": 0,
+            "nb_autres_types": 0,
+            "nb_veh_non_precise": 1,
+            "NB_DECES_PIETON": 0,
+            "NB_BLESSES_PIETON": 0,
+            "NB_VICTIMES_PIETON": 0,
+            "NB_DECES_MOTO": 0,
+            "NB_BLESSES_MOTO": 0,
+            "NB_VICTIMES_MOTO": 0,
+            "NB_DECES_VELO": 0,
+            "NB_BLESSES_VELO": 0,
+            "NB_VICTIMES_VELO": 0,
+            "VITESSE_AUTOR": null,
+            "LOC_X": 275209.46185,
+            "LOC_Y": 5038619.3752,
+            "LOC_COTE_QD": "B",
+            "LOC_COTE_PD": 4,
+            "LOC_DETACHEE": "N",
+            "LOC_IMPRECISION": "N",
+            "LOC_LONG": -73.878549,
+            "LOC_LAT": 45.486871
+          },
+          {
+            "_id": 3,
+            "NO_SEQ_COLL": "SPVM _ 2012 _ 100",
+            "JR_SEMN_ACCDN": "VE",
+            "DT_ACCDN": "2012-02-24T00:00:00",
+            "CD_MUNCP": 66023,
+            "NO_CIVIQ_ACCDN": null,
+            "SFX_NO_CIVIQ_ACCDN": "",
+            "BORNE_KM_ACCDN": "",
+            "RUE_ACCDN": "JACQUES BIZARD",
+            "TP_REPRR_ACCDN": 1,
+            "ACCDN_PRES_DE": "CHERRIER",
+            "NB_METRE_DIST_ACCD": null,
+            "CD_GENRE_ACCDN": 31,
+            "CD_SIT_PRTCE_ACCDN": null,
+            "CD_ETAT_SURFC": 11,
+            "CD_ECLRM": 3,
+            "CD_ENVRN_ACCDN": 3,
+            "NO_ROUTE": null,
+            "CD_CATEG_ROUTE": 13,
+            "CD_ETAT_CHASS": null,
+            "CD_ASPCT_ROUTE": 21,
+            "CD_LOCLN_ACCDN": 32,
+            "CD_POSI_ACCDN": null,
+            "CD_CONFG_ROUTE": 1,
+            "CD_ZON_TRAVX_ROUTR": null,
+            "CD_PNT_CDRNL_ROUTE": "",
+            "CD_PNT_CDRNL_REPRR": "E",
+            "CD_COND_METEO": 11,
+            "NB_VEH_IMPLIQUES_ACCDN": 2,
+            "NB_MORTS": 0,
+            "NB_BLESSES_GRAVES": 0,
+            "NB_BLESSES_LEGERS": 0,
+            "HEURE_ACCDN": "02:00:00-02:59:00",
+            "AN": 2012,
+            "NB_VICTIMES_TOTAL": 0,
+            "GRAVITE": "Dommages matériels inférieurs au seuil de rapportage",
+            "REG_ADM": "Montréal(06)",
+            "MRC": "Montréal (66 )",
+            "nb_automobile_camion_leger": 2,
+            "nb_camionLourd_tractRoutier": 0,
+            "nb_outil_equipement": 0,
+            "nb_tous_autobus_minibus": 0,
+            "nb_bicyclette": 0,
+            "nb_cyclomoteur": 0,
+            "nb_motocyclette": 0,
+            "nb_taxi": 0,
+            "nb_urgence": 0,
+            "nb_motoneige": 0,
+            "nb_VHR": 0,
+            "nb_autres_types": 0,
+            "nb_veh_non_precise": 0,
+            "NB_DECES_PIETON": 0,
+            "NB_BLESSES_PIETON": 0,
+            "NB_VICTIMES_PIETON": 0,
+            "NB_DECES_MOTO": 0,
+            "NB_BLESSES_MOTO": 0,
+            "NB_VICTIMES_MOTO": 0,
+            "NB_DECES_VELO": 0,
+            "NB_BLESSES_VELO": 0,
+            "NB_VICTIMES_VELO": 0,
+            "VITESSE_AUTOR": 50,
+            "LOC_X": 275759.079,
+            "LOC_Y": 5039027.153,
+            "LOC_COTE_QD": "A",
+            "LOC_COTE_PD": 1,
+            "LOC_DETACHEE": "N",
+            "LOC_IMPRECISION": "O",
+            "LOC_LONG": -73.871542,
+            "LOC_LAT": 45.490564
+          },
+          {
+            "_id": 4,
+            "NO_SEQ_COLL": "SPVM _ 2012 _ 1000",
+            "JR_SEMN_ACCDN": "JE",
+            "DT_ACCDN": "2012-10-11T00:00:00",
+            "CD_MUNCP": 66142,
+            "NO_CIVIQ_ACCDN": 11800,
+            "SFX_NO_CIVIQ_ACCDN": "",
+            "BORNE_KM_ACCDN": "",
+            "RUE_ACCDN": "BD SALABERRY",
+            "TP_REPRR_ACCDN": null,
+            "ACCDN_PRES_DE": "",
+            "NB_METRE_DIST_ACCD": null,
+            "CD_GENRE_ACCDN": 31,
+            "CD_SIT_PRTCE_ACCDN": null,
+            "CD_ETAT_SURFC": 11,
+            "CD_ECLRM": 1,
+            "CD_ENVRN_ACCDN": 3,
+            "NO_ROUTE": null,
+            "CD_CATEG_ROUTE": 21,
+            "CD_ETAT_CHASS": null,
+            "CD_ASPCT_ROUTE": 11,
+            "CD_LOCLN_ACCDN": 40,
+            "CD_POSI_ACCDN": null,
+            "CD_CONFG_ROUTE": 2,
+            "CD_ZON_TRAVX_ROUTR": null,
+            "CD_PNT_CDRNL_ROUTE": "",
+            "CD_PNT_CDRNL_REPRR": "",
+            "CD_COND_METEO": 11,
+            "NB_VEH_IMPLIQUES_ACCDN": 2,
+            "NB_MORTS": 0,
+            "NB_BLESSES_GRAVES": 0,
+            "NB_BLESSES_LEGERS": 0,
+            "HEURE_ACCDN": "15:00:00-15:59:00",
+            "AN": 2012,
+            "NB_VICTIMES_TOTAL": 0,
+            "GRAVITE": "Dommages matériels seulement",
+            "REG_ADM": "Montréal(06)",
+            "MRC": "Montréal (66 )",
+            "nb_automobile_camion_leger": 2,
+            "nb_camionLourd_tractRoutier": 0,
+            "nb_outil_equipement": 0,
+            "nb_tous_autobus_minibus": 0,
+            "nb_bicyclette": 0,
+            "nb_cyclomoteur": 0,
+            "nb_motocyclette": 0,
+            "nb_taxi": 0,
+            "nb_urgence": 0,
+            "nb_motoneige": 0,
+            "nb_VHR": 0,
+            "nb_autres_types": 0,
+            "nb_veh_non_precise": 0,
+            "NB_DECES_PIETON": 0,
+            "NB_BLESSES_PIETON": 0,
+            "NB_VICTIMES_PIETON": 0,
+            "NB_DECES_MOTO": 0,
+            "NB_BLESSES_MOTO": 0,
+            "NB_VICTIMES_MOTO": 0,
+            "NB_DECES_VELO": 0,
+            "NB_BLESSES_VELO": 0,
+            "NB_VICTIMES_VELO": 0,
+            "VITESSE_AUTOR": null,
+            "LOC_X": 280970.09315,
+            "LOC_Y": 5038347.803,
+            "LOC_COTE_QD": "A",
+            "LOC_COTE_PD": 1,
+            "LOC_DETACHEE": "O",
+            "LOC_IMPRECISION": "N",
+            "LOC_LONG": -73.804841,
+            "LOC_LAT": 45.484648
+          },
+          {
+            "_id": 5,
+            "NO_SEQ_COLL": "SPVM _ 2012 _ 10000",
+            "JR_SEMN_ACCDN": "DI",
+            "DT_ACCDN": "2012-04-22T00:00:00",
+            "CD_MUNCP": 66023,
+            "NO_CIVIQ_ACCDN": 38,
+            "SFX_NO_CIVIQ_ACCDN": "",
+            "BORNE_KM_ACCDN": "",
+            "RUE_ACCDN": "PL DU COMMERCE",
+            "TP_REPRR_ACCDN": null,
+            "ACCDN_PRES_DE": "",
+            "NB_METRE_DIST_ACCD": null,
+            "CD_GENRE_ACCDN": 31,
+            "CD_SIT_PRTCE_ACCDN": null,
+            "CD_ETAT_SURFC": 12,
+            "CD_ECLRM": 1,
+            "CD_ENVRN_ACCDN": 3,
+            "NO_ROUTE": null,
+            "CD_CATEG_ROUTE": 21,
+            "CD_ETAT_CHASS": null,
+            "CD_ASPCT_ROUTE": 11,
+            "CD_LOCLN_ACCDN": 40,
+            "CD_POSI_ACCDN": null,
+            "CD_CONFG_ROUTE": null,
+            "CD_ZON_TRAVX_ROUTR": null,
+            "CD_PNT_CDRNL_ROUTE": "",
+            "CD_PNT_CDRNL_REPRR": "",
+            "CD_COND_METEO": 12,
+            "NB_VEH_IMPLIQUES_ACCDN": 2,
+            "NB_MORTS": 0,
+            "NB_BLESSES_GRAVES": 0,
+            "NB_BLESSES_LEGERS": 0,
+            "HEURE_ACCDN": "15:00:00-15:59:00",
+            "AN": 2012,
+            "NB_VICTIMES_TOTAL": 0,
+            "GRAVITE": "Dommages matériels inférieurs au seuil de rapportage",
+            "REG_ADM": "Montréal(06)",
+            "MRC": "Montréal (66 )",
+            "nb_automobile_camion_leger": 1,
+            "nb_camionLourd_tractRoutier": 0,
+            "nb_outil_equipement": 0,
+            "nb_tous_autobus_minibus": 0,
+            "nb_bicyclette": 0,
+            "nb_cyclomoteur": 0,
+            "nb_motocyclette": 0,
+            "nb_taxi": 0,
+            "nb_urgence": 0,
+            "nb_motoneige": 0,
+            "nb_VHR": 0,
+            "nb_autres_types": 0,
+            "nb_veh_non_precise": 1,
+            "NB_DECES_PIETON": 0,
+            "NB_BLESSES_PIETON": 0,
+            "NB_VICTIMES_PIETON": 0,
+            "NB_DECES_MOTO": 0,
+            "NB_BLESSES_MOTO": 0,
+            "NB_VICTIMES_MOTO": 0,
+            "NB_DECES_VELO": 0,
+            "NB_BLESSES_VELO": 0,
+            "NB_VICTIMES_VELO": 0,
+            "VITESSE_AUTOR": null,
+            "LOC_X": 301391.47638,
+            "LOC_Y": 5036357.3492,
+            "LOC_COTE_QD": "A",
+            "LOC_COTE_PD": 1,
+            "LOC_DETACHEE": "O",
+            "LOC_IMPRECISION": "N",
+            "LOC_LONG": -73.54359,
+            "LOC_LAT": 45.467136
+          }
+        ]
+      },
+      "field_stats": {
+        "NO_SEQ_COLL": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "JR_SEMN_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DT_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CD_MUNCP": {
+          "null_count": 7,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NO_CIVIQ_ACCDN": {
+          "null_count": 124781,
+          "null_pct": 57.2,
+          "populated_pct": 42.8
+        },
+        "SFX_NO_CIVIQ_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "BORNE_KM_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "RUE_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TP_REPRR_ACCDN": {
+          "null_count": 82307,
+          "null_pct": 37.7,
+          "populated_pct": 62.3
+        },
+        "ACCDN_PRES_DE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NB_METRE_DIST_ACCD": {
+          "null_count": 157580,
+          "null_pct": 72.2,
+          "populated_pct": 27.8
+        },
+        "CD_GENRE_ACCDN": {
+          "null_count": 10067,
+          "null_pct": 4.6,
+          "populated_pct": 95.4
+        },
+        "CD_SIT_PRTCE_ACCDN": {
+          "null_count": 213077,
+          "null_pct": 97.6,
+          "populated_pct": 2.4
+        },
+        "CD_ETAT_SURFC": {
+          "null_count": 12760,
+          "null_pct": 5.8,
+          "populated_pct": 94.2
+        },
+        "CD_ECLRM": {
+          "null_count": 12919,
+          "null_pct": 5.9,
+          "populated_pct": 94.1
+        },
+        "CD_ENVRN_ACCDN": {
+          "null_count": 7055,
+          "null_pct": 3.2,
+          "populated_pct": 96.8
+        },
+        "NO_ROUTE": {
+          "null_count": 217550,
+          "null_pct": 99.7,
+          "populated_pct": 0.3
+        },
+        "CD_CATEG_ROUTE": {
+          "null_count": 6355,
+          "null_pct": 2.9,
+          "populated_pct": 97.1
+        },
+        "CD_ETAT_CHASS": {
+          "null_count": 165001,
+          "null_pct": 75.6,
+          "populated_pct": 24.4
+        },
+        "CD_ASPCT_ROUTE": {
+          "null_count": 9917,
+          "null_pct": 4.5,
+          "populated_pct": 95.5
+        },
+        "CD_LOCLN_ACCDN": {
+          "null_count": 17763,
+          "null_pct": 8.1,
+          "populated_pct": 91.9
+        },
+        "CD_POSI_ACCDN": {
+          "null_count": 169056,
+          "null_pct": 77.5,
+          "populated_pct": 22.5
+        },
+        "CD_CONFG_ROUTE": {
+          "null_count": 21972,
+          "null_pct": 10.1,
+          "populated_pct": 89.9
+        },
+        "CD_ZON_TRAVX_ROUTR": {
+          "null_count": 213368,
+          "null_pct": 97.8,
+          "populated_pct": 2.2
+        },
+        "CD_PNT_CDRNL_ROUTE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CD_PNT_CDRNL_REPRR": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CD_COND_METEO": {
+          "null_count": 13602,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "NB_VEH_IMPLIQUES_ACCDN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NB_MORTS": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NB_BLESSES_GRAVES": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 218272,
+        "audited_at": "2026-03-10T00:14:44.960483+00:00",
+        "fields": {
+          "NO_SEQ_COLL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "SPVM _ 2012 _ 1",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 100",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 1000",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10000",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10001",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10002",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10003",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10004",
+                "count": 1
+              },
+              {
+                "value": "SPVM _ 2012 _ 10005",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "JR_SEMN_ACCDN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "VE",
+                "count": 170
+              },
+              {
+                "value": "MA",
+                "count": 153
+              },
+              {
+                "value": "ME",
+                "count": 151
+              },
+              {
+                "value": "JE",
+                "count": 143
+              },
+              {
+                "value": "LU",
+                "count": 142
+              },
+              {
+                "value": "SA",
+                "count": 133
+              },
+              {
+                "value": "DI",
+                "count": 108
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DT_ACCDN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-01-02T00:00:00",
+            "max_date": "2012-12-31T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "CD_MUNCP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 66023.0,
+            "max": 67025.0,
+            "mean": 66034.041,
+            "median": 66023.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "66023",
+                "count": 913
+              },
+              {
+                "value": "66142",
+                "count": 83
+              },
+              {
+                "value": "66102",
+                "count": 1
+              },
+              {
+                "value": "67025",
+                "count": 1
+              },
+              {
+                "value": "66032",
+                "count": 1
+              },
+              {
+                "value": "66097",
+                "count": 1
+              }
+            ]
+          },
+          "NO_CIVIQ_ACCDN": {
+            "null_count": 570,
+            "null_pct": 57.0,
+            "min": 1.0,
+            "max": 30000.0,
+            "mean": 1972.9047,
+            "median": 1240.0,
+            "unique_count": 314,
+            "field_type_detected": "numeric"
+          },
+          "SFX_NO_CIVIQ_ACCDN": {
+            "null_count": 998,
+            "null_pct": 99.8,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "B",
+                "count": 1
+              },
+              {
+                "value": "0",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "BORNE_KM_ACCDN": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "RUE_ACCDN": {
+            "null_count": 103,
+            "null_pct": 10.3,
+            "unique_count": 305,
+            "top_values": [
+              {
+                "value": "WELLINGTON",
+                "count": 47
+              },
+              {
+                "value": "GUY",
+                "count": 22
+              },
+              {
+                "value": "BANNANTYNE",
+                "count": 20
+              },
+              {
+                "value": "PEEL",
+                "count": 20
+              },
+              {
+                "value": "STE CATHERINE O",
+                "count": 18
+              },
+              {
+                "value": "LASALLE",
+                "count": 17
+              },
+              {
+                "value": "DE LA MONTAGNE",
+                "count": 17
+              },
+              {
+                "value": "SHERBROOKE",
+                "count": 16
+              },
+              {
+                "value": "PL DU COMMERCE",
+                "count": 15
+              },
+              {
+                "value": "STE CATHERINE",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "TP_REPRR_ACCDN": {
+            "null_count": 342,
+            "null_pct": 34.2,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.0973,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 594
+              },
+              {
+                "value": "2",
+                "count": 64
+              }
+            ]
+          },
+          "ACCDN_PRES_DE": {
+            "null_count": 298,
+            "null_pct": 29.8,
+            "unique_count": 310,
+            "top_values": [
+              {
+                "value": "RENE LEVESQUE",
+                "count": 21
+              },
+              {
+                "value": "WELLINGTON",
+                "count": 20
+              },
+              {
+                "value": "PEEL",
+                "count": 20
+              },
+              {
+                "value": "BANNANTYNE",
+                "count": 19
+              },
+              {
+                "value": "STE CATHERINE",
+                "count": 17
+              },
+              {
+                "value": "VERDUN",
+                "count": 16
+              },
+              {
+                "value": "MAISONNEUVE",
+                "count": 16
+              },
+              {
+                "value": "UNIVERSITY",
+                "count": 15
+              },
+              {
+                "value": "GUY",
+                "count": 14
+              },
+              {
+                "value": "DE LA MONTAGNE",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "NB_METRE_DIST_ACCD": {
+            "null_count": 670,
+            "null_pct": 67.0,
+            "min": 1.0,
+            "max": 1000.0,
+            "mean": 52.7182,
+            "median": 20.0,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "10",
+                "count": 52
+              },
+              {
+                "value": "20",
+                "count": 44
+              },
+              {
+                "value": "5",
+                "count": 42
+              },
+              {
+                "value": "100",
+                "count": 40
+              },
+              {
+                "value": "50",
+                "count": 34
+              },
+              {
+                "value": "30",
+                "count": 22
+              },
+              {
+                "value": "15",
+                "count": 21
+              },
+              {
+                "value": "25",
+                "count": 14
+              },
+              {
+                "value": "2",
+                "count": 9
+              },
+              {
+                "value": "1",
+                "count": 8
+              }
+            ]
+          },
+          "CD_GENRE_ACCDN": {
+            "null_count": 109,
+            "null_pct": 10.9,
+            "min": 31.0,
+            "max": 99.0,
+            "mean": 32.954,
+            "median": 31.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "31",
+                "count": 741
+              },
+              {
+                "value": "32",
+                "count": 56
+              },
+              {
+                "value": "33",
+                "count": 24
+              },
+              {
+                "value": "49",
+                "count": 12
+              },
+              {
+                "value": "59",
+                "count": 11
+              },
+              {
+                "value": "99",
+                "count": 8
+              },
+              {
+                "value": "40",
+                "count": 8
+              },
+              {
+                "value": "52",
+                "count": 7
+              },
+              {
+                "value": "43",
+                "count": 5
+              },
+              {
+                "value": "50",
+                "count": 5
+              }
+            ]
+          },
+          "CD_SIT_PRTCE_ACCDN": {
+            "null_count": 967,
+            "null_pct": 96.7,
+            "min": 1.0,
+            "max": 9.0,
+            "mean": 5.3636,
+            "median": 3.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "9",
+                "count": 16
+              },
+              {
+                "value": "1",
+                "count": 8
+              },
+              {
+                "value": "3",
+                "count": 7
+              },
+              {
+                "value": "2",
+                "count": 2
+              }
+            ]
+          },
+          "CD_ETAT_SURFC": {
+            "null_count": 89,
+            "null_pct": 8.9,
+            "min": 11.0,
+            "max": 99.0,
+            "mean": 12.5258,
+            "median": 11.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 599
+              },
+              {
+                "value": "12",
+                "count": 175
+              },
+              {
+                "value": "16",
+                "count": 83
+              },
+              {
+                "value": "18",
+                "count": 24
+              },
+              {
+                "value": "15",
+                "count": 13
+              },
+              {
+                "value": "17",
+                "count": 7
+              },
+              {
+                "value": "99",
+                "count": 6
+              },
+              {
+                "value": "13",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 2
+              }
+            ]
+          },
+          "CD_ECLRM": {
+            "null_count": 101,
+            "null_pct": 10.1,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 1.673,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 567
+              },
+              {
+                "value": "3",
+                "count": 261
+              },
+              {
+                "value": "2",
+                "count": 65
+              },
+              {
+                "value": "4",
+                "count": 6
+              }
+            ]
+          },
+          "CD_ENVRN_ACCDN": {
+            "null_count": 44,
+            "null_pct": 4.4,
+            "min": 1.0,
+            "max": 9.0,
+            "mean": 2.8023,
+            "median": 3.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 567
+              },
+              {
+                "value": "2",
+                "count": 320
+              },
+              {
+                "value": "1",
+                "count": 24
+              },
+              {
+                "value": "9",
+                "count": 17
+              },
+              {
+                "value": "7",
+                "count": 15
+              },
+              {
+                "value": "4",
+                "count": 9
+              },
+              {
+                "value": "5",
+                "count": 4
+              }
+            ]
+          },
+          "NO_ROUTE": {
+            "null_count": 994,
+            "null_pct": 99.4,
+            "min": 10.0,
+            "max": 138.0,
+            "mean": 95.1667,
+            "median": 135.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "138",
+                "count": 3
+              },
+              {
+                "value": "132",
+                "count": 1
+              },
+              {
+                "value": "10",
+                "count": 1
+              },
+              {
+                "value": "15",
+                "count": 1
+              }
+            ]
+          },
+          "CD_CATEG_ROUTE": {
+            "null_count": 43,
+            "null_pct": 4.3,
+            "min": 11.0,
+            "max": 29.0,
+            "mean": 14.9728,
+            "median": 14.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "13",
+                "count": 406
+              },
+              {
+                "value": "14",
+                "count": 304
+              },
+              {
+                "value": "21",
+                "count": 152
+              },
+              {
+                "value": "19",
+                "count": 35
+              },
+              {
+                "value": "12",
+                "count": 19
+              },
+              {
+                "value": "22",
+                "count": 12
+              },
+              {
+                "value": "16",
+                "count": 11
+              },
+              {
+                "value": "15",
+                "count": 9
+              },
+              {
+                "value": "11",
+                "count": 7
+              },
+              {
+                "value": "29",
+                "count": 2
+              }
+            ]
+          },
+          "CD_ETAT_CHASS": {
+            "null_count": 854,
+            "null_pct": 85.4,
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 1.0479,
+            "median": 1.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 142
+              },
+              {
+                "value": "2",
+                "count": 3
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "CD_ASPCT_ROUTE": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "min": 11.0,
+            "max": 24.0,
+            "mean": 11.4798,
+            "median": 11.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 797
+              },
+              {
+                "value": "13",
+                "count": 59
+              },
+              {
+                "value": "12",
+                "count": 21
+              },
+              {
+                "value": "21",
+                "count": 15
+              },
+              {
+                "value": "14",
+                "count": 14
+              },
+              {
+                "value": "23",
+                "count": 5
+              },
+              {
+                "value": "24",
+                "count": 2
+              },
+              {
+                "value": "22",
+                "count": 2
+              }
+            ]
+          },
+          "CD_LOCLN_ACCDN": {
+            "null_count": 121,
+            "null_pct": 12.1,
+            "min": 31.0,
+            "max": 99.0,
+            "mean": 40.347,
+            "median": 33.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "32",
+                "count": 302
+              },
+              {
+                "value": "33",
+                "count": 227
+              },
+              {
+                "value": "34",
+                "count": 189
+              },
+              {
+                "value": "99",
+                "count": 94
+              },
+              {
+                "value": "40",
+                "count": 50
+              },
+              {
+                "value": "31",
+                "count": 10
+              },
+              {
+                "value": "39",
+                "count": 4
+              },
+              {
+                "value": "37",
+                "count": 2
+              },
+              {
+                "value": "38",
+                "count": 1
+              }
+            ]
+          },
+          "CD_POSI_ACCDN": {
+            "null_count": 870,
+            "null_pct": 87.0,
+            "min": 2.0,
+            "max": 10.0,
+            "mean": 6.1692,
+            "median": 6.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 109
+              },
+              {
+                "value": "10",
+                "count": 7
+              },
+              {
+                "value": "5",
+                "count": 5
+              },
+              {
+                "value": "7",
+                "count": 4
+              },
+              {
+                "value": "2",
+                "count": 2
+              },
+              {
+                "value": "4",
+                "count": 1
+              },
+              {
+                "value": "8",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              }
+            ]
+          },
+          "CD_CONFG_ROUTE": {
+            "null_count": 138,
+            "null_pct": 13.8,
+            "min": 1.0,
+            "max": 9.0,
+            "mean": 2.4652,
+            "median": 2.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 341
+              },
+              {
+                "value": "2",
+                "count": 266
+              },
+              {
+                "value": "3",
+                "count": 147
+              },
+              {
+                "value": "9",
+                "count": 71
+              },
+              {
+                "value": "5",
+                "count": 24
+              },
+              {
+                "value": "4",
+                "count": 13
+              }
+            ]
+          },
+          "CD_ZON_TRAVX_ROUTR": {
+            "null_count": 982,
+            "null_pct": 98.2,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.5,
+            "median": 1.5,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 9
+              },
+              {
+                "value": "1",
+                "count": 9
+              }
+            ]
+          },
+          "CD_PNT_CDRNL_ROUTE": {
+            "null_count": 999,
+            "null_pct": 99.9,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "S",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CD_PNT_CDRNL_REPRR": {
+            "null_count": 629,
+            "null_pct": 62.9,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 114
+              },
+              {
+                "value": "S",
+                "count": 105
+              },
+              {
+                "value": "O",
+                "count": 86
+              },
+              {
+                "value": "E",
+                "count": 66
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CD_COND_METEO": {
+            "null_count": 92,
+            "null_pct": 9.2,
+            "min": 11.0,
+            "max": 99.0,
+            "mean": 13.3051,
+            "median": 11.0,
+            "unique_count": 9,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "11",
+                "count": 604
+              },
+              {
+                "value": "12",
+                "count": 146
+              },
+              {
+                "value": "14",
+                "count": 74
+              },
+              {
+                "value": "17",
+                "count": 52
+              },
+              {
+                "value": "99",
+                "count": 15
+              },
+              {
+                "value": "18",
+                "count": 7
+              },
+              {
+                "value": "15",
+                "count": 6
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 2
+              }
+            ]
+          },
+          "NB_VEH_IMPLIQUES_ACCDN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 9.0,
+            "mean": 1.946,
+            "median": 2.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 835
+              },
+              {
+                "value": "1",
+                "count": 120
+              },
+              {
+                "value": "3",
+                "count": 30
+              },
+              {
+                "value": "4",
+                "count": 13
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "NB_MORTS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.001,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 999
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "NB_BLESSES_GRAVES": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.005,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 995
+              },
+              {
+                "value": "1",
+                "count": 5
+              }
+            ]
+          },
+          "NB_BLESSES_LEGERS": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "mean": 0.173,
+            "median": 0.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 865
+              },
+              {
+                "value": "1",
+                "count": 106
+              },
+              {
+                "value": "2",
+                "count": 21
+              },
+              {
+                "value": "3",
+                "count": 7
+              },
+              {
+                "value": "4",
+                "count": 1
+              }
+            ]
+          },
+          "HEURE_ACCDN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 25,
+            "top_values": [
+              {
+                "value": "Non précisé",
+                "count": 166
+              },
+              {
+                "value": "16:00:00-16:59:00",
+                "count": 58
+              },
+              {
+                "value": "13:00:00-13:59:00",
+                "count": 58
+              },
+              {
+                "value": "17:00:00-17:59:00",
+                "count": 56
+              },
+              {
+                "value": "14:00:00-14:59:00",
+                "count": 52
+              },
+              {
+                "value": "12:00:00-12:59:00",
+                "count": 50
+              },
+              {
+                "value": "08:00:00-08:59:00",
+                "count": 50
+              },
+              {
+                "value": "15:00:00-15:59:00",
+                "count": 48
+              },
+              {
+                "value": "11:00:00-11:59:00",
+                "count": 44
+              },
+              {
+                "value": "09:00:00-09:59:00",
+                "count": 43
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "AN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2012.0,
+            "max": 2012.0,
+            "mean": 2012.0,
+            "median": 2012.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2012",
+                "count": 1000
+              }
+            ]
+          },
+          "NB_VICTIMES_TOTAL": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "4",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "GRAVITE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Dommages matériels inférieurs au seuil de rapportage",
+                "count": 524
+              },
+              {
+                "value": "Dommages matériels seulement",
+                "count": 337
+              },
+              {
+                "value": "Léger",
+                "count": 133
+              },
+              {
+                "value": "Grave",
+                "count": 5
+              },
+              {
+                "value": "Mortel",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "REG_ADM": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Montréal(06)",
+                "count": 999
+              },
+              {
+                "value": "Montérégie(16)",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "MRC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Montréal (66 )",
+                "count": 999
+              },
+              {
+                "value": "Roussillon (67 )",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nb_automobile_camion_leger": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 9.0,
+            "mean": 1.341,
+            "median": 1.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 574
+              },
+              {
+                "value": "2",
+                "count": 324
+              },
+              {
+                "value": "0",
+                "count": 67
+              },
+              {
+                "value": "3",
+                "count": 27
+              },
+              {
+                "value": "4",
+                "count": 6
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "5",
+                "count": 1
+              }
+            ]
+          },
+          "nb_camionLourd_tractRoutier": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.074,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 928
+              },
+              {
+                "value": "1",
+                "count": 70
+              },
+              {
+                "value": "2",
+                "count": 2
+              }
+            ]
+          },
+          "nb_outil_equipement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.011,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 989
+              },
+              {
+                "value": "1",
+                "count": 11
+              }
+            ]
+          },
+          "nb_tous_autobus_minibus": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.022,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 978
+              },
+              {
+                "value": "1",
+                "count": 22
+              }
+            ]
+          },
+          "nb_bicyclette": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.024,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 976
+              },
+              {
+                "value": "1",
+                "count": 24
+              }
+            ]
+          },
+          "nb_cyclomoteur": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.007,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 994
+              },
+              {
+                "value": "1",
+                "count": 5
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "nb_motocyclette": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.009,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 991
+              },
+              {
+                "value": "1",
+                "count": 9
+              }
+            ]
+          },
+          "nb_taxi": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.061,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 941
+              },
+              {
+                "value": "1",
+                "count": 57
+              },
+              {
+                "value": "2",
+                "count": 2
+              }
+            ]
+          },
+          "nb_urgence": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.034,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 968
+              },
+              {
+                "value": "1",
+                "count": 30
+              },
+              {
+                "value": "2",
+                "count": 2
+              }
+            ]
+          },
+          "nb_motoneige": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "nb_VHR": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.001,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 999
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "nb_autres_types": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.007,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 993
+              },
+              {
+                "value": "1",
+                "count": 7
+              }
+            ]
+          },
+          "nb_veh_non_precise": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.355,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 648
+              },
+              {
+                "value": "1",
+                "count": 349
+              },
+              {
+                "value": "2",
+                "count": 3
+              }
+            ]
+          },
+          "NB_DECES_PIETON": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "NB_BLESSES_PIETON": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 2.0,
+            "mean": 0.047,
+            "median": 0.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 954
+              },
+              {
+                "value": "1",
+                "count": 45
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "NB_VICTIMES_PIETON": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "2",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NB_DECES_MOTO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "NB_BLESSES_MOTO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.002,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 998
+              },
+              {
+                "value": "1",
+                "count": 2
+              }
+            ]
+          },
+          "NB_VICTIMES_MOTO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "1",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "NB_DECES_VELO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 1000
+              }
+            ]
+          },
+          "NB_BLESSES_VELO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.019,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 981
+              },
+              {
+                "value": "1",
+                "count": 19
+              }
+            ]
+          },
+          "NB_VICTIMES_VELO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "0",
+            "max_date": "1",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "VITESSE_AUTOR": {
+            "null_count": 439,
+            "null_pct": 43.9,
+            "min": 10.0,
+            "max": 90.0,
+            "mean": 44.0642,
+            "median": 50.0,
+            "unique_count": 6,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "50",
+                "count": 318
+              },
+              {
+                "value": "40",
+                "count": 163
+              },
+              {
+                "value": "30",
+                "count": 70
+              },
+              {
+                "value": "10",
+                "count": 7
+              },
+              {
+                "value": "20",
+                "count": 2
+              },
+              {
+                "value": "90",
+                "count": 1
+              }
+            ]
+          },
+          "LOC_X": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 275209.4619,
+            "max": 304556.0215,
+            "mean": 297327.6142,
+            "median": 299145.344,
+            "unique_count": 597,
+            "field_type_detected": "numeric"
+          },
+          "LOC_Y": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 5033088.0,
+            "max": 5055802.277,
+            "mean": 5038153.6705,
+            "median": 5039269.393,
+            "unique_count": 597,
+            "field_type_detected": "numeric"
+          },
+          "LOC_COTE_QD": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "A",
+                "count": 947
+              },
+              {
+                "value": "B",
+                "count": 39
+              },
+              {
+                "value": "C",
+                "count": 14
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_COTE_PD": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 1.279,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 830
+              },
+              {
+                "value": "2",
+                "count": 114
+              },
+              {
+                "value": "4",
+                "count": 53
+              },
+              {
+                "value": "3",
+                "count": 3
+              }
+            ]
+          },
+          "LOC_DETACHEE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 806
+              },
+              {
+                "value": "O",
+                "count": 194
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_IMPRECISION": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "N",
+                "count": 983
+              },
+              {
+                "value": "O",
+                "count": 17
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "LOC_LONG": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": -73.8785,
+            "max": -73.5031,
+            "mean": -73.5956,
+            "median": -73.5723,
+            "unique_count": 593,
+            "field_type_detected": "numeric"
+          },
+          "LOC_LAT": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 45.4377,
+            "max": 45.6421,
+            "mean": 45.4832,
+            "median": 45.4933,
+            "unique_count": 591,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "3957364a-f579-4bc4-987a-299708fefd3e",
+      "name": "Collisions routières",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/3957364a-f579-4bc4-987a-299708fefd3e/download/collisions_routieres.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2022-10-06T19:35:44.709822",
+      "created": "2020-08-11T19:58:37.768476",
+      "schema": null
+    },
+    {
+      "id": "5a81f6c5-e3e7-4c0e-9ccf-a4ba2cab77ba",
+      "name": "Collisions routières",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/5a81f6c5-e3e7-4c0e-9ccf-a4ba2cab77ba/download/collisions_routieres.zip",
+      "datastore_active": false,
+      "size": 23302226,
+      "last_modified": "2022-10-06T19:28:44.959972",
+      "created": "2018-11-12T02:41:17.116248",
+      "schema": null
+    },
+    {
+      "id": "9b6f372a-5b0e-4c27-b9c3-fc02616a8261",
+      "name": "Polygones d'analyses aux intersections",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/9b6f372a-5b0e-4c27-b9c3-fc02616a8261/download/polygones_analyses.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2020-05-15T18:46:56.851802",
+      "created": "2019-01-18T20:25:52.379859",
+      "schema": null
+    },
+    {
+      "id": "7a863f93-f297-4ee5-aec5-6f4d1045c955",
+      "name": "Polygones d'analyses aux intersections",
+      "description": "Conteneur zip du shapefile des polygones d'analyse d'intersections sur le territoire de Montréal.\r\n\r\nRéférence géographique: NAD83 MTM zone 8",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/7a863f93-f297-4ee5-aec5-6f4d1045c955/download/polygone_analyse.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-01-18T20:21:02.490041",
+      "created": "2019-01-17T20:37:34.511889",
+      "schema": null
+    },
+    {
+      "id": "f69c656e-9c0c-4763-bb5b-33e5ca46713c",
+      "name": "Dictionnaire de données SAAQ complet (attributs des collisions)",
+      "description": "Dictionnaire de données tel que structuré par la SAAQ (avant décembre 2023) suite à la compilation des informations extraites des rapports d'incidents du SPVM.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/f69c656e-9c0c-4763-bb5b-33e5ca46713c/download/rapports-accident-documentation.pdf",
+      "datastore_active": false,
+      "size": 164437,
+      "last_modified": "2024-10-11T13:52:02.614034",
+      "created": "2018-11-12T03:06:44.463841",
+      "schema": null
+    },
+    {
+      "id": "51a7807e-a8d5-4620-857a-1c5b9c0bbca7",
+      "name": "Dictionnaire de données Montréal (informations de géolocalisation)",
+      "description": "Informations additionnelles détaillant la géolocalisation pour comprendre la structuration de données et la précision de la géographie des collisions.",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/51a7807e-a8d5-4620-857a-1c5b9c0bbca7/download/dictionnaire_travail_donnee_ouverte.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-09-13T14:01:35.748454",
+      "created": "2018-11-12T03:09:00.939317",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Accident",
+    "Collision",
+    "SUM",
+    "Sécurité routière",
+    "Transport",
+    "Vision zéro"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les collisions routières sont colligées par le Service de Police de la Ville de Montréal (SPVM) via des rapports d'accident (R1).  Elles sont ensuite retranscrites et structurées dans une base de données normalisée par la Société de l'assurance automobile du Québec (SAAQ).\n\n\nLes références géographiques des collisions sont le résultat d'un traitement de géomatique basé sur le réseau routier de l'Agglomération de Montréal (exclusion des collisions survenues sur le réseau autoroutier). Les collisions ont été localisées à partir de plusieurs champs du rapport de la SAAQ soit le numéro civique, la rue ou l'intersection. À cette localisation en x et y dans l'espace, des cotes de qualité et de précision ont été ajoutées afin d'exposer si la qualité de l'information de localisation et la précision par rapport au réseau routier sont suffisantes pour obtenir une géolocalisation jugée précise.\n\n\nAfin de comprendre le contexte d'interprétation de la localisation d'une collision à une intersection (généré à partir d'un outil de géolocalisation), un jeu de polygones d'analyse s'appuyant sur le réseau routier de la Ville a été développé. Il peut être utilisé comme référence en superposition à la couche des collisions ou pour des géotraitements aux intersections.\n\n### Mise en garde\n\n\n\nÉtant donné que la géolocalisation des collisions est réalisée de manière automatisée, il est possible de trouver des erreurs de localisation à travers les résultats pour diverses raisons. La Ville de Montréal se dégage donc de toute responsabilité pouvant découler d'erreurs liées aux références géographiques.  Ces dernières sont fournies pour offrir plus de latitude à la compréhension spatiale des collisions.\n\n\nLes collisions des années antérieures à la dernière année peuvent être mises à jour au besoin selon les validations additionnelles effectuées par la SAAQ ou la Ville suite à leur analyse.\n\n## Dictionnaire de données\n\n\n\n**(Voir PDF SAAQ et Ville de Montréal pour plus de détails)**\n\n\n- AN : Année de la collision\n\n- NO_SEQ_COLL : Numéro séquentiel identifiant la collision\n\n- DT_ACCDN : Date de la collision\n\n- HR_ACCDN : Heure de la collision\n\n- JR_SEMN_ACCDN : Jour de la semaine de la date de la collision\n\n- GRAVITE : Gravité de la collision\n\n- NB_MORTS  \n\n- NB_BLESSES_GRAVES  \n\n- NB_BLESSES_LEGERS \n\n- NB_VICTIMES_TOTAL  \n\n- NB_VEH_IMPLIQUES_ACCDN \n\n- NB_DECES_PIETON \n\n- NB_BLESSES_PIETON \n\n- NB_VICTIMES_PIETON  \n\n- NB_DECES_MOTO \n\n- NB_BLESSES_MOTO \n\n- NB_VICTIMES_MOTO\n\n- NB_DECES_VELO \n\n- NB_BLESSES_VELO \n\n- NB_VICTIMES_VELO \n\n- CD_MUNCP : Code géographique de la municipalité où a eu lieu la collision\n\n- REG_ADM : Région administrative du Québec\n\n- MRC : Nom de la municipalité régionale de comté\n\n- NO_CIVIQ_ACCDN : Numéro civique de l’immeuble près du lieu de la collision\n\n- SFX_NO_CIVIQ_ACCDN : Suffixe du numéro civique de l’immeuble\n\n- RUE_ACCDN : Nom de la rue, du rang ou du chemin où la collision est survenue\n\n- TP_REPRR_ACCDN : Type de repère\n\n- ACCDN_PRES_DE : Repère près d’où la collision est survenue\n\n- NO_ROUTE: Numéro de la route où la collision est survenue\n\n- CD_PNT_CDRNL_ROUTE: Direction de la route\n\n- BORNE_KM_ACCDN  : Borne kilométrique\n\n- NB_METRE_DIST_ACCD : Distance en mètres\n\n- CD_PNT_CDRNL_REPRR  : Code du point cardinal\n\n- VITESSE_AUTOR : Vitesse autorisée\n\n- CD_GENRE_ACCDN : Genre de collision\n\n- CD_SIT_PRTCE_ACCDN : Situation particulière survenue lors de la collision\n\n- CD_ETAT_SURFC : État de la surface de roulement lors de la collision\n\n- CD_ECLRM : Éclairement\n\n- CD_ENVRN_ACCDN : Environnement\n\n- CD_CATEG_ROUTE : Catégorie de route\n\n- CD_ETAT_CHASS  : État de la chaussée\n\n- T_ROUTE : Aspect de la route\n\n- CD_LOCLN_ACCDN  : Localisation longitudinale\n\n- CD_POSI_ACCDN : Positionnement\n\n- CD_CONFG_ROUTE : Configuration de la route\n\n- CD_ZON_TRAVX_ROUTR: Indicateur de zone de travaux\n\n- CD_COND_METEO : Conditions météorologiques\n\n- nb_automobile_camion_leger \n\n- nb_camionLourd_tractRoutier \n\n- nb_outil_equipement\n\n- nb_tous_autobus_minibus\n\n- nb_bicyclette\n\n- nb_cyclomoteur \n\n- nb_motocyclette \n\n- nb_taxi\n\n- nb_veh_non_precise \n\n- nb_urgence\n\n- nb_motoneige \n\n- nb_VHR \n\n- nb_autres_types \n\n- LOC_X : Coordonnée X (Nad83 MTM8)\n\n- LOC_Y : Coordonnée Y (Nad83 MTM8)\n\n- LOC_LAT : Latitude (WGS84)\n\n- LOC_LONG : Longitude (WGS84) \n\n- LOC_COTE_QD : Cote de qualité de la donnée\n\n- LOC_COTE_PD  : Cote de précision de la donnée\n\n- LOC_IMPRECISION : Imprécision par rapport à l'intersection \n\n- LOC_DETACHE : Collision rattachée au réseau routier selon traitement de localisation\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    agglomeration\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2012-01-01 / 2021-12-31",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Accident",
+      "Collision",
+      "SUM",
+      "Sécurité routière",
+      "Transport",
+      "Vision zéro"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/collisions-routieres",
+    "scraped_at": "2026-03-09T19:53:44.097005+00:00"
+  }
+}

@@ -1,0 +1,5421 @@
+{
+  "slug": "vmtl-rsma-qualite-de-l-eau-en-rive-qualo",
+  "title": "Qualité de l’eau en rive (QUALO) du réseau de suivi du milieu aquatique (RSMA)",
+  "notes": "Données du programme QUALO, qualité de l’eau en rive du Réseau de suivi du milieu aquatique.\r\n\r\nUne [cartographie interactive](https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/) est également disponible.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-10-10T14:48:04.411907",
+  "metadata_modified": "2026-03-06T23:00:37.699554",
+  "num_resources": 14,
+  "resources": [
+    {
+      "id": "9a744523-a943-48d0-b63c-97615e6b4773",
+      "name": "Visualisation des données",
+      "description": "<a href=\"https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/\" target=\"_blank\" title=\"Carte interactive sur la qualité de l'eau\">Ouvrir la visualisation dans un nouvel onglet</a>",
+      "format": "WEB",
+      "url": "https://experience.arcgis.com/experience/38d7c7bb43da4e2082aa836689d0d318/",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": null,
+      "created": "2020-05-27T20:43:04.854183",
+      "schema": null
+    },
+    {
+      "id": "9136d84a-8273-4777-ad68-9ab05d270322",
+      "name": "Qualité de l’eau en rive (année courante)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/9136d84a-8273-4777-ad68-9ab05d270322/download/rsma-qualo-qualite-eau-rive-annee-courante.csv",
+      "datastore_active": true,
+      "size": 680489,
+      "last_modified": "2025-12-29T21:01:18.716886",
+      "created": "2022-10-25T20:29:11.544192",
+      "schema": {
+        "resource_id": "9136d84a-8273-4777-ad68-9ab05d270322",
+        "total_records": 2060,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "point_echantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "plan_eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "administration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "descrip_longue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "programme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_prog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "station_nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "conductivite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "coliformes_fecaux",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_0_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_1_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_2_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_tot_60h",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "meteo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tournee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "point_echantillonnage": "IBIZ-14",
+            "plan_eau": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "P-n Cap-Saint-Jacques (Pnte-Théorêt)",
+            "descrip_longue": "p-n du Cap-Saint-Jacques, côté est de la pointe Théorêt",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "IBIZ-14   P-n Cap-Saint-Jacques (Pnte-Théorêt)",
+            "date_heure": "2025-05-29T10:30:56",
+            "raison_annulation": null,
+            "temperature": "         15.2",
+            "conductivite": "74",
+            "pH": "7.2",
+            "signe": "=",
+            "coliformes_fecaux": "150",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4696512803949",
+            "longitude": "-73.8992736610209",
+            "x": "273579.9091",
+            "y": "5036713.5489"
+          },
+          {
+            "_id": 2,
+            "point_echantillonnage": "IBIZ-15",
+            "plan_eau": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Parc Terrasse-Sacré-Coeur",
+            "descrip_longue": "parc Terrasse-Sacré-Coeur, tsse Sacré-Coeur, entre les rues Roy et Paquin",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "IBIZ-15   Parc Terrasse-Sacré-Coeur",
+            "date_heure": "2025-05-29T10:48:31",
+            "raison_annulation": null,
+            "temperature": "         14.3",
+            "conductivite": "75",
+            "pH": "7.4",
+            "signe": "=",
+            "coliformes_fecaux": "10",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4803444127321",
+            "longitude": "-73.8796408995944",
+            "x": "275120.6515",
+            "y": "5037894.4369"
+          },
+          {
+            "_id": 3,
+            "point_echantillonnage": "IBIZ-2",
+            "plan_eau": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Parc Denis-Benjamin-Viger",
+            "descrip_longue": "parc Denis-Benjamin-Viger, extrémité de la rue St-Pierre",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "IBIZ-2   Parc Denis-Benjamin-Viger",
+            "date_heure": "2025-05-29T09:16:54",
+            "raison_annulation": null,
+            "temperature": "         14.0",
+            "conductivite": "72",
+            "pH": "7.2",
+            "signe": "=",
+            "coliformes_fecaux": "5",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.4888776849405",
+            "longitude": "-73.8682091986487",
+            "x": "276018.6979",
+            "y": "5038838.5816"
+          },
+          {
+            "_id": 4,
+            "point_echantillonnage": "IBIZ-4",
+            "plan_eau": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Rue Emile",
+            "descrip_longue": "inters. rue Cherrier et rue Émile",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "IBIZ-4   Rue Emile",
+            "date_heure": "2025-05-29T09:28:02",
+            "raison_annulation": null,
+            "temperature": "         14.0",
+            "conductivite": "71",
+            "pH": "7.3",
+            "signe": "=",
+            "coliformes_fecaux": "28",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.503471123684",
+            "longitude": "-73.8617830844244",
+            "x": "276528.3026",
+            "y": "5040458.0733"
+          },
+          {
+            "_id": 5,
+            "point_echantillonnage": "IBIZ-7",
+            "plan_eau": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "P-n Bois-de-l'Île-Bizard (sect. Les rapides)",
+            "descrip_longue": "p-n du Bois-de-l'Île-Bizard, sect. Les rapides, extrémité de la rue Patenaude",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "IBIZ-7   P-n Bois-de-l'Île-Bizard (sect. Les rapides)",
+            "date_heure": "2025-05-29T09:39:45",
+            "raison_annulation": null,
+            "temperature": "         14.0",
+            "conductivite": "71",
+            "pH": "7.2",
+            "signe": "=",
+            "coliformes_fecaux": "8",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "2",
+            "latitude": "45.5186085970379",
+            "longitude": "-73.8639167409405",
+            "x": "276369.1896",
+            "y": "5042141.0632"
+          }
+        ]
+      },
+      "field_stats": {
+        "point_echantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "plan_eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "administration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "descrip_longue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "programme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_prog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "station_nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 2060,
+          "null_pct": 100.0,
+          "populated_pct": 0.0
+        },
+        "temperature": {
+          "null_count": 116,
+          "null_pct": 5.6,
+          "populated_pct": 94.4
+        },
+        "conductivite": {
+          "null_count": 159,
+          "null_pct": 7.7,
+          "populated_pct": 92.3
+        },
+        "pH": {
+          "null_count": 127,
+          "null_pct": 6.2,
+          "populated_pct": 93.8
+        },
+        "signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "coliformes_fecaux": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_0_mm": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_1_mm": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_2_mm": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_tot_60h": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "meteo": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "tournee": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2060,
+        "audited_at": "2026-03-10T00:24:20.268139+00:00",
+        "fields": {
+          "point_echantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "RDP-160",
+                "count": 12
+              },
+              {
+                "value": "RDP-100",
+                "count": 12
+              },
+              {
+                "value": "RDP-110",
+                "count": 12
+              },
+              {
+                "value": "RDP-195",
+                "count": 12
+              },
+              {
+                "value": "RDP-20",
+                "count": 12
+              },
+              {
+                "value": "RDP-220",
+                "count": 12
+              },
+              {
+                "value": "IBIZ-2",
+                "count": 11
+              },
+              {
+                "value": "LSL-8",
+                "count": 11
+              },
+              {
+                "value": "RDP-75",
+                "count": 11
+              },
+              {
+                "value": "RDP-120",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "plan_eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "rivière des Prairies - côté Montréal",
+                "count": 378
+              },
+              {
+                "value": "Lac Saint-Louis",
+                "count": 237
+              },
+              {
+                "value": "Bassin de Laprairie",
+                "count": 158
+              },
+              {
+                "value": "Fleuve Saint-Laurent",
+                "count": 153
+              },
+              {
+                "value": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+                "count": 74
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "administration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 172
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 123
+              },
+              {
+                "value": "L'Île-Bizard-Sainte-Geneviève",
+                "count": 109
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 92
+              },
+              {
+                "value": "Verdun",
+                "count": 83
+              },
+              {
+                "value": "Lachine",
+                "count": 64
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 51
+              },
+              {
+                "value": "Dorval",
+                "count": 47
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 38
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 37
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "Parc de Versailles",
+                "count": 12
+              },
+              {
+                "value": "Rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "Parc Antoine-Faucon",
+                "count": 12
+              },
+              {
+                "value": "Parc Louise-Deschênes",
+                "count": 12
+              },
+              {
+                "value": "Pointe aux Moutons",
+                "count": 12
+              },
+              {
+                "value": "Parc des Anciens-Combattants",
+                "count": 12
+              },
+              {
+                "value": "Parc Denis-Benjamin-Viger",
+                "count": 11
+              },
+              {
+                "value": "Parc Venture",
+                "count": 11
+              },
+              {
+                "value": "P-n du Cap-Saint-Jacques (chalet d'accueil)",
+                "count": 11
+              },
+              {
+                "value": "Parc du Portage",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "descrip_longue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "parc de Versailles, inters. rue Desjardins et rue William",
+                "count": 12
+              },
+              {
+                "value": "extrémité de la rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "parc Antoine-Faucon, extrémité de la rue du Pont",
+                "count": 12
+              },
+              {
+                "value": "parc Louise-Deschênes, extrémité de la 1iere av. N.",
+                "count": 12
+              },
+              {
+                "value": "baie à proximité de la pointe aux Moutons, ch. Senneville, au N. de l'av. Sunset",
+                "count": 12
+              },
+              {
+                "value": "parc des Anciens-Combattants, inters. Rue Rose et boul. Lalande",
+                "count": 12
+              },
+              {
+                "value": "parc Denis-Benjamin-Viger, extrémité de la rue St-Pierre",
+                "count": 11
+              },
+              {
+                "value": "parc Venture, inters. ch. du Bord-du-Lac et voie d'accès à l'aut. 20",
+                "count": 11
+              },
+              {
+                "value": "p-n du Cap-St-Jacques, rampe mise à l'eau, inters. boul. Gouin E. et rue Pilon",
+                "count": 11
+              },
+              {
+                "value": "parc du Portage, extrémité de la rue Bourget",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "programme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Q",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_prog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Q",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "station_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 103,
+            "top_values": [
+              {
+                "value": "RDP-160   Parc de Versailles",
+                "count": 12
+              },
+              {
+                "value": "RDP-100   Rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "RDP-110   Parc Antoine-Faucon",
+                "count": 12
+              },
+              {
+                "value": "RDP-195   Parc Louise-Deschênes",
+                "count": 12
+              },
+              {
+                "value": "RDP-20   Pointe aux Moutons",
+                "count": 12
+              },
+              {
+                "value": "RDP-220   Parc des Anciens-Combattants",
+                "count": 12
+              },
+              {
+                "value": "IBIZ-2   Parc Denis-Benjamin-Viger",
+                "count": 11
+              },
+              {
+                "value": "LSL-8   Parc Venture",
+                "count": 11
+              },
+              {
+                "value": "RDP-75   P-n du Cap-Saint-Jacques (chalet d'accueil)",
+                "count": 11
+              },
+              {
+                "value": "RDP-120   Parc du Portage",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2025-05-20T08:53:53",
+            "max_date": "2025-10-02T09:20:28",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "raison_annulation": {
+            "null_count": 1000,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "temperature": {
+            "null_count": 72,
+            "null_pct": 7.2,
+            "min": 0.0,
+            "max": 28.6,
+            "mean": 18.7754,
+            "median": 19.0,
+            "unique_count": 153,
+            "field_type_detected": "numeric"
+          },
+          "conductivite": {
+            "null_count": 73,
+            "null_pct": 7.3,
+            "min": 8.6,
+            "max": 1072.0,
+            "mean": 150.5511,
+            "median": 112.0,
+            "unique_count": 238,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 83,
+            "null_pct": 8.3,
+            "min": 6.5,
+            "max": 9.3,
+            "mean": 7.7394,
+            "median": 7.7,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7.6",
+                "count": 76
+              },
+              {
+                "value": "7.7",
+                "count": 74
+              },
+              {
+                "value": "7.4",
+                "count": 72
+              },
+              {
+                "value": "7.3",
+                "count": 68
+              },
+              {
+                "value": "7.5",
+                "count": 68
+              },
+              {
+                "value": "8.2",
+                "count": 62
+              },
+              {
+                "value": "8",
+                "count": 59
+              },
+              {
+                "value": "8.1",
+                "count": 56
+              },
+              {
+                "value": "8.3",
+                "count": 55
+              },
+              {
+                "value": "7.8",
+                "count": 54
+              }
+            ]
+          },
+          "signe": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 977
+              },
+              {
+                "value": ">",
+                "count": 16
+              },
+              {
+                "value": "<",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "coliformes_fecaux": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 2.0,
+            "max": 60000.0,
+            "mean": 583.956,
+            "median": 62.5,
+            "unique_count": 151,
+            "field_type_detected": "numeric"
+          },
+          "prec_0_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 11.8,
+            "mean": 0.3362,
+            "median": 0.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 908
+              },
+              {
+                "value": "5",
+                "count": 26
+              },
+              {
+                "value": "4.5",
+                "count": 25
+              },
+              {
+                "value": "0.6",
+                "count": 11
+              },
+              {
+                "value": "0.9",
+                "count": 9
+              },
+              {
+                "value": "1.4",
+                "count": 8
+              },
+              {
+                "value": "4.3",
+                "count": 3
+              },
+              {
+                "value": "11.8",
+                "count": 3
+              },
+              {
+                "value": "1.1",
+                "count": 3
+              },
+              {
+                "value": "1.5",
+                "count": 2
+              }
+            ]
+          },
+          "prec_1_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 82.7,
+            "mean": 3.7233,
+            "median": 0.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 622
+              },
+              {
+                "value": "0.7",
+                "count": 58
+              },
+              {
+                "value": "3.6",
+                "count": 37
+              },
+              {
+                "value": "2.7",
+                "count": 31
+              },
+              {
+                "value": "5.2",
+                "count": 31
+              },
+              {
+                "value": "1",
+                "count": 31
+              },
+              {
+                "value": "8.6",
+                "count": 31
+              },
+              {
+                "value": "4.5",
+                "count": 31
+              },
+              {
+                "value": "4.4",
+                "count": 31
+              },
+              {
+                "value": "82.7",
+                "count": 31
+              }
+            ]
+          },
+          "prec_2_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 82.7,
+            "mean": 3.9876,
+            "median": 0.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 584
+              },
+              {
+                "value": "14.8",
+                "count": 58
+              },
+              {
+                "value": "8.2",
+                "count": 58
+              },
+              {
+                "value": "2.7",
+                "count": 40
+              },
+              {
+                "value": "0.7",
+                "count": 37
+              },
+              {
+                "value": "5.2",
+                "count": 37
+              },
+              {
+                "value": "5.3",
+                "count": 31
+              },
+              {
+                "value": "0.9",
+                "count": 31
+              },
+              {
+                "value": "0.6",
+                "count": 31
+              },
+              {
+                "value": "8.5",
+                "count": 27
+              }
+            ]
+          },
+          "prec_tot_60h": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 82.7,
+            "mean": 8.0471,
+            "median": 3.6,
+            "unique_count": 24,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 401
+              },
+              {
+                "value": "15.5",
+                "count": 58
+              },
+              {
+                "value": "8.2",
+                "count": 58
+              },
+              {
+                "value": "5.1",
+                "count": 56
+              },
+              {
+                "value": "82.7",
+                "count": 48
+              },
+              {
+                "value": "3.6",
+                "count": 45
+              },
+              {
+                "value": "0.7",
+                "count": 37
+              },
+              {
+                "value": "5.2",
+                "count": 37
+              },
+              {
+                "value": "5.9",
+                "count": 34
+              },
+              {
+                "value": "9.5",
+                "count": 32
+              }
+            ]
+          },
+          "meteo": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.296,
+            "median": -1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 401
+              },
+              {
+                "value": "-1",
+                "count": 317
+              },
+              {
+                "value": "-2",
+                "count": 190
+              },
+              {
+                "value": "0",
+                "count": 92
+              }
+            ]
+          },
+          "tournee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 20.0,
+            "mean": 6.832,
+            "median": 5.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 103
+              },
+              {
+                "value": "3",
+                "count": 103
+              },
+              {
+                "value": "1",
+                "count": 103
+              },
+              {
+                "value": "4",
+                "count": 103
+              },
+              {
+                "value": "5",
+                "count": 103
+              },
+              {
+                "value": "6",
+                "count": 103
+              },
+              {
+                "value": "7",
+                "count": 103
+              },
+              {
+                "value": "19",
+                "count": 96
+              },
+              {
+                "value": "9",
+                "count": 80
+              },
+              {
+                "value": "8",
+                "count": 43
+              }
+            ]
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.40225,
+            "max": 45.70239,
+            "mean": 45.510212,
+            "pct_in_montreal_bbox": 98.2,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.969715,
+            "max": -73.478219,
+            "mean": -73.711138,
+            "pct_in_montreal_bbox": 87.5,
+            "field_type_detected": "geo_longitude"
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 268038.4788,
+            "max": 306496.1578,
+            "mean": 288290.041416,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029242.5574,
+            "max": 5062500.9486,
+            "mean": 5041177.323492,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "bd5219d1-9cef-43a1-abf8-076a85b67826",
+      "name": "Qualité de l’eau en rive (année courante)",
+      "description": "",
+      "format": "GEO",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/bd5219d1-9cef-43a1-abf8-076a85b67826/download/rsma-qualo-qualite-eau-rive-annee-courante.geojson",
+      "datastore_active": false,
+      "size": 1711250,
+      "last_modified": "2025-12-29T21:01:42.069777",
+      "created": "2022-10-25T20:44:07.093283",
+      "schema": null
+    },
+    {
+      "id": "38793fe2-c90a-4500-95e0-b026b94661bf",
+      "name": "Qualité de l’eau en rive (historique depuis 2012)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/38793fe2-c90a-4500-95e0-b026b94661bf/download/rsma-qualo-qualite-eau-rive-depuis-2012.csv",
+      "datastore_active": true,
+      "size": 9432024,
+      "last_modified": "2026-03-06T21:01:09.021777",
+      "created": "2022-10-25T20:31:05.421286",
+      "schema": {
+        "resource_id": "38793fe2-c90a-4500-95e0-b026b94661bf",
+        "total_records": 28391,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "point_echantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "plan_eau",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "administration",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "descrip_longue",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "programme",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sous_prog",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "station_nom",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date_heure",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "raison_annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "temperature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "conductivite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "coliformes_fecaux",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_0_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_1_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_2_mm",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "prec_tot_60h",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "meteo",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "tournee",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "x",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "y",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "point_echantillonnage": "RDP-100",
+            "plan_eau": "rivière des Prairies - côté Montréal",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Rue Beaulieu",
+            "descrip_longue": "extrémité de la rue Beaulieu",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "RDP-100   Rue Beaulieu",
+            "date_heure": "2017-08-21T10:22:32",
+            "raison_annulation": null,
+            "temperature": "         23.4",
+            "conductivite": "115",
+            "pH": "8.4",
+            "signe": "=",
+            "coliformes_fecaux": "44",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "14",
+            "latitude": "45.4727244286616",
+            "longitude": "-73.8776469355865",
+            "x": "275272.555",
+            "y": "5037046.894"
+          },
+          {
+            "_id": 2,
+            "point_echantillonnage": "RDP-110",
+            "plan_eau": "rivière des Prairies - côté Montréal",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Parc Antoine-Faucon",
+            "descrip_longue": "parc Antoine-Faucon, extrémité de la rue du Pont",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "RDP-110   Parc Antoine-Faucon",
+            "date_heure": "2017-08-21T10:30:49",
+            "raison_annulation": null,
+            "temperature": "         22.7",
+            "conductivite": "109",
+            "pH": "7.7",
+            "signe": "=",
+            "coliformes_fecaux": "2",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "14",
+            "latitude": "45.4858662338675",
+            "longitude": "-73.8690574603324",
+            "x": "275950.8558",
+            "y": "5038504.2228"
+          },
+          {
+            "_id": 3,
+            "point_echantillonnage": "RDP-120",
+            "plan_eau": "rivière des Prairies - côté Montréal",
+            "administration": "L'Île-Bizard-Sainte-Geneviève",
+            "nom": "Parc du Portage",
+            "descrip_longue": "parc du Portage, extrémité de la rue Bourget",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "RDP-120   Parc du Portage",
+            "date_heure": "2017-08-21T10:38:17",
+            "raison_annulation": null,
+            "temperature": "         23.2",
+            "conductivite": "111",
+            "pH": "7.7",
+            "signe": "=",
+            "coliformes_fecaux": "16",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "14",
+            "latitude": "45.4877722408811",
+            "longitude": "-73.8633425794652",
+            "x": "276398.5446",
+            "y": "5038714.0016"
+          },
+          {
+            "_id": 4,
+            "point_echantillonnage": "RDP-140",
+            "plan_eau": "rivière des Prairies - côté Montréal",
+            "administration": "Pierrefonds-Roxboro",
+            "nom": "Parc de la Rive-Boisée",
+            "descrip_longue": "parc de la Rive-Boisée, ch. Rive-Boisée, au sud de la rue David",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "RDP-140   Parc de la Rive-Boisée",
+            "date_heure": "2017-08-21T10:49:49",
+            "raison_annulation": null,
+            "temperature": "         22.0",
+            "conductivite": "176",
+            "pH": "7.6",
+            "signe": "=",
+            "coliformes_fecaux": "3000",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "14",
+            "latitude": "45.498715312948",
+            "longitude": "-73.8549270265629",
+            "x": "277061.7369",
+            "y": "5039927.1678"
+          },
+          {
+            "_id": 5,
+            "point_echantillonnage": "RDP-150",
+            "plan_eau": "rivière des Prairies - côté Montréal",
+            "administration": "Pierrefonds-Roxboro",
+            "nom": "Rue du Bocage",
+            "descrip_longue": "extrémité de la rue du Bocage",
+            "programme": "Q",
+            "sous_prog": "Q",
+            "station_nom": "RDP-150   Rue du Bocage",
+            "date_heure": "2017-08-21T10:56:27",
+            "raison_annulation": null,
+            "temperature": "         23.6",
+            "conductivite": "115",
+            "pH": "8.1",
+            "signe": "=",
+            "coliformes_fecaux": "1100",
+            "prec_0_mm": "0",
+            "prec_1_mm": "0",
+            "prec_2_mm": "0",
+            "prec_tot_60h": "0",
+            "meteo": "1",
+            "tournee": "14",
+            "latitude": "45.4995266862813",
+            "longitude": "-73.8582499475153",
+            "x": "276802.4461",
+            "y": "5040018.4888"
+          }
+        ]
+      },
+      "field_stats": {
+        "point_echantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "plan_eau": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "administration": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "descrip_longue": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "programme": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "sous_prog": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "station_nom": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date_heure": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "raison_annulation": {
+          "null_count": 28335,
+          "null_pct": 99.8,
+          "populated_pct": 0.2
+        },
+        "temperature": {
+          "null_count": 231,
+          "null_pct": 0.8,
+          "populated_pct": 99.2
+        },
+        "conductivite": {
+          "null_count": 258,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "pH": {
+          "null_count": 229,
+          "null_pct": 0.8,
+          "populated_pct": 99.2
+        },
+        "signe": {
+          "null_count": 54,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "coliformes_fecaux": {
+          "null_count": 56,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "prec_0_mm": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_1_mm": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_2_mm": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "prec_tot_60h": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "meteo": {
+          "null_count": 3,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "tournee": {
+          "null_count": 2,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "x": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 28391,
+        "audited_at": "2026-03-10T00:24:21.448691+00:00",
+        "fields": {
+          "point_echantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "RDP-190",
+                "count": 13
+              },
+              {
+                "value": "RDP-320",
+                "count": 13
+              },
+              {
+                "value": "RDP-35",
+                "count": 13
+              },
+              {
+                "value": "RDP-100",
+                "count": 12
+              },
+              {
+                "value": "RDP-250",
+                "count": 12
+              },
+              {
+                "value": "RDP-350",
+                "count": 12
+              },
+              {
+                "value": "RDP-360",
+                "count": 12
+              },
+              {
+                "value": "RDP-380",
+                "count": 12
+              },
+              {
+                "value": "RDP-440",
+                "count": 12
+              },
+              {
+                "value": "RDP-480",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "plan_eau": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "rivière des Prairies - côté Montréal",
+                "count": 380
+              },
+              {
+                "value": "Lac Saint-Louis",
+                "count": 256
+              },
+              {
+                "value": "Fleuve Saint-Laurent",
+                "count": 153
+              },
+              {
+                "value": "Bassin de Laprairie",
+                "count": 143
+              },
+              {
+                "value": "Marécage de l'île Bizard (parc-nature du Cap-Saint-Jacques)",
+                "count": 68
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "administration": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 18,
+            "top_values": [
+              {
+                "value": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "count": 183
+              },
+              {
+                "value": "Pierrefonds-Roxboro",
+                "count": 127
+              },
+              {
+                "value": "L'Île-Bizard-Sainte-Geneviève",
+                "count": 102
+              },
+              {
+                "value": "Ahuntsic-Cartierville",
+                "count": 88
+              },
+              {
+                "value": "Lachine",
+                "count": 72
+              },
+              {
+                "value": "Verdun",
+                "count": 69
+              },
+              {
+                "value": "Beaconsfield",
+                "count": 52
+              },
+              {
+                "value": "Dorval",
+                "count": 52
+              },
+              {
+                "value": "Sainte-Anne-de-Bellevue",
+                "count": 41
+              },
+              {
+                "value": "Senneville",
+                "count": 34
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "Parc de l'Île de Roxboro",
+                "count": 13
+              },
+              {
+                "value": "Parc de la Merci",
+                "count": 13
+              },
+              {
+                "value": "Baie Forget",
+                "count": 13
+              },
+              {
+                "value": "Rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "P-n du Bois-de-Liesse",
+                "count": 12
+              },
+              {
+                "value": "Parc Gouin (Sophie-Barrat)",
+                "count": 12
+              },
+              {
+                "value": "P-n de l'Île-de-la-Visitation (pont)",
+                "count": 12
+              },
+              {
+                "value": "Parc Aimé-Léonard",
+                "count": 12
+              },
+              {
+                "value": "Parc André-Corbeil-Dit-Tranchemontagne",
+                "count": 12
+              },
+              {
+                "value": "Parc du Cheval-Blanc",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "descrip_longue": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "parc de l'Île de Roxboro, extrémité de la 5e av. N.",
+                "count": 13
+              },
+              {
+                "value": "parc de la Merci, boul. Gouin O. et rue de Salaberry",
+                "count": 13
+              },
+              {
+                "value": "baie Forget, ch. Senneville, à l'ouest de l'av. Phillips",
+                "count": 13
+              },
+              {
+                "value": "extrémité de la rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "parc-nature du Bois-de-Liesse, av. Oakridge, au nord du boul. Gouin O.",
+                "count": 12
+              },
+              {
+                "value": "parc Gouin (Sophie-Barat), av. saint-Charles et av. Park Stanley",
+                "count": 12
+              },
+              {
+                "value": "p-n de l'Île-de-la-Visitation, pont piétonnier, boul. Gouin E. et rue de Lille",
+                "count": 12
+              },
+              {
+                "value": "parc Aimé-Léonard, inters. boul. Albert-Brosseau et rue Savard",
+                "count": 12
+              },
+              {
+                "value": "parc André-Corbeil-dit-Tranchemontagne, inters. boul. Gouin E. et 28e av.",
+                "count": 12
+              },
+              {
+                "value": "parc du Cheval-Blanc, boul. Gouin E., à l'est de la 68e av.",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "programme": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Q",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "sous_prog": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "Q",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "station_nom": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 105,
+            "top_values": [
+              {
+                "value": "RDP-190   Parc de l'Île de Roxboro",
+                "count": 13
+              },
+              {
+                "value": "RDP-320   Parc de la Merci",
+                "count": 13
+              },
+              {
+                "value": "RDP-35   Baie Forget",
+                "count": 13
+              },
+              {
+                "value": "RDP-100   Rue Beaulieu",
+                "count": 12
+              },
+              {
+                "value": "RDP-250   P-n du Bois-de-Liesse",
+                "count": 12
+              },
+              {
+                "value": "RDP-350   Parc Gouin (Sophie-Barrat)",
+                "count": 12
+              },
+              {
+                "value": "RDP-360   P-n de l'Île-de-la-Visitation (pont)",
+                "count": 12
+              },
+              {
+                "value": "RDP-380   Parc Aimé-Léonard",
+                "count": 12
+              },
+              {
+                "value": "RDP-440   Parc André-Corbeil-Dit-Tranchemontagne",
+                "count": 12
+              },
+              {
+                "value": "RDP-480   Parc du Cheval-Blanc",
+                "count": 12
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "date_heure": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-05-21T17:29:57",
+            "max_date": "2020-07-15T15:05:29",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "raison_annulation": {
+            "null_count": 996,
+            "null_pct": 99.6,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "À sec",
+                "count": 2
+              },
+              {
+                "value": "Inaccessible",
+                "count": 1
+              },
+              {
+                "value": "Annulé par le laboratoire",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "temperature": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 13.7,
+            "max": 34.2,
+            "mean": 22.3552,
+            "median": 22.8,
+            "unique_count": 164,
+            "field_type_detected": "numeric"
+          },
+          "conductivite": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 63.0,
+            "max": 1353.0,
+            "mean": 201.6526,
+            "median": 187.5,
+            "unique_count": 265,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 5,
+            "null_pct": 0.5,
+            "min": 3.0,
+            "max": 10.1,
+            "mean": 8.3783,
+            "median": 8.4,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "signe": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 950
+              },
+              {
+                "value": "<",
+                "count": 42
+              },
+              {
+                "value": ">",
+                "count": 4
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "coliformes_fecaux": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 2.0,
+            "max": 60000.0,
+            "mean": 487.2038,
+            "median": 44.0,
+            "unique_count": 142,
+            "field_type_detected": "numeric"
+          },
+          "prec_0_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 34.9,
+            "mean": 1.9942,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 872
+              },
+              {
+                "value": "11.1",
+                "count": 32
+              },
+              {
+                "value": "0.8",
+                "count": 28
+              },
+              {
+                "value": "34.6",
+                "count": 17
+              },
+              {
+                "value": "34.9",
+                "count": 13
+              },
+              {
+                "value": "17.1",
+                "count": 11
+              },
+              {
+                "value": "11",
+                "count": 10
+              },
+              {
+                "value": "16.9",
+                "count": 6
+              },
+              {
+                "value": "15.4",
+                "count": 6
+              },
+              {
+                "value": "14.4",
+                "count": 3
+              }
+            ]
+          },
+          "prec_1_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 25.9,
+            "mean": 2.4023,
+            "median": 0.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 700
+              },
+              {
+                "value": "5.2",
+                "count": 58
+              },
+              {
+                "value": "0.8",
+                "count": 31
+              },
+              {
+                "value": "11.1",
+                "count": 31
+              },
+              {
+                "value": "0.7",
+                "count": 29
+              },
+              {
+                "value": "4.6",
+                "count": 28
+              },
+              {
+                "value": "4.9",
+                "count": 27
+              },
+              {
+                "value": "21.8",
+                "count": 22
+              },
+              {
+                "value": "25.9",
+                "count": 19
+              },
+              {
+                "value": "3.1",
+                "count": 16
+              }
+            ]
+          },
+          "prec_2_mm": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 34.9,
+            "mean": 2.2943,
+            "median": 0.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 694
+              },
+              {
+                "value": "1.9",
+                "count": 58
+              },
+              {
+                "value": "5.2",
+                "count": 37
+              },
+              {
+                "value": "3.1",
+                "count": 33
+              },
+              {
+                "value": "1.5",
+                "count": 32
+              },
+              {
+                "value": "5.3",
+                "count": 31
+              },
+              {
+                "value": "4.6",
+                "count": 31
+              },
+              {
+                "value": "34.9",
+                "count": 27
+              },
+              {
+                "value": "3.2",
+                "count": 27
+              },
+              {
+                "value": "14.1",
+                "count": 18
+              }
+            ]
+          },
+          "prec_tot_60h": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 40.3,
+            "mean": 6.6908,
+            "median": 0.7,
+            "unique_count": 25,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 472
+              },
+              {
+                "value": "7.1",
+                "count": 58
+              },
+              {
+                "value": "3.1",
+                "count": 49
+              },
+              {
+                "value": "5.2",
+                "count": 37
+              },
+              {
+                "value": "14.1",
+                "count": 33
+              },
+              {
+                "value": "12.6",
+                "count": 32
+              },
+              {
+                "value": "5.3",
+                "count": 31
+              },
+              {
+                "value": "11.1",
+                "count": 31
+              },
+              {
+                "value": "5.4",
+                "count": 29
+              },
+              {
+                "value": "0.7",
+                "count": 29
+              }
+            ]
+          },
+          "meteo": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.076,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 470
+              },
+              {
+                "value": "-1",
+                "count": 236
+              },
+              {
+                "value": "-2",
+                "count": 155
+              },
+              {
+                "value": "0",
+                "count": 139
+              }
+            ]
+          },
+          "tournee": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 14.0,
+            "mean": 6.159,
+            "median": 6.0,
+            "unique_count": 13,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 186
+              },
+              {
+                "value": "1",
+                "count": 152
+              },
+              {
+                "value": "7",
+                "count": 108
+              },
+              {
+                "value": "6",
+                "count": 90
+              },
+              {
+                "value": "8",
+                "count": 89
+              },
+              {
+                "value": "9",
+                "count": 86
+              },
+              {
+                "value": "11",
+                "count": 78
+              },
+              {
+                "value": "2",
+                "count": 59
+              },
+              {
+                "value": "3",
+                "count": 51
+              },
+              {
+                "value": "10",
+                "count": 38
+              }
+            ]
+          },
+          "latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.40225,
+            "max": 45.70239,
+            "mean": 45.511173,
+            "pct_in_montreal_bbox": 98.1,
+            "field_type_detected": "geo_latitude"
+          },
+          "longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.969715,
+            "max": -73.478219,
+            "mean": -73.713516,
+            "pct_in_montreal_bbox": 86.9,
+            "field_type_detected": "geo_longitude"
+          },
+          "x": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 268038.4788,
+            "max": 306496.1578,
+            "mean": 288103.622601,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5029242.5574,
+            "max": 5062500.9486,
+            "mean": 5041284.780227,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          }
+        }
+      }
+    },
+    {
+      "id": "bef05816-0b4f-455d-8830-64bf4fd71b5f",
+      "name": "Qualité de l’eau en rive (historique depuis 2012)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/bef05816-0b4f-455d-8830-64bf4fd71b5f/download/rsma-qualo-qualite-eau-rive-depuis-2012.geojson",
+      "datastore_active": false,
+      "size": 23763560,
+      "last_modified": "2026-03-06T21:01:51.327230",
+      "created": "2022-10-25T20:45:15.931318",
+      "schema": null
+    },
+    {
+      "id": "48bc4a01-d21e-44cc-974a-58dfe8773233",
+      "name": "RSMA - Données QUALO 2011",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2011\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/48bc4a01-d21e-44cc-974a-58dfe8773233/download/donneesqualo2011.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:53.056851",
+      "created": "2016-01-13T11:57:53.094937",
+      "schema": {
+        "resource_id": "48bc4a01-d21e-44cc-974a-58dfe8773233",
+        "total_records": 2320,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2011-07-20T09:51:40",
+            "Température (oC)": 239,
+            "Conductivité (µs/cm2)": 245,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 80
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2011-08-01T09:55:46",
+            "Température (oC)": 245,
+            "Conductivité (µs/cm2)": 211,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 3
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2011-06-07T10:15:31",
+            "Température (oC)": 171,
+            "Conductivité (µs/cm2)": 195,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 21
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2011-06-29T09:45:13",
+            "Température (oC)": 204,
+            "Conductivité (µs/cm2)": 195,
+            "pH": 81,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 36
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2011-07-11T10:37:21",
+            "Température (oC)": 228,
+            "Conductivité (µs/cm2)": 213,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 16
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pH": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2320,
+        "audited_at": "2026-03-10T00:24:22.532037+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min_date": "2011-05-16T08:38:00",
+            "max_date": "2011-09-28T15:43:18",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 10.0,
+            "max": 278.0,
+            "mean": 190.2853,
+            "median": 209.0,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 57.0,
+            "max": 390.0,
+            "mean": 208.1351,
+            "median": 233.0,
+            "unique_count": 232,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 7.0,
+            "max": 97.0,
+            "mean": 77.0791,
+            "median": 83.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "84",
+                "count": 129
+              },
+              {
+                "value": "83",
+                "count": 124
+              },
+              {
+                "value": "82",
+                "count": 113
+              },
+              {
+                "value": "85",
+                "count": 111
+              },
+              {
+                "value": "81",
+                "count": 93
+              },
+              {
+                "value": "86",
+                "count": 72
+              },
+              {
+                "value": "8",
+                "count": 70
+              },
+              {
+                "value": "79",
+                "count": 57
+              },
+              {
+                "value": "87",
+                "count": 43
+              },
+              {
+                "value": "78",
+                "count": 33
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 978
+              },
+              {
+                "value": "<",
+                "count": 16
+              },
+              {
+                "value": ">",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 2.0,
+            "max": 6000.0,
+            "mean": 204.5686,
+            "median": 41.0,
+            "unique_count": 142,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "2119c8fd-da76-487b-8fc0-e4448d6bd0a3",
+      "name": "RSMA - Données QUALO 2010",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2010\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/2119c8fd-da76-487b-8fc0-e4448d6bd0a3/download/donneesqualo2010.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:53.857999",
+      "created": "2016-01-13T11:57:53.897933",
+      "schema": {
+        "resource_id": "2119c8fd-da76-487b-8fc0-e4448d6bd0a3",
+        "total_records": 2320,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2010-05-18T09:18:11",
+            "Température (oC)": 151,
+            "Conductivité (µs/cm2)": 228,
+            "pH": 71,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 8,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2010-05-24T09:11:12",
+            "Température (oC)": 186,
+            "Conductivité (µs/cm2)": 232,
+            "pH": 69,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 2,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2010-05-30T08:51:48",
+            "Température (oC)": 179,
+            "Conductivité (µs/cm2)": 259,
+            "pH": 68,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 7,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2010-06-09T09:27:11",
+            "Température (oC)": 174,
+            "Conductivité (µs/cm2)": 251,
+            "pH": 74,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 3,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2010-06-27T09:07:13",
+            "Température (oC)": 197,
+            "Conductivité (µs/cm2)": 273,
+            "pH": 74,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 8,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 5,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "pH": {
+          "null_count": 18,
+          "null_pct": 0.8,
+          "populated_pct": 99.2
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2320,
+        "audited_at": "2026-03-10T00:24:23.594086+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2010-05-17T09:13:57",
+            "max_date": "2010-09-28T13:29:05",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 16.0,
+            "max": 345.0,
+            "mean": 197.2432,
+            "median": 208.0,
+            "unique_count": 163,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "min": 95.0,
+            "max": 941.0,
+            "mean": 242.1525,
+            "median": 263.0,
+            "unique_count": 248,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 7.0,
+            "max": 99.0,
+            "mean": 77.2726,
+            "median": 83.0,
+            "unique_count": 33,
+            "field_type_detected": "numeric"
+          },
+          "Signe": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 915
+              },
+              {
+                "value": "<",
+                "count": 81
+              },
+              {
+                "value": ">",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 2.0,
+            "max": 39000.0,
+            "mean": 156.3714,
+            "median": 19.0,
+            "unique_count": 127,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.156,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 433
+              },
+              {
+                "value": "-1",
+                "count": 239
+              },
+              {
+                "value": "-2",
+                "count": 175
+              },
+              {
+                "value": "0",
+                "count": 153
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "d0f47b49-da79-4244-b6a1-9e4080a046ec",
+      "name": "RSMA - Données QUALO 2009",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2009\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/d0f47b49-da79-4244-b6a1-9e4080a046ec/download/donneesqualo2009.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:54.809782",
+      "created": "2016-01-13T11:57:54.849152",
+      "schema": {
+        "resource_id": "d0f47b49-da79-4244-b6a1-9e4080a046ec",
+        "total_records": 2320,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2009-06-15T00:00:00",
+            "Température (oC)": 178,
+            "Conductivité (µs/cm2)": 145,
+            "pH": 73,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 31,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2009-07-29T00:00:00",
+            "Température (oC)": 232,
+            "Conductivité (µs/cm2)": 150,
+            "pH": 7,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 13,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2009-09-16T00:00:00",
+            "Température (oC)": 178,
+            "Conductivité (µs/cm2)": 117,
+            "pH": 77,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 20,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2009-05-13T00:00:00",
+            "Température (oC)": 128,
+            "Conductivité (µs/cm2)": 114,
+            "pH": 82,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 3,
+            "MÉTÉO": 0
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2009-06-09T00:00:00",
+            "Température (oC)": 159,
+            "Conductivité (µs/cm2)": 97,
+            "pH": 76,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 5,
+            "MÉTÉO": 0
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Température (oC)": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "pH": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        },
+        "MÉTÉO": {
+          "null_count": 6,
+          "null_pct": 0.3,
+          "populated_pct": 99.7
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2320,
+        "audited_at": "2026-03-10T00:24:24.614249+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min_date": "2009-05-11T00:00:00",
+            "max_date": "2009-09-23T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 1.0,
+            "max": 277.0,
+            "mean": 177.1821,
+            "median": 199.0,
+            "unique_count": 154,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 65.0,
+            "max": 327.0,
+            "mean": 165.3008,
+            "median": 173.0,
+            "unique_count": 205,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 6.0,
+            "max": 89.0,
+            "mean": 69.5694,
+            "median": 78.0,
+            "unique_count": 24,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "78",
+                "count": 140
+              },
+              {
+                "value": "79",
+                "count": 127
+              },
+              {
+                "value": "8",
+                "count": 119
+              },
+              {
+                "value": "76",
+                "count": 115
+              },
+              {
+                "value": "77",
+                "count": 102
+              },
+              {
+                "value": "81",
+                "count": 100
+              },
+              {
+                "value": "82",
+                "count": 79
+              },
+              {
+                "value": "75",
+                "count": 79
+              },
+              {
+                "value": "74",
+                "count": 26
+              },
+              {
+                "value": "84",
+                "count": 26
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 942
+              },
+              {
+                "value": "<",
+                "count": 51
+              },
+              {
+                "value": ">",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 2.0,
+            "max": 6000.0,
+            "mean": 105.0996,
+            "median": 18.0,
+            "unique_count": 123,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.5644,
+            "median": -1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 336
+              },
+              {
+                "value": "-1",
+                "count": 290
+              },
+              {
+                "value": "-2",
+                "count": 213
+              },
+              {
+                "value": "1",
+                "count": 155
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "fdd6c15c-a6a7-4b20-9253-cbdd0f5b2d7c",
+      "name": "RSMA - Données QUALO 2008",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2008\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/fdd6c15c-a6a7-4b20-9253-cbdd0f5b2d7c/download/donneesqualo2008.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:55.624976",
+      "created": "2016-01-13T11:57:55.666006",
+      "schema": {
+        "resource_id": "fdd6c15c-a6a7-4b20-9253-cbdd0f5b2d7c",
+        "total_records": 2320,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2008-05-13T00:00:00",
+            "Température (oC)": 122,
+            "Conductivité (µs/cm2)": 75,
+            "pH": 8,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 5,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2008-05-25T00:00:00",
+            "Température (oC)": 138,
+            "Conductivité (µs/cm2)": 115,
+            "pH": 77,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 5,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2008-06-16T00:00:00",
+            "Température (oC)": 206,
+            "Conductivité (µs/cm2)": 206,
+            "pH": 79,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 5,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2008-07-08T00:00:00",
+            "Température (oC)": 227,
+            "Conductivité (µs/cm2)": 151,
+            "pH": 86,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 11,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2008-08-11T00:00:00",
+            "Température (oC)": 212,
+            "Conductivité (µs/cm2)": 75,
+            "pH": 74,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 15,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 13,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "Température (oC)": {
+          "null_count": 14,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 14,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "pH": {
+          "null_count": 14,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 19,
+          "null_pct": 0.8,
+          "populated_pct": 99.2
+        },
+        "MÉTÉO": {
+          "null_count": 13,
+          "null_pct": 0.6,
+          "populated_pct": 99.4
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2320,
+        "audited_at": "2026-03-10T00:24:25.714893+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min_date": "2008-05-12T00:00:00",
+            "max_date": "2008-09-24T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 0.0,
+            "max": 278.0,
+            "mean": 194.5402,
+            "median": 217.0,
+            "unique_count": 153,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 0.0,
+            "max": 321.0,
+            "mean": 157.9408,
+            "median": 169.0,
+            "unique_count": 207,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": 0.0,
+            "max": 93.0,
+            "mean": 71.2861,
+            "median": 81.0,
+            "unique_count": 26,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "82",
+                "count": 133
+              },
+              {
+                "value": "8",
+                "count": 123
+              },
+              {
+                "value": "83",
+                "count": 117
+              },
+              {
+                "value": "81",
+                "count": 116
+              },
+              {
+                "value": "79",
+                "count": 97
+              },
+              {
+                "value": "84",
+                "count": 80
+              },
+              {
+                "value": "77",
+                "count": 78
+              },
+              {
+                "value": "78",
+                "count": 70
+              },
+              {
+                "value": "76",
+                "count": 44
+              },
+              {
+                "value": "85",
+                "count": 43
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 9,
+            "null_pct": 0.9,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 976
+              },
+              {
+                "value": "<",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 9,
+            "null_pct": 0.9,
+            "min": 1.0,
+            "max": 13000.0,
+            "mean": 188.5721,
+            "median": 28.0,
+            "unique_count": 138,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 4,
+            "null_pct": 0.4,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.0382,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 407
+              },
+              {
+                "value": "0",
+                "count": 268
+              },
+              {
+                "value": "-1",
+                "count": 197
+              },
+              {
+                "value": "-2",
+                "count": 124
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "108d5088-d60b-4742-9853-9e4d72a52874",
+      "name": "RSMA - Données QUALO 2007",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2007\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/108d5088-d60b-4742-9853-9e4d72a52874/download/donneesqualo2007.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:56.429707",
+      "created": "2016-01-13T11:57:56.474663",
+      "schema": {
+        "resource_id": "108d5088-d60b-4742-9853-9e4d72a52874",
+        "total_records": 2300,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2007-07-23T00:00:00",
+            "Température (oC)": 217,
+            "Conductivité (µs/cm2)": 169,
+            "pH": 93,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 13,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2007-07-30T00:00:00",
+            "Température (oC)": 239,
+            "Conductivité (µs/cm2)": 169,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 13,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2007-08-13T00:00:00",
+            "Température (oC)": 233,
+            "Conductivité (µs/cm2)": 197,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 10,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2007-08-21T00:00:00",
+            "Température (oC)": 194,
+            "Conductivité (µs/cm2)": 198,
+            "pH": 74,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 16,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2007-09-05T00:00:00",
+            "Température (oC)": 192,
+            "Conductivité (µs/cm2)": 209,
+            "pH": 80,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 8,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 4,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "pH": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 9,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2300,
+        "audited_at": "2026-03-10T00:24:26.854195+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2007-05-14T00:00:00",
+            "max_date": "2007-09-26T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 99.0,
+            "max": 299.0,
+            "mean": 213.349,
+            "median": 220.0,
+            "unique_count": 169,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 64.0,
+            "max": 795.0,
+            "mean": 203.448,
+            "median": 224.0,
+            "unique_count": 244,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 67.0,
+            "max": 97.0,
+            "mean": 81.642,
+            "median": 82.0,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "80",
+                "count": 96
+              },
+              {
+                "value": "84",
+                "count": 94
+              },
+              {
+                "value": "85",
+                "count": 90
+              },
+              {
+                "value": "83",
+                "count": 84
+              },
+              {
+                "value": "81",
+                "count": 66
+              },
+              {
+                "value": "82",
+                "count": 65
+              },
+              {
+                "value": "87",
+                "count": 58
+              },
+              {
+                "value": "78",
+                "count": 57
+              },
+              {
+                "value": "77",
+                "count": 54
+              },
+              {
+                "value": "86",
+                "count": 51
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 948
+              },
+              {
+                "value": "<",
+                "count": 38
+              },
+              {
+                "value": ">",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "min": 2.0,
+            "max": 2400000.0,
+            "mean": 4435.8716,
+            "median": 46.0,
+            "unique_count": 172,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": 0.048,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 390
+              },
+              {
+                "value": "0",
+                "count": 327
+              },
+              {
+                "value": "-1",
+                "count": 224
+              },
+              {
+                "value": "-2",
+                "count": 59
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "c2f10305-9782-453a-9567-072b48fffdea",
+      "name": "RSMA - Données QUALO 2006",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2006\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/c2f10305-9782-453a-9567-072b48fffdea/download/donneesqualo2006.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:57.199883",
+      "created": "2016-01-13T11:57:57.245884",
+      "schema": {
+        "resource_id": "c2f10305-9782-453a-9567-072b48fffdea",
+        "total_records": 2480,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2006-05-30T00:00:00",
+            "Température (oC)": 185,
+            "Conductivité (µs/cm2)": 201,
+            "pH": 73,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 24,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2006-06-19T00:00:00",
+            "Température (oC)": 216,
+            "Conductivité (µs/cm2)": 236,
+            "pH": 78,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 4,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2006-07-10T00:00:00",
+            "Température (oC)": 235,
+            "Conductivité (µs/cm2)": 188,
+            "pH": 77,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 18,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2006-08-08T00:00:00",
+            "Température (oC)": 224,
+            "Conductivité (µs/cm2)": 139,
+            "pH": 76,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 28,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2006-08-14T00:00:00",
+            "Température (oC)": 207,
+            "Conductivité (µs/cm2)": 152,
+            "pH": 77,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 12,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 12,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Température (oC)": {
+          "null_count": 24,
+          "null_pct": 1.0,
+          "populated_pct": 99.0
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 25,
+          "null_pct": 1.0,
+          "populated_pct": 99.0
+        },
+        "pH": {
+          "null_count": 24,
+          "null_pct": 1.0,
+          "populated_pct": 99.0
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 37,
+          "null_pct": 1.5,
+          "populated_pct": 98.5
+        },
+        "MÉTÉO": {
+          "null_count": 12,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2480,
+        "audited_at": "2026-03-10T00:24:27.997832+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-02",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.75",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 12,
+            "null_pct": 1.2,
+            "min_date": "2006-05-08T00:00:00",
+            "max_date": "2006-09-26T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 22,
+            "null_pct": 2.2,
+            "min": 100.0,
+            "max": 295.0,
+            "mean": 211.6288,
+            "median": 215.0,
+            "unique_count": 175,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 23,
+            "null_pct": 2.3,
+            "min": 49.0,
+            "max": 490.0,
+            "mean": 207.5865,
+            "median": 227.0,
+            "unique_count": 248,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 22,
+            "null_pct": 2.2,
+            "min": 43.0,
+            "max": 110.0,
+            "mean": 80.3292,
+            "median": 80.0,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "Signe": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 942
+              },
+              {
+                "value": "<",
+                "count": 23
+              },
+              {
+                "value": ">",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 29,
+            "null_pct": 2.9,
+            "min": 2.0,
+            "max": 430000.0,
+            "mean": 2011.5695,
+            "median": 60.0,
+            "unique_count": 171,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 12,
+            "null_pct": 1.2,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.1619,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 363
+              },
+              {
+                "value": "0",
+                "count": 271
+              },
+              {
+                "value": "-1",
+                "count": 185
+              },
+              {
+                "value": "-2",
+                "count": 169
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "eb058ebb-6f6d-4375-8404-87f49b3d6d57",
+      "name": "RSMA - Données QUALO 2005",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2005\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/eb058ebb-6f6d-4375-8404-87f49b3d6d57/download/donneesqualo2005.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:57.899852",
+      "created": "2016-01-13T11:57:57.946527",
+      "schema": {
+        "resource_id": "eb058ebb-6f6d-4375-8404-87f49b3d6d57",
+        "total_records": 2400,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2005-05-09T00:00:00",
+            "Température (oC)": 103,
+            "Conductivité (µs/cm2)": 105,
+            "pH": 80,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 6,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2005-06-20T00:00:00",
+            "Température (oC)": 191,
+            "Conductivité (µs/cm2)": 159,
+            "pH": 74,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 140,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2005-06-28T00:00:00",
+            "Température (oC)": 238,
+            "Conductivité (µs/cm2)": 226,
+            "pH": 75,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 6,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2005-07-12T00:00:00",
+            "Température (oC)": 232,
+            "Conductivité (µs/cm2)": 241,
+            "pH": 82,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 6,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2005-08-02T00:00:00",
+            "Température (oC)": 230,
+            "Conductivité (µs/cm2)": 210,
+            "pH": 80,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 6,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 9,
+          "null_pct": 0.4,
+          "populated_pct": 99.6
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 44,
+          "null_pct": 1.8,
+          "populated_pct": 98.2
+        },
+        "pH": {
+          "null_count": 147,
+          "null_pct": 6.1,
+          "populated_pct": 93.9
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 12,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2400,
+        "audited_at": "2026-03-10T00:24:29.091963+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-10",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.75",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.8",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2005-05-02T00:00:00",
+            "max_date": "2005-09-13T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 77.0,
+            "max": 316.0,
+            "mean": 215.2133,
+            "median": 237.0,
+            "unique_count": 213,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 41,
+            "null_pct": 4.1,
+            "min": 74.0,
+            "max": 748.0,
+            "mean": 207.2377,
+            "median": 232.0,
+            "unique_count": 248,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 56,
+            "null_pct": 5.6,
+            "min": 63.0,
+            "max": 94.0,
+            "mean": 81.035,
+            "median": 81.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "79",
+                "count": 109
+              },
+              {
+                "value": "82",
+                "count": 102
+              },
+              {
+                "value": "81",
+                "count": 101
+              },
+              {
+                "value": "83",
+                "count": 92
+              },
+              {
+                "value": "80",
+                "count": 89
+              },
+              {
+                "value": "78",
+                "count": 89
+              },
+              {
+                "value": "84",
+                "count": 89
+              },
+              {
+                "value": "77",
+                "count": 54
+              },
+              {
+                "value": "85",
+                "count": 51
+              },
+              {
+                "value": "76",
+                "count": 33
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 960
+              },
+              {
+                "value": "<",
+                "count": 21
+              },
+              {
+                "value": ">",
+                "count": 13
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 6,
+            "null_pct": 0.6,
+            "min": 2.0,
+            "max": 600000.0,
+            "mean": 3033.7062,
+            "median": 61.0,
+            "unique_count": 170,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.237,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 361
+              },
+              {
+                "value": "0",
+                "count": 258
+              },
+              {
+                "value": "-2",
+                "count": 217
+              },
+              {
+                "value": "-1",
+                "count": 164
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "6bbc3ae4-5b32-4091-90ca-ad061a0a2e17",
+      "name": "RSMA - Données QUALO 2004",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2004\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/6bbc3ae4-5b32-4091-90ca-ad061a0a2e17/download/donneesqualo2004.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:58.603027",
+      "created": "2016-01-13T11:57:58.652804",
+      "schema": {
+        "resource_id": "6bbc3ae4-5b32-4091-90ca-ad061a0a2e17",
+        "total_records": 2435,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2004-07-27T00:00:00",
+            "Température (oC)": 225,
+            "Conductivité (µs/cm2)": 158,
+            "pH": 79,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 10,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2004-06-20T00:00:00",
+            "Température (oC)": 191,
+            "Conductivité (µs/cm2)": 235,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 10,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2004-05-10T00:00:00",
+            "Température (oC)": 115,
+            "Conductivité (µs/cm2)": 119,
+            "pH": 76,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 16,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2004-08-17T00:00:00",
+            "Température (oC)": 207,
+            "Conductivité (µs/cm2)": 218,
+            "pH": 82,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 16,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2004-08-22T00:00:00",
+            "Température (oC)": 199,
+            "Conductivité (µs/cm2)": 200,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 18,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pH": {
+          "null_count": 1,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 41,
+          "null_pct": 1.7,
+          "populated_pct": 98.3
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2435,
+        "audited_at": "2026-03-10T00:24:30.206100+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 51,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.75",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-5.5",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2004-05-10T00:00:00",
+            "max_date": "2004-09-29T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 109.0,
+            "max": 283.0,
+            "mean": 201.548,
+            "median": 206.0,
+            "unique_count": 156,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 54.0,
+            "max": 1275.0,
+            "mean": 183.743,
+            "median": 196.0,
+            "unique_count": 257,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 70.0,
+            "max": 95.0,
+            "mean": 83.445,
+            "median": 83.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "84",
+                "count": 138
+              },
+              {
+                "value": "82",
+                "count": 124
+              },
+              {
+                "value": "83",
+                "count": 119
+              },
+              {
+                "value": "85",
+                "count": 110
+              },
+              {
+                "value": "81",
+                "count": 79
+              },
+              {
+                "value": "80",
+                "count": 79
+              },
+              {
+                "value": "86",
+                "count": 73
+              },
+              {
+                "value": "79",
+                "count": 59
+              },
+              {
+                "value": "87",
+                "count": 57
+              },
+              {
+                "value": "88",
+                "count": 45
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 35,
+            "null_pct": 3.5,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 948
+              },
+              {
+                "value": "<",
+                "count": 15
+              },
+              {
+                "value": ">",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 35,
+            "null_pct": 3.5,
+            "min": 2.0,
+            "max": 57000.0,
+            "mean": 757.3762,
+            "median": 66.0,
+            "unique_count": 152,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": 0.048,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 419
+              },
+              {
+                "value": "-1",
+                "count": 305
+              },
+              {
+                "value": "0",
+                "count": 243
+              },
+              {
+                "value": "-2",
+                "count": 33
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "ce72fff7-6bea-4cf9-92b3-ec56c4c1c9f0",
+      "name": "RSMA - Données QUALO 2003",
+      "description": "Données de qualité de l’eau en rive du programme QUALO - 2003\r\n\r\nPoint d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température de l'eau en degrés Celsius\r\n\r\nConductivité (µs/cm2) : Conductivité en µs/cm2\r\n\r\npH : Potentiel d’hydrogène\r\n\r\nSigne : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (colonies/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nProtocole : http://ville.montreal.qc.ca/portal/page?_pageid=7237,75299594&_dad=portal&_schema=PORTAL",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30bafcfe-b63e-4af4-a179-e64ed606a403/resource/ce72fff7-6bea-4cf9-92b3-ec56c4c1c9f0/download/donneesqualo2003.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2016-01-13T16:57:59.693785",
+      "created": "2016-01-13T11:57:59.745369",
+      "schema": {
+        "resource_id": "ce72fff7-6bea-4cf9-92b3-ec56c4c1c9f0",
+        "total_records": 2237,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Coliformes fécaux (colonies/100mL)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2003-05-19T00:00:00",
+            "Température (oC)": 148,
+            "Conductivité (µs/cm2)": 231,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 4,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2003-06-22T00:00:00",
+            "Température (oC)": 200,
+            "Conductivité (µs/cm2)": 242,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 8,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2003-06-30T00:00:00",
+            "Température (oC)": 220,
+            "Conductivité (µs/cm2)": 248,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 12,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2003-07-06T00:00:00",
+            "Température (oC)": 236,
+            "Conductivité (µs/cm2)": 251,
+            "pH": 84,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 8,
+            "MÉTÉO": 1
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "BLAP-0.5",
+            "Date": "2003-08-04T00:00:00",
+            "Température (oC)": 248,
+            "Conductivité (µs/cm2)": 203,
+            "pH": 83,
+            "Signe": "=",
+            "Coliformes fécaux (colonies/100mL)": 2,
+            "MÉTÉO": 1
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 2,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        },
+        "pH": {
+          "null_count": 20,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "Signe": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Coliformes fécaux (colonies/100mL)": {
+          "null_count": 5,
+          "null_pct": 0.2,
+          "populated_pct": 99.8
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 2237,
+        "audited_at": "2026-03-10T00:24:31.316736+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 50,
+            "top_values": [
+              {
+                "value": "BLAP-0.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-01",
+                "count": 20
+              },
+              {
+                "value": "BLAP-1",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-2.75",
+                "count": 20
+              },
+              {
+                "value": "BLAP-3",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4",
+                "count": 20
+              },
+              {
+                "value": "BLAP-4.5",
+                "count": 20
+              },
+              {
+                "value": "BLAP-5.5",
+                "count": 20
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2003-05-11T00:00:00",
+            "max_date": "2003-09-23T00:00:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Température (oC)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 103.0,
+            "max": 290.0,
+            "mean": 204.8048,
+            "median": 208.0,
+            "unique_count": 177,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "min": 50.0,
+            "max": 3846.0,
+            "mean": 228.7027,
+            "median": 242.0,
+            "unique_count": 293,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 8,
+            "null_pct": 0.8,
+            "min": 72.0,
+            "max": 94.0,
+            "mean": 83.6109,
+            "median": 83.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "83",
+                "count": 163
+              },
+              {
+                "value": "84",
+                "count": 117
+              },
+              {
+                "value": "82",
+                "count": 116
+              },
+              {
+                "value": "85",
+                "count": 96
+              },
+              {
+                "value": "86",
+                "count": 71
+              },
+              {
+                "value": "81",
+                "count": 70
+              },
+              {
+                "value": "80",
+                "count": 66
+              },
+              {
+                "value": "87",
+                "count": 61
+              },
+              {
+                "value": "79",
+                "count": 45
+              },
+              {
+                "value": "88",
+                "count": 42
+              }
+            ]
+          },
+          "Signe": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 957
+              },
+              {
+                "value": "<",
+                "count": 31
+              },
+              {
+                "value": ">",
+                "count": 9
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Coliformes fécaux (colonies/100mL)": {
+            "null_count": 3,
+            "null_pct": 0.3,
+            "min": 2.0,
+            "max": 420000.0,
+            "mean": 1034.4814,
+            "median": 42.0,
+            "unique_count": 138,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.23,
+            "median": 0.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 338
+              },
+              {
+                "value": "0",
+                "count": 277
+              },
+              {
+                "value": "-1",
+                "count": 202
+              },
+              {
+                "value": "-2",
+                "count": 183
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "QUALO",
+    "RSMA",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "Sur une période de 20 semaines durant la saison estivale, l’équipe du RSMA (Réseau de suivi du milieu aquatique) prélève des échantillons en surface depuis la rive (programme QUALO), au moyen d’une longue perche munie d’un porte-bouteille. La conductivité, la température et le pH sont mesurés sur place. Les échantillons d’eau sont conservés sur la glace, puis acheminés au laboratoire de la Ville de Montréal pour y être analysés selon une technique de filtration sur membrane filtrante (0,45µ) afin de dénombrer les colonies de coliformes fécaux.\n\n## Dictionnaire de données\n\n\n\n- point_echantillonnage (texte) : Code du point d'échantillonnage\n\n- plan_eau (liste de valeurs, lien à faire avec l'ensemble des points d'échantillonnage) :\n\n- BLAP (Bassin de La Prairie)\n\n- FSL (Fleuve Saint-Laurent)\n\n- IBIZ (Île-Bizard)\n\n- LSL (Lac Saint-Louis)\n\n- RDP (Rivière-des-Prairies)\n\n\n\n- administration (texte) : Arrondissement ou ville liée où est situé le point d'échantillonnage\n\n- nom (texte) : Nom du point d'échantillonnage\n\n- descrip_longue (texte) : Emplacement textuel du point d'échantillonnage\n\n- programme (texte) : Type de programme (Q = QUALO)\n\n- sous_prog (texte) : Type de sous-programme (Q = QUALO)\n\n- station_nom (texte) : Nom complet du point d'échantillonnage (nom + point_echantillonnage)\n\n- date_heure (date heure) : Moment du prélèvement\n\n- raison_annulation (texte) :\n\n- temperature (numérique) : Température de l'eau lors du prélèvement en degrés Celsius (°C)\n\n- conductivite (numérique) : Conductivité en microsiemens par centimètre carré (µs/cm²)\n\n- pH (numérique) : Potentiel d'hydrogène\n\n- signe (liste de valeurs) : Signe de la valeur des coliformes fécaux\n\n- < (plus petit que)\n\n- = (égal)\n\n- \n\n\n\n(plus grand que)\n\n\n\n\n\n- coliformes_fecaux (numérique) : Coliformes fécaux (colonies/100ml)\n\n- prec_0_mm (numérique) : Précipitations le jour même (mm)\n\n- prec_1_mm (numérique) : Précipitations de la veille (mm)\n\n- prec_2_ mm (numérique) : Précipitations de l'avant-veille (mm)\n\n- prec_tot_60h (numérique) : Précipitations dans les 60 dernières heures (mm) (prec_0_mm + prec_1_mm + prec_2_mm)\n\n- meteo (liste de valeurs) : Précipitations à la station météorologique de l'Aéroport international Pierre-Elliott-Trudeau de Montréal\n\n- 1 (temps sec)\n\n- 0 (pluie)1\n\n- -1 (pluie la veille)\n\n- -2 (pluie l'avant-veille)\n\n\n\n- tournee (numérique) : Numéro du dossier\n\n- latitude (coordonnées spatiales) : Latitude du point d'échantillonnage (WGS84; EPSG 4326)\n\n- longitude (coordonnées spatiales) : Latitude du point d'échantillonnage (WGS84; EPSG 4326)\n\n- x (coordonnées spatiales) : Coordonnée X du point d'échantillonnage (MTM8 NAD83; EPSG 32188)\n\n- y (coordonnées spatiales) : Coordonnée X du point d'échantillonnage (MTM8 NAD83; EPSG 32188)\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "2003/2021",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "QUALO",
+      "RSMA",
+      "SEnv"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsma-qualite-de-l-eau-en-rive-qualo",
+    "scraped_at": "2026-03-09T20:19:49.668498+00:00"
+  }
+}

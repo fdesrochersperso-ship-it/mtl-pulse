@@ -1,0 +1,242 @@
+{
+  "slug": "vmtl-evenements-protocolaires-assistes-par-personnes-elues",
+  "title": "Événements protocolaires assistés par les personnes élues",
+  "notes": "Liste par année des événements protocolaires organisés par l'équipe du protocole de la Ville de Montréal où une ou des personnes élues ont participé.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "annual",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-07-16T14:09:28.881189",
+  "metadata_modified": "2025-02-18T00:39:25.128210",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "82510915-f8e5-4bdb-b87e-177ef13a795f",
+      "name": "Événements protocolaires assistés par les personnes élues",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/860325b0-ded4-4829-a5bc-3f0bd4bc8ef6/resource/82510915-f8e5-4bdb-b87e-177ef13a795f/download/evenements-protocolaires.csv",
+      "datastore_active": true,
+      "size": 92799,
+      "last_modified": "2024-07-16T14:10:44.536696",
+      "created": "2024-07-16T14:10:44.581448",
+      "schema": {
+        "resource_id": "82510915-f8e5-4bdb-b87e-177ef13a795f",
+        "total_records": 898,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "nom_evenement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "elu_representant",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "nom_evenement": "Réception de lancement de la campagne d'Éducaloi",
+            "date": "2017-01-09",
+            "elu_representant": "Lionel Perez"
+          },
+          {
+            "_id": 2,
+            "nom_evenement": "Accueil du conseil d'administration de l'Alliance des villes des Grands Lacs et du St-Laurent",
+            "date": "2017-01-12",
+            "elu_representant": "Denis Coderre"
+          },
+          {
+            "_id": 3,
+            "nom_evenement": "Petit déjeuner afin de souligner la Journée Martin Luther King",
+            "date": "2017-01-16",
+            "elu_representant": "Jim Beis"
+          },
+          {
+            "_id": 4,
+            "nom_evenement": "Simulation du Jeune Conseil de Montréal 2017",
+            "date": "2017-01-20",
+            "elu_representant": "Frantz Benjamin"
+          },
+          {
+            "_id": 5,
+            "nom_evenement": "Échange de voeux des membres du corps consulaire de Montréal",
+            "date": "2017-01-25",
+            "elu_representant": "Denis Coderre"
+          }
+        ]
+      },
+      "field_stats": {
+        "nom_evenement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "elu_representant": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 898,
+        "total_records": 898,
+        "audited_at": "2026-03-10T00:18:59.220570+00:00",
+        "fields": {
+          "nom_evenement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 854,
+            "top_values": [
+              {
+                "value": "Cérémonie d'accueil des nouveaux employés de la ville de Montréal",
+                "count": 8
+              },
+              {
+                "value": "Cérémonie d'accueil des nouveaux employés",
+                "count": 6
+              },
+              {
+                "value": "Commémoration de la tragédie du 6 décembre 1989",
+                "count": 5
+              },
+              {
+                "value": "Cérémonie du Jour du Souvenir",
+                "count": 3
+              },
+              {
+                "value": "Commémoration des attentats de la grande mosquée de Québec",
+                "count": 3
+              },
+              {
+                "value": "Simulation CS-18 du conseil jeunesse de Montréal",
+                "count": 3
+              },
+              {
+                "value": "Cité Elles MTL - simulation du conseil de ville pour les femmes",
+                "count": 3
+              },
+              {
+                "value": "Vernissage de l'exposition 12 poèmes pour Montréal",
+                "count": 2
+              },
+              {
+                "value": "Visite guidée de l'hôtel de ville avec accueil protocolaire - Collège de Rosemont",
+                "count": 2
+              },
+              {
+                "value": "Journée d'accueil des jeunes des centres jeunesse (plan municipal d'emplois)",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-01-09",
+            "max_date": "2022-12-22",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "elu_representant": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 129,
+            "top_values": [
+              {
+                "value": "Valérie Plante",
+                "count": 373
+              },
+              {
+                "value": "Denis Coderre",
+                "count": 120
+              },
+              {
+                "value": "Cathy Wong",
+                "count": 50
+              },
+              {
+                "value": "Frantz Benjamin",
+                "count": 35
+              },
+              {
+                "value": "Benoit Dorais",
+                "count": 20
+              },
+              {
+                "value": "Magda Popeanu",
+                "count": 19
+              },
+              {
+                "value": "Valérie Plante, Cathy Wong",
+                "count": 18
+              },
+              {
+                "value": "Robert Beaudry",
+                "count": 12
+              },
+              {
+                "value": "Sterling Downey",
+                "count": 11
+              },
+              {
+                "value": "Martine Musau Muele",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "DG"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont collectées à plusieurs reprises pendant l'année après que les événements ont eu lieu. \n\n## Dictionnaire de données\n\n\n\n- nom_evenement (texte variable) : Nom de l'événement.\n\n- date (date et heure) : Date de l'événement.\n\n- elu_representant (texte variable) : Personne élue ayant assisté à l'événement.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Direction générale",
+      "Couverture temporelle": "2017/2022",
+      "Fréquence de mise à jour": "Annuel"
+    },
+    "keywords": [
+      "DG"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/evenements-protocolaires-assistes-par-personnes-elues",
+    "scraped_at": "2026-03-09T19:57:21.121441+00:00"
+  }
+}

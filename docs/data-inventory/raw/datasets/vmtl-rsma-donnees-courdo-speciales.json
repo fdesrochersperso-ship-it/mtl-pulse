@@ -1,0 +1,5231 @@
+{
+  "slug": "vmtl-rsma-donnees-courdo-speciales",
+  "title": "RSMA - Données COURDO spéciales",
+  "notes": "Dans le cadre du programme COURDO, le RSMA (Réseau de suivi du milieu aquatique) vise à documenter la qualité générale des cours d’eau ceinturant le territoire de Montréal. Cet ensemble de données contient les __[données spéciales recueillies en plus du programme COURDO régulier](https://donnees.montreal.ca/dataset/rsma-donnees-courdo-annuelle)__ .\r\n\r\nPour l’étude des paramètres physicochimiques, nous prélevons des échantillons à l’aide d’un seau en polyéthylène, que nous transvidons dans des contenants conçus à cet effet. Les échantillons sont conservés sur la glace, puis transportés dès que possible au laboratoire pour analyse. Sur le terrain, nous mesurons, à l’aide d’une sonde, les paramètres suivants : le pH, la température, l’oxygène dissous, et la conductivité.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-09-20T17:43:23.318903",
+  "metadata_modified": "2025-02-26T20:00:41.517679",
+  "num_resources": 5,
+  "resources": [
+    {
+      "id": "dcc19f2e-f7ff-4d14-8143-80e5199c1409",
+      "name": "RSMA - Données COURDO SPÉCIALES 2011",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), Al (ug/L) : Aluminium (µg/L), As (ug/L) : Arsenic (µg/L), Ba (ug/L) : Baryum (µg/L), Be (ug/L) : Béryllium (µg/L), Ca (ug/L) : Calcium (µg/L), Cd (ug/L) : Cadmium (µg/L), Co (ug/L) : Cobalt (µg/L), Cr (ug/L) : Chrome (µg/L), Cu (ug/L) : Cuivre (µg/L), Fe (ug/L) : Fer (µg/L), K (ug/L) : Potassium (µg/L), Mg (ug/L) : Magnésium (µg/L), Mn (ug/L) : Manganèse (µg/L), Mo (ug/L) : Molybdène (µg/L), Na (ug/L) : Sodium (µg/L), NH3 (µg/L) : Azote ammoniacal (µg-N/L), Ni (ug/L) : Nickel (µg/L), P (ug/L) : Phosphore total (µg/L), Pb (ug/L) : Plomb (µg/L), MES (mg/L) : Matières en suspension (mg/L), Sb (ug/L) : Antimoine (µg/L), Se (ug/L) : Sélénium (µg/L), U (ug/L) : Uranium (µg/L), V (ug/L) : Vanadium (µg/L), Zn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/243f731a-0c30-4e31-a15b-bd388cb7c91d/resource/dcc19f2e-f7ff-4d14-8143-80e5199c1409/download/courdo_special_2011.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-20T17:44:58.402083",
+      "created": "2019-09-20T17:44:58.476848",
+      "schema": {
+        "resource_id": "dcc19f2e-f7ff-4d14-8143-80e5199c1409",
+        "total_records": 37,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ag (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Al (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "As (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ba (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Be (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ca (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cd (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Co (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COT (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cu (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fe (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "K (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mg (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mn (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mo (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Na (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ni (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Pb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MES (mg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Se (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sn2 ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Tl ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "U (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "V (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zn (µg/L)",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "EMIS-16T-MS51",
+            "Date": "2011-11-02T14:30:00",
+            "%OD": null,
+            "O2 (mg/L)": null,
+            "Conductivité (µs/cm2)": 338,
+            "pH": 78,
+            "Température (oC)": 100,
+            "Signe COLI": "=",
+            "COLI": 14000,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": "",
+            "MES (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "EMIS-16T-MS51-1",
+            "Date": "2011-11-02T14:26:00",
+            "%OD": null,
+            "O2 (mg/L)": null,
+            "Conductivité (µs/cm2)": 262,
+            "pH": 86,
+            "Température (oC)": 98,
+            "Signe COLI": "=",
+            "COLI": 380,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": "",
+            "MES (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "EMIS-16T-MS51-2",
+            "Date": "2011-11-02T14:41:00",
+            "%OD": 106,
+            "O2 (mg/L)": 119,
+            "Conductivité (µs/cm2)": 295,
+            "pH": 79,
+            "Température (oC)": 101,
+            "Signe COLI": "=",
+            "COLI": 180,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": "",
+            "MES (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "EMIS-26T-1",
+            "Date": "2011-11-02T15:24:00",
+            "%OD": 99,
+            "O2 (mg/L)": 115,
+            "Conductivité (µs/cm2)": 134,
+            "pH": 78,
+            "Température (oC)": 88,
+            "Signe COLI": "=",
+            "COLI": 2500,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": 149,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": "",
+            "MES (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "EMIS-26T-10",
+            "Date": "2011-11-02T15:11:00",
+            "%OD": 99,
+            "O2 (mg/L)": 111,
+            "Conductivité (µs/cm2)": 292,
+            "pH": 88,
+            "Température (oC)": 101,
+            "Signe COLI": "=",
+            "COLI": 1600,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": 97,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": "",
+            "MES (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 2,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "O2 (mg/L)": {
+          "null_count": 2,
+          "null_pct": 5.4,
+          "populated_pct": 94.6
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pH": {
+          "null_count": 1,
+          "null_pct": 2.7,
+          "populated_pct": 97.3
+        },
+        "Température (oC)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ag (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Al (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "As (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ba (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Be (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ca (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cd (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Co (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COT (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cr (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cu (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fe (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "K (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mg (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mn (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mo (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Na (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NH3 (µg/L)": {
+          "null_count": 23,
+          "null_pct": 62.2,
+          "populated_pct": 37.8
+        },
+        "Ni (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ptot (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 37,
+        "total_records": 37,
+        "audited_at": "2026-03-10T00:24:07.628597+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 37,
+            "top_values": [
+              {
+                "value": "EMIS-16T-MS51",
+                "count": 1
+              },
+              {
+                "value": "EMIS-16T-MS51-1",
+                "count": 1
+              },
+              {
+                "value": "EMIS-16T-MS51-2",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-1",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-10",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-2",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-3",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-4",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-5",
+                "count": 1
+              },
+              {
+                "value": "EMIS-26T-6",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2011-11-02T09:27:00",
+            "max_date": "2011-11-02T16:52:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "%OD": {
+            "null_count": 2,
+            "null_pct": 5.4,
+            "min": 93.0,
+            "max": 114.0,
+            "mean": 99.1714,
+            "median": 99.0,
+            "unique_count": 11,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "99",
+                "count": 18
+              },
+              {
+                "value": "98",
+                "count": 6
+              },
+              {
+                "value": "97",
+                "count": 3
+              },
+              {
+                "value": "106",
+                "count": 1
+              },
+              {
+                "value": "101",
+                "count": 1
+              },
+              {
+                "value": "94",
+                "count": 1
+              },
+              {
+                "value": "95",
+                "count": 1
+              },
+              {
+                "value": "107",
+                "count": 1
+              },
+              {
+                "value": "93",
+                "count": 1
+              },
+              {
+                "value": "114",
+                "count": 1
+              }
+            ]
+          },
+          "O2 (mg/L)": {
+            "null_count": 2,
+            "null_pct": 5.4,
+            "min": 106.0,
+            "max": 130.0,
+            "mean": 113.0286,
+            "median": 111.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "111",
+                "count": 13
+              },
+              {
+                "value": "112",
+                "count": 4
+              },
+              {
+                "value": "119",
+                "count": 2
+              },
+              {
+                "value": "115",
+                "count": 2
+              },
+              {
+                "value": "114",
+                "count": 2
+              },
+              {
+                "value": "113",
+                "count": 2
+              },
+              {
+                "value": "110",
+                "count": 2
+              },
+              {
+                "value": "106",
+                "count": 2
+              },
+              {
+                "value": "116",
+                "count": 1
+              },
+              {
+                "value": "109",
+                "count": 1
+              }
+            ]
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 108.0,
+            "max": 342.0,
+            "mean": 257.5405,
+            "median": 291.0,
+            "unique_count": 31,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 1,
+            "null_pct": 2.7,
+            "min": 77.0,
+            "max": 88.0,
+            "mean": 80.5278,
+            "median": 80.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "80",
+                "count": 9
+              },
+              {
+                "value": "79",
+                "count": 8
+              },
+              {
+                "value": "82",
+                "count": 6
+              },
+              {
+                "value": "78",
+                "count": 4
+              },
+              {
+                "value": "81",
+                "count": 4
+              },
+              {
+                "value": "86",
+                "count": 1
+              },
+              {
+                "value": "88",
+                "count": 1
+              },
+              {
+                "value": "77",
+                "count": 1
+              },
+              {
+                "value": "85",
+                "count": 1
+              },
+              {
+                "value": "83",
+                "count": 1
+              }
+            ]
+          },
+          "Température (oC)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 57.0,
+            "max": 103.0,
+            "mean": 96.7027,
+            "median": 100.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "101",
+                "count": 10
+              },
+              {
+                "value": "100",
+                "count": 5
+              },
+              {
+                "value": "102",
+                "count": 4
+              },
+              {
+                "value": "98",
+                "count": 3
+              },
+              {
+                "value": "99",
+                "count": 3
+              },
+              {
+                "value": "88",
+                "count": 2
+              },
+              {
+                "value": "103",
+                "count": 2
+              },
+              {
+                "value": "91",
+                "count": 1
+              },
+              {
+                "value": "96",
+                "count": 1
+              },
+              {
+                "value": "89",
+                "count": 1
+              }
+            ]
+          },
+          "Signe COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 30
+              },
+              {
+                "value": "<",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 100.0,
+            "max": 22000.0,
+            "mean": 4861.3514,
+            "median": 2000.0,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "100",
+                "count": 5
+              },
+              {
+                "value": "180",
+                "count": 2
+              },
+              {
+                "value": "2000",
+                "count": 2
+              },
+              {
+                "value": "10000",
+                "count": 2
+              },
+              {
+                "value": "9100",
+                "count": 2
+              },
+              {
+                "value": "270",
+                "count": 2
+              },
+              {
+                "value": "14000",
+                "count": 1
+              },
+              {
+                "value": "380",
+                "count": 1
+              },
+              {
+                "value": "2500",
+                "count": 1
+              },
+              {
+                "value": "1600",
+                "count": 1
+              }
+            ]
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 37
+              }
+            ]
+          },
+          "Ag (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Al (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "As (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ba (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Be (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ca (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cd (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Co (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "COT (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cr (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cu (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Fe (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "K (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mg (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mn (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mo (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Na (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NH3 (µg/L)": {
+            "null_count": 23,
+            "null_pct": 62.2,
+            "min": 35.0,
+            "max": 294.0,
+            "mean": 116.9286,
+            "median": 102.5,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "149",
+                "count": 1
+              },
+              {
+                "value": "97",
+                "count": 1
+              },
+              {
+                "value": "143",
+                "count": 1
+              },
+              {
+                "value": "108",
+                "count": 1
+              },
+              {
+                "value": "51",
+                "count": 1
+              },
+              {
+                "value": "35",
+                "count": 1
+              },
+              {
+                "value": "68",
+                "count": 1
+              },
+              {
+                "value": "109",
+                "count": 1
+              },
+              {
+                "value": "117",
+                "count": 1
+              },
+              {
+                "value": "65",
+                "count": 1
+              }
+            ]
+          },
+          "Ni (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ptot (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Pb (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MES (mg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sb (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Se (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sn2 ug/L": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Tl ug/L": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "U (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "V (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Zn (µg/L)": {
+            "null_count": 37,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "989d8cfc-81ee-48ae-a657-6259e5a90881",
+      "name": "RSMA - Données COURDO SPÉCIALES 2012",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), Al (ug/L) : Aluminium (µg/L), As (ug/L) : Arsenic (µg/L), Ba (ug/L) : Baryum (µg/L), Be (ug/L) : Béryllium (µg/L), Ca (ug/L) : Calcium (µg/L), Cd (ug/L) : Cadmium (µg/L), Co (ug/L) : Cobalt (µg/L), Cr (ug/L) : Chrome (µg/L), Cu (ug/L) : Cuivre (µg/L), Fe (ug/L) : Fer (µg/L), K (ug/L) : Potassium (µg/L), Mg (ug/L) : Magnésium (µg/L), Mn (ug/L) : Manganèse (µg/L), Mo (ug/L) : Molybdène (µg/L), Na (ug/L) : Sodium (µg/L), NH3 (µg/L) : Azote ammoniacal (µg-N/L), Ni (ug/L) : Nickel (µg/L), P (ug/L) : Phosphore total (µg/L), Pb (ug/L) : Plomb (µg/L), MES (mg/L) : Matières en suspension (mg/L), Sb (ug/L) : Antimoine (µg/L), Se (ug/L) : Sélénium (µg/L), U (ug/L) : Uranium (µg/L), V (ug/L) : Vanadium (µg/L), Zn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/243f731a-0c30-4e31-a15b-bd388cb7c91d/resource/989d8cfc-81ee-48ae-a657-6259e5a90881/download/courdo_special_2012.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-20T17:46:25.751037",
+      "created": "2019-09-20T17:46:25.804792",
+      "schema": {
+        "resource_id": "989d8cfc-81ee-48ae-a657-6259e5a90881",
+        "total_records": 409,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ag (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Al (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "As (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ba (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Be (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ca (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cd (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Co (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "COT (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Cu (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Fe (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "K (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mg (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mn (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Mo (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Na (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ni (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Pb (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MES  (mg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Se (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Sn2 ug/L",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Tl ug/L",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "U (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "V (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Zn (µg/L)",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2012-06-27T09:38:00",
+            "%OD": 100,
+            "O2 (mg/L)": 91,
+            "Conductivité (µs/cm2)": 282,
+            "pH": 84,
+            "Température (oC)": 199,
+            "Signe COLI": "<",
+            "COLI": 10,
+            "MÉTÉO": 0,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 106,
+            "As (µg/L)": 8,
+            "Ba (µg/L)": 26,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 30640,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 1,
+            "COT (µg/L)": "",
+            "Cr (µg/L)": 4,
+            "Cu (µg/L)": 11,
+            "Fe (µg/L)": 143,
+            "K (µg/L)": 1404,
+            "Mg (µg/L)": 7822,
+            "Mn (µg/L)": 79,
+            "Mo (µg/L)": 10,
+            "Na (µg/L)": 12080,
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": 7,
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": 2,
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 10,
+            "Tl ug/L": 2,
+            "U (µg/L)": 3,
+            "V (µg/L)": 6,
+            "Zn (µg/L)": 59
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2012-07-18T09:56:00",
+            "%OD": 101,
+            "O2 (mg/L)": 85,
+            "Conductivité (µs/cm2)": 297,
+            "pH": 85,
+            "Température (oC)": 243,
+            "Signe COLI": "=",
+            "COLI": 220,
+            "MÉTÉO": -1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 150,
+            "As (µg/L)": 9,
+            "Ba (µg/L)": 23,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 30220,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 1,
+            "COT (µg/L)": "",
+            "Cr (µg/L)": 3,
+            "Cu (µg/L)": 11,
+            "Fe (µg/L)": 172,
+            "K (µg/L)": 1480,
+            "Mg (µg/L)": 8258,
+            "Mn (µg/L)": 86,
+            "Mo (µg/L)": 10,
+            "Na (µg/L)": 12326,
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": 8,
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": 2,
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 10,
+            "Tl ug/L": 2,
+            "U (µg/L)": 3,
+            "V (µg/L)": 5,
+            "Zn (µg/L)": 52
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2012-07-31T09:23:00",
+            "%OD": 104,
+            "O2 (mg/L)": 87,
+            "Conductivité (µs/cm2)": 293,
+            "pH": 85,
+            "Température (oC)": 244,
+            "Signe COLI": "<",
+            "COLI": 10,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 73,
+            "As (µg/L)": 9,
+            "Ba (µg/L)": 23,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 31760,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 1,
+            "COT (µg/L)": "",
+            "Cr (µg/L)": 3,
+            "Cu (µg/L)": 8,
+            "Fe (µg/L)": 99,
+            "K (µg/L)": 1569,
+            "Mg (µg/L)": 8578,
+            "Mn (µg/L)": 64,
+            "Mo (µg/L)": 10,
+            "Na (µg/L)": 13018,
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": 7,
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": 2,
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 10,
+            "Tl ug/L": 2,
+            "U (µg/L)": 3,
+            "V (µg/L)": 6,
+            "Zn (µg/L)": 30
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2012-08-13T09:16:00",
+            "%OD": 94,
+            "O2 (mg/L)": 79,
+            "Conductivité (µs/cm2)": 302,
+            "pH": 85,
+            "Température (oC)": 236,
+            "Signe COLI": "=",
+            "COLI": 54,
+            "MÉTÉO": -1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 110,
+            "As (µg/L)": 9,
+            "Ba (µg/L)": 24,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 32200,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 1,
+            "COT (µg/L)": "",
+            "Cr (µg/L)": 4,
+            "Cu (µg/L)": 10,
+            "Fe (µg/L)": 133,
+            "K (µg/L)": 1644,
+            "Mg (µg/L)": 8748,
+            "Mn (µg/L)": 82,
+            "Mo (µg/L)": 10,
+            "Na (µg/L)": 13420,
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": 8,
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": 2,
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 10,
+            "Tl ug/L": 2,
+            "U (µg/L)": 3,
+            "V (µg/L)": 6,
+            "Zn (µg/L)": 30
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2012-09-19T09:37:00",
+            "%OD": 100,
+            "O2 (mg/L)": 92,
+            "Conductivité (µs/cm2)": 293,
+            "pH": 87,
+            "Température (oC)": 193,
+            "Signe COLI": "=",
+            "COLI": 300,
+            "MÉTÉO": -1,
+            "Ag (µg/L)": 1,
+            "Al (µg/L)": 102,
+            "As (µg/L)": 9,
+            "Ba (µg/L)": 24,
+            "Be (µg/L)": 1,
+            "Ca (µg/L)": 32880,
+            "Cd (µg/L)": 1,
+            "Co (µg/L)": 1,
+            "COT (µg/L)": "",
+            "Cr (µg/L)": 5,
+            "Cu (µg/L)": 8,
+            "Fe (µg/L)": 130,
+            "K (µg/L)": 1670,
+            "Mg (µg/L)": 8510,
+            "Mn (µg/L)": 86,
+            "Mo (µg/L)": 10,
+            "Na (µg/L)": 12822,
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": 6,
+            "Ptot (µg/L)": "",
+            "Pb (µg/L)": 2,
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": 5,
+            "Se (µg/L)": 5,
+            "Sn2 ug/L": 10,
+            "Tl ug/L": 2,
+            "U (µg/L)": 3,
+            "V (µg/L)": 6,
+            "Zn (µg/L)": 30
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 8,
+          "null_pct": 2.0,
+          "populated_pct": 98.0
+        },
+        "O2 (mg/L)": {
+          "null_count": 3,
+          "null_pct": 0.7,
+          "populated_pct": 99.3
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pH": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ag (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Al (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "As (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Ba (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Be (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Ca (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Cd (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Co (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "COT (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cr (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Cu (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Fe (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "K (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Mg (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Mn (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Mo (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Na (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "NH3 (µg/L)": {
+          "null_count": 339,
+          "null_pct": 82.9,
+          "populated_pct": 17.1
+        },
+        "Ni (µg/L)": {
+          "null_count": 2,
+          "null_pct": 0.5,
+          "populated_pct": 99.5
+        },
+        "Ptot (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 409,
+        "total_records": 409,
+        "audited_at": "2026-03-10T00:24:08.543075+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 63,
+            "top_values": [
+              {
+                "value": "EMIS-(-1)P",
+                "count": 7
+              },
+              {
+                "value": "EMIS-16P",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-1",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-10",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-2",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-3",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-4",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-5",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-6",
+                "count": 7
+              },
+              {
+                "value": "EMIS-26T-7",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2012-06-27T09:27:00",
+            "max_date": "2012-10-17T16:40:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "%OD": {
+            "null_count": 8,
+            "null_pct": 2.0,
+            "min": 73.0,
+            "max": 132.0,
+            "mean": 103.5262,
+            "median": 101.0,
+            "unique_count": 47,
+            "field_type_detected": "numeric"
+          },
+          "O2 (mg/L)": {
+            "null_count": 3,
+            "null_pct": 0.7,
+            "min": 61.0,
+            "max": 141.0,
+            "mean": 95.1404,
+            "median": 90.0,
+            "unique_count": 50,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5.0,
+            "max": 418.0,
+            "mean": 264.9193,
+            "median": 290.0,
+            "unique_count": 140,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 77.0,
+            "max": 93.0,
+            "mean": 83.1883,
+            "median": 83.0,
+            "unique_count": 15,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "83",
+                "count": 89
+              },
+              {
+                "value": "84",
+                "count": 78
+              },
+              {
+                "value": "82",
+                "count": 72
+              },
+              {
+                "value": "85",
+                "count": 53
+              },
+              {
+                "value": "81",
+                "count": 36
+              },
+              {
+                "value": "86",
+                "count": 25
+              },
+              {
+                "value": "80",
+                "count": 25
+              },
+              {
+                "value": "87",
+                "count": 11
+              },
+              {
+                "value": "79",
+                "count": 8
+              },
+              {
+                "value": "78",
+                "count": 4
+              }
+            ]
+          },
+          "Température (oC)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 98.0,
+            "max": 265.0,
+            "mean": 202.5651,
+            "median": 204.0,
+            "unique_count": 100,
+            "field_type_detected": "numeric"
+          },
+          "Signe COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 394
+              },
+              {
+                "value": "<",
+                "count": 10
+              },
+              {
+                "value": ">",
+                "count": 5
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 9.0,
+            "max": 2100000.0,
+            "mean": 35480.7237,
+            "median": 6000.0,
+            "unique_count": 171,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": -0.4377,
+            "median": -1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "-1",
+                "count": 176
+              },
+              {
+                "value": "1",
+                "count": 115
+              },
+              {
+                "value": "0",
+                "count": 59
+              },
+              {
+                "value": "-2",
+                "count": 59
+              }
+            ]
+          },
+          "Ag (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 1.0,
+            "max": 2.0,
+            "mean": 1.0025,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 406
+              },
+              {
+                "value": "2",
+                "count": 1
+              }
+            ]
+          },
+          "Al (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 49.0,
+            "max": 3453.0,
+            "mean": 286.6216,
+            "median": 161.0,
+            "unique_count": 229,
+            "field_type_detected": "numeric"
+          },
+          "As (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 2.0,
+            "max": 15.0,
+            "mean": 8.0369,
+            "median": 8.0,
+            "unique_count": 12,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "9",
+                "count": 142
+              },
+              {
+                "value": "8",
+                "count": 132
+              },
+              {
+                "value": "7",
+                "count": 47
+              },
+              {
+                "value": "6",
+                "count": 31
+              },
+              {
+                "value": "10",
+                "count": 22
+              },
+              {
+                "value": "5",
+                "count": 19
+              },
+              {
+                "value": "4",
+                "count": 7
+              },
+              {
+                "value": "14",
+                "count": 2
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "15",
+                "count": 1
+              }
+            ]
+          },
+          "Ba (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 18.0,
+            "max": 52.0,
+            "mean": 24.113,
+            "median": 24.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "24",
+                "count": 100
+              },
+              {
+                "value": "23",
+                "count": 98
+              },
+              {
+                "value": "25",
+                "count": 67
+              },
+              {
+                "value": "22",
+                "count": 57
+              },
+              {
+                "value": "26",
+                "count": 26
+              },
+              {
+                "value": "21",
+                "count": 12
+              },
+              {
+                "value": "20",
+                "count": 10
+              },
+              {
+                "value": "19",
+                "count": 9
+              },
+              {
+                "value": "27",
+                "count": 7
+              },
+              {
+                "value": "28",
+                "count": 5
+              }
+            ]
+          },
+          "Be (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 407
+              }
+            ]
+          },
+          "Ca (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 9742.0,
+            "max": 37420.0,
+            "mean": 27851.5037,
+            "median": 30340.0,
+            "unique_count": 301,
+            "field_type_detected": "numeric"
+          },
+          "Cd (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 407
+              }
+            ]
+          },
+          "Co (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 1.0,
+            "max": 62.0,
+            "mean": 3.1007,
+            "median": 2.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 140
+              },
+              {
+                "value": "2",
+                "count": 106
+              },
+              {
+                "value": "3",
+                "count": 84
+              },
+              {
+                "value": "4",
+                "count": 34
+              },
+              {
+                "value": "5",
+                "count": 14
+              },
+              {
+                "value": "9",
+                "count": 4
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "14",
+                "count": 3
+              },
+              {
+                "value": "13",
+                "count": 3
+              },
+              {
+                "value": "10",
+                "count": 3
+              }
+            ]
+          },
+          "COT (µg/L)": {
+            "null_count": 409,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cr (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 3.0,
+            "max": 62.0,
+            "mean": 7.7125,
+            "median": 6.0,
+            "unique_count": 30,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "4",
+                "count": 84
+              },
+              {
+                "value": "5",
+                "count": 76
+              },
+              {
+                "value": "6",
+                "count": 56
+              },
+              {
+                "value": "3",
+                "count": 42
+              },
+              {
+                "value": "7",
+                "count": 35
+              },
+              {
+                "value": "8",
+                "count": 24
+              },
+              {
+                "value": "9",
+                "count": 18
+              },
+              {
+                "value": "10",
+                "count": 14
+              },
+              {
+                "value": "11",
+                "count": 12
+              },
+              {
+                "value": "12",
+                "count": 8
+              }
+            ]
+          },
+          "Cu (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 5.0,
+            "max": 116.0,
+            "mean": 15.9705,
+            "median": 13.0,
+            "unique_count": 44,
+            "field_type_detected": "numeric"
+          },
+          "Fe (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 65.0,
+            "max": 2898.0,
+            "mean": 305.0025,
+            "median": 186.0,
+            "unique_count": 239,
+            "field_type_detected": "numeric"
+          },
+          "K (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 952.0,
+            "max": 4160.0,
+            "mean": 1629.6143,
+            "median": 1618.0,
+            "unique_count": 288,
+            "field_type_detected": "numeric"
+          },
+          "Mg (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 2512.0,
+            "max": 9446.0,
+            "mean": 7519.5676,
+            "median": 8262.0,
+            "unique_count": 356,
+            "field_type_detected": "numeric"
+          },
+          "Mn (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 38.0,
+            "max": 760.0,
+            "mean": 129.6757,
+            "median": 92.0,
+            "unique_count": 164,
+            "field_type_detected": "numeric"
+          },
+          "Mo (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 10.0,
+            "max": 20.0,
+            "mean": 10.3194,
+            "median": 10.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "10",
+                "count": 394
+              },
+              {
+                "value": "20",
+                "count": 13
+              }
+            ]
+          },
+          "Na (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 5312.0,
+            "max": 25620.0,
+            "mean": 12421.6708,
+            "median": 12894.0,
+            "unique_count": 370,
+            "field_type_detected": "numeric"
+          },
+          "NH3 (µg/L)": {
+            "null_count": 339,
+            "null_pct": 82.9,
+            "min": 20.0,
+            "max": 146.0,
+            "mean": 56.7571,
+            "median": 48.0,
+            "unique_count": 49,
+            "field_type_detected": "numeric"
+          },
+          "Ni (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 5.0,
+            "max": 59.0,
+            "mean": 9.3563,
+            "median": 8.0,
+            "unique_count": 27,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7",
+                "count": 107
+              },
+              {
+                "value": "8",
+                "count": 94
+              },
+              {
+                "value": "9",
+                "count": 54
+              },
+              {
+                "value": "6",
+                "count": 39
+              },
+              {
+                "value": "10",
+                "count": 39
+              },
+              {
+                "value": "5",
+                "count": 12
+              },
+              {
+                "value": "12",
+                "count": 12
+              },
+              {
+                "value": "11",
+                "count": 10
+              },
+              {
+                "value": "14",
+                "count": 8
+              },
+              {
+                "value": "15",
+                "count": 7
+              }
+            ]
+          },
+          "Ptot (µg/L)": {
+            "null_count": 409,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Pb (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 2.0,
+            "max": 22.0,
+            "mean": 2.9214,
+            "median": 2.0,
+            "unique_count": 16,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 276
+              },
+              {
+                "value": "3",
+                "count": 52
+              },
+              {
+                "value": "4",
+                "count": 40
+              },
+              {
+                "value": "5",
+                "count": 14
+              },
+              {
+                "value": "6",
+                "count": 10
+              },
+              {
+                "value": "7",
+                "count": 3
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "16",
+                "count": 2
+              },
+              {
+                "value": "17",
+                "count": 1
+              },
+              {
+                "value": "22",
+                "count": 1
+              }
+            ]
+          },
+          "MES  (mg/L)": {
+            "null_count": 409,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sb (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 5.0,
+            "max": 5.0,
+            "mean": 5.0,
+            "median": 5.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 407
+              }
+            ]
+          },
+          "Se (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 5.0,
+            "max": 26.0,
+            "mean": 5.1057,
+            "median": 5.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "5",
+                "count": 396
+              },
+              {
+                "value": "6",
+                "count": 5
+              },
+              {
+                "value": "8",
+                "count": 3
+              },
+              {
+                "value": "9",
+                "count": 2
+              },
+              {
+                "value": "26",
+                "count": 1
+              }
+            ]
+          },
+          "Sn2 ug/L": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 10.0,
+            "max": 14.0,
+            "mean": 10.0344,
+            "median": 10.0,
+            "unique_count": 5,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "10",
+                "count": 400
+              },
+              {
+                "value": "11",
+                "count": 3
+              },
+              {
+                "value": "12",
+                "count": 2
+              },
+              {
+                "value": "14",
+                "count": 1
+              },
+              {
+                "value": "13",
+                "count": 1
+              }
+            ]
+          },
+          "Tl ug/L": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 2.0,
+            "max": 2.0,
+            "mean": 2.0,
+            "median": 2.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 407
+              }
+            ]
+          },
+          "U (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 1.0,
+            "max": 4.0,
+            "mean": 2.8403,
+            "median": 3.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "3",
+                "count": 283
+              },
+              {
+                "value": "2",
+                "count": 54
+              },
+              {
+                "value": "4",
+                "count": 43
+              },
+              {
+                "value": "1",
+                "count": 27
+              }
+            ]
+          },
+          "V (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 3.0,
+            "max": 61.0,
+            "mean": 8.6978,
+            "median": 7.0,
+            "unique_count": 28,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "6",
+                "count": 80
+              },
+              {
+                "value": "7",
+                "count": 60
+              },
+              {
+                "value": "5",
+                "count": 57
+              },
+              {
+                "value": "4",
+                "count": 54
+              },
+              {
+                "value": "8",
+                "count": 40
+              },
+              {
+                "value": "9",
+                "count": 18
+              },
+              {
+                "value": "10",
+                "count": 17
+              },
+              {
+                "value": "11",
+                "count": 13
+              },
+              {
+                "value": "12",
+                "count": 12
+              },
+              {
+                "value": "14",
+                "count": 9
+              }
+            ]
+          },
+          "Zn (µg/L)": {
+            "null_count": 2,
+            "null_pct": 0.5,
+            "min": 30.0,
+            "max": 248.0,
+            "mean": 47.6781,
+            "median": 30.0,
+            "unique_count": 73,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    },
+    {
+      "id": "16a9657c-eeab-4a21-87a8-467f6f50ea4e",
+      "name": "RSMA - Données COURDO SPÉCIALES 2013",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), Al (ug/L) : Aluminium (µg/L), As (ug/L) : Arsenic (µg/L), Ba (ug/L) : Baryum (µg/L), Be (ug/L) : Béryllium (µg/L), Ca (ug/L) : Calcium (µg/L), Cd (ug/L) : Cadmium (µg/L), Co (ug/L) : Cobalt (µg/L), Cr (ug/L) : Chrome (µg/L), Cu (ug/L) : Cuivre (µg/L), Fe (ug/L) : Fer (µg/L), K (ug/L) : Potassium (µg/L), Mg (ug/L) : Magnésium (µg/L), Mn (ug/L) : Manganèse (µg/L), Mo (ug/L) : Molybdène (µg/L), Na (ug/L) : Sodium (µg/L), NH3 (µg/L) : Azote ammoniacal (µg-N/L), Ni (ug/L) : Nickel (µg/L), P (ug/L) : Phosphore total (µg/L), Pb (ug/L) : Plomb (µg/L), MES (mg/L) : Matières en suspension (mg/L), Sb (ug/L) : Antimoine (µg/L), Se (ug/L) : Sélénium (µg/L), U (ug/L) : Uranium (µg/L), V (ug/L) : Vanadium (µg/L), Zn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/243f731a-0c30-4e31-a15b-bd388cb7c91d/resource/16a9657c-eeab-4a21-87a8-467f6f50ea4e/download/courdo_special_2013.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-20T17:47:19.566792",
+      "created": "2019-09-20T17:47:19.820226",
+      "schema": {
+        "resource_id": "16a9657c-eeab-4a21-87a8-467f6f50ea4e",
+        "total_records": 395,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "Raison d'annulation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ag (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Al (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "As (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ba (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Be (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ca (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cd (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Co (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COT (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cu (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fe (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "K (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mg (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mn (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mo (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Na (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ni (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MES  (mg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Se (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sn2 ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Tl ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "U (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "V (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zn (µg/L)",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "EMIS-22T-1",
+            "Date": "2013-07-17T10:22:00",
+            "Raison d'annulation": "",
+            "%OD": 103,
+            "O2 (mg/L)": 85,
+            "Conductivité (µs/cm2)": 208,
+            "pH": 83,
+            "Température (oC)": 255,
+            "Signe COLI": "=",
+            "COLI": 9100,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": 25,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "EMIS-22T-1",
+            "Date": "2013-08-20T10:50:00",
+            "Raison d'annulation": "",
+            "%OD": 82,
+            "O2 (mg/L)": 71,
+            "Conductivité (µs/cm2)": 166,
+            "pH": 82,
+            "Température (oC)": 227,
+            "Signe COLI": "=",
+            "COLI": 900,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "EMIS-22T-1",
+            "Date": "2013-08-21T10:46:00",
+            "Raison d'annulation": "",
+            "%OD": 94,
+            "O2 (mg/L)": 81,
+            "Conductivité (µs/cm2)": 165,
+            "pH": 84,
+            "Température (oC)": 231,
+            "Signe COLI": "=",
+            "COLI": 2000,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "EMIS-22T-1",
+            "Date": "2013-09-30T10:46:00",
+            "Raison d'annulation": "",
+            "%OD": 98,
+            "O2 (mg/L)": 94,
+            "Conductivité (µs/cm2)": 148,
+            "pH": 79,
+            "Température (oC)": 176,
+            "Signe COLI": "=",
+            "COLI": 1400,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "EMIS-22T-1",
+            "Date": "2013-10-16T11:53:00",
+            "Raison d'annulation": "",
+            "%OD": 101,
+            "O2 (mg/L)": 102,
+            "Conductivité (µs/cm2)": 134,
+            "pH": 82,
+            "Température (oC)": 153,
+            "Signe COLI": "",
+            "COLI": null,
+            "MÉTÉO": -2,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Raison d'annulation": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 21,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "O2 (mg/L)": {
+          "null_count": 21,
+          "null_pct": 5.3,
+          "populated_pct": 94.7
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 11,
+          "null_pct": 2.8,
+          "populated_pct": 97.2
+        },
+        "pH": {
+          "null_count": 11,
+          "null_pct": 2.8,
+          "populated_pct": 97.2
+        },
+        "Température (oC)": {
+          "null_count": 11,
+          "null_pct": 2.8,
+          "populated_pct": 97.2
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 13,
+          "null_pct": 3.3,
+          "populated_pct": 96.7
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ag (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Al (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "As (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ba (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Be (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ca (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cd (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Co (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COT (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cr (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cu (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fe (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "K (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mg (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mn (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mo (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Na (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NH3 (µg/L)": {
+          "null_count": 232,
+          "null_pct": 58.7,
+          "populated_pct": 41.3
+        },
+        "Ni (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 395,
+        "total_records": 395,
+        "audited_at": "2026-03-10T00:24:09.774716+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 104,
+            "top_values": [
+              {
+                "value": "FSL-69R",
+                "count": 10
+              },
+              {
+                "value": "EMIS-22T-1",
+                "count": 6
+              },
+              {
+                "value": "EMIS-22T-12",
+                "count": 6
+              },
+              {
+                "value": "EMIS-22T-15",
+                "count": 6
+              },
+              {
+                "value": "EMIS-22T-3",
+                "count": 6
+              },
+              {
+                "value": "EMIS-22T-6",
+                "count": 6
+              },
+              {
+                "value": "EMIS-22T-9",
+                "count": 6
+              },
+              {
+                "value": "EMIS-26T-1",
+                "count": 6
+              },
+              {
+                "value": "EMIS-26T-4",
+                "count": 6
+              },
+              {
+                "value": "EMIS-26T-5",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2013-05-14T10:32:00",
+            "max_date": "2013-10-16T14:15:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "Raison d'annulation": {
+            "null_count": 388,
+            "null_pct": 98.2,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "À sec",
+                "count": 4
+              },
+              {
+                "value": "Inaccessible",
+                "count": 2
+              },
+              {
+                "value": "Niveau trop faible",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "%OD": {
+            "null_count": 21,
+            "null_pct": 5.3,
+            "min": 0.0,
+            "max": 130.0,
+            "mean": 97.623,
+            "median": 100.0,
+            "unique_count": 56,
+            "field_type_detected": "numeric"
+          },
+          "O2 (mg/L)": {
+            "null_count": 21,
+            "null_pct": 5.3,
+            "min": 0.0,
+            "max": 114.0,
+            "mean": 90.4358,
+            "median": 89.5,
+            "unique_count": 47,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 11,
+            "null_pct": 2.8,
+            "min": 78.0,
+            "max": 3200.0,
+            "mean": 245.9453,
+            "median": 227.5,
+            "unique_count": 168,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 11,
+            "null_pct": 2.8,
+            "min": 30.0,
+            "max": 110.0,
+            "mean": 83.0052,
+            "median": 82.0,
+            "unique_count": 32,
+            "field_type_detected": "numeric"
+          },
+          "Température (oC)": {
+            "null_count": 11,
+            "null_pct": 2.8,
+            "min": 0.0,
+            "max": 269.0,
+            "mean": 189.237,
+            "median": 181.0,
+            "unique_count": 103,
+            "field_type_detected": "numeric"
+          },
+          "Signe COLI": {
+            "null_count": 13,
+            "null_pct": 3.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 346
+              },
+              {
+                "value": "<",
+                "count": 35
+              },
+              {
+                "value": ">",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 13,
+            "null_pct": 3.3,
+            "min": 10.0,
+            "max": 150000.0,
+            "mean": 8430.7382,
+            "median": 1700.0,
+            "unique_count": 124,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": 0.281,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 244
+              },
+              {
+                "value": "0",
+                "count": 58
+              },
+              {
+                "value": "-1",
+                "count": 53
+              },
+              {
+                "value": "-2",
+                "count": 40
+              }
+            ]
+          },
+          "Ag (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Al (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "As (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ba (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Be (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ca (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cd (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Co (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "COT (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cr (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cu (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Fe (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "K (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mg (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mn (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mo (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Na (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NH3 (µg/L)": {
+            "null_count": 232,
+            "null_pct": 58.7,
+            "min": 20.0,
+            "max": 140.0,
+            "mean": 34.6258,
+            "median": 21.0,
+            "unique_count": 42,
+            "field_type_detected": "numeric"
+          },
+          "Ni (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ptot (µg/L)": {
+            "null_count": 385,
+            "null_pct": 97.5,
+            "min": 400.0,
+            "max": 2410.0,
+            "mean": 1115.0,
+            "median": 1005.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1150",
+                "count": 1
+              },
+              {
+                "value": "610",
+                "count": 1
+              },
+              {
+                "value": "400",
+                "count": 1
+              },
+              {
+                "value": "430",
+                "count": 1
+              },
+              {
+                "value": "1590",
+                "count": 1
+              },
+              {
+                "value": "650",
+                "count": 1
+              },
+              {
+                "value": "860",
+                "count": 1
+              },
+              {
+                "value": "1770",
+                "count": 1
+              },
+              {
+                "value": "1280",
+                "count": 1
+              },
+              {
+                "value": "2410",
+                "count": 1
+              }
+            ]
+          },
+          "Pb (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MES  (mg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sb (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Se (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sn2 ug/L": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Tl ug/L": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "U (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "V (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Zn (µg/L)": {
+            "null_count": 395,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "0e6ae430-f166-4f7c-b5ea-ba9ab2a70118",
+      "name": "RSMA - Données COURDO SPÉCIALES 2014",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), Al (ug/L) : Aluminium (µg/L), As (ug/L) : Arsenic (µg/L), Ba (ug/L) : Baryum (µg/L), Be (ug/L) : Béryllium (µg/L), Ca (ug/L) : Calcium (µg/L), Cd (ug/L) : Cadmium (µg/L), Co (ug/L) : Cobalt (µg/L), Cr (ug/L) : Chrome (µg/L), Cu (ug/L) : Cuivre (µg/L), Fe (ug/L) : Fer (µg/L), K (ug/L) : Potassium (µg/L), Mg (ug/L) : Magnésium (µg/L), Mn (ug/L) : Manganèse (µg/L), Mo (ug/L) : Molybdène (µg/L), Na (ug/L) : Sodium (µg/L), NH3 (µg/L) : Azote ammoniacal (µg-N/L), Ni (ug/L) : Nickel (µg/L), P (ug/L) : Phosphore total (µg/L), Pb (ug/L) : Plomb (µg/L), MES (mg/L) : Matières en suspension (mg/L), Sb (ug/L) : Antimoine (µg/L), Se (ug/L) : Sélénium (µg/L), U (ug/L) : Uranium (µg/L), V (ug/L) : Vanadium (µg/L), Zn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/243f731a-0c30-4e31-a15b-bd388cb7c91d/resource/0e6ae430-f166-4f7c-b5ea-ba9ab2a70118/download/courdo_special_2014.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-20T17:48:01.143713",
+      "created": "2019-09-20T17:48:01.214401",
+      "schema": {
+        "resource_id": "0e6ae430-f166-4f7c-b5ea-ba9ab2a70118",
+        "total_records": 223,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ag (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Al (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "As (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ba (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Be (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ca (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cd (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Co (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COT (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cr (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Cu (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Fe (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "K (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mg (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mn (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Mo (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Na (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ni (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Pb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "MES  (mg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sb (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Se (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Sn2 ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Tl ug/L",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "U (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "V (µg/L)",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Zn (µg/L)",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "EMIS-(-1)RS",
+            "Date": "2014-05-12T09:39:00",
+            "%OD": 106,
+            "O2 (mg/L)": 121,
+            "Conductivité (µs/cm2)": 266,
+            "pH": 81,
+            "Température (oC)": 95,
+            "Signe COLI": "=",
+            "COLI": 180,
+            "MÉTÉO": -2,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": 20,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": 14,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "EMIS-(-1)RS",
+            "Date": "2014-05-14T09:57:00",
+            "%OD": 101,
+            "O2 (mg/L)": 115,
+            "Conductivité (µs/cm2)": 267,
+            "pH": 81,
+            "Température (oC)": 100,
+            "Signe COLI": "<",
+            "COLI": 100,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": 20,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": 11,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "EMIS-(-1)RS",
+            "Date": "2014-05-21T10:02:00",
+            "%OD": 103,
+            "O2 (mg/L)": 112,
+            "Conductivité (µs/cm2)": 259,
+            "pH": 80,
+            "Température (oC)": 121,
+            "Signe COLI": "<",
+            "COLI": 100,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "EMIS-0P",
+            "Date": "2014-09-16T09:00:00",
+            "%OD": null,
+            "O2 (mg/L)": null,
+            "Conductivité (µs/cm2)": null,
+            "pH": null,
+            "Température (oC)": null,
+            "Signe COLI": "=",
+            "COLI": 390000,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "EMIS-0P",
+            "Date": "2014-09-16T09:00:00",
+            "%OD": null,
+            "O2 (mg/L)": null,
+            "Conductivité (µs/cm2)": null,
+            "pH": null,
+            "Température (oC)": null,
+            "Signe COLI": "=",
+            "COLI": 500000,
+            "MÉTÉO": 1,
+            "Ag (µg/L)": "",
+            "Al (µg/L)": "",
+            "As (µg/L)": "",
+            "Ba (µg/L)": "",
+            "Be (µg/L)": "",
+            "Ca (µg/L)": "",
+            "Cd (µg/L)": "",
+            "Co (µg/L)": "",
+            "COT (µg/L)": "",
+            "Cr (µg/L)": "",
+            "Cu (µg/L)": "",
+            "Fe (µg/L)": "",
+            "K (µg/L)": "",
+            "Mg (µg/L)": "",
+            "Mn (µg/L)": "",
+            "Mo (µg/L)": "",
+            "Na (µg/L)": "",
+            "NH3 (µg/L)": null,
+            "Ni (µg/L)": "",
+            "Ptot (µg/L)": null,
+            "Pb (µg/L)": "",
+            "MES  (mg/L)": "",
+            "Sb (µg/L)": "",
+            "Se (µg/L)": "",
+            "Sn2 ug/L": "",
+            "Tl ug/L": "",
+            "U (µg/L)": "",
+            "V (µg/L)": "",
+            "Zn (µg/L)": ""
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 2,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "O2 (mg/L)": {
+          "null_count": 2,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 2,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "pH": {
+          "null_count": 2,
+          "null_pct": 0.9,
+          "populated_pct": 99.1
+        },
+        "Température (oC)": {
+          "null_count": 5,
+          "null_pct": 2.2,
+          "populated_pct": 97.8
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ag (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Al (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "As (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ba (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Be (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ca (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cd (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Co (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COT (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cr (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Cu (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Fe (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "K (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mg (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mn (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Mo (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Na (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NH3 (µg/L)": {
+          "null_count": 140,
+          "null_pct": 62.8,
+          "populated_pct": 37.2
+        },
+        "Ni (µg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Ptot (µg/L)": {
+          "null_count": 142,
+          "null_pct": 63.7,
+          "populated_pct": 36.3
+        }
+      },
+      "quality_audit": {
+        "sample_size": 223,
+        "total_records": 223,
+        "audited_at": "2026-03-10T00:24:10.833255+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "EMIS-0P",
+                "count": 4
+              },
+              {
+                "value": "EMIS-6RN-1",
+                "count": 4
+              },
+              {
+                "value": "EMIS-6RN-2",
+                "count": 4
+              },
+              {
+                "value": "EMIS-6RN-3",
+                "count": 4
+              },
+              {
+                "value": "EMIS-(-1)RS",
+                "count": 3
+              },
+              {
+                "value": "EMIS-36T-1",
+                "count": 3
+              },
+              {
+                "value": "EMIS-36T-10",
+                "count": 3
+              },
+              {
+                "value": "EMIS-36T-11",
+                "count": 3
+              },
+              {
+                "value": "EMIS-36T-12",
+                "count": 3
+              },
+              {
+                "value": "EMIS-36T-13",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2014-05-12T09:30:00",
+            "max_date": "2014-10-28T16:48:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "%OD": {
+            "null_count": 2,
+            "null_pct": 0.9,
+            "min": 63.0,
+            "max": 110.0,
+            "mean": 101.724,
+            "median": 102.0,
+            "unique_count": 23,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "102",
+                "count": 38
+              },
+              {
+                "value": "101",
+                "count": 27
+              },
+              {
+                "value": "106",
+                "count": 19
+              },
+              {
+                "value": "105",
+                "count": 19
+              },
+              {
+                "value": "103",
+                "count": 17
+              },
+              {
+                "value": "104",
+                "count": 17
+              },
+              {
+                "value": "99",
+                "count": 17
+              },
+              {
+                "value": "100",
+                "count": 16
+              },
+              {
+                "value": "98",
+                "count": 11
+              },
+              {
+                "value": "107",
+                "count": 9
+              }
+            ]
+          },
+          "O2 (mg/L)": {
+            "null_count": 2,
+            "null_pct": 0.9,
+            "min": 59.0,
+            "max": 124.0,
+            "mean": 107.9593,
+            "median": 110.0,
+            "unique_count": 36,
+            "field_type_detected": "numeric"
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 2,
+            "null_pct": 0.9,
+            "min": 87.0,
+            "max": 543.0,
+            "mean": 215.5747,
+            "median": 233.0,
+            "unique_count": 126,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 2,
+            "null_pct": 0.9,
+            "min": 74.0,
+            "max": 87.0,
+            "mean": 79.9548,
+            "median": 80.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "79",
+                "count": 47
+              },
+              {
+                "value": "80",
+                "count": 46
+              },
+              {
+                "value": "81",
+                "count": 31
+              },
+              {
+                "value": "78",
+                "count": 26
+              },
+              {
+                "value": "83",
+                "count": 16
+              },
+              {
+                "value": "77",
+                "count": 15
+              },
+              {
+                "value": "82",
+                "count": 15
+              },
+              {
+                "value": "76",
+                "count": 6
+              },
+              {
+                "value": "86",
+                "count": 6
+              },
+              {
+                "value": "74",
+                "count": 3
+              }
+            ]
+          },
+          "Température (oC)": {
+            "null_count": 5,
+            "null_pct": 2.2,
+            "min": 95.0,
+            "max": 185.0,
+            "mean": 126.8119,
+            "median": 117.0,
+            "unique_count": 63,
+            "field_type_detected": "numeric"
+          },
+          "Signe COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 201
+              },
+              {
+                "value": "<",
+                "count": 21
+              },
+              {
+                "value": ">",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 18.0,
+            "max": 500000.0,
+            "mean": 16461.13,
+            "median": 1400.0,
+            "unique_count": 104,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -2.0,
+            "max": 1.0,
+            "mean": 0.2063,
+            "median": 1.0,
+            "unique_count": 4,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 132
+              },
+              {
+                "value": "0",
+                "count": 46
+              },
+              {
+                "value": "-2",
+                "count": 41
+              },
+              {
+                "value": "-1",
+                "count": 4
+              }
+            ]
+          },
+          "Ag (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Al (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "As (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ba (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Be (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ca (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cd (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Co (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "COT (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cr (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Cu (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Fe (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "K (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mg (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mn (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Mo (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Na (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "NH3 (µg/L)": {
+            "null_count": 140,
+            "null_pct": 62.8,
+            "min": 20.0,
+            "max": 4330.0,
+            "mean": 91.5904,
+            "median": 23.0,
+            "unique_count": 37,
+            "field_type_detected": "numeric"
+          },
+          "Ni (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Ptot (µg/L)": {
+            "null_count": 142,
+            "null_pct": 63.7,
+            "min": 11.0,
+            "max": 46.0,
+            "mean": 20.4815,
+            "median": 18.0,
+            "unique_count": 21,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "17",
+                "count": 11
+              },
+              {
+                "value": "15",
+                "count": 10
+              },
+              {
+                "value": "16",
+                "count": 9
+              },
+              {
+                "value": "18",
+                "count": 9
+              },
+              {
+                "value": "19",
+                "count": 7
+              },
+              {
+                "value": "28",
+                "count": 4
+              },
+              {
+                "value": "24",
+                "count": 4
+              },
+              {
+                "value": "26",
+                "count": 4
+              },
+              {
+                "value": "21",
+                "count": 4
+              },
+              {
+                "value": "27",
+                "count": 3
+              }
+            ]
+          },
+          "Pb (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "MES  (mg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sb (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Se (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Sn2 ug/L": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Tl ug/L": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "U (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "V (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          },
+          "Zn (µg/L)": {
+            "null_count": 223,
+            "null_pct": 100.0,
+            "field_type_detected": "all_null"
+          }
+        }
+      }
+    },
+    {
+      "id": "4d506fe3-853e-4982-962c-cad2bec5da03",
+      "name": "RSMA - Données COURDO SPÉCIALES 2017",
+      "description": "Point d’échantillonnage : Nom du point d’échantillonnage\r\n\r\nDate : date du prélèvement\r\n\r\nTempérature (oC) : Température en degrés Celsius\r\n\r\nConductivité (µs/cm) : Conductivité en µs/cm\r\n\r\npH : Potentiel d’hydrogène (unités pH 1-14)\r\n\r\nSigne COLI : Signe de la valeur des coliformes fécaux (plus petit que, égal ou plus grand que)\r\n\r\nCOLI : Coliformes fécaux (UFC/100mL)\r\n\r\nMÉTÉO : 1 = temps sec, 0 = pluie, -1 = pluie la veille et -2 = pluie l'avant-veille (station météorologique de Aéroport international Pierre-Élliott Trudeau de Montréal)\r\n\r\nAg (ug/L) : Argent (µg/L), Al (ug/L) : Aluminium (µg/L), As (ug/L) : Arsenic (µg/L), Ba (ug/L) : Baryum (µg/L), Be (ug/L) : Béryllium (µg/L), Ca (ug/L) : Calcium (µg/L), Cd (ug/L) : Cadmium (µg/L), Co (ug/L) : Cobalt (µg/L), Cr (ug/L) : Chrome (µg/L), Cu (ug/L) : Cuivre (µg/L), Fe (ug/L) : Fer (µg/L), K (ug/L) : Potassium (µg/L), Mg (ug/L) : Magnésium (µg/L), Mn (ug/L) : Manganèse (µg/L), Mo (ug/L) : Molybdène (µg/L), Na (ug/L) : Sodium (µg/L), NH3 (µg/L) : Azote ammoniacal (µg-N/L), Ni (ug/L) : Nickel (µg/L), P (ug/L) : Phosphore total (µg/L), Pb (ug/L) : Plomb (µg/L), MES (mg/L) : Matières en suspension (mg/L), Sb (ug/L) : Antimoine (µg/L), Se (ug/L) : Sélénium (µg/L), U (ug/L) : Uranium (µg/L), V (ug/L) : Vanadium (µg/L), Zn (ug/L) : Zinc (µg/L)",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/243f731a-0c30-4e31-a15b-bd388cb7c91d/resource/4d506fe3-853e-4982-962c-cad2bec5da03/download/courdo_special_2017.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2019-09-20T17:48:41.000599",
+      "created": "2019-09-20T17:48:41.069269",
+      "schema": {
+        "resource_id": "4d506fe3-853e-4982-962c-cad2bec5da03",
+        "total_records": 152,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Point d'échantillonnage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date",
+            "type": "timestamp",
+            "info": {}
+          },
+          {
+            "id": "%OD",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "O2 (mg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Conductivité (µs/cm2)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "pH",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Température (oC)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Signe COLI",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "COLI",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "MÉTÉO",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "NH3 (µg/L)",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "Ptot (µg/L)",
+            "type": "numeric",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2017-05-15T10:01:00",
+            "%OD": 107,
+            "O2 (mg/L)": 121,
+            "Conductivité (µs/cm2)": 197,
+            "pH": 78,
+            "Température (oC)": 99,
+            "Signe COLI": "<",
+            "COLI": 100,
+            "MÉTÉO": -1,
+            "NH3 (µg/L)": 20,
+            "Ptot (µg/L)": 22
+          },
+          {
+            "_id": 2,
+            "Point d'échantillonnage": "EMIS-(-1)P",
+            "Date": "2017-05-17T09:22:00",
+            "%OD": 102,
+            "O2 (mg/L)": 113,
+            "Conductivité (µs/cm2)": 191,
+            "pH": 81,
+            "Température (oC)": 111,
+            "Signe COLI": "=",
+            "COLI": 18,
+            "MÉTÉO": 1,
+            "NH3 (µg/L)": 20,
+            "Ptot (µg/L)": 22
+          },
+          {
+            "_id": 3,
+            "Point d'échantillonnage": "EMIS-(-1)RS",
+            "Date": "2017-05-15T09:58:00",
+            "%OD": 105,
+            "O2 (mg/L)": 120,
+            "Conductivité (µs/cm2)": 251,
+            "pH": 77,
+            "Température (oC)": 98,
+            "Signe COLI": "<",
+            "COLI": 100,
+            "MÉTÉO": -1,
+            "NH3 (µg/L)": 20,
+            "Ptot (µg/L)": 15
+          },
+          {
+            "_id": 4,
+            "Point d'échantillonnage": "EMIS-(-1)RS",
+            "Date": "2017-05-17T09:18:00",
+            "%OD": 102,
+            "O2 (mg/L)": 113,
+            "Conductivité (µs/cm2)": 249,
+            "pH": 81,
+            "Température (oC)": 109,
+            "Signe COLI": "=",
+            "COLI": 45,
+            "MÉTÉO": 1,
+            "NH3 (µg/L)": 20,
+            "Ptot (µg/L)": 14
+          },
+          {
+            "_id": 5,
+            "Point d'échantillonnage": "EMIS-26P",
+            "Date": "2017-10-18T17:20:00",
+            "%OD": 93,
+            "O2 (mg/L)": 93,
+            "Conductivité (µs/cm2)": 288,
+            "pH": 79,
+            "Température (oC)": 153,
+            "Signe COLI": "=",
+            "COLI": 33000,
+            "MÉTÉO": 1,
+            "NH3 (µg/L)": null,
+            "Ptot (µg/L)": null
+          }
+        ]
+      },
+      "field_stats": {
+        "Point d'échantillonnage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "%OD": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "O2 (mg/L)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Conductivité (µs/cm2)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pH": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Température (oC)": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Signe COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "COLI": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "MÉTÉO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NH3 (µg/L)": {
+          "null_count": 40,
+          "null_pct": 26.3,
+          "populated_pct": 73.7
+        },
+        "Ptot (µg/L)": {
+          "null_count": 40,
+          "null_pct": 26.3,
+          "populated_pct": 73.7
+        }
+      },
+      "quality_audit": {
+        "sample_size": 152,
+        "total_records": 152,
+        "audited_at": "2026-03-10T00:24:11.754217+00:00",
+        "fields": {
+          "Point d'échantillonnage": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 70,
+            "top_values": [
+              {
+                "value": "EMIS-26P",
+                "count": 3
+              },
+              {
+                "value": "EMIS-40P",
+                "count": 3
+              },
+              {
+                "value": "EMIS-40RN",
+                "count": 3
+              },
+              {
+                "value": "EMIS-40RS",
+                "count": 3
+              },
+              {
+                "value": "EMIS-54-2",
+                "count": 3
+              },
+              {
+                "value": "EMIS-54-3",
+                "count": 3
+              },
+              {
+                "value": "LSP-GRACE-10",
+                "count": 3
+              },
+              {
+                "value": "LSP-GRACE-15",
+                "count": 3
+              },
+              {
+                "value": "LSP-GRACE-20",
+                "count": 3
+              },
+              {
+                "value": "LSP-GRACE-21",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2017-05-15T09:45:00",
+            "max_date": "2017-11-13T16:20:00",
+            "date_format": "YYYY-MM-DDThh:mm:ss",
+            "field_type_detected": "date"
+          },
+          "%OD": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 92.0,
+            "max": 111.0,
+            "mean": 102.8158,
+            "median": 104.0,
+            "unique_count": 20,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "105",
+                "count": 24
+              },
+              {
+                "value": "103",
+                "count": 19
+              },
+              {
+                "value": "106",
+                "count": 17
+              },
+              {
+                "value": "102",
+                "count": 16
+              },
+              {
+                "value": "104",
+                "count": 15
+              },
+              {
+                "value": "107",
+                "count": 10
+              },
+              {
+                "value": "95",
+                "count": 8
+              },
+              {
+                "value": "108",
+                "count": 8
+              },
+              {
+                "value": "94",
+                "count": 6
+              },
+              {
+                "value": "97",
+                "count": 6
+              }
+            ]
+          },
+          "O2 (mg/L)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 91.0,
+            "max": 132.0,
+            "mean": 113.0461,
+            "median": 115.5,
+            "unique_count": 29,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "119",
+                "count": 16
+              },
+              {
+                "value": "118",
+                "count": 16
+              },
+              {
+                "value": "113",
+                "count": 15
+              },
+              {
+                "value": "112",
+                "count": 11
+              },
+              {
+                "value": "120",
+                "count": 10
+              },
+              {
+                "value": "121",
+                "count": 7
+              },
+              {
+                "value": "95",
+                "count": 7
+              },
+              {
+                "value": "116",
+                "count": 7
+              },
+              {
+                "value": "114",
+                "count": 7
+              },
+              {
+                "value": "117",
+                "count": 6
+              }
+            ]
+          },
+          "Conductivité (µs/cm2)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 84.0,
+            "max": 299.0,
+            "mean": 200.4605,
+            "median": 216.0,
+            "unique_count": 99,
+            "field_type_detected": "numeric"
+          },
+          "pH": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 74.0,
+            "max": 81.0,
+            "mean": 78.4276,
+            "median": 78.0,
+            "unique_count": 7,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "78",
+                "count": 42
+              },
+              {
+                "value": "79",
+                "count": 31
+              },
+              {
+                "value": "80",
+                "count": 31
+              },
+              {
+                "value": "77",
+                "count": 25
+              },
+              {
+                "value": "76",
+                "count": 13
+              },
+              {
+                "value": "81",
+                "count": 9
+              },
+              {
+                "value": "74",
+                "count": 1
+              }
+            ]
+          },
+          "Température (oC)": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 43.0,
+            "max": 158.0,
+            "mean": 112.7105,
+            "median": 111.5,
+            "unique_count": 49,
+            "field_type_detected": "numeric"
+          },
+          "Signe COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "=",
+                "count": 142
+              },
+              {
+                "value": "<",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "COLI": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 10.0,
+            "max": 33000.0,
+            "mean": 3580.5329,
+            "median": 1200.0,
+            "unique_count": 77,
+            "field_type_detected": "numeric"
+          },
+          "MÉTÉO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -1.0,
+            "max": 1.0,
+            "mean": 0.0789,
+            "median": 1.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 82
+              },
+              {
+                "value": "-1",
+                "count": 70
+              }
+            ]
+          },
+          "NH3 (µg/L)": {
+            "null_count": 40,
+            "null_pct": 26.3,
+            "min": 20.0,
+            "max": 1300.0,
+            "mean": 342.5893,
+            "median": 300.0,
+            "unique_count": 18,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "400",
+                "count": 13
+              },
+              {
+                "value": "600",
+                "count": 13
+              },
+              {
+                "value": "300",
+                "count": 13
+              },
+              {
+                "value": "40",
+                "count": 12
+              },
+              {
+                "value": "200",
+                "count": 12
+              },
+              {
+                "value": "700",
+                "count": 9
+              },
+              {
+                "value": "500",
+                "count": 9
+              },
+              {
+                "value": "30",
+                "count": 8
+              },
+              {
+                "value": "20",
+                "count": 6
+              },
+              {
+                "value": "60",
+                "count": 4
+              }
+            ]
+          },
+          "Ptot (µg/L)": {
+            "null_count": 40,
+            "null_pct": 26.3,
+            "min": 14.0,
+            "max": 460.0,
+            "mean": 190.0,
+            "median": 200.0,
+            "unique_count": 49,
+            "field_type_detected": "numeric"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cours d eau",
+    "Eau",
+    "Fleuve",
+    "Lac",
+    "RSMA",
+    "Rivière",
+    "SEnv"
+  ],
+  "web_metadata": {
+    "methodology_text": "--\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Cours d eau",
+      "Eau",
+      "Fleuve",
+      "Lac",
+      "RSMA",
+      "Rivière",
+      "SEnv"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/rsma-donnees-courdo-speciales",
+    "scraped_at": "2026-03-09T20:19:33.830661+00:00"
+  }
+}

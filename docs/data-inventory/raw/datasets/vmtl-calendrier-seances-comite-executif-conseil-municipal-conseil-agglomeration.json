@@ -1,0 +1,339 @@
+{
+  "slug": "vmtl-calendrier-seances-comite-executif-conseil-municipal-conseil-agglomeration",
+  "title": "Calendrier des séances du comité exécutif, conseil municipal et conseil d'agglomération",
+  "notes": "Cet ensemble de données présentent le calendrier des séances du comité exécutif, conseil municipal et conseil d'agglomération tels que diffusés sur le [calendrier des événements de la Ville](https://montreal.ca/calendrier).",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-06-14T20:15:53.658231",
+  "metadata_modified": "2026-03-09T01:29:09.689898",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "9d9d839a-8131-40e4-a2f4-7e82bf9bd58c",
+      "name": "Calendrier des séances du comité exécutif, conseil municipal et conseil d'agglomération",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/ef6ce312-9737-4253-8b25-94ba17eec23e/resource/9d9d839a-8131-40e4-a2f4-7e82bf9bd58c/download/calendrier-seances-executif-municipal-agglo.csv",
+      "datastore_active": true,
+      "size": 29404,
+      "last_modified": "2026-03-08T23:30:53.119514",
+      "created": "2024-08-16T16:13:10.222425",
+      "schema": {
+        "resource_id": "9d9d839a-8131-40e4-a2f4-7e82bf9bd58c",
+        "total_records": 165,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "seance",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lien_site_ville",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_debut",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "heure_fin",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "lien_video_seance",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "seance": "Séance du conseil d'agglomération",
+            "lien_site_ville": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63450",
+            "date": "2024-06-20",
+            "heure_debut": "17:00",
+            "heure_fin": "19:00",
+            "lien_video_seance": null
+          },
+          {
+            "_id": 2,
+            "seance": "Séance du conseil d'agglomération",
+            "lien_site_ville": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63652",
+            "date": "2024-08-22",
+            "heure_debut": "17:00",
+            "heure_fin": "19:00",
+            "lien_video_seance": null
+          },
+          {
+            "_id": 3,
+            "seance": "Séance du conseil d'agglomération",
+            "lien_site_ville": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63653",
+            "date": "2024-09-19",
+            "heure_debut": "17:00",
+            "heure_fin": "19:00",
+            "lien_video_seance": null
+          },
+          {
+            "_id": 4,
+            "seance": "Séance du conseil d'agglomération",
+            "lien_site_ville": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63654",
+            "date": "2024-10-24",
+            "heure_debut": "17:00",
+            "heure_fin": "19:00",
+            "lien_video_seance": null
+          },
+          {
+            "_id": 5,
+            "seance": "Séance du conseil d'agglomération",
+            "lien_site_ville": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63655",
+            "date": "2024-11-21",
+            "heure_debut": "16:00",
+            "heure_fin": "19:00",
+            "lien_video_seance": null
+          }
+        ]
+      },
+      "field_stats": {
+        "seance": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lien_site_ville": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_debut": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "heure_fin": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "lien_video_seance": {
+          "null_count": 14,
+          "null_pct": 8.5,
+          "populated_pct": 91.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 165,
+        "total_records": 165,
+        "audited_at": "2026-03-10T00:14:36.955946+00:00",
+        "fields": {
+          "seance": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Séance du comité exécutif",
+                "count": 85
+              },
+              {
+                "value": "Séance du conseil municipal",
+                "count": 47
+              },
+              {
+                "value": "Séance du conseil d'agglomération",
+                "count": 25
+              },
+              {
+                "value": "Séance extraordinaire du conseil municipal",
+                "count": 5
+              },
+              {
+                "value": "Séance extraordinaire du conseil d'agglomération",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "lien_site_ville": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 165,
+            "top_values": [
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63450",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63652",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63653",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63654",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-63655",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-79674",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-79675",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-79676",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-79677",
+                "count": 1
+              },
+              {
+                "value": "https://montreal.ca/evenements/seance-du-conseil-dagglomeration-79678",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "2024-05-22",
+            "max_date": "2026-12-23",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "heure_debut": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "09:00",
+            "max_date": "19:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "heure_fin": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "10:00",
+            "max_date": "22:00",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "lien_video_seance": {
+            "null_count": 14,
+            "null_pct": 8.5,
+            "unique_count": 150,
+            "top_values": [
+              {
+                "value": "https://youtube.com/live/rrPUdmi2G1w?feature=share",
+                "count": 2
+              },
+              {
+                "value": "https://youtube.com/live/Nm9pD6Cd4rQ?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/4FruVlZOXiM?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/-RzYgbMv5so?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/fo32qzHzFmM?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/vo1p9bvCVoM?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/H1xZnXyf3GA?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/-UCIKxSDEvE?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://youtube.com/live/fmTZFz8F7Lw?feature=share",
+                "count": 1
+              },
+              {
+                "value": "https://www.youtube.com/live/CzpIyN4Ci7M",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Calendrier",
+    "Comité exécutif",
+    "Conseil d agglomération",
+    "Conseil municipal",
+    "SG"
+  ],
+  "web_metadata": {
+    "methodology_text": "Les données sont extraites du calendrier des événements publics de la Ville. \n\n## Dictionnaire de données\n\n\n\n- seance (Texte variable): nom de la séance\n\n- lien_site_ville (Texte variable): lien pour consulter la fiche de la séance sur le site web de la Ville\n\n- date (Date et heure): date de la séance\n\n- heure_debut (Date et heure): heure de début de la séance\n\n- heure_fin (Date et heure): heure de fin de la séance\n\n- lien_video_seance (Texte variable): lien pour consulter la vidéo de la séance sur Youtube\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service du greffe",
+      "Couverture temporelle": "2023/à ce jour",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Calendrier",
+      "Comité exécutif",
+      "Conseil d agglomération",
+      "Conseil municipal",
+      "SG"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/calendrier-seances-comite-executif-conseil-municipal-conseil-agglomeration",
+    "scraped_at": "2026-03-09T19:53:18.684041+00:00"
+  }
+}

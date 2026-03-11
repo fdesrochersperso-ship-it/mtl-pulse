@@ -1,0 +1,673 @@
+{
+  "slug": "vmtl-indicateurs-de-condition-des-ruelles",
+  "title": "Indicateurs de condition des ruelles",
+  "notes": "Résultats de l’inspection visuelle réalisée en 2019 de la condition de l’ensemble des ruelles situées sur le territoire de la Ville de Montréal.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "notPlanned",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2021-06-25T13:20:46.907079",
+  "metadata_modified": "2025-02-26T17:48:19.715112",
+  "num_resources": 3,
+  "resources": [
+    {
+      "id": "4df8ba68-5132-4620-948d-6c05371778bc",
+      "name": "Condition des ruelles (2019)",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/647d5c48-17d1-41c8-957e-4af4eab35b7e/resource/4df8ba68-5132-4620-948d-6c05371778bc/download/condition-ruelles-2019.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2021-06-25T13:50:22.163151",
+      "created": "2021-06-25T13:33:32.182580",
+      "schema": {
+        "resource_id": "4df8ba68-5132-4620-948d-6c05371778bc",
+        "total_records": 6907,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "id_ruelle",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "arrondissement",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "limite_1",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "limite_2",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "longueur_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "largeur_m",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "type_surface",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "amenagement_vert",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "condition_surface",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "condition_drainage",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "cote_globale",
+            "type": "numeric",
+            "info": {}
+          },
+          {
+            "id": "commentaires",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "id_ruelle": 104003064,
+            "arrondissement": "Plateau - Mont-Royal",
+            "limite_1": "rue Marie-Anne Est",
+            "limite_2": "rue Cérat",
+            "longueur_m": 109,
+            "largeur_m": 2.6,
+            "type_surface": "Béton",
+            "amenagement_vert": 0,
+            "condition_surface": "Bon",
+            "condition_drainage": "Très bon",
+            "cote_globale": 2.5,
+            "commentaires": ""
+          },
+          {
+            "_id": 2,
+            "id_ruelle": 104006791,
+            "arrondissement": "Ville-Marie",
+            "limite_1": "Rue Papineau",
+            "limite_2": "rue De Champlain",
+            "longueur_m": 46,
+            "largeur_m": 5.7,
+            "type_surface": "Asphalte",
+            "amenagement_vert": 0,
+            "condition_surface": "Très bon",
+            "condition_drainage": "Très bon",
+            "cote_globale": 1.5,
+            "commentaires": ""
+          },
+          {
+            "_id": 3,
+            "id_ruelle": 104005484,
+            "arrondissement": "Verdun",
+            "limite_1": "rue Egan",
+            "limite_2": "rue Woodland",
+            "longueur_m": 42,
+            "largeur_m": 4.3,
+            "type_surface": "Asphalte",
+            "amenagement_vert": 0,
+            "condition_surface": "Très bon",
+            "condition_drainage": "Très bon",
+            "cote_globale": 1.5,
+            "commentaires": ""
+          },
+          {
+            "_id": 4,
+            "id_ruelle": 104005322,
+            "arrondissement": "Verdun",
+            "limite_1": "rue Osborne",
+            "limite_2": "rue Egan",
+            "longueur_m": 28,
+            "largeur_m": 4.2,
+            "type_surface": "Asphalte",
+            "amenagement_vert": 0,
+            "condition_surface": "Bon",
+            "condition_drainage": "Très bon",
+            "cote_globale": 2,
+            "commentaires": ""
+          },
+          {
+            "_id": 5,
+            "id_ruelle": 104002818,
+            "arrondissement": "Plateau - Mont-Royal",
+            "limite_1": "avenue des Pins Est",
+            "limite_2": "rue Prince-Arthur Est",
+            "longueur_m": 44,
+            "largeur_m": 3,
+            "type_surface": "Asphalte",
+            "amenagement_vert": 0,
+            "condition_surface": "Passable",
+            "condition_drainage": "Bon",
+            "cote_globale": 3,
+            "commentaires": "Revêtement mixte asphalte et pavé"
+          }
+        ]
+      },
+      "field_stats": {
+        "id_ruelle": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "arrondissement": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "limite_1": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "limite_2": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "longueur_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "largeur_m": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "type_surface": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "amenagement_vert": {
+          "null_count": 649,
+          "null_pct": 9.4,
+          "populated_pct": 90.6
+        },
+        "condition_surface": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "condition_drainage": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "cote_globale": {
+          "null_count": 650,
+          "null_pct": 9.4,
+          "populated_pct": 90.6
+        },
+        "commentaires": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 6907,
+        "audited_at": "2026-03-10T00:19:44.477448+00:00",
+        "fields": {
+          "id_ruelle": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 104000439.0,
+            "max": 200401099.0,
+            "mean": 104775427.843,
+            "median": 104004501.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "arrondissement": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 10,
+            "top_values": [
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 354
+              },
+              {
+                "value": "Villeray - St-Michel - Parc-Extension",
+                "count": 169
+              },
+              {
+                "value": "Sud-Ouest",
+                "count": 165
+              },
+              {
+                "value": "Verdun",
+                "count": 129
+              },
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 86
+              },
+              {
+                "value": "Rivière-Des-Prairies - Pointe-Aux-Trembles",
+                "count": 52
+              },
+              {
+                "value": "Saint-Laurent",
+                "count": 28
+              },
+              {
+                "value": "Plateau - Mont-Royal",
+                "count": 10
+              },
+              {
+                "value": "Côte-Des-Neiges - Notre-Dame-de-Grâce",
+                "count": 4
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "limite_1": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 337,
+            "top_values": [
+              {
+                "value": "1re avenue",
+                "count": 22
+              },
+              {
+                "value": "2e avenue",
+                "count": 18
+              },
+              {
+                "value": "-Rue saint Zotique",
+                "count": 16
+              },
+              {
+                "value": "3e avenue",
+                "count": 12
+              },
+              {
+                "value": "boulevard Rosemont",
+                "count": 12
+              },
+              {
+                "value": "rue Beaubien Est",
+                "count": 12
+              },
+              {
+                "value": "12e avenue",
+                "count": 11
+              },
+              {
+                "value": "rue Jarry Est",
+                "count": 11
+              },
+              {
+                "value": "rue Chambord",
+                "count": 11
+              },
+              {
+                "value": "16e avenue",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "limite_2": {
+            "null_count": 1,
+            "null_pct": 0.1,
+            "unique_count": 332,
+            "top_values": [
+              {
+                "value": "rue Beaubien Est",
+                "count": 19
+              },
+              {
+                "value": "1re avenue",
+                "count": 18
+              },
+              {
+                "value": "2e avenue",
+                "count": 15
+              },
+              {
+                "value": "boulevard Saint-Michel",
+                "count": 13
+              },
+              {
+                "value": "rue Bélanger",
+                "count": 13
+              },
+              {
+                "value": "4e avenue",
+                "count": 12
+              },
+              {
+                "value": "3e avenue",
+                "count": 11
+              },
+              {
+                "value": "rue Allard",
+                "count": 11
+              },
+              {
+                "value": "rue Saint-Gérard",
+                "count": 11
+              },
+              {
+                "value": "5e avenue",
+                "count": 11
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "longueur_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 12.0,
+            "max": 321.0,
+            "mean": 60.139,
+            "median": 32.0,
+            "unique_count": 176,
+            "field_type_detected": "numeric"
+          },
+          "largeur_m": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.8,
+            "max": 10.7,
+            "mean": 4.2363,
+            "median": 4.2,
+            "unique_count": 48,
+            "field_type_detected": "numeric"
+          },
+          "type_surface": {
+            "null_count": 85,
+            "null_pct": 8.5,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Béton",
+                "count": 547
+              },
+              {
+                "value": "Asphalte",
+                "count": 359
+              },
+              {
+                "value": "Aucun",
+                "count": 5
+              },
+              {
+                "value": "Pavé",
+                "count": 3
+              },
+              {
+                "value": "Sans revêtement",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "amenagement_vert": {
+            "null_count": 97,
+            "null_pct": 9.7,
+            "min": 0.0,
+            "max": 1.0,
+            "mean": 0.0631,
+            "median": 0.0,
+            "unique_count": 2,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 846
+              },
+              {
+                "value": "1",
+                "count": 57
+              }
+            ]
+          },
+          "condition_surface": {
+            "null_count": 97,
+            "null_pct": 9.7,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Très bon",
+                "count": 687
+              },
+              {
+                "value": "Bon",
+                "count": 172
+              },
+              {
+                "value": "Passable",
+                "count": 38
+              },
+              {
+                "value": "Mauvais",
+                "count": 6
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "condition_drainage": {
+            "null_count": 97,
+            "null_pct": 9.7,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Très bon",
+                "count": 777
+              },
+              {
+                "value": "Bon",
+                "count": 82
+              },
+              {
+                "value": "Passable",
+                "count": 34
+              },
+              {
+                "value": "Mauvais",
+                "count": 10
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "cote_globale": {
+            "null_count": 97,
+            "null_pct": 9.7,
+            "min": 0.5,
+            "max": 4.5,
+            "mean": 1.2542,
+            "median": 1.5,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0.5",
+                "count": 424
+              },
+              {
+                "value": "1.5",
+                "count": 256
+              },
+              {
+                "value": "2",
+                "count": 115
+              },
+              {
+                "value": "2.5",
+                "count": 58
+              },
+              {
+                "value": "3",
+                "count": 34
+              },
+              {
+                "value": "3.5",
+                "count": 10
+              },
+              {
+                "value": "4",
+                "count": 5
+              },
+              {
+                "value": "4.5",
+                "count": 1
+              }
+            ]
+          },
+          "commentaires": {
+            "null_count": 749,
+            "null_pct": 74.9,
+            "unique_count": 89,
+            "top_values": [
+              {
+                "value": "Ruelle sans revêtement (gravier)",
+                "count": 68
+              },
+              {
+                "value": "Revêtement mixte asphalte et béton",
+                "count": 33
+              },
+              {
+                "value": "Bac à fleurs à l'entrée de la ruelle",
+                "count": 18
+              },
+              {
+                "value": "Revêtement mixte béton et asphalte",
+                "count": 10
+              },
+              {
+                "value": "Ruelle sans revêtement",
+                "count": 8
+              },
+              {
+                "value": "Ruelle identifiée verte",
+                "count": 6
+              },
+              {
+                "value": "Ruelle identifiée verte sans aménagement vert",
+                "count": 6
+              },
+              {
+                "value": "Ruelle sans revêtement (gravier et végétation)",
+                "count": 5
+              },
+              {
+                "value": "Revêtement mixte asphalte et gravier",
+                "count": 4
+              },
+              {
+                "value": "Obstruction majeure d'un puisard",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "1c29747e-4960-446a-8ecc-087ab0cbdab2",
+      "name": "Condition des ruelles (2019)",
+      "description": "",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/fr/dataset/647d5c48-17d1-41c8-957e-4af4eab35b7e/resource/1c29747e-4960-446a-8ecc-087ab0cbdab2/download/condition-ruelles-2019.geojson",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-06-25T13:39:29.642524",
+      "created": "2021-06-25T13:39:29.737795",
+      "schema": null
+    },
+    {
+      "id": "d233940a-61ad-49fd-8e73-e15b0f2e26e4",
+      "name": "Condition des ruelles (2019)",
+      "description": "",
+      "format": "SHP",
+      "url": "https://donnees.montreal.ca/fr/dataset/647d5c48-17d1-41c8-957e-4af4eab35b7e/resource/d233940a-61ad-49fd-8e73-e15b0f2e26e4/download/condition-ruelles-2019.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2021-06-25T13:40:35.091126",
+      "created": "2021-06-25T13:40:35.183625",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Auscultation",
+    "Chaussée",
+    "Infrastructure",
+    "Mobilité",
+    "Pavage",
+    "SUM"
+  ],
+  "web_metadata": {
+    "methodology_text": "Un protocole d’inspection visuelle des ruelles a été développé comprenant un relevé de la condition de la surface de roulement et du drainage. La condition de la surface a été évaluée de façon subjective par un examen visuel. La fissuration du revêtement, le profil longitudinal et transversal, la présence d’affaissements locaux, de nids-de-poule et de pelade ont chacun été qualifiés selon cinq niveaux de sévérité soit : très bon, bon, passable, mauvais et très mauvais. Une appréciation globale de la condition de la surface a aussi été établie selon la même échelle. La condition en termes d’affaissement et de nivellement, les grilles et couvercles, les obstructions au drainage et la condition de la surface du pourtour a été qualifiée selon cinq niveaux de sévérité de très bon à très mauvais. Une appréciation globale du drainage de la ruelle a été également établie. Considérant la condition générale de la surface et du drainage, une cote globale a été attribuée à chaque ruelle. Celle-ci est numérique, allant de 0,5 pour les ruelles en très bonne condition à 5,0 pour les ruelles en très mauvaise condition.\n\n### Dictionnaire des données\n\n\n\n- id_ruelle: Identifiant unique de la ruelle\n\n- arrondissement: Arrondissement où est située la ruelle\n\n- limite_1: Premier lien routier délimitant la ruelle\n\n- limite_2: Deuxième lien routier délimitant la ruelle\n\n- longueur_m: Longueur de la ruelle (en mètres)\n\n- largeur_m: Largeur de la ruelle (en mètres)\n\n- type_surface: Type de surface\n\n- amenagement_vert: La ruelle est-elle une ruelle verte? (0:Non, 1: Oui)\n\n- condition_surface: Appréciation de la condition de la surface\n\n- condition_drainage: Appréciation de la condition du drainage\n\n- cote_globale: Cote globale\n\n- commentaires: Commentaires\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    LAS\n    \n    PLA\n    \n    LSO\n    \n    IBI\n    \n    MHM\n    \n    montreal\n    \n    MTN\n    \n    OUT\n    \n    PRF\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VER\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2019",
+      "Fréquence de mise à jour": "Non planifié"
+    },
+    "keywords": [
+      "Auscultation",
+      "Chaussée",
+      "Infrastructure",
+      "Mobilité",
+      "Pavage",
+      "SUM"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/indicateurs-de-condition-des-ruelles",
+    "scraped_at": "2026-03-09T19:58:36.051643+00:00"
+  }
+}

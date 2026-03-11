@@ -1,0 +1,1380 @@
+{
+  "slug": "vmtl-panneaux-de-signalisation",
+  "title": "Signalisation routière (excluant le stationnement)",
+  "notes": "Ensemble de données géolocalisant les panneaux de signalisation routière sur le territoire Montréalais.\r\n\r\n Il est à noter que [les panneaux de signalisation routière concernant le stationnement](/ville-de-montreal/stationnement-sur-rue-signalisation-courant) sont disponibles dans un ensemble distinct.\r\n\r\nDes fichiers supplémentaires fournissent plus de détails sur les descriptifs et \r\nles codifications des panneaux. Les images de l'ensemble des panneaux sont également disponibles.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "infrastructures",
+      "display_name": "Infrastructures",
+      "mapped": {
+        "name_fr": "Infrastructures",
+        "name_en": "Infrastructure",
+        "icon": "building"
+      }
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2019-01-25T15:10:15.866930",
+  "metadata_modified": "2026-03-09T01:17:36.732771",
+  "num_resources": 9,
+  "resources": [
+    {
+      "id": "1f610cd7-c85d-46d8-9c98-86e3f550ee4c",
+      "name": "Signalisation routière",
+      "description": "Fichier au format CSV de la signalisation routière (excluant le stationnement)\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/1f610cd7-c85d-46d8-9c98-86e3f550ee4c/download/signalisation_excluant_stationnement.csv",
+      "datastore_active": true,
+      "size": 54391221,
+      "last_modified": "2026-03-09T00:09:35.634688",
+      "created": "2019-01-31T15:27:07.926939",
+      "schema": {
+        "resource_id": "1f610cd7-c85d-46d8-9c98-86e3f550ee4c",
+        "total_records": 256281,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "POTEAU_ID_POT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POSITION_POP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PANNEAU_ID_PAN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PANNEAU_ID_RPA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RPA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CODE_RPA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "FLECHE_PAN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TOPONYME_PAN",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_CAT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "POTEAU_VERSION_POT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_CONCEPTION_POT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RAC",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DATE_EXECUTION_ACT",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PAS_SUR_RUE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_REP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RTP",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "X",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Y",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Longitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Latitude",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "NOM_ARROND",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "POTEAU_ID_POT": "52",
+            "POSITION_POP": "7",
+            "PANNEAU_ID_PAN": "1863994",
+            "PANNEAU_ID_RPA": "9588",
+            "DESCRIPTION_RPA": "INTERDICTION AUX CAMIONS EXCEPTE LIVRAISON LOCALE",
+            "CODE_RPA": "RM-AA-10",
+            "FLECHE_PAN": "0",
+            "TOPONYME_PAN": null,
+            "DESCRIPTION_CAT": "PRESCRIPTION",
+            "POTEAU_VERSION_POT": "4",
+            "DATE_CONCEPTION_POT": "2024-01-11",
+            "DESCRIPTION_RAC": "Aucune",
+            "DATE_EXECUTION_ACT": "2024-03-18",
+            "PAS_SUR_RUE": null,
+            "DESCRIPTION_REP": "Réel",
+            "DESCRIPTION_RTP": "10- Fût et feux",
+            "X": "300993.426",
+            "Y": "5048169.16",
+            "Longitude": "-73.548772",
+            "Latitude": "45.573421",
+            "NOM_ARROND": "Mercier - Hochelaga-Maisonneuve"
+          },
+          {
+            "_id": 2,
+            "POTEAU_ID_POT": "52",
+            "POSITION_POP": "6",
+            "PANNEAU_ID_PAN": "1863995",
+            "PANNEAU_ID_RPA": "1986",
+            "DESCRIPTION_RPA": "CONTOURNEZ PAR LA DROITE",
+            "CODE_RPA": "RO-A",
+            "FLECHE_PAN": "0",
+            "TOPONYME_PAN": null,
+            "DESCRIPTION_CAT": "PRESCRIPTION",
+            "POTEAU_VERSION_POT": "4",
+            "DATE_CONCEPTION_POT": "2024-01-11",
+            "DESCRIPTION_RAC": "Redresser",
+            "DATE_EXECUTION_ACT": "2024-03-18",
+            "PAS_SUR_RUE": null,
+            "DESCRIPTION_REP": "Réel",
+            "DESCRIPTION_RTP": "10- Fût et feux",
+            "X": "300993.426",
+            "Y": "5048169.16",
+            "Longitude": "-73.548772",
+            "Latitude": "45.573421",
+            "NOM_ARROND": "Mercier - Hochelaga-Maisonneuve"
+          },
+          {
+            "_id": 3,
+            "POTEAU_ID_POT": "52",
+            "POSITION_POP": "5",
+            "PANNEAU_ID_PAN": "1863996",
+            "PANNEAU_ID_RPA": "2915",
+            "DESCRIPTION_RPA": "BALISE CONTOURNER A DROITE",
+            "CODE_RPA": "WA-B",
+            "FLECHE_PAN": "0",
+            "TOPONYME_PAN": null,
+            "DESCRIPTION_CAT": "DANGER",
+            "POTEAU_VERSION_POT": "4",
+            "DATE_CONCEPTION_POT": "2024-01-11",
+            "DESCRIPTION_RAC": "Aucune",
+            "DATE_EXECUTION_ACT": "2024-03-18",
+            "PAS_SUR_RUE": null,
+            "DESCRIPTION_REP": "Réel",
+            "DESCRIPTION_RTP": "10- Fût et feux",
+            "X": "300993.426",
+            "Y": "5048169.16",
+            "Longitude": "-73.548772",
+            "Latitude": "45.573421",
+            "NOM_ARROND": "Mercier - Hochelaga-Maisonneuve"
+          },
+          {
+            "_id": 4,
+            "POTEAU_ID_POT": "70",
+            "POSITION_POP": "7",
+            "PANNEAU_ID_PAN": "452297",
+            "PANNEAU_ID_RPA": "1934",
+            "DESCRIPTION_RPA": "INTERDICTION AUX CAMIONS EXCEPTE LIVRAISON LOCALE",
+            "CODE_RPA": "RM-AA",
+            "FLECHE_PAN": "0",
+            "TOPONYME_PAN": null,
+            "DESCRIPTION_CAT": "PRESCRIPTION",
+            "POTEAU_VERSION_POT": "2",
+            "DATE_CONCEPTION_POT": "2007-04-03",
+            "DESCRIPTION_RAC": "Aucune",
+            "DATE_EXECUTION_ACT": "2007-04-30",
+            "PAS_SUR_RUE": null,
+            "DESCRIPTION_REP": "Réel",
+            "DESCRIPTION_RTP": "10- Fût et feux",
+            "X": "301173.222",
+            "Y": "5048555.038",
+            "Longitude": "-73.546471",
+            "Latitude": "45.576894",
+            "NOM_ARROND": "Mercier - Hochelaga-Maisonneuve"
+          },
+          {
+            "_id": 5,
+            "POTEAU_ID_POT": "70",
+            "POSITION_POP": "6",
+            "PANNEAU_ID_PAN": "452298",
+            "PANNEAU_ID_RPA": "4268",
+            "DESCRIPTION_RPA": "Arrêt d'autobus",
+            "CODE_RPA": "BUS",
+            "FLECHE_PAN": "0",
+            "TOPONYME_PAN": null,
+            "DESCRIPTION_CAT": "STM",
+            "POTEAU_VERSION_POT": "2",
+            "DATE_CONCEPTION_POT": "2007-04-03",
+            "DESCRIPTION_RAC": "Aucune",
+            "DATE_EXECUTION_ACT": "2007-04-30",
+            "PAS_SUR_RUE": null,
+            "DESCRIPTION_REP": "Réel",
+            "DESCRIPTION_RTP": "10- Fût et feux",
+            "X": "301173.222",
+            "Y": "5048555.038",
+            "Longitude": "-73.546471",
+            "Latitude": "45.576894",
+            "NOM_ARROND": "Mercier - Hochelaga-Maisonneuve"
+          }
+        ]
+      },
+      "field_stats": {
+        "POTEAU_ID_POT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POSITION_POP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PANNEAU_ID_PAN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PANNEAU_ID_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CODE_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "FLECHE_PAN": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TOPONYME_PAN": {
+          "null_count": 227488,
+          "null_pct": 88.8,
+          "populated_pct": 11.2
+        },
+        "DESCRIPTION_CAT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "POTEAU_VERSION_POT": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_CONCEPTION_POT": {
+          "null_count": 3699,
+          "null_pct": 1.4,
+          "populated_pct": 98.6
+        },
+        "DESCRIPTION_RAC": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DATE_EXECUTION_ACT": {
+          "null_count": 9971,
+          "null_pct": 3.9,
+          "populated_pct": 96.1
+        },
+        "PAS_SUR_RUE": {
+          "null_count": 252092,
+          "null_pct": 98.4,
+          "populated_pct": 1.6
+        },
+        "DESCRIPTION_REP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_RTP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "X": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Y": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Longitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Latitude": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "NOM_ARROND": {
+          "null_count": 384,
+          "null_pct": 0.1,
+          "populated_pct": 99.9
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 256281,
+        "audited_at": "2026-03-10T00:22:03.177334+00:00",
+        "fields": {
+          "POTEAU_ID_POT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 52.0,
+            "max": 18587.0,
+            "mean": 9125.882,
+            "median": 9545.0,
+            "unique_count": 458,
+            "field_type_detected": "numeric"
+          },
+          "POSITION_POP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 7.0,
+            "mean": 6.002,
+            "median": 6.0,
+            "unique_count": 8,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "7",
+                "count": 465
+              },
+              {
+                "value": "6",
+                "count": 267
+              },
+              {
+                "value": "5",
+                "count": 148
+              },
+              {
+                "value": "4",
+                "count": 68
+              },
+              {
+                "value": "3",
+                "count": 37
+              },
+              {
+                "value": "2",
+                "count": 8
+              },
+              {
+                "value": "1",
+                "count": 6
+              },
+              {
+                "value": "0",
+                "count": 1
+              }
+            ]
+          },
+          "PANNEAU_ID_PAN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 217.0,
+            "max": 2059819.0,
+            "mean": 1312093.432,
+            "median": 1504988.5,
+            "unique_count": 921,
+            "field_type_detected": "numeric"
+          },
+          "PANNEAU_ID_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 139.0,
+            "max": 16822.0,
+            "mean": 5845.759,
+            "median": 2965.0,
+            "unique_count": 167,
+            "field_type_detected": "numeric"
+          },
+          "DESCRIPTION_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 152,
+            "top_values": [
+              {
+                "value": "Toponyme",
+                "count": 145
+              },
+              {
+                "value": "SENS UNIQUE (2 FACES)",
+                "count": 131
+              },
+              {
+                "value": "ARRET",
+                "count": 80
+              },
+              {
+                "value": "Arrêt d'autobus",
+                "count": 55
+              },
+              {
+                "value": "INTERDICTION AUX CAMIONS EXCEPTE LIVRAISON LOCALE",
+                "count": 52
+              },
+              {
+                "value": "ARRETS TOUTES LES APPROCHES",
+                "count": 37
+              },
+              {
+                "value": "PRE-SIGNAL ROUTE CAHOTEUSE",
+                "count": 26
+              },
+              {
+                "value": "EXCEPTE VELO",
+                "count": 24
+              },
+              {
+                "value": "PRE-SIGNAL RALENTISSEUR DE VITESSE (600x600)",
+                "count": 20
+              },
+              {
+                "value": "MAXIMUM 30 SECTEUR",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "CODE_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 167,
+            "top_values": [
+              {
+                "value": "NR-U",
+                "count": 145
+              },
+              {
+                "value": "RN-A",
+                "count": 131
+              },
+              {
+                "value": "RA-A",
+                "count": 78
+              },
+              {
+                "value": "BUS",
+                "count": 55
+              },
+              {
+                "value": "RM-AA",
+                "count": 51
+              },
+              {
+                "value": "WI-R",
+                "count": 26
+              },
+              {
+                "value": "RN-A-P-VC",
+                "count": 24
+              },
+              {
+                "value": "WJ-A",
+                "count": 20
+              },
+              {
+                "value": "RC-A-S",
+                "count": 16
+              },
+              {
+                "value": "VC-BA-1",
+                "count": 16
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "FLECHE_PAN": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 19.0,
+            "mean": 0.23,
+            "median": 0.0,
+            "unique_count": 10,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "0",
+                "count": 966
+              },
+              {
+                "value": "2",
+                "count": 19
+              },
+              {
+                "value": "16",
+                "count": 5
+              },
+              {
+                "value": "8",
+                "count": 2
+              },
+              {
+                "value": "19",
+                "count": 2
+              },
+              {
+                "value": "3",
+                "count": 2
+              },
+              {
+                "value": "13",
+                "count": 1
+              },
+              {
+                "value": "9",
+                "count": 1
+              },
+              {
+                "value": "12",
+                "count": 1
+              },
+              {
+                "value": "18",
+                "count": 1
+              }
+            ]
+          },
+          "TOPONYME_PAN": {
+            "null_count": 854,
+            "null_pct": 85.4,
+            "unique_count": 102,
+            "top_values": [
+              {
+                "value": "Sainte-Catherine",
+                "count": 6
+              },
+              {
+                "value": "Rosemont",
+                "count": 5
+              },
+              {
+                "value": "Ontario",
+                "count": 5
+              },
+              {
+                "value": "Sherbrooke",
+                "count": 4
+              },
+              {
+                "value": "Langelier",
+                "count": 4
+              },
+              {
+                "value": "Bossuet",
+                "count": 3
+              },
+              {
+                "value": "Jean-Talon",
+                "count": 3
+              },
+              {
+                "value": "Laurier",
+                "count": 3
+              },
+              {
+                "value": "25e",
+                "count": 3
+              },
+              {
+                "value": "Marseille",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "DESCRIPTION_CAT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 14,
+            "top_values": [
+              {
+                "value": "PRESCRIPTION",
+                "count": 446
+              },
+              {
+                "value": "TOPONYME",
+                "count": 146
+              },
+              {
+                "value": "DANGER",
+                "count": 144
+              },
+              {
+                "value": "VÉLO",
+                "count": 64
+              },
+              {
+                "value": "ANNULÉ",
+                "count": 59
+              },
+              {
+                "value": "STM",
+                "count": 55
+              },
+              {
+                "value": "PRESC.-PANNONC.",
+                "count": 26
+              },
+              {
+                "value": "DIVERS",
+                "count": 21
+              },
+              {
+                "value": "INDICATION",
+                "count": 21
+              },
+              {
+                "value": "SUPPORT",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "POTEAU_VERSION_POT": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 0.0,
+            "max": 26.0,
+            "mean": 5.013,
+            "median": 4.0,
+            "unique_count": 19,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "2",
+                "count": 112
+              },
+              {
+                "value": "5",
+                "count": 109
+              },
+              {
+                "value": "1",
+                "count": 107
+              },
+              {
+                "value": "4",
+                "count": 100
+              },
+              {
+                "value": "3",
+                "count": 97
+              },
+              {
+                "value": "6",
+                "count": 94
+              },
+              {
+                "value": "0",
+                "count": 87
+              },
+              {
+                "value": "10",
+                "count": 72
+              },
+              {
+                "value": "8",
+                "count": 65
+              },
+              {
+                "value": "7",
+                "count": 55
+              }
+            ]
+          },
+          "DATE_CONCEPTION_POT": {
+            "null_count": 27,
+            "null_pct": 2.7,
+            "min_date": "1999-01-06",
+            "max_date": "2026-02-26",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "DESCRIPTION_RAC": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "Aucune",
+                "count": 444
+              },
+              {
+                "value": "Installer",
+                "count": 198
+              },
+              {
+                "value": "Corr.: Installer",
+                "count": 105
+              },
+              {
+                "value": "Corr.: Aucune",
+                "count": 85
+              },
+              {
+                "value": "Changer",
+                "count": 60
+              },
+              {
+                "value": "Corr.: Enlever",
+                "count": 50
+              },
+              {
+                "value": "Enlever",
+                "count": 30
+              },
+              {
+                "value": "Redresser",
+                "count": 28
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DATE_EXECUTION_ACT": {
+            "null_count": 42,
+            "null_pct": 4.2,
+            "min_date": "1999-01-06",
+            "max_date": "2026-03-04",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "PAS_SUR_RUE": {
+            "null_count": 989,
+            "null_pct": 98.9,
+            "min": 1.0,
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "unique_count": 1,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 11
+              }
+            ]
+          },
+          "DESCRIPTION_REP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "Réel",
+                "count": 764
+              },
+              {
+                "value": "Enlevé",
+                "count": 105
+              },
+              {
+                "value": "Archive",
+                "count": 89
+              },
+              {
+                "value": "En conception",
+                "count": 42
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DESCRIPTION_RTP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 8,
+            "top_values": [
+              {
+                "value": "3- Fût",
+                "count": 244
+              },
+              {
+                "value": "1- Tige (Gazon, asphalte)",
+                "count": 242
+              },
+              {
+                "value": "10- Fût et feux",
+                "count": 188
+              },
+              {
+                "value": "4- Poteau en bois",
+                "count": 178
+              },
+              {
+                "value": "2- Tige (Béton)",
+                "count": 126
+              },
+              {
+                "value": "9- Autres",
+                "count": 12
+              },
+              {
+                "value": "12- Balise",
+                "count": 8
+              },
+              {
+                "value": "20- Fût et potence",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "X": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 292311.375,
+            "max": 303928.469,
+            "mean": 299054.207543,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Y": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 5039878.814,
+            "max": 5052489.0,
+            "mean": 5045905.134942,
+            "pct_in_montreal_bbox": 0.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "Longitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": -73.660014,
+            "max": -73.51117,
+            "mean": -73.573593,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_longitude"
+          },
+          "Latitude": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 45.498819,
+            "max": 45.612301,
+            "mean": 45.553029,
+            "pct_in_montreal_bbox": 100.0,
+            "field_type_detected": "geo_latitude"
+          },
+          "NOM_ARROND": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 7,
+            "top_values": [
+              {
+                "value": "Mercier - Hochelaga-Maisonneuve",
+                "count": 319
+              },
+              {
+                "value": "Ville-Marie",
+                "count": 168
+              },
+              {
+                "value": "Rosemont - La Petite-Patrie",
+                "count": 152
+              },
+              {
+                "value": "Villeray - Saint-Michel - Parc-Extension",
+                "count": 139
+              },
+              {
+                "value": "Le Plateau-Mont-Royal",
+                "count": 135
+              },
+              {
+                "value": "Ahuntsic - Cartierville",
+                "count": 85
+              },
+              {
+                "value": "Anjou",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "b5df24e6-7752-4cc6-afa8-04ab5c7e1b19",
+      "name": "Signalisation routière",
+      "description": "Fichier au format geojson de la signalisation routière (excluant le stationnement)",
+      "format": "GEOJSON",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/b5df24e6-7752-4cc6-afa8-04ab5c7e1b19/download/signalisation_excluant_stationnement.geojson",
+      "datastore_active": false,
+      "size": 183072565,
+      "last_modified": "2026-03-09T00:09:50.289287",
+      "created": "2019-01-31T15:29:26.521413",
+      "schema": null
+    },
+    {
+      "id": "bf6d48ff-0188-4f12-9394-29137a91606d",
+      "name": "Signalisation routière",
+      "description": "Fichier au format shape de la signalisation routière (excluant le stationnement)",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/bf6d48ff-0188-4f12-9394-29137a91606d/download/signalisation_excluant_stationnement.zip",
+      "datastore_active": false,
+      "size": 19022973,
+      "last_modified": "2026-03-09T00:09:53.748417",
+      "created": "2019-01-31T15:30:20.352621",
+      "schema": null
+    },
+    {
+      "id": "a86dc111-a21d-4e54-8835-4b5095d12969",
+      "name": "Signalisation-codification RPA des panneaux ",
+      "description": "Fichier au format CSV de la codification RPA des panneaux de signalisation.\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/a86dc111-a21d-4e54-8835-4b5095d12969/download/signalisation-codification-rpa.csv",
+      "datastore_active": true,
+      "size": 219886,
+      "last_modified": "2026-03-09T00:09:56.258440",
+      "created": "2019-01-28T15:10:26.356931",
+      "schema": {
+        "resource_id": "a86dc111-a21d-4e54-8835-4b5095d12969",
+        "total_records": 4284,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "PANNEAU_ID_RPA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RPA",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CODE_RPA",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "PANNEAU_ID_RPA": "1",
+            "DESCRIPTION_RPA": "\\P 9H-3H EXCEPTE S3R",
+            "CODE_RPA": "R-XD"
+          },
+          {
+            "_id": 2,
+            "PANNEAU_ID_RPA": "2",
+            "DESCRIPTION_RPA": "\\A 07h-19h",
+            "CODE_RPA": "AD-JA"
+          },
+          {
+            "_id": 3,
+            "PANNEAU_ID_RPA": "3",
+            "DESCRIPTION_RPA": "\\A 22h-07h",
+            "CODE_RPA": "AD-NM"
+          },
+          {
+            "_id": 4,
+            "PANNEAU_ID_RPA": "6",
+            "DESCRIPTION_RPA": "\\A 08h-22h30",
+            "CODE_RPA": "AD-TA"
+          },
+          {
+            "_id": 5,
+            "PANNEAU_ID_RPA": "7",
+            "DESCRIPTION_RPA": "\\A 08h-21h30",
+            "CODE_RPA": "AD-TB"
+          }
+        ]
+      },
+      "field_stats": {
+        "PANNEAU_ID_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DESCRIPTION_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CODE_RPA": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 4284,
+        "audited_at": "2026-03-10T00:22:04.169830+00:00",
+        "fields": {
+          "PANNEAU_ID_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 1947.0,
+            "mean": 1067.306,
+            "median": 1182.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "DESCRIPTION_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 900,
+            "top_values": [
+              {
+                "value": "AUTOCOLLANT SIGN. PARC",
+                "count": 15
+              },
+              {
+                "value": "PANONCEAU DE DIRECTION BLANC-NOIR",
+                "count": 13
+              },
+              {
+                "value": "ANNULE",
+                "count": 8
+              },
+              {
+                "value": "HOPITAL",
+                "count": 6
+              },
+              {
+                "value": "PARKING",
+                "count": 6
+              },
+              {
+                "value": "PANONCEAU DE DIRECTION",
+                "count": 4
+              },
+              {
+                "value": "RUE BARREE DETOUR ORANGE",
+                "count": 3
+              },
+              {
+                "value": "PRE-SIGNAL TERRAIN DE JEUX",
+                "count": 3
+              },
+              {
+                "value": "LIGNE D'ARRET",
+                "count": 3
+              },
+              {
+                "value": "AERIEN TOUT DROIT",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "CODE_RPA": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1000,
+            "top_values": [
+              {
+                "value": "R-XD",
+                "count": 1
+              },
+              {
+                "value": "AD-JA",
+                "count": 1
+              },
+              {
+                "value": "AD-NM",
+                "count": 1
+              },
+              {
+                "value": "AD-TA",
+                "count": 1
+              },
+              {
+                "value": "AD-TB",
+                "count": 1
+              },
+              {
+                "value": "AD-TE",
+                "count": 1
+              },
+              {
+                "value": "AD-TT",
+                "count": 1
+              },
+              {
+                "value": "AD-TU",
+                "count": 1
+              },
+              {
+                "value": "AE-JB",
+                "count": 1
+              },
+              {
+                "value": "AE-JC",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "0795f422-b53b-41ca-89be-abc1069a88c9",
+      "name": "Signalisation-codification RPA des panneaux ",
+      "description": "Fichier au format json de la codification RPA des panneaux de signalisation",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/0795f422-b53b-41ca-89be-abc1069a88c9/download/signalisation-codification-rpa.json",
+      "datastore_active": false,
+      "size": 311931,
+      "last_modified": "2026-03-09T00:09:58.047950",
+      "created": "2019-01-28T15:11:44.057060",
+      "schema": null
+    },
+    {
+      "id": "e110923d-b420-4169-bc8a-c3281e9244bd",
+      "name": "Signalisation-codification RTP des panneaux ",
+      "description": "Fichier au format CSV  de la codification RTP des panneaux de signalisation\r\n\r\n",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/e110923d-b420-4169-bc8a-c3281e9244bd/download/signalisation-codification-rtp.csv",
+      "datastore_active": true,
+      "size": 456,
+      "last_modified": "2026-03-09T00:09:59.203133",
+      "created": "2019-01-28T15:18:55.625103",
+      "schema": {
+        "resource_id": "e110923d-b420-4169-bc8a-c3281e9244bd",
+        "total_records": 22,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "DESCRIPTION_RTP",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "DESCRIPTION_RTP": "12- Balise"
+          },
+          {
+            "_id": 2,
+            "DESCRIPTION_RTP": "18- Viaduc"
+          },
+          {
+            "_id": 3,
+            "DESCRIPTION_RTP": "10- Fût et feux"
+          },
+          {
+            "_id": 4,
+            "DESCRIPTION_RTP": "8- Pilier"
+          },
+          {
+            "_id": 5,
+            "DESCRIPTION_RTP": "7- Console"
+          }
+        ]
+      },
+      "field_stats": {
+        "DESCRIPTION_RTP": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 22,
+        "total_records": 22,
+        "audited_at": "2026-03-10T00:22:04.965526+00:00",
+        "fields": {
+          "DESCRIPTION_RTP": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 22,
+            "top_values": [
+              {
+                "value": "12- Balise",
+                "count": 1
+              },
+              {
+                "value": "18- Viaduc",
+                "count": 1
+              },
+              {
+                "value": "10- Fût et feux",
+                "count": 1
+              },
+              {
+                "value": "8- Pilier",
+                "count": 1
+              },
+              {
+                "value": "7- Console",
+                "count": 1
+              },
+              {
+                "value": "13- Poteau en acier",
+                "count": 1
+              },
+              {
+                "value": "4- Poteau en bois",
+                "count": 1
+              },
+              {
+                "value": "11- Pot. bois/feux",
+                "count": 1
+              },
+              {
+                "value": "20- Fût et potence",
+                "count": 1
+              },
+              {
+                "value": "22- Tige et base vissé",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "dcdf4fb7-09d0-4674-a393-fe1cb1373d92",
+      "name": "Signalisation-codification RTP des panneaux ",
+      "description": "Fichier au format json de la codification RTP des panneaux",
+      "format": "JSON",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/dcdf4fb7-09d0-4674-a393-fe1cb1373d92/download/signalisation-codification-rtp.json",
+      "datastore_active": false,
+      "size": 598,
+      "last_modified": "2026-03-09T00:10:00.812670",
+      "created": "2019-01-28T15:20:07.317813",
+      "schema": null
+    },
+    {
+      "id": "ad1c061e-2cd2-4e11-8b2b-5c331025afb9",
+      "name": "Images des panneaux",
+      "description": "Fichiers d'images (gif et jpeg) des panneaux de signalisation",
+      "format": "ZIP",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/ad1c061e-2cd2-4e11-8b2b-5c331025afb9/download/signalisationimagepanneau.zip",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-01-28T15:14:38.710894",
+      "created": "2019-01-28T15:14:38.749861",
+      "schema": null
+    },
+    {
+      "id": "21c0eb84-6c1c-4537-b3e6-aee7b9be65a4",
+      "name": "Catalogue des panneaux",
+      "description": "Fichier au format PDF du catalogue visuel des panneaux de signalisation",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/dataset/c5bf5e9c-528b-4c28-b52f-218215992e35/resource/21c0eb84-6c1c-4537-b3e6-aee7b9be65a4/download/0-dec.-2015-catalogue-de-signalisation.pdf",
+      "datastore_active": false,
+      "size": null,
+      "last_modified": "2019-01-28T15:16:04.437035",
+      "created": "2019-01-28T15:16:04.478036",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "Panneau",
+    "Rue",
+    "SUM",
+    "Signalisation"
+  ],
+  "web_metadata": {
+    "methodology_text": "La signalisation est une responsabilité gérée en arrondissement. Chaque arrondissement est donc chargé de la mise à jour de ses données qui sont mutualisées dans un système partagé (SIGNALEC).\n\n\nIl est à noter que les données de certains arrondissements sont incomplètes. De plus, aucune donnée n’est présentement disponible pour l’arrondissement de l’île-Bizard–Sainte-Geneviève.\n\n\n**IMPORTANT**: Les données présentées dans cet ensemble sont fournies à titre indicatif au meilleur des informations disponibles dans le système centralisé qui fait actuellement l'objet d'une refonte. Il est possible qu'il y ait quelques incohérences avec la réalité terrain.\n\n### Dictionnaire de données\n\n\n\n**Signalisation routière**\n\n\n- POTEAU_ID_POT (Numérique) : Numéro d'identification du poteau\n\n- POSITION_POP (Numérique):Numéro de la position du panneau sur le poteau \n\n- PANNEAU_ID_PAN (Numérique):Numéro d'identification du panneau\n\n- PANNEAU_ID_RPA (Numérique):Numéro d'identification RPA du panneau\n\n- DESCRIPTION_RPA(Texte variable): Description RPA du panneau\n\n- CODE_RPA(Texte variable): Code RPA du panneau\n\n- FLECHE_PAN(Numérique): Code de la flèche du panneau\n\n- TOPONYME_PAN(Texte variable):Code toponymique du panneau\n\n- DESCRIPTION_CAT(Texte variable): Description de la catégorie du panneau\n\n- POTEAU_VERSION_POT(Numérique):Version du poteau\n\n- DATE_CONCEPTION_POT(Date):Date de conception du poteau\n\n- DESCRIPTION_RAC (Texte variable): Description de l'action\n\n- DATE_EXECUTION_ACT (Date) : Date d'exécution de l'action\n\n- PAS_SUR_RUE(booléen): Indique si le poteau est sur la rue\n\n- DESCRIPTION_REP(Liste de valeur):Description REP du panneau\n\n- DESCRIPTION_RTP(Liste de valeur):Description RTP \n\n- NOM_ARROND(Texte variable): Arrondissement du panneau\n\n- Longitude(Numérique):Longitude (WGS84) du poteau \n\n- Latitude(Numérique): Latitude (WGS84) du poteau\n\n- X(Numérique):Coordonnée X (NAD83 MTM8) du poteau \n\n- Y(Numérique):Coordonnée Y (NAD83 MTM8) du poteau \n\n\n\n**Signalisation-codification RPA des panneaux**\n\n\n- PANNEAU_ID_RPA(Numérique): Identifiant du  panneau RPA\n\n- DESCRIPTION_RPA (Texte variable) : Description RPA\n\n- CODE_RPA (Texte variable) : Code RPA\n\n\n\n**Signalisation-codification RTP des panneaux**\n\n\n- DESCRIPTION_RTP (Numérique) : Description de la codification RTP\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    AHU\n    \n    ANJ\n    \n    CDN\n    \n    LAC\n    \n    PLA\n    \n    LSO\n    \n    MHM\n    \n    MTN\n    \n    OUT\n    \n    RDP\n    \n    RPP\n    \n    VSL\n    \n    STL\n    \n    VIM\n    \n    VSE\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissements / Service de l'urbanisme et de la mobilité",
+      "Couverture temporelle": "2012-01-01/",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Arr.",
+      "Panneau",
+      "Rue",
+      "SUM",
+      "Signalisation"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/panneaux-de-signalisation",
+    "scraped_at": "2026-03-09T20:14:27.058411+00:00"
+  }
+}

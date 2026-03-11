@@ -1,0 +1,350 @@
+{
+  "slug": "vmtl-signalements-evenements-nuisibles-environnement",
+  "title": "Signalements des événements nuisibles à l'environnement",
+  "notes": "Cet ensemble de données contient les signalements des événements nuisibles à l'environnement soumis au Service de l'environnement.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "monthly",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2023-11-08T16:53:16.732351",
+  "metadata_modified": "2026-02-05T17:00:26.329282",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "2a71da48-267f-4eb6-9615-05986219c6bf",
+      "name": "Signalements des événements nuisibles à l'environnement",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/e7442919-3b28-4270-9c90-09ba0e0f631e/resource/2a71da48-267f-4eb6-9615-05986219c6bf/download/signalements-environnement.csv",
+      "datastore_active": true,
+      "size": 1600386,
+      "last_modified": "2026-02-05T16:59:40.371877",
+      "created": "2023-11-08T16:54:41.933657",
+      "schema": {
+        "resource_id": "2a71da48-267f-4eb6-9615-05986219c6bf",
+        "total_records": 44884,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "SRCGNR_NO",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "TYPPLL_CODE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DOM_INTERV",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "DTHR_ENREGISTRE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "PROVENANCE",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "CDSREGPST_CODE_LIEU_PLN",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "NO": "19910413",
+            "SRCGNR_NO": "24",
+            "TYPPLL_CODE": "ND AIR",
+            "DOM_INTERV": "A",
+            "DTHR_ENREGISTRE": "1991-06-06",
+            "PROVENANCE": "T",
+            "CDSREGPST_CODE_LIEU_PLN": null
+          },
+          {
+            "_id": 2,
+            "NO": "19910414",
+            "SRCGNR_NO": "24",
+            "TYPPLL_CODE": "ND AIR",
+            "DOM_INTERV": "A",
+            "DTHR_ENREGISTRE": "1991-06-06",
+            "PROVENANCE": "T",
+            "CDSREGPST_CODE_LIEU_PLN": "H8N"
+          },
+          {
+            "_id": 3,
+            "NO": "19910415",
+            "SRCGNR_NO": "24",
+            "TYPPLL_CODE": "ND AIR",
+            "DOM_INTERV": "A",
+            "DTHR_ENREGISTRE": "1991-06-06",
+            "PROVENANCE": "T",
+            "CDSREGPST_CODE_LIEU_PLN": null
+          },
+          {
+            "_id": 4,
+            "NO": "19910416",
+            "SRCGNR_NO": "24",
+            "TYPPLL_CODE": "ND AIR",
+            "DOM_INTERV": "A",
+            "DTHR_ENREGISTRE": "1991-06-07",
+            "PROVENANCE": "T",
+            "CDSREGPST_CODE_LIEU_PLN": null
+          },
+          {
+            "_id": 5,
+            "NO": "19910417",
+            "SRCGNR_NO": "24",
+            "TYPPLL_CODE": "ND AIR",
+            "DOM_INTERV": "A",
+            "DTHR_ENREGISTRE": "1991-06-07",
+            "PROVENANCE": "T",
+            "CDSREGPST_CODE_LIEU_PLN": "H2S"
+          }
+        ]
+      },
+      "field_stats": {
+        "NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "SRCGNR_NO": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "TYPPLL_CODE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DOM_INTERV": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "DTHR_ENREGISTRE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "PROVENANCE": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "CDSREGPST_CODE_LIEU_PLN": {
+          "null_count": 27615,
+          "null_pct": 61.5,
+          "populated_pct": 38.5
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 44884,
+        "audited_at": "2026-03-10T00:27:15.082692+00:00",
+        "fields": {
+          "NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 19910272.0,
+            "max": 19920068.0,
+            "mean": 19911353.626,
+            "median": 19910784.5,
+            "unique_count": 1000,
+            "field_type_detected": "numeric"
+          },
+          "SRCGNR_NO": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 24.0,
+            "mean": 23.96,
+            "median": 24.0,
+            "unique_count": 3,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "24",
+                "count": 998
+              },
+              {
+                "value": "7",
+                "count": 1
+              },
+              {
+                "value": "1",
+                "count": 1
+              }
+            ]
+          },
+          "TYPPLL_CODE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "ND AIR",
+                "count": 971
+              },
+              {
+                "value": "ND EAU",
+                "count": 27
+              },
+              {
+                "value": "PART",
+                "count": 1
+              },
+              {
+                "value": "FUMÉE",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DOM_INTERV": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "A",
+                "count": 973
+              },
+              {
+                "value": "E",
+                "count": 27
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "DTHR_ENREGISTRE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "1991-05-02",
+            "max_date": "1992-02-19",
+            "date_format": "YYYY-MM-DD",
+            "field_type_detected": "date"
+          },
+          "PROVENANCE": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 1,
+            "top_values": [
+              {
+                "value": "T",
+                "count": 1000
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "CDSREGPST_CODE_LIEU_PLN": {
+            "null_count": 629,
+            "null_pct": 62.9,
+            "unique_count": 87,
+            "top_values": [
+              {
+                "value": "H1B",
+                "count": 24
+              },
+              {
+                "value": "H1A",
+                "count": 18
+              },
+              {
+                "value": "H1L",
+                "count": 12
+              },
+              {
+                "value": "H8N",
+                "count": 11
+              },
+              {
+                "value": "H4E",
+                "count": 10
+              },
+              {
+                "value": "H1M",
+                "count": 10
+              },
+              {
+                "value": "H2L",
+                "count": 10
+              },
+              {
+                "value": "H2X",
+                "count": 7
+              },
+              {
+                "value": "H8R",
+                "count": 7
+              },
+              {
+                "value": "H1T",
+                "count": 7
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Cours d eau",
+    "Environnement",
+    "Qualité de l air",
+    "Qualité de l eau",
+    "SEnv",
+    "Égout"
+  ],
+  "web_metadata": {
+    "methodology_text": "La division du contrôle des rejets et suivi environnemental (CRSE) du Service de l’environnement de la Ville de Montréal traite les signalements d'événements nuisibles à la qualité de l’air, les cours d’eau et les égouts du",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de l'environnement",
+      "Couverture temporelle": "1991-06-06 / 2025-02-11",
+      "Fréquence de mise à jour": "Mensuel"
+    },
+    "keywords": [
+      "Cours d eau",
+      "Environnement",
+      "Qualité de l air",
+      "Qualité de l eau",
+      "SEnv",
+      "Égout"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/signalements-evenements-nuisibles-environnement",
+    "scraped_at": "2026-03-09T20:21:42.471321+00:00"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "slug": "vmtl-bilan-repertoire-des-milieux-naturels-proteges-contributifs-a-la-biodiversite",
+  "title": "Bilan du Répertoire des milieux naturels protégés et contributifs à la biodiversité",
+  "notes": "Le Schéma d’aménagement et de développement de l’agglomération de Montréal indique une cible visant l'accroissement du territoire terrestre protégé à 10 %. Cet objectif est réitéré dans le Plan climat 2020-2030 et le Plan nature et sports au sein du plan stratégique Montréal 2030. En 2023, le conseil d'agglomération approuvait la mise à jour de l'encadrement du Répertoire, depuis nommé Répertoire des milieux naturels protégés et contributifs à la biodiversité de l'agglomération de Montréal ([lignes directrices](https://portail-m4s.s3.montreal.ca/pdf/lignesdirectricesrepertoiremilieuxnaturels_2022_2.pdf)). Le Service des grands parcs, du Mont-Royal et des sports dépose annuellement au Conseil d’agglomération de Montréal un bilan faisant état de la progression des superficies de milieux naturels terrestres protégés et contributifs à la biodiversité de l’agglomération montréalaise. ",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "environnement-ressources-naturelles-energie",
+      "display_name": "Environnement, ressources naturelles et énergie",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-05-16T16:07:56.791069",
+  "metadata_modified": "2025-02-26T21:54:17.998511",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "70111e29-75c5-4092-80a0-f4f99f3bc302",
+      "name": "Bilan des superficies 2023",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/103ed2b5-a158-488f-8a37-68de026db78b/resource/70111e29-75c5-4092-80a0-f4f99f3bc302/download/bilan-superficie-sites-2023.csv",
+      "datastore_active": true,
+      "size": 767,
+      "last_modified": "2024-05-16T17:08:48.746239",
+      "created": "2024-05-16T16:08:58.624702",
+      "schema": {
+        "resource_id": "70111e29-75c5-4092-80a0-f4f99f3bc302",
+        "total_records": 6,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "description",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "sites",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "superficie_ha_protection",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pourcentage_protection",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "categorie": "A | Aires protégées",
+            "description": "Sites inscrits au RAP (ex : GPE - Parc-nature de la Pointe-aux-Prairies) ",
+            "sites": "Sites inscrits ",
+            "superficie_ha_protection": "2767",
+            "pourcentage_protection": "5.53"
+          },
+          {
+            "_id": 2,
+            "categorie": "A | Aires protégées",
+            "description": "Sites inscrits au RAP (ex : GPE - Parc-nature de la Pointe-aux-Prairies) ",
+            "sites": "Sites provisoires ",
+            "superficie_ha_protection": null,
+            "pourcentage_protection": null
+          },
+          {
+            "_id": 3,
+            "categorie": "B | Milieux naturels conservés",
+            "description": "GPO - Secteur du Bois-de-la-Roche| GPE - Coulée Grou et Ruisseau Pinel ",
+            "sites": "Sites inscrits ",
+            "superficie_ha_protection": "317",
+            "pourcentage_protection": "0.63"
+          },
+          {
+            "_id": 4,
+            "categorie": "B | Milieux naturels conservés ",
+            "description": "GPO - Secteur du Bois-de-la-Roche\\  GPE - Coulée Grou et Ruisseau Pinel ",
+            "sites": "Sites provisoires ",
+            "superficie_ha_protection": "735",
+            "pourcentage_protection": "1.47"
+          },
+          {
+            "_id": 5,
+            "categorie": "C | Milieux naturels contributifs à la biodiversité*",
+            "description": null,
+            "sites": "Sites inscrits ",
+            "superficie_ha_protection": null,
+            "pourcentage_protection": null
+          }
+        ]
+      },
+      "field_stats": {
+        "categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "description": {
+          "null_count": 2,
+          "null_pct": 33.3,
+          "populated_pct": 66.7
+        },
+        "sites": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "superficie_ha_protection": {
+          "null_count": 2,
+          "null_pct": 33.3,
+          "populated_pct": 66.7
+        },
+        "pourcentage_protection": {
+          "null_count": 2,
+          "null_pct": 33.3,
+          "populated_pct": 66.7
+        }
+      },
+      "quality_audit": {
+        "sample_size": 6,
+        "total_records": 6,
+        "audited_at": "2026-03-10T00:14:20.858267+00:00",
+        "fields": {
+          "categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "A | Aires protégées",
+                "count": 2
+              },
+              {
+                "value": "B | Milieux naturels conservés",
+                "count": 2
+              },
+              {
+                "value": "C | Milieux naturels contributifs à la biodiversité*",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "description": {
+            "null_count": 2,
+            "null_pct": 33.3,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "Sites inscrits au RAP (ex : GPE - Parc-nature de la Pointe-aux-Prairies)",
+                "count": 2
+              },
+              {
+                "value": "GPO - Secteur du Bois-de-la-Roche| GPE - Coulée Grou et Ruisseau Pinel",
+                "count": 1
+              },
+              {
+                "value": "GPO - Secteur du Bois-de-la-Roche\\  GPE - Coulée Grou et Ruisseau Pinel",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "sites": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 2,
+            "top_values": [
+              {
+                "value": "Sites inscrits",
+                "count": 3
+              },
+              {
+                "value": "Sites provisoires",
+                "count": 3
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "superficie_ha_protection": {
+            "null_count": 2,
+            "null_pct": 33.3,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "2767",
+                "count": 1
+              },
+              {
+                "value": "317",
+                "count": 1
+              },
+              {
+                "value": "735",
+                "count": 1
+              },
+              {
+                "value": "en évaluation",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "pourcentage_protection": {
+            "null_count": 2,
+            "null_pct": 33.3,
+            "unique_count": 4,
+            "top_values": [
+              {
+                "value": "5.53",
+                "count": 1
+              },
+              {
+                "value": "0.63",
+                "count": 1
+              },
+              {
+                "value": "1.47",
+                "count": 1
+              },
+              {
+                "value": "en évaluation",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          }
+        }
+      }
+    },
+    {
+      "id": "df51eccd-866c-4f0a-ae1d-80c9432bbdfa",
+      "name": "Bilan des superficies 2023",
+      "description": "",
+      "format": "PDF",
+      "url": "https://donnees.montreal.ca/fr/dataset/103ed2b5-a158-488f-8a37-68de026db78b/resource/df51eccd-866c-4f0a-ae1d-80c9432bbdfa/download/bilan-superficie-sites-2023.pdf",
+      "datastore_active": false,
+      "size": 139685,
+      "last_modified": "2024-05-16T16:09:32.407593",
+      "created": "2024-05-16T16:09:32.471003",
+      "schema": null
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Biodiversité",
+    "Milieux naturels",
+    "Protection",
+    "SGPMRS",
+    "Territoire"
+  ],
+  "web_metadata": {
+    "methodology_text": "## Dictionnaire de données\n\n\n\n- categorie (texte) : Catégorie de sites tels que décrits dans les lignes directrices.\n\n- description (texte) : Description du site. \n\n- sites(liste de valeur) : Type de site.\n\n- Sites inscrits:  Sites inscrits au Répertoire conformément aux lignes directrices.\n\n- Sites provisoires:  Sites en processus d’inscription.\n\n\n\n- superficie_ha (numérique) : Superficie protégée en hectares.\n\n- pourcentage (numérique) : Pourcentage de superficie de l'agglomération.\n\n\n\nLes superficies des sites inscrits et provisoirement inscrits sont sommées et rapportées à leur pourcentage de l’agglomération. Les données utilisées pour la catégorie C ainsi que la méthodologie d’analyse sont présentement en cours d’actualisation, dans le but d’assurer une réplication annuelle fiable et un meilleur suivi de l’atteinte de l’objectif du 10 %.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des grands parcs, du Mont-Royal et des sports",
+      "Couverture temporelle": "2023",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Biodiversité",
+      "Milieux naturels",
+      "Protection",
+      "SGPMRS",
+      "Territoire"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/bilan-repertoire-des-milieux-naturels-proteges-contributifs-a-la-biodiversite",
+    "scraped_at": "2026-03-09T19:52:59.218486+00:00"
+  }
+}

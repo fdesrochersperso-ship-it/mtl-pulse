@@ -1,0 +1,362 @@
+{
+  "slug": "vmtl-nombre-telechargment-donnees",
+  "title": "Téléchargment quotidien des ressources à partir du site des Données ouvertes",
+  "notes": "Ce jeu de donnée contient la liste des ressources présentes sur le site web des Données ouvertes de Montréal et comptabilise le nombre de fois où ils ont été téléchargés quotidiennement depuis le mois de juillet 2023.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "daily",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2024-02-29T14:43:17.999320",
+  "metadata_modified": "2026-03-09T19:02:33.769403",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "b7817317-55ca-4f23-98fe-30cf6c36d57c",
+      "name": "Nombre de téléchargement",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/7bc1ccdb-3a64-40a7-89d7-f4cfe0f3c462/resource/b7817317-55ca-4f23-98fe-30cf6c36d57c/download/telechargement-donnees-ouvertes.csv",
+      "datastore_active": true,
+      "size": 11758960,
+      "last_modified": "2026-03-09T17:00:50.387782",
+      "created": "2024-02-29T14:44:32.271552",
+      "schema": {
+        "resource_id": "b7817317-55ca-4f23-98fe-30cf6c36d57c",
+        "total_records": 72790,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "pagePath",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "fileExtension",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "fileName",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "eventCount",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "date": "20231030",
+            "pagePath": "/dataset/comptage-vehicules-pietons",
+            "fileExtension": "csv",
+            "fileName": "/dataset/584de76b-13b9-47ea-af12-0c37b8eb5de5/resource/f82f00c0-baed-4fa1-8b01-6ed60146d102/download",
+            "eventCount": "5"
+          },
+          {
+            "_id": 2,
+            "date": "20231030",
+            "pagePath": "/dataset/cartographie-de-base",
+            "fileExtension": "zip",
+            "fileName": "/geomatique/compilation_cartographique/2017-2022/compilation_carto_2017-2022_PDF.zip",
+            "eventCount": "4"
+          },
+          {
+            "_id": 3,
+            "date": "20231030",
+            "pagePath": "/dataset/comptage-vehicules-pietons",
+            "fileExtension": "zip",
+            "fileName": "/dataset/584de76b-13b9-47ea-af12-0c37b8eb5de5/resource/182596fc-a64b-4069-b41c-52a8e9b5aa23/download",
+            "eventCount": "4"
+          },
+          {
+            "_id": 4,
+            "date": "20231030",
+            "pagePath": "/dataset/contrats-transaction-deneigement",
+            "fileExtension": "csv",
+            "fileName": "/dataset/5bfbd75f-7531-48c2-b6b6-072284f7b9e7/resource/4dd8608d-973e-4ccc-a67a-8445aaa2623b/download",
+            "eventCount": "4"
+          },
+          {
+            "_id": 5,
+            "date": "20231030",
+            "pagePath": "/dataset/liste-des-fournisseurs",
+            "fileExtension": "csv",
+            "fileName": "/dataset/3bda8899-279a-46fc-9ad9-8dee68d05def/resource/ceee5da3-56ba-40f4-9008-8678bf4c14fe/download",
+            "eventCount": "4"
+          }
+        ]
+      },
+      "field_stats": {
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "pagePath": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fileExtension": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "fileName": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "eventCount": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 1000,
+        "total_records": 72790,
+        "audited_at": "2026-03-10T00:21:10.701653+00:00",
+        "fields": {
+          "date": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min_date": "20231030",
+            "max_date": "20231112",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          },
+          "pagePath": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 198,
+            "top_values": [
+              {
+                "value": "/dataset/cartographie-de-base",
+                "count": 36
+              },
+              {
+                "value": "/dataset/modele-numerique-de-canopee-mnc",
+                "count": 33
+              },
+              {
+                "value": "/dataset/indice-equite-milieux-vie",
+                "count": 27
+              },
+              {
+                "value": "/dataset/vues-aeriennes-de-montreal-1958-1975",
+                "count": 26
+              },
+              {
+                "value": "/dataset/stationnement-sur-rue-signalisation-courant",
+                "count": 24
+              },
+              {
+                "value": "/dataset/structure-routiere",
+                "count": 24
+              },
+              {
+                "value": "/dataset/collisions-routieres",
+                "count": 20
+              },
+              {
+                "value": "/dataset/permis-construction",
+                "count": 16
+              },
+              {
+                "value": "/dataset/geobase",
+                "count": 16
+              },
+              {
+                "value": "/dataset/panneaux-de-signalisation",
+                "count": 15
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "fileExtension": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 6,
+            "top_values": [
+              {
+                "value": "zip",
+                "count": 474
+              },
+              {
+                "value": "csv",
+                "count": 379
+              },
+              {
+                "value": "pdf",
+                "count": 85
+              },
+              {
+                "value": "xls",
+                "count": 49
+              },
+              {
+                "value": "xlsx",
+                "count": 12
+              },
+              {
+                "value": "docx",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "fileName": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 449,
+            "top_values": [
+              {
+                "value": "/dataset/984f7a68-ab34-4092-9204-4bdfcca767c5/resource/70c1f8c7-91a0-4553-b602-89c3edb959b5/download",
+                "count": 11
+              },
+              {
+                "value": "/geomatique/compilation_cartographique/2017-2022/compilation_carto_2017-2022_DWG.zip",
+                "count": 10
+              },
+              {
+                "value": "/dataset/d90eaf1b-2de8-43f0-923a-27a620ecdf41/resource/5232a72d-235a-48eb-ae20-bb9d501300ad/download",
+                "count": 10
+              },
+              {
+                "value": "/dataset/5ea29f40-1b5b-4f34-85b3-7c67088ff536/resource/234c8ee4-d9d8-4bb1-b957-3e5cd495a5aa/download",
+                "count": 10
+              },
+              {
+                "value": "/sites/default/files/gtfs/stm_sig.zip",
+                "count": 10
+              },
+              {
+                "value": "/geomatique/compilation_cartographique/2017-2022/compilation_carto_2017-2022_PDF.zip",
+                "count": 9
+              },
+              {
+                "value": "/dataset/74143072-dd9a-4309-95b4-da9a81a96d52/resource/e0e0f680-747e-4def-acb5-034b38fc5f20/download",
+                "count": 9
+              },
+              {
+                "value": "/dataset/8ac6dd33-b0d3-4eab-a334-5a6283eb7940/resource/7f1d4ae9-1a12-46d7-953e-6b9c18c78680/download",
+                "count": 9
+              },
+              {
+                "value": "/dataset/9797a946-9da8-41ec-8815-f6b276dec7e9/resource/e8bea324-044c-4544-bbd1-2e0d08a24216/download",
+                "count": 9
+              },
+              {
+                "value": "/dataset/584de76b-13b9-47ea-af12-0c37b8eb5de5/resource/f82f00c0-baed-4fa1-8b01-6ed60146d102/download",
+                "count": 8
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "eventCount": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "min": 1.0,
+            "max": 53.0,
+            "mean": 1.671,
+            "median": 1.0,
+            "unique_count": 14,
+            "field_type_detected": "numeric",
+            "top_values": [
+              {
+                "value": "1",
+                "count": 720
+              },
+              {
+                "value": "2",
+                "count": 159
+              },
+              {
+                "value": "3",
+                "count": 62
+              },
+              {
+                "value": "4",
+                "count": 19
+              },
+              {
+                "value": "5",
+                "count": 18
+              },
+              {
+                "value": "7",
+                "count": 6
+              },
+              {
+                "value": "8",
+                "count": 5
+              },
+              {
+                "value": "6",
+                "count": 4
+              },
+              {
+                "value": "11",
+                "count": 2
+              },
+              {
+                "value": "31",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Données ouvertes",
+    "SPSPO",
+    "Statistiques Web",
+    "Téléchargement"
+  ],
+  "web_metadata": {
+    "methodology_text": "Nombre de téléchargements effectués par les usagers du site des données ouvertes de Montréal tel que compilé par l'outil Google Analytics. Ces données excluent les téléchargements effectués à partir de l'API Ckan ainsi que les téléchargements déclenchés sur les sites de nos partenaires tels que Données Québec ou Gouvernement ouvert (Canada). Ces données excluent aussi les téléchargements effectués à partir d'une URL directe. Noter que ces données couvrent presque tous les formats de fichiers disponibles sur le site des données ouvertes, quelques rares formats non connus de Google Analytics en sont exclus.\n\n## Dictionnaire de données\n\n\n\n- date (date) : Statistique de cette date spécifique pour ce fichier.\n\n- pagePath (texte) : Chemin du répertoire et de la page à partir de laquelle la ressource a été téléchargée.\n\n- fileExtension (liste de valeur) : Extension de fichier du téléchargement.\n\n- fileName (texte) : Nom complet du fichier téléchargé.\n\n- eventCount (numérique) : Nombre de fois où le fichier a été téléchargé pour une date précise.\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    agglomeration\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service de la planification stratégique et de la performance organisationnelle",
+      "Couverture temporelle": "2023-2024",
+      "Fréquence de mise à jour": "Quotidien"
+    },
+    "keywords": [
+      "Données ouvertes",
+      "SPSPO",
+      "Statistiques Web",
+      "Téléchargement"
+    ],
+    "has_data_dictionary": true,
+    "scrape_url": "https://donnees.montreal.ca/dataset/nombre-telechargment-donnees",
+    "scraped_at": "2026-03-09T20:13:58.737827+00:00"
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "slug": "vmtl-registre-pp-cdn-ndg",
+  "title": "Registre des projets particuliers - Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+  "notes": "Le registre des projets particuliers contient l'ensemble des projets particuliers tels qu'approuvés par le conseil d'arrondissement.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2014-07-04T14:27:45.711346",
+  "metadata_modified": "2025-11-20T16:55:25.218638",
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "e13a8165-4706-4a31-bdf1-f9846e1c1c4e",
+      "name": "Registre projets particuliers",
+      "description": "Registre des projets particuliers adoptés par le conseil d'arrondissement du 4 août 2003 au 13 septembre 2021.",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/fr/dataset/9e37daeb-5dd7-49fa-b141-a7b872c21691/resource/e13a8165-4706-4a31-bdf1-f9846e1c1c4e/download/projets-particuliers_maj20220407.csv",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-04-14T17:36:18.350479",
+      "created": "2016-01-13T11:59:08.165404",
+      "schema": {
+        "resource_id": "e13a8165-4706-4a31-bdf1-f9846e1c1c4e",
+        "total_records": 134,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numéro",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "résolution",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numéro": "PP-1",
+            "résolution": "CA03 17175\n4 août 2003",
+            "nature": "Projet particulier portant sur la démolition des bâtiments situés aux 2475 et 2485, rue West Broadway ainsi que sur l’agrandissement et l’occupation de l’école secondaire Loyola située au 7272, rue Sherbrooke Ouest, au coin de la rue West Broadway",
+            "adresse": "2475 et 2485, rue West Broadway et 7272, rue Sherbrooke Ouest,"
+          },
+          {
+            "_id": 2,
+            "numéro": "PP-2",
+            "résolution": "CA03 170346\n7 octobre 2003",
+            "nature": "Projet particulier portant sur le retrait de l’obligation d’occuper à des fins commerciales ou d’équipements collectifs et institutionnels et sur l’autorisation d’occuper à des fins d’habitation les rez-de-chaussée d’une partie du bâtiment localisé aux 3540 et 3550, avenue Swail",
+            "adresse": "3540 et 3550, avenue Swail"
+          },
+          {
+            "_id": 3,
+            "numéro": "PP-3",
+            "résolution": "CA03 170386\n3 novembre 2003",
+            "nature": "Projet particulier visant à accorder l’autorisation de stationnement des véhicules automobiles dans les allées de circulation du stationnement localisé au sous-sol du bâtiment situé au 5250, boulevard Décarie, entre l’avenue Isabella et le chemin Queen-Mary ",
+            "adresse": "5250, boulevard Décarie,"
+          },
+          {
+            "_id": 4,
+            "numéro": "PP-4",
+            "résolution": "CA03 170384\n3 novembre 2003",
+            "nature": "Projet particulier portant sur l’agrandissement d’un usage restaurant dérogatoire protégé par droits acquis du Restaurant Côte-St-Luc Barbecue, situé au 5403, chemin de la Côte-Saint-Luc",
+            "adresse": "5403, chemin de la Côte-Saint-Luc"
+          },
+          {
+            "_id": 5,
+            "numéro": "PP-5",
+            "résolution": "CA04 170043\n2 février 2004",
+            "nature": "Projet particulier portant sur la démolition d’un bâtiment occupé par l’usage vente de carburant, situé au 5107, rue Sherbrooke Ouest, et la construction d’un immeuble commercial et résidentiel de deux étages avec mezzanine",
+            "adresse": "5107, rue Sherbrooke Ouest"
+          }
+        ]
+      },
+      "field_stats": {
+        "numéro": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "résolution": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nature": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 134,
+        "total_records": 134,
+        "audited_at": "2026-03-10T00:23:20.944929+00:00",
+        "fields": {
+          "numéro": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 134,
+            "top_values": [
+              {
+                "value": "PP-1",
+                "count": 1
+              },
+              {
+                "value": "PP-2",
+                "count": 1
+              },
+              {
+                "value": "PP-3",
+                "count": 1
+              },
+              {
+                "value": "PP-4",
+                "count": 1
+              },
+              {
+                "value": "PP-5",
+                "count": 1
+              },
+              {
+                "value": "PP-6",
+                "count": 1
+              },
+              {
+                "value": "PP-7",
+                "count": 1
+              },
+              {
+                "value": "PP-8",
+                "count": 1
+              },
+              {
+                "value": "PP-9",
+                "count": 1
+              },
+              {
+                "value": "PP-10",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "résolution": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "CA11 170465\n5 décembre 2011",
+                "count": 2
+              },
+              {
+                "value": "CA12 170287\n13 août 2012",
+                "count": 2
+              },
+              {
+                "value": "CA03 17175\n4 août 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170346\n7 octobre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170386\n3 novembre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170384\n3 novembre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA04 170043\n2 février 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04 170282\n2 août 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04170393\n8 novembre 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04 170224\n7 juin 2004",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "nature": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "Projet particulier visant à autoriser la démolition du bâtiment situé aux 5055, 5057 et 5059, rue Paré, situé entre les avenues Victoria et Mountain Sights, et la construction et l'occupation d'un bâtiment résidentiel sur le lot 2 648 726",
+                "count": 2
+              },
+              {
+                "value": "Projet particulier visant à autoriser la démolition du bâtiment situé au 4970, place de la Savane, et la construction et l'occupation d'un bâtiment résidentiel sur ce lot",
+                "count": 2
+              },
+              {
+                "value": "Projet particulier portant sur la démolition des bâtiments situés aux 2475 et 2485, rue West Broadway ainsi que sur l’agrandissement et l’occupation de l’école secondaire Loyola située au 7272, rue Sherbrooke Ouest, au coin de la rue West Broadway",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur le retrait de l’obligation d’occuper à des fins commerciales ou d’équipements collectifs et institutionnels et sur l’autorisation d’occuper à des fins d’habitation les rez-de-chaussée d’une partie du bâtiment localisé aux 3540 et 3550, avenue Swail",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier visant à accorder l’autorisation de stationnement des véhicules automobiles dans les allées de circulation du stationnement localisé au sous-sol du bâtiment situé au 5250, boulevard Décarie, entre l’avenue Isabella et le chemin Queen-Mary",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur l’agrandissement d’un usage restaurant dérogatoire protégé par droits acquis du Restaurant Côte-St-Luc Barbecue, situé au 5403, chemin de la Côte-Saint-Luc",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur la démolition d’un bâtiment occupé par l’usage vente de carburant, situé au 5107, rue Sherbrooke Ouest, et la construction d’un immeuble commercial et résidentiel de deux étages avec mezzanine",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier modifiant les autorisations prévues au Règlement sur la construction et l’occupation d’un bâtiment sur un terrain situé au sud de la rue Saint-Jacques et à l’ouest du boulevard Cavendish pour permettre la construction d’un 2e bâtiment sur le site du Loblaws",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier visant à permettre la démolition du bâtiment portant le numéro civique 2765, chemin de la Côte-Sainte-Catherine et la construction d’une école primaire de trois étages sur un lot à créer à l’arrière du couvent Saint-Albert-Le-Grand",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier permettant de transformer la grange située derrière le 5025, avenue Notre-Dame-de-Grâce en bâtiment principal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "adresse": {
+            "null_count": 1,
+            "null_pct": 0.7,
+            "unique_count": 126,
+            "top_values": [
+              {
+                "value": "7570, boulevard Décarie (Pétro-Canada) et 5350, rue Paré (Les Restaurants  McDonald’s)",
+                "count": 2
+              },
+              {
+                "value": "7141, rue Sherbrooke ouest (Université Concordia)",
+                "count": 2
+              },
+              {
+                "value": "6333, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "5055, 5057 et 5059, rue Paré",
+                "count": 2
+              },
+              {
+                "value": "3755, chemin de la Côte-Sainte-Catherine",
+                "count": 2
+              },
+              {
+                "value": "rue Jean-Talon Ouest et de l’avenue Mountain Sights.",
+                "count": 2
+              },
+              {
+                "value": "4970, place de la Savane",
+                "count": 2
+              },
+              {
+                "value": "2475 et 2485, rue West Broadway et 7272, rue Sherbrooke Ouest,",
+                "count": 1
+              },
+              {
+                "value": "3540 et 3550, avenue Swail",
+                "count": 1
+              },
+              {
+                "value": "5250, boulevard Décarie,",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    },
+    {
+      "id": "88ad77a1-1bd1-4c5f-9171-dbedca8ed408",
+      "name": "Registre projets particuliers",
+      "description": "Registre des projets particuliers adoptés par le conseil d'arrondissement du 4 août 2003 au 13 septembre 2021.",
+      "format": "ODS",
+      "url": "https://donnees.montreal.ca/fr/dataset/9e37daeb-5dd7-49fa-b141-a7b872c21691/resource/88ad77a1-1bd1-4c5f-9171-dbedca8ed408/download/projets-particuliers_maj20220407.ods",
+      "datastore_active": true,
+      "size": null,
+      "last_modified": "2022-04-14T17:55:22.905309",
+      "created": "2016-01-13T11:59:08.655330",
+      "schema": {
+        "resource_id": "88ad77a1-1bd1-4c5f-9171-dbedca8ed408",
+        "total_records": 134,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "numéro",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "résolution",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "nature",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "adresse",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "numéro": "PP-1",
+            "résolution": "CA03 17175\n4 août 2003",
+            "nature": "Projet particulier portant sur la démolition des bâtiments situés aux 2475 et 2485, rue West Broadway ainsi que sur l’agrandissement et l’occupation de l’école secondaire Loyola située au 7272, rue Sherbrooke Ouest, au coin de la rue West Broadway",
+            "adresse": "2475 et 2485, rue West Broadway et 7272, rue Sherbrooke Ouest,"
+          },
+          {
+            "_id": 2,
+            "numéro": "PP-2",
+            "résolution": "CA03 170346\n7 octobre 2003",
+            "nature": "Projet particulier portant sur le retrait de l’obligation d’occuper à des fins commerciales ou d’équipements collectifs et institutionnels et sur l’autorisation d’occuper à des fins d’habitation les rez-de-chaussée d’une partie du bâtiment localisé aux 3540 et 3550, avenue Swail",
+            "adresse": "3540 et 3550, avenue Swail"
+          },
+          {
+            "_id": 3,
+            "numéro": "PP-3",
+            "résolution": "CA03 170386\n3 novembre 2003",
+            "nature": "Projet particulier visant à accorder l’autorisation de stationnement des véhicules automobiles dans les allées de circulation du stationnement localisé au sous-sol du bâtiment situé au 5250, boulevard Décarie, entre l’avenue Isabella et le chemin Queen-Mary ",
+            "adresse": "5250, boulevard Décarie,"
+          },
+          {
+            "_id": 4,
+            "numéro": "PP-4",
+            "résolution": "CA03 170384\n3 novembre 2003",
+            "nature": "Projet particulier portant sur l’agrandissement d’un usage restaurant dérogatoire protégé par droits acquis du Restaurant Côte-St-Luc Barbecue, situé au 5403, chemin de la Côte-Saint-Luc",
+            "adresse": "5403, chemin de la Côte-Saint-Luc"
+          },
+          {
+            "_id": 5,
+            "numéro": "PP-5",
+            "résolution": "CA04 170043\n2 février 2004",
+            "nature": "Projet particulier portant sur la démolition d’un bâtiment occupé par l’usage vente de carburant, situé au 5107, rue Sherbrooke Ouest, et la construction d’un immeuble commercial et résidentiel de deux étages avec mezzanine",
+            "adresse": "5107, rue Sherbrooke Ouest"
+          }
+        ]
+      },
+      "field_stats": {
+        "numéro": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "résolution": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "nature": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "adresse": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        }
+      },
+      "quality_audit": {
+        "sample_size": 134,
+        "total_records": 134,
+        "audited_at": "2026-03-10T00:23:21.877902+00:00",
+        "fields": {
+          "numéro": {
+            "null_count": 2,
+            "null_pct": 1.5,
+            "unique_count": 132,
+            "top_values": [
+              {
+                "value": "PP-1",
+                "count": 1
+              },
+              {
+                "value": "PP-2",
+                "count": 1
+              },
+              {
+                "value": "PP-3",
+                "count": 1
+              },
+              {
+                "value": "PP-4",
+                "count": 1
+              },
+              {
+                "value": "PP-5",
+                "count": 1
+              },
+              {
+                "value": "PP-6",
+                "count": 1
+              },
+              {
+                "value": "PP-7",
+                "count": 1
+              },
+              {
+                "value": "PP-8",
+                "count": 1
+              },
+              {
+                "value": "PP-9",
+                "count": 1
+              },
+              {
+                "value": "PP-10",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "résolution": {
+            "null_count": 16,
+            "null_pct": 11.9,
+            "unique_count": 116,
+            "top_values": [
+              {
+                "value": "CA11 170465\n5 décembre 2011",
+                "count": 2
+              },
+              {
+                "value": "CA12 170287\n13 août 2012",
+                "count": 2
+              },
+              {
+                "value": "CA03 17175\n4 août 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170346\n7 octobre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170386\n3 novembre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA03 170384\n3 novembre 2003",
+                "count": 1
+              },
+              {
+                "value": "CA04 170043\n2 février 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04 170282\n2 août 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04170393\n8 novembre 2004",
+                "count": 1
+              },
+              {
+                "value": "CA04 170224\n7 juin 2004",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "nature": {
+            "null_count": 5,
+            "null_pct": 3.7,
+            "unique_count": 124,
+            "top_values": [
+              {
+                "value": "Projet particulier",
+                "count": 4
+              },
+              {
+                "value": "Projet particulier visant à autoriser la démolition du bâtiment situé aux 5055, 5057 et 5059, rue Paré, situé entre les avenues Victoria et Mountain Sights, et la construction et l'occupation d'un bâtiment résidentiel sur le lot 2 648 726",
+                "count": 2
+              },
+              {
+                "value": "Projet particulier visant à autoriser la démolition du bâtiment situé au 4970, place de la Savane, et la construction et l'occupation d'un bâtiment résidentiel sur ce lot",
+                "count": 2
+              },
+              {
+                "value": "Projet particulier portant sur la démolition des bâtiments situés aux 2475 et 2485, rue West Broadway ainsi que sur l’agrandissement et l’occupation de l’école secondaire Loyola située au 7272, rue Sherbrooke Ouest, au coin de la rue West Broadway",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur le retrait de l’obligation d’occuper à des fins commerciales ou d’équipements collectifs et institutionnels et sur l’autorisation d’occuper à des fins d’habitation les rez-de-chaussée d’une partie du bâtiment localisé aux 3540 et 3550, avenue Swail",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier visant à accorder l’autorisation de stationnement des véhicules automobiles dans les allées de circulation du stationnement localisé au sous-sol du bâtiment situé au 5250, boulevard Décarie, entre l’avenue Isabella et le chemin Queen-Mary",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur l’agrandissement d’un usage restaurant dérogatoire protégé par droits acquis du Restaurant Côte-St-Luc Barbecue, situé au 5403, chemin de la Côte-Saint-Luc",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier portant sur la démolition d’un bâtiment occupé par l’usage vente de carburant, situé au 5107, rue Sherbrooke Ouest, et la construction d’un immeuble commercial et résidentiel de deux étages avec mezzanine",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier modifiant les autorisations prévues au Règlement sur la construction et l’occupation d’un bâtiment sur un terrain situé au sud de la rue Saint-Jacques et à l’ouest du boulevard Cavendish pour permettre la construction d’un 2e bâtiment sur le site du Loblaws",
+                "count": 1
+              },
+              {
+                "value": "Projet particulier visant à permettre la démolition du bâtiment portant le numéro civique 2765, chemin de la Côte-Sainte-Catherine et la construction d’une école primaire de trois étages sur un lot à créer à l’arrière du couvent Saint-Albert-Le-Grand",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "adresse": {
+            "null_count": 5,
+            "null_pct": 3.7,
+            "unique_count": 122,
+            "top_values": [
+              {
+                "value": "7570, boulevard Décarie (Pétro-Canada) et 5350, rue Paré (Les Restaurants",
+                "count": 2
+              },
+              {
+                "value": "7141, rue Sherbrooke ouest (Université Concordia)",
+                "count": 2
+              },
+              {
+                "value": "6333, boulevard Décarie",
+                "count": 2
+              },
+              {
+                "value": "5055, 5057 et 5059, rue Paré",
+                "count": 2
+              },
+              {
+                "value": "3755, chemin de la Côte-Sainte-Catherine",
+                "count": 2
+              },
+              {
+                "value": "rue Jean-Talon Ouest et de l’avenue Mountain Sights.",
+                "count": 2
+              },
+              {
+                "value": "4970, place de la Savane",
+                "count": 2
+              },
+              {
+                "value": "2475 et 2485, rue West Broadway et 7272, rue Sherbrooke Ouest,",
+                "count": 1
+              },
+              {
+                "value": "3540 et 3550, avenue Swail",
+                "count": 1
+              },
+              {
+                "value": "5250, boulevard Décarie,",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Arr.",
+    "CN-NdG",
+    "Côte-des-Neiges--Notre-Dame-de-Grâce",
+    "Projet particulier",
+    "Registre"
+  ],
+  "web_metadata": {
+    "methodology_text": "Registre mis à jour lorsqu'un projet particulier est approuvé par le conseil d'arrondissement. Le registre consiste en un tableau divisé en quatre colonnes : Numéro, Résolution + date, Nature et Adresse.\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    CDN\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Arrondissement de Côte-des-Neiges–Notre-Dame-de-Grâce",
+      "Couverture temporelle": "2003-08-04/2022-04-14",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Arr.",
+      "CN-NdG",
+      "Côte-des-Neiges--Notre-Dame-de-Grâce",
+      "Projet particulier",
+      "Registre"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/registre-pp-cdn-ndg",
+    "scraped_at": "2026-03-09T20:18:31.852795+00:00"
+  }
+}

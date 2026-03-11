@@ -1,0 +1,452 @@
+{
+  "slug": "vmtl-solutions-en-logiciels-libres",
+  "title": "Solutions en logiciels libres",
+  "notes": "Dans le cadre de la [Politique et directives traitant du code et matériel libre à la Ville de Montréal](https://github.com/VilledeMontreal/politique-libre), le Service des technologies de l'information de la Ville de Montréal publient l'inventaire des solutions libres utilisées.",
+  "organization": "ville-de-montreal",
+  "organization_title": "Ville de Montréal",
+  "groups": [
+    {
+      "id": "gouvernement-finances",
+      "display_name": "Gouvernement et finances",
+      "mapped": {}
+    }
+  ],
+  "license_id": "cc-by",
+  "license_title": "Attribution (CC-BY 4.0)",
+  "update_frequency": "irregular",
+  "temporal_coverage_from": "",
+  "temporal_coverage_to": "",
+  "spatial_coverage": "",
+  "methodology": "",
+  "metadata_created": "2018-09-11T18:07:51.106598",
+  "metadata_modified": "2026-03-08T02:10:30.814143",
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "fc5add29-2612-474e-bb59-009f8133f1a5",
+      "name": "Logiciels libres utillisé par la ville de Montréal",
+      "description": "",
+      "format": "CSV",
+      "url": "https://donnees.montreal.ca/dataset/30ff96f8-82f7-4528-8d52-dd1ffde5786a/resource/fc5add29-2612-474e-bb59-009f8133f1a5/download/inventaire_solutions_libres.csv",
+      "datastore_active": true,
+      "size": 8158,
+      "last_modified": "2026-03-08T00:02:05.956895",
+      "created": "2023-05-18T14:59:47.721558",
+      "schema": {
+        "resource_id": "fc5add29-2612-474e-bb59-009f8133f1a5",
+        "total_records": 73,
+        "fields": [
+          {
+            "id": "_id",
+            "type": "int",
+            "info": {}
+          },
+          {
+            "id": "Nom de la solution",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Nbre d'utilisateurs",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Categorie",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Domaine d'activite",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Direction d'affaires",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Statut d'utilisation",
+            "type": "text",
+            "info": {}
+          },
+          {
+            "id": "Date mise en Prod",
+            "type": "text",
+            "info": {}
+          }
+        ],
+        "sample_records": [
+          {
+            "_id": 1,
+            "Nom de la solution": "Accumulo",
+            "Nbre d'utilisateurs": "Moins de 50",
+            "Categorie": "Application",
+            "Domaine d'activite": "Gestion des données",
+            "Direction d'affaires": "Intelligence d'affaires",
+            "Statut d'utilisation": "En déploiement",
+            "Date mise en Prod": "2019"
+          },
+          {
+            "_id": 2,
+            "Nom de la solution": "AirFlow",
+            "Nbre d'utilisateurs": "Moins de 50",
+            "Categorie": "Intégration de données ",
+            "Domaine d'activite": "Intelligence d'affaires",
+            "Direction d'affaires": "Intelligence d'affaires",
+            "Statut d'utilisation": "En déploiement",
+            "Date mise en Prod": "2017"
+          },
+          {
+            "_id": 3,
+            "Nom de la solution": "Angular",
+            "Nbre d'utilisateurs": "Plus de 100",
+            "Categorie": "Cadriciel",
+            "Domaine d'activite": "Développement",
+            "Direction d'affaires": "Général",
+            "Statut d'utilisation": "En production",
+            "Date mise en Prod": "2017"
+          },
+          {
+            "_id": 4,
+            "Nom de la solution": "Ansible",
+            "Nbre d'utilisateurs": "Moins de 50",
+            "Categorie": "Plateforme applicative",
+            "Domaine d'activite": "Gestion applicative",
+            "Direction d'affaires": "Infras et Plateformes",
+            "Statut d'utilisation": "En production",
+            "Date mise en Prod": "2017"
+          },
+          {
+            "_id": 5,
+            "Nom de la solution": "Bokeh",
+            "Nbre d'utilisateurs": "Moins de 50",
+            "Categorie": "Visualisation",
+            "Domaine d'activite": "Intelligence d'affaires",
+            "Direction d'affaires": "Intelligence d'affaires",
+            "Statut d'utilisation": "En déploiement",
+            "Date mise en Prod": "2017"
+          }
+        ]
+      },
+      "field_stats": {
+        "Nom de la solution": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Nbre d'utilisateurs": {
+          "null_count": 2,
+          "null_pct": 2.7,
+          "populated_pct": 97.3
+        },
+        "Categorie": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Domaine d'activite": {
+          "null_count": 0,
+          "null_pct": 0.0,
+          "populated_pct": 100.0
+        },
+        "Direction d'affaires": {
+          "null_count": 2,
+          "null_pct": 2.7,
+          "populated_pct": 97.3
+        },
+        "Statut d'utilisation": {
+          "null_count": 4,
+          "null_pct": 5.5,
+          "populated_pct": 94.5
+        },
+        "Date mise en Prod": {
+          "null_count": 5,
+          "null_pct": 6.8,
+          "populated_pct": 93.2
+        }
+      },
+      "quality_audit": {
+        "sample_size": 73,
+        "total_records": 73,
+        "audited_at": "2026-03-10T00:27:15.943415+00:00",
+        "fields": {
+          "Nom de la solution": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 73,
+            "top_values": [
+              {
+                "value": "Accumulo",
+                "count": 1
+              },
+              {
+                "value": "AirFlow",
+                "count": 1
+              },
+              {
+                "value": "Angular",
+                "count": 1
+              },
+              {
+                "value": "Ansible",
+                "count": 1
+              },
+              {
+                "value": "Bokeh",
+                "count": 1
+              },
+              {
+                "value": "Camunda",
+                "count": 1
+              },
+              {
+                "value": "Cassandra",
+                "count": 1
+              },
+              {
+                "value": "Debezium",
+                "count": 1
+              },
+              {
+                "value": "Docker",
+                "count": 1
+              },
+              {
+                "value": "Drupal",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "identifier"
+          },
+          "Nbre d'utilisateurs": {
+            "null_count": 2,
+            "null_pct": 2.7,
+            "unique_count": 5,
+            "top_values": [
+              {
+                "value": "Moins de 50",
+                "count": 58
+              },
+              {
+                "value": "Plus de 100",
+                "count": 10
+              },
+              {
+                "value": "Plus de 1000",
+                "count": 1
+              },
+              {
+                "value": "Plus de 101",
+                "count": 1
+              },
+              {
+                "value": "Moins de 1000",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Categorie": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 49,
+            "top_values": [
+              {
+                "value": "Cadriciel",
+                "count": 5
+              },
+              {
+                "value": "Langages de programmation",
+                "count": 5
+              },
+              {
+                "value": "Base de données",
+                "count": 4
+              },
+              {
+                "value": "Apprentissage machine",
+                "count": 4
+              },
+              {
+                "value": "Application",
+                "count": 3
+              },
+              {
+                "value": "Cartes géographiques",
+                "count": 3
+              },
+              {
+                "value": "Plateforme applicative",
+                "count": 2
+              },
+              {
+                "value": "Visualisation",
+                "count": 2
+              },
+              {
+                "value": "Conteneur",
+                "count": 2
+              },
+              {
+                "value": "Logiciel de gestion \nde contenus",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "text"
+          },
+          "Domaine d'activite": {
+            "null_count": 0,
+            "null_pct": 0.0,
+            "unique_count": 17,
+            "top_values": [
+              {
+                "value": "Développement",
+                "count": 16
+              },
+              {
+                "value": "Gestion des données",
+                "count": 9
+              },
+              {
+                "value": "Géospatial",
+                "count": 9
+              },
+              {
+                "value": "Intelligence d'affaires",
+                "count": 8
+              },
+              {
+                "value": "Gestion de l'information",
+                "count": 8
+              },
+              {
+                "value": "Gestion applicative",
+                "count": 6
+              },
+              {
+                "value": "Monitoring",
+                "count": 3
+              },
+              {
+                "value": "Télécommunications",
+                "count": 3
+              },
+              {
+                "value": "Général",
+                "count": 2
+              },
+              {
+                "value": "Gestion de relation client",
+                "count": 2
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Direction d'affaires": {
+            "null_count": 2,
+            "null_pct": 2.7,
+            "unique_count": 12,
+            "top_values": [
+              {
+                "value": "Intelligence d'affaires",
+                "count": 24
+              },
+              {
+                "value": "Infras et Plateformes",
+                "count": 20
+              },
+              {
+                "value": "Général",
+                "count": 11
+              },
+              {
+                "value": "Gestion du territoire",
+                "count": 4
+              },
+              {
+                "value": "Espaces de travail",
+                "count": 3
+              },
+              {
+                "value": "Infras et Plateformes/Sécurité",
+                "count": 2
+              },
+              {
+                "value": "Solutions Numériques",
+                "count": 2
+              },
+              {
+                "value": "Sécurité Publique",
+                "count": 1
+              },
+              {
+                "value": "Solutions institutionnelles",
+                "count": 1
+              },
+              {
+                "value": "Solutions numériques",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Statut d'utilisation": {
+            "null_count": 4,
+            "null_pct": 5.5,
+            "unique_count": 3,
+            "top_values": [
+              {
+                "value": "En production",
+                "count": 43
+              },
+              {
+                "value": "En déploiement",
+                "count": 25
+              },
+              {
+                "value": "En délestage",
+                "count": 1
+              }
+            ],
+            "field_type_detected": "category"
+          },
+          "Date mise en Prod": {
+            "null_count": 5,
+            "null_pct": 6.8,
+            "min_date": "2007",
+            "max_date": "2019",
+            "date_format": "unknown",
+            "field_type_detected": "date"
+          }
+        }
+      }
+    }
+  ],
+  "extras": {},
+  "tags": [
+    "Informatique",
+    "Logiciel",
+    "Logiciel libre",
+    "STI"
+  ],
+  "web_metadata": {
+    "methodology_text": "### Dictionnaire des données\n\n\n\n- Nom de la solution: Nom\n\n- Nbre d'utilisateurs: Nombre d'utilisateurs\n\n- Catégorie: Catégorie de la solution\n\n- Domaine d'activité: Type d'utilisation\n\n- Direction d'affaires: Équipe qui l'utilise\n\n- Statut d'utilisation: Statut sur l'utilisation\n\n- Date mise en Prod: Date de mise en production\n\n                                \n                                \n                            \n\n                            \n                                \n###",
+    "territories": "Montreal\n                                \n                                 \n                                              \n                                \n                                    \n                                \n                                \n\n    \n    \n    montreal\n    \n    \n    \n    \n        \n    \n\n                                \n                            \n\n                            \n                                \n###",
+    "additional_info": {
+      "Publieur": "Service des technologies de l'information",
+      "Couverture temporelle": "2018-09-01/",
+      "Fréquence de mise à jour": "Irrégulier"
+    },
+    "keywords": [
+      "Informatique",
+      "Logiciel",
+      "Logiciel libre",
+      "STI"
+    ],
+    "has_data_dictionary": false,
+    "scrape_url": "https://donnees.montreal.ca/dataset/solutions-en-logiciels-libres",
+    "scraped_at": "2026-03-09T20:21:47.699480+00:00"
+  }
+}

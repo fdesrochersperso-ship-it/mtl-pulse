@@ -1,0 +1,1026 @@
+{
+  "category_id": "education-recherche",
+  "category_name_fr": "education-recherche",
+  "category_name_en": "education-recherche",
+  "dataset_count": 2,
+  "datasets": [
+    {
+      "slug": "vmtl-patrimoine-architectural-outremont-fiches-immeubles-inventaire-bisson",
+      "title": "Patrimoine architectural de l'arrondissement Outremont - Fiches d'immeubles de l'inventaire Bisson",
+      "notes": "Ce jeu de données présente la localisation des immeubles repérés de Catégorie 1 et 2 ( bâtiments remarquables, bâtiments intéressants) dans l'inventaire du patrimoine d'Outremont réalisé par Pierre-Richard Bisson en 1992. Les fiches associées y sont accessibles au format PDF lorsqu'elles sont disponibles.\r\nLes immeubles de catégorie 1 (bâtiments remarquables) sont associés à des fiches détaillées et les immeubles de Catégorie 2 (bâtiments intéressants) sont associés à des fiches courtes. Les fiches sont repérables dans l'outil cartographique en indiquant LAT comme données pour la latitude et LNG en données pour la longitude.\r\n\r\nLes données de ces fiches correspondent à l'état des connaissances au moment de la réalisation de l'inventaire et n'ont pas été actualisées depuis. \r\n\r\nCette ressource est le fruit d'une collaboration entre l'arrondissement d'Outremont, le service de la Planification stratégique et de la performance organisationnelle, et de la section des Inventaires de la division du Patrimoine de la Ville de Montréal.\r\n\r\nLa ressource est également consultable via la carte interactive des TAS - Témoin architectural significatif de l'arrondissement d'Outremont disponible à cette adresse :  https://spectrum.montreal.ca/connect/analyst/mobile/#/main?mapcfg=-%20Outremont\r\n ",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "education-recherche",
+          "display_name": "Éducation et recherche",
+          "mapped": {}
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "notPlanned",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2026-01-29T21:51:28.347143",
+      "metadata_modified": "2026-02-13T20:00:16.437498",
+      "num_resources": 1,
+      "resources": [
+        {
+          "id": "ee45226b-dcae-4f0e-bf89-3cec582ebd70",
+          "name": "Liste des immeubles des catégories 1 et 2 de l'inventaire Bisson d'Outremont",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/358e49a9-eb46-4987-ba8d-dc84af8e1c36/resource/ee45226b-dcae-4f0e-bf89-3cec582ebd70/download/outremont-patrimoine-etude-bisson-cat-1-2.csv",
+          "datastore_active": true,
+          "size": 241235,
+          "last_modified": "2026-01-29T21:52:54.566450",
+          "created": "2026-01-29T21:52:54.652537",
+          "schema": {
+            "resource_id": "ee45226b-dcae-4f0e-bf89-3cec582ebd70",
+            "total_records": 671,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "ID_FICHE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CAT_BISSON",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "TYPE_CAT_BISSON",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LIEN_FTP",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CIV_DE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CIV_A",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "TYPE_VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LIEN_VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ORIENT_VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ADRESSE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOTE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DEMOLI",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_INDICATIF",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "STATUT_INV_PRE_40_2025",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ID_IMM_INV",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ID_UEV",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NUM_UEV",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "MATRICULE_83",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "X",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "Y",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LNG",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LAT",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "ID_FICHE": "1_001",
+                "CAT_BISSON": "1",
+                "TYPE_CAT_BISSON": "Bâtiment remarquable",
+                "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/7_avenue_ainslie_CAT_1.pdf",
+                "CIV_DE": "7",
+                "CIV_A": "7",
+                "TYPE_VOIE": "avenue",
+                "LIEN_VOIE": null,
+                "NOM_VOIE": "Ainslie",
+                "ORIENT_VOIE": null,
+                "ADRESSE": "7-7 avenue Ainslie ",
+                "NOTE": null,
+                "DEMOLI": "Non",
+                "NOM_INDICATIF": "maison J.-B.-Beaudry-Leman",
+                "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+                "ID_IMM_INV": "i663-OUT-3031346",
+                "ID_UEV": "3034299",
+                "NUM_UEV": "277755",
+                "MATRICULE_83": "9541-95-8444-6-000-0000",
+                "X": "295981.1421155482",
+                "Y": "5041541.883752364",
+                "LNG": "-73.6128723720578",
+                "LAT": "45.51374085"
+              },
+              {
+                "_id": 2,
+                "ID_FICHE": "1_012",
+                "CAT_BISSON": "1",
+                "TYPE_CAT_BISSON": "Bâtiment remarquable",
+                "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/1100_44_avenue_bernard_CAT_1.pdf",
+                "CIV_DE": "1100",
+                "CIV_A": "1144",
+                "TYPE_VOIE": "avenue",
+                "LIEN_VOIE": null,
+                "NOM_VOIE": "Bernard",
+                "ORIENT_VOIE": null,
+                "ADRESSE": "1100-1144 avenue Bernard ",
+                "NOTE": null,
+                "DEMOLI": "Non",
+                "NOM_INDICATIF": "appartements Royal York",
+                "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+                "ID_IMM_INV": "i663-OUT-3027755",
+                "ID_UEV": "3030156",
+                "NUM_UEV": "162702",
+                "MATRICULE_83": "9642-43-2081-8-001-0020",
+                "X": "296420.2807787741",
+                "Y": "5042380.92644095",
+                "LNG": "-73.6072662",
+                "LAT": "45.5212963"
+              },
+              {
+                "_id": 3,
+                "ID_FICHE": "1_002",
+                "CAT_BISSON": "1",
+                "TYPE_CAT_BISSON": "Bâtiment remarquable",
+                "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/18_avenue_ainslie_CAT_1.pdf",
+                "CIV_DE": "18",
+                "CIV_A": "18",
+                "TYPE_VOIE": "avenue",
+                "LIEN_VOIE": null,
+                "NOM_VOIE": "Ainslie",
+                "ORIENT_VOIE": null,
+                "ADRESSE": "18-18 avenue Ainslie ",
+                "NOTE": null,
+                "DEMOLI": "Non",
+                "NOM_INDICATIF": "maison Édouard-Ouellette",
+                "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+                "ID_IMM_INV": "i663-OUT-3031356-001",
+                "ID_UEV": "3034309",
+                "NUM_UEV": "277750",
+                "MATRICULE_83": "9541-95-1516-8-000-0000",
+                "X": "295912.9784914519",
+                "Y": "5041525.604780755",
+                "LNG": "-73.6137445",
+                "LAT": "45.5135935"
+              },
+              {
+                "_id": 4,
+                "ID_FICHE": "1_003",
+                "CAT_BISSON": "1",
+                "TYPE_CAT_BISSON": "Bâtiment remarquable",
+                "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/22_avenue_ainslie_CAT_1.pdf",
+                "CIV_DE": "22",
+                "CIV_A": "22",
+                "TYPE_VOIE": "avenue",
+                "LIEN_VOIE": null,
+                "NOM_VOIE": "Ainslie",
+                "ORIENT_VOIE": null,
+                "ADRESSE": "22-22 avenue Ainslie ",
+                "NOTE": null,
+                "DEMOLI": "Non",
+                "NOM_INDICATIF": "maison Rodolphe-Tourville",
+                "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+                "ID_IMM_INV": "i663-OUT-5028985-001",
+                "ID_UEV": "3034315",
+                "NUM_UEV": "283499",
+                "MATRICULE_83": "9541-85-8238-3-000-0000",
+                "X": "295892.23910342203",
+                "Y": "5041537.491111169",
+                "LNG": "-73.6140101577257",
+                "LAT": "45.5137001932859"
+              },
+              {
+                "_id": 5,
+                "ID_FICHE": "1_004",
+                "CAT_BISSON": "1",
+                "TYPE_CAT_BISSON": "Bâtiment remarquable",
+                "LIEN_FTP": "https://depot.ville.montreal.qc.ca/patrimoine/bisson/Fiches_CAT_1/26_avenue_ainslie_CAT_1.pdf",
+                "CIV_DE": "26",
+                "CIV_A": "26",
+                "TYPE_VOIE": "avenue",
+                "LIEN_VOIE": null,
+                "NOM_VOIE": "Ainslie",
+                "ORIENT_VOIE": null,
+                "ADRESSE": "26-26 avenue Ainslie ",
+                "NOTE": null,
+                "DEMOLI": "Non",
+                "NOM_INDICATIF": "maison Ferdinand-Guérin",
+                "STATUT_INV_PRE_40_2025": "Retenu Inventaire pre 1940",
+                "ID_IMM_INV": "i663-OUT-3031367",
+                "ID_UEV": "3034321",
+                "NUM_UEV": "277747",
+                "MATRICULE_83": "9541-85-6052-0-000-0000",
+                "X": "295862.3589220622",
+                "Y": "5041554.35956846",
+                "LNG": "-73.6143929",
+                "LAT": "45.5138516"
+              }
+            ]
+          },
+          "field_stats": {
+            "ID_FICHE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "CAT_BISSON": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "TYPE_CAT_BISSON": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LIEN_FTP": {
+              "null_count": 3,
+              "null_pct": 0.4,
+              "populated_pct": 99.6
+            },
+            "CIV_DE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "CIV_A": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "TYPE_VOIE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LIEN_VOIE": {
+              "null_count": 557,
+              "null_pct": 83.0,
+              "populated_pct": 17.0
+            },
+            "NOM_VOIE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "ORIENT_VOIE": {
+              "null_count": 671,
+              "null_pct": 100.0,
+              "populated_pct": 0.0
+            },
+            "ADRESSE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOTE": {
+              "null_count": 556,
+              "null_pct": 82.9,
+              "populated_pct": 17.1
+            },
+            "DEMOLI": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_INDICATIF": {
+              "null_count": 506,
+              "null_pct": 75.4,
+              "populated_pct": 24.6
+            },
+            "STATUT_INV_PRE_40_2025": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "ID_IMM_INV": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "ID_UEV": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "NUM_UEV": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "MATRICULE_83": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "X": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "Y": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LNG": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LAT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Architecture",
+        "Archives",
+        "Outremont",
+        "Patrimoine",
+        "Pierre-Richard Bisson",
+        "SUM",
+        "Urbanimse"
+      ]
+    },
+    {
+      "slug": "vmtl-les-edifices-patrimoniaux-de-montreal",
+      "title": "Les édifices patrimoniaux de Montréal",
+      "notes": "Liste des édifices qui figurent dans le Site Web du Vieux-Montréal et du Grand répertoire du patrimoine bâti de Montréal. Elle contient des informations générales sur ce qui constitue une « valeur patrimoniale » ainsi que sur la gestion du patrimoine bâti par une synthèse des connaissances actuelles sur ce patrimoine. ",
+      "organization": "ville-de-montreal",
+      "organization_title": "Ville de Montréal",
+      "groups": [
+        {
+          "id": "education-recherche",
+          "display_name": "Éducation et recherche",
+          "mapped": {}
+        },
+        {
+          "id": "societe-culture",
+          "display_name": "Société et culture",
+          "mapped": {}
+        }
+      ],
+      "license_id": "cc-by",
+      "license_title": "Attribution (CC-BY 4.0)",
+      "update_frequency": "irregular",
+      "temporal_coverage_from": "",
+      "temporal_coverage_to": "",
+      "spatial_coverage": "",
+      "methodology": "",
+      "metadata_created": "2024-11-18T18:25:50.430070",
+      "metadata_modified": "2025-06-19T16:00:35.920015",
+      "num_resources": 3,
+      "resources": [
+        {
+          "id": "a89dd7ad-ebb1-4d1e-97d5-e14724e50447",
+          "name": "Édifices patrimoniaux",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/607c00db-0446-4389-9cdc-d8127f8da57a/resource/a89dd7ad-ebb1-4d1e-97d5-e14724e50447/download/edifices_patrimoine.csv",
+          "datastore_active": true,
+          "size": 739700,
+          "last_modified": "2025-06-19T14:26:38.924807",
+          "created": "2024-11-19T14:45:54.952127",
+          "schema": {
+            "resource_id": "a89dd7ad-ebb1-4d1e-97d5-e14724e50447",
+            "total_records": 1336,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "IDENTIFIANT_BATIMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_HISTORIQUE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "TYPOLOGIE_SPECIFIQUE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CIVIQUE_MIN",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CIVIQUE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "TYPE_DE_VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CIVIQUE_MAX",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LIEN",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "VOIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "EST_OUEST",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ARRONDISSEMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "HISTORIQUE_SOMMAIRE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DEBUT_DES_TRAVAUX",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "FIN_DES_TRAVAUX",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CENTRO_X",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CENTRO_Y",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "IDENTIFIANT_BATIMENT": "0039-27-4599-00",
+                "NOM_HISTORIQUE": "Maisons-magasins Jacob-De Witt  I",
+                "TYPOLOGIE_SPECIFIQUE": "maison-magasin",
+                "CIVIQUE_MIN": "412",
+                "CIVIQUE": "412-414",
+                "TYPE_DE_VOIE": "rue",
+                "CIVIQUE_MAX": "414",
+                "LIEN": null,
+                "VOIE": "McGill",
+                "EST_OUEST": null,
+                "ARRONDISSEMENT": "Ville-Marie (Montréal)",
+                "HISTORIQUE_SOMMAIRE": "L'homme d'affaires et banquier Jacob De Witt fait construire un ensemble comprenant trois maisons-magasins en 1846, sur un terrain qu'il a acquis seize ans plus tôt avec un hangar donnant sur la rue de Longueuil. Il engage le maçon David Brown pour lui construire les bâtiments d'après les plans de l'architecte Moses Marshall. Cet immeuble compte deux des trois maisons-magasins initialement bâties. À l'instar de bâtiments semblables, celles-ci sont vouées au départ au commerce et à l'habitation. En 1847, le chapelier et fourreur Alexander McDowall occupe la maison-magasin la plus au sud, alors que le fabricant de chaises Edmund Gates loue l'unité se trouvant au centre de l'ensemble. Les locataires ont aussi accès à un entrepôt de deux étages adjacent à leurs maisons-magasins et construit en 1847.  \n\nDès les années 1860, l'immeuble ne sert plus qu'à des fins de commerce, de fabrication et d'entreposage. Le fabricant de vêtements James Shanks Evans, locataire du magasin du centre depuis au moins huit ans, acquiert la propriété en 1866. L'entreprise d'Evans n'occupe plus les lieux en 1870 qui sont loués à des marchands de <i>dry goods</i> (tissus, articles de mercerie et peut-être autres produits) et à des épiciers en gros. En 1878, les fleuristes et grainetiers William Ewing & Co s'y installent.\n \nEn 1900, les héritiers Evans se partagent la propriété. Les deux unités de l'ensemble les plus au sud demeurent liées par une histoire commune. En 1922, William Ewing & Co se porte acquéreur de l'immeuble. L'entreprise occupe les lieux jusqu'en 1949. Une compagnie d'importation de peinture s'y établit par la suite.\n\nÀ partir des années 1990 jusqu'en 2004, l'immeuble est occupé par une clientèle diversifiée et différente d'années en années. Ainsi, s'y succèdent un café, une galerie d'art, un centre de culture physique et des entreprises de communication, de design et d'expédition. \n",
+                "DEBUT_DES_TRAVAUX": "1846",
+                "FIN_DES_TRAVAUX": null,
+                "CENTRO_X": "-73.5579",
+                "CENTRO_Y": "45.5001"
+              },
+              {
+                "_id": 2,
+                "IDENTIFIANT_BATIMENT": "0039-27-5992-00",
+                "NOM_HISTORIQUE": "Magasin-entrepôt Dominion Block II",
+                "TYPOLOGIE_SPECIFIQUE": "magasin-entrepôt",
+                "CIVIQUE_MIN": "404",
+                "CIVIQUE": "404",
+                "TYPE_DE_VOIE": "rue",
+                "CIVIQUE_MAX": "404",
+                "LIEN": null,
+                "VOIE": "McGill",
+                "EST_OUEST": null,
+                "ARRONDISSEMENT": "Ville-Marie (Montréal)",
+                "HISTORIQUE_SOMMAIRE": "NULL",
+                "DEBUT_DES_TRAVAUX": "1866",
+                "FIN_DES_TRAVAUX": "1867",
+                "CENTRO_X": "-73.5577",
+                "CENTRO_Y": "45.5"
+              },
+              {
+                "_id": 3,
+                "IDENTIFIANT_BATIMENT": "0039-27-6787-00",
+                "NOM_HISTORIQUE": "Magasin-entrepôt Dominion Block I",
+                "TYPOLOGIE_SPECIFIQUE": "magasin-entrepôt",
+                "CIVIQUE_MIN": "400",
+                "CIVIQUE": "400",
+                "TYPE_DE_VOIE": "rue",
+                "CIVIQUE_MAX": "400",
+                "LIEN": null,
+                "VOIE": "McGill",
+                "EST_OUEST": null,
+                "ARRONDISSEMENT": "Ville-Marie (Montréal)",
+                "HISTORIQUE_SOMMAIRE": "NULL",
+                "DEBUT_DES_TRAVAUX": "1866",
+                "FIN_DES_TRAVAUX": "1867",
+                "CENTRO_X": "-73.5575",
+                "CENTRO_Y": "45.5"
+              },
+              {
+                "_id": 4,
+                "IDENTIFIANT_BATIMENT": "0039-28-0582-00",
+                "NOM_HISTORIQUE": "Maison-magasin Olivier-Berthelet",
+                "TYPOLOGIE_SPECIFIQUE": "maison-magasin",
+                "CIVIQUE_MIN": "445",
+                "CIVIQUE": "445-451",
+                "TYPE_DE_VOIE": "rue",
+                "CIVIQUE_MAX": "451",
+                "LIEN": null,
+                "VOIE": "McGill",
+                "EST_OUEST": null,
+                "ARRONDISSEMENT": "Ville-Marie (Montréal)",
+                "HISTORIQUE_SOMMAIRE": null,
+                "DEBUT_DES_TRAVAUX": "1850",
+                "FIN_DES_TRAVAUX": "1851",
+                "CENTRO_X": "-73.5584",
+                "CENTRO_Y": "45.5007"
+              },
+              {
+                "_id": 5,
+                "IDENTIFIANT_BATIMENT": "0039-28-0619-00",
+                "NOM_HISTORIQUE": "Magasin-entrepôt Mills",
+                "TYPOLOGIE_SPECIFIQUE": "magasin-entrepôt",
+                "CIVIQUE_MIN": "436",
+                "CIVIQUE": "436-438",
+                "TYPE_DE_VOIE": "rue",
+                "CIVIQUE_MAX": "438",
+                "LIEN": null,
+                "VOIE": "McGill",
+                "EST_OUEST": null,
+                "ARRONDISSEMENT": "Ville-Marie (Montréal)",
+                "HISTORIQUE_SOMMAIRE": null,
+                "DEBUT_DES_TRAVAUX": "1859",
+                "FIN_DES_TRAVAUX": null,
+                "CENTRO_X": "-73.5583",
+                "CENTRO_Y": "45.5003"
+              }
+            ]
+          },
+          "field_stats": {
+            "IDENTIFIANT_BATIMENT": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "NOM_HISTORIQUE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "TYPOLOGIE_SPECIFIQUE": {
+              "null_count": 145,
+              "null_pct": 10.9,
+              "populated_pct": 89.1
+            },
+            "CIVIQUE_MIN": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "CIVIQUE": {
+              "null_count": 62,
+              "null_pct": 4.6,
+              "populated_pct": 95.4
+            },
+            "TYPE_DE_VOIE": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "CIVIQUE_MAX": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LIEN": {
+              "null_count": 1093,
+              "null_pct": 81.8,
+              "populated_pct": 18.2
+            },
+            "VOIE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "EST_OUEST": {
+              "null_count": 785,
+              "null_pct": 58.8,
+              "populated_pct": 41.2
+            },
+            "ARRONDISSEMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "HISTORIQUE_SOMMAIRE": {
+              "null_count": 772,
+              "null_pct": 57.8,
+              "populated_pct": 42.2
+            },
+            "DEBUT_DES_TRAVAUX": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "FIN_DES_TRAVAUX": {
+              "null_count": 347,
+              "null_pct": 26.0,
+              "populated_pct": 74.0
+            },
+            "CENTRO_X": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            },
+            "CENTRO_Y": {
+              "null_count": 1,
+              "null_pct": 0.1,
+              "populated_pct": 99.9
+            }
+          }
+        },
+        {
+          "id": "66848b99-e8dd-45f1-ae0e-cb63a62f551a",
+          "name": "Liste iconographique",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/607c00db-0446-4389-9cdc-d8127f8da57a/resource/66848b99-e8dd-45f1-ae0e-cb63a62f551a/download/iconographie_patrimoine.csv",
+          "datastore_active": true,
+          "size": 1983062,
+          "last_modified": "2024-11-19T15:23:00.844796",
+          "created": "2024-11-18T18:27:16.977626",
+          "schema": {
+            "resource_id": "66848b99-e8dd-45f1-ae0e-cb63a62f551a",
+            "total_records": 7194,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "IDENTIFIANT_ICONOGRAPHIE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "IDENTIFIANT_BATIMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "URL",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "CREATEUR",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "COPYRIGHT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "ANNEE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LEGENDE",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "IDENTIFIANT_ICONOGRAPHIE": "881",
+                "IDENTIFIANT_BATIMENT": "0037-11-2379-01",
+                "URL": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/illus/0039-09-9541-00-00.jpg",
+                "CREATEUR": "Denis Tremblay",
+                "COPYRIGHT": "©Denis Tremblay, 2010.",
+                "ANNEE": "2010",
+                "LEGENDE": "Entrée principale de la succursale, à l’angle des rues Saint-Jacques et McGill."
+              },
+              {
+                "_id": 2,
+                "IDENTIFIANT_ICONOGRAPHIE": "2208",
+                "IDENTIFIANT_BATIMENT": "0037-11-2379-01",
+                "URL": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/37-01.jpg",
+                "CREATEUR": "inconnu",
+                "COPYRIGHT": "Bibliothèque et Archives nationales du Québec, Albums de rues E.-Z. Massicotte, 1-167A-a",
+                "ANNEE": "1910",
+                "LEGENDE": "Vue du quai King-Edward, vers 1910,  avec ses deux rangées d’entrepôts munis de convoyeurs à grain. À l’extrême droite, l’élévateur à grain no 1."
+              },
+              {
+                "_id": 3,
+                "IDENTIFIANT_ICONOGRAPHIE": "2209",
+                "IDENTIFIANT_BATIMENT": "0037-11-2379-01",
+                "URL": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/37-02.jpg",
+                "CREATEUR": "inconnu",
+                "COPYRIGHT": "Musée des sciences et technologies, Collection du Canadien National, no CN003147",
+                "ANNEE": "1946",
+                "LEGENDE": "Vue aérienne des quais Alexandra, à gauche, et King-Edward, à droite, vers 1946. Élargi à deux reprises en 1913 et 1915, l’élévateur no 1 occupe tout l’espace sur la terre ferme entre les deux quais."
+              },
+              {
+                "_id": 4,
+                "IDENTIFIANT_ICONOGRAPHIE": "2210",
+                "IDENTIFIANT_BATIMENT": "0037-11-2379-01",
+                "URL": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/37-03.jpg",
+                "CREATEUR": "inconnu",
+                "COPYRIGHT": "Musée des sciences et technologies, Collection du Canadien National, no CN000475",
+                "ANNEE": "1971",
+                "LEGENDE": "Vue aérienne du quai King-Edward en 1971. À gauche du quai est érigé l’élévateur no 1; à l’arrière-plan s’élèvent les imposants grattes-ciel du nouveau centre-ville."
+              },
+              {
+                "_id": 5,
+                "IDENTIFIANT_ICONOGRAPHIE": "2324",
+                "IDENTIFIANT_BATIMENT": "0037-11-2379-01",
+                "URL": "http://depot.ville.montreal.qc.ca/patrimoine/inventaire/icono/grande/37-04.jpg",
+                "CREATEUR": "Denis Tremblay",
+                "COPYRIGHT": "© Ville de Montréal, 2001.",
+                "ANNEE": "2001",
+                "LEGENDE": "Le quai King-Edward."
+              }
+            ]
+          },
+          "field_stats": {
+            "IDENTIFIANT_ICONOGRAPHIE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "IDENTIFIANT_BATIMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "URL": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "CREATEUR": {
+              "null_count": 1901,
+              "null_pct": 26.4,
+              "populated_pct": 73.6
+            },
+            "COPYRIGHT": {
+              "null_count": 3,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "ANNEE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LEGENDE": {
+              "null_count": 1660,
+              "null_pct": 23.1,
+              "populated_pct": 76.9
+            }
+          }
+        },
+        {
+          "id": "ee71bb1e-bbe2-4b52-af11-2590b2f88ce8",
+          "name": "Intérêt et protection patrimoniale",
+          "description": "",
+          "format": "CSV",
+          "url": "https://donnees.montreal.ca/dataset/607c00db-0446-4389-9cdc-d8127f8da57a/resource/ee71bb1e-bbe2-4b52-af11-2590b2f88ce8/download/classification_patrimoine.csv",
+          "datastore_active": true,
+          "size": 106307,
+          "last_modified": "2024-11-19T15:23:18.193077",
+          "created": "2024-11-19T14:42:19.444219",
+          "schema": {
+            "resource_id": "ee71bb1e-bbe2-4b52-af11-2590b2f88ce8",
+            "total_records": 969,
+            "fields": [
+              {
+                "id": "_id",
+                "type": "int",
+                "info": {}
+              },
+              {
+                "id": "IDENTIFIANT_BATIMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NIDENTIFIANT_BATIMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "DATE_EVENEMENT",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "NOM_OBJET",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "PROTECTION_LEGALE",
+                "type": "text",
+                "info": {}
+              },
+              {
+                "id": "LOI_REGLEMENT",
+                "type": "text",
+                "info": {}
+              }
+            ],
+            "sample_records": [
+              {
+                "_id": 1,
+                "IDENTIFIANT_BATIMENT": "9842-63-8186-01",
+                "NIDENTIFIANT_BATIMENT": "592",
+                "DATE_EVENEMENT": "2000-01-01",
+                "NOM_OBJET": "École primaire Louis-Hippolyte-La Fontaine",
+                "PROTECTION_LEGALE": "Immeuble de valeur patrimoniale exceptionnelle",
+                "LOI_REGLEMENT": "Plan d'urbanisme"
+              },
+              {
+                "_id": 2,
+                "IDENTIFIANT_BATIMENT": "9942-45-9090-01",
+                "NIDENTIFIANT_BATIMENT": "593",
+                "DATE_EVENEMENT": "2000-01-01",
+                "NOM_OBJET": "École Primaire Supérieure",
+                "PROTECTION_LEGALE": "Immeuble de valeur patrimoniale exceptionnelle",
+                "LOI_REGLEMENT": "Plan d'urbanisme"
+              },
+              {
+                "_id": 3,
+                "IDENTIFIANT_BATIMENT": "9943-53-3063-01",
+                "NIDENTIFIANT_BATIMENT": "594",
+                "DATE_EVENEMENT": "1989-02-02",
+                "NOM_OBJET": null,
+                "PROTECTION_LEGALE": "Monument historique cité",
+                "LOI_REGLEMENT": "Loi sur les biens culturels"
+              },
+              {
+                "_id": 4,
+                "IDENTIFIANT_BATIMENT": "9941-17-2580-01",
+                "NIDENTIFIANT_BATIMENT": "595",
+                "DATE_EVENEMENT": "2000-01-01",
+                "NOM_OBJET": "Fusilliers Mont-Royal",
+                "PROTECTION_LEGALE": "Immeuble de valeur patrimoniale exceptionnelle",
+                "LOI_REGLEMENT": "Plan d'urbanisme"
+              },
+              {
+                "_id": 5,
+                "IDENTIFIANT_BATIMENT": "9742-39-0183-01",
+                "NIDENTIFIANT_BATIMENT": "596",
+                "DATE_EVENEMENT": "2000-01-01",
+                "NOM_OBJET": "Monastère des carmélites",
+                "PROTECTION_LEGALE": "Immeuble de valeur patrimoniale exceptionnelle",
+                "LOI_REGLEMENT": "Plan d'urbanisme"
+              }
+            ]
+          },
+          "field_stats": {
+            "IDENTIFIANT_BATIMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NIDENTIFIANT_BATIMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "DATE_EVENEMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "NOM_OBJET": {
+              "null_count": 582,
+              "null_pct": 60.1,
+              "populated_pct": 39.9
+            },
+            "PROTECTION_LEGALE": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            },
+            "LOI_REGLEMENT": {
+              "null_count": 0,
+              "null_pct": 0.0,
+              "populated_pct": 100.0
+            }
+          }
+        }
+      ],
+      "extras": {},
+      "tags": [
+        "Architecture",
+        "Patrimoine",
+        "SUM",
+        "Édifice historique"
+      ]
+    }
+  ]
+}
